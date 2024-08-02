@@ -1,0 +1,631 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GameplayUIEventTable",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GameplayTagTableRow'",
+        "ObjectPath": "/Script/GameplayTags"
+      }
+    },
+    "Rows": {
+      "Event": {
+        "Tag": "Event",
+        "DevComment": "事件相关Tag [UCyGameplayEventWorldSubsystem]"
+      },
+      "UIEvent.Game.40s": {
+        "Tag": "UIEvent.Game.40s",
+        "DevComment": "本小局游戏还有40秒结束"
+      },
+      "UIEvent.Game.20s": {
+        "Tag": "UIEvent.Game.20s",
+        "DevComment": "本小局游戏还有20秒结束"
+      },
+      "UIEvent.Game.RoundReady": {
+        "Tag": "UIEvent.Game.RoundReady",
+        "DevComment": "小局准备时"
+      },
+      "UIEvent.Game.RoundStart": {
+        "Tag": "UIEvent.Game.RoundStart",
+        "DevComment": "小局开始时"
+      },
+      "UIEvent.Game.RoundEnd": {
+        "Tag": "UIEvent.Game.RoundEnd",
+        "DevComment": "小局结束时"
+      },
+      "UIEvent.Game.RoundReady.Equip.NewSkin": {
+        "Tag": "UIEvent.Game.RoundReady.Equip.NewSkin",
+        "DevComment": "开局使用非默认的皮肤"
+      },
+      "UIEvent.Game.RoundReady.Encourage": {
+        "Tag": "UIEvent.Game.RoundReady.Encourage",
+        "DevComment": "开局弱方鼓励"
+      },
+      "UIEvent.Game.RoundReady.Prologue": {
+        "Tag": "UIEvent.Game.RoundReady.Prologue",
+        "DevComment": "开局台词"
+      },
+      "UIEvent.Game.Over": {
+        "Tag": "UIEvent.Game.Over",
+        "DevComment": "大局结束时"
+      },
+      "UIEvent.Game.Over.Win": {
+        "Tag": "UIEvent.Game.Over.Win",
+        "DevComment": "大局结束胜利"
+      },
+      "UIEvent.Game.Over.Fail": {
+        "Tag": "UIEvent.Game.Over.Fail",
+        "DevComment": "大局结束失败"
+      },
+      "UIEvent.Game.Over.Tie": {
+        "Tag": "UIEvent.Game.Over.Tie",
+        "DevComment": "大局结束平局"
+      },
+      "UIEvent.Game.Over.MVP": {
+        "Tag": "UIEvent.Game.Over.MVP",
+        "DevComment": "大局结束MVP"
+      },
+      "UIEvent.Game.Over.SVP": {
+        "Tag": "UIEvent.Game.Over.SVP",
+        "DevComment": "大局结束SVP"
+      },
+      "UIEvent.Game.Over.TieSVP": {
+        "Tag": "UIEvent.Game.Over.TieSVP",
+        "DevComment": "大局结束平局的SVP"
+      },
+      "UIEvent.Game.Start.FirstHalf": {
+        "Tag": "UIEvent.Game.Start.FirstHalf",
+        "DevComment": "上半场开始(游戏第一局)"
+      },
+      "UIEvent.Game.Start.SecondHalf": {
+        "Tag": "UIEvent.Game.Start.SecondHalf",
+        "DevComment": "下半场开始"
+      },
+      "UIEvent.Game.End.FirstHalf": {
+        "Tag": "UIEvent.Game.End.FirstHalf",
+        "DevComment": "上半场结束"
+      },
+      "UIEvent.Game.End.SecondHalf": {
+        "Tag": "UIEvent.Game.End.SecondHalf",
+        "DevComment": "下半场结束"
+      },
+      "UIEvent.Game.Start.MatchPoint": {
+        "Tag": "UIEvent.Game.Start.MatchPoint",
+        "DevComment": "赛点局开局"
+      },
+      "UIEvent.Game.Start.ExtraRound": {
+        "Tag": "UIEvent.Game.Start.ExtraRound",
+        "DevComment": "加时赛开局"
+      },
+      "UIEvent.Game.Remain.One.Friend": {
+        "Tag": "UIEvent.Game.Remain.One.Friend",
+        "DevComment": "判断我方只有一名玩家时"
+      },
+      "UIEvent.Game.Remain.One.Enemy": {
+        "Tag": "UIEvent.Game.Remain.One.Enemy",
+        "DevComment": "判断敌方只有一名玩家时"
+      },
+      "UIEvent.Game.Remain.One.Self": {
+        "Tag": "UIEvent.Game.Remain.One.Self",
+        "DevComment": "我是本队最后一名玩家"
+      },
+      "UIEvent.Game.Install.C4.Begin": {
+        "Tag": "UIEvent.Game.Install.C4.Begin",
+        "DevComment": "开始安装C4"
+      },
+      "UIEvent.Game.Install.C4.End": {
+        "Tag": "UIEvent.Game.Install.C4.End",
+        "DevComment": "成功安装C4"
+      },
+      "UIEvent.Game.Dismantle.C4.Begin": {
+        "Tag": "UIEvent.Game.Dismantle.C4.Begin",
+        "DevComment": "开始拆除C4"
+      },
+      "UIEvent.Game.Dismantle.C4.End": {
+        "Tag": "UIEvent.Game.Dismantle.C4.End",
+        "DevComment": "成功拆除C4"
+      },
+      "UIEvent.Game.Found.C4.Dropped": {
+        "Tag": "UIEvent.Game.Found.C4.Dropped",
+        "DevComment": "防守方看到C4掉落在非A/B区的位置"
+      },
+      "UIEvent.Game.Pickup.C4": {
+        "Tag": "UIEvent.Game.Pickup.C4",
+        "DevComment": "从地上捡起C4"
+      },
+      "UIEvent.Game.Drop.C4": {
+        "Tag": "UIEvent.Game.Drop.C4",
+        "DevComment": "丢弃炸弹"
+      },
+      "UIEvent.Game.Found.C4.Installed": {
+        "Tag": "UIEvent.Game.Found.C4.Installed",
+        "DevComment": "守方发现已安装的炸弹时"
+      },
+      "UIEvent.Game.TeamDeath.FirstKill": {
+        "Tag": "UIEvent.Game.TeamDeath.FirstKill",
+        "DevComment": "团竞模式,第一滴血"
+      },
+      "UIEvent.Game.TeamDeath.NeedKill.Ten.Team": {
+        "Tag": "UIEvent.Game.TeamDeath.NeedKill.Ten.Team",
+        "DevComment": "团竞模式,我方还差10名击杀获胜"
+      },
+      "UIEvent.Game.TeamDeath.NeedKill.Five.Team": {
+        "Tag": "UIEvent.Game.TeamDeath.NeedKill.Five.Team",
+        "DevComment": "团竞模式,我方还差5名击杀获胜"
+      },
+      "UIEvent.Game.TeamDeath.NeedKill.One.Team": {
+        "Tag": "UIEvent.Game.TeamDeath.NeedKill.One.Team",
+        "DevComment": "团竞模式,我方还差1名击杀获胜"
+      },
+      "UIEvent.Game.TeamDeath.NeedKill.Ten.Enemy": {
+        "Tag": "UIEvent.Game.TeamDeath.NeedKill.Ten.Enemy",
+        "DevComment": "团竞模式,敌方还差10名击杀获胜"
+      },
+      "UIEvent.Game.TeamDeath.NeedKill.Five.Enemy": {
+        "Tag": "UIEvent.Game.TeamDeath.NeedKill.Five.Enemy",
+        "DevComment": "团竞模式,敌方还差5名击杀获胜"
+      },
+      "UIEvent.Game.TeamDeath.NeedKill.One.Enemy": {
+        "Tag": "UIEvent.Game.TeamDeath.NeedKill.One.Enemy",
+        "DevComment": "团竞模式,敌方还差1名击杀获胜"
+      },
+      "UIEvent.Game.Revenge": {
+        "Tag": "UIEvent.Game.Revenge",
+        "DevComment": "复仇"
+      },
+      "UIEvent.Game.RoundEnd.Win.Defend": {
+        "Tag": "UIEvent.Game.RoundEnd.Win.Defend",
+        "DevComment": "小局防守方胜利(爆破模式)"
+      },
+      "UIEvent.Game.RoundEnd.Win.Attack": {
+        "Tag": "UIEvent.Game.RoundEnd.Win.Attack",
+        "DevComment": "小局进攻方胜利(爆破模式)"
+      },
+      "UIEvent.Game.RoundEnd.Win.AllStand": {
+        "Tag": "UIEvent.Game.RoundEnd.Win.AllStand",
+        "DevComment": "小局胜利时全体活着并未重伤倒地(无懈可击)(爆破模式)"
+      },
+      "UIEvent.Game.RoundEnd.Win.Difficult": {
+        "Tag": "UIEvent.Game.RoundEnd.Win.Difficult",
+        "DevComment": "小局险胜结束前3秒拆弹或杀人胜利(千钧一发)(爆破模式)"
+      },
+      "UIEvent.Game.RoundEnd.Fail.Suicide": {
+        "Tag": "UIEvent.Game.RoundEnd.Fail.Suicide",
+        "DevComment": "小局失败最后一名队友自杀(宁死不屈)(爆破模式)"
+      },
+      "UIEvent.Game.RoundReady.Team.Attack": {
+        "Tag": "UIEvent.Game.RoundReady.Team.Attack",
+        "DevComment": "小局准备状态(打开选角界面时)为进攻方队伍(爆破模式)"
+      },
+      "UIEvent.Game.RoundReady.Team.Defend": {
+        "Tag": "UIEvent.Game.RoundReady.Team.Defend",
+        "DevComment": "小局准备状态(打开选角界面时)为防守方队伍(爆破模式)"
+      },
+      "UIEvent.Game.RoundReady.Team.Exchange": {
+        "Tag": "UIEvent.Game.RoundReady.Team.Exchange",
+        "DevComment": "小局准备状态(中间换边且打开选角界面时)攻守互换(爆破模式)"
+      },
+      "UIEvent.Game.RoundFreeze.Remain.Ten": {
+        "Tag": "UIEvent.Game.RoundFreeze.Remain.Ten",
+        "DevComment": "小局开战倒计时10秒(爆破模式)"
+      },
+      "UIEvent.Game.RoundFreeze.Remain.Five": {
+        "Tag": "UIEvent.Game.RoundFreeze.Remain.Five",
+        "DevComment": "小局开战倒计时5秒(爆破模式)"
+      },
+      "UIEvent.Game.RoundFreeze.Remain.Three": {
+        "Tag": "UIEvent.Game.RoundFreeze.Remain.Three",
+        "DevComment": "回合倒计时3秒"
+      },
+      "UIEvent.Game.RoundStart.Carrier.C4": {
+        "Tag": "UIEvent.Game.RoundStart.Carrier.C4",
+        "DevComment": "小局开局自己是C4携带者(爆破模式)"
+      },
+      "UIEvent.Game.RoundStart.NotCarrier.C4": {
+        "Tag": "UIEvent.Game.RoundStart.NotCarrier.C4",
+        "DevComment": "小局开局自己不是C4携带者(爆破模式)"
+      },
+      "UIEvent.Game.RoundStart.Team.Defend": {
+        "Tag": "UIEvent.Game.RoundStart.Team.Defend",
+        "DevComment": "小局开局自己是防守方(爆破模式)"
+      },
+      "UIEvent.Game.RoundEnd.Kill.Super": {
+        "Tag": "UIEvent.Game.RoundEnd.Kill.Super",
+        "DevComment": "小局超弦绝杀(爆破模式)"
+      },
+      "UIEvent.ConsecutiveKill.Two": {
+        "Tag": "UIEvent.ConsecutiveKill.Two",
+        "DevComment": "连杀,双杀"
+      },
+      "UIEvent.ConsecutiveKill.Three": {
+        "Tag": "UIEvent.ConsecutiveKill.Three",
+        "DevComment": "连杀,三杀"
+      },
+      "UIEvent.ConsecutiveKill.Four": {
+        "Tag": "UIEvent.ConsecutiveKill.Four",
+        "DevComment": "连杀,四杀"
+      },
+      "UIEvent.ConsecutiveKill.Five": {
+        "Tag": "UIEvent.ConsecutiveKill.Five",
+        "DevComment": "连杀,五杀"
+      },
+      "UIEvent.ConsecutiveKill.Six": {
+        "Tag": "UIEvent.ConsecutiveKill.Six",
+        "DevComment": "连杀,六杀"
+      },
+      "UIEvent.Activate.Skill.Q": {
+        "Tag": "UIEvent.Activate.Skill.Q",
+        "DevComment": "主动技能释放"
+      },
+      "UIEvent.Activate.Skill.P": {
+        "Tag": "UIEvent.Activate.Skill.P",
+        "DevComment": "被动技能释放"
+      },
+      "UIEvent.Activate.Skill.X": {
+        "Tag": "UIEvent.Activate.Skill.X",
+        "DevComment": "终极技能释放"
+      },
+      "UIEvent.AllowActive.Skill.Q": {
+        "Tag": "UIEvent.AllowActive.Skill.Q",
+        "DevComment": "主动技能激活(冷却完毕)"
+      },
+      "UIEvent.AllowActive.Skill.X": {
+        "Tag": "UIEvent.AllowActive.Skill.X",
+        "DevComment": "终结技能激活(点数满等)"
+      },
+      "UIEvent.NotActive.Skill.X": {
+        "Tag": "UIEvent.NotActive.Skill.X",
+        "DevComment": "大招能量点未满时玩家按下大招键提示"
+      },
+      "UIEvent.Injured.Self": {
+        "Tag": "UIEvent.Injured.Self",
+        "DevComment": "自己重伤倒地"
+      },
+      "UIEvent.Injured.Enemy": {
+        "Tag": "UIEvent.Injured.Enemy",
+        "DevComment": "将敌人重伤倒地"
+      },
+      "UIEvent.Injured.Owner.C4": {
+        "Tag": "UIEvent.Injured.Owner.C4",
+        "DevComment": "炸弹携带者被击倒时在非安装区"
+      },
+      "UIEvent.Injured.Owner.C4.A": {
+        "Tag": "UIEvent.Injured.Owner.C4.A",
+        "DevComment": "炸弹携带者被击倒时在A区"
+      },
+      "UIEvent.Injured.Owner.C4.B": {
+        "Tag": "UIEvent.Injured.Owner.C4.B",
+        "DevComment": "炸弹携带者被击倒时在B区"
+      },
+      "UIEvent.Injured.Owner.C4.C": {
+        "Tag": "UIEvent.Injured.Owner.C4.C",
+        "DevComment": "炸弹携带者被击倒时在C区"
+      },
+      "UIEvent.MarkPoint.DangerSignal": {
+        "Tag": "UIEvent.MarkPoint.DangerSignal",
+        "DevComment": "战术标记危险信号"
+      },
+      "UIEvent.MarkPoint.GuardHere": {
+        "Tag": "UIEvent.MarkPoint.GuardHere",
+        "DevComment": "战术标记看守这里"
+      },
+      "UIEvent.MarkPoint.NeedHelp": {
+        "Tag": "UIEvent.MarkPoint.NeedHelp",
+        "DevComment": "战术标记需要支援"
+      },
+      "UIEvent.MarkPoint.AttackHere": {
+        "Tag": "UIEvent.MarkPoint.AttackHere",
+        "DevComment": "战术标记进攻这里"
+      },
+      "UIEvent.MarkPoint.FindC4": {
+        "Tag": "UIEvent.MarkPoint.FindC4",
+        "DevComment": "战术标记发现C4"
+      },
+      "UIEvent.MarkPoint.BeCarefulHere": {
+        "Tag": "UIEvent.MarkPoint.BeCarefulHere",
+        "DevComment": "战术标记注意这里"
+      },
+      "UIEvent.Consume.Grenade.Normal": {
+        "Tag": "UIEvent.Consume.Grenade.Normal",
+        "DevComment": "消耗投掷物手雷"
+      },
+      "UIEvent.Consume.Grenade.Interceptor": {
+        "Tag": "UIEvent.Consume.Grenade.Interceptor",
+        "DevComment": "消耗投掷物拦截者"
+      },
+      "UIEvent.Consume.Skill.Q": {
+        "Tag": "UIEvent.Consume.Skill.Q",
+        "DevComment": "消耗技能Q"
+      },
+      "UIEvent.Consume.Skill.X": {
+        "Tag": "UIEvent.Consume.Skill.X",
+        "DevComment": "消耗技能X"
+      },
+      "UIEvent.Consume.Grenade.Smoke": {
+        "Tag": "UIEvent.Consume.Grenade.Smoke",
+        "DevComment": "消耗投掷物烟雾弹"
+      },
+      "UIEvent.Consume.Grenade.Flash": {
+        "Tag": "UIEvent.Consume.Grenade.Flash",
+        "DevComment": "消耗投掷物闪光弹"
+      },
+      "UIEvent.Consume.Grenade.Treatment": {
+        "Tag": "UIEvent.Consume.Grenade.Treatment",
+        "DevComment": "消耗投掷物回血包"
+      },
+      "UIEvent.Consume.Grenade.WindField": {
+        "Tag": "UIEvent.Consume.Grenade.WindField",
+        "DevComment": "消耗投掷物风场雷"
+      },
+      "UIEvent.Consume.Grenade.SlowDown": {
+        "Tag": "UIEvent.Consume.Grenade.SlowDown",
+        "DevComment": "消耗投掷物减速雷"
+      },
+      "UIEvent.Consume.Grenade.Alarm": {
+        "Tag": "UIEvent.Consume.Grenade.Alarm",
+        "DevComment": "消耗投掷物警报器"
+      },
+      "UIEvent.Help.Ask": {
+        "Tag": "UIEvent.Help.Ask",
+        "DevComment": "求救"
+      },
+      "UIEvent.Rescue.Start": {
+        "Tag": "UIEvent.Rescue.Start",
+        "DevComment": "语音UI模块,开始救人"
+      },
+      "UIEvent.BeRescued.Success": {
+        "Tag": "UIEvent.BeRescued.Success",
+        "DevComment": "语音UI模块,被人成功救起"
+      },
+      "UIEvent.MeshType.2D.Fly": {
+        "Tag": "UIEvent.MeshType.2D.Fly",
+        "DevComment": "进入飞行状态"
+      },
+      "UIEvent.TakeDamage": {
+        "Tag": "UIEvent.TakeDamage",
+        "DevComment": "受击"
+      },
+      "UIEvent.Death.Falling": {
+        "Tag": "UIEvent.Death.Falling",
+        "DevComment": "高处坠落击杀了我"
+      },
+      "UIEvent.Death.DangerZone": {
+        "Tag": "UIEvent.Death.DangerZone",
+        "DevComment": "危险区域击杀了我"
+      },
+      "UIEvent.Death.Melee.Blade": {
+        "Tag": "UIEvent.Death.Melee.Blade",
+        "DevComment": "武士刀杀死了我"
+      },
+      "UIEvent.Death.Injured.TimeOver": {
+        "Tag": "UIEvent.Death.Injured.TimeOver",
+        "DevComment": "重伤倒地时间结束后击杀了我"
+      },
+      "UIEvent.OtherDeath": {
+        "Tag": "UIEvent.OtherDeath",
+        "DevComment": "其他死亡"
+      },
+      "UIEvent.SelectRole.Click.Role": {
+        "Tag": "UIEvent.SelectRole.Click.Role",
+        "DevComment": "选角界面点击"
+      },
+      "UIEvent.SelectRole.Click.Role.Confirm": {
+        "Tag": "UIEvent.SelectRole.Click.Role.Confirm",
+        "DevComment": "选角界面点击确认"
+      },
+      "UIEvent.Game.Spar.Repository.Stolen": {
+        "Tag": "UIEvent.Game.Spar.Repository.Stolen",
+        "DevComment": "仓库被盗(挖矿模式)"
+      },
+      "UIEvent.Game.Spar.Repository.Unlock": {
+        "Tag": "UIEvent.Game.Spar.Repository.Unlock",
+        "DevComment": "仓库解锁(挖矿模式)"
+      },
+      "UIEvent.Ability.InputPressed.Again": {
+        "Tag": "UIEvent.Ability.InputPressed.Again",
+        "DevComment": "激活中技能再次按下"
+      },
+      "UIEvent.Weapon.StartAutoFire": {
+        "Tag": "UIEvent.Weapon.StartAutoFire",
+        "DevComment": "开始自动开火"
+      },
+      "UIEvent.Weapon.StopAutoFire": {
+        "Tag": "UIEvent.Weapon.StopAutoFire",
+        "DevComment": "停止自动开火"
+      },
+      "UIEvent.Game.Spar.KillRichMan": {
+        "Tag": "UIEvent.Game.Spar.KillRichMan",
+        "DevComment": "二阶段逃跑方提示"
+      },
+      "UIEvent.Game.Spar.SpecialSpar": {
+        "Tag": "UIEvent.Game.Spar.SpecialSpar",
+        "DevComment": "高级别矿产生"
+      },
+      "UIEvent.Game.Spar.RichManSelf": {
+        "Tag": "UIEvent.Game.Spar.RichManSelf",
+        "DevComment": "二阶段高能弦者提示"
+      },
+      "UIEvent.Game.Spar.PeakMoment": {
+        "Tag": "UIEvent.Game.Spar.PeakMoment",
+        "DevComment": "决战阶段开启"
+      },
+      "UIEvent.Game.Spar.WeaponSelect": {
+        "Tag": "UIEvent.Game.Spar.WeaponSelect",
+        "DevComment": "武器选择阶段"
+      },
+      "UIEvent.Game.Spar.BoxSpawned": {
+        "Tag": "UIEvent.Game.Spar.BoxSpawned",
+        "DevComment": "空投生成"
+      },
+      "UIEvent.Game.TeamDeath.WarmUpStart": {
+        "Tag": "UIEvent.Game.TeamDeath.WarmUpStart",
+        "DevComment": "热身开始"
+      },
+      "UIEvent.Game.TeamDeath.WarmUpEnding": {
+        "Tag": "UIEvent.Game.TeamDeath.WarmUpEnding",
+        "DevComment": "热身结束"
+      },
+      "UIEvent.Game.TeamDeath.Ready": {
+        "Tag": "UIEvent.Game.TeamDeath.Ready",
+        "DevComment": "准备阶段"
+      },
+      "UIEvent.Game.TeamDeath.Lead20": {
+        "Tag": "UIEvent.Game.TeamDeath.Lead20",
+        "DevComment": "激斗模式,领先达到20分"
+      },
+      "UIEvent.Game.TeamDeath.Lead30": {
+        "Tag": "UIEvent.Game.TeamDeath.Lead30",
+        "DevComment": "激斗模式,领先达到30分"
+      },
+      "UIEvent.Game.TeamDeath.Final": {
+        "Tag": "UIEvent.Game.TeamDeath.Final",
+        "DevComment": "激斗模式,决赛阶段"
+      },
+      "UIEvent.Game.Spar.WeaponSelectEnd": {
+        "Tag": "UIEvent.Game.Spar.WeaponSelectEnd",
+        "DevComment": "选武器阶段,投票结果产生"
+      },
+      "UIEvent.Game.Spar.NormalStateStart": {
+        "Tag": "UIEvent.Game.Spar.NormalStateStart",
+        "DevComment": "一阶段目标"
+      },
+      "UIEvent.Game.Spar.Normal60Second": {
+        "Tag": "UIEvent.Game.Spar.Normal60Second",
+        "DevComment": "一阶段剩余60s"
+      },
+      "UIEvent.Game.Spar.Normal30Second": {
+        "Tag": "UIEvent.Game.Spar.Normal30Second",
+        "DevComment": "一阶段剩余30s"
+      },
+      "UIEvent.Game.Spar.PeakMomentHalf.MormalTeam": {
+        "Tag": "UIEvent.Game.Spar.PeakMomentHalf.MormalTeam",
+        "DevComment": "二阶段距离获胜目标一半(逃跑方)"
+      },
+      "UIEvent.Game.Spar.PeakMomentHalf.RichMan": {
+        "Tag": "UIEvent.Game.Spar.PeakMomentHalf.RichMan",
+        "DevComment": "二阶段距离获胜目标一半(高能弦者)"
+      },
+      "UIEvent.Game.Spar.AlmostOver.NormalTeam": {
+        "Tag": "UIEvent.Game.Spar.AlmostOver.NormalTeam",
+        "DevComment": "二阶段距离获胜目标10%(逃跑方)"
+      },
+      "UIEvent.Game.Spar.AlmostOver.RichMan": {
+        "Tag": "UIEvent.Game.Spar.AlmostOver.RichMan",
+        "DevComment": "二阶段距离获胜目标10%(高能弦者)"
+      },
+      "UIEvent.Game.HideSeek.BecomeSeeker": {
+        "Tag": "UIEvent.Game.HideSeek.BecomeSeeker",
+        "DevComment": "你是追击方,请等待逃跑方躲藏完毕"
+      },
+      "UIEvent.Game.HideSeek.BecomeHider": {
+        "Tag": "UIEvent.Game.HideSeek.BecomeHider",
+        "DevComment": "你是逃跑方,请尽快躲藏"
+      },
+      "UIEvent.Game.Mine.Repository.TeamUnlock": {
+        "Tag": "UIEvent.Game.Mine.Repository.TeamUnlock",
+        "DevComment": "己方仓库解锁"
+      },
+      "UIEvent.Game.Mine.Repository.EnemyUnlock": {
+        "Tag": "UIEvent.Game.Mine.Repository.EnemyUnlock",
+        "DevComment": "敌方仓库解锁"
+      },
+      "UIEvent.Game.Mine.Repository.TeamStolen": {
+        "Tag": "UIEvent.Game.Mine.Repository.TeamStolen",
+        "DevComment": "友方成功盗取仓库"
+      },
+      "UIEvent.Game.Mine.Repository.EnemyStolen": {
+        "Tag": "UIEvent.Game.Mine.Repository.EnemyStolen",
+        "DevComment": "己方仓库被盗"
+      },
+      "UIEvent.Game.Mine.Ready": {
+        "Tag": "UIEvent.Game.Mine.Ready",
+        "DevComment": "准备开始"
+      },
+      "UIEvent.Game.Escort.TipsEscortAttack": {
+        "Tag": "UIEvent.Game.Escort.TipsEscortAttack",
+        "DevComment": "护送推车前进 (推车模式)"
+      },
+      "UIEvent.Game.Escort.TipsEscortDefend": {
+        "Tag": "UIEvent.Game.Escort.TipsEscortDefend",
+        "DevComment": "阻止推车前进 (推车模式)"
+      },
+      "UIEvent.Game.Escort.TipsEscortFightSecond": {
+        "Tag": "UIEvent.Game.Escort.TipsEscortFightSecond",
+        "DevComment": "加时提示 (推车模式)"
+      },
+      "UIEvent.Game.Escort.TipsEscortNearTerminal": {
+        "Tag": "UIEvent.Game.Escort.TipsEscortNearTerminal",
+        "DevComment": "载具即将抵达终点(推车模式)"
+      },
+      "UIEvent.Game.Escort.TipsEscortArriveCheckPoint": {
+        "Tag": "UIEvent.Game.Escort.TipsEscortArriveCheckPoint",
+        "DevComment": "载具抵达检查点(推车模式)"
+      },
+      "UIEvent.Game.Escort.EscortHalfRoundEnd": {
+        "Tag": "UIEvent.Game.Escort.EscortHalfRoundEnd",
+        "DevComment": "上半场结束(推车模式)"
+      },
+      "UIEvent.AutoVoice.FindEnemy.Multi": {
+        "Tag": "UIEvent.AutoVoice.FindEnemy.Multi",
+        "DevComment": "发现多名敌人"
+      },
+      "UIEvent.AutoVoice.FindEnemy.Near": {
+        "Tag": "UIEvent.AutoVoice.FindEnemy.Near",
+        "DevComment": "发现近处敌人"
+      },
+      "UIEvent.AutoVoice.FindEnemy.Far": {
+        "Tag": "UIEvent.AutoVoice.FindEnemy.Far",
+        "DevComment": "发现远程敌人"
+      },
+      "UIEvent.AutoVoice.CauseDamage.Begin": {
+        "Tag": "UIEvent.AutoVoice.CauseDamage.Begin",
+        "DevComment": "开始对敌人造成伤害"
+      },
+      "UIEvent.AutoVoice.CauseDamage.Multi": {
+        "Tag": "UIEvent.AutoVoice.CauseDamage.Multi",
+        "DevComment": "对敌人造成大量伤害"
+      },
+      "UIEvent.AutoVoice.BeingAttacked.Forward": {
+        "Tag": "UIEvent.AutoVoice.BeingAttacked.Forward",
+        "DevComment": "被前方敌人攻击中"
+      },
+      "UIEvent.AutoVoice.BeingAttacked.Back": {
+        "Tag": "UIEvent.AutoVoice.BeingAttacked.Back",
+        "DevComment": "被后方敌人攻击中"
+      },
+      "UIEvent.AutoVoice.BeingAttacked.Left": {
+        "Tag": "UIEvent.AutoVoice.BeingAttacked.Left",
+        "DevComment": "被左侧敌人攻击中"
+      },
+      "UIEvent.AutoVoice.BeingAttacked.Right": {
+        "Tag": "UIEvent.AutoVoice.BeingAttacked.Right",
+        "DevComment": "被右侧敌人攻击中"
+      },
+      "UIEvent.Game.TeamDeath.Buff01": {
+        "Tag": "UIEvent.Game.TeamDeath.Buff01",
+        "DevComment": "团竞三队第一阶段Buff"
+      },
+      "UIEvent.Game.TeamDeath.Buff02": {
+        "Tag": "UIEvent.Game.TeamDeath.Buff02",
+        "DevComment": "团竞三队第二阶段Buff"
+      },
+      "UIEvent.Game.TeamDeath.Buff03": {
+        "Tag": "UIEvent.Game.TeamDeath.Buff03",
+        "DevComment": "团竞三队第三阶段Buff"
+      },
+      "UIEvent.Game.Zombie.Ready": {
+        "Tag": "UIEvent.Game.Zombie.Ready",
+        "DevComment": "10、9、8、7、6、5、4、3、2、1"
+      },
+      "UIEvent.Game.Zombie.Fight": {
+        "Tag": "UIEvent.Game.Zombie.Fight",
+        "DevComment": "变异体出现"
+      },
+      "UIEvent.Game.Zombie.TeamAliveNumChanged.Three.Defend": {
+        "Tag": "UIEvent.Game.Zombie.TeamAliveNumChanged.Three.Defend",
+        "DevComment": "还剩最后3名幸存者"
+      }
+    }
+  }
+]

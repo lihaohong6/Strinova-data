@@ -1,0 +1,612 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "FunctionUnlock",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'CyFunctionUnlockTableRow'",
+        "ObjectPath": "/Script/PMGame"
+      }
+    },
+    "Rows": {
+      "10": {
+        "Id": "EPMFunctionTypes::Play",
+        "Name": {
+          "Namespace": "FunctionUnlock",
+          "Key": "10_Name",
+          "SourceString": "对战",
+          "LocalizedString": "对战"
+        },
+        "Type": 1,
+        "SubFunction": [],
+        "PlayerLevel": 1,
+        "LockTips": {
+          "CultureInvariantString": null
+        },
+        "BluePrint": "None",
+        "RedDot": "None",
+        "Proxy": "None"
+      },
+      "20": {
+        "Id": "EPMFunctionTypes::BattlePass",
+        "Name": {
+          "Namespace": "FunctionUnlock",
+          "Key": "20_Name",
+          "SourceString": "特别行动",
+          "LocalizedString": "特别行动"
+        },
+        "Type": 1,
+        "SubFunction": [
+          21,
+          22,
+          23
+        ],
+        "PlayerLevel": 1,
+        "LockTips": {
+          "CultureInvariantString": null
+        },
+        "BluePrint": "None",
+        "RedDot": "None",
+        "Proxy": "None"
+      },
+      "21": {
+        "Id": "EPMFunctionTypes::BackGround",
+        "Name": {
+          "Namespace": "FunctionUnlock",
+          "Key": "21_Name",
+          "SourceString": "背景",
+          "LocalizedString": "背景"
+        },
+        "Type": 2,
+        "SubFunction": [],
+        "PlayerLevel": 1,
+        "LockTips": {
+          "CultureInvariantString": null
+        },
+        "BluePrint": "BattlePassBGPage",
+        "RedDot": "None",
+        "Proxy": "None"
+      },
+      "22": {
+        "Id": "EPMFunctionTypes::Progress",
+        "Name": {
+          "Namespace": "FunctionUnlock",
+          "Key": "22_Name",
+          "SourceString": "进程",
+          "LocalizedString": "进程"
+        },
+        "Type": 2,
+        "SubFunction": [],
+        "PlayerLevel": 1,
+        "LockTips": {
+          "CultureInvariantString": null
+        },
+        "BluePrint": "BattlePassProgressPage",
+        "RedDot": "BPProgress",
+        "Proxy": "None"
+      },
+      "23": {
+        "Id": "EPMFunctionTypes::Mission",
+        "Name": {
+          "Namespace": "FunctionUnlock",
+          "Key": "23_Name",
+          "SourceString": "任务",
+          "LocalizedString": "任务"
+        },
+        "Type": 2,
+        "SubFunction": [],
+        "PlayerLevel": 1,
+        "LockTips": {
+          "CultureInvariantString": null
+        },
+        "BluePrint": "BattlePassTaskPage",
+        "RedDot": "BPTask",
+        "Proxy": "None"
+      },
+      "24": {
+        "Id": "EPMFunctionTypes::Clue",
+        "Name": {
+          "Namespace": "FunctionUnlock",
+          "Key": "24_Name",
+          "SourceString": "线索板",
+          "LocalizedString": "线索板"
+        },
+        "Type": 2,
+        "SubFunction": [],
+        "PlayerLevel": 1,
+        "LockTips": {
+          "CultureInvariantString": null
+        },
+        "BluePrint": "BattlePassCluePage",
+        "RedDot": "BPClue",
+        "Proxy": "None"
+      },
+      "25": {
+        "Id": "EPMFunctionTypes::Story",
+        "Name": {
+          "Namespace": "FunctionUnlock",
+          "Key": "25_Name",
+          "SourceString": "引航手册",
+          "LocalizedString": "引航手册"
+        },
+        "Type": 2,
+        "SubFunction": [],
+        "PlayerLevel": 1,
+        "LockTips": {
+          "CultureInvariantString": null
+        },
+        "BluePrint": "CinematicCloister",
+        "RedDot": "BPGuidBook",
+        "Proxy": "None"
+      },
+      "30": {
+        "Id": "EPMFunctionTypes::EquipmentRoom",
+        "Name": {
+          "Namespace": "FunctionUnlock",
+          "Key": "30_Name",
+          "SourceString": "战备室主界面",
+          "LocalizedString": "战备室主界面"
+        },
+        "Type": 1,
+        "SubFunction": [],
+        "PlayerLevel": 1,
+        "LockTips": {
+          "CultureInvariantString": null
+        },
+        "BluePrint": "None",
+        "RedDot": "None",
+        "Proxy": "None"
+      },
+      "31": {
+        "Id": "EPMFunctionTypes::EquipRoomRoleSkin",
+        "Name": {
+          "Namespace": "FunctionUnlock",
+          "Key": "31_Name",
+          "SourceString": "时装",
+          "LocalizedString": "时装"
+        },
+        "Type": 1,
+        "SubFunction": [],
+        "PlayerLevel": 0,
+        "LockTips": {
+          "CultureInvariantString": null
+        },
+        "BluePrint": "None",
+        "RedDot": "None",
+        "Proxy": "None"
+      },
+      "32": {
+        "Id": "EPMFunctionTypes::EquipRoomRoleVoice",
+        "Name": {
+          "Namespace": "FunctionUnlock",
+          "Key": "32_Name",
+          "SourceString": "语音",
+          "LocalizedString": "语音"
+        },
+        "Type": 1,
+        "SubFunction": [],
+        "PlayerLevel": 0,
+        "LockTips": {
+          "CultureInvariantString": null
+        },
+        "BluePrint": "None",
+        "RedDot": "None",
+        "Proxy": "None"
+      },
+      "33": {
+        "Id": "EPMFunctionTypes::EquipRoomCommunication",
+        "Name": {
+          "Namespace": "FunctionUnlock",
+          "Key": "33_Name",
+          "SourceString": "沟通",
+          "LocalizedString": "沟通"
+        },
+        "Type": 1,
+        "SubFunction": [],
+        "PlayerLevel": 0,
+        "LockTips": {
+          "CultureInvariantString": null
+        },
+        "BluePrint": "None",
+        "RedDot": "None",
+        "Proxy": "None"
+      },
+      "34": {
+        "Id": "EPMFunctionTypes::EquipRoomFlyEffect",
+        "Name": {
+          "Namespace": "FunctionUnlock",
+          "Key": "34_Name",
+          "SourceString": "飘飞特效",
+          "LocalizedString": "飘飞特效"
+        },
+        "Type": 1,
+        "SubFunction": [],
+        "PlayerLevel": 0,
+        "LockTips": {
+          "CultureInvariantString": null
+        },
+        "BluePrint": "None",
+        "RedDot": "None",
+        "Proxy": "None"
+      },
+      "35": {
+        "Id": "EPMFunctionTypes::EquipRoomPrimaryWeaponSkin",
+        "Name": {
+          "Namespace": "FunctionUnlock",
+          "Key": "35_Name",
+          "SourceString": "主武器",
+          "LocalizedString": "主武器"
+        },
+        "Type": 1,
+        "SubFunction": [],
+        "PlayerLevel": 0,
+        "LockTips": {
+          "CultureInvariantString": null
+        },
+        "BluePrint": "None",
+        "RedDot": "None",
+        "Proxy": "None"
+      },
+      "36": {
+        "Id": "EPMFunctionTypes::EquipRoomSecondaryWeaponSkin",
+        "Name": {
+          "Namespace": "FunctionUnlock",
+          "Key": "36_Name",
+          "SourceString": "副武器",
+          "LocalizedString": "副武器"
+        },
+        "Type": 1,
+        "SubFunction": [],
+        "PlayerLevel": 0,
+        "LockTips": {
+          "CultureInvariantString": null
+        },
+        "BluePrint": "None",
+        "RedDot": "None",
+        "Proxy": "None"
+      },
+      "37": {
+        "Id": "EPMFunctionTypes::GrenadeSkin_1",
+        "Name": {
+          "Namespace": "FunctionUnlock",
+          "Key": "37_Name",
+          "SourceString": "战术道具1",
+          "LocalizedString": "战术道具1"
+        },
+        "Type": 1,
+        "SubFunction": [],
+        "PlayerLevel": 0,
+        "LockTips": {
+          "CultureInvariantString": null
+        },
+        "BluePrint": "None",
+        "RedDot": "None",
+        "Proxy": "None"
+      },
+      "38": {
+        "Id": "EPMFunctionTypes::GrenadeSkin_2",
+        "Name": {
+          "Namespace": "FunctionUnlock",
+          "Key": "38_Name",
+          "SourceString": "战术道具2",
+          "LocalizedString": "战术道具2"
+        },
+        "Type": 1,
+        "SubFunction": [],
+        "PlayerLevel": 0,
+        "LockTips": {
+          "CultureInvariantString": null
+        },
+        "BluePrint": "None",
+        "RedDot": "None",
+        "Proxy": "None"
+      },
+      "39": {
+        "Id": "EPMFunctionTypes::EquipRoomDecal",
+        "Name": {
+          "Namespace": "FunctionUnlock",
+          "Key": "39_Name",
+          "SourceString": "喷漆",
+          "LocalizedString": "喷漆"
+        },
+        "Type": 1,
+        "SubFunction": [],
+        "PlayerLevel": 0,
+        "LockTips": {
+          "CultureInvariantString": null
+        },
+        "BluePrint": "None",
+        "RedDot": "None",
+        "Proxy": "None"
+      },
+      "40": {
+        "Id": "EPMFunctionTypes::EquipRoomPersonality",
+        "Name": {
+          "Namespace": "FunctionUnlock",
+          "Key": "40_Name",
+          "SourceString": "表情",
+          "LocalizedString": "表情"
+        },
+        "Type": 1,
+        "SubFunction": [],
+        "PlayerLevel": 0,
+        "LockTips": {
+          "CultureInvariantString": null
+        },
+        "BluePrint": "None",
+        "RedDot": "None",
+        "Proxy": "None"
+      },
+      "50": {
+        "Id": "EPMFunctionTypes::Career",
+        "Name": {
+          "Namespace": "FunctionUnlock",
+          "Key": "50_Name",
+          "SourceString": "生涯",
+          "LocalizedString": "生涯"
+        },
+        "Type": 1,
+        "SubFunction": [
+          51,
+          52,
+          54,
+          55
+        ],
+        "PlayerLevel": 1,
+        "LockTips": {
+          "CultureInvariantString": null
+        },
+        "BluePrint": "None",
+        "RedDot": "None",
+        "Proxy": "None"
+      },
+      "51": {
+        "Id": "EPMFunctionTypes::Rank",
+        "Name": {
+          "Namespace": "FunctionUnlock",
+          "Key": "51_Name",
+          "SourceString": "排位",
+          "LocalizedString": "排位"
+        },
+        "Type": 2,
+        "SubFunction": [],
+        "PlayerLevel": 1,
+        "LockTips": {
+          "CultureInvariantString": null
+        },
+        "BluePrint": "CareerRank",
+        "RedDot": "CareerRank",
+        "Proxy": "None"
+      },
+      "52": {
+        "Id": "EPMFunctionTypes::Achievement",
+        "Name": {
+          "Namespace": "FunctionUnlock",
+          "Key": "52_Name",
+          "SourceString": "成就",
+          "LocalizedString": "成就"
+        },
+        "Type": 2,
+        "SubFunction": [],
+        "PlayerLevel": 1,
+        "LockTips": {
+          "CultureInvariantString": null
+        },
+        "BluePrint": "Achievement",
+        "RedDot": "CareerAchievement",
+        "Proxy": "None"
+      },
+      "53": {
+        "Id": "EPMFunctionTypes::HeroAchievement",
+        "Name": {
+          "Namespace": "FunctionUnlock",
+          "Key": "53_Name",
+          "SourceString": "印迹",
+          "LocalizedString": "印迹"
+        },
+        "Type": 2,
+        "SubFunction": [],
+        "PlayerLevel": 1,
+        "LockTips": {
+          "CultureInvariantString": null
+        },
+        "BluePrint": "RoleAchievementPage",
+        "RedDot": "CareerAchieveHero",
+        "Proxy": "None"
+      },
+      "54": {
+        "Id": "EPMFunctionTypes::BattleInfo",
+        "Name": {
+          "Namespace": "FunctionUnlock",
+          "Key": "54_Name",
+          "SourceString": "战绩",
+          "LocalizedString": "战绩"
+        },
+        "Type": 2,
+        "SubFunction": [],
+        "PlayerLevel": 1,
+        "LockTips": {
+          "CultureInvariantString": null
+        },
+        "BluePrint": "BattleRecordPage",
+        "RedDot": "None",
+        "Proxy": "None"
+      },
+      "55": {
+        "Id": "EPMFunctionTypes::Warehouse",
+        "Name": {
+          "Namespace": "FunctionUnlock",
+          "Key": "55_Name",
+          "SourceString": "仓库",
+          "LocalizedString": "仓库"
+        },
+        "Type": 2,
+        "SubFunction": [],
+        "PlayerLevel": 1,
+        "LockTips": {
+          "CultureInvariantString": null
+        },
+        "BluePrint": "WareHousePage",
+        "RedDot": "CareerWarehouse",
+        "Proxy": "None"
+      },
+      "60": {
+        "Id": "EPMFunctionTypes::Shop",
+        "Name": {
+          "Namespace": "FunctionUnlock",
+          "Key": "60_Name",
+          "SourceString": "商店",
+          "LocalizedString": "商店"
+        },
+        "Type": 1,
+        "SubFunction": [
+          61,
+          63
+        ],
+        "PlayerLevel": 1,
+        "LockTips": {
+          "CultureInvariantString": null
+        },
+        "BluePrint": "None",
+        "RedDot": "None",
+        "Proxy": "LotteryProxy"
+      },
+      "61": {
+        "Id": "EPMFunctionTypes::Recommend",
+        "Name": {
+          "Namespace": "FunctionUnlock",
+          "Key": "61_Name",
+          "SourceString": "推荐",
+          "LocalizedString": "推荐"
+        },
+        "Type": 2,
+        "SubFunction": [],
+        "PlayerLevel": 1,
+        "LockTips": {
+          "CultureInvariantString": null
+        },
+        "BluePrint": "HermesHotListPage",
+        "RedDot": "None",
+        "Proxy": "None"
+      },
+      "62": {
+        "Id": "EPMFunctionTypes::Weapon",
+        "Name": {
+          "Namespace": "FunctionUnlock",
+          "Key": "62_Name",
+          "SourceString": "武器粒子",
+          "LocalizedString": "武器粒子"
+        },
+        "Type": 2,
+        "SubFunction": [],
+        "PlayerLevel": 1,
+        "LockTips": {
+          "CultureInvariantString": null
+        },
+        "BluePrint": "HermesPiecesArmsPage",
+        "RedDot": "None",
+        "Proxy": "None"
+      },
+      "63": {
+        "Id": "EPMFunctionTypes::Item",
+        "Name": {
+          "Namespace": "FunctionUnlock",
+          "Key": "63_Name",
+          "SourceString": "充值",
+          "LocalizedString": "充值"
+        },
+        "Type": 2,
+        "SubFunction": [],
+        "PlayerLevel": 1,
+        "LockTips": {
+          "CultureInvariantString": null
+        },
+        "BluePrint": "HermesTopUpPage",
+        "RedDot": "HermesTopUp",
+        "Proxy": "None"
+      },
+      "64": {
+        "Id": "EPMFunctionTypes::IdeaCoin",
+        "Name": {
+          "Namespace": "FunctionUnlock",
+          "Key": "64_Name",
+          "SourceString": "武器",
+          "LocalizedString": "武器"
+        },
+        "Type": 2,
+        "SubFunction": [],
+        "PlayerLevel": 1,
+        "LockTips": {
+          "CultureInvariantString": null
+        },
+        "BluePrint": "ShopWeaponPagePC",
+        "RedDot": "None",
+        "Proxy": "None"
+      },
+      "101": {
+        "Id": "EPMFunctionTypes::Component",
+        "Name": {
+          "Namespace": "FunctionUnlock",
+          "Key": "101_Name",
+          "SourceString": "武器配件",
+          "LocalizedString": "武器配件"
+        },
+        "Type": 3,
+        "SubFunction": [],
+        "PlayerLevel": 1,
+        "LockTips": {
+          "Namespace": "FunctionUnlock",
+          "Key": "101_LockTips",
+          "SourceString": "玩家{PlayerLevel}级时解锁",
+          "LocalizedString": "玩家{PlayerLevel}级时解锁"
+        },
+        "BluePrint": "None",
+        "RedDot": "None",
+        "Proxy": "None"
+      },
+      "102": {
+        "Id": "EPMFunctionTypes::Gift",
+        "Name": {
+          "Namespace": "FunctionUnlock",
+          "Key": "102_Name",
+          "SourceString": "商品赠送",
+          "LocalizedString": "商品赠送"
+        },
+        "Type": 3,
+        "SubFunction": [],
+        "PlayerLevel": 5,
+        "LockTips": {
+          "Namespace": "FunctionUnlock",
+          "Key": "102_LockTips",
+          "SourceString": "玩家{PlayerLevel}级时解锁",
+          "LocalizedString": "玩家{PlayerLevel}级时解锁"
+        },
+        "BluePrint": "None",
+        "RedDot": "None",
+        "Proxy": "None"
+      },
+      "103": {
+        "Id": "EPMFunctionTypes::AskFor",
+        "Name": {
+          "Namespace": "FunctionUnlock",
+          "Key": "103_Name",
+          "SourceString": "商品索要",
+          "LocalizedString": "商品索要"
+        },
+        "Type": 3,
+        "SubFunction": [],
+        "PlayerLevel": 5,
+        "LockTips": {
+          "Namespace": "FunctionUnlock",
+          "Key": "103_LockTips",
+          "SourceString": "玩家{PlayerLevel}级时解锁",
+          "LocalizedString": "玩家{PlayerLevel}级时解锁"
+        },
+        "BluePrint": "None",
+        "RedDot": "None",
+        "Proxy": "None"
+      }
+    }
+  }
+]
