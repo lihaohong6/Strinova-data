@@ -1,0 +1,6143 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "Setting",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'CySettingTableRow'",
+        "ObjectPath": "/Script/PMGame"
+      }
+    },
+    "Rows": {
+      "101": {
+        "Id": 101,
+        "Type": "Basic",
+        "SubType": "",
+        "Title": {
+          "Namespace": "Setting",
+          "Key": "101_Title",
+          "SourceString": "地图",
+          "LocalizedString": "地图"
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "101_Name",
+          "SourceString": "玩家居中",
+          "LocalizedString": "玩家居中"
+        },
+        "UiType": 3,
+        "Options": [
+          {
+            "Namespace": "Setting",
+            "Key": "101_Options_Index0",
+            "SourceString": "开启",
+            "LocalizedString": "开启"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "101_Options_Index1",
+            "SourceString": "关闭",
+            "LocalizedString": "关闭"
+          }
+        ],
+        "DefaultOptions": 1,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "101_Tips",
+          "SourceString": "开启：小地图以玩家为中心\n关闭：将小地图的中心点与作战地图的中心点对齐",
+          "LocalizedString": "开启：小地图以玩家为中心\n关闭：将小地图的中心点与作战地图的中心点对齐"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "Switch_PlayerCenterInMap",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "102": {
+        "Id": 102,
+        "Type": "Basic",
+        "SubType": "",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "102_Name",
+          "SourceString": "小地图旋转",
+          "LocalizedString": "小地图旋转"
+        },
+        "UiType": 3,
+        "Options": [
+          {
+            "Namespace": "Setting",
+            "Key": "102_Options_Index0",
+            "SourceString": "旋转",
+            "LocalizedString": "旋转"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "102_Options_Index1",
+            "SourceString": "固定",
+            "LocalizedString": "固定"
+          }
+        ],
+        "DefaultOptions": 1,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "102_Tips",
+          "SourceString": "旋转：角色转向时，小地图向相反方向旋转，使角色图标始终向上\n固定：角色转向时，角色图标向相应方向旋转，小地图不旋转",
+          "LocalizedString": "旋转：角色转向时，小地图向相反方向旋转，使角色图标始终向上\n固定：角色转向时，角色图标向相应方向旋转，小地图不旋转"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "MapRotationStyle",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "103": {
+        "Id": 103,
+        "Type": "Basic",
+        "SubType": "",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "103_Name",
+          "SourceString": "小地图尺寸",
+          "LocalizedString": "小地图尺寸"
+        },
+        "UiType": 1,
+        "Options": [],
+        "DefaultOptions": 1100,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "103_Tips",
+          "SourceString": "小地图模块在界面中的大小",
+          "LocalizedString": "小地图模块在界面中的大小"
+        },
+        "Max": 1200,
+        "Min": 500,
+        "Step": 10,
+        "Indexkey": "MapSize",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "104": {
+        "Id": 104,
+        "Type": "Basic",
+        "SubType": "",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "104_Name",
+          "SourceString": "小地图缩放",
+          "LocalizedString": "小地图缩放"
+        },
+        "UiType": 1,
+        "Options": [],
+        "DefaultOptions": 1000,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "104_Tips",
+          "SourceString": "小地图的内容在模块中的缩小/放大比例",
+          "LocalizedString": "小地图的内容在模块中的缩小/放大比例"
+        },
+        "Max": 1200,
+        "Min": 500,
+        "Step": 10,
+        "Indexkey": "MapScale",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "105": {
+        "Id": 105,
+        "Type": "Basic",
+        "SubType": "",
+        "Title": {
+          "Namespace": "Setting",
+          "Key": "105_Title",
+          "SourceString": "其他",
+          "LocalizedString": "其他"
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "105_Name",
+          "SourceString": "自动拾取战术道具",
+          "LocalizedString": "自动拾取战术道具"
+        },
+        "UiType": 3,
+        "Options": [
+          {
+            "Namespace": "Setting",
+            "Key": "105_Options_Index0",
+            "SourceString": "开启",
+            "LocalizedString": "开启"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "105_Options_Index1",
+            "SourceString": "关闭",
+            "LocalizedString": "关闭"
+          }
+        ],
+        "DefaultOptions": 1,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "105_Tips",
+          "SourceString": "开启后，当战术道具栏位没有物品时，会自动拾取附近其他玩家被淘汰后掉落的战术道具",
+          "LocalizedString": "开启后，当战术道具栏位没有物品时，会自动拾取附近其他玩家被淘汰后掉落的战术道具"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "Switch_AutoPickUp",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "106": {
+        "Id": 106,
+        "Type": "Basic",
+        "SubType": "",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "106_Name",
+          "SourceString": "隐私保护",
+          "LocalizedString": "隐私保护"
+        },
+        "UiType": 3,
+        "Options": [
+          {
+            "Namespace": "Setting",
+            "Key": "106_Options_Index0",
+            "SourceString": "开启",
+            "LocalizedString": "开启"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "106_Options_Index1",
+            "SourceString": "关闭",
+            "LocalizedString": "关闭"
+          }
+        ],
+        "DefaultOptions": 2,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "106_Tips",
+          "SourceString": "开启后，其他玩家无法查看你的个人信息",
+          "LocalizedString": "开启后，其他玩家无法查看你的个人信息"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "Switch_PrivacyProtect",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "107": {
+        "Id": 107,
+        "Type": "Basic",
+        "SubType": "",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "107_Name",
+          "SourceString": "红点方案",
+          "LocalizedString": "红点方案"
+        },
+        "UiType": 3,
+        "Options": [
+          {
+            "Namespace": "Setting",
+            "Key": "107_Options_Index0",
+            "SourceString": "方案一",
+            "LocalizedString": "方案一"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "107_Options_Index1",
+            "SourceString": "方案二",
+            "LocalizedString": "方案二"
+          }
+        ],
+        "DefaultOptions": 1,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "107_Tips",
+          "SourceString": "方案一：超弦体页签内红点不按层级消除\n方案二：超弦体页签内红点按层级消除",
+          "LocalizedString": "方案一：超弦体页签内红点不按层级消除\n方案二：超弦体页签内红点按层级消除"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "RedDotPlan",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "108": {
+        "Id": 108,
+        "Type": "Basic",
+        "SubType": "",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "108_Name",
+          "SourceString": "红点层级管理",
+          "LocalizedString": "红点层级管理"
+        },
+        "UiType": 3,
+        "Options": [
+          {
+            "Namespace": "Setting",
+            "Key": "108_Options_Index0",
+            "SourceString": "白色",
+            "LocalizedString": "白色"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "108_Options_Index1",
+            "SourceString": "蓝色",
+            "LocalizedString": "蓝色"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "108_Options_Index2",
+            "SourceString": "紫色",
+            "LocalizedString": "紫色"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "108_Options_Index3",
+            "SourceString": "橙色",
+            "LocalizedString": "橙色"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "108_Options_Index4",
+            "SourceString": "红色",
+            "LocalizedString": "红色"
+          }
+        ],
+        "DefaultOptions": 2,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "108_Tips",
+          "SourceString": "获得所选品质及以上的物品时触发红点提示，设置后从下次登入游戏起效",
+          "LocalizedString": "获得所选品质及以上的物品时触发红点提示，设置后从下次登入游戏起效"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "RedDotColor",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "109": {
+        "Id": 109,
+        "Type": "Basic",
+        "SubType": "",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "109_Name",
+          "SourceString": "准星伤害反馈",
+          "LocalizedString": "准星伤害反馈"
+        },
+        "UiType": 3,
+        "Options": [
+          {
+            "Namespace": "Setting",
+            "Key": "109_Options_Index0",
+            "SourceString": "开启",
+            "LocalizedString": "开启"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "109_Options_Index1",
+            "SourceString": "关闭",
+            "LocalizedString": "关闭"
+          }
+        ],
+        "DefaultOptions": 1,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "109_Tips",
+          "SourceString": "开启则显示斜十字准星反馈，关闭则不显示斜十字准星反馈",
+          "LocalizedString": "开启则显示斜十字准星反馈，关闭则不显示斜十字准星反馈"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "Switch_CrossHairDamageFeedBack",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "110": {
+        "Id": 110,
+        "Type": "Basic",
+        "SubType": "",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "110_Name",
+          "SourceString": "闪光弹颜色",
+          "LocalizedString": "闪光弹颜色"
+        },
+        "UiType": 3,
+        "Options": [
+          {
+            "Namespace": "Setting",
+            "Key": "110_Options_Index0",
+            "SourceString": "灰色",
+            "LocalizedString": "灰色"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "110_Options_Index1",
+            "SourceString": "白色",
+            "LocalizedString": "白色"
+          }
+        ],
+        "DefaultOptions": 1,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "110_Tips",
+          "SourceString": "闪光弹颜色",
+          "LocalizedString": "闪光弹颜色"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "FlashBangColor",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "111": {
+        "Id": 111,
+        "Type": "Basic",
+        "SubType": "",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "111_Name",
+          "SourceString": "宿舍语音字幕",
+          "LocalizedString": "宿舍语音字幕"
+        },
+        "UiType": 3,
+        "Options": [
+          {
+            "Namespace": "Setting",
+            "Key": "111_Options_Index0",
+            "SourceString": "开启",
+            "LocalizedString": "开启"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "111_Options_Index1",
+            "SourceString": "关闭",
+            "LocalizedString": "关闭"
+          }
+        ],
+        "DefaultOptions": 1,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "111_Tips",
+          "SourceString": "宿舍语音字幕",
+          "LocalizedString": "宿舍语音字幕"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "Switch_ApartmentSubTitle",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "113": {
+        "Id": 113,
+        "Type": "Basic",
+        "SubType": "",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "113_Name",
+          "SourceString": "队友描边",
+          "LocalizedString": "队友描边"
+        },
+        "UiType": 3,
+        "Options": [
+          {
+            "Namespace": "Setting",
+            "Key": "113_Options_Index0",
+            "SourceString": "开启",
+            "LocalizedString": "开启"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "113_Options_Index1",
+            "SourceString": "关闭",
+            "LocalizedString": "关闭"
+          }
+        ],
+        "DefaultOptions": 1,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "113_Tips",
+          "SourceString": "开启显示队友描边",
+          "LocalizedString": "开启显示队友描边"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "Switch_TeammateStroke",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "114": {
+        "Id": 114,
+        "Type": "Basic",
+        "SubType": "",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "114_Name",
+          "SourceString": "敌方描边颜色",
+          "LocalizedString": "敌方描边颜色"
+        },
+        "UiType": 3,
+        "Options": [
+          {
+            "Namespace": "Setting",
+            "Key": "114_Options_Index0",
+            "SourceString": "红色",
+            "LocalizedString": "红色"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "114_Options_Index1",
+            "SourceString": "黄色",
+            "LocalizedString": "黄色"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "114_Options_Index2",
+            "SourceString": "紫色",
+            "LocalizedString": "紫色"
+          }
+        ],
+        "DefaultOptions": 1,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "114_Tips",
+          "SourceString": "敌方描边颜色",
+          "LocalizedString": "敌方描边颜色"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "EnemyStrokeColor",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "115": {
+        "Id": 115,
+        "Type": "Basic",
+        "SubType": "",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "115_Name",
+          "SourceString": "账号注销",
+          "LocalizedString": "账号注销"
+        },
+        "UiType": 0,
+        "Options": [],
+        "DefaultOptions": 0,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "115_Tips",
+          "SourceString": "点击后将进行账号注销操作，请谨慎处理",
+          "LocalizedString": "点击后将进行账号注销操作，请谨慎处理"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "DestoryAccount",
+        "DefaultOption2": "OK",
+        "Status": 0
+      },
+      "116": {
+        "Id": 116,
+        "Type": "Basic",
+        "SubType": "",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "116_Name",
+          "SourceString": "飘飞特效对敌方可见",
+          "LocalizedString": "飘飞特效对敌方可见"
+        },
+        "UiType": 3,
+        "Options": [
+          {
+            "Namespace": "Setting",
+            "Key": "116_Options_Index0",
+            "SourceString": "开启",
+            "LocalizedString": "开启"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "116_Options_Index1",
+            "SourceString": "关闭",
+            "LocalizedString": "关闭"
+          }
+        ],
+        "DefaultOptions": 1,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "116_Tips",
+          "SourceString": "关闭后敌方仅可见自身基础飘飞特效。",
+          "LocalizedString": "关闭后敌方仅可见自身基础飘飞特效。"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "Switch_FlyEffectToEnemy",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "117": {
+        "Id": 117,
+        "Type": "Basic",
+        "SubType": "",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "117_Name",
+          "SourceString": "平滑鼠标移动",
+          "LocalizedString": "平滑鼠标移动"
+        },
+        "UiType": 3,
+        "Options": [
+          {
+            "Namespace": "Setting",
+            "Key": "117_Options_Index0",
+            "SourceString": "开启",
+            "LocalizedString": "开启"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "117_Options_Index1",
+            "SourceString": "关闭",
+            "LocalizedString": "关闭"
+          }
+        ],
+        "DefaultOptions": 1,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "117_Tips",
+          "SourceString": "关闭此选项兼容高回报率的鼠标设备",
+          "LocalizedString": "关闭此选项兼容高回报率的鼠标设备"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "MouseMoveSwitch",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "201": {
+        "Id": 201,
+        "Type": "Operate",
+        "SubType": "Action",
+        "Title": {
+          "Namespace": "Setting",
+          "Key": "201_Title",
+          "SourceString": "移动",
+          "LocalizedString": "移动"
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "201_Name",
+          "SourceString": "前进",
+          "LocalizedString": "前进"
+        },
+        "UiType": 4,
+        "Options": [],
+        "DefaultOptions": 0,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "201_Tips",
+          "SourceString": "向前移动",
+          "LocalizedString": "向前移动"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "Up",
+        "DefaultOption2": "W,Invalid",
+        "Status": 0
+      },
+      "202": {
+        "Id": 202,
+        "Type": "Operate",
+        "SubType": "Action",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "202_Name",
+          "SourceString": "后退",
+          "LocalizedString": "后退"
+        },
+        "UiType": 4,
+        "Options": [],
+        "DefaultOptions": 0,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "202_Tips",
+          "SourceString": "向后移动",
+          "LocalizedString": "向后移动"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "Down",
+        "DefaultOption2": "S,Invalid",
+        "Status": 0
+      },
+      "203": {
+        "Id": 203,
+        "Type": "Operate",
+        "SubType": "Action",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "203_Name",
+          "SourceString": "左移",
+          "LocalizedString": "左移"
+        },
+        "UiType": 4,
+        "Options": [],
+        "DefaultOptions": 0,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "203_Tips",
+          "SourceString": "向左移动",
+          "LocalizedString": "向左移动"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "Left",
+        "DefaultOption2": "A,Invalid",
+        "Status": 0
+      },
+      "204": {
+        "Id": 204,
+        "Type": "Operate",
+        "SubType": "Action",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "204_Name",
+          "SourceString": "右移",
+          "LocalizedString": "右移"
+        },
+        "UiType": 4,
+        "Options": [],
+        "DefaultOptions": 0,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "204_Tips",
+          "SourceString": "向右移动",
+          "LocalizedString": "向右移动"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "Right",
+        "DefaultOption2": "D,Invalid",
+        "Status": 0
+      },
+      "205": {
+        "Id": 205,
+        "Type": "Operate",
+        "SubType": "Action",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "205_Name",
+          "SourceString": "冲刺",
+          "LocalizedString": "冲刺"
+        },
+        "UiType": 4,
+        "Options": [],
+        "DefaultOptions": 0,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "205_Tips",
+          "SourceString": "以冲刺的速度移动，同时也发出更大的声音",
+          "LocalizedString": "以冲刺的速度移动，同时也发出更大的声音"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "Sprint",
+        "DefaultOption2": "Invalid,Invalid",
+        "Status": 0
+      },
+      "206": {
+        "Id": 206,
+        "Type": "Operate",
+        "SubType": "Action",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "206_Name",
+          "SourceString": "自动冲刺",
+          "LocalizedString": "自动冲刺"
+        },
+        "UiType": 3,
+        "Options": [
+          {
+            "Namespace": "Setting",
+            "Key": "206_Options_Index0",
+            "SourceString": "开启",
+            "LocalizedString": "开启"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "206_Options_Index1",
+            "SourceString": "关闭",
+            "LocalizedString": "关闭"
+          }
+        ],
+        "DefaultOptions": 1,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "206_Tips",
+          "SourceString": "开启后，向前移动时自动开始冲刺",
+          "LocalizedString": "开启后，向前移动时自动开始冲刺"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "Switch_AutoRun",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "207": {
+        "Id": 207,
+        "Type": "Operate",
+        "SubType": "Action",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "207_Name",
+          "SourceString": "切换冲刺模式",
+          "LocalizedString": "切换冲刺模式"
+        },
+        "UiType": 3,
+        "Options": [
+          {
+            "Namespace": "Setting",
+            "Key": "207_Options_Index0",
+            "SourceString": "长按",
+            "LocalizedString": "长按"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "207_Options_Index1",
+            "SourceString": "切换",
+            "LocalizedString": "切换"
+          }
+        ],
+        "DefaultOptions": 1,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "207_Tips",
+          "SourceString": "长按：“自动冲刺”关闭时按住冲刺、松开行走，开启时反之\n切换：人物先以“自动冲刺”所设置的状态移动；每按下一次冲刺键，人物就在行走与冲刺间切换，停止移动后仍然记录所切换的状态",
+          "LocalizedString": "长按：“自动冲刺”关闭时按住冲刺、松开行走，开启时反之\n切换：人物先以“自动冲刺”所设置的状态移动；每按下一次冲刺键，人物就在行走与冲刺间切换，停止移动后仍然记录所切换的状态"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "ButtonStyle_SprintMode",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "208": {
+        "Id": 208,
+        "Type": "Operate",
+        "SubType": "Action",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "208_Name",
+          "SourceString": "跳跃",
+          "LocalizedString": "跳跃"
+        },
+        "UiType": 4,
+        "Options": [],
+        "DefaultOptions": 0,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "208_Tips",
+          "SourceString": "跳跃或二段跳",
+          "LocalizedString": "跳跃或二段跳"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "Jump",
+        "DefaultOption2": "SpaceBar,Invalid",
+        "Status": 0
+      },
+      "209": {
+        "Id": 209,
+        "Type": "Operate",
+        "SubType": "Action",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "209_Name",
+          "SourceString": "侧身/飘飞",
+          "LocalizedString": "侧身/飘飞"
+        },
+        "UiType": 4,
+        "Options": [],
+        "DefaultOptions": 0,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "209_Tips",
+          "SourceString": "角色在地面时：使角色进入侧身状态\n角色在空中时：使角色进入飘飞状态",
+          "LocalizedString": "角色在地面时：使角色进入侧身状态\n角色在空中时：使角色进入飘飞状态"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "SettingSideAndFly",
+        "DefaultOption2": "LeftControl,Invalid,SettingSideAndFlySecondary",
+        "Status": 0
+      },
+      "210": {
+        "Id": 210,
+        "Type": "Operate",
+        "SubType": "Action",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "210_Name",
+          "SourceString": "侧身模式",
+          "LocalizedString": "侧身模式"
+        },
+        "UiType": 3,
+        "Options": [
+          {
+            "Namespace": "Setting",
+            "Key": "210_Options_Index0",
+            "SourceString": "长按",
+            "LocalizedString": "长按"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "210_Options_Index1",
+            "SourceString": "切换",
+            "LocalizedString": "切换"
+          }
+        ],
+        "DefaultOptions": 2,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "210_Tips",
+          "SourceString": "将侧身设置为长按模式或切换模式",
+          "LocalizedString": "将侧身设置为长按模式或切换模式"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "ButtonStyle_SideMode",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "211": {
+        "Id": 211,
+        "Type": "Operate",
+        "SubType": "Action",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "211_Name",
+          "SourceString": "飘飞模式",
+          "LocalizedString": "飘飞模式"
+        },
+        "UiType": 3,
+        "Options": [
+          {
+            "Namespace": "Setting",
+            "Key": "211_Options_Index0",
+            "SourceString": "长按",
+            "LocalizedString": "长按"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "211_Options_Index1",
+            "SourceString": "切换",
+            "LocalizedString": "切换"
+          }
+        ],
+        "DefaultOptions": 2,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "211_Tips",
+          "SourceString": "将飘飞设置为长按模式或切换模式",
+          "LocalizedString": "将飘飞设置为长按模式或切换模式"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "ButtonStyle_FlyMode",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "212": {
+        "Id": 212,
+        "Type": "Operate",
+        "SubType": "Action",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "212_Name",
+          "SourceString": "贴墙",
+          "LocalizedString": "贴墙"
+        },
+        "UiType": 4,
+        "Options": [],
+        "DefaultOptions": 0,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "212_Tips",
+          "SourceString": "贴墙后可在墙面上自由移动",
+          "LocalizedString": "贴墙后可在墙面上自由移动"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "Wall2D",
+        "DefaultOption2": "E,Invalid",
+        "Status": 0
+      },
+      "213": {
+        "Id": 213,
+        "Type": "Operate",
+        "SubType": "Action",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "213_Name",
+          "SourceString": "贴墙上墙时自动跳跃",
+          "LocalizedString": "贴墙上墙时自动跳跃"
+        },
+        "UiType": 3,
+        "Options": [
+          {
+            "Namespace": "Setting",
+            "Key": "213_Options_Index0",
+            "SourceString": "开启",
+            "LocalizedString": "开启"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "213_Options_Index1",
+            "SourceString": "关闭",
+            "LocalizedString": "关闭"
+          }
+        ],
+        "DefaultOptions": 1,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "213_Tips",
+          "SourceString": "开启后，人物在贴墙向上移动至墙面顶部时会自动跳跃",
+          "LocalizedString": "开启后，人物在贴墙向上移动至墙面顶部时会自动跳跃"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "Switch_AutoJumpOnWall",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "214": {
+        "Id": 214,
+        "Type": "Operate",
+        "SubType": "Action",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "214_Name",
+          "SourceString": "贴墙上墙跳跃延迟",
+          "LocalizedString": "贴墙上墙跳跃延迟"
+        },
+        "UiType": 1,
+        "Options": [],
+        "DefaultOptions": 200,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "214_Tips",
+          "SourceString": "调整贴墙上墙时自动跳跃的延迟时间",
+          "LocalizedString": "调整贴墙上墙时自动跳跃的延迟时间"
+        },
+        "Max": 1000,
+        "Min": 0,
+        "Step": 50,
+        "Indexkey": "AutoJumpDelayTime",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "215": {
+        "Id": 215,
+        "Type": "Operate",
+        "SubType": "Action",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "215_Name",
+          "SourceString": "飘飞自动贴墙",
+          "LocalizedString": "飘飞自动贴墙"
+        },
+        "UiType": 3,
+        "Options": [
+          {
+            "Namespace": "Setting",
+            "Key": "215_Options_Index0",
+            "SourceString": "开启",
+            "LocalizedString": "开启"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "215_Options_Index1",
+            "SourceString": "关闭",
+            "LocalizedString": "关闭"
+          }
+        ],
+        "DefaultOptions": 1,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "215_Tips",
+          "SourceString": "开启后，人物在飘飞移动并触碰到可弦化墙面时会自动贴墙",
+          "LocalizedString": "开启后，人物在飘飞移动并触碰到可弦化墙面时会自动贴墙"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "FlyAndAutoInWall",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "216": {
+        "Id": 216,
+        "Type": "Operate",
+        "SubType": "Action",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "216_Name",
+          "SourceString": "飘飞自动贴墙触发延迟",
+          "LocalizedString": "飘飞自动贴墙触发延迟"
+        },
+        "UiType": 1,
+        "Options": [],
+        "DefaultOptions": 200,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "216_Tips",
+          "SourceString": "调整飘飞顶墙时自动贴墙的延迟时间",
+          "LocalizedString": "调整飘飞顶墙时自动贴墙的延迟时间"
+        },
+        "Max": 1000,
+        "Min": 0,
+        "Step": 50,
+        "Indexkey": "FlyAndAutoInWallDelay",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "217": {
+        "Id": 217,
+        "Type": "Operate",
+        "SubType": "Action",
+        "Title": {
+          "Namespace": "Setting",
+          "Key": "217_Title",
+          "SourceString": "其他",
+          "LocalizedString": "其他"
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "217_Name",
+          "SourceString": "交互",
+          "LocalizedString": "交互"
+        },
+        "UiType": 4,
+        "Options": [],
+        "DefaultOptions": 0,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "217_Tips",
+          "SourceString": "安装炸弹、拾取战术道具、开门",
+          "LocalizedString": "安装炸弹、拾取战术道具、开门"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "Interact",
+        "DefaultOption2": "F,Invalid",
+        "Status": 0
+      },
+      "218": {
+        "Id": 218,
+        "Type": "Operate",
+        "SubType": "Action",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "218_Name",
+          "SourceString": "战术轮盘",
+          "LocalizedString": "战术轮盘"
+        },
+        "UiType": 4,
+        "Options": [],
+        "DefaultOptions": 0,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "218_Tips",
+          "SourceString": "在游戏内呼出战术轮盘",
+          "LocalizedString": "在游戏内呼出战术轮盘"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "TacticalRoulette",
+        "DefaultOption2": "Y,Invalid",
+        "Status": 0
+      },
+      "219": {
+        "Id": 219,
+        "Type": "Operate",
+        "SubType": "Action",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "219_Name",
+          "SourceString": "表情",
+          "LocalizedString": "表情"
+        },
+        "UiType": 4,
+        "Options": [],
+        "DefaultOptions": 0,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "219_Tips",
+          "SourceString": "在游戏内呼出表情轮盘",
+          "LocalizedString": "在游戏内呼出表情轮盘"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "PersonalRoulette",
+        "DefaultOption2": "J,Invalid",
+        "Status": 0
+      },
+      "220": {
+        "Id": 220,
+        "Type": "Operate",
+        "SubType": "Action",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "220_Name",
+          "SourceString": "丢弃炸弹",
+          "LocalizedString": "丢弃炸弹"
+        },
+        "UiType": 4,
+        "Options": [],
+        "DefaultOptions": 0,
+        "Tips": {
+          "CultureInvariantString": null
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "DropBomb",
+        "DefaultOption2": "G,Invalid",
+        "Status": 0
+      },
+      "221": {
+        "Id": 221,
+        "Type": "Operate",
+        "SubType": "Action",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "221_Name",
+          "SourceString": "使用喷漆",
+          "LocalizedString": "使用喷漆"
+        },
+        "UiType": 4,
+        "Options": [],
+        "DefaultOptions": 0,
+        "Tips": {
+          "CultureInvariantString": null
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "Graffiti",
+        "DefaultOption2": "T,Invalid",
+        "Status": 0
+      },
+      "222": {
+        "Id": 222,
+        "Type": "Operate",
+        "SubType": "Fight",
+        "Title": {
+          "Namespace": "Setting",
+          "Key": "222_Title",
+          "SourceString": "武器",
+          "LocalizedString": "武器"
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "222_Name",
+          "SourceString": "开火",
+          "LocalizedString": "开火"
+        },
+        "UiType": 4,
+        "Options": [],
+        "DefaultOptions": 0,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "222_Tips",
+          "SourceString": "使用当前装备的武器开火或攻击",
+          "LocalizedString": "使用当前装备的武器开火或攻击"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "UsePrimary",
+        "DefaultOption2": "LeftMouseButton,Invalid",
+        "Status": 0
+      },
+      "223": {
+        "Id": 223,
+        "Type": "Operate",
+        "SubType": "Fight",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "223_Name",
+          "SourceString": "次要开火",
+          "LocalizedString": "次要开火"
+        },
+        "UiType": 4,
+        "Options": [],
+        "DefaultOptions": 0,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "223_Tips",
+          "SourceString": "肩射和开镜以外的特殊攻击动作",
+          "LocalizedString": "肩射和开镜以外的特殊攻击动作"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "UseSecondary",
+        "DefaultOption2": "RightMouseButton,Invalid",
+        "Status": 0
+      },
+      "224": {
+        "Id": 224,
+        "Type": "Operate",
+        "SubType": "Fight",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "224_Name",
+          "SourceString": "肩射/开镜",
+          "LocalizedString": "肩射/开镜"
+        },
+        "UiType": 4,
+        "Options": [],
+        "DefaultOptions": 0,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "224_Tips",
+          "SourceString": "指定同时用于肩射和开镜的按键，长按肩射、切换开镜",
+          "LocalizedString": "指定同时用于肩射和开镜的按键，长按肩射、切换开镜"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "SettingAimingAndADS",
+        "DefaultOption2": "Invalid,Invalid,SettingAimingAndADSSecondary",
+        "Status": 0
+      },
+      "225": {
+        "Id": 225,
+        "Type": "Operate",
+        "SubType": "Fight",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "225_Name",
+          "SourceString": "肩射",
+          "LocalizedString": "肩射"
+        },
+        "UiType": 4,
+        "Options": [],
+        "DefaultOptions": 0,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "225_Tips",
+          "SourceString": "指定仅用于肩射的按键。使人物快速抬起武器，从而进行较为准确的射击",
+          "LocalizedString": "指定仅用于肩射的按键。使人物快速抬起武器，从而进行较为准确的射击"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "SettingAiming",
+        "DefaultOption2": "LeftShift,Invalid,SettingAimingSecondary",
+        "Status": 0
+      },
+      "226": {
+        "Id": 226,
+        "Type": "Operate",
+        "SubType": "Fight",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "226_Name",
+          "SourceString": "肩射模式",
+          "LocalizedString": "肩射模式"
+        },
+        "UiType": 3,
+        "Options": [
+          {
+            "Namespace": "Setting",
+            "Key": "226_Options_Index0",
+            "SourceString": "长按",
+            "LocalizedString": "长按"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "226_Options_Index1",
+            "SourceString": "切换",
+            "LocalizedString": "切换"
+          }
+        ],
+        "DefaultOptions": 1,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "226_Tips",
+          "SourceString": "选择仅用于肩射的按键触发肩射的方式",
+          "LocalizedString": "选择仅用于肩射的按键触发肩射的方式"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "ButtonStyle_ShoulderMode",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "227": {
+        "Id": 227,
+        "Type": "Operate",
+        "SubType": "Fight",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "227_Name",
+          "SourceString": "开镜",
+          "LocalizedString": "开镜"
+        },
+        "UiType": 4,
+        "Options": [],
+        "DefaultOptions": 0,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "227_Tips",
+          "SourceString": "指定仅用于开镜的按键。使人物以瞄准镜瞄准，从而进行更为精准的射击",
+          "LocalizedString": "指定仅用于开镜的按键。使人物以瞄准镜瞄准，从而进行更为精准的射击"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "SettingADS",
+        "DefaultOption2": "RightMouseButton,Invalid,SettingADSSecondary",
+        "Status": 0
+      },
+      "228": {
+        "Id": 228,
+        "Type": "Operate",
+        "SubType": "Fight",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "228_Name",
+          "SourceString": "开镜模式",
+          "LocalizedString": "开镜模式"
+        },
+        "UiType": 3,
+        "Options": [
+          {
+            "Namespace": "Setting",
+            "Key": "228_Options_Index0",
+            "SourceString": "长按",
+            "LocalizedString": "长按"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "228_Options_Index1",
+            "SourceString": "切换",
+            "LocalizedString": "切换"
+          }
+        ],
+        "DefaultOptions": 2,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "228_Tips",
+          "SourceString": "选择仅用于开镜的按键触发开镜的方式",
+          "LocalizedString": "选择仅用于开镜的按键触发开镜的方式"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "ButtonStyle_OpenAimMode",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "229": {
+        "Id": 229,
+        "Type": "Operate",
+        "SubType": "Fight",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "229_Name",
+          "SourceString": "换弹",
+          "LocalizedString": "换弹"
+        },
+        "UiType": 4,
+        "Options": [],
+        "DefaultOptions": 0,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "229_Tips",
+          "SourceString": "使人物为当前装备的枪械更换弹匣或装填弹药",
+          "LocalizedString": "使人物为当前装备的枪械更换弹匣或装填弹药"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "Reload",
+        "DefaultOption2": "R,Invalid",
+        "Status": 0
+      },
+      "230": {
+        "Id": 230,
+        "Type": "Operate",
+        "SubType": "Fight",
+        "Title": {
+          "Namespace": "Setting",
+          "Key": "230_Title",
+          "SourceString": "装备",
+          "LocalizedString": "装备"
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "230_Name",
+          "SourceString": "主武器",
+          "LocalizedString": "主武器"
+        },
+        "UiType": 4,
+        "Options": [],
+        "DefaultOptions": 0,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "230_Tips",
+          "SourceString": "装备主武器",
+          "LocalizedString": "装备主武器"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "UsePrimaryWeapon",
+        "DefaultOption2": "One,Invalid",
+        "Status": 0
+      },
+      "231": {
+        "Id": 231,
+        "Type": "Operate",
+        "SubType": "Fight",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "231_Name",
+          "SourceString": "副武器",
+          "LocalizedString": "副武器"
+        },
+        "UiType": 4,
+        "Options": [],
+        "DefaultOptions": 0,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "231_Tips",
+          "SourceString": "装备副武器",
+          "LocalizedString": "装备副武器"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "UseSecondaryWeapon",
+        "DefaultOption2": "Two,Invalid",
+        "Status": 0
+      },
+      "232": {
+        "Id": 232,
+        "Type": "Operate",
+        "SubType": "Fight",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "232_Name",
+          "SourceString": "战术道具一",
+          "LocalizedString": "战术道具一"
+        },
+        "UiType": 4,
+        "Options": [],
+        "DefaultOptions": 0,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "232_Tips",
+          "SourceString": "装备战术道具一",
+          "LocalizedString": "装备战术道具一"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "Grenade",
+        "DefaultOption2": "Three,Invalid",
+        "Status": 0
+      },
+      "233": {
+        "Id": 233,
+        "Type": "Operate",
+        "SubType": "Fight",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "233_Name",
+          "SourceString": "战术道具二",
+          "LocalizedString": "战术道具二"
+        },
+        "UiType": 4,
+        "Options": [],
+        "DefaultOptions": 0,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "233_Tips",
+          "SourceString": "装备战术道具二",
+          "LocalizedString": "装备战术道具二"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "GrenadeSecond",
+        "DefaultOption2": "Four,Invalid",
+        "Status": 0
+      },
+      "234": {
+        "Id": 234,
+        "Type": "Operate",
+        "SubType": "Fight",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "234_Name",
+          "SourceString": "下个武器",
+          "LocalizedString": "下个武器"
+        },
+        "UiType": 4,
+        "Options": [],
+        "DefaultOptions": 0,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "234_Tips",
+          "SourceString": "切换至下一个武器",
+          "LocalizedString": "切换至下一个武器"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "NextWeapon",
+        "DefaultOption2": "MouseScrollUp,Invalid",
+        "Status": 0
+      },
+      "235": {
+        "Id": 235,
+        "Type": "Operate",
+        "SubType": "Fight",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "235_Name",
+          "SourceString": "上个武器",
+          "LocalizedString": "上个武器"
+        },
+        "UiType": 4,
+        "Options": [],
+        "DefaultOptions": 0,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "235_Tips",
+          "SourceString": "切换至上一个武器",
+          "LocalizedString": "切换至上一个武器"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "PrevWeapon",
+        "DefaultOption2": "MouseScrollDown,Invalid",
+        "Status": 0
+      },
+      "236": {
+        "Id": 236,
+        "Type": "Operate",
+        "SubType": "Fight",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "236_Name",
+          "SourceString": "武器切换模式",
+          "LocalizedString": "武器切换模式"
+        },
+        "UiType": 3,
+        "Options": [
+          {
+            "Namespace": "Setting",
+            "Key": "236_Options_Index0",
+            "SourceString": "武器和战术道具",
+            "LocalizedString": "武器和战术道具"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "236_Options_Index1",
+            "SourceString": "仅武器",
+            "LocalizedString": "仅武器"
+          }
+        ],
+        "DefaultOptions": 1,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "236_Tips",
+          "SourceString": "武器切换模式",
+          "LocalizedString": "武器切换模式"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "Switch_MouseWheelIncludeGrenade",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "237": {
+        "Id": 237,
+        "Type": "Operate",
+        "SubType": "Fight",
+        "Title": {
+          "Namespace": "Setting",
+          "Key": "237_Title",
+          "SourceString": "技能",
+          "LocalizedString": "技能"
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "237_Name",
+          "SourceString": "主动技能",
+          "LocalizedString": "主动技能"
+        },
+        "UiType": 4,
+        "Options": [],
+        "DefaultOptions": 0,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "237_Tips",
+          "SourceString": "释放主动技能",
+          "LocalizedString": "释放主动技能"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "SkillQ",
+        "DefaultOption2": "Q,Invalid",
+        "Status": 0
+      },
+      "238": {
+        "Id": 238,
+        "Type": "Operate",
+        "SubType": "Fight",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "238_Name",
+          "SourceString": "终极技能",
+          "LocalizedString": "终极技能"
+        },
+        "UiType": 4,
+        "Options": [],
+        "DefaultOptions": 0,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "238_Tips",
+          "SourceString": "释放终极技能",
+          "LocalizedString": "释放终极技能"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "SkillX",
+        "DefaultOption2": "X,Invalid",
+        "Status": 0
+      },
+      "239": {
+        "Id": 239,
+        "Type": "Operate",
+        "SubType": "Communicate",
+        "Title": {
+          "Namespace": "Setting",
+          "Key": "239_Title",
+          "SourceString": "语音聊天",
+          "LocalizedString": "语音聊天"
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "239_Name",
+          "SourceString": "房间语音按键",
+          "LocalizedString": "房间语音按键"
+        },
+        "UiType": 4,
+        "Options": [],
+        "DefaultOptions": 0,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "239_Tips",
+          "SourceString": "按键在房间语音频道中发言",
+          "LocalizedString": "按键在房间语音频道中发言"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "EnableRoomVoice",
+        "DefaultOption2": "U,Invalid",
+        "Status": 0
+      },
+      "240": {
+        "Id": 240,
+        "Type": "Operate",
+        "SubType": "Communicate",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "240_Name",
+          "SourceString": "队伍语音按键",
+          "LocalizedString": "队伍语音按键"
+        },
+        "UiType": 4,
+        "Options": [],
+        "DefaultOptions": 0,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "240_Tips",
+          "SourceString": "按键在队伍语音频道中发言",
+          "LocalizedString": "按键在队伍语音频道中发言"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "EnableTeamVoice",
+        "DefaultOption2": "V,Invalid",
+        "Status": 0
+      },
+      "241": {
+        "Id": 241,
+        "Type": "Operate",
+        "SubType": "Communicate",
+        "Title": {
+          "Namespace": "Setting",
+          "Key": "241_Title",
+          "SourceString": "标点轮盘",
+          "LocalizedString": "标点轮盘"
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "241_Name",
+          "SourceString": "标点轮盘",
+          "LocalizedString": "标点轮盘"
+        },
+        "UiType": 4,
+        "Options": [],
+        "DefaultOptions": 0,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "241_Tips",
+          "SourceString": "呼出标点轮盘",
+          "LocalizedString": "呼出标点轮盘"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "MarkWheel",
+        "DefaultOption2": "Z,Invalid",
+        "Status": 0
+      },
+      "242": {
+        "Id": 242,
+        "Type": "Operate",
+        "SubType": "Communicate",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "242_Name",
+          "SourceString": "危险信号",
+          "LocalizedString": "危险信号"
+        },
+        "UiType": 4,
+        "Options": [],
+        "DefaultOptions": 0,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "242_Tips",
+          "SourceString": "发出危险信号",
+          "LocalizedString": "发出危险信号"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "MarkDangerSignal",
+        "DefaultOption2": "Invalid,Invalid",
+        "Status": 0
+      },
+      "243": {
+        "Id": 243,
+        "Type": "Operate",
+        "SubType": "Communicate",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "243_Name",
+          "SourceString": "注意这里",
+          "LocalizedString": "注意这里"
+        },
+        "UiType": 4,
+        "Options": [],
+        "DefaultOptions": 0,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "243_Tips",
+          "SourceString": "发出注意这里",
+          "LocalizedString": "发出注意这里"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "MarkWatchHere",
+        "DefaultOption2": "Invalid,Invalid",
+        "Status": 0
+      },
+      "244": {
+        "Id": 244,
+        "Type": "Operate",
+        "SubType": "Communicate",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "244_Name",
+          "SourceString": "需要支援",
+          "LocalizedString": "需要支援"
+        },
+        "UiType": 4,
+        "Options": [],
+        "DefaultOptions": 0,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "244_Tips",
+          "SourceString": "发出需要支援",
+          "LocalizedString": "发出需要支援"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "MarkNeedHelp",
+        "DefaultOption2": "Invalid,Invalid",
+        "Status": 0
+      },
+      "245": {
+        "Id": 245,
+        "Type": "Operate",
+        "SubType": "Communicate",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "245_Name",
+          "SourceString": "进攻这里",
+          "LocalizedString": "进攻这里"
+        },
+        "UiType": 4,
+        "Options": [],
+        "DefaultOptions": 0,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "245_Tips",
+          "SourceString": "发出进攻这里",
+          "LocalizedString": "发出进攻这里"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "MarkAttackHere",
+        "DefaultOption2": "Invalid,Invalid",
+        "Status": 0
+      },
+      "246": {
+        "Id": 246,
+        "Type": "Operate",
+        "SubType": "UI",
+        "Title": {
+          "Namespace": "Setting",
+          "Key": "246_Title",
+          "SourceString": "一般",
+          "LocalizedString": "一般"
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "246_Name",
+          "SourceString": "购买升级",
+          "LocalizedString": "购买升级"
+        },
+        "UiType": 4,
+        "Options": [],
+        "DefaultOptions": 0,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "246_Tips",
+          "SourceString": "打开局内成长升级界面",
+          "LocalizedString": "打开局内成长升级界面"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "Growth",
+        "DefaultOption2": "B,Invalid",
+        "Status": 0
+      },
+      "247": {
+        "Id": 247,
+        "Type": "Operate",
+        "SubType": "UI",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "247_Name",
+          "SourceString": "大地图（点击）",
+          "LocalizedString": "大地图（点击）"
+        },
+        "UiType": 4,
+        "Options": [],
+        "DefaultOptions": 0,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "247_Tips",
+          "SourceString": "单击打开大地图",
+          "LocalizedString": "单击打开大地图"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "ToggleMiniMap",
+        "DefaultOption2": "M,Invalid",
+        "Status": 0
+      },
+      "248": {
+        "Id": 248,
+        "Type": "Operate",
+        "SubType": "UI",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "248_Name",
+          "SourceString": "大地图（按住）",
+          "LocalizedString": "大地图（按住）"
+        },
+        "UiType": 4,
+        "Options": [],
+        "DefaultOptions": 0,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "248_Tips",
+          "SourceString": "按住打开大地图",
+          "LocalizedString": "按住打开大地图"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "PressedOpenMap",
+        "DefaultOption2": "CapsLock,Invalid",
+        "Status": 0
+      },
+      "249": {
+        "Id": 249,
+        "Type": "Operate",
+        "SubType": "UI",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "249_Name",
+          "SourceString": "计分板",
+          "LocalizedString": "计分板"
+        },
+        "UiType": 4,
+        "Options": [],
+        "DefaultOptions": 0,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "249_Tips",
+          "SourceString": "打开计分板",
+          "LocalizedString": "打开计分板"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "Scoreboard",
+        "DefaultOption2": "Tab,Invalid",
+        "Status": 0
+      },
+      "250": {
+        "Id": 250,
+        "Type": "Operate",
+        "SubType": "UI",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "250_Name",
+          "SourceString": "角色技能说明",
+          "LocalizedString": "角色技能说明"
+        },
+        "UiType": 4,
+        "Options": [],
+        "DefaultOptions": 0,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "250_Tips",
+          "SourceString": "查看角色技能说明",
+          "LocalizedString": "查看角色技能说明"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "GameKeyTips",
+        "DefaultOption2": "F1,Invalid",
+        "Status": 0
+      },
+      "251": {
+        "Id": 251,
+        "Type": "Operate",
+        "SubType": "UI",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "251_Name",
+          "SourceString": "显示/隐藏鼠标",
+          "LocalizedString": "显示/隐藏鼠标"
+        },
+        "UiType": 4,
+        "Options": [],
+        "DefaultOptions": 0,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "251_Tips",
+          "SourceString": "局内显示/隐藏鼠标，仅在对战报告等特殊页面生效",
+          "LocalizedString": "局内显示/隐藏鼠标，仅在对战报告等特殊页面生效"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "ShowMouse",
+        "DefaultOption2": "MiddleMouseButton,Invalid",
+        "Status": 0
+      },
+      "252": {
+        "Id": 252,
+        "Type": "Operate",
+        "SubType": "UI",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "252_Name",
+          "SourceString": "显示/隐藏全局界面",
+          "LocalizedString": "显示/隐藏全局界面"
+        },
+        "UiType": 4,
+        "Options": [],
+        "DefaultOptions": 0,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "252_Tips",
+          "SourceString": "局内显示/隐藏全局界面",
+          "LocalizedString": "局内显示/隐藏全局界面"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "ShowUI",
+        "DefaultOption2": "F9,Invalid",
+        "Status": 0
+      },
+      "253": {
+        "Id": 253,
+        "Type": "Operate",
+        "SubType": "UI",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "253_Name",
+          "SourceString": "死亡对战报告",
+          "LocalizedString": "死亡对战报告"
+        },
+        "UiType": 4,
+        "Options": [],
+        "DefaultOptions": 0,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "253_Tips",
+          "SourceString": "单击显示/隐藏对战报告面板",
+          "LocalizedString": "单击显示/隐藏对战报告面板"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "BattleData",
+        "DefaultOption2": "N,Invalid",
+        "Status": 0
+      },
+      "254": {
+        "Id": 254,
+        "Type": "Operate",
+        "SubType": "UI",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "254_Name",
+          "SourceString": "支持投降",
+          "LocalizedString": "支持投降"
+        },
+        "UiType": 4,
+        "Options": [],
+        "DefaultOptions": 0,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "254_Tips",
+          "SourceString": "支持投降",
+          "LocalizedString": "支持投降"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "AgreeSurrender",
+        "DefaultOption2": "F5,Invalid",
+        "Status": 0
+      },
+      "255": {
+        "Id": 255,
+        "Type": "Operate",
+        "SubType": "UI",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "255_Name",
+          "SourceString": "拒绝投降",
+          "LocalizedString": "拒绝投降"
+        },
+        "UiType": 4,
+        "Options": [],
+        "DefaultOptions": 0,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "255_Tips",
+          "SourceString": "拒绝投降",
+          "LocalizedString": "拒绝投降"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "RefuseSurrender",
+        "DefaultOption2": "F6,Invalid",
+        "Status": 0
+      },
+      "256": {
+        "Id": 256,
+        "Type": "Operate",
+        "SubType": "UI",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "256_Name",
+          "SourceString": "更换角色",
+          "LocalizedString": "更换角色"
+        },
+        "UiType": 4,
+        "Options": [],
+        "DefaultOptions": 0,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "256_Tips",
+          "SourceString": "打开更换角色界面",
+          "LocalizedString": "打开更换角色界面"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "StartRoleSelect",
+        "DefaultOption2": "H,Invalid",
+        "Status": 0
+      },
+      "257": {
+        "Id": 257,
+        "Type": "Operate",
+        "SubType": "UI",
+        "Title": {
+          "Namespace": "Setting",
+          "Key": "257_Title",
+          "SourceString": "观战",
+          "LocalizedString": "观战"
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "257_Name",
+          "SourceString": "切换下一名角色",
+          "LocalizedString": "切换下一名角色"
+        },
+        "UiType": 4,
+        "Options": [],
+        "DefaultOptions": 0,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "257_Tips",
+          "SourceString": "观战下一名角色",
+          "LocalizedString": "观战下一名角色"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "ViewNextPlayer",
+        "DefaultOption2": "LeftMouseButton,Invalid",
+        "Status": 0
+      },
+      "258": {
+        "Id": 258,
+        "Type": "Operate",
+        "SubType": "UI",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "258_Name",
+          "SourceString": "切换上一名角色",
+          "LocalizedString": "切换上一名角色"
+        },
+        "UiType": 4,
+        "Options": [],
+        "DefaultOptions": 0,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "258_Tips",
+          "SourceString": "观战上一名角色",
+          "LocalizedString": "观战上一名角色"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "ViewPrevPlayer",
+        "DefaultOption2": "RightMouseButton,Invalid",
+        "Status": 0
+      },
+      "259": {
+        "Id": 259,
+        "Type": "Operate",
+        "SubType": "UI",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "259_Name",
+          "SourceString": "切换自由视角",
+          "LocalizedString": "切换自由视角"
+        },
+        "UiType": 4,
+        "Options": [],
+        "DefaultOptions": 0,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "259_Tips",
+          "SourceString": "自由视角与指定角色视角切换",
+          "LocalizedString": "自由视角与指定角色视角切换"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "FreeView",
+        "DefaultOption2": "V,Invalid",
+        "Status": 0
+      },
+      "260": {
+        "Id": 260,
+        "Type": "Operate",
+        "SubType": "UI",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "260_Name",
+          "SourceString": "切换环绕视角",
+          "LocalizedString": "切换环绕视角"
+        },
+        "UiType": 4,
+        "Options": [],
+        "DefaultOptions": 0,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "260_Tips",
+          "SourceString": "完全同步视角与环绕视角切换",
+          "LocalizedString": "完全同步视角与环绕视角切换"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "AroundViewPlayer",
+        "DefaultOption2": "SpaceBar,Invalid",
+        "Status": 0
+      },
+      "261": {
+        "Id": 261,
+        "Type": "Operate",
+        "SubType": "UI",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "261_Name",
+          "SourceString": "玩家头顶信息",
+          "LocalizedString": "玩家头顶信息"
+        },
+        "UiType": 4,
+        "Options": [],
+        "DefaultOptions": 0,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "261_Tips",
+          "SourceString": "开启/关闭玩家头顶详细信息",
+          "LocalizedString": "开启/关闭玩家头顶详细信息"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "HideAllPlayerOverheadInfo",
+        "DefaultOption2": "O,Invalid",
+        "Status": 0
+      },
+      "301": {
+        "Id": 301,
+        "Type": "Sense",
+        "SubType": "",
+        "Title": {
+          "Namespace": "Setting",
+          "Key": "301_Title",
+          "SourceString": "全局",
+          "LocalizedString": "全局"
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "301_Name",
+          "SourceString": "鼠标灵敏度",
+          "LocalizedString": "鼠标灵敏度"
+        },
+        "UiType": 1,
+        "Options": [],
+        "DefaultOptions": 5000,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "301_Tips",
+          "SourceString": "灵敏度越高，视角转动速度越快",
+          "LocalizedString": "灵敏度越高，视角转动速度越快"
+        },
+        "Max": 20000,
+        "Min": 100,
+        "Step": 10,
+        "Indexkey": "NormalSensitivity",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "302": {
+        "Id": 302,
+        "Type": "Sense",
+        "SubType": "",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "302_Name",
+          "SourceString": "垂直灵敏度倍率",
+          "LocalizedString": "垂直灵敏度倍率"
+        },
+        "UiType": 1,
+        "Options": [],
+        "DefaultOptions": 1000,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "302_Tips",
+          "SourceString": "视角在垂直方向上的移动量相对于水平方向的倍率",
+          "LocalizedString": "视角在垂直方向上的移动量相对于水平方向的倍率"
+        },
+        "Max": 2000,
+        "Min": 0,
+        "Step": 10,
+        "Indexkey": "VerticalSensitivity",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "303": {
+        "Id": 303,
+        "Type": "Sense",
+        "SubType": "",
+        "Title": {
+          "Namespace": "Setting",
+          "Key": "303_Title",
+          "SourceString": "肩射",
+          "LocalizedString": "肩射"
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "303_Name",
+          "SourceString": "肩射灵敏度倍率",
+          "LocalizedString": "肩射灵敏度倍率"
+        },
+        "UiType": 1,
+        "Options": [],
+        "DefaultOptions": 1000,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "303_Tips",
+          "SourceString": "肩射时的鼠标灵敏度倍率",
+          "LocalizedString": "肩射时的鼠标灵敏度倍率"
+        },
+        "Max": 5000,
+        "Min": 100,
+        "Step": 10,
+        "Indexkey": "ShoulderSensitivity",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "304": {
+        "Id": 304,
+        "Type": "Sense",
+        "SubType": "",
+        "Title": {
+          "Namespace": "Setting",
+          "Key": "304_Title",
+          "SourceString": "开镜",
+          "LocalizedString": "开镜"
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "304_Name",
+          "SourceString": "轻型武器灵敏度倍率",
+          "LocalizedString": "轻型武器灵敏度倍率"
+        },
+        "UiType": 1,
+        "Options": [],
+        "DefaultOptions": 1000,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "304_Tips",
+          "SourceString": "突击步枪、冲锋枪、轻机枪、霰弹枪开镜时的鼠标灵敏度倍率",
+          "LocalizedString": "突击步枪、冲锋枪、轻机枪、霰弹枪开镜时的鼠标灵敏度倍率"
+        },
+        "Max": 5000,
+        "Min": 100,
+        "Step": 10,
+        "Indexkey": "SightSensitivity_OnePointTwoFive",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "305": {
+        "Id": 305,
+        "Type": "Sense",
+        "SubType": "",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "305_Name",
+          "SourceString": "射手步枪灵敏度倍率",
+          "LocalizedString": "射手步枪灵敏度倍率"
+        },
+        "UiType": 1,
+        "Options": [],
+        "DefaultOptions": 1000,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "305_Tips",
+          "SourceString": "射手步枪开镜时的鼠标灵敏度倍率",
+          "LocalizedString": "射手步枪开镜时的鼠标灵敏度倍率"
+        },
+        "Max": 5000,
+        "Min": 100,
+        "Step": 10,
+        "Indexkey": "SightSensitivity_TwoTimes",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "306": {
+        "Id": 306,
+        "Type": "Sense",
+        "SubType": "",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "306_Name",
+          "SourceString": "栓动步枪灵敏度倍率",
+          "LocalizedString": "栓动步枪灵敏度倍率"
+        },
+        "UiType": 1,
+        "Options": [],
+        "DefaultOptions": 1000,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "306_Tips",
+          "SourceString": "栓动步枪开镜时的鼠标灵敏度倍率",
+          "LocalizedString": "栓动步枪开镜时的鼠标灵敏度倍率"
+        },
+        "Max": 5000,
+        "Min": 100,
+        "Step": 10,
+        "Indexkey": "SightSensitivity_FourTimes",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "401": {
+        "Id": 401,
+        "Type": "Visual",
+        "SubType": "",
+        "Title": {
+          "Namespace": "Setting",
+          "Key": "401_Title",
+          "SourceString": "显示",
+          "LocalizedString": "显示"
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "401_Name",
+          "SourceString": "显示模式",
+          "LocalizedString": "显示模式"
+        },
+        "UiType": 3,
+        "Options": [
+          {
+            "Namespace": "Setting",
+            "Key": "401_Options_Index0",
+            "SourceString": "全屏",
+            "LocalizedString": "全屏"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "401_Options_Index1",
+            "SourceString": "无边框",
+            "LocalizedString": "无边框"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "401_Options_Index2",
+            "SourceString": "窗口模式",
+            "LocalizedString": "窗口模式"
+          }
+        ],
+        "DefaultOptions": 2,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "401_Tips",
+          "SourceString": "选择显示模式",
+          "LocalizedString": "选择显示模式"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "ScreenMode",
+        "DefaultOption2": "1, 2, 3",
+        "Status": 0
+      },
+      "402": {
+        "Id": 402,
+        "Type": "Visual",
+        "SubType": "",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "402_Name",
+          "SourceString": "3D渲染分辨率",
+          "LocalizedString": "3D渲染分辨率"
+        },
+        "UiType": 3,
+        "Options": [],
+        "DefaultOptions": 0,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "402_Tips",
+          "SourceString": "更改游戏所有3D场景的渲染清晰度，不影响各2D界面的分辨率\n如果在游戏中有卡顿、掉帧的情况，而图像质量也已全部设置为最低，可尝试降低此项数值",
+          "LocalizedString": "更改游戏所有3D场景的渲染清晰度，不影响各2D界面的分辨率\n如果在游戏中有卡顿、掉帧的情况，而图像质量也已全部设置为最低，可尝试降低此项数值"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "Resolution",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "403": {
+        "Id": 403,
+        "Type": "Visual",
+        "SubType": "",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "403_Name",
+          "SourceString": "渲染比例",
+          "LocalizedString": "渲染比例"
+        },
+        "UiType": 3,
+        "Options": [
+          {
+            "Namespace": "Setting",
+            "Key": "403_Options_Index0",
+            "SourceString": "100",
+            "LocalizedString": "100"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "403_Options_Index1",
+            "SourceString": "120",
+            "LocalizedString": "120"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "403_Options_Index2",
+            "SourceString": "150",
+            "LocalizedString": "150"
+          }
+        ],
+        "DefaultOptions": 1,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "403_Tips",
+          "SourceString": "按照渲染比例设置控制分辨率的缩放",
+          "LocalizedString": "按照渲染比例设置控制分辨率的缩放"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "RenderPercentage",
+        "DefaultOption2": "",
+        "Status": 1
+      },
+      "404": {
+        "Id": 404,
+        "Type": "Visual",
+        "SubType": "",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "404_Name",
+          "SourceString": "帧率限制",
+          "LocalizedString": "帧率限制"
+        },
+        "UiType": 3,
+        "Options": [
+          {
+            "Namespace": "Setting",
+            "Key": "404_Options_Index0",
+            "SourceString": "基于显示器",
+            "LocalizedString": "基于显示器"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "404_Options_Index1",
+            "SourceString": "自定义",
+            "LocalizedString": "自定义"
+          }
+        ],
+        "DefaultOptions": 2,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "404_Tips",
+          "SourceString": "基于显示器：游戏内最大帧率不会超过显示器的刷新率和硬件配置所支持的最大帧率\n自定义：游戏内最大帧率不会超过下方“最大帧率”设置项设置的帧率",
+          "LocalizedString": "基于显示器：游戏内最大帧率不会超过显示器的刷新率和硬件配置所支持的最大帧率\n自定义：游戏内最大帧率不会超过下方“最大帧率”设置项设置的帧率"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "FrameRateLimit",
+        "DefaultOption2": "",
+        "Status": 1
+      },
+      "405": {
+        "Id": 405,
+        "Type": "Visual",
+        "SubType": "",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "405_Name",
+          "SourceString": "最大帧率",
+          "LocalizedString": "最大帧率"
+        },
+        "UiType": 1,
+        "Options": [],
+        "DefaultOptions": 120000,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "405_Tips",
+          "SourceString": "自定义游戏内最大帧率",
+          "LocalizedString": "自定义游戏内最大帧率"
+        },
+        "Max": 300000,
+        "Min": 30000,
+        "Step": 1000,
+        "Indexkey": "MaxFPS",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "406": {
+        "Id": 406,
+        "Type": "Visual",
+        "SubType": "",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "406_Name",
+          "SourceString": "垂直同步",
+          "LocalizedString": "垂直同步"
+        },
+        "UiType": 3,
+        "Options": [
+          {
+            "Namespace": "Setting",
+            "Key": "406_Options_Index0",
+            "SourceString": "开启",
+            "LocalizedString": "开启"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "406_Options_Index1",
+            "SourceString": "关闭",
+            "LocalizedString": "关闭"
+          }
+        ],
+        "DefaultOptions": 2,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "406_Tips",
+          "SourceString": "改善画面撕裂",
+          "LocalizedString": "改善画面撕裂"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "Switch_VerticalSync",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "407": {
+        "Id": 407,
+        "Type": "Visual",
+        "SubType": "",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "407_Name",
+          "SourceString": "使用高清UI资源",
+          "LocalizedString": "使用高清UI资源"
+        },
+        "UiType": 3,
+        "Options": [
+          {
+            "Namespace": "Setting",
+            "Key": "407_Options_Index0",
+            "SourceString": "开启",
+            "LocalizedString": "开启"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "407_Options_Index1",
+            "SourceString": "关闭",
+            "LocalizedString": "关闭"
+          }
+        ],
+        "DefaultOptions": 2,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "407_Tips",
+          "SourceString": "开启后，将使用高清UI资源，重启游戏后生效",
+          "LocalizedString": "开启后，将使用高清UI资源，重启游戏后生效"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "Switch_UseHighQualityUI",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "409": {
+        "Id": 409,
+        "Type": "Visual",
+        "SubType": "",
+        "Title": {
+          "Namespace": "Setting",
+          "Key": "409_Title",
+          "SourceString": "图像质量",
+          "LocalizedString": "图像质量"
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "409_Name",
+          "SourceString": "整体图像质量",
+          "LocalizedString": "整体图像质量"
+        },
+        "UiType": 3,
+        "Options": [
+          {
+            "Namespace": "Setting",
+            "Key": "409_Options_Index0",
+            "SourceString": "低",
+            "LocalizedString": "低"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "409_Options_Index1",
+            "SourceString": "中",
+            "LocalizedString": "中"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "409_Options_Index2",
+            "SourceString": "高",
+            "LocalizedString": "高"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "409_Options_Index3",
+            "SourceString": "超高",
+            "LocalizedString": "超高"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "409_Options_Index4",
+            "SourceString": "极致",
+            "LocalizedString": "极致"
+          }
+        ],
+        "DefaultOptions": 5,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "409_Tips",
+          "SourceString": "调整整体图像质量",
+          "LocalizedString": "调整整体图像质量"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "Graphics",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "410": {
+        "Id": 410,
+        "Type": "Visual",
+        "SubType": "",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "410_Name",
+          "SourceString": "渲染模式",
+          "LocalizedString": "渲染模式"
+        },
+        "UiType": 3,
+        "Options": [
+          {
+            "Namespace": "Setting",
+            "Key": "410_Options_Index0",
+            "SourceString": "延迟",
+            "LocalizedString": "延迟"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "410_Options_Index1",
+            "SourceString": "前向",
+            "LocalizedString": "前向"
+          }
+        ],
+        "DefaultOptions": 1,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "410_Tips",
+          "SourceString": "调整渲染模式，前向渲染更加节省性能，延迟渲染表现更好",
+          "LocalizedString": "调整渲染模式，前向渲染更加节省性能，延迟渲染表现更好"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "RenderMode",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "411": {
+        "Id": 411,
+        "Type": "Visual",
+        "SubType": "",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "411_Name",
+          "SourceString": "纹理质量",
+          "LocalizedString": "纹理质量"
+        },
+        "UiType": 3,
+        "Options": [
+          {
+            "Namespace": "Setting",
+            "Key": "411_Options_Index0",
+            "SourceString": "低",
+            "LocalizedString": "低"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "411_Options_Index1",
+            "SourceString": "中",
+            "LocalizedString": "中"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "411_Options_Index2",
+            "SourceString": "高",
+            "LocalizedString": "高"
+          }
+        ],
+        "DefaultOptions": 1,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "411_Tips",
+          "SourceString": "调整纹理质量，更高的贴图质量要求更多的显存",
+          "LocalizedString": "调整纹理质量，更高的贴图质量要求更多的显存"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "TextureQuality",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "412": {
+        "Id": 412,
+        "Type": "Visual",
+        "SubType": "",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "412_Name",
+          "SourceString": "材质质量",
+          "LocalizedString": "材质质量"
+        },
+        "UiType": 3,
+        "Options": [
+          {
+            "Namespace": "Setting",
+            "Key": "412_Options_Index0",
+            "SourceString": "低",
+            "LocalizedString": "低"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "412_Options_Index1",
+            "SourceString": "中",
+            "LocalizedString": "中"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "412_Options_Index2",
+            "SourceString": "高",
+            "LocalizedString": "高"
+          }
+        ],
+        "DefaultOptions": 1,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "412_Tips",
+          "SourceString": "调整材质质量，更高的材质质量要求更多的显存",
+          "LocalizedString": "调整材质质量，更高的材质质量要求更多的显存"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "MaterialQuality",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "413": {
+        "Id": 413,
+        "Type": "Visual",
+        "SubType": "",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "413_Name",
+          "SourceString": "流式贴图加载速度",
+          "LocalizedString": "流式贴图加载速度"
+        },
+        "UiType": 3,
+        "Options": [
+          {
+            "Namespace": "Setting",
+            "Key": "413_Options_Index0",
+            "SourceString": "慢",
+            "LocalizedString": "慢"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "413_Options_Index1",
+            "SourceString": "快",
+            "LocalizedString": "快"
+          }
+        ],
+        "DefaultOptions": 1,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "413_Tips",
+          "SourceString": "调整纹理流的异步加载速度",
+          "LocalizedString": "调整纹理流的异步加载速度"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "TextureStreamingSpeedQuality",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "414": {
+        "Id": 414,
+        "Type": "Visual",
+        "SubType": "",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "414_Name",
+          "SourceString": "纹理采样",
+          "LocalizedString": "纹理采样"
+        },
+        "UiType": 3,
+        "Options": [
+          {
+            "Namespace": "Setting",
+            "Key": "414_Options_Index0",
+            "SourceString": "三线性",
+            "LocalizedString": "三线性"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "414_Options_Index1",
+            "SourceString": "各向异性2",
+            "LocalizedString": "各向异性2"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "414_Options_Index2",
+            "SourceString": "各向异性4",
+            "LocalizedString": "各向异性4"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "414_Options_Index3",
+            "SourceString": "各向异性8",
+            "LocalizedString": "各向异性8"
+          }
+        ],
+        "DefaultOptions": 1,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "414_Tips",
+          "SourceString": "控制表面细节的清晰度",
+          "LocalizedString": "控制表面细节的清晰度"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "TextureSamplerQuality",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "415": {
+        "Id": 415,
+        "Type": "Visual",
+        "SubType": "",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "415_Name",
+          "SourceString": "动画细节",
+          "LocalizedString": "动画细节"
+        },
+        "UiType": 3,
+        "Options": [
+          {
+            "Namespace": "Setting",
+            "Key": "415_Options_Index0",
+            "SourceString": "低",
+            "LocalizedString": "低"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "415_Options_Index1",
+            "SourceString": "中",
+            "LocalizedString": "中"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "415_Options_Index2",
+            "SourceString": "高",
+            "LocalizedString": "高"
+          }
+        ],
+        "DefaultOptions": 1,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "415_Tips",
+          "SourceString": "控制动画的细节程度，低等级将会忽略某些细节",
+          "LocalizedString": "控制动画的细节程度，低等级将会忽略某些细节"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "AnimationDetail",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "416": {
+        "Id": 416,
+        "Type": "Visual",
+        "SubType": "",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "416_Name",
+          "SourceString": "全屏泛光",
+          "LocalizedString": "全屏泛光"
+        },
+        "UiType": 3,
+        "Options": [
+          {
+            "Namespace": "Setting",
+            "Key": "416_Options_Index0",
+            "SourceString": "关",
+            "LocalizedString": "关"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "416_Options_Index1",
+            "SourceString": "低",
+            "LocalizedString": "低"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "416_Options_Index2",
+            "SourceString": "中",
+            "LocalizedString": "中"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "416_Options_Index3",
+            "SourceString": "高",
+            "LocalizedString": "高"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "416_Options_Index4",
+            "SourceString": "超高",
+            "LocalizedString": "超高"
+          }
+        ],
+        "DefaultOptions": 1,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "416_Tips",
+          "SourceString": "模拟辉光效果",
+          "LocalizedString": "模拟辉光效果"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "BloomQuality",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "417": {
+        "Id": 417,
+        "Type": "Visual",
+        "SubType": "",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "417_Name",
+          "SourceString": "光晕效果",
+          "LocalizedString": "光晕效果"
+        },
+        "UiType": 3,
+        "Options": [
+          {
+            "Namespace": "Setting",
+            "Key": "417_Options_Index0",
+            "SourceString": "关",
+            "LocalizedString": "关"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "417_Options_Index1",
+            "SourceString": "开",
+            "LocalizedString": "开"
+          }
+        ],
+        "DefaultOptions": 1,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "417_Tips",
+          "SourceString": "模拟镜头里的光照散射，在画面上产生耀斑或彩色斑点",
+          "LocalizedString": "模拟镜头里的光照散射，在画面上产生耀斑或彩色斑点"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "LensFlareQuality",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "418": {
+        "Id": 418,
+        "Type": "Visual",
+        "SubType": "",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "418_Name",
+          "SourceString": "屏幕空间环境遮蔽",
+          "LocalizedString": "屏幕空间环境遮蔽"
+        },
+        "UiType": 3,
+        "Options": [
+          {
+            "Namespace": "Setting",
+            "Key": "418_Options_Index0",
+            "SourceString": "关",
+            "LocalizedString": "关"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "418_Options_Index1",
+            "SourceString": "低",
+            "LocalizedString": "低"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "418_Options_Index2",
+            "SourceString": "高",
+            "LocalizedString": "高"
+          }
+        ],
+        "DefaultOptions": 1,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "418_Tips",
+          "SourceString": "屏幕空间环境光遮蔽会在被几何物体遮挡的地方生成自然阴影",
+          "LocalizedString": "屏幕空间环境光遮蔽会在被几何物体遮挡的地方生成自然阴影"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "SSAOQuality",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "419": {
+        "Id": 419,
+        "Type": "Visual",
+        "SubType": "",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "419_Name",
+          "SourceString": "屏幕空间反射",
+          "LocalizedString": "屏幕空间反射"
+        },
+        "UiType": 3,
+        "Options": [
+          {
+            "Namespace": "Setting",
+            "Key": "419_Options_Index0",
+            "SourceString": "关",
+            "LocalizedString": "关"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "419_Options_Index1",
+            "SourceString": "低",
+            "LocalizedString": "低"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "419_Options_Index2",
+            "SourceString": "高",
+            "LocalizedString": "高"
+          }
+        ],
+        "DefaultOptions": 1,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "419_Tips",
+          "SourceString": "调整游戏中的反射质量，较高的质量可以改善图像细节和平滑度",
+          "LocalizedString": "调整游戏中的反射质量，较高的质量可以改善图像细节和平滑度"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "SSRQuality",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "420": {
+        "Id": 420,
+        "Type": "Visual",
+        "SubType": "",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "420_Name",
+          "SourceString": "特效质量",
+          "LocalizedString": "特效质量"
+        },
+        "UiType": 3,
+        "Options": [
+          {
+            "Namespace": "Setting",
+            "Key": "420_Options_Index0",
+            "SourceString": "低",
+            "LocalizedString": "低"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "420_Options_Index1",
+            "SourceString": "中",
+            "LocalizedString": "中"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "420_Options_Index2",
+            "SourceString": "高",
+            "LocalizedString": "高"
+          }
+        ],
+        "DefaultOptions": 1,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "420_Tips",
+          "SourceString": "调整游戏中粒子特效的精细程度",
+          "LocalizedString": "调整游戏中粒子特效的精细程度"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "EffectQuality",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "421": {
+        "Id": 421,
+        "Type": "Visual",
+        "SubType": "",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "421_Name",
+          "SourceString": "抗锯齿",
+          "LocalizedString": "抗锯齿"
+        },
+        "UiType": 3,
+        "Options": [
+          {
+            "Namespace": "Setting",
+            "Key": "421_Options_Index0",
+            "SourceString": "关闭",
+            "LocalizedString": "关闭"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "421_Options_Index1",
+            "SourceString": "FXAA",
+            "LocalizedString": "FXAA"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "421_Options_Index2",
+            "SourceString": "SMAA",
+            "LocalizedString": "SMAA"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "421_Options_Index3",
+            "SourceString": "TAA",
+            "LocalizedString": "TAA"
+          }
+        ],
+        "DefaultOptions": 1,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "421_Tips",
+          "SourceString": "抗锯齿可以使图像边缘更平滑，消除锯齿线条和闪光",
+          "LocalizedString": "抗锯齿可以使图像边缘更平滑，消除锯齿线条和闪光"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "AntiAliasingQuality",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "422": {
+        "Id": 422,
+        "Type": "Visual",
+        "SubType": "",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "422_Name",
+          "SourceString": "校色",
+          "LocalizedString": "校色"
+        },
+        "UiType": 3,
+        "Options": [
+          {
+            "Namespace": "Setting",
+            "Key": "422_Options_Index0",
+            "SourceString": "低",
+            "LocalizedString": "低"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "422_Options_Index1",
+            "SourceString": "中",
+            "LocalizedString": "中"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "422_Options_Index2",
+            "SourceString": "高",
+            "LocalizedString": "高"
+          }
+        ],
+        "DefaultOptions": 1,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "422_Tips",
+          "SourceString": "调整场景校色效果",
+          "LocalizedString": "调整场景校色效果"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "TonemapperQuality",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "423": {
+        "Id": 423,
+        "Type": "Visual",
+        "SubType": "",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "423_Name",
+          "SourceString": "折射",
+          "LocalizedString": "折射"
+        },
+        "UiType": 3,
+        "Options": [
+          {
+            "Namespace": "Setting",
+            "Key": "423_Options_Index0",
+            "SourceString": "关",
+            "LocalizedString": "关"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "423_Options_Index1",
+            "SourceString": "开",
+            "LocalizedString": "开"
+          }
+        ],
+        "DefaultOptions": 1,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "423_Tips",
+          "SourceString": "模拟光线在穿过不同介质时的折射现象",
+          "LocalizedString": "模拟光线在穿过不同介质时的折射现象"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "RefractionQuality",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "424": {
+        "Id": 424,
+        "Type": "Visual",
+        "SubType": "",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "424_Name",
+          "SourceString": "雾",
+          "LocalizedString": "雾"
+        },
+        "UiType": 3,
+        "Options": [
+          {
+            "Namespace": "Setting",
+            "Key": "424_Options_Index0",
+            "SourceString": "关",
+            "LocalizedString": "关"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "424_Options_Index1",
+            "SourceString": "开",
+            "LocalizedString": "开"
+          }
+        ],
+        "DefaultOptions": 1,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "424_Tips",
+          "SourceString": "雾效",
+          "LocalizedString": "雾效"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "FogQuality",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "425": {
+        "Id": 425,
+        "Type": "Visual",
+        "SubType": "",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "425_Name",
+          "SourceString": "阴影",
+          "LocalizedString": "阴影"
+        },
+        "UiType": 3,
+        "Options": [
+          {
+            "Namespace": "Setting",
+            "Key": "425_Options_Index0",
+            "SourceString": "关",
+            "LocalizedString": "关"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "425_Options_Index1",
+            "SourceString": "低",
+            "LocalizedString": "低"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "425_Options_Index2",
+            "SourceString": "中",
+            "LocalizedString": "中"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "425_Options_Index3",
+            "SourceString": "高",
+            "LocalizedString": "高"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "425_Options_Index4",
+            "SourceString": "超高",
+            "LocalizedString": "超高"
+          }
+        ],
+        "DefaultOptions": 1,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "425_Tips",
+          "SourceString": "调整整体阴影质量",
+          "LocalizedString": "调整整体阴影质量"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "ShadowQuality",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "426": {
+        "Id": 426,
+        "Type": "Visual",
+        "SubType": "",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "426_Name",
+          "SourceString": "模型细节",
+          "LocalizedString": "模型细节"
+        },
+        "UiType": 3,
+        "Options": [
+          {
+            "Namespace": "Setting",
+            "Key": "426_Options_Index0",
+            "SourceString": "低",
+            "LocalizedString": "低"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "426_Options_Index1",
+            "SourceString": "高",
+            "LocalizedString": "高"
+          }
+        ],
+        "DefaultOptions": 1,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "426_Tips",
+          "SourceString": "调整模型细节表现",
+          "LocalizedString": "调整模型细节表现"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "ModelDetailQuality",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "427": {
+        "Id": 427,
+        "Type": "Visual",
+        "SubType": "",
+        "Title": {
+          "Namespace": "Setting",
+          "Key": "427_Title",
+          "SourceString": "数据",
+          "LocalizedString": "数据"
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "427_Name",
+          "SourceString": "帧率",
+          "LocalizedString": "帧率"
+        },
+        "UiType": 3,
+        "Options": [
+          {
+            "Namespace": "Setting",
+            "Key": "427_Options_Index0",
+            "SourceString": "开启",
+            "LocalizedString": "开启"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "427_Options_Index1",
+            "SourceString": "关闭",
+            "LocalizedString": "关闭"
+          }
+        ],
+        "DefaultOptions": 1,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "427_Tips",
+          "SourceString": "是否在游戏内显示帧率",
+          "LocalizedString": "是否在游戏内显示帧率"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "Switch_FPS",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "428": {
+        "Id": 428,
+        "Type": "Visual",
+        "SubType": "",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "428_Name",
+          "SourceString": "网络延迟",
+          "LocalizedString": "网络延迟"
+        },
+        "UiType": 3,
+        "Options": [
+          {
+            "Namespace": "Setting",
+            "Key": "428_Options_Index0",
+            "SourceString": "开启",
+            "LocalizedString": "开启"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "428_Options_Index1",
+            "SourceString": "关闭",
+            "LocalizedString": "关闭"
+          }
+        ],
+        "DefaultOptions": 1,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "428_Tips",
+          "SourceString": "是否在游戏内显示网络延迟",
+          "LocalizedString": "是否在游戏内显示网络延迟"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "Switch_PING",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "429": {
+        "Id": 429,
+        "Type": "Visual",
+        "SubType": "",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "429_Name",
+          "SourceString": "丢包率",
+          "LocalizedString": "丢包率"
+        },
+        "UiType": 3,
+        "Options": [
+          {
+            "Namespace": "Setting",
+            "Key": "429_Options_Index0",
+            "SourceString": "开启",
+            "LocalizedString": "开启"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "429_Options_Index1",
+            "SourceString": "关闭",
+            "LocalizedString": "关闭"
+          }
+        ],
+        "DefaultOptions": 2,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "429_Tips",
+          "SourceString": "是否在游戏内显示丢包率",
+          "LocalizedString": "是否在游戏内显示丢包率"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "Switch_PackLostRate",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "501": {
+        "Id": 501,
+        "Type": "Sound",
+        "SubType": "",
+        "Title": {
+          "Namespace": "Setting",
+          "Key": "501_Title",
+          "SourceString": "声音",
+          "LocalizedString": "声音"
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "501_Name",
+          "SourceString": "总音量",
+          "LocalizedString": "总音量"
+        },
+        "UiType": 2,
+        "Options": [],
+        "DefaultOptions": 50000,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "501_Tips",
+          "SourceString": "调节游戏整体音量",
+          "LocalizedString": "调节游戏整体音量"
+        },
+        "Max": 100000,
+        "Min": 0,
+        "Step": 1000,
+        "Indexkey": "Volume",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "502": {
+        "Id": 502,
+        "Type": "Sound",
+        "SubType": "",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "502_Name",
+          "SourceString": "音乐音量",
+          "LocalizedString": "音乐音量"
+        },
+        "UiType": 2,
+        "Options": [],
+        "DefaultOptions": 50000,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "502_Tips",
+          "SourceString": "调节背景音乐的音量",
+          "LocalizedString": "调节背景音乐的音量"
+        },
+        "Max": 100000,
+        "Min": 0,
+        "Step": 1000,
+        "Indexkey": "MusicVolume",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "503": {
+        "Id": 503,
+        "Type": "Sound",
+        "SubType": "",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "503_Name",
+          "SourceString": "界面音量",
+          "LocalizedString": "界面音量"
+        },
+        "UiType": 2,
+        "Options": [],
+        "DefaultOptions": 50000,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "503_Tips",
+          "SourceString": "调节与各类按键交互时音效的音量",
+          "LocalizedString": "调节与各类按键交互时音效的音量"
+        },
+        "Max": 100000,
+        "Min": 0,
+        "Step": 1000,
+        "Indexkey": "UIVolume",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "504": {
+        "Id": 504,
+        "Type": "Sound",
+        "SubType": "",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "504_Name",
+          "SourceString": "音效音量",
+          "LocalizedString": "音效音量"
+        },
+        "UiType": 2,
+        "Options": [],
+        "DefaultOptions": 50000,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "504_Tips",
+          "SourceString": "调节游戏内枪声、脚步声，以及技能等音效的音量",
+          "LocalizedString": "调节游戏内枪声、脚步声，以及技能等音效的音量"
+        },
+        "Max": 100000,
+        "Min": 0,
+        "Step": 1000,
+        "Indexkey": "GameVolume",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "505": {
+        "Id": 505,
+        "Type": "Sound",
+        "SubType": "",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "505_Name",
+          "SourceString": "语音音量",
+          "LocalizedString": "语音音量"
+        },
+        "UiType": 2,
+        "Options": [],
+        "DefaultOptions": 50000,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "505_Tips",
+          "SourceString": "调节游戏角色配音的音量",
+          "LocalizedString": "调节游戏角色配音的音量"
+        },
+        "Max": 100000,
+        "Min": 0,
+        "Step": 1000,
+        "Indexkey": "CharacterVoice",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "506": {
+        "Id": 506,
+        "Type": "Sound",
+        "SubType": "",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "506_Name",
+          "SourceString": "空间音频",
+          "LocalizedString": "空间音频"
+        },
+        "UiType": 3,
+        "Options": [
+          {
+            "Namespace": "Setting",
+            "Key": "506_Options_Index0",
+            "SourceString": "关闭",
+            "LocalizedString": "关闭"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "506_Options_Index1",
+            "SourceString": "低",
+            "LocalizedString": "低"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "506_Options_Index2",
+            "SourceString": "中",
+            "LocalizedString": "中"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "506_Options_Index3",
+            "SourceString": "高",
+            "LocalizedString": "高"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "506_Options_Index4",
+            "SourceString": "自定义",
+            "LocalizedString": "自定义"
+          }
+        ],
+        "DefaultOptions": 4,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "506_Tips",
+          "SourceString": "选择游戏内音效的空间音频效果。\n\n如果遇到音频卡顿，可通过降低空间音频效果缓解。\n如果遇到所有枪声、脚步声无声，可能存在硬件兼容性问题，尝试关闭空间音频效果或将音频输出配置修改为HRTF声效以解决问题。",
+          "LocalizedString": "选择游戏内音效的空间音频效果。\n\n如果遇到音频卡顿，可通过降低空间音频效果缓解。\n如果遇到所有枪声、脚步声无声，可能存在硬件兼容性问题，尝试关闭空间音频效果或将音频输出配置修改为HRTF声效以解决问题。"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "SpatialAudioType",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "507": {
+        "Id": 507,
+        "Type": "Sound",
+        "SubType": "",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "507_Name",
+          "SourceString": "房间衍射",
+          "LocalizedString": "房间衍射"
+        },
+        "UiType": 3,
+        "Options": [
+          {
+            "Namespace": "Setting",
+            "Key": "507_Options_Index0",
+            "SourceString": "关闭",
+            "LocalizedString": "关闭"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "507_Options_Index1",
+            "SourceString": "仅房间",
+            "LocalizedString": "仅房间"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "507_Options_Index2",
+            "SourceString": "房间和障碍物",
+            "LocalizedString": "房间和障碍物"
+          }
+        ],
+        "DefaultOptions": 3,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "507_Tips",
+          "SourceString": "开启房间及障碍物对声音的衍射效果，平滑过渡不同区域的音效表现",
+          "LocalizedString": "开启房间及障碍物对声音的衍射效果，平滑过渡不同区域的音效表现"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "SoundDiffractionLevel",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "508": {
+        "Id": 508,
+        "Type": "Sound",
+        "SubType": "",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "508_Name",
+          "SourceString": "空间混响",
+          "LocalizedString": "空间混响"
+        },
+        "UiType": 3,
+        "Options": [
+          {
+            "Namespace": "Setting",
+            "Key": "508_Options_Index0",
+            "SourceString": "开启",
+            "LocalizedString": "开启"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "508_Options_Index1",
+            "SourceString": "关闭",
+            "LocalizedString": "关闭"
+          }
+        ],
+        "DefaultOptions": 1,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "508_Tips",
+          "SourceString": "开启不同区域的混响效果，增加空间感 ",
+          "LocalizedString": "开启不同区域的混响效果，增加空间感 "
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "SoundReverbLevel",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "509": {
+        "Id": 509,
+        "Type": "Sound",
+        "SubType": "",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "509_Name",
+          "SourceString": "配音语言",
+          "LocalizedString": "配音语言"
+        },
+        "UiType": 3,
+        "Options": [
+          {
+            "Namespace": "Setting",
+            "Key": "509_Options_Index0",
+            "SourceString": "日语",
+            "LocalizedString": "日语"
+          }
+        ],
+        "DefaultOptions": 1,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "509_Tips",
+          "SourceString": "选择游戏角色配音使用的语言。\n\n目前选择\"日语\"选项时，仅会将对局内的语音改为日语，在对局外仍将听到汉语配音，对局外的日语配音尚在制作中，敬请期待。",
+          "LocalizedString": "选择游戏角色配音使用的语言。\n\n目前选择\"日语\"选项时，仅会将对局内的语音改为日语，在对局外仍将听到汉语配音，对局外的日语配音尚在制作中，敬请期待。"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "CvStyle",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "511": {
+        "Id": 511,
+        "Type": "Sound",
+        "SubType": "",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "511_Name",
+          "SourceString": "音频输出配置",
+          "LocalizedString": "音频输出配置"
+        },
+        "UiType": 3,
+        "Options": [
+          {
+            "Namespace": "Setting",
+            "Key": "511_Options_Index0",
+            "SourceString": "跟随系统",
+            "LocalizedString": "跟随系统"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "511_Options_Index1",
+            "SourceString": "耳机/立体声",
+            "LocalizedString": "耳机/立体声"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "511_Options_Index2",
+            "SourceString": "HRTF声效",
+            "LocalizedString": "HRTF声效"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "511_Options_Index3",
+            "SourceString": "7.1环绕声/杜比全景声",
+            "LocalizedString": "7.1环绕声/杜比全景声"
+          }
+        ],
+        "DefaultOptions": 1,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "511_Tips",
+          "SourceString": "选择游戏中脚步声、枪弹声、技能音效等其他游戏内声音呈现的方式，不同选择有不同的3D空间化效果。\n\n\n跟随系统：根据音频设备及环境自动切换。\n\nHRTF声效：通过耳机展现3D环绕声效，清晰地表现前后方的音效。启用HRTF时请关闭其他3D音效处理程序。\n\n7.1环绕声：若设备或环境支持，将拓展声场并能听到各个方向的声音，带来更精准的声场定位。\n\n杜比全景声：若设备或环境支持，可体验沉浸式的杜比全景声（Dolby Atmos），能够以萦绕于用户头顶上方及四周的震撼灵动音效，让你在游戏中拔得头筹，充分体验紧张刺激的氛围，仿佛穿越到游戏之中。",
+          "LocalizedString": "选择游戏中脚步声、枪弹声、技能音效等其他游戏内声音呈现的方式，不同选择有不同的3D空间化效果。\n\n\n跟随系统：根据音频设备及环境自动切换。\n\nHRTF声效：通过耳机展现3D环绕声效，清晰地表现前后方的音效。启用HRTF时请关闭其他3D音效处理程序。\n\n7.1环绕声：若设备或环境支持，将拓展声场并能听到各个方向的声音，带来更精准的声场定位。\n\n杜比全景声：若设备或环境支持，可体验沉浸式的杜比全景声（Dolby Atmos），能够以萦绕于用户头顶上方及四周的震撼灵动音效，让你在游戏中拔得头筹，充分体验紧张刺激的氛围，仿佛穿越到游戏之中。"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "VoiceEffect",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "512": {
+        "Id": 512,
+        "Type": "Sound",
+        "SubType": "",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "512_Name",
+          "SourceString": "Windows音频输出配置",
+          "LocalizedString": "Windows音频输出配置"
+        },
+        "UiType": 0,
+        "Options": [],
+        "DefaultOptions": 0,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "512_Tips",
+          "SourceString": "当前的Windows音频输出配置",
+          "LocalizedString": "当前的Windows音频输出配置"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "WindowVoiceConfigDesc",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "513": {
+        "Id": 513,
+        "Type": "Sound",
+        "SubType": "",
+        "Title": {
+          "Namespace": "Setting",
+          "Key": "513_Title",
+          "SourceString": "语音聊天",
+          "LocalizedString": "语音聊天"
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "513_Name",
+          "SourceString": "麦克风音量",
+          "LocalizedString": "麦克风音量"
+        },
+        "UiType": 2,
+        "Options": [],
+        "DefaultOptions": 50000,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "513_Tips",
+          "SourceString": "玩家输入的音量",
+          "LocalizedString": "玩家输入的音量"
+        },
+        "Max": 100000,
+        "Min": 0,
+        "Step": 1000,
+        "Indexkey": "MicrophoneVolume",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "514": {
+        "Id": 514,
+        "Type": "Sound",
+        "SubType": "",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "514_Name",
+          "SourceString": "语音聊天音量",
+          "LocalizedString": "语音聊天音量"
+        },
+        "UiType": 2,
+        "Options": [],
+        "DefaultOptions": 50000,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "514_Tips",
+          "SourceString": "接受其他玩家输入的音量",
+          "LocalizedString": "接受其他玩家输入的音量"
+        },
+        "Max": 100000,
+        "Min": 0,
+        "Step": 1000,
+        "Indexkey": "VoiceChatVolume",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "515": {
+        "Id": 515,
+        "Type": "Sound",
+        "SubType": "",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "515_Name",
+          "SourceString": "组队语音",
+          "LocalizedString": "组队语音"
+        },
+        "UiType": 3,
+        "Options": [
+          {
+            "Namespace": "Setting",
+            "Key": "515_Options_Index0",
+            "SourceString": "开启",
+            "LocalizedString": "开启"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "515_Options_Index1",
+            "SourceString": "关闭",
+            "LocalizedString": "关闭"
+          }
+        ],
+        "DefaultOptions": 1,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "515_Tips",
+          "SourceString": "影响匹配或排位模式中，组队语音频道的开启或关闭",
+          "LocalizedString": "影响匹配或排位模式中，组队语音频道的开启或关闭"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "Switch_RoomChat",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "516": {
+        "Id": 516,
+        "Type": "Sound",
+        "SubType": "",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "516_Name",
+          "SourceString": "自定义房间语音",
+          "LocalizedString": "自定义房间语音"
+        },
+        "UiType": 3,
+        "Options": [
+          {
+            "Namespace": "Setting",
+            "Key": "516_Options_Index0",
+            "SourceString": "开启",
+            "LocalizedString": "开启"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "516_Options_Index1",
+            "SourceString": "关闭",
+            "LocalizedString": "关闭"
+          }
+        ],
+        "DefaultOptions": 2,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "516_Tips",
+          "SourceString": "影响自定义房间模式中，房间语音频道的开启或关闭",
+          "LocalizedString": "影响自定义房间模式中，房间语音频道的开启或关闭"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "Switch_CustomRoomChat",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "517": {
+        "Id": 517,
+        "Type": "Sound",
+        "SubType": "",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "517_Name",
+          "SourceString": "组队/房间语音输入模式",
+          "LocalizedString": "组队/房间语音输入模式"
+        },
+        "UiType": 3,
+        "Options": [
+          {
+            "Namespace": "Setting",
+            "Key": "517_Options_Index0",
+            "SourceString": "按键发言",
+            "LocalizedString": "按键发言"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "517_Options_Index1",
+            "SourceString": "自动发言",
+            "LocalizedString": "自动发言"
+          }
+        ],
+        "DefaultOptions": 1,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "517_Tips",
+          "SourceString": "设置组队/房间语音输入模式",
+          "LocalizedString": "设置组队/房间语音输入模式"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "VoiceInputMode",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "518": {
+        "Id": 518,
+        "Type": "Sound",
+        "SubType": "",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "518_Name",
+          "SourceString": "房间语音输入模式描述",
+          "LocalizedString": "房间语音输入模式描述"
+        },
+        "UiType": 0,
+        "Options": [],
+        "DefaultOptions": 0,
+        "Tips": {
+          "CultureInvariantString": null
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "VoiceInputModeDesc",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "519": {
+        "Id": 519,
+        "Type": "Sound",
+        "SubType": "",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "519_Name",
+          "SourceString": "队伍语音聊天",
+          "LocalizedString": "队伍语音聊天"
+        },
+        "UiType": 3,
+        "Options": [
+          {
+            "Namespace": "Setting",
+            "Key": "519_Options_Index0",
+            "SourceString": "开启",
+            "LocalizedString": "开启"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "519_Options_Index1",
+            "SourceString": "关闭",
+            "LocalizedString": "关闭"
+          }
+        ],
+        "DefaultOptions": 1,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "519_Tips",
+          "SourceString": "队伍语音频道包含己方全部5个队友",
+          "LocalizedString": "队伍语音频道包含己方全部5个队友"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "Switch_TeamChat",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "520": {
+        "Id": 520,
+        "Type": "Sound",
+        "SubType": "",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "520_Name",
+          "SourceString": "队伍语音聊天模式",
+          "LocalizedString": "队伍语音聊天模式"
+        },
+        "UiType": 3,
+        "Options": [
+          {
+            "Namespace": "Setting",
+            "Key": "520_Options_Index0",
+            "SourceString": "按键发言",
+            "LocalizedString": "按键发言"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "520_Options_Index1",
+            "SourceString": "自动发言",
+            "LocalizedString": "自动发言"
+          }
+        ],
+        "DefaultOptions": 1,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "520_Tips",
+          "SourceString": "匹配游戏中己方队伍全员沟通频道， 确认开启队伍语音频道的方式为自由发言或按键发言",
+          "LocalizedString": "匹配游戏中己方队伍全员沟通频道， 确认开启队伍语音频道的方式为自由发言或按键发言"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "TeamVoiceInputMode",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "521": {
+        "Id": 521,
+        "Type": "Sound",
+        "SubType": "",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "521_Name",
+          "SourceString": "队伍语音聊天描述",
+          "LocalizedString": "队伍语音聊天描述"
+        },
+        "UiType": 0,
+        "Options": [],
+        "DefaultOptions": 0,
+        "Tips": {
+          "CultureInvariantString": null
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "SwitchTeamChatDesc",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "522": {
+        "Id": 522,
+        "Type": "Sound",
+        "SubType": "",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "522_Name",
+          "SourceString": "队伍语音聊天跳转",
+          "LocalizedString": "队伍语音聊天跳转"
+        },
+        "UiType": 0,
+        "Options": [],
+        "DefaultOptions": 0,
+        "Tips": {
+          "CultureInvariantString": null
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "SwitchTeamChatJump",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "523": {
+        "Id": 523,
+        "Type": "Sound",
+        "SubType": "",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "523_Name",
+          "SourceString": "语音输入设备",
+          "LocalizedString": "语音输入设备"
+        },
+        "UiType": 3,
+        "Options": [],
+        "DefaultOptions": 0,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "523_Tips",
+          "SourceString": "指定游戏用于语音聊天的音频输入设备（通常是麦克风或耳机）",
+          "LocalizedString": "指定游戏用于语音聊天的音频输入设备（通常是麦克风或耳机）"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "VoiceInputDevice",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "524": {
+        "Id": 524,
+        "Type": "Sound",
+        "SubType": "",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "524_Name",
+          "SourceString": "语音输出设备",
+          "LocalizedString": "语音输出设备"
+        },
+        "UiType": 3,
+        "Options": [],
+        "DefaultOptions": 0,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "524_Tips",
+          "SourceString": "指定游戏用于语音聊天的音频输出设备（通常是耳机或音响）\n注意：如需更改游戏中其他音频的输出设备，请在游戏外的系统设置中选择",
+          "LocalizedString": "指定游戏用于语音聊天的音频输出设备（通常是耳机或音响）\n注意：如需更改游戏中其他音频的输出设备，请在游戏外的系统设置中选择"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "VoiceOutputDevice",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "601": {
+        "Id": 601,
+        "Type": "CrossHair",
+        "SubType": "",
+        "Title": {
+          "Namespace": "Setting",
+          "Key": "601_Title",
+          "SourceString": "准星通用选项",
+          "LocalizedString": "准星通用选项"
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "601_Name",
+          "SourceString": "准星颜色",
+          "LocalizedString": "准星颜色"
+        },
+        "UiType": 3,
+        "Options": [
+          {
+            "Namespace": "Setting",
+            "Key": "601_Options_Index0",
+            "SourceString": "白色",
+            "LocalizedString": "白色"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "601_Options_Index1",
+            "SourceString": "绿色",
+            "LocalizedString": "绿色"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "601_Options_Index2",
+            "SourceString": "黄绿色",
+            "LocalizedString": "黄绿色"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "601_Options_Index3",
+            "SourceString": "黄色",
+            "LocalizedString": "黄色"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "601_Options_Index4",
+            "SourceString": "青色",
+            "LocalizedString": "青色"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "601_Options_Index5",
+            "SourceString": "粉色",
+            "LocalizedString": "粉色"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "601_Options_Index6",
+            "SourceString": "红色",
+            "LocalizedString": "红色"
+          }
+        ],
+        "DefaultOptions": 1,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "601_Tips",
+          "SourceString": "设置准星的颜色",
+          "LocalizedString": "设置准星的颜色"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "CrossHairColor",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "602": {
+        "Id": 602,
+        "Type": "CrossHair",
+        "SubType": "",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "602_Name",
+          "SourceString": "外框",
+          "LocalizedString": "外框"
+        },
+        "UiType": 3,
+        "Options": [
+          {
+            "Namespace": "Setting",
+            "Key": "602_Options_Index0",
+            "SourceString": "开启",
+            "LocalizedString": "开启"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "602_Options_Index1",
+            "SourceString": "关闭",
+            "LocalizedString": "关闭"
+          }
+        ],
+        "DefaultOptions": 1,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "602_Tips",
+          "SourceString": "是否显示准星的外框部分",
+          "LocalizedString": "是否显示准星的外框部分"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "Switch_OuterFrame",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "603": {
+        "Id": 603,
+        "Type": "CrossHair",
+        "SubType": "",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "603_Name",
+          "SourceString": "外框不透明度",
+          "LocalizedString": "外框不透明度"
+        },
+        "UiType": 1,
+        "Options": [],
+        "DefaultOptions": 500,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "603_Tips",
+          "SourceString": "调节准星外框的不透明度",
+          "LocalizedString": "调节准星外框的不透明度"
+        },
+        "Max": 1000,
+        "Min": 0,
+        "Step": 10,
+        "Indexkey": "OuterFrameOpacity",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "604": {
+        "Id": 604,
+        "Type": "CrossHair",
+        "SubType": "",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "604_Name",
+          "SourceString": "外框粗细",
+          "LocalizedString": "外框粗细"
+        },
+        "UiType": 1,
+        "Options": [],
+        "DefaultOptions": 1000,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "604_Tips",
+          "SourceString": "调节准星外框的粗细",
+          "LocalizedString": "调节准星外框的粗细"
+        },
+        "Max": 6000,
+        "Min": 1000,
+        "Step": 1000,
+        "Indexkey": "OuterFrameThickness",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "605": {
+        "Id": 605,
+        "Type": "CrossHair",
+        "SubType": "",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "605_Name",
+          "SourceString": "显示被观察玩家的十字准星",
+          "LocalizedString": "显示被观察玩家的十字准星"
+        },
+        "UiType": 3,
+        "Options": [
+          {
+            "Namespace": "Setting",
+            "Key": "605_Options_Index0",
+            "SourceString": "开启",
+            "LocalizedString": "开启"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "605_Options_Index1",
+            "SourceString": "关闭",
+            "LocalizedString": "关闭"
+          }
+        ],
+        "DefaultOptions": 1,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "605_Tips",
+          "SourceString": "开启：观战时，显示被观战玩家的十字准星\n关闭：观战时，显示自己的十字准星",
+          "LocalizedString": "开启：观战时，显示被观战玩家的十字准星\n关闭：观战时，显示自己的十字准星"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "Switch_ObserverCrossHair",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "606": {
+        "Id": 606,
+        "Type": "CrossHair",
+        "SubType": "",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "606_Name",
+          "SourceString": "将十字准星套用至所有武器",
+          "LocalizedString": "将十字准星套用至所有武器"
+        },
+        "UiType": 3,
+        "Options": [
+          {
+            "Namespace": "Setting",
+            "Key": "606_Options_Index0",
+            "SourceString": "开启",
+            "LocalizedString": "开启"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "606_Options_Index1",
+            "SourceString": "关闭",
+            "LocalizedString": "关闭"
+          }
+        ],
+        "DefaultOptions": 2,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "606_Tips",
+          "SourceString": "开启：所有武器都采用自定义的十字准星\n关闭：除了霰弹枪、武士刀、喷火枪以外的所有武器采用自定义的的十字准星；霰弹枪、武士刀、喷火枪的准星保持不变",
+          "LocalizedString": "开启：所有武器都采用自定义的十字准星\n关闭：除了霰弹枪、武士刀、喷火枪以外的所有武器采用自定义的的十字准星；霰弹枪、武士刀、喷火枪的准星保持不变"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "Switch_CrossApplyAllWeapon",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "607": {
+        "Id": 607,
+        "Type": "CrossHair",
+        "SubType": "",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "607_Name",
+          "SourceString": "准星中心点",
+          "LocalizedString": "准星中心点"
+        },
+        "UiType": 3,
+        "Options": [
+          {
+            "Namespace": "Setting",
+            "Key": "607_Options_Index0",
+            "SourceString": "开启",
+            "LocalizedString": "开启"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "607_Options_Index1",
+            "SourceString": "关闭",
+            "LocalizedString": "关闭"
+          }
+        ],
+        "DefaultOptions": 1,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "607_Tips",
+          "SourceString": "是否显示准星的中心点",
+          "LocalizedString": "是否显示准星的中心点"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "Switch_ShowCrossHair",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "608": {
+        "Id": 608,
+        "Type": "CrossHair",
+        "SubType": "",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "608_Name",
+          "SourceString": "准星中心点透明度",
+          "LocalizedString": "准星中心点透明度"
+        },
+        "UiType": 1,
+        "Options": [],
+        "DefaultOptions": 1000,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "608_Tips",
+          "SourceString": "调节准星中心点的不透明度",
+          "LocalizedString": "调节准星中心点的不透明度"
+        },
+        "Max": 1000,
+        "Min": 0,
+        "Step": 10,
+        "Indexkey": "CrossHairCenterOpacity",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "609": {
+        "Id": 609,
+        "Type": "CrossHair",
+        "SubType": "",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "609_Name",
+          "SourceString": "准星中心点粗细",
+          "LocalizedString": "准星中心点粗细"
+        },
+        "UiType": 1,
+        "Options": [],
+        "DefaultOptions": 2000,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "609_Tips",
+          "SourceString": "调节准星中心点的粗细",
+          "LocalizedString": "调节准星中心点的粗细"
+        },
+        "Max": 6000,
+        "Min": 1000,
+        "Step": 1000,
+        "Indexkey": "CrossHairCenterThickness",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "610": {
+        "Id": 610,
+        "Type": "CrossHair",
+        "SubType": "",
+        "Title": {
+          "Namespace": "Setting",
+          "Key": "610_Title",
+          "SourceString": "内侧十字准星",
+          "LocalizedString": "内侧十字准星"
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "610_Name",
+          "SourceString": "显示内侧十字准星",
+          "LocalizedString": "显示内侧十字准星"
+        },
+        "UiType": 3,
+        "Options": [
+          {
+            "Namespace": "Setting",
+            "Key": "610_Options_Index0",
+            "SourceString": "开启",
+            "LocalizedString": "开启"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "610_Options_Index1",
+            "SourceString": "关闭",
+            "LocalizedString": "关闭"
+          }
+        ],
+        "DefaultOptions": 1,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "610_Tips",
+          "SourceString": "是否显示内侧十字准星",
+          "LocalizedString": "是否显示内侧十字准星"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "Switch_InnerCrossHair",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "611": {
+        "Id": 611,
+        "Type": "CrossHair",
+        "SubType": "",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "611_Name",
+          "SourceString": "内侧十字准星不透明度",
+          "LocalizedString": "内侧十字准星不透明度"
+        },
+        "UiType": 1,
+        "Options": [],
+        "DefaultOptions": 800,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "611_Tips",
+          "SourceString": "调节内侧十字准星的不透明度",
+          "LocalizedString": "调节内侧十字准星的不透明度"
+        },
+        "Max": 1000,
+        "Min": 0,
+        "Step": 10,
+        "Indexkey": "InnerCrossHairOpacity",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "612": {
+        "Id": 612,
+        "Type": "CrossHair",
+        "SubType": "",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "612_Name",
+          "SourceString": "内侧十字准星长度",
+          "LocalizedString": "内侧十字准星长度"
+        },
+        "UiType": 1,
+        "Options": [],
+        "DefaultOptions": 12000,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "612_Tips",
+          "SourceString": "调节内侧十字准星的长度",
+          "LocalizedString": "调节内侧十字准星的长度"
+        },
+        "Max": 20000,
+        "Min": 0,
+        "Step": 1000,
+        "Indexkey": "InnerCrossHairLength",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "613": {
+        "Id": 613,
+        "Type": "CrossHair",
+        "SubType": "",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "613_Name",
+          "SourceString": "内侧十字准星粗细",
+          "LocalizedString": "内侧十字准星粗细"
+        },
+        "UiType": 1,
+        "Options": [],
+        "DefaultOptions": 2000,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "613_Tips",
+          "SourceString": "调节内侧十字准星的粗细",
+          "LocalizedString": "调节内侧十字准星的粗细"
+        },
+        "Max": 10000,
+        "Min": 0,
+        "Step": 1000,
+        "Indexkey": "InnerCrossHairThickness",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "614": {
+        "Id": 614,
+        "Type": "CrossHair",
+        "SubType": "",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "614_Name",
+          "SourceString": "内侧十字准星偏移量",
+          "LocalizedString": "内侧十字准星偏移量"
+        },
+        "UiType": 1,
+        "Options": [],
+        "DefaultOptions": 5000,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "614_Tips",
+          "SourceString": "调节内侧十字准星的偏移量",
+          "LocalizedString": "调节内侧十字准星的偏移量"
+        },
+        "Max": 25000,
+        "Min": 0,
+        "Step": 1000,
+        "Indexkey": "InnerCrossHairOffset",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "615": {
+        "Id": 615,
+        "Type": "CrossHair",
+        "SubType": "",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "615_Name",
+          "SourceString": "移动误差",
+          "LocalizedString": "移动误差"
+        },
+        "UiType": 3,
+        "Options": [
+          {
+            "Namespace": "Setting",
+            "Key": "615_Options_Index0",
+            "SourceString": "开启",
+            "LocalizedString": "开启"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "615_Options_Index1",
+            "SourceString": "关闭",
+            "LocalizedString": "关闭"
+          }
+        ],
+        "DefaultOptions": 1,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "615_Tips",
+          "SourceString": "开启：内侧十字准星会随着移动时散发的变大而外扩\n关闭：移动时内侧十字准星不变",
+          "LocalizedString": "开启：内侧十字准星会随着移动时散发的变大而外扩\n关闭：移动时内侧十字准星不变"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "Switch_InnerCrossHairMoveOffset",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "616": {
+        "Id": 616,
+        "Type": "CrossHair",
+        "SubType": "",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "616_Name",
+          "SourceString": "射击误差",
+          "LocalizedString": "射击误差"
+        },
+        "UiType": 3,
+        "Options": [
+          {
+            "Namespace": "Setting",
+            "Key": "616_Options_Index0",
+            "SourceString": "开启",
+            "LocalizedString": "开启"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "616_Options_Index1",
+            "SourceString": "关闭",
+            "LocalizedString": "关闭"
+          }
+        ],
+        "DefaultOptions": 1,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "616_Tips",
+          "SourceString": "开启：内侧十字准星会随着开火时散发的变大而外扩\n关闭：开火时内侧十字准星不变",
+          "LocalizedString": "开启：内侧十字准星会随着开火时散发的变大而外扩\n关闭：开火时内侧十字准星不变"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "Switch_InnerCrossHairShootOffset",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "617": {
+        "Id": 617,
+        "Type": "CrossHair",
+        "SubType": "",
+        "Title": {
+          "Namespace": "Setting",
+          "Key": "617_Title",
+          "SourceString": "外侧十字准星",
+          "LocalizedString": "外侧十字准星"
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "617_Name",
+          "SourceString": "显示外侧十字准星",
+          "LocalizedString": "显示外侧十字准星"
+        },
+        "UiType": 3,
+        "Options": [
+          {
+            "Namespace": "Setting",
+            "Key": "617_Options_Index0",
+            "SourceString": "开启",
+            "LocalizedString": "开启"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "617_Options_Index1",
+            "SourceString": "关闭",
+            "LocalizedString": "关闭"
+          }
+        ],
+        "DefaultOptions": 2,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "617_Tips",
+          "SourceString": "是否显示外侧十字准星",
+          "LocalizedString": "是否显示外侧十字准星"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "Switch_OuterCrossHair",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "618": {
+        "Id": 618,
+        "Type": "CrossHair",
+        "SubType": "",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "618_Name",
+          "SourceString": "外侧十字准星不透明度",
+          "LocalizedString": "外侧十字准星不透明度"
+        },
+        "UiType": 1,
+        "Options": [],
+        "DefaultOptions": 350,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "618_Tips",
+          "SourceString": "调节外侧十字准星的不透明度",
+          "LocalizedString": "调节外侧十字准星的不透明度"
+        },
+        "Max": 1000,
+        "Min": 0,
+        "Step": 10,
+        "Indexkey": "OuterCrossHairOpacity",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "619": {
+        "Id": 619,
+        "Type": "CrossHair",
+        "SubType": "",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "619_Name",
+          "SourceString": "外侧十字准星长度",
+          "LocalizedString": "外侧十字准星长度"
+        },
+        "UiType": 1,
+        "Options": [],
+        "DefaultOptions": 2000,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "619_Tips",
+          "SourceString": "调节外侧十字准星的长度",
+          "LocalizedString": "调节外侧十字准星的长度"
+        },
+        "Max": 10000,
+        "Min": 0,
+        "Step": 1000,
+        "Indexkey": "OuterCrossHairLength",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "620": {
+        "Id": 620,
+        "Type": "CrossHair",
+        "SubType": "",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "620_Name",
+          "SourceString": "外侧十字准星粗细",
+          "LocalizedString": "外侧十字准星粗细"
+        },
+        "UiType": 1,
+        "Options": [],
+        "DefaultOptions": 2000,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "620_Tips",
+          "SourceString": "调节外侧十字准星的粗细",
+          "LocalizedString": "调节外侧十字准星的粗细"
+        },
+        "Max": 10000,
+        "Min": 0,
+        "Step": 1000,
+        "Indexkey": "OuterCrossHairThickness",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "621": {
+        "Id": 621,
+        "Type": "CrossHair",
+        "SubType": "",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "621_Name",
+          "SourceString": "外侧十字准星偏移量",
+          "LocalizedString": "外侧十字准星偏移量"
+        },
+        "UiType": 1,
+        "Options": [],
+        "DefaultOptions": 10000,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "621_Tips",
+          "SourceString": "调节外侧十字准星的偏移量",
+          "LocalizedString": "调节外侧十字准星的偏移量"
+        },
+        "Max": 40000,
+        "Min": 0,
+        "Step": 1000,
+        "Indexkey": "OuterCrossHairOffset",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "622": {
+        "Id": 622,
+        "Type": "CrossHair",
+        "SubType": "",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "622_Name",
+          "SourceString": "移动误差",
+          "LocalizedString": "移动误差"
+        },
+        "UiType": 3,
+        "Options": [
+          {
+            "Namespace": "Setting",
+            "Key": "622_Options_Index0",
+            "SourceString": "开启",
+            "LocalizedString": "开启"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "622_Options_Index1",
+            "SourceString": "关闭",
+            "LocalizedString": "关闭"
+          }
+        ],
+        "DefaultOptions": 1,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "622_Tips",
+          "SourceString": "开启：外侧十字准星会随着移动时散发的变大而外扩\n关闭：移动时外侧十字准星不变",
+          "LocalizedString": "开启：外侧十字准星会随着移动时散发的变大而外扩\n关闭：移动时外侧十字准星不变"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "Switch_OuterCrossHairMoveOffset",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "623": {
+        "Id": 623,
+        "Type": "CrossHair",
+        "SubType": "",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "623_Name",
+          "SourceString": "射击误差",
+          "LocalizedString": "射击误差"
+        },
+        "UiType": 3,
+        "Options": [
+          {
+            "Namespace": "Setting",
+            "Key": "623_Options_Index0",
+            "SourceString": "开启",
+            "LocalizedString": "开启"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "623_Options_Index1",
+            "SourceString": "关闭",
+            "LocalizedString": "关闭"
+          }
+        ],
+        "DefaultOptions": 1,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "623_Tips",
+          "SourceString": "开启：外侧十字准星会随着开火时散发的变大而外扩\n关闭：开火时外侧十字准星不变",
+          "LocalizedString": "开启：外侧十字准星会随着开火时散发的变大而外扩\n关闭：开火时外侧十字准星不变"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "Switch_OuterCrossHairShootOffset",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "701": {
+        "Id": 701,
+        "Type": "Account",
+        "SubType": "",
+        "Title": {
+          "Namespace": "Setting",
+          "Key": "701_Title",
+          "SourceString": "账号绑定",
+          "LocalizedString": "账号绑定"
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "701_Name",
+          "SourceString": "QQ绑定Steam账号",
+          "LocalizedString": "QQ绑定Steam账号"
+        },
+        "UiType": 0,
+        "Options": [],
+        "DefaultOptions": 0,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "701_Tips",
+          "SourceString": "QQ绑定Steam账号，若解除绑定则下次登入需扫QQ二维码。",
+          "LocalizedString": "QQ绑定Steam账号，若解除绑定则下次登入需扫QQ二维码。"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "QQBindSteam",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "800": {
+        "Id": 800,
+        "Type": "PracticeConfig",
+        "SubType": "",
+        "Title": {
+          "Namespace": "Setting",
+          "Key": "800_Title",
+          "SourceString": "靶场自定义",
+          "LocalizedString": "靶场自定义"
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "800_Name",
+          "SourceString": "重置训练靶场",
+          "LocalizedString": "重置训练靶场"
+        },
+        "UiType": 0,
+        "Options": [],
+        "DefaultOptions": 0,
+        "Tips": {
+          "CultureInvariantString": null
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "PracticeRestart",
+        "DefaultOption2": "Restart",
+        "Status": 0
+      },
+      "801": {
+        "Id": 801,
+        "Type": "PracticeConfig",
+        "SubType": "",
+        "Title": {
+          "Namespace": "Setting",
+          "Key": "801_Title",
+          "SourceString": "靶场自定义",
+          "LocalizedString": "靶场自定义"
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "801_Name",
+          "SourceString": "动态数据",
+          "LocalizedString": "动态数据"
+        },
+        "UiType": 3,
+        "Options": [
+          {
+            "Namespace": "Setting",
+            "Key": "801_Options_Index0",
+            "SourceString": "开启",
+            "LocalizedString": "开启"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "801_Options_Index1",
+            "SourceString": "关闭",
+            "LocalizedString": "关闭"
+          }
+        ],
+        "DefaultOptions": 1,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "801_Tips",
+          "SourceString": "控制数据展示面板的开启与关闭",
+          "LocalizedString": "控制数据展示面板的开启与关闭"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "Switch_PracticeDisplayData",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "802": {
+        "Id": 802,
+        "Type": "PracticeConfig",
+        "SubType": "",
+        "Title": {
+          "Namespace": "Setting",
+          "Key": "802_Title",
+          "SourceString": "靶场自定义",
+          "LocalizedString": "靶场自定义"
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "802_Name",
+          "SourceString": "• 动态计时",
+          "LocalizedString": "• 动态计时"
+        },
+        "UiType": 3,
+        "Options": [
+          {
+            "Namespace": "Setting",
+            "Key": "802_Options_Index0",
+            "SourceString": "开启",
+            "LocalizedString": "开启"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "802_Options_Index1",
+            "SourceString": "关闭",
+            "LocalizedString": "关闭"
+          }
+        ],
+        "DefaultOptions": 2,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "802_Tips",
+          "SourceString": "当且仅当动态数据为开启状态,此功能可控制\n开启/关闭。在倒计时后,用于记录一段时间内的射击数据",
+          "LocalizedString": "当且仅当动态数据为开启状态,此功能可控制\n开启/关闭。在倒计时后,用于记录一段时间内的射击数据"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "Switch_PracticeDisplayDataTime",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "803": {
+        "Id": 803,
+        "Type": "PracticeConfig",
+        "SubType": "",
+        "Title": {
+          "Namespace": "Setting",
+          "Key": "803_Title",
+          "SourceString": "仿生人护甲设置",
+          "LocalizedString": "仿生人护甲设置"
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "803_Name",
+          "SourceString": "护甲类型",
+          "LocalizedString": "护甲类型"
+        },
+        "UiType": 3,
+        "Options": [
+          {
+            "Namespace": "Setting",
+            "Key": "803_Options_Index0",
+            "SourceString": "无护甲",
+            "LocalizedString": "无护甲"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "803_Options_Index1",
+            "SourceString": "回复甲",
+            "LocalizedString": "回复甲"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "803_Options_Index2",
+            "SourceString": "普通护甲",
+            "LocalizedString": "普通护甲"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "803_Options_Index3",
+            "SourceString": "重型护甲",
+            "LocalizedString": "重型护甲"
+          }
+        ],
+        "DefaultOptions": 1,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "803_Tips",
+          "SourceString": "控制场上AI的护盾数值,切换选项后刷新当前场上AI的护盾数值,且后续生成AI的护盾数值受当前护盾数值选项影响。",
+          "LocalizedString": "控制场上AI的护盾数值,切换选项后刷新当前场上AI的护盾数值,且后续生成AI的护盾数值受当前护盾数值选项影响。"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "Switch_PracticeBotArmor",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "804": {
+        "Id": 804,
+        "Type": "PracticeConfig",
+        "SubType": "",
+        "Title": {
+          "Namespace": "Setting",
+          "Key": "804_Title",
+          "SourceString": "仿生人行为设置",
+          "LocalizedString": "仿生人行为设置"
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "804_Name",
+          "SourceString": "移动方式",
+          "LocalizedString": "移动方式"
+        },
+        "UiType": 3,
+        "Options": [
+          {
+            "Namespace": "Setting",
+            "Key": "804_Options_Index0",
+            "SourceString": "静止站立",
+            "LocalizedString": "静止站立"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "804_Options_Index1",
+            "SourceString": "规律移动",
+            "LocalizedString": "规律移动"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "804_Options_Index2",
+            "SourceString": "左右随机移动",
+            "LocalizedString": "左右随机移动"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "804_Options_Index3",
+            "SourceString": "完全随机移动",
+            "LocalizedString": "完全随机移动"
+          }
+        ],
+        "DefaultOptions": 1,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "804_Tips",
+          "SourceString": "控制场上AI的移动行为,切换选项后刷新当前场上AI的移动行为,且后续生成AI的移动行为受当前移动选项影响。",
+          "LocalizedString": "控制场上AI的移动行为,切换选项后刷新当前场上AI的移动行为,且后续生成AI的移动行为受当前移动选项影响。"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "Switch_PracticeMoveStatus",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "805": {
+        "Id": 805,
+        "Type": "PracticeConfig",
+        "SubType": "",
+        "Title": {
+          "Namespace": "Setting",
+          "Key": "805_Title",
+          "SourceString": "仿生人行为设置",
+          "LocalizedString": "仿生人行为设置"
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "805_Name",
+          "SourceString": "仿生人动作",
+          "LocalizedString": "仿生人动作"
+        },
+        "UiType": 3,
+        "Options": [
+          {
+            "Namespace": "Setting",
+            "Key": "805_Options_Index0",
+            "SourceString": "3D状态",
+            "LocalizedString": "3D状态"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "805_Options_Index1",
+            "SourceString": "弦化侧身",
+            "LocalizedString": "弦化侧身"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "805_Options_Index2",
+            "SourceString": "一段跳跃",
+            "LocalizedString": "一段跳跃"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "805_Options_Index3",
+            "SourceString": "二段跳跃",
+            "LocalizedString": "二段跳跃"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "805_Options_Index4",
+            "SourceString": "二段跳跃+飘飞",
+            "LocalizedString": "二段跳跃+飘飞"
+          }
+        ],
+        "DefaultOptions": 1,
+        "Tips": {
+          "Namespace": "Setting",
+          "Key": "805_Tips",
+          "SourceString": "控制场上AI的姿势,切换选项后刷新当前场上AI的姿势,且后续生成AI的姿势受当前姿势选项影响。",
+          "LocalizedString": "控制场上AI的姿势,切换选项后刷新当前场上AI的姿势,且后续生成AI的姿势受当前姿势选项影响。"
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "Switch_PracticeBehaviorStatus",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "806": {
+        "Id": 806,
+        "Type": "PracticeConfig",
+        "SubType": "",
+        "Title": {
+          "Namespace": "Setting",
+          "Key": "806_Title",
+          "SourceString": "仿生人行为生成设置",
+          "LocalizedString": "仿生人行为生成设置"
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "806_Name",
+          "SourceString": "生成范围",
+          "LocalizedString": "生成范围"
+        },
+        "UiType": 3,
+        "Options": [
+          {
+            "Namespace": "Setting",
+            "Key": "806_Options_Index0",
+            "SourceString": "全部范围",
+            "LocalizedString": "全部范围"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "806_Options_Index1",
+            "SourceString": "近距离",
+            "LocalizedString": "近距离"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "806_Options_Index2",
+            "SourceString": "中距离",
+            "LocalizedString": "中距离"
+          },
+          {
+            "Namespace": "Setting",
+            "Key": "806_Options_Index3",
+            "SourceString": "远距离",
+            "LocalizedString": "远距离"
+          }
+        ],
+        "DefaultOptions": 2,
+        "Tips": {
+          "CultureInvariantString": null
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "Switch_PracticeSpawnArea",
+        "DefaultOption2": "",
+        "Status": 0
+      },
+      "807": {
+        "Id": 807,
+        "Type": "PracticeConfig",
+        "SubType": "",
+        "Title": {
+          "Namespace": "Setting",
+          "Key": "807_Title",
+          "SourceString": "仿生人行为生成设置",
+          "LocalizedString": "仿生人行为生成设置"
+        },
+        "Name": {
+          "Namespace": "Setting",
+          "Key": "807_Name",
+          "SourceString": "仿生人刷新",
+          "LocalizedString": "仿生人刷新"
+        },
+        "UiType": 0,
+        "Options": [],
+        "DefaultOptions": 0,
+        "Tips": {
+          "CultureInvariantString": null
+        },
+        "Max": 0,
+        "Min": 0,
+        "Step": 0,
+        "Indexkey": "PracticeSpawnBot",
+        "DefaultOption2": "Refresh",
+        "Status": 0
+      }
+    }
+  }
+]
