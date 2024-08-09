@@ -1,195 +1,193 @@
-[
-  {
-    "Type": "DataTable",
-    "Name": "PlayModeControl",
-    "Class": "UScriptClass'DataTable'",
-    "Properties": {
-      "RowStruct": {
-        "ObjectName": "ScriptStruct'CyPlayModeControlTableRow'",
-        "ObjectPath": "/Script/PMGame"
+{
+  "Type": "DataTable",
+  "Name": "PlayModeControl",
+  "Class": "UScriptClass'DataTable'",
+  "Properties": {
+    "RowStruct": {
+      "ObjectName": "ScriptStruct'CyPlayModeControlTableRow'",
+      "ObjectPath": "/Script/PMGame"
+    }
+  },
+  "Rows": {
+    "1": {
+      "PlayMode": 1,
+      "MatchOpen": 0,
+      "RankOpen": 0,
+      "ContestOpen": 0,
+      "TimeLimit": 0,
+      "ContestSort": 2,
+      "ModeInfo": {
+        "Namespace": "PlayModeControl",
+        "Key": "1_ModeInfo",
+        "SourceString": "5V5团队竞赛\n\n获胜条件：\n1.击败人数率先达到指定目标的阵营获胜\n2.在比赛结束时，击败敌人数量更多的阵营获胜",
+        "LocalizedString": "5V5团队竞赛\n\n获胜条件：\n1.击败人数率先达到指定目标的阵营获胜\n2.在比赛结束时，击败敌人数量更多的阵营获胜"
+      },
+      "IconRoomMode": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Mode/T_Dynamic_Mode_5.T_Dynamic_Mode_5",
+        "SubPathString": ""
       }
     },
-    "Rows": {
-      "1": {
-        "PlayMode": 1,
-        "MatchOpen": 0,
-        "RankOpen": 0,
-        "ContestOpen": 0,
-        "TimeLimit": 0,
-        "ContestSort": 2,
-        "ModeInfo": {
-          "Namespace": "PlayModeControl",
-          "Key": "1_ModeInfo",
-          "SourceString": "5V5团队竞赛\n\n获胜条件：\n1.击败人数率先达到指定目标的阵营获胜\n2.在比赛结束时，击败敌人数量更多的阵营获胜",
-          "LocalizedString": "5V5团队竞赛\n\n获胜条件：\n1.击败人数率先达到指定目标的阵营获胜\n2.在比赛结束时，击败敌人数量更多的阵营获胜"
-        },
-        "IconRoomMode": {
-          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Mode/T_Dynamic_Mode_5.T_Dynamic_Mode_5",
-          "SubPathString": ""
-        }
+    "2": {
+      "PlayMode": 2,
+      "MatchOpen": 0,
+      "RankOpen": 1,
+      "ContestOpen": 1,
+      "TimeLimit": 0,
+      "ContestSort": 1,
+      "ModeInfo": {
+        "Namespace": "PlayModeControl",
+        "Key": "2_ModeInfo",
+        "SourceString": "5V5攻守对阵\n\n获胜条件：\n进攻方：爆破目标或击败所有防守人员\n防守方：保卫指定区域",
+        "LocalizedString": "5V5攻守对阵\n\n获胜条件：\n进攻方：爆破目标或击败所有防守人员\n防守方：保卫指定区域"
       },
-      "2": {
-        "PlayMode": 2,
-        "MatchOpen": 0,
-        "RankOpen": 1,
-        "ContestOpen": 1,
-        "TimeLimit": 0,
-        "ContestSort": 1,
-        "ModeInfo": {
-          "Namespace": "PlayModeControl",
-          "Key": "2_ModeInfo",
-          "SourceString": "5V5攻守对阵\n\n获胜条件：\n进攻方：爆破目标或击败所有防守人员\n防守方：保卫指定区域",
-          "LocalizedString": "5V5攻守对阵\n\n获胜条件：\n进攻方：爆破目标或击败所有防守人员\n防守方：保卫指定区域"
-        },
-        "IconRoomMode": {
-          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Mode/T_Dynamic_Mode_1.T_Dynamic_Mode_1",
-          "SubPathString": ""
-        }
+      "IconRoomMode": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Mode/T_Dynamic_Mode_1.T_Dynamic_Mode_1",
+        "SubPathString": ""
+      }
+    },
+    "3": {
+      "PlayMode": 3,
+      "MatchOpen": 0,
+      "RankOpen": 0,
+      "ContestOpen": 0,
+      "TimeLimit": 0,
+      "ContestSort": 5,
+      "ModeInfo": {
+        "Namespace": "PlayModeControl",
+        "Key": "3_ModeInfo",
+        "SourceString": "10名玩家混战\n\n获胜条件：\n异能弦体：在决战阶段，击倒敌方全员或阻止敌方采集到三千芯核\n芯核捕手：在决战阶段，成功采集到三千芯核",
+        "LocalizedString": "10名玩家混战\n\n获胜条件：\n异能弦体：在决战阶段，击倒敌方全员或阻止敌方采集到三千芯核\n芯核捕手：在决战阶段，成功采集到三千芯核"
       },
-      "3": {
-        "PlayMode": 3,
-        "MatchOpen": 0,
-        "RankOpen": 0,
-        "ContestOpen": 0,
-        "TimeLimit": 0,
-        "ContestSort": 5,
-        "ModeInfo": {
-          "Namespace": "PlayModeControl",
-          "Key": "3_ModeInfo",
-          "SourceString": "10名玩家混战\n\n获胜条件：\n异能弦体：在决战阶段，击倒敌方全员或阻止敌方采集到三千芯核\n芯核捕手：在决战阶段，成功采集到三千芯核",
-          "LocalizedString": "10名玩家混战\n\n获胜条件：\n异能弦体：在决战阶段，击倒敌方全员或阻止敌方采集到三千芯核\n芯核捕手：在决战阶段，成功采集到三千芯核"
-        },
-        "IconRoomMode": {
-          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Mode/T_Dynamic_Mode_4.T_Dynamic_Mode_4",
-          "SubPathString": ""
-        }
+      "IconRoomMode": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Mode/T_Dynamic_Mode_4.T_Dynamic_Mode_4",
+        "SubPathString": ""
+      }
+    },
+    "4": {
+      "PlayMode": 4,
+      "MatchOpen": 1,
+      "RankOpen": 0,
+      "ContestOpen": 1,
+      "TimeLimit": 0,
+      "ContestSort": 4,
+      "ModeInfo": {
+        "Namespace": "PlayModeControl",
+        "Key": "4_ModeInfo",
+        "SourceString": "3V3V3V3V3团队乱斗\n\n获胜条件：\n1.在规定时间内击败指定数量的敌人\n2.在比赛结束时队伍排名处于前三",
+        "LocalizedString": "3V3V3V3V3团队乱斗\n\n获胜条件：\n1.在规定时间内击败指定数量的敌人\n2.在比赛结束时队伍排名处于前三"
       },
-      "4": {
-        "PlayMode": 4,
-        "MatchOpen": 1,
-        "RankOpen": 0,
-        "ContestOpen": 1,
-        "TimeLimit": 0,
-        "ContestSort": 4,
-        "ModeInfo": {
-          "Namespace": "PlayModeControl",
-          "Key": "4_ModeInfo",
-          "SourceString": "3V3V3V3V3团队乱斗\n\n获胜条件：\n1.在规定时间内击败指定数量的敌人\n2.在比赛结束时队伍排名处于前三",
-          "LocalizedString": "3V3V3V3V3团队乱斗\n\n获胜条件：\n1.在规定时间内击败指定数量的敌人\n2.在比赛结束时队伍排名处于前三"
-        },
-        "IconRoomMode": {
-          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Mode/T_Dynamic_Mode_2.T_Dynamic_Mode_2",
-          "SubPathString": ""
-        }
+      "IconRoomMode": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Mode/T_Dynamic_Mode_2.T_Dynamic_Mode_2",
+        "SubPathString": ""
+      }
+    },
+    "5": {
+      "PlayMode": 5,
+      "MatchOpen": 0,
+      "RankOpen": 0,
+      "ContestOpen": 0,
+      "TimeLimit": 0,
+      "ContestSort": 4,
+      "ModeInfo": {
+        "Namespace": "PlayModeControl",
+        "Key": "5_ModeInfo",
+        "SourceString": "3V3V3团竞\n\n获胜条件：\n1.在规定时间内击败指定数量的敌人\n2.在比赛结束时队伍排名处于前二",
+        "LocalizedString": "3V3V3团竞\n\n获胜条件：\n1.在规定时间内击败指定数量的敌人\n2.在比赛结束时队伍排名处于前二"
       },
-      "5": {
-        "PlayMode": 5,
-        "MatchOpen": 0,
-        "RankOpen": 0,
-        "ContestOpen": 0,
-        "TimeLimit": 0,
-        "ContestSort": 4,
-        "ModeInfo": {
-          "Namespace": "PlayModeControl",
-          "Key": "5_ModeInfo",
-          "SourceString": "3V3V3团竞\n\n获胜条件：\n1.在规定时间内击败指定数量的敌人\n2.在比赛结束时队伍排名处于前二",
-          "LocalizedString": "3V3V3团竞\n\n获胜条件：\n1.在规定时间内击败指定数量的敌人\n2.在比赛结束时队伍排名处于前二"
-        },
-        "IconRoomMode": {
-          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Mode/T_Dynamic_Mode_2.T_Dynamic_Mode_2",
-          "SubPathString": ""
-        }
+      "IconRoomMode": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Mode/T_Dynamic_Mode_2.T_Dynamic_Mode_2",
+        "SubPathString": ""
+      }
+    },
+    "6": {
+      "PlayMode": 6,
+      "MatchOpen": 1,
+      "RankOpen": 0,
+      "ContestOpen": 1,
+      "TimeLimit": 0,
+      "ContestSort": 6,
+      "ModeInfo": {
+        "Namespace": "PlayModeControl",
+        "Key": "6_ModeInfo",
+        "SourceString": "5V5攻守对抗\n\n获胜条件：\n1.进攻方：在规定时间内，护送运载目标抵达终点\n2.防守方：在规定时间内，阻止运载目标抵达终点\n特殊机制：\n1.靠近或贴上运载目标即可控制它的行进\n2.待在安全区或等待重生时可调试弦能增幅网络\n3.可以多次获得战术道具的补充\n4.遵循周期性规律进行集体重生",
+        "LocalizedString": "5V5攻守对抗\n\n获胜条件：\n1.进攻方：在规定时间内，护送运载目标抵达终点\n2.防守方：在规定时间内，阻止运载目标抵达终点\n特殊机制：\n1.靠近或贴上运载目标即可控制它的行进\n2.待在安全区或等待重生时可调试弦能增幅网络\n3.可以多次获得战术道具的补充\n4.遵循周期性规律进行集体重生"
       },
-      "6": {
-        "PlayMode": 6,
-        "MatchOpen": 1,
-        "RankOpen": 0,
-        "ContestOpen": 1,
-        "TimeLimit": 0,
-        "ContestSort": 6,
-        "ModeInfo": {
-          "Namespace": "PlayModeControl",
-          "Key": "6_ModeInfo",
-          "SourceString": "5V5攻守对抗\n\n获胜条件：\n1.进攻方：在规定时间内，护送运载目标抵达终点\n2.防守方：在规定时间内，阻止运载目标抵达终点\n特殊机制：\n1.靠近或贴上运载目标即可控制它的行进\n2.待在安全区或等待重生时可调试弦能增幅网络\n3.可以多次获得战术道具的补充\n4.遵循周期性规律进行集体重生",
-          "LocalizedString": "5V5攻守对抗\n\n获胜条件：\n1.进攻方：在规定时间内，护送运载目标抵达终点\n2.防守方：在规定时间内，阻止运载目标抵达终点\n特殊机制：\n1.靠近或贴上运载目标即可控制它的行进\n2.待在安全区或等待重生时可调试弦能增幅网络\n3.可以多次获得战术道具的补充\n4.遵循周期性规律进行集体重生"
-        },
-        "IconRoomMode": {
-          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Mode/T_Dynamic_Mode_3.T_Dynamic_Mode_3",
-          "SubPathString": ""
-        }
+      "IconRoomMode": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Mode/T_Dynamic_Mode_3.T_Dynamic_Mode_3",
+        "SubPathString": ""
+      }
+    },
+    "8": {
+      "PlayMode": 8,
+      "MatchOpen": 0,
+      "RankOpen": 0,
+      "ContestOpen": 0,
+      "TimeLimit": 0,
+      "ContestSort": 3,
+      "ModeInfo": {
+        "Namespace": "PlayModeControl",
+        "Key": "8_ModeInfo",
+        "SourceString": "15人捉迷藏\n\n获胜条件：\n1.追击方：在规定时间内，找出并击败所有躲藏人员\n2.逃跑方：通过潜行来躲避追击，保持存活到游戏结束",
+        "LocalizedString": "15人捉迷藏\n\n获胜条件：\n1.追击方：在规定时间内，找出并击败所有躲藏人员\n2.逃跑方：通过潜行来躲避追击，保持存活到游戏结束"
       },
-      "8": {
-        "PlayMode": 8,
-        "MatchOpen": 0,
-        "RankOpen": 0,
-        "ContestOpen": 0,
-        "TimeLimit": 0,
-        "ContestSort": 3,
-        "ModeInfo": {
-          "Namespace": "PlayModeControl",
-          "Key": "8_ModeInfo",
-          "SourceString": "15人捉迷藏\n\n获胜条件：\n1.追击方：在规定时间内，找出并击败所有躲藏人员\n2.逃跑方：通过潜行来躲避追击，保持存活到游戏结束",
-          "LocalizedString": "15人捉迷藏\n\n获胜条件：\n1.追击方：在规定时间内，找出并击败所有躲藏人员\n2.逃跑方：通过潜行来躲避追击，保持存活到游戏结束"
-        },
-        "IconRoomMode": {
-          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Mode/T_Dynamic_Mode_4.T_Dynamic_Mode_4",
-          "SubPathString": ""
-        }
+      "IconRoomMode": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Mode/T_Dynamic_Mode_4.T_Dynamic_Mode_4",
+        "SubPathString": ""
+      }
+    },
+    "9": {
+      "PlayMode": 9,
+      "MatchOpen": 0,
+      "RankOpen": 0,
+      "ContestOpen": 0,
+      "TimeLimit": 0,
+      "ContestSort": 7,
+      "ModeInfo": {
+        "Namespace": "PlayModeControl",
+        "Key": "9_ModeInfo",
+        "SourceString": "7V7攻守对阵\n\n获胜条件：\n1.存矿数量率先达到指定目标的阵营获胜\n2.在比赛结束时，存矿数量更多的阵营获胜",
+        "LocalizedString": "7V7攻守对阵\n\n获胜条件：\n1.存矿数量率先达到指定目标的阵营获胜\n2.在比赛结束时，存矿数量更多的阵营获胜"
       },
-      "9": {
-        "PlayMode": 9,
-        "MatchOpen": 0,
-        "RankOpen": 0,
-        "ContestOpen": 0,
-        "TimeLimit": 0,
-        "ContestSort": 7,
-        "ModeInfo": {
-          "Namespace": "PlayModeControl",
-          "Key": "9_ModeInfo",
-          "SourceString": "7V7攻守对阵\n\n获胜条件：\n1.存矿数量率先达到指定目标的阵营获胜\n2.在比赛结束时，存矿数量更多的阵营获胜",
-          "LocalizedString": "7V7攻守对阵\n\n获胜条件：\n1.存矿数量率先达到指定目标的阵营获胜\n2.在比赛结束时，存矿数量更多的阵营获胜"
-        },
-        "IconRoomMode": {
-          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Mode/T_Dynamic_Mode_4.T_Dynamic_Mode_4",
-          "SubPathString": ""
-        }
+      "IconRoomMode": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Mode/T_Dynamic_Mode_4.T_Dynamic_Mode_4",
+        "SubPathString": ""
+      }
+    },
+    "10": {
+      "PlayMode": 10,
+      "MatchOpen": 0,
+      "RankOpen": 0,
+      "ContestOpen": 0,
+      "TimeLimit": 0,
+      "ContestSort": 8,
+      "ModeInfo": {
+        "Namespace": "PlayModeControl",
+        "Key": "10_ModeInfo",
+        "SourceString": "15人打雪仗\n\n获胜条件：\n1.通过在内场内存活或者命中来获取积分",
+        "LocalizedString": "15人打雪仗\n\n获胜条件：\n1.通过在内场内存活或者命中来获取积分"
       },
-      "10": {
-        "PlayMode": 10,
-        "MatchOpen": 0,
-        "RankOpen": 0,
-        "ContestOpen": 0,
-        "TimeLimit": 0,
-        "ContestSort": 8,
-        "ModeInfo": {
-          "Namespace": "PlayModeControl",
-          "Key": "10_ModeInfo",
-          "SourceString": "15人打雪仗\n\n获胜条件：\n1.通过在内场内存活或者命中来获取积分",
-          "LocalizedString": "15人打雪仗\n\n获胜条件：\n1.通过在内场内存活或者命中来获取积分"
-        },
-        "IconRoomMode": {
-          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Mode/T_Dynamic_Mode_4.T_Dynamic_Mode_4",
-          "SubPathString": ""
-        }
+      "IconRoomMode": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Mode/T_Dynamic_Mode_4.T_Dynamic_Mode_4",
+        "SubPathString": ""
+      }
+    },
+    "11": {
+      "PlayMode": 11,
+      "MatchOpen": 0,
+      "RankOpen": 0,
+      "ContestOpen": 0,
+      "TimeLimit": 0,
+      "ContestSort": 9,
+      "ModeInfo": {
+        "Namespace": "PlayModeControl",
+        "Key": "11_ModeInfo",
+        "SourceString": "生化模式",
+        "LocalizedString": "生化模式"
       },
-      "11": {
-        "PlayMode": 11,
-        "MatchOpen": 0,
-        "RankOpen": 0,
-        "ContestOpen": 0,
-        "TimeLimit": 0,
-        "ContestSort": 9,
-        "ModeInfo": {
-          "Namespace": "PlayModeControl",
-          "Key": "11_ModeInfo",
-          "SourceString": "生化模式",
-          "LocalizedString": "生化模式"
-        },
-        "IconRoomMode": {
-          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Mode/T_Dynamic_Mode_4.T_Dynamic_Mode_4",
-          "SubPathString": ""
-        }
+      "IconRoomMode": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Mode/T_Dynamic_Mode_4.T_Dynamic_Mode_4",
+        "SubPathString": ""
       }
     }
   }
-]
+}

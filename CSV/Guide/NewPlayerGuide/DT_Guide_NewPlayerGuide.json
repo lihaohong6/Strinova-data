@@ -1,135 +1,133 @@
-[
-  {
-    "Type": "DataTable",
-    "Name": "DT_Guide_NewPlayerGuide",
-    "Class": "UScriptClass'DataTable'",
-    "Properties": {
-      "RowStruct": {
-        "ObjectName": "ScriptStruct'PMNewPlayerGuideTableRow'",
-        "ObjectPath": "/Script/PMGame"
-      }
+{
+  "Type": "DataTable",
+  "Name": "DT_Guide_NewPlayerGuide",
+  "Class": "UScriptClass'DataTable'",
+  "Properties": {
+    "RowStruct": {
+      "ObjectName": "ScriptStruct'PMNewPlayerGuideTableRow'",
+      "ObjectPath": "/Script/PMGame"
+    }
+  },
+  "Rows": {
+    "1": {
+      "GuideStep": 1,
+      "NextStep": 2,
+      "StepDesc": {
+        "Namespace": "",
+        "Key": "6A97B37B40D3623F5EA4858E3EFAD596",
+        "SourceString": "进入休息室的sequence A 播放",
+        "LocalizedString": "进入休息室的sequence A 播放"
+      },
+      "IsEnable": true,
+      "IsMBEnable": true,
+      "GuideEventType": "EPMNewerGuideEventType::PlaySequencer",
+      "EventSequencerId": 9614601,
+      "EventUIName": "None"
     },
-    "Rows": {
-      "1": {
-        "GuideStep": 1,
-        "NextStep": 2,
-        "StepDesc": {
-          "Namespace": "",
-          "Key": "6A97B37B40D3623F5EA4858E3EFAD596",
-          "SourceString": "进入休息室的sequence A 播放",
-          "LocalizedString": "进入休息室的sequence A 播放"
-        },
-        "IsEnable": true,
-        "IsMBEnable": true,
-        "GuideEventType": "EPMNewerGuideEventType::PlaySequencer",
-        "EventSequencerId": 9614601,
-        "EventUIName": "None"
+    "2": {
+      "GuideStep": 2,
+      "NextStep": 3,
+      "StepDesc": {
+        "Namespace": "",
+        "Key": "AD6C6CF74CFCF7DEFEB558A4551FCB06",
+        "SourceString": "取名",
+        "LocalizedString": "取名"
       },
-      "2": {
-        "GuideStep": 2,
-        "NextStep": 3,
-        "StepDesc": {
-          "Namespace": "",
-          "Key": "AD6C6CF74CFCF7DEFEB558A4551FCB06",
-          "SourceString": "取名",
-          "LocalizedString": "取名"
-        },
-        "IsEnable": true,
-        "IsMBEnable": true,
-        "GuideEventType": "EPMNewerGuideEventType::OpenUIPage",
-        "EventSequencerId": 15146060,
-        "EventUIName": "PlayerNamePage"
+      "IsEnable": true,
+      "IsMBEnable": true,
+      "GuideEventType": "EPMNewerGuideEventType::OpenUIPage",
+      "EventSequencerId": 15146060,
+      "EventUIName": "PlayerNamePage"
+    },
+    "3": {
+      "GuideStep": 3,
+      "NextStep": 4,
+      "StepDesc": {
+        "Namespace": "",
+        "Key": "BBB1A1E1402C2BDD53899782849E30E7",
+        "SourceString": "sequence B 播放",
+        "LocalizedString": "sequence B 播放"
       },
-      "3": {
-        "GuideStep": 3,
-        "NextStep": 4,
-        "StepDesc": {
-          "Namespace": "",
-          "Key": "BBB1A1E1402C2BDD53899782849E30E7",
-          "SourceString": "sequence B 播放",
-          "LocalizedString": "sequence B 播放"
-        },
-        "IsEnable": true,
-        "IsMBEnable": true,
-        "GuideEventType": "EPMNewerGuideEventType::PlaySequencer",
-        "EventSequencerId": 9614602,
-        "EventUIName": "None"
+      "IsEnable": true,
+      "IsMBEnable": true,
+      "GuideEventType": "EPMNewerGuideEventType::PlaySequencer",
+      "EventSequencerId": 9614602,
+      "EventUIName": "None"
+    },
+    "4": {
+      "GuideStep": 4,
+      "NextStep": 5,
+      "StepDesc": {
+        "Namespace": "",
+        "Key": "A5BD0C2140A1E019B900E6B34C260AF8",
+        "SourceString": "弹出UI框显示“是否现在进入团竞玩法”",
+        "LocalizedString": "弹出UI框显示“是否现在进入团竞玩法”"
       },
-      "4": {
-        "GuideStep": 4,
-        "NextStep": 5,
-        "StepDesc": {
-          "Namespace": "",
-          "Key": "A5BD0C2140A1E019B900E6B34C260AF8",
-          "SourceString": "弹出UI框显示“是否现在进入团竞玩法”",
-          "LocalizedString": "弹出UI框显示“是否现在进入团竞玩法”"
-        },
-        "IsEnable": true,
-        "IsMBEnable": false,
-        "GuideEventType": "EPMNewerGuideEventType::OpenUIPage",
-        "EventSequencerId": 15146060,
-        "EventUIName": "TeamCompetitionPage"
+      "IsEnable": true,
+      "IsMBEnable": false,
+      "GuideEventType": "EPMNewerGuideEventType::OpenUIPage",
+      "EventSequencerId": 15146060,
+      "EventUIName": "TeamCompetitionPage"
+    },
+    "5": {
+      "GuideStep": 5,
+      "NextStep": 6,
+      "StepDesc": {
+        "Namespace": "",
+        "Key": "DD15662143414B1A88BFB09BF23114E4",
+        "SourceString": "sequence C播放",
+        "LocalizedString": "sequence C播放"
       },
-      "5": {
-        "GuideStep": 5,
-        "NextStep": 6,
-        "StepDesc": {
-          "Namespace": "",
-          "Key": "DD15662143414B1A88BFB09BF23114E4",
-          "SourceString": "sequence C播放",
-          "LocalizedString": "sequence C播放"
-        },
-        "IsEnable": true,
-        "IsMBEnable": true,
-        "GuideEventType": "EPMNewerGuideEventType::PlaySequencer",
-        "EventSequencerId": 9614603,
-        "EventUIName": "None"
+      "IsEnable": true,
+      "IsMBEnable": true,
+      "GuideEventType": "EPMNewerGuideEventType::PlaySequencer",
+      "EventSequencerId": 9614603,
+      "EventUIName": "None"
+    },
+    "6": {
+      "GuideStep": 6,
+      "NextStep": 7,
+      "StepDesc": {
+        "Namespace": "",
+        "Key": "F21B8E264B7E5FDA580A289186BA644E",
+        "SourceString": "UI箭头指向誓约入口",
+        "LocalizedString": "UI箭头指向誓约入口"
       },
-      "6": {
-        "GuideStep": 6,
-        "NextStep": 7,
-        "StepDesc": {
-          "Namespace": "",
-          "Key": "F21B8E264B7E5FDA580A289186BA644E",
-          "SourceString": "UI箭头指向誓约入口",
-          "LocalizedString": "UI箭头指向誓约入口"
-        },
-        "IsEnable": true,
-        "IsMBEnable": false,
-        "GuideEventType": "EPMNewerGuideEventType::OpenUIPage",
-        "EventSequencerId": 15146060,
-        "EventUIName": "ApartmentContractUpGradePage"
+      "IsEnable": true,
+      "IsMBEnable": false,
+      "GuideEventType": "EPMNewerGuideEventType::OpenUIPage",
+      "EventSequencerId": 15146060,
+      "EventUIName": "ApartmentContractUpGradePage"
+    },
+    "7": {
+      "GuideStep": 7,
+      "NextStep": 8,
+      "StepDesc": {
+        "Namespace": "",
+        "Key": "3EC443854DDD7BE79453BBB670F9E1C0",
+        "SourceString": "誓约界面内引导",
+        "LocalizedString": "誓约界面内引导"
       },
-      "7": {
-        "GuideStep": 7,
-        "NextStep": 8,
-        "StepDesc": {
-          "Namespace": "",
-          "Key": "3EC443854DDD7BE79453BBB670F9E1C0",
-          "SourceString": "誓约界面内引导",
-          "LocalizedString": "誓约界面内引导"
-        },
-        "IsEnable": true,
-        "IsMBEnable": false,
-        "GuideEventType": "EPMNewerGuideEventType::OpenUIPage",
-        "EventSequencerId": 15146060,
-        "EventUIName": "NewGuidePage"
+      "IsEnable": true,
+      "IsMBEnable": false,
+      "GuideEventType": "EPMNewerGuideEventType::OpenUIPage",
+      "EventSequencerId": 15146060,
+      "EventUIName": "NewGuidePage"
+    },
+    "8": {
+      "GuideStep": 8,
+      "NextStep": 0,
+      "StepDesc": {
+        "Namespace": "",
+        "Key": "C547515645F63F7C87347C899E9F3767",
+        "SourceString": "sequence D播放",
+        "LocalizedString": "sequence D播放"
       },
-      "8": {
-        "GuideStep": 8,
-        "NextStep": 0,
-        "StepDesc": {
-          "Namespace": "",
-          "Key": "C547515645F63F7C87347C899E9F3767",
-          "SourceString": "sequence D播放",
-          "LocalizedString": "sequence D播放"
-        },
-        "IsEnable": true,
-        "IsMBEnable": true,
-        "GuideEventType": "EPMNewerGuideEventType::PlaySequencer",
-        "EventSequencerId": 9614604,
-        "EventUIName": "None"
-      }
+      "IsEnable": true,
+      "IsMBEnable": true,
+      "GuideEventType": "EPMNewerGuideEventType::PlaySequencer",
+      "EventSequencerId": 9614604,
+      "EventUIName": "None"
     }
   }
-]
+}

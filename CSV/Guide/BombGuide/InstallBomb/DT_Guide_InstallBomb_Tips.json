@@ -1,66 +1,64 @@
-[
-  {
-    "Type": "DataTable",
-    "Name": "DT_Guide_InstallBomb_Tips",
-    "Class": "UScriptClass'DataTable'",
-    "Properties": {
-      "RowStruct": {
-        "ObjectName": "ScriptStruct'CyGuideSplashTipsConfig'",
-        "ObjectPath": "/Script/PMGame"
+{
+  "Type": "DataTable",
+  "Name": "DT_Guide_InstallBomb_Tips",
+  "Class": "UScriptClass'DataTable'",
+  "Properties": {
+    "RowStruct": {
+      "ObjectName": "ScriptStruct'CyGuideSplashTipsConfig'",
+      "ObjectPath": "/Script/PMGame"
+    }
+  },
+  "Rows": {
+    "NewRow": {
+      "Id": 0,
+      "IsSuccessTip": true,
+      "SplashType": "ECyGuideSplashType::Success_BombBurst",
+      "SplashInfo": {
+        "Namespace": "",
+        "Key": "BEF74C6D49FA090A22402790A4DF5369",
+        "SourceString": "守包任务胜利",
+        "LocalizedString": "守包任务胜利"
+      },
+      "Tips": {
+        "Namespace": "",
+        "Key": "DCFCEFBD49E2688289CE258A9E0F4214",
+        "SourceString": "等待炸弹爆炸和击杀所有敌人进攻方都可取得胜利！",
+        "LocalizedString": "等待炸弹爆炸和击杀所有敌人进攻方都可取得胜利！"
       }
     },
-    "Rows": {
-      "NewRow": {
-        "Id": 0,
-        "IsSuccessTip": true,
-        "SplashType": "ECyGuideSplashType::Success_BombBurst",
-        "SplashInfo": {
-          "Namespace": "",
-          "Key": "BEF74C6D49FA090A22402790A4DF5369",
-          "SourceString": "守包任务胜利",
-          "LocalizedString": "守包任务胜利"
-        },
-        "Tips": {
-          "Namespace": "",
-          "Key": "DCFCEFBD49E2688289CE258A9E0F4214",
-          "SourceString": "等待炸弹爆炸和击杀所有敌人进攻方都可取得胜利！",
-          "LocalizedString": "等待炸弹爆炸和击杀所有敌人进攻方都可取得胜利！"
-        }
+    "NewRow_0": {
+      "Id": 1,
+      "IsSuccessTip": false,
+      "SplashType": "ECyGuideSplashType::Failed_BombRemove",
+      "SplashInfo": {
+        "Namespace": "",
+        "Key": "0600D6624301C13067B70C85FD96491D",
+        "SourceString": "爆破任务失败，炸弹已被拆除",
+        "LocalizedString": "爆破任务失败，炸弹已被拆除"
       },
-      "NewRow_0": {
-        "Id": 1,
-        "IsSuccessTip": false,
-        "SplashType": "ECyGuideSplashType::Failed_BombRemove",
-        "SplashInfo": {
-          "Namespace": "",
-          "Key": "0600D6624301C13067B70C85FD96491D",
-          "SourceString": "爆破任务失败，炸弹已被拆除",
-          "LocalizedString": "爆破任务失败，炸弹已被拆除"
-        },
-        "Tips": {
-          "Namespace": "",
-          "Key": "63ED45CD46D1DE52ABA3EC96EE70DBE3",
-          "SourceString": "及时阻止敌人拆除炸弹",
-          "LocalizedString": "及时阻止敌人拆除炸弹"
-        }
+      "Tips": {
+        "Namespace": "",
+        "Key": "63ED45CD46D1DE52ABA3EC96EE70DBE3",
+        "SourceString": "及时阻止敌人拆除炸弹",
+        "LocalizedString": "及时阻止敌人拆除炸弹"
+      }
+    },
+    "NewRow_1": {
+      "Id": 2,
+      "IsSuccessTip": false,
+      "SplashType": "ECyGuideSplashType::Failed_BombBurst",
+      "SplashInfo": {
+        "Namespace": "",
+        "Key": "CEB01C0A41EBC7DED0E81B8E4722248E",
+        "SourceString": "拆除任务失败，已发生爆炸事件",
+        "LocalizedString": "拆除任务失败，已发生爆炸事件"
       },
-      "NewRow_1": {
-        "Id": 2,
-        "IsSuccessTip": false,
-        "SplashType": "ECyGuideSplashType::Failed_BombBurst",
-        "SplashInfo": {
-          "Namespace": "",
-          "Key": "CEB01C0A41EBC7DED0E81B8E4722248E",
-          "SourceString": "拆除任务失败，已发生爆炸事件",
-          "LocalizedString": "拆除任务失败，已发生爆炸事件"
-        },
-        "Tips": {
-          "Namespace": "",
-          "Key": "152621224B295DD7ADBA4BB9827BEB31",
-          "SourceString": "在爆炸之前及时拆除炸弹",
-          "LocalizedString": "在爆炸之前及时拆除炸弹"
-        }
+      "Tips": {
+        "Namespace": "",
+        "Key": "152621224B295DD7ADBA4BB9827BEB31",
+        "SourceString": "在爆炸之前及时拆除炸弹",
+        "LocalizedString": "在爆炸之前及时拆除炸弹"
       }
     }
   }
-]
+}

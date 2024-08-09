@@ -1,599 +1,597 @@
-[
-  {
-    "Type": "DataTable",
-    "Name": "DT_ApartmentStateMachine",
-    "Class": "UScriptClass'DataTable'",
-    "Properties": {
-      "RowStruct": {
-        "ObjectName": "ScriptStruct'CyApartmentStateMachineTableRow'",
-        "ObjectPath": "/Script/PMGame"
-      }
+{
+  "Type": "DataTable",
+  "Name": "DT_ApartmentStateMachine",
+  "Class": "UScriptClass'DataTable'",
+  "Properties": {
+    "RowStruct": {
+      "ObjectName": "ScriptStruct'CyApartmentStateMachineTableRow'",
+      "ObjectPath": "/Script/PMGame"
+    }
+  },
+  "Rows": {
+    "1": {
+      "StateId": 1,
+      "State": "Entry",
+      "TransitionStateConditions": [
+        {
+          "NextState": "FirstEnterCharacterRoom",
+          "ConditionID": 5
+        },
+        {
+          "NextState": "FlapFaceState",
+          "ConditionID": 14
+        },
+        {
+          "NextState": "Festival",
+          "ConditionID": 15
+        },
+        {
+          "NextState": "BirthdayRecord",
+          "ConditionID": 16
+        },
+        {
+          "NextState": "PlayerBirthday",
+          "ConditionID": 17
+        },
+        {
+          "NextState": "RoleBirthday",
+          "ConditionID": 18
+        },
+        {
+          "NextState": "LongTimeNotLoggin",
+          "ConditionID": 8
+        },
+        {
+          "NextState": "EnterCharacterRoom",
+          "ConditionID": 6
+        },
+        {
+          "NextState": "SincerityInteraction",
+          "ConditionID": 13
+        },
+        {
+          "NextState": "CombatComfort",
+          "ConditionID": 7
+        },
+        {
+          "NextState": "UnreadMail",
+          "ConditionID": 2
+        },
+        {
+          "NextState": "GetEpicSkin",
+          "ConditionID": 4
+        },
+        {
+          "NextState": "FavorabilityUp",
+          "ConditionID": 9
+        },
+        {
+          "NextState": "SceneChangeIdle",
+          "ConditionID": 0
+        }
+      ],
+      "StateType": "EApartmentStateType::System",
+      "SequenceProxyId": 0,
+      "LuaClass": "Business/Apartment/Proxies/ApartmentState/ApartmentEntryState"
     },
-    "Rows": {
-      "1": {
-        "StateId": 1,
-        "State": "Entry",
-        "TransitionStateConditions": [
-          {
-            "NextState": "FirstEnterCharacterRoom",
-            "ConditionID": 5
-          },
-          {
-            "NextState": "FlapFaceState",
-            "ConditionID": 14
-          },
-          {
-            "NextState": "Festival",
-            "ConditionID": 15
-          },
-          {
-            "NextState": "BirthdayRecord",
-            "ConditionID": 16
-          },
-          {
-            "NextState": "PlayerBirthday",
-            "ConditionID": 17
-          },
-          {
-            "NextState": "RoleBirthday",
-            "ConditionID": 18
-          },
-          {
-            "NextState": "LongTimeNotLoggin",
-            "ConditionID": 8
-          },
-          {
-            "NextState": "EnterCharacterRoom",
-            "ConditionID": 6
-          },
-          {
-            "NextState": "SincerityInteraction",
-            "ConditionID": 13
-          },
-          {
-            "NextState": "CombatComfort",
-            "ConditionID": 7
-          },
-          {
-            "NextState": "UnreadMail",
-            "ConditionID": 2
-          },
-          {
-            "NextState": "GetEpicSkin",
-            "ConditionID": 4
-          },
-          {
-            "NextState": "FavorabilityUp",
-            "ConditionID": 9
-          },
-          {
-            "NextState": "SceneChangeIdle",
-            "ConditionID": 0
-          }
-        ],
-        "StateType": "EApartmentStateType::System",
-        "SequenceProxyId": 0,
-        "LuaClass": "Business/Apartment/Proxies/ApartmentState/ApartmentEntryState"
-      },
-      "2": {
-        "StateId": 2,
-        "State": "FirstEnterCharacterRoom",
-        "TransitionStateConditions": [
-          {
-            "NextState": "FlapFaceState",
-            "ConditionID": 14
-          },
-          {
-            "NextState": "Festival",
-            "ConditionID": 15
-          },
-          {
-            "NextState": "PlayerBirthday",
-            "ConditionID": 17
-          },
-          {
-            "NextState": "CombatComfort",
-            "ConditionID": 7
-          },
-          {
-            "NextState": "UnreadMail",
-            "ConditionID": 2
-          },
-          {
-            "NextState": "GetEpicSkin",
-            "ConditionID": 4
-          },
-          {
-            "NextState": "FavorabilityUp",
-            "ConditionID": 9
-          },
-          {
-            "NextState": "Festival",
-            "ConditionID": 15
-          },
-          {
-            "NextState": "SceneInterpretationIdle",
-            "ConditionID": 0
-          }
-        ],
-        "StateType": "EApartmentStateType::System",
-        "SequenceProxyId": 0,
-        "LuaClass": "Business/Apartment/Proxies/ApartmentState/FirstEnterCharacterRoomState"
-      },
-      "3": {
-        "StateId": 3,
-        "State": "EnterCharacterRoom",
-        "TransitionStateConditions": [
-          {
-            "NextState": "CombatComfort",
-            "ConditionID": 7
-          },
-          {
-            "NextState": "UnreadMail",
-            "ConditionID": 2
-          },
-          {
-            "NextState": "GetEpicSkin",
-            "ConditionID": 4
-          },
-          {
-            "NextState": "FavorabilityUp",
-            "ConditionID": 9
-          },
-          {
-            "NextState": "SceneChangeIdle",
-            "ConditionID": 0
-          }
-        ],
-        "StateType": "EApartmentStateType::System",
-        "SequenceProxyId": 0,
-        "LuaClass": "Business/Apartment/Proxies/ApartmentState/EnterCharacterRoomState"
-      },
-      "4": {
-        "StateId": 4,
-        "State": "LongTimeNotLoggin",
-        "TransitionStateConditions": [
-          {
-            "NextState": "SceneChangeIdle",
-            "ConditionID": 0
-          }
-        ],
-        "StateType": "EApartmentStateType::System",
-        "SequenceProxyId": 0,
-        "LuaClass": "Business/Apartment/Proxies/ApartmentState/LongTimeNotLogginState"
-      },
-      "5": {
-        "StateId": 5,
-        "State": "UnreadMail",
-        "TransitionStateConditions": [
-          {
-            "NextState": "GetEpicSkin",
-            "ConditionID": 4
-          },
-          {
-            "NextState": "FavorabilityUp",
-            "ConditionID": 9
-          },
-          {
-            "NextState": "SceneInterpretationIdle",
-            "ConditionID": 0
-          }
-        ],
-        "StateType": "EApartmentStateType::System",
-        "SequenceProxyId": 0,
-        "LuaClass": "Business/Apartment/Proxies/ApartmentState/UnreadMailState"
-      },
-      "6": {
-        "StateId": 6,
-        "State": "CombatComfort",
-        "TransitionStateConditions": [
-          {
-            "NextState": "UnreadMail",
-            "ConditionID": 2
-          },
-          {
-            "NextState": "GetEpicSkin",
-            "ConditionID": 4
-          },
-          {
-            "NextState": "FavorabilityUp",
-            "ConditionID": 9
-          },
-          {
-            "NextState": "SceneInterpretationIdle",
-            "ConditionID": 0
-          }
-        ],
-        "StateType": "EApartmentStateType::System",
-        "SequenceProxyId": 0,
-        "LuaClass": "Business/Apartment/Proxies/ApartmentState/CombatComfortState"
-      },
-      "7": {
-        "StateId": 7,
-        "State": "GetEpicSkin",
-        "TransitionStateConditions": [
-          {
-            "NextState": "FavorabilityUp",
-            "ConditionID": 9
-          },
-          {
-            "NextState": "SceneInterpretationIdle",
-            "ConditionID": 0
-          }
-        ],
-        "StateType": "EApartmentStateType::System",
-        "SequenceProxyId": 0,
-        "LuaClass": "Business/Apartment/Proxies/ApartmentState/GetEpicSkinState"
-      },
-      "8": {
-        "StateId": 8,
-        "State": "SceneChangeIdle",
-        "TransitionStateConditions": [],
-        "StateType": "EApartmentStateType::Normal",
-        "SequenceProxyId": 0,
-        "LuaClass": "Business/Apartment/Proxies/ApartmentState/SceneChangeIdleState"
-      },
-      "9": {
-        "StateId": 9,
-        "State": "RandomTouch",
-        "TransitionStateConditions": [],
-        "StateType": "EApartmentStateType::Normal",
-        "SequenceProxyId": 0,
-        "LuaClass": "Business/Apartment/Proxies/ApartmentState/RandomTouchState"
-      },
-      "10": {
-        "StateId": 10,
-        "State": "EnterSceneCenter",
-        "TransitionStateConditions": [],
-        "StateType": "EApartmentStateType::Normal",
-        "SequenceProxyId": 0,
-        "LuaClass": "Business/Apartment/Proxies/ApartmentState/EnterSceneCenterState"
-      },
-      "11": {
-        "StateId": 11,
-        "State": "SceneInterpretationIdle",
-        "TransitionStateConditions": [],
-        "StateType": "EApartmentStateType::Normal",
-        "SequenceProxyId": 0,
-        "LuaClass": "Business/Apartment/Proxies/ApartmentState/SceneInterpretationIdleState"
-      },
-      "12": {
-        "StateId": 12,
-        "State": "Promise",
-        "TransitionStateConditions": [],
-        "StateType": "EApartmentStateType::None",
-        "SequenceProxyId": 0,
-        "LuaClass": "Business/Apartment/Proxies/ApartmentState/PromiseState"
-      },
-      "13": {
-        "StateId": 13,
-        "State": "FavorabilityUp",
-        "TransitionStateConditions": [
-          {
-            "NextState": "GetGift",
-            "ConditionID": 12
-          },
-          {
-            "NextState": "Promise",
-            "ConditionID": 11
-          },
-          {
-            "NextState": "SceneInterpretationIdle",
-            "ConditionID": 0
-          }
-        ],
-        "StateType": "EApartmentStateType::System",
-        "SequenceProxyId": 0,
-        "LuaClass": "Business/Apartment/Proxies/ApartmentState/FavorabilityUpState"
-      },
-      "14": {
-        "StateId": 14,
-        "State": "GetGift",
-        "TransitionStateConditions": [
-          {
-            "NextState": "Promise",
-            "ConditionID": 11
-          },
-          {
-            "NextState": "SceneInterpretationIdle",
-            "ConditionID": 0
-          }
-        ],
-        "StateType": "EApartmentStateType::System",
-        "SequenceProxyId": 0,
-        "LuaClass": "Business/Apartment/Proxies/ApartmentState/GetGiftState"
-      },
-      "15": {
-        "StateId": 15,
-        "State": "SincerityInteraction",
-        "TransitionStateConditions": [
-          {
-            "NextState": "CombatComfort",
-            "ConditionID": 7
-          },
-          {
-            "NextState": "UnreadMail",
-            "ConditionID": 2
-          },
-          {
-            "NextState": "GetEpicSkin",
-            "ConditionID": 4
-          },
-          {
-            "NextState": "FavorabilityUp",
-            "ConditionID": 9
-          },
-          {
-            "NextState": "SceneInterpretationIdle",
-            "ConditionID": 0
-          }
-        ],
-        "StateType": "EApartmentStateType::System",
-        "SequenceProxyId": 0,
-        "LuaClass": "Business/Apartment/Proxies/ApartmentState/SincerityInteractionState"
-      },
-      "16": {
-        "StateId": 16,
-        "State": "WindingCorridor",
-        "TransitionStateConditions": [],
-        "StateType": "EApartmentStateType::None",
-        "SequenceProxyId": 0,
-        "LuaClass": "Business/Apartment/Proxies/ApartmentState/WindingCorridorState"
-      },
-      "17": {
-        "StateId": 17,
-        "State": "PerformToInteractionTransition",
-        "TransitionStateConditions": [],
-        "StateType": "EApartmentStateType::Normal",
-        "SequenceProxyId": 0,
-        "LuaClass": "Business/Apartment/Proxies/ApartmentState/PerformToInteractionTransitionState"
-      },
-      "18": {
-        "StateId": 18,
-        "State": "Pause",
-        "TransitionStateConditions": [],
-        "StateType": "EApartmentStateType::None",
-        "SequenceProxyId": 0,
-        "LuaClass": "Business/Apartment/Proxies/ApartmentState/PauseState"
-      },
-      "19": {
-        "StateId": 19,
-        "State": "BeginnerGuidance",
-        "TransitionStateConditions": [
-          {
-            "NextState": "FlapFaceState",
-            "ConditionID": 14
-          },
-          {
-            "NextState": "Festival",
-            "ConditionID": 15
-          },
-          {
-            "NextState": "BirthdayRecord",
-            "ConditionID": 16
-          },
-          {
-            "NextState": "PlayerBirthday",
-            "ConditionID": 17
-          },
-          {
-            "NextState": "SceneInterpretationIdle",
-            "ConditionID": 0
-          }
-        ],
-        "StateType": "EApartmentStateType::None",
-        "SequenceProxyId": 0,
-        "LuaClass": "Business/Apartment/Proxies/ApartmentState/BeginnerGuidanceState"
-      },
-      "20": {
-        "StateId": 20,
-        "State": "FlapFaceState",
-        "TransitionStateConditions": [
-          {
-            "NextState": "Festival",
-            "ConditionID": 15
-          },
-          {
-            "NextState": "BirthdayRecord",
-            "ConditionID": 16
-          },
-          {
-            "NextState": "PlayerBirthday",
-            "ConditionID": 17
-          },
-          {
-            "NextState": "LongTimeNotLoggin",
-            "ConditionID": 8
-          },
-          {
-            "NextState": "EnterCharacterRoom",
-            "ConditionID": 6
-          },
-          {
-            "NextState": "SincerityInteraction",
-            "ConditionID": 13
-          },
-          {
-            "NextState": "CombatComfort",
-            "ConditionID": 7
-          },
-          {
-            "NextState": "UnreadMail",
-            "ConditionID": 2
-          },
-          {
-            "NextState": "GetEpicSkin",
-            "ConditionID": 4
-          },
-          {
-            "NextState": "FavorabilityUp",
-            "ConditionID": 9
-          },
-          {
-            "NextState": "SceneChangeIdle",
-            "ConditionID": 0
-          }
-        ],
-        "StateType": "EApartmentStateType::None",
-        "SequenceProxyId": 0,
-        "LuaClass": "Business/Apartment/Proxies/ApartmentState/FlapFaceState"
-      },
-      "21": {
-        "StateId": 21,
-        "State": "Festival",
-        "TransitionStateConditions": [
-          {
-            "NextState": "BirthdayRecord",
-            "ConditionID": 16
-          },
-          {
-            "NextState": "PlayerBirthday",
-            "ConditionID": 17
-          },
-          {
-            "NextState": "SceneInterpretationIdle",
-            "ConditionID": 0
-          }
-        ],
-        "StateType": "EApartmentStateType::None",
-        "SequenceProxyId": 0,
-        "LuaClass": "Business/Apartment/Proxies/ApartmentState/FestivalState"
-      },
-      "22": {
-        "StateId": 22,
-        "State": "BirthdayRecord",
-        "TransitionStateConditions": [
-          {
-            "NextState": "CombatComfort",
-            "ConditionID": 7
-          },
-          {
-            "NextState": "UnreadMail",
-            "ConditionID": 2
-          },
-          {
-            "NextState": "GetEpicSkin",
-            "ConditionID": 4
-          },
-          {
-            "NextState": "FavorabilityUp",
-            "ConditionID": 9
-          },
-          {
-            "NextState": "SceneInterpretationIdle",
-            "ConditionID": 0
-          }
-        ],
-        "StateType": "EApartmentStateType::None",
-        "SequenceProxyId": 0,
-        "LuaClass": "Business/Apartment/Proxies/ApartmentState/BirthdayRecordState"
-      },
-      "23": {
-        "StateId": 23,
-        "State": "PlayerBirthday",
-        "TransitionStateConditions": [
-          {
-            "NextState": "CombatComfort",
-            "ConditionID": 7
-          },
-          {
-            "NextState": "UnreadMail",
-            "ConditionID": 2
-          },
-          {
-            "NextState": "GetEpicSkin",
-            "ConditionID": 4
-          },
-          {
-            "NextState": "FavorabilityUp",
-            "ConditionID": 9
-          },
-          {
-            "NextState": "SceneInterpretationIdle",
-            "ConditionID": 0
-          }
-        ],
-        "StateType": "EApartmentStateType::None",
-        "SequenceProxyId": 0,
-        "LuaClass": "Business/Apartment/Proxies/ApartmentState/PlayerBirthdayState"
-      },
-      "24": {
-        "StateId": 24,
-        "State": "RoleBirthday",
-        "TransitionStateConditions": [
-          {
-            "NextState": "CombatComfort",
-            "ConditionID": 7
-          },
-          {
-            "NextState": "UnreadMail",
-            "ConditionID": 2
-          },
-          {
-            "NextState": "GetEpicSkin",
-            "ConditionID": 4
-          },
-          {
-            "NextState": "FavorabilityUp",
-            "ConditionID": 9
-          },
-          {
-            "NextState": "SceneInterpretationIdle",
-            "ConditionID": 0
-          }
-        ],
-        "StateType": "EApartmentStateType::None",
-        "SequenceProxyId": 0,
-        "LuaClass": "Business/Apartment/Proxies/ApartmentState/RoleBirthdayState"
-      },
-      "25": {
-        "StateId": 25,
-        "State": "RoleBirthday_Enter",
-        "TransitionStateConditions": [],
-        "StateType": "EApartmentStateType::None",
-        "SequenceProxyId": 0,
-        "LuaClass": "Business/Apartment/Proxies/ApartmentState/RoleBirthday_EnterState"
-      },
-      "26": {
-        "StateId": 26,
-        "State": "RoleBirthday_Card",
-        "TransitionStateConditions": [],
-        "StateType": "EApartmentStateType::None",
-        "SequenceProxyId": 0,
-        "LuaClass": "Business/Apartment/Proxies/ApartmentState/RoleBirthday_CardState"
-      },
-      "27": {
-        "StateId": 27,
-        "State": "RoleBirthday_Wish",
-        "TransitionStateConditions": [],
-        "StateType": "EApartmentStateType::None",
-        "SequenceProxyId": 0,
-        "LuaClass": "Business/Apartment/Proxies/ApartmentState/RoleBirthday_WishState"
-      },
-      "28": {
-        "StateId": 28,
-        "State": "RoleBirthday_Cake",
-        "TransitionStateConditions": [],
-        "StateType": "EApartmentStateType::None",
-        "SequenceProxyId": 0,
-        "LuaClass": "Business/Apartment/Proxies/ApartmentState/RoleBirthday_CakeState"
-      },
-      "29": {
-        "StateId": 29,
-        "State": "RoleBirthday_ReturnPresent",
-        "TransitionStateConditions": [],
-        "StateType": "EApartmentStateType::None",
-        "SequenceProxyId": 0,
-        "LuaClass": "Business/Apartment/Proxies/ApartmentState/RoleBirthday_ReturnPresentState"
-      },
-      "30": {
-        "StateId": 30,
-        "State": "RoleBirthday_SelectGift",
-        "TransitionStateConditions": [],
-        "StateType": "EApartmentStateType::None",
-        "SequenceProxyId": 0,
-        "LuaClass": "Business/Apartment/Proxies/ApartmentState/RoleBirthday_SelectGiftState"
-      }
+    "2": {
+      "StateId": 2,
+      "State": "FirstEnterCharacterRoom",
+      "TransitionStateConditions": [
+        {
+          "NextState": "FlapFaceState",
+          "ConditionID": 14
+        },
+        {
+          "NextState": "Festival",
+          "ConditionID": 15
+        },
+        {
+          "NextState": "PlayerBirthday",
+          "ConditionID": 17
+        },
+        {
+          "NextState": "CombatComfort",
+          "ConditionID": 7
+        },
+        {
+          "NextState": "UnreadMail",
+          "ConditionID": 2
+        },
+        {
+          "NextState": "GetEpicSkin",
+          "ConditionID": 4
+        },
+        {
+          "NextState": "FavorabilityUp",
+          "ConditionID": 9
+        },
+        {
+          "NextState": "Festival",
+          "ConditionID": 15
+        },
+        {
+          "NextState": "SceneInterpretationIdle",
+          "ConditionID": 0
+        }
+      ],
+      "StateType": "EApartmentStateType::System",
+      "SequenceProxyId": 0,
+      "LuaClass": "Business/Apartment/Proxies/ApartmentState/FirstEnterCharacterRoomState"
+    },
+    "3": {
+      "StateId": 3,
+      "State": "EnterCharacterRoom",
+      "TransitionStateConditions": [
+        {
+          "NextState": "CombatComfort",
+          "ConditionID": 7
+        },
+        {
+          "NextState": "UnreadMail",
+          "ConditionID": 2
+        },
+        {
+          "NextState": "GetEpicSkin",
+          "ConditionID": 4
+        },
+        {
+          "NextState": "FavorabilityUp",
+          "ConditionID": 9
+        },
+        {
+          "NextState": "SceneChangeIdle",
+          "ConditionID": 0
+        }
+      ],
+      "StateType": "EApartmentStateType::System",
+      "SequenceProxyId": 0,
+      "LuaClass": "Business/Apartment/Proxies/ApartmentState/EnterCharacterRoomState"
+    },
+    "4": {
+      "StateId": 4,
+      "State": "LongTimeNotLoggin",
+      "TransitionStateConditions": [
+        {
+          "NextState": "SceneChangeIdle",
+          "ConditionID": 0
+        }
+      ],
+      "StateType": "EApartmentStateType::System",
+      "SequenceProxyId": 0,
+      "LuaClass": "Business/Apartment/Proxies/ApartmentState/LongTimeNotLogginState"
+    },
+    "5": {
+      "StateId": 5,
+      "State": "UnreadMail",
+      "TransitionStateConditions": [
+        {
+          "NextState": "GetEpicSkin",
+          "ConditionID": 4
+        },
+        {
+          "NextState": "FavorabilityUp",
+          "ConditionID": 9
+        },
+        {
+          "NextState": "SceneInterpretationIdle",
+          "ConditionID": 0
+        }
+      ],
+      "StateType": "EApartmentStateType::System",
+      "SequenceProxyId": 0,
+      "LuaClass": "Business/Apartment/Proxies/ApartmentState/UnreadMailState"
+    },
+    "6": {
+      "StateId": 6,
+      "State": "CombatComfort",
+      "TransitionStateConditions": [
+        {
+          "NextState": "UnreadMail",
+          "ConditionID": 2
+        },
+        {
+          "NextState": "GetEpicSkin",
+          "ConditionID": 4
+        },
+        {
+          "NextState": "FavorabilityUp",
+          "ConditionID": 9
+        },
+        {
+          "NextState": "SceneInterpretationIdle",
+          "ConditionID": 0
+        }
+      ],
+      "StateType": "EApartmentStateType::System",
+      "SequenceProxyId": 0,
+      "LuaClass": "Business/Apartment/Proxies/ApartmentState/CombatComfortState"
+    },
+    "7": {
+      "StateId": 7,
+      "State": "GetEpicSkin",
+      "TransitionStateConditions": [
+        {
+          "NextState": "FavorabilityUp",
+          "ConditionID": 9
+        },
+        {
+          "NextState": "SceneInterpretationIdle",
+          "ConditionID": 0
+        }
+      ],
+      "StateType": "EApartmentStateType::System",
+      "SequenceProxyId": 0,
+      "LuaClass": "Business/Apartment/Proxies/ApartmentState/GetEpicSkinState"
+    },
+    "8": {
+      "StateId": 8,
+      "State": "SceneChangeIdle",
+      "TransitionStateConditions": [],
+      "StateType": "EApartmentStateType::Normal",
+      "SequenceProxyId": 0,
+      "LuaClass": "Business/Apartment/Proxies/ApartmentState/SceneChangeIdleState"
+    },
+    "9": {
+      "StateId": 9,
+      "State": "RandomTouch",
+      "TransitionStateConditions": [],
+      "StateType": "EApartmentStateType::Normal",
+      "SequenceProxyId": 0,
+      "LuaClass": "Business/Apartment/Proxies/ApartmentState/RandomTouchState"
+    },
+    "10": {
+      "StateId": 10,
+      "State": "EnterSceneCenter",
+      "TransitionStateConditions": [],
+      "StateType": "EApartmentStateType::Normal",
+      "SequenceProxyId": 0,
+      "LuaClass": "Business/Apartment/Proxies/ApartmentState/EnterSceneCenterState"
+    },
+    "11": {
+      "StateId": 11,
+      "State": "SceneInterpretationIdle",
+      "TransitionStateConditions": [],
+      "StateType": "EApartmentStateType::Normal",
+      "SequenceProxyId": 0,
+      "LuaClass": "Business/Apartment/Proxies/ApartmentState/SceneInterpretationIdleState"
+    },
+    "12": {
+      "StateId": 12,
+      "State": "Promise",
+      "TransitionStateConditions": [],
+      "StateType": "EApartmentStateType::None",
+      "SequenceProxyId": 0,
+      "LuaClass": "Business/Apartment/Proxies/ApartmentState/PromiseState"
+    },
+    "13": {
+      "StateId": 13,
+      "State": "FavorabilityUp",
+      "TransitionStateConditions": [
+        {
+          "NextState": "GetGift",
+          "ConditionID": 12
+        },
+        {
+          "NextState": "Promise",
+          "ConditionID": 11
+        },
+        {
+          "NextState": "SceneInterpretationIdle",
+          "ConditionID": 0
+        }
+      ],
+      "StateType": "EApartmentStateType::System",
+      "SequenceProxyId": 0,
+      "LuaClass": "Business/Apartment/Proxies/ApartmentState/FavorabilityUpState"
+    },
+    "14": {
+      "StateId": 14,
+      "State": "GetGift",
+      "TransitionStateConditions": [
+        {
+          "NextState": "Promise",
+          "ConditionID": 11
+        },
+        {
+          "NextState": "SceneInterpretationIdle",
+          "ConditionID": 0
+        }
+      ],
+      "StateType": "EApartmentStateType::System",
+      "SequenceProxyId": 0,
+      "LuaClass": "Business/Apartment/Proxies/ApartmentState/GetGiftState"
+    },
+    "15": {
+      "StateId": 15,
+      "State": "SincerityInteraction",
+      "TransitionStateConditions": [
+        {
+          "NextState": "CombatComfort",
+          "ConditionID": 7
+        },
+        {
+          "NextState": "UnreadMail",
+          "ConditionID": 2
+        },
+        {
+          "NextState": "GetEpicSkin",
+          "ConditionID": 4
+        },
+        {
+          "NextState": "FavorabilityUp",
+          "ConditionID": 9
+        },
+        {
+          "NextState": "SceneInterpretationIdle",
+          "ConditionID": 0
+        }
+      ],
+      "StateType": "EApartmentStateType::System",
+      "SequenceProxyId": 0,
+      "LuaClass": "Business/Apartment/Proxies/ApartmentState/SincerityInteractionState"
+    },
+    "16": {
+      "StateId": 16,
+      "State": "WindingCorridor",
+      "TransitionStateConditions": [],
+      "StateType": "EApartmentStateType::None",
+      "SequenceProxyId": 0,
+      "LuaClass": "Business/Apartment/Proxies/ApartmentState/WindingCorridorState"
+    },
+    "17": {
+      "StateId": 17,
+      "State": "PerformToInteractionTransition",
+      "TransitionStateConditions": [],
+      "StateType": "EApartmentStateType::Normal",
+      "SequenceProxyId": 0,
+      "LuaClass": "Business/Apartment/Proxies/ApartmentState/PerformToInteractionTransitionState"
+    },
+    "18": {
+      "StateId": 18,
+      "State": "Pause",
+      "TransitionStateConditions": [],
+      "StateType": "EApartmentStateType::None",
+      "SequenceProxyId": 0,
+      "LuaClass": "Business/Apartment/Proxies/ApartmentState/PauseState"
+    },
+    "19": {
+      "StateId": 19,
+      "State": "BeginnerGuidance",
+      "TransitionStateConditions": [
+        {
+          "NextState": "FlapFaceState",
+          "ConditionID": 14
+        },
+        {
+          "NextState": "Festival",
+          "ConditionID": 15
+        },
+        {
+          "NextState": "BirthdayRecord",
+          "ConditionID": 16
+        },
+        {
+          "NextState": "PlayerBirthday",
+          "ConditionID": 17
+        },
+        {
+          "NextState": "SceneInterpretationIdle",
+          "ConditionID": 0
+        }
+      ],
+      "StateType": "EApartmentStateType::None",
+      "SequenceProxyId": 0,
+      "LuaClass": "Business/Apartment/Proxies/ApartmentState/BeginnerGuidanceState"
+    },
+    "20": {
+      "StateId": 20,
+      "State": "FlapFaceState",
+      "TransitionStateConditions": [
+        {
+          "NextState": "Festival",
+          "ConditionID": 15
+        },
+        {
+          "NextState": "BirthdayRecord",
+          "ConditionID": 16
+        },
+        {
+          "NextState": "PlayerBirthday",
+          "ConditionID": 17
+        },
+        {
+          "NextState": "LongTimeNotLoggin",
+          "ConditionID": 8
+        },
+        {
+          "NextState": "EnterCharacterRoom",
+          "ConditionID": 6
+        },
+        {
+          "NextState": "SincerityInteraction",
+          "ConditionID": 13
+        },
+        {
+          "NextState": "CombatComfort",
+          "ConditionID": 7
+        },
+        {
+          "NextState": "UnreadMail",
+          "ConditionID": 2
+        },
+        {
+          "NextState": "GetEpicSkin",
+          "ConditionID": 4
+        },
+        {
+          "NextState": "FavorabilityUp",
+          "ConditionID": 9
+        },
+        {
+          "NextState": "SceneChangeIdle",
+          "ConditionID": 0
+        }
+      ],
+      "StateType": "EApartmentStateType::None",
+      "SequenceProxyId": 0,
+      "LuaClass": "Business/Apartment/Proxies/ApartmentState/FlapFaceState"
+    },
+    "21": {
+      "StateId": 21,
+      "State": "Festival",
+      "TransitionStateConditions": [
+        {
+          "NextState": "BirthdayRecord",
+          "ConditionID": 16
+        },
+        {
+          "NextState": "PlayerBirthday",
+          "ConditionID": 17
+        },
+        {
+          "NextState": "SceneInterpretationIdle",
+          "ConditionID": 0
+        }
+      ],
+      "StateType": "EApartmentStateType::None",
+      "SequenceProxyId": 0,
+      "LuaClass": "Business/Apartment/Proxies/ApartmentState/FestivalState"
+    },
+    "22": {
+      "StateId": 22,
+      "State": "BirthdayRecord",
+      "TransitionStateConditions": [
+        {
+          "NextState": "CombatComfort",
+          "ConditionID": 7
+        },
+        {
+          "NextState": "UnreadMail",
+          "ConditionID": 2
+        },
+        {
+          "NextState": "GetEpicSkin",
+          "ConditionID": 4
+        },
+        {
+          "NextState": "FavorabilityUp",
+          "ConditionID": 9
+        },
+        {
+          "NextState": "SceneInterpretationIdle",
+          "ConditionID": 0
+        }
+      ],
+      "StateType": "EApartmentStateType::None",
+      "SequenceProxyId": 0,
+      "LuaClass": "Business/Apartment/Proxies/ApartmentState/BirthdayRecordState"
+    },
+    "23": {
+      "StateId": 23,
+      "State": "PlayerBirthday",
+      "TransitionStateConditions": [
+        {
+          "NextState": "CombatComfort",
+          "ConditionID": 7
+        },
+        {
+          "NextState": "UnreadMail",
+          "ConditionID": 2
+        },
+        {
+          "NextState": "GetEpicSkin",
+          "ConditionID": 4
+        },
+        {
+          "NextState": "FavorabilityUp",
+          "ConditionID": 9
+        },
+        {
+          "NextState": "SceneInterpretationIdle",
+          "ConditionID": 0
+        }
+      ],
+      "StateType": "EApartmentStateType::None",
+      "SequenceProxyId": 0,
+      "LuaClass": "Business/Apartment/Proxies/ApartmentState/PlayerBirthdayState"
+    },
+    "24": {
+      "StateId": 24,
+      "State": "RoleBirthday",
+      "TransitionStateConditions": [
+        {
+          "NextState": "CombatComfort",
+          "ConditionID": 7
+        },
+        {
+          "NextState": "UnreadMail",
+          "ConditionID": 2
+        },
+        {
+          "NextState": "GetEpicSkin",
+          "ConditionID": 4
+        },
+        {
+          "NextState": "FavorabilityUp",
+          "ConditionID": 9
+        },
+        {
+          "NextState": "SceneInterpretationIdle",
+          "ConditionID": 0
+        }
+      ],
+      "StateType": "EApartmentStateType::None",
+      "SequenceProxyId": 0,
+      "LuaClass": "Business/Apartment/Proxies/ApartmentState/RoleBirthdayState"
+    },
+    "25": {
+      "StateId": 25,
+      "State": "RoleBirthday_Enter",
+      "TransitionStateConditions": [],
+      "StateType": "EApartmentStateType::None",
+      "SequenceProxyId": 0,
+      "LuaClass": "Business/Apartment/Proxies/ApartmentState/RoleBirthday_EnterState"
+    },
+    "26": {
+      "StateId": 26,
+      "State": "RoleBirthday_Card",
+      "TransitionStateConditions": [],
+      "StateType": "EApartmentStateType::None",
+      "SequenceProxyId": 0,
+      "LuaClass": "Business/Apartment/Proxies/ApartmentState/RoleBirthday_CardState"
+    },
+    "27": {
+      "StateId": 27,
+      "State": "RoleBirthday_Wish",
+      "TransitionStateConditions": [],
+      "StateType": "EApartmentStateType::None",
+      "SequenceProxyId": 0,
+      "LuaClass": "Business/Apartment/Proxies/ApartmentState/RoleBirthday_WishState"
+    },
+    "28": {
+      "StateId": 28,
+      "State": "RoleBirthday_Cake",
+      "TransitionStateConditions": [],
+      "StateType": "EApartmentStateType::None",
+      "SequenceProxyId": 0,
+      "LuaClass": "Business/Apartment/Proxies/ApartmentState/RoleBirthday_CakeState"
+    },
+    "29": {
+      "StateId": 29,
+      "State": "RoleBirthday_ReturnPresent",
+      "TransitionStateConditions": [],
+      "StateType": "EApartmentStateType::None",
+      "SequenceProxyId": 0,
+      "LuaClass": "Business/Apartment/Proxies/ApartmentState/RoleBirthday_ReturnPresentState"
+    },
+    "30": {
+      "StateId": 30,
+      "State": "RoleBirthday_SelectGift",
+      "TransitionStateConditions": [],
+      "StateType": "EApartmentStateType::None",
+      "SequenceProxyId": 0,
+      "LuaClass": "Business/Apartment/Proxies/ApartmentState/RoleBirthday_SelectGiftState"
     }
   }
-]
+}

@@ -1,200 +1,198 @@
-[
-  {
-    "Type": "DataTable",
-    "Name": "DT_Guide_NoviceGuide_DeathTips",
-    "Class": "UScriptClass'DataTable'",
-    "Properties": {
-      "RowStruct": {
-        "ObjectName": "ScriptStruct'CyGuideDeathTipsConfig'",
-        "ObjectPath": "/Script/PMGame"
-      }
+{
+  "Type": "DataTable",
+  "Name": "DT_Guide_NoviceGuide_DeathTips",
+  "Class": "UScriptClass'DataTable'",
+  "Properties": {
+    "RowStruct": {
+      "ObjectName": "ScriptStruct'CyGuideDeathTipsConfig'",
+      "ObjectPath": "/Script/PMGame"
+    }
+  },
+  "Rows": {
+    "Default": {
+      "Id": 1,
+      "DeathType": "ECyGuideDeathType::None",
+      "DeathInfo": {
+        "Namespace": "",
+        "Key": "0FEED30A4DFF3B4E873993AA884B60FC",
+        "SourceString": "这里很危险，不要大意",
+        "LocalizedString": "这里很危险，不要大意"
+      },
+      "Tips": {
+        "Namespace": "",
+        "Key": "0D2949ED436CA0559D01AB9CA3B4B8CD",
+        "SourceString": "展示出你真正的水平，再试一次吧",
+        "LocalizedString": "展示出你真正的水平，再试一次吧"
+      },
+      "TriggerEvents": [
+        {
+          "UniqueName": "None",
+          "EventGameplayTag": {
+            "TagName": "None"
+          },
+          "EventType": "ECyGuideEventType::None",
+          "WeaponEventType": "ECyGuideWeaponEventType::Death",
+          "GuideStateType": "ECyGuideStateType::None",
+          "GuideTaskStateType": "ECyGuideTaskStateType::None",
+          "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
+          "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
+          "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
+          "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
+          "SequenceStateType": "ECySequenceStateType::None",
+          "ActionType": "ECyGuideActionType::None",
+          "MeshModeType": "EMeshModeType::Normal",
+          "GameStateType": "EGStateType::None",
+          "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
+        }
+      ]
     },
-    "Rows": {
-      "Default": {
-        "Id": 1,
-        "DeathType": "ECyGuideDeathType::None",
-        "DeathInfo": {
-          "Namespace": "",
-          "Key": "0FEED30A4DFF3B4E873993AA884B60FC",
-          "SourceString": "这里很危险，不要大意",
-          "LocalizedString": "这里很危险，不要大意"
-        },
-        "Tips": {
-          "Namespace": "",
-          "Key": "0D2949ED436CA0559D01AB9CA3B4B8CD",
-          "SourceString": "展示出你真正的水平，再试一次吧",
-          "LocalizedString": "展示出你真正的水平，再试一次吧"
-        },
-        "TriggerEvents": [
-          {
-            "UniqueName": "None",
-            "EventGameplayTag": {
-              "TagName": "None"
-            },
-            "EventType": "ECyGuideEventType::None",
-            "WeaponEventType": "ECyGuideWeaponEventType::Death",
-            "GuideStateType": "ECyGuideStateType::None",
-            "GuideTaskStateType": "ECyGuideTaskStateType::None",
-            "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
-            "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
-            "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
-            "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
-            "SequenceStateType": "ECySequenceStateType::None",
-            "ActionType": "ECyGuideActionType::None",
-            "MeshModeType": "EMeshModeType::Normal",
-            "GameStateType": "EGStateType::None",
-            "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
-          }
-        ]
+    "Suicide": {
+      "Id": 2,
+      "DeathType": "ECyGuideDeathType::Suicide",
+      "DeathInfo": {
+        "Namespace": "",
+        "Key": "447F6D474ED1652401FB308B2F35EAC4",
+        "SourceString": "这里很危险，不要大意",
+        "LocalizedString": "这里很危险，不要大意"
       },
-      "Suicide": {
-        "Id": 2,
-        "DeathType": "ECyGuideDeathType::Suicide",
-        "DeathInfo": {
-          "Namespace": "",
-          "Key": "447F6D474ED1652401FB308B2F35EAC4",
-          "SourceString": "这里很危险，不要大意",
-          "LocalizedString": "这里很危险，不要大意"
-        },
-        "Tips": {
-          "Namespace": "",
-          "Key": "FFEA26D8431B5F9CB06CAEB3658CCFEF",
-          "SourceString": "展示出你真正的水平，再试一次吧",
-          "LocalizedString": "展示出你真正的水平，再试一次吧"
-        },
-        "TriggerEvents": [
-          {
-            "UniqueName": "None",
-            "EventGameplayTag": {
-              "TagName": "None"
-            },
-            "EventType": "ECyGuideEventType::None",
-            "WeaponEventType": "ECyGuideWeaponEventType::Death",
-            "GuideStateType": "ECyGuideStateType::None",
-            "GuideTaskStateType": "ECyGuideTaskStateType::None",
-            "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
-            "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
-            "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
-            "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
-            "SequenceStateType": "ECySequenceStateType::None",
-            "ActionType": "ECyGuideActionType::None",
-            "MeshModeType": "EMeshModeType::Normal",
-            "GameStateType": "EGStateType::None",
-            "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
-          }
-        ]
+      "Tips": {
+        "Namespace": "",
+        "Key": "FFEA26D8431B5F9CB06CAEB3658CCFEF",
+        "SourceString": "展示出你真正的水平，再试一次吧",
+        "LocalizedString": "展示出你真正的水平，再试一次吧"
       },
-      "Enemy": {
-        "Id": 3,
-        "DeathType": "ECyGuideDeathType::Enemy",
-        "DeathInfo": {
-          "Namespace": "",
-          "Key": "C6E0F64447A8921A9C4CE185ABCBC922",
-          "SourceString": "这里很危险，不要大意",
-          "LocalizedString": "这里很危险，不要大意"
-        },
-        "Tips": {
-          "Namespace": "",
-          "Key": "ED6938F7419B2B2FE942BEAB73A29FB2",
-          "SourceString": "展示出你真正的水平，再试一次吧",
-          "LocalizedString": "展示出你真正的水平，再试一次吧"
-        },
-        "TriggerEvents": [
-          {
-            "UniqueName": "None",
-            "EventGameplayTag": {
-              "TagName": "None"
-            },
-            "EventType": "ECyGuideEventType::None",
-            "WeaponEventType": "ECyGuideWeaponEventType::Death",
-            "GuideStateType": "ECyGuideStateType::None",
-            "GuideTaskStateType": "ECyGuideTaskStateType::None",
-            "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
-            "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
-            "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
-            "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
-            "SequenceStateType": "ECySequenceStateType::None",
-            "ActionType": "ECyGuideActionType::None",
-            "MeshModeType": "EMeshModeType::Normal",
-            "GameStateType": "EGStateType::None",
-            "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
-          }
-        ]
+      "TriggerEvents": [
+        {
+          "UniqueName": "None",
+          "EventGameplayTag": {
+            "TagName": "None"
+          },
+          "EventType": "ECyGuideEventType::None",
+          "WeaponEventType": "ECyGuideWeaponEventType::Death",
+          "GuideStateType": "ECyGuideStateType::None",
+          "GuideTaskStateType": "ECyGuideTaskStateType::None",
+          "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
+          "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
+          "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
+          "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
+          "SequenceStateType": "ECySequenceStateType::None",
+          "ActionType": "ECyGuideActionType::None",
+          "MeshModeType": "EMeshModeType::Normal",
+          "GameStateType": "EGStateType::None",
+          "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
+        }
+      ]
+    },
+    "Enemy": {
+      "Id": 3,
+      "DeathType": "ECyGuideDeathType::Enemy",
+      "DeathInfo": {
+        "Namespace": "",
+        "Key": "C6E0F64447A8921A9C4CE185ABCBC922",
+        "SourceString": "这里很危险，不要大意",
+        "LocalizedString": "这里很危险，不要大意"
       },
-      "System": {
-        "Id": 4,
-        "DeathType": "ECyGuideDeathType::System",
-        "DeathInfo": {
-          "Namespace": "",
-          "Key": "5849C768422AFF73DDC9E399ECF61AB3",
-          "SourceString": "这里很危险，不要大意",
-          "LocalizedString": "这里很危险，不要大意"
-        },
-        "Tips": {
-          "Namespace": "",
-          "Key": "FFF6F34C444681DF122AC5A763932144",
-          "SourceString": "展示出你真正的水平，再试一次吧",
-          "LocalizedString": "展示出你真正的水平，再试一次吧"
-        },
-        "TriggerEvents": [
-          {
-            "UniqueName": "None",
-            "EventGameplayTag": {
-              "TagName": "None"
-            },
-            "EventType": "ECyGuideEventType::None",
-            "WeaponEventType": "ECyGuideWeaponEventType::Death",
-            "GuideStateType": "ECyGuideStateType::None",
-            "GuideTaskStateType": "ECyGuideTaskStateType::None",
-            "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
-            "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
-            "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
-            "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
-            "SequenceStateType": "ECySequenceStateType::None",
-            "ActionType": "ECyGuideActionType::None",
-            "MeshModeType": "EMeshModeType::Normal",
-            "GameStateType": "EGStateType::None",
-            "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
-          }
-        ]
+      "Tips": {
+        "Namespace": "",
+        "Key": "ED6938F7419B2B2FE942BEAB73A29FB2",
+        "SourceString": "展示出你真正的水平，再试一次吧",
+        "LocalizedString": "展示出你真正的水平，再试一次吧"
       },
-      "Fall": {
-        "Id": 9,
-        "DeathType": "ECyGuideDeathType::None",
-        "DeathInfo": {
-          "Namespace": "",
-          "Key": "C38D8143440C5E8310016289798BFF72",
-          "SourceString": "高处坠落",
-          "LocalizedString": "高处坠落"
-        },
-        "Tips": {
-          "Namespace": "",
-          "Key": "83CBE173444AA192F338429A72411F09",
-          "SourceString": "请小心脚下",
-          "LocalizedString": "请小心脚下"
-        },
-        "TriggerEvents": [
-          {
-            "UniqueName": "None",
-            "EventGameplayTag": {
-              "TagName": "None"
-            },
-            "EventType": "ECyGuideEventType::None",
-            "WeaponEventType": "ECyGuideWeaponEventType::Death",
-            "GuideStateType": "ECyGuideStateType::None",
-            "GuideTaskStateType": "ECyGuideTaskStateType::None",
-            "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
-            "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
-            "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
-            "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
-            "SequenceStateType": "ECySequenceStateType::None",
-            "ActionType": "ECyGuideActionType::None",
-            "MeshModeType": "EMeshModeType::Normal",
-            "GameStateType": "EGStateType::None",
-            "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
-          }
-        ]
-      }
+      "TriggerEvents": [
+        {
+          "UniqueName": "None",
+          "EventGameplayTag": {
+            "TagName": "None"
+          },
+          "EventType": "ECyGuideEventType::None",
+          "WeaponEventType": "ECyGuideWeaponEventType::Death",
+          "GuideStateType": "ECyGuideStateType::None",
+          "GuideTaskStateType": "ECyGuideTaskStateType::None",
+          "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
+          "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
+          "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
+          "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
+          "SequenceStateType": "ECySequenceStateType::None",
+          "ActionType": "ECyGuideActionType::None",
+          "MeshModeType": "EMeshModeType::Normal",
+          "GameStateType": "EGStateType::None",
+          "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
+        }
+      ]
+    },
+    "System": {
+      "Id": 4,
+      "DeathType": "ECyGuideDeathType::System",
+      "DeathInfo": {
+        "Namespace": "",
+        "Key": "5849C768422AFF73DDC9E399ECF61AB3",
+        "SourceString": "这里很危险，不要大意",
+        "LocalizedString": "这里很危险，不要大意"
+      },
+      "Tips": {
+        "Namespace": "",
+        "Key": "FFF6F34C444681DF122AC5A763932144",
+        "SourceString": "展示出你真正的水平，再试一次吧",
+        "LocalizedString": "展示出你真正的水平，再试一次吧"
+      },
+      "TriggerEvents": [
+        {
+          "UniqueName": "None",
+          "EventGameplayTag": {
+            "TagName": "None"
+          },
+          "EventType": "ECyGuideEventType::None",
+          "WeaponEventType": "ECyGuideWeaponEventType::Death",
+          "GuideStateType": "ECyGuideStateType::None",
+          "GuideTaskStateType": "ECyGuideTaskStateType::None",
+          "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
+          "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
+          "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
+          "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
+          "SequenceStateType": "ECySequenceStateType::None",
+          "ActionType": "ECyGuideActionType::None",
+          "MeshModeType": "EMeshModeType::Normal",
+          "GameStateType": "EGStateType::None",
+          "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
+        }
+      ]
+    },
+    "Fall": {
+      "Id": 9,
+      "DeathType": "ECyGuideDeathType::None",
+      "DeathInfo": {
+        "Namespace": "",
+        "Key": "C38D8143440C5E8310016289798BFF72",
+        "SourceString": "高处坠落",
+        "LocalizedString": "高处坠落"
+      },
+      "Tips": {
+        "Namespace": "",
+        "Key": "83CBE173444AA192F338429A72411F09",
+        "SourceString": "请小心脚下",
+        "LocalizedString": "请小心脚下"
+      },
+      "TriggerEvents": [
+        {
+          "UniqueName": "None",
+          "EventGameplayTag": {
+            "TagName": "None"
+          },
+          "EventType": "ECyGuideEventType::None",
+          "WeaponEventType": "ECyGuideWeaponEventType::Death",
+          "GuideStateType": "ECyGuideStateType::None",
+          "GuideTaskStateType": "ECyGuideTaskStateType::None",
+          "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
+          "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
+          "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
+          "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
+          "SequenceStateType": "ECySequenceStateType::None",
+          "ActionType": "ECyGuideActionType::None",
+          "MeshModeType": "EMeshModeType::Normal",
+          "GameStateType": "EGStateType::None",
+          "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
+        }
+      ]
     }
   }
-]
+}
