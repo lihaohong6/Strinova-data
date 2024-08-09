@@ -1,2587 +1,2585 @@
-[
-  {
-    "Type": "DataTable",
-    "Name": "GameplayEventTable",
-    "Class": "UScriptClass'DataTable'",
-    "Properties": {
-      "RowStruct": {
-        "ObjectName": "ScriptStruct'GameplayTagTableRow'",
-        "ObjectPath": "/Script/GameplayTags"
-      }
+{
+  "Type": "DataTable",
+  "Name": "GameplayEventTable",
+  "Class": "UScriptClass'DataTable'",
+  "Properties": {
+    "RowStruct": {
+      "ObjectName": "ScriptStruct'GameplayTagTableRow'",
+      "ObjectPath": "/Script/GameplayTags"
+    }
+  },
+  "Rows": {
+    "Event": {
+      "Tag": "Event",
+      "DevComment": "事件相关Tag [UCyGameplayEventWorldSubsystem]"
     },
-    "Rows": {
-      "Event": {
-        "Tag": "Event",
-        "DevComment": "事件相关Tag [UCyGameplayEventWorldSubsystem]"
-      },
-      "Event.Consume.Primary": {
-        "Tag": "Event.Consume.Primary",
-        "DevComment": "消耗主武器子弹"
-      },
-      "Event.Consume.Secondary": {
-        "Tag": "Event.Consume.Secondary",
-        "DevComment": "消耗副武器子弹"
-      },
-      "Event.Consume.Skill.Q": {
-        "Tag": "Event.Consume.Skill.Q",
-        "DevComment": "消耗技能Q"
-      },
-      "Event.Consume.Skill.E": {
-        "Tag": "Event.Consume.Skill.E",
-        "DevComment": "消耗技能E"
-      },
-      "Event.Consume.Skill.X": {
-        "Tag": "Event.Consume.Skill.X",
-        "DevComment": "消耗技能X"
-      },
-      "Event.MagazineEmpty.Primary": {
-        "Tag": "Event.MagazineEmpty.Primary",
-        "DevComment": "消耗主武器子弹"
-      },
-      "Event.MagazineEmpty.Secondary": {
-        "Tag": "Event.MagazineEmpty.Secondary",
-        "DevComment": "消耗副武器子弹"
-      },
-      "Event.MagazineEmpty.Grenade.One": {
-        "Tag": "Event.MagazineEmpty.Grenade.One",
-        "DevComment": "消耗投掷物1"
-      },
-      "Event.MagazineEmpty.Grenade.Two": {
-        "Tag": "Event.MagazineEmpty.Grenade.Two",
-        "DevComment": "消耗投掷物2"
-      },
-      "Event.MagazineEmpty.Skill.Q": {
-        "Tag": "Event.MagazineEmpty.Skill.Q",
-        "DevComment": "消耗技能Q为空"
-      },
-      "Event.MagazineEmpty.Skill.E": {
-        "Tag": "Event.MagazineEmpty.Skill.E",
-        "DevComment": "消耗技能E为空"
-      },
-      "Event.MagazineEmpty.Skill.X": {
-        "Tag": "Event.MagazineEmpty.Skill.X",
-        "DevComment": "消耗技能X为空"
-      },
-      "Event.Action.Pre.UsePrimaryWeapon": {
-        "Tag": "Event.Action.Pre.UsePrimaryWeapon",
-        "DevComment": "准备切换主武器"
-      },
-      "Event.Action.Jump.First": {
-        "Tag": "Event.Action.Jump.First",
-        "DevComment": "一段跳跃"
-      },
-      "Event.Action.Jump.Second": {
-        "Tag": "Event.Action.Jump.Second",
-        "DevComment": "二段跳跃"
-      },
-      "Event.Action.Landed": {
-        "Tag": "Event.Action.Landed",
-        "DevComment": "落地"
-      },
-      "Event.Action.Pre.Jump": {
-        "Tag": "Event.Action.Pre.Jump",
-        "DevComment": "准备进入跳跃"
-      },
-      "Event.Action.Pre.Side": {
-        "Tag": "Event.Action.Pre.Side",
-        "DevComment": "准备进入侧身"
-      },
-      "Event.Action.Pre.Fly": {
-        "Tag": "Event.Action.Pre.Fly",
-        "DevComment": "准备进入飘飞"
-      },
-      "Event.Action.Pre.Wall": {
-        "Tag": "Event.Action.Pre.Wall",
-        "DevComment": "准备进入贴墙"
-      },
-      "Event.Action.ImpactWall": {
-        "Tag": "Event.Action.ImpactWall",
-        "DevComment": "角色撞墙"
-      },
-      "Event.HitActor.Weapon.Primary": {
-        "Tag": "Event.HitActor.Weapon.Primary",
-        "DevComment": "主武器子弹落点"
-      },
-      "Event.Action.WeaponSwitched": {
-        "Tag": "Event.Action.WeaponSwitched",
-        "DevComment": "武器切换了"
-      },
-      "Event.Action.WeaponSwitched.Primary": {
-        "Tag": "Event.Action.WeaponSwitched.Primary",
-        "DevComment": "武器切换到主武器"
-      },
-      "Event.Action.WeaponSwitched.Secondary": {
-        "Tag": "Event.Action.WeaponSwitched.Secondary",
-        "DevComment": "武器切换到副武器"
-      },
-      "Event.Action.WeaponSwitched.Grenade": {
-        "Tag": "Event.Action.WeaponSwitched.Grenade",
-        "DevComment": "武器切换到投掷物"
-      },
-      "Event.Action.WeaponSwitched.Grenade.One": {
-        "Tag": "Event.Action.WeaponSwitched.Grenade.One",
-        "DevComment": "武器切换到投掷物1"
-      },
-      "Event.Action.WeaponSwitched.Grenade.Two": {
-        "Tag": "Event.Action.WeaponSwitched.Grenade.Two",
-        "DevComment": "武器切换到投掷物2"
-      },
-      "Event.Action.WeaponSwitched.Skill.Q": {
-        "Tag": "Event.Action.WeaponSwitched.Skill.Q",
-        "DevComment": "武器切换到技能Q"
-      },
-      "Event.Action.WeaponSwitched.Skill.E": {
-        "Tag": "Event.Action.WeaponSwitched.Skill.E",
-        "DevComment": "武器切换到技能E"
-      },
-      "Event.Action.WeaponSwitched.Skill.X": {
-        "Tag": "Event.Action.WeaponSwitched.Skill.X",
-        "DevComment": "武器切换到技能X"
-      },
-      "Event.Action.WeaponSwitched.Grenade1": {
-        "Tag": "Event.Action.WeaponSwitched.Grenade1",
-        "DevComment": "武器切换到投掷物1"
-      },
-      "Event.Action.WeaponSwitched.Grenade2": {
-        "Tag": "Event.Action.WeaponSwitched.Grenade2",
-        "DevComment": "武器切换到投掷物2"
-      },
-      "Event.Action.HoldSwitchChanged.Start.Relaxed": {
-        "Tag": "Event.Action.HoldSwitchChanged.Start.Relaxed",
-        "DevComment": "当前武器进入Relaxed状态"
-      },
-      "Event.Action.HoldSwitchChanged.Start.Waist": {
-        "Tag": "Event.Action.HoldSwitchChanged.Start.Waist",
-        "DevComment": "当前武器进入Waist状态"
-      },
-      "Event.Action.HoldSwitchChanged.Start.Aiming": {
-        "Tag": "Event.Action.HoldSwitchChanged.Start.Aiming",
-        "DevComment": "当前武器进入Aiming状态"
-      },
-      "Event.Action.HoldSwitchChanged.Start.ADS": {
-        "Tag": "Event.Action.HoldSwitchChanged.Start.ADS",
-        "DevComment": "当前武器进入ADS状态"
-      },
-      "Event.Action.HoldSwitchChanged.Start.Custom": {
-        "Tag": "Event.Action.HoldSwitchChanged.Start.Custom",
-        "DevComment": "当前武器进入Custom状态"
-      },
-      "Event.Action.HoldSwitchChanged.End.Relaxed": {
-        "Tag": "Event.Action.HoldSwitchChanged.End.Relaxed",
-        "DevComment": "当前武器退出Relaxed状态"
-      },
-      "Event.Action.HoldSwitchChanged.End.Waist": {
-        "Tag": "Event.Action.HoldSwitchChanged.End.Waist",
-        "DevComment": "当前武器退出Waist状态"
-      },
-      "Event.Action.HoldSwitchChanged.End.Aiming": {
-        "Tag": "Event.Action.HoldSwitchChanged.End.Aiming",
-        "DevComment": "当前武器退出Aiming状态"
-      },
-      "Event.Action.HoldSwitchChanged.End.ADS": {
-        "Tag": "Event.Action.HoldSwitchChanged.End.ADS",
-        "DevComment": "当前武器退出ADS状态"
-      },
-      "Event.Action.HoldSwitchChanged.End.Custom": {
-        "Tag": "Event.Action.HoldSwitchChanged.End.Custom",
-        "DevComment": "当前武器退出Custom状态"
-      },
-      "Event.Action.Rescue.Start": {
-        "Tag": "Event.Action.Rescue.Start",
-        "DevComment": "救人开始"
-      },
-      "Event.Action.Rescue.End": {
-        "Tag": "Event.Action.Rescue.End",
-        "DevComment": "救人结束"
-      },
-      "Event.Action.Rescue.Success": {
-        "Tag": "Event.Action.Rescue.Success",
-        "DevComment": "救人成功"
-      },
-      "Event.Action.BeRescued.Start": {
-        "Tag": "Event.Action.BeRescued.Start",
-        "DevComment": "被救开始"
-      },
-      "Event.Action.BeRescued.End": {
-        "Tag": "Event.Action.BeRescued.End",
-        "DevComment": "被救结束"
-      },
-      "Event.Action.BeRescued.Success": {
-        "Tag": "Event.Action.BeRescued.Success",
-        "DevComment": "被救成功"
-      },
-      "Event.Action.Restart": {
-        "Tag": "Event.Action.Restart",
-        "DevComment": "角色重新开始(爆破新回合,团队重生)"
-      },
-      "Event.Action.SetDefaults": {
-        "Tag": "Event.Action.SetDefaults",
-        "DevComment": "角色恢复默认"
-      },
-      "Event.Action.OpenPage": {
-        "Tag": "Event.Action.OpenPage",
-        "DevComment": "打开界面"
-      },
-      "Event.State.Armor.Cleared": {
-        "Tag": "Event.State.Armor.Cleared",
-        "DevComment": "护甲清零(不一定是受到伤害清零)"
-      },
-      "Event.State.ExtraArmor.Cleared": {
-        "Tag": "Event.State.ExtraArmor.Cleared",
-        "DevComment": "额外护甲清零"
-      },
-      "Event.MeshType.Normal": {
-        "Tag": "Event.MeshType.Normal",
-        "DevComment": "切换成正常状态"
-      },
-      "Event.MeshType.2D.Wall": {
-        "Tag": "Event.MeshType.2D.Wall",
-        "DevComment": "切换成上墙状态"
-      },
-      "Event.MeshType.2D.Side": {
-        "Tag": "Event.MeshType.2D.Side",
-        "DevComment": "切换成侧身状态"
-      },
-      "Event.MeshType.2D.Fly": {
-        "Tag": "Event.MeshType.2D.Fly",
-        "DevComment": "切换成飞行状态"
-      },
-      "Event.Pickup.Energy": {
-        "Tag": "Event.Pickup.Energy",
-        "DevComment": "拾取能量"
-      },
-      "Event.Pickup.Ammo": {
-        "Tag": "Event.Pickup.Ammo",
-        "DevComment": "拾取弹药"
-      },
-      "Event.Pickup.Armor": {
-        "Tag": "Event.Pickup.Armor",
-        "DevComment": "拾取护甲"
-      },
-      "Event.Pickup.Throw": {
-        "Tag": "Event.Pickup.Throw",
-        "DevComment": "拾取投掷物"
-      },
-      "Event.Pickup.DeathDrop": {
-        "Tag": "Event.Pickup.DeathDrop",
-        "DevComment": "拾取死亡掉落物"
-      },
-      "Event.Sequence.Begin": {
-        "Tag": "Event.Sequence.Begin",
-        "DevComment": "Sequence开始"
-      },
-      "Event.Sequence.End": {
-        "Tag": "Event.Sequence.End",
-        "DevComment": "Sequence结束"
-      },
-      "Event.Skill.Fuchsia.Q.OnActive": {
-        "Tag": "Event.Skill.Fuchsia.Q.OnActive",
-        "DevComment": "菲莎面罩戴上"
-      },
-      "Event.Skill.Fuchsia.Q.OnHunting": {
-        "Tag": "Event.Skill.Fuchsia.Q.OnHunting",
-        "DevComment": "菲莎检测到敌人"
-      },
-      "Event.Skill.Lawine.Q.OnScanning": {
-        "Tag": "Event.Skill.Lawine.Q.OnScanning",
-        "DevComment": "拉薇的Q扫描到敌人"
-      },
-      "Event.Skill.Galatea.Castling.Normal": {
-        "Tag": "Event.Skill.Galatea.Castling.Normal",
-        "DevComment": "加拉蒂亚传送至正常召唤物"
-      },
-      "Event.Skill.Galatea.Castling.OnWall": {
-        "Tag": "Event.Skill.Galatea.Castling.OnWall",
-        "DevComment": "加拉蒂亚传送至墙上召唤物"
-      },
-      "Event.Summon.Spawn.KokonaShiki.Q": {
-        "Tag": "Event.Summon.Spawn.KokonaShiki.Q",
-        "DevComment": "志木心夏Q技能召唤物出生"
-      },
-      "Event.Summon.Finished.KokonaShiki.Q": {
-        "Tag": "Event.Summon.Finished.KokonaShiki.Q",
-        "DevComment": "志木心夏Q技能治疗完成"
-      },
-      "Event.Summon.Destroy.KokonaShiki.Q": {
-        "Tag": "Event.Summon.Destroy.KokonaShiki.Q",
-        "DevComment": "志木心夏Q技能召唤物销毁"
-      },
-      "Event.Summon.Spawn.Lawine.Q": {
-        "Tag": "Event.Summon.Spawn.Lawine.Q",
-        "DevComment": "拉薇Q技能召唤物出生"
-      },
-      "Event.Summon.Destroy.Lawine.Q": {
-        "Tag": "Event.Summon.Destroy.Lawine.Q",
-        "DevComment": "拉薇Q技能召唤物销毁"
-      },
-      "Event.Summon.Spawn.Lawine.X": {
-        "Tag": "Event.Summon.Spawn.Lawine.X",
-        "DevComment": "拉薇X技能召唤物出生"
-      },
-      "Event.Summon.Destroy.Lawine.X": {
-        "Tag": "Event.Summon.Destroy.Lawine.X",
-        "DevComment": "拉薇X技能召唤物销毁"
-      },
-      "Event.Summon.Spawn.Lawine.Arousal.Three": {
-        "Tag": "Event.Summon.Spawn.Lawine.Arousal.Three",
-        "DevComment": "拉薇觉醒3召唤物出生"
-      },
-      "Event.Summon.Destroy.Lawine.Arousal.Three": {
-        "Tag": "Event.Summon.Destroy.Lawine.Arousal.Three",
-        "DevComment": "拉薇觉醒3召唤物销毁"
-      },
-      "Event.Summon.Spawn.KokonaShiki.X": {
-        "Tag": "Event.Summon.Spawn.KokonaShiki.X",
-        "DevComment": "志木心夏X技能召唤物出生"
-      },
-      "Event.Summon.Destroy.KokonaShiki.X": {
-        "Tag": "Event.Summon.Destroy.KokonaShiki.X",
-        "DevComment": "志木心夏X技能召唤物销毁"
-      },
-      "Event.Summon.Spawn.Nobunaga.X": {
-        "Tag": "Event.Summon.Spawn.Nobunaga.X",
-        "DevComment": "信长X技能召唤物出生"
-      },
-      "Event.Summon.Destroy.Nobunaga.X": {
-        "Tag": "Event.Summon.Destroy.Nobunaga.X",
-        "DevComment": "信长X技能召唤物销毁"
-      },
-      "Event.Summon.Spawn.Nobunaga.Q": {
-        "Tag": "Event.Summon.Spawn.Nobunaga.Q",
-        "DevComment": "信长Q技能召唤物出生"
-      },
-      "Event.Summon.Destroy.Nobunaga.Q": {
-        "Tag": "Event.Summon.Destroy.Nobunaga.Q",
-        "DevComment": "信长Q技能召唤物销毁"
-      },
-      "Event.Summon.Recycle.Nobunaga.Q": {
-        "Tag": "Event.Summon.Recycle.Nobunaga.Q",
-        "DevComment": "信长Q技能召唤物回收"
-      },
-      "Event.Summon.Spawn.Michele.Q": {
-        "Tag": "Event.Summon.Spawn.Michele.Q",
-        "DevComment": "米雪儿Q技能召唤物出生"
-      },
-      "Event.Summon.Destroy.Michele.Q": {
-        "Tag": "Event.Summon.Destroy.Michele.Q",
-        "DevComment": "米雪儿Q技能召唤物销毁"
-      },
-      "Event.Summon.Death.Michele.Q": {
-        "Tag": "Event.Summon.Death.Michele.Q",
-        "DevComment": "米雪儿Q技能召唤物击毁"
-      },
-      "Event.Summon.Leave.Michele.Q": {
-        "Tag": "Event.Summon.Leave.Michele.Q",
-        "DevComment": "米雪儿Q技能召唤物超时"
-      },
-      "Event.Summon.Spawn.Michele.X.Neko": {
-        "Tag": "Event.Summon.Spawn.Michele.X.Neko",
-        "DevComment": "米雪儿X技能召唤物出生"
-      },
-      "Event.Summon.Destroy.Michele.X.Neko": {
-        "Tag": "Event.Summon.Destroy.Michele.X.Neko",
-        "DevComment": "米雪儿X技能召唤物销毁"
-      },
-      "Event.Summon.Death.Michele.X": {
-        "Tag": "Event.Summon.Death.Michele.X",
-        "DevComment": "米雪儿X技能召唤物击毁"
-      },
-      "Event.Summon.Leave.Michele.X": {
-        "Tag": "Event.Summon.Leave.Michele.X",
-        "DevComment": "米雪儿X技能召唤物超时"
-      },
-      "Event.Summon.Spawn.Michele.X.Projectile": {
-        "Tag": "Event.Summon.Spawn.Michele.X.Projectile",
-        "DevComment": "米雪儿大招技能子弹出生"
-      },
-      "Event.Summon.Destroy.Michele.X.Projectile": {
-        "Tag": "Event.Summon.Destroy.Michele.X.Projectile",
-        "DevComment": "米雪儿大招技能子弹销毁"
-      },
-      "Event.Summon.Spawn.Meredith.Q.Projectile": {
-        "Tag": "Event.Summon.Spawn.Meredith.Q.Projectile",
-        "DevComment": "梅瑞迪斯Q技能子弹出生"
-      },
-      "Event.Summon.Spawn.Julian.X.Nest": {
-        "Tag": "Event.Summon.Spawn.Julian.X.Nest",
-        "DevComment": "朱利安X技能召唤物出生"
-      },
-      "Event.Summon.WorkSecound.Julian.X.Nest": {
-        "Tag": "Event.Summon.WorkSecound.Julian.X.Nest",
-        "DevComment": "朱利安X技能召唤物第二工作状态"
-      },
-      "Event.Summon.Destroy.Julian.X.Nest": {
-        "Tag": "Event.Summon.Destroy.Julian.X.Nest",
-        "DevComment": "朱利安X技能召唤物销毁"
-      },
-      "Event.Summon.Spawn.Meredith.X.Sand": {
-        "Tag": "Event.Summon.Spawn.Meredith.X.Sand",
-        "DevComment": "梅瑞迪斯X技能召唤物出生"
-      },
-      "Event.Summon.Destroy.Meredith.X.Sand": {
-        "Tag": "Event.Summon.Destroy.Meredith.X.Sand",
-        "DevComment": "梅瑞迪斯X技能召唤物销毁"
-      },
-      "Event.Summon.Spawn.Meredith.X.Projectile": {
-        "Tag": "Event.Summon.Spawn.Meredith.X.Projectile",
-        "DevComment": "梅瑞迪斯大招技能子弹出生"
-      },
-      "Event.Summon.Destroy.Meredith.X.Projectile": {
-        "Tag": "Event.Summon.Destroy.Meredith.X.Projectile",
-        "DevComment": "梅瑞迪斯大招技能子弹销毁"
-      },
-      "Event.Summon.Spawn.Aika.X.Projectile": {
-        "Tag": "Event.Summon.Spawn.Aika.X.Projectile",
-        "DevComment": "艾卡大招技能子弹出生"
-      },
-      "Event.Summon.Destroy.Aika.X.Projectile": {
-        "Tag": "Event.Summon.Destroy.Aika.X.Projectile",
-        "DevComment": "艾卡大招技能子弹销毁"
-      },
-      "Event.Summon.Spawn.Aika.Q": {
-        "Tag": "Event.Summon.Spawn.Aika.Q",
-        "DevComment": "艾卡Q技能召唤物出生"
-      },
-      "Event.Summon.Destroy.Aika.Q": {
-        "Tag": "Event.Summon.Destroy.Aika.Q",
-        "DevComment": "艾卡Q技能召唤物销毁"
-      },
-      "Event.Summon.Leave.Aika.Q": {
-        "Tag": "Event.Summon.Leave.Aika.Q",
-        "DevComment": "离开艾卡Q技能召唤物"
-      },
-      "Event.Summon.Spawn.Aika.X.Enhanced.Projectile": {
-        "Tag": "Event.Summon.Spawn.Aika.X.Enhanced.Projectile",
-        "DevComment": "艾卡红怒增强版大招技能子弹出生"
-      },
-      "Event.Summon.Destroy.Aika.X.Enhanced.Projectile": {
-        "Tag": "Event.Summon.Destroy.Aika.X.Enhanced.Projectile",
-        "DevComment": "艾卡红怒增强版大招技能子弹销毁"
-      },
-      "Event.Summon.Spawn.Aika.Enhanced.Q": {
-        "Tag": "Event.Summon.Spawn.Aika.Enhanced.Q",
-        "DevComment": "艾卡红怒增强版Q技能召唤物出生"
-      },
-      "Event.Summon.Destroy.Aika.Enhanced.Q": {
-        "Tag": "Event.Summon.Destroy.Aika.Enhanced.Q",
-        "DevComment": "艾卡红怒增强版Q技能召唤物销毁"
-      },
-      "Event.Summon.Spawn.Aika.X.Summon": {
-        "Tag": "Event.Summon.Spawn.Aika.X.Summon",
-        "DevComment": "艾卡大招技能召唤物生成"
-      },
-      "Event.Summon.Destroy.Aika.X.Summon": {
-        "Tag": "Event.Summon.Destroy.Aika.X.Summon",
-        "DevComment": "艾卡大招技能召唤物销毁"
-      },
-      "Event.Summon.Spawn.Aika.X.Enhanced.Summon": {
-        "Tag": "Event.Summon.Spawn.Aika.X.Enhanced.Summon",
-        "DevComment": "艾卡红怒大招技能召唤物生成"
-      },
-      "Event.Summon.Destroy.Aika.X.Enhanced.Summon": {
-        "Tag": "Event.Summon.Destroy.Aika.X.Enhanced.Summon",
-        "DevComment": "艾卡红怒大招技能召唤物销毁"
-      },
-      "Event.Summon.Spawn.Galatea.P": {
-        "Tag": "Event.Summon.Spawn.Galatea.P",
-        "DevComment": "加拉蒂亚P技能召唤物出生"
-      },
-      "Event.Summon.Leave.Galatea.P": {
-        "Tag": "Event.Summon.Leave.Galatea.P",
-        "DevComment": "加拉蒂亚P技能召唤物超时"
-      },
-      "Event.Summon.Destroy.Galatea.P": {
-        "Tag": "Event.Summon.Destroy.Galatea.P",
-        "DevComment": "加拉蒂亚P技能召唤物销毁"
-      },
-      "Event.Summon.Death.Galatea.P": {
-        "Tag": "Event.Summon.Death.Galatea.P",
-        "DevComment": "加拉蒂亚P技能召唤物死亡"
-      },
-      "Event.Summon.TakeDamage.Galatea.P": {
-        "Tag": "Event.Summon.TakeDamage.Galatea.P",
-        "DevComment": "加拉蒂亚P技能召唤物受到伤害"
-      },
-      "Event.Summon.Spawn.Galatea.Q": {
-        "Tag": "Event.Summon.Spawn.Galatea.Q",
-        "DevComment": "加拉蒂亚Q技能召唤物出生"
-      },
-      "Event.Summon.Leave.Galatea.Q": {
-        "Tag": "Event.Summon.Leave.Galatea.Q",
-        "DevComment": "加拉蒂亚Q技能召唤物超时"
-      },
-      "Event.Summon.Destroy.Galatea.Q": {
-        "Tag": "Event.Summon.Destroy.Galatea.Q",
-        "DevComment": "加拉蒂亚Q技能召唤物销毁"
-      },
-      "Event.Summon.TakeDamage.Galatea.Q": {
-        "Tag": "Event.Summon.TakeDamage.Galatea.Q",
-        "DevComment": "加拉蒂亚Q技能召唤物受到伤害"
-      },
-      "Event.Summon.Spawn.Galatea.Q.Projectile": {
-        "Tag": "Event.Summon.Spawn.Galatea.Q.Projectile",
-        "DevComment": "加拉蒂亚Q技能发射物生成"
-      },
-      "Event.Summon.Destroy.Galatea.Q.Projectile": {
-        "Tag": "Event.Summon.Destroy.Galatea.Q.Projectile",
-        "DevComment": "加拉蒂亚Q技能发射物销毁"
-      },
-      "Event.Summon.Spawn.Huixing.Q": {
-        "Tag": "Event.Summon.Spawn.Huixing.Q",
-        "DevComment": "星绘Q技能召唤物出生"
-      },
-      "Event.Summon.Destroy.Huixing.Q": {
-        "Tag": "Event.Summon.Destroy.Huixing.Q",
-        "DevComment": "星绘Q技能召唤物销毁"
-      },
-      "Event.Summon.Spawn.Huixing.X": {
-        "Tag": "Event.Summon.Spawn.Huixing.X",
-        "DevComment": "星绘X技能召唤物出生"
-      },
-      "Event.Summon.Destroy.Huixing.X": {
-        "Tag": "Event.Summon.Destroy.Huixing.X",
-        "DevComment": "星绘X技能召唤物销毁"
-      },
-      "Event.Summon.Spawn.Yvette.Q": {
-        "Tag": "Event.Summon.Spawn.Yvette.Q",
-        "DevComment": "伊薇特Q技能召唤物出生"
-      },
-      "Event.Summon.Destroy.Yvette.Q": {
-        "Tag": "Event.Summon.Destroy.Yvette.Q",
-        "DevComment": "伊薇特Q技能召唤物销毁"
-      },
-      "Event.Summon.Spawn.Yvette.X": {
-        "Tag": "Event.Summon.Spawn.Yvette.X",
-        "DevComment": "伊薇特X技能召唤物出生"
-      },
-      "Event.Summon.Destroy.Yvette.X": {
-        "Tag": "Event.Summon.Destroy.Yvette.X",
-        "DevComment": "伊薇特X技能召唤物出生"
-      },
-      "Event.Summon.Spawn.Ming.Q.Projectile": {
-        "Tag": "Event.Summon.Spawn.Ming.Q.Projectile",
-        "DevComment": "明Q技能子弹出生"
-      },
-      "Event.Summon.Destroy.Ming.Q.Projectile": {
-        "Tag": "Event.Summon.Destroy.Ming.Q.Projectile",
-        "DevComment": "明Q技能子弹销毁"
-      },
-      "Event.Summon.Spawn.Ming.Q.Electro": {
-        "Tag": "Event.Summon.Spawn.Ming.Q.Electro",
-        "DevComment": "明Q技能区域出生"
-      },
-      "Event.Summon.Destroy.Ming.Q.Electro": {
-        "Tag": "Event.Summon.Destroy.Ming.Q.Electro",
-        "DevComment": "明Q技能区域销毁"
-      },
-      "Event.Summon.Spawn.Reiichi.Q": {
-        "Tag": "Event.Summon.Spawn.Reiichi.Q",
-        "DevComment": "令一Q技能召唤物出生"
-      },
-      "Event.Summon.Destroy.Reiichi.Q": {
-        "Tag": "Event.Summon.Destroy.Reiichi.Q",
-        "DevComment": "令一Q技能召唤物销毁"
-      },
-      "Event.Summon.Spawn.Kanami.Q.Projectile": {
-        "Tag": "Event.Summon.Spawn.Kanami.Q.Projectile",
-        "DevComment": "香奈美Q技能子弹出生"
-      },
-      "Event.Summon.Destroy.Kanami.Q.Projectile": {
-        "Tag": "Event.Summon.Destroy.Kanami.Q.Projectile",
-        "DevComment": "香奈美Q技能子弹销毁"
-      },
-      "Event.Summon.Spawn.Kanami.Q.Gramophone": {
-        "Tag": "Event.Summon.Spawn.Kanami.Q.Gramophone",
-        "DevComment": "香奈美Q技能区域出生"
-      },
-      "Event.Summon.Destroy.Kanami.Q.Gramophone": {
-        "Tag": "Event.Summon.Destroy.Kanami.Q.Gramophone",
-        "DevComment": "香奈美Q技能区域销毁"
-      },
-      "Event.Summon.Spawn.Kanami.X.Stage": {
-        "Tag": "Event.Summon.Spawn.Kanami.X.Stage",
-        "DevComment": "香奈美X技能舞台出生"
-      },
-      "Event.Summon.Destroy.Kanami.X.Stage": {
-        "Tag": "Event.Summon.Destroy.Kanami.X.Stage",
-        "DevComment": "香奈美X技能舞台销毁"
-      },
-      "Event.Summon.Spawn.MoBai.Q": {
-        "Tag": "Event.Summon.Spawn.MoBai.Q",
-        "DevComment": "白墨Q技能召唤物出生"
-      },
-      "Event.Summon.Destroy.MoBai.Q": {
-        "Tag": "Event.Summon.Destroy.MoBai.Q",
-        "DevComment": "白墨Q技能召唤物销毁"
-      },
-      "Event.Summon.Spawn.MoBai.X": {
-        "Tag": "Event.Summon.Spawn.MoBai.X",
-        "DevComment": "白墨X技能召唤物出生"
-      },
-      "Event.Summon.Destroy.Q.Audrey": {
-        "Tag": "Event.Summon.Destroy.Q.Audrey",
-        "DevComment": "奥黛丽觉醒2的召唤物销毁"
-      },
-      "Event.Summon.Destroy.MoBai.X": {
-        "Tag": "Event.Summon.Destroy.MoBai.X",
-        "DevComment": "白墨X技能召唤物销毁"
-      },
-      "Event.Summon.Spawn.SmokeGrenade": {
-        "Tag": "Event.Summon.Spawn.SmokeGrenade",
-        "DevComment": "烟雾弹召唤物出生"
-      },
-      "Event.Summon.Spawn.AlarmGrenade": {
-        "Tag": "Event.Summon.Spawn.AlarmGrenade",
-        "DevComment": "警报器召唤物出生"
-      },
-      "Event.Summon.Spawn.InterceptorGrenade": {
-        "Tag": "Event.Summon.Spawn.InterceptorGrenade",
-        "DevComment": "拦截者召唤物出生"
-      },
-      "Event.PlayerState.ClientInit": {
-        "Tag": "Event.PlayerState.ClientInit",
-        "DevComment": "PlayerState客户端初始化"
-      },
-      "Event.Action.RescueSelf.Start": {
-        "Tag": "Event.Action.RescueSelf.Start",
-        "DevComment": "自救开始"
-      },
-      "Event.Action.RescueSelf.End": {
-        "Tag": "Event.Action.RescueSelf.End",
-        "DevComment": "自救结束"
-      },
-      "Event.RoundStage.None": {
-        "Tag": "Event.RoundStage.None",
-        "DevComment": "无"
-      },
-      "Event.Action.ForceFly": {
-        "Tag": "Event.Action.ForceFly",
-        "DevComment": "强制飘飞"
-      },
-      "Event.RoundStage.Ready": {
-        "Tag": "Event.RoundStage.Ready",
-        "DevComment": "回合开始阶段"
-      },
-      "Event.RoundStage.Freeze": {
-        "Tag": "Event.RoundStage.Freeze",
-        "DevComment": "回合准备阶段"
-      },
-      "Event.RoundStage.Start": {
-        "Tag": "Event.RoundStage.Start",
-        "DevComment": "回合战斗阶段"
-      },
-      "Event.RoundStage.End": {
-        "Tag": "Event.RoundStage.End",
-        "DevComment": "回合战斗结束"
-      },
-      "Event.RoundStage.NoviceGuide": {
-        "Tag": "Event.RoundStage.NoviceGuide",
-        "DevComment": "回合新手引导"
-      },
-      "Event.Attribute.Cleared.AllArmor": {
-        "Tag": "Event.Attribute.Cleared.AllArmor",
-        "DevComment": "所有护甲清零"
-      },
-      "Event.Attribute.Cleared.ExtraArmor": {
-        "Tag": "Event.Attribute.Cleared.ExtraArmor",
-        "DevComment": "额外护甲清零"
-      },
-      "Event.Attribute.Cleared.Armor": {
-        "Tag": "Event.Attribute.Cleared.Armor",
-        "DevComment": "护甲清零"
-      },
-      "Event.Attribute.Cleared.Health": {
-        "Tag": "Event.Attribute.Cleared.Health",
-        "DevComment": "生命清零"
-      },
-      "Event.Attribute.Cleared.InjuredHealth": {
-        "Tag": "Event.Attribute.Cleared.InjuredHealth",
-        "DevComment": "重伤生命清零"
-      },
-      "Event.Attribute.Full.XPointsTransient": {
-        "Tag": "Event.Attribute.Full.XPointsTransient",
-        "DevComment": "临时大招点数满"
-      },
-      "Event.Ability.UpdateLevel.Q": {
-        "Tag": "Event.Ability.UpdateLevel.Q",
-        "DevComment": "Q技能等级变化"
-      },
-      "Event.Ability.UpdateLevel.P": {
-        "Tag": "Event.Ability.UpdateLevel.P",
-        "DevComment": "P技能等级变化"
-      },
-      "Event.Ability.UpdateLevel.X": {
-        "Tag": "Event.Ability.UpdateLevel.X",
-        "DevComment": "X技能等级变化"
-      },
-      "Event.Ability.CommitCost.Q": {
-        "Tag": "Event.Ability.CommitCost.Q",
-        "DevComment": "Q技能提交消耗"
-      },
-      "Event.Ability.CommitCost.E": {
-        "Tag": "Event.Ability.CommitCost.E",
-        "DevComment": "E技能提交消耗"
-      },
-      "Event.Ability.CommitCost.X": {
-        "Tag": "Event.Ability.CommitCost.X",
-        "DevComment": "X技能提交消耗"
-      },
-      "Event.Grenade.Projectile.Spawn.Treatment": {
-        "Tag": "Event.Grenade.Projectile.Spawn.Treatment",
-        "DevComment": "治疗雷投掷物出生"
-      },
-      "Event.Grenade.Projectile.Spawn.WindField": {
-        "Tag": "Event.Grenade.Projectile.Spawn.WindField",
-        "DevComment": "风场雷投掷物出生"
-      },
-      "Event.Grenade.Projectile.Spawn.Smoke": {
-        "Tag": "Event.Grenade.Projectile.Spawn.Smoke",
-        "DevComment": "烟雾弹投掷物物出生"
-      },
-      "Event.Grenade.Projectile.Spawn.SlowDown": {
-        "Tag": "Event.Grenade.Projectile.Spawn.SlowDown",
-        "DevComment": "减速雷投掷物出生"
-      },
-      "Event.Grenade.Projectile.Spawn.Normal": {
-        "Tag": "Event.Grenade.Projectile.Spawn.Normal",
-        "DevComment": "标准手雷投掷物出生"
-      },
-      "Event.Grenade.Projectile.Spawn.Alarm": {
-        "Tag": "Event.Grenade.Projectile.Spawn.Alarm",
-        "DevComment": "警报器投掷物出生"
-      },
-      "Event.Grenade.Projectile.Spawn.Flash": {
-        "Tag": "Event.Grenade.Projectile.Spawn.Flash",
-        "DevComment": "闪光弹投掷物出生"
-      },
-      "Event.Grenade.Projectile.Spawn.Interceptor": {
-        "Tag": "Event.Grenade.Projectile.Spawn.Interceptor",
-        "DevComment": "拦截者投掷物出生"
-      },
-      "Event.Guide.Begin": {
-        "Tag": "Event.Guide.Begin",
-        "DevComment": "引导开始"
-      },
-      "Event.Guide.Finish": {
-        "Tag": "Event.Guide.Finish",
-        "DevComment": "引导完成"
-      },
-      "Event.Guide.Failed": {
-        "Tag": "Event.Guide.Failed",
-        "DevComment": "引导失败"
-      },
-      "Event.Guide.Skip": {
-        "Tag": "Event.Guide.Skip",
-        "DevComment": "引导跳过"
-      },
-      "Event.Guide.End": {
-        "Tag": "Event.Guide.End",
-        "DevComment": "引导结束"
-      },
-      "Event.GuideTask.Begin": {
-        "Tag": "Event.GuideTask.Begin",
-        "DevComment": "引导任务开始"
-      },
-      "Event.GuideTask.Finish": {
-        "Tag": "Event.GuideTask.Finish",
-        "DevComment": "引导任务完成"
-      },
-      "Event.GuideTask.Failed": {
-        "Tag": "Event.GuideTask.Failed",
-        "DevComment": "引导任务失败"
-      },
-      "Event.GuideTask.End": {
-        "Tag": "Event.GuideTask.End",
-        "DevComment": "引导任务结束(任务完成且表现结束)"
-      },
-      "Event.GuideSubTask.Finish": {
-        "Tag": "Event.GuideSubTask.Finish",
-        "DevComment": "引导子任务完成"
-      },
-      "Event.GuideSubTask.Failed": {
-        "Tag": "Event.GuideSubTask.Failed",
-        "DevComment": "引导子任务失败"
-      },
-      "Event.GuideDialogue.Begin": {
-        "Tag": "Event.GuideDialogue.Begin",
-        "DevComment": "引导对话开始"
-      },
-      "Event.GuideDialogue.End": {
-        "Tag": "Event.GuideDialogue.End",
-        "DevComment": "引导对话结束"
-      },
-      "Event.GuideTriggerArea.BeginTask": {
-        "Tag": "Event.GuideTriggerArea.BeginTask",
-        "DevComment": "引导触发区-开始任务触发区域被触发"
-      },
-      "Event.GuideTriggerArea.EndTask": {
-        "Tag": "Event.GuideTriggerArea.EndTask",
-        "DevComment": "引导触发区-结束任务触发区域被触发"
-      },
-      "Event.GuideTriggerArea.BeginSpawnEnemy": {
-        "Tag": "Event.GuideTriggerArea.BeginSpawnEnemy",
-        "DevComment": "引导触发区-开始生成敌人触发区域被触发"
-      },
-      "Event.GuideTriggerArea.EndSpawnEnemy": {
-        "Tag": "Event.GuideTriggerArea.EndSpawnEnemy",
-        "DevComment": "引导触发区-结束生成敌人触发区域被触发"
-      },
-      "Event.GuideTriggerArea.BeginSpawnItem": {
-        "Tag": "Event.GuideTriggerArea.BeginSpawnItem",
-        "DevComment": "引导触发区-开始生成物品触发区域被触发"
-      },
-      "Event.GuideTriggerArea.EndSpawnItem": {
-        "Tag": "Event.GuideTriggerArea.EndSpawnItem",
-        "DevComment": "引导触发区-结束生成物品触发区域被触发"
-      },
-      "Event.GuideTriggerArea.GuideTips": {
-        "Tag": "Event.GuideTriggerArea.GuideTips",
-        "DevComment": "引导触发区-引导提示触发区域被触发"
-      },
-      "Event.GuideTriggerArea.Sequence": {
-        "Tag": "Event.GuideTriggerArea.Sequence",
-        "DevComment": "引导触发区-剧情提示触发区域被触发"
-      },
-      "Event.GuideTriggerArea.SkillQ": {
-        "Tag": "Event.GuideTriggerArea.SkillQ",
-        "DevComment": "引导触发区-Q技能释放触发区域被触发"
-      },
-      "Event.GuideTriggerArea.SkillX": {
-        "Tag": "Event.GuideTriggerArea.SkillX",
-        "DevComment": "引导触发区-X技能释放触发区域被触发"
-      },
-      "Event.GuideEnemyController.SpawnOne": {
-        "Tag": "Event.GuideEnemyController.SpawnOne",
-        "DevComment": "生成一个敌人"
-      },
-      "Event.GuideEnemyController.SpawnWaveAll": {
-        "Tag": "Event.GuideEnemyController.SpawnWaveAll",
-        "DevComment": "生成本波次的所有敌人"
-      },
-      "Event.GuideEnemyController.SpawnAll": {
-        "Tag": "Event.GuideEnemyController.SpawnAll",
-        "DevComment": "生成所有敌人"
-      },
-      "Event.GuideEnemyController.KillOne": {
-        "Tag": "Event.GuideEnemyController.KillOne",
-        "DevComment": "击杀一个敌人"
-      },
-      "Event.GuideEnemyController.KillWaveAll": {
-        "Tag": "Event.GuideEnemyController.KillWaveAll",
-        "DevComment": "击杀本波次的所有敌人"
-      },
-      "Event.GuideEnemyController.KillAll": {
-        "Tag": "Event.GuideEnemyController.KillAll",
-        "DevComment": "击杀所有敌人"
-      },
-      "Event.InteractTarget.Changed": {
-        "Tag": "Event.InteractTarget.Changed",
-        "DevComment": "交互目标变化了"
-      },
-      "Event.Interact.CancelInteract": {
-        "Tag": "Event.Interact.CancelInteract",
-        "DevComment": "取消交互"
-      },
-      "Event.GuideEnemy.SpawnOne": {
-        "Tag": "Event.GuideEnemy.SpawnOne",
-        "DevComment": "生成一个敌人"
-      },
-      "Event.GuideEnemy.SpawnWaveAll": {
-        "Tag": "Event.GuideEnemy.SpawnWaveAll",
-        "DevComment": "生成本波次的所有敌人"
-      },
-      "Event.GuideEnemy.SpawnAll": {
-        "Tag": "Event.GuideEnemy.SpawnAll",
-        "DevComment": "生成所有敌人"
-      },
-      "Event.GuideEnemy.KillOne": {
-        "Tag": "Event.GuideEnemy.KillOne",
-        "DevComment": "击杀一个敌人"
-      },
-      "Event.GuideEnemy.KillWaveAll": {
-        "Tag": "Event.GuideEnemy.KillWaveAll",
-        "DevComment": "击杀本波次的所有敌人"
-      },
-      "Event.GuideEnemy.KillAll": {
-        "Tag": "Event.GuideEnemy.KillAll",
-        "DevComment": "击杀所有敌人"
-      },
-      "Event.Guide.TeamGuide.FinishedTrainFlagUpload": {
-        "Tag": "Event.Guide.TeamGuide.FinishedTrainFlagUpload",
-        "DevComment": "团竞引导-完成玩家类型选择任务"
-      },
-      "Event.Task.Begin": {
-        "Tag": "Event.Task.Begin",
-        "DevComment": "任务开始"
-      },
-      "Event.Task.Finish": {
-        "Tag": "Event.Task.Finish",
-        "DevComment": "任务完成"
-      },
-      "Event.Task.Failed": {
-        "Tag": "Event.Task.Failed",
-        "DevComment": "任务失败"
-      },
-      "Event.Task.End": {
-        "Tag": "Event.Task.End",
-        "DevComment": "任务结束"
-      },
-      "Event.SubTask.Begin": {
-        "Tag": "Event.SubTask.Begin",
-        "DevComment": "子任务开始"
-      },
-      "Event.SubTask.Finish": {
-        "Tag": "Event.SubTask.Finish",
-        "DevComment": "子任务完成"
-      },
-      "Event.SubTask.Failed": {
-        "Tag": "Event.SubTask.Failed",
-        "DevComment": "子任务失败"
-      },
-      "Event.GameEnd": {
-        "Tag": "Event.GameEnd",
-        "DevComment": "整局游戏结束"
-      },
-      "Event.RoundEnd": {
-        "Tag": "Event.RoundEnd",
-        "DevComment": "回合结束"
-      },
-      "Event.GameState.RoleSelect.Begin": {
-        "Tag": "Event.GameState.RoleSelect.Begin",
-        "DevComment": "游戏状态-角色选择阶段"
-      },
-      "Event.GameState.RoleSelect.End": {
-        "Tag": "Event.GameState.RoleSelect.End",
-        "DevComment": "游戏状态-角色选择阶段"
-      },
-      "Event.GameState.RoleReselect.Begin": {
-        "Tag": "Event.GameState.RoleReselect.Begin",
-        "DevComment": "游戏状态-角色重新选择阶段"
-      },
-      "Event.GameState.RoleReselect.End": {
-        "Tag": "Event.GameState.RoleReselect.End",
-        "DevComment": "游戏状态-角色重新选择阶段"
-      },
-      "Event.GameState.RoleLoad.Begin": {
-        "Tag": "Event.GameState.RoleLoad.Begin",
-        "DevComment": "游戏状态-角色加载阶段"
-      },
-      "Event.GameState.RoleLoad.End": {
-        "Tag": "Event.GameState.RoleLoad.End",
-        "DevComment": "游戏状态-角色加载阶段"
-      },
-      "Event.GameState.ReStart.Begin": {
-        "Tag": "Event.GameState.ReStart.Begin",
-        "DevComment": "游戏状态-重新开始"
-      },
-      "Event.GameState.ReStart.End": {
-        "Tag": "Event.GameState.ReStart.End",
-        "DevComment": "游戏状态-重新开始"
-      },
-      "Event.GameState.Prepare.Begin": {
-        "Tag": "Event.GameState.Prepare.Begin",
-        "DevComment": "游戏状态-角色准备阶段"
-      },
-      "Event.GameState.Prepare.End": {
-        "Tag": "Event.GameState.Prepare.End",
-        "DevComment": "游戏状态-角色准备阶段"
-      },
-      "Event.GameState.Warmup.Begin": {
-        "Tag": "Event.GameState.Warmup.Begin",
-        "DevComment": "游戏状态-热身阶段"
-      },
-      "Event.GameState.Warmup.End": {
-        "Tag": "Event.GameState.Warmup.End",
-        "DevComment": "游戏状态-热身阶段"
-      },
-      "Event.GameState.Fight.Begin": {
-        "Tag": "Event.GameState.Fight.Begin",
-        "DevComment": "游戏状态-游戏战斗阶段"
-      },
-      "Event.GameState.Fight.End": {
-        "Tag": "Event.GameState.Fight.End",
-        "DevComment": "游戏状态-游戏战斗阶段"
-      },
-      "Event.GameState.FightPlaced.Begin": {
-        "Tag": "Event.GameState.FightPlaced.Begin",
-        "DevComment": "游戏状态-埋包后的战斗阶段"
-      },
-      "Event.GameState.FightPlaced.End": {
-        "Tag": "Event.GameState.FightPlaced.End",
-        "DevComment": "游戏状态-埋包后的战斗阶段"
-      },
-      "Event.GameState.FightEnd.Begin": {
-        "Tag": "Event.GameState.FightEnd.Begin",
-        "DevComment": "游戏状态-游戏单局默认结束"
-      },
-      "Event.GameState.FightEnd.End": {
-        "Tag": "Event.GameState.FightEnd.End",
-        "DevComment": "游戏状态-游戏单局默认结束"
-      },
-      "Event.GameState.GameEnd.Begin": {
-        "Tag": "Event.GameState.GameEnd.Begin",
-        "DevComment": "游戏状态-游戏全场结束"
-      },
-      "Event.GameState.GameEnd.End": {
-        "Tag": "Event.GameState.GameEnd.End",
-        "DevComment": "游戏状态-游戏全场结束"
-      },
-      "Event.GameState.FinalStage": {
-        "Tag": "Event.GameState.FinalStage",
-        "DevComment": "决战阶段开始-游戏战斗阶段"
-      },
-      "Event.GameState.SafeZoneBegin": {
-        "Tag": "Event.GameState.SafeZoneBegin",
-        "DevComment": "缩圈开始-游戏战斗阶段"
-      },
-      "Event.ConsumeSlot.Primary": {
-        "Tag": "Event.ConsumeSlot.Primary",
-        "DevComment": "消耗主武器子弹"
-      },
-      "Event.ConsumeSlot.Secondary": {
-        "Tag": "Event.ConsumeSlot.Secondary",
-        "DevComment": "消耗副武器子弹"
-      },
-      "Event.ConsumeSlot.Grenade1": {
-        "Tag": "Event.ConsumeSlot.Grenade1",
-        "DevComment": "消耗手雷1"
-      },
-      "Event.ConsumeSlot.Grenade2": {
-        "Tag": "Event.ConsumeSlot.Grenade2",
-        "DevComment": "消耗手雷2"
-      },
-      "Event.ConsumeSlot.SkillP": {
-        "Tag": "Event.ConsumeSlot.SkillP",
-        "DevComment": "消耗技能P的武器子弹"
-      },
-      "Event.ConsumeSlot.SkillQ": {
-        "Tag": "Event.ConsumeSlot.SkillQ",
-        "DevComment": "消耗技能Q的武器子弹"
-      },
-      "Event.ConsumeSlot.SkillE": {
-        "Tag": "Event.ConsumeSlot.SkillE",
-        "DevComment": "消耗技能E的武器子弹"
-      },
-      "Event.ConsumeSlot.SkillX": {
-        "Tag": "Event.ConsumeSlot.SkillX",
-        "DevComment": "消耗技能X的武器子弹"
-      },
-      "Event.ConsumePlayerWeapon.Primary": {
-        "Tag": "Event.ConsumePlayerWeapon.Primary",
-        "DevComment": "消耗主武器子弹"
-      },
-      "Event.ConsumePlayerWeapon.Secondary": {
-        "Tag": "Event.ConsumePlayerWeapon.Secondary",
-        "DevComment": "消耗副武器子弹"
-      },
-      "Event.ConsumePlayerWeapon.Throw": {
-        "Tag": "Event.ConsumePlayerWeapon.Throw",
-        "DevComment": "消耗投掷物"
-      },
-      "Event.ConsumePlayerWeapon.P": {
-        "Tag": "Event.ConsumePlayerWeapon.P",
-        "DevComment": "消耗技能P的武器子弹"
-      },
-      "Event.ConsumePlayerWeapon.Q": {
-        "Tag": "Event.ConsumePlayerWeapon.Q",
-        "DevComment": "消耗技能Q的武器子弹"
-      },
-      "Event.ConsumePlayerWeapon.X": {
-        "Tag": "Event.ConsumePlayerWeapon.X",
-        "DevComment": "消耗技能X的武器子弹"
-      },
-      "Event.ConsumePlayerSkill.P": {
-        "Tag": "Event.ConsumePlayerSkill.P",
-        "DevComment": "消耗技能P"
-      },
-      "Event.ConsumePlayerSkill.Q": {
-        "Tag": "Event.ConsumePlayerSkill.Q",
-        "DevComment": "消耗技能Q"
-      },
-      "Event.ConsumePlayerSkill.E": {
-        "Tag": "Event.ConsumePlayerSkill.E",
-        "DevComment": "消耗技能E"
-      },
-      "Event.ConsumePlayerSkill.X": {
-        "Tag": "Event.ConsumePlayerSkill.X",
-        "DevComment": "消耗技能X"
-      },
-      "Event.MagazineEmptySlot.Primary": {
-        "Tag": "Event.MagazineEmptySlot.Primary",
-        "DevComment": "主武器子弹消耗光"
-      },
-      "Event.MagazineEmptySlot.Secondary": {
-        "Tag": "Event.MagazineEmptySlot.Secondary",
-        "DevComment": "副武器子弹消耗光"
-      },
-      "Event.MagazineEmptySlot.Grenade1": {
-        "Tag": "Event.MagazineEmptySlot.Grenade1",
-        "DevComment": "投掷物1消耗光"
-      },
-      "Event.MagazineEmptySlot.Grenade2": {
-        "Tag": "Event.MagazineEmptySlot.Grenade2",
-        "DevComment": "投掷物2消耗光"
-      },
-      "Event.MagazineEmptySlot.SkillP": {
-        "Tag": "Event.MagazineEmptySlot.SkillP",
-        "DevComment": "技能P消耗光"
-      },
-      "Event.MagazineEmptySlot.SkillQ": {
-        "Tag": "Event.MagazineEmptySlot.SkillQ",
-        "DevComment": "技能Q消耗光"
-      },
-      "Event.MagazineEmptySlot.SkillX": {
-        "Tag": "Event.MagazineEmptySlot.SkillX",
-        "DevComment": "技能X消耗光"
-      },
-      "Event.Action.Revive.Success": {
-        "Tag": "Event.Action.Revive.Success",
-        "DevComment": "复活成功"
-      },
-      "Event.Action.BeRevive.Success": {
-        "Tag": "Event.Action.BeRevive.Success",
-        "DevComment": "被复活成功"
-      },
-      "Event.MoveDist.Normal": {
-        "Tag": "Event.MoveDist.Normal",
-        "DevComment": "3D状态移动距离变化"
-      },
-      "Event.MoveDist.Slide": {
-        "Tag": "Event.MoveDist.Slide",
-        "DevComment": "贴墙状态移动距离变化"
-      },
-      "Event.MoveDist.Sideway": {
-        "Tag": "Event.MoveDist.Sideway",
-        "DevComment": "侧身状态移动距离变化"
-      },
-      "Event.MoveDist.Glide": {
-        "Tag": "Event.MoveDist.Glide",
-        "DevComment": "飘飞状态移动距离变化"
-      },
-      "Event.Action.StopAimOrADS": {
-        "Tag": "Event.Action.StopAimOrADS",
-        "DevComment": "打断肩射开镜"
-      },
-      "Event.Action.StopFly": {
-        "Tag": "Event.Action.StopFly",
-        "DevComment": "打断飘飞"
-      },
-      "Event.Action.StopSide": {
-        "Tag": "Event.Action.StopSide",
-        "DevComment": "打断侧身"
-      },
-      "Event.Action.KeepAimOrADS": {
-        "Tag": "Event.Action.KeepAimOrADS",
-        "DevComment": "恢复长按肩射开镜"
-      },
-      "Event.Action.KeepFly": {
-        "Tag": "Event.Action.KeepFly",
-        "DevComment": "恢复长按飘飞"
-      },
-      "Event.Action.KeepSide": {
-        "Tag": "Event.Action.KeepSide",
-        "DevComment": "恢复长按侧身"
-      },
-      "Event.Action.UsePrimary": {
-        "Tag": "Event.Action.UsePrimary",
-        "DevComment": "使用武器左键"
-      },
-      "Event.Action.UseSecondary": {
-        "Tag": "Event.Action.UseSecondary",
-        "DevComment": "使用武器右键"
-      },
-      "Event.Action.WeaponSwitchedSlot.Primary": {
-        "Tag": "Event.Action.WeaponSwitchedSlot.Primary",
-        "DevComment": "武器切换到主武器"
-      },
-      "Event.Action.WeaponSwitchedSlot.Secondary": {
-        "Tag": "Event.Action.WeaponSwitchedSlot.Secondary",
-        "DevComment": "武器切换到副武器"
-      },
-      "Event.Action.WeaponSwitchedSlot.Grenade1": {
-        "Tag": "Event.Action.WeaponSwitchedSlot.Grenade1",
-        "DevComment": "武器切换到投掷物1"
-      },
-      "Event.Action.WeaponSwitchedSlot.Grenade2": {
-        "Tag": "Event.Action.WeaponSwitchedSlot.Grenade2",
-        "DevComment": "武器切换到投掷物2"
-      },
-      "Event.Action.WeaponSwitchedSlot.SkillP": {
-        "Tag": "Event.Action.WeaponSwitchedSlot.SkillP",
-        "DevComment": "武器切换到技能P"
-      },
-      "Event.Action.WeaponSwitchedSlot.SkillQ": {
-        "Tag": "Event.Action.WeaponSwitchedSlot.SkillQ",
-        "DevComment": "武器切换到技能Q"
-      },
-      "Event.Action.WeaponSwitchedSlot.SkillX": {
-        "Tag": "Event.Action.WeaponSwitchedSlot.SkillX",
-        "DevComment": "武器切换到技能X"
-      },
-      "Event.Action.WeaponAttackAfterSlot.Primary": {
-        "Tag": "Event.Action.WeaponAttackAfterSlot.Primary",
-        "DevComment": "主武器开火瞬间"
-      },
-      "Event.Action.WeaponAttackAfterSlot.Secondary": {
-        "Tag": "Event.Action.WeaponAttackAfterSlot.Secondary",
-        "DevComment": "副武器开火瞬间"
-      },
-      "Event.Action.WeaponAttackAfterSlot.Grenade": {
-        "Tag": "Event.Action.WeaponAttackAfterSlot.Grenade",
-        "DevComment": "投掷物扔出瞬间"
-      },
-      "Event.Action.WeaponStartReloadSlot.Primary": {
-        "Tag": "Event.Action.WeaponStartReloadSlot.Primary",
-        "DevComment": "主武器开始换弹"
-      },
-      "Event.Action.WeaponStartReloadSlot.Secondary": {
-        "Tag": "Event.Action.WeaponStartReloadSlot.Secondary",
-        "DevComment": "副武器开始换弹"
-      },
-      "Event.Action.WeaponFinishReloadSlot.Primary": {
-        "Tag": "Event.Action.WeaponFinishReloadSlot.Primary",
-        "DevComment": "主武器换弹成功"
-      },
-      "Event.Action.WeaponFinishReloadSlot.Secondary": {
-        "Tag": "Event.Action.WeaponFinishReloadSlot.Secondary",
-        "DevComment": "副武器换弹成功"
-      },
-      "Event.Action.WeaponFinishAttackSlot.Secondary": {
-        "Tag": "Event.Action.WeaponFinishAttackSlot.Secondary",
-        "DevComment": "副武器攻击结束(允许打断后摇时机,非武器状态结束)"
-      },
-      "Event.Action.WeaponFinishPullBoltSlot": {
-        "Tag": "Event.Action.WeaponFinishPullBoltSlot",
-        "DevComment": "武器拉栓结束瞬间"
-      },
-      "Event.Action.WeaponStartKeepFiringSlotTagData": {
-        "Tag": "Event.Action.WeaponStartKeepFiringSlotTagData",
-        "DevComment": "武器开始准备射击"
-      },
-      "Event.Action.WeaponStopKeepFiringSlotTagData": {
-        "Tag": "Event.Action.WeaponStopKeepFiringSlotTagData",
-        "DevComment": "武器终止准备射击"
-      },
-      "Event.Action.WeaponWorkEnd": {
-        "Tag": "Event.Action.WeaponWorkEnd",
-        "DevComment": "武器Work状态结束"
-      },
-      "Event.Action.Graffiti": {
-        "Tag": "Event.Action.Graffiti",
-        "DevComment": "使用喷漆"
-      },
-      "Event.Action.Action": {
-        "Tag": "Event.Action.Action",
-        "DevComment": "使用动作"
-      },
-      "Event.Action.InstallC4": {
-        "Tag": "Event.Action.InstallC4",
-        "DevComment": "安装C4"
-      },
-      "Event.Action.RemoveC4": {
-        "Tag": "Event.Action.RemoveC4",
-        "DevComment": "拆除C4"
-      },
-      "Event.Action.GrowthUpgrade": {
-        "Tag": "Event.Action.GrowthUpgrade",
-        "DevComment": "局内成长升级"
-      },
-      "Event.Action.Mini": {
-        "Tag": "Event.Action.Mini",
-        "DevComment": "挖矿"
-      },
-      "Event.Action.DeliveryMineral": {
-        "Tag": "Event.Action.DeliveryMineral",
-        "DevComment": "交付矿物"
-      },
-      "Event.Action.RetrieveMineral": {
-        "Tag": "Event.Action.RetrieveMineral",
-        "DevComment": "回收矿物"
-      },
-      "Event.Action.StealMineral": {
-        "Tag": "Event.Action.StealMineral",
-        "DevComment": "偷取矿物"
-      },
-      "Event.PerspectiveSlot.SKillP": {
-        "Tag": "Event.PerspectiveSlot.SKillP",
-        "DevComment": "被动技能透视到敌人"
-      },
-      "Event.PerspectiveSlot.SKillQ": {
-        "Tag": "Event.PerspectiveSlot.SKillQ",
-        "DevComment": "主动技能透视到敌人"
-      },
-      "Event.PerspectiveSlot.SKillX": {
-        "Tag": "Event.PerspectiveSlot.SKillX",
-        "DevComment": "终极技能透视到敌人"
-      },
-      "Event.BePerspectiveSlot.SKillP": {
-        "Tag": "Event.BePerspectiveSlot.SKillP",
-        "DevComment": "被敌人被动技能透视到"
-      },
-      "Event.BePerspectiveSlot.SKillQ": {
-        "Tag": "Event.BePerspectiveSlot.SKillQ",
-        "DevComment": "被敌人主动技能透视到"
-      },
-      "Event.BePerspectiveSlot.SKillX": {
-        "Tag": "Event.BePerspectiveSlot.SKillX",
-        "DevComment": "被敌人终极技能透视到"
-      },
-      "Event.CauseDamage": {
-        "Tag": "Event.CauseDamage",
-        "DevComment": "造成伤害"
-      },
-      "Event.CauseDamage.PlayerWeapon": {
-        "Tag": "Event.CauseDamage.PlayerWeapon",
-        "DevComment": "武器造成伤害"
-      },
-      "Event.CauseDamage.PlayerWeapon.Primary": {
-        "Tag": "Event.CauseDamage.PlayerWeapon.Primary",
-        "DevComment": "主武器造成伤害"
-      },
-      "Event.CauseDamage.PlayerWeapon.Secondary": {
-        "Tag": "Event.CauseDamage.PlayerWeapon.Secondary",
-        "DevComment": "副武器造成伤害"
-      },
-      "Event.CauseDamage.PlayerWeapon.Throw": {
-        "Tag": "Event.CauseDamage.PlayerWeapon.Throw",
-        "DevComment": "投掷武器造成伤害"
-      },
-      "Event.CauseDamage.PlayerWeapon.C4": {
-        "Tag": "Event.CauseDamage.PlayerWeapon.C4",
-        "DevComment": "炸弹造成伤害"
-      },
-      "Event.CauseDamage.PlayerSkill": {
-        "Tag": "Event.CauseDamage.PlayerSkill",
-        "DevComment": "技能造成伤害"
-      },
-      "Event.CauseDamage.PlayerSkill.P": {
-        "Tag": "Event.CauseDamage.PlayerSkill.P",
-        "DevComment": "被动技能造成伤害"
-      },
-      "Event.CauseDamage.PlayerSkill.Q": {
-        "Tag": "Event.CauseDamage.PlayerSkill.Q",
-        "DevComment": "主动技能造成伤害"
-      },
-      "Event.CauseDamage.PlayerSkill.Q.Main": {
-        "Tag": "Event.CauseDamage.PlayerSkill.Q.Main",
-        "DevComment": "主动技能造成伤害(主要)"
-      },
-      "Event.CauseDamage.PlayerSkill.Q.Secondary": {
-        "Tag": "Event.CauseDamage.PlayerSkill.Q.Secondary",
-        "DevComment": "主动技能造成伤害(次要)"
-      },
-      "Event.CauseDamage.PlayerSkill.X": {
-        "Tag": "Event.CauseDamage.PlayerSkill.X",
-        "DevComment": "大招技能造成伤害"
-      },
-      "Event.CauseDamage.System": {
-        "Tag": "Event.CauseDamage.System",
-        "DevComment": "系统造成伤害"
-      },
-      "Event.CauseDamage.System.Fall": {
-        "Tag": "Event.CauseDamage.System.Fall",
-        "DevComment": "掉落造成伤害"
-      },
-      "Event.CauseDamage.System.DangerZone": {
-        "Tag": "Event.CauseDamage.System.DangerZone",
-        "DevComment": "危险区造成伤害"
-      },
-      "Event.CauseDamage.System.DeathZone": {
-        "Tag": "Event.CauseDamage.System.DeathZone",
-        "DevComment": "死亡区造成伤害"
-      },
-      "Event.CauseDamageByWeapon": {
-        "Tag": "Event.CauseDamageByWeapon",
-        "DevComment": "武器造成伤害"
-      },
-      "Event.CauseDamageByWeapon.Gun": {
-        "Tag": "Event.CauseDamageByWeapon.Gun",
-        "DevComment": "枪械武器造成伤害"
-      },
-      "Event.CauseDamageByWeapon.Gun.SR": {
-        "Tag": "Event.CauseDamageByWeapon.Gun.SR",
-        "DevComment": "狙击枪造成伤害"
-      },
-      "Event.CauseDamageByWeapon.Gun.AR": {
-        "Tag": "Event.CauseDamageByWeapon.Gun.AR",
-        "DevComment": "步枪造成伤害"
-      },
-      "Event.CauseDamageByWeapon.Gun.SMG": {
-        "Tag": "Event.CauseDamageByWeapon.Gun.SMG",
-        "DevComment": "冲锋枪造成伤害"
-      },
-      "Event.CauseDamageByWeapon.Gun.SG": {
-        "Tag": "Event.CauseDamageByWeapon.Gun.SG",
-        "DevComment": "喷子造成伤害"
-      },
-      "Event.CauseDamageByWeapon.Gun.PT": {
-        "Tag": "Event.CauseDamageByWeapon.Gun.PT",
-        "DevComment": "手枪造成伤害"
-      },
-      "Event.CauseDamageByWeapon.Gun.LMG": {
-        "Tag": "Event.CauseDamageByWeapon.Gun.LMG",
-        "DevComment": "轻机枪造成伤害"
-      },
-      "Event.CauseDamageByWeapon.Gun.Ejector": {
-        "Tag": "Event.CauseDamageByWeapon.Gun.Ejector",
-        "DevComment": "喷射器造成伤害"
-      },
-      "Event.CauseDamageByWeapon.Melee": {
-        "Tag": "Event.CauseDamageByWeapon.Melee",
-        "DevComment": "近战武器造成伤害"
-      },
-      "Event.CauseDamageByWeapon.Melee.Blade": {
-        "Tag": "Event.CauseDamageByWeapon.Melee.Blade",
-        "DevComment": "刀击造成伤害"
-      },
-      "Event.CauseDamageByWeapon.Melee.Knife": {
-        "Tag": "Event.CauseDamageByWeapon.Melee.Knife",
-        "DevComment": "小刀造成伤害"
-      },
-      "Event.CauseDamageByWeapon.Melee.Fist": {
-        "Tag": "Event.CauseDamageByWeapon.Melee.Fist",
-        "DevComment": "拳头造成伤害"
-      },
-      "Event.CauseDamageByWeapon.Throw": {
-        "Tag": "Event.CauseDamageByWeapon.Throw",
-        "DevComment": "投掷物造成伤害"
-      },
-      "Event.CauseDamageByWeapon.Launcher": {
-        "Tag": "Event.CauseDamageByWeapon.Launcher",
-        "DevComment": "释放器造成伤害"
-      },
-      "Event.CauseDamageByWeapon.Device": {
-        "Tag": "Event.CauseDamageByWeapon.Device",
-        "DevComment": "装置造成伤害"
-      },
-      "Event.CauseDamageByWeapon.Tool": {
-        "Tag": "Event.CauseDamageByWeapon.Tool",
-        "DevComment": "工具造成伤害"
-      },
-      "Event.TakeDamage": {
-        "Tag": "Event.TakeDamage",
-        "DevComment": "受到伤害"
-      },
-      "Event.TakeDamage.PlayerWeapon": {
-        "Tag": "Event.TakeDamage.PlayerWeapon",
-        "DevComment": "受到武器造成伤害"
-      },
-      "Event.TakeDamage.PlayerWeapon.Primary": {
-        "Tag": "Event.TakeDamage.PlayerWeapon.Primary",
-        "DevComment": "受到主武器造成伤害"
-      },
-      "Event.TakeDamage.PlayerWeapon.Secondary": {
-        "Tag": "Event.TakeDamage.PlayerWeapon.Secondary",
-        "DevComment": "受到副武器造成伤害"
-      },
-      "Event.TakeDamage.PlayerWeapon.Throw": {
-        "Tag": "Event.TakeDamage.PlayerWeapon.Throw",
-        "DevComment": "受到投掷武器造成伤害"
-      },
-      "Event.TakeDamage.PlayerWeapon.C4": {
-        "Tag": "Event.TakeDamage.PlayerWeapon.C4",
-        "DevComment": "受到炸弹造成伤害"
-      },
-      "Event.TakeDamage.PlayerSkill": {
-        "Tag": "Event.TakeDamage.PlayerSkill",
-        "DevComment": "受到技能造成伤害"
-      },
-      "Event.TakeDamage.PlayerSkill.P": {
-        "Tag": "Event.TakeDamage.PlayerSkill.P",
-        "DevComment": "受到被动技能造成伤害"
-      },
-      "Event.TakeDamage.PlayerSkill.Q": {
-        "Tag": "Event.TakeDamage.PlayerSkill.Q",
-        "DevComment": "受到主动技能造成伤害"
-      },
-      "Event.TakeDamage.PlayerSkill.X": {
-        "Tag": "Event.TakeDamage.PlayerSkill.X",
-        "DevComment": "受到大招技能造成伤害"
-      },
-      "Event.TakeDamage.System": {
-        "Tag": "Event.TakeDamage.System",
-        "DevComment": "受到系统造成伤害"
-      },
-      "Event.TakeDamage.System.Fall": {
-        "Tag": "Event.TakeDamage.System.Fall",
-        "DevComment": "受到掉落造成伤害"
-      },
-      "Event.TakeDamage.System.DangerZone": {
-        "Tag": "Event.TakeDamage.System.DangerZone",
-        "DevComment": "受到危险区造成伤害"
-      },
-      "Event.TakeDamage.System.DeathZone": {
-        "Tag": "Event.TakeDamage.System.DeathZone",
-        "DevComment": "受到死亡区造成伤害"
-      },
-      "Event.TakeDamageByWeapon": {
-        "Tag": "Event.TakeDamageByWeapon",
-        "DevComment": "受到武器造成伤害"
-      },
-      "Event.TakeDamageByWeapon.Gun": {
-        "Tag": "Event.TakeDamageByWeapon.Gun",
-        "DevComment": "受到枪械武器造成伤害"
-      },
-      "Event.TakeDamageByWeapon.Gun.SR": {
-        "Tag": "Event.TakeDamageByWeapon.Gun.SR",
-        "DevComment": "受到狙击枪造成伤害"
-      },
-      "Event.TakeDamageByWeapon.Gun.AR": {
-        "Tag": "Event.TakeDamageByWeapon.Gun.AR",
-        "DevComment": "受到步枪造成伤害"
-      },
-      "Event.TakeDamageByWeapon.Gun.SMG": {
-        "Tag": "Event.TakeDamageByWeapon.Gun.SMG",
-        "DevComment": "受到冲锋枪造成伤害"
-      },
-      "Event.TakeDamageByWeapon.Gun.SG": {
-        "Tag": "Event.TakeDamageByWeapon.Gun.SG",
-        "DevComment": "受到喷子造成伤害"
-      },
-      "Event.TakeDamageByWeapon.Gun.PT": {
-        "Tag": "Event.TakeDamageByWeapon.Gun.PT",
-        "DevComment": "受到手枪造成伤害"
-      },
-      "Event.TakeDamageByWeapon.Gun.LMG": {
-        "Tag": "Event.TakeDamageByWeapon.Gun.LMG",
-        "DevComment": "受到轻机枪造成伤害"
-      },
-      "Event.TakeDamageByWeapon.Gun.Ejector": {
-        "Tag": "Event.TakeDamageByWeapon.Gun.Ejector",
-        "DevComment": "受到喷射器造成伤害"
-      },
-      "Event.TakeDamageByWeapon.Melee": {
-        "Tag": "Event.TakeDamageByWeapon.Melee",
-        "DevComment": "受到近战武器造成伤害"
-      },
-      "Event.TakeDamageByWeapon.Melee.Blade": {
-        "Tag": "Event.TakeDamageByWeapon.Melee.Blade",
-        "DevComment": "受到刀击造成伤害"
-      },
-      "Event.TakeDamageByWeapon.Melee.Knife": {
-        "Tag": "Event.TakeDamageByWeapon.Melee.Knife",
-        "DevComment": "受到小刀造成伤害"
-      },
-      "Event.TakeDamageByWeapon.Melee.Fist": {
-        "Tag": "Event.TakeDamageByWeapon.Melee.Fist",
-        "DevComment": "受到拳头造成伤害"
-      },
-      "Event.TakeDamageByWeapon.Throw": {
-        "Tag": "Event.TakeDamageByWeapon.Throw",
-        "DevComment": "受到投掷物造成伤害"
-      },
-      "Event.TakeDamageByWeapon.Launcher": {
-        "Tag": "Event.TakeDamageByWeapon.Launcher",
-        "DevComment": "受到释放器造成伤害"
-      },
-      "Event.TakeDamageByWeapon.Device": {
-        "Tag": "Event.TakeDamageByWeapon.Device",
-        "DevComment": "受到装置造成伤害"
-      },
-      "Event.TakeDamageByWeapon.Tool": {
-        "Tag": "Event.TakeDamageByWeapon.Tool",
-        "DevComment": "受到工具造成伤害"
-      },
-      "Event.CauseInjured": {
-        "Tag": "Event.CauseInjured",
-        "DevComment": "造成重伤倒地"
-      },
-      "Event.CauseInjured.PlayerWeapon": {
-        "Tag": "Event.CauseInjured.PlayerWeapon",
-        "DevComment": "武器造成重伤倒地"
-      },
-      "Event.CauseInjured.PlayerWeapon.Primary": {
-        "Tag": "Event.CauseInjured.PlayerWeapon.Primary",
-        "DevComment": "主武器造成重伤倒地"
-      },
-      "Event.CauseInjured.PlayerWeapon.Secondary": {
-        "Tag": "Event.CauseInjured.PlayerWeapon.Secondary",
-        "DevComment": "副武器造成重伤倒地"
-      },
-      "Event.CauseInjured.PlayerWeapon.Throw": {
-        "Tag": "Event.CauseInjured.PlayerWeapon.Throw",
-        "DevComment": "投掷武器造成重伤倒地"
-      },
-      "Event.CauseInjured.PlayerWeapon.C4": {
-        "Tag": "Event.CauseInjured.PlayerWeapon.C4",
-        "DevComment": "炸弹造成重伤倒地"
-      },
-      "Event.CauseInjured.PlayerSkill": {
-        "Tag": "Event.CauseInjured.PlayerSkill",
-        "DevComment": "技能造成重伤倒地"
-      },
-      "Event.CauseInjured.PlayerSkill.P": {
-        "Tag": "Event.CauseInjured.PlayerSkill.P",
-        "DevComment": "被动技能造成重伤倒地"
-      },
-      "Event.CauseInjured.PlayerSkill.Q": {
-        "Tag": "Event.CauseInjured.PlayerSkill.Q",
-        "DevComment": "主动技能造成重伤倒地"
-      },
-      "Event.CauseInjured.PlayerSkill.X": {
-        "Tag": "Event.CauseInjured.PlayerSkill.X",
-        "DevComment": "大招技能造成重伤倒地"
-      },
-      "Event.CauseInjured.System": {
-        "Tag": "Event.CauseInjured.System",
-        "DevComment": "系统造成重伤倒地"
-      },
-      "Event.CauseInjured.System.Fall": {
-        "Tag": "Event.CauseInjured.System.Fall",
-        "DevComment": "掉落造成重伤倒地"
-      },
-      "Event.CauseInjured.System.DangerZone": {
-        "Tag": "Event.CauseInjured.System.DangerZone",
-        "DevComment": "危险区造成重伤倒地"
-      },
-      "Event.CauseInjured.System.DeathZone": {
-        "Tag": "Event.CauseInjured.System.DeathZone",
-        "DevComment": "死亡区造成重伤倒地"
-      },
-      "Event.CauseInjuredByWeapon": {
-        "Tag": "Event.CauseInjuredByWeapon",
-        "DevComment": "武器造成重伤倒地"
-      },
-      "Event.CauseInjuredByWeapon.Gun": {
-        "Tag": "Event.CauseInjuredByWeapon.Gun",
-        "DevComment": "枪械武器造成重伤倒地"
-      },
-      "Event.CauseInjuredByWeapon.Gun.SR": {
-        "Tag": "Event.CauseInjuredByWeapon.Gun.SR",
-        "DevComment": "狙击枪造成重伤倒地"
-      },
-      "Event.CauseInjuredByWeapon.Gun.AR": {
-        "Tag": "Event.CauseInjuredByWeapon.Gun.AR",
-        "DevComment": "步枪造成重伤倒地"
-      },
-      "Event.CauseInjuredByWeapon.Gun.SMG": {
-        "Tag": "Event.CauseInjuredByWeapon.Gun.SMG",
-        "DevComment": "冲锋枪造成重伤倒地"
-      },
-      "Event.CauseInjuredByWeapon.Gun.SG": {
-        "Tag": "Event.CauseInjuredByWeapon.Gun.SG",
-        "DevComment": "喷子造成重伤倒地"
-      },
-      "Event.CauseInjuredByWeapon.Gun.PT": {
-        "Tag": "Event.CauseInjuredByWeapon.Gun.PT",
-        "DevComment": "手枪造成重伤倒地"
-      },
-      "Event.CauseInjuredByWeapon.Gun.LMG": {
-        "Tag": "Event.CauseInjuredByWeapon.Gun.LMG",
-        "DevComment": "轻机枪造成重伤倒地"
-      },
-      "Event.CauseInjuredByWeapon.Gun.Ejector": {
-        "Tag": "Event.CauseInjuredByWeapon.Gun.Ejector",
-        "DevComment": "喷射器造成重伤倒地"
-      },
-      "Event.CauseInjuredByWeapon.Melee": {
-        "Tag": "Event.CauseInjuredByWeapon.Melee",
-        "DevComment": "近战武器造成重伤倒地"
-      },
-      "Event.CauseInjuredByWeapon.Melee.Blade": {
-        "Tag": "Event.CauseInjuredByWeapon.Melee.Blade",
-        "DevComment": "刀击造成重伤倒地"
-      },
-      "Event.CauseInjuredByWeapon.Melee.Knife": {
-        "Tag": "Event.CauseInjuredByWeapon.Melee.Knife",
-        "DevComment": "小刀造成重伤倒地"
-      },
-      "Event.CauseInjuredByWeapon.Melee.Fist": {
-        "Tag": "Event.CauseInjuredByWeapon.Melee.Fist",
-        "DevComment": "拳头造成重伤倒地"
-      },
-      "Event.CauseInjuredByWeapon.Throw": {
-        "Tag": "Event.CauseInjuredByWeapon.Throw",
-        "DevComment": "投掷物造成重伤倒地"
-      },
-      "Event.CauseInjuredByWeapon.Launcher": {
-        "Tag": "Event.CauseInjuredByWeapon.Launcher",
-        "DevComment": "释放器造成重伤倒地"
-      },
-      "Event.CauseInjuredByWeapon.Device": {
-        "Tag": "Event.CauseInjuredByWeapon.Device",
-        "DevComment": "装置造成重伤倒地"
-      },
-      "Event.CauseInjuredByWeapon.Tool": {
-        "Tag": "Event.CauseInjuredByWeapon.Tool",
-        "DevComment": "工具造成重伤倒地"
-      },
-      "Event.TakeInjured": {
-        "Tag": "Event.TakeInjured",
-        "DevComment": "受到重伤倒地"
-      },
-      "Event.TakeInjured.PlayerWeapon": {
-        "Tag": "Event.TakeInjured.PlayerWeapon",
-        "DevComment": "受到武器造成重伤倒地"
-      },
-      "Event.TakeInjured.PlayerWeapon.Primary": {
-        "Tag": "Event.TakeInjured.PlayerWeapon.Primary",
-        "DevComment": "受到主武器造成重伤倒地"
-      },
-      "Event.TakeInjured.PlayerWeapon.Secondary": {
-        "Tag": "Event.TakeInjured.PlayerWeapon.Secondary",
-        "DevComment": "受到副武器造成重伤倒地"
-      },
-      "Event.TakeInjured.PlayerWeapon.Throw": {
-        "Tag": "Event.TakeInjured.PlayerWeapon.Throw",
-        "DevComment": "受到投掷武器造成重伤倒地"
-      },
-      "Event.TakeInjured.PlayerWeapon.C4": {
-        "Tag": "Event.TakeInjured.PlayerWeapon.C4",
-        "DevComment": "受到炸弹造成重伤倒地"
-      },
-      "Event.TakeInjured.PlayerSkill": {
-        "Tag": "Event.TakeInjured.PlayerSkill",
-        "DevComment": "受到技能造成重伤倒地"
-      },
-      "Event.TakeInjured.PlayerSkill.P": {
-        "Tag": "Event.TakeInjured.PlayerSkill.P",
-        "DevComment": "受到被动技能造成重伤倒地"
-      },
-      "Event.TakeInjured.PlayerSkill.Q": {
-        "Tag": "Event.TakeInjured.PlayerSkill.Q",
-        "DevComment": "受到主动技能造成重伤倒地"
-      },
-      "Event.TakeInjured.PlayerSkill.X": {
-        "Tag": "Event.TakeInjured.PlayerSkill.X",
-        "DevComment": "受到大招技能造成重伤倒地"
-      },
-      "Event.TakeInjured.System": {
-        "Tag": "Event.TakeInjured.System",
-        "DevComment": "受到系统造成重伤倒地"
-      },
-      "Event.TakeInjured.System.Fall": {
-        "Tag": "Event.TakeInjured.System.Fall",
-        "DevComment": "受到掉落造成重伤倒地"
-      },
-      "Event.TakeInjured.System.DangerZone": {
-        "Tag": "Event.TakeInjured.System.DangerZone",
-        "DevComment": "受到危险区造成重伤倒地"
-      },
-      "Event.TakeInjured.System.DeathZone": {
-        "Tag": "Event.TakeInjured.System.DeathZone",
-        "DevComment": "受到死亡区造成重伤倒地"
-      },
-      "Event.TakeInjuredByWeapon": {
-        "Tag": "Event.TakeInjuredByWeapon",
-        "DevComment": "受到武器造成重伤倒地"
-      },
-      "Event.TakeInjuredByWeapon.Gun": {
-        "Tag": "Event.TakeInjuredByWeapon.Gun",
-        "DevComment": "受到枪械武器造成重伤倒地"
-      },
-      "Event.TakeInjuredByWeapon.Gun.SR": {
-        "Tag": "Event.TakeInjuredByWeapon.Gun.SR",
-        "DevComment": "受到狙击枪造成重伤倒地"
-      },
-      "Event.TakeInjuredByWeapon.Gun.AR": {
-        "Tag": "Event.TakeInjuredByWeapon.Gun.AR",
-        "DevComment": "受到步枪造成重伤倒地"
-      },
-      "Event.TakeInjuredByWeapon.Gun.SMG": {
-        "Tag": "Event.TakeInjuredByWeapon.Gun.SMG",
-        "DevComment": "受到冲锋枪造成重伤倒地"
-      },
-      "Event.TakeInjuredByWeapon.Gun.SG": {
-        "Tag": "Event.TakeInjuredByWeapon.Gun.SG",
-        "DevComment": "受到喷子造成重伤倒地"
-      },
-      "Event.TakeInjuredByWeapon.Gun.PT": {
-        "Tag": "Event.TakeInjuredByWeapon.Gun.PT",
-        "DevComment": "受到手枪造成重伤倒地"
-      },
-      "Event.TakeInjuredByWeapon.Gun.LMG": {
-        "Tag": "Event.TakeInjuredByWeapon.Gun.LMG",
-        "DevComment": "受到轻机枪造成重伤倒地"
-      },
-      "Event.TakeInjuredByWeapon.Gun.Ejector": {
-        "Tag": "Event.TakeInjuredByWeapon.Gun.Ejector",
-        "DevComment": "受到喷射器造成重伤倒地"
-      },
-      "Event.TakeInjuredByWeapon.Melee": {
-        "Tag": "Event.TakeInjuredByWeapon.Melee",
-        "DevComment": "受到近战武器造成重伤倒地"
-      },
-      "Event.TakeInjuredByWeapon.Melee.Blade": {
-        "Tag": "Event.TakeInjuredByWeapon.Melee.Blade",
-        "DevComment": "受到刀击造成重伤倒地"
-      },
-      "Event.TakeInjuredByWeapon.Melee.Knife": {
-        "Tag": "Event.TakeInjuredByWeapon.Melee.Knife",
-        "DevComment": "受到小刀造成重伤倒地"
-      },
-      "Event.TakeInjuredByWeapon.Melee.Fist": {
-        "Tag": "Event.TakeInjuredByWeapon.Melee.Fist",
-        "DevComment": "受到拳头造成重伤倒地"
-      },
-      "Event.TakeInjuredByWeapon.Throw": {
-        "Tag": "Event.TakeInjuredByWeapon.Throw",
-        "DevComment": "受到投掷物造成重伤倒地"
-      },
-      "Event.TakeInjuredByWeapon.Launcher": {
-        "Tag": "Event.TakeInjuredByWeapon.Launcher",
-        "DevComment": "受到释放器造成重伤倒地"
-      },
-      "Event.TakeInjuredByWeapon.Device": {
-        "Tag": "Event.TakeInjuredByWeapon.Device",
-        "DevComment": "受到装置造成重伤倒地"
-      },
-      "Event.TakeInjuredByWeapon.Tool": {
-        "Tag": "Event.TakeInjuredByWeapon.Tool",
-        "DevComment": "受到工具造成重伤倒地"
-      },
-      "Event.Kill": {
-        "Tag": "Event.Kill",
-        "DevComment": "击杀"
-      },
-      "Event.Kill.PlayerWeapon": {
-        "Tag": "Event.Kill.PlayerWeapon",
-        "DevComment": "武器击杀"
-      },
-      "Event.Kill.PlayerWeapon.Primary": {
-        "Tag": "Event.Kill.PlayerWeapon.Primary",
-        "DevComment": "主武器击杀"
-      },
-      "Event.Kill.PlayerWeapon.Secondary": {
-        "Tag": "Event.Kill.PlayerWeapon.Secondary",
-        "DevComment": "副武器击杀"
-      },
-      "Event.Kill.PlayerWeapon.Throw": {
-        "Tag": "Event.Kill.PlayerWeapon.Throw",
-        "DevComment": "投掷武器击杀"
-      },
-      "Event.Kill.PlayerWeapon.C4": {
-        "Tag": "Event.Kill.PlayerWeapon.C4",
-        "DevComment": "炸弹击杀"
-      },
-      "Event.Kill.PlayerSkill": {
-        "Tag": "Event.Kill.PlayerSkill",
-        "DevComment": "技能击杀"
-      },
-      "Event.Kill.PlayerSkill.P": {
-        "Tag": "Event.Kill.PlayerSkill.P",
-        "DevComment": "被动技能击杀"
-      },
-      "Event.Kill.PlayerSkill.Q": {
-        "Tag": "Event.Kill.PlayerSkill.Q",
-        "DevComment": "主动技能击杀"
-      },
-      "Event.Kill.PlayerSkill.X": {
-        "Tag": "Event.Kill.PlayerSkill.X",
-        "DevComment": "大招技能击杀"
-      },
-      "Event.Kill.System": {
-        "Tag": "Event.Kill.System",
-        "DevComment": "系统击杀"
-      },
-      "Event.Kill.System.Fall": {
-        "Tag": "Event.Kill.System.Fall",
-        "DevComment": "掉落击杀"
-      },
-      "Event.Kill.System.DangerZone": {
-        "Tag": "Event.Kill.System.DangerZone",
-        "DevComment": "危险区击杀"
-      },
-      "Event.Kill.System.DeathZone": {
-        "Tag": "Event.Kill.System.DeathZone",
-        "DevComment": "死亡区击杀"
-      },
-      "Event.KillByWeapon": {
-        "Tag": "Event.KillByWeapon",
-        "DevComment": "武器击杀"
-      },
-      "Event.KillByWeapon.Gun": {
-        "Tag": "Event.KillByWeapon.Gun",
-        "DevComment": "枪械武器击杀"
-      },
-      "Event.KillByWeapon.Gun.SR": {
-        "Tag": "Event.KillByWeapon.Gun.SR",
-        "DevComment": "狙击枪击杀"
-      },
-      "Event.KillByWeapon.Gun.AR": {
-        "Tag": "Event.KillByWeapon.Gun.AR",
-        "DevComment": "步枪击杀"
-      },
-      "Event.KillByWeapon.Gun.SMG": {
-        "Tag": "Event.KillByWeapon.Gun.SMG",
-        "DevComment": "冲锋枪击杀"
-      },
-      "Event.KillByWeapon.Gun.SG": {
-        "Tag": "Event.KillByWeapon.Gun.SG",
-        "DevComment": "喷子击杀"
-      },
-      "Event.KillByWeapon.Gun.PT": {
-        "Tag": "Event.KillByWeapon.Gun.PT",
-        "DevComment": "手枪击杀"
-      },
-      "Event.KillByWeapon.Gun.LMG": {
-        "Tag": "Event.KillByWeapon.Gun.LMG",
-        "DevComment": "轻机枪击杀"
-      },
-      "Event.KillByWeapon.Gun.Ejector": {
-        "Tag": "Event.KillByWeapon.Gun.Ejector",
-        "DevComment": "喷射器击杀"
-      },
-      "Event.KillByWeapon.Melee": {
-        "Tag": "Event.KillByWeapon.Melee",
-        "DevComment": "近战武器击杀"
-      },
-      "Event.KillByWeapon.Melee.Blade": {
-        "Tag": "Event.KillByWeapon.Melee.Blade",
-        "DevComment": "刀击击杀"
-      },
-      "Event.KillByWeapon.Melee.Knife": {
-        "Tag": "Event.KillByWeapon.Melee.Knife",
-        "DevComment": "小刀击杀"
-      },
-      "Event.KillByWeapon.Melee.Fist": {
-        "Tag": "Event.KillByWeapon.Melee.Fist",
-        "DevComment": "拳头击杀"
-      },
-      "Event.KillByWeapon.Throw": {
-        "Tag": "Event.KillByWeapon.Throw",
-        "DevComment": "投掷物击杀"
-      },
-      "Event.KillByWeapon.Launcher": {
-        "Tag": "Event.KillByWeapon.Launcher",
-        "DevComment": "释放器击杀"
-      },
-      "Event.KillByWeapon.Device": {
-        "Tag": "Event.KillByWeapon.Device",
-        "DevComment": "装置击杀"
-      },
-      "Event.KillByWeapon.Tool": {
-        "Tag": "Event.KillByWeapon.Tool",
-        "DevComment": "工具击杀"
-      },
-      "Event.Death": {
-        "Tag": "Event.Death",
-        "DevComment": "死亡"
-      },
-      "Event.Death.PlayerWeapon": {
-        "Tag": "Event.Death.PlayerWeapon",
-        "DevComment": "武器击杀死亡"
-      },
-      "Event.Death.PlayerWeapon.Primary": {
-        "Tag": "Event.Death.PlayerWeapon.Primary",
-        "DevComment": "主武器击杀死亡"
-      },
-      "Event.Death.PlayerWeapon.Secondary": {
-        "Tag": "Event.Death.PlayerWeapon.Secondary",
-        "DevComment": "副武器击杀死亡"
-      },
-      "Event.Death.PlayerWeapon.Throw": {
-        "Tag": "Event.Death.PlayerWeapon.Throw",
-        "DevComment": "投掷武器击杀死亡"
-      },
-      "Event.Death.PlayerWeapon.C4": {
-        "Tag": "Event.Death.PlayerWeapon.C4",
-        "DevComment": "炸弹击杀死亡"
-      },
-      "Event.Death.PlayerSkill": {
-        "Tag": "Event.Death.PlayerSkill",
-        "DevComment": "技能击杀死亡"
-      },
-      "Event.Death.PlayerSkill.P": {
-        "Tag": "Event.Death.PlayerSkill.P",
-        "DevComment": "被动技能击杀死亡"
-      },
-      "Event.Death.PlayerSkill.Q": {
-        "Tag": "Event.Death.PlayerSkill.Q",
-        "DevComment": "主动技能击杀死亡"
-      },
-      "Event.Death.PlayerSkill.X": {
-        "Tag": "Event.Death.PlayerSkill.X",
-        "DevComment": "大招技能击杀死亡"
-      },
-      "Event.Death.System": {
-        "Tag": "Event.Death.System",
-        "DevComment": "系统击杀死亡"
-      },
-      "Event.Death.System.Fall": {
-        "Tag": "Event.Death.System.Fall",
-        "DevComment": "掉落击杀死亡"
-      },
-      "Event.Death.System.DangerZone": {
-        "Tag": "Event.Death.System.DangerZone",
-        "DevComment": "危险区击杀死亡"
-      },
-      "Event.Death.System.DeathZone": {
-        "Tag": "Event.Death.System.DeathZone",
-        "DevComment": "死亡区击杀死亡"
-      },
-      "Event.DeathByWeapon": {
-        "Tag": "Event.DeathByWeapon",
-        "DevComment": "武器击杀死亡"
-      },
-      "Event.DeathByWeapon.Gun": {
-        "Tag": "Event.DeathByWeapon.Gun",
-        "DevComment": "枪械武器击杀死亡"
-      },
-      "Event.DeathByWeapon.Gun.SR": {
-        "Tag": "Event.DeathByWeapon.Gun.SR",
-        "DevComment": "狙击枪击杀死亡"
-      },
-      "Event.DeathByWeapon.Gun.AR": {
-        "Tag": "Event.DeathByWeapon.Gun.AR",
-        "DevComment": "步枪击杀死亡"
-      },
-      "Event.DeathByWeapon.Gun.SMG": {
-        "Tag": "Event.DeathByWeapon.Gun.SMG",
-        "DevComment": "冲锋枪击杀死亡"
-      },
-      "Event.DeathByWeapon.Gun.SG": {
-        "Tag": "Event.DeathByWeapon.Gun.SG",
-        "DevComment": "喷子击杀死亡"
-      },
-      "Event.DeathByWeapon.Gun.PT": {
-        "Tag": "Event.DeathByWeapon.Gun.PT",
-        "DevComment": "手枪击杀死亡"
-      },
-      "Event.DeathByWeapon.Gun.LMG": {
-        "Tag": "Event.DeathByWeapon.Gun.LMG",
-        "DevComment": "轻机枪击杀死亡"
-      },
-      "Event.DeathByWeapon.Gun.Ejector": {
-        "Tag": "Event.DeathByWeapon.Gun.Ejector",
-        "DevComment": "喷射器击杀死亡"
-      },
-      "Event.DeathByWeapon.Melee": {
-        "Tag": "Event.DeathByWeapon.Melee",
-        "DevComment": "近战武器击杀死亡"
-      },
-      "Event.DeathByWeapon.Melee.Blade": {
-        "Tag": "Event.DeathByWeapon.Melee.Blade",
-        "DevComment": "刀击击杀死亡"
-      },
-      "Event.DeathByWeapon.Melee.Knife": {
-        "Tag": "Event.DeathByWeapon.Melee.Knife",
-        "DevComment": "小刀击杀死亡"
-      },
-      "Event.DeathByWeapon.Melee.Fist": {
-        "Tag": "Event.DeathByWeapon.Melee.Fist",
-        "DevComment": "拳头击杀死亡"
-      },
-      "Event.DeathByWeapon.Throw": {
-        "Tag": "Event.DeathByWeapon.Throw",
-        "DevComment": "投掷物击杀死亡"
-      },
-      "Event.DeathByWeapon.Launcher": {
-        "Tag": "Event.DeathByWeapon.Launcher",
-        "DevComment": "释放器击杀死亡"
-      },
-      "Event.DeathByWeapon.Device": {
-        "Tag": "Event.DeathByWeapon.Device",
-        "DevComment": "装置击杀死亡"
-      },
-      "Event.DeathByWeapon.Tool": {
-        "Tag": "Event.DeathByWeapon.Tool",
-        "DevComment": "工具击杀死亡"
-      },
-      "Event.Assist": {
-        "Tag": "Event.Assist",
-        "DevComment": "助攻"
-      },
-      "Event.OwnedActorChanged": {
-        "Tag": "Event.OwnedActorChanged",
-        "DevComment": "OwnedActor变化"
-      },
-      "Event.Spar.SpawnSparItem": {
-        "Tag": "Event.Spar.SpawnSparItem",
-        "DevComment": "开始生成晶体"
-      },
-      "Event.Spar.SpawnSparBox": {
-        "Tag": "Event.Spar.SpawnSparBox",
-        "DevComment": "开始生成晶体箱"
-      },
-      "Event.Projectile.Spawn.Yvette.Q.Arousal.Two": {
-        "Tag": "Event.Projectile.Spawn.Yvette.Q.Arousal.Two",
-        "DevComment": "伊薇特觉醒2子弹创建"
-      },
-      "Event.RoundClear": {
-        "Tag": "Event.RoundClear",
-        "DevComment": "清理回合(清理召唤物)"
-      },
-      "Event.Summon.Spawn.Fail": {
-        "Tag": "Event.Summon.Spawn.Fail",
-        "DevComment": "召唤物创建失败"
-      },
-      "Event.RecoveryHealth.PlayerWeapon.Primary": {
-        "Tag": "Event.RecoveryHealth.PlayerWeapon.Primary",
-        "DevComment": "使用主武器恢复血量"
-      },
-      "Event.RecoveryHealth.PlayerWeapon.Secondary": {
-        "Tag": "Event.RecoveryHealth.PlayerWeapon.Secondary",
-        "DevComment": "使用副武器恢复血量"
-      },
-      "Event.RecoveryHealth.PlayerWeapon.Throw": {
-        "Tag": "Event.RecoveryHealth.PlayerWeapon.Throw",
-        "DevComment": "使用投掷物恢复血量"
-      },
-      "Event.RecoveryHealth.PlayerSkill.P": {
-        "Tag": "Event.RecoveryHealth.PlayerSkill.P",
-        "DevComment": "使用被动技能恢复血量"
-      },
-      "Event.RecoveryHealth.PlayerSkill.Q": {
-        "Tag": "Event.RecoveryHealth.PlayerSkill.Q",
-        "DevComment": "使用主动技能恢复血量"
-      },
-      "Event.RecoveryHealth.PlayerSkill.X": {
-        "Tag": "Event.RecoveryHealth.PlayerSkill.X",
-        "DevComment": "使用终极技能恢复血量"
-      },
-      "Event.RecoveryArmor.PlayerWeapon.Primary": {
-        "Tag": "Event.RecoveryArmor.PlayerWeapon.Primary",
-        "DevComment": "使用主武器恢复护甲"
-      },
-      "Event.RecoveryArmor.PlayerWeapon.Secondary": {
-        "Tag": "Event.RecoveryArmor.PlayerWeapon.Secondary",
-        "DevComment": "使用副武器恢复护甲"
-      },
-      "Event.RecoveryArmor.PlayerWeapon.Throw": {
-        "Tag": "Event.RecoveryArmor.PlayerWeapon.Throw",
-        "DevComment": "使用投掷物恢复护甲"
-      },
-      "Event.RecoveryArmor.PlayerSkill.P": {
-        "Tag": "Event.RecoveryArmor.PlayerSkill.P",
-        "DevComment": "使用被动技能恢复护甲"
-      },
-      "Event.RecoveryArmor.PlayerSkill.Q": {
-        "Tag": "Event.RecoveryArmor.PlayerSkill.Q",
-        "DevComment": "使用主动技能恢复护甲"
-      },
-      "Event.RecoveryArmor.PlayerSkill.X": {
-        "Tag": "Event.RecoveryArmor.PlayerSkill.X",
-        "DevComment": "使用终极技能恢复护甲"
-      },
-      "Event.DamageProtectorChanged": {
-        "Tag": "Event.DamageProtectorChanged",
-        "DevComment": "DamageProtector变化"
-      },
-      "Event.KillSummon.PlayerSkill.P": {
-        "Tag": "Event.KillSummon.PlayerSkill.P",
-        "DevComment": "使用被动技能击杀召唤物"
-      },
-      "Event.KillSummon.PlayerSkill.Q": {
-        "Tag": "Event.KillSummon.PlayerSkill.Q",
-        "DevComment": "使用被动技能击杀召唤物"
-      },
-      "Event.KillSummon.PlayerSkill.X": {
-        "Tag": "Event.KillSummon.PlayerSkill.X",
-        "DevComment": "使用被动技能击杀召唤物"
-      },
-      "Event.DeathSummon.PlayerSkill.P": {
-        "Tag": "Event.DeathSummon.PlayerSkill.P",
-        "DevComment": "被被动技能击杀召唤物死亡"
-      },
-      "Event.DeathSummon.PlayerSkill.Q": {
-        "Tag": "Event.DeathSummon.PlayerSkill.Q",
-        "DevComment": "被主动技能击杀召唤物死亡"
-      },
-      "Event.DeathSummon.PlayerSkill.X": {
-        "Tag": "Event.DeathSummon.PlayerSkill.X",
-        "DevComment": "被终级技能击杀召唤物死亡"
-      },
-      "Event.Spar.SpawnMovingSpar": {
-        "Tag": "Event.Spar.SpawnMovingSpar",
-        "DevComment": "开始生成可移动晶体"
-      },
-      "Event.Accumulator.Flavia.Q": {
-        "Tag": "Event.Accumulator.Flavia.Q",
-        "DevComment": "芙拉薇娅Q累加器触发"
-      },
-      "Event.Accumulator.Flavia.P.CD": {
-        "Tag": "Event.Accumulator.Flavia.P.CD",
-        "DevComment": "芙拉薇娅P减CD累加器触发"
-      },
-      "Event.Accumulator.Flavia.P.Xpoint": {
-        "Tag": "Event.Accumulator.Flavia.P.Xpoint",
-        "DevComment": "芙拉薇娅P加大招点累加器触发"
-      },
-      "Event.Summon.Leave.Fuchsia.Q": {
-        "Tag": "Event.Summon.Leave.Fuchsia.Q",
-        "DevComment": "绯莎Q面罩消失"
-      },
-      "Event.Weapon.Work.Begin": {
-        "Tag": "Event.Weapon.Work.Begin",
-        "DevComment": "武器Work状态开始"
-      },
-      "Event.Weapon.Work.End": {
-        "Tag": "Event.Weapon.Work.End",
-        "DevComment": "武器Work状态结束"
-      },
-      "Event.Summon.Spawn.Flavia.Q": {
-        "Tag": "Event.Summon.Spawn.Flavia.Q",
-        "DevComment": "芙拉薇娅Q召唤物生成"
-      },
-      "Event.EscortVehicle.EscortArea.Enter": {
-        "Tag": "Event.EscortVehicle.EscortArea.Enter",
-        "DevComment": "玩家进入护送对象的护送区域"
-      },
-      "Event.EscortVehicle.EscortArea.Level": {
-        "Tag": "Event.EscortVehicle.EscortArea.Level",
-        "DevComment": "玩家离开护送对象的护送区域"
-      },
-      "Event.EscortVehicle.Wall.Begin": {
-        "Tag": "Event.EscortVehicle.Wall.Begin",
-        "DevComment": "玩家开始贴护送对象的墙上"
-      },
-      "Event.EscortVehicle.Wall.End": {
-        "Tag": "Event.EscortVehicle.Wall.End",
-        "DevComment": "玩家结束贴护送对象的墙上"
-      },
-      "Event.Mine.StoreMine": {
-        "Tag": "Event.Mine.StoreMine",
-        "DevComment": "存放矿物"
-      },
-      "Event.Mine.Mined": {
-        "Tag": "Event.Mine.Mined",
-        "DevComment": "采集矿物"
-      },
-      "Event.Mine.PickupMine": {
-        "Tag": "Event.Mine.PickupMine",
-        "DevComment": "拾取矿物"
-      },
-      "Event.Mine.StealMine": {
-        "Tag": "Event.Mine.StealMine",
-        "DevComment": "偷取矿物"
-      },
-      "Event.Mine.KillStealer": {
-        "Tag": "Event.Mine.KillStealer",
-        "DevComment": "击杀偷矿者"
-      },
-      "Event.TrackGameData.Game.End": {
-        "Tag": "Event.TrackGameData.Game.End",
-        "DevComment": "全场比赛结束后游戏数据收集结束"
-      },
-      "Event.Action.PreSelectedRole": {
-        "Tag": "Event.Action.PreSelectedRole",
-        "DevComment": "预选择角色"
-      },
-      "Event.Action.LockSelectedRole": {
-        "Tag": "Event.Action.LockSelectedRole",
-        "DevComment": "锁定选择的角色"
-      },
-      "Event.RemoveBuff.RoundStart": {
-        "Tag": "Event.RemoveBuff.RoundStart",
-        "DevComment": "Buff移除事件(回合开始)"
-      },
-      "Event.RemoveBuff.RoundEnd": {
-        "Tag": "Event.RemoveBuff.RoundEnd",
-        "DevComment": "Buff移除事件(回合结束)"
-      },
-      "Event.GameState.RoleSelect.PreBegin": {
-        "Tag": "Event.GameState.RoleSelect.PreBegin",
-        "DevComment": "游戏状态-角色选择阶段开始前"
-      },
-      "Event.GameState.RoleSelect.Begun": {
-        "Tag": "Event.GameState.RoleSelect.Begun",
-        "DevComment": "游戏状态-角色选择阶段开始后"
-      },
-      "Event.GameState.RoleSelect.PreEnd": {
-        "Tag": "Event.GameState.RoleSelect.PreEnd",
-        "DevComment": "游戏状态-角色选择阶段结束前"
-      },
-      "Event.GameState.RoleSelect.Ended": {
-        "Tag": "Event.GameState.RoleSelect.Ended",
-        "DevComment": "游戏状态-角色选择阶段结束后"
-      },
-      "Event.GameState.RoleReselect.PreBegin": {
-        "Tag": "Event.GameState.RoleReselect.PreBegin",
-        "DevComment": "游戏状态-角色重新选择阶段开始前"
-      },
-      "Event.GameState.RoleReselect.Begun": {
-        "Tag": "Event.GameState.RoleReselect.Begun",
-        "DevComment": "游戏状态-角色重新选择阶段开始后"
-      },
-      "Event.GameState.RoleReselect.PreEnd": {
-        "Tag": "Event.GameState.RoleReselect.PreEnd",
-        "DevComment": "游戏状态-角色重新选择阶段结束前"
-      },
-      "Event.GameState.RoleReselect.Ended": {
-        "Tag": "Event.GameState.RoleReselect.Ended",
-        "DevComment": "游戏状态-角色重新选择阶段结束后"
-      },
-      "Event.GameState.RoleLoad.PreBegin": {
-        "Tag": "Event.GameState.RoleLoad.PreBegin",
-        "DevComment": "游戏状态-角色加载阶段开始前"
-      },
-      "Event.GameState.RoleLoad.Begun": {
-        "Tag": "Event.GameState.RoleLoad.Begun",
-        "DevComment": "游戏状态-角色加载阶段开始后"
-      },
-      "Event.GameState.RoleLoad.PreEnd": {
-        "Tag": "Event.GameState.RoleLoad.PreEnd",
-        "DevComment": "游戏状态-角色加载阶段结束前"
-      },
-      "Event.GameState.RoleLoad.Ended": {
-        "Tag": "Event.GameState.RoleLoad.Ended",
-        "DevComment": "游戏状态-角色加载阶段结束后"
-      },
-      "Event.GameState.ReStart.PreBegin": {
-        "Tag": "Event.GameState.ReStart.PreBegin",
-        "DevComment": "游戏状态-重新开始阶段开始前"
-      },
-      "Event.GameState.ReStart.Begun": {
-        "Tag": "Event.GameState.ReStart.Begun",
-        "DevComment": "游戏状态-重新开始阶段开始后"
-      },
-      "Event.GameState.ReStart.PreEnd": {
-        "Tag": "Event.GameState.ReStart.PreEnd",
-        "DevComment": "游戏状态-重新开始阶段结束前"
-      },
-      "Event.GameState.ReStart.Ended": {
-        "Tag": "Event.GameState.ReStart.Ended",
-        "DevComment": "游戏状态-重新开始阶段结束后"
-      },
-      "Event.GameState.Prepare.PreBegin": {
-        "Tag": "Event.GameState.Prepare.PreBegin",
-        "DevComment": "游戏状态-角色准备阶段开始前"
-      },
-      "Event.GameState.Prepare.Begun": {
-        "Tag": "Event.GameState.Prepare.Begun",
-        "DevComment": "游戏状态-角色准备阶段开始后"
-      },
-      "Event.GameState.Prepare.PreEnd": {
-        "Tag": "Event.GameState.Prepare.PreEnd",
-        "DevComment": "游戏状态-角色准备阶段结束前"
-      },
-      "Event.GameState.Prepare.Ended": {
-        "Tag": "Event.GameState.Prepare.Ended",
-        "DevComment": "游戏状态-角色准备阶段结束后"
-      },
-      "Event.GameState.Warmup.PreBegin": {
-        "Tag": "Event.GameState.Warmup.PreBegin",
-        "DevComment": "游戏状态-热身阶段开始前"
-      },
-      "Event.GameState.Warmup.Begun": {
-        "Tag": "Event.GameState.Warmup.Begun",
-        "DevComment": "游戏状态-热身阶段开始后"
-      },
-      "Event.GameState.Warmup.PreEnd": {
-        "Tag": "Event.GameState.Warmup.PreEnd",
-        "DevComment": "游戏状态-热身阶段结束前"
-      },
-      "Event.GameState.Warmup.Ended": {
-        "Tag": "Event.GameState.Warmup.Ended",
-        "DevComment": "游戏状态-热身阶段结束后"
-      },
-      "Event.GameState.Fight.PreBegin": {
-        "Tag": "Event.GameState.Fight.PreBegin",
-        "DevComment": "游戏状态-游戏战斗阶段开始前"
-      },
-      "Event.GameState.Fight.Begun": {
-        "Tag": "Event.GameState.Fight.Begun",
-        "DevComment": "游戏状态-游戏战斗阶段开始后"
-      },
-      "Event.GameState.Fight.PreEnd": {
-        "Tag": "Event.GameState.Fight.PreEnd",
-        "DevComment": "游戏状态-游戏战斗阶段结束前"
-      },
-      "Event.GameState.Fight.Ended": {
-        "Tag": "Event.GameState.Fight.Ended",
-        "DevComment": "游戏状态-游戏战斗阶段结束后"
-      },
-      "Event.GameState.FightPlaced.PreBegin": {
-        "Tag": "Event.GameState.FightPlaced.PreBegin",
-        "DevComment": "游戏状态-埋包后的战斗阶段开始前"
-      },
-      "Event.GameState.FightPlaced.Begun": {
-        "Tag": "Event.GameState.FightPlaced.Begun",
-        "DevComment": "游戏状态-埋包后的战斗阶段开始后"
-      },
-      "Event.GameState.FightPlaced.PreEnd": {
-        "Tag": "Event.GameState.FightPlaced.PreEnd",
-        "DevComment": "游戏状态-埋包后的战斗阶段结束前"
-      },
-      "Event.GameState.FightPlaced.Ended": {
-        "Tag": "Event.GameState.FightPlaced.Ended",
-        "DevComment": "游戏状态-埋包后的战斗阶段结束后"
-      },
-      "Event.GameState.FightEnd.PreBegin": {
-        "Tag": "Event.GameState.FightEnd.PreBegin",
-        "DevComment": "游戏状态-游戏单局默认结束状态开始前"
-      },
-      "Event.GameState.FightEnd.Begun": {
-        "Tag": "Event.GameState.FightEnd.Begun",
-        "DevComment": "游戏状态-游戏单局默认结束状态开始后"
-      },
-      "Event.GameState.FightEnd.PreEnd": {
-        "Tag": "Event.GameState.FightEnd.PreEnd",
-        "DevComment": "游戏状态-游戏单局默认结束状态结束前"
-      },
-      "Event.GameState.FightEnd.Ended": {
-        "Tag": "Event.GameState.FightEnd.Ended",
-        "DevComment": "游戏状态-游戏单局默认结束状态结束后"
-      },
-      "Event.GameState.GameEnd.PreBegin": {
-        "Tag": "Event.GameState.GameEnd.PreBegin",
-        "DevComment": "游戏状态-游戏全场结束状态开始前"
-      },
-      "Event.GameState.GameEnd.Begun": {
-        "Tag": "Event.GameState.GameEnd.Begun",
-        "DevComment": "游戏状态-游戏全场结束状态开始后"
-      },
-      "Event.GameState.GameEnd.PreEnd": {
-        "Tag": "Event.GameState.GameEnd.PreEnd",
-        "DevComment": "游戏状态-游戏全场结束状态结束前"
-      },
-      "Event.GameState.GameEnd.Ended": {
-        "Tag": "Event.GameState.GameEnd.Ended",
-        "DevComment": "游戏状态-游戏全场结束状态结束后"
-      },
-      "Event.Skill.Aika.X.OnDetected": {
-        "Tag": "Event.Skill.Aika.X.OnDetected",
-        "DevComment": "艾卡的X技能检测到敌人"
-      },
-      "Event.Summon.Destroy.Flavia.Q": {
-        "Tag": "Event.Summon.Destroy.Flavia.Q",
-        "DevComment": "芙拉薇娅Q召唤物摧毁"
-      },
-      "Event.Summon.Spawn.Fragrans.Q": {
-        "Tag": "Event.Summon.Spawn.Fragrans.Q",
-        "DevComment": "珐格兰丝Q技能召唤物出生"
-      },
-      "Event.Summon.Destroy.Fragrans.Q": {
-        "Tag": "Event.Summon.Destroy.Fragrans.Q",
-        "DevComment": "珐格兰丝Q技能召唤物销毁"
-      },
-      "Event.Summon.Spawn.Fragrans.X": {
-        "Tag": "Event.Summon.Spawn.Fragrans.X",
-        "DevComment": "珐格兰丝X技能召唤物出生"
-      },
-      "Event.Summon.Destroy.Fragrans.X": {
-        "Tag": "Event.Summon.Destroy.Fragrans.X",
-        "DevComment": "珐格兰丝X技能召唤物销毁"
-      },
-      "Event.GameMode.RestartPlayer.Before": {
-        "Tag": "Event.GameMode.RestartPlayer.Before",
-        "DevComment": "角色重生之前(服务器)"
-      },
-      "Event.GameMode.RestartPlayer.After": {
-        "Tag": "Event.GameMode.RestartPlayer.After",
-        "DevComment": "角色重生之后(服务器)"
-      },
-      "Event.GameMode.HandleTeamWin": {
-        "Tag": "Event.GameMode.HandleTeamWin",
-        "DevComment": "回合胜负结果"
-      },
-      "Event.GameMode.AfterDeath": {
-        "Tag": "Event.GameMode.AfterDeath",
-        "DevComment": "角色死亡"
-      },
-      "Event.GameMode.HandleCharacterDeath": {
-        "Tag": "Event.GameMode.HandleCharacterDeath",
-        "DevComment": "GameMode处理角色死亡"
-      },
-      "Event.Protector.OnDamageProtected": {
-        "Tag": "Event.Protector.OnDamageProtected",
-        "DevComment": "伤害保护事件"
-      },
-      "Event.Protector.OnDeathProtected": {
-        "Tag": "Event.Protector.OnDeathProtected",
-        "DevComment": "死亡保护事件"
-      },
-      "Event.Pickup.LuckyCoin": {
-        "Tag": "Event.Pickup.LuckyCoin",
-        "DevComment": "捡起许愿币"
-      },
-      "Event.Atom.SetSuddenDeathTimeLeft": {
-        "Tag": "Event.Atom.SetSuddenDeathTimeLeft",
-        "DevComment": "突然死亡阶段剩余时间控制原子"
-      },
-      "Event.Summon.Spawn.CrystalloidAlpha.X": {
-        "Tag": "Event.Summon.Spawn.CrystalloidAlpha.X",
-        "DevComment": "大鬼X技能召唤物出生"
-      },
-      "Event.Summon.Destroy.CrystalloidAlpha.X": {
-        "Tag": "Event.Summon.Destroy.CrystalloidAlpha.X",
-        "DevComment": "大鬼X技能召唤物销毁"
-      },
-      "Event.Game.TeamAliveNumChanged": {
-        "Tag": "Event.Game.TeamAliveNumChanged",
-        "DevComment": "玩家队伍存活玩家数量变化通知"
-      },
-      "Event.Game.CStateChanged": {
-        "Tag": "Event.Game.CStateChanged",
-        "DevComment": "CMachine状态变换通知"
-      },
-      "Event.Accumulator.Rafa.P": {
-        "Tag": "Event.Accumulator.Rafa.P",
-        "DevComment": "拉法被动伤害累计触发事件"
-      },
-      "Event.PlayerDeath.Rafa.P": {
-        "Tag": "Event.PlayerDeath.Rafa.P",
-        "DevComment": "拉法被动监听玩家死亡事件"
-      },
-      "Event.Summon.Spawn.Hero1.Q": {
-        "Tag": "Event.Summon.Spawn.Hero1.Q",
-        "DevComment": "人类英雄1 Q技能召唤物出生"
-      },
-      "Event.Summon.Destroy.Hero1.Q": {
-        "Tag": "Event.Summon.Destroy.Hero1.Q",
-        "DevComment": "人类英雄1 Q技能召唤物销毁"
-      },
-      "Event.Summon.Spawn.Hero2.Q": {
-        "Tag": "Event.Summon.Spawn.Hero2.Q",
-        "DevComment": "人类英雄2 Q技能召唤物出生"
-      },
-      "Event.Summon.Destroy.Hero2.Q": {
-        "Tag": "Event.Summon.Destroy.Hero2.Q",
-        "DevComment": "人类英雄2 Q技能召唤物销毁"
-      },
-      "Event.GameState.MonitorWaveTimer.TimeLeft.First": {
-        "Tag": "Event.GameState.MonitorWaveTimer.TimeLeft.First",
-        "DevComment": "GS波次计时器1剩余时间变化事件"
-      },
-      "Event.GameState.MonitorWaveTimer.TimeLeft.Second": {
-        "Tag": "Event.GameState.MonitorWaveTimer.TimeLeft.Second",
-        "DevComment": "GS波次计时器2剩余时间变化事件"
-      },
-      "Event.GameState.MonitorWaveTimer.TimeLeft.Third": {
-        "Tag": "Event.GameState.MonitorWaveTimer.TimeLeft.Third",
-        "DevComment": "GS波次计时器3剩余时间变化事件"
-      },
-      "Event.ExpLevel.LevelChanged.Player.Zombie": {
-        "Tag": "Event.ExpLevel.LevelChanged.Player.Zombie",
-        "DevComment": "僵尸角色等级变化"
-      },
-      "Event.ExpLevel.ExpChanged.Player.Zombie": {
-        "Tag": "Event.ExpLevel.ExpChanged.Player.Zombie",
-        "DevComment": "僵尸角色经验变化"
-      },
-      "Event.Summon.Spawn.CrystalloidBeta1.E.Projectile": {
-        "Tag": "Event.Summon.Spawn.CrystalloidBeta1.E.Projectile",
-        "DevComment": "进化型boss E技能子弹出生"
-      },
-      "Event.Summon.Destroy.CrystalloidBeta1.E.Projectile": {
-        "Tag": "Event.Summon.Destroy.CrystalloidBeta1.E.Projectile",
-        "DevComment": "进化型boss E技能子弹销毁"
-      },
-      "Event.Summon.Spawn.Maddelena.Q": {
-        "Tag": "Event.Summon.Spawn.Maddelena.Q",
-        "DevComment": "玛德蕾娜 Q技能召唤物生成"
-      },
-      "Event.Summon.Destroy.Maddelena.Q": {
-        "Tag": "Event.Summon.Destroy.Maddelena.Q",
-        "DevComment": "玛德蕾娜 Q技能召唤物销毁"
-      },
-      "Event.Summon.Spawn.Maddelena.X": {
-        "Tag": "Event.Summon.Spawn.Maddelena.X",
-        "DevComment": "玛德蕾娜 X技能召唤物生成"
-      },
-      "Event.Summon.Destroy.Maddelena.X": {
-        "Tag": "Event.Summon.Destroy.Maddelena.X",
-        "DevComment": "玛德蕾娜 X技能召唤物销毁"
-      },
-      "Event.RecoveryExtraArmor": {
-        "Tag": "Event.RecoveryExtraArmor",
-        "DevComment": "恢复临时护甲"
-      },
-      "Event.RecoveryExtraArmor.PlayerSkill.X": {
-        "Tag": "Event.RecoveryExtraArmor.PlayerSkill.X",
-        "DevComment": "使用终极技能恢复临时护甲"
-      }
+    "Event.Consume.Primary": {
+      "Tag": "Event.Consume.Primary",
+      "DevComment": "消耗主武器子弹"
+    },
+    "Event.Consume.Secondary": {
+      "Tag": "Event.Consume.Secondary",
+      "DevComment": "消耗副武器子弹"
+    },
+    "Event.Consume.Skill.Q": {
+      "Tag": "Event.Consume.Skill.Q",
+      "DevComment": "消耗技能Q"
+    },
+    "Event.Consume.Skill.E": {
+      "Tag": "Event.Consume.Skill.E",
+      "DevComment": "消耗技能E"
+    },
+    "Event.Consume.Skill.X": {
+      "Tag": "Event.Consume.Skill.X",
+      "DevComment": "消耗技能X"
+    },
+    "Event.MagazineEmpty.Primary": {
+      "Tag": "Event.MagazineEmpty.Primary",
+      "DevComment": "消耗主武器子弹"
+    },
+    "Event.MagazineEmpty.Secondary": {
+      "Tag": "Event.MagazineEmpty.Secondary",
+      "DevComment": "消耗副武器子弹"
+    },
+    "Event.MagazineEmpty.Grenade.One": {
+      "Tag": "Event.MagazineEmpty.Grenade.One",
+      "DevComment": "消耗投掷物1"
+    },
+    "Event.MagazineEmpty.Grenade.Two": {
+      "Tag": "Event.MagazineEmpty.Grenade.Two",
+      "DevComment": "消耗投掷物2"
+    },
+    "Event.MagazineEmpty.Skill.Q": {
+      "Tag": "Event.MagazineEmpty.Skill.Q",
+      "DevComment": "消耗技能Q为空"
+    },
+    "Event.MagazineEmpty.Skill.E": {
+      "Tag": "Event.MagazineEmpty.Skill.E",
+      "DevComment": "消耗技能E为空"
+    },
+    "Event.MagazineEmpty.Skill.X": {
+      "Tag": "Event.MagazineEmpty.Skill.X",
+      "DevComment": "消耗技能X为空"
+    },
+    "Event.Action.Pre.UsePrimaryWeapon": {
+      "Tag": "Event.Action.Pre.UsePrimaryWeapon",
+      "DevComment": "准备切换主武器"
+    },
+    "Event.Action.Jump.First": {
+      "Tag": "Event.Action.Jump.First",
+      "DevComment": "一段跳跃"
+    },
+    "Event.Action.Jump.Second": {
+      "Tag": "Event.Action.Jump.Second",
+      "DevComment": "二段跳跃"
+    },
+    "Event.Action.Landed": {
+      "Tag": "Event.Action.Landed",
+      "DevComment": "落地"
+    },
+    "Event.Action.Pre.Jump": {
+      "Tag": "Event.Action.Pre.Jump",
+      "DevComment": "准备进入跳跃"
+    },
+    "Event.Action.Pre.Side": {
+      "Tag": "Event.Action.Pre.Side",
+      "DevComment": "准备进入侧身"
+    },
+    "Event.Action.Pre.Fly": {
+      "Tag": "Event.Action.Pre.Fly",
+      "DevComment": "准备进入飘飞"
+    },
+    "Event.Action.Pre.Wall": {
+      "Tag": "Event.Action.Pre.Wall",
+      "DevComment": "准备进入贴墙"
+    },
+    "Event.Action.ImpactWall": {
+      "Tag": "Event.Action.ImpactWall",
+      "DevComment": "角色撞墙"
+    },
+    "Event.HitActor.Weapon.Primary": {
+      "Tag": "Event.HitActor.Weapon.Primary",
+      "DevComment": "主武器子弹落点"
+    },
+    "Event.Action.WeaponSwitched": {
+      "Tag": "Event.Action.WeaponSwitched",
+      "DevComment": "武器切换了"
+    },
+    "Event.Action.WeaponSwitched.Primary": {
+      "Tag": "Event.Action.WeaponSwitched.Primary",
+      "DevComment": "武器切换到主武器"
+    },
+    "Event.Action.WeaponSwitched.Secondary": {
+      "Tag": "Event.Action.WeaponSwitched.Secondary",
+      "DevComment": "武器切换到副武器"
+    },
+    "Event.Action.WeaponSwitched.Grenade": {
+      "Tag": "Event.Action.WeaponSwitched.Grenade",
+      "DevComment": "武器切换到投掷物"
+    },
+    "Event.Action.WeaponSwitched.Grenade.One": {
+      "Tag": "Event.Action.WeaponSwitched.Grenade.One",
+      "DevComment": "武器切换到投掷物1"
+    },
+    "Event.Action.WeaponSwitched.Grenade.Two": {
+      "Tag": "Event.Action.WeaponSwitched.Grenade.Two",
+      "DevComment": "武器切换到投掷物2"
+    },
+    "Event.Action.WeaponSwitched.Skill.Q": {
+      "Tag": "Event.Action.WeaponSwitched.Skill.Q",
+      "DevComment": "武器切换到技能Q"
+    },
+    "Event.Action.WeaponSwitched.Skill.E": {
+      "Tag": "Event.Action.WeaponSwitched.Skill.E",
+      "DevComment": "武器切换到技能E"
+    },
+    "Event.Action.WeaponSwitched.Skill.X": {
+      "Tag": "Event.Action.WeaponSwitched.Skill.X",
+      "DevComment": "武器切换到技能X"
+    },
+    "Event.Action.WeaponSwitched.Grenade1": {
+      "Tag": "Event.Action.WeaponSwitched.Grenade1",
+      "DevComment": "武器切换到投掷物1"
+    },
+    "Event.Action.WeaponSwitched.Grenade2": {
+      "Tag": "Event.Action.WeaponSwitched.Grenade2",
+      "DevComment": "武器切换到投掷物2"
+    },
+    "Event.Action.HoldSwitchChanged.Start.Relaxed": {
+      "Tag": "Event.Action.HoldSwitchChanged.Start.Relaxed",
+      "DevComment": "当前武器进入Relaxed状态"
+    },
+    "Event.Action.HoldSwitchChanged.Start.Waist": {
+      "Tag": "Event.Action.HoldSwitchChanged.Start.Waist",
+      "DevComment": "当前武器进入Waist状态"
+    },
+    "Event.Action.HoldSwitchChanged.Start.Aiming": {
+      "Tag": "Event.Action.HoldSwitchChanged.Start.Aiming",
+      "DevComment": "当前武器进入Aiming状态"
+    },
+    "Event.Action.HoldSwitchChanged.Start.ADS": {
+      "Tag": "Event.Action.HoldSwitchChanged.Start.ADS",
+      "DevComment": "当前武器进入ADS状态"
+    },
+    "Event.Action.HoldSwitchChanged.Start.Custom": {
+      "Tag": "Event.Action.HoldSwitchChanged.Start.Custom",
+      "DevComment": "当前武器进入Custom状态"
+    },
+    "Event.Action.HoldSwitchChanged.End.Relaxed": {
+      "Tag": "Event.Action.HoldSwitchChanged.End.Relaxed",
+      "DevComment": "当前武器退出Relaxed状态"
+    },
+    "Event.Action.HoldSwitchChanged.End.Waist": {
+      "Tag": "Event.Action.HoldSwitchChanged.End.Waist",
+      "DevComment": "当前武器退出Waist状态"
+    },
+    "Event.Action.HoldSwitchChanged.End.Aiming": {
+      "Tag": "Event.Action.HoldSwitchChanged.End.Aiming",
+      "DevComment": "当前武器退出Aiming状态"
+    },
+    "Event.Action.HoldSwitchChanged.End.ADS": {
+      "Tag": "Event.Action.HoldSwitchChanged.End.ADS",
+      "DevComment": "当前武器退出ADS状态"
+    },
+    "Event.Action.HoldSwitchChanged.End.Custom": {
+      "Tag": "Event.Action.HoldSwitchChanged.End.Custom",
+      "DevComment": "当前武器退出Custom状态"
+    },
+    "Event.Action.Rescue.Start": {
+      "Tag": "Event.Action.Rescue.Start",
+      "DevComment": "救人开始"
+    },
+    "Event.Action.Rescue.End": {
+      "Tag": "Event.Action.Rescue.End",
+      "DevComment": "救人结束"
+    },
+    "Event.Action.Rescue.Success": {
+      "Tag": "Event.Action.Rescue.Success",
+      "DevComment": "救人成功"
+    },
+    "Event.Action.BeRescued.Start": {
+      "Tag": "Event.Action.BeRescued.Start",
+      "DevComment": "被救开始"
+    },
+    "Event.Action.BeRescued.End": {
+      "Tag": "Event.Action.BeRescued.End",
+      "DevComment": "被救结束"
+    },
+    "Event.Action.BeRescued.Success": {
+      "Tag": "Event.Action.BeRescued.Success",
+      "DevComment": "被救成功"
+    },
+    "Event.Action.Restart": {
+      "Tag": "Event.Action.Restart",
+      "DevComment": "角色重新开始(爆破新回合,团队重生)"
+    },
+    "Event.Action.SetDefaults": {
+      "Tag": "Event.Action.SetDefaults",
+      "DevComment": "角色恢复默认"
+    },
+    "Event.Action.OpenPage": {
+      "Tag": "Event.Action.OpenPage",
+      "DevComment": "打开界面"
+    },
+    "Event.State.Armor.Cleared": {
+      "Tag": "Event.State.Armor.Cleared",
+      "DevComment": "护甲清零(不一定是受到伤害清零)"
+    },
+    "Event.State.ExtraArmor.Cleared": {
+      "Tag": "Event.State.ExtraArmor.Cleared",
+      "DevComment": "额外护甲清零"
+    },
+    "Event.MeshType.Normal": {
+      "Tag": "Event.MeshType.Normal",
+      "DevComment": "切换成正常状态"
+    },
+    "Event.MeshType.2D.Wall": {
+      "Tag": "Event.MeshType.2D.Wall",
+      "DevComment": "切换成上墙状态"
+    },
+    "Event.MeshType.2D.Side": {
+      "Tag": "Event.MeshType.2D.Side",
+      "DevComment": "切换成侧身状态"
+    },
+    "Event.MeshType.2D.Fly": {
+      "Tag": "Event.MeshType.2D.Fly",
+      "DevComment": "切换成飞行状态"
+    },
+    "Event.Pickup.Energy": {
+      "Tag": "Event.Pickup.Energy",
+      "DevComment": "拾取能量"
+    },
+    "Event.Pickup.Ammo": {
+      "Tag": "Event.Pickup.Ammo",
+      "DevComment": "拾取弹药"
+    },
+    "Event.Pickup.Armor": {
+      "Tag": "Event.Pickup.Armor",
+      "DevComment": "拾取护甲"
+    },
+    "Event.Pickup.Throw": {
+      "Tag": "Event.Pickup.Throw",
+      "DevComment": "拾取投掷物"
+    },
+    "Event.Pickup.DeathDrop": {
+      "Tag": "Event.Pickup.DeathDrop",
+      "DevComment": "拾取死亡掉落物"
+    },
+    "Event.Sequence.Begin": {
+      "Tag": "Event.Sequence.Begin",
+      "DevComment": "Sequence开始"
+    },
+    "Event.Sequence.End": {
+      "Tag": "Event.Sequence.End",
+      "DevComment": "Sequence结束"
+    },
+    "Event.Skill.Fuchsia.Q.OnActive": {
+      "Tag": "Event.Skill.Fuchsia.Q.OnActive",
+      "DevComment": "菲莎面罩戴上"
+    },
+    "Event.Skill.Fuchsia.Q.OnHunting": {
+      "Tag": "Event.Skill.Fuchsia.Q.OnHunting",
+      "DevComment": "菲莎检测到敌人"
+    },
+    "Event.Skill.Lawine.Q.OnScanning": {
+      "Tag": "Event.Skill.Lawine.Q.OnScanning",
+      "DevComment": "拉薇的Q扫描到敌人"
+    },
+    "Event.Skill.Galatea.Castling.Normal": {
+      "Tag": "Event.Skill.Galatea.Castling.Normal",
+      "DevComment": "加拉蒂亚传送至正常召唤物"
+    },
+    "Event.Skill.Galatea.Castling.OnWall": {
+      "Tag": "Event.Skill.Galatea.Castling.OnWall",
+      "DevComment": "加拉蒂亚传送至墙上召唤物"
+    },
+    "Event.Summon.Spawn.KokonaShiki.Q": {
+      "Tag": "Event.Summon.Spawn.KokonaShiki.Q",
+      "DevComment": "志木心夏Q技能召唤物出生"
+    },
+    "Event.Summon.Finished.KokonaShiki.Q": {
+      "Tag": "Event.Summon.Finished.KokonaShiki.Q",
+      "DevComment": "志木心夏Q技能治疗完成"
+    },
+    "Event.Summon.Destroy.KokonaShiki.Q": {
+      "Tag": "Event.Summon.Destroy.KokonaShiki.Q",
+      "DevComment": "志木心夏Q技能召唤物销毁"
+    },
+    "Event.Summon.Spawn.Lawine.Q": {
+      "Tag": "Event.Summon.Spawn.Lawine.Q",
+      "DevComment": "拉薇Q技能召唤物出生"
+    },
+    "Event.Summon.Destroy.Lawine.Q": {
+      "Tag": "Event.Summon.Destroy.Lawine.Q",
+      "DevComment": "拉薇Q技能召唤物销毁"
+    },
+    "Event.Summon.Spawn.Lawine.X": {
+      "Tag": "Event.Summon.Spawn.Lawine.X",
+      "DevComment": "拉薇X技能召唤物出生"
+    },
+    "Event.Summon.Destroy.Lawine.X": {
+      "Tag": "Event.Summon.Destroy.Lawine.X",
+      "DevComment": "拉薇X技能召唤物销毁"
+    },
+    "Event.Summon.Spawn.Lawine.Arousal.Three": {
+      "Tag": "Event.Summon.Spawn.Lawine.Arousal.Three",
+      "DevComment": "拉薇觉醒3召唤物出生"
+    },
+    "Event.Summon.Destroy.Lawine.Arousal.Three": {
+      "Tag": "Event.Summon.Destroy.Lawine.Arousal.Three",
+      "DevComment": "拉薇觉醒3召唤物销毁"
+    },
+    "Event.Summon.Spawn.KokonaShiki.X": {
+      "Tag": "Event.Summon.Spawn.KokonaShiki.X",
+      "DevComment": "志木心夏X技能召唤物出生"
+    },
+    "Event.Summon.Destroy.KokonaShiki.X": {
+      "Tag": "Event.Summon.Destroy.KokonaShiki.X",
+      "DevComment": "志木心夏X技能召唤物销毁"
+    },
+    "Event.Summon.Spawn.Nobunaga.X": {
+      "Tag": "Event.Summon.Spawn.Nobunaga.X",
+      "DevComment": "信长X技能召唤物出生"
+    },
+    "Event.Summon.Destroy.Nobunaga.X": {
+      "Tag": "Event.Summon.Destroy.Nobunaga.X",
+      "DevComment": "信长X技能召唤物销毁"
+    },
+    "Event.Summon.Spawn.Nobunaga.Q": {
+      "Tag": "Event.Summon.Spawn.Nobunaga.Q",
+      "DevComment": "信长Q技能召唤物出生"
+    },
+    "Event.Summon.Destroy.Nobunaga.Q": {
+      "Tag": "Event.Summon.Destroy.Nobunaga.Q",
+      "DevComment": "信长Q技能召唤物销毁"
+    },
+    "Event.Summon.Recycle.Nobunaga.Q": {
+      "Tag": "Event.Summon.Recycle.Nobunaga.Q",
+      "DevComment": "信长Q技能召唤物回收"
+    },
+    "Event.Summon.Spawn.Michele.Q": {
+      "Tag": "Event.Summon.Spawn.Michele.Q",
+      "DevComment": "米雪儿Q技能召唤物出生"
+    },
+    "Event.Summon.Destroy.Michele.Q": {
+      "Tag": "Event.Summon.Destroy.Michele.Q",
+      "DevComment": "米雪儿Q技能召唤物销毁"
+    },
+    "Event.Summon.Death.Michele.Q": {
+      "Tag": "Event.Summon.Death.Michele.Q",
+      "DevComment": "米雪儿Q技能召唤物击毁"
+    },
+    "Event.Summon.Leave.Michele.Q": {
+      "Tag": "Event.Summon.Leave.Michele.Q",
+      "DevComment": "米雪儿Q技能召唤物超时"
+    },
+    "Event.Summon.Spawn.Michele.X.Neko": {
+      "Tag": "Event.Summon.Spawn.Michele.X.Neko",
+      "DevComment": "米雪儿X技能召唤物出生"
+    },
+    "Event.Summon.Destroy.Michele.X.Neko": {
+      "Tag": "Event.Summon.Destroy.Michele.X.Neko",
+      "DevComment": "米雪儿X技能召唤物销毁"
+    },
+    "Event.Summon.Death.Michele.X": {
+      "Tag": "Event.Summon.Death.Michele.X",
+      "DevComment": "米雪儿X技能召唤物击毁"
+    },
+    "Event.Summon.Leave.Michele.X": {
+      "Tag": "Event.Summon.Leave.Michele.X",
+      "DevComment": "米雪儿X技能召唤物超时"
+    },
+    "Event.Summon.Spawn.Michele.X.Projectile": {
+      "Tag": "Event.Summon.Spawn.Michele.X.Projectile",
+      "DevComment": "米雪儿大招技能子弹出生"
+    },
+    "Event.Summon.Destroy.Michele.X.Projectile": {
+      "Tag": "Event.Summon.Destroy.Michele.X.Projectile",
+      "DevComment": "米雪儿大招技能子弹销毁"
+    },
+    "Event.Summon.Spawn.Meredith.Q.Projectile": {
+      "Tag": "Event.Summon.Spawn.Meredith.Q.Projectile",
+      "DevComment": "梅瑞迪斯Q技能子弹出生"
+    },
+    "Event.Summon.Spawn.Julian.X.Nest": {
+      "Tag": "Event.Summon.Spawn.Julian.X.Nest",
+      "DevComment": "朱利安X技能召唤物出生"
+    },
+    "Event.Summon.WorkSecound.Julian.X.Nest": {
+      "Tag": "Event.Summon.WorkSecound.Julian.X.Nest",
+      "DevComment": "朱利安X技能召唤物第二工作状态"
+    },
+    "Event.Summon.Destroy.Julian.X.Nest": {
+      "Tag": "Event.Summon.Destroy.Julian.X.Nest",
+      "DevComment": "朱利安X技能召唤物销毁"
+    },
+    "Event.Summon.Spawn.Meredith.X.Sand": {
+      "Tag": "Event.Summon.Spawn.Meredith.X.Sand",
+      "DevComment": "梅瑞迪斯X技能召唤物出生"
+    },
+    "Event.Summon.Destroy.Meredith.X.Sand": {
+      "Tag": "Event.Summon.Destroy.Meredith.X.Sand",
+      "DevComment": "梅瑞迪斯X技能召唤物销毁"
+    },
+    "Event.Summon.Spawn.Meredith.X.Projectile": {
+      "Tag": "Event.Summon.Spawn.Meredith.X.Projectile",
+      "DevComment": "梅瑞迪斯大招技能子弹出生"
+    },
+    "Event.Summon.Destroy.Meredith.X.Projectile": {
+      "Tag": "Event.Summon.Destroy.Meredith.X.Projectile",
+      "DevComment": "梅瑞迪斯大招技能子弹销毁"
+    },
+    "Event.Summon.Spawn.Aika.X.Projectile": {
+      "Tag": "Event.Summon.Spawn.Aika.X.Projectile",
+      "DevComment": "艾卡大招技能子弹出生"
+    },
+    "Event.Summon.Destroy.Aika.X.Projectile": {
+      "Tag": "Event.Summon.Destroy.Aika.X.Projectile",
+      "DevComment": "艾卡大招技能子弹销毁"
+    },
+    "Event.Summon.Spawn.Aika.Q": {
+      "Tag": "Event.Summon.Spawn.Aika.Q",
+      "DevComment": "艾卡Q技能召唤物出生"
+    },
+    "Event.Summon.Destroy.Aika.Q": {
+      "Tag": "Event.Summon.Destroy.Aika.Q",
+      "DevComment": "艾卡Q技能召唤物销毁"
+    },
+    "Event.Summon.Leave.Aika.Q": {
+      "Tag": "Event.Summon.Leave.Aika.Q",
+      "DevComment": "离开艾卡Q技能召唤物"
+    },
+    "Event.Summon.Spawn.Aika.X.Enhanced.Projectile": {
+      "Tag": "Event.Summon.Spawn.Aika.X.Enhanced.Projectile",
+      "DevComment": "艾卡红怒增强版大招技能子弹出生"
+    },
+    "Event.Summon.Destroy.Aika.X.Enhanced.Projectile": {
+      "Tag": "Event.Summon.Destroy.Aika.X.Enhanced.Projectile",
+      "DevComment": "艾卡红怒增强版大招技能子弹销毁"
+    },
+    "Event.Summon.Spawn.Aika.Enhanced.Q": {
+      "Tag": "Event.Summon.Spawn.Aika.Enhanced.Q",
+      "DevComment": "艾卡红怒增强版Q技能召唤物出生"
+    },
+    "Event.Summon.Destroy.Aika.Enhanced.Q": {
+      "Tag": "Event.Summon.Destroy.Aika.Enhanced.Q",
+      "DevComment": "艾卡红怒增强版Q技能召唤物销毁"
+    },
+    "Event.Summon.Spawn.Aika.X.Summon": {
+      "Tag": "Event.Summon.Spawn.Aika.X.Summon",
+      "DevComment": "艾卡大招技能召唤物生成"
+    },
+    "Event.Summon.Destroy.Aika.X.Summon": {
+      "Tag": "Event.Summon.Destroy.Aika.X.Summon",
+      "DevComment": "艾卡大招技能召唤物销毁"
+    },
+    "Event.Summon.Spawn.Aika.X.Enhanced.Summon": {
+      "Tag": "Event.Summon.Spawn.Aika.X.Enhanced.Summon",
+      "DevComment": "艾卡红怒大招技能召唤物生成"
+    },
+    "Event.Summon.Destroy.Aika.X.Enhanced.Summon": {
+      "Tag": "Event.Summon.Destroy.Aika.X.Enhanced.Summon",
+      "DevComment": "艾卡红怒大招技能召唤物销毁"
+    },
+    "Event.Summon.Spawn.Galatea.P": {
+      "Tag": "Event.Summon.Spawn.Galatea.P",
+      "DevComment": "加拉蒂亚P技能召唤物出生"
+    },
+    "Event.Summon.Leave.Galatea.P": {
+      "Tag": "Event.Summon.Leave.Galatea.P",
+      "DevComment": "加拉蒂亚P技能召唤物超时"
+    },
+    "Event.Summon.Destroy.Galatea.P": {
+      "Tag": "Event.Summon.Destroy.Galatea.P",
+      "DevComment": "加拉蒂亚P技能召唤物销毁"
+    },
+    "Event.Summon.Death.Galatea.P": {
+      "Tag": "Event.Summon.Death.Galatea.P",
+      "DevComment": "加拉蒂亚P技能召唤物死亡"
+    },
+    "Event.Summon.TakeDamage.Galatea.P": {
+      "Tag": "Event.Summon.TakeDamage.Galatea.P",
+      "DevComment": "加拉蒂亚P技能召唤物受到伤害"
+    },
+    "Event.Summon.Spawn.Galatea.Q": {
+      "Tag": "Event.Summon.Spawn.Galatea.Q",
+      "DevComment": "加拉蒂亚Q技能召唤物出生"
+    },
+    "Event.Summon.Leave.Galatea.Q": {
+      "Tag": "Event.Summon.Leave.Galatea.Q",
+      "DevComment": "加拉蒂亚Q技能召唤物超时"
+    },
+    "Event.Summon.Destroy.Galatea.Q": {
+      "Tag": "Event.Summon.Destroy.Galatea.Q",
+      "DevComment": "加拉蒂亚Q技能召唤物销毁"
+    },
+    "Event.Summon.TakeDamage.Galatea.Q": {
+      "Tag": "Event.Summon.TakeDamage.Galatea.Q",
+      "DevComment": "加拉蒂亚Q技能召唤物受到伤害"
+    },
+    "Event.Summon.Spawn.Galatea.Q.Projectile": {
+      "Tag": "Event.Summon.Spawn.Galatea.Q.Projectile",
+      "DevComment": "加拉蒂亚Q技能发射物生成"
+    },
+    "Event.Summon.Destroy.Galatea.Q.Projectile": {
+      "Tag": "Event.Summon.Destroy.Galatea.Q.Projectile",
+      "DevComment": "加拉蒂亚Q技能发射物销毁"
+    },
+    "Event.Summon.Spawn.Huixing.Q": {
+      "Tag": "Event.Summon.Spawn.Huixing.Q",
+      "DevComment": "星绘Q技能召唤物出生"
+    },
+    "Event.Summon.Destroy.Huixing.Q": {
+      "Tag": "Event.Summon.Destroy.Huixing.Q",
+      "DevComment": "星绘Q技能召唤物销毁"
+    },
+    "Event.Summon.Spawn.Huixing.X": {
+      "Tag": "Event.Summon.Spawn.Huixing.X",
+      "DevComment": "星绘X技能召唤物出生"
+    },
+    "Event.Summon.Destroy.Huixing.X": {
+      "Tag": "Event.Summon.Destroy.Huixing.X",
+      "DevComment": "星绘X技能召唤物销毁"
+    },
+    "Event.Summon.Spawn.Yvette.Q": {
+      "Tag": "Event.Summon.Spawn.Yvette.Q",
+      "DevComment": "伊薇特Q技能召唤物出生"
+    },
+    "Event.Summon.Destroy.Yvette.Q": {
+      "Tag": "Event.Summon.Destroy.Yvette.Q",
+      "DevComment": "伊薇特Q技能召唤物销毁"
+    },
+    "Event.Summon.Spawn.Yvette.X": {
+      "Tag": "Event.Summon.Spawn.Yvette.X",
+      "DevComment": "伊薇特X技能召唤物出生"
+    },
+    "Event.Summon.Destroy.Yvette.X": {
+      "Tag": "Event.Summon.Destroy.Yvette.X",
+      "DevComment": "伊薇特X技能召唤物出生"
+    },
+    "Event.Summon.Spawn.Ming.Q.Projectile": {
+      "Tag": "Event.Summon.Spawn.Ming.Q.Projectile",
+      "DevComment": "明Q技能子弹出生"
+    },
+    "Event.Summon.Destroy.Ming.Q.Projectile": {
+      "Tag": "Event.Summon.Destroy.Ming.Q.Projectile",
+      "DevComment": "明Q技能子弹销毁"
+    },
+    "Event.Summon.Spawn.Ming.Q.Electro": {
+      "Tag": "Event.Summon.Spawn.Ming.Q.Electro",
+      "DevComment": "明Q技能区域出生"
+    },
+    "Event.Summon.Destroy.Ming.Q.Electro": {
+      "Tag": "Event.Summon.Destroy.Ming.Q.Electro",
+      "DevComment": "明Q技能区域销毁"
+    },
+    "Event.Summon.Spawn.Reiichi.Q": {
+      "Tag": "Event.Summon.Spawn.Reiichi.Q",
+      "DevComment": "令一Q技能召唤物出生"
+    },
+    "Event.Summon.Destroy.Reiichi.Q": {
+      "Tag": "Event.Summon.Destroy.Reiichi.Q",
+      "DevComment": "令一Q技能召唤物销毁"
+    },
+    "Event.Summon.Spawn.Kanami.Q.Projectile": {
+      "Tag": "Event.Summon.Spawn.Kanami.Q.Projectile",
+      "DevComment": "香奈美Q技能子弹出生"
+    },
+    "Event.Summon.Destroy.Kanami.Q.Projectile": {
+      "Tag": "Event.Summon.Destroy.Kanami.Q.Projectile",
+      "DevComment": "香奈美Q技能子弹销毁"
+    },
+    "Event.Summon.Spawn.Kanami.Q.Gramophone": {
+      "Tag": "Event.Summon.Spawn.Kanami.Q.Gramophone",
+      "DevComment": "香奈美Q技能区域出生"
+    },
+    "Event.Summon.Destroy.Kanami.Q.Gramophone": {
+      "Tag": "Event.Summon.Destroy.Kanami.Q.Gramophone",
+      "DevComment": "香奈美Q技能区域销毁"
+    },
+    "Event.Summon.Spawn.Kanami.X.Stage": {
+      "Tag": "Event.Summon.Spawn.Kanami.X.Stage",
+      "DevComment": "香奈美X技能舞台出生"
+    },
+    "Event.Summon.Destroy.Kanami.X.Stage": {
+      "Tag": "Event.Summon.Destroy.Kanami.X.Stage",
+      "DevComment": "香奈美X技能舞台销毁"
+    },
+    "Event.Summon.Spawn.MoBai.Q": {
+      "Tag": "Event.Summon.Spawn.MoBai.Q",
+      "DevComment": "白墨Q技能召唤物出生"
+    },
+    "Event.Summon.Destroy.MoBai.Q": {
+      "Tag": "Event.Summon.Destroy.MoBai.Q",
+      "DevComment": "白墨Q技能召唤物销毁"
+    },
+    "Event.Summon.Spawn.MoBai.X": {
+      "Tag": "Event.Summon.Spawn.MoBai.X",
+      "DevComment": "白墨X技能召唤物出生"
+    },
+    "Event.Summon.Destroy.Q.Audrey": {
+      "Tag": "Event.Summon.Destroy.Q.Audrey",
+      "DevComment": "奥黛丽觉醒2的召唤物销毁"
+    },
+    "Event.Summon.Destroy.MoBai.X": {
+      "Tag": "Event.Summon.Destroy.MoBai.X",
+      "DevComment": "白墨X技能召唤物销毁"
+    },
+    "Event.Summon.Spawn.SmokeGrenade": {
+      "Tag": "Event.Summon.Spawn.SmokeGrenade",
+      "DevComment": "烟雾弹召唤物出生"
+    },
+    "Event.Summon.Spawn.AlarmGrenade": {
+      "Tag": "Event.Summon.Spawn.AlarmGrenade",
+      "DevComment": "警报器召唤物出生"
+    },
+    "Event.Summon.Spawn.InterceptorGrenade": {
+      "Tag": "Event.Summon.Spawn.InterceptorGrenade",
+      "DevComment": "拦截者召唤物出生"
+    },
+    "Event.PlayerState.ClientInit": {
+      "Tag": "Event.PlayerState.ClientInit",
+      "DevComment": "PlayerState客户端初始化"
+    },
+    "Event.Action.RescueSelf.Start": {
+      "Tag": "Event.Action.RescueSelf.Start",
+      "DevComment": "自救开始"
+    },
+    "Event.Action.RescueSelf.End": {
+      "Tag": "Event.Action.RescueSelf.End",
+      "DevComment": "自救结束"
+    },
+    "Event.RoundStage.None": {
+      "Tag": "Event.RoundStage.None",
+      "DevComment": "无"
+    },
+    "Event.Action.ForceFly": {
+      "Tag": "Event.Action.ForceFly",
+      "DevComment": "强制飘飞"
+    },
+    "Event.RoundStage.Ready": {
+      "Tag": "Event.RoundStage.Ready",
+      "DevComment": "回合开始阶段"
+    },
+    "Event.RoundStage.Freeze": {
+      "Tag": "Event.RoundStage.Freeze",
+      "DevComment": "回合准备阶段"
+    },
+    "Event.RoundStage.Start": {
+      "Tag": "Event.RoundStage.Start",
+      "DevComment": "回合战斗阶段"
+    },
+    "Event.RoundStage.End": {
+      "Tag": "Event.RoundStage.End",
+      "DevComment": "回合战斗结束"
+    },
+    "Event.RoundStage.NoviceGuide": {
+      "Tag": "Event.RoundStage.NoviceGuide",
+      "DevComment": "回合新手引导"
+    },
+    "Event.Attribute.Cleared.AllArmor": {
+      "Tag": "Event.Attribute.Cleared.AllArmor",
+      "DevComment": "所有护甲清零"
+    },
+    "Event.Attribute.Cleared.ExtraArmor": {
+      "Tag": "Event.Attribute.Cleared.ExtraArmor",
+      "DevComment": "额外护甲清零"
+    },
+    "Event.Attribute.Cleared.Armor": {
+      "Tag": "Event.Attribute.Cleared.Armor",
+      "DevComment": "护甲清零"
+    },
+    "Event.Attribute.Cleared.Health": {
+      "Tag": "Event.Attribute.Cleared.Health",
+      "DevComment": "生命清零"
+    },
+    "Event.Attribute.Cleared.InjuredHealth": {
+      "Tag": "Event.Attribute.Cleared.InjuredHealth",
+      "DevComment": "重伤生命清零"
+    },
+    "Event.Attribute.Full.XPointsTransient": {
+      "Tag": "Event.Attribute.Full.XPointsTransient",
+      "DevComment": "临时大招点数满"
+    },
+    "Event.Ability.UpdateLevel.Q": {
+      "Tag": "Event.Ability.UpdateLevel.Q",
+      "DevComment": "Q技能等级变化"
+    },
+    "Event.Ability.UpdateLevel.P": {
+      "Tag": "Event.Ability.UpdateLevel.P",
+      "DevComment": "P技能等级变化"
+    },
+    "Event.Ability.UpdateLevel.X": {
+      "Tag": "Event.Ability.UpdateLevel.X",
+      "DevComment": "X技能等级变化"
+    },
+    "Event.Ability.CommitCost.Q": {
+      "Tag": "Event.Ability.CommitCost.Q",
+      "DevComment": "Q技能提交消耗"
+    },
+    "Event.Ability.CommitCost.E": {
+      "Tag": "Event.Ability.CommitCost.E",
+      "DevComment": "E技能提交消耗"
+    },
+    "Event.Ability.CommitCost.X": {
+      "Tag": "Event.Ability.CommitCost.X",
+      "DevComment": "X技能提交消耗"
+    },
+    "Event.Grenade.Projectile.Spawn.Treatment": {
+      "Tag": "Event.Grenade.Projectile.Spawn.Treatment",
+      "DevComment": "治疗雷投掷物出生"
+    },
+    "Event.Grenade.Projectile.Spawn.WindField": {
+      "Tag": "Event.Grenade.Projectile.Spawn.WindField",
+      "DevComment": "风场雷投掷物出生"
+    },
+    "Event.Grenade.Projectile.Spawn.Smoke": {
+      "Tag": "Event.Grenade.Projectile.Spawn.Smoke",
+      "DevComment": "烟雾弹投掷物物出生"
+    },
+    "Event.Grenade.Projectile.Spawn.SlowDown": {
+      "Tag": "Event.Grenade.Projectile.Spawn.SlowDown",
+      "DevComment": "减速雷投掷物出生"
+    },
+    "Event.Grenade.Projectile.Spawn.Normal": {
+      "Tag": "Event.Grenade.Projectile.Spawn.Normal",
+      "DevComment": "标准手雷投掷物出生"
+    },
+    "Event.Grenade.Projectile.Spawn.Alarm": {
+      "Tag": "Event.Grenade.Projectile.Spawn.Alarm",
+      "DevComment": "警报器投掷物出生"
+    },
+    "Event.Grenade.Projectile.Spawn.Flash": {
+      "Tag": "Event.Grenade.Projectile.Spawn.Flash",
+      "DevComment": "闪光弹投掷物出生"
+    },
+    "Event.Grenade.Projectile.Spawn.Interceptor": {
+      "Tag": "Event.Grenade.Projectile.Spawn.Interceptor",
+      "DevComment": "拦截者投掷物出生"
+    },
+    "Event.Guide.Begin": {
+      "Tag": "Event.Guide.Begin",
+      "DevComment": "引导开始"
+    },
+    "Event.Guide.Finish": {
+      "Tag": "Event.Guide.Finish",
+      "DevComment": "引导完成"
+    },
+    "Event.Guide.Failed": {
+      "Tag": "Event.Guide.Failed",
+      "DevComment": "引导失败"
+    },
+    "Event.Guide.Skip": {
+      "Tag": "Event.Guide.Skip",
+      "DevComment": "引导跳过"
+    },
+    "Event.Guide.End": {
+      "Tag": "Event.Guide.End",
+      "DevComment": "引导结束"
+    },
+    "Event.GuideTask.Begin": {
+      "Tag": "Event.GuideTask.Begin",
+      "DevComment": "引导任务开始"
+    },
+    "Event.GuideTask.Finish": {
+      "Tag": "Event.GuideTask.Finish",
+      "DevComment": "引导任务完成"
+    },
+    "Event.GuideTask.Failed": {
+      "Tag": "Event.GuideTask.Failed",
+      "DevComment": "引导任务失败"
+    },
+    "Event.GuideTask.End": {
+      "Tag": "Event.GuideTask.End",
+      "DevComment": "引导任务结束(任务完成且表现结束)"
+    },
+    "Event.GuideSubTask.Finish": {
+      "Tag": "Event.GuideSubTask.Finish",
+      "DevComment": "引导子任务完成"
+    },
+    "Event.GuideSubTask.Failed": {
+      "Tag": "Event.GuideSubTask.Failed",
+      "DevComment": "引导子任务失败"
+    },
+    "Event.GuideDialogue.Begin": {
+      "Tag": "Event.GuideDialogue.Begin",
+      "DevComment": "引导对话开始"
+    },
+    "Event.GuideDialogue.End": {
+      "Tag": "Event.GuideDialogue.End",
+      "DevComment": "引导对话结束"
+    },
+    "Event.GuideTriggerArea.BeginTask": {
+      "Tag": "Event.GuideTriggerArea.BeginTask",
+      "DevComment": "引导触发区-开始任务触发区域被触发"
+    },
+    "Event.GuideTriggerArea.EndTask": {
+      "Tag": "Event.GuideTriggerArea.EndTask",
+      "DevComment": "引导触发区-结束任务触发区域被触发"
+    },
+    "Event.GuideTriggerArea.BeginSpawnEnemy": {
+      "Tag": "Event.GuideTriggerArea.BeginSpawnEnemy",
+      "DevComment": "引导触发区-开始生成敌人触发区域被触发"
+    },
+    "Event.GuideTriggerArea.EndSpawnEnemy": {
+      "Tag": "Event.GuideTriggerArea.EndSpawnEnemy",
+      "DevComment": "引导触发区-结束生成敌人触发区域被触发"
+    },
+    "Event.GuideTriggerArea.BeginSpawnItem": {
+      "Tag": "Event.GuideTriggerArea.BeginSpawnItem",
+      "DevComment": "引导触发区-开始生成物品触发区域被触发"
+    },
+    "Event.GuideTriggerArea.EndSpawnItem": {
+      "Tag": "Event.GuideTriggerArea.EndSpawnItem",
+      "DevComment": "引导触发区-结束生成物品触发区域被触发"
+    },
+    "Event.GuideTriggerArea.GuideTips": {
+      "Tag": "Event.GuideTriggerArea.GuideTips",
+      "DevComment": "引导触发区-引导提示触发区域被触发"
+    },
+    "Event.GuideTriggerArea.Sequence": {
+      "Tag": "Event.GuideTriggerArea.Sequence",
+      "DevComment": "引导触发区-剧情提示触发区域被触发"
+    },
+    "Event.GuideTriggerArea.SkillQ": {
+      "Tag": "Event.GuideTriggerArea.SkillQ",
+      "DevComment": "引导触发区-Q技能释放触发区域被触发"
+    },
+    "Event.GuideTriggerArea.SkillX": {
+      "Tag": "Event.GuideTriggerArea.SkillX",
+      "DevComment": "引导触发区-X技能释放触发区域被触发"
+    },
+    "Event.GuideEnemyController.SpawnOne": {
+      "Tag": "Event.GuideEnemyController.SpawnOne",
+      "DevComment": "生成一个敌人"
+    },
+    "Event.GuideEnemyController.SpawnWaveAll": {
+      "Tag": "Event.GuideEnemyController.SpawnWaveAll",
+      "DevComment": "生成本波次的所有敌人"
+    },
+    "Event.GuideEnemyController.SpawnAll": {
+      "Tag": "Event.GuideEnemyController.SpawnAll",
+      "DevComment": "生成所有敌人"
+    },
+    "Event.GuideEnemyController.KillOne": {
+      "Tag": "Event.GuideEnemyController.KillOne",
+      "DevComment": "击杀一个敌人"
+    },
+    "Event.GuideEnemyController.KillWaveAll": {
+      "Tag": "Event.GuideEnemyController.KillWaveAll",
+      "DevComment": "击杀本波次的所有敌人"
+    },
+    "Event.GuideEnemyController.KillAll": {
+      "Tag": "Event.GuideEnemyController.KillAll",
+      "DevComment": "击杀所有敌人"
+    },
+    "Event.InteractTarget.Changed": {
+      "Tag": "Event.InteractTarget.Changed",
+      "DevComment": "交互目标变化了"
+    },
+    "Event.Interact.CancelInteract": {
+      "Tag": "Event.Interact.CancelInteract",
+      "DevComment": "取消交互"
+    },
+    "Event.GuideEnemy.SpawnOne": {
+      "Tag": "Event.GuideEnemy.SpawnOne",
+      "DevComment": "生成一个敌人"
+    },
+    "Event.GuideEnemy.SpawnWaveAll": {
+      "Tag": "Event.GuideEnemy.SpawnWaveAll",
+      "DevComment": "生成本波次的所有敌人"
+    },
+    "Event.GuideEnemy.SpawnAll": {
+      "Tag": "Event.GuideEnemy.SpawnAll",
+      "DevComment": "生成所有敌人"
+    },
+    "Event.GuideEnemy.KillOne": {
+      "Tag": "Event.GuideEnemy.KillOne",
+      "DevComment": "击杀一个敌人"
+    },
+    "Event.GuideEnemy.KillWaveAll": {
+      "Tag": "Event.GuideEnemy.KillWaveAll",
+      "DevComment": "击杀本波次的所有敌人"
+    },
+    "Event.GuideEnemy.KillAll": {
+      "Tag": "Event.GuideEnemy.KillAll",
+      "DevComment": "击杀所有敌人"
+    },
+    "Event.Guide.TeamGuide.FinishedTrainFlagUpload": {
+      "Tag": "Event.Guide.TeamGuide.FinishedTrainFlagUpload",
+      "DevComment": "团竞引导-完成玩家类型选择任务"
+    },
+    "Event.Task.Begin": {
+      "Tag": "Event.Task.Begin",
+      "DevComment": "任务开始"
+    },
+    "Event.Task.Finish": {
+      "Tag": "Event.Task.Finish",
+      "DevComment": "任务完成"
+    },
+    "Event.Task.Failed": {
+      "Tag": "Event.Task.Failed",
+      "DevComment": "任务失败"
+    },
+    "Event.Task.End": {
+      "Tag": "Event.Task.End",
+      "DevComment": "任务结束"
+    },
+    "Event.SubTask.Begin": {
+      "Tag": "Event.SubTask.Begin",
+      "DevComment": "子任务开始"
+    },
+    "Event.SubTask.Finish": {
+      "Tag": "Event.SubTask.Finish",
+      "DevComment": "子任务完成"
+    },
+    "Event.SubTask.Failed": {
+      "Tag": "Event.SubTask.Failed",
+      "DevComment": "子任务失败"
+    },
+    "Event.GameEnd": {
+      "Tag": "Event.GameEnd",
+      "DevComment": "整局游戏结束"
+    },
+    "Event.RoundEnd": {
+      "Tag": "Event.RoundEnd",
+      "DevComment": "回合结束"
+    },
+    "Event.GameState.RoleSelect.Begin": {
+      "Tag": "Event.GameState.RoleSelect.Begin",
+      "DevComment": "游戏状态-角色选择阶段"
+    },
+    "Event.GameState.RoleSelect.End": {
+      "Tag": "Event.GameState.RoleSelect.End",
+      "DevComment": "游戏状态-角色选择阶段"
+    },
+    "Event.GameState.RoleReselect.Begin": {
+      "Tag": "Event.GameState.RoleReselect.Begin",
+      "DevComment": "游戏状态-角色重新选择阶段"
+    },
+    "Event.GameState.RoleReselect.End": {
+      "Tag": "Event.GameState.RoleReselect.End",
+      "DevComment": "游戏状态-角色重新选择阶段"
+    },
+    "Event.GameState.RoleLoad.Begin": {
+      "Tag": "Event.GameState.RoleLoad.Begin",
+      "DevComment": "游戏状态-角色加载阶段"
+    },
+    "Event.GameState.RoleLoad.End": {
+      "Tag": "Event.GameState.RoleLoad.End",
+      "DevComment": "游戏状态-角色加载阶段"
+    },
+    "Event.GameState.ReStart.Begin": {
+      "Tag": "Event.GameState.ReStart.Begin",
+      "DevComment": "游戏状态-重新开始"
+    },
+    "Event.GameState.ReStart.End": {
+      "Tag": "Event.GameState.ReStart.End",
+      "DevComment": "游戏状态-重新开始"
+    },
+    "Event.GameState.Prepare.Begin": {
+      "Tag": "Event.GameState.Prepare.Begin",
+      "DevComment": "游戏状态-角色准备阶段"
+    },
+    "Event.GameState.Prepare.End": {
+      "Tag": "Event.GameState.Prepare.End",
+      "DevComment": "游戏状态-角色准备阶段"
+    },
+    "Event.GameState.Warmup.Begin": {
+      "Tag": "Event.GameState.Warmup.Begin",
+      "DevComment": "游戏状态-热身阶段"
+    },
+    "Event.GameState.Warmup.End": {
+      "Tag": "Event.GameState.Warmup.End",
+      "DevComment": "游戏状态-热身阶段"
+    },
+    "Event.GameState.Fight.Begin": {
+      "Tag": "Event.GameState.Fight.Begin",
+      "DevComment": "游戏状态-游戏战斗阶段"
+    },
+    "Event.GameState.Fight.End": {
+      "Tag": "Event.GameState.Fight.End",
+      "DevComment": "游戏状态-游戏战斗阶段"
+    },
+    "Event.GameState.FightPlaced.Begin": {
+      "Tag": "Event.GameState.FightPlaced.Begin",
+      "DevComment": "游戏状态-埋包后的战斗阶段"
+    },
+    "Event.GameState.FightPlaced.End": {
+      "Tag": "Event.GameState.FightPlaced.End",
+      "DevComment": "游戏状态-埋包后的战斗阶段"
+    },
+    "Event.GameState.FightEnd.Begin": {
+      "Tag": "Event.GameState.FightEnd.Begin",
+      "DevComment": "游戏状态-游戏单局默认结束"
+    },
+    "Event.GameState.FightEnd.End": {
+      "Tag": "Event.GameState.FightEnd.End",
+      "DevComment": "游戏状态-游戏单局默认结束"
+    },
+    "Event.GameState.GameEnd.Begin": {
+      "Tag": "Event.GameState.GameEnd.Begin",
+      "DevComment": "游戏状态-游戏全场结束"
+    },
+    "Event.GameState.GameEnd.End": {
+      "Tag": "Event.GameState.GameEnd.End",
+      "DevComment": "游戏状态-游戏全场结束"
+    },
+    "Event.GameState.FinalStage": {
+      "Tag": "Event.GameState.FinalStage",
+      "DevComment": "决战阶段开始-游戏战斗阶段"
+    },
+    "Event.GameState.SafeZoneBegin": {
+      "Tag": "Event.GameState.SafeZoneBegin",
+      "DevComment": "缩圈开始-游戏战斗阶段"
+    },
+    "Event.ConsumeSlot.Primary": {
+      "Tag": "Event.ConsumeSlot.Primary",
+      "DevComment": "消耗主武器子弹"
+    },
+    "Event.ConsumeSlot.Secondary": {
+      "Tag": "Event.ConsumeSlot.Secondary",
+      "DevComment": "消耗副武器子弹"
+    },
+    "Event.ConsumeSlot.Grenade1": {
+      "Tag": "Event.ConsumeSlot.Grenade1",
+      "DevComment": "消耗手雷1"
+    },
+    "Event.ConsumeSlot.Grenade2": {
+      "Tag": "Event.ConsumeSlot.Grenade2",
+      "DevComment": "消耗手雷2"
+    },
+    "Event.ConsumeSlot.SkillP": {
+      "Tag": "Event.ConsumeSlot.SkillP",
+      "DevComment": "消耗技能P的武器子弹"
+    },
+    "Event.ConsumeSlot.SkillQ": {
+      "Tag": "Event.ConsumeSlot.SkillQ",
+      "DevComment": "消耗技能Q的武器子弹"
+    },
+    "Event.ConsumeSlot.SkillE": {
+      "Tag": "Event.ConsumeSlot.SkillE",
+      "DevComment": "消耗技能E的武器子弹"
+    },
+    "Event.ConsumeSlot.SkillX": {
+      "Tag": "Event.ConsumeSlot.SkillX",
+      "DevComment": "消耗技能X的武器子弹"
+    },
+    "Event.ConsumePlayerWeapon.Primary": {
+      "Tag": "Event.ConsumePlayerWeapon.Primary",
+      "DevComment": "消耗主武器子弹"
+    },
+    "Event.ConsumePlayerWeapon.Secondary": {
+      "Tag": "Event.ConsumePlayerWeapon.Secondary",
+      "DevComment": "消耗副武器子弹"
+    },
+    "Event.ConsumePlayerWeapon.Throw": {
+      "Tag": "Event.ConsumePlayerWeapon.Throw",
+      "DevComment": "消耗投掷物"
+    },
+    "Event.ConsumePlayerWeapon.P": {
+      "Tag": "Event.ConsumePlayerWeapon.P",
+      "DevComment": "消耗技能P的武器子弹"
+    },
+    "Event.ConsumePlayerWeapon.Q": {
+      "Tag": "Event.ConsumePlayerWeapon.Q",
+      "DevComment": "消耗技能Q的武器子弹"
+    },
+    "Event.ConsumePlayerWeapon.X": {
+      "Tag": "Event.ConsumePlayerWeapon.X",
+      "DevComment": "消耗技能X的武器子弹"
+    },
+    "Event.ConsumePlayerSkill.P": {
+      "Tag": "Event.ConsumePlayerSkill.P",
+      "DevComment": "消耗技能P"
+    },
+    "Event.ConsumePlayerSkill.Q": {
+      "Tag": "Event.ConsumePlayerSkill.Q",
+      "DevComment": "消耗技能Q"
+    },
+    "Event.ConsumePlayerSkill.E": {
+      "Tag": "Event.ConsumePlayerSkill.E",
+      "DevComment": "消耗技能E"
+    },
+    "Event.ConsumePlayerSkill.X": {
+      "Tag": "Event.ConsumePlayerSkill.X",
+      "DevComment": "消耗技能X"
+    },
+    "Event.MagazineEmptySlot.Primary": {
+      "Tag": "Event.MagazineEmptySlot.Primary",
+      "DevComment": "主武器子弹消耗光"
+    },
+    "Event.MagazineEmptySlot.Secondary": {
+      "Tag": "Event.MagazineEmptySlot.Secondary",
+      "DevComment": "副武器子弹消耗光"
+    },
+    "Event.MagazineEmptySlot.Grenade1": {
+      "Tag": "Event.MagazineEmptySlot.Grenade1",
+      "DevComment": "投掷物1消耗光"
+    },
+    "Event.MagazineEmptySlot.Grenade2": {
+      "Tag": "Event.MagazineEmptySlot.Grenade2",
+      "DevComment": "投掷物2消耗光"
+    },
+    "Event.MagazineEmptySlot.SkillP": {
+      "Tag": "Event.MagazineEmptySlot.SkillP",
+      "DevComment": "技能P消耗光"
+    },
+    "Event.MagazineEmptySlot.SkillQ": {
+      "Tag": "Event.MagazineEmptySlot.SkillQ",
+      "DevComment": "技能Q消耗光"
+    },
+    "Event.MagazineEmptySlot.SkillX": {
+      "Tag": "Event.MagazineEmptySlot.SkillX",
+      "DevComment": "技能X消耗光"
+    },
+    "Event.Action.Revive.Success": {
+      "Tag": "Event.Action.Revive.Success",
+      "DevComment": "复活成功"
+    },
+    "Event.Action.BeRevive.Success": {
+      "Tag": "Event.Action.BeRevive.Success",
+      "DevComment": "被复活成功"
+    },
+    "Event.MoveDist.Normal": {
+      "Tag": "Event.MoveDist.Normal",
+      "DevComment": "3D状态移动距离变化"
+    },
+    "Event.MoveDist.Slide": {
+      "Tag": "Event.MoveDist.Slide",
+      "DevComment": "贴墙状态移动距离变化"
+    },
+    "Event.MoveDist.Sideway": {
+      "Tag": "Event.MoveDist.Sideway",
+      "DevComment": "侧身状态移动距离变化"
+    },
+    "Event.MoveDist.Glide": {
+      "Tag": "Event.MoveDist.Glide",
+      "DevComment": "飘飞状态移动距离变化"
+    },
+    "Event.Action.StopAimOrADS": {
+      "Tag": "Event.Action.StopAimOrADS",
+      "DevComment": "打断肩射开镜"
+    },
+    "Event.Action.StopFly": {
+      "Tag": "Event.Action.StopFly",
+      "DevComment": "打断飘飞"
+    },
+    "Event.Action.StopSide": {
+      "Tag": "Event.Action.StopSide",
+      "DevComment": "打断侧身"
+    },
+    "Event.Action.KeepAimOrADS": {
+      "Tag": "Event.Action.KeepAimOrADS",
+      "DevComment": "恢复长按肩射开镜"
+    },
+    "Event.Action.KeepFly": {
+      "Tag": "Event.Action.KeepFly",
+      "DevComment": "恢复长按飘飞"
+    },
+    "Event.Action.KeepSide": {
+      "Tag": "Event.Action.KeepSide",
+      "DevComment": "恢复长按侧身"
+    },
+    "Event.Action.UsePrimary": {
+      "Tag": "Event.Action.UsePrimary",
+      "DevComment": "使用武器左键"
+    },
+    "Event.Action.UseSecondary": {
+      "Tag": "Event.Action.UseSecondary",
+      "DevComment": "使用武器右键"
+    },
+    "Event.Action.WeaponSwitchedSlot.Primary": {
+      "Tag": "Event.Action.WeaponSwitchedSlot.Primary",
+      "DevComment": "武器切换到主武器"
+    },
+    "Event.Action.WeaponSwitchedSlot.Secondary": {
+      "Tag": "Event.Action.WeaponSwitchedSlot.Secondary",
+      "DevComment": "武器切换到副武器"
+    },
+    "Event.Action.WeaponSwitchedSlot.Grenade1": {
+      "Tag": "Event.Action.WeaponSwitchedSlot.Grenade1",
+      "DevComment": "武器切换到投掷物1"
+    },
+    "Event.Action.WeaponSwitchedSlot.Grenade2": {
+      "Tag": "Event.Action.WeaponSwitchedSlot.Grenade2",
+      "DevComment": "武器切换到投掷物2"
+    },
+    "Event.Action.WeaponSwitchedSlot.SkillP": {
+      "Tag": "Event.Action.WeaponSwitchedSlot.SkillP",
+      "DevComment": "武器切换到技能P"
+    },
+    "Event.Action.WeaponSwitchedSlot.SkillQ": {
+      "Tag": "Event.Action.WeaponSwitchedSlot.SkillQ",
+      "DevComment": "武器切换到技能Q"
+    },
+    "Event.Action.WeaponSwitchedSlot.SkillX": {
+      "Tag": "Event.Action.WeaponSwitchedSlot.SkillX",
+      "DevComment": "武器切换到技能X"
+    },
+    "Event.Action.WeaponAttackAfterSlot.Primary": {
+      "Tag": "Event.Action.WeaponAttackAfterSlot.Primary",
+      "DevComment": "主武器开火瞬间"
+    },
+    "Event.Action.WeaponAttackAfterSlot.Secondary": {
+      "Tag": "Event.Action.WeaponAttackAfterSlot.Secondary",
+      "DevComment": "副武器开火瞬间"
+    },
+    "Event.Action.WeaponAttackAfterSlot.Grenade": {
+      "Tag": "Event.Action.WeaponAttackAfterSlot.Grenade",
+      "DevComment": "投掷物扔出瞬间"
+    },
+    "Event.Action.WeaponStartReloadSlot.Primary": {
+      "Tag": "Event.Action.WeaponStartReloadSlot.Primary",
+      "DevComment": "主武器开始换弹"
+    },
+    "Event.Action.WeaponStartReloadSlot.Secondary": {
+      "Tag": "Event.Action.WeaponStartReloadSlot.Secondary",
+      "DevComment": "副武器开始换弹"
+    },
+    "Event.Action.WeaponFinishReloadSlot.Primary": {
+      "Tag": "Event.Action.WeaponFinishReloadSlot.Primary",
+      "DevComment": "主武器换弹成功"
+    },
+    "Event.Action.WeaponFinishReloadSlot.Secondary": {
+      "Tag": "Event.Action.WeaponFinishReloadSlot.Secondary",
+      "DevComment": "副武器换弹成功"
+    },
+    "Event.Action.WeaponFinishAttackSlot.Secondary": {
+      "Tag": "Event.Action.WeaponFinishAttackSlot.Secondary",
+      "DevComment": "副武器攻击结束(允许打断后摇时机,非武器状态结束)"
+    },
+    "Event.Action.WeaponFinishPullBoltSlot": {
+      "Tag": "Event.Action.WeaponFinishPullBoltSlot",
+      "DevComment": "武器拉栓结束瞬间"
+    },
+    "Event.Action.WeaponStartKeepFiringSlotTagData": {
+      "Tag": "Event.Action.WeaponStartKeepFiringSlotTagData",
+      "DevComment": "武器开始准备射击"
+    },
+    "Event.Action.WeaponStopKeepFiringSlotTagData": {
+      "Tag": "Event.Action.WeaponStopKeepFiringSlotTagData",
+      "DevComment": "武器终止准备射击"
+    },
+    "Event.Action.WeaponWorkEnd": {
+      "Tag": "Event.Action.WeaponWorkEnd",
+      "DevComment": "武器Work状态结束"
+    },
+    "Event.Action.Graffiti": {
+      "Tag": "Event.Action.Graffiti",
+      "DevComment": "使用喷漆"
+    },
+    "Event.Action.Action": {
+      "Tag": "Event.Action.Action",
+      "DevComment": "使用动作"
+    },
+    "Event.Action.InstallC4": {
+      "Tag": "Event.Action.InstallC4",
+      "DevComment": "安装C4"
+    },
+    "Event.Action.RemoveC4": {
+      "Tag": "Event.Action.RemoveC4",
+      "DevComment": "拆除C4"
+    },
+    "Event.Action.GrowthUpgrade": {
+      "Tag": "Event.Action.GrowthUpgrade",
+      "DevComment": "局内成长升级"
+    },
+    "Event.Action.Mini": {
+      "Tag": "Event.Action.Mini",
+      "DevComment": "挖矿"
+    },
+    "Event.Action.DeliveryMineral": {
+      "Tag": "Event.Action.DeliveryMineral",
+      "DevComment": "交付矿物"
+    },
+    "Event.Action.RetrieveMineral": {
+      "Tag": "Event.Action.RetrieveMineral",
+      "DevComment": "回收矿物"
+    },
+    "Event.Action.StealMineral": {
+      "Tag": "Event.Action.StealMineral",
+      "DevComment": "偷取矿物"
+    },
+    "Event.PerspectiveSlot.SKillP": {
+      "Tag": "Event.PerspectiveSlot.SKillP",
+      "DevComment": "被动技能透视到敌人"
+    },
+    "Event.PerspectiveSlot.SKillQ": {
+      "Tag": "Event.PerspectiveSlot.SKillQ",
+      "DevComment": "主动技能透视到敌人"
+    },
+    "Event.PerspectiveSlot.SKillX": {
+      "Tag": "Event.PerspectiveSlot.SKillX",
+      "DevComment": "终极技能透视到敌人"
+    },
+    "Event.BePerspectiveSlot.SKillP": {
+      "Tag": "Event.BePerspectiveSlot.SKillP",
+      "DevComment": "被敌人被动技能透视到"
+    },
+    "Event.BePerspectiveSlot.SKillQ": {
+      "Tag": "Event.BePerspectiveSlot.SKillQ",
+      "DevComment": "被敌人主动技能透视到"
+    },
+    "Event.BePerspectiveSlot.SKillX": {
+      "Tag": "Event.BePerspectiveSlot.SKillX",
+      "DevComment": "被敌人终极技能透视到"
+    },
+    "Event.CauseDamage": {
+      "Tag": "Event.CauseDamage",
+      "DevComment": "造成伤害"
+    },
+    "Event.CauseDamage.PlayerWeapon": {
+      "Tag": "Event.CauseDamage.PlayerWeapon",
+      "DevComment": "武器造成伤害"
+    },
+    "Event.CauseDamage.PlayerWeapon.Primary": {
+      "Tag": "Event.CauseDamage.PlayerWeapon.Primary",
+      "DevComment": "主武器造成伤害"
+    },
+    "Event.CauseDamage.PlayerWeapon.Secondary": {
+      "Tag": "Event.CauseDamage.PlayerWeapon.Secondary",
+      "DevComment": "副武器造成伤害"
+    },
+    "Event.CauseDamage.PlayerWeapon.Throw": {
+      "Tag": "Event.CauseDamage.PlayerWeapon.Throw",
+      "DevComment": "投掷武器造成伤害"
+    },
+    "Event.CauseDamage.PlayerWeapon.C4": {
+      "Tag": "Event.CauseDamage.PlayerWeapon.C4",
+      "DevComment": "炸弹造成伤害"
+    },
+    "Event.CauseDamage.PlayerSkill": {
+      "Tag": "Event.CauseDamage.PlayerSkill",
+      "DevComment": "技能造成伤害"
+    },
+    "Event.CauseDamage.PlayerSkill.P": {
+      "Tag": "Event.CauseDamage.PlayerSkill.P",
+      "DevComment": "被动技能造成伤害"
+    },
+    "Event.CauseDamage.PlayerSkill.Q": {
+      "Tag": "Event.CauseDamage.PlayerSkill.Q",
+      "DevComment": "主动技能造成伤害"
+    },
+    "Event.CauseDamage.PlayerSkill.Q.Main": {
+      "Tag": "Event.CauseDamage.PlayerSkill.Q.Main",
+      "DevComment": "主动技能造成伤害(主要)"
+    },
+    "Event.CauseDamage.PlayerSkill.Q.Secondary": {
+      "Tag": "Event.CauseDamage.PlayerSkill.Q.Secondary",
+      "DevComment": "主动技能造成伤害(次要)"
+    },
+    "Event.CauseDamage.PlayerSkill.X": {
+      "Tag": "Event.CauseDamage.PlayerSkill.X",
+      "DevComment": "大招技能造成伤害"
+    },
+    "Event.CauseDamage.System": {
+      "Tag": "Event.CauseDamage.System",
+      "DevComment": "系统造成伤害"
+    },
+    "Event.CauseDamage.System.Fall": {
+      "Tag": "Event.CauseDamage.System.Fall",
+      "DevComment": "掉落造成伤害"
+    },
+    "Event.CauseDamage.System.DangerZone": {
+      "Tag": "Event.CauseDamage.System.DangerZone",
+      "DevComment": "危险区造成伤害"
+    },
+    "Event.CauseDamage.System.DeathZone": {
+      "Tag": "Event.CauseDamage.System.DeathZone",
+      "DevComment": "死亡区造成伤害"
+    },
+    "Event.CauseDamageByWeapon": {
+      "Tag": "Event.CauseDamageByWeapon",
+      "DevComment": "武器造成伤害"
+    },
+    "Event.CauseDamageByWeapon.Gun": {
+      "Tag": "Event.CauseDamageByWeapon.Gun",
+      "DevComment": "枪械武器造成伤害"
+    },
+    "Event.CauseDamageByWeapon.Gun.SR": {
+      "Tag": "Event.CauseDamageByWeapon.Gun.SR",
+      "DevComment": "狙击枪造成伤害"
+    },
+    "Event.CauseDamageByWeapon.Gun.AR": {
+      "Tag": "Event.CauseDamageByWeapon.Gun.AR",
+      "DevComment": "步枪造成伤害"
+    },
+    "Event.CauseDamageByWeapon.Gun.SMG": {
+      "Tag": "Event.CauseDamageByWeapon.Gun.SMG",
+      "DevComment": "冲锋枪造成伤害"
+    },
+    "Event.CauseDamageByWeapon.Gun.SG": {
+      "Tag": "Event.CauseDamageByWeapon.Gun.SG",
+      "DevComment": "喷子造成伤害"
+    },
+    "Event.CauseDamageByWeapon.Gun.PT": {
+      "Tag": "Event.CauseDamageByWeapon.Gun.PT",
+      "DevComment": "手枪造成伤害"
+    },
+    "Event.CauseDamageByWeapon.Gun.LMG": {
+      "Tag": "Event.CauseDamageByWeapon.Gun.LMG",
+      "DevComment": "轻机枪造成伤害"
+    },
+    "Event.CauseDamageByWeapon.Gun.Ejector": {
+      "Tag": "Event.CauseDamageByWeapon.Gun.Ejector",
+      "DevComment": "喷射器造成伤害"
+    },
+    "Event.CauseDamageByWeapon.Melee": {
+      "Tag": "Event.CauseDamageByWeapon.Melee",
+      "DevComment": "近战武器造成伤害"
+    },
+    "Event.CauseDamageByWeapon.Melee.Blade": {
+      "Tag": "Event.CauseDamageByWeapon.Melee.Blade",
+      "DevComment": "刀击造成伤害"
+    },
+    "Event.CauseDamageByWeapon.Melee.Knife": {
+      "Tag": "Event.CauseDamageByWeapon.Melee.Knife",
+      "DevComment": "小刀造成伤害"
+    },
+    "Event.CauseDamageByWeapon.Melee.Fist": {
+      "Tag": "Event.CauseDamageByWeapon.Melee.Fist",
+      "DevComment": "拳头造成伤害"
+    },
+    "Event.CauseDamageByWeapon.Throw": {
+      "Tag": "Event.CauseDamageByWeapon.Throw",
+      "DevComment": "投掷物造成伤害"
+    },
+    "Event.CauseDamageByWeapon.Launcher": {
+      "Tag": "Event.CauseDamageByWeapon.Launcher",
+      "DevComment": "释放器造成伤害"
+    },
+    "Event.CauseDamageByWeapon.Device": {
+      "Tag": "Event.CauseDamageByWeapon.Device",
+      "DevComment": "装置造成伤害"
+    },
+    "Event.CauseDamageByWeapon.Tool": {
+      "Tag": "Event.CauseDamageByWeapon.Tool",
+      "DevComment": "工具造成伤害"
+    },
+    "Event.TakeDamage": {
+      "Tag": "Event.TakeDamage",
+      "DevComment": "受到伤害"
+    },
+    "Event.TakeDamage.PlayerWeapon": {
+      "Tag": "Event.TakeDamage.PlayerWeapon",
+      "DevComment": "受到武器造成伤害"
+    },
+    "Event.TakeDamage.PlayerWeapon.Primary": {
+      "Tag": "Event.TakeDamage.PlayerWeapon.Primary",
+      "DevComment": "受到主武器造成伤害"
+    },
+    "Event.TakeDamage.PlayerWeapon.Secondary": {
+      "Tag": "Event.TakeDamage.PlayerWeapon.Secondary",
+      "DevComment": "受到副武器造成伤害"
+    },
+    "Event.TakeDamage.PlayerWeapon.Throw": {
+      "Tag": "Event.TakeDamage.PlayerWeapon.Throw",
+      "DevComment": "受到投掷武器造成伤害"
+    },
+    "Event.TakeDamage.PlayerWeapon.C4": {
+      "Tag": "Event.TakeDamage.PlayerWeapon.C4",
+      "DevComment": "受到炸弹造成伤害"
+    },
+    "Event.TakeDamage.PlayerSkill": {
+      "Tag": "Event.TakeDamage.PlayerSkill",
+      "DevComment": "受到技能造成伤害"
+    },
+    "Event.TakeDamage.PlayerSkill.P": {
+      "Tag": "Event.TakeDamage.PlayerSkill.P",
+      "DevComment": "受到被动技能造成伤害"
+    },
+    "Event.TakeDamage.PlayerSkill.Q": {
+      "Tag": "Event.TakeDamage.PlayerSkill.Q",
+      "DevComment": "受到主动技能造成伤害"
+    },
+    "Event.TakeDamage.PlayerSkill.X": {
+      "Tag": "Event.TakeDamage.PlayerSkill.X",
+      "DevComment": "受到大招技能造成伤害"
+    },
+    "Event.TakeDamage.System": {
+      "Tag": "Event.TakeDamage.System",
+      "DevComment": "受到系统造成伤害"
+    },
+    "Event.TakeDamage.System.Fall": {
+      "Tag": "Event.TakeDamage.System.Fall",
+      "DevComment": "受到掉落造成伤害"
+    },
+    "Event.TakeDamage.System.DangerZone": {
+      "Tag": "Event.TakeDamage.System.DangerZone",
+      "DevComment": "受到危险区造成伤害"
+    },
+    "Event.TakeDamage.System.DeathZone": {
+      "Tag": "Event.TakeDamage.System.DeathZone",
+      "DevComment": "受到死亡区造成伤害"
+    },
+    "Event.TakeDamageByWeapon": {
+      "Tag": "Event.TakeDamageByWeapon",
+      "DevComment": "受到武器造成伤害"
+    },
+    "Event.TakeDamageByWeapon.Gun": {
+      "Tag": "Event.TakeDamageByWeapon.Gun",
+      "DevComment": "受到枪械武器造成伤害"
+    },
+    "Event.TakeDamageByWeapon.Gun.SR": {
+      "Tag": "Event.TakeDamageByWeapon.Gun.SR",
+      "DevComment": "受到狙击枪造成伤害"
+    },
+    "Event.TakeDamageByWeapon.Gun.AR": {
+      "Tag": "Event.TakeDamageByWeapon.Gun.AR",
+      "DevComment": "受到步枪造成伤害"
+    },
+    "Event.TakeDamageByWeapon.Gun.SMG": {
+      "Tag": "Event.TakeDamageByWeapon.Gun.SMG",
+      "DevComment": "受到冲锋枪造成伤害"
+    },
+    "Event.TakeDamageByWeapon.Gun.SG": {
+      "Tag": "Event.TakeDamageByWeapon.Gun.SG",
+      "DevComment": "受到喷子造成伤害"
+    },
+    "Event.TakeDamageByWeapon.Gun.PT": {
+      "Tag": "Event.TakeDamageByWeapon.Gun.PT",
+      "DevComment": "受到手枪造成伤害"
+    },
+    "Event.TakeDamageByWeapon.Gun.LMG": {
+      "Tag": "Event.TakeDamageByWeapon.Gun.LMG",
+      "DevComment": "受到轻机枪造成伤害"
+    },
+    "Event.TakeDamageByWeapon.Gun.Ejector": {
+      "Tag": "Event.TakeDamageByWeapon.Gun.Ejector",
+      "DevComment": "受到喷射器造成伤害"
+    },
+    "Event.TakeDamageByWeapon.Melee": {
+      "Tag": "Event.TakeDamageByWeapon.Melee",
+      "DevComment": "受到近战武器造成伤害"
+    },
+    "Event.TakeDamageByWeapon.Melee.Blade": {
+      "Tag": "Event.TakeDamageByWeapon.Melee.Blade",
+      "DevComment": "受到刀击造成伤害"
+    },
+    "Event.TakeDamageByWeapon.Melee.Knife": {
+      "Tag": "Event.TakeDamageByWeapon.Melee.Knife",
+      "DevComment": "受到小刀造成伤害"
+    },
+    "Event.TakeDamageByWeapon.Melee.Fist": {
+      "Tag": "Event.TakeDamageByWeapon.Melee.Fist",
+      "DevComment": "受到拳头造成伤害"
+    },
+    "Event.TakeDamageByWeapon.Throw": {
+      "Tag": "Event.TakeDamageByWeapon.Throw",
+      "DevComment": "受到投掷物造成伤害"
+    },
+    "Event.TakeDamageByWeapon.Launcher": {
+      "Tag": "Event.TakeDamageByWeapon.Launcher",
+      "DevComment": "受到释放器造成伤害"
+    },
+    "Event.TakeDamageByWeapon.Device": {
+      "Tag": "Event.TakeDamageByWeapon.Device",
+      "DevComment": "受到装置造成伤害"
+    },
+    "Event.TakeDamageByWeapon.Tool": {
+      "Tag": "Event.TakeDamageByWeapon.Tool",
+      "DevComment": "受到工具造成伤害"
+    },
+    "Event.CauseInjured": {
+      "Tag": "Event.CauseInjured",
+      "DevComment": "造成重伤倒地"
+    },
+    "Event.CauseInjured.PlayerWeapon": {
+      "Tag": "Event.CauseInjured.PlayerWeapon",
+      "DevComment": "武器造成重伤倒地"
+    },
+    "Event.CauseInjured.PlayerWeapon.Primary": {
+      "Tag": "Event.CauseInjured.PlayerWeapon.Primary",
+      "DevComment": "主武器造成重伤倒地"
+    },
+    "Event.CauseInjured.PlayerWeapon.Secondary": {
+      "Tag": "Event.CauseInjured.PlayerWeapon.Secondary",
+      "DevComment": "副武器造成重伤倒地"
+    },
+    "Event.CauseInjured.PlayerWeapon.Throw": {
+      "Tag": "Event.CauseInjured.PlayerWeapon.Throw",
+      "DevComment": "投掷武器造成重伤倒地"
+    },
+    "Event.CauseInjured.PlayerWeapon.C4": {
+      "Tag": "Event.CauseInjured.PlayerWeapon.C4",
+      "DevComment": "炸弹造成重伤倒地"
+    },
+    "Event.CauseInjured.PlayerSkill": {
+      "Tag": "Event.CauseInjured.PlayerSkill",
+      "DevComment": "技能造成重伤倒地"
+    },
+    "Event.CauseInjured.PlayerSkill.P": {
+      "Tag": "Event.CauseInjured.PlayerSkill.P",
+      "DevComment": "被动技能造成重伤倒地"
+    },
+    "Event.CauseInjured.PlayerSkill.Q": {
+      "Tag": "Event.CauseInjured.PlayerSkill.Q",
+      "DevComment": "主动技能造成重伤倒地"
+    },
+    "Event.CauseInjured.PlayerSkill.X": {
+      "Tag": "Event.CauseInjured.PlayerSkill.X",
+      "DevComment": "大招技能造成重伤倒地"
+    },
+    "Event.CauseInjured.System": {
+      "Tag": "Event.CauseInjured.System",
+      "DevComment": "系统造成重伤倒地"
+    },
+    "Event.CauseInjured.System.Fall": {
+      "Tag": "Event.CauseInjured.System.Fall",
+      "DevComment": "掉落造成重伤倒地"
+    },
+    "Event.CauseInjured.System.DangerZone": {
+      "Tag": "Event.CauseInjured.System.DangerZone",
+      "DevComment": "危险区造成重伤倒地"
+    },
+    "Event.CauseInjured.System.DeathZone": {
+      "Tag": "Event.CauseInjured.System.DeathZone",
+      "DevComment": "死亡区造成重伤倒地"
+    },
+    "Event.CauseInjuredByWeapon": {
+      "Tag": "Event.CauseInjuredByWeapon",
+      "DevComment": "武器造成重伤倒地"
+    },
+    "Event.CauseInjuredByWeapon.Gun": {
+      "Tag": "Event.CauseInjuredByWeapon.Gun",
+      "DevComment": "枪械武器造成重伤倒地"
+    },
+    "Event.CauseInjuredByWeapon.Gun.SR": {
+      "Tag": "Event.CauseInjuredByWeapon.Gun.SR",
+      "DevComment": "狙击枪造成重伤倒地"
+    },
+    "Event.CauseInjuredByWeapon.Gun.AR": {
+      "Tag": "Event.CauseInjuredByWeapon.Gun.AR",
+      "DevComment": "步枪造成重伤倒地"
+    },
+    "Event.CauseInjuredByWeapon.Gun.SMG": {
+      "Tag": "Event.CauseInjuredByWeapon.Gun.SMG",
+      "DevComment": "冲锋枪造成重伤倒地"
+    },
+    "Event.CauseInjuredByWeapon.Gun.SG": {
+      "Tag": "Event.CauseInjuredByWeapon.Gun.SG",
+      "DevComment": "喷子造成重伤倒地"
+    },
+    "Event.CauseInjuredByWeapon.Gun.PT": {
+      "Tag": "Event.CauseInjuredByWeapon.Gun.PT",
+      "DevComment": "手枪造成重伤倒地"
+    },
+    "Event.CauseInjuredByWeapon.Gun.LMG": {
+      "Tag": "Event.CauseInjuredByWeapon.Gun.LMG",
+      "DevComment": "轻机枪造成重伤倒地"
+    },
+    "Event.CauseInjuredByWeapon.Gun.Ejector": {
+      "Tag": "Event.CauseInjuredByWeapon.Gun.Ejector",
+      "DevComment": "喷射器造成重伤倒地"
+    },
+    "Event.CauseInjuredByWeapon.Melee": {
+      "Tag": "Event.CauseInjuredByWeapon.Melee",
+      "DevComment": "近战武器造成重伤倒地"
+    },
+    "Event.CauseInjuredByWeapon.Melee.Blade": {
+      "Tag": "Event.CauseInjuredByWeapon.Melee.Blade",
+      "DevComment": "刀击造成重伤倒地"
+    },
+    "Event.CauseInjuredByWeapon.Melee.Knife": {
+      "Tag": "Event.CauseInjuredByWeapon.Melee.Knife",
+      "DevComment": "小刀造成重伤倒地"
+    },
+    "Event.CauseInjuredByWeapon.Melee.Fist": {
+      "Tag": "Event.CauseInjuredByWeapon.Melee.Fist",
+      "DevComment": "拳头造成重伤倒地"
+    },
+    "Event.CauseInjuredByWeapon.Throw": {
+      "Tag": "Event.CauseInjuredByWeapon.Throw",
+      "DevComment": "投掷物造成重伤倒地"
+    },
+    "Event.CauseInjuredByWeapon.Launcher": {
+      "Tag": "Event.CauseInjuredByWeapon.Launcher",
+      "DevComment": "释放器造成重伤倒地"
+    },
+    "Event.CauseInjuredByWeapon.Device": {
+      "Tag": "Event.CauseInjuredByWeapon.Device",
+      "DevComment": "装置造成重伤倒地"
+    },
+    "Event.CauseInjuredByWeapon.Tool": {
+      "Tag": "Event.CauseInjuredByWeapon.Tool",
+      "DevComment": "工具造成重伤倒地"
+    },
+    "Event.TakeInjured": {
+      "Tag": "Event.TakeInjured",
+      "DevComment": "受到重伤倒地"
+    },
+    "Event.TakeInjured.PlayerWeapon": {
+      "Tag": "Event.TakeInjured.PlayerWeapon",
+      "DevComment": "受到武器造成重伤倒地"
+    },
+    "Event.TakeInjured.PlayerWeapon.Primary": {
+      "Tag": "Event.TakeInjured.PlayerWeapon.Primary",
+      "DevComment": "受到主武器造成重伤倒地"
+    },
+    "Event.TakeInjured.PlayerWeapon.Secondary": {
+      "Tag": "Event.TakeInjured.PlayerWeapon.Secondary",
+      "DevComment": "受到副武器造成重伤倒地"
+    },
+    "Event.TakeInjured.PlayerWeapon.Throw": {
+      "Tag": "Event.TakeInjured.PlayerWeapon.Throw",
+      "DevComment": "受到投掷武器造成重伤倒地"
+    },
+    "Event.TakeInjured.PlayerWeapon.C4": {
+      "Tag": "Event.TakeInjured.PlayerWeapon.C4",
+      "DevComment": "受到炸弹造成重伤倒地"
+    },
+    "Event.TakeInjured.PlayerSkill": {
+      "Tag": "Event.TakeInjured.PlayerSkill",
+      "DevComment": "受到技能造成重伤倒地"
+    },
+    "Event.TakeInjured.PlayerSkill.P": {
+      "Tag": "Event.TakeInjured.PlayerSkill.P",
+      "DevComment": "受到被动技能造成重伤倒地"
+    },
+    "Event.TakeInjured.PlayerSkill.Q": {
+      "Tag": "Event.TakeInjured.PlayerSkill.Q",
+      "DevComment": "受到主动技能造成重伤倒地"
+    },
+    "Event.TakeInjured.PlayerSkill.X": {
+      "Tag": "Event.TakeInjured.PlayerSkill.X",
+      "DevComment": "受到大招技能造成重伤倒地"
+    },
+    "Event.TakeInjured.System": {
+      "Tag": "Event.TakeInjured.System",
+      "DevComment": "受到系统造成重伤倒地"
+    },
+    "Event.TakeInjured.System.Fall": {
+      "Tag": "Event.TakeInjured.System.Fall",
+      "DevComment": "受到掉落造成重伤倒地"
+    },
+    "Event.TakeInjured.System.DangerZone": {
+      "Tag": "Event.TakeInjured.System.DangerZone",
+      "DevComment": "受到危险区造成重伤倒地"
+    },
+    "Event.TakeInjured.System.DeathZone": {
+      "Tag": "Event.TakeInjured.System.DeathZone",
+      "DevComment": "受到死亡区造成重伤倒地"
+    },
+    "Event.TakeInjuredByWeapon": {
+      "Tag": "Event.TakeInjuredByWeapon",
+      "DevComment": "受到武器造成重伤倒地"
+    },
+    "Event.TakeInjuredByWeapon.Gun": {
+      "Tag": "Event.TakeInjuredByWeapon.Gun",
+      "DevComment": "受到枪械武器造成重伤倒地"
+    },
+    "Event.TakeInjuredByWeapon.Gun.SR": {
+      "Tag": "Event.TakeInjuredByWeapon.Gun.SR",
+      "DevComment": "受到狙击枪造成重伤倒地"
+    },
+    "Event.TakeInjuredByWeapon.Gun.AR": {
+      "Tag": "Event.TakeInjuredByWeapon.Gun.AR",
+      "DevComment": "受到步枪造成重伤倒地"
+    },
+    "Event.TakeInjuredByWeapon.Gun.SMG": {
+      "Tag": "Event.TakeInjuredByWeapon.Gun.SMG",
+      "DevComment": "受到冲锋枪造成重伤倒地"
+    },
+    "Event.TakeInjuredByWeapon.Gun.SG": {
+      "Tag": "Event.TakeInjuredByWeapon.Gun.SG",
+      "DevComment": "受到喷子造成重伤倒地"
+    },
+    "Event.TakeInjuredByWeapon.Gun.PT": {
+      "Tag": "Event.TakeInjuredByWeapon.Gun.PT",
+      "DevComment": "受到手枪造成重伤倒地"
+    },
+    "Event.TakeInjuredByWeapon.Gun.LMG": {
+      "Tag": "Event.TakeInjuredByWeapon.Gun.LMG",
+      "DevComment": "受到轻机枪造成重伤倒地"
+    },
+    "Event.TakeInjuredByWeapon.Gun.Ejector": {
+      "Tag": "Event.TakeInjuredByWeapon.Gun.Ejector",
+      "DevComment": "受到喷射器造成重伤倒地"
+    },
+    "Event.TakeInjuredByWeapon.Melee": {
+      "Tag": "Event.TakeInjuredByWeapon.Melee",
+      "DevComment": "受到近战武器造成重伤倒地"
+    },
+    "Event.TakeInjuredByWeapon.Melee.Blade": {
+      "Tag": "Event.TakeInjuredByWeapon.Melee.Blade",
+      "DevComment": "受到刀击造成重伤倒地"
+    },
+    "Event.TakeInjuredByWeapon.Melee.Knife": {
+      "Tag": "Event.TakeInjuredByWeapon.Melee.Knife",
+      "DevComment": "受到小刀造成重伤倒地"
+    },
+    "Event.TakeInjuredByWeapon.Melee.Fist": {
+      "Tag": "Event.TakeInjuredByWeapon.Melee.Fist",
+      "DevComment": "受到拳头造成重伤倒地"
+    },
+    "Event.TakeInjuredByWeapon.Throw": {
+      "Tag": "Event.TakeInjuredByWeapon.Throw",
+      "DevComment": "受到投掷物造成重伤倒地"
+    },
+    "Event.TakeInjuredByWeapon.Launcher": {
+      "Tag": "Event.TakeInjuredByWeapon.Launcher",
+      "DevComment": "受到释放器造成重伤倒地"
+    },
+    "Event.TakeInjuredByWeapon.Device": {
+      "Tag": "Event.TakeInjuredByWeapon.Device",
+      "DevComment": "受到装置造成重伤倒地"
+    },
+    "Event.TakeInjuredByWeapon.Tool": {
+      "Tag": "Event.TakeInjuredByWeapon.Tool",
+      "DevComment": "受到工具造成重伤倒地"
+    },
+    "Event.Kill": {
+      "Tag": "Event.Kill",
+      "DevComment": "击杀"
+    },
+    "Event.Kill.PlayerWeapon": {
+      "Tag": "Event.Kill.PlayerWeapon",
+      "DevComment": "武器击杀"
+    },
+    "Event.Kill.PlayerWeapon.Primary": {
+      "Tag": "Event.Kill.PlayerWeapon.Primary",
+      "DevComment": "主武器击杀"
+    },
+    "Event.Kill.PlayerWeapon.Secondary": {
+      "Tag": "Event.Kill.PlayerWeapon.Secondary",
+      "DevComment": "副武器击杀"
+    },
+    "Event.Kill.PlayerWeapon.Throw": {
+      "Tag": "Event.Kill.PlayerWeapon.Throw",
+      "DevComment": "投掷武器击杀"
+    },
+    "Event.Kill.PlayerWeapon.C4": {
+      "Tag": "Event.Kill.PlayerWeapon.C4",
+      "DevComment": "炸弹击杀"
+    },
+    "Event.Kill.PlayerSkill": {
+      "Tag": "Event.Kill.PlayerSkill",
+      "DevComment": "技能击杀"
+    },
+    "Event.Kill.PlayerSkill.P": {
+      "Tag": "Event.Kill.PlayerSkill.P",
+      "DevComment": "被动技能击杀"
+    },
+    "Event.Kill.PlayerSkill.Q": {
+      "Tag": "Event.Kill.PlayerSkill.Q",
+      "DevComment": "主动技能击杀"
+    },
+    "Event.Kill.PlayerSkill.X": {
+      "Tag": "Event.Kill.PlayerSkill.X",
+      "DevComment": "大招技能击杀"
+    },
+    "Event.Kill.System": {
+      "Tag": "Event.Kill.System",
+      "DevComment": "系统击杀"
+    },
+    "Event.Kill.System.Fall": {
+      "Tag": "Event.Kill.System.Fall",
+      "DevComment": "掉落击杀"
+    },
+    "Event.Kill.System.DangerZone": {
+      "Tag": "Event.Kill.System.DangerZone",
+      "DevComment": "危险区击杀"
+    },
+    "Event.Kill.System.DeathZone": {
+      "Tag": "Event.Kill.System.DeathZone",
+      "DevComment": "死亡区击杀"
+    },
+    "Event.KillByWeapon": {
+      "Tag": "Event.KillByWeapon",
+      "DevComment": "武器击杀"
+    },
+    "Event.KillByWeapon.Gun": {
+      "Tag": "Event.KillByWeapon.Gun",
+      "DevComment": "枪械武器击杀"
+    },
+    "Event.KillByWeapon.Gun.SR": {
+      "Tag": "Event.KillByWeapon.Gun.SR",
+      "DevComment": "狙击枪击杀"
+    },
+    "Event.KillByWeapon.Gun.AR": {
+      "Tag": "Event.KillByWeapon.Gun.AR",
+      "DevComment": "步枪击杀"
+    },
+    "Event.KillByWeapon.Gun.SMG": {
+      "Tag": "Event.KillByWeapon.Gun.SMG",
+      "DevComment": "冲锋枪击杀"
+    },
+    "Event.KillByWeapon.Gun.SG": {
+      "Tag": "Event.KillByWeapon.Gun.SG",
+      "DevComment": "喷子击杀"
+    },
+    "Event.KillByWeapon.Gun.PT": {
+      "Tag": "Event.KillByWeapon.Gun.PT",
+      "DevComment": "手枪击杀"
+    },
+    "Event.KillByWeapon.Gun.LMG": {
+      "Tag": "Event.KillByWeapon.Gun.LMG",
+      "DevComment": "轻机枪击杀"
+    },
+    "Event.KillByWeapon.Gun.Ejector": {
+      "Tag": "Event.KillByWeapon.Gun.Ejector",
+      "DevComment": "喷射器击杀"
+    },
+    "Event.KillByWeapon.Melee": {
+      "Tag": "Event.KillByWeapon.Melee",
+      "DevComment": "近战武器击杀"
+    },
+    "Event.KillByWeapon.Melee.Blade": {
+      "Tag": "Event.KillByWeapon.Melee.Blade",
+      "DevComment": "刀击击杀"
+    },
+    "Event.KillByWeapon.Melee.Knife": {
+      "Tag": "Event.KillByWeapon.Melee.Knife",
+      "DevComment": "小刀击杀"
+    },
+    "Event.KillByWeapon.Melee.Fist": {
+      "Tag": "Event.KillByWeapon.Melee.Fist",
+      "DevComment": "拳头击杀"
+    },
+    "Event.KillByWeapon.Throw": {
+      "Tag": "Event.KillByWeapon.Throw",
+      "DevComment": "投掷物击杀"
+    },
+    "Event.KillByWeapon.Launcher": {
+      "Tag": "Event.KillByWeapon.Launcher",
+      "DevComment": "释放器击杀"
+    },
+    "Event.KillByWeapon.Device": {
+      "Tag": "Event.KillByWeapon.Device",
+      "DevComment": "装置击杀"
+    },
+    "Event.KillByWeapon.Tool": {
+      "Tag": "Event.KillByWeapon.Tool",
+      "DevComment": "工具击杀"
+    },
+    "Event.Death": {
+      "Tag": "Event.Death",
+      "DevComment": "死亡"
+    },
+    "Event.Death.PlayerWeapon": {
+      "Tag": "Event.Death.PlayerWeapon",
+      "DevComment": "武器击杀死亡"
+    },
+    "Event.Death.PlayerWeapon.Primary": {
+      "Tag": "Event.Death.PlayerWeapon.Primary",
+      "DevComment": "主武器击杀死亡"
+    },
+    "Event.Death.PlayerWeapon.Secondary": {
+      "Tag": "Event.Death.PlayerWeapon.Secondary",
+      "DevComment": "副武器击杀死亡"
+    },
+    "Event.Death.PlayerWeapon.Throw": {
+      "Tag": "Event.Death.PlayerWeapon.Throw",
+      "DevComment": "投掷武器击杀死亡"
+    },
+    "Event.Death.PlayerWeapon.C4": {
+      "Tag": "Event.Death.PlayerWeapon.C4",
+      "DevComment": "炸弹击杀死亡"
+    },
+    "Event.Death.PlayerSkill": {
+      "Tag": "Event.Death.PlayerSkill",
+      "DevComment": "技能击杀死亡"
+    },
+    "Event.Death.PlayerSkill.P": {
+      "Tag": "Event.Death.PlayerSkill.P",
+      "DevComment": "被动技能击杀死亡"
+    },
+    "Event.Death.PlayerSkill.Q": {
+      "Tag": "Event.Death.PlayerSkill.Q",
+      "DevComment": "主动技能击杀死亡"
+    },
+    "Event.Death.PlayerSkill.X": {
+      "Tag": "Event.Death.PlayerSkill.X",
+      "DevComment": "大招技能击杀死亡"
+    },
+    "Event.Death.System": {
+      "Tag": "Event.Death.System",
+      "DevComment": "系统击杀死亡"
+    },
+    "Event.Death.System.Fall": {
+      "Tag": "Event.Death.System.Fall",
+      "DevComment": "掉落击杀死亡"
+    },
+    "Event.Death.System.DangerZone": {
+      "Tag": "Event.Death.System.DangerZone",
+      "DevComment": "危险区击杀死亡"
+    },
+    "Event.Death.System.DeathZone": {
+      "Tag": "Event.Death.System.DeathZone",
+      "DevComment": "死亡区击杀死亡"
+    },
+    "Event.DeathByWeapon": {
+      "Tag": "Event.DeathByWeapon",
+      "DevComment": "武器击杀死亡"
+    },
+    "Event.DeathByWeapon.Gun": {
+      "Tag": "Event.DeathByWeapon.Gun",
+      "DevComment": "枪械武器击杀死亡"
+    },
+    "Event.DeathByWeapon.Gun.SR": {
+      "Tag": "Event.DeathByWeapon.Gun.SR",
+      "DevComment": "狙击枪击杀死亡"
+    },
+    "Event.DeathByWeapon.Gun.AR": {
+      "Tag": "Event.DeathByWeapon.Gun.AR",
+      "DevComment": "步枪击杀死亡"
+    },
+    "Event.DeathByWeapon.Gun.SMG": {
+      "Tag": "Event.DeathByWeapon.Gun.SMG",
+      "DevComment": "冲锋枪击杀死亡"
+    },
+    "Event.DeathByWeapon.Gun.SG": {
+      "Tag": "Event.DeathByWeapon.Gun.SG",
+      "DevComment": "喷子击杀死亡"
+    },
+    "Event.DeathByWeapon.Gun.PT": {
+      "Tag": "Event.DeathByWeapon.Gun.PT",
+      "DevComment": "手枪击杀死亡"
+    },
+    "Event.DeathByWeapon.Gun.LMG": {
+      "Tag": "Event.DeathByWeapon.Gun.LMG",
+      "DevComment": "轻机枪击杀死亡"
+    },
+    "Event.DeathByWeapon.Gun.Ejector": {
+      "Tag": "Event.DeathByWeapon.Gun.Ejector",
+      "DevComment": "喷射器击杀死亡"
+    },
+    "Event.DeathByWeapon.Melee": {
+      "Tag": "Event.DeathByWeapon.Melee",
+      "DevComment": "近战武器击杀死亡"
+    },
+    "Event.DeathByWeapon.Melee.Blade": {
+      "Tag": "Event.DeathByWeapon.Melee.Blade",
+      "DevComment": "刀击击杀死亡"
+    },
+    "Event.DeathByWeapon.Melee.Knife": {
+      "Tag": "Event.DeathByWeapon.Melee.Knife",
+      "DevComment": "小刀击杀死亡"
+    },
+    "Event.DeathByWeapon.Melee.Fist": {
+      "Tag": "Event.DeathByWeapon.Melee.Fist",
+      "DevComment": "拳头击杀死亡"
+    },
+    "Event.DeathByWeapon.Throw": {
+      "Tag": "Event.DeathByWeapon.Throw",
+      "DevComment": "投掷物击杀死亡"
+    },
+    "Event.DeathByWeapon.Launcher": {
+      "Tag": "Event.DeathByWeapon.Launcher",
+      "DevComment": "释放器击杀死亡"
+    },
+    "Event.DeathByWeapon.Device": {
+      "Tag": "Event.DeathByWeapon.Device",
+      "DevComment": "装置击杀死亡"
+    },
+    "Event.DeathByWeapon.Tool": {
+      "Tag": "Event.DeathByWeapon.Tool",
+      "DevComment": "工具击杀死亡"
+    },
+    "Event.Assist": {
+      "Tag": "Event.Assist",
+      "DevComment": "助攻"
+    },
+    "Event.OwnedActorChanged": {
+      "Tag": "Event.OwnedActorChanged",
+      "DevComment": "OwnedActor变化"
+    },
+    "Event.Spar.SpawnSparItem": {
+      "Tag": "Event.Spar.SpawnSparItem",
+      "DevComment": "开始生成晶体"
+    },
+    "Event.Spar.SpawnSparBox": {
+      "Tag": "Event.Spar.SpawnSparBox",
+      "DevComment": "开始生成晶体箱"
+    },
+    "Event.Projectile.Spawn.Yvette.Q.Arousal.Two": {
+      "Tag": "Event.Projectile.Spawn.Yvette.Q.Arousal.Two",
+      "DevComment": "伊薇特觉醒2子弹创建"
+    },
+    "Event.RoundClear": {
+      "Tag": "Event.RoundClear",
+      "DevComment": "清理回合(清理召唤物)"
+    },
+    "Event.Summon.Spawn.Fail": {
+      "Tag": "Event.Summon.Spawn.Fail",
+      "DevComment": "召唤物创建失败"
+    },
+    "Event.RecoveryHealth.PlayerWeapon.Primary": {
+      "Tag": "Event.RecoveryHealth.PlayerWeapon.Primary",
+      "DevComment": "使用主武器恢复血量"
+    },
+    "Event.RecoveryHealth.PlayerWeapon.Secondary": {
+      "Tag": "Event.RecoveryHealth.PlayerWeapon.Secondary",
+      "DevComment": "使用副武器恢复血量"
+    },
+    "Event.RecoveryHealth.PlayerWeapon.Throw": {
+      "Tag": "Event.RecoveryHealth.PlayerWeapon.Throw",
+      "DevComment": "使用投掷物恢复血量"
+    },
+    "Event.RecoveryHealth.PlayerSkill.P": {
+      "Tag": "Event.RecoveryHealth.PlayerSkill.P",
+      "DevComment": "使用被动技能恢复血量"
+    },
+    "Event.RecoveryHealth.PlayerSkill.Q": {
+      "Tag": "Event.RecoveryHealth.PlayerSkill.Q",
+      "DevComment": "使用主动技能恢复血量"
+    },
+    "Event.RecoveryHealth.PlayerSkill.X": {
+      "Tag": "Event.RecoveryHealth.PlayerSkill.X",
+      "DevComment": "使用终极技能恢复血量"
+    },
+    "Event.RecoveryArmor.PlayerWeapon.Primary": {
+      "Tag": "Event.RecoveryArmor.PlayerWeapon.Primary",
+      "DevComment": "使用主武器恢复护甲"
+    },
+    "Event.RecoveryArmor.PlayerWeapon.Secondary": {
+      "Tag": "Event.RecoveryArmor.PlayerWeapon.Secondary",
+      "DevComment": "使用副武器恢复护甲"
+    },
+    "Event.RecoveryArmor.PlayerWeapon.Throw": {
+      "Tag": "Event.RecoveryArmor.PlayerWeapon.Throw",
+      "DevComment": "使用投掷物恢复护甲"
+    },
+    "Event.RecoveryArmor.PlayerSkill.P": {
+      "Tag": "Event.RecoveryArmor.PlayerSkill.P",
+      "DevComment": "使用被动技能恢复护甲"
+    },
+    "Event.RecoveryArmor.PlayerSkill.Q": {
+      "Tag": "Event.RecoveryArmor.PlayerSkill.Q",
+      "DevComment": "使用主动技能恢复护甲"
+    },
+    "Event.RecoveryArmor.PlayerSkill.X": {
+      "Tag": "Event.RecoveryArmor.PlayerSkill.X",
+      "DevComment": "使用终极技能恢复护甲"
+    },
+    "Event.DamageProtectorChanged": {
+      "Tag": "Event.DamageProtectorChanged",
+      "DevComment": "DamageProtector变化"
+    },
+    "Event.KillSummon.PlayerSkill.P": {
+      "Tag": "Event.KillSummon.PlayerSkill.P",
+      "DevComment": "使用被动技能击杀召唤物"
+    },
+    "Event.KillSummon.PlayerSkill.Q": {
+      "Tag": "Event.KillSummon.PlayerSkill.Q",
+      "DevComment": "使用被动技能击杀召唤物"
+    },
+    "Event.KillSummon.PlayerSkill.X": {
+      "Tag": "Event.KillSummon.PlayerSkill.X",
+      "DevComment": "使用被动技能击杀召唤物"
+    },
+    "Event.DeathSummon.PlayerSkill.P": {
+      "Tag": "Event.DeathSummon.PlayerSkill.P",
+      "DevComment": "被被动技能击杀召唤物死亡"
+    },
+    "Event.DeathSummon.PlayerSkill.Q": {
+      "Tag": "Event.DeathSummon.PlayerSkill.Q",
+      "DevComment": "被主动技能击杀召唤物死亡"
+    },
+    "Event.DeathSummon.PlayerSkill.X": {
+      "Tag": "Event.DeathSummon.PlayerSkill.X",
+      "DevComment": "被终级技能击杀召唤物死亡"
+    },
+    "Event.Spar.SpawnMovingSpar": {
+      "Tag": "Event.Spar.SpawnMovingSpar",
+      "DevComment": "开始生成可移动晶体"
+    },
+    "Event.Accumulator.Flavia.Q": {
+      "Tag": "Event.Accumulator.Flavia.Q",
+      "DevComment": "芙拉薇娅Q累加器触发"
+    },
+    "Event.Accumulator.Flavia.P.CD": {
+      "Tag": "Event.Accumulator.Flavia.P.CD",
+      "DevComment": "芙拉薇娅P减CD累加器触发"
+    },
+    "Event.Accumulator.Flavia.P.Xpoint": {
+      "Tag": "Event.Accumulator.Flavia.P.Xpoint",
+      "DevComment": "芙拉薇娅P加大招点累加器触发"
+    },
+    "Event.Summon.Leave.Fuchsia.Q": {
+      "Tag": "Event.Summon.Leave.Fuchsia.Q",
+      "DevComment": "绯莎Q面罩消失"
+    },
+    "Event.Weapon.Work.Begin": {
+      "Tag": "Event.Weapon.Work.Begin",
+      "DevComment": "武器Work状态开始"
+    },
+    "Event.Weapon.Work.End": {
+      "Tag": "Event.Weapon.Work.End",
+      "DevComment": "武器Work状态结束"
+    },
+    "Event.Summon.Spawn.Flavia.Q": {
+      "Tag": "Event.Summon.Spawn.Flavia.Q",
+      "DevComment": "芙拉薇娅Q召唤物生成"
+    },
+    "Event.EscortVehicle.EscortArea.Enter": {
+      "Tag": "Event.EscortVehicle.EscortArea.Enter",
+      "DevComment": "玩家进入护送对象的护送区域"
+    },
+    "Event.EscortVehicle.EscortArea.Level": {
+      "Tag": "Event.EscortVehicle.EscortArea.Level",
+      "DevComment": "玩家离开护送对象的护送区域"
+    },
+    "Event.EscortVehicle.Wall.Begin": {
+      "Tag": "Event.EscortVehicle.Wall.Begin",
+      "DevComment": "玩家开始贴护送对象的墙上"
+    },
+    "Event.EscortVehicle.Wall.End": {
+      "Tag": "Event.EscortVehicle.Wall.End",
+      "DevComment": "玩家结束贴护送对象的墙上"
+    },
+    "Event.Mine.StoreMine": {
+      "Tag": "Event.Mine.StoreMine",
+      "DevComment": "存放矿物"
+    },
+    "Event.Mine.Mined": {
+      "Tag": "Event.Mine.Mined",
+      "DevComment": "采集矿物"
+    },
+    "Event.Mine.PickupMine": {
+      "Tag": "Event.Mine.PickupMine",
+      "DevComment": "拾取矿物"
+    },
+    "Event.Mine.StealMine": {
+      "Tag": "Event.Mine.StealMine",
+      "DevComment": "偷取矿物"
+    },
+    "Event.Mine.KillStealer": {
+      "Tag": "Event.Mine.KillStealer",
+      "DevComment": "击杀偷矿者"
+    },
+    "Event.TrackGameData.Game.End": {
+      "Tag": "Event.TrackGameData.Game.End",
+      "DevComment": "全场比赛结束后游戏数据收集结束"
+    },
+    "Event.Action.PreSelectedRole": {
+      "Tag": "Event.Action.PreSelectedRole",
+      "DevComment": "预选择角色"
+    },
+    "Event.Action.LockSelectedRole": {
+      "Tag": "Event.Action.LockSelectedRole",
+      "DevComment": "锁定选择的角色"
+    },
+    "Event.RemoveBuff.RoundStart": {
+      "Tag": "Event.RemoveBuff.RoundStart",
+      "DevComment": "Buff移除事件(回合开始)"
+    },
+    "Event.RemoveBuff.RoundEnd": {
+      "Tag": "Event.RemoveBuff.RoundEnd",
+      "DevComment": "Buff移除事件(回合结束)"
+    },
+    "Event.GameState.RoleSelect.PreBegin": {
+      "Tag": "Event.GameState.RoleSelect.PreBegin",
+      "DevComment": "游戏状态-角色选择阶段开始前"
+    },
+    "Event.GameState.RoleSelect.Begun": {
+      "Tag": "Event.GameState.RoleSelect.Begun",
+      "DevComment": "游戏状态-角色选择阶段开始后"
+    },
+    "Event.GameState.RoleSelect.PreEnd": {
+      "Tag": "Event.GameState.RoleSelect.PreEnd",
+      "DevComment": "游戏状态-角色选择阶段结束前"
+    },
+    "Event.GameState.RoleSelect.Ended": {
+      "Tag": "Event.GameState.RoleSelect.Ended",
+      "DevComment": "游戏状态-角色选择阶段结束后"
+    },
+    "Event.GameState.RoleReselect.PreBegin": {
+      "Tag": "Event.GameState.RoleReselect.PreBegin",
+      "DevComment": "游戏状态-角色重新选择阶段开始前"
+    },
+    "Event.GameState.RoleReselect.Begun": {
+      "Tag": "Event.GameState.RoleReselect.Begun",
+      "DevComment": "游戏状态-角色重新选择阶段开始后"
+    },
+    "Event.GameState.RoleReselect.PreEnd": {
+      "Tag": "Event.GameState.RoleReselect.PreEnd",
+      "DevComment": "游戏状态-角色重新选择阶段结束前"
+    },
+    "Event.GameState.RoleReselect.Ended": {
+      "Tag": "Event.GameState.RoleReselect.Ended",
+      "DevComment": "游戏状态-角色重新选择阶段结束后"
+    },
+    "Event.GameState.RoleLoad.PreBegin": {
+      "Tag": "Event.GameState.RoleLoad.PreBegin",
+      "DevComment": "游戏状态-角色加载阶段开始前"
+    },
+    "Event.GameState.RoleLoad.Begun": {
+      "Tag": "Event.GameState.RoleLoad.Begun",
+      "DevComment": "游戏状态-角色加载阶段开始后"
+    },
+    "Event.GameState.RoleLoad.PreEnd": {
+      "Tag": "Event.GameState.RoleLoad.PreEnd",
+      "DevComment": "游戏状态-角色加载阶段结束前"
+    },
+    "Event.GameState.RoleLoad.Ended": {
+      "Tag": "Event.GameState.RoleLoad.Ended",
+      "DevComment": "游戏状态-角色加载阶段结束后"
+    },
+    "Event.GameState.ReStart.PreBegin": {
+      "Tag": "Event.GameState.ReStart.PreBegin",
+      "DevComment": "游戏状态-重新开始阶段开始前"
+    },
+    "Event.GameState.ReStart.Begun": {
+      "Tag": "Event.GameState.ReStart.Begun",
+      "DevComment": "游戏状态-重新开始阶段开始后"
+    },
+    "Event.GameState.ReStart.PreEnd": {
+      "Tag": "Event.GameState.ReStart.PreEnd",
+      "DevComment": "游戏状态-重新开始阶段结束前"
+    },
+    "Event.GameState.ReStart.Ended": {
+      "Tag": "Event.GameState.ReStart.Ended",
+      "DevComment": "游戏状态-重新开始阶段结束后"
+    },
+    "Event.GameState.Prepare.PreBegin": {
+      "Tag": "Event.GameState.Prepare.PreBegin",
+      "DevComment": "游戏状态-角色准备阶段开始前"
+    },
+    "Event.GameState.Prepare.Begun": {
+      "Tag": "Event.GameState.Prepare.Begun",
+      "DevComment": "游戏状态-角色准备阶段开始后"
+    },
+    "Event.GameState.Prepare.PreEnd": {
+      "Tag": "Event.GameState.Prepare.PreEnd",
+      "DevComment": "游戏状态-角色准备阶段结束前"
+    },
+    "Event.GameState.Prepare.Ended": {
+      "Tag": "Event.GameState.Prepare.Ended",
+      "DevComment": "游戏状态-角色准备阶段结束后"
+    },
+    "Event.GameState.Warmup.PreBegin": {
+      "Tag": "Event.GameState.Warmup.PreBegin",
+      "DevComment": "游戏状态-热身阶段开始前"
+    },
+    "Event.GameState.Warmup.Begun": {
+      "Tag": "Event.GameState.Warmup.Begun",
+      "DevComment": "游戏状态-热身阶段开始后"
+    },
+    "Event.GameState.Warmup.PreEnd": {
+      "Tag": "Event.GameState.Warmup.PreEnd",
+      "DevComment": "游戏状态-热身阶段结束前"
+    },
+    "Event.GameState.Warmup.Ended": {
+      "Tag": "Event.GameState.Warmup.Ended",
+      "DevComment": "游戏状态-热身阶段结束后"
+    },
+    "Event.GameState.Fight.PreBegin": {
+      "Tag": "Event.GameState.Fight.PreBegin",
+      "DevComment": "游戏状态-游戏战斗阶段开始前"
+    },
+    "Event.GameState.Fight.Begun": {
+      "Tag": "Event.GameState.Fight.Begun",
+      "DevComment": "游戏状态-游戏战斗阶段开始后"
+    },
+    "Event.GameState.Fight.PreEnd": {
+      "Tag": "Event.GameState.Fight.PreEnd",
+      "DevComment": "游戏状态-游戏战斗阶段结束前"
+    },
+    "Event.GameState.Fight.Ended": {
+      "Tag": "Event.GameState.Fight.Ended",
+      "DevComment": "游戏状态-游戏战斗阶段结束后"
+    },
+    "Event.GameState.FightPlaced.PreBegin": {
+      "Tag": "Event.GameState.FightPlaced.PreBegin",
+      "DevComment": "游戏状态-埋包后的战斗阶段开始前"
+    },
+    "Event.GameState.FightPlaced.Begun": {
+      "Tag": "Event.GameState.FightPlaced.Begun",
+      "DevComment": "游戏状态-埋包后的战斗阶段开始后"
+    },
+    "Event.GameState.FightPlaced.PreEnd": {
+      "Tag": "Event.GameState.FightPlaced.PreEnd",
+      "DevComment": "游戏状态-埋包后的战斗阶段结束前"
+    },
+    "Event.GameState.FightPlaced.Ended": {
+      "Tag": "Event.GameState.FightPlaced.Ended",
+      "DevComment": "游戏状态-埋包后的战斗阶段结束后"
+    },
+    "Event.GameState.FightEnd.PreBegin": {
+      "Tag": "Event.GameState.FightEnd.PreBegin",
+      "DevComment": "游戏状态-游戏单局默认结束状态开始前"
+    },
+    "Event.GameState.FightEnd.Begun": {
+      "Tag": "Event.GameState.FightEnd.Begun",
+      "DevComment": "游戏状态-游戏单局默认结束状态开始后"
+    },
+    "Event.GameState.FightEnd.PreEnd": {
+      "Tag": "Event.GameState.FightEnd.PreEnd",
+      "DevComment": "游戏状态-游戏单局默认结束状态结束前"
+    },
+    "Event.GameState.FightEnd.Ended": {
+      "Tag": "Event.GameState.FightEnd.Ended",
+      "DevComment": "游戏状态-游戏单局默认结束状态结束后"
+    },
+    "Event.GameState.GameEnd.PreBegin": {
+      "Tag": "Event.GameState.GameEnd.PreBegin",
+      "DevComment": "游戏状态-游戏全场结束状态开始前"
+    },
+    "Event.GameState.GameEnd.Begun": {
+      "Tag": "Event.GameState.GameEnd.Begun",
+      "DevComment": "游戏状态-游戏全场结束状态开始后"
+    },
+    "Event.GameState.GameEnd.PreEnd": {
+      "Tag": "Event.GameState.GameEnd.PreEnd",
+      "DevComment": "游戏状态-游戏全场结束状态结束前"
+    },
+    "Event.GameState.GameEnd.Ended": {
+      "Tag": "Event.GameState.GameEnd.Ended",
+      "DevComment": "游戏状态-游戏全场结束状态结束后"
+    },
+    "Event.Skill.Aika.X.OnDetected": {
+      "Tag": "Event.Skill.Aika.X.OnDetected",
+      "DevComment": "艾卡的X技能检测到敌人"
+    },
+    "Event.Summon.Destroy.Flavia.Q": {
+      "Tag": "Event.Summon.Destroy.Flavia.Q",
+      "DevComment": "芙拉薇娅Q召唤物摧毁"
+    },
+    "Event.Summon.Spawn.Fragrans.Q": {
+      "Tag": "Event.Summon.Spawn.Fragrans.Q",
+      "DevComment": "珐格兰丝Q技能召唤物出生"
+    },
+    "Event.Summon.Destroy.Fragrans.Q": {
+      "Tag": "Event.Summon.Destroy.Fragrans.Q",
+      "DevComment": "珐格兰丝Q技能召唤物销毁"
+    },
+    "Event.Summon.Spawn.Fragrans.X": {
+      "Tag": "Event.Summon.Spawn.Fragrans.X",
+      "DevComment": "珐格兰丝X技能召唤物出生"
+    },
+    "Event.Summon.Destroy.Fragrans.X": {
+      "Tag": "Event.Summon.Destroy.Fragrans.X",
+      "DevComment": "珐格兰丝X技能召唤物销毁"
+    },
+    "Event.GameMode.RestartPlayer.Before": {
+      "Tag": "Event.GameMode.RestartPlayer.Before",
+      "DevComment": "角色重生之前(服务器)"
+    },
+    "Event.GameMode.RestartPlayer.After": {
+      "Tag": "Event.GameMode.RestartPlayer.After",
+      "DevComment": "角色重生之后(服务器)"
+    },
+    "Event.GameMode.HandleTeamWin": {
+      "Tag": "Event.GameMode.HandleTeamWin",
+      "DevComment": "回合胜负结果"
+    },
+    "Event.GameMode.AfterDeath": {
+      "Tag": "Event.GameMode.AfterDeath",
+      "DevComment": "角色死亡"
+    },
+    "Event.GameMode.HandleCharacterDeath": {
+      "Tag": "Event.GameMode.HandleCharacterDeath",
+      "DevComment": "GameMode处理角色死亡"
+    },
+    "Event.Protector.OnDamageProtected": {
+      "Tag": "Event.Protector.OnDamageProtected",
+      "DevComment": "伤害保护事件"
+    },
+    "Event.Protector.OnDeathProtected": {
+      "Tag": "Event.Protector.OnDeathProtected",
+      "DevComment": "死亡保护事件"
+    },
+    "Event.Pickup.LuckyCoin": {
+      "Tag": "Event.Pickup.LuckyCoin",
+      "DevComment": "捡起许愿币"
+    },
+    "Event.Atom.SetSuddenDeathTimeLeft": {
+      "Tag": "Event.Atom.SetSuddenDeathTimeLeft",
+      "DevComment": "突然死亡阶段剩余时间控制原子"
+    },
+    "Event.Summon.Spawn.CrystalloidAlpha.X": {
+      "Tag": "Event.Summon.Spawn.CrystalloidAlpha.X",
+      "DevComment": "大鬼X技能召唤物出生"
+    },
+    "Event.Summon.Destroy.CrystalloidAlpha.X": {
+      "Tag": "Event.Summon.Destroy.CrystalloidAlpha.X",
+      "DevComment": "大鬼X技能召唤物销毁"
+    },
+    "Event.Game.TeamAliveNumChanged": {
+      "Tag": "Event.Game.TeamAliveNumChanged",
+      "DevComment": "玩家队伍存活玩家数量变化通知"
+    },
+    "Event.Game.CStateChanged": {
+      "Tag": "Event.Game.CStateChanged",
+      "DevComment": "CMachine状态变换通知"
+    },
+    "Event.Accumulator.Rafa.P": {
+      "Tag": "Event.Accumulator.Rafa.P",
+      "DevComment": "拉法被动伤害累计触发事件"
+    },
+    "Event.PlayerDeath.Rafa.P": {
+      "Tag": "Event.PlayerDeath.Rafa.P",
+      "DevComment": "拉法被动监听玩家死亡事件"
+    },
+    "Event.Summon.Spawn.Hero1.Q": {
+      "Tag": "Event.Summon.Spawn.Hero1.Q",
+      "DevComment": "人类英雄1 Q技能召唤物出生"
+    },
+    "Event.Summon.Destroy.Hero1.Q": {
+      "Tag": "Event.Summon.Destroy.Hero1.Q",
+      "DevComment": "人类英雄1 Q技能召唤物销毁"
+    },
+    "Event.Summon.Spawn.Hero2.Q": {
+      "Tag": "Event.Summon.Spawn.Hero2.Q",
+      "DevComment": "人类英雄2 Q技能召唤物出生"
+    },
+    "Event.Summon.Destroy.Hero2.Q": {
+      "Tag": "Event.Summon.Destroy.Hero2.Q",
+      "DevComment": "人类英雄2 Q技能召唤物销毁"
+    },
+    "Event.GameState.MonitorWaveTimer.TimeLeft.First": {
+      "Tag": "Event.GameState.MonitorWaveTimer.TimeLeft.First",
+      "DevComment": "GS波次计时器1剩余时间变化事件"
+    },
+    "Event.GameState.MonitorWaveTimer.TimeLeft.Second": {
+      "Tag": "Event.GameState.MonitorWaveTimer.TimeLeft.Second",
+      "DevComment": "GS波次计时器2剩余时间变化事件"
+    },
+    "Event.GameState.MonitorWaveTimer.TimeLeft.Third": {
+      "Tag": "Event.GameState.MonitorWaveTimer.TimeLeft.Third",
+      "DevComment": "GS波次计时器3剩余时间变化事件"
+    },
+    "Event.ExpLevel.LevelChanged.Player.Zombie": {
+      "Tag": "Event.ExpLevel.LevelChanged.Player.Zombie",
+      "DevComment": "僵尸角色等级变化"
+    },
+    "Event.ExpLevel.ExpChanged.Player.Zombie": {
+      "Tag": "Event.ExpLevel.ExpChanged.Player.Zombie",
+      "DevComment": "僵尸角色经验变化"
+    },
+    "Event.Summon.Spawn.CrystalloidBeta1.E.Projectile": {
+      "Tag": "Event.Summon.Spawn.CrystalloidBeta1.E.Projectile",
+      "DevComment": "进化型boss E技能子弹出生"
+    },
+    "Event.Summon.Destroy.CrystalloidBeta1.E.Projectile": {
+      "Tag": "Event.Summon.Destroy.CrystalloidBeta1.E.Projectile",
+      "DevComment": "进化型boss E技能子弹销毁"
+    },
+    "Event.Summon.Spawn.Maddelena.Q": {
+      "Tag": "Event.Summon.Spawn.Maddelena.Q",
+      "DevComment": "玛德蕾娜 Q技能召唤物生成"
+    },
+    "Event.Summon.Destroy.Maddelena.Q": {
+      "Tag": "Event.Summon.Destroy.Maddelena.Q",
+      "DevComment": "玛德蕾娜 Q技能召唤物销毁"
+    },
+    "Event.Summon.Spawn.Maddelena.X": {
+      "Tag": "Event.Summon.Spawn.Maddelena.X",
+      "DevComment": "玛德蕾娜 X技能召唤物生成"
+    },
+    "Event.Summon.Destroy.Maddelena.X": {
+      "Tag": "Event.Summon.Destroy.Maddelena.X",
+      "DevComment": "玛德蕾娜 X技能召唤物销毁"
+    },
+    "Event.RecoveryExtraArmor": {
+      "Tag": "Event.RecoveryExtraArmor",
+      "DevComment": "恢复临时护甲"
+    },
+    "Event.RecoveryExtraArmor.PlayerSkill.X": {
+      "Tag": "Event.RecoveryExtraArmor.PlayerSkill.X",
+      "DevComment": "使用终极技能恢复临时护甲"
     }
   }
-]
+}

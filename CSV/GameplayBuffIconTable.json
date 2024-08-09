@@ -1,231 +1,229 @@
-[
-  {
-    "Type": "DataTable",
-    "Name": "GameplayBuffIconTable",
-    "Class": "UScriptClass'DataTable'",
-    "Properties": {
-      "RowStruct": {
-        "ObjectName": "ScriptStruct'GameplayTagTableRow'",
-        "ObjectPath": "/Script/GameplayTags"
-      }
+{
+  "Type": "DataTable",
+  "Name": "GameplayBuffIconTable",
+  "Class": "UScriptClass'DataTable'",
+  "Properties": {
+    "RowStruct": {
+      "ObjectName": "ScriptStruct'GameplayTagTableRow'",
+      "ObjectPath": "/Script/GameplayTags"
+    }
+  },
+  "Rows": {
+    "BuffIcon.Wait.P.Nobunaga": {
+      "Tag": "BuffIcon.Wait.P.Nobunaga",
+      "DevComment": "信长被动开镜延迟Buff显示"
     },
-    "Rows": {
-      "BuffIcon.Wait.P.Nobunaga": {
-        "Tag": "BuffIcon.Wait.P.Nobunaga",
-        "DevComment": "信长被动开镜延迟Buff显示"
-      },
-      "BuffIcon.Wait.P.Reiichi": {
-        "Tag": "BuffIcon.Wait.P.Reiichi",
-        "DevComment": "令一被动等待时间"
-      },
-      "BuffIcon.Wait.ArousalTwo.Reiichi.Team": {
-        "Tag": "BuffIcon.Wait.ArousalTwo.Reiichi.Team",
-        "DevComment": "令一觉醒2增加队友护甲CD"
-      },
-      "BuffIcon.Wait.ArousalTwo.Reiichi.Enemy": {
-        "Tag": "BuffIcon.Wait.ArousalTwo.Reiichi.Enemy",
-        "DevComment": "令一觉醒2恢复敌人护甲间隔"
-      },
-      "BuffIcon.Weak.FootPrint": {
-        "Tag": "BuffIcon.Weak.FootPrint",
-        "DevComment": "玛德蕾娜染料标记"
-      },
-      "BuffIcon.Weak.SlowDown": {
-        "Tag": "BuffIcon.Weak.SlowDown",
-        "DevComment": "减速【废弃】"
-      },
-      "BuffIcon.Strong.SlowUp": {
-        "Tag": "BuffIcon.Strong.SlowUp",
-        "DevComment": "加速 【废弃】"
-      },
-      "BuffIcon.Weak.ForceFly": {
-        "Tag": "BuffIcon.Weak.ForceFly",
-        "DevComment": "强制飘飞"
-      },
-      "BuffIcon.Strong.DamageFactor": {
-        "Tag": "BuffIcon.Strong.DamageFactor",
-        "DevComment": "受伤降低"
-      },
-      "BuffIcon.Weak.DamageFactor": {
-        "Tag": "BuffIcon.Weak.DamageFactor",
-        "DevComment": "受伤增加"
-      },
-      "BuffIcon.Weak.Block2D": {
-        "Tag": "BuffIcon.Weak.Block2D",
-        "DevComment": "禁用2D"
-      },
-      "BuffIcon.Strong.ArmorRecover": {
-        "Tag": "BuffIcon.Strong.ArmorRecover",
-        "DevComment": "恢复护甲"
-      },
-      "BuffIcon.Strong.ArmorRecover.P.Huixing": {
-        "Tag": "BuffIcon.Strong.ArmorRecover.P.Huixing",
-        "DevComment": "星造甲生"
-      },
-      "BuffIcon.Strong.ArmorMax.Q.Huixing": {
-        "Tag": "BuffIcon.Strong.ArmorMax.Q.Huixing",
-        "DevComment": "流星盾牌"
-      },
-      "BuffIcon.Strong.HealthRecover": {
-        "Tag": "BuffIcon.Strong.HealthRecover",
-        "DevComment": "回血"
-      },
-      "BuffIcon.Strong.HealthRecover.P.Fuchsia": {
-        "Tag": "BuffIcon.Strong.HealthRecover.P.Fuchsia",
-        "DevComment": "储能治疗"
-      },
-      "BuffIcon.Weak.XRay": {
-        "Tag": "BuffIcon.Weak.XRay",
-        "DevComment": "透视"
-      },
-      "BuffIcon.Weak.Expose": {
-        "Tag": "BuffIcon.Weak.Expose",
-        "DevComment": "暴露无法透墙"
-      },
-      "BuffIcon.Weak.Operational": {
-        "Tag": "BuffIcon.Weak.Operational",
-        "DevComment": "降低人机工效"
-      },
-      "BuffIcon.Strong.Operational": {
-        "Tag": "BuffIcon.Strong.Operational",
-        "DevComment": "增强人机工效"
-      },
-      "BuffIcon.Weak.DisableAim": {
-        "Tag": "BuffIcon.Weak.DisableAim",
-        "DevComment": "禁止开镜"
-      },
-      "BuffIcon.Weak.Speed": {
-        "Tag": "BuffIcon.Weak.Speed",
-        "DevComment": "速度降低"
-      },
-      "BuffIcon.Strong.Speed": {
-        "Tag": "BuffIcon.Strong.Speed",
-        "DevComment": "速度提升"
-      },
-      "BuffIcon.Strong.AttackSpeed": {
-        "Tag": "BuffIcon.Strong.AttackSpeed",
-        "DevComment": "攻速提升"
-      },
-      "BuffIcon.Weak.AttackSpeed": {
-        "Tag": "BuffIcon.Weak.AttackSpeed",
-        "DevComment": "攻速降低"
-      },
-      "BuffIcon.Weak.InvalidHealth": {
-        "Tag": "BuffIcon.Weak.InvalidHealth",
-        "DevComment": "无效化生命"
-      },
-      "BuffIcon.Weak.InvalidArmor": {
-        "Tag": "BuffIcon.Weak.InvalidArmor",
-        "DevComment": "无效化护甲"
-      },
-      "BuffIcon.Weak.HideSight": {
-        "Tag": "BuffIcon.Weak.HideSight",
-        "DevComment": "隐藏准心"
-      },
-      "BuffIcon.Weak.Silence": {
-        "Tag": "BuffIcon.Weak.Silence",
-        "DevComment": "沉默"
-      },
-      "BuffIcon.Weak.Armor": {
-        "Tag": "BuffIcon.Weak.Armor",
-        "DevComment": "护甲破坏"
-      },
-      "BuffIcon.Strong.ExtraArmor": {
-        "Tag": "BuffIcon.Strong.ExtraArmor",
-        "DevComment": "增加临时护甲"
-      },
-      "BuffIcon.Strong.Stealth": {
-        "Tag": "BuffIcon.Strong.Stealth",
-        "DevComment": "隐身"
-      },
-      "BuffIcon.Strong.Stealth.ArousalTwo.Maddelena": {
-        "Tag": "BuffIcon.Strong.Stealth.ArousalTwo.Maddelena",
-        "DevComment": "潜入颜料"
-      },
-      "BuffIcon.Strong.Protected": {
-        "Tag": "BuffIcon.Strong.Protected",
-        "DevComment": "保护"
-      },
-      "BuffIcon.Strong.SkillUp.X.Reiichi": {
-        "Tag": "BuffIcon.Strong.SkillUp.X.Reiichi",
-        "DevComment": "强化光幕"
-      },
-      "BuffIcon.Strong.X.Ming": {
-        "Tag": "BuffIcon.Strong.X.Ming",
-        "DevComment": "减速子弹"
-      },
-      "BuffIcon.Strong.Arousal.Starlight": {
-        "Tag": "BuffIcon.Strong.Arousal.Starlight",
-        "DevComment": "星光携带"
-      },
-      "BuffIcon.Weak.GameMode.StealSpar": {
-        "Tag": "BuffIcon.Weak.GameMode.StealSpar",
-        "DevComment": "采矿模式偷矿"
-      },
-      "BuffIcon.Weak.GameMode.PickSpar": {
-        "Tag": "BuffIcon.Weak.GameMode.PickSpar",
-        "DevComment": "采矿模式运矿"
-      },
-      "BuffIcon.Strong.SpaceTeleport": {
-        "Tag": "BuffIcon.Strong.SpaceTeleport",
-        "DevComment": "星绘传送中"
-      },
-      "BuffIcon.Weak.Vertigo": {
-        "Tag": "BuffIcon.Weak.Vertigo",
-        "DevComment": "眩晕"
-      },
-      "BuffIcon.Weak.Skid": {
-        "Tag": "BuffIcon.Weak.Skid",
-        "DevComment": "伊薇特冰面打滑"
-      },
-      "BuffIcon.Strong.ArmorRecover.Growth.Shield": {
-        "Tag": "BuffIcon.Strong.ArmorRecover.Growth.Shield",
-        "DevComment": "局内成长护甲恢复"
-      },
-      "BuffIcon.Strong.FireAmmo": {
-        "Tag": "BuffIcon.Strong.FireAmmo",
-        "DevComment": "焰弹2D增伤子弹"
-      },
-      "BuffIcon.Strong.FireDuration": {
-        "Tag": "BuffIcon.Strong.FireDuration",
-        "DevComment": "怒气维持"
-      },
-      "BuffIcon.Weak.2DFireDamageDuration": {
-        "Tag": "BuffIcon.Weak.2DFireDamageDuration",
-        "DevComment": "弦化烧伤"
-      },
-      "BuffIcon.Weak.FireWallDamage": {
-        "Tag": "BuffIcon.Weak.FireWallDamage",
-        "DevComment": "火牢壁的烧伤"
-      },
-      "BuffIcon.Strong.FireHealthRecover": {
-        "Tag": "BuffIcon.Strong.FireHealthRecover",
-        "DevComment": "复原之焰"
-      },
-      "BuffIcon.Strong.AmmoRecover": {
-        "Tag": "BuffIcon.Strong.AmmoRecover",
-        "DevComment": "弹药回复"
-      },
-      "BuffIcon.Strong.XPointGainAccelerate": {
-        "Tag": "BuffIcon.Strong.XPointGainAccelerate",
-        "DevComment": "充能加速"
-      },
-      "BuffIcon.Weak.Freeze": {
-        "Tag": "BuffIcon.Weak.Freeze",
-        "DevComment": "冻结"
-      },
-      "BuffIcon.Strong.Butterfly": {
-        "Tag": "BuffIcon.Strong.Butterfly",
-        "DevComment": "反制"
-      },
-      "BuffIcon.Strong.ButterflyHeal": {
-        "Tag": "BuffIcon.Strong.ButterflyHeal",
-        "DevComment": "治疗"
-      },
-      "BuffIcon.Strong.GrenadeCD": {
-        "Tag": "BuffIcon.Strong.GrenadeCD",
-        "DevComment": "战术冷却"
-      }
+    "BuffIcon.Wait.P.Reiichi": {
+      "Tag": "BuffIcon.Wait.P.Reiichi",
+      "DevComment": "令一被动等待时间"
+    },
+    "BuffIcon.Wait.ArousalTwo.Reiichi.Team": {
+      "Tag": "BuffIcon.Wait.ArousalTwo.Reiichi.Team",
+      "DevComment": "令一觉醒2增加队友护甲CD"
+    },
+    "BuffIcon.Wait.ArousalTwo.Reiichi.Enemy": {
+      "Tag": "BuffIcon.Wait.ArousalTwo.Reiichi.Enemy",
+      "DevComment": "令一觉醒2恢复敌人护甲间隔"
+    },
+    "BuffIcon.Weak.FootPrint": {
+      "Tag": "BuffIcon.Weak.FootPrint",
+      "DevComment": "玛德蕾娜染料标记"
+    },
+    "BuffIcon.Weak.SlowDown": {
+      "Tag": "BuffIcon.Weak.SlowDown",
+      "DevComment": "减速【废弃】"
+    },
+    "BuffIcon.Strong.SlowUp": {
+      "Tag": "BuffIcon.Strong.SlowUp",
+      "DevComment": "加速 【废弃】"
+    },
+    "BuffIcon.Weak.ForceFly": {
+      "Tag": "BuffIcon.Weak.ForceFly",
+      "DevComment": "强制飘飞"
+    },
+    "BuffIcon.Strong.DamageFactor": {
+      "Tag": "BuffIcon.Strong.DamageFactor",
+      "DevComment": "受伤降低"
+    },
+    "BuffIcon.Weak.DamageFactor": {
+      "Tag": "BuffIcon.Weak.DamageFactor",
+      "DevComment": "受伤增加"
+    },
+    "BuffIcon.Weak.Block2D": {
+      "Tag": "BuffIcon.Weak.Block2D",
+      "DevComment": "禁用2D"
+    },
+    "BuffIcon.Strong.ArmorRecover": {
+      "Tag": "BuffIcon.Strong.ArmorRecover",
+      "DevComment": "恢复护甲"
+    },
+    "BuffIcon.Strong.ArmorRecover.P.Huixing": {
+      "Tag": "BuffIcon.Strong.ArmorRecover.P.Huixing",
+      "DevComment": "星造甲生"
+    },
+    "BuffIcon.Strong.ArmorMax.Q.Huixing": {
+      "Tag": "BuffIcon.Strong.ArmorMax.Q.Huixing",
+      "DevComment": "流星盾牌"
+    },
+    "BuffIcon.Strong.HealthRecover": {
+      "Tag": "BuffIcon.Strong.HealthRecover",
+      "DevComment": "回血"
+    },
+    "BuffIcon.Strong.HealthRecover.P.Fuchsia": {
+      "Tag": "BuffIcon.Strong.HealthRecover.P.Fuchsia",
+      "DevComment": "储能治疗"
+    },
+    "BuffIcon.Weak.XRay": {
+      "Tag": "BuffIcon.Weak.XRay",
+      "DevComment": "透视"
+    },
+    "BuffIcon.Weak.Expose": {
+      "Tag": "BuffIcon.Weak.Expose",
+      "DevComment": "暴露无法透墙"
+    },
+    "BuffIcon.Weak.Operational": {
+      "Tag": "BuffIcon.Weak.Operational",
+      "DevComment": "降低人机工效"
+    },
+    "BuffIcon.Strong.Operational": {
+      "Tag": "BuffIcon.Strong.Operational",
+      "DevComment": "增强人机工效"
+    },
+    "BuffIcon.Weak.DisableAim": {
+      "Tag": "BuffIcon.Weak.DisableAim",
+      "DevComment": "禁止开镜"
+    },
+    "BuffIcon.Weak.Speed": {
+      "Tag": "BuffIcon.Weak.Speed",
+      "DevComment": "速度降低"
+    },
+    "BuffIcon.Strong.Speed": {
+      "Tag": "BuffIcon.Strong.Speed",
+      "DevComment": "速度提升"
+    },
+    "BuffIcon.Strong.AttackSpeed": {
+      "Tag": "BuffIcon.Strong.AttackSpeed",
+      "DevComment": "攻速提升"
+    },
+    "BuffIcon.Weak.AttackSpeed": {
+      "Tag": "BuffIcon.Weak.AttackSpeed",
+      "DevComment": "攻速降低"
+    },
+    "BuffIcon.Weak.InvalidHealth": {
+      "Tag": "BuffIcon.Weak.InvalidHealth",
+      "DevComment": "无效化生命"
+    },
+    "BuffIcon.Weak.InvalidArmor": {
+      "Tag": "BuffIcon.Weak.InvalidArmor",
+      "DevComment": "无效化护甲"
+    },
+    "BuffIcon.Weak.HideSight": {
+      "Tag": "BuffIcon.Weak.HideSight",
+      "DevComment": "隐藏准心"
+    },
+    "BuffIcon.Weak.Silence": {
+      "Tag": "BuffIcon.Weak.Silence",
+      "DevComment": "沉默"
+    },
+    "BuffIcon.Weak.Armor": {
+      "Tag": "BuffIcon.Weak.Armor",
+      "DevComment": "护甲破坏"
+    },
+    "BuffIcon.Strong.ExtraArmor": {
+      "Tag": "BuffIcon.Strong.ExtraArmor",
+      "DevComment": "增加临时护甲"
+    },
+    "BuffIcon.Strong.Stealth": {
+      "Tag": "BuffIcon.Strong.Stealth",
+      "DevComment": "隐身"
+    },
+    "BuffIcon.Strong.Stealth.ArousalTwo.Maddelena": {
+      "Tag": "BuffIcon.Strong.Stealth.ArousalTwo.Maddelena",
+      "DevComment": "潜入颜料"
+    },
+    "BuffIcon.Strong.Protected": {
+      "Tag": "BuffIcon.Strong.Protected",
+      "DevComment": "保护"
+    },
+    "BuffIcon.Strong.SkillUp.X.Reiichi": {
+      "Tag": "BuffIcon.Strong.SkillUp.X.Reiichi",
+      "DevComment": "强化光幕"
+    },
+    "BuffIcon.Strong.X.Ming": {
+      "Tag": "BuffIcon.Strong.X.Ming",
+      "DevComment": "减速子弹"
+    },
+    "BuffIcon.Strong.Arousal.Starlight": {
+      "Tag": "BuffIcon.Strong.Arousal.Starlight",
+      "DevComment": "星光携带"
+    },
+    "BuffIcon.Weak.GameMode.StealSpar": {
+      "Tag": "BuffIcon.Weak.GameMode.StealSpar",
+      "DevComment": "采矿模式偷矿"
+    },
+    "BuffIcon.Weak.GameMode.PickSpar": {
+      "Tag": "BuffIcon.Weak.GameMode.PickSpar",
+      "DevComment": "采矿模式运矿"
+    },
+    "BuffIcon.Strong.SpaceTeleport": {
+      "Tag": "BuffIcon.Strong.SpaceTeleport",
+      "DevComment": "星绘传送中"
+    },
+    "BuffIcon.Weak.Vertigo": {
+      "Tag": "BuffIcon.Weak.Vertigo",
+      "DevComment": "眩晕"
+    },
+    "BuffIcon.Weak.Skid": {
+      "Tag": "BuffIcon.Weak.Skid",
+      "DevComment": "伊薇特冰面打滑"
+    },
+    "BuffIcon.Strong.ArmorRecover.Growth.Shield": {
+      "Tag": "BuffIcon.Strong.ArmorRecover.Growth.Shield",
+      "DevComment": "局内成长护甲恢复"
+    },
+    "BuffIcon.Strong.FireAmmo": {
+      "Tag": "BuffIcon.Strong.FireAmmo",
+      "DevComment": "焰弹2D增伤子弹"
+    },
+    "BuffIcon.Strong.FireDuration": {
+      "Tag": "BuffIcon.Strong.FireDuration",
+      "DevComment": "怒气维持"
+    },
+    "BuffIcon.Weak.2DFireDamageDuration": {
+      "Tag": "BuffIcon.Weak.2DFireDamageDuration",
+      "DevComment": "弦化烧伤"
+    },
+    "BuffIcon.Weak.FireWallDamage": {
+      "Tag": "BuffIcon.Weak.FireWallDamage",
+      "DevComment": "火牢壁的烧伤"
+    },
+    "BuffIcon.Strong.FireHealthRecover": {
+      "Tag": "BuffIcon.Strong.FireHealthRecover",
+      "DevComment": "复原之焰"
+    },
+    "BuffIcon.Strong.AmmoRecover": {
+      "Tag": "BuffIcon.Strong.AmmoRecover",
+      "DevComment": "弹药回复"
+    },
+    "BuffIcon.Strong.XPointGainAccelerate": {
+      "Tag": "BuffIcon.Strong.XPointGainAccelerate",
+      "DevComment": "充能加速"
+    },
+    "BuffIcon.Weak.Freeze": {
+      "Tag": "BuffIcon.Weak.Freeze",
+      "DevComment": "冻结"
+    },
+    "BuffIcon.Strong.Butterfly": {
+      "Tag": "BuffIcon.Strong.Butterfly",
+      "DevComment": "反制"
+    },
+    "BuffIcon.Strong.ButterflyHeal": {
+      "Tag": "BuffIcon.Strong.ButterflyHeal",
+      "DevComment": "治疗"
+    },
+    "BuffIcon.Strong.GrenadeCD": {
+      "Tag": "BuffIcon.Strong.GrenadeCD",
+      "DevComment": "战术冷却"
     }
   }
-]
+}

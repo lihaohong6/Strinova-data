@@ -1,158 +1,156 @@
-[
-  {
-    "Type": "DataTable",
-    "Name": "TeamMatchDropStage",
-    "Class": "UScriptClass'DataTable'",
-    "Properties": {
-      "RowStruct": {
-        "ObjectName": "ScriptStruct'CyTeamMatchDropStageTableRow'",
-        "ObjectPath": "/Script/PMGame"
-      }
+{
+  "Type": "DataTable",
+  "Name": "TeamMatchDropStage",
+  "Class": "UScriptClass'DataTable'",
+  "Properties": {
+    "RowStruct": {
+      "ObjectName": "ScriptStruct'CyTeamMatchDropStageTableRow'",
+      "ObjectPath": "/Script/PMGame"
+    }
+  },
+  "Rows": {
+    "1": {
+      "DropStageId": 1,
+      "MinScore": 0,
+      "MaxScore": 16,
+      "QuantityWeight": [
+        0,
+        0,
+        0,
+        100
+      ],
+      "GrowthAdjust": [
+        5,
+        7,
+        10,
+        999
+      ],
+      "GrowthAdjustWeight": [
+        100,
+        0,
+        0,
+        0
+      ],
+      "ScoreAdjust": [
+        {
+          "DeviationMin": -9999,
+          "DeviationMax": 0,
+          "AdjustScore": 2
+        },
+        {
+          "DeviationMin": 0,
+          "DeviationMax": 15,
+          "AdjustScore": 1
+        },
+        {
+          "DeviationMin": 15,
+          "DeviationMax": 50,
+          "AdjustScore": 0
+        }
+      ],
+      "DropGrowthTypes": [
+        "EGrowthSlotType::WeaponPart_Sight",
+        "EGrowthSlotType::WeaponPart_Magazine",
+        "EGrowthSlotType::PassiveSkill",
+        "EGrowthSlotType::Shield"
+      ]
     },
-    "Rows": {
-      "1": {
-        "DropStageId": 1,
-        "MinScore": 0,
-        "MaxScore": 16,
-        "QuantityWeight": [
-          0,
-          0,
-          0,
-          100
-        ],
-        "GrowthAdjust": [
-          5,
-          7,
-          10,
-          999
-        ],
-        "GrowthAdjustWeight": [
-          100,
-          0,
-          0,
-          0
-        ],
-        "ScoreAdjust": [
-          {
-            "DeviationMin": -9999,
-            "DeviationMax": 0,
-            "AdjustScore": 2
-          },
-          {
-            "DeviationMin": 0,
-            "DeviationMax": 15,
-            "AdjustScore": 1
-          },
-          {
-            "DeviationMin": 15,
-            "DeviationMax": 50,
-            "AdjustScore": 0
-          }
-        ],
-        "DropGrowthTypes": [
-          "EGrowthSlotType::WeaponPart_Sight",
-          "EGrowthSlotType::WeaponPart_Magazine",
-          "EGrowthSlotType::PassiveSkill",
-          "EGrowthSlotType::Shield"
-        ]
-      },
-      "2": {
-        "DropStageId": 2,
-        "MinScore": 16,
-        "MaxScore": 31,
-        "QuantityWeight": [
-          30,
-          50,
-          15,
-          5
-        ],
-        "GrowthAdjust": [
-          5,
-          7,
-          10,
-          999
-        ],
-        "GrowthAdjustWeight": [
-          30,
-          80,
-          10,
-          0
-        ],
-        "ScoreAdjust": [
-          {
-            "DeviationMin": -9999,
-            "DeviationMax": -10,
-            "AdjustScore": 2
-          },
-          {
-            "DeviationMin": -10,
-            "DeviationMax": -5,
-            "AdjustScore": 1
-          },
-          {
-            "DeviationMin": -5,
-            "DeviationMax": 50,
-            "AdjustScore": 0
-          }
-        ],
-        "DropGrowthTypes": [
-          "EGrowthSlotType::WeaponPart_Sight",
-          "EGrowthSlotType::WeaponPart_Magazine",
-          "EGrowthSlotType::PassiveSkill",
-          "EGrowthSlotType::WeaponPart_Muzzle",
-          "EGrowthSlotType::QSkill",
-          "EGrowthSlotType::Shield"
-        ]
-      },
-      "3": {
-        "DropStageId": 3,
-        "MinScore": 31,
-        "MaxScore": 999999,
-        "QuantityWeight": [
-          0,
-          0,
-          0,
-          100
-        ],
-        "GrowthAdjust": [
-          5,
-          7,
-          10,
-          999
-        ],
-        "GrowthAdjustWeight": [
-          0,
-          50,
-          60,
-          30
-        ],
-        "ScoreAdjust": [
-          {
-            "DeviationMin": -9999,
-            "DeviationMax": -10,
-            "AdjustScore": 2
-          },
-          {
-            "DeviationMin": -10,
-            "DeviationMax": -5,
-            "AdjustScore": 1
-          },
-          {
-            "DeviationMin": -5,
-            "DeviationMax": 50,
-            "AdjustScore": 0
-          }
-        ],
-        "DropGrowthTypes": [
-          "EGrowthSlotType::WeaponPart_Sight",
-          "EGrowthSlotType::WeaponPart_Magazine",
-          "EGrowthSlotType::PassiveSkill",
-          "EGrowthSlotType::WeaponPart_Muzzle",
-          "EGrowthSlotType::QSkill",
-          "EGrowthSlotType::Shield",
-          "EGrowthSlotType::WeaponPart_ButtStock"
-        ]
-      }
+    "2": {
+      "DropStageId": 2,
+      "MinScore": 16,
+      "MaxScore": 31,
+      "QuantityWeight": [
+        30,
+        50,
+        15,
+        5
+      ],
+      "GrowthAdjust": [
+        5,
+        7,
+        10,
+        999
+      ],
+      "GrowthAdjustWeight": [
+        30,
+        80,
+        10,
+        0
+      ],
+      "ScoreAdjust": [
+        {
+          "DeviationMin": -9999,
+          "DeviationMax": -10,
+          "AdjustScore": 2
+        },
+        {
+          "DeviationMin": -10,
+          "DeviationMax": -5,
+          "AdjustScore": 1
+        },
+        {
+          "DeviationMin": -5,
+          "DeviationMax": 50,
+          "AdjustScore": 0
+        }
+      ],
+      "DropGrowthTypes": [
+        "EGrowthSlotType::WeaponPart_Sight",
+        "EGrowthSlotType::WeaponPart_Magazine",
+        "EGrowthSlotType::PassiveSkill",
+        "EGrowthSlotType::WeaponPart_Muzzle",
+        "EGrowthSlotType::QSkill",
+        "EGrowthSlotType::Shield"
+      ]
+    },
+    "3": {
+      "DropStageId": 3,
+      "MinScore": 31,
+      "MaxScore": 999999,
+      "QuantityWeight": [
+        0,
+        0,
+        0,
+        100
+      ],
+      "GrowthAdjust": [
+        5,
+        7,
+        10,
+        999
+      ],
+      "GrowthAdjustWeight": [
+        0,
+        50,
+        60,
+        30
+      ],
+      "ScoreAdjust": [
+        {
+          "DeviationMin": -9999,
+          "DeviationMax": -10,
+          "AdjustScore": 2
+        },
+        {
+          "DeviationMin": -10,
+          "DeviationMax": -5,
+          "AdjustScore": 1
+        },
+        {
+          "DeviationMin": -5,
+          "DeviationMax": 50,
+          "AdjustScore": 0
+        }
+      ],
+      "DropGrowthTypes": [
+        "EGrowthSlotType::WeaponPart_Sight",
+        "EGrowthSlotType::WeaponPart_Magazine",
+        "EGrowthSlotType::PassiveSkill",
+        "EGrowthSlotType::WeaponPart_Muzzle",
+        "EGrowthSlotType::QSkill",
+        "EGrowthSlotType::Shield",
+        "EGrowthSlotType::WeaponPart_ButtStock"
+      ]
     }
   }
-]
+}

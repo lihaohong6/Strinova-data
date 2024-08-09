@@ -1,200 +1,198 @@
-[
-  {
-    "Type": "DataTable",
-    "Name": "DT_Guide_InstallBombDeath_Tips",
-    "Class": "UScriptClass'DataTable'",
-    "Properties": {
-      "RowStruct": {
-        "ObjectName": "ScriptStruct'CyGuideDeathTipsConfig'",
-        "ObjectPath": "/Script/PMGame"
-      }
+{
+  "Type": "DataTable",
+  "Name": "DT_Guide_InstallBombDeath_Tips",
+  "Class": "UScriptClass'DataTable'",
+  "Properties": {
+    "RowStruct": {
+      "ObjectName": "ScriptStruct'CyGuideDeathTipsConfig'",
+      "ObjectPath": "/Script/PMGame"
+    }
+  },
+  "Rows": {
+    "Default": {
+      "Id": 1,
+      "DeathType": "ECyGuideDeathType::None",
+      "DeathInfo": {
+        "Namespace": "",
+        "Key": "DB38F9FA463D90BA27EC78881A3C3AFD",
+        "SourceString": "这里危机四伏，记得躲避攻击",
+        "LocalizedString": "这里危机四伏，记得躲避攻击"
+      },
+      "Tips": {
+        "Namespace": "",
+        "Key": "D158F2A94803527AA06BAF996089979A",
+        "SourceString": "时刻保持警惕之心，再试一次吧",
+        "LocalizedString": "时刻保持警惕之心，再试一次吧"
+      },
+      "TriggerEvents": [
+        {
+          "UniqueName": "None",
+          "EventGameplayTag": {
+            "TagName": "None"
+          },
+          "EventType": "ECyGuideEventType::None",
+          "WeaponEventType": "ECyGuideWeaponEventType::Death",
+          "GuideStateType": "ECyGuideStateType::None",
+          "GuideTaskStateType": "ECyGuideTaskStateType::None",
+          "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
+          "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
+          "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
+          "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
+          "SequenceStateType": "ECySequenceStateType::None",
+          "ActionType": "ECyGuideActionType::None",
+          "MeshModeType": "EMeshModeType::Normal",
+          "GameStateType": "EGStateType::None",
+          "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
+        }
+      ]
     },
-    "Rows": {
-      "Default": {
-        "Id": 1,
-        "DeathType": "ECyGuideDeathType::None",
-        "DeathInfo": {
-          "Namespace": "",
-          "Key": "DB38F9FA463D90BA27EC78881A3C3AFD",
-          "SourceString": "这里危机四伏，记得躲避攻击",
-          "LocalizedString": "这里危机四伏，记得躲避攻击"
-        },
-        "Tips": {
-          "Namespace": "",
-          "Key": "D158F2A94803527AA06BAF996089979A",
-          "SourceString": "时刻保持警惕之心，再试一次吧",
-          "LocalizedString": "时刻保持警惕之心，再试一次吧"
-        },
-        "TriggerEvents": [
-          {
-            "UniqueName": "None",
-            "EventGameplayTag": {
-              "TagName": "None"
-            },
-            "EventType": "ECyGuideEventType::None",
-            "WeaponEventType": "ECyGuideWeaponEventType::Death",
-            "GuideStateType": "ECyGuideStateType::None",
-            "GuideTaskStateType": "ECyGuideTaskStateType::None",
-            "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
-            "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
-            "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
-            "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
-            "SequenceStateType": "ECySequenceStateType::None",
-            "ActionType": "ECyGuideActionType::None",
-            "MeshModeType": "EMeshModeType::Normal",
-            "GameStateType": "EGStateType::None",
-            "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
-          }
-        ]
+    "Suicide": {
+      "Id": 2,
+      "DeathType": "ECyGuideDeathType::Suicide",
+      "DeathInfo": {
+        "Namespace": "",
+        "Key": "85497E2243E1866F6B2F1D9B9C3F1999",
+        "SourceString": "这里危机四伏，记得躲避攻击",
+        "LocalizedString": "这里危机四伏，记得躲避攻击"
       },
-      "Suicide": {
-        "Id": 2,
-        "DeathType": "ECyGuideDeathType::Suicide",
-        "DeathInfo": {
-          "Namespace": "",
-          "Key": "85497E2243E1866F6B2F1D9B9C3F1999",
-          "SourceString": "这里危机四伏，记得躲避攻击",
-          "LocalizedString": "这里危机四伏，记得躲避攻击"
-        },
-        "Tips": {
-          "Namespace": "",
-          "Key": "FB67F9934E697194482BFC86EF94769E",
-          "SourceString": "时刻保持警惕之心，再试一次吧",
-          "LocalizedString": "时刻保持警惕之心，再试一次吧"
-        },
-        "TriggerEvents": [
-          {
-            "UniqueName": "None",
-            "EventGameplayTag": {
-              "TagName": "None"
-            },
-            "EventType": "ECyGuideEventType::None",
-            "WeaponEventType": "ECyGuideWeaponEventType::Death",
-            "GuideStateType": "ECyGuideStateType::None",
-            "GuideTaskStateType": "ECyGuideTaskStateType::None",
-            "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
-            "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
-            "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
-            "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
-            "SequenceStateType": "ECySequenceStateType::None",
-            "ActionType": "ECyGuideActionType::None",
-            "MeshModeType": "EMeshModeType::Normal",
-            "GameStateType": "EGStateType::None",
-            "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
-          }
-        ]
+      "Tips": {
+        "Namespace": "",
+        "Key": "FB67F9934E697194482BFC86EF94769E",
+        "SourceString": "时刻保持警惕之心，再试一次吧",
+        "LocalizedString": "时刻保持警惕之心，再试一次吧"
       },
-      "Enemy": {
-        "Id": 3,
-        "DeathType": "ECyGuideDeathType::Enemy",
-        "DeathInfo": {
-          "Namespace": "",
-          "Key": "EE22F0BF41B89DFB2462CA92B16A5B83",
-          "SourceString": "这里危机四伏，记得躲避攻击",
-          "LocalizedString": "这里危机四伏，记得躲避攻击"
-        },
-        "Tips": {
-          "Namespace": "",
-          "Key": "10B2E48D424076ACF8803CAB7BB4D1E3",
-          "SourceString": "时刻保持警惕之心，再试一次吧",
-          "LocalizedString": "时刻保持警惕之心，再试一次吧"
-        },
-        "TriggerEvents": [
-          {
-            "UniqueName": "None",
-            "EventGameplayTag": {
-              "TagName": "None"
-            },
-            "EventType": "ECyGuideEventType::None",
-            "WeaponEventType": "ECyGuideWeaponEventType::Death",
-            "GuideStateType": "ECyGuideStateType::None",
-            "GuideTaskStateType": "ECyGuideTaskStateType::None",
-            "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
-            "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
-            "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
-            "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
-            "SequenceStateType": "ECySequenceStateType::None",
-            "ActionType": "ECyGuideActionType::None",
-            "MeshModeType": "EMeshModeType::Normal",
-            "GameStateType": "EGStateType::None",
-            "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
-          }
-        ]
+      "TriggerEvents": [
+        {
+          "UniqueName": "None",
+          "EventGameplayTag": {
+            "TagName": "None"
+          },
+          "EventType": "ECyGuideEventType::None",
+          "WeaponEventType": "ECyGuideWeaponEventType::Death",
+          "GuideStateType": "ECyGuideStateType::None",
+          "GuideTaskStateType": "ECyGuideTaskStateType::None",
+          "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
+          "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
+          "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
+          "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
+          "SequenceStateType": "ECySequenceStateType::None",
+          "ActionType": "ECyGuideActionType::None",
+          "MeshModeType": "EMeshModeType::Normal",
+          "GameStateType": "EGStateType::None",
+          "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
+        }
+      ]
+    },
+    "Enemy": {
+      "Id": 3,
+      "DeathType": "ECyGuideDeathType::Enemy",
+      "DeathInfo": {
+        "Namespace": "",
+        "Key": "EE22F0BF41B89DFB2462CA92B16A5B83",
+        "SourceString": "这里危机四伏，记得躲避攻击",
+        "LocalizedString": "这里危机四伏，记得躲避攻击"
       },
-      "System": {
-        "Id": 4,
-        "DeathType": "ECyGuideDeathType::System",
-        "DeathInfo": {
-          "Namespace": "",
-          "Key": "3BA92D414E66683889A501B41B623E65",
-          "SourceString": "这里危机四伏，记得躲避攻击",
-          "LocalizedString": "这里危机四伏，记得躲避攻击"
-        },
-        "Tips": {
-          "Namespace": "",
-          "Key": "5304D05F46EF4207DFACBAA3EA787269",
-          "SourceString": "时刻保持警惕之心，再试一次吧",
-          "LocalizedString": "时刻保持警惕之心，再试一次吧"
-        },
-        "TriggerEvents": [
-          {
-            "UniqueName": "None",
-            "EventGameplayTag": {
-              "TagName": "None"
-            },
-            "EventType": "ECyGuideEventType::None",
-            "WeaponEventType": "ECyGuideWeaponEventType::Death",
-            "GuideStateType": "ECyGuideStateType::None",
-            "GuideTaskStateType": "ECyGuideTaskStateType::None",
-            "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
-            "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
-            "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
-            "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
-            "SequenceStateType": "ECySequenceStateType::None",
-            "ActionType": "ECyGuideActionType::None",
-            "MeshModeType": "EMeshModeType::Normal",
-            "GameStateType": "EGStateType::None",
-            "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
-          }
-        ]
+      "Tips": {
+        "Namespace": "",
+        "Key": "10B2E48D424076ACF8803CAB7BB4D1E3",
+        "SourceString": "时刻保持警惕之心，再试一次吧",
+        "LocalizedString": "时刻保持警惕之心，再试一次吧"
       },
-      "Fall": {
-        "Id": 9,
-        "DeathType": "ECyGuideDeathType::None",
-        "DeathInfo": {
-          "Namespace": "",
-          "Key": "B423DCDA48EE3CEA0B687EA3B4B4AD4F",
-          "SourceString": "这里危机四伏，记得躲避攻击",
-          "LocalizedString": "这里危机四伏，记得躲避攻击"
-        },
-        "Tips": {
-          "Namespace": "",
-          "Key": "4E6DA52E40742E737880A7A5F2B20F1C",
-          "SourceString": "请小心脚下",
-          "LocalizedString": "请小心脚下"
-        },
-        "TriggerEvents": [
-          {
-            "UniqueName": "None",
-            "EventGameplayTag": {
-              "TagName": "None"
-            },
-            "EventType": "ECyGuideEventType::None",
-            "WeaponEventType": "ECyGuideWeaponEventType::Death",
-            "GuideStateType": "ECyGuideStateType::None",
-            "GuideTaskStateType": "ECyGuideTaskStateType::None",
-            "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
-            "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
-            "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
-            "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
-            "SequenceStateType": "ECySequenceStateType::None",
-            "ActionType": "ECyGuideActionType::None",
-            "MeshModeType": "EMeshModeType::Normal",
-            "GameStateType": "EGStateType::None",
-            "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
-          }
-        ]
-      }
+      "TriggerEvents": [
+        {
+          "UniqueName": "None",
+          "EventGameplayTag": {
+            "TagName": "None"
+          },
+          "EventType": "ECyGuideEventType::None",
+          "WeaponEventType": "ECyGuideWeaponEventType::Death",
+          "GuideStateType": "ECyGuideStateType::None",
+          "GuideTaskStateType": "ECyGuideTaskStateType::None",
+          "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
+          "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
+          "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
+          "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
+          "SequenceStateType": "ECySequenceStateType::None",
+          "ActionType": "ECyGuideActionType::None",
+          "MeshModeType": "EMeshModeType::Normal",
+          "GameStateType": "EGStateType::None",
+          "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
+        }
+      ]
+    },
+    "System": {
+      "Id": 4,
+      "DeathType": "ECyGuideDeathType::System",
+      "DeathInfo": {
+        "Namespace": "",
+        "Key": "3BA92D414E66683889A501B41B623E65",
+        "SourceString": "这里危机四伏，记得躲避攻击",
+        "LocalizedString": "这里危机四伏，记得躲避攻击"
+      },
+      "Tips": {
+        "Namespace": "",
+        "Key": "5304D05F46EF4207DFACBAA3EA787269",
+        "SourceString": "时刻保持警惕之心，再试一次吧",
+        "LocalizedString": "时刻保持警惕之心，再试一次吧"
+      },
+      "TriggerEvents": [
+        {
+          "UniqueName": "None",
+          "EventGameplayTag": {
+            "TagName": "None"
+          },
+          "EventType": "ECyGuideEventType::None",
+          "WeaponEventType": "ECyGuideWeaponEventType::Death",
+          "GuideStateType": "ECyGuideStateType::None",
+          "GuideTaskStateType": "ECyGuideTaskStateType::None",
+          "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
+          "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
+          "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
+          "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
+          "SequenceStateType": "ECySequenceStateType::None",
+          "ActionType": "ECyGuideActionType::None",
+          "MeshModeType": "EMeshModeType::Normal",
+          "GameStateType": "EGStateType::None",
+          "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
+        }
+      ]
+    },
+    "Fall": {
+      "Id": 9,
+      "DeathType": "ECyGuideDeathType::None",
+      "DeathInfo": {
+        "Namespace": "",
+        "Key": "B423DCDA48EE3CEA0B687EA3B4B4AD4F",
+        "SourceString": "这里危机四伏，记得躲避攻击",
+        "LocalizedString": "这里危机四伏，记得躲避攻击"
+      },
+      "Tips": {
+        "Namespace": "",
+        "Key": "4E6DA52E40742E737880A7A5F2B20F1C",
+        "SourceString": "请小心脚下",
+        "LocalizedString": "请小心脚下"
+      },
+      "TriggerEvents": [
+        {
+          "UniqueName": "None",
+          "EventGameplayTag": {
+            "TagName": "None"
+          },
+          "EventType": "ECyGuideEventType::None",
+          "WeaponEventType": "ECyGuideWeaponEventType::Death",
+          "GuideStateType": "ECyGuideStateType::None",
+          "GuideTaskStateType": "ECyGuideTaskStateType::None",
+          "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
+          "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
+          "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
+          "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
+          "SequenceStateType": "ECySequenceStateType::None",
+          "ActionType": "ECyGuideActionType::None",
+          "MeshModeType": "EMeshModeType::Normal",
+          "GameStateType": "EGStateType::None",
+          "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
+        }
+      ]
     }
   }
-]
+}

@@ -1,822 +1,820 @@
-[
-  {
-    "Type": "DataTable",
-    "Name": "BuffInGame",
-    "Class": "UScriptClass'DataTable'",
-    "Properties": {
-      "RowStruct": {
-        "ObjectName": "ScriptStruct'CyBuffInGameTableRow'",
-        "ObjectPath": "/Script/PMGame"
-      }
+{
+  "Type": "DataTable",
+  "Name": "BuffInGame",
+  "Class": "UScriptClass'DataTable'",
+  "Properties": {
+    "RowStruct": {
+      "ObjectName": "ScriptStruct'CyBuffInGameTableRow'",
+      "ObjectPath": "/Script/PMGame"
+    }
+  },
+  "Rows": {
+    "BuffIcon.Wait.P.Nobunaga": {
+      "Tag": {
+        "TagName": "BuffIcon.Wait.P.Nobunaga"
+      },
+      "DevComment": "信长被动开镜延迟Buff显示",
+      "BuffType": 3,
+      "BuffDes": {
+        "Namespace": "BuffInGame",
+        "Key": "BuffIcon.Wait.P.Nobunaga_BuffDes",
+        "SourceString": "无",
+        "LocalizedString": "无"
+      },
+      "BuffKey": 0,
+      "BuffUseOngoing": 0
     },
-    "Rows": {
-      "BuffIcon.Wait.P.Nobunaga": {
-        "Tag": {
-          "TagName": "BuffIcon.Wait.P.Nobunaga"
-        },
-        "DevComment": "信长被动开镜延迟Buff显示",
-        "BuffType": 3,
-        "BuffDes": {
-          "Namespace": "BuffInGame",
-          "Key": "BuffIcon.Wait.P.Nobunaga_BuffDes",
-          "SourceString": "无",
-          "LocalizedString": "无"
-        },
-        "BuffKey": 0,
-        "BuffUseOngoing": 0
+    "BuffIcon.Wait.P.Reiichi": {
+      "Tag": {
+        "TagName": "BuffIcon.Wait.P.Reiichi"
       },
-      "BuffIcon.Wait.P.Reiichi": {
-        "Tag": {
-          "TagName": "BuffIcon.Wait.P.Reiichi"
-        },
-        "DevComment": "令一被动等待时间",
-        "BuffType": 3,
-        "BuffDes": {
-          "Namespace": "BuffInGame",
-          "Key": "BuffIcon.Wait.P.Reiichi_BuffDes",
-          "SourceString": "无",
-          "LocalizedString": "无"
-        },
-        "BuffKey": 0,
-        "BuffUseOngoing": 0
+      "DevComment": "令一被动等待时间",
+      "BuffType": 3,
+      "BuffDes": {
+        "Namespace": "BuffInGame",
+        "Key": "BuffIcon.Wait.P.Reiichi_BuffDes",
+        "SourceString": "无",
+        "LocalizedString": "无"
       },
-      "BuffIcon.Wait.ArousalTwo.Reiichi.Team": {
-        "Tag": {
-          "TagName": "BuffIcon.Wait.ArousalTwo.Reiichi.Team"
-        },
-        "DevComment": "令一觉醒2增加队友护甲CD",
-        "BuffType": 1,
-        "BuffDes": {
-          "Namespace": "BuffInGame",
-          "Key": "BuffIcon.Wait.ArousalTwo.Reiichi.Team_BuffDes",
-          "SourceString": "临时护甲",
-          "LocalizedString": "临时护甲"
-        },
-        "BuffKey": 1,
-        "BuffUseOngoing": 0
+      "BuffKey": 0,
+      "BuffUseOngoing": 0
+    },
+    "BuffIcon.Wait.ArousalTwo.Reiichi.Team": {
+      "Tag": {
+        "TagName": "BuffIcon.Wait.ArousalTwo.Reiichi.Team"
       },
-      "BuffIcon.Wait.ArousalTwo.Reiichi.Enemy": {
-        "Tag": {
-          "TagName": "BuffIcon.Wait.ArousalTwo.Reiichi.Enemy"
-        },
-        "DevComment": "令一觉醒2恢复敌人护甲间隔",
-        "BuffType": 2,
-        "BuffDes": {
-          "Namespace": "BuffInGame",
-          "Key": "BuffIcon.Wait.ArousalTwo.Reiichi.Enemy_BuffDes",
-          "SourceString": "护甲腐蚀",
-          "LocalizedString": "护甲腐蚀"
-        },
-        "BuffKey": 8,
-        "BuffUseOngoing": 0
+      "DevComment": "令一觉醒2增加队友护甲CD",
+      "BuffType": 1,
+      "BuffDes": {
+        "Namespace": "BuffInGame",
+        "Key": "BuffIcon.Wait.ArousalTwo.Reiichi.Team_BuffDes",
+        "SourceString": "临时护甲",
+        "LocalizedString": "临时护甲"
       },
-      "BuffIcon.Weak.FootPrint": {
-        "Tag": {
-          "TagName": "BuffIcon.Weak.FootPrint"
-        },
-        "DevComment": "玛德蕾娜染料标记",
-        "BuffType": 2,
-        "BuffDes": {
-          "Namespace": "BuffInGame",
-          "Key": "BuffIcon.Weak.FootPrint_BuffDes",
-          "SourceString": "暴露脚印",
-          "LocalizedString": "暴露脚印"
-        },
-        "BuffKey": 12,
-        "BuffUseOngoing": 0
+      "BuffKey": 1,
+      "BuffUseOngoing": 0
+    },
+    "BuffIcon.Wait.ArousalTwo.Reiichi.Enemy": {
+      "Tag": {
+        "TagName": "BuffIcon.Wait.ArousalTwo.Reiichi.Enemy"
       },
-      "BuffIcon.Weak.SlowDown": {
-        "Tag": {
-          "TagName": "BuffIcon.Weak.SlowDown"
-        },
-        "DevComment": "减速【废弃】",
-        "BuffType": 2,
-        "BuffDes": {
-          "Namespace": "BuffInGame",
-          "Key": "BuffIcon.Weak.SlowDown_BuffDes",
-          "SourceString": "减速",
-          "LocalizedString": "减速"
-        },
-        "BuffKey": 6,
-        "BuffUseOngoing": 0
+      "DevComment": "令一觉醒2恢复敌人护甲间隔",
+      "BuffType": 2,
+      "BuffDes": {
+        "Namespace": "BuffInGame",
+        "Key": "BuffIcon.Wait.ArousalTwo.Reiichi.Enemy_BuffDes",
+        "SourceString": "护甲腐蚀",
+        "LocalizedString": "护甲腐蚀"
       },
-      "BuffIcon.Strong.SlowUp": {
-        "Tag": {
-          "TagName": "BuffIcon.Strong.SlowUp"
-        },
-        "DevComment": "加速 【废弃】",
-        "BuffType": 1,
-        "BuffDes": {
-          "Namespace": "BuffInGame",
-          "Key": "BuffIcon.Strong.SlowUp_BuffDes",
-          "SourceString": "加速",
-          "LocalizedString": "加速"
-        },
-        "BuffKey": 7,
-        "BuffUseOngoing": 0
+      "BuffKey": 8,
+      "BuffUseOngoing": 0
+    },
+    "BuffIcon.Weak.FootPrint": {
+      "Tag": {
+        "TagName": "BuffIcon.Weak.FootPrint"
       },
-      "BuffIcon.Weak.ForceFly": {
-        "Tag": {
-          "TagName": "BuffIcon.Weak.ForceFly"
-        },
-        "DevComment": "强制飘飞",
-        "BuffType": 2,
-        "BuffDes": {
-          "Namespace": "BuffInGame",
-          "Key": "BuffIcon.Weak.ForceFly_BuffDes",
-          "SourceString": "强制飘飞",
-          "LocalizedString": "强制飘飞"
-        },
-        "BuffKey": 10,
-        "BuffUseOngoing": 0
+      "DevComment": "玛德蕾娜染料标记",
+      "BuffType": 2,
+      "BuffDes": {
+        "Namespace": "BuffInGame",
+        "Key": "BuffIcon.Weak.FootPrint_BuffDes",
+        "SourceString": "暴露脚印",
+        "LocalizedString": "暴露脚印"
       },
-      "BuffIcon.Strong.DamageFactor": {
-        "Tag": {
-          "TagName": "BuffIcon.Strong.DamageFactor"
-        },
-        "DevComment": "受伤降低",
-        "BuffType": 1,
-        "BuffDes": {
-          "Namespace": "BuffInGame",
-          "Key": "BuffIcon.Strong.DamageFactor_BuffDes",
-          "SourceString": "坚韧",
-          "LocalizedString": "坚韧"
-        },
-        "BuffKey": 4,
-        "BuffUseOngoing": 0
+      "BuffKey": 12,
+      "BuffUseOngoing": 0
+    },
+    "BuffIcon.Weak.SlowDown": {
+      "Tag": {
+        "TagName": "BuffIcon.Weak.SlowDown"
       },
-      "BuffIcon.Weak.DamageFactor": {
-        "Tag": {
-          "TagName": "BuffIcon.Weak.DamageFactor"
-        },
-        "DevComment": "受伤增加",
-        "BuffType": 2,
-        "BuffDes": {
-          "Namespace": "BuffInGame",
-          "Key": "BuffIcon.Weak.DamageFactor_BuffDes",
-          "SourceString": "易损",
-          "LocalizedString": "易损"
-        },
-        "BuffKey": 5,
-        "BuffUseOngoing": 0
+      "DevComment": "减速【废弃】",
+      "BuffType": 2,
+      "BuffDes": {
+        "Namespace": "BuffInGame",
+        "Key": "BuffIcon.Weak.SlowDown_BuffDes",
+        "SourceString": "减速",
+        "LocalizedString": "减速"
       },
-      "BuffIcon.Weak.Block2D": {
-        "Tag": {
-          "TagName": "BuffIcon.Weak.Block2D"
-        },
-        "DevComment": "禁用2D",
-        "BuffType": 2,
-        "BuffDes": {
-          "Namespace": "BuffInGame",
-          "Key": "BuffIcon.Weak.Block2D_BuffDes",
-          "SourceString": "弦化禁止",
-          "LocalizedString": "弦化禁止"
-        },
-        "BuffKey": 9,
-        "BuffUseOngoing": 0
+      "BuffKey": 6,
+      "BuffUseOngoing": 0
+    },
+    "BuffIcon.Strong.SlowUp": {
+      "Tag": {
+        "TagName": "BuffIcon.Strong.SlowUp"
       },
-      "BuffIcon.Strong.ArmorRecover": {
-        "Tag": {
-          "TagName": "BuffIcon.Strong.ArmorRecover"
-        },
-        "DevComment": "恢复护甲",
-        "BuffType": 1,
-        "BuffDes": {
-          "Namespace": "BuffInGame",
-          "Key": "BuffIcon.Strong.ArmorRecover_BuffDes",
-          "SourceString": "护甲回复",
-          "LocalizedString": "护甲回复"
-        },
-        "BuffKey": 2,
-        "BuffUseOngoing": 0
+      "DevComment": "加速 【废弃】",
+      "BuffType": 1,
+      "BuffDes": {
+        "Namespace": "BuffInGame",
+        "Key": "BuffIcon.Strong.SlowUp_BuffDes",
+        "SourceString": "加速",
+        "LocalizedString": "加速"
       },
-      "BuffIcon.Strong.ArmorRecover.P.Huixing": {
-        "Tag": {
-          "TagName": "BuffIcon.Strong.ArmorRecover.P.Huixing"
-        },
-        "DevComment": "星造甲生",
-        "BuffType": 1,
-        "BuffDes": {
-          "Namespace": "BuffInGame",
-          "Key": "BuffIcon.Strong.ArmorRecover.P.Huixing_BuffDes",
-          "SourceString": "护甲回复",
-          "LocalizedString": "护甲回复"
-        },
-        "BuffKey": 2,
-        "BuffUseOngoing": 0
+      "BuffKey": 7,
+      "BuffUseOngoing": 0
+    },
+    "BuffIcon.Weak.ForceFly": {
+      "Tag": {
+        "TagName": "BuffIcon.Weak.ForceFly"
       },
-      "BuffIcon.Strong.ArmorMax.Q.Huixing": {
-        "Tag": {
-          "TagName": "BuffIcon.Strong.ArmorMax.Q.Huixing"
-        },
-        "DevComment": "流星盾牌",
-        "BuffType": 1,
-        "BuffDes": {
-          "Namespace": "BuffInGame",
-          "Key": "BuffIcon.Strong.ArmorMax.Q.Huixing_BuffDes",
-          "SourceString": "额外护甲",
-          "LocalizedString": "额外护甲"
-        },
-        "BuffKey": 3,
-        "BuffUseOngoing": 0
+      "DevComment": "强制飘飞",
+      "BuffType": 2,
+      "BuffDes": {
+        "Namespace": "BuffInGame",
+        "Key": "BuffIcon.Weak.ForceFly_BuffDes",
+        "SourceString": "强制飘飞",
+        "LocalizedString": "强制飘飞"
       },
-      "BuffIcon.Strong.HealthRecover": {
-        "Tag": {
-          "TagName": "BuffIcon.Strong.HealthRecover"
-        },
-        "DevComment": "回血",
-        "BuffType": 1,
-        "BuffDes": {
-          "Namespace": "BuffInGame",
-          "Key": "BuffIcon.Strong.HealthRecover_BuffDes",
-          "SourceString": "治疗",
-          "LocalizedString": "治疗"
-        },
-        "BuffKey": 14,
-        "BuffUseOngoing": 0
+      "BuffKey": 10,
+      "BuffUseOngoing": 0
+    },
+    "BuffIcon.Strong.DamageFactor": {
+      "Tag": {
+        "TagName": "BuffIcon.Strong.DamageFactor"
       },
-      "BuffIcon.Strong.HealthRecover.P.Fuchsia": {
-        "Tag": {
-          "TagName": "BuffIcon.Strong.HealthRecover.P.Fuchsia"
-        },
-        "DevComment": "储能治疗",
-        "BuffType": 1,
-        "BuffDes": {
-          "Namespace": "BuffInGame",
-          "Key": "BuffIcon.Strong.HealthRecover.P.Fuchsia_BuffDes",
-          "SourceString": "储能治疗",
-          "LocalizedString": "储能治疗"
-        },
-        "BuffKey": 15,
-        "BuffUseOngoing": 0
+      "DevComment": "受伤降低",
+      "BuffType": 1,
+      "BuffDes": {
+        "Namespace": "BuffInGame",
+        "Key": "BuffIcon.Strong.DamageFactor_BuffDes",
+        "SourceString": "坚韧",
+        "LocalizedString": "坚韧"
       },
-      "BuffIcon.Weak.XRay": {
-        "Tag": {
-          "TagName": "BuffIcon.Weak.XRay"
-        },
-        "DevComment": "透视",
-        "BuffType": 2,
-        "BuffDes": {
-          "Namespace": "BuffInGame",
-          "Key": "BuffIcon.Weak.XRay_BuffDes",
-          "SourceString": "位置暴露",
-          "LocalizedString": "位置暴露"
-        },
-        "BuffKey": 13,
-        "BuffUseOngoing": 0
+      "BuffKey": 4,
+      "BuffUseOngoing": 0
+    },
+    "BuffIcon.Weak.DamageFactor": {
+      "Tag": {
+        "TagName": "BuffIcon.Weak.DamageFactor"
       },
-      "BuffIcon.Weak.Expose": {
-        "Tag": {
-          "TagName": "BuffIcon.Weak.Expose"
-        },
-        "DevComment": "暴露无法透墙",
-        "BuffType": 2,
-        "BuffDes": {
-          "Namespace": "BuffInGame",
-          "Key": "BuffIcon.Weak.Expose_BuffDes",
-          "SourceString": "位置暴露",
-          "LocalizedString": "位置暴露"
-        },
-        "BuffKey": 13,
-        "BuffUseOngoing": 0
+      "DevComment": "受伤增加",
+      "BuffType": 2,
+      "BuffDes": {
+        "Namespace": "BuffInGame",
+        "Key": "BuffIcon.Weak.DamageFactor_BuffDes",
+        "SourceString": "易损",
+        "LocalizedString": "易损"
       },
-      "BuffIcon.Weak.Operational": {
-        "Tag": {
-          "TagName": "BuffIcon.Weak.Operational"
-        },
-        "DevComment": "降低人机工效",
-        "BuffType": 2,
-        "BuffDes": {
-          "Namespace": "BuffInGame",
-          "Key": "BuffIcon.Weak.Operational_BuffDes",
-          "SourceString": "人机减弱",
-          "LocalizedString": "人机减弱"
-        },
-        "BuffKey": 27,
-        "BuffUseOngoing": 0
+      "BuffKey": 5,
+      "BuffUseOngoing": 0
+    },
+    "BuffIcon.Weak.Block2D": {
+      "Tag": {
+        "TagName": "BuffIcon.Weak.Block2D"
       },
-      "BuffIcon.Strong.Operational": {
-        "Tag": {
-          "TagName": "BuffIcon.Strong.Operational"
-        },
-        "DevComment": "增强人机工效",
-        "BuffType": 1,
-        "BuffDes": {
-          "Namespace": "BuffInGame",
-          "Key": "BuffIcon.Strong.Operational_BuffDes",
-          "SourceString": "人机增强",
-          "LocalizedString": "人机增强"
-        },
-        "BuffKey": 28,
-        "BuffUseOngoing": 0
+      "DevComment": "禁用2D",
+      "BuffType": 2,
+      "BuffDes": {
+        "Namespace": "BuffInGame",
+        "Key": "BuffIcon.Weak.Block2D_BuffDes",
+        "SourceString": "弦化禁止",
+        "LocalizedString": "弦化禁止"
       },
-      "BuffIcon.Weak.DisableAim": {
-        "Tag": {
-          "TagName": "BuffIcon.Weak.DisableAim"
-        },
-        "DevComment": "禁止开镜",
-        "BuffType": 2,
-        "BuffDes": {
-          "Namespace": "BuffInGame",
-          "Key": "BuffIcon.Weak.DisableAim_BuffDes",
-          "SourceString": "禁止开镜",
-          "LocalizedString": "禁止开镜"
-        },
-        "BuffKey": 29,
-        "BuffUseOngoing": 0
+      "BuffKey": 9,
+      "BuffUseOngoing": 0
+    },
+    "BuffIcon.Strong.ArmorRecover": {
+      "Tag": {
+        "TagName": "BuffIcon.Strong.ArmorRecover"
       },
-      "BuffIcon.Weak.Speed": {
-        "Tag": {
-          "TagName": "BuffIcon.Weak.Speed"
-        },
-        "DevComment": "速度降低",
-        "BuffType": 2,
-        "BuffDes": {
-          "Namespace": "BuffInGame",
-          "Key": "BuffIcon.Weak.Speed_BuffDes",
-          "SourceString": "减速",
-          "LocalizedString": "减速"
-        },
-        "BuffKey": 6,
-        "BuffUseOngoing": 0
+      "DevComment": "恢复护甲",
+      "BuffType": 1,
+      "BuffDes": {
+        "Namespace": "BuffInGame",
+        "Key": "BuffIcon.Strong.ArmorRecover_BuffDes",
+        "SourceString": "护甲回复",
+        "LocalizedString": "护甲回复"
       },
-      "BuffIcon.Strong.Speed": {
-        "Tag": {
-          "TagName": "BuffIcon.Strong.Speed"
-        },
-        "DevComment": "速度提升",
-        "BuffType": 1,
-        "BuffDes": {
-          "Namespace": "BuffInGame",
-          "Key": "BuffIcon.Strong.Speed_BuffDes",
-          "SourceString": "加速",
-          "LocalizedString": "加速"
-        },
-        "BuffKey": 7,
-        "BuffUseOngoing": 0
+      "BuffKey": 2,
+      "BuffUseOngoing": 0
+    },
+    "BuffIcon.Strong.ArmorRecover.P.Huixing": {
+      "Tag": {
+        "TagName": "BuffIcon.Strong.ArmorRecover.P.Huixing"
       },
-      "BuffIcon.Strong.AttackSpeed": {
-        "Tag": {
-          "TagName": "BuffIcon.Strong.AttackSpeed"
-        },
-        "DevComment": "攻速提升",
-        "BuffType": 1,
-        "BuffDes": {
-          "Namespace": "BuffInGame",
-          "Key": "BuffIcon.Strong.AttackSpeed_BuffDes",
-          "SourceString": "战意激发",
-          "LocalizedString": "战意激发"
-        },
-        "BuffKey": 30,
-        "BuffUseOngoing": 0
+      "DevComment": "星造甲生",
+      "BuffType": 1,
+      "BuffDes": {
+        "Namespace": "BuffInGame",
+        "Key": "BuffIcon.Strong.ArmorRecover.P.Huixing_BuffDes",
+        "SourceString": "护甲回复",
+        "LocalizedString": "护甲回复"
       },
-      "BuffIcon.Weak.AttackSpeed": {
-        "Tag": {
-          "TagName": "BuffIcon.Weak.AttackSpeed"
-        },
-        "DevComment": "攻速降低",
-        "BuffType": 2,
-        "BuffDes": {
-          "Namespace": "BuffInGame",
-          "Key": "BuffIcon.Weak.AttackSpeed_BuffDes",
-          "SourceString": "降低射速",
-          "LocalizedString": "降低射速"
-        },
-        "BuffKey": 31,
-        "BuffUseOngoing": 0
+      "BuffKey": 2,
+      "BuffUseOngoing": 0
+    },
+    "BuffIcon.Strong.ArmorMax.Q.Huixing": {
+      "Tag": {
+        "TagName": "BuffIcon.Strong.ArmorMax.Q.Huixing"
       },
-      "BuffIcon.Weak.InvalidHealth": {
-        "Tag": {
-          "TagName": "BuffIcon.Weak.InvalidHealth"
-        },
-        "DevComment": "无效化生命",
-        "BuffType": 2,
-        "BuffDes": {
-          "Namespace": "BuffInGame",
-          "Key": "BuffIcon.Weak.InvalidHealth_BuffDes",
-          "SourceString": "枯萎",
-          "LocalizedString": "枯萎"
-        },
-        "BuffKey": 16,
-        "BuffUseOngoing": 0
+      "DevComment": "流星盾牌",
+      "BuffType": 1,
+      "BuffDes": {
+        "Namespace": "BuffInGame",
+        "Key": "BuffIcon.Strong.ArmorMax.Q.Huixing_BuffDes",
+        "SourceString": "额外护甲",
+        "LocalizedString": "额外护甲"
       },
-      "BuffIcon.Weak.InvalidArmor": {
-        "Tag": {
-          "TagName": "BuffIcon.Weak.InvalidArmor"
-        },
-        "DevComment": "无效化护甲",
-        "BuffType": 2,
-        "BuffDes": {
-          "Namespace": "BuffInGame",
-          "Key": "BuffIcon.Weak.InvalidArmor_BuffDes",
-          "SourceString": "护甲腐蚀",
-          "LocalizedString": "护甲腐蚀"
-        },
-        "BuffKey": 8,
-        "BuffUseOngoing": 0
+      "BuffKey": 3,
+      "BuffUseOngoing": 0
+    },
+    "BuffIcon.Strong.HealthRecover": {
+      "Tag": {
+        "TagName": "BuffIcon.Strong.HealthRecover"
       },
-      "BuffIcon.Weak.HideSight": {
-        "Tag": {
-          "TagName": "BuffIcon.Weak.HideSight"
-        },
-        "DevComment": "隐藏准心",
-        "BuffType": 2,
-        "BuffDes": {
-          "Namespace": "BuffInGame",
-          "Key": "BuffIcon.Weak.HideSight_BuffDes",
-          "SourceString": "瞄准致盲",
-          "LocalizedString": "瞄准致盲"
-        },
-        "BuffKey": 32,
-        "BuffUseOngoing": 0
+      "DevComment": "回血",
+      "BuffType": 1,
+      "BuffDes": {
+        "Namespace": "BuffInGame",
+        "Key": "BuffIcon.Strong.HealthRecover_BuffDes",
+        "SourceString": "治疗",
+        "LocalizedString": "治疗"
       },
-      "BuffIcon.Weak.Silence": {
-        "Tag": {
-          "TagName": "BuffIcon.Weak.Silence"
-        },
-        "DevComment": "沉默",
-        "BuffType": 2,
-        "BuffDes": {
-          "Namespace": "BuffInGame",
-          "Key": "BuffIcon.Weak.Silence_BuffDes",
-          "SourceString": "沉默",
-          "LocalizedString": "沉默"
-        },
-        "BuffKey": 33,
-        "BuffUseOngoing": 0
+      "BuffKey": 14,
+      "BuffUseOngoing": 0
+    },
+    "BuffIcon.Strong.HealthRecover.P.Fuchsia": {
+      "Tag": {
+        "TagName": "BuffIcon.Strong.HealthRecover.P.Fuchsia"
       },
-      "BuffIcon.Weak.Armor": {
-        "Tag": {
-          "TagName": "BuffIcon.Weak.Armor"
-        },
-        "DevComment": "护甲破坏",
-        "BuffType": 2,
-        "BuffDes": {
-          "Namespace": "BuffInGame",
-          "Key": "BuffIcon.Weak.Armor_BuffDes",
-          "SourceString": "护甲破坏",
-          "LocalizedString": "护甲破坏"
-        },
-        "BuffKey": 34,
-        "BuffUseOngoing": 0
+      "DevComment": "储能治疗",
+      "BuffType": 1,
+      "BuffDes": {
+        "Namespace": "BuffInGame",
+        "Key": "BuffIcon.Strong.HealthRecover.P.Fuchsia_BuffDes",
+        "SourceString": "储能治疗",
+        "LocalizedString": "储能治疗"
       },
-      "BuffIcon.Strong.ExtraArmor": {
-        "Tag": {
-          "TagName": "BuffIcon.Strong.ExtraArmor"
-        },
-        "DevComment": "增加临时护甲",
-        "BuffType": 1,
-        "BuffDes": {
-          "Namespace": "BuffInGame",
-          "Key": "BuffIcon.Strong.ExtraArmor_BuffDes",
-          "SourceString": "临时护甲",
-          "LocalizedString": "临时护甲"
-        },
-        "BuffKey": 1,
-        "BuffUseOngoing": 0
+      "BuffKey": 15,
+      "BuffUseOngoing": 0
+    },
+    "BuffIcon.Weak.XRay": {
+      "Tag": {
+        "TagName": "BuffIcon.Weak.XRay"
       },
-      "BuffIcon.Strong.Stealth": {
-        "Tag": {
-          "TagName": "BuffIcon.Strong.Stealth"
-        },
-        "DevComment": "隐身",
-        "BuffType": 1,
-        "BuffDes": {
-          "Namespace": "BuffInGame",
-          "Key": "BuffIcon.Strong.Stealth_BuffDes",
-          "SourceString": "隐身",
-          "LocalizedString": "隐身"
-        },
-        "BuffKey": 17,
-        "BuffUseOngoing": 0
+      "DevComment": "透视",
+      "BuffType": 2,
+      "BuffDes": {
+        "Namespace": "BuffInGame",
+        "Key": "BuffIcon.Weak.XRay_BuffDes",
+        "SourceString": "位置暴露",
+        "LocalizedString": "位置暴露"
       },
-      "BuffIcon.Strong.Stealth.ArousalTwo.Maddelena": {
-        "Tag": {
-          "TagName": "BuffIcon.Strong.Stealth.ArousalTwo.Maddelena"
-        },
-        "DevComment": "潜入颜料",
-        "BuffType": 1,
-        "BuffDes": {
-          "Namespace": "BuffInGame",
-          "Key": "BuffIcon.Strong.Stealth.ArousalTwo.Maddelena_BuffDes",
-          "SourceString": "颜料潜行",
-          "LocalizedString": "颜料潜行"
-        },
-        "BuffKey": 18,
-        "BuffUseOngoing": 0
+      "BuffKey": 13,
+      "BuffUseOngoing": 0
+    },
+    "BuffIcon.Weak.Expose": {
+      "Tag": {
+        "TagName": "BuffIcon.Weak.Expose"
       },
-      "BuffIcon.Strong.Protected": {
-        "Tag": {
-          "TagName": "BuffIcon.Strong.Protected"
-        },
-        "DevComment": "保护",
-        "BuffType": 3,
-        "BuffDes": {
-          "Namespace": "BuffInGame",
-          "Key": "BuffIcon.Strong.Protected_BuffDes",
-          "SourceString": "被保护",
-          "LocalizedString": "被保护"
-        },
-        "BuffKey": 19,
-        "BuffUseOngoing": 0
+      "DevComment": "暴露无法透墙",
+      "BuffType": 2,
+      "BuffDes": {
+        "Namespace": "BuffInGame",
+        "Key": "BuffIcon.Weak.Expose_BuffDes",
+        "SourceString": "位置暴露",
+        "LocalizedString": "位置暴露"
       },
-      "BuffIcon.Strong.SkillUp.X.Reiichi": {
-        "Tag": {
-          "TagName": "BuffIcon.Strong.SkillUp.X.Reiichi"
-        },
-        "DevComment": "强化光幕",
-        "BuffType": 1,
-        "BuffDes": {
-          "Namespace": "BuffInGame",
-          "Key": "BuffIcon.Strong.SkillUp.X.Reiichi_BuffDes",
-          "SourceString": "光幕格挡",
-          "LocalizedString": "光幕格挡"
-        },
-        "BuffKey": 20,
-        "BuffUseOngoing": 0
+      "BuffKey": 13,
+      "BuffUseOngoing": 0
+    },
+    "BuffIcon.Weak.Operational": {
+      "Tag": {
+        "TagName": "BuffIcon.Weak.Operational"
       },
-      "BuffIcon.Strong.X.Ming": {
-        "Tag": {
-          "TagName": "BuffIcon.Strong.X.Ming"
-        },
-        "DevComment": "减速子弹",
-        "BuffType": 1,
-        "BuffDes": {
-          "Namespace": "BuffInGame",
-          "Key": "BuffIcon.Strong.X.Ming_BuffDes",
-          "SourceString": "减速子弹",
-          "LocalizedString": "减速子弹"
-        },
-        "BuffKey": 21,
-        "BuffUseOngoing": 0
+      "DevComment": "降低人机工效",
+      "BuffType": 2,
+      "BuffDes": {
+        "Namespace": "BuffInGame",
+        "Key": "BuffIcon.Weak.Operational_BuffDes",
+        "SourceString": "人机减弱",
+        "LocalizedString": "人机减弱"
       },
-      "BuffIcon.Strong.Arousal.Starlight": {
-        "Tag": {
-          "TagName": "BuffIcon.Strong.Arousal.Starlight"
-        },
-        "DevComment": "星光携带",
-        "BuffType": 1,
-        "BuffDes": {
-          "Namespace": "BuffInGame",
-          "Key": "BuffIcon.Strong.Arousal.Starlight_BuffDes",
-          "SourceString": "星光携带中",
-          "LocalizedString": "星光携带中"
-        },
-        "BuffKey": 22,
-        "BuffUseOngoing": 0
+      "BuffKey": 27,
+      "BuffUseOngoing": 0
+    },
+    "BuffIcon.Strong.Operational": {
+      "Tag": {
+        "TagName": "BuffIcon.Strong.Operational"
       },
-      "BuffIcon.Weak.GameMode.StealSpar": {
-        "Tag": {
-          "TagName": "BuffIcon.Weak.GameMode.StealSpar"
-        },
-        "DevComment": "采矿模式偷矿",
-        "BuffType": 2,
-        "BuffDes": {
-          "Namespace": "BuffInGame",
-          "Key": "BuffIcon.Weak.GameMode.StealSpar_BuffDes",
-          "SourceString": "偷矿",
-          "LocalizedString": "偷矿"
-        },
-        "BuffKey": 23,
-        "BuffUseOngoing": 0
+      "DevComment": "增强人机工效",
+      "BuffType": 1,
+      "BuffDes": {
+        "Namespace": "BuffInGame",
+        "Key": "BuffIcon.Strong.Operational_BuffDes",
+        "SourceString": "人机增强",
+        "LocalizedString": "人机增强"
       },
-      "BuffIcon.Weak.GameMode.PickSpar": {
-        "Tag": {
-          "TagName": "BuffIcon.Weak.GameMode.PickSpar"
-        },
-        "DevComment": "采矿模式运矿",
-        "BuffType": 2,
-        "BuffDes": {
-          "Namespace": "BuffInGame",
-          "Key": "BuffIcon.Weak.GameMode.PickSpar_BuffDes",
-          "SourceString": "运矿",
-          "LocalizedString": "运矿"
-        },
-        "BuffKey": 24,
-        "BuffUseOngoing": 0
+      "BuffKey": 28,
+      "BuffUseOngoing": 0
+    },
+    "BuffIcon.Weak.DisableAim": {
+      "Tag": {
+        "TagName": "BuffIcon.Weak.DisableAim"
       },
-      "BuffIcon.Strong.SpaceTeleport": {
-        "Tag": {
-          "TagName": "BuffIcon.Strong.SpaceTeleport"
-        },
-        "DevComment": "星绘传送中",
-        "BuffType": 3,
-        "BuffDes": {
-          "CultureInvariantString": null
-        },
-        "BuffKey": 0,
-        "BuffUseOngoing": 0
+      "DevComment": "禁止开镜",
+      "BuffType": 2,
+      "BuffDes": {
+        "Namespace": "BuffInGame",
+        "Key": "BuffIcon.Weak.DisableAim_BuffDes",
+        "SourceString": "禁止开镜",
+        "LocalizedString": "禁止开镜"
       },
-      "BuffIcon.Weak.Vertigo": {
-        "Tag": {
-          "TagName": "BuffIcon.Weak.Vertigo"
-        },
-        "DevComment": "眩晕",
-        "BuffType": 2,
-        "BuffDes": {
-          "Namespace": "BuffInGame",
-          "Key": "BuffIcon.Weak.Vertigo_BuffDes",
-          "SourceString": "眩晕",
-          "LocalizedString": "眩晕"
-        },
-        "BuffKey": 25,
-        "BuffUseOngoing": 0
+      "BuffKey": 29,
+      "BuffUseOngoing": 0
+    },
+    "BuffIcon.Weak.Speed": {
+      "Tag": {
+        "TagName": "BuffIcon.Weak.Speed"
       },
-      "BuffIcon.Weak.Skid": {
-        "Tag": {
-          "TagName": "BuffIcon.Weak.Skid"
-        },
-        "DevComment": "伊薇特冰面打滑",
-        "BuffType": 2,
-        "BuffDes": {
-          "Namespace": "BuffInGame",
-          "Key": "BuffIcon.Weak.Skid_BuffDes",
-          "SourceString": "打滑",
-          "LocalizedString": "打滑"
-        },
-        "BuffKey": 26,
-        "BuffUseOngoing": 0
+      "DevComment": "速度降低",
+      "BuffType": 2,
+      "BuffDes": {
+        "Namespace": "BuffInGame",
+        "Key": "BuffIcon.Weak.Speed_BuffDes",
+        "SourceString": "减速",
+        "LocalizedString": "减速"
       },
-      "BuffIcon.Strong.ArmorRecover.Growth.Shield": {
-        "Tag": {
-          "TagName": "BuffIcon.Strong.ArmorRecover.Growth.Shield"
-        },
-        "DevComment": "局内成长护甲恢复",
-        "BuffType": 1,
-        "BuffDes": {
-          "Namespace": "BuffInGame",
-          "Key": "BuffIcon.Strong.ArmorRecover.Growth.Shield_BuffDes",
-          "SourceString": "护甲回复",
-          "LocalizedString": "护甲回复"
-        },
-        "BuffKey": 2,
-        "BuffUseOngoing": 0
+      "BuffKey": 6,
+      "BuffUseOngoing": 0
+    },
+    "BuffIcon.Strong.Speed": {
+      "Tag": {
+        "TagName": "BuffIcon.Strong.Speed"
       },
-      "BuffIcon.Strong.FireAmmo": {
-        "Tag": {
-          "TagName": "BuffIcon.Strong.FireAmmo"
-        },
-        "DevComment": "焰弹2D增伤子弹",
-        "BuffType": 1,
-        "BuffDes": {
-          "Namespace": "BuffInGame",
-          "Key": "BuffIcon.Strong.FireAmmo_BuffDes",
-          "SourceString": "弦化增伤",
-          "LocalizedString": "弦化增伤"
-        },
-        "BuffKey": 39,
-        "BuffUseOngoing": 0
+      "DevComment": "速度提升",
+      "BuffType": 1,
+      "BuffDes": {
+        "Namespace": "BuffInGame",
+        "Key": "BuffIcon.Strong.Speed_BuffDes",
+        "SourceString": "加速",
+        "LocalizedString": "加速"
       },
-      "BuffIcon.Strong.FireDuration": {
-        "Tag": {
-          "TagName": "BuffIcon.Strong.FireDuration"
-        },
-        "DevComment": "怒气维持",
-        "BuffType": 1,
-        "BuffDes": {
-          "Namespace": "BuffInGame",
-          "Key": "BuffIcon.Strong.FireDuration_BuffDes",
-          "SourceString": "怒气维持",
-          "LocalizedString": "怒气维持"
-        },
-        "BuffKey": 36,
-        "BuffUseOngoing": 0
+      "BuffKey": 7,
+      "BuffUseOngoing": 0
+    },
+    "BuffIcon.Strong.AttackSpeed": {
+      "Tag": {
+        "TagName": "BuffIcon.Strong.AttackSpeed"
       },
-      "BuffIcon.Weak.2DFireDamageDuration": {
-        "Tag": {
-          "TagName": "BuffIcon.Weak.2DFireDamageDuration"
-        },
-        "DevComment": "弦化烧伤",
-        "BuffType": 2,
-        "BuffDes": {
-          "Namespace": "BuffInGame",
-          "Key": "BuffIcon.Weak.2DFireDamageDuration_BuffDes",
-          "SourceString": "弦化烧伤",
-          "LocalizedString": "弦化烧伤"
-        },
-        "BuffKey": 37,
-        "BuffUseOngoing": 1
+      "DevComment": "攻速提升",
+      "BuffType": 1,
+      "BuffDes": {
+        "Namespace": "BuffInGame",
+        "Key": "BuffIcon.Strong.AttackSpeed_BuffDes",
+        "SourceString": "战意激发",
+        "LocalizedString": "战意激发"
       },
-      "BuffIcon.Weak.FireWallDamage": {
-        "Tag": {
-          "TagName": "BuffIcon.Weak.FireWallDamage"
-        },
-        "DevComment": "火牢壁的烧伤",
-        "BuffType": 2,
-        "BuffDes": {
-          "Namespace": "BuffInGame",
-          "Key": "BuffIcon.Weak.FireWallDamage_BuffDes",
-          "SourceString": "牢壁烧伤",
-          "LocalizedString": "牢壁烧伤"
-        },
-        "BuffKey": 38,
-        "BuffUseOngoing": 0
+      "BuffKey": 30,
+      "BuffUseOngoing": 0
+    },
+    "BuffIcon.Weak.AttackSpeed": {
+      "Tag": {
+        "TagName": "BuffIcon.Weak.AttackSpeed"
       },
-      "BuffIcon.Strong.FireHealthRecover": {
-        "Tag": {
-          "TagName": "BuffIcon.Strong.FireHealthRecover"
-        },
-        "DevComment": "复原之焰",
-        "BuffType": 1,
-        "BuffDes": {
-          "Namespace": "BuffInGame",
-          "Key": "BuffIcon.Strong.FireHealthRecover_BuffDes",
-          "SourceString": "复原之焰",
-          "LocalizedString": "复原之焰"
-        },
-        "BuffKey": 44,
-        "BuffUseOngoing": 1
+      "DevComment": "攻速降低",
+      "BuffType": 2,
+      "BuffDes": {
+        "Namespace": "BuffInGame",
+        "Key": "BuffIcon.Weak.AttackSpeed_BuffDes",
+        "SourceString": "降低射速",
+        "LocalizedString": "降低射速"
       },
-      "BuffIcon.Strong.AmmoRecover": {
-        "Tag": {
-          "TagName": "BuffIcon.Strong.AmmoRecover"
-        },
-        "DevComment": "弹药回复",
-        "BuffType": 1,
-        "BuffDes": {
-          "Namespace": "BuffInGame",
-          "Key": "BuffIcon.Strong.AmmoRecover_BuffDes",
-          "SourceString": "弹药回复",
-          "LocalizedString": "弹药回复"
-        },
-        "BuffKey": 40,
-        "BuffUseOngoing": 0
+      "BuffKey": 31,
+      "BuffUseOngoing": 0
+    },
+    "BuffIcon.Weak.InvalidHealth": {
+      "Tag": {
+        "TagName": "BuffIcon.Weak.InvalidHealth"
       },
-      "BuffIcon.Strong.XPointGainAccelerate": {
-        "Tag": {
-          "TagName": "BuffIcon.Strong.XPointGainAccelerate"
-        },
-        "DevComment": "充能加速",
-        "BuffType": 1,
-        "BuffDes": {
-          "Namespace": "BuffInGame",
-          "Key": "BuffIcon.Strong.XPointGainAccelerate_BuffDes",
-          "SourceString": "充能加速",
-          "LocalizedString": "充能加速"
-        },
-        "BuffKey": 41,
-        "BuffUseOngoing": 0
+      "DevComment": "无效化生命",
+      "BuffType": 2,
+      "BuffDes": {
+        "Namespace": "BuffInGame",
+        "Key": "BuffIcon.Weak.InvalidHealth_BuffDes",
+        "SourceString": "枯萎",
+        "LocalizedString": "枯萎"
       },
-      "BuffIcon.Weak.Freeze": {
-        "Tag": {
-          "TagName": "BuffIcon.Weak.Freeze"
-        },
-        "DevComment": "冻结",
-        "BuffType": 2,
-        "BuffDes": {
-          "Namespace": "BuffInGame",
-          "Key": "BuffIcon.Weak.Freeze_BuffDes",
-          "SourceString": "冻结",
-          "LocalizedString": "冻结"
-        },
-        "BuffKey": 42,
-        "BuffUseOngoing": 0
+      "BuffKey": 16,
+      "BuffUseOngoing": 0
+    },
+    "BuffIcon.Weak.InvalidArmor": {
+      "Tag": {
+        "TagName": "BuffIcon.Weak.InvalidArmor"
       },
-      "BuffIcon.Strong.Butterfly": {
-        "Tag": {
-          "TagName": "BuffIcon.Strong.Butterfly"
-        },
-        "DevComment": "反制",
-        "BuffType": 1,
-        "BuffDes": {
-          "Namespace": "BuffInGame",
-          "Key": "BuffIcon.Strong.Butterfly_BuffDes",
-          "SourceString": "致幻魅影",
-          "LocalizedString": "致幻魅影"
-        },
-        "BuffKey": 43,
-        "BuffUseOngoing": 0
+      "DevComment": "无效化护甲",
+      "BuffType": 2,
+      "BuffDes": {
+        "Namespace": "BuffInGame",
+        "Key": "BuffIcon.Weak.InvalidArmor_BuffDes",
+        "SourceString": "护甲腐蚀",
+        "LocalizedString": "护甲腐蚀"
       },
-      "BuffIcon.Strong.ButterflyHeal": {
-        "Tag": {
-          "TagName": "BuffIcon.Strong.ButterflyHeal"
-        },
-        "DevComment": "治疗",
-        "BuffType": 1,
-        "BuffDes": {
-          "Namespace": "BuffInGame",
-          "Key": "BuffIcon.Strong.ButterflyHeal_BuffDes",
-          "SourceString": "幻梦再生",
-          "LocalizedString": "幻梦再生"
-        },
-        "BuffKey": 0,
-        "BuffUseOngoing": 0
+      "BuffKey": 8,
+      "BuffUseOngoing": 0
+    },
+    "BuffIcon.Weak.HideSight": {
+      "Tag": {
+        "TagName": "BuffIcon.Weak.HideSight"
       },
-      "BuffIcon.Strong.GrenadeCD": {
-        "Tag": {
-          "TagName": "BuffIcon.Strong.GrenadeCD"
-        },
-        "DevComment": "战术冷却",
-        "BuffType": 1,
-        "BuffDes": {
-          "Namespace": "BuffInGame",
-          "Key": "BuffIcon.Strong.GrenadeCD_BuffDes",
-          "SourceString": "战术冷却",
-          "LocalizedString": "战术冷却"
-        },
-        "BuffKey": 0,
-        "BuffUseOngoing": 0
-      }
+      "DevComment": "隐藏准心",
+      "BuffType": 2,
+      "BuffDes": {
+        "Namespace": "BuffInGame",
+        "Key": "BuffIcon.Weak.HideSight_BuffDes",
+        "SourceString": "瞄准致盲",
+        "LocalizedString": "瞄准致盲"
+      },
+      "BuffKey": 32,
+      "BuffUseOngoing": 0
+    },
+    "BuffIcon.Weak.Silence": {
+      "Tag": {
+        "TagName": "BuffIcon.Weak.Silence"
+      },
+      "DevComment": "沉默",
+      "BuffType": 2,
+      "BuffDes": {
+        "Namespace": "BuffInGame",
+        "Key": "BuffIcon.Weak.Silence_BuffDes",
+        "SourceString": "沉默",
+        "LocalizedString": "沉默"
+      },
+      "BuffKey": 33,
+      "BuffUseOngoing": 0
+    },
+    "BuffIcon.Weak.Armor": {
+      "Tag": {
+        "TagName": "BuffIcon.Weak.Armor"
+      },
+      "DevComment": "护甲破坏",
+      "BuffType": 2,
+      "BuffDes": {
+        "Namespace": "BuffInGame",
+        "Key": "BuffIcon.Weak.Armor_BuffDes",
+        "SourceString": "护甲破坏",
+        "LocalizedString": "护甲破坏"
+      },
+      "BuffKey": 34,
+      "BuffUseOngoing": 0
+    },
+    "BuffIcon.Strong.ExtraArmor": {
+      "Tag": {
+        "TagName": "BuffIcon.Strong.ExtraArmor"
+      },
+      "DevComment": "增加临时护甲",
+      "BuffType": 1,
+      "BuffDes": {
+        "Namespace": "BuffInGame",
+        "Key": "BuffIcon.Strong.ExtraArmor_BuffDes",
+        "SourceString": "临时护甲",
+        "LocalizedString": "临时护甲"
+      },
+      "BuffKey": 1,
+      "BuffUseOngoing": 0
+    },
+    "BuffIcon.Strong.Stealth": {
+      "Tag": {
+        "TagName": "BuffIcon.Strong.Stealth"
+      },
+      "DevComment": "隐身",
+      "BuffType": 1,
+      "BuffDes": {
+        "Namespace": "BuffInGame",
+        "Key": "BuffIcon.Strong.Stealth_BuffDes",
+        "SourceString": "隐身",
+        "LocalizedString": "隐身"
+      },
+      "BuffKey": 17,
+      "BuffUseOngoing": 0
+    },
+    "BuffIcon.Strong.Stealth.ArousalTwo.Maddelena": {
+      "Tag": {
+        "TagName": "BuffIcon.Strong.Stealth.ArousalTwo.Maddelena"
+      },
+      "DevComment": "潜入颜料",
+      "BuffType": 1,
+      "BuffDes": {
+        "Namespace": "BuffInGame",
+        "Key": "BuffIcon.Strong.Stealth.ArousalTwo.Maddelena_BuffDes",
+        "SourceString": "颜料潜行",
+        "LocalizedString": "颜料潜行"
+      },
+      "BuffKey": 18,
+      "BuffUseOngoing": 0
+    },
+    "BuffIcon.Strong.Protected": {
+      "Tag": {
+        "TagName": "BuffIcon.Strong.Protected"
+      },
+      "DevComment": "保护",
+      "BuffType": 3,
+      "BuffDes": {
+        "Namespace": "BuffInGame",
+        "Key": "BuffIcon.Strong.Protected_BuffDes",
+        "SourceString": "被保护",
+        "LocalizedString": "被保护"
+      },
+      "BuffKey": 19,
+      "BuffUseOngoing": 0
+    },
+    "BuffIcon.Strong.SkillUp.X.Reiichi": {
+      "Tag": {
+        "TagName": "BuffIcon.Strong.SkillUp.X.Reiichi"
+      },
+      "DevComment": "强化光幕",
+      "BuffType": 1,
+      "BuffDes": {
+        "Namespace": "BuffInGame",
+        "Key": "BuffIcon.Strong.SkillUp.X.Reiichi_BuffDes",
+        "SourceString": "光幕格挡",
+        "LocalizedString": "光幕格挡"
+      },
+      "BuffKey": 20,
+      "BuffUseOngoing": 0
+    },
+    "BuffIcon.Strong.X.Ming": {
+      "Tag": {
+        "TagName": "BuffIcon.Strong.X.Ming"
+      },
+      "DevComment": "减速子弹",
+      "BuffType": 1,
+      "BuffDes": {
+        "Namespace": "BuffInGame",
+        "Key": "BuffIcon.Strong.X.Ming_BuffDes",
+        "SourceString": "减速子弹",
+        "LocalizedString": "减速子弹"
+      },
+      "BuffKey": 21,
+      "BuffUseOngoing": 0
+    },
+    "BuffIcon.Strong.Arousal.Starlight": {
+      "Tag": {
+        "TagName": "BuffIcon.Strong.Arousal.Starlight"
+      },
+      "DevComment": "星光携带",
+      "BuffType": 1,
+      "BuffDes": {
+        "Namespace": "BuffInGame",
+        "Key": "BuffIcon.Strong.Arousal.Starlight_BuffDes",
+        "SourceString": "星光携带中",
+        "LocalizedString": "星光携带中"
+      },
+      "BuffKey": 22,
+      "BuffUseOngoing": 0
+    },
+    "BuffIcon.Weak.GameMode.StealSpar": {
+      "Tag": {
+        "TagName": "BuffIcon.Weak.GameMode.StealSpar"
+      },
+      "DevComment": "采矿模式偷矿",
+      "BuffType": 2,
+      "BuffDes": {
+        "Namespace": "BuffInGame",
+        "Key": "BuffIcon.Weak.GameMode.StealSpar_BuffDes",
+        "SourceString": "偷矿",
+        "LocalizedString": "偷矿"
+      },
+      "BuffKey": 23,
+      "BuffUseOngoing": 0
+    },
+    "BuffIcon.Weak.GameMode.PickSpar": {
+      "Tag": {
+        "TagName": "BuffIcon.Weak.GameMode.PickSpar"
+      },
+      "DevComment": "采矿模式运矿",
+      "BuffType": 2,
+      "BuffDes": {
+        "Namespace": "BuffInGame",
+        "Key": "BuffIcon.Weak.GameMode.PickSpar_BuffDes",
+        "SourceString": "运矿",
+        "LocalizedString": "运矿"
+      },
+      "BuffKey": 24,
+      "BuffUseOngoing": 0
+    },
+    "BuffIcon.Strong.SpaceTeleport": {
+      "Tag": {
+        "TagName": "BuffIcon.Strong.SpaceTeleport"
+      },
+      "DevComment": "星绘传送中",
+      "BuffType": 3,
+      "BuffDes": {
+        "CultureInvariantString": null
+      },
+      "BuffKey": 0,
+      "BuffUseOngoing": 0
+    },
+    "BuffIcon.Weak.Vertigo": {
+      "Tag": {
+        "TagName": "BuffIcon.Weak.Vertigo"
+      },
+      "DevComment": "眩晕",
+      "BuffType": 2,
+      "BuffDes": {
+        "Namespace": "BuffInGame",
+        "Key": "BuffIcon.Weak.Vertigo_BuffDes",
+        "SourceString": "眩晕",
+        "LocalizedString": "眩晕"
+      },
+      "BuffKey": 25,
+      "BuffUseOngoing": 0
+    },
+    "BuffIcon.Weak.Skid": {
+      "Tag": {
+        "TagName": "BuffIcon.Weak.Skid"
+      },
+      "DevComment": "伊薇特冰面打滑",
+      "BuffType": 2,
+      "BuffDes": {
+        "Namespace": "BuffInGame",
+        "Key": "BuffIcon.Weak.Skid_BuffDes",
+        "SourceString": "打滑",
+        "LocalizedString": "打滑"
+      },
+      "BuffKey": 26,
+      "BuffUseOngoing": 0
+    },
+    "BuffIcon.Strong.ArmorRecover.Growth.Shield": {
+      "Tag": {
+        "TagName": "BuffIcon.Strong.ArmorRecover.Growth.Shield"
+      },
+      "DevComment": "局内成长护甲恢复",
+      "BuffType": 1,
+      "BuffDes": {
+        "Namespace": "BuffInGame",
+        "Key": "BuffIcon.Strong.ArmorRecover.Growth.Shield_BuffDes",
+        "SourceString": "护甲回复",
+        "LocalizedString": "护甲回复"
+      },
+      "BuffKey": 2,
+      "BuffUseOngoing": 0
+    },
+    "BuffIcon.Strong.FireAmmo": {
+      "Tag": {
+        "TagName": "BuffIcon.Strong.FireAmmo"
+      },
+      "DevComment": "焰弹2D增伤子弹",
+      "BuffType": 1,
+      "BuffDes": {
+        "Namespace": "BuffInGame",
+        "Key": "BuffIcon.Strong.FireAmmo_BuffDes",
+        "SourceString": "弦化增伤",
+        "LocalizedString": "弦化增伤"
+      },
+      "BuffKey": 39,
+      "BuffUseOngoing": 0
+    },
+    "BuffIcon.Strong.FireDuration": {
+      "Tag": {
+        "TagName": "BuffIcon.Strong.FireDuration"
+      },
+      "DevComment": "怒气维持",
+      "BuffType": 1,
+      "BuffDes": {
+        "Namespace": "BuffInGame",
+        "Key": "BuffIcon.Strong.FireDuration_BuffDes",
+        "SourceString": "怒气维持",
+        "LocalizedString": "怒气维持"
+      },
+      "BuffKey": 36,
+      "BuffUseOngoing": 0
+    },
+    "BuffIcon.Weak.2DFireDamageDuration": {
+      "Tag": {
+        "TagName": "BuffIcon.Weak.2DFireDamageDuration"
+      },
+      "DevComment": "弦化烧伤",
+      "BuffType": 2,
+      "BuffDes": {
+        "Namespace": "BuffInGame",
+        "Key": "BuffIcon.Weak.2DFireDamageDuration_BuffDes",
+        "SourceString": "弦化烧伤",
+        "LocalizedString": "弦化烧伤"
+      },
+      "BuffKey": 37,
+      "BuffUseOngoing": 1
+    },
+    "BuffIcon.Weak.FireWallDamage": {
+      "Tag": {
+        "TagName": "BuffIcon.Weak.FireWallDamage"
+      },
+      "DevComment": "火牢壁的烧伤",
+      "BuffType": 2,
+      "BuffDes": {
+        "Namespace": "BuffInGame",
+        "Key": "BuffIcon.Weak.FireWallDamage_BuffDes",
+        "SourceString": "牢壁烧伤",
+        "LocalizedString": "牢壁烧伤"
+      },
+      "BuffKey": 38,
+      "BuffUseOngoing": 0
+    },
+    "BuffIcon.Strong.FireHealthRecover": {
+      "Tag": {
+        "TagName": "BuffIcon.Strong.FireHealthRecover"
+      },
+      "DevComment": "复原之焰",
+      "BuffType": 1,
+      "BuffDes": {
+        "Namespace": "BuffInGame",
+        "Key": "BuffIcon.Strong.FireHealthRecover_BuffDes",
+        "SourceString": "复原之焰",
+        "LocalizedString": "复原之焰"
+      },
+      "BuffKey": 44,
+      "BuffUseOngoing": 1
+    },
+    "BuffIcon.Strong.AmmoRecover": {
+      "Tag": {
+        "TagName": "BuffIcon.Strong.AmmoRecover"
+      },
+      "DevComment": "弹药回复",
+      "BuffType": 1,
+      "BuffDes": {
+        "Namespace": "BuffInGame",
+        "Key": "BuffIcon.Strong.AmmoRecover_BuffDes",
+        "SourceString": "弹药回复",
+        "LocalizedString": "弹药回复"
+      },
+      "BuffKey": 40,
+      "BuffUseOngoing": 0
+    },
+    "BuffIcon.Strong.XPointGainAccelerate": {
+      "Tag": {
+        "TagName": "BuffIcon.Strong.XPointGainAccelerate"
+      },
+      "DevComment": "充能加速",
+      "BuffType": 1,
+      "BuffDes": {
+        "Namespace": "BuffInGame",
+        "Key": "BuffIcon.Strong.XPointGainAccelerate_BuffDes",
+        "SourceString": "充能加速",
+        "LocalizedString": "充能加速"
+      },
+      "BuffKey": 41,
+      "BuffUseOngoing": 0
+    },
+    "BuffIcon.Weak.Freeze": {
+      "Tag": {
+        "TagName": "BuffIcon.Weak.Freeze"
+      },
+      "DevComment": "冻结",
+      "BuffType": 2,
+      "BuffDes": {
+        "Namespace": "BuffInGame",
+        "Key": "BuffIcon.Weak.Freeze_BuffDes",
+        "SourceString": "冻结",
+        "LocalizedString": "冻结"
+      },
+      "BuffKey": 42,
+      "BuffUseOngoing": 0
+    },
+    "BuffIcon.Strong.Butterfly": {
+      "Tag": {
+        "TagName": "BuffIcon.Strong.Butterfly"
+      },
+      "DevComment": "反制",
+      "BuffType": 1,
+      "BuffDes": {
+        "Namespace": "BuffInGame",
+        "Key": "BuffIcon.Strong.Butterfly_BuffDes",
+        "SourceString": "致幻魅影",
+        "LocalizedString": "致幻魅影"
+      },
+      "BuffKey": 43,
+      "BuffUseOngoing": 0
+    },
+    "BuffIcon.Strong.ButterflyHeal": {
+      "Tag": {
+        "TagName": "BuffIcon.Strong.ButterflyHeal"
+      },
+      "DevComment": "治疗",
+      "BuffType": 1,
+      "BuffDes": {
+        "Namespace": "BuffInGame",
+        "Key": "BuffIcon.Strong.ButterflyHeal_BuffDes",
+        "SourceString": "幻梦再生",
+        "LocalizedString": "幻梦再生"
+      },
+      "BuffKey": 0,
+      "BuffUseOngoing": 0
+    },
+    "BuffIcon.Strong.GrenadeCD": {
+      "Tag": {
+        "TagName": "BuffIcon.Strong.GrenadeCD"
+      },
+      "DevComment": "战术冷却",
+      "BuffType": 1,
+      "BuffDes": {
+        "Namespace": "BuffInGame",
+        "Key": "BuffIcon.Strong.GrenadeCD_BuffDes",
+        "SourceString": "战术冷却",
+        "LocalizedString": "战术冷却"
+      },
+      "BuffKey": 0,
+      "BuffUseOngoing": 0
     }
   }
-]
+}

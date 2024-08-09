@@ -1,695 +1,693 @@
-[
-  {
-    "Type": "DataTable",
-    "Name": "GameplayStateTable",
-    "Class": "UScriptClass'DataTable'",
-    "Properties": {
-      "RowStruct": {
-        "ObjectName": "ScriptStruct'GameplayTagTableRow'",
-        "ObjectPath": "/Script/GameplayTags"
-      }
+{
+  "Type": "DataTable",
+  "Name": "GameplayStateTable",
+  "Class": "UScriptClass'DataTable'",
+  "Properties": {
+    "RowStruct": {
+      "ObjectName": "ScriptStruct'GameplayTagTableRow'",
+      "ObjectPath": "/Script/GameplayTags"
+    }
+  },
+  "Rows": {
+    "State.Weapon.Hold.Aiming": {
+      "Tag": "State.Weapon.Hold.Aiming",
+      "DevComment": ""
     },
-    "Rows": {
-      "State.Weapon.Hold.Aiming": {
-        "Tag": "State.Weapon.Hold.Aiming",
-        "DevComment": ""
-      },
-      "State.Weapon.Hold.ADS": {
-        "Tag": "State.Weapon.Hold.ADS",
-        "DevComment": ""
-      },
-      "State.Weapon.Hold.AimOrADS": {
-        "Tag": "State.Weapon.Hold.AimOrADS",
-        "DevComment": ""
-      },
-      "State.Weapon.Hold.Custom": {
-        "Tag": "State.Weapon.Hold.Custom",
-        "DevComment": ""
-      },
-      "State.Weapon.Hold.Waist": {
-        "Tag": "State.Weapon.Hold.Waist",
-        "DevComment": ""
-      },
-      "State.Weapon.Hold.Relaxed": {
-        "Tag": "State.Weapon.Hold.Relaxed",
-        "DevComment": ""
-      },
-      "State.Weapon.Hold.CustomOrADS": {
-        "Tag": "State.Weapon.Hold.CustomOrADS",
-        "DevComment": ""
-      },
-      "State.Weapon.Entry": {
-        "Tag": "State.Weapon.Entry",
-        "DevComment": ""
-      },
-      "State.Weapon.Equip": {
-        "Tag": "State.Weapon.Equip",
-        "DevComment": ""
-      },
-      "State.Weapon.UnEquip": {
-        "Tag": "State.Weapon.UnEquip",
-        "DevComment": ""
-      },
-      "State.Weapon.UnEquipped": {
-        "Tag": "State.Weapon.UnEquipped",
-        "DevComment": ""
-      },
-      "State.Weapon.Reload": {
-        "Tag": "State.Weapon.Reload",
-        "DevComment": ""
-      },
-      "State.Weapon.EquipReload": {
-        "Tag": "State.Weapon.EquipReload",
-        "DevComment": ""
-      },
-      "State.Weapon.Attack": {
-        "Tag": "State.Weapon.Attack",
-        "DevComment": ""
-      },
-      "State.Weapon.Attack.Single": {
-        "Tag": "State.Weapon.Attack.Single",
-        "DevComment": ""
-      },
-      "State.Weapon.Attack.Burst": {
-        "Tag": "State.Weapon.Attack.Burst",
-        "DevComment": ""
-      },
-      "State.Weapon.Attack.Auto": {
-        "Tag": "State.Weapon.Attack.Auto",
-        "DevComment": ""
-      },
-      "State.Weapon.Attack.PullBolt": {
-        "Tag": "State.Weapon.Attack.PullBolt",
-        "DevComment": ""
-      },
-      "State.Weapon.Work": {
-        "Tag": "State.Weapon.Work",
-        "DevComment": ""
-      },
-      "State.Weapon.SecondWork": {
-        "Tag": "State.Weapon.SecondWork",
-        "DevComment": ""
-      },
-      "State.Weapon.ThirdWork": {
-        "Tag": "State.Weapon.ThirdWork",
-        "DevComment": ""
-      },
-      "State.Weapon.Finish": {
-        "Tag": "State.Weapon.Finish",
-        "DevComment": ""
-      },
-      "State.Weapon.PullBolt": {
-        "Tag": "State.Weapon.PullBolt",
-        "DevComment": ""
-      },
-      "State.Weapon.EnterSwitchAttackType": {
-        "Tag": "State.Weapon.EnterSwitchAttackType",
-        "DevComment": ""
-      },
-      "State.Weapon.LeaveSwitchAttackType": {
-        "Tag": "State.Weapon.LeaveSwitchAttackType",
-        "DevComment": ""
-      },
-      "State.Weapon.AttackSwtich.Ability": {
-        "Tag": "State.Weapon.AttackSwtich.Ability",
-        "DevComment": ""
-      },
-      "State.Weapon.Primary.Invalid": {
-        "Tag": "State.Weapon.Primary.Invalid",
-        "DevComment": "主武器武器无效"
-      },
-      "State.Weapon.Secondary.Invalid": {
-        "Tag": "State.Weapon.Secondary.Invalid",
-        "DevComment": "副武器武器无效"
-      },
-      "State.Weapon.MeleeAttacking": {
-        "Tag": "State.Weapon.MeleeAttacking",
-        "DevComment": "近战武器攻击中"
-      },
-      "State.Player.DisableAnimAllowMoveTurn": {
-        "Tag": "State.Player.DisableAnimAllowMoveTurn",
-        "DevComment": "禁止自动转身"
-      },
-      "State.Player.DisableSwitchWeapon": {
-        "Tag": "State.Player.DisableSwitchWeapon",
-        "DevComment": ""
-      },
-      "State.Player.DisableInteract": {
-        "Tag": "State.Player.DisableInteract",
-        "DevComment": ""
-      },
-      "State.Player.DisableInteractWithDuration": {
-        "Tag": "State.Player.DisableInteractWithDuration",
-        "DevComment": ""
-      },
-      "State.Player.DisableTips": {
-        "Tag": "State.Player.DisableTips",
-        "DevComment": "禁用提示系统"
-      },
-      "State.Player.DisableUseSkill": {
-        "Tag": "State.Player.DisableUseSkill",
-        "DevComment": ""
-      },
-      "State.Player.DisableUseShared": {
-        "Tag": "State.Player.DisableUseShared",
-        "DevComment": "禁用Shared技能"
-      },
-      "State.Player.DisableInput2D.Fly": {
-        "Tag": "State.Player.DisableInput2D.Fly",
-        "DevComment": "阻挡进入飘飞"
-      },
-      "State.Player.DisableInput2D.Side": {
-        "Tag": "State.Player.DisableInput2D.Side",
-        "DevComment": "阻挡进入侧身"
-      },
-      "State.Player.DisableKeep2D.Fly": {
-        "Tag": "State.Player.DisableKeep2D.Fly",
-        "DevComment": "阻挡恢复飘飞"
-      },
-      "State.Player.DisableKeep2D.Side": {
-        "Tag": "State.Player.DisableKeep2D.Side",
-        "DevComment": "阻挡恢复侧身"
-      },
-      "State.Player.DisableInputAim.Aiming": {
-        "Tag": "State.Player.DisableInputAim.Aiming",
-        "DevComment": "阻挡进入Aiming"
-      },
-      "State.Player.DisableInputAim.ADS": {
-        "Tag": "State.Player.DisableInputAim.ADS",
-        "DevComment": "阻挡进入ADS"
-      },
-      "State.Player.DisableKeepAim.Aiming": {
-        "Tag": "State.Player.DisableKeepAim.Aiming",
-        "DevComment": "阻挡恢复Aiming"
-      },
-      "State.Player.DisableKeepAim.ADS": {
-        "Tag": "State.Player.DisableKeepAim.ADS",
-        "DevComment": "阻挡恢复ADS"
-      },
-      "State.Player.DisableForceFly": {
-        "Tag": "State.Player.DisableForceFly",
-        "DevComment": "禁止强制吹飞"
-      },
-      "State.Player.Invincible": {
-        "Tag": "State.Player.Invincible",
-        "DevComment": "无敌"
-      },
-      "State.Player.Rescue": {
-        "Tag": "State.Player.Rescue",
-        "DevComment": "救人"
-      },
-      "State.Player.BeRescued": {
-        "Tag": "State.Player.BeRescued",
-        "DevComment": "被救"
-      },
-      "State.Player.BlockDeath": {
-        "Tag": "State.Player.BlockDeath",
-        "DevComment": "不会死亡"
-      },
-      "State.Player.Revival": {
-        "Tag": "State.Player.Revival",
-        "DevComment": "复活中"
-      },
-      "State.Player.XRayed": {
-        "Tag": "State.Player.XRayed",
-        "DevComment": "被敌方透视"
-      },
-      "State.Player.NoAction": {
-        "Tag": "State.Player.NoAction",
-        "DevComment": "没做任何行为"
-      },
-      "State.Player.ControlSummon": {
-        "Tag": "State.Player.ControlSummon",
-        "DevComment": "玩家控制召唤物状态"
-      },
-      "State.Health.Alive.Full": {
-        "Tag": "State.Health.Alive.Full",
-        "DevComment": "满血"
-      },
-      "State.Health.Alive.High": {
-        "Tag": "State.Health.Alive.High",
-        "DevComment": "高血量"
-      },
-      "State.Health.Alive.Low": {
-        "Tag": "State.Health.Alive.Low",
-        "DevComment": "低血量"
-      },
-      "State.Health.Injured": {
-        "Tag": "State.Health.Injured",
-        "DevComment": "倒地"
-      },
-      "State.Health.Death": {
-        "Tag": "State.Health.Death",
-        "DevComment": "死亡"
-      },
-      "State.Armor.Full": {
-        "Tag": "State.Armor.Full",
-        "DevComment": "满甲"
-      },
-      "State.Armor.Empty": {
-        "Tag": "State.Armor.Empty",
-        "DevComment": "空甲"
-      },
-      "State.PEnergy.Full": {
-        "Tag": "State.PEnergy.Full",
-        "DevComment": "技能能量满"
-      },
-      "State.PEnergy.Valid": {
-        "Tag": "State.PEnergy.Valid",
-        "DevComment": "技能能量有值"
-      },
-      "State.PEnergy.Empty": {
-        "Tag": "State.PEnergy.Empty",
-        "DevComment": "技能能量空"
-      },
-      "State.QEnergy.Full": {
-        "Tag": "State.QEnergy.Full",
-        "DevComment": "技能能量满"
-      },
-      "State.QEnergy.Valid": {
-        "Tag": "State.QEnergy.Valid",
-        "DevComment": "技能能量有值"
-      },
-      "State.QEnergy.Empty": {
-        "Tag": "State.QEnergy.Empty",
-        "DevComment": "技能能量空"
-      },
-      "State.XEnergy.Full": {
-        "Tag": "State.XEnergy.Full",
-        "DevComment": "技能能量满"
-      },
-      "State.XEnergy.Valid": {
-        "Tag": "State.XEnergy.Valid",
-        "DevComment": "技能能量有值"
-      },
-      "State.XEnergy.Empty": {
-        "Tag": "State.XEnergy.Empty",
-        "DevComment": "技能能量空"
-      },
-      "State.Game.Ready": {
-        "Tag": "State.Game.Ready",
-        "DevComment": "准备阶段"
-      },
-      "State.Game.Freeze": {
-        "Tag": "State.Game.Freeze",
-        "DevComment": "冻结阶段"
-      },
-      "State.Game.Start": {
-        "Tag": "State.Game.Start",
-        "DevComment": "开始"
-      },
-      "State.Game.End": {
-        "Tag": "State.Game.End",
-        "DevComment": "结束"
-      },
-      "State.Game.Start.Guide": {
-        "Tag": "State.Game.Start.Guide",
-        "DevComment": "新手引导"
-      },
-      "State.Summon.Work.First": {
-        "Tag": "State.Summon.Work.First",
-        "DevComment": ""
-      },
-      "State.Summon.Work.Second": {
-        "Tag": "State.Summon.Work.Second",
-        "DevComment": ""
-      },
-      "State.Summon.Work.A": {
-        "Tag": "State.Summon.Work.A",
-        "DevComment": "召唤物工作状态"
-      },
-      "State.Summon.Work.B": {
-        "Tag": "State.Summon.Work.B",
-        "DevComment": "召唤物工作状态"
-      },
-      "State.Summon.Work.C": {
-        "Tag": "State.Summon.Work.C",
-        "DevComment": "召唤物工作状态"
-      },
-      "State.Summon.Work.D": {
-        "Tag": "State.Summon.Work.D",
-        "DevComment": "召唤物工作状态"
-      },
-      "State.Summon.Work.E": {
-        "Tag": "State.Summon.Work.E",
-        "DevComment": "召唤物工作状态"
-      },
-      "State.Summon.Death": {
-        "Tag": "State.Summon.Death",
-        "DevComment": ""
-      },
-      "State.Summon.Leave": {
-        "Tag": "State.Summon.Leave",
-        "DevComment": ""
-      },
-      "State.Summon.Wait": {
-        "Tag": "State.Summon.Wait",
-        "DevComment": ""
-      },
-      "State.Summon.Entry": {
-        "Tag": "State.Summon.Entry",
-        "DevComment": ""
-      },
-      "State.Link.One": {
-        "Tag": "State.Link.One",
-        "DevComment": "连接状态, 连接1个"
-      },
-      "State.Link.Two": {
-        "Tag": "State.Link.Two",
-        "DevComment": "连接状态, 连接2个"
-      },
-      "State.Link.Three": {
-        "Tag": "State.Link.Three",
-        "DevComment": "连接状态, 连接3个"
-      },
-      "State.Link.Four": {
-        "Tag": "State.Link.Four",
-        "DevComment": "连接状态, 连接4个"
-      },
-      "State.Immunity.Move.Force": {
-        "Tag": "State.Immunity.Move.Force",
-        "DevComment": "免疫状态: 免疫强制移动"
-      },
-      "State.Immunity.Weak": {
-        "Tag": "State.Immunity.Weak",
-        "DevComment": "免疫状态: 免疫Debuff"
-      },
-      "State.Motion.InAir.None": {
-        "Tag": "State.Motion.InAir.None",
-        "DevComment": "空中水平移动"
-      },
-      "State.Motion.InAir.Down": {
-        "Tag": "State.Motion.InAir.Down",
-        "DevComment": "空中下落"
-      },
-      "State.Motion.InAir.Up": {
-        "Tag": "State.Motion.InAir.Up",
-        "DevComment": "空中上升"
-      },
-      "State.Motion.Move.Run": {
-        "Tag": "State.Motion.Move.Run",
-        "DevComment": ""
-      },
-      "State.Motion.Move.Sprint": {
-        "Tag": "State.Motion.Move.Sprint",
-        "DevComment": ""
-      },
-      "State.Motion.Move.Walk": {
-        "Tag": "State.Motion.Move.Walk",
-        "DevComment": ""
-      },
-      "State.Motion.NoMove": {
-        "Tag": "State.Motion.NoMove",
-        "DevComment": ""
-      },
-      "State.Motion.OnWall.NoMove": {
-        "Tag": "State.Motion.OnWall.NoMove",
-        "DevComment": ""
-      },
-      "State.Motion.OnWall.Walk": {
-        "Tag": "State.Motion.OnWall.Walk",
-        "DevComment": ""
-      },
-      "State.Shape.2D.Flying": {
-        "Tag": "State.Shape.2D.Flying",
-        "DevComment": ""
-      },
-      "State.Shape.2D.Side": {
-        "Tag": "State.Shape.2D.Side",
-        "DevComment": ""
-      },
-      "State.Shape.2D.Wall": {
-        "Tag": "State.Shape.2D.Wall",
-        "DevComment": ""
-      },
-      "State.Shape.Fake2D": {
-        "Tag": "State.Shape.Fake2D",
-        "DevComment": "白墨Q纸片这种假2D状态的标记"
-      },
-      "State.Shape.3D": {
-        "Tag": "State.Shape.3D",
-        "DevComment": ""
-      },
-      "State.Arousal.One": {
-        "Tag": "State.Arousal.One",
-        "DevComment": "觉醒技1"
-      },
-      "State.Arousal.Two": {
-        "Tag": "State.Arousal.Two",
-        "DevComment": "觉醒技2"
-      },
-      "State.Arousal.Three": {
-        "Tag": "State.Arousal.Three",
-        "DevComment": "觉醒技3"
-      },
-      "State.Locked.Q.KokonaShiki": {
-        "Tag": "State.Locked.Q.KokonaShiki",
-        "DevComment": "目标被锁定, 志木心夏Q技能锁定"
-      },
-      "State.Team.Enemy": {
-        "Tag": "State.Team.Enemy",
-        "DevComment": "仅客户端, 表示敌人"
-      },
-      "State.Team.Friend.Other": {
-        "Tag": "State.Team.Friend.Other",
-        "DevComment": "仅客户端, 表示队友"
-      },
-      "State.Team.Friend.Self": {
-        "Tag": "State.Team.Friend.Self",
-        "DevComment": "仅客户端, 表示自己"
-      },
-      "State.Found.Enemy": {
-        "Tag": "State.Found.Enemy",
-        "DevComment": "发现了敌人"
-      },
-      "State.Found.Friend.Self": {
-        "Tag": "State.Found.Friend.Self",
-        "DevComment": "发现了自己"
-      },
-      "State.Found.Friend.Other": {
-        "Tag": "State.Found.Friend.Other",
-        "DevComment": "发现了队友"
-      },
-      "State.GameMode.Spar": {
-        "Tag": "State.GameMode.Spar",
-        "DevComment": "采矿模式"
-      },
-      "State.Block.CD.Passive": {
-        "Tag": "State.Block.CD.Passive",
-        "DevComment": "阻挡提交P CD"
-      },
-      "State.Block.CD.SkillQ": {
-        "Tag": "State.Block.CD.SkillQ",
-        "DevComment": "阻挡提交Q CD"
-      },
-      "State.Block.CD.SkillX": {
-        "Tag": "State.Block.CD.SkillX",
-        "DevComment": "阻挡提交X CD"
-      },
-      "State.Block.Cost.Passive": {
-        "Tag": "State.Block.Cost.Passive",
-        "DevComment": "阻挡提交P Cost"
-      },
-      "State.Block.Cost.SkillQ": {
-        "Tag": "State.Block.Cost.SkillQ",
-        "DevComment": "阻挡提交Q Cost"
-      },
-      "State.Block.Cost.SkillX": {
-        "Tag": "State.Block.Cost.SkillX",
-        "DevComment": "阻挡提交X Cost"
-      },
-      "State.Block.CanCancel.P": {
-        "Tag": "State.Block.CanCancel.P",
-        "DevComment": "标记可以打断时机的标签"
-      },
-      "State.Block.CanCancel.Q": {
-        "Tag": "State.Block.CanCancel.Q",
-        "DevComment": "标记可以打断时机的标签"
-      },
-      "State.Block.CanCancel.X": {
-        "Tag": "State.Block.CanCancel.X",
-        "DevComment": "标记可以打断时机的标签"
-      },
-      "State.Block.UpdatePredictAmmo": {
-        "Tag": "State.Block.UpdatePredictAmmo",
-        "DevComment": "客户端暂停矫正弹量"
-      },
-      "State.Block.PersonalityAction": {
-        "Tag": "State.Block.PersonalityAction",
-        "DevComment": "阻止播放个性化动作"
-      },
-      "State.Summon.Distance.Near": {
-        "Tag": "State.Summon.Distance.Near",
-        "DevComment": "召唤物距离状态(近)"
-      },
-      "State.Summon.Distance.Middle": {
-        "Tag": "State.Summon.Distance.Middle",
-        "DevComment": "召唤物距离状态(中)"
-      },
-      "State.Summon.Distance.Far": {
-        "Tag": "State.Summon.Distance.Far",
-        "DevComment": "召唤物距离状态(远)"
-      },
-      "State.Summon.Distance.Out": {
-        "Tag": "State.Summon.Distance.Out",
-        "DevComment": "召唤物距离状态(越界)"
-      },
-      "State.Summon.Block.Jump": {
-        "Tag": "State.Summon.Block.Jump",
-        "DevComment": "召唤物禁止自身跳跃输入"
-      },
-      "State.Summon.Block.Movement": {
-        "Tag": "State.Summon.Block.Movement",
-        "DevComment": "召唤物禁止自身移动输入"
-      },
-      "State.Summon.IsControlledByPlayer": {
-        "Tag": "State.Summon.IsControlledByPlayer",
-        "DevComment": "召唤物正在被玩家Controlled控制"
-      },
-      "State.Summon.IsControlledByAI": {
-        "Tag": "State.Summon.IsControlledByAI",
-        "DevComment": "召唤物正在被AIControlled控制"
-      },
-      "State.Map.ForceShow": {
-        "Tag": "State.Map.ForceShow",
-        "DevComment": "小地图强制显示(仅对玩家有效)"
-      },
-      "State.Stealth.Flavia": {
-        "Tag": "State.Stealth.Flavia",
-        "DevComment": "芙拉薇娅大招潜行状态"
-      },
-      "State.Mine.StealMine": {
-        "Tag": "State.Mine.StealMine",
-        "DevComment": "偷矿状态"
-      },
-      "State.Player.Escort": {
-        "Tag": "State.Player.Escort",
-        "DevComment": "玩家护送状态"
-      },
-      "State.Player.EscortWall": {
-        "Tag": "State.Player.EscortWall",
-        "DevComment": "玩家护送贴墙状态"
-      },
-      "State.Player.CanUseGrowth": {
-        "Tag": "State.Player.CanUseGrowth",
-        "DevComment": "允许使用成长界面"
-      },
-      "State.Game.RemoveBuff": {
-        "Tag": "State.Game.RemoveBuff",
-        "DevComment": "移除buff"
-      },
-      "State.Player.DisableMove": {
-        "Tag": "State.Player.DisableMove",
-        "DevComment": "禁止移动"
-      },
-      "State.Player.Transferring": {
-        "Tag": "State.Player.Transferring",
-        "DevComment": "传送区域传送中"
-      },
-      "State.Player.MuteStepSound": {
-        "Tag": "State.Player.MuteStepSound",
-        "DevComment": "屏蔽脚步声"
-      },
-      "State.Player.Blind": {
-        "Tag": "State.Player.Blind",
-        "DevComment": "致盲状态"
-      },
-      "State.HalfEnter.RoleSelect": {
-        "Tag": "State.HalfEnter.RoleSelect",
-        "DevComment": "中途加入选人"
-      },
-      "State.GameState.ActivityTask.LuckyCoinTask": {
-        "Tag": "State.GameState.ActivityTask.LuckyCoinTask",
-        "DevComment": "红包车抢许愿币活动"
-      },
-      "State.Health.Stage.One": {
-        "Tag": "State.Health.Stage.One",
-        "DevComment": "血量阶段一"
-      },
-      "State.Health.Stage.Two": {
-        "Tag": "State.Health.Stage.Two",
-        "DevComment": "血量阶段二"
-      },
-      "State.Health.Stage.Three": {
-        "Tag": "State.Health.Stage.Three",
-        "DevComment": "血量阶段三"
-      },
-      "State.Health.Stage.Four": {
-        "Tag": "State.Health.Stage.Four",
-        "DevComment": "血量阶段四"
-      },
-      "State.Health.Stage.Five": {
-        "Tag": "State.Health.Stage.Five",
-        "DevComment": "血量阶段五"
-      },
-      "State.Player.Role.Human.Normal": {
-        "Tag": "State.Player.Role.Human.Normal",
-        "DevComment": ""
-      },
-      "State.Player.Role.Human.Hero": {
-        "Tag": "State.Player.Role.Human.Hero",
-        "DevComment": ""
-      },
-      "State.Player.Role.Human.Ultimate": {
-        "Tag": "State.Player.Role.Human.Ultimate",
-        "DevComment": ""
-      },
-      "State.Player.Role.Zombie.Normal.First": {
-        "Tag": "State.Player.Role.Zombie.Normal.First",
-        "DevComment": "子体第一阶段"
-      },
-      "State.Player.Role.Zombie.Normal.Second": {
-        "Tag": "State.Player.Role.Zombie.Normal.Second",
-        "DevComment": "子体第二阶段"
-      },
-      "State.Player.Role.Zombie.Normal.Third": {
-        "Tag": "State.Player.Role.Zombie.Normal.Third",
-        "DevComment": "子体第三阶段"
-      },
-      "State.Player.Role.Zombie.Master.First": {
-        "Tag": "State.Player.Role.Zombie.Master.First",
-        "DevComment": "母体第一阶段"
-      },
-      "State.Player.Role.Zombie.Master.Second": {
-        "Tag": "State.Player.Role.Zombie.Master.Second",
-        "DevComment": "母体第二阶段"
-      },
-      "State.Player.Role.Zombie.Master.Third": {
-        "Tag": "State.Player.Role.Zombie.Master.Third",
-        "DevComment": "母体第三阶段"
-      },
-      "State.Player.Role.Zombie.Ultimate.First": {
-        "Tag": "State.Player.Role.Zombie.Ultimate.First",
-        "DevComment": "终极体第一阶段"
-      },
-      "State.Player.Role.Zombie.Ultimate.Second": {
-        "Tag": "State.Player.Role.Zombie.Ultimate.Second",
-        "DevComment": "终极体第二阶段"
-      },
-      "State.Player.Role.Zombie.Ultimate.Third": {
-        "Tag": "State.Player.Role.Zombie.Ultimate.Third",
-        "DevComment": "终极体第三阶段"
-      },
-      "State.Charged.Stage.One": {
-        "Tag": "State.Charged.Stage.One",
-        "DevComment": "蓄力阶段一"
-      },
-      "State.Charged.Stage.Two": {
-        "Tag": "State.Charged.Stage.Two",
-        "DevComment": "蓄力阶段二"
-      },
-      "State.Charged.Stage.Three": {
-        "Tag": "State.Charged.Stage.Three",
-        "DevComment": "蓄力阶段三"
-      },
-      "State.Charged.Stage.Four": {
-        "Tag": "State.Charged.Stage.Four",
-        "DevComment": "蓄力阶段四"
-      },
-      "State.Charged.Stage.Five": {
-        "Tag": "State.Charged.Stage.Five",
-        "DevComment": "蓄力阶段五"
-      }
+    "State.Weapon.Hold.ADS": {
+      "Tag": "State.Weapon.Hold.ADS",
+      "DevComment": ""
+    },
+    "State.Weapon.Hold.AimOrADS": {
+      "Tag": "State.Weapon.Hold.AimOrADS",
+      "DevComment": ""
+    },
+    "State.Weapon.Hold.Custom": {
+      "Tag": "State.Weapon.Hold.Custom",
+      "DevComment": ""
+    },
+    "State.Weapon.Hold.Waist": {
+      "Tag": "State.Weapon.Hold.Waist",
+      "DevComment": ""
+    },
+    "State.Weapon.Hold.Relaxed": {
+      "Tag": "State.Weapon.Hold.Relaxed",
+      "DevComment": ""
+    },
+    "State.Weapon.Hold.CustomOrADS": {
+      "Tag": "State.Weapon.Hold.CustomOrADS",
+      "DevComment": ""
+    },
+    "State.Weapon.Entry": {
+      "Tag": "State.Weapon.Entry",
+      "DevComment": ""
+    },
+    "State.Weapon.Equip": {
+      "Tag": "State.Weapon.Equip",
+      "DevComment": ""
+    },
+    "State.Weapon.UnEquip": {
+      "Tag": "State.Weapon.UnEquip",
+      "DevComment": ""
+    },
+    "State.Weapon.UnEquipped": {
+      "Tag": "State.Weapon.UnEquipped",
+      "DevComment": ""
+    },
+    "State.Weapon.Reload": {
+      "Tag": "State.Weapon.Reload",
+      "DevComment": ""
+    },
+    "State.Weapon.EquipReload": {
+      "Tag": "State.Weapon.EquipReload",
+      "DevComment": ""
+    },
+    "State.Weapon.Attack": {
+      "Tag": "State.Weapon.Attack",
+      "DevComment": ""
+    },
+    "State.Weapon.Attack.Single": {
+      "Tag": "State.Weapon.Attack.Single",
+      "DevComment": ""
+    },
+    "State.Weapon.Attack.Burst": {
+      "Tag": "State.Weapon.Attack.Burst",
+      "DevComment": ""
+    },
+    "State.Weapon.Attack.Auto": {
+      "Tag": "State.Weapon.Attack.Auto",
+      "DevComment": ""
+    },
+    "State.Weapon.Attack.PullBolt": {
+      "Tag": "State.Weapon.Attack.PullBolt",
+      "DevComment": ""
+    },
+    "State.Weapon.Work": {
+      "Tag": "State.Weapon.Work",
+      "DevComment": ""
+    },
+    "State.Weapon.SecondWork": {
+      "Tag": "State.Weapon.SecondWork",
+      "DevComment": ""
+    },
+    "State.Weapon.ThirdWork": {
+      "Tag": "State.Weapon.ThirdWork",
+      "DevComment": ""
+    },
+    "State.Weapon.Finish": {
+      "Tag": "State.Weapon.Finish",
+      "DevComment": ""
+    },
+    "State.Weapon.PullBolt": {
+      "Tag": "State.Weapon.PullBolt",
+      "DevComment": ""
+    },
+    "State.Weapon.EnterSwitchAttackType": {
+      "Tag": "State.Weapon.EnterSwitchAttackType",
+      "DevComment": ""
+    },
+    "State.Weapon.LeaveSwitchAttackType": {
+      "Tag": "State.Weapon.LeaveSwitchAttackType",
+      "DevComment": ""
+    },
+    "State.Weapon.AttackSwtich.Ability": {
+      "Tag": "State.Weapon.AttackSwtich.Ability",
+      "DevComment": ""
+    },
+    "State.Weapon.Primary.Invalid": {
+      "Tag": "State.Weapon.Primary.Invalid",
+      "DevComment": "主武器武器无效"
+    },
+    "State.Weapon.Secondary.Invalid": {
+      "Tag": "State.Weapon.Secondary.Invalid",
+      "DevComment": "副武器武器无效"
+    },
+    "State.Weapon.MeleeAttacking": {
+      "Tag": "State.Weapon.MeleeAttacking",
+      "DevComment": "近战武器攻击中"
+    },
+    "State.Player.DisableAnimAllowMoveTurn": {
+      "Tag": "State.Player.DisableAnimAllowMoveTurn",
+      "DevComment": "禁止自动转身"
+    },
+    "State.Player.DisableSwitchWeapon": {
+      "Tag": "State.Player.DisableSwitchWeapon",
+      "DevComment": ""
+    },
+    "State.Player.DisableInteract": {
+      "Tag": "State.Player.DisableInteract",
+      "DevComment": ""
+    },
+    "State.Player.DisableInteractWithDuration": {
+      "Tag": "State.Player.DisableInteractWithDuration",
+      "DevComment": ""
+    },
+    "State.Player.DisableTips": {
+      "Tag": "State.Player.DisableTips",
+      "DevComment": "禁用提示系统"
+    },
+    "State.Player.DisableUseSkill": {
+      "Tag": "State.Player.DisableUseSkill",
+      "DevComment": ""
+    },
+    "State.Player.DisableUseShared": {
+      "Tag": "State.Player.DisableUseShared",
+      "DevComment": "禁用Shared技能"
+    },
+    "State.Player.DisableInput2D.Fly": {
+      "Tag": "State.Player.DisableInput2D.Fly",
+      "DevComment": "阻挡进入飘飞"
+    },
+    "State.Player.DisableInput2D.Side": {
+      "Tag": "State.Player.DisableInput2D.Side",
+      "DevComment": "阻挡进入侧身"
+    },
+    "State.Player.DisableKeep2D.Fly": {
+      "Tag": "State.Player.DisableKeep2D.Fly",
+      "DevComment": "阻挡恢复飘飞"
+    },
+    "State.Player.DisableKeep2D.Side": {
+      "Tag": "State.Player.DisableKeep2D.Side",
+      "DevComment": "阻挡恢复侧身"
+    },
+    "State.Player.DisableInputAim.Aiming": {
+      "Tag": "State.Player.DisableInputAim.Aiming",
+      "DevComment": "阻挡进入Aiming"
+    },
+    "State.Player.DisableInputAim.ADS": {
+      "Tag": "State.Player.DisableInputAim.ADS",
+      "DevComment": "阻挡进入ADS"
+    },
+    "State.Player.DisableKeepAim.Aiming": {
+      "Tag": "State.Player.DisableKeepAim.Aiming",
+      "DevComment": "阻挡恢复Aiming"
+    },
+    "State.Player.DisableKeepAim.ADS": {
+      "Tag": "State.Player.DisableKeepAim.ADS",
+      "DevComment": "阻挡恢复ADS"
+    },
+    "State.Player.DisableForceFly": {
+      "Tag": "State.Player.DisableForceFly",
+      "DevComment": "禁止强制吹飞"
+    },
+    "State.Player.Invincible": {
+      "Tag": "State.Player.Invincible",
+      "DevComment": "无敌"
+    },
+    "State.Player.Rescue": {
+      "Tag": "State.Player.Rescue",
+      "DevComment": "救人"
+    },
+    "State.Player.BeRescued": {
+      "Tag": "State.Player.BeRescued",
+      "DevComment": "被救"
+    },
+    "State.Player.BlockDeath": {
+      "Tag": "State.Player.BlockDeath",
+      "DevComment": "不会死亡"
+    },
+    "State.Player.Revival": {
+      "Tag": "State.Player.Revival",
+      "DevComment": "复活中"
+    },
+    "State.Player.XRayed": {
+      "Tag": "State.Player.XRayed",
+      "DevComment": "被敌方透视"
+    },
+    "State.Player.NoAction": {
+      "Tag": "State.Player.NoAction",
+      "DevComment": "没做任何行为"
+    },
+    "State.Player.ControlSummon": {
+      "Tag": "State.Player.ControlSummon",
+      "DevComment": "玩家控制召唤物状态"
+    },
+    "State.Health.Alive.Full": {
+      "Tag": "State.Health.Alive.Full",
+      "DevComment": "满血"
+    },
+    "State.Health.Alive.High": {
+      "Tag": "State.Health.Alive.High",
+      "DevComment": "高血量"
+    },
+    "State.Health.Alive.Low": {
+      "Tag": "State.Health.Alive.Low",
+      "DevComment": "低血量"
+    },
+    "State.Health.Injured": {
+      "Tag": "State.Health.Injured",
+      "DevComment": "倒地"
+    },
+    "State.Health.Death": {
+      "Tag": "State.Health.Death",
+      "DevComment": "死亡"
+    },
+    "State.Armor.Full": {
+      "Tag": "State.Armor.Full",
+      "DevComment": "满甲"
+    },
+    "State.Armor.Empty": {
+      "Tag": "State.Armor.Empty",
+      "DevComment": "空甲"
+    },
+    "State.PEnergy.Full": {
+      "Tag": "State.PEnergy.Full",
+      "DevComment": "技能能量满"
+    },
+    "State.PEnergy.Valid": {
+      "Tag": "State.PEnergy.Valid",
+      "DevComment": "技能能量有值"
+    },
+    "State.PEnergy.Empty": {
+      "Tag": "State.PEnergy.Empty",
+      "DevComment": "技能能量空"
+    },
+    "State.QEnergy.Full": {
+      "Tag": "State.QEnergy.Full",
+      "DevComment": "技能能量满"
+    },
+    "State.QEnergy.Valid": {
+      "Tag": "State.QEnergy.Valid",
+      "DevComment": "技能能量有值"
+    },
+    "State.QEnergy.Empty": {
+      "Tag": "State.QEnergy.Empty",
+      "DevComment": "技能能量空"
+    },
+    "State.XEnergy.Full": {
+      "Tag": "State.XEnergy.Full",
+      "DevComment": "技能能量满"
+    },
+    "State.XEnergy.Valid": {
+      "Tag": "State.XEnergy.Valid",
+      "DevComment": "技能能量有值"
+    },
+    "State.XEnergy.Empty": {
+      "Tag": "State.XEnergy.Empty",
+      "DevComment": "技能能量空"
+    },
+    "State.Game.Ready": {
+      "Tag": "State.Game.Ready",
+      "DevComment": "准备阶段"
+    },
+    "State.Game.Freeze": {
+      "Tag": "State.Game.Freeze",
+      "DevComment": "冻结阶段"
+    },
+    "State.Game.Start": {
+      "Tag": "State.Game.Start",
+      "DevComment": "开始"
+    },
+    "State.Game.End": {
+      "Tag": "State.Game.End",
+      "DevComment": "结束"
+    },
+    "State.Game.Start.Guide": {
+      "Tag": "State.Game.Start.Guide",
+      "DevComment": "新手引导"
+    },
+    "State.Summon.Work.First": {
+      "Tag": "State.Summon.Work.First",
+      "DevComment": ""
+    },
+    "State.Summon.Work.Second": {
+      "Tag": "State.Summon.Work.Second",
+      "DevComment": ""
+    },
+    "State.Summon.Work.A": {
+      "Tag": "State.Summon.Work.A",
+      "DevComment": "召唤物工作状态"
+    },
+    "State.Summon.Work.B": {
+      "Tag": "State.Summon.Work.B",
+      "DevComment": "召唤物工作状态"
+    },
+    "State.Summon.Work.C": {
+      "Tag": "State.Summon.Work.C",
+      "DevComment": "召唤物工作状态"
+    },
+    "State.Summon.Work.D": {
+      "Tag": "State.Summon.Work.D",
+      "DevComment": "召唤物工作状态"
+    },
+    "State.Summon.Work.E": {
+      "Tag": "State.Summon.Work.E",
+      "DevComment": "召唤物工作状态"
+    },
+    "State.Summon.Death": {
+      "Tag": "State.Summon.Death",
+      "DevComment": ""
+    },
+    "State.Summon.Leave": {
+      "Tag": "State.Summon.Leave",
+      "DevComment": ""
+    },
+    "State.Summon.Wait": {
+      "Tag": "State.Summon.Wait",
+      "DevComment": ""
+    },
+    "State.Summon.Entry": {
+      "Tag": "State.Summon.Entry",
+      "DevComment": ""
+    },
+    "State.Link.One": {
+      "Tag": "State.Link.One",
+      "DevComment": "连接状态, 连接1个"
+    },
+    "State.Link.Two": {
+      "Tag": "State.Link.Two",
+      "DevComment": "连接状态, 连接2个"
+    },
+    "State.Link.Three": {
+      "Tag": "State.Link.Three",
+      "DevComment": "连接状态, 连接3个"
+    },
+    "State.Link.Four": {
+      "Tag": "State.Link.Four",
+      "DevComment": "连接状态, 连接4个"
+    },
+    "State.Immunity.Move.Force": {
+      "Tag": "State.Immunity.Move.Force",
+      "DevComment": "免疫状态: 免疫强制移动"
+    },
+    "State.Immunity.Weak": {
+      "Tag": "State.Immunity.Weak",
+      "DevComment": "免疫状态: 免疫Debuff"
+    },
+    "State.Motion.InAir.None": {
+      "Tag": "State.Motion.InAir.None",
+      "DevComment": "空中水平移动"
+    },
+    "State.Motion.InAir.Down": {
+      "Tag": "State.Motion.InAir.Down",
+      "DevComment": "空中下落"
+    },
+    "State.Motion.InAir.Up": {
+      "Tag": "State.Motion.InAir.Up",
+      "DevComment": "空中上升"
+    },
+    "State.Motion.Move.Run": {
+      "Tag": "State.Motion.Move.Run",
+      "DevComment": ""
+    },
+    "State.Motion.Move.Sprint": {
+      "Tag": "State.Motion.Move.Sprint",
+      "DevComment": ""
+    },
+    "State.Motion.Move.Walk": {
+      "Tag": "State.Motion.Move.Walk",
+      "DevComment": ""
+    },
+    "State.Motion.NoMove": {
+      "Tag": "State.Motion.NoMove",
+      "DevComment": ""
+    },
+    "State.Motion.OnWall.NoMove": {
+      "Tag": "State.Motion.OnWall.NoMove",
+      "DevComment": ""
+    },
+    "State.Motion.OnWall.Walk": {
+      "Tag": "State.Motion.OnWall.Walk",
+      "DevComment": ""
+    },
+    "State.Shape.2D.Flying": {
+      "Tag": "State.Shape.2D.Flying",
+      "DevComment": ""
+    },
+    "State.Shape.2D.Side": {
+      "Tag": "State.Shape.2D.Side",
+      "DevComment": ""
+    },
+    "State.Shape.2D.Wall": {
+      "Tag": "State.Shape.2D.Wall",
+      "DevComment": ""
+    },
+    "State.Shape.Fake2D": {
+      "Tag": "State.Shape.Fake2D",
+      "DevComment": "白墨Q纸片这种假2D状态的标记"
+    },
+    "State.Shape.3D": {
+      "Tag": "State.Shape.3D",
+      "DevComment": ""
+    },
+    "State.Arousal.One": {
+      "Tag": "State.Arousal.One",
+      "DevComment": "觉醒技1"
+    },
+    "State.Arousal.Two": {
+      "Tag": "State.Arousal.Two",
+      "DevComment": "觉醒技2"
+    },
+    "State.Arousal.Three": {
+      "Tag": "State.Arousal.Three",
+      "DevComment": "觉醒技3"
+    },
+    "State.Locked.Q.KokonaShiki": {
+      "Tag": "State.Locked.Q.KokonaShiki",
+      "DevComment": "目标被锁定, 志木心夏Q技能锁定"
+    },
+    "State.Team.Enemy": {
+      "Tag": "State.Team.Enemy",
+      "DevComment": "仅客户端, 表示敌人"
+    },
+    "State.Team.Friend.Other": {
+      "Tag": "State.Team.Friend.Other",
+      "DevComment": "仅客户端, 表示队友"
+    },
+    "State.Team.Friend.Self": {
+      "Tag": "State.Team.Friend.Self",
+      "DevComment": "仅客户端, 表示自己"
+    },
+    "State.Found.Enemy": {
+      "Tag": "State.Found.Enemy",
+      "DevComment": "发现了敌人"
+    },
+    "State.Found.Friend.Self": {
+      "Tag": "State.Found.Friend.Self",
+      "DevComment": "发现了自己"
+    },
+    "State.Found.Friend.Other": {
+      "Tag": "State.Found.Friend.Other",
+      "DevComment": "发现了队友"
+    },
+    "State.GameMode.Spar": {
+      "Tag": "State.GameMode.Spar",
+      "DevComment": "采矿模式"
+    },
+    "State.Block.CD.Passive": {
+      "Tag": "State.Block.CD.Passive",
+      "DevComment": "阻挡提交P CD"
+    },
+    "State.Block.CD.SkillQ": {
+      "Tag": "State.Block.CD.SkillQ",
+      "DevComment": "阻挡提交Q CD"
+    },
+    "State.Block.CD.SkillX": {
+      "Tag": "State.Block.CD.SkillX",
+      "DevComment": "阻挡提交X CD"
+    },
+    "State.Block.Cost.Passive": {
+      "Tag": "State.Block.Cost.Passive",
+      "DevComment": "阻挡提交P Cost"
+    },
+    "State.Block.Cost.SkillQ": {
+      "Tag": "State.Block.Cost.SkillQ",
+      "DevComment": "阻挡提交Q Cost"
+    },
+    "State.Block.Cost.SkillX": {
+      "Tag": "State.Block.Cost.SkillX",
+      "DevComment": "阻挡提交X Cost"
+    },
+    "State.Block.CanCancel.P": {
+      "Tag": "State.Block.CanCancel.P",
+      "DevComment": "标记可以打断时机的标签"
+    },
+    "State.Block.CanCancel.Q": {
+      "Tag": "State.Block.CanCancel.Q",
+      "DevComment": "标记可以打断时机的标签"
+    },
+    "State.Block.CanCancel.X": {
+      "Tag": "State.Block.CanCancel.X",
+      "DevComment": "标记可以打断时机的标签"
+    },
+    "State.Block.UpdatePredictAmmo": {
+      "Tag": "State.Block.UpdatePredictAmmo",
+      "DevComment": "客户端暂停矫正弹量"
+    },
+    "State.Block.PersonalityAction": {
+      "Tag": "State.Block.PersonalityAction",
+      "DevComment": "阻止播放个性化动作"
+    },
+    "State.Summon.Distance.Near": {
+      "Tag": "State.Summon.Distance.Near",
+      "DevComment": "召唤物距离状态(近)"
+    },
+    "State.Summon.Distance.Middle": {
+      "Tag": "State.Summon.Distance.Middle",
+      "DevComment": "召唤物距离状态(中)"
+    },
+    "State.Summon.Distance.Far": {
+      "Tag": "State.Summon.Distance.Far",
+      "DevComment": "召唤物距离状态(远)"
+    },
+    "State.Summon.Distance.Out": {
+      "Tag": "State.Summon.Distance.Out",
+      "DevComment": "召唤物距离状态(越界)"
+    },
+    "State.Summon.Block.Jump": {
+      "Tag": "State.Summon.Block.Jump",
+      "DevComment": "召唤物禁止自身跳跃输入"
+    },
+    "State.Summon.Block.Movement": {
+      "Tag": "State.Summon.Block.Movement",
+      "DevComment": "召唤物禁止自身移动输入"
+    },
+    "State.Summon.IsControlledByPlayer": {
+      "Tag": "State.Summon.IsControlledByPlayer",
+      "DevComment": "召唤物正在被玩家Controlled控制"
+    },
+    "State.Summon.IsControlledByAI": {
+      "Tag": "State.Summon.IsControlledByAI",
+      "DevComment": "召唤物正在被AIControlled控制"
+    },
+    "State.Map.ForceShow": {
+      "Tag": "State.Map.ForceShow",
+      "DevComment": "小地图强制显示(仅对玩家有效)"
+    },
+    "State.Stealth.Flavia": {
+      "Tag": "State.Stealth.Flavia",
+      "DevComment": "芙拉薇娅大招潜行状态"
+    },
+    "State.Mine.StealMine": {
+      "Tag": "State.Mine.StealMine",
+      "DevComment": "偷矿状态"
+    },
+    "State.Player.Escort": {
+      "Tag": "State.Player.Escort",
+      "DevComment": "玩家护送状态"
+    },
+    "State.Player.EscortWall": {
+      "Tag": "State.Player.EscortWall",
+      "DevComment": "玩家护送贴墙状态"
+    },
+    "State.Player.CanUseGrowth": {
+      "Tag": "State.Player.CanUseGrowth",
+      "DevComment": "允许使用成长界面"
+    },
+    "State.Game.RemoveBuff": {
+      "Tag": "State.Game.RemoveBuff",
+      "DevComment": "移除buff"
+    },
+    "State.Player.DisableMove": {
+      "Tag": "State.Player.DisableMove",
+      "DevComment": "禁止移动"
+    },
+    "State.Player.Transferring": {
+      "Tag": "State.Player.Transferring",
+      "DevComment": "传送区域传送中"
+    },
+    "State.Player.MuteStepSound": {
+      "Tag": "State.Player.MuteStepSound",
+      "DevComment": "屏蔽脚步声"
+    },
+    "State.Player.Blind": {
+      "Tag": "State.Player.Blind",
+      "DevComment": "致盲状态"
+    },
+    "State.HalfEnter.RoleSelect": {
+      "Tag": "State.HalfEnter.RoleSelect",
+      "DevComment": "中途加入选人"
+    },
+    "State.GameState.ActivityTask.LuckyCoinTask": {
+      "Tag": "State.GameState.ActivityTask.LuckyCoinTask",
+      "DevComment": "红包车抢许愿币活动"
+    },
+    "State.Health.Stage.One": {
+      "Tag": "State.Health.Stage.One",
+      "DevComment": "血量阶段一"
+    },
+    "State.Health.Stage.Two": {
+      "Tag": "State.Health.Stage.Two",
+      "DevComment": "血量阶段二"
+    },
+    "State.Health.Stage.Three": {
+      "Tag": "State.Health.Stage.Three",
+      "DevComment": "血量阶段三"
+    },
+    "State.Health.Stage.Four": {
+      "Tag": "State.Health.Stage.Four",
+      "DevComment": "血量阶段四"
+    },
+    "State.Health.Stage.Five": {
+      "Tag": "State.Health.Stage.Five",
+      "DevComment": "血量阶段五"
+    },
+    "State.Player.Role.Human.Normal": {
+      "Tag": "State.Player.Role.Human.Normal",
+      "DevComment": ""
+    },
+    "State.Player.Role.Human.Hero": {
+      "Tag": "State.Player.Role.Human.Hero",
+      "DevComment": ""
+    },
+    "State.Player.Role.Human.Ultimate": {
+      "Tag": "State.Player.Role.Human.Ultimate",
+      "DevComment": ""
+    },
+    "State.Player.Role.Zombie.Normal.First": {
+      "Tag": "State.Player.Role.Zombie.Normal.First",
+      "DevComment": "子体第一阶段"
+    },
+    "State.Player.Role.Zombie.Normal.Second": {
+      "Tag": "State.Player.Role.Zombie.Normal.Second",
+      "DevComment": "子体第二阶段"
+    },
+    "State.Player.Role.Zombie.Normal.Third": {
+      "Tag": "State.Player.Role.Zombie.Normal.Third",
+      "DevComment": "子体第三阶段"
+    },
+    "State.Player.Role.Zombie.Master.First": {
+      "Tag": "State.Player.Role.Zombie.Master.First",
+      "DevComment": "母体第一阶段"
+    },
+    "State.Player.Role.Zombie.Master.Second": {
+      "Tag": "State.Player.Role.Zombie.Master.Second",
+      "DevComment": "母体第二阶段"
+    },
+    "State.Player.Role.Zombie.Master.Third": {
+      "Tag": "State.Player.Role.Zombie.Master.Third",
+      "DevComment": "母体第三阶段"
+    },
+    "State.Player.Role.Zombie.Ultimate.First": {
+      "Tag": "State.Player.Role.Zombie.Ultimate.First",
+      "DevComment": "终极体第一阶段"
+    },
+    "State.Player.Role.Zombie.Ultimate.Second": {
+      "Tag": "State.Player.Role.Zombie.Ultimate.Second",
+      "DevComment": "终极体第二阶段"
+    },
+    "State.Player.Role.Zombie.Ultimate.Third": {
+      "Tag": "State.Player.Role.Zombie.Ultimate.Third",
+      "DevComment": "终极体第三阶段"
+    },
+    "State.Charged.Stage.One": {
+      "Tag": "State.Charged.Stage.One",
+      "DevComment": "蓄力阶段一"
+    },
+    "State.Charged.Stage.Two": {
+      "Tag": "State.Charged.Stage.Two",
+      "DevComment": "蓄力阶段二"
+    },
+    "State.Charged.Stage.Three": {
+      "Tag": "State.Charged.Stage.Three",
+      "DevComment": "蓄力阶段三"
+    },
+    "State.Charged.Stage.Four": {
+      "Tag": "State.Charged.Stage.Four",
+      "DevComment": "蓄力阶段四"
+    },
+    "State.Charged.Stage.Five": {
+      "Tag": "State.Charged.Stage.Five",
+      "DevComment": "蓄力阶段五"
     }
   }
-]
+}

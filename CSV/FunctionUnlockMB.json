@@ -1,996 +1,994 @@
-[
-  {
-    "Type": "DataTable",
-    "Name": "FunctionUnlockMB",
-    "Class": "UScriptClass'DataTable'",
-    "Properties": {
-      "RowStruct": {
-        "ObjectName": "ScriptStruct'CyFunctionUnlockMBTableRow'",
-        "ObjectPath": "/Script/PMGame"
-      }
+{
+  "Type": "DataTable",
+  "Name": "FunctionUnlockMB",
+  "Class": "UScriptClass'DataTable'",
+  "Properties": {
+    "RowStruct": {
+      "ObjectName": "ScriptStruct'CyFunctionUnlockMBTableRow'",
+      "ObjectPath": "/Script/PMGame"
+    }
+  },
+  "Rows": {
+    "10": {
+      "Id": "ECYFunctionMobileTypes::Play",
+      "Name": {
+        "Namespace": "FunctionUnlockMB",
+        "Key": "10_Name",
+        "SourceString": "对战",
+        "LocalizedString": "对战"
+      },
+      "Type": 1,
+      "SubFunction": [],
+      "PlayerLevel": 1,
+      "LockTips": {
+        "CultureInvariantString": null
+      },
+      "BluePrint": "None",
+      "IconItem": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "RedDot": "None"
     },
-    "Rows": {
-      "10": {
-        "Id": "ECYFunctionMobileTypes::Play",
-        "Name": {
-          "Namespace": "FunctionUnlockMB",
-          "Key": "10_Name",
-          "SourceString": "对战",
-          "LocalizedString": "对战"
-        },
-        "Type": 1,
-        "SubFunction": [],
-        "PlayerLevel": 1,
-        "LockTips": {
-          "CultureInvariantString": null
-        },
-        "BluePrint": "None",
-        "IconItem": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "RedDot": "None"
+    "20": {
+      "Id": "ECYFunctionMobileTypes::BattlePass",
+      "Name": {
+        "Namespace": "FunctionUnlockMB",
+        "Key": "20_Name",
+        "SourceString": "特别行动",
+        "LocalizedString": "特别行动"
       },
-      "20": {
-        "Id": "ECYFunctionMobileTypes::BattlePass",
-        "Name": {
-          "Namespace": "FunctionUnlockMB",
-          "Key": "20_Name",
-          "SourceString": "特别行动",
-          "LocalizedString": "特别行动"
-        },
-        "Type": 1,
-        "SubFunction": [
-          21,
-          22,
-          23,
-          24,
-          25
-        ],
-        "PlayerLevel": 1,
-        "LockTips": {
-          "CultureInvariantString": null
-        },
-        "BluePrint": "None",
-        "IconItem": {
-          "AssetPathName": "/Game/PaperMan/UI/Atlas/Mobile/Frontend/UnionMobile/Frames/SPR_UI_UnionMobile_bp_icon.SPR_UI_UnionMobile_bp_icon",
-          "SubPathString": ""
-        },
-        "RedDot": "None"
+      "Type": 1,
+      "SubFunction": [
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "PlayerLevel": 1,
+      "LockTips": {
+        "CultureInvariantString": null
       },
-      "21": {
-        "Id": "ECYFunctionMobileTypes::BackGround",
-        "Name": {
-          "Namespace": "FunctionUnlockMB",
-          "Key": "21_Name",
-          "SourceString": "背景",
-          "LocalizedString": "背景"
-        },
-        "Type": 2,
-        "SubFunction": [],
-        "PlayerLevel": 1,
-        "LockTips": {
-          "CultureInvariantString": null
-        },
-        "BluePrint": "BattlePassBGPage",
-        "IconItem": {
-          "AssetPathName": "/Game/PaperMan/UI/Atlas/Mobile/Frontend/UnionMobile/Frames/SPR_UI_UnionMobile_bp_icon.SPR_UI_UnionMobile_bp_icon",
-          "SubPathString": ""
-        },
-        "RedDot": "None"
+      "BluePrint": "None",
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/Mobile/Frontend/UnionMobile/Frames/SPR_UI_UnionMobile_bp_icon.SPR_UI_UnionMobile_bp_icon",
+        "SubPathString": ""
       },
-      "22": {
-        "Id": "ECYFunctionMobileTypes::Progress",
-        "Name": {
-          "Namespace": "FunctionUnlockMB",
-          "Key": "22_Name",
-          "SourceString": "进程",
-          "LocalizedString": "进程"
-        },
-        "Type": 2,
-        "SubFunction": [],
-        "PlayerLevel": 1,
-        "LockTips": {
-          "CultureInvariantString": null
-        },
-        "BluePrint": "BattlePassProgressPage",
-        "IconItem": {
-          "AssetPathName": "/Game/PaperMan/UI/Atlas/Mobile/Frontend/UnionMobile/Frames/SPR_UI_UnionMobile_process_icon.SPR_UI_UnionMobile_process_icon",
-          "SubPathString": ""
-        },
-        "RedDot": "BPProgress"
+      "RedDot": "None"
+    },
+    "21": {
+      "Id": "ECYFunctionMobileTypes::BackGround",
+      "Name": {
+        "Namespace": "FunctionUnlockMB",
+        "Key": "21_Name",
+        "SourceString": "背景",
+        "LocalizedString": "背景"
       },
-      "23": {
-        "Id": "ECYFunctionMobileTypes::Mission",
-        "Name": {
-          "Namespace": "FunctionUnlockMB",
-          "Key": "23_Name",
-          "SourceString": "任务",
-          "LocalizedString": "任务"
-        },
-        "Type": 2,
-        "SubFunction": [],
-        "PlayerLevel": 1,
-        "LockTips": {
-          "CultureInvariantString": null
-        },
-        "BluePrint": "BattlePassTaskPage",
-        "IconItem": {
-          "AssetPathName": "/Game/PaperMan/UI/Atlas/Mobile/Frontend/UnionMobile/Frames/SPR_UI_UnionMobile_task_icon.SPR_UI_UnionMobile_task_icon",
-          "SubPathString": ""
-        },
-        "RedDot": "BPTask"
+      "Type": 2,
+      "SubFunction": [],
+      "PlayerLevel": 1,
+      "LockTips": {
+        "CultureInvariantString": null
       },
-      "24": {
-        "Id": "ECYFunctionMobileTypes::Clue",
-        "Name": {
-          "Namespace": "FunctionUnlockMB",
-          "Key": "24_Name",
-          "SourceString": "线索板",
-          "LocalizedString": "线索板"
-        },
-        "Type": 2,
-        "SubFunction": [],
-        "PlayerLevel": 1,
-        "LockTips": {
-          "CultureInvariantString": null
-        },
-        "BluePrint": "BattlePassCluePage",
-        "IconItem": {
-          "AssetPathName": "/Game/PaperMan/UI/Atlas/Mobile/Frontend/UnionMobile/Frames/SPR_UI_UnionMobile_clue_icon.SPR_UI_UnionMobile_clue_icon",
-          "SubPathString": ""
-        },
-        "RedDot": "BPClue"
+      "BluePrint": "BattlePassBGPage",
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/Mobile/Frontend/UnionMobile/Frames/SPR_UI_UnionMobile_bp_icon.SPR_UI_UnionMobile_bp_icon",
+        "SubPathString": ""
       },
-      "25": {
-        "Id": "ECYFunctionMobileTypes::Story",
-        "Name": {
-          "Namespace": "FunctionUnlockMB",
-          "Key": "25_Name",
-          "SourceString": "故事",
-          "LocalizedString": "故事"
-        },
-        "Type": 2,
-        "SubFunction": [],
-        "PlayerLevel": 1,
-        "LockTips": {
-          "CultureInvariantString": null
-        },
-        "BluePrint": "CinematicCloister",
-        "IconItem": {
-          "AssetPathName": "/Game/PaperMan/UI/Atlas/Mobile/Frontend/UnionMobile/Frames/SPR_UI_UnionMobile_story_icon.SPR_UI_UnionMobile_story_icon",
-          "SubPathString": ""
-        },
-        "RedDot": "None"
+      "RedDot": "None"
+    },
+    "22": {
+      "Id": "ECYFunctionMobileTypes::Progress",
+      "Name": {
+        "Namespace": "FunctionUnlockMB",
+        "Key": "22_Name",
+        "SourceString": "进程",
+        "LocalizedString": "进程"
       },
-      "30": {
-        "Id": "ECYFunctionMobileTypes::EquipmentRoom",
-        "Name": {
-          "Namespace": "FunctionUnlockMB",
-          "Key": "30_Name",
-          "SourceString": "超弦体",
-          "LocalizedString": "超弦体"
-        },
-        "Type": 1,
-        "SubFunction": [],
-        "PlayerLevel": 1,
-        "LockTips": {
-          "CultureInvariantString": null
-        },
-        "BluePrint": "None",
-        "IconItem": {
-          "AssetPathName": "/Game/PaperMan/UI/Atlas/Mobile/Frontend/UnionMobile/Frames/SPR_UI_UnionMobile_prepare_icon.SPR_UI_UnionMobile_prepare_icon",
-          "SubPathString": ""
-        },
-        "RedDot": "None"
+      "Type": 2,
+      "SubFunction": [],
+      "PlayerLevel": 1,
+      "LockTips": {
+        "CultureInvariantString": null
       },
-      "31": {
-        "Id": "ECYFunctionMobileTypes::EquipRoomRoleSkin",
-        "Name": {
-          "Namespace": "FunctionUnlockMB",
-          "Key": "31_Name",
-          "SourceString": "时装",
-          "LocalizedString": "时装"
-        },
-        "Type": 1,
-        "SubFunction": [],
-        "PlayerLevel": 1,
-        "LockTips": {
-          "CultureInvariantString": null
-        },
-        "BluePrint": "None",
-        "IconItem": {
-          "AssetPathName": "/Game/PaperMan/UI/Atlas/Mobile/Frontend/UnionMobile/Frames/SPR_UI_UnionMobile_cloth_icon.SPR_UI_UnionMobile_cloth_icon",
-          "SubPathString": ""
-        },
-        "RedDot": "None"
+      "BluePrint": "BattlePassProgressPage",
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/Mobile/Frontend/UnionMobile/Frames/SPR_UI_UnionMobile_process_icon.SPR_UI_UnionMobile_process_icon",
+        "SubPathString": ""
       },
-      "32": {
-        "Id": "ECYFunctionMobileTypes::EquipRoomRoleVoice",
-        "Name": {
-          "Namespace": "FunctionUnlockMB",
-          "Key": "32_Name",
-          "SourceString": "语音",
-          "LocalizedString": "语音"
-        },
-        "Type": 1,
-        "SubFunction": [],
-        "PlayerLevel": 1,
-        "LockTips": {
-          "CultureInvariantString": null
-        },
-        "BluePrint": "None",
-        "IconItem": {
-          "AssetPathName": "/Game/PaperMan/UI/Atlas/Mobile/Frontend/UnionMobile/Frames/SPR_UI_UnionMobile_speak_icon.SPR_UI_UnionMobile_speak_icon",
-          "SubPathString": ""
-        },
-        "RedDot": "None"
+      "RedDot": "BPProgress"
+    },
+    "23": {
+      "Id": "ECYFunctionMobileTypes::Mission",
+      "Name": {
+        "Namespace": "FunctionUnlockMB",
+        "Key": "23_Name",
+        "SourceString": "任务",
+        "LocalizedString": "任务"
       },
-      "33": {
-        "Id": "ECYFunctionMobileTypes::EquipRoomCommunication",
-        "Name": {
-          "Namespace": "FunctionUnlockMB",
-          "Key": "33_Name",
-          "SourceString": "沟通",
-          "LocalizedString": "沟通"
-        },
-        "Type": 1,
-        "SubFunction": [],
-        "PlayerLevel": 1,
-        "LockTips": {
-          "CultureInvariantString": null
-        },
-        "BluePrint": "None",
-        "IconItem": {
-          "AssetPathName": "/Game/PaperMan/UI/Atlas/Mobile/Frontend/UnionMobile/Frames/SPR_UI_UnionMobile_talk_icon.SPR_UI_UnionMobile_talk_icon",
-          "SubPathString": ""
-        },
-        "RedDot": "None"
+      "Type": 2,
+      "SubFunction": [],
+      "PlayerLevel": 1,
+      "LockTips": {
+        "CultureInvariantString": null
       },
-      "34": {
-        "Id": "ECYFunctionMobileTypes::EquipRoomFlyEffect",
-        "Name": {
-          "Namespace": "FunctionUnlockMB",
-          "Key": "34_Name",
-          "SourceString": "飘飞特效",
-          "LocalizedString": "飘飞特效"
-        },
-        "Type": 1,
-        "SubFunction": [],
-        "PlayerLevel": 1,
-        "LockTips": {
-          "CultureInvariantString": null
-        },
-        "BluePrint": "None",
-        "IconItem": {
-          "AssetPathName": "/Game/PaperMan/UI/Atlas/Mobile/Frontend/UnionMobile/Frames/SPR_UI_UnionMobile_fly_icon.SPR_UI_UnionMobile_fly_icon",
-          "SubPathString": ""
-        },
-        "RedDot": "None"
+      "BluePrint": "BattlePassTaskPage",
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/Mobile/Frontend/UnionMobile/Frames/SPR_UI_UnionMobile_task_icon.SPR_UI_UnionMobile_task_icon",
+        "SubPathString": ""
       },
-      "35": {
-        "Id": "ECYFunctionMobileTypes::EquipRoomPrimaryWeaponSkin",
-        "Name": {
-          "Namespace": "FunctionUnlockMB",
-          "Key": "35_Name",
-          "SourceString": "主武器",
-          "LocalizedString": "主武器"
-        },
-        "Type": 1,
-        "SubFunction": [],
-        "PlayerLevel": 1,
-        "LockTips": {
-          "CultureInvariantString": null
-        },
-        "BluePrint": "None",
-        "IconItem": {
-          "AssetPathName": "/Game/PaperMan/UI/Atlas/Mobile/Frontend/UnionMobile/Frames/SPR_UI_UnionMobile_main_icon.SPR_UI_UnionMobile_main_icon",
-          "SubPathString": ""
-        },
-        "RedDot": "None"
+      "RedDot": "BPTask"
+    },
+    "24": {
+      "Id": "ECYFunctionMobileTypes::Clue",
+      "Name": {
+        "Namespace": "FunctionUnlockMB",
+        "Key": "24_Name",
+        "SourceString": "线索板",
+        "LocalizedString": "线索板"
       },
-      "36": {
-        "Id": "ECYFunctionMobileTypes::EquipRoomSecondaryWeaponSkin",
-        "Name": {
-          "Namespace": "FunctionUnlockMB",
-          "Key": "36_Name",
-          "SourceString": "副武器",
-          "LocalizedString": "副武器"
-        },
-        "Type": 1,
-        "SubFunction": [],
-        "PlayerLevel": 1,
-        "LockTips": {
-          "CultureInvariantString": null
-        },
-        "BluePrint": "None",
-        "IconItem": {
-          "AssetPathName": "/Game/PaperMan/UI/Atlas/Mobile/Frontend/UnionMobile/Frames/SPR_UI_UnionMobile_second_icon.SPR_UI_UnionMobile_second_icon",
-          "SubPathString": ""
-        },
-        "RedDot": "None"
+      "Type": 2,
+      "SubFunction": [],
+      "PlayerLevel": 1,
+      "LockTips": {
+        "CultureInvariantString": null
       },
-      "37": {
-        "Id": "ECYFunctionMobileTypes::GrenadeSkin_1",
-        "Name": {
-          "Namespace": "FunctionUnlockMB",
-          "Key": "37_Name",
-          "SourceString": "战术道具1",
-          "LocalizedString": "战术道具1"
-        },
-        "Type": 1,
-        "SubFunction": [],
-        "PlayerLevel": 1,
-        "LockTips": {
-          "CultureInvariantString": null
-        },
-        "BluePrint": "None",
-        "IconItem": {
-          "AssetPathName": "/Game/PaperMan/UI/Atlas/Mobile/Frontend/UnionMobile/Frames/SPR_UI_UnionMobile_bomnp_icon.SPR_UI_UnionMobile_bomnp_icon",
-          "SubPathString": ""
-        },
-        "RedDot": "None"
+      "BluePrint": "BattlePassCluePage",
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/Mobile/Frontend/UnionMobile/Frames/SPR_UI_UnionMobile_clue_icon.SPR_UI_UnionMobile_clue_icon",
+        "SubPathString": ""
       },
-      "38": {
-        "Id": "ECYFunctionMobileTypes::GrenadeSkin_2",
-        "Name": {
-          "Namespace": "FunctionUnlockMB",
-          "Key": "38_Name",
-          "SourceString": "战术道具2",
-          "LocalizedString": "战术道具2"
-        },
-        "Type": 1,
-        "SubFunction": [],
-        "PlayerLevel": 1,
-        "LockTips": {
-          "CultureInvariantString": null
-        },
-        "BluePrint": "None",
-        "IconItem": {
-          "AssetPathName": "/Game/PaperMan/UI/Atlas/Mobile/Frontend/UnionMobile/Frames/SPR_UI_UnionMobile_bomnp_icon.SPR_UI_UnionMobile_bomnp_icon",
-          "SubPathString": ""
-        },
-        "RedDot": "None"
+      "RedDot": "BPClue"
+    },
+    "25": {
+      "Id": "ECYFunctionMobileTypes::Story",
+      "Name": {
+        "Namespace": "FunctionUnlockMB",
+        "Key": "25_Name",
+        "SourceString": "故事",
+        "LocalizedString": "故事"
       },
-      "39": {
-        "Id": "ECYFunctionMobileTypes::EquipRoomDecal",
-        "Name": {
-          "Namespace": "FunctionUnlockMB",
-          "Key": "39_Name",
-          "SourceString": "喷漆",
-          "LocalizedString": "喷漆"
-        },
-        "Type": 1,
-        "SubFunction": [],
-        "PlayerLevel": 1,
-        "LockTips": {
-          "CultureInvariantString": null
-        },
-        "BluePrint": "None",
-        "IconItem": {
-          "AssetPathName": "/Game/PaperMan/UI/Atlas/Mobile/Frontend/UnionMobile/Frames/SPR_UI_UnionMobile_penqi_icon.SPR_UI_UnionMobile_penqi_icon",
-          "SubPathString": ""
-        },
-        "RedDot": "None"
+      "Type": 2,
+      "SubFunction": [],
+      "PlayerLevel": 1,
+      "LockTips": {
+        "CultureInvariantString": null
       },
-      "50": {
-        "Id": "ECYFunctionMobileTypes::Career",
-        "Name": {
-          "Namespace": "FunctionUnlockMB",
-          "Key": "50_Name",
-          "SourceString": "生涯",
-          "LocalizedString": "生涯"
-        },
-        "Type": 1,
-        "SubFunction": [
-          51,
-          52,
-          53
-        ],
-        "PlayerLevel": 1,
-        "LockTips": {
-          "CultureInvariantString": null
-        },
-        "BluePrint": "None",
-        "IconItem": {
-          "AssetPathName": "/Game/PaperMan/UI/Atlas/Mobile/Frontend/UnionMobile/Frames/SPR_UI_UnionMobile_caceer_icon.SPR_UI_UnionMobile_caceer_icon",
-          "SubPathString": ""
-        },
-        "RedDot": "None"
+      "BluePrint": "CinematicCloister",
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/Mobile/Frontend/UnionMobile/Frames/SPR_UI_UnionMobile_story_icon.SPR_UI_UnionMobile_story_icon",
+        "SubPathString": ""
       },
-      "51": {
-        "Id": "ECYFunctionMobileTypes::Achievement",
-        "Name": {
-          "Namespace": "FunctionUnlockMB",
-          "Key": "51_Name",
-          "SourceString": "成就",
-          "LocalizedString": "成就"
-        },
-        "Type": 2,
-        "SubFunction": [],
-        "PlayerLevel": 1,
-        "LockTips": {
-          "CultureInvariantString": null
-        },
-        "BluePrint": "Achievement",
-        "IconItem": {
-          "AssetPathName": "/Game/PaperMan/UI/Atlas/Mobile/Frontend/UnionMobile/Frames/SPR_UI_UnionMobile_achievement_icon.SPR_UI_UnionMobile_achievement_icon",
-          "SubPathString": ""
-        },
-        "RedDot": "CareerAchievement"
+      "RedDot": "None"
+    },
+    "30": {
+      "Id": "ECYFunctionMobileTypes::EquipmentRoom",
+      "Name": {
+        "Namespace": "FunctionUnlockMB",
+        "Key": "30_Name",
+        "SourceString": "超弦体",
+        "LocalizedString": "超弦体"
       },
-      "52": {
-        "Id": "ECYFunctionMobileTypes::BattleInfo",
-        "Name": {
-          "Namespace": "FunctionUnlockMB",
-          "Key": "52_Name",
-          "SourceString": "战绩",
-          "LocalizedString": "战绩"
-        },
-        "Type": 2,
-        "SubFunction": [],
-        "PlayerLevel": 1,
-        "LockTips": {
-          "CultureInvariantString": null
-        },
-        "BluePrint": "BattleRecordPage",
-        "IconItem": {
-          "AssetPathName": "/Game/PaperMan/UI/Atlas/Mobile/Frontend/UnionMobile/Frames/SPR_UI_UnionMobile_military_icon.SPR_UI_UnionMobile_military_icon",
-          "SubPathString": ""
-        },
-        "RedDot": "None"
+      "Type": 1,
+      "SubFunction": [],
+      "PlayerLevel": 1,
+      "LockTips": {
+        "CultureInvariantString": null
       },
-      "53": {
-        "Id": "ECYFunctionMobileTypes::Warehouse",
-        "Name": {
-          "Namespace": "FunctionUnlockMB",
-          "Key": "53_Name",
-          "SourceString": "仓库",
-          "LocalizedString": "仓库"
-        },
-        "Type": 2,
-        "SubFunction": [],
-        "PlayerLevel": 1,
-        "LockTips": {
-          "CultureInvariantString": null
-        },
-        "BluePrint": "WareHousePage",
-        "IconItem": {
-          "AssetPathName": "/Game/PaperMan/UI/Atlas/Mobile/Frontend/UnionMobile/Frames/SPR_UI_UnionMobile_warehouse_icon.SPR_UI_UnionMobile_warehouse_icon",
-          "SubPathString": ""
-        },
-        "RedDot": "CareerWarehouse"
+      "BluePrint": "None",
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/Mobile/Frontend/UnionMobile/Frames/SPR_UI_UnionMobile_prepare_icon.SPR_UI_UnionMobile_prepare_icon",
+        "SubPathString": ""
       },
-      "60": {
-        "Id": "ECYFunctionMobileTypes::Shop",
-        "Name": {
-          "Namespace": "FunctionUnlockMB",
-          "Key": "60_Name",
-          "SourceString": "商店",
-          "LocalizedString": "商店"
-        },
-        "Type": 1,
-        "SubFunction": [
-          61,
-          63
-        ],
-        "PlayerLevel": 1,
-        "LockTips": {
-          "CultureInvariantString": null
-        },
-        "BluePrint": "None",
-        "IconItem": {
-          "AssetPathName": "/Game/PaperMan/UI/Atlas/Mobile/Frontend/UnionMobile/Frames/SPR_UI_UnionMobile_coin_icon.SPR_UI_UnionMobile_coin_icon",
-          "SubPathString": ""
-        },
-        "RedDot": "None"
+      "RedDot": "None"
+    },
+    "31": {
+      "Id": "ECYFunctionMobileTypes::EquipRoomRoleSkin",
+      "Name": {
+        "Namespace": "FunctionUnlockMB",
+        "Key": "31_Name",
+        "SourceString": "时装",
+        "LocalizedString": "时装"
       },
-      "61": {
-        "Id": "ECYFunctionMobileTypes::Recommend",
-        "Name": {
-          "Namespace": "FunctionUnlockMB",
-          "Key": "61_Name",
-          "SourceString": "推荐",
-          "LocalizedString": "推荐"
-        },
-        "Type": 2,
-        "SubFunction": [],
-        "PlayerLevel": 1,
-        "LockTips": {
-          "CultureInvariantString": null
-        },
-        "BluePrint": "HermesHotListPage",
-        "IconItem": {
-          "AssetPathName": "/Game/PaperMan/UI/Atlas/Mobile/Frontend/UnionMobile/Frames/SPR_UI_UnionMobile_recommend_icon.SPR_UI_UnionMobile_recommend_icon",
-          "SubPathString": ""
-        },
-        "RedDot": "None"
+      "Type": 1,
+      "SubFunction": [],
+      "PlayerLevel": 1,
+      "LockTips": {
+        "CultureInvariantString": null
       },
-      "62": {
-        "Id": "ECYFunctionMobileTypes::Weapon",
-        "Name": {
-          "Namespace": "FunctionUnlockMB",
-          "Key": "62_Name",
-          "SourceString": "武器粒子",
-          "LocalizedString": "武器粒子"
-        },
-        "Type": 2,
-        "SubFunction": [],
-        "PlayerLevel": 1,
-        "LockTips": {
-          "CultureInvariantString": null
-        },
-        "BluePrint": "HermesPiecesArmsPage",
-        "IconItem": {
-          "AssetPathName": "/Game/PaperMan/UI/Atlas/Mobile/Frontend/UnionMobile/Frames/SPR_UI_UnionMobile_particle_icon.SPR_UI_UnionMobile_particle_icon",
-          "SubPathString": ""
-        },
-        "RedDot": "None"
+      "BluePrint": "None",
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/Mobile/Frontend/UnionMobile/Frames/SPR_UI_UnionMobile_cloth_icon.SPR_UI_UnionMobile_cloth_icon",
+        "SubPathString": ""
       },
-      "63": {
-        "Id": "ECYFunctionMobileTypes::Item",
-        "Name": {
-          "Namespace": "FunctionUnlockMB",
-          "Key": "63_Name",
-          "SourceString": "充值",
-          "LocalizedString": "充值"
-        },
-        "Type": 2,
-        "SubFunction": [],
-        "PlayerLevel": 1,
-        "LockTips": {
-          "CultureInvariantString": null
-        },
-        "BluePrint": "HermesTopUpPage",
-        "IconItem": {
-          "AssetPathName": "/Game/PaperMan/UI/Atlas/Mobile/Frontend/UnionMobile/Frames/SPR_UI_UnionMobile_top_icon.SPR_UI_UnionMobile_top_icon",
-          "SubPathString": ""
-        },
-        "RedDot": "None"
+      "RedDot": "None"
+    },
+    "32": {
+      "Id": "ECYFunctionMobileTypes::EquipRoomRoleVoice",
+      "Name": {
+        "Namespace": "FunctionUnlockMB",
+        "Key": "32_Name",
+        "SourceString": "语音",
+        "LocalizedString": "语音"
       },
-      "70": {
-        "Id": "ECYFunctionMobileTypes::Rank",
-        "Name": {
-          "Namespace": "FunctionUnlockMB",
-          "Key": "70_Name",
-          "SourceString": "排位",
-          "LocalizedString": "排位"
-        },
-        "Type": 1,
-        "SubFunction": [
-          71,
-          72,
-          73,
-          74
-        ],
-        "PlayerLevel": 1,
-        "LockTips": {
-          "CultureInvariantString": null
-        },
-        "BluePrint": "None",
-        "IconItem": {
-          "AssetPathName": "/Game/PaperMan/UI/Atlas/Mobile/Frontend/UnionMobile/Frames/SPR_UI_UnionMobile_rank_icon.SPR_UI_UnionMobile_rank_icon",
-          "SubPathString": ""
-        },
-        "RedDot": "None"
+      "Type": 1,
+      "SubFunction": [],
+      "PlayerLevel": 1,
+      "LockTips": {
+        "CultureInvariantString": null
       },
-      "71": {
-        "Id": "ECYFunctionMobileTypes::CareerRank",
-        "Name": {
-          "Namespace": "FunctionUnlockMB",
-          "Key": "71_Name",
-          "SourceString": "排位",
-          "LocalizedString": "排位"
-        },
-        "Type": 2,
-        "SubFunction": [],
-        "PlayerLevel": 1,
-        "LockTips": {
-          "CultureInvariantString": null
-        },
-        "BluePrint": "CareerRank",
-        "IconItem": {
-          "AssetPathName": "/Game/PaperMan/UI/Atlas/Mobile/Frontend/UnionMobile/Frames/SPR_UI_UnionMobile_rank_icon.SPR_UI_UnionMobile_rank_icon",
-          "SubPathString": ""
-        },
-        "RedDot": "None"
+      "BluePrint": "None",
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/Mobile/Frontend/UnionMobile/Frames/SPR_UI_UnionMobile_speak_icon.SPR_UI_UnionMobile_speak_icon",
+        "SubPathString": ""
       },
-      "72": {
-        "Id": "ECYFunctionMobileTypes::HonorRank",
-        "Name": {
-          "Namespace": "FunctionUnlockMB",
-          "Key": "72_Name",
-          "SourceString": "排行榜",
-          "LocalizedString": "排行榜"
-        },
-        "Type": 2,
-        "SubFunction": [],
-        "PlayerLevel": 1,
-        "LockTips": {
-          "CultureInvariantString": null
-        },
-        "BluePrint": "HonorRank",
-        "IconItem": {
-          "AssetPathName": "/Game/PaperMan/UI/Atlas/Mobile/Frontend/UnionMobile/Frames/SPR_UI_UnionMobile_list_icon.SPR_UI_UnionMobile_list_icon",
-          "SubPathString": ""
-        },
-        "RedDot": "None"
+      "RedDot": "None"
+    },
+    "33": {
+      "Id": "ECYFunctionMobileTypes::EquipRoomCommunication",
+      "Name": {
+        "Namespace": "FunctionUnlockMB",
+        "Key": "33_Name",
+        "SourceString": "沟通",
+        "LocalizedString": "沟通"
       },
-      "73": {
-        "Id": "ECYFunctionMobileTypes::SeasonPrize",
-        "Name": {
-          "Namespace": "FunctionUnlockMB",
-          "Key": "73_Name",
-          "SourceString": "赛季奖励",
-          "LocalizedString": "赛季奖励"
-        },
-        "Type": 2,
-        "SubFunction": [],
-        "PlayerLevel": 1,
-        "LockTips": {
-          "CultureInvariantString": null
-        },
-        "BluePrint": "SeasonPrize",
-        "IconItem": {
-          "AssetPathName": "/Game/PaperMan/UI/Atlas/Mobile/Frontend/UnionMobile/Frames/SPR_UI_UnionMobile_gift_icon.SPR_UI_UnionMobile_gift_icon",
-          "SubPathString": ""
-        },
-        "RedDot": "CareerRankReward"
+      "Type": 1,
+      "SubFunction": [],
+      "PlayerLevel": 1,
+      "LockTips": {
+        "CultureInvariantString": null
       },
-      "74": {
-        "Id": "ECYFunctionMobileTypes::RankIcon",
-        "Name": {
-          "Namespace": "FunctionUnlockMB",
-          "Key": "74_Name",
-          "SourceString": "段位图示",
-          "LocalizedString": "段位图示"
-        },
-        "Type": 2,
-        "SubFunction": [],
-        "PlayerLevel": 1,
-        "LockTips": {
-          "CultureInvariantString": null
-        },
-        "BluePrint": "RankIcon",
-        "IconItem": {
-          "AssetPathName": "/Game/PaperMan/UI/Atlas/Mobile/Frontend/UnionMobile/Frames/SPR_UI_UnionMobile_RankExplain_icon.SPR_UI_UnionMobile_RankExplain_icon",
-          "SubPathString": ""
-        },
-        "RedDot": "None"
+      "BluePrint": "None",
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/Mobile/Frontend/UnionMobile/Frames/SPR_UI_UnionMobile_talk_icon.SPR_UI_UnionMobile_talk_icon",
+        "SubPathString": ""
       },
-      "80": {
-        "Id": "ECYFunctionMobileTypes::Friend",
-        "Name": {
-          "Namespace": "FunctionUnlockMB",
-          "Key": "80_Name",
-          "SourceString": "好友",
-          "LocalizedString": "好友"
-        },
-        "Type": 0,
-        "SubFunction": [
-          81,
-          82,
-          83,
-          84,
-          85,
-          86
-        ],
-        "PlayerLevel": 0,
-        "LockTips": {
-          "CultureInvariantString": null
-        },
-        "BluePrint": "None",
-        "IconItem": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "RedDot": "None"
+      "RedDot": "None"
+    },
+    "34": {
+      "Id": "ECYFunctionMobileTypes::EquipRoomFlyEffect",
+      "Name": {
+        "Namespace": "FunctionUnlockMB",
+        "Key": "34_Name",
+        "SourceString": "飘飞特效",
+        "LocalizedString": "飘飞特效"
       },
-      "81": {
-        "Id": "ECYFunctionMobileTypes::PlatformFriend",
-        "Name": {
-          "Namespace": "FunctionUnlockMB",
-          "Key": "81_Name",
-          "SourceString": "平台好友",
-          "LocalizedString": "平台好友"
-        },
-        "Type": 0,
-        "SubFunction": [],
-        "PlayerLevel": 0,
-        "LockTips": {
-          "CultureInvariantString": null
-        },
-        "BluePrint": "None",
-        "IconItem": {
-          "AssetPathName": "/Game/PaperMan/UI/Atlas/Mobile/Frontend/UnionMobile/Frames/SPR_UI_UnionMobile_wechat_icon.SPR_UI_UnionMobile_wechat_icon",
-          "SubPathString": ""
-        },
-        "RedDot": "None"
+      "Type": 1,
+      "SubFunction": [],
+      "PlayerLevel": 1,
+      "LockTips": {
+        "CultureInvariantString": null
       },
-      "82": {
-        "Id": "ECYFunctionMobileTypes::GameFriend",
-        "Name": {
-          "Namespace": "FunctionUnlockMB",
-          "Key": "82_Name",
-          "SourceString": "游戏好友",
-          "LocalizedString": "游戏好友"
-        },
-        "Type": 0,
-        "SubFunction": [],
-        "PlayerLevel": 0,
-        "LockTips": {
-          "CultureInvariantString": null
-        },
-        "BluePrint": "None",
-        "IconItem": {
-          "AssetPathName": "/Game/PaperMan/UI/Atlas/Mobile/Frontend/UnionMobile/Frames/SPR_UI_UnionMobile_gamefriend_icon.SPR_UI_UnionMobile_gamefriend_icon",
-          "SubPathString": ""
-        },
-        "RedDot": "None"
+      "BluePrint": "None",
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/Mobile/Frontend/UnionMobile/Frames/SPR_UI_UnionMobile_fly_icon.SPR_UI_UnionMobile_fly_icon",
+        "SubPathString": ""
       },
-      "83": {
-        "Id": "ECYFunctionMobileTypes::ShieldedFriend",
-        "Name": {
-          "Namespace": "FunctionUnlockMB",
-          "Key": "83_Name",
-          "SourceString": "已屏蔽",
-          "LocalizedString": "已屏蔽"
-        },
-        "Type": 0,
-        "SubFunction": [],
-        "PlayerLevel": 0,
-        "LockTips": {
-          "CultureInvariantString": null
-        },
-        "BluePrint": "None",
-        "IconItem": {
-          "AssetPathName": "/Game/PaperMan/UI/Atlas/Mobile/Frontend/UnionMobile/Frames/SPR_UI_UnionMobile_friendoff_icon.SPR_UI_UnionMobile_friendoff_icon",
-          "SubPathString": ""
-        },
-        "RedDot": "None"
+      "RedDot": "None"
+    },
+    "35": {
+      "Id": "ECYFunctionMobileTypes::EquipRoomPrimaryWeaponSkin",
+      "Name": {
+        "Namespace": "FunctionUnlockMB",
+        "Key": "35_Name",
+        "SourceString": "主武器",
+        "LocalizedString": "主武器"
       },
-      "84": {
-        "Id": "ECYFunctionMobileTypes::AddFriend",
-        "Name": {
-          "Namespace": "FunctionUnlockMB",
-          "Key": "84_Name",
-          "SourceString": "添加好友",
-          "LocalizedString": "添加好友"
-        },
-        "Type": 0,
-        "SubFunction": [],
-        "PlayerLevel": 0,
-        "LockTips": {
-          "CultureInvariantString": null
-        },
-        "BluePrint": "None",
-        "IconItem": {
-          "AssetPathName": "/Game/PaperMan/UI/Atlas/Mobile/Frontend/UnionMobile/Frames/SPR_UI_UnionMobile_addfriend_icon.SPR_UI_UnionMobile_addfriend_icon",
-          "SubPathString": ""
-        },
-        "RedDot": "None"
+      "Type": 1,
+      "SubFunction": [],
+      "PlayerLevel": 1,
+      "LockTips": {
+        "CultureInvariantString": null
       },
-      "85": {
-        "Id": "ECYFunctionMobileTypes::ViewReq",
-        "Name": {
-          "Namespace": "FunctionUnlockMB",
-          "Key": "85_Name",
-          "SourceString": "查看申请",
-          "LocalizedString": "查看申请"
-        },
-        "Type": 0,
-        "SubFunction": [],
-        "PlayerLevel": 0,
-        "LockTips": {
-          "CultureInvariantString": null
-        },
-        "BluePrint": "None",
-        "IconItem": {
-          "AssetPathName": "/Game/PaperMan/UI/Atlas/Mobile/Frontend/UnionMobile/Frames/SPR_UI_UnionMobile_check_icon.SPR_UI_UnionMobile_check_icon",
-          "SubPathString": ""
-        },
-        "RedDot": "None"
+      "BluePrint": "None",
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/Mobile/Frontend/UnionMobile/Frames/SPR_UI_UnionMobile_main_icon.SPR_UI_UnionMobile_main_icon",
+        "SubPathString": ""
       },
-      "86": {
-        "Id": "ECYFunctionMobileTypes::SetState",
-        "Name": {
-          "Namespace": "FunctionUnlockMB",
-          "Key": "86_Name",
-          "SourceString": "状态设定",
-          "LocalizedString": "状态设定"
-        },
-        "Type": 0,
-        "SubFunction": [],
-        "PlayerLevel": 0,
-        "LockTips": {
-          "CultureInvariantString": null
-        },
-        "BluePrint": "None",
-        "IconItem": {
-          "AssetPathName": "/Game/PaperMan/UI/Atlas/Mobile/Frontend/UnionMobile/Frames/SPR_UI_UnionMobile_set_icon.SPR_UI_UnionMobile_set_icon",
-          "SubPathString": ""
-        },
-        "RedDot": "None"
+      "RedDot": "None"
+    },
+    "36": {
+      "Id": "ECYFunctionMobileTypes::EquipRoomSecondaryWeaponSkin",
+      "Name": {
+        "Namespace": "FunctionUnlockMB",
+        "Key": "36_Name",
+        "SourceString": "副武器",
+        "LocalizedString": "副武器"
       },
-      "90": {
-        "Id": "ECYFunctionMobileTypes::Setting",
-        "Name": {
-          "Namespace": "FunctionUnlockMB",
-          "Key": "90_Name",
-          "SourceString": "设置",
-          "LocalizedString": "设置"
-        },
-        "Type": 0,
-        "SubFunction": [
-          91,
-          92,
-          93,
-          94,
-          95,
-          96
-        ],
-        "PlayerLevel": 0,
-        "LockTips": {
-          "CultureInvariantString": null
-        },
-        "BluePrint": "None",
-        "IconItem": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "RedDot": "None"
+      "Type": 1,
+      "SubFunction": [],
+      "PlayerLevel": 1,
+      "LockTips": {
+        "CultureInvariantString": null
       },
-      "91": {
-        "Id": "ECYFunctionMobileTypes::Basic",
-        "Name": {
-          "Namespace": "FunctionUnlockMB",
-          "Key": "91_Name",
-          "SourceString": "基础",
-          "LocalizedString": "基础"
-        },
-        "Type": 0,
-        "SubFunction": [],
-        "PlayerLevel": 0,
-        "LockTips": {
-          "CultureInvariantString": null
-        },
-        "BluePrint": "None",
-        "IconItem": {
-          "AssetPathName": "/Game/PaperMan/UI/Atlas/Mobile/Frontend/UnionMobile/Frames/SPR_UI_UnionMobile_basis_icon.SPR_UI_UnionMobile_basis_icon",
-          "SubPathString": ""
-        },
-        "RedDot": "None"
+      "BluePrint": "None",
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/Mobile/Frontend/UnionMobile/Frames/SPR_UI_UnionMobile_second_icon.SPR_UI_UnionMobile_second_icon",
+        "SubPathString": ""
       },
-      "92": {
-        "Id": "ECYFunctionMobileTypes::Operate",
-        "Name": {
-          "Namespace": "FunctionUnlockMB",
-          "Key": "92_Name",
-          "SourceString": "操作",
-          "LocalizedString": "操作"
-        },
-        "Type": 0,
-        "SubFunction": [],
-        "PlayerLevel": 0,
-        "LockTips": {
-          "CultureInvariantString": null
-        },
-        "BluePrint": "None",
-        "IconItem": {
-          "AssetPathName": "/Game/PaperMan/UI/Atlas/Mobile/Frontend/UnionMobile/Frames/SPR_UI_UnionMobile_operate_icon.SPR_UI_UnionMobile_operate_icon",
-          "SubPathString": ""
-        },
-        "RedDot": "None"
+      "RedDot": "None"
+    },
+    "37": {
+      "Id": "ECYFunctionMobileTypes::GrenadeSkin_1",
+      "Name": {
+        "Namespace": "FunctionUnlockMB",
+        "Key": "37_Name",
+        "SourceString": "战术道具1",
+        "LocalizedString": "战术道具1"
       },
-      "93": {
-        "Id": "ECYFunctionMobileTypes::Sense",
-        "Name": {
-          "Namespace": "FunctionUnlockMB",
-          "Key": "93_Name",
-          "SourceString": "灵敏度",
-          "LocalizedString": "灵敏度"
-        },
-        "Type": 0,
-        "SubFunction": [],
-        "PlayerLevel": 0,
-        "LockTips": {
-          "CultureInvariantString": null
-        },
-        "BluePrint": "None",
-        "IconItem": {
-          "AssetPathName": "/Game/PaperMan/UI/Atlas/Mobile/Frontend/UnionMobile/Frames/SPR_UI_UnionMobile_mouse_icon.SPR_UI_UnionMobile_mouse_icon",
-          "SubPathString": ""
-        },
-        "RedDot": "None"
+      "Type": 1,
+      "SubFunction": [],
+      "PlayerLevel": 1,
+      "LockTips": {
+        "CultureInvariantString": null
       },
-      "94": {
-        "Id": "ECYFunctionMobileTypes::CrossHair",
-        "Name": {
-          "Namespace": "FunctionUnlockMB",
-          "Key": "94_Name",
-          "SourceString": "准星",
-          "LocalizedString": "准星"
-        },
-        "Type": 0,
-        "SubFunction": [],
-        "PlayerLevel": 0,
-        "LockTips": {
-          "CultureInvariantString": null
-        },
-        "BluePrint": "None",
-        "IconItem": {
-          "AssetPathName": "/Game/PaperMan/UI/Atlas/Mobile/Frontend/UnionMobile/Frames/SPR_UI_UnionMobile_crosshair_icon.SPR_UI_UnionMobile_crosshair_icon",
-          "SubPathString": ""
-        },
-        "RedDot": "None"
+      "BluePrint": "None",
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/Mobile/Frontend/UnionMobile/Frames/SPR_UI_UnionMobile_bomnp_icon.SPR_UI_UnionMobile_bomnp_icon",
+        "SubPathString": ""
       },
-      "95": {
-        "Id": "ECYFunctionMobileTypes::Visual",
-        "Name": {
-          "Namespace": "FunctionUnlockMB",
-          "Key": "95_Name",
-          "SourceString": "画面",
-          "LocalizedString": "画面"
-        },
-        "Type": 0,
-        "SubFunction": [],
-        "PlayerLevel": 0,
-        "LockTips": {
-          "CultureInvariantString": null
-        },
-        "BluePrint": "None",
-        "IconItem": {
-          "AssetPathName": "/Game/PaperMan/UI/Atlas/Mobile/Frontend/UnionMobile/Frames/SPR_UI_UnionMobile_image_icon.SPR_UI_UnionMobile_image_icon",
-          "SubPathString": ""
-        },
-        "RedDot": "None"
+      "RedDot": "None"
+    },
+    "38": {
+      "Id": "ECYFunctionMobileTypes::GrenadeSkin_2",
+      "Name": {
+        "Namespace": "FunctionUnlockMB",
+        "Key": "38_Name",
+        "SourceString": "战术道具2",
+        "LocalizedString": "战术道具2"
       },
-      "96": {
-        "Id": "ECYFunctionMobileTypes::Sound",
-        "Name": {
-          "Namespace": "FunctionUnlockMB",
-          "Key": "96_Name",
-          "SourceString": "声音",
-          "LocalizedString": "声音"
-        },
-        "Type": 0,
-        "SubFunction": [],
-        "PlayerLevel": 0,
-        "LockTips": {
-          "CultureInvariantString": null
-        },
-        "BluePrint": "None",
-        "IconItem": {
-          "AssetPathName": "/Game/PaperMan/UI/Atlas/Mobile/Frontend/UnionMobile/Frames/SPR_UI_UnionMobile_sound_icon.SPR_UI_UnionMobile_sound_icon",
-          "SubPathString": ""
-        },
-        "RedDot": "None"
+      "Type": 1,
+      "SubFunction": [],
+      "PlayerLevel": 1,
+      "LockTips": {
+        "CultureInvariantString": null
       },
-      "100": {
-        "Id": "ECYFunctionMobileTypes::NoviceGuideSetting",
-        "Name": {
-          "Namespace": "FunctionUnlockMB",
-          "Key": "100_Name",
-          "SourceString": "新手引导设置",
-          "LocalizedString": "新手引导设置"
-        },
-        "Type": 0,
-        "SubFunction": [
-          92,
-          93,
-          96
-        ],
-        "PlayerLevel": 0,
-        "LockTips": {
-          "CultureInvariantString": null
-        },
-        "BluePrint": "None",
-        "IconItem": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "RedDot": "None"
-      }
+      "BluePrint": "None",
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/Mobile/Frontend/UnionMobile/Frames/SPR_UI_UnionMobile_bomnp_icon.SPR_UI_UnionMobile_bomnp_icon",
+        "SubPathString": ""
+      },
+      "RedDot": "None"
+    },
+    "39": {
+      "Id": "ECYFunctionMobileTypes::EquipRoomDecal",
+      "Name": {
+        "Namespace": "FunctionUnlockMB",
+        "Key": "39_Name",
+        "SourceString": "喷漆",
+        "LocalizedString": "喷漆"
+      },
+      "Type": 1,
+      "SubFunction": [],
+      "PlayerLevel": 1,
+      "LockTips": {
+        "CultureInvariantString": null
+      },
+      "BluePrint": "None",
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/Mobile/Frontend/UnionMobile/Frames/SPR_UI_UnionMobile_penqi_icon.SPR_UI_UnionMobile_penqi_icon",
+        "SubPathString": ""
+      },
+      "RedDot": "None"
+    },
+    "50": {
+      "Id": "ECYFunctionMobileTypes::Career",
+      "Name": {
+        "Namespace": "FunctionUnlockMB",
+        "Key": "50_Name",
+        "SourceString": "生涯",
+        "LocalizedString": "生涯"
+      },
+      "Type": 1,
+      "SubFunction": [
+        51,
+        52,
+        53
+      ],
+      "PlayerLevel": 1,
+      "LockTips": {
+        "CultureInvariantString": null
+      },
+      "BluePrint": "None",
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/Mobile/Frontend/UnionMobile/Frames/SPR_UI_UnionMobile_caceer_icon.SPR_UI_UnionMobile_caceer_icon",
+        "SubPathString": ""
+      },
+      "RedDot": "None"
+    },
+    "51": {
+      "Id": "ECYFunctionMobileTypes::Achievement",
+      "Name": {
+        "Namespace": "FunctionUnlockMB",
+        "Key": "51_Name",
+        "SourceString": "成就",
+        "LocalizedString": "成就"
+      },
+      "Type": 2,
+      "SubFunction": [],
+      "PlayerLevel": 1,
+      "LockTips": {
+        "CultureInvariantString": null
+      },
+      "BluePrint": "Achievement",
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/Mobile/Frontend/UnionMobile/Frames/SPR_UI_UnionMobile_achievement_icon.SPR_UI_UnionMobile_achievement_icon",
+        "SubPathString": ""
+      },
+      "RedDot": "CareerAchievement"
+    },
+    "52": {
+      "Id": "ECYFunctionMobileTypes::BattleInfo",
+      "Name": {
+        "Namespace": "FunctionUnlockMB",
+        "Key": "52_Name",
+        "SourceString": "战绩",
+        "LocalizedString": "战绩"
+      },
+      "Type": 2,
+      "SubFunction": [],
+      "PlayerLevel": 1,
+      "LockTips": {
+        "CultureInvariantString": null
+      },
+      "BluePrint": "BattleRecordPage",
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/Mobile/Frontend/UnionMobile/Frames/SPR_UI_UnionMobile_military_icon.SPR_UI_UnionMobile_military_icon",
+        "SubPathString": ""
+      },
+      "RedDot": "None"
+    },
+    "53": {
+      "Id": "ECYFunctionMobileTypes::Warehouse",
+      "Name": {
+        "Namespace": "FunctionUnlockMB",
+        "Key": "53_Name",
+        "SourceString": "仓库",
+        "LocalizedString": "仓库"
+      },
+      "Type": 2,
+      "SubFunction": [],
+      "PlayerLevel": 1,
+      "LockTips": {
+        "CultureInvariantString": null
+      },
+      "BluePrint": "WareHousePage",
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/Mobile/Frontend/UnionMobile/Frames/SPR_UI_UnionMobile_warehouse_icon.SPR_UI_UnionMobile_warehouse_icon",
+        "SubPathString": ""
+      },
+      "RedDot": "CareerWarehouse"
+    },
+    "60": {
+      "Id": "ECYFunctionMobileTypes::Shop",
+      "Name": {
+        "Namespace": "FunctionUnlockMB",
+        "Key": "60_Name",
+        "SourceString": "商店",
+        "LocalizedString": "商店"
+      },
+      "Type": 1,
+      "SubFunction": [
+        61,
+        63
+      ],
+      "PlayerLevel": 1,
+      "LockTips": {
+        "CultureInvariantString": null
+      },
+      "BluePrint": "None",
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/Mobile/Frontend/UnionMobile/Frames/SPR_UI_UnionMobile_coin_icon.SPR_UI_UnionMobile_coin_icon",
+        "SubPathString": ""
+      },
+      "RedDot": "None"
+    },
+    "61": {
+      "Id": "ECYFunctionMobileTypes::Recommend",
+      "Name": {
+        "Namespace": "FunctionUnlockMB",
+        "Key": "61_Name",
+        "SourceString": "推荐",
+        "LocalizedString": "推荐"
+      },
+      "Type": 2,
+      "SubFunction": [],
+      "PlayerLevel": 1,
+      "LockTips": {
+        "CultureInvariantString": null
+      },
+      "BluePrint": "HermesHotListPage",
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/Mobile/Frontend/UnionMobile/Frames/SPR_UI_UnionMobile_recommend_icon.SPR_UI_UnionMobile_recommend_icon",
+        "SubPathString": ""
+      },
+      "RedDot": "None"
+    },
+    "62": {
+      "Id": "ECYFunctionMobileTypes::Weapon",
+      "Name": {
+        "Namespace": "FunctionUnlockMB",
+        "Key": "62_Name",
+        "SourceString": "武器粒子",
+        "LocalizedString": "武器粒子"
+      },
+      "Type": 2,
+      "SubFunction": [],
+      "PlayerLevel": 1,
+      "LockTips": {
+        "CultureInvariantString": null
+      },
+      "BluePrint": "HermesPiecesArmsPage",
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/Mobile/Frontend/UnionMobile/Frames/SPR_UI_UnionMobile_particle_icon.SPR_UI_UnionMobile_particle_icon",
+        "SubPathString": ""
+      },
+      "RedDot": "None"
+    },
+    "63": {
+      "Id": "ECYFunctionMobileTypes::Item",
+      "Name": {
+        "Namespace": "FunctionUnlockMB",
+        "Key": "63_Name",
+        "SourceString": "充值",
+        "LocalizedString": "充值"
+      },
+      "Type": 2,
+      "SubFunction": [],
+      "PlayerLevel": 1,
+      "LockTips": {
+        "CultureInvariantString": null
+      },
+      "BluePrint": "HermesTopUpPage",
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/Mobile/Frontend/UnionMobile/Frames/SPR_UI_UnionMobile_top_icon.SPR_UI_UnionMobile_top_icon",
+        "SubPathString": ""
+      },
+      "RedDot": "None"
+    },
+    "70": {
+      "Id": "ECYFunctionMobileTypes::Rank",
+      "Name": {
+        "Namespace": "FunctionUnlockMB",
+        "Key": "70_Name",
+        "SourceString": "排位",
+        "LocalizedString": "排位"
+      },
+      "Type": 1,
+      "SubFunction": [
+        71,
+        72,
+        73,
+        74
+      ],
+      "PlayerLevel": 1,
+      "LockTips": {
+        "CultureInvariantString": null
+      },
+      "BluePrint": "None",
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/Mobile/Frontend/UnionMobile/Frames/SPR_UI_UnionMobile_rank_icon.SPR_UI_UnionMobile_rank_icon",
+        "SubPathString": ""
+      },
+      "RedDot": "None"
+    },
+    "71": {
+      "Id": "ECYFunctionMobileTypes::CareerRank",
+      "Name": {
+        "Namespace": "FunctionUnlockMB",
+        "Key": "71_Name",
+        "SourceString": "排位",
+        "LocalizedString": "排位"
+      },
+      "Type": 2,
+      "SubFunction": [],
+      "PlayerLevel": 1,
+      "LockTips": {
+        "CultureInvariantString": null
+      },
+      "BluePrint": "CareerRank",
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/Mobile/Frontend/UnionMobile/Frames/SPR_UI_UnionMobile_rank_icon.SPR_UI_UnionMobile_rank_icon",
+        "SubPathString": ""
+      },
+      "RedDot": "None"
+    },
+    "72": {
+      "Id": "ECYFunctionMobileTypes::HonorRank",
+      "Name": {
+        "Namespace": "FunctionUnlockMB",
+        "Key": "72_Name",
+        "SourceString": "排行榜",
+        "LocalizedString": "排行榜"
+      },
+      "Type": 2,
+      "SubFunction": [],
+      "PlayerLevel": 1,
+      "LockTips": {
+        "CultureInvariantString": null
+      },
+      "BluePrint": "HonorRank",
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/Mobile/Frontend/UnionMobile/Frames/SPR_UI_UnionMobile_list_icon.SPR_UI_UnionMobile_list_icon",
+        "SubPathString": ""
+      },
+      "RedDot": "None"
+    },
+    "73": {
+      "Id": "ECYFunctionMobileTypes::SeasonPrize",
+      "Name": {
+        "Namespace": "FunctionUnlockMB",
+        "Key": "73_Name",
+        "SourceString": "赛季奖励",
+        "LocalizedString": "赛季奖励"
+      },
+      "Type": 2,
+      "SubFunction": [],
+      "PlayerLevel": 1,
+      "LockTips": {
+        "CultureInvariantString": null
+      },
+      "BluePrint": "SeasonPrize",
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/Mobile/Frontend/UnionMobile/Frames/SPR_UI_UnionMobile_gift_icon.SPR_UI_UnionMobile_gift_icon",
+        "SubPathString": ""
+      },
+      "RedDot": "CareerRankReward"
+    },
+    "74": {
+      "Id": "ECYFunctionMobileTypes::RankIcon",
+      "Name": {
+        "Namespace": "FunctionUnlockMB",
+        "Key": "74_Name",
+        "SourceString": "段位图示",
+        "LocalizedString": "段位图示"
+      },
+      "Type": 2,
+      "SubFunction": [],
+      "PlayerLevel": 1,
+      "LockTips": {
+        "CultureInvariantString": null
+      },
+      "BluePrint": "RankIcon",
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/Mobile/Frontend/UnionMobile/Frames/SPR_UI_UnionMobile_RankExplain_icon.SPR_UI_UnionMobile_RankExplain_icon",
+        "SubPathString": ""
+      },
+      "RedDot": "None"
+    },
+    "80": {
+      "Id": "ECYFunctionMobileTypes::Friend",
+      "Name": {
+        "Namespace": "FunctionUnlockMB",
+        "Key": "80_Name",
+        "SourceString": "好友",
+        "LocalizedString": "好友"
+      },
+      "Type": 0,
+      "SubFunction": [
+        81,
+        82,
+        83,
+        84,
+        85,
+        86
+      ],
+      "PlayerLevel": 0,
+      "LockTips": {
+        "CultureInvariantString": null
+      },
+      "BluePrint": "None",
+      "IconItem": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "RedDot": "None"
+    },
+    "81": {
+      "Id": "ECYFunctionMobileTypes::PlatformFriend",
+      "Name": {
+        "Namespace": "FunctionUnlockMB",
+        "Key": "81_Name",
+        "SourceString": "平台好友",
+        "LocalizedString": "平台好友"
+      },
+      "Type": 0,
+      "SubFunction": [],
+      "PlayerLevel": 0,
+      "LockTips": {
+        "CultureInvariantString": null
+      },
+      "BluePrint": "None",
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/Mobile/Frontend/UnionMobile/Frames/SPR_UI_UnionMobile_wechat_icon.SPR_UI_UnionMobile_wechat_icon",
+        "SubPathString": ""
+      },
+      "RedDot": "None"
+    },
+    "82": {
+      "Id": "ECYFunctionMobileTypes::GameFriend",
+      "Name": {
+        "Namespace": "FunctionUnlockMB",
+        "Key": "82_Name",
+        "SourceString": "游戏好友",
+        "LocalizedString": "游戏好友"
+      },
+      "Type": 0,
+      "SubFunction": [],
+      "PlayerLevel": 0,
+      "LockTips": {
+        "CultureInvariantString": null
+      },
+      "BluePrint": "None",
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/Mobile/Frontend/UnionMobile/Frames/SPR_UI_UnionMobile_gamefriend_icon.SPR_UI_UnionMobile_gamefriend_icon",
+        "SubPathString": ""
+      },
+      "RedDot": "None"
+    },
+    "83": {
+      "Id": "ECYFunctionMobileTypes::ShieldedFriend",
+      "Name": {
+        "Namespace": "FunctionUnlockMB",
+        "Key": "83_Name",
+        "SourceString": "已屏蔽",
+        "LocalizedString": "已屏蔽"
+      },
+      "Type": 0,
+      "SubFunction": [],
+      "PlayerLevel": 0,
+      "LockTips": {
+        "CultureInvariantString": null
+      },
+      "BluePrint": "None",
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/Mobile/Frontend/UnionMobile/Frames/SPR_UI_UnionMobile_friendoff_icon.SPR_UI_UnionMobile_friendoff_icon",
+        "SubPathString": ""
+      },
+      "RedDot": "None"
+    },
+    "84": {
+      "Id": "ECYFunctionMobileTypes::AddFriend",
+      "Name": {
+        "Namespace": "FunctionUnlockMB",
+        "Key": "84_Name",
+        "SourceString": "添加好友",
+        "LocalizedString": "添加好友"
+      },
+      "Type": 0,
+      "SubFunction": [],
+      "PlayerLevel": 0,
+      "LockTips": {
+        "CultureInvariantString": null
+      },
+      "BluePrint": "None",
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/Mobile/Frontend/UnionMobile/Frames/SPR_UI_UnionMobile_addfriend_icon.SPR_UI_UnionMobile_addfriend_icon",
+        "SubPathString": ""
+      },
+      "RedDot": "None"
+    },
+    "85": {
+      "Id": "ECYFunctionMobileTypes::ViewReq",
+      "Name": {
+        "Namespace": "FunctionUnlockMB",
+        "Key": "85_Name",
+        "SourceString": "查看申请",
+        "LocalizedString": "查看申请"
+      },
+      "Type": 0,
+      "SubFunction": [],
+      "PlayerLevel": 0,
+      "LockTips": {
+        "CultureInvariantString": null
+      },
+      "BluePrint": "None",
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/Mobile/Frontend/UnionMobile/Frames/SPR_UI_UnionMobile_check_icon.SPR_UI_UnionMobile_check_icon",
+        "SubPathString": ""
+      },
+      "RedDot": "None"
+    },
+    "86": {
+      "Id": "ECYFunctionMobileTypes::SetState",
+      "Name": {
+        "Namespace": "FunctionUnlockMB",
+        "Key": "86_Name",
+        "SourceString": "状态设定",
+        "LocalizedString": "状态设定"
+      },
+      "Type": 0,
+      "SubFunction": [],
+      "PlayerLevel": 0,
+      "LockTips": {
+        "CultureInvariantString": null
+      },
+      "BluePrint": "None",
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/Mobile/Frontend/UnionMobile/Frames/SPR_UI_UnionMobile_set_icon.SPR_UI_UnionMobile_set_icon",
+        "SubPathString": ""
+      },
+      "RedDot": "None"
+    },
+    "90": {
+      "Id": "ECYFunctionMobileTypes::Setting",
+      "Name": {
+        "Namespace": "FunctionUnlockMB",
+        "Key": "90_Name",
+        "SourceString": "设置",
+        "LocalizedString": "设置"
+      },
+      "Type": 0,
+      "SubFunction": [
+        91,
+        92,
+        93,
+        94,
+        95,
+        96
+      ],
+      "PlayerLevel": 0,
+      "LockTips": {
+        "CultureInvariantString": null
+      },
+      "BluePrint": "None",
+      "IconItem": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "RedDot": "None"
+    },
+    "91": {
+      "Id": "ECYFunctionMobileTypes::Basic",
+      "Name": {
+        "Namespace": "FunctionUnlockMB",
+        "Key": "91_Name",
+        "SourceString": "基础",
+        "LocalizedString": "基础"
+      },
+      "Type": 0,
+      "SubFunction": [],
+      "PlayerLevel": 0,
+      "LockTips": {
+        "CultureInvariantString": null
+      },
+      "BluePrint": "None",
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/Mobile/Frontend/UnionMobile/Frames/SPR_UI_UnionMobile_basis_icon.SPR_UI_UnionMobile_basis_icon",
+        "SubPathString": ""
+      },
+      "RedDot": "None"
+    },
+    "92": {
+      "Id": "ECYFunctionMobileTypes::Operate",
+      "Name": {
+        "Namespace": "FunctionUnlockMB",
+        "Key": "92_Name",
+        "SourceString": "操作",
+        "LocalizedString": "操作"
+      },
+      "Type": 0,
+      "SubFunction": [],
+      "PlayerLevel": 0,
+      "LockTips": {
+        "CultureInvariantString": null
+      },
+      "BluePrint": "None",
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/Mobile/Frontend/UnionMobile/Frames/SPR_UI_UnionMobile_operate_icon.SPR_UI_UnionMobile_operate_icon",
+        "SubPathString": ""
+      },
+      "RedDot": "None"
+    },
+    "93": {
+      "Id": "ECYFunctionMobileTypes::Sense",
+      "Name": {
+        "Namespace": "FunctionUnlockMB",
+        "Key": "93_Name",
+        "SourceString": "灵敏度",
+        "LocalizedString": "灵敏度"
+      },
+      "Type": 0,
+      "SubFunction": [],
+      "PlayerLevel": 0,
+      "LockTips": {
+        "CultureInvariantString": null
+      },
+      "BluePrint": "None",
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/Mobile/Frontend/UnionMobile/Frames/SPR_UI_UnionMobile_mouse_icon.SPR_UI_UnionMobile_mouse_icon",
+        "SubPathString": ""
+      },
+      "RedDot": "None"
+    },
+    "94": {
+      "Id": "ECYFunctionMobileTypes::CrossHair",
+      "Name": {
+        "Namespace": "FunctionUnlockMB",
+        "Key": "94_Name",
+        "SourceString": "准星",
+        "LocalizedString": "准星"
+      },
+      "Type": 0,
+      "SubFunction": [],
+      "PlayerLevel": 0,
+      "LockTips": {
+        "CultureInvariantString": null
+      },
+      "BluePrint": "None",
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/Mobile/Frontend/UnionMobile/Frames/SPR_UI_UnionMobile_crosshair_icon.SPR_UI_UnionMobile_crosshair_icon",
+        "SubPathString": ""
+      },
+      "RedDot": "None"
+    },
+    "95": {
+      "Id": "ECYFunctionMobileTypes::Visual",
+      "Name": {
+        "Namespace": "FunctionUnlockMB",
+        "Key": "95_Name",
+        "SourceString": "画面",
+        "LocalizedString": "画面"
+      },
+      "Type": 0,
+      "SubFunction": [],
+      "PlayerLevel": 0,
+      "LockTips": {
+        "CultureInvariantString": null
+      },
+      "BluePrint": "None",
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/Mobile/Frontend/UnionMobile/Frames/SPR_UI_UnionMobile_image_icon.SPR_UI_UnionMobile_image_icon",
+        "SubPathString": ""
+      },
+      "RedDot": "None"
+    },
+    "96": {
+      "Id": "ECYFunctionMobileTypes::Sound",
+      "Name": {
+        "Namespace": "FunctionUnlockMB",
+        "Key": "96_Name",
+        "SourceString": "声音",
+        "LocalizedString": "声音"
+      },
+      "Type": 0,
+      "SubFunction": [],
+      "PlayerLevel": 0,
+      "LockTips": {
+        "CultureInvariantString": null
+      },
+      "BluePrint": "None",
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/Mobile/Frontend/UnionMobile/Frames/SPR_UI_UnionMobile_sound_icon.SPR_UI_UnionMobile_sound_icon",
+        "SubPathString": ""
+      },
+      "RedDot": "None"
+    },
+    "100": {
+      "Id": "ECYFunctionMobileTypes::NoviceGuideSetting",
+      "Name": {
+        "Namespace": "FunctionUnlockMB",
+        "Key": "100_Name",
+        "SourceString": "新手引导设置",
+        "LocalizedString": "新手引导设置"
+      },
+      "Type": 0,
+      "SubFunction": [
+        92,
+        93,
+        96
+      ],
+      "PlayerLevel": 0,
+      "LockTips": {
+        "CultureInvariantString": null
+      },
+      "BluePrint": "None",
+      "IconItem": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "RedDot": "None"
     }
   }
-]
+}

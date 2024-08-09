@@ -1,669 +1,667 @@
-[
-  {
-    "Type": "DataTable",
-    "Name": "GameplayActorInfo",
-    "Class": "UScriptClass'DataTable'",
-    "Properties": {
-      "RowStruct": {
-        "ObjectName": "ScriptStruct'CyGameplayActorInfoTableRow'",
-        "ObjectPath": "/Script/PMGame"
-      }
+{
+  "Type": "DataTable",
+  "Name": "GameplayActorInfo",
+  "Class": "UScriptClass'DataTable'",
+  "Properties": {
+    "RowStruct": {
+      "ObjectName": "ScriptStruct'CyGameplayActorInfoTableRow'",
+      "ObjectPath": "/Script/PMGame"
+    }
+  },
+  "Rows": {
+    "Summon.UI": {
+      "Tag": "Summon.UI",
+      "DevComment": {
+        "CultureInvariantString": null
+      },
+      "Icon": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StatusPageName": "None",
+      "DisplayPriority": 0
     },
-    "Rows": {
-      "Summon.UI": {
-        "Tag": "Summon.UI",
-        "DevComment": {
-          "CultureInvariantString": null
-        },
-        "Icon": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "StatusPageName": "None",
-        "DisplayPriority": 0
+    "ActorTag.Shield": {
+      "Tag": "ActorTag.Shield",
+      "DevComment": {
+        "Namespace": "GameplayActorInfo",
+        "Key": "ActorTag.Shield_DevComment",
+        "SourceString": "护盾",
+        "LocalizedString": "护盾"
       },
-      "ActorTag.Shield": {
-        "Tag": "ActorTag.Shield",
-        "DevComment": {
-          "Namespace": "GameplayActorInfo",
-          "Key": "ActorTag.Shield_DevComment",
-          "SourceString": "护盾",
-          "LocalizedString": "护盾"
-        },
-        "Icon": {
-          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Skill/T_Dynamic_Skill_10502.T_Dynamic_Skill_10502",
-          "SubPathString": ""
-        },
-        "StatusPageName": "None",
-        "DisplayPriority": 1
+      "Icon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Skill/T_Dynamic_Skill_10502.T_Dynamic_Skill_10502",
+        "SubPathString": ""
       },
-      "ActorTag.VirtualShadow": {
-        "Tag": "ActorTag.VirtualShadow",
-        "DevComment": {
-          "Namespace": "GameplayActorInfo",
-          "Key": "ActorTag.VirtualShadow_DevComment",
-          "SourceString": "虚影",
-          "LocalizedString": "虚影"
-        },
-        "Icon": {
-          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Skill/T_Dynamic_Skill_14603.T_Dynamic_Skill_14603",
-          "SubPathString": ""
-        },
-        "StatusPageName": "None",
-        "DisplayPriority": 0
+      "StatusPageName": "None",
+      "DisplayPriority": 1
+    },
+    "ActorTag.VirtualShadow": {
+      "Tag": "ActorTag.VirtualShadow",
+      "DevComment": {
+        "Namespace": "GameplayActorInfo",
+        "Key": "ActorTag.VirtualShadow_DevComment",
+        "SourceString": "虚影",
+        "LocalizedString": "虚影"
       },
-      "ActorTag.Radar": {
-        "Tag": "ActorTag.Radar",
-        "DevComment": {
-          "Namespace": "GameplayActorInfo",
-          "Key": "ActorTag.Radar_DevComment",
-          "SourceString": "雷达",
-          "LocalizedString": "雷达"
-        },
-        "Icon": {
-          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Skill/T_Dynamic_Skill_10803.T_Dynamic_Skill_10803",
-          "SubPathString": ""
-        },
-        "StatusPageName": "None",
-        "DisplayPriority": 0
+      "Icon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Skill/T_Dynamic_Skill_14603.T_Dynamic_Skill_14603",
+        "SubPathString": ""
       },
-      "ActorTag.NekoBot": {
-        "Tag": "ActorTag.NekoBot",
-        "DevComment": {
-          "Namespace": "GameplayActorInfo",
-          "Key": "ActorTag.NekoBot_DevComment",
-          "SourceString": "火力大喵",
-          "LocalizedString": "火力大喵"
-        },
-        "Icon": {
-          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Skill/T_Dynamic_Skill_10103.T_Dynamic_Skill_10103",
-          "SubPathString": ""
-        },
-        "StatusPageName": "None",
-        "DisplayPriority": 0
+      "StatusPageName": "None",
+      "DisplayPriority": 0
+    },
+    "ActorTag.Radar": {
+      "Tag": "ActorTag.Radar",
+      "DevComment": {
+        "Namespace": "GameplayActorInfo",
+        "Key": "ActorTag.Radar_DevComment",
+        "SourceString": "雷达",
+        "LocalizedString": "雷达"
       },
-      "ActorTag.NekoBotProjectile": {
-        "Tag": "ActorTag.NekoBotProjectile",
-        "DevComment": {
-          "Namespace": "GameplayActorInfo",
-          "Key": "ActorTag.NekoBotProjectile_DevComment",
-          "SourceString": "火力大喵子弹",
-          "LocalizedString": "火力大喵子弹"
-        },
-        "Icon": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "StatusPageName": "None",
-        "DisplayPriority": 0
+      "Icon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Skill/T_Dynamic_Skill_10803.T_Dynamic_Skill_10803",
+        "SubPathString": ""
       },
-      "ActorTag.Summon.Q.Michele": {
-        "Tag": "ActorTag.Summon.Q.Michele",
-        "DevComment": {
-          "Namespace": "GameplayActorInfo",
-          "Key": "ActorTag.Summon.Q.Michele_DevComment",
-          "SourceString": "米雪儿的Q",
-          "LocalizedString": "米雪儿的Q"
-        },
-        "Icon": {
-          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Skill/T_Dynamic_Skill_10101.T_Dynamic_Skill_10101",
-          "SubPathString": ""
-        },
-        "StatusPageName": "None",
-        "DisplayPriority": 0
+      "StatusPageName": "None",
+      "DisplayPriority": 0
+    },
+    "ActorTag.NekoBot": {
+      "Tag": "ActorTag.NekoBot",
+      "DevComment": {
+        "Namespace": "GameplayActorInfo",
+        "Key": "ActorTag.NekoBot_DevComment",
+        "SourceString": "火力大喵",
+        "LocalizedString": "火力大喵"
       },
-      "ActorTag.Q.Nobunaga": {
-        "Tag": "ActorTag.Q.Nobunaga",
-        "DevComment": {
-          "Namespace": "GameplayActorInfo",
-          "Key": "ActorTag.Q.Nobunaga_DevComment",
-          "SourceString": "守望之眼",
-          "LocalizedString": "守望之眼"
-        },
-        "Icon": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "StatusPageName": "None",
-        "DisplayPriority": 0
+      "Icon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Skill/T_Dynamic_Skill_10103.T_Dynamic_Skill_10103",
+        "SubPathString": ""
       },
-      "ActorTag.Summon.X.Meredith.Sand": {
-        "Tag": "ActorTag.Summon.X.Meredith.Sand",
-        "DevComment": {
-          "Namespace": "GameplayActorInfo",
-          "Key": "ActorTag.Summon.X.Meredith.Sand_DevComment",
-          "SourceString": "沙暴领域",
-          "LocalizedString": "沙暴领域"
-        },
-        "Icon": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "StatusPageName": "None",
-        "DisplayPriority": 0
+      "StatusPageName": "None",
+      "DisplayPriority": 0
+    },
+    "ActorTag.NekoBotProjectile": {
+      "Tag": "ActorTag.NekoBotProjectile",
+      "DevComment": {
+        "Namespace": "GameplayActorInfo",
+        "Key": "ActorTag.NekoBotProjectile_DevComment",
+        "SourceString": "火力大喵子弹",
+        "LocalizedString": "火力大喵子弹"
       },
-      "ActorTag.Summon.X.Meredith.Projectile": {
-        "Tag": "ActorTag.Summon.X.Meredith.Projectile",
-        "DevComment": {
-          "Namespace": "GameplayActorInfo",
-          "Key": "ActorTag.Summon.X.Meredith.Projectile_DevComment",
-          "SourceString": "沙暴领域子弹",
-          "LocalizedString": "沙暴领域子弹"
-        },
-        "Icon": {
-          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Skill/T_Dynamic_Skill_12401.T_Dynamic_Skill_12401",
-          "SubPathString": ""
-        },
-        "StatusPageName": "None",
-        "DisplayPriority": 0
+      "Icon": {
+        "AssetPathName": "None",
+        "SubPathString": ""
       },
-      "ActorTag.Summon.X.Julian.Nest": {
-        "Tag": "ActorTag.Summon.X.Julian.Nest",
-        "DevComment": {
-          "Namespace": "GameplayActorInfo",
-          "Key": "ActorTag.Summon.X.Julian.Nest_DevComment",
-          "SourceString": "朱利安巢穴",
-          "LocalizedString": "朱利安巢穴"
-        },
-        "Icon": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "StatusPageName": "None",
-        "DisplayPriority": 0
+      "StatusPageName": "None",
+      "DisplayPriority": 0
+    },
+    "ActorTag.Summon.Q.Michele": {
+      "Tag": "ActorTag.Summon.Q.Michele",
+      "DevComment": {
+        "Namespace": "GameplayActorInfo",
+        "Key": "ActorTag.Summon.Q.Michele_DevComment",
+        "SourceString": "米雪儿的Q",
+        "LocalizedString": "米雪儿的Q"
       },
-      "ActorTag.Summon.X.Julian.Projectile": {
-        "Tag": "ActorTag.Summon.X.Julian.Projectile",
-        "DevComment": {
-          "Namespace": "GameplayActorInfo",
-          "Key": "ActorTag.Summon.X.Julian.Projectile_DevComment",
-          "SourceString": "朱利安巢穴子弹",
-          "LocalizedString": "朱利安巢穴子弹"
-        },
-        "Icon": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "StatusPageName": "None",
-        "DisplayPriority": 0
+      "Icon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Skill/T_Dynamic_Skill_10101.T_Dynamic_Skill_10101",
+        "SubPathString": ""
       },
-      "ActorTag.Summon.Q.KokonaShiki": {
-        "Tag": "ActorTag.Summon.Q.KokonaShiki",
-        "DevComment": {
-          "Namespace": "GameplayActorInfo",
-          "Key": "ActorTag.Summon.Q.KokonaShiki_DevComment",
-          "SourceString": "治疗无人机",
-          "LocalizedString": "治疗无人机"
-        },
-        "Icon": {
-          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Skill/T_Dynamic_Skill_12401.T_Dynamic_Skill_12401",
-          "SubPathString": ""
-        },
-        "StatusPageName": "None",
-        "DisplayPriority": 0
+      "StatusPageName": "None",
+      "DisplayPriority": 0
+    },
+    "ActorTag.Q.Nobunaga": {
+      "Tag": "ActorTag.Q.Nobunaga",
+      "DevComment": {
+        "Namespace": "GameplayActorInfo",
+        "Key": "ActorTag.Q.Nobunaga_DevComment",
+        "SourceString": "守望之眼",
+        "LocalizedString": "守望之眼"
       },
-      "ActorTag.Summon.Q.Ming.Projectile": {
-        "Tag": "ActorTag.Summon.Q.Ming.Projectile",
-        "DevComment": {
-          "Namespace": "GameplayActorInfo",
-          "Key": "ActorTag.Summon.Q.Ming.Projectile_DevComment",
-          "SourceString": "明Q子弹Tag",
-          "LocalizedString": "明Q子弹Tag"
-        },
-        "Icon": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "StatusPageName": "None",
-        "DisplayPriority": 0
+      "Icon": {
+        "AssetPathName": "None",
+        "SubPathString": ""
       },
-      "ActorTag.Summon.Q.Ming.Electro": {
-        "Tag": "ActorTag.Summon.Q.Ming.Electro",
-        "DevComment": {
-          "Namespace": "GameplayActorInfo",
-          "Key": "ActorTag.Summon.Q.Ming.Electro_DevComment",
-          "SourceString": "明Q区域Tag",
-          "LocalizedString": "明Q区域Tag"
-        },
-        "Icon": {
-          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Skill/T_Dynamic_Skill_13201.T_Dynamic_Skill_13201",
-          "SubPathString": ""
-        },
-        "StatusPageName": "None",
-        "DisplayPriority": 0
+      "StatusPageName": "None",
+      "DisplayPriority": 0
+    },
+    "ActorTag.Summon.X.Meredith.Sand": {
+      "Tag": "ActorTag.Summon.X.Meredith.Sand",
+      "DevComment": {
+        "Namespace": "GameplayActorInfo",
+        "Key": "ActorTag.Summon.X.Meredith.Sand_DevComment",
+        "SourceString": "沙暴领域",
+        "LocalizedString": "沙暴领域"
       },
-      "ActorTag.Summon.Q.Reiichi": {
-        "Tag": "ActorTag.Summon.Q.Reiichi",
-        "DevComment": {
-          "Namespace": "GameplayActorInfo",
-          "Key": "ActorTag.Summon.Q.Reiichi_DevComment",
-          "SourceString": "光幕",
-          "LocalizedString": "光幕"
-        },
-        "Icon": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "StatusPageName": "None",
-        "DisplayPriority": 0
+      "Icon": {
+        "AssetPathName": "None",
+        "SubPathString": ""
       },
-      "ActorTag.Summon.ArousalTwo.Audrey": {
-        "Tag": "ActorTag.Summon.ArousalTwo.Audrey",
-        "DevComment": {
-          "Namespace": "GameplayActorInfo",
-          "Key": "ActorTag.Summon.ArousalTwo.Audrey_DevComment",
-          "SourceString": "自动机枪",
-          "LocalizedString": "自动机枪"
-        },
-        "Icon": {
-          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Skill/T_Dynamic_Skill_10501.T_Dynamic_Skill_10501",
-          "SubPathString": ""
-        },
-        "StatusPageName": "None",
-        "DisplayPriority": 10
+      "StatusPageName": "None",
+      "DisplayPriority": 0
+    },
+    "ActorTag.Summon.X.Meredith.Projectile": {
+      "Tag": "ActorTag.Summon.X.Meredith.Projectile",
+      "DevComment": {
+        "Namespace": "GameplayActorInfo",
+        "Key": "ActorTag.Summon.X.Meredith.Projectile_DevComment",
+        "SourceString": "沙暴领域子弹",
+        "LocalizedString": "沙暴领域子弹"
       },
-      "ActorTag.Summon.X.Mobai": {
-        "Tag": "ActorTag.Summon.X.Mobai",
-        "DevComment": {
-          "Namespace": "GameplayActorInfo",
-          "Key": "ActorTag.Summon.X.Mobai_DevComment",
-          "SourceString": "涂鸦信标",
-          "LocalizedString": "涂鸦信标"
-        },
-        "Icon": {
-          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Skill/T_Dynamic_Skill_11003.T_Dynamic_Skill_11003",
-          "SubPathString": ""
-        },
-        "StatusPageName": "None",
-        "DisplayPriority": 0
+      "Icon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Skill/T_Dynamic_Skill_12401.T_Dynamic_Skill_12401",
+        "SubPathString": ""
       },
-      "Summon.UI.Duration": {
-        "Tag": "Summon.UI.Duration",
-        "DevComment": {
-          "CultureInvariantString": null
-        },
-        "Icon": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "StatusPageName": "None",
-        "DisplayPriority": 0
+      "StatusPageName": "None",
+      "DisplayPriority": 0
+    },
+    "ActorTag.Summon.X.Julian.Nest": {
+      "Tag": "ActorTag.Summon.X.Julian.Nest",
+      "DevComment": {
+        "Namespace": "GameplayActorInfo",
+        "Key": "ActorTag.Summon.X.Julian.Nest_DevComment",
+        "SourceString": "朱利安巢穴",
+        "LocalizedString": "朱利安巢穴"
       },
-      "ActorTag.Summon.Q.Audrey.Shelf": {
-        "Tag": "ActorTag.Summon.Q.Audrey.Shelf",
-        "DevComment": {
-          "Namespace": "GameplayActorInfo",
-          "Key": "ActorTag.Summon.Q.Audrey.Shelf_DevComment",
-          "SourceString": "奥黛丽Q架子",
-          "LocalizedString": "奥黛丽Q架子"
-        },
-        "Icon": {
-          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Skill/T_Dynamic_Skill_10501.T_Dynamic_Skill_10501",
-          "SubPathString": ""
-        },
-        "StatusPageName": "None",
-        "DisplayPriority": 0
+      "Icon": {
+        "AssetPathName": "None",
+        "SubPathString": ""
       },
-      "ActorTag.Summon.X.Audrey.Shelf": {
-        "Tag": "ActorTag.Summon.X.Audrey.Shelf",
-        "DevComment": {
-          "Namespace": "GameplayActorInfo",
-          "Key": "ActorTag.Summon.X.Audrey.Shelf_DevComment",
-          "SourceString": "奥黛丽X架子",
-          "LocalizedString": "奥黛丽X架子"
-        },
-        "Icon": {
-          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Skill/T_Dynamic_Skill_10503.T_Dynamic_Skill_10503",
-          "SubPathString": ""
-        },
-        "StatusPageName": "None",
-        "DisplayPriority": 0
+      "StatusPageName": "None",
+      "DisplayPriority": 0
+    },
+    "ActorTag.Summon.X.Julian.Projectile": {
+      "Tag": "ActorTag.Summon.X.Julian.Projectile",
+      "DevComment": {
+        "Namespace": "GameplayActorInfo",
+        "Key": "ActorTag.Summon.X.Julian.Projectile_DevComment",
+        "SourceString": "朱利安巢穴子弹",
+        "LocalizedString": "朱利安巢穴子弹"
       },
-      "ActorTag.Summon.X.Huixing.Transfer": {
-        "Tag": "ActorTag.Summon.X.Huixing.Transfer",
-        "DevComment": {
-          "Namespace": "GameplayActorInfo",
-          "Key": "ActorTag.Summon.X.Huixing.Transfer_DevComment",
-          "SourceString": "星辉传送",
-          "LocalizedString": "星辉传送"
-        },
-        "Icon": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "StatusPageName": "None",
-        "DisplayPriority": 0
+      "Icon": {
+        "AssetPathName": "None",
+        "SubPathString": ""
       },
-      "ActorTag.Summon.Q.Yvette": {
-        "Tag": "ActorTag.Summon.Q.Yvette",
-        "DevComment": {
-          "Namespace": "GameplayActorInfo",
-          "Key": "ActorTag.Summon.Q.Yvette_DevComment",
-          "SourceString": "菲",
-          "LocalizedString": "菲"
-        },
-        "Icon": {
-          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Skill/T_Dynamic_Skill_13101.T_Dynamic_Skill_13101",
-          "SubPathString": ""
-        },
-        "StatusPageName": "YvetteBearPage",
-        "DisplayPriority": 0
+      "StatusPageName": "None",
+      "DisplayPriority": 0
+    },
+    "ActorTag.Summon.Q.KokonaShiki": {
+      "Tag": "ActorTag.Summon.Q.KokonaShiki",
+      "DevComment": {
+        "Namespace": "GameplayActorInfo",
+        "Key": "ActorTag.Summon.Q.KokonaShiki_DevComment",
+        "SourceString": "治疗无人机",
+        "LocalizedString": "治疗无人机"
       },
-      "ActorTag.Summon.X.Yvette": {
-        "Tag": "ActorTag.Summon.X.Yvette",
-        "DevComment": {
-          "Namespace": "GameplayActorInfo",
-          "Key": "ActorTag.Summon.X.Yvette_DevComment",
-          "SourceString": "伊薇特的X",
-          "LocalizedString": "伊薇特的X"
-        },
-        "Icon": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "StatusPageName": "None",
-        "DisplayPriority": 0
+      "Icon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Skill/T_Dynamic_Skill_12401.T_Dynamic_Skill_12401",
+        "SubPathString": ""
       },
-      "ActorTag.Summon.X.Lawine": {
-        "Tag": "ActorTag.Summon.X.Lawine",
-        "DevComment": {
-          "Namespace": "GameplayActorInfo",
-          "Key": "ActorTag.Summon.X.Lawine_DevComment",
-          "SourceString": "拉薇的X",
-          "LocalizedString": "拉薇的X"
-        },
-        "Icon": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "StatusPageName": "None",
-        "DisplayPriority": 0
+      "StatusPageName": "None",
+      "DisplayPriority": 0
+    },
+    "ActorTag.Summon.Q.Ming.Projectile": {
+      "Tag": "ActorTag.Summon.Q.Ming.Projectile",
+      "DevComment": {
+        "Namespace": "GameplayActorInfo",
+        "Key": "ActorTag.Summon.Q.Ming.Projectile_DevComment",
+        "SourceString": "明Q子弹Tag",
+        "LocalizedString": "明Q子弹Tag"
       },
-      "ActorTag.Summon.Q.Kanami": {
-        "Tag": "ActorTag.Summon.Q.Kanami",
-        "DevComment": {
-          "Namespace": "GameplayActorInfo",
-          "Key": "ActorTag.Summon.Q.Kanami_DevComment",
-          "SourceString": "香奈美的Q",
-          "LocalizedString": "香奈美的Q"
-        },
-        "Icon": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "StatusPageName": "None",
-        "DisplayPriority": 0
+      "Icon": {
+        "AssetPathName": "None",
+        "SubPathString": ""
       },
-      "ActorTag.Summon.X.Kanami": {
-        "Tag": "ActorTag.Summon.X.Kanami",
-        "DevComment": {
-          "Namespace": "GameplayActorInfo",
-          "Key": "ActorTag.Summon.X.Kanami_DevComment",
-          "SourceString": "香奈美的X",
-          "LocalizedString": "香奈美的X"
-        },
-        "Icon": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "StatusPageName": "None",
-        "DisplayPriority": 0
+      "StatusPageName": "None",
+      "DisplayPriority": 0
+    },
+    "ActorTag.Summon.Q.Ming.Electro": {
+      "Tag": "ActorTag.Summon.Q.Ming.Electro",
+      "DevComment": {
+        "Namespace": "GameplayActorInfo",
+        "Key": "ActorTag.Summon.Q.Ming.Electro_DevComment",
+        "SourceString": "明Q区域Tag",
+        "LocalizedString": "明Q区域Tag"
       },
-      "ActorTag.Summon.X.Maddelena.Bubble": {
-        "Tag": "ActorTag.Summon.X.Maddelena.Bubble",
-        "DevComment": {
-          "Namespace": "GameplayActorInfo",
-          "Key": "ActorTag.Summon.X.Maddelena.Bubble_DevComment",
-          "SourceString": "玛德蕾娜的X泡泡",
-          "LocalizedString": "玛德蕾娜的X泡泡"
-        },
-        "Icon": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "StatusPageName": "None",
-        "DisplayPriority": 0
+      "Icon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Skill/T_Dynamic_Skill_13201.T_Dynamic_Skill_13201",
+        "SubPathString": ""
       },
-      "ActorTag.Summon.X.Maddelena.Projectile": {
-        "Tag": "ActorTag.Summon.X.Maddelena.Projectile",
-        "DevComment": {
-          "Namespace": "GameplayActorInfo",
-          "Key": "ActorTag.Summon.X.Maddelena.Projectile_DevComment",
-          "SourceString": "玛德蕾娜的X子弹",
-          "LocalizedString": "玛德蕾娜的X子弹"
-        },
-        "Icon": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "StatusPageName": "None",
-        "DisplayPriority": 0
+      "StatusPageName": "None",
+      "DisplayPriority": 0
+    },
+    "ActorTag.Summon.Q.Reiichi": {
+      "Tag": "ActorTag.Summon.Q.Reiichi",
+      "DevComment": {
+        "Namespace": "GameplayActorInfo",
+        "Key": "ActorTag.Summon.Q.Reiichi_DevComment",
+        "SourceString": "光幕",
+        "LocalizedString": "光幕"
       },
-      "ActorTag.Summon.X.KokonaShiki": {
-        "Tag": "ActorTag.Summon.X.KokonaShiki",
-        "DevComment": {
-          "Namespace": "GameplayActorInfo",
-          "Key": "ActorTag.Summon.X.KokonaShiki_DevComment",
-          "SourceString": "心夏的X",
-          "LocalizedString": "心夏的X"
-        },
-        "Icon": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "StatusPageName": "None",
-        "DisplayPriority": 0
+      "Icon": {
+        "AssetPathName": "None",
+        "SubPathString": ""
       },
-      "ActorTag.Projectile.X.Yvette": {
-        "Tag": "ActorTag.Projectile.X.Yvette",
-        "DevComment": {
-          "Namespace": "GameplayActorInfo",
-          "Key": "ActorTag.Projectile.X.Yvette_DevComment",
-          "SourceString": "伊薇特的X子弹",
-          "LocalizedString": "伊薇特的X子弹"
-        },
-        "Icon": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "StatusPageName": "None",
-        "DisplayPriority": 0
+      "StatusPageName": "None",
+      "DisplayPriority": 0
+    },
+    "ActorTag.Summon.ArousalTwo.Audrey": {
+      "Tag": "ActorTag.Summon.ArousalTwo.Audrey",
+      "DevComment": {
+        "Namespace": "GameplayActorInfo",
+        "Key": "ActorTag.Summon.ArousalTwo.Audrey_DevComment",
+        "SourceString": "自动机枪",
+        "LocalizedString": "自动机枪"
       },
-      "ActorTag.Summon.Q.Flavia.Eye": {
-        "Tag": "ActorTag.Summon.Q.Flavia.Eye",
-        "DevComment": {
-          "Namespace": "GameplayActorInfo",
-          "Key": "ActorTag.Summon.Q.Flavia.Eye_DevComment",
-          "SourceString": "致幻球",
-          "LocalizedString": "致幻球"
-        },
-        "Icon": {
-          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Skill/T_Dynamic_Skill_11501.T_Dynamic_Skill_11501",
-          "SubPathString": ""
-        },
-        "StatusPageName": "None",
-        "DisplayPriority": 0
+      "Icon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Skill/T_Dynamic_Skill_10501.T_Dynamic_Skill_10501",
+        "SubPathString": ""
       },
-      "ActorTag.Summon.Q.Flavia.Butterfly": {
-        "Tag": "ActorTag.Summon.Q.Flavia.Butterfly",
-        "DevComment": {
-          "Namespace": "GameplayActorInfo",
-          "Key": "ActorTag.Summon.Q.Flavia.Butterfly_DevComment",
-          "SourceString": "芙拉薇娅的Q蝴蝶",
-          "LocalizedString": "芙拉薇娅的Q蝴蝶"
-        },
-        "Icon": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "StatusPageName": "None",
-        "DisplayPriority": 0
+      "StatusPageName": "None",
+      "DisplayPriority": 10
+    },
+    "ActorTag.Summon.X.Mobai": {
+      "Tag": "ActorTag.Summon.X.Mobai",
+      "DevComment": {
+        "Namespace": "GameplayActorInfo",
+        "Key": "ActorTag.Summon.X.Mobai_DevComment",
+        "SourceString": "涂鸦信标",
+        "LocalizedString": "涂鸦信标"
       },
-      "ActorTag.Summon.Q.Flavia.Phantom": {
-        "Tag": "ActorTag.Summon.Q.Flavia.Phantom",
-        "DevComment": {
-          "Namespace": "GameplayActorInfo",
-          "Key": "ActorTag.Summon.Q.Flavia.Phantom_DevComment",
-          "SourceString": "芙拉薇娅的Q幻影",
-          "LocalizedString": "芙拉薇娅的Q幻影"
-        },
-        "Icon": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "StatusPageName": "None",
-        "DisplayPriority": 0
+      "Icon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Skill/T_Dynamic_Skill_11003.T_Dynamic_Skill_11003",
+        "SubPathString": ""
       },
-      "ActorTag.Summon.X.Flavia": {
-        "Tag": "ActorTag.Summon.X.Flavia",
-        "DevComment": {
-          "Namespace": "GameplayActorInfo",
-          "Key": "ActorTag.Summon.X.Flavia_DevComment",
-          "SourceString": "芙拉薇娅的X",
-          "LocalizedString": "芙拉薇娅的X"
-        },
-        "Icon": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "StatusPageName": "None",
-        "DisplayPriority": 0
+      "StatusPageName": "None",
+      "DisplayPriority": 0
+    },
+    "Summon.UI.Duration": {
+      "Tag": "Summon.UI.Duration",
+      "DevComment": {
+        "CultureInvariantString": null
       },
-      "ActorTag.Summon.Q.Fuchsia": {
-        "Tag": "ActorTag.Summon.Q.Fuchsia",
-        "DevComment": {
-          "Namespace": "GameplayActorInfo",
-          "Key": "ActorTag.Summon.Q.Fuchsia_DevComment",
-          "SourceString": "绯莎的Q",
-          "LocalizedString": "绯莎的Q"
-        },
-        "Icon": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "StatusPageName": "None",
-        "DisplayPriority": 0
+      "Icon": {
+        "AssetPathName": "None",
+        "SubPathString": ""
       },
-      "ActorTag.Summon.Q.Aika": {
-        "Tag": "ActorTag.Summon.Q.Aika",
-        "DevComment": {
-          "Namespace": "GameplayActorInfo",
-          "Key": "ActorTag.Summon.Q.Aika_DevComment",
-          "SourceString": "艾卡的Q",
-          "LocalizedString": "艾卡的Q"
-        },
-        "Icon": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "StatusPageName": "None",
-        "DisplayPriority": 0
+      "StatusPageName": "None",
+      "DisplayPriority": 0
+    },
+    "ActorTag.Summon.Q.Audrey.Shelf": {
+      "Tag": "ActorTag.Summon.Q.Audrey.Shelf",
+      "DevComment": {
+        "Namespace": "GameplayActorInfo",
+        "Key": "ActorTag.Summon.Q.Audrey.Shelf_DevComment",
+        "SourceString": "奥黛丽Q架子",
+        "LocalizedString": "奥黛丽Q架子"
       },
-      "ActorTag.Summon.P.Galatea": {
-        "Tag": "ActorTag.Summon.P.Galatea",
-        "DevComment": {
-          "Namespace": "GameplayActorInfo",
-          "Key": "ActorTag.Summon.P.Galatea_DevComment",
-          "SourceString": "加拉蒂亚的P",
-          "LocalizedString": "加拉蒂亚的P"
-        },
-        "Icon": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "StatusPageName": "None",
-        "DisplayPriority": 0
+      "Icon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Skill/T_Dynamic_Skill_10501.T_Dynamic_Skill_10501",
+        "SubPathString": ""
       },
-      "ActorTag.Summon.Q.Galatea": {
-        "Tag": "ActorTag.Summon.Q.Galatea",
-        "DevComment": {
-          "Namespace": "GameplayActorInfo",
-          "Key": "ActorTag.Summon.Q.Galatea_DevComment",
-          "SourceString": "加拉蒂亚的Q",
-          "LocalizedString": "加拉蒂亚的Q"
-        },
-        "Icon": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "StatusPageName": "None",
-        "DisplayPriority": 0
+      "StatusPageName": "None",
+      "DisplayPriority": 0
+    },
+    "ActorTag.Summon.X.Audrey.Shelf": {
+      "Tag": "ActorTag.Summon.X.Audrey.Shelf",
+      "DevComment": {
+        "Namespace": "GameplayActorInfo",
+        "Key": "ActorTag.Summon.X.Audrey.Shelf_DevComment",
+        "SourceString": "奥黛丽X架子",
+        "LocalizedString": "奥黛丽X架子"
       },
-      "ActorTag.Summon.Q.Fragrans": {
-        "Tag": "ActorTag.Summon.Q.Fragrans",
-        "DevComment": {
-          "Namespace": "GameplayActorInfo",
-          "Key": "ActorTag.Summon.Q.Fragrans_DevComment",
-          "SourceString": "珐格兰丝的Q",
-          "LocalizedString": "珐格兰丝的Q"
-        },
-        "Icon": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "StatusPageName": "None",
-        "DisplayPriority": 0
+      "Icon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Skill/T_Dynamic_Skill_10503.T_Dynamic_Skill_10503",
+        "SubPathString": ""
       },
-      "ActorTag.Summon.X.Fragrans": {
-        "Tag": "ActorTag.Summon.X.Fragrans",
-        "DevComment": {
-          "Namespace": "GameplayActorInfo",
-          "Key": "ActorTag.Summon.X.Fragrans_DevComment",
-          "SourceString": "珐格兰丝的X",
-          "LocalizedString": "珐格兰丝的X"
-        },
-        "Icon": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "StatusPageName": "None",
-        "DisplayPriority": 0
+      "StatusPageName": "None",
+      "DisplayPriority": 0
+    },
+    "ActorTag.Summon.X.Huixing.Transfer": {
+      "Tag": "ActorTag.Summon.X.Huixing.Transfer",
+      "DevComment": {
+        "Namespace": "GameplayActorInfo",
+        "Key": "ActorTag.Summon.X.Huixing.Transfer_DevComment",
+        "SourceString": "星辉传送",
+        "LocalizedString": "星辉传送"
       },
-      "ActorTag.Summon.EscortObject": {
-        "Tag": "ActorTag.Summon.EscortObject",
-        "DevComment": {
-          "Namespace": "GameplayActorInfo",
-          "Key": "ActorTag.Summon.EscortObject_DevComment",
-          "SourceString": "护送玩法的护送对象",
-          "LocalizedString": "护送玩法的护送对象"
-        },
-        "Icon": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "StatusPageName": "None",
-        "DisplayPriority": 0
+      "Icon": {
+        "AssetPathName": "None",
+        "SubPathString": ""
       },
-      "ActorTag.Summon.MapPresetConfig": {
-        "Tag": "ActorTag.Summon.MapPresetConfig",
-        "DevComment": {
-          "Namespace": "GameplayActorInfo",
-          "Key": "ActorTag.Summon.MapPresetConfig_DevComment",
-          "SourceString": "地图中预置的配置",
-          "LocalizedString": "地图中预置的配置"
-        },
-        "Icon": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "StatusPageName": "None",
-        "DisplayPriority": 0
+      "StatusPageName": "None",
+      "DisplayPriority": 0
+    },
+    "ActorTag.Summon.Q.Yvette": {
+      "Tag": "ActorTag.Summon.Q.Yvette",
+      "DevComment": {
+        "Namespace": "GameplayActorInfo",
+        "Key": "ActorTag.Summon.Q.Yvette_DevComment",
+        "SourceString": "菲",
+        "LocalizedString": "菲"
       },
-      "ActorTag.Summon.MapPresetGameplay": {
-        "Tag": "ActorTag.Summon.MapPresetGameplay",
-        "DevComment": {
-          "Namespace": "GameplayActorInfo",
-          "Key": "ActorTag.Summon.MapPresetGameplay_DevComment",
-          "SourceString": "地图中预置的玩法",
-          "LocalizedString": "地图中预置的玩法"
-        },
-        "Icon": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "StatusPageName": "None",
-        "DisplayPriority": 0
-      }
+      "Icon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Skill/T_Dynamic_Skill_13101.T_Dynamic_Skill_13101",
+        "SubPathString": ""
+      },
+      "StatusPageName": "YvetteBearPage",
+      "DisplayPriority": 0
+    },
+    "ActorTag.Summon.X.Yvette": {
+      "Tag": "ActorTag.Summon.X.Yvette",
+      "DevComment": {
+        "Namespace": "GameplayActorInfo",
+        "Key": "ActorTag.Summon.X.Yvette_DevComment",
+        "SourceString": "伊薇特的X",
+        "LocalizedString": "伊薇特的X"
+      },
+      "Icon": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StatusPageName": "None",
+      "DisplayPriority": 0
+    },
+    "ActorTag.Summon.X.Lawine": {
+      "Tag": "ActorTag.Summon.X.Lawine",
+      "DevComment": {
+        "Namespace": "GameplayActorInfo",
+        "Key": "ActorTag.Summon.X.Lawine_DevComment",
+        "SourceString": "拉薇的X",
+        "LocalizedString": "拉薇的X"
+      },
+      "Icon": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StatusPageName": "None",
+      "DisplayPriority": 0
+    },
+    "ActorTag.Summon.Q.Kanami": {
+      "Tag": "ActorTag.Summon.Q.Kanami",
+      "DevComment": {
+        "Namespace": "GameplayActorInfo",
+        "Key": "ActorTag.Summon.Q.Kanami_DevComment",
+        "SourceString": "香奈美的Q",
+        "LocalizedString": "香奈美的Q"
+      },
+      "Icon": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StatusPageName": "None",
+      "DisplayPriority": 0
+    },
+    "ActorTag.Summon.X.Kanami": {
+      "Tag": "ActorTag.Summon.X.Kanami",
+      "DevComment": {
+        "Namespace": "GameplayActorInfo",
+        "Key": "ActorTag.Summon.X.Kanami_DevComment",
+        "SourceString": "香奈美的X",
+        "LocalizedString": "香奈美的X"
+      },
+      "Icon": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StatusPageName": "None",
+      "DisplayPriority": 0
+    },
+    "ActorTag.Summon.X.Maddelena.Bubble": {
+      "Tag": "ActorTag.Summon.X.Maddelena.Bubble",
+      "DevComment": {
+        "Namespace": "GameplayActorInfo",
+        "Key": "ActorTag.Summon.X.Maddelena.Bubble_DevComment",
+        "SourceString": "玛德蕾娜的X泡泡",
+        "LocalizedString": "玛德蕾娜的X泡泡"
+      },
+      "Icon": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StatusPageName": "None",
+      "DisplayPriority": 0
+    },
+    "ActorTag.Summon.X.Maddelena.Projectile": {
+      "Tag": "ActorTag.Summon.X.Maddelena.Projectile",
+      "DevComment": {
+        "Namespace": "GameplayActorInfo",
+        "Key": "ActorTag.Summon.X.Maddelena.Projectile_DevComment",
+        "SourceString": "玛德蕾娜的X子弹",
+        "LocalizedString": "玛德蕾娜的X子弹"
+      },
+      "Icon": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StatusPageName": "None",
+      "DisplayPriority": 0
+    },
+    "ActorTag.Summon.X.KokonaShiki": {
+      "Tag": "ActorTag.Summon.X.KokonaShiki",
+      "DevComment": {
+        "Namespace": "GameplayActorInfo",
+        "Key": "ActorTag.Summon.X.KokonaShiki_DevComment",
+        "SourceString": "心夏的X",
+        "LocalizedString": "心夏的X"
+      },
+      "Icon": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StatusPageName": "None",
+      "DisplayPriority": 0
+    },
+    "ActorTag.Projectile.X.Yvette": {
+      "Tag": "ActorTag.Projectile.X.Yvette",
+      "DevComment": {
+        "Namespace": "GameplayActorInfo",
+        "Key": "ActorTag.Projectile.X.Yvette_DevComment",
+        "SourceString": "伊薇特的X子弹",
+        "LocalizedString": "伊薇特的X子弹"
+      },
+      "Icon": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StatusPageName": "None",
+      "DisplayPriority": 0
+    },
+    "ActorTag.Summon.Q.Flavia.Eye": {
+      "Tag": "ActorTag.Summon.Q.Flavia.Eye",
+      "DevComment": {
+        "Namespace": "GameplayActorInfo",
+        "Key": "ActorTag.Summon.Q.Flavia.Eye_DevComment",
+        "SourceString": "致幻球",
+        "LocalizedString": "致幻球"
+      },
+      "Icon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Skill/T_Dynamic_Skill_11501.T_Dynamic_Skill_11501",
+        "SubPathString": ""
+      },
+      "StatusPageName": "None",
+      "DisplayPriority": 0
+    },
+    "ActorTag.Summon.Q.Flavia.Butterfly": {
+      "Tag": "ActorTag.Summon.Q.Flavia.Butterfly",
+      "DevComment": {
+        "Namespace": "GameplayActorInfo",
+        "Key": "ActorTag.Summon.Q.Flavia.Butterfly_DevComment",
+        "SourceString": "芙拉薇娅的Q蝴蝶",
+        "LocalizedString": "芙拉薇娅的Q蝴蝶"
+      },
+      "Icon": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StatusPageName": "None",
+      "DisplayPriority": 0
+    },
+    "ActorTag.Summon.Q.Flavia.Phantom": {
+      "Tag": "ActorTag.Summon.Q.Flavia.Phantom",
+      "DevComment": {
+        "Namespace": "GameplayActorInfo",
+        "Key": "ActorTag.Summon.Q.Flavia.Phantom_DevComment",
+        "SourceString": "芙拉薇娅的Q幻影",
+        "LocalizedString": "芙拉薇娅的Q幻影"
+      },
+      "Icon": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StatusPageName": "None",
+      "DisplayPriority": 0
+    },
+    "ActorTag.Summon.X.Flavia": {
+      "Tag": "ActorTag.Summon.X.Flavia",
+      "DevComment": {
+        "Namespace": "GameplayActorInfo",
+        "Key": "ActorTag.Summon.X.Flavia_DevComment",
+        "SourceString": "芙拉薇娅的X",
+        "LocalizedString": "芙拉薇娅的X"
+      },
+      "Icon": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StatusPageName": "None",
+      "DisplayPriority": 0
+    },
+    "ActorTag.Summon.Q.Fuchsia": {
+      "Tag": "ActorTag.Summon.Q.Fuchsia",
+      "DevComment": {
+        "Namespace": "GameplayActorInfo",
+        "Key": "ActorTag.Summon.Q.Fuchsia_DevComment",
+        "SourceString": "绯莎的Q",
+        "LocalizedString": "绯莎的Q"
+      },
+      "Icon": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StatusPageName": "None",
+      "DisplayPriority": 0
+    },
+    "ActorTag.Summon.Q.Aika": {
+      "Tag": "ActorTag.Summon.Q.Aika",
+      "DevComment": {
+        "Namespace": "GameplayActorInfo",
+        "Key": "ActorTag.Summon.Q.Aika_DevComment",
+        "SourceString": "艾卡的Q",
+        "LocalizedString": "艾卡的Q"
+      },
+      "Icon": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StatusPageName": "None",
+      "DisplayPriority": 0
+    },
+    "ActorTag.Summon.P.Galatea": {
+      "Tag": "ActorTag.Summon.P.Galatea",
+      "DevComment": {
+        "Namespace": "GameplayActorInfo",
+        "Key": "ActorTag.Summon.P.Galatea_DevComment",
+        "SourceString": "加拉蒂亚的P",
+        "LocalizedString": "加拉蒂亚的P"
+      },
+      "Icon": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StatusPageName": "None",
+      "DisplayPriority": 0
+    },
+    "ActorTag.Summon.Q.Galatea": {
+      "Tag": "ActorTag.Summon.Q.Galatea",
+      "DevComment": {
+        "Namespace": "GameplayActorInfo",
+        "Key": "ActorTag.Summon.Q.Galatea_DevComment",
+        "SourceString": "加拉蒂亚的Q",
+        "LocalizedString": "加拉蒂亚的Q"
+      },
+      "Icon": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StatusPageName": "None",
+      "DisplayPriority": 0
+    },
+    "ActorTag.Summon.Q.Fragrans": {
+      "Tag": "ActorTag.Summon.Q.Fragrans",
+      "DevComment": {
+        "Namespace": "GameplayActorInfo",
+        "Key": "ActorTag.Summon.Q.Fragrans_DevComment",
+        "SourceString": "珐格兰丝的Q",
+        "LocalizedString": "珐格兰丝的Q"
+      },
+      "Icon": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StatusPageName": "None",
+      "DisplayPriority": 0
+    },
+    "ActorTag.Summon.X.Fragrans": {
+      "Tag": "ActorTag.Summon.X.Fragrans",
+      "DevComment": {
+        "Namespace": "GameplayActorInfo",
+        "Key": "ActorTag.Summon.X.Fragrans_DevComment",
+        "SourceString": "珐格兰丝的X",
+        "LocalizedString": "珐格兰丝的X"
+      },
+      "Icon": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StatusPageName": "None",
+      "DisplayPriority": 0
+    },
+    "ActorTag.Summon.EscortObject": {
+      "Tag": "ActorTag.Summon.EscortObject",
+      "DevComment": {
+        "Namespace": "GameplayActorInfo",
+        "Key": "ActorTag.Summon.EscortObject_DevComment",
+        "SourceString": "护送玩法的护送对象",
+        "LocalizedString": "护送玩法的护送对象"
+      },
+      "Icon": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StatusPageName": "None",
+      "DisplayPriority": 0
+    },
+    "ActorTag.Summon.MapPresetConfig": {
+      "Tag": "ActorTag.Summon.MapPresetConfig",
+      "DevComment": {
+        "Namespace": "GameplayActorInfo",
+        "Key": "ActorTag.Summon.MapPresetConfig_DevComment",
+        "SourceString": "地图中预置的配置",
+        "LocalizedString": "地图中预置的配置"
+      },
+      "Icon": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StatusPageName": "None",
+      "DisplayPriority": 0
+    },
+    "ActorTag.Summon.MapPresetGameplay": {
+      "Tag": "ActorTag.Summon.MapPresetGameplay",
+      "DevComment": {
+        "Namespace": "GameplayActorInfo",
+        "Key": "ActorTag.Summon.MapPresetGameplay_DevComment",
+        "SourceString": "地图中预置的玩法",
+        "LocalizedString": "地图中预置的玩法"
+      },
+      "Icon": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "StatusPageName": "None",
+      "DisplayPriority": 0
     }
   }
-]
+}

@@ -1,592 +1,590 @@
-[
-  {
-    "Type": "DataTable",
-    "Name": "GameplayFailedTable",
-    "Class": "UScriptClass'DataTable'",
-    "Properties": {
-      "RowStruct": {
-        "ObjectName": "ScriptStruct'CyGameplayFailedTableTableRow'",
-        "ObjectPath": "/Script/PMGame"
+{
+  "Type": "DataTable",
+  "Name": "GameplayFailedTable",
+  "Class": "UScriptClass'DataTable'",
+  "Properties": {
+    "RowStruct": {
+      "ObjectName": "ScriptStruct'CyGameplayFailedTableTableRow'",
+      "ObjectPath": "/Script/PMGame"
+    }
+  },
+  "Rows": {
+    "Failed.IsDead": {
+      "Tag": "Failed.IsDead",
+      "DevComment": "技能尚未准备就绪",
+      "Desc": {
+        "Namespace": "GameplayFailedTable",
+        "Key": "Failed.IsDead_Desc",
+        "SourceString": "技能尚未准备就绪",
+        "LocalizedString": "技能尚未准备就绪"
       }
     },
-    "Rows": {
-      "Failed.IsDead": {
-        "Tag": "Failed.IsDead",
-        "DevComment": "技能尚未准备就绪",
-        "Desc": {
-          "Namespace": "GameplayFailedTable",
-          "Key": "Failed.IsDead_Desc",
-          "SourceString": "技能尚未准备就绪",
-          "LocalizedString": "技能尚未准备就绪"
-        }
-      },
-      "Failed.Cooldown": {
-        "Tag": "Failed.Cooldown",
-        "DevComment": "CD中",
-        "Desc": {
-          "Namespace": "GameplayFailedTable",
-          "Key": "Failed.Cooldown_Desc",
-          "SourceString": "CD中",
-          "LocalizedString": "CD中"
-        }
-      },
-      "Failed.Cost": {
-        "Tag": "Failed.Cost",
-        "DevComment": "能量点不足",
-        "Desc": {
-          "Namespace": "GameplayFailedTable",
-          "Key": "Failed.Cost_Desc",
-          "SourceString": "能量点不足",
-          "LocalizedString": "能量点不足"
-        }
-      },
-      "Failed.Block2D": {
-        "Tag": "Failed.Block2D",
-        "DevComment": "限制主动弦化",
-        "Desc": {
-          "Namespace": "GameplayFailedTable",
-          "Key": "Failed.Block2D_Desc",
-          "SourceString": "限制主动弦化",
-          "LocalizedString": "限制主动弦化"
-        }
-      },
-      "Failed.TagsBlocked": {
-        "Tag": "Failed.TagsBlocked",
-        "DevComment": "技能被阻挡，请检查配置",
-        "Desc": {
-          "Namespace": "GameplayFailedTable",
-          "Key": "Failed.TagsBlocked_Desc",
-          "SourceString": "技能被阻挡，请检查配置",
-          "LocalizedString": "技能被阻挡，请检查配置"
-        }
-      },
-      "Failed.TagsMissing": {
-        "Tag": "Failed.TagsMissing",
-        "DevComment": "使用技能条件不满足，请检查配置",
-        "Desc": {
-          "Namespace": "GameplayFailedTable",
-          "Key": "Failed.TagsMissing_Desc",
-          "SourceString": "使用技能条件不满足, 请检查配置",
-          "LocalizedString": "使用技能条件不满足, 请检查配置"
-        }
-      },
-      "Failed.Networking": {
-        "Tag": "Failed.Networking",
-        "DevComment": "",
-        "Desc": {
-          "CultureInvariantString": null
-        }
-      },
-      "Failed.Cost.Q": {
-        "Tag": "Failed.Cost.Q",
-        "DevComment": "技能尚未准备就绪",
-        "Desc": {
-          "Namespace": "GameplayFailedTable",
-          "Key": "Failed.Cost.Q_Desc",
-          "SourceString": "技能尚未准备就绪",
-          "LocalizedString": "技能尚未准备就绪"
-        }
-      },
-      "Failed.Cooldown.Q": {
-        "Tag": "Failed.Cooldown.Q",
-        "DevComment": "技能尚未准备就绪",
-        "Desc": {
-          "Namespace": "GameplayFailedTable",
-          "Key": "Failed.Cooldown.Q_Desc",
-          "SourceString": "技能尚未准备就绪",
-          "LocalizedString": "技能尚未准备就绪"
-        }
-      },
-      "Failed.Cost.X": {
-        "Tag": "Failed.Cost.X",
-        "DevComment": "终极技能能量点不足",
-        "Desc": {
-          "Namespace": "GameplayFailedTable",
-          "Key": "Failed.Cost.X_Desc",
-          "SourceString": "终极技能能量点不足",
-          "LocalizedString": "终极技能能量点不足"
-        }
-      },
-      "Failed.Placement.NotMet": {
-        "Tag": "Failed.Placement.NotMet",
-        "DevComment": "空间不足",
-        "Desc": {
-          "Namespace": "GameplayFailedTable",
-          "Key": "Failed.Placement.NotMet_Desc",
-          "SourceString": "空间不足",
-          "LocalizedString": "空间不足"
-        }
-      },
-      "Failed.Interrupt.NotAllowed": {
-        "Tag": "Failed.Interrupt.NotAllowed",
-        "DevComment": "当前行为无法被打断",
-        "Desc": {
-          "Namespace": "GameplayFailedTable",
-          "Key": "Failed.Interrupt.NotAllowed_Desc",
-          "SourceString": "当前行为无法被打断",
-          "LocalizedString": "当前行为无法被打断"
-        }
-      },
-      "Failed.Silence": {
-        "Tag": "Failed.Silence",
-        "DevComment": "沉默状态",
-        "Desc": {
-          "Namespace": "GameplayFailedTable",
-          "Key": "Failed.Silence_Desc",
-          "SourceString": "沉默状态",
-          "LocalizedString": "沉默状态"
-        }
-      },
-      "Failed.InAir": {
-        "Tag": "Failed.InAir",
-        "DevComment": "空中无法释放",
-        "Desc": {
-          "Namespace": "GameplayFailedTable",
-          "Key": "Failed.InAir_Desc",
-          "SourceString": "空中无法释放",
-          "LocalizedString": "空中无法释放"
-        }
-      },
-      "Failed.NoAmmo": {
-        "Tag": "Failed.NoAmmo",
-        "DevComment": "备弹不足",
-        "Desc": {
-          "Namespace": "GameplayFailedTable",
-          "Key": "Failed.NoAmmo_Desc",
-          "SourceString": "备弹不足",
-          "LocalizedString": "备弹不足"
-        }
-      },
-      "Failed.Reload": {
-        "Tag": "Failed.Reload",
-        "DevComment": "无法换弹",
-        "Desc": {
-          "Namespace": "GameplayFailedTable",
-          "Key": "Failed.Reload_Desc",
-          "SourceString": "无法换弹",
-          "LocalizedString": "无法换弹"
-        }
-      },
-      "Failed.Aiming": {
-        "Tag": "Failed.Aiming",
-        "DevComment": "无法肩射",
-        "Desc": {
-          "Namespace": "GameplayFailedTable",
-          "Key": "Failed.Aiming_Desc",
-          "SourceString": "无法肩射",
-          "LocalizedString": "无法肩射"
-        }
-      },
-      "Failed.ADS": {
-        "Tag": "Failed.ADS",
-        "DevComment": "无法开镜",
-        "Desc": {
-          "Namespace": "GameplayFailedTable",
-          "Key": "Failed.ADS_Desc",
-          "SourceString": "无法开镜",
-          "LocalizedString": "无法开镜"
-        }
-      },
-      "Failed.SkillNeedPrimaryWeapon": {
-        "Tag": "Failed.SkillNeedPrimaryWeapon",
-        "DevComment": "无主武器无法使用",
-        "Desc": {
-          "Namespace": "GameplayFailedTable",
-          "Key": "Failed.SkillNeedPrimaryWeapon_Desc",
-          "SourceString": "无主武器无法使用",
-          "LocalizedString": "无主武器无法使用"
-        }
-      },
-      "Failed.UseWeapon": {
-        "Tag": "Failed.UseWeapon",
-        "DevComment": "无法攻击",
-        "Desc": {
-          "Namespace": "GameplayFailedTable",
-          "Key": "Failed.UseWeapon_Desc",
-          "SourceString": "无法攻击",
-          "LocalizedString": "无法攻击"
-        }
-      },
-      "Failed.ThrowProjectiles.GameFreeze": {
-        "Tag": "Failed.ThrowProjectiles.GameFreeze",
-        "DevComment": "准备阶段无法使用战术道具",
-        "Desc": {
-          "Namespace": "GameplayFailedTable",
-          "Key": "Failed.ThrowProjectiles.GameFreeze_Desc",
-          "SourceString": "准备阶段无法使用战术道具",
-          "LocalizedString": "准备阶段无法使用战术道具"
-        }
-      },
-      "Failed.SwitchWeapon": {
-        "Tag": "Failed.SwitchWeapon",
-        "DevComment": "无法切换武器",
-        "Desc": {
-          "Namespace": "GameplayFailedTable",
-          "Key": "Failed.SwitchWeapon_Desc",
-          "SourceString": "无法切换武器",
-          "LocalizedString": "无法切换武器"
-        }
-      },
-      "Failed.WalkSideWay.Limited": {
-        "Tag": "Failed.WalkSideWay.Limited",
-        "DevComment": "限制主动飘飞",
-        "Desc": {
-          "Namespace": "GameplayFailedTable",
-          "Key": "Failed.WalkSideWay.Limited_Desc",
-          "SourceString": "限制主动飘飞",
-          "LocalizedString": "限制主动飘飞"
-        }
-      },
-      "Failed.WallSide.NoFindWall": {
-        "Tag": "Failed.WallSide.NoFindWall",
-        "DevComment": "无可贴墙面",
-        "Desc": {
-          "Namespace": "GameplayFailedTable",
-          "Key": "Failed.WallSide.NoFindWall_Desc",
-          "SourceString": "无可贴墙面",
-          "LocalizedString": "无可贴墙面"
-        }
-      },
-      "Failed.SideWay.Limited": {
-        "Tag": "Failed.SideWay.Limited",
-        "DevComment": "限制主动侧身",
-        "Desc": {
-          "Namespace": "GameplayFailedTable",
-          "Key": "Failed.SideWay.Limited_Desc",
-          "SourceString": "限制主动侧身",
-          "LocalizedString": "限制主动侧身"
-        }
-      },
-      "Failed.WallSide.Limited": {
-        "Tag": "Failed.WallSide.Limited",
-        "DevComment": "限制主动贴墙",
-        "Desc": {
-          "Namespace": "GameplayFailedTable",
-          "Key": "Failed.WallSide.Limited_Desc",
-          "SourceString": "限制主动贴墙",
-          "LocalizedString": "限制主动贴墙"
-        }
-      },
-      "Failed.ForceFlying": {
-        "Tag": "Failed.ForceFlying",
-        "DevComment": "强制飘飞中",
-        "Desc": {
-          "Namespace": "GameplayFailedTable",
-          "Key": "Failed.ForceFlying_Desc",
-          "SourceString": "强制飘飞中",
-          "LocalizedString": "强制飘飞中"
-        }
-      },
-      "Failed.FlyHeight.NotMet": {
-        "Tag": "Failed.FlyHeight.NotMet",
-        "DevComment": "高度不足",
-        "Desc": {
-          "Namespace": "GameplayFailedTable",
-          "Key": "Failed.FlyHeight.NotMet_Desc",
-          "SourceString": "高度不足",
-          "LocalizedString": "高度不足"
-        }
-      },
-      "Failed.FlyHeight.NoSpace": {
-        "Tag": "Failed.FlyHeight.NoSpace",
-        "DevComment": "空间不足",
-        "Desc": {
-          "Namespace": "GameplayFailedTable",
-          "Key": "Failed.FlyHeight.NoSpace_Desc",
-          "SourceString": "空间不足",
-          "LocalizedString": "空间不足"
-        }
-      },
-      "Failed.NoTarget": {
-        "Tag": "Failed.NoTarget",
-        "DevComment": "找不到目标",
-        "Desc": {
-          "Namespace": "GameplayFailedTable",
-          "Key": "Failed.NoTarget_Desc",
-          "SourceString": "找不到目标",
-          "LocalizedString": "找不到目标"
-        }
-      },
-      "Failed.NoLocation": {
-        "Tag": "Failed.NoLocation",
-        "DevComment": "无效位置",
-        "Desc": {
-          "Namespace": "GameplayFailedTable",
-          "Key": "Failed.NoLocation_Desc",
-          "SourceString": "无效位置",
-          "LocalizedString": "无效位置"
-        }
-      },
-      "Failed.UnSide.NoSpace": {
-        "Tag": "Failed.UnSide.NoSpace",
-        "DevComment": "空间不足无法解除侧身",
-        "Desc": {
-          "Namespace": "GameplayFailedTable",
-          "Key": "Failed.UnSide.NoSpace_Desc",
-          "SourceString": "空间不足无法解除侧身",
-          "LocalizedString": "空间不足无法解除侧身"
-        }
-      },
-      "Failed.UnableToRelease.Q": {
-        "Tag": "Failed.UnableToRelease.Q",
-        "DevComment": "无法释放",
-        "Desc": {
-          "Namespace": "GameplayFailedTable",
-          "Key": "Failed.UnableToRelease.Q_Desc",
-          "SourceString": "无法释放",
-          "LocalizedString": "无法释放"
-        }
-      },
-      "Failed.UnableToRelease.X": {
-        "Tag": "Failed.UnableToRelease.X",
-        "DevComment": "无法释放",
-        "Desc": {
-          "Namespace": "GameplayFailedTable",
-          "Key": "Failed.UnableToRelease.X_Desc",
-          "SourceString": "无法释放",
-          "LocalizedString": "无法释放"
-        }
-      },
-      "Failed.Reason.Stealth": {
-        "Tag": "Failed.Reason.Stealth",
-        "DevComment": "隐身状态",
-        "Desc": {
-          "Namespace": "GameplayFailedTable",
-          "Key": "Failed.Reason.Stealth_Desc",
-          "SourceString": "隐身状态",
-          "LocalizedString": "隐身状态"
-        }
-      },
-      "Failed.Reason.2D.Wall": {
-        "Tag": "Failed.Reason.2D.Wall",
-        "DevComment": "贴墙状态",
-        "Desc": {
-          "Namespace": "GameplayFailedTable",
-          "Key": "Failed.Reason.2D.Wall_Desc",
-          "SourceString": "贴墙状态",
-          "LocalizedString": "贴墙状态"
-        }
-      },
-      "Failed.Reason.2D.Flying": {
-        "Tag": "Failed.Reason.2D.Flying",
-        "DevComment": "飘飞状态",
-        "Desc": {
-          "Namespace": "GameplayFailedTable",
-          "Key": "Failed.Reason.2D.Flying_Desc",
-          "SourceString": "飘飞状态",
-          "LocalizedString": "飘飞状态"
-        }
-      },
-      "Failed.Reason.InAir": {
-        "Tag": "Failed.Reason.InAir",
-        "DevComment": "空中",
-        "Desc": {
-          "Namespace": "GameplayFailedTable",
-          "Key": "Failed.Reason.InAir_Desc",
-          "SourceString": "空中",
-          "LocalizedString": "空中"
-        }
-      },
-      "Failed.Trigger.2D.Wall": {
-        "Tag": "Failed.Trigger.2D.Wall",
-        "DevComment": "无法贴墙",
-        "Desc": {
-          "Namespace": "GameplayFailedTable",
-          "Key": "Failed.Trigger.2D.Wall_Desc",
-          "SourceString": "无法贴墙",
-          "LocalizedString": "无法贴墙"
-        }
-      },
-      "Failed.Trigger.2D.Flying": {
-        "Tag": "Failed.Trigger.2D.Flying",
-        "DevComment": "无法飘飞",
-        "Desc": {
-          "Namespace": "GameplayFailedTable",
-          "Key": "Failed.Trigger.2D.Flying_Desc",
-          "SourceString": "无法飘飞",
-          "LocalizedString": "无法飘飞"
-        }
-      },
-      "Failed.Trigger.2D.Side": {
-        "Tag": "Failed.Trigger.2D.Side",
-        "DevComment": "无法侧身",
-        "Desc": {
-          "Namespace": "GameplayFailedTable",
-          "Key": "Failed.Trigger.2D.Side_Desc",
-          "SourceString": "无法侧身",
-          "LocalizedString": "无法侧身"
-        }
-      },
-      "Failed.NoGrenade": {
-        "Tag": "Failed.NoGrenade",
-        "DevComment": "当前槽位无战术道具",
-        "Desc": {
-          "Namespace": "GameplayFailedTable",
-          "Key": "Failed.NoGrenade_Desc",
-          "SourceString": "当前槽位无战术道具",
-          "LocalizedString": "当前槽位无战术道具"
-        }
-      },
-      "Failed.NoDeathTeamCharacter": {
-        "Tag": "Failed.NoDeathTeamCharacter",
-        "DevComment": "无阵亡队友",
-        "Desc": {
-          "Namespace": "GameplayFailedTable",
-          "Key": "Failed.NoDeathTeamCharacter_Desc",
-          "SourceString": "无阵亡队友",
-          "LocalizedString": "无阵亡队友"
-        }
-      },
-      "Failed.Distance.NotMet": {
-        "Tag": "Failed.Distance.NotMet",
-        "DevComment": "目标不在激活范围",
-        "Desc": {
-          "Namespace": "GameplayFailedTable",
-          "Key": "Failed.Distance.NotMet_Desc",
-          "SourceString": "目标不在激活范围",
-          "LocalizedString": "目标不在激活范围"
-        }
-      },
-      "Failed.Shelf.Using": {
-        "Tag": "Failed.Shelf.Using",
-        "DevComment": "超出可回收机枪范围",
-        "Desc": {
-          "Namespace": "GameplayFailedTable",
-          "Key": "Failed.Shelf.Using_Desc",
-          "SourceString": "超出可回收机枪范围",
-          "LocalizedString": "超出可回收机枪范围"
-        }
-      },
-      "Failed.UnableToRelease.Arousal.One": {
-        "Tag": "Failed.UnableToRelease.Arousal.One",
-        "DevComment": "无法释放",
-        "Desc": {
-          "Namespace": "GameplayFailedTable",
-          "Key": "Failed.UnableToRelease.Arousal.One_Desc",
-          "SourceString": "无法释放",
-          "LocalizedString": "无法释放"
-        }
-      },
-      "Failed.UnableToRelease.Arousal.Two": {
-        "Tag": "Failed.UnableToRelease.Arousal.Two",
-        "DevComment": "无法释放",
-        "Desc": {
-          "Namespace": "GameplayFailedTable",
-          "Key": "Failed.UnableToRelease.Arousal.Two_Desc",
-          "SourceString": "无法释放",
-          "LocalizedString": "无法释放"
-        }
-      },
-      "Failed.UnableToRelease.Arousal.Three": {
-        "Tag": "Failed.UnableToRelease.Arousal.Three",
-        "DevComment": "无法释放",
-        "Desc": {
-          "Namespace": "GameplayFailedTable",
-          "Key": "Failed.UnableToRelease.Arousal.Three_Desc",
-          "SourceString": "无法释放",
-          "LocalizedString": "无法释放"
-        }
-      },
-      "Failed.State.Game.Freeze": {
-        "Tag": "Failed.State.Game.Freeze",
-        "DevComment": "准备阶段",
-        "Desc": {
-          "Namespace": "GameplayFailedTable",
-          "Key": "Failed.State.Game.Freeze_Desc",
-          "SourceString": "准备阶段",
-          "LocalizedString": "准备阶段"
-        }
-      },
-      "Failed.State.GameMode.Spar": {
-        "Tag": "Failed.State.GameMode.Spar",
-        "DevComment": "采矿模式",
-        "Desc": {
-          "Namespace": "GameplayFailedTable",
-          "Key": "Failed.State.GameMode.Spar_Desc",
-          "SourceString": "采矿模式",
-          "LocalizedString": "采矿模式"
-        }
-      },
-      "Failed.Grenade": {
-        "Tag": "Failed.Grenade",
-        "DevComment": "无法使用道具",
-        "Desc": {
-          "Namespace": "GameplayFailedTable",
-          "Key": "Failed.Grenade_Desc",
-          "SourceString": "无法使用道具",
-          "LocalizedString": "无法使用道具"
-        }
-      },
-      "Failed.ActorCountCheck": {
-        "Tag": "Failed.ActorCountCheck",
-        "DevComment": "数量检查失败",
-        "Desc": {
-          "Namespace": "GameplayFailedTable",
-          "Key": "Failed.ActorCountCheck_Desc",
-          "SourceString": "数量检查失败",
-          "LocalizedString": "数量检查失败"
-        }
-      },
-      "Failed.Distance.Coil": {
-        "Tag": "Failed.Distance.Coil",
-        "DevComment": "守望之眼外无法传送",
-        "Desc": {
-          "Namespace": "GameplayFailedTable",
-          "Key": "Failed.Distance.Coil_Desc",
-          "SourceString": "守望之眼外无法传送",
-          "LocalizedString": "守望之眼外无法传送"
-        }
-      },
-      "Failed.Weapon.StartAttack": {
-        "Tag": "Failed.Weapon.StartAttack",
-        "DevComment": "武器使用失败通用原因",
-        "Desc": {
-          "Namespace": "GameplayFailedTable",
-          "Key": "Failed.Weapon.StartAttack_Desc",
-          "SourceString": "武器使用失败通用原因",
-          "LocalizedString": "武器使用失败通用原因"
-        }
-      },
-      "Failed.CheckClickInterval": {
-        "Tag": "Failed.CheckClickInterval",
-        "DevComment": "技能检测点击间隔失败",
-        "Desc": {
-          "Namespace": "GameplayFailedTable",
-          "Key": "Failed.CheckClickInterval_Desc",
-          "SourceString": "技能检测点击间隔失败",
-          "LocalizedString": "技能检测点击间隔失败"
-        }
-      },
-      "Failed.NoPersonalityAction": {
-        "Tag": "Failed.NoPersonalityAction",
-        "DevComment": "当前状态无法播放个性化动作",
-        "Desc": {
-          "Namespace": "GameplayFailedTable",
-          "Key": "Failed.NoPersonalityAction_Desc",
-          "SourceString": "当前状态无法播放个性化动作",
-          "LocalizedString": "当前状态无法播放个性化动作"
-        }
-      },
-      "Failed.NoPersonality": {
-        "Tag": "Failed.NoPersonality",
-        "DevComment": "当前状态无法播放个性化道具",
-        "Desc": {
-          "Namespace": "GameplayFailedTable",
-          "Key": "Failed.NoPersonality_Desc",
-          "SourceString": "当前状态无法播放个性化道具",
-          "LocalizedString": "当前状态无法播放个性化道具"
-        }
-      },
-      "Failed.No2DEnergy": {
-        "Tag": "Failed.No2DEnergy",
-        "DevComment": "弦力值不足",
-        "Desc": {
-          "Namespace": "GameplayFailedTable",
-          "Key": "Failed.No2DEnergy_Desc",
-          "SourceString": "弦力值不足",
-          "LocalizedString": "弦力值不足"
-        }
+    "Failed.Cooldown": {
+      "Tag": "Failed.Cooldown",
+      "DevComment": "CD中",
+      "Desc": {
+        "Namespace": "GameplayFailedTable",
+        "Key": "Failed.Cooldown_Desc",
+        "SourceString": "CD中",
+        "LocalizedString": "CD中"
+      }
+    },
+    "Failed.Cost": {
+      "Tag": "Failed.Cost",
+      "DevComment": "能量点不足",
+      "Desc": {
+        "Namespace": "GameplayFailedTable",
+        "Key": "Failed.Cost_Desc",
+        "SourceString": "能量点不足",
+        "LocalizedString": "能量点不足"
+      }
+    },
+    "Failed.Block2D": {
+      "Tag": "Failed.Block2D",
+      "DevComment": "限制主动弦化",
+      "Desc": {
+        "Namespace": "GameplayFailedTable",
+        "Key": "Failed.Block2D_Desc",
+        "SourceString": "限制主动弦化",
+        "LocalizedString": "限制主动弦化"
+      }
+    },
+    "Failed.TagsBlocked": {
+      "Tag": "Failed.TagsBlocked",
+      "DevComment": "技能被阻挡，请检查配置",
+      "Desc": {
+        "Namespace": "GameplayFailedTable",
+        "Key": "Failed.TagsBlocked_Desc",
+        "SourceString": "技能被阻挡，请检查配置",
+        "LocalizedString": "技能被阻挡，请检查配置"
+      }
+    },
+    "Failed.TagsMissing": {
+      "Tag": "Failed.TagsMissing",
+      "DevComment": "使用技能条件不满足，请检查配置",
+      "Desc": {
+        "Namespace": "GameplayFailedTable",
+        "Key": "Failed.TagsMissing_Desc",
+        "SourceString": "使用技能条件不满足, 请检查配置",
+        "LocalizedString": "使用技能条件不满足, 请检查配置"
+      }
+    },
+    "Failed.Networking": {
+      "Tag": "Failed.Networking",
+      "DevComment": "",
+      "Desc": {
+        "CultureInvariantString": null
+      }
+    },
+    "Failed.Cost.Q": {
+      "Tag": "Failed.Cost.Q",
+      "DevComment": "技能尚未准备就绪",
+      "Desc": {
+        "Namespace": "GameplayFailedTable",
+        "Key": "Failed.Cost.Q_Desc",
+        "SourceString": "技能尚未准备就绪",
+        "LocalizedString": "技能尚未准备就绪"
+      }
+    },
+    "Failed.Cooldown.Q": {
+      "Tag": "Failed.Cooldown.Q",
+      "DevComment": "技能尚未准备就绪",
+      "Desc": {
+        "Namespace": "GameplayFailedTable",
+        "Key": "Failed.Cooldown.Q_Desc",
+        "SourceString": "技能尚未准备就绪",
+        "LocalizedString": "技能尚未准备就绪"
+      }
+    },
+    "Failed.Cost.X": {
+      "Tag": "Failed.Cost.X",
+      "DevComment": "终极技能能量点不足",
+      "Desc": {
+        "Namespace": "GameplayFailedTable",
+        "Key": "Failed.Cost.X_Desc",
+        "SourceString": "终极技能能量点不足",
+        "LocalizedString": "终极技能能量点不足"
+      }
+    },
+    "Failed.Placement.NotMet": {
+      "Tag": "Failed.Placement.NotMet",
+      "DevComment": "空间不足",
+      "Desc": {
+        "Namespace": "GameplayFailedTable",
+        "Key": "Failed.Placement.NotMet_Desc",
+        "SourceString": "空间不足",
+        "LocalizedString": "空间不足"
+      }
+    },
+    "Failed.Interrupt.NotAllowed": {
+      "Tag": "Failed.Interrupt.NotAllowed",
+      "DevComment": "当前行为无法被打断",
+      "Desc": {
+        "Namespace": "GameplayFailedTable",
+        "Key": "Failed.Interrupt.NotAllowed_Desc",
+        "SourceString": "当前行为无法被打断",
+        "LocalizedString": "当前行为无法被打断"
+      }
+    },
+    "Failed.Silence": {
+      "Tag": "Failed.Silence",
+      "DevComment": "沉默状态",
+      "Desc": {
+        "Namespace": "GameplayFailedTable",
+        "Key": "Failed.Silence_Desc",
+        "SourceString": "沉默状态",
+        "LocalizedString": "沉默状态"
+      }
+    },
+    "Failed.InAir": {
+      "Tag": "Failed.InAir",
+      "DevComment": "空中无法释放",
+      "Desc": {
+        "Namespace": "GameplayFailedTable",
+        "Key": "Failed.InAir_Desc",
+        "SourceString": "空中无法释放",
+        "LocalizedString": "空中无法释放"
+      }
+    },
+    "Failed.NoAmmo": {
+      "Tag": "Failed.NoAmmo",
+      "DevComment": "备弹不足",
+      "Desc": {
+        "Namespace": "GameplayFailedTable",
+        "Key": "Failed.NoAmmo_Desc",
+        "SourceString": "备弹不足",
+        "LocalizedString": "备弹不足"
+      }
+    },
+    "Failed.Reload": {
+      "Tag": "Failed.Reload",
+      "DevComment": "无法换弹",
+      "Desc": {
+        "Namespace": "GameplayFailedTable",
+        "Key": "Failed.Reload_Desc",
+        "SourceString": "无法换弹",
+        "LocalizedString": "无法换弹"
+      }
+    },
+    "Failed.Aiming": {
+      "Tag": "Failed.Aiming",
+      "DevComment": "无法肩射",
+      "Desc": {
+        "Namespace": "GameplayFailedTable",
+        "Key": "Failed.Aiming_Desc",
+        "SourceString": "无法肩射",
+        "LocalizedString": "无法肩射"
+      }
+    },
+    "Failed.ADS": {
+      "Tag": "Failed.ADS",
+      "DevComment": "无法开镜",
+      "Desc": {
+        "Namespace": "GameplayFailedTable",
+        "Key": "Failed.ADS_Desc",
+        "SourceString": "无法开镜",
+        "LocalizedString": "无法开镜"
+      }
+    },
+    "Failed.SkillNeedPrimaryWeapon": {
+      "Tag": "Failed.SkillNeedPrimaryWeapon",
+      "DevComment": "无主武器无法使用",
+      "Desc": {
+        "Namespace": "GameplayFailedTable",
+        "Key": "Failed.SkillNeedPrimaryWeapon_Desc",
+        "SourceString": "无主武器无法使用",
+        "LocalizedString": "无主武器无法使用"
+      }
+    },
+    "Failed.UseWeapon": {
+      "Tag": "Failed.UseWeapon",
+      "DevComment": "无法攻击",
+      "Desc": {
+        "Namespace": "GameplayFailedTable",
+        "Key": "Failed.UseWeapon_Desc",
+        "SourceString": "无法攻击",
+        "LocalizedString": "无法攻击"
+      }
+    },
+    "Failed.ThrowProjectiles.GameFreeze": {
+      "Tag": "Failed.ThrowProjectiles.GameFreeze",
+      "DevComment": "准备阶段无法使用战术道具",
+      "Desc": {
+        "Namespace": "GameplayFailedTable",
+        "Key": "Failed.ThrowProjectiles.GameFreeze_Desc",
+        "SourceString": "准备阶段无法使用战术道具",
+        "LocalizedString": "准备阶段无法使用战术道具"
+      }
+    },
+    "Failed.SwitchWeapon": {
+      "Tag": "Failed.SwitchWeapon",
+      "DevComment": "无法切换武器",
+      "Desc": {
+        "Namespace": "GameplayFailedTable",
+        "Key": "Failed.SwitchWeapon_Desc",
+        "SourceString": "无法切换武器",
+        "LocalizedString": "无法切换武器"
+      }
+    },
+    "Failed.WalkSideWay.Limited": {
+      "Tag": "Failed.WalkSideWay.Limited",
+      "DevComment": "限制主动飘飞",
+      "Desc": {
+        "Namespace": "GameplayFailedTable",
+        "Key": "Failed.WalkSideWay.Limited_Desc",
+        "SourceString": "限制主动飘飞",
+        "LocalizedString": "限制主动飘飞"
+      }
+    },
+    "Failed.WallSide.NoFindWall": {
+      "Tag": "Failed.WallSide.NoFindWall",
+      "DevComment": "无可贴墙面",
+      "Desc": {
+        "Namespace": "GameplayFailedTable",
+        "Key": "Failed.WallSide.NoFindWall_Desc",
+        "SourceString": "无可贴墙面",
+        "LocalizedString": "无可贴墙面"
+      }
+    },
+    "Failed.SideWay.Limited": {
+      "Tag": "Failed.SideWay.Limited",
+      "DevComment": "限制主动侧身",
+      "Desc": {
+        "Namespace": "GameplayFailedTable",
+        "Key": "Failed.SideWay.Limited_Desc",
+        "SourceString": "限制主动侧身",
+        "LocalizedString": "限制主动侧身"
+      }
+    },
+    "Failed.WallSide.Limited": {
+      "Tag": "Failed.WallSide.Limited",
+      "DevComment": "限制主动贴墙",
+      "Desc": {
+        "Namespace": "GameplayFailedTable",
+        "Key": "Failed.WallSide.Limited_Desc",
+        "SourceString": "限制主动贴墙",
+        "LocalizedString": "限制主动贴墙"
+      }
+    },
+    "Failed.ForceFlying": {
+      "Tag": "Failed.ForceFlying",
+      "DevComment": "强制飘飞中",
+      "Desc": {
+        "Namespace": "GameplayFailedTable",
+        "Key": "Failed.ForceFlying_Desc",
+        "SourceString": "强制飘飞中",
+        "LocalizedString": "强制飘飞中"
+      }
+    },
+    "Failed.FlyHeight.NotMet": {
+      "Tag": "Failed.FlyHeight.NotMet",
+      "DevComment": "高度不足",
+      "Desc": {
+        "Namespace": "GameplayFailedTable",
+        "Key": "Failed.FlyHeight.NotMet_Desc",
+        "SourceString": "高度不足",
+        "LocalizedString": "高度不足"
+      }
+    },
+    "Failed.FlyHeight.NoSpace": {
+      "Tag": "Failed.FlyHeight.NoSpace",
+      "DevComment": "空间不足",
+      "Desc": {
+        "Namespace": "GameplayFailedTable",
+        "Key": "Failed.FlyHeight.NoSpace_Desc",
+        "SourceString": "空间不足",
+        "LocalizedString": "空间不足"
+      }
+    },
+    "Failed.NoTarget": {
+      "Tag": "Failed.NoTarget",
+      "DevComment": "找不到目标",
+      "Desc": {
+        "Namespace": "GameplayFailedTable",
+        "Key": "Failed.NoTarget_Desc",
+        "SourceString": "找不到目标",
+        "LocalizedString": "找不到目标"
+      }
+    },
+    "Failed.NoLocation": {
+      "Tag": "Failed.NoLocation",
+      "DevComment": "无效位置",
+      "Desc": {
+        "Namespace": "GameplayFailedTable",
+        "Key": "Failed.NoLocation_Desc",
+        "SourceString": "无效位置",
+        "LocalizedString": "无效位置"
+      }
+    },
+    "Failed.UnSide.NoSpace": {
+      "Tag": "Failed.UnSide.NoSpace",
+      "DevComment": "空间不足无法解除侧身",
+      "Desc": {
+        "Namespace": "GameplayFailedTable",
+        "Key": "Failed.UnSide.NoSpace_Desc",
+        "SourceString": "空间不足无法解除侧身",
+        "LocalizedString": "空间不足无法解除侧身"
+      }
+    },
+    "Failed.UnableToRelease.Q": {
+      "Tag": "Failed.UnableToRelease.Q",
+      "DevComment": "无法释放",
+      "Desc": {
+        "Namespace": "GameplayFailedTable",
+        "Key": "Failed.UnableToRelease.Q_Desc",
+        "SourceString": "无法释放",
+        "LocalizedString": "无法释放"
+      }
+    },
+    "Failed.UnableToRelease.X": {
+      "Tag": "Failed.UnableToRelease.X",
+      "DevComment": "无法释放",
+      "Desc": {
+        "Namespace": "GameplayFailedTable",
+        "Key": "Failed.UnableToRelease.X_Desc",
+        "SourceString": "无法释放",
+        "LocalizedString": "无法释放"
+      }
+    },
+    "Failed.Reason.Stealth": {
+      "Tag": "Failed.Reason.Stealth",
+      "DevComment": "隐身状态",
+      "Desc": {
+        "Namespace": "GameplayFailedTable",
+        "Key": "Failed.Reason.Stealth_Desc",
+        "SourceString": "隐身状态",
+        "LocalizedString": "隐身状态"
+      }
+    },
+    "Failed.Reason.2D.Wall": {
+      "Tag": "Failed.Reason.2D.Wall",
+      "DevComment": "贴墙状态",
+      "Desc": {
+        "Namespace": "GameplayFailedTable",
+        "Key": "Failed.Reason.2D.Wall_Desc",
+        "SourceString": "贴墙状态",
+        "LocalizedString": "贴墙状态"
+      }
+    },
+    "Failed.Reason.2D.Flying": {
+      "Tag": "Failed.Reason.2D.Flying",
+      "DevComment": "飘飞状态",
+      "Desc": {
+        "Namespace": "GameplayFailedTable",
+        "Key": "Failed.Reason.2D.Flying_Desc",
+        "SourceString": "飘飞状态",
+        "LocalizedString": "飘飞状态"
+      }
+    },
+    "Failed.Reason.InAir": {
+      "Tag": "Failed.Reason.InAir",
+      "DevComment": "空中",
+      "Desc": {
+        "Namespace": "GameplayFailedTable",
+        "Key": "Failed.Reason.InAir_Desc",
+        "SourceString": "空中",
+        "LocalizedString": "空中"
+      }
+    },
+    "Failed.Trigger.2D.Wall": {
+      "Tag": "Failed.Trigger.2D.Wall",
+      "DevComment": "无法贴墙",
+      "Desc": {
+        "Namespace": "GameplayFailedTable",
+        "Key": "Failed.Trigger.2D.Wall_Desc",
+        "SourceString": "无法贴墙",
+        "LocalizedString": "无法贴墙"
+      }
+    },
+    "Failed.Trigger.2D.Flying": {
+      "Tag": "Failed.Trigger.2D.Flying",
+      "DevComment": "无法飘飞",
+      "Desc": {
+        "Namespace": "GameplayFailedTable",
+        "Key": "Failed.Trigger.2D.Flying_Desc",
+        "SourceString": "无法飘飞",
+        "LocalizedString": "无法飘飞"
+      }
+    },
+    "Failed.Trigger.2D.Side": {
+      "Tag": "Failed.Trigger.2D.Side",
+      "DevComment": "无法侧身",
+      "Desc": {
+        "Namespace": "GameplayFailedTable",
+        "Key": "Failed.Trigger.2D.Side_Desc",
+        "SourceString": "无法侧身",
+        "LocalizedString": "无法侧身"
+      }
+    },
+    "Failed.NoGrenade": {
+      "Tag": "Failed.NoGrenade",
+      "DevComment": "当前槽位无战术道具",
+      "Desc": {
+        "Namespace": "GameplayFailedTable",
+        "Key": "Failed.NoGrenade_Desc",
+        "SourceString": "当前槽位无战术道具",
+        "LocalizedString": "当前槽位无战术道具"
+      }
+    },
+    "Failed.NoDeathTeamCharacter": {
+      "Tag": "Failed.NoDeathTeamCharacter",
+      "DevComment": "无阵亡队友",
+      "Desc": {
+        "Namespace": "GameplayFailedTable",
+        "Key": "Failed.NoDeathTeamCharacter_Desc",
+        "SourceString": "无阵亡队友",
+        "LocalizedString": "无阵亡队友"
+      }
+    },
+    "Failed.Distance.NotMet": {
+      "Tag": "Failed.Distance.NotMet",
+      "DevComment": "目标不在激活范围",
+      "Desc": {
+        "Namespace": "GameplayFailedTable",
+        "Key": "Failed.Distance.NotMet_Desc",
+        "SourceString": "目标不在激活范围",
+        "LocalizedString": "目标不在激活范围"
+      }
+    },
+    "Failed.Shelf.Using": {
+      "Tag": "Failed.Shelf.Using",
+      "DevComment": "超出可回收机枪范围",
+      "Desc": {
+        "Namespace": "GameplayFailedTable",
+        "Key": "Failed.Shelf.Using_Desc",
+        "SourceString": "超出可回收机枪范围",
+        "LocalizedString": "超出可回收机枪范围"
+      }
+    },
+    "Failed.UnableToRelease.Arousal.One": {
+      "Tag": "Failed.UnableToRelease.Arousal.One",
+      "DevComment": "无法释放",
+      "Desc": {
+        "Namespace": "GameplayFailedTable",
+        "Key": "Failed.UnableToRelease.Arousal.One_Desc",
+        "SourceString": "无法释放",
+        "LocalizedString": "无法释放"
+      }
+    },
+    "Failed.UnableToRelease.Arousal.Two": {
+      "Tag": "Failed.UnableToRelease.Arousal.Two",
+      "DevComment": "无法释放",
+      "Desc": {
+        "Namespace": "GameplayFailedTable",
+        "Key": "Failed.UnableToRelease.Arousal.Two_Desc",
+        "SourceString": "无法释放",
+        "LocalizedString": "无法释放"
+      }
+    },
+    "Failed.UnableToRelease.Arousal.Three": {
+      "Tag": "Failed.UnableToRelease.Arousal.Three",
+      "DevComment": "无法释放",
+      "Desc": {
+        "Namespace": "GameplayFailedTable",
+        "Key": "Failed.UnableToRelease.Arousal.Three_Desc",
+        "SourceString": "无法释放",
+        "LocalizedString": "无法释放"
+      }
+    },
+    "Failed.State.Game.Freeze": {
+      "Tag": "Failed.State.Game.Freeze",
+      "DevComment": "准备阶段",
+      "Desc": {
+        "Namespace": "GameplayFailedTable",
+        "Key": "Failed.State.Game.Freeze_Desc",
+        "SourceString": "准备阶段",
+        "LocalizedString": "准备阶段"
+      }
+    },
+    "Failed.State.GameMode.Spar": {
+      "Tag": "Failed.State.GameMode.Spar",
+      "DevComment": "采矿模式",
+      "Desc": {
+        "Namespace": "GameplayFailedTable",
+        "Key": "Failed.State.GameMode.Spar_Desc",
+        "SourceString": "采矿模式",
+        "LocalizedString": "采矿模式"
+      }
+    },
+    "Failed.Grenade": {
+      "Tag": "Failed.Grenade",
+      "DevComment": "无法使用道具",
+      "Desc": {
+        "Namespace": "GameplayFailedTable",
+        "Key": "Failed.Grenade_Desc",
+        "SourceString": "无法使用道具",
+        "LocalizedString": "无法使用道具"
+      }
+    },
+    "Failed.ActorCountCheck": {
+      "Tag": "Failed.ActorCountCheck",
+      "DevComment": "数量检查失败",
+      "Desc": {
+        "Namespace": "GameplayFailedTable",
+        "Key": "Failed.ActorCountCheck_Desc",
+        "SourceString": "数量检查失败",
+        "LocalizedString": "数量检查失败"
+      }
+    },
+    "Failed.Distance.Coil": {
+      "Tag": "Failed.Distance.Coil",
+      "DevComment": "守望之眼外无法传送",
+      "Desc": {
+        "Namespace": "GameplayFailedTable",
+        "Key": "Failed.Distance.Coil_Desc",
+        "SourceString": "守望之眼外无法传送",
+        "LocalizedString": "守望之眼外无法传送"
+      }
+    },
+    "Failed.Weapon.StartAttack": {
+      "Tag": "Failed.Weapon.StartAttack",
+      "DevComment": "武器使用失败通用原因",
+      "Desc": {
+        "Namespace": "GameplayFailedTable",
+        "Key": "Failed.Weapon.StartAttack_Desc",
+        "SourceString": "武器使用失败通用原因",
+        "LocalizedString": "武器使用失败通用原因"
+      }
+    },
+    "Failed.CheckClickInterval": {
+      "Tag": "Failed.CheckClickInterval",
+      "DevComment": "技能检测点击间隔失败",
+      "Desc": {
+        "Namespace": "GameplayFailedTable",
+        "Key": "Failed.CheckClickInterval_Desc",
+        "SourceString": "技能检测点击间隔失败",
+        "LocalizedString": "技能检测点击间隔失败"
+      }
+    },
+    "Failed.NoPersonalityAction": {
+      "Tag": "Failed.NoPersonalityAction",
+      "DevComment": "当前状态无法播放个性化动作",
+      "Desc": {
+        "Namespace": "GameplayFailedTable",
+        "Key": "Failed.NoPersonalityAction_Desc",
+        "SourceString": "当前状态无法播放个性化动作",
+        "LocalizedString": "当前状态无法播放个性化动作"
+      }
+    },
+    "Failed.NoPersonality": {
+      "Tag": "Failed.NoPersonality",
+      "DevComment": "当前状态无法播放个性化道具",
+      "Desc": {
+        "Namespace": "GameplayFailedTable",
+        "Key": "Failed.NoPersonality_Desc",
+        "SourceString": "当前状态无法播放个性化道具",
+        "LocalizedString": "当前状态无法播放个性化道具"
+      }
+    },
+    "Failed.No2DEnergy": {
+      "Tag": "Failed.No2DEnergy",
+      "DevComment": "弦力值不足",
+      "Desc": {
+        "Namespace": "GameplayFailedTable",
+        "Key": "Failed.No2DEnergy_Desc",
+        "SourceString": "弦力值不足",
+        "LocalizedString": "弦力值不足"
       }
     }
   }
-]
+}
