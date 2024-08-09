@@ -1,851 +1,849 @@
-[
-  {
-    "Type": "DataTable",
-    "Name": "Kokona_124_Lv_3",
-    "Class": "UScriptClass'DataTable'",
-    "Properties": {
-      "RowStruct": {
-        "ObjectName": "ScriptStruct'CyCommunicationSecondLevelConfig'",
-        "ObjectPath": "/Script/PMGame"
-      }
+{
+  "Type": "DataTable",
+  "Name": "Kokona_124_Lv_3",
+  "Class": "UScriptClass'DataTable'",
+  "Properties": {
+    "RowStruct": {
+      "ObjectName": "ScriptStruct'CyCommunicationSecondLevelConfig'",
+      "ObjectPath": "/Script/PMGame"
+    }
+  },
+  "Rows": {
+    "Start": {
+      "bIsPlayer": false,
+      "bNeedShowAvatar": true,
+      "FromId": 124,
+      "Avatar": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoleSkin/RoleProfile/T_Dynamic_RolePorfile_124.T_Dynamic_RolePorfile_124",
+        "SubPathString": ""
+      },
+      "Type": "ECyCommunicationThirdLevelType::Normal",
+      "ContentType": "ECyCommunicationContentType::Text",
+      "TextContent": {
+        "Namespace": "Kokona_124_Lv_3",
+        "Key": "RowStart_TextContent_FromRoleId124",
+        "SourceString": "引航者，紧急求救！",
+        "LocalizedString": "引航者，紧急求救！"
+      },
+      "TextureContent": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "AkOnEvent": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "GreetingCardList": [],
+      "NormalJumpRowName": "2",
+      "OptionType": "ECyCommunicationOptionType::None",
+      "TextContentList": [],
+      "EmojiList": [],
+      "TextureList": [],
+      "OptionalJumpRowNameArray": []
     },
-    "Rows": {
-      "Start": {
-        "bIsPlayer": false,
-        "bNeedShowAvatar": true,
-        "FromId": 124,
-        "Avatar": {
-          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoleSkin/RoleProfile/T_Dynamic_RolePorfile_124.T_Dynamic_RolePorfile_124",
-          "SubPathString": ""
-        },
-        "Type": "ECyCommunicationThirdLevelType::Normal",
-        "ContentType": "ECyCommunicationContentType::Text",
-        "TextContent": {
+    "2": {
+      "bIsPlayer": true,
+      "bNeedShowAvatar": false,
+      "FromId": 0,
+      "Avatar": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "Type": "ECyCommunicationThirdLevelType::PlayerOptions",
+      "ContentType": "ECyCommunicationContentType::None",
+      "TextContent": {
+        "CultureInvariantString": null
+      },
+      "TextureContent": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "AkOnEvent": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "GreetingCardList": [],
+      "NormalJumpRowName": "",
+      "OptionType": "ECyCommunicationOptionType::Text",
+      "TextContentList": [
+        {
           "Namespace": "Kokona_124_Lv_3",
-          "Key": "RowStart_TextContent_FromRoleId124",
-          "SourceString": "引航者，紧急求救！",
-          "LocalizedString": "引航者，紧急求救！"
-        },
-        "TextureContent": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "AkOnEvent": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "GreetingCardList": [],
-        "NormalJumpRowName": "2",
-        "OptionType": "ECyCommunicationOptionType::None",
-        "TextContentList": [],
-        "EmojiList": [],
-        "TextureList": [],
-        "OptionalJumpRowNameArray": []
+          "Key": "Row2_PlayerOption1",
+          "SourceString": "发生什么事了？",
+          "LocalizedString": "发生什么事了？"
+        }
+      ],
+      "EmojiList": [],
+      "TextureList": [],
+      "OptionalJumpRowNameArray": [
+        "3"
+      ]
+    },
+    "3": {
+      "bIsPlayer": false,
+      "bNeedShowAvatar": true,
+      "FromId": 124,
+      "Avatar": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoleSkin/RoleProfile/T_Dynamic_RolePorfile_124.T_Dynamic_RolePorfile_124",
+        "SubPathString": ""
       },
-      "2": {
-        "bIsPlayer": true,
-        "bNeedShowAvatar": false,
-        "FromId": 0,
-        "Avatar": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "Type": "ECyCommunicationThirdLevelType::PlayerOptions",
-        "ContentType": "ECyCommunicationContentType::None",
-        "TextContent": {
-          "CultureInvariantString": null
-        },
-        "TextureContent": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "AkOnEvent": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "GreetingCardList": [],
-        "NormalJumpRowName": "",
-        "OptionType": "ECyCommunicationOptionType::Text",
-        "TextContentList": [
-          {
-            "Namespace": "Kokona_124_Lv_3",
-            "Key": "Row2_PlayerOption1",
-            "SourceString": "发生什么事了？",
-            "LocalizedString": "发生什么事了？"
-          }
-        ],
-        "EmojiList": [],
-        "TextureList": [],
-        "OptionalJumpRowNameArray": [
-          "3"
-        ]
+      "Type": "ECyCommunicationThirdLevelType::Normal",
+      "ContentType": "ECyCommunicationContentType::Text",
+      "TextContent": {
+        "Namespace": "Kokona_124_Lv_3",
+        "Key": "Row3_TextContent_FromRoleId124",
+        "SourceString": "引航者，你还记得美食街的婆婆吗？",
+        "LocalizedString": "引航者，你还记得美食街的婆婆吗？"
       },
-      "3": {
-        "bIsPlayer": false,
-        "bNeedShowAvatar": true,
-        "FromId": 124,
-        "Avatar": {
-          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoleSkin/RoleProfile/T_Dynamic_RolePorfile_124.T_Dynamic_RolePorfile_124",
-          "SubPathString": ""
-        },
-        "Type": "ECyCommunicationThirdLevelType::Normal",
-        "ContentType": "ECyCommunicationContentType::Text",
-        "TextContent": {
+      "TextureContent": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "AkOnEvent": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "GreetingCardList": [],
+      "NormalJumpRowName": "4",
+      "OptionType": "ECyCommunicationOptionType::None",
+      "TextContentList": [],
+      "EmojiList": [],
+      "TextureList": [],
+      "OptionalJumpRowNameArray": []
+    },
+    "4": {
+      "bIsPlayer": true,
+      "bNeedShowAvatar": false,
+      "FromId": 0,
+      "Avatar": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "Type": "ECyCommunicationThirdLevelType::PlayerOptions",
+      "ContentType": "ECyCommunicationContentType::None",
+      "TextContent": {
+        "CultureInvariantString": null
+      },
+      "TextureContent": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "AkOnEvent": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "GreetingCardList": [],
+      "NormalJumpRowName": "",
+      "OptionType": "ECyCommunicationOptionType::Text",
+      "TextContentList": [
+        {
           "Namespace": "Kokona_124_Lv_3",
-          "Key": "Row3_TextContent_FromRoleId124",
-          "SourceString": "引航者，你还记得美食街的婆婆吗？",
-          "LocalizedString": "引航者，你还记得美食街的婆婆吗？"
+          "Key": "Row4_PlayerOption1",
+          "SourceString": "做蔬菜沙拉的那个？",
+          "LocalizedString": "做蔬菜沙拉的那个？"
         },
-        "TextureContent": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "AkOnEvent": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "GreetingCardList": [],
-        "NormalJumpRowName": "4",
-        "OptionType": "ECyCommunicationOptionType::None",
-        "TextContentList": [],
-        "EmojiList": [],
-        "TextureList": [],
-        "OptionalJumpRowNameArray": []
-      },
-      "4": {
-        "bIsPlayer": true,
-        "bNeedShowAvatar": false,
-        "FromId": 0,
-        "Avatar": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "Type": "ECyCommunicationThirdLevelType::PlayerOptions",
-        "ContentType": "ECyCommunicationContentType::None",
-        "TextContent": {
-          "CultureInvariantString": null
-        },
-        "TextureContent": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "AkOnEvent": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "GreetingCardList": [],
-        "NormalJumpRowName": "",
-        "OptionType": "ECyCommunicationOptionType::Text",
-        "TextContentList": [
-          {
-            "Namespace": "Kokona_124_Lv_3",
-            "Key": "Row4_PlayerOption1",
-            "SourceString": "做蔬菜沙拉的那个？",
-            "LocalizedString": "做蔬菜沙拉的那个？"
-          },
-          {
-            "Namespace": "Kokona_124_Lv_3",
-            "Key": "Row4_PlayerOption2",
-            "SourceString": "婆婆出什么事了吗？",
-            "LocalizedString": "婆婆出什么事了吗？"
-          }
-        ],
-        "EmojiList": [],
-        "TextureList": [],
-        "OptionalJumpRowNameArray": [
-          "5-a",
-          "6-b"
-        ]
-      },
-      "5-a": {
-        "bIsPlayer": false,
-        "bNeedShowAvatar": true,
-        "FromId": 124,
-        "Avatar": {
-          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoleSkin/RoleProfile/T_Dynamic_RolePorfile_124.T_Dynamic_RolePorfile_124",
-          "SubPathString": ""
-        },
-        "Type": "ECyCommunicationThirdLevelType::Normal",
-        "ContentType": "ECyCommunicationContentType::Text",
-        "TextContent": {
+        {
           "Namespace": "Kokona_124_Lv_3",
-          "Key": "Row5-a_TextContent_FromRoleId124",
-          "SourceString": "对，就是那个婆婆！",
-          "LocalizedString": "对，就是那个婆婆！"
-        },
-        "TextureContent": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "AkOnEvent": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "GreetingCardList": [],
-        "NormalJumpRowName": "7",
-        "OptionType": "ECyCommunicationOptionType::None",
-        "TextContentList": [],
-        "EmojiList": [],
-        "TextureList": [],
-        "OptionalJumpRowNameArray": []
+          "Key": "Row4_PlayerOption2",
+          "SourceString": "婆婆出什么事了吗？",
+          "LocalizedString": "婆婆出什么事了吗？"
+        }
+      ],
+      "EmojiList": [],
+      "TextureList": [],
+      "OptionalJumpRowNameArray": [
+        "5-a",
+        "6-b"
+      ]
+    },
+    "5-a": {
+      "bIsPlayer": false,
+      "bNeedShowAvatar": true,
+      "FromId": 124,
+      "Avatar": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoleSkin/RoleProfile/T_Dynamic_RolePorfile_124.T_Dynamic_RolePorfile_124",
+        "SubPathString": ""
       },
-      "6-b": {
-        "bIsPlayer": false,
-        "bNeedShowAvatar": true,
-        "FromId": 124,
-        "Avatar": {
-          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoleSkin/RoleProfile/T_Dynamic_RolePorfile_124.T_Dynamic_RolePorfile_124",
-          "SubPathString": ""
-        },
-        "Type": "ECyCommunicationThirdLevelType::Normal",
-        "ContentType": "ECyCommunicationContentType::Text",
-        "TextContent": {
+      "Type": "ECyCommunicationThirdLevelType::Normal",
+      "ContentType": "ECyCommunicationContentType::Text",
+      "TextContent": {
+        "Namespace": "Kokona_124_Lv_3",
+        "Key": "Row5-a_TextContent_FromRoleId124",
+        "SourceString": "对，就是那个婆婆！",
+        "LocalizedString": "对，就是那个婆婆！"
+      },
+      "TextureContent": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "AkOnEvent": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "GreetingCardList": [],
+      "NormalJumpRowName": "7",
+      "OptionType": "ECyCommunicationOptionType::None",
+      "TextContentList": [],
+      "EmojiList": [],
+      "TextureList": [],
+      "OptionalJumpRowNameArray": []
+    },
+    "6-b": {
+      "bIsPlayer": false,
+      "bNeedShowAvatar": true,
+      "FromId": 124,
+      "Avatar": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoleSkin/RoleProfile/T_Dynamic_RolePorfile_124.T_Dynamic_RolePorfile_124",
+        "SubPathString": ""
+      },
+      "Type": "ECyCommunicationThirdLevelType::Normal",
+      "ContentType": "ECyCommunicationContentType::Text",
+      "TextContent": {
+        "Namespace": "Kokona_124_Lv_3",
+        "Key": "Row6-b_TextContent_FromRoleId124",
+        "SourceString": "你听我说！",
+        "LocalizedString": "你听我说！"
+      },
+      "TextureContent": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "AkOnEvent": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "GreetingCardList": [],
+      "NormalJumpRowName": "7",
+      "OptionType": "ECyCommunicationOptionType::None",
+      "TextContentList": [],
+      "EmojiList": [],
+      "TextureList": [],
+      "OptionalJumpRowNameArray": []
+    },
+    "7": {
+      "bIsPlayer": false,
+      "bNeedShowAvatar": true,
+      "FromId": 124,
+      "Avatar": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoleSkin/RoleProfile/T_Dynamic_RolePorfile_124.T_Dynamic_RolePorfile_124",
+        "SubPathString": ""
+      },
+      "Type": "ECyCommunicationThirdLevelType::Normal",
+      "ContentType": "ECyCommunicationContentType::Text",
+      "TextContent": {
+        "Namespace": "Kokona_124_Lv_3",
+        "Key": "Row7_TextContent_FromRoleId124",
+        "SourceString": "婆婆她……",
+        "LocalizedString": "婆婆她……"
+      },
+      "TextureContent": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "AkOnEvent": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "GreetingCardList": [],
+      "NormalJumpRowName": "8",
+      "OptionType": "ECyCommunicationOptionType::None",
+      "TextContentList": [],
+      "EmojiList": [],
+      "TextureList": [],
+      "OptionalJumpRowNameArray": []
+    },
+    "8": {
+      "bIsPlayer": false,
+      "bNeedShowAvatar": true,
+      "FromId": 124,
+      "Avatar": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoleSkin/RoleProfile/T_Dynamic_RolePorfile_124.T_Dynamic_RolePorfile_124",
+        "SubPathString": ""
+      },
+      "Type": "ECyCommunicationThirdLevelType::Normal",
+      "ContentType": "ECyCommunicationContentType::Text",
+      "TextContent": {
+        "Namespace": "Kokona_124_Lv_3",
+        "Key": "Row8_TextContent_FromRoleId124",
+        "SourceString": "给我寄了一大筐的蔬菜！",
+        "LocalizedString": "给我寄了一大筐的蔬菜！"
+      },
+      "TextureContent": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "AkOnEvent": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "GreetingCardList": [],
+      "NormalJumpRowName": "9",
+      "OptionType": "ECyCommunicationOptionType::None",
+      "TextContentList": [],
+      "EmojiList": [],
+      "TextureList": [],
+      "OptionalJumpRowNameArray": []
+    },
+    "9": {
+      "bIsPlayer": false,
+      "bNeedShowAvatar": true,
+      "FromId": 124,
+      "Avatar": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoleSkin/RoleProfile/T_Dynamic_RolePorfile_124.T_Dynamic_RolePorfile_124",
+        "SubPathString": ""
+      },
+      "Type": "ECyCommunicationThirdLevelType::Normal",
+      "ContentType": "ECyCommunicationContentType::Text",
+      "TextContent": {
+        "Namespace": "Kokona_124_Lv_3",
+        "Key": "Row9_TextContent_FromRoleId124",
+        "SourceString": "救命！我被蔬菜包围了！",
+        "LocalizedString": "救命！我被蔬菜包围了！"
+      },
+      "TextureContent": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "AkOnEvent": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "GreetingCardList": [],
+      "NormalJumpRowName": "10",
+      "OptionType": "ECyCommunicationOptionType::None",
+      "TextContentList": [],
+      "EmojiList": [],
+      "TextureList": [],
+      "OptionalJumpRowNameArray": []
+    },
+    "10": {
+      "bIsPlayer": true,
+      "bNeedShowAvatar": false,
+      "FromId": 0,
+      "Avatar": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "Type": "ECyCommunicationThirdLevelType::PlayerOptions",
+      "ContentType": "ECyCommunicationContentType::None",
+      "TextContent": {
+        "CultureInvariantString": null
+      },
+      "TextureContent": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "AkOnEvent": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "GreetingCardList": [],
+      "NormalJumpRowName": "",
+      "OptionType": "ECyCommunicationOptionType::Text",
+      "TextContentList": [
+        {
           "Namespace": "Kokona_124_Lv_3",
-          "Key": "Row6-b_TextContent_FromRoleId124",
-          "SourceString": "你听我说！",
-          "LocalizedString": "你听我说！"
+          "Key": "Row10_PlayerOption1",
+          "SourceString": "我还以为是什么事呢……",
+          "LocalizedString": "我还以为是什么事呢……"
         },
-        "TextureContent": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "AkOnEvent": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "GreetingCardList": [],
-        "NormalJumpRowName": "7",
-        "OptionType": "ECyCommunicationOptionType::None",
-        "TextContentList": [],
-        "EmojiList": [],
-        "TextureList": [],
-        "OptionalJumpRowNameArray": []
-      },
-      "7": {
-        "bIsPlayer": false,
-        "bNeedShowAvatar": true,
-        "FromId": 124,
-        "Avatar": {
-          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoleSkin/RoleProfile/T_Dynamic_RolePorfile_124.T_Dynamic_RolePorfile_124",
-          "SubPathString": ""
-        },
-        "Type": "ECyCommunicationThirdLevelType::Normal",
-        "ContentType": "ECyCommunicationContentType::Text",
-        "TextContent": {
+        {
           "Namespace": "Kokona_124_Lv_3",
-          "Key": "Row7_TextContent_FromRoleId124",
-          "SourceString": "婆婆她……",
-          "LocalizedString": "婆婆她……"
-        },
-        "TextureContent": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "AkOnEvent": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "GreetingCardList": [],
-        "NormalJumpRowName": "8",
-        "OptionType": "ECyCommunicationOptionType::None",
-        "TextContentList": [],
-        "EmojiList": [],
-        "TextureList": [],
-        "OptionalJumpRowNameArray": []
+          "Key": "Row10_PlayerOption2",
+          "SourceString": "原来如此，你可要好好谢谢婆婆。",
+          "LocalizedString": "原来如此，你可要好好谢谢婆婆。"
+        }
+      ],
+      "EmojiList": [],
+      "TextureList": [],
+      "OptionalJumpRowNameArray": [
+        "11-a",
+        "12-b"
+      ]
+    },
+    "11-a": {
+      "bIsPlayer": false,
+      "bNeedShowAvatar": true,
+      "FromId": 124,
+      "Avatar": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoleSkin/RoleProfile/T_Dynamic_RolePorfile_124.T_Dynamic_RolePorfile_124",
+        "SubPathString": ""
       },
-      "8": {
-        "bIsPlayer": false,
-        "bNeedShowAvatar": true,
-        "FromId": 124,
-        "Avatar": {
-          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoleSkin/RoleProfile/T_Dynamic_RolePorfile_124.T_Dynamic_RolePorfile_124",
-          "SubPathString": ""
-        },
-        "Type": "ECyCommunicationThirdLevelType::Normal",
-        "ContentType": "ECyCommunicationContentType::Text",
-        "TextContent": {
+      "Type": "ECyCommunicationThirdLevelType::Normal",
+      "ContentType": "ECyCommunicationContentType::Text",
+      "TextContent": {
+        "Namespace": "Kokona_124_Lv_3",
+        "Key": "Row11-a_TextContent_FromRoleId124",
+        "SourceString": "你别说的那么轻松。",
+        "LocalizedString": "你别说的那么轻松。"
+      },
+      "TextureContent": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "AkOnEvent": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "GreetingCardList": [],
+      "NormalJumpRowName": "13",
+      "OptionType": "ECyCommunicationOptionType::None",
+      "TextContentList": [],
+      "EmojiList": [],
+      "TextureList": [],
+      "OptionalJumpRowNameArray": []
+    },
+    "12-b": {
+      "bIsPlayer": false,
+      "bNeedShowAvatar": true,
+      "FromId": 124,
+      "Avatar": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoleSkin/RoleProfile/T_Dynamic_RolePorfile_124.T_Dynamic_RolePorfile_124",
+        "SubPathString": ""
+      },
+      "Type": "ECyCommunicationThirdLevelType::Normal",
+      "ContentType": "ECyCommunicationContentType::Text",
+      "TextContent": {
+        "Namespace": "Kokona_124_Lv_3",
+        "Key": "Row12-b_TextContent_FromRoleId124",
+        "SourceString": "我会的，真的会谢！",
+        "LocalizedString": "我会的，真的会谢！"
+      },
+      "TextureContent": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "AkOnEvent": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "GreetingCardList": [],
+      "NormalJumpRowName": "13",
+      "OptionType": "ECyCommunicationOptionType::None",
+      "TextContentList": [],
+      "EmojiList": [],
+      "TextureList": [],
+      "OptionalJumpRowNameArray": []
+    },
+    "13": {
+      "bIsPlayer": false,
+      "bNeedShowAvatar": true,
+      "FromId": 124,
+      "Avatar": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoleSkin/RoleProfile/T_Dynamic_RolePorfile_124.T_Dynamic_RolePorfile_124",
+        "SubPathString": ""
+      },
+      "Type": "ECyCommunicationThirdLevelType::Normal",
+      "ContentType": "ECyCommunicationContentType::Texture",
+      "TextContent": {
+        "CultureInvariantString": null
+      },
+      "TextureContent": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Emote/T_Dynamic_Emote_60001006.T_Dynamic_Emote_60001006",
+        "SubPathString": ""
+      },
+      "AkOnEvent": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "GreetingCardList": [],
+      "NormalJumpRowName": "14",
+      "OptionType": "ECyCommunicationOptionType::None",
+      "TextContentList": [],
+      "EmojiList": [],
+      "TextureList": [],
+      "OptionalJumpRowNameArray": []
+    },
+    "14": {
+      "bIsPlayer": false,
+      "bNeedShowAvatar": true,
+      "FromId": 124,
+      "Avatar": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoleSkin/RoleProfile/T_Dynamic_RolePorfile_124.T_Dynamic_RolePorfile_124",
+        "SubPathString": ""
+      },
+      "Type": "ECyCommunicationThirdLevelType::Normal",
+      "ContentType": "ECyCommunicationContentType::Text",
+      "TextContent": {
+        "Namespace": "Kokona_124_Lv_3",
+        "Key": "Row14_TextContent_FromRoleId124",
+        "SourceString": "唉，我也不是不理解婆婆的好心。",
+        "LocalizedString": "唉，我也不是不理解婆婆的好心。"
+      },
+      "TextureContent": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "AkOnEvent": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "GreetingCardList": [],
+      "NormalJumpRowName": "15",
+      "OptionType": "ECyCommunicationOptionType::None",
+      "TextContentList": [],
+      "EmojiList": [],
+      "TextureList": [],
+      "OptionalJumpRowNameArray": []
+    },
+    "15": {
+      "bIsPlayer": false,
+      "bNeedShowAvatar": true,
+      "FromId": 124,
+      "Avatar": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoleSkin/RoleProfile/T_Dynamic_RolePorfile_124.T_Dynamic_RolePorfile_124",
+        "SubPathString": ""
+      },
+      "Type": "ECyCommunicationThirdLevelType::Normal",
+      "ContentType": "ECyCommunicationContentType::Text",
+      "TextContent": {
+        "Namespace": "Kokona_124_Lv_3",
+        "Key": "Row15_TextContent_FromRoleId124",
+        "SourceString": "不过婆婆给的菜也太多了，我一个人根本吃不完。",
+        "LocalizedString": "不过婆婆给的菜也太多了，我一个人根本吃不完。"
+      },
+      "TextureContent": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "AkOnEvent": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "GreetingCardList": [],
+      "NormalJumpRowName": "16",
+      "OptionType": "ECyCommunicationOptionType::None",
+      "TextContentList": [],
+      "EmojiList": [],
+      "TextureList": [],
+      "OptionalJumpRowNameArray": []
+    },
+    "16": {
+      "bIsPlayer": false,
+      "bNeedShowAvatar": true,
+      "FromId": 124,
+      "Avatar": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoleSkin/RoleProfile/T_Dynamic_RolePorfile_124.T_Dynamic_RolePorfile_124",
+        "SubPathString": ""
+      },
+      "Type": "ECyCommunicationThirdLevelType::Normal",
+      "ContentType": "ECyCommunicationContentType::Text",
+      "TextContent": {
+        "Namespace": "Kokona_124_Lv_3",
+        "Key": "Row16_TextContent_FromRoleId124",
+        "SourceString": "引航者，你就帮我想想办法吧！",
+        "LocalizedString": "引航者，你就帮我想想办法吧！"
+      },
+      "TextureContent": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "AkOnEvent": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "GreetingCardList": [],
+      "NormalJumpRowName": "17",
+      "OptionType": "ECyCommunicationOptionType::None",
+      "TextContentList": [],
+      "EmojiList": [],
+      "TextureList": [],
+      "OptionalJumpRowNameArray": []
+    },
+    "17": {
+      "bIsPlayer": true,
+      "bNeedShowAvatar": false,
+      "FromId": 0,
+      "Avatar": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "Type": "ECyCommunicationThirdLevelType::PlayerOptions",
+      "ContentType": "ECyCommunicationContentType::None",
+      "TextContent": {
+        "CultureInvariantString": null
+      },
+      "TextureContent": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "AkOnEvent": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "GreetingCardList": [],
+      "NormalJumpRowName": "",
+      "OptionType": "ECyCommunicationOptionType::Text",
+      "TextContentList": [
+        {
           "Namespace": "Kokona_124_Lv_3",
-          "Key": "Row8_TextContent_FromRoleId124",
-          "SourceString": "给我寄了一大筐的蔬菜！",
-          "LocalizedString": "给我寄了一大筐的蔬菜！"
+          "Key": "Row17_PlayerOption1",
+          "SourceString": "不如和大家一起分享？",
+          "LocalizedString": "不如和大家一起分享？"
         },
-        "TextureContent": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "AkOnEvent": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "GreetingCardList": [],
-        "NormalJumpRowName": "9",
-        "OptionType": "ECyCommunicationOptionType::None",
-        "TextContentList": [],
-        "EmojiList": [],
-        "TextureList": [],
-        "OptionalJumpRowNameArray": []
-      },
-      "9": {
-        "bIsPlayer": false,
-        "bNeedShowAvatar": true,
-        "FromId": 124,
-        "Avatar": {
-          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoleSkin/RoleProfile/T_Dynamic_RolePorfile_124.T_Dynamic_RolePorfile_124",
-          "SubPathString": ""
-        },
-        "Type": "ECyCommunicationThirdLevelType::Normal",
-        "ContentType": "ECyCommunicationContentType::Text",
-        "TextContent": {
+        {
           "Namespace": "Kokona_124_Lv_3",
-          "Key": "Row9_TextContent_FromRoleId124",
-          "SourceString": "救命！我被蔬菜包围了！",
-          "LocalizedString": "救命！我被蔬菜包围了！"
-        },
-        "TextureContent": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "AkOnEvent": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "GreetingCardList": [],
-        "NormalJumpRowName": "10",
-        "OptionType": "ECyCommunicationOptionType::None",
-        "TextContentList": [],
-        "EmojiList": [],
-        "TextureList": [],
-        "OptionalJumpRowNameArray": []
+          "Key": "Row17_PlayerOption2",
+          "SourceString": "我好像突然想吃点蔬菜了。",
+          "LocalizedString": "我好像突然想吃点蔬菜了。"
+        }
+      ],
+      "EmojiList": [],
+      "TextureList": [],
+      "OptionalJumpRowNameArray": [
+        "18-a",
+        "19-b"
+      ]
+    },
+    "18-a": {
+      "bIsPlayer": false,
+      "bNeedShowAvatar": true,
+      "FromId": 124,
+      "Avatar": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoleSkin/RoleProfile/T_Dynamic_RolePorfile_124.T_Dynamic_RolePorfile_124",
+        "SubPathString": ""
       },
-      "10": {
-        "bIsPlayer": true,
-        "bNeedShowAvatar": false,
-        "FromId": 0,
-        "Avatar": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "Type": "ECyCommunicationThirdLevelType::PlayerOptions",
-        "ContentType": "ECyCommunicationContentType::None",
-        "TextContent": {
-          "CultureInvariantString": null
-        },
-        "TextureContent": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "AkOnEvent": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "GreetingCardList": [],
-        "NormalJumpRowName": "",
-        "OptionType": "ECyCommunicationOptionType::Text",
-        "TextContentList": [
-          {
-            "Namespace": "Kokona_124_Lv_3",
-            "Key": "Row10_PlayerOption1",
-            "SourceString": "我还以为是什么事呢……",
-            "LocalizedString": "我还以为是什么事呢……"
-          },
-          {
-            "Namespace": "Kokona_124_Lv_3",
-            "Key": "Row10_PlayerOption2",
-            "SourceString": "原来如此，你可要好好谢谢婆婆。",
-            "LocalizedString": "原来如此，你可要好好谢谢婆婆。"
-          }
-        ],
-        "EmojiList": [],
-        "TextureList": [],
-        "OptionalJumpRowNameArray": [
-          "11-a",
-          "12-b"
-        ]
+      "Type": "ECyCommunicationThirdLevelType::Normal",
+      "ContentType": "ECyCommunicationContentType::Text",
+      "TextContent": {
+        "Namespace": "Kokona_124_Lv_3",
+        "Key": "Row18-a_TextContent_FromRoleId124",
+        "SourceString": "嗯，有道理。",
+        "LocalizedString": "嗯，有道理。"
       },
-      "11-a": {
-        "bIsPlayer": false,
-        "bNeedShowAvatar": true,
-        "FromId": 124,
-        "Avatar": {
-          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoleSkin/RoleProfile/T_Dynamic_RolePorfile_124.T_Dynamic_RolePorfile_124",
-          "SubPathString": ""
-        },
-        "Type": "ECyCommunicationThirdLevelType::Normal",
-        "ContentType": "ECyCommunicationContentType::Text",
-        "TextContent": {
-          "Namespace": "Kokona_124_Lv_3",
-          "Key": "Row11-a_TextContent_FromRoleId124",
-          "SourceString": "你别说的那么轻松。",
-          "LocalizedString": "你别说的那么轻松。"
-        },
-        "TextureContent": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "AkOnEvent": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "GreetingCardList": [],
-        "NormalJumpRowName": "13",
-        "OptionType": "ECyCommunicationOptionType::None",
-        "TextContentList": [],
-        "EmojiList": [],
-        "TextureList": [],
-        "OptionalJumpRowNameArray": []
+      "TextureContent": {
+        "AssetPathName": "None",
+        "SubPathString": ""
       },
-      "12-b": {
-        "bIsPlayer": false,
-        "bNeedShowAvatar": true,
-        "FromId": 124,
-        "Avatar": {
-          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoleSkin/RoleProfile/T_Dynamic_RolePorfile_124.T_Dynamic_RolePorfile_124",
-          "SubPathString": ""
-        },
-        "Type": "ECyCommunicationThirdLevelType::Normal",
-        "ContentType": "ECyCommunicationContentType::Text",
-        "TextContent": {
-          "Namespace": "Kokona_124_Lv_3",
-          "Key": "Row12-b_TextContent_FromRoleId124",
-          "SourceString": "我会的，真的会谢！",
-          "LocalizedString": "我会的，真的会谢！"
-        },
-        "TextureContent": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "AkOnEvent": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "GreetingCardList": [],
-        "NormalJumpRowName": "13",
-        "OptionType": "ECyCommunicationOptionType::None",
-        "TextContentList": [],
-        "EmojiList": [],
-        "TextureList": [],
-        "OptionalJumpRowNameArray": []
+      "AkOnEvent": {
+        "AssetPathName": "None",
+        "SubPathString": ""
       },
-      "13": {
-        "bIsPlayer": false,
-        "bNeedShowAvatar": true,
-        "FromId": 124,
-        "Avatar": {
-          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoleSkin/RoleProfile/T_Dynamic_RolePorfile_124.T_Dynamic_RolePorfile_124",
-          "SubPathString": ""
-        },
-        "Type": "ECyCommunicationThirdLevelType::Normal",
-        "ContentType": "ECyCommunicationContentType::Texture",
-        "TextContent": {
-          "CultureInvariantString": null
-        },
-        "TextureContent": {
-          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Emote/T_Dynamic_Emote_60001006.T_Dynamic_Emote_60001006",
-          "SubPathString": ""
-        },
-        "AkOnEvent": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "GreetingCardList": [],
-        "NormalJumpRowName": "14",
-        "OptionType": "ECyCommunicationOptionType::None",
-        "TextContentList": [],
-        "EmojiList": [],
-        "TextureList": [],
-        "OptionalJumpRowNameArray": []
+      "GreetingCardList": [],
+      "NormalJumpRowName": "20",
+      "OptionType": "ECyCommunicationOptionType::None",
+      "TextContentList": [],
+      "EmojiList": [],
+      "TextureList": [],
+      "OptionalJumpRowNameArray": []
+    },
+    "19-b": {
+      "bIsPlayer": false,
+      "bNeedShowAvatar": true,
+      "FromId": 124,
+      "Avatar": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoleSkin/RoleProfile/T_Dynamic_RolePorfile_124.T_Dynamic_RolePorfile_124",
+        "SubPathString": ""
       },
-      "14": {
-        "bIsPlayer": false,
-        "bNeedShowAvatar": true,
-        "FromId": 124,
-        "Avatar": {
-          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoleSkin/RoleProfile/T_Dynamic_RolePorfile_124.T_Dynamic_RolePorfile_124",
-          "SubPathString": ""
-        },
-        "Type": "ECyCommunicationThirdLevelType::Normal",
-        "ContentType": "ECyCommunicationContentType::Text",
-        "TextContent": {
-          "Namespace": "Kokona_124_Lv_3",
-          "Key": "Row14_TextContent_FromRoleId124",
-          "SourceString": "唉，我也不是不理解婆婆的好心。",
-          "LocalizedString": "唉，我也不是不理解婆婆的好心。"
-        },
-        "TextureContent": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "AkOnEvent": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "GreetingCardList": [],
-        "NormalJumpRowName": "15",
-        "OptionType": "ECyCommunicationOptionType::None",
-        "TextContentList": [],
-        "EmojiList": [],
-        "TextureList": [],
-        "OptionalJumpRowNameArray": []
+      "Type": "ECyCommunicationThirdLevelType::Normal",
+      "ContentType": "ECyCommunicationContentType::Text",
+      "TextContent": {
+        "Namespace": "Kokona_124_Lv_3",
+        "Key": "Row19-b_TextContent_FromRoleId124",
+        "SourceString": "嘿嘿，就等你这句话了！",
+        "LocalizedString": "嘿嘿，就等你这句话了！"
       },
-      "15": {
-        "bIsPlayer": false,
-        "bNeedShowAvatar": true,
-        "FromId": 124,
-        "Avatar": {
-          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoleSkin/RoleProfile/T_Dynamic_RolePorfile_124.T_Dynamic_RolePorfile_124",
-          "SubPathString": ""
-        },
-        "Type": "ECyCommunicationThirdLevelType::Normal",
-        "ContentType": "ECyCommunicationContentType::Text",
-        "TextContent": {
-          "Namespace": "Kokona_124_Lv_3",
-          "Key": "Row15_TextContent_FromRoleId124",
-          "SourceString": "不过婆婆给的菜也太多了，我一个人根本吃不完。",
-          "LocalizedString": "不过婆婆给的菜也太多了，我一个人根本吃不完。"
-        },
-        "TextureContent": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "AkOnEvent": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "GreetingCardList": [],
-        "NormalJumpRowName": "16",
-        "OptionType": "ECyCommunicationOptionType::None",
-        "TextContentList": [],
-        "EmojiList": [],
-        "TextureList": [],
-        "OptionalJumpRowNameArray": []
+      "TextureContent": {
+        "AssetPathName": "None",
+        "SubPathString": ""
       },
-      "16": {
-        "bIsPlayer": false,
-        "bNeedShowAvatar": true,
-        "FromId": 124,
-        "Avatar": {
-          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoleSkin/RoleProfile/T_Dynamic_RolePorfile_124.T_Dynamic_RolePorfile_124",
-          "SubPathString": ""
-        },
-        "Type": "ECyCommunicationThirdLevelType::Normal",
-        "ContentType": "ECyCommunicationContentType::Text",
-        "TextContent": {
-          "Namespace": "Kokona_124_Lv_3",
-          "Key": "Row16_TextContent_FromRoleId124",
-          "SourceString": "引航者，你就帮我想想办法吧！",
-          "LocalizedString": "引航者，你就帮我想想办法吧！"
-        },
-        "TextureContent": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "AkOnEvent": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "GreetingCardList": [],
-        "NormalJumpRowName": "17",
-        "OptionType": "ECyCommunicationOptionType::None",
-        "TextContentList": [],
-        "EmojiList": [],
-        "TextureList": [],
-        "OptionalJumpRowNameArray": []
+      "AkOnEvent": {
+        "AssetPathName": "None",
+        "SubPathString": ""
       },
-      "17": {
-        "bIsPlayer": true,
-        "bNeedShowAvatar": false,
-        "FromId": 0,
-        "Avatar": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "Type": "ECyCommunicationThirdLevelType::PlayerOptions",
-        "ContentType": "ECyCommunicationContentType::None",
-        "TextContent": {
-          "CultureInvariantString": null
-        },
-        "TextureContent": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "AkOnEvent": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "GreetingCardList": [],
-        "NormalJumpRowName": "",
-        "OptionType": "ECyCommunicationOptionType::Text",
-        "TextContentList": [
-          {
-            "Namespace": "Kokona_124_Lv_3",
-            "Key": "Row17_PlayerOption1",
-            "SourceString": "不如和大家一起分享？",
-            "LocalizedString": "不如和大家一起分享？"
-          },
-          {
-            "Namespace": "Kokona_124_Lv_3",
-            "Key": "Row17_PlayerOption2",
-            "SourceString": "我好像突然想吃点蔬菜了。",
-            "LocalizedString": "我好像突然想吃点蔬菜了。"
-          }
-        ],
-        "EmojiList": [],
-        "TextureList": [],
-        "OptionalJumpRowNameArray": [
-          "18-a",
-          "19-b"
-        ]
+      "GreetingCardList": [],
+      "NormalJumpRowName": "20",
+      "OptionType": "ECyCommunicationOptionType::None",
+      "TextContentList": [],
+      "EmojiList": [],
+      "TextureList": [],
+      "OptionalJumpRowNameArray": []
+    },
+    "20": {
+      "bIsPlayer": false,
+      "bNeedShowAvatar": true,
+      "FromId": 124,
+      "Avatar": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoleSkin/RoleProfile/T_Dynamic_RolePorfile_124.T_Dynamic_RolePorfile_124",
+        "SubPathString": ""
       },
-      "18-a": {
-        "bIsPlayer": false,
-        "bNeedShowAvatar": true,
-        "FromId": 124,
-        "Avatar": {
-          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoleSkin/RoleProfile/T_Dynamic_RolePorfile_124.T_Dynamic_RolePorfile_124",
-          "SubPathString": ""
-        },
-        "Type": "ECyCommunicationThirdLevelType::Normal",
-        "ContentType": "ECyCommunicationContentType::Text",
-        "TextContent": {
-          "Namespace": "Kokona_124_Lv_3",
-          "Key": "Row18-a_TextContent_FromRoleId124",
-          "SourceString": "嗯，有道理。",
-          "LocalizedString": "嗯，有道理。"
-        },
-        "TextureContent": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "AkOnEvent": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "GreetingCardList": [],
-        "NormalJumpRowName": "20",
-        "OptionType": "ECyCommunicationOptionType::None",
-        "TextContentList": [],
-        "EmojiList": [],
-        "TextureList": [],
-        "OptionalJumpRowNameArray": []
+      "Type": "ECyCommunicationThirdLevelType::Normal",
+      "ContentType": "ECyCommunicationContentType::Text",
+      "TextContent": {
+        "Namespace": "Kokona_124_Lv_3",
+        "Key": "Row20_TextContent_FromRoleId124",
+        "SourceString": "既然这样，干脆就把搜查队的大家都叫上吧！",
+        "LocalizedString": "既然这样，干脆就把搜查队的大家都叫上吧！"
       },
-      "19-b": {
-        "bIsPlayer": false,
-        "bNeedShowAvatar": true,
-        "FromId": 124,
-        "Avatar": {
-          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoleSkin/RoleProfile/T_Dynamic_RolePorfile_124.T_Dynamic_RolePorfile_124",
-          "SubPathString": ""
-        },
-        "Type": "ECyCommunicationThirdLevelType::Normal",
-        "ContentType": "ECyCommunicationContentType::Text",
-        "TextContent": {
-          "Namespace": "Kokona_124_Lv_3",
-          "Key": "Row19-b_TextContent_FromRoleId124",
-          "SourceString": "嘿嘿，就等你这句话了！",
-          "LocalizedString": "嘿嘿，就等你这句话了！"
-        },
-        "TextureContent": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "AkOnEvent": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "GreetingCardList": [],
-        "NormalJumpRowName": "20",
-        "OptionType": "ECyCommunicationOptionType::None",
-        "TextContentList": [],
-        "EmojiList": [],
-        "TextureList": [],
-        "OptionalJumpRowNameArray": []
+      "TextureContent": {
+        "AssetPathName": "None",
+        "SubPathString": ""
       },
-      "20": {
-        "bIsPlayer": false,
-        "bNeedShowAvatar": true,
-        "FromId": 124,
-        "Avatar": {
-          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoleSkin/RoleProfile/T_Dynamic_RolePorfile_124.T_Dynamic_RolePorfile_124",
-          "SubPathString": ""
-        },
-        "Type": "ECyCommunicationThirdLevelType::Normal",
-        "ContentType": "ECyCommunicationContentType::Text",
-        "TextContent": {
-          "Namespace": "Kokona_124_Lv_3",
-          "Key": "Row20_TextContent_FromRoleId124",
-          "SourceString": "既然这样，干脆就把搜查队的大家都叫上吧！",
-          "LocalizedString": "既然这样，干脆就把搜查队的大家都叫上吧！"
-        },
-        "TextureContent": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "AkOnEvent": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "GreetingCardList": [],
-        "NormalJumpRowName": "21",
-        "OptionType": "ECyCommunicationOptionType::None",
-        "TextContentList": [],
-        "EmojiList": [],
-        "TextureList": [],
-        "OptionalJumpRowNameArray": []
+      "AkOnEvent": {
+        "AssetPathName": "None",
+        "SubPathString": ""
       },
-      "21": {
-        "bIsPlayer": false,
-        "bNeedShowAvatar": true,
-        "FromId": 124,
-        "Avatar": {
-          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoleSkin/RoleProfile/T_Dynamic_RolePorfile_124.T_Dynamic_RolePorfile_124",
-          "SubPathString": ""
-        },
-        "Type": "ECyCommunicationThirdLevelType::Normal",
-        "ContentType": "ECyCommunicationContentType::Text",
-        "TextContent": {
-          "Namespace": "Kokona_124_Lv_3",
-          "Key": "Row21_TextContent_FromRoleId124",
-          "SourceString": "一起来我家开火锅大会！",
-          "LocalizedString": "一起来我家开火锅大会！"
-        },
-        "TextureContent": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "AkOnEvent": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "GreetingCardList": [],
-        "NormalJumpRowName": "22",
-        "OptionType": "ECyCommunicationOptionType::None",
-        "TextContentList": [],
-        "EmojiList": [],
-        "TextureList": [],
-        "OptionalJumpRowNameArray": []
+      "GreetingCardList": [],
+      "NormalJumpRowName": "21",
+      "OptionType": "ECyCommunicationOptionType::None",
+      "TextContentList": [],
+      "EmojiList": [],
+      "TextureList": [],
+      "OptionalJumpRowNameArray": []
+    },
+    "21": {
+      "bIsPlayer": false,
+      "bNeedShowAvatar": true,
+      "FromId": 124,
+      "Avatar": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoleSkin/RoleProfile/T_Dynamic_RolePorfile_124.T_Dynamic_RolePorfile_124",
+        "SubPathString": ""
       },
-      "22": {
-        "bIsPlayer": false,
-        "bNeedShowAvatar": true,
-        "FromId": 124,
-        "Avatar": {
-          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoleSkin/RoleProfile/T_Dynamic_RolePorfile_124.T_Dynamic_RolePorfile_124",
-          "SubPathString": ""
-        },
-        "Type": "ECyCommunicationThirdLevelType::Normal",
-        "ContentType": "ECyCommunicationContentType::Texture",
-        "TextContent": {
-          "CultureInvariantString": null
-        },
-        "TextureContent": {
-          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Emote/T_Dynamic_Emote_60001008.T_Dynamic_Emote_60001008",
-          "SubPathString": ""
-        },
-        "AkOnEvent": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "GreetingCardList": [],
-        "NormalJumpRowName": "23",
-        "OptionType": "ECyCommunicationOptionType::None",
-        "TextContentList": [],
-        "EmojiList": [],
-        "TextureList": [],
-        "OptionalJumpRowNameArray": []
+      "Type": "ECyCommunicationThirdLevelType::Normal",
+      "ContentType": "ECyCommunicationContentType::Text",
+      "TextContent": {
+        "Namespace": "Kokona_124_Lv_3",
+        "Key": "Row21_TextContent_FromRoleId124",
+        "SourceString": "一起来我家开火锅大会！",
+        "LocalizedString": "一起来我家开火锅大会！"
       },
-      "23": {
-        "bIsPlayer": false,
-        "bNeedShowAvatar": true,
-        "FromId": 124,
-        "Avatar": {
-          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoleSkin/RoleProfile/T_Dynamic_RolePorfile_124.T_Dynamic_RolePorfile_124",
-          "SubPathString": ""
-        },
-        "Type": "ECyCommunicationThirdLevelType::Normal",
-        "ContentType": "ECyCommunicationContentType::Text",
-        "TextContent": {
-          "Namespace": "Kokona_124_Lv_3",
-          "Key": "Row23_TextContent_FromRoleId124",
-          "SourceString": "大家都带上自己想吃的食材来吧。",
-          "LocalizedString": "大家都带上自己想吃的食材来吧。"
-        },
-        "TextureContent": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "AkOnEvent": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "GreetingCardList": [],
-        "NormalJumpRowName": "24",
-        "OptionType": "ECyCommunicationOptionType::None",
-        "TextContentList": [],
-        "EmojiList": [],
-        "TextureList": [],
-        "OptionalJumpRowNameArray": []
+      "TextureContent": {
+        "AssetPathName": "None",
+        "SubPathString": ""
       },
-      "24": {
-        "bIsPlayer": false,
-        "bNeedShowAvatar": true,
-        "FromId": 124,
-        "Avatar": {
-          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoleSkin/RoleProfile/T_Dynamic_RolePorfile_124.T_Dynamic_RolePorfile_124",
-          "SubPathString": ""
-        },
-        "Type": "ECyCommunicationThirdLevelType::Normal",
-        "ContentType": "ECyCommunicationContentType::Text",
-        "TextContent": {
-          "Namespace": "Kokona_124_Lv_3",
-          "Key": "Row24_TextContent_FromRoleId124",
-          "SourceString": "啊，对了，蔬菜可不用带了！",
-          "LocalizedString": "啊，对了，蔬菜可不用带了！"
-        },
-        "TextureContent": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "AkOnEvent": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "GreetingCardList": [],
-        "NormalJumpRowName": "End",
-        "OptionType": "ECyCommunicationOptionType::None",
-        "TextContentList": [],
-        "EmojiList": [],
-        "TextureList": [],
-        "OptionalJumpRowNameArray": []
+      "AkOnEvent": {
+        "AssetPathName": "None",
+        "SubPathString": ""
       },
-      "End": {
-        "bIsPlayer": false,
-        "bNeedShowAvatar": false,
-        "FromId": 0,
-        "Avatar": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "Type": "ECyCommunicationThirdLevelType::End",
-        "ContentType": "ECyCommunicationContentType::None",
-        "TextContent": {
-          "CultureInvariantString": null
-        },
-        "TextureContent": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "AkOnEvent": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "GreetingCardList": [],
-        "NormalJumpRowName": "",
-        "OptionType": "ECyCommunicationOptionType::None",
-        "TextContentList": [],
-        "EmojiList": [],
-        "TextureList": [],
-        "OptionalJumpRowNameArray": []
-      }
+      "GreetingCardList": [],
+      "NormalJumpRowName": "22",
+      "OptionType": "ECyCommunicationOptionType::None",
+      "TextContentList": [],
+      "EmojiList": [],
+      "TextureList": [],
+      "OptionalJumpRowNameArray": []
+    },
+    "22": {
+      "bIsPlayer": false,
+      "bNeedShowAvatar": true,
+      "FromId": 124,
+      "Avatar": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoleSkin/RoleProfile/T_Dynamic_RolePorfile_124.T_Dynamic_RolePorfile_124",
+        "SubPathString": ""
+      },
+      "Type": "ECyCommunicationThirdLevelType::Normal",
+      "ContentType": "ECyCommunicationContentType::Texture",
+      "TextContent": {
+        "CultureInvariantString": null
+      },
+      "TextureContent": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Emote/T_Dynamic_Emote_60001008.T_Dynamic_Emote_60001008",
+        "SubPathString": ""
+      },
+      "AkOnEvent": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "GreetingCardList": [],
+      "NormalJumpRowName": "23",
+      "OptionType": "ECyCommunicationOptionType::None",
+      "TextContentList": [],
+      "EmojiList": [],
+      "TextureList": [],
+      "OptionalJumpRowNameArray": []
+    },
+    "23": {
+      "bIsPlayer": false,
+      "bNeedShowAvatar": true,
+      "FromId": 124,
+      "Avatar": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoleSkin/RoleProfile/T_Dynamic_RolePorfile_124.T_Dynamic_RolePorfile_124",
+        "SubPathString": ""
+      },
+      "Type": "ECyCommunicationThirdLevelType::Normal",
+      "ContentType": "ECyCommunicationContentType::Text",
+      "TextContent": {
+        "Namespace": "Kokona_124_Lv_3",
+        "Key": "Row23_TextContent_FromRoleId124",
+        "SourceString": "大家都带上自己想吃的食材来吧。",
+        "LocalizedString": "大家都带上自己想吃的食材来吧。"
+      },
+      "TextureContent": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "AkOnEvent": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "GreetingCardList": [],
+      "NormalJumpRowName": "24",
+      "OptionType": "ECyCommunicationOptionType::None",
+      "TextContentList": [],
+      "EmojiList": [],
+      "TextureList": [],
+      "OptionalJumpRowNameArray": []
+    },
+    "24": {
+      "bIsPlayer": false,
+      "bNeedShowAvatar": true,
+      "FromId": 124,
+      "Avatar": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoleSkin/RoleProfile/T_Dynamic_RolePorfile_124.T_Dynamic_RolePorfile_124",
+        "SubPathString": ""
+      },
+      "Type": "ECyCommunicationThirdLevelType::Normal",
+      "ContentType": "ECyCommunicationContentType::Text",
+      "TextContent": {
+        "Namespace": "Kokona_124_Lv_3",
+        "Key": "Row24_TextContent_FromRoleId124",
+        "SourceString": "啊，对了，蔬菜可不用带了！",
+        "LocalizedString": "啊，对了，蔬菜可不用带了！"
+      },
+      "TextureContent": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "AkOnEvent": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "GreetingCardList": [],
+      "NormalJumpRowName": "End",
+      "OptionType": "ECyCommunicationOptionType::None",
+      "TextContentList": [],
+      "EmojiList": [],
+      "TextureList": [],
+      "OptionalJumpRowNameArray": []
+    },
+    "End": {
+      "bIsPlayer": false,
+      "bNeedShowAvatar": false,
+      "FromId": 0,
+      "Avatar": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "Type": "ECyCommunicationThirdLevelType::End",
+      "ContentType": "ECyCommunicationContentType::None",
+      "TextContent": {
+        "CultureInvariantString": null
+      },
+      "TextureContent": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "AkOnEvent": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "GreetingCardList": [],
+      "NormalJumpRowName": "",
+      "OptionType": "ECyCommunicationOptionType::None",
+      "TextContentList": [],
+      "EmojiList": [],
+      "TextureList": [],
+      "OptionalJumpRowNameArray": []
     }
   }
-]
+}

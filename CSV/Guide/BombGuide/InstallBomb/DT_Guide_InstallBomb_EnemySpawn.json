@@ -1,464 +1,462 @@
-[
-  {
-    "Type": "DataTable",
-    "Name": "DT_Guide_InstallBomb_EnemySpawn",
-    "Class": "UScriptClass'DataTable'",
-    "Properties": {
-      "RowStruct": {
-        "ObjectName": "ScriptStruct'CyGuideEnemySpawnConfig'",
-        "ObjectPath": "/Script/PMGame"
-      }
+{
+  "Type": "DataTable",
+  "Name": "DT_Guide_InstallBomb_EnemySpawn",
+  "Class": "UScriptClass'DataTable'",
+  "Properties": {
+    "RowStruct": {
+      "ObjectName": "ScriptStruct'CyGuideEnemySpawnConfig'",
+      "ObjectPath": "/Script/PMGame"
+    }
+  },
+  "Rows": {
+    "1200": {
+      "Id": 1200,
+      "LifeTime": -1.0,
+      "bSpawnEffect": false,
+      "bEnableMove": false,
+      "bEnableAttack": true,
+      "bDeathOnOtherWaveStart": false,
+      "BeginSpawnEvents": [
+        {
+          "UniqueName": "2",
+          "EventGameplayTag": {
+            "TagName": "None"
+          },
+          "EventType": "ECyGuideEventType::Guide",
+          "WeaponEventType": "ECyGuideWeaponEventType::None",
+          "GuideStateType": "ECyGuideStateType::Begin",
+          "GuideTaskStateType": "ECyGuideTaskStateType::Begin",
+          "GuideSubTaskStateType": "ECyGuideSubTaskStateType::Finish",
+          "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
+          "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
+          "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
+          "SequenceStateType": "ECySequenceStateType::None",
+          "ActionType": "ECyGuideActionType::None",
+          "MeshModeType": "EMeshModeType::Normal",
+          "GameStateType": "EGStateType::None",
+          "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
+        }
+      ],
+      "EndSpawnEvents": [
+        {
+          "UniqueName": "6",
+          "EventGameplayTag": {
+            "TagName": "None"
+          },
+          "EventType": "ECyGuideEventType::GuideTask",
+          "WeaponEventType": "ECyGuideWeaponEventType::None",
+          "GuideStateType": "ECyGuideStateType::None",
+          "GuideTaskStateType": "ECyGuideTaskStateType::End",
+          "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
+          "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
+          "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
+          "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
+          "SequenceStateType": "ECySequenceStateType::None",
+          "ActionType": "ECyGuideActionType::None",
+          "MeshModeType": "EMeshModeType::Normal",
+          "GameStateType": "EGStateType::None",
+          "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
+        }
+      ],
+      "EnemyWaves": [
+        {
+          "LoopTimes": 0,
+          "WaveDelay": 1.0,
+          "SummonCount": 2,
+          "EveryTimeDelay": 0.1,
+          "EveryTimeCount": 1,
+          "SpawnPointTags": [
+            "2001",
+            "2002",
+            "2003",
+            "2004"
+          ]
+        }
+      ]
     },
-    "Rows": {
-      "1200": {
-        "Id": 1200,
-        "LifeTime": -1.0,
-        "bSpawnEffect": false,
-        "bEnableMove": false,
-        "bEnableAttack": true,
-        "bDeathOnOtherWaveStart": false,
-        "BeginSpawnEvents": [
-          {
-            "UniqueName": "2",
-            "EventGameplayTag": {
-              "TagName": "None"
-            },
-            "EventType": "ECyGuideEventType::Guide",
-            "WeaponEventType": "ECyGuideWeaponEventType::None",
-            "GuideStateType": "ECyGuideStateType::Begin",
-            "GuideTaskStateType": "ECyGuideTaskStateType::Begin",
-            "GuideSubTaskStateType": "ECyGuideSubTaskStateType::Finish",
-            "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
-            "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
-            "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
-            "SequenceStateType": "ECySequenceStateType::None",
-            "ActionType": "ECyGuideActionType::None",
-            "MeshModeType": "EMeshModeType::Normal",
-            "GameStateType": "EGStateType::None",
-            "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
-          }
-        ],
-        "EndSpawnEvents": [
-          {
-            "UniqueName": "6",
-            "EventGameplayTag": {
-              "TagName": "None"
-            },
-            "EventType": "ECyGuideEventType::GuideTask",
-            "WeaponEventType": "ECyGuideWeaponEventType::None",
-            "GuideStateType": "ECyGuideStateType::None",
-            "GuideTaskStateType": "ECyGuideTaskStateType::End",
-            "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
-            "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
-            "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
-            "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
-            "SequenceStateType": "ECySequenceStateType::None",
-            "ActionType": "ECyGuideActionType::None",
-            "MeshModeType": "EMeshModeType::Normal",
-            "GameStateType": "EGStateType::None",
-            "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
-          }
-        ],
-        "EnemyWaves": [
-          {
-            "LoopTimes": 0,
-            "WaveDelay": 1.0,
-            "SummonCount": 2,
-            "EveryTimeDelay": 0.1,
-            "EveryTimeCount": 1,
-            "SpawnPointTags": [
-              "2001",
-              "2002",
-              "2003",
-              "2004"
-            ]
-          }
-        ]
-      },
-      "1000": {
-        "Id": 1000,
-        "LifeTime": -1.0,
-        "bSpawnEffect": false,
-        "bEnableMove": true,
-        "bEnableAttack": true,
-        "bDeathOnOtherWaveStart": false,
-        "BeginSpawnEvents": [
-          {
-            "UniqueName": "5",
-            "EventGameplayTag": {
-              "TagName": "None"
-            },
-            "EventType": "ECyGuideEventType::GuideTask",
-            "WeaponEventType": "ECyGuideWeaponEventType::None",
-            "GuideStateType": "ECyGuideStateType::None",
-            "GuideTaskStateType": "ECyGuideTaskStateType::Begin",
-            "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
-            "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
-            "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
-            "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
-            "SequenceStateType": "ECySequenceStateType::None",
-            "ActionType": "ECyGuideActionType::None",
-            "MeshModeType": "EMeshModeType::Normal",
-            "GameStateType": "EGStateType::None",
-            "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
-          }
-        ],
-        "EndSpawnEvents": [
-          {
-            "UniqueName": "6",
-            "EventGameplayTag": {
-              "TagName": "None"
-            },
-            "EventType": "ECyGuideEventType::GuideTask",
-            "WeaponEventType": "ECyGuideWeaponEventType::None",
-            "GuideStateType": "ECyGuideStateType::None",
-            "GuideTaskStateType": "ECyGuideTaskStateType::End",
-            "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
-            "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
-            "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
-            "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
-            "SequenceStateType": "ECySequenceStateType::None",
-            "ActionType": "ECyGuideActionType::None",
-            "MeshModeType": "EMeshModeType::Normal",
-            "GameStateType": "EGStateType::None",
-            "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
-          }
-        ],
-        "EnemyWaves": [
-          {
-            "LoopTimes": 0,
-            "WaveDelay": 2.0,
-            "SummonCount": 2,
-            "EveryTimeDelay": 0.1,
-            "EveryTimeCount": 1,
-            "SpawnPointTags": [
-              "6001",
-              "6002"
-            ]
-          }
-        ]
-      },
-      "1100": {
-        "Id": 1100,
-        "LifeTime": -1.0,
-        "bSpawnEffect": false,
-        "bEnableMove": false,
-        "bEnableAttack": true,
-        "bDeathOnOtherWaveStart": true,
-        "BeginSpawnEvents": [
-          {
-            "UniqueName": "7",
-            "EventGameplayTag": {
-              "TagName": "None"
-            },
-            "EventType": "ECyGuideEventType::GuideTask",
-            "WeaponEventType": "ECyGuideWeaponEventType::None",
-            "GuideStateType": "ECyGuideStateType::None",
-            "GuideTaskStateType": "ECyGuideTaskStateType::Begin",
-            "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
-            "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
-            "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
-            "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
-            "SequenceStateType": "ECySequenceStateType::None",
-            "ActionType": "ECyGuideActionType::None",
-            "MeshModeType": "EMeshModeType::Normal",
-            "GameStateType": "EGStateType::None",
-            "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
-          }
-        ],
-        "EndSpawnEvents": [
-          {
-            "UniqueName": "9",
-            "EventGameplayTag": {
-              "TagName": "None"
-            },
-            "EventType": "ECyGuideEventType::GuideTask",
-            "WeaponEventType": "ECyGuideWeaponEventType::None",
-            "GuideStateType": "ECyGuideStateType::None",
-            "GuideTaskStateType": "ECyGuideTaskStateType::End",
-            "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
-            "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
-            "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
-            "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
-            "SequenceStateType": "ECySequenceStateType::None",
-            "ActionType": "ECyGuideActionType::None",
-            "MeshModeType": "EMeshModeType::Normal",
-            "GameStateType": "EGStateType::None",
-            "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
-          }
-        ],
-        "EnemyWaves": [
-          {
-            "LoopTimes": 0,
-            "WaveDelay": 1.0,
-            "SummonCount": 2,
-            "EveryTimeDelay": 0.1,
-            "EveryTimeCount": 1,
-            "SpawnPointTags": [
-              "7901",
-              "7902",
-              "7903",
-              "7904",
-              "7905"
-            ]
-          }
-        ]
-      },
-      "1300": {
-        "Id": 1300,
-        "LifeTime": -1.0,
-        "bSpawnEffect": false,
-        "bEnableMove": false,
-        "bEnableAttack": false,
-        "bDeathOnOtherWaveStart": true,
-        "BeginSpawnEvents": [
-          {
-            "UniqueName": "None",
-            "EventGameplayTag": {
-              "TagName": "None"
-            },
-            "EventType": "ECyGuideEventType::GuideTask",
-            "WeaponEventType": "ECyGuideWeaponEventType::None",
-            "GuideStateType": "ECyGuideStateType::None",
-            "GuideTaskStateType": "ECyGuideTaskStateType::Begin",
-            "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
-            "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
-            "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
-            "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
-            "SequenceStateType": "ECySequenceStateType::None",
-            "ActionType": "ECyGuideActionType::None",
-            "MeshModeType": "EMeshModeType::Normal",
-            "GameStateType": "EGStateType::None",
-            "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
-          }
-        ],
-        "EndSpawnEvents": [
-          {
-            "UniqueName": "None",
-            "EventGameplayTag": {
-              "TagName": "None"
-            },
-            "EventType": "ECyGuideEventType::GuideTask",
-            "WeaponEventType": "ECyGuideWeaponEventType::None",
-            "GuideStateType": "ECyGuideStateType::None",
-            "GuideTaskStateType": "ECyGuideTaskStateType::End",
-            "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
-            "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
-            "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
-            "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
-            "SequenceStateType": "ECySequenceStateType::None",
-            "ActionType": "ECyGuideActionType::None",
-            "MeshModeType": "EMeshModeType::Normal",
-            "GameStateType": "EGStateType::None",
-            "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
-          }
-        ],
-        "EnemyWaves": [
-          {
-            "LoopTimes": 0,
-            "WaveDelay": 0.0,
-            "SummonCount": 0,
-            "EveryTimeDelay": 0.1,
-            "EveryTimeCount": 1,
-            "SpawnPointTags": [
-              "9923",
-              "9924"
-            ]
-          }
-        ]
-      },
-      "1500": {
-        "Id": 1500,
-        "LifeTime": -1.0,
-        "bSpawnEffect": false,
-        "bEnableMove": false,
-        "bEnableAttack": true,
-        "bDeathOnOtherWaveStart": true,
-        "BeginSpawnEvents": [
-          {
-            "UniqueName": "14",
-            "EventGameplayTag": {
-              "TagName": "None"
-            },
-            "EventType": "ECyGuideEventType::GuideTask",
-            "WeaponEventType": "ECyGuideWeaponEventType::None",
-            "GuideStateType": "ECyGuideStateType::None",
-            "GuideTaskStateType": "ECyGuideTaskStateType::Begin",
-            "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
-            "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
-            "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
-            "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
-            "SequenceStateType": "ECySequenceStateType::None",
-            "ActionType": "ECyGuideActionType::None",
-            "MeshModeType": "EMeshModeType::Normal",
-            "GameStateType": "EGStateType::None",
-            "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
-          }
-        ],
-        "EndSpawnEvents": [
-          {
-            "UniqueName": "14",
-            "EventGameplayTag": {
-              "TagName": "None"
-            },
-            "EventType": "ECyGuideEventType::GuideTask",
-            "WeaponEventType": "ECyGuideWeaponEventType::None",
-            "GuideStateType": "ECyGuideStateType::None",
-            "GuideTaskStateType": "ECyGuideTaskStateType::End",
-            "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
-            "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
-            "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
-            "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
-            "SequenceStateType": "ECySequenceStateType::None",
-            "ActionType": "ECyGuideActionType::None",
-            "MeshModeType": "EMeshModeType::Normal",
-            "GameStateType": "EGStateType::None",
-            "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
-          }
-        ],
-        "EnemyWaves": [
-          {
-            "LoopTimes": 0,
-            "WaveDelay": 0.1,
-            "SummonCount": 2,
-            "EveryTimeDelay": 0.1,
-            "EveryTimeCount": 1,
-            "SpawnPointTags": [
-              "150001",
-              "150002"
-            ]
-          }
-        ]
-      },
-      "1600": {
-        "Id": 1600,
-        "LifeTime": -1.0,
-        "bSpawnEffect": false,
-        "bEnableMove": false,
-        "bEnableAttack": true,
-        "bDeathOnOtherWaveStart": true,
-        "BeginSpawnEvents": [
-          {
-            "UniqueName": "16",
-            "EventGameplayTag": {
-              "TagName": "None"
-            },
-            "EventType": "ECyGuideEventType::GuideTask",
-            "WeaponEventType": "ECyGuideWeaponEventType::None",
-            "GuideStateType": "ECyGuideStateType::None",
-            "GuideTaskStateType": "ECyGuideTaskStateType::Begin",
-            "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
-            "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
-            "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
-            "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
-            "SequenceStateType": "ECySequenceStateType::None",
-            "ActionType": "ECyGuideActionType::None",
-            "MeshModeType": "EMeshModeType::Normal",
-            "GameStateType": "EGStateType::None",
-            "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
-          }
-        ],
-        "EndSpawnEvents": [
-          {
-            "UniqueName": "16",
-            "EventGameplayTag": {
-              "TagName": "None"
-            },
-            "EventType": "ECyGuideEventType::GuideTask",
-            "WeaponEventType": "ECyGuideWeaponEventType::None",
-            "GuideStateType": "ECyGuideStateType::None",
-            "GuideTaskStateType": "ECyGuideTaskStateType::End",
-            "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
-            "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
-            "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
-            "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
-            "SequenceStateType": "ECySequenceStateType::None",
-            "ActionType": "ECyGuideActionType::None",
-            "MeshModeType": "EMeshModeType::Normal",
-            "GameStateType": "EGStateType::None",
-            "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
-          }
-        ],
-        "EnemyWaves": [
-          {
-            "LoopTimes": 0,
-            "WaveDelay": 0.1,
-            "SummonCount": 3,
-            "EveryTimeDelay": 0.1,
-            "EveryTimeCount": 1,
-            "SpawnPointTags": [
-              "160001",
-              "160002",
-              "75645"
-            ]
-          }
-        ]
-      },
-      "1700": {
-        "Id": 1700,
-        "LifeTime": -1.0,
-        "bSpawnEffect": false,
-        "bEnableMove": false,
-        "bEnableAttack": true,
-        "bDeathOnOtherWaveStart": true,
-        "BeginSpawnEvents": [
-          {
-            "UniqueName": "18",
-            "EventGameplayTag": {
-              "TagName": "None"
-            },
-            "EventType": "ECyGuideEventType::GuideTask",
-            "WeaponEventType": "ECyGuideWeaponEventType::None",
-            "GuideStateType": "ECyGuideStateType::None",
-            "GuideTaskStateType": "ECyGuideTaskStateType::Begin",
-            "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
-            "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
-            "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
-            "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
-            "SequenceStateType": "ECySequenceStateType::None",
-            "ActionType": "ECyGuideActionType::None",
-            "MeshModeType": "EMeshModeType::Normal",
-            "GameStateType": "EGStateType::None",
-            "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
-          }
-        ],
-        "EndSpawnEvents": [
-          {
-            "UniqueName": "18",
-            "EventGameplayTag": {
-              "TagName": "None"
-            },
-            "EventType": "ECyGuideEventType::GuideTask",
-            "WeaponEventType": "ECyGuideWeaponEventType::None",
-            "GuideStateType": "ECyGuideStateType::None",
-            "GuideTaskStateType": "ECyGuideTaskStateType::End",
-            "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
-            "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
-            "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
-            "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
-            "SequenceStateType": "ECySequenceStateType::None",
-            "ActionType": "ECyGuideActionType::None",
-            "MeshModeType": "EMeshModeType::Normal",
-            "GameStateType": "EGStateType::None",
-            "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
-          }
-        ],
-        "EnemyWaves": [
-          {
-            "LoopTimes": 0,
-            "WaveDelay": 0.0,
-            "SummonCount": 4,
-            "EveryTimeDelay": 0.1,
-            "EveryTimeCount": 1,
-            "SpawnPointTags": [
-              "17001",
-              "17002",
-              "17003",
-              "17004"
-            ]
-          }
-        ]
-      }
+    "1000": {
+      "Id": 1000,
+      "LifeTime": -1.0,
+      "bSpawnEffect": false,
+      "bEnableMove": true,
+      "bEnableAttack": true,
+      "bDeathOnOtherWaveStart": false,
+      "BeginSpawnEvents": [
+        {
+          "UniqueName": "5",
+          "EventGameplayTag": {
+            "TagName": "None"
+          },
+          "EventType": "ECyGuideEventType::GuideTask",
+          "WeaponEventType": "ECyGuideWeaponEventType::None",
+          "GuideStateType": "ECyGuideStateType::None",
+          "GuideTaskStateType": "ECyGuideTaskStateType::Begin",
+          "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
+          "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
+          "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
+          "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
+          "SequenceStateType": "ECySequenceStateType::None",
+          "ActionType": "ECyGuideActionType::None",
+          "MeshModeType": "EMeshModeType::Normal",
+          "GameStateType": "EGStateType::None",
+          "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
+        }
+      ],
+      "EndSpawnEvents": [
+        {
+          "UniqueName": "6",
+          "EventGameplayTag": {
+            "TagName": "None"
+          },
+          "EventType": "ECyGuideEventType::GuideTask",
+          "WeaponEventType": "ECyGuideWeaponEventType::None",
+          "GuideStateType": "ECyGuideStateType::None",
+          "GuideTaskStateType": "ECyGuideTaskStateType::End",
+          "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
+          "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
+          "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
+          "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
+          "SequenceStateType": "ECySequenceStateType::None",
+          "ActionType": "ECyGuideActionType::None",
+          "MeshModeType": "EMeshModeType::Normal",
+          "GameStateType": "EGStateType::None",
+          "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
+        }
+      ],
+      "EnemyWaves": [
+        {
+          "LoopTimes": 0,
+          "WaveDelay": 2.0,
+          "SummonCount": 2,
+          "EveryTimeDelay": 0.1,
+          "EveryTimeCount": 1,
+          "SpawnPointTags": [
+            "6001",
+            "6002"
+          ]
+        }
+      ]
+    },
+    "1100": {
+      "Id": 1100,
+      "LifeTime": -1.0,
+      "bSpawnEffect": false,
+      "bEnableMove": false,
+      "bEnableAttack": true,
+      "bDeathOnOtherWaveStart": true,
+      "BeginSpawnEvents": [
+        {
+          "UniqueName": "7",
+          "EventGameplayTag": {
+            "TagName": "None"
+          },
+          "EventType": "ECyGuideEventType::GuideTask",
+          "WeaponEventType": "ECyGuideWeaponEventType::None",
+          "GuideStateType": "ECyGuideStateType::None",
+          "GuideTaskStateType": "ECyGuideTaskStateType::Begin",
+          "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
+          "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
+          "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
+          "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
+          "SequenceStateType": "ECySequenceStateType::None",
+          "ActionType": "ECyGuideActionType::None",
+          "MeshModeType": "EMeshModeType::Normal",
+          "GameStateType": "EGStateType::None",
+          "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
+        }
+      ],
+      "EndSpawnEvents": [
+        {
+          "UniqueName": "9",
+          "EventGameplayTag": {
+            "TagName": "None"
+          },
+          "EventType": "ECyGuideEventType::GuideTask",
+          "WeaponEventType": "ECyGuideWeaponEventType::None",
+          "GuideStateType": "ECyGuideStateType::None",
+          "GuideTaskStateType": "ECyGuideTaskStateType::End",
+          "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
+          "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
+          "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
+          "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
+          "SequenceStateType": "ECySequenceStateType::None",
+          "ActionType": "ECyGuideActionType::None",
+          "MeshModeType": "EMeshModeType::Normal",
+          "GameStateType": "EGStateType::None",
+          "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
+        }
+      ],
+      "EnemyWaves": [
+        {
+          "LoopTimes": 0,
+          "WaveDelay": 1.0,
+          "SummonCount": 2,
+          "EveryTimeDelay": 0.1,
+          "EveryTimeCount": 1,
+          "SpawnPointTags": [
+            "7901",
+            "7902",
+            "7903",
+            "7904",
+            "7905"
+          ]
+        }
+      ]
+    },
+    "1300": {
+      "Id": 1300,
+      "LifeTime": -1.0,
+      "bSpawnEffect": false,
+      "bEnableMove": false,
+      "bEnableAttack": false,
+      "bDeathOnOtherWaveStart": true,
+      "BeginSpawnEvents": [
+        {
+          "UniqueName": "None",
+          "EventGameplayTag": {
+            "TagName": "None"
+          },
+          "EventType": "ECyGuideEventType::GuideTask",
+          "WeaponEventType": "ECyGuideWeaponEventType::None",
+          "GuideStateType": "ECyGuideStateType::None",
+          "GuideTaskStateType": "ECyGuideTaskStateType::Begin",
+          "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
+          "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
+          "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
+          "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
+          "SequenceStateType": "ECySequenceStateType::None",
+          "ActionType": "ECyGuideActionType::None",
+          "MeshModeType": "EMeshModeType::Normal",
+          "GameStateType": "EGStateType::None",
+          "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
+        }
+      ],
+      "EndSpawnEvents": [
+        {
+          "UniqueName": "None",
+          "EventGameplayTag": {
+            "TagName": "None"
+          },
+          "EventType": "ECyGuideEventType::GuideTask",
+          "WeaponEventType": "ECyGuideWeaponEventType::None",
+          "GuideStateType": "ECyGuideStateType::None",
+          "GuideTaskStateType": "ECyGuideTaskStateType::End",
+          "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
+          "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
+          "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
+          "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
+          "SequenceStateType": "ECySequenceStateType::None",
+          "ActionType": "ECyGuideActionType::None",
+          "MeshModeType": "EMeshModeType::Normal",
+          "GameStateType": "EGStateType::None",
+          "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
+        }
+      ],
+      "EnemyWaves": [
+        {
+          "LoopTimes": 0,
+          "WaveDelay": 0.0,
+          "SummonCount": 0,
+          "EveryTimeDelay": 0.1,
+          "EveryTimeCount": 1,
+          "SpawnPointTags": [
+            "9923",
+            "9924"
+          ]
+        }
+      ]
+    },
+    "1500": {
+      "Id": 1500,
+      "LifeTime": -1.0,
+      "bSpawnEffect": false,
+      "bEnableMove": false,
+      "bEnableAttack": true,
+      "bDeathOnOtherWaveStart": true,
+      "BeginSpawnEvents": [
+        {
+          "UniqueName": "14",
+          "EventGameplayTag": {
+            "TagName": "None"
+          },
+          "EventType": "ECyGuideEventType::GuideTask",
+          "WeaponEventType": "ECyGuideWeaponEventType::None",
+          "GuideStateType": "ECyGuideStateType::None",
+          "GuideTaskStateType": "ECyGuideTaskStateType::Begin",
+          "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
+          "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
+          "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
+          "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
+          "SequenceStateType": "ECySequenceStateType::None",
+          "ActionType": "ECyGuideActionType::None",
+          "MeshModeType": "EMeshModeType::Normal",
+          "GameStateType": "EGStateType::None",
+          "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
+        }
+      ],
+      "EndSpawnEvents": [
+        {
+          "UniqueName": "14",
+          "EventGameplayTag": {
+            "TagName": "None"
+          },
+          "EventType": "ECyGuideEventType::GuideTask",
+          "WeaponEventType": "ECyGuideWeaponEventType::None",
+          "GuideStateType": "ECyGuideStateType::None",
+          "GuideTaskStateType": "ECyGuideTaskStateType::End",
+          "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
+          "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
+          "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
+          "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
+          "SequenceStateType": "ECySequenceStateType::None",
+          "ActionType": "ECyGuideActionType::None",
+          "MeshModeType": "EMeshModeType::Normal",
+          "GameStateType": "EGStateType::None",
+          "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
+        }
+      ],
+      "EnemyWaves": [
+        {
+          "LoopTimes": 0,
+          "WaveDelay": 0.1,
+          "SummonCount": 2,
+          "EveryTimeDelay": 0.1,
+          "EveryTimeCount": 1,
+          "SpawnPointTags": [
+            "150001",
+            "150002"
+          ]
+        }
+      ]
+    },
+    "1600": {
+      "Id": 1600,
+      "LifeTime": -1.0,
+      "bSpawnEffect": false,
+      "bEnableMove": false,
+      "bEnableAttack": true,
+      "bDeathOnOtherWaveStart": true,
+      "BeginSpawnEvents": [
+        {
+          "UniqueName": "16",
+          "EventGameplayTag": {
+            "TagName": "None"
+          },
+          "EventType": "ECyGuideEventType::GuideTask",
+          "WeaponEventType": "ECyGuideWeaponEventType::None",
+          "GuideStateType": "ECyGuideStateType::None",
+          "GuideTaskStateType": "ECyGuideTaskStateType::Begin",
+          "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
+          "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
+          "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
+          "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
+          "SequenceStateType": "ECySequenceStateType::None",
+          "ActionType": "ECyGuideActionType::None",
+          "MeshModeType": "EMeshModeType::Normal",
+          "GameStateType": "EGStateType::None",
+          "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
+        }
+      ],
+      "EndSpawnEvents": [
+        {
+          "UniqueName": "16",
+          "EventGameplayTag": {
+            "TagName": "None"
+          },
+          "EventType": "ECyGuideEventType::GuideTask",
+          "WeaponEventType": "ECyGuideWeaponEventType::None",
+          "GuideStateType": "ECyGuideStateType::None",
+          "GuideTaskStateType": "ECyGuideTaskStateType::End",
+          "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
+          "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
+          "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
+          "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
+          "SequenceStateType": "ECySequenceStateType::None",
+          "ActionType": "ECyGuideActionType::None",
+          "MeshModeType": "EMeshModeType::Normal",
+          "GameStateType": "EGStateType::None",
+          "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
+        }
+      ],
+      "EnemyWaves": [
+        {
+          "LoopTimes": 0,
+          "WaveDelay": 0.1,
+          "SummonCount": 3,
+          "EveryTimeDelay": 0.1,
+          "EveryTimeCount": 1,
+          "SpawnPointTags": [
+            "160001",
+            "160002",
+            "75645"
+          ]
+        }
+      ]
+    },
+    "1700": {
+      "Id": 1700,
+      "LifeTime": -1.0,
+      "bSpawnEffect": false,
+      "bEnableMove": false,
+      "bEnableAttack": true,
+      "bDeathOnOtherWaveStart": true,
+      "BeginSpawnEvents": [
+        {
+          "UniqueName": "18",
+          "EventGameplayTag": {
+            "TagName": "None"
+          },
+          "EventType": "ECyGuideEventType::GuideTask",
+          "WeaponEventType": "ECyGuideWeaponEventType::None",
+          "GuideStateType": "ECyGuideStateType::None",
+          "GuideTaskStateType": "ECyGuideTaskStateType::Begin",
+          "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
+          "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
+          "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
+          "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
+          "SequenceStateType": "ECySequenceStateType::None",
+          "ActionType": "ECyGuideActionType::None",
+          "MeshModeType": "EMeshModeType::Normal",
+          "GameStateType": "EGStateType::None",
+          "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
+        }
+      ],
+      "EndSpawnEvents": [
+        {
+          "UniqueName": "18",
+          "EventGameplayTag": {
+            "TagName": "None"
+          },
+          "EventType": "ECyGuideEventType::GuideTask",
+          "WeaponEventType": "ECyGuideWeaponEventType::None",
+          "GuideStateType": "ECyGuideStateType::None",
+          "GuideTaskStateType": "ECyGuideTaskStateType::End",
+          "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
+          "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
+          "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
+          "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
+          "SequenceStateType": "ECySequenceStateType::None",
+          "ActionType": "ECyGuideActionType::None",
+          "MeshModeType": "EMeshModeType::Normal",
+          "GameStateType": "EGStateType::None",
+          "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
+        }
+      ],
+      "EnemyWaves": [
+        {
+          "LoopTimes": 0,
+          "WaveDelay": 0.0,
+          "SummonCount": 4,
+          "EveryTimeDelay": 0.1,
+          "EveryTimeCount": 1,
+          "SpawnPointTags": [
+            "17001",
+            "17002",
+            "17003",
+            "17004"
+          ]
+        }
+      ]
     }
   }
-]
+}

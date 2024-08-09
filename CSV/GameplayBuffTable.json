@@ -1,583 +1,581 @@
-[
-  {
-    "Type": "DataTable",
-    "Name": "GameplayBuffTable",
-    "Class": "UScriptClass'DataTable'",
-    "Properties": {
-      "RowStruct": {
-        "ObjectName": "ScriptStruct'GameplayTagTableRow'",
-        "ObjectPath": "/Script/GameplayTags"
-      }
+{
+  "Type": "DataTable",
+  "Name": "GameplayBuffTable",
+  "Class": "UScriptClass'DataTable'",
+  "Properties": {
+    "RowStruct": {
+      "ObjectName": "ScriptStruct'GameplayTagTableRow'",
+      "ObjectPath": "/Script/GameplayTags"
+    }
+  },
+  "Rows": {
+    "Buff.RemoveOnPlayerRestart": {
+      "Tag": "Buff.RemoveOnPlayerRestart",
+      "DevComment": "角色重生时移除的GE"
     },
-    "Rows": {
-      "Buff.RemoveOnPlayerRestart": {
-        "Tag": "Buff.RemoveOnPlayerRestart",
-        "DevComment": "角色重生时移除的GE"
-      },
-      "Buff.Shield.Recovery.Armor.P.Audrey": {
-        "Tag": "Buff.Shield.Recovery.Armor.P.Audrey",
-        "DevComment": ""
-      },
-      "Buff.Shield.Revive.P.Audrey": {
-        "Tag": "Buff.Shield.Revive.P.Audrey",
-        "DevComment": ""
-      },
-      "Buff.Shield.Wait.P.Audrey": {
-        "Tag": "Buff.Shield.Wait.P.Audrey",
-        "DevComment": ""
-      },
-      "Buff.Shield.Reset.Armor.P.Audrey": {
-        "Tag": "Buff.Shield.Reset.Armor.P.Audrey",
-        "DevComment": ""
-      },
-      "Buff.Strong.Immune": {
-        "Tag": "Buff.Strong.Immune",
-        "DevComment": "免疫Buff,Debuff"
-      },
-      "Buff.Fuchsia.P.RecoveryHealth": {
-        "Tag": "Buff.Fuchsia.P.RecoveryHealth",
-        "DevComment": "菲莎被动回血Buff"
-      },
-      "Buff.Fuchsia.ArousalTwo.InjuredHealth": {
-        "Tag": "Buff.Fuchsia.ArousalTwo.InjuredHealth",
-        "DevComment": "菲莎被动觉醒2倒地生命GE"
-      },
-      "Buff.Stealth.ArousalThree.MoBai": {
-        "Tag": "Buff.Stealth.ArousalThree.MoBai",
-        "DevComment": "白墨觉醒3隐身"
-      },
-      "Buff.Stealth.X.Lawine": {
-        "Tag": "Buff.Stealth.X.Lawine",
-        "DevComment": "拉薇X隐身Buff"
-      },
-      "Buff.Stealth.ArousalTwo.Galatea": {
-        "Tag": "Buff.Stealth.ArousalTwo.Galatea",
-        "DevComment": "加拉蒂亚觉醒2隐身Buff"
-      },
-      "Buff.Stealth.Q.Fissioner1": {
-        "Tag": "Buff.Stealth.Q.Fissioner1",
-        "DevComment": "小鬼隐身"
-      },
-      "Buff.Weak.XRay.P.Reiichi": {
-        "Tag": "Buff.Weak.XRay.P.Reiichi",
-        "DevComment": "令一透视"
-      },
-      "BuffAction.Trigger.P.Reiichi": {
-        "Tag": "BuffAction.Trigger.P.Reiichi",
-        "DevComment": "令一P技能触发标签"
-      },
-      "Buff.Weak.Mark.ArousalOne.Reiichi": {
-        "Tag": "Buff.Weak.Mark.ArousalOne.Reiichi",
-        "DevComment": "令一透视"
-      },
-      "BuffAction.Remove.OnHitHealth": {
-        "Tag": "BuffAction.Remove.OnHitHealth",
-        "DevComment": ""
-      },
-      "BuffAction.Remove.OnInvalidHealthEmpty": {
-        "Tag": "BuffAction.Remove.OnInvalidHealthEmpty",
-        "DevComment": "无效化血量清空"
-      },
-      "BuffAction.Remove.OnInvalidArmorEmpty": {
-        "Tag": "BuffAction.Remove.OnInvalidArmorEmpty",
-        "DevComment": "无效化护甲清空"
-      },
-      "Buff.Strong.Strong": {
-        "Tag": "Buff.Strong.Strong",
-        "DevComment": "霸体"
-      },
-      "Buff.Strong.Buff2DDamage": {
-        "Tag": "Buff.Strong.Buff2DDamage",
-        "DevComment": "2D状态减伤"
-      },
-      "Buff.Strong.SpaceTeleport": {
-        "Tag": "Buff.Strong.SpaceTeleport",
-        "DevComment": "星绘传送中"
-      },
-      "Buff.Weak.ForceFly": {
-        "Tag": "Buff.Weak.ForceFly",
-        "DevComment": "强制飘飞"
-      },
-      "Buff.Weak.HideSight": {
-        "Tag": "Buff.Weak.HideSight",
-        "DevComment": "隐藏瞄准镜准心"
-      },
-      "Buff.Weak.Block2D": {
-        "Tag": "Buff.Weak.Block2D",
-        "DevComment": "禁止切换2D"
-      },
-      "Buff.Weak.Silence": {
-        "Tag": "Buff.Weak.Silence",
-        "DevComment": "沉默Buff, 禁用技能"
-      },
-      "Buff.Weak.ViewOcclusion": {
-        "Tag": "Buff.Weak.ViewOcclusion",
-        "DevComment": "视野遮挡"
-      },
-      "Buff.Strong.IgnoreDamage": {
-        "Tag": "Buff.Strong.IgnoreDamage",
-        "DevComment": "忽略伤害"
-      },
-      "Buff.Strong.IgnoreSlowUp.Q.Fissioner1": {
-        "Tag": "Buff.Strong.IgnoreSlowUp.Q.Fissioner1",
-        "DevComment": "小鬼忽略减速"
-      },
-      "Buff.Strong.ReduceDamage.Q.CrystalloidAlpha": {
-        "Tag": "Buff.Strong.ReduceDamage.Q.CrystalloidAlpha",
-        "DevComment": "大鬼减伤"
-      },
-      "Buff.Weak.InvalidHealth.Value1": {
-        "Tag": "Buff.Weak.InvalidHealth.Value1",
-        "DevComment": "持续无效化血量1"
-      },
-      "Buff.Weak.InvalidHealth.Value2": {
-        "Tag": "Buff.Weak.InvalidHealth.Value2",
-        "DevComment": "持续无效化血量2"
-      },
-      "Buff.Weak.InvalidHealth.Value5": {
-        "Tag": "Buff.Weak.InvalidHealth.Value5",
-        "DevComment": "持续无效化血量5"
-      },
-      "Buff.Weak.InvalidHealth.Delay": {
-        "Tag": "Buff.Weak.InvalidHealth.Delay",
-        "DevComment": "无效化血量延迟结束"
-      },
-      "Buff.Weak.InvalidHealth.Sign.MeredithQ": {
-        "Tag": "Buff.Weak.InvalidHealth.Sign.MeredithQ",
-        "DevComment": "美瑞迪斯一次性移除血量标记"
-      },
-      "Buff.Weak.InvalidHealth.Sign.MeredithX": {
-        "Tag": "Buff.Weak.InvalidHealth.Sign.MeredithX",
-        "DevComment": "美瑞迪斯一次性移除血量标记"
-      },
-      "Buff.Strong.InvalidHealth": {
-        "Tag": "Buff.Strong.InvalidHealth",
-        "DevComment": "无效化血量恢复"
-      },
-      "Buff.Weak.FootPrint.P.Maddelena": {
-        "Tag": "Buff.Weak.FootPrint.P.Maddelena",
-        "DevComment": "玛德蕾娜暴露脚印"
-      },
-      "Buff.Weak.FootPrint.Q.Maddelena": {
-        "Tag": "Buff.Weak.FootPrint.Q.Maddelena",
-        "DevComment": "玛德蕾娜暴露脚印"
-      },
-      "Buff.Weak.FootPrint.X.Maddelena": {
-        "Tag": "Buff.Weak.FootPrint.X.Maddelena",
-        "DevComment": "玛德蕾娜暴露脚印"
-      },
-      "Buff.Weak.SlowDown.P.Maddelena": {
-        "Tag": "Buff.Weak.SlowDown.P.Maddelena",
-        "DevComment": "玛德蕾娜被动减速"
-      },
-      "Buff.Weak.SlowDown.Q.Maddelena": {
-        "Tag": "Buff.Weak.SlowDown.Q.Maddelena",
-        "DevComment": "玛德蕾娜染料减速"
-      },
-      "Buff.Weak.Block2D.Q.Maddelena": {
-        "Tag": "Buff.Weak.Block2D.Q.Maddelena",
-        "DevComment": "玛德蕾娜染料禁用2D"
-      },
-      "Buff.Weak.SlowDown.X.Maddelena": {
-        "Tag": "Buff.Weak.SlowDown.X.Maddelena",
-        "DevComment": "玛德蕾娜水球减速"
-      },
-      "Buff.Weak.DamageFactor.X.Maddelena": {
-        "Tag": "Buff.Weak.DamageFactor.X.Maddelena",
-        "DevComment": "玛德蕾娜水球弱点暴露"
-      },
-      "Buff.Strong.Health.ArousalTwo.Maddelena": {
-        "Tag": "Buff.Strong.Health.ArousalTwo.Maddelena",
-        "DevComment": "玛德蕾娜觉醒2回血"
-      },
-      "Buff.Strong.Stealth.ArousalTwo.Maddelena": {
-        "Tag": "Buff.Strong.Stealth.ArousalTwo.Maddelena",
-        "DevComment": "玛德蕾娜觉醒2隐身Buff"
-      },
-      "Buff.Weak.SlowDown.Q.Ming": {
-        "Tag": "Buff.Weak.SlowDown.Q.Ming",
-        "DevComment": "明Q技能减速"
-      },
-      "Buff.Strong.SlowUp.Q.Ming.Duration": {
-        "Tag": "Buff.Strong.SlowUp.Q.Ming.Duration",
-        "DevComment": "明Q技能加速延迟"
-      },
-      "Buff.Strong.SlowUp.Q.Ming.Infinite": {
-        "Tag": "Buff.Strong.SlowUp.Q.Ming.Infinite",
-        "DevComment": "明Q技能加速持续"
-      },
-      "Buff.Weak.SlowDown.X.Ming": {
-        "Tag": "Buff.Weak.SlowDown.X.Ming",
-        "DevComment": "明X技能减速"
-      },
-      "Buff.Strong.ExtraArmor.X.Ming": {
-        "Tag": "Buff.Strong.ExtraArmor.X.Ming",
-        "DevComment": "明X技能额外护甲"
-      },
-      "Buff.Weak.ExtraArmor.X.Ming": {
-        "Tag": "Buff.Weak.ExtraArmor.X.Ming",
-        "DevComment": "明X技能额外护甲衰减"
-      },
-      "Buff.Strong.ArmorRecover.Growth.Shield": {
-        "Tag": "Buff.Strong.ArmorRecover.Growth.Shield",
-        "DevComment": "成长护甲恢复"
-      },
-      "Buff.Strong.ArmorRecover.P.Huixing": {
-        "Tag": "Buff.Strong.ArmorRecover.P.Huixing",
-        "DevComment": "星绘护甲恢复"
-      },
-      "Buff.Strong.ArmorMax.Q.Huixing": {
-        "Tag": "Buff.Strong.ArmorMax.Q.Huixing",
-        "DevComment": "星绘流星盾牌"
-      },
-      "Buff.Strong.ArmorRecover.ArousalThree.Huixing": {
-        "Tag": "Buff.Strong.ArmorRecover.ArousalThree.Huixing",
-        "DevComment": "星绘护甲恢复觉醒3"
-      },
-      "Buff.Strong.ExtraArmor.X.HuiXing": {
-        "Tag": "Buff.Strong.ExtraArmor.X.HuiXing",
-        "DevComment": "星绘X技能额外护甲"
-      },
-      "Buff.Strong.DamageFactor.P.Julian": {
-        "Tag": "Buff.Strong.DamageFactor.P.Julian",
-        "DevComment": "朱利安被动伤害减免"
-      },
-      "Buff.Weak.SlowDown.P.Julian3D": {
-        "Tag": "Buff.Weak.SlowDown.P.Julian3D",
-        "DevComment": "朱利安通用减速3D"
-      },
-      "Buff.Weak.SlowDown.P.Julian2D": {
-        "Tag": "Buff.Weak.SlowDown.P.Julian2D",
-        "DevComment": "朱利安通用减速2D"
-      },
-      "Buff.Weak.SlowDown.P.Julian": {
-        "Tag": "Buff.Weak.SlowDown.P.Julian",
-        "DevComment": "朱利安通用减速"
-      },
-      "Buff.Weak.SlowDown.X.Julian": {
-        "Tag": "Buff.Weak.SlowDown.X.Julian",
-        "DevComment": "朱利安大招减速"
-      },
-      "Buff.Weak.Block2D.X.Maddelena": {
-        "Tag": "Buff.Weak.Block2D.X.Maddelena",
-        "DevComment": "玛德蕾娜水球禁用2D"
-      },
-      "Buff.Weak.Health.X.Audrey.SummonFire": {
-        "Tag": "Buff.Weak.Health.X.Audrey.SummonFire",
-        "DevComment": "奥黛丽X子榴弹燃烧效果"
-      },
-      "Buff.Strong.ExtraArmor.ArousalTwo.Reiichi": {
-        "Tag": "Buff.Strong.ExtraArmor.ArousalTwo.Reiichi",
-        "DevComment": "令一觉醒2临时护甲"
-      },
-      "Buff.Weak.Armor.ArousalTwo.Reiichi": {
-        "Tag": "Buff.Weak.Armor.ArousalTwo.Reiichi",
-        "DevComment": "令一觉醒2无效护甲"
-      },
-      "Buff.Weak.Armor.Delay.ArousalTwo.Reiichi": {
-        "Tag": "Buff.Weak.Armor.Delay.ArousalTwo.Reiichi",
-        "DevComment": "令一觉醒2护甲延迟结束"
-      },
-      "Buff.Weak.SafeZone.Warning": {
-        "Tag": "Buff.Weak.SafeZone.Warning",
-        "DevComment": "团竞危险区域预警"
-      },
-      "Buff.Weak.PreDangerArea": {
-        "Tag": "Buff.Weak.PreDangerArea",
-        "DevComment": "危险区域预警"
-      },
-      "Buff.Weak.DangerArea": {
-        "Tag": "Buff.Weak.DangerArea",
-        "DevComment": "危险区域伤害"
-      },
-      "Buff.Weak.DeathArea": {
-        "Tag": "Buff.Weak.DeathArea",
-        "DevComment": "死亡区域"
-      },
-      "Buff.Weak.BeingAttacked": {
-        "Tag": "Buff.Weak.BeingAttacked",
-        "DevComment": "受击"
-      },
-      "Buff.Strong.GodTime": {
-        "Tag": "Buff.Strong.GodTime",
-        "DevComment": "无敌时间(GameMode)"
-      },
-      "Buff.Weak.FlashGrenade": {
-        "Tag": "Buff.Weak.FlashGrenade",
-        "DevComment": "闪光弹"
-      },
-      "Buff.Weak.FlashGrenade.FirstScetion": {
-        "Tag": "Buff.Weak.FlashGrenade.FirstScetion",
-        "DevComment": "闪光弹第一段效果"
-      },
-      "Buff.Weak.Block2D.P.MoBai": {
-        "Tag": "Buff.Weak.Block2D.P.MoBai",
-        "DevComment": "白墨被动禁用2D"
-      },
-      "Buff.Weak.AlarmGrenade": {
-        "Tag": "Buff.Weak.AlarmGrenade",
-        "DevComment": "警报器"
-      },
-      "Buff.Strong.P.Nobunaga": {
-        "Tag": "Buff.Strong.P.Nobunaga",
-        "DevComment": "信长被动激活标记"
-      },
-      "Buff.Wait.P.Nobunaga": {
-        "Tag": "Buff.Wait.P.Nobunaga",
-        "DevComment": "信长P技能等待时间"
-      },
-      "Buff.Wait.P.Reiichi": {
-        "Tag": "Buff.Wait.P.Reiichi",
-        "DevComment": "令一P技能等待时间"
-      },
-      "Buff.Wait.ArousalTwo.Reiichi.Team": {
-        "Tag": "Buff.Wait.ArousalTwo.Reiichi.Team",
-        "DevComment": "令一觉醒2增加队友护甲CD"
-      },
-      "Buff.Weak.BlockAttack.Primary": {
-        "Tag": "Buff.Weak.BlockAttack.Primary",
-        "DevComment": "禁用主武器攻击"
-      },
-      "Buff.CostIgnore.SkillQ": {
-        "Tag": "Buff.CostIgnore.SkillQ",
-        "DevComment": "Q技能消耗忽略"
-      },
-      "Buff.CostIgnore.SkillE": {
-        "Tag": "Buff.CostIgnore.SkillE",
-        "DevComment": "E技能消耗忽略"
-      },
-      "Buff.CostIgnore.SkillX": {
-        "Tag": "Buff.CostIgnore.SkillX",
-        "DevComment": "X技能消耗忽略"
-      },
-      "Buff.Strong.SkillUp.X.Reiichi": {
-        "Tag": "Buff.Strong.SkillUp.X.Reiichi",
-        "DevComment": "强化光幕"
-      },
-      "Buff.Strong.ArousalThree.Michele": {
-        "Tag": "Buff.Strong.ArousalThree.Michele",
-        "DevComment": "米雪儿觉醒3强化buff"
-      },
-      "Buff.Strong.ArousalTwo.Huixing": {
-        "Tag": "Buff.Strong.ArousalTwo.Huixing",
-        "DevComment": "星绘觉醒2星光携带buff"
-      },
-      "Buff.Weak.GameMode.StealSpar": {
-        "Tag": "Buff.Weak.GameMode.StealSpar",
-        "DevComment": "采矿模式偷矿"
-      },
-      "Buff.Weak.GameMode.PickSpar": {
-        "Tag": "Buff.Weak.GameMode.PickSpar",
-        "DevComment": "采矿模式运矿"
-      },
-      "Buff.Strong.P.Yvette": {
-        "Tag": "Buff.Strong.P.Yvette",
-        "DevComment": "伊薇特被动迷彩buff"
-      },
-      "Buff.Strong.TreatmentGrenade": {
-        "Tag": "Buff.Strong.TreatmentGrenade",
-        "DevComment": "治疗雷"
-      },
-      "Buff.Weak.Vertigo": {
-        "Tag": "Buff.Weak.Vertigo",
-        "DevComment": "眩晕"
-      },
-      "Buff.Weak.Block2D.X.Kanami": {
-        "Tag": "Buff.Weak.Block2D.X.Kanami",
-        "DevComment": "香奈美禁止弦化"
-      },
-      "Buff.Weak.ArousalTwo.Kanami.VertigoTarget": {
-        "Tag": "Buff.Weak.ArousalTwo.Kanami.VertigoTarget",
-        "DevComment": "香奈美觉醒2眩晕锁定目标"
-      },
-      "Buff.Weak.ArousalTwo.Kanami.VertigoCD": {
-        "Tag": "Buff.Weak.ArousalTwo.Kanami.VertigoCD",
-        "DevComment": "香奈美觉醒2眩晕触发CD"
-      },
-      "Buff.GameMode.RichManRescueSelf": {
-        "Tag": "Buff.GameMode.RichManRescueSelf",
-        "DevComment": "晶体战-采矿王自起"
-      },
-      "Buff.Weak.Blind.Flavia": {
-        "Tag": "Buff.Weak.Blind.Flavia",
-        "DevComment": "芙拉薇娅Q技能致盲"
-      },
-      "Buff.Strong.Q.Flavia": {
-        "Tag": "Buff.Strong.Q.Flavia",
-        "DevComment": "芙拉薇娅Q技能反制buff"
-      },
-      "Buff.Flavia.X.Butterfly": {
-        "Tag": "Buff.Flavia.X.Butterfly",
-        "DevComment": "芙拉薇娅X技能等待重生"
-      },
-      "Buff.Flavia.X.DeathProtection": {
-        "Tag": "Buff.Flavia.X.DeathProtection",
-        "DevComment": "芙拉薇娅X技能死亡保护"
-      },
-      "Buff.Aika.P.FireAmmo": {
-        "Tag": "Buff.Aika.P.FireAmmo",
-        "DevComment": "焰弹"
-      },
-      "Buff.Aika.P.FireAmmo.Duration": {
-        "Tag": "Buff.Aika.P.FireAmmo.Duration",
-        "DevComment": "焰弹持续"
-      },
-      "Buff.Aika.P.FireAmmo.Instant": {
-        "Tag": "Buff.Aika.P.FireAmmo.Instant",
-        "DevComment": "焰弹立即"
-      },
-      "Buff.Aika.P.FireAmmo.Damage2D": {
-        "Tag": "Buff.Aika.P.FireAmmo.Damage2D",
-        "DevComment": "焰弹2D增伤"
-      },
-      "Buff.Weak.FireSub.P.Aika": {
-        "Tag": "Buff.Weak.FireSub.P.Aika",
-        "DevComment": "怒气衰减"
-      },
-      "Buff.Aika.Q.InsideDamageDuration": {
-        "Tag": "Buff.Aika.Q.InsideDamageDuration",
-        "DevComment": "火圈内持续伤害"
-      },
-      "Buff.Aika.Q.FireWallDamageInstant": {
-        "Tag": "Buff.Aika.Q.FireWallDamageInstant",
-        "DevComment": "火墙墙体伤害"
-      },
-      "Buff.Aika.CleanEnergy": {
-        "Tag": "Buff.Aika.CleanEnergy",
-        "DevComment": "清怒"
-      },
-      "Buff.Aika.Q.Enhanced.FireInside.Self": {
-        "Tag": "Buff.Aika.Q.Enhanced.FireInside.Self",
-        "DevComment": "红怒Q下自己在范围内的标记"
-      },
-      "Buff.Aika.Q.Enhanced.FireInside.Enemy": {
-        "Tag": "Buff.Aika.Q.Enhanced.FireInside.Enemy",
-        "DevComment": "红怒Q下敌人在范围内的标记"
-      },
-      "Buff.Aika.FullFireEnergy": {
-        "Tag": "Buff.Aika.FullFireEnergy",
-        "DevComment": "艾卡满怒"
-      },
-      "Buff.Aika.NotFullFireEnergy": {
-        "Tag": "Buff.Aika.NotFullFireEnergy",
-        "DevComment": "艾卡没满怒"
-      },
-      "Buff.Aika.X.FireDamage": {
-        "Tag": "Buff.Aika.X.FireDamage",
-        "DevComment": "艾卡普通大招伤害buff"
-      },
-      "Buff.Aika.X.Enhanced.FireDamage": {
-        "Tag": "Buff.Aika.X.Enhanced.FireDamage",
-        "DevComment": "艾卡红怒大招伤害buff"
-      },
-      "Buff.Flavia.X.Sight": {
-        "Tag": "Buff.Flavia.X.Sight",
-        "DevComment": "芙拉薇娅隐身可见标记"
-      },
-      "Buff.Flavia.X.Inside": {
-        "Tag": "Buff.Flavia.X.Inside",
-        "DevComment": "芙拉薇娅大招范围内标记"
-      },
-      "Buff.Strong.X.Fragrans": {
-        "Tag": "Buff.Strong.X.Fragrans",
-        "DevComment": "珐格兰丝大招BUFF"
-      },
-      "Buff.HideSeek.Gain": {
-        "Tag": "Buff.HideSeek.Gain",
-        "DevComment": "躲猫猫逃跑方Buff"
-      },
-      "Buff.HideSeek.DeBuff": {
-        "Tag": "Buff.HideSeek.DeBuff",
-        "DevComment": "躲猫猫逃跑方DeBuff"
-      },
-      "Buff.HideSeek.SpawnDecalDeBuff": {
-        "Tag": "Buff.HideSeek.SpawnDecalDeBuff",
-        "DevComment": "躲猫猫使用喷漆时的DeBuff"
-      },
-      "Buff.HideSeek.ScaleStop": {
-        "Tag": "Buff.HideSeek.ScaleStop",
-        "DevComment": "躲猫猫逃跑方缩放停止"
-      },
-      "Buff.Weak.BlockSecondJump": {
-        "Tag": "Buff.Weak.BlockSecondJump",
-        "DevComment": "禁用二段跳"
-      },
-      "Buff.Strong.ArmorRecover.EscortVehicle": {
-        "Tag": "Buff.Strong.ArmorRecover.EscortVehicle",
-        "DevComment": "护送载具时护甲回复"
-      },
-      "Buff.Strong.HealthRecover.EscortVehicle": {
-        "Tag": "Buff.Strong.HealthRecover.EscortVehicle",
-        "DevComment": "护送载具时生命回复"
-      },
-      "Buff.Strong.AmmoRecover.Primary.EscortVehicle": {
-        "Tag": "Buff.Strong.AmmoRecover.Primary.EscortVehicle",
-        "DevComment": "护送载具时主武器弹药回复"
-      },
-      "Buff.Strong.XPointRecover.EscortVehicle": {
-        "Tag": "Buff.Strong.XPointRecover.EscortVehicle",
-        "DevComment": "护送载具时X点回复"
-      },
-      "Buff.Strong.DelayAddGE.EscortVehicle": {
-        "Tag": "Buff.Strong.DelayAddGE.EscortVehicle",
-        "DevComment": "护送载具时等待增加GE"
-      },
-      "Buff.Strong.SuddenDeathState": {
-        "Tag": "Buff.Strong.SuddenDeathState",
-        "DevComment": "突然死亡状态"
-      },
-      "Buff.Weak.KnockBack": {
-        "Tag": "Buff.Weak.KnockBack",
-        "DevComment": "击退"
-      },
-      "Buff.Strong.ResistKnockBack": {
-        "Tag": "Buff.Strong.ResistKnockBack",
-        "DevComment": "抵抗击退"
-      },
-      "Buff.Rafa.EnergyRecover": {
-        "Tag": "Buff.Rafa.EnergyRecover",
-        "DevComment": "拉法能量恢复"
-      },
-      "Buff.Rafa.EnergyCost": {
-        "Tag": "Buff.Rafa.EnergyCost",
-        "DevComment": "拉法能量消耗"
-      },
-      "Buff.Strong.InvalidArmor": {
-        "Tag": "Buff.Strong.InvalidArmor",
-        "DevComment": "无效护甲复原"
-      },
-      "Buff.Weak.InvalidArmor.Delay": {
-        "Tag": "Buff.Weak.InvalidArmor.Delay",
-        "DevComment": "无效护甲恢复延迟"
-      },
-      "Buff.Weak.InvalidArmor.Value1": {
-        "Tag": "Buff.Weak.InvalidArmor.Value1",
-        "DevComment": "无效护甲1"
-      },
-      "Buff.Weak.InvalidArmor.Value2": {
-        "Tag": "Buff.Weak.InvalidArmor.Value2",
-        "DevComment": "无效护甲2"
-      },
-      "Buff.Weak.InvalidArmor.Value5": {
-        "Tag": "Buff.Weak.InvalidArmor.Value5",
-        "DevComment": "无效护甲5"
-      },
-      "Buff.Strong.DelayAddGE.RestartArea": {
-        "Tag": "Buff.Strong.DelayAddGE.RestartArea",
-        "DevComment": "在重生区域时等待增加GE"
-      },
-      "Buff.Strong.HealthRecover.RestartArea": {
-        "Tag": "Buff.Strong.HealthRecover.RestartArea",
-        "DevComment": "重生区域生命回复"
-      },
-      "Buff.Strong.ArmorRecover.RestartArea": {
-        "Tag": "Buff.Strong.ArmorRecover.RestartArea",
-        "DevComment": "重生区域护甲回复"
-      },
-      "Buff.Strong.AmmoRecover.Primary.RestartArea": {
-        "Tag": "Buff.Strong.AmmoRecover.Primary.RestartArea",
-        "DevComment": "重生区域主武器弹药回复"
-      }
+    "Buff.Shield.Recovery.Armor.P.Audrey": {
+      "Tag": "Buff.Shield.Recovery.Armor.P.Audrey",
+      "DevComment": ""
+    },
+    "Buff.Shield.Revive.P.Audrey": {
+      "Tag": "Buff.Shield.Revive.P.Audrey",
+      "DevComment": ""
+    },
+    "Buff.Shield.Wait.P.Audrey": {
+      "Tag": "Buff.Shield.Wait.P.Audrey",
+      "DevComment": ""
+    },
+    "Buff.Shield.Reset.Armor.P.Audrey": {
+      "Tag": "Buff.Shield.Reset.Armor.P.Audrey",
+      "DevComment": ""
+    },
+    "Buff.Strong.Immune": {
+      "Tag": "Buff.Strong.Immune",
+      "DevComment": "免疫Buff,Debuff"
+    },
+    "Buff.Fuchsia.P.RecoveryHealth": {
+      "Tag": "Buff.Fuchsia.P.RecoveryHealth",
+      "DevComment": "菲莎被动回血Buff"
+    },
+    "Buff.Fuchsia.ArousalTwo.InjuredHealth": {
+      "Tag": "Buff.Fuchsia.ArousalTwo.InjuredHealth",
+      "DevComment": "菲莎被动觉醒2倒地生命GE"
+    },
+    "Buff.Stealth.ArousalThree.MoBai": {
+      "Tag": "Buff.Stealth.ArousalThree.MoBai",
+      "DevComment": "白墨觉醒3隐身"
+    },
+    "Buff.Stealth.X.Lawine": {
+      "Tag": "Buff.Stealth.X.Lawine",
+      "DevComment": "拉薇X隐身Buff"
+    },
+    "Buff.Stealth.ArousalTwo.Galatea": {
+      "Tag": "Buff.Stealth.ArousalTwo.Galatea",
+      "DevComment": "加拉蒂亚觉醒2隐身Buff"
+    },
+    "Buff.Stealth.Q.Fissioner1": {
+      "Tag": "Buff.Stealth.Q.Fissioner1",
+      "DevComment": "小鬼隐身"
+    },
+    "Buff.Weak.XRay.P.Reiichi": {
+      "Tag": "Buff.Weak.XRay.P.Reiichi",
+      "DevComment": "令一透视"
+    },
+    "BuffAction.Trigger.P.Reiichi": {
+      "Tag": "BuffAction.Trigger.P.Reiichi",
+      "DevComment": "令一P技能触发标签"
+    },
+    "Buff.Weak.Mark.ArousalOne.Reiichi": {
+      "Tag": "Buff.Weak.Mark.ArousalOne.Reiichi",
+      "DevComment": "令一透视"
+    },
+    "BuffAction.Remove.OnHitHealth": {
+      "Tag": "BuffAction.Remove.OnHitHealth",
+      "DevComment": ""
+    },
+    "BuffAction.Remove.OnInvalidHealthEmpty": {
+      "Tag": "BuffAction.Remove.OnInvalidHealthEmpty",
+      "DevComment": "无效化血量清空"
+    },
+    "BuffAction.Remove.OnInvalidArmorEmpty": {
+      "Tag": "BuffAction.Remove.OnInvalidArmorEmpty",
+      "DevComment": "无效化护甲清空"
+    },
+    "Buff.Strong.Strong": {
+      "Tag": "Buff.Strong.Strong",
+      "DevComment": "霸体"
+    },
+    "Buff.Strong.Buff2DDamage": {
+      "Tag": "Buff.Strong.Buff2DDamage",
+      "DevComment": "2D状态减伤"
+    },
+    "Buff.Strong.SpaceTeleport": {
+      "Tag": "Buff.Strong.SpaceTeleport",
+      "DevComment": "星绘传送中"
+    },
+    "Buff.Weak.ForceFly": {
+      "Tag": "Buff.Weak.ForceFly",
+      "DevComment": "强制飘飞"
+    },
+    "Buff.Weak.HideSight": {
+      "Tag": "Buff.Weak.HideSight",
+      "DevComment": "隐藏瞄准镜准心"
+    },
+    "Buff.Weak.Block2D": {
+      "Tag": "Buff.Weak.Block2D",
+      "DevComment": "禁止切换2D"
+    },
+    "Buff.Weak.Silence": {
+      "Tag": "Buff.Weak.Silence",
+      "DevComment": "沉默Buff, 禁用技能"
+    },
+    "Buff.Weak.ViewOcclusion": {
+      "Tag": "Buff.Weak.ViewOcclusion",
+      "DevComment": "视野遮挡"
+    },
+    "Buff.Strong.IgnoreDamage": {
+      "Tag": "Buff.Strong.IgnoreDamage",
+      "DevComment": "忽略伤害"
+    },
+    "Buff.Strong.IgnoreSlowUp.Q.Fissioner1": {
+      "Tag": "Buff.Strong.IgnoreSlowUp.Q.Fissioner1",
+      "DevComment": "小鬼忽略减速"
+    },
+    "Buff.Strong.ReduceDamage.Q.CrystalloidAlpha": {
+      "Tag": "Buff.Strong.ReduceDamage.Q.CrystalloidAlpha",
+      "DevComment": "大鬼减伤"
+    },
+    "Buff.Weak.InvalidHealth.Value1": {
+      "Tag": "Buff.Weak.InvalidHealth.Value1",
+      "DevComment": "持续无效化血量1"
+    },
+    "Buff.Weak.InvalidHealth.Value2": {
+      "Tag": "Buff.Weak.InvalidHealth.Value2",
+      "DevComment": "持续无效化血量2"
+    },
+    "Buff.Weak.InvalidHealth.Value5": {
+      "Tag": "Buff.Weak.InvalidHealth.Value5",
+      "DevComment": "持续无效化血量5"
+    },
+    "Buff.Weak.InvalidHealth.Delay": {
+      "Tag": "Buff.Weak.InvalidHealth.Delay",
+      "DevComment": "无效化血量延迟结束"
+    },
+    "Buff.Weak.InvalidHealth.Sign.MeredithQ": {
+      "Tag": "Buff.Weak.InvalidHealth.Sign.MeredithQ",
+      "DevComment": "美瑞迪斯一次性移除血量标记"
+    },
+    "Buff.Weak.InvalidHealth.Sign.MeredithX": {
+      "Tag": "Buff.Weak.InvalidHealth.Sign.MeredithX",
+      "DevComment": "美瑞迪斯一次性移除血量标记"
+    },
+    "Buff.Strong.InvalidHealth": {
+      "Tag": "Buff.Strong.InvalidHealth",
+      "DevComment": "无效化血量恢复"
+    },
+    "Buff.Weak.FootPrint.P.Maddelena": {
+      "Tag": "Buff.Weak.FootPrint.P.Maddelena",
+      "DevComment": "玛德蕾娜暴露脚印"
+    },
+    "Buff.Weak.FootPrint.Q.Maddelena": {
+      "Tag": "Buff.Weak.FootPrint.Q.Maddelena",
+      "DevComment": "玛德蕾娜暴露脚印"
+    },
+    "Buff.Weak.FootPrint.X.Maddelena": {
+      "Tag": "Buff.Weak.FootPrint.X.Maddelena",
+      "DevComment": "玛德蕾娜暴露脚印"
+    },
+    "Buff.Weak.SlowDown.P.Maddelena": {
+      "Tag": "Buff.Weak.SlowDown.P.Maddelena",
+      "DevComment": "玛德蕾娜被动减速"
+    },
+    "Buff.Weak.SlowDown.Q.Maddelena": {
+      "Tag": "Buff.Weak.SlowDown.Q.Maddelena",
+      "DevComment": "玛德蕾娜染料减速"
+    },
+    "Buff.Weak.Block2D.Q.Maddelena": {
+      "Tag": "Buff.Weak.Block2D.Q.Maddelena",
+      "DevComment": "玛德蕾娜染料禁用2D"
+    },
+    "Buff.Weak.SlowDown.X.Maddelena": {
+      "Tag": "Buff.Weak.SlowDown.X.Maddelena",
+      "DevComment": "玛德蕾娜水球减速"
+    },
+    "Buff.Weak.DamageFactor.X.Maddelena": {
+      "Tag": "Buff.Weak.DamageFactor.X.Maddelena",
+      "DevComment": "玛德蕾娜水球弱点暴露"
+    },
+    "Buff.Strong.Health.ArousalTwo.Maddelena": {
+      "Tag": "Buff.Strong.Health.ArousalTwo.Maddelena",
+      "DevComment": "玛德蕾娜觉醒2回血"
+    },
+    "Buff.Strong.Stealth.ArousalTwo.Maddelena": {
+      "Tag": "Buff.Strong.Stealth.ArousalTwo.Maddelena",
+      "DevComment": "玛德蕾娜觉醒2隐身Buff"
+    },
+    "Buff.Weak.SlowDown.Q.Ming": {
+      "Tag": "Buff.Weak.SlowDown.Q.Ming",
+      "DevComment": "明Q技能减速"
+    },
+    "Buff.Strong.SlowUp.Q.Ming.Duration": {
+      "Tag": "Buff.Strong.SlowUp.Q.Ming.Duration",
+      "DevComment": "明Q技能加速延迟"
+    },
+    "Buff.Strong.SlowUp.Q.Ming.Infinite": {
+      "Tag": "Buff.Strong.SlowUp.Q.Ming.Infinite",
+      "DevComment": "明Q技能加速持续"
+    },
+    "Buff.Weak.SlowDown.X.Ming": {
+      "Tag": "Buff.Weak.SlowDown.X.Ming",
+      "DevComment": "明X技能减速"
+    },
+    "Buff.Strong.ExtraArmor.X.Ming": {
+      "Tag": "Buff.Strong.ExtraArmor.X.Ming",
+      "DevComment": "明X技能额外护甲"
+    },
+    "Buff.Weak.ExtraArmor.X.Ming": {
+      "Tag": "Buff.Weak.ExtraArmor.X.Ming",
+      "DevComment": "明X技能额外护甲衰减"
+    },
+    "Buff.Strong.ArmorRecover.Growth.Shield": {
+      "Tag": "Buff.Strong.ArmorRecover.Growth.Shield",
+      "DevComment": "成长护甲恢复"
+    },
+    "Buff.Strong.ArmorRecover.P.Huixing": {
+      "Tag": "Buff.Strong.ArmorRecover.P.Huixing",
+      "DevComment": "星绘护甲恢复"
+    },
+    "Buff.Strong.ArmorMax.Q.Huixing": {
+      "Tag": "Buff.Strong.ArmorMax.Q.Huixing",
+      "DevComment": "星绘流星盾牌"
+    },
+    "Buff.Strong.ArmorRecover.ArousalThree.Huixing": {
+      "Tag": "Buff.Strong.ArmorRecover.ArousalThree.Huixing",
+      "DevComment": "星绘护甲恢复觉醒3"
+    },
+    "Buff.Strong.ExtraArmor.X.HuiXing": {
+      "Tag": "Buff.Strong.ExtraArmor.X.HuiXing",
+      "DevComment": "星绘X技能额外护甲"
+    },
+    "Buff.Strong.DamageFactor.P.Julian": {
+      "Tag": "Buff.Strong.DamageFactor.P.Julian",
+      "DevComment": "朱利安被动伤害减免"
+    },
+    "Buff.Weak.SlowDown.P.Julian3D": {
+      "Tag": "Buff.Weak.SlowDown.P.Julian3D",
+      "DevComment": "朱利安通用减速3D"
+    },
+    "Buff.Weak.SlowDown.P.Julian2D": {
+      "Tag": "Buff.Weak.SlowDown.P.Julian2D",
+      "DevComment": "朱利安通用减速2D"
+    },
+    "Buff.Weak.SlowDown.P.Julian": {
+      "Tag": "Buff.Weak.SlowDown.P.Julian",
+      "DevComment": "朱利安通用减速"
+    },
+    "Buff.Weak.SlowDown.X.Julian": {
+      "Tag": "Buff.Weak.SlowDown.X.Julian",
+      "DevComment": "朱利安大招减速"
+    },
+    "Buff.Weak.Block2D.X.Maddelena": {
+      "Tag": "Buff.Weak.Block2D.X.Maddelena",
+      "DevComment": "玛德蕾娜水球禁用2D"
+    },
+    "Buff.Weak.Health.X.Audrey.SummonFire": {
+      "Tag": "Buff.Weak.Health.X.Audrey.SummonFire",
+      "DevComment": "奥黛丽X子榴弹燃烧效果"
+    },
+    "Buff.Strong.ExtraArmor.ArousalTwo.Reiichi": {
+      "Tag": "Buff.Strong.ExtraArmor.ArousalTwo.Reiichi",
+      "DevComment": "令一觉醒2临时护甲"
+    },
+    "Buff.Weak.Armor.ArousalTwo.Reiichi": {
+      "Tag": "Buff.Weak.Armor.ArousalTwo.Reiichi",
+      "DevComment": "令一觉醒2无效护甲"
+    },
+    "Buff.Weak.Armor.Delay.ArousalTwo.Reiichi": {
+      "Tag": "Buff.Weak.Armor.Delay.ArousalTwo.Reiichi",
+      "DevComment": "令一觉醒2护甲延迟结束"
+    },
+    "Buff.Weak.SafeZone.Warning": {
+      "Tag": "Buff.Weak.SafeZone.Warning",
+      "DevComment": "团竞危险区域预警"
+    },
+    "Buff.Weak.PreDangerArea": {
+      "Tag": "Buff.Weak.PreDangerArea",
+      "DevComment": "危险区域预警"
+    },
+    "Buff.Weak.DangerArea": {
+      "Tag": "Buff.Weak.DangerArea",
+      "DevComment": "危险区域伤害"
+    },
+    "Buff.Weak.DeathArea": {
+      "Tag": "Buff.Weak.DeathArea",
+      "DevComment": "死亡区域"
+    },
+    "Buff.Weak.BeingAttacked": {
+      "Tag": "Buff.Weak.BeingAttacked",
+      "DevComment": "受击"
+    },
+    "Buff.Strong.GodTime": {
+      "Tag": "Buff.Strong.GodTime",
+      "DevComment": "无敌时间(GameMode)"
+    },
+    "Buff.Weak.FlashGrenade": {
+      "Tag": "Buff.Weak.FlashGrenade",
+      "DevComment": "闪光弹"
+    },
+    "Buff.Weak.FlashGrenade.FirstScetion": {
+      "Tag": "Buff.Weak.FlashGrenade.FirstScetion",
+      "DevComment": "闪光弹第一段效果"
+    },
+    "Buff.Weak.Block2D.P.MoBai": {
+      "Tag": "Buff.Weak.Block2D.P.MoBai",
+      "DevComment": "白墨被动禁用2D"
+    },
+    "Buff.Weak.AlarmGrenade": {
+      "Tag": "Buff.Weak.AlarmGrenade",
+      "DevComment": "警报器"
+    },
+    "Buff.Strong.P.Nobunaga": {
+      "Tag": "Buff.Strong.P.Nobunaga",
+      "DevComment": "信长被动激活标记"
+    },
+    "Buff.Wait.P.Nobunaga": {
+      "Tag": "Buff.Wait.P.Nobunaga",
+      "DevComment": "信长P技能等待时间"
+    },
+    "Buff.Wait.P.Reiichi": {
+      "Tag": "Buff.Wait.P.Reiichi",
+      "DevComment": "令一P技能等待时间"
+    },
+    "Buff.Wait.ArousalTwo.Reiichi.Team": {
+      "Tag": "Buff.Wait.ArousalTwo.Reiichi.Team",
+      "DevComment": "令一觉醒2增加队友护甲CD"
+    },
+    "Buff.Weak.BlockAttack.Primary": {
+      "Tag": "Buff.Weak.BlockAttack.Primary",
+      "DevComment": "禁用主武器攻击"
+    },
+    "Buff.CostIgnore.SkillQ": {
+      "Tag": "Buff.CostIgnore.SkillQ",
+      "DevComment": "Q技能消耗忽略"
+    },
+    "Buff.CostIgnore.SkillE": {
+      "Tag": "Buff.CostIgnore.SkillE",
+      "DevComment": "E技能消耗忽略"
+    },
+    "Buff.CostIgnore.SkillX": {
+      "Tag": "Buff.CostIgnore.SkillX",
+      "DevComment": "X技能消耗忽略"
+    },
+    "Buff.Strong.SkillUp.X.Reiichi": {
+      "Tag": "Buff.Strong.SkillUp.X.Reiichi",
+      "DevComment": "强化光幕"
+    },
+    "Buff.Strong.ArousalThree.Michele": {
+      "Tag": "Buff.Strong.ArousalThree.Michele",
+      "DevComment": "米雪儿觉醒3强化buff"
+    },
+    "Buff.Strong.ArousalTwo.Huixing": {
+      "Tag": "Buff.Strong.ArousalTwo.Huixing",
+      "DevComment": "星绘觉醒2星光携带buff"
+    },
+    "Buff.Weak.GameMode.StealSpar": {
+      "Tag": "Buff.Weak.GameMode.StealSpar",
+      "DevComment": "采矿模式偷矿"
+    },
+    "Buff.Weak.GameMode.PickSpar": {
+      "Tag": "Buff.Weak.GameMode.PickSpar",
+      "DevComment": "采矿模式运矿"
+    },
+    "Buff.Strong.P.Yvette": {
+      "Tag": "Buff.Strong.P.Yvette",
+      "DevComment": "伊薇特被动迷彩buff"
+    },
+    "Buff.Strong.TreatmentGrenade": {
+      "Tag": "Buff.Strong.TreatmentGrenade",
+      "DevComment": "治疗雷"
+    },
+    "Buff.Weak.Vertigo": {
+      "Tag": "Buff.Weak.Vertigo",
+      "DevComment": "眩晕"
+    },
+    "Buff.Weak.Block2D.X.Kanami": {
+      "Tag": "Buff.Weak.Block2D.X.Kanami",
+      "DevComment": "香奈美禁止弦化"
+    },
+    "Buff.Weak.ArousalTwo.Kanami.VertigoTarget": {
+      "Tag": "Buff.Weak.ArousalTwo.Kanami.VertigoTarget",
+      "DevComment": "香奈美觉醒2眩晕锁定目标"
+    },
+    "Buff.Weak.ArousalTwo.Kanami.VertigoCD": {
+      "Tag": "Buff.Weak.ArousalTwo.Kanami.VertigoCD",
+      "DevComment": "香奈美觉醒2眩晕触发CD"
+    },
+    "Buff.GameMode.RichManRescueSelf": {
+      "Tag": "Buff.GameMode.RichManRescueSelf",
+      "DevComment": "晶体战-采矿王自起"
+    },
+    "Buff.Weak.Blind.Flavia": {
+      "Tag": "Buff.Weak.Blind.Flavia",
+      "DevComment": "芙拉薇娅Q技能致盲"
+    },
+    "Buff.Strong.Q.Flavia": {
+      "Tag": "Buff.Strong.Q.Flavia",
+      "DevComment": "芙拉薇娅Q技能反制buff"
+    },
+    "Buff.Flavia.X.Butterfly": {
+      "Tag": "Buff.Flavia.X.Butterfly",
+      "DevComment": "芙拉薇娅X技能等待重生"
+    },
+    "Buff.Flavia.X.DeathProtection": {
+      "Tag": "Buff.Flavia.X.DeathProtection",
+      "DevComment": "芙拉薇娅X技能死亡保护"
+    },
+    "Buff.Aika.P.FireAmmo": {
+      "Tag": "Buff.Aika.P.FireAmmo",
+      "DevComment": "焰弹"
+    },
+    "Buff.Aika.P.FireAmmo.Duration": {
+      "Tag": "Buff.Aika.P.FireAmmo.Duration",
+      "DevComment": "焰弹持续"
+    },
+    "Buff.Aika.P.FireAmmo.Instant": {
+      "Tag": "Buff.Aika.P.FireAmmo.Instant",
+      "DevComment": "焰弹立即"
+    },
+    "Buff.Aika.P.FireAmmo.Damage2D": {
+      "Tag": "Buff.Aika.P.FireAmmo.Damage2D",
+      "DevComment": "焰弹2D增伤"
+    },
+    "Buff.Weak.FireSub.P.Aika": {
+      "Tag": "Buff.Weak.FireSub.P.Aika",
+      "DevComment": "怒气衰减"
+    },
+    "Buff.Aika.Q.InsideDamageDuration": {
+      "Tag": "Buff.Aika.Q.InsideDamageDuration",
+      "DevComment": "火圈内持续伤害"
+    },
+    "Buff.Aika.Q.FireWallDamageInstant": {
+      "Tag": "Buff.Aika.Q.FireWallDamageInstant",
+      "DevComment": "火墙墙体伤害"
+    },
+    "Buff.Aika.CleanEnergy": {
+      "Tag": "Buff.Aika.CleanEnergy",
+      "DevComment": "清怒"
+    },
+    "Buff.Aika.Q.Enhanced.FireInside.Self": {
+      "Tag": "Buff.Aika.Q.Enhanced.FireInside.Self",
+      "DevComment": "红怒Q下自己在范围内的标记"
+    },
+    "Buff.Aika.Q.Enhanced.FireInside.Enemy": {
+      "Tag": "Buff.Aika.Q.Enhanced.FireInside.Enemy",
+      "DevComment": "红怒Q下敌人在范围内的标记"
+    },
+    "Buff.Aika.FullFireEnergy": {
+      "Tag": "Buff.Aika.FullFireEnergy",
+      "DevComment": "艾卡满怒"
+    },
+    "Buff.Aika.NotFullFireEnergy": {
+      "Tag": "Buff.Aika.NotFullFireEnergy",
+      "DevComment": "艾卡没满怒"
+    },
+    "Buff.Aika.X.FireDamage": {
+      "Tag": "Buff.Aika.X.FireDamage",
+      "DevComment": "艾卡普通大招伤害buff"
+    },
+    "Buff.Aika.X.Enhanced.FireDamage": {
+      "Tag": "Buff.Aika.X.Enhanced.FireDamage",
+      "DevComment": "艾卡红怒大招伤害buff"
+    },
+    "Buff.Flavia.X.Sight": {
+      "Tag": "Buff.Flavia.X.Sight",
+      "DevComment": "芙拉薇娅隐身可见标记"
+    },
+    "Buff.Flavia.X.Inside": {
+      "Tag": "Buff.Flavia.X.Inside",
+      "DevComment": "芙拉薇娅大招范围内标记"
+    },
+    "Buff.Strong.X.Fragrans": {
+      "Tag": "Buff.Strong.X.Fragrans",
+      "DevComment": "珐格兰丝大招BUFF"
+    },
+    "Buff.HideSeek.Gain": {
+      "Tag": "Buff.HideSeek.Gain",
+      "DevComment": "躲猫猫逃跑方Buff"
+    },
+    "Buff.HideSeek.DeBuff": {
+      "Tag": "Buff.HideSeek.DeBuff",
+      "DevComment": "躲猫猫逃跑方DeBuff"
+    },
+    "Buff.HideSeek.SpawnDecalDeBuff": {
+      "Tag": "Buff.HideSeek.SpawnDecalDeBuff",
+      "DevComment": "躲猫猫使用喷漆时的DeBuff"
+    },
+    "Buff.HideSeek.ScaleStop": {
+      "Tag": "Buff.HideSeek.ScaleStop",
+      "DevComment": "躲猫猫逃跑方缩放停止"
+    },
+    "Buff.Weak.BlockSecondJump": {
+      "Tag": "Buff.Weak.BlockSecondJump",
+      "DevComment": "禁用二段跳"
+    },
+    "Buff.Strong.ArmorRecover.EscortVehicle": {
+      "Tag": "Buff.Strong.ArmorRecover.EscortVehicle",
+      "DevComment": "护送载具时护甲回复"
+    },
+    "Buff.Strong.HealthRecover.EscortVehicle": {
+      "Tag": "Buff.Strong.HealthRecover.EscortVehicle",
+      "DevComment": "护送载具时生命回复"
+    },
+    "Buff.Strong.AmmoRecover.Primary.EscortVehicle": {
+      "Tag": "Buff.Strong.AmmoRecover.Primary.EscortVehicle",
+      "DevComment": "护送载具时主武器弹药回复"
+    },
+    "Buff.Strong.XPointRecover.EscortVehicle": {
+      "Tag": "Buff.Strong.XPointRecover.EscortVehicle",
+      "DevComment": "护送载具时X点回复"
+    },
+    "Buff.Strong.DelayAddGE.EscortVehicle": {
+      "Tag": "Buff.Strong.DelayAddGE.EscortVehicle",
+      "DevComment": "护送载具时等待增加GE"
+    },
+    "Buff.Strong.SuddenDeathState": {
+      "Tag": "Buff.Strong.SuddenDeathState",
+      "DevComment": "突然死亡状态"
+    },
+    "Buff.Weak.KnockBack": {
+      "Tag": "Buff.Weak.KnockBack",
+      "DevComment": "击退"
+    },
+    "Buff.Strong.ResistKnockBack": {
+      "Tag": "Buff.Strong.ResistKnockBack",
+      "DevComment": "抵抗击退"
+    },
+    "Buff.Rafa.EnergyRecover": {
+      "Tag": "Buff.Rafa.EnergyRecover",
+      "DevComment": "拉法能量恢复"
+    },
+    "Buff.Rafa.EnergyCost": {
+      "Tag": "Buff.Rafa.EnergyCost",
+      "DevComment": "拉法能量消耗"
+    },
+    "Buff.Strong.InvalidArmor": {
+      "Tag": "Buff.Strong.InvalidArmor",
+      "DevComment": "无效护甲复原"
+    },
+    "Buff.Weak.InvalidArmor.Delay": {
+      "Tag": "Buff.Weak.InvalidArmor.Delay",
+      "DevComment": "无效护甲恢复延迟"
+    },
+    "Buff.Weak.InvalidArmor.Value1": {
+      "Tag": "Buff.Weak.InvalidArmor.Value1",
+      "DevComment": "无效护甲1"
+    },
+    "Buff.Weak.InvalidArmor.Value2": {
+      "Tag": "Buff.Weak.InvalidArmor.Value2",
+      "DevComment": "无效护甲2"
+    },
+    "Buff.Weak.InvalidArmor.Value5": {
+      "Tag": "Buff.Weak.InvalidArmor.Value5",
+      "DevComment": "无效护甲5"
+    },
+    "Buff.Strong.DelayAddGE.RestartArea": {
+      "Tag": "Buff.Strong.DelayAddGE.RestartArea",
+      "DevComment": "在重生区域时等待增加GE"
+    },
+    "Buff.Strong.HealthRecover.RestartArea": {
+      "Tag": "Buff.Strong.HealthRecover.RestartArea",
+      "DevComment": "重生区域生命回复"
+    },
+    "Buff.Strong.ArmorRecover.RestartArea": {
+      "Tag": "Buff.Strong.ArmorRecover.RestartArea",
+      "DevComment": "重生区域护甲回复"
+    },
+    "Buff.Strong.AmmoRecover.Primary.RestartArea": {
+      "Tag": "Buff.Strong.AmmoRecover.Primary.RestartArea",
+      "DevComment": "重生区域主武器弹药回复"
     }
   }
-]
+}

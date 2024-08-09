@@ -1,191 +1,189 @@
-[
-  {
-    "Type": "DataTable",
-    "Name": "DT_Guide_NoviceGuide_MediaGuide",
-    "Class": "UScriptClass'DataTable'",
-    "Properties": {
-      "RowStruct": {
-        "ObjectName": "ScriptStruct'CyGuideMediaGuideConfig'",
-        "ObjectPath": "/Script/PMGame"
-      }
+{
+  "Type": "DataTable",
+  "Name": "DT_Guide_NoviceGuide_MediaGuide",
+  "Class": "UScriptClass'DataTable'",
+  "Properties": {
+    "RowStruct": {
+      "ObjectName": "ScriptStruct'CyGuideMediaGuideConfig'",
+      "ObjectPath": "/Script/PMGame"
+    }
+  },
+  "Rows": {
+    "Slide": {
+      "Id": 1,
+      "Title": {
+        "Namespace": "",
+        "Key": "10293F4741DCBC7D7F418AB5FFF9420E",
+        "SourceString": "贴墙教学",
+        "LocalizedString": "贴墙教学"
+      },
+      "FormatInputKeyMap": [],
+      "Content": {
+        "Namespace": "",
+        "Key": "39ACF4EB4C5362F4944DDD881A3F408A",
+        "SourceString": "游戏场景中，带有<NoviceGuide_UITips_Red>“滑行标识”</>的墙面，玩家靠近后可使用<NoviceGuide_UITips_Red>【弦化按钮】/【跳跃按钮】</>释放弦化能力，依附于表面并通过移动轮盘在特殊墙面上进行平面移动。通过再次单击<NoviceGuide_UITips_Red>【弦化按钮】/【跳跃按钮】</>解除弦化。",
+        "LocalizedString": "游戏场景中，带有<NoviceGuide_UITips_Red>“滑行标识”</>的墙面，玩家靠近后可使用<NoviceGuide_UITips_Red>【弦化按钮】/【跳跃按钮】</>释放弦化能力，依附于表面并通过移动轮盘在特殊墙面上进行平面移动。通过再次单击<NoviceGuide_UITips_Red>【弦化按钮】/【跳跃按钮】</>解除弦化。"
+      },
+      "ContentText": {
+        "CultureInvariantString": null
+      },
+      "Media": {
+        "ObjectName": "FileMediaSource'UI_NoviceGuide_BaseGuide_Slide_MB_mp4'",
+        "ObjectPath": "PM/Content/PaperMan/UI/Movies/VideoFile/UI_NoviceGuide_BaseGuide_Slide_MB_mp4.0"
+      },
+      "TriggerEvents": [
+        {
+          "UniqueName": "400",
+          "EventGameplayTag": {
+            "TagName": "None"
+          },
+          "EventType": "ECyGuideEventType::GuideTriggerArea",
+          "WeaponEventType": "ECyGuideWeaponEventType::None",
+          "GuideStateType": "ECyGuideStateType::None",
+          "GuideTaskStateType": "ECyGuideTaskStateType::None",
+          "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
+          "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
+          "GuideTriggerAreaType": "ECyGuideTriggerAreaType::GuideTips",
+          "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
+          "SequenceStateType": "ECySequenceStateType::None",
+          "ActionType": "ECyGuideActionType::None",
+          "MeshModeType": "EMeshModeType::Normal",
+          "GameStateType": "EGStateType::None",
+          "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
+        }
+      ]
     },
-    "Rows": {
-      "Slide": {
-        "Id": 1,
-        "Title": {
-          "Namespace": "",
-          "Key": "10293F4741DCBC7D7F418AB5FFF9420E",
-          "SourceString": "贴墙教学",
-          "LocalizedString": "贴墙教学"
-        },
-        "FormatInputKeyMap": [],
-        "Content": {
-          "Namespace": "",
-          "Key": "39ACF4EB4C5362F4944DDD881A3F408A",
-          "SourceString": "游戏场景中，带有<NoviceGuide_UITips_Red>“滑行标识”</>的墙面，玩家靠近后可使用<NoviceGuide_UITips_Red>【弦化按钮】/【跳跃按钮】</>释放弦化能力，依附于表面并通过移动轮盘在特殊墙面上进行平面移动。通过再次单击<NoviceGuide_UITips_Red>【弦化按钮】/【跳跃按钮】</>解除弦化。",
-          "LocalizedString": "游戏场景中，带有<NoviceGuide_UITips_Red>“滑行标识”</>的墙面，玩家靠近后可使用<NoviceGuide_UITips_Red>【弦化按钮】/【跳跃按钮】</>释放弦化能力，依附于表面并通过移动轮盘在特殊墙面上进行平面移动。通过再次单击<NoviceGuide_UITips_Red>【弦化按钮】/【跳跃按钮】</>解除弦化。"
-        },
-        "ContentText": {
-          "CultureInvariantString": null
-        },
-        "Media": {
-          "ObjectName": "FileMediaSource'UI_NoviceGuide_BaseGuide_Slide_MB_mp4'",
-          "ObjectPath": "PM/Content/PaperMan/UI/Movies/VideoFile/UI_NoviceGuide_BaseGuide_Slide_MB_mp4.0"
-        },
-        "TriggerEvents": [
-          {
-            "UniqueName": "400",
-            "EventGameplayTag": {
-              "TagName": "None"
-            },
-            "EventType": "ECyGuideEventType::GuideTriggerArea",
-            "WeaponEventType": "ECyGuideWeaponEventType::None",
-            "GuideStateType": "ECyGuideStateType::None",
-            "GuideTaskStateType": "ECyGuideTaskStateType::None",
-            "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
-            "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
-            "GuideTriggerAreaType": "ECyGuideTriggerAreaType::GuideTips",
-            "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
-            "SequenceStateType": "ECySequenceStateType::None",
-            "ActionType": "ECyGuideActionType::None",
-            "MeshModeType": "EMeshModeType::Normal",
-            "GameStateType": "EGStateType::None",
-            "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
-          }
-        ]
+    "Glide": {
+      "Id": 2,
+      "Title": {
+        "Namespace": "",
+        "Key": "0907F3854CC7009ABD39F1BBC3ECFFFF",
+        "SourceString": "飘飞教学",
+        "LocalizedString": "飘飞教学"
       },
-      "Glide": {
-        "Id": 2,
-        "Title": {
-          "Namespace": "",
-          "Key": "0907F3854CC7009ABD39F1BBC3ECFFFF",
-          "SourceString": "飘飞教学",
-          "LocalizedString": "飘飞教学"
-        },
-        "FormatInputKeyMap": [],
-        "Content": {
-          "Namespace": "",
-          "Key": "0D0276814A9B480228EFE6B8469109ED",
-          "SourceString": "游戏中，玩家二段跳后，玩家可单击<NoviceGuide_UITips_Red>【弦化按钮】/【跳跃按钮】</>使用弦化能力转变为飘飞状态，配合移动轮盘在空中飘飞。通过再次单击<NoviceGuide_UITips_Red>【弦化按钮】/【开火按钮】</>解除弦化。当玩家正朝向飞至可滑行墙面时，可自动贴墙。",
-          "LocalizedString": "游戏中，玩家二段跳后，玩家可单击<NoviceGuide_UITips_Red>【弦化按钮】/【跳跃按钮】</>使用弦化能力转变为飘飞状态，配合移动轮盘在空中飘飞。通过再次单击<NoviceGuide_UITips_Red>【弦化按钮】/【开火按钮】</>解除弦化。当玩家正朝向飞至可滑行墙面时，可自动贴墙。"
-        },
-        "ContentText": {
-          "CultureInvariantString": null
-        },
-        "Media": {
-          "ObjectName": "FileMediaSource'UI_NoviceGuide_BaseGuide_Glide_MB'",
-          "ObjectPath": "PM/Content/PaperMan/UI/Movies/VideoFile/UI_NoviceGuide_BaseGuide_Glide_MB.0"
-        },
-        "TriggerEvents": [
-          {
-            "UniqueName": "500",
-            "EventGameplayTag": {
-              "TagName": "None"
-            },
-            "EventType": "ECyGuideEventType::GuideTriggerArea",
-            "WeaponEventType": "ECyGuideWeaponEventType::None",
-            "GuideStateType": "ECyGuideStateType::None",
-            "GuideTaskStateType": "ECyGuideTaskStateType::None",
-            "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
-            "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
-            "GuideTriggerAreaType": "ECyGuideTriggerAreaType::GuideTips",
-            "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
-            "SequenceStateType": "ECySequenceStateType::None",
-            "ActionType": "ECyGuideActionType::None",
-            "MeshModeType": "EMeshModeType::Normal",
-            "GameStateType": "EGStateType::None",
-            "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
-          }
-        ]
+      "FormatInputKeyMap": [],
+      "Content": {
+        "Namespace": "",
+        "Key": "0D0276814A9B480228EFE6B8469109ED",
+        "SourceString": "游戏中，玩家二段跳后，玩家可单击<NoviceGuide_UITips_Red>【弦化按钮】/【跳跃按钮】</>使用弦化能力转变为飘飞状态，配合移动轮盘在空中飘飞。通过再次单击<NoviceGuide_UITips_Red>【弦化按钮】/【开火按钮】</>解除弦化。当玩家正朝向飞至可滑行墙面时，可自动贴墙。",
+        "LocalizedString": "游戏中，玩家二段跳后，玩家可单击<NoviceGuide_UITips_Red>【弦化按钮】/【跳跃按钮】</>使用弦化能力转变为飘飞状态，配合移动轮盘在空中飘飞。通过再次单击<NoviceGuide_UITips_Red>【弦化按钮】/【开火按钮】</>解除弦化。当玩家正朝向飞至可滑行墙面时，可自动贴墙。"
       },
-      "SideWay": {
-        "Id": 3,
-        "Title": {
-          "Namespace": "",
-          "Key": "1BCCCB604549C53B5A62548164ADD3FF",
-          "SourceString": "侧身教学",
-          "LocalizedString": "侧身教学"
-        },
-        "FormatInputKeyMap": [],
-        "Content": {
-          "Namespace": "",
-          "Key": "4606080C4B9E8688BB22A4AE6C744D7B",
-          "SourceString": "游戏中，当玩家处于地面时，玩家单击<NoviceGuide_UITips_Red>【弦化按钮】</>使用弦化能力转变为侧身状态，缩小自身体积通过特殊窄道/躲避子弹。通过再次单击<NoviceGuide_UITips_Red>【弦化按钮】</>/<NoviceGuide_UITips_Red>【开火按钮】</>解除弦化。",
-          "LocalizedString": "游戏中，当玩家处于地面时，玩家单击<NoviceGuide_UITips_Red>【弦化按钮】</>使用弦化能力转变为侧身状态，缩小自身体积通过特殊窄道/躲避子弹。通过再次单击<NoviceGuide_UITips_Red>【弦化按钮】</>/<NoviceGuide_UITips_Red>【开火按钮】</>解除弦化。"
-        },
-        "ContentText": {
-          "CultureInvariantString": null
-        },
-        "Media": {
-          "ObjectName": "FileMediaSource'UI_NoviceGuide_BaseGuide_SideWay_MB'",
-          "ObjectPath": "PM/Content/PaperMan/UI/Movies/VideoFile/UI_NoviceGuide_BaseGuide_SideWay_MB.0"
-        },
-        "TriggerEvents": [
-          {
-            "UniqueName": "600",
-            "EventGameplayTag": {
-              "TagName": "None"
-            },
-            "EventType": "ECyGuideEventType::GuideTriggerArea",
-            "WeaponEventType": "ECyGuideWeaponEventType::None",
-            "GuideStateType": "ECyGuideStateType::None",
-            "GuideTaskStateType": "ECyGuideTaskStateType::None",
-            "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
-            "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
-            "GuideTriggerAreaType": "ECyGuideTriggerAreaType::GuideTips",
-            "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
-            "SequenceStateType": "ECySequenceStateType::None",
-            "ActionType": "ECyGuideActionType::None",
-            "MeshModeType": "EMeshModeType::Normal",
-            "GameStateType": "EGStateType::None",
-            "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
-          }
-        ]
+      "ContentText": {
+        "CultureInvariantString": null
       },
-      "OpenFire": {
-        "Id": 4,
-        "Title": {
-          "Namespace": "",
-          "Key": "6031A4EE4F0A5BC1FA1FE7A6AC7DE5B8",
-          "SourceString": "开火设置更改",
-          "LocalizedString": "开火设置更改"
-        },
-        "FormatInputKeyMap": [],
-        "Content": {
-          "Namespace": "",
-          "Key": "5DB722004B6391AE428F84ACC7404583",
-          "SourceString": "玩家可以在<NoviceGuide_UITips_Red>【设置】</>界面中，根据操作习惯选择合适的<NoviceGuide_UITips_Red>【操作方式】</>预设，提升实战表现。",
-          "LocalizedString": "玩家可以在<NoviceGuide_UITips_Red>【设置】</>界面中，根据操作习惯选择合适的<NoviceGuide_UITips_Red>【操作方式】</>预设，提升实战表现。"
-        },
-        "ContentText": {
-          "CultureInvariantString": null
-        },
-        "Media": {
-          "ObjectName": "FileMediaSource'UI_NoviceGuide_BaseGuide_OpenFire_MB'",
-          "ObjectPath": "PM/Content/PaperMan/UI/Movies/VideoFile/UI_NoviceGuide_BaseGuide_OpenFire_MB.0"
-        },
-        "TriggerEvents": [
-          {
-            "UniqueName": "11",
-            "EventGameplayTag": {
-              "TagName": "None"
-            },
-            "EventType": "ECyGuideEventType::GuideTask",
-            "WeaponEventType": "ECyGuideWeaponEventType::None",
-            "GuideStateType": "ECyGuideStateType::None",
-            "GuideTaskStateType": "ECyGuideTaskStateType::Finish",
-            "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
-            "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
-            "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
-            "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
-            "SequenceStateType": "ECySequenceStateType::None",
-            "ActionType": "ECyGuideActionType::None",
-            "MeshModeType": "EMeshModeType::Normal",
-            "GameStateType": "EGStateType::None",
-            "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
-          }
-        ]
-      }
+      "Media": {
+        "ObjectName": "FileMediaSource'UI_NoviceGuide_BaseGuide_Glide_MB'",
+        "ObjectPath": "PM/Content/PaperMan/UI/Movies/VideoFile/UI_NoviceGuide_BaseGuide_Glide_MB.0"
+      },
+      "TriggerEvents": [
+        {
+          "UniqueName": "500",
+          "EventGameplayTag": {
+            "TagName": "None"
+          },
+          "EventType": "ECyGuideEventType::GuideTriggerArea",
+          "WeaponEventType": "ECyGuideWeaponEventType::None",
+          "GuideStateType": "ECyGuideStateType::None",
+          "GuideTaskStateType": "ECyGuideTaskStateType::None",
+          "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
+          "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
+          "GuideTriggerAreaType": "ECyGuideTriggerAreaType::GuideTips",
+          "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
+          "SequenceStateType": "ECySequenceStateType::None",
+          "ActionType": "ECyGuideActionType::None",
+          "MeshModeType": "EMeshModeType::Normal",
+          "GameStateType": "EGStateType::None",
+          "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
+        }
+      ]
+    },
+    "SideWay": {
+      "Id": 3,
+      "Title": {
+        "Namespace": "",
+        "Key": "1BCCCB604549C53B5A62548164ADD3FF",
+        "SourceString": "侧身教学",
+        "LocalizedString": "侧身教学"
+      },
+      "FormatInputKeyMap": [],
+      "Content": {
+        "Namespace": "",
+        "Key": "4606080C4B9E8688BB22A4AE6C744D7B",
+        "SourceString": "游戏中，当玩家处于地面时，玩家单击<NoviceGuide_UITips_Red>【弦化按钮】</>使用弦化能力转变为侧身状态，缩小自身体积通过特殊窄道/躲避子弹。通过再次单击<NoviceGuide_UITips_Red>【弦化按钮】</>/<NoviceGuide_UITips_Red>【开火按钮】</>解除弦化。",
+        "LocalizedString": "游戏中，当玩家处于地面时，玩家单击<NoviceGuide_UITips_Red>【弦化按钮】</>使用弦化能力转变为侧身状态，缩小自身体积通过特殊窄道/躲避子弹。通过再次单击<NoviceGuide_UITips_Red>【弦化按钮】</>/<NoviceGuide_UITips_Red>【开火按钮】</>解除弦化。"
+      },
+      "ContentText": {
+        "CultureInvariantString": null
+      },
+      "Media": {
+        "ObjectName": "FileMediaSource'UI_NoviceGuide_BaseGuide_SideWay_MB'",
+        "ObjectPath": "PM/Content/PaperMan/UI/Movies/VideoFile/UI_NoviceGuide_BaseGuide_SideWay_MB.0"
+      },
+      "TriggerEvents": [
+        {
+          "UniqueName": "600",
+          "EventGameplayTag": {
+            "TagName": "None"
+          },
+          "EventType": "ECyGuideEventType::GuideTriggerArea",
+          "WeaponEventType": "ECyGuideWeaponEventType::None",
+          "GuideStateType": "ECyGuideStateType::None",
+          "GuideTaskStateType": "ECyGuideTaskStateType::None",
+          "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
+          "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
+          "GuideTriggerAreaType": "ECyGuideTriggerAreaType::GuideTips",
+          "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
+          "SequenceStateType": "ECySequenceStateType::None",
+          "ActionType": "ECyGuideActionType::None",
+          "MeshModeType": "EMeshModeType::Normal",
+          "GameStateType": "EGStateType::None",
+          "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
+        }
+      ]
+    },
+    "OpenFire": {
+      "Id": 4,
+      "Title": {
+        "Namespace": "",
+        "Key": "6031A4EE4F0A5BC1FA1FE7A6AC7DE5B8",
+        "SourceString": "开火设置更改",
+        "LocalizedString": "开火设置更改"
+      },
+      "FormatInputKeyMap": [],
+      "Content": {
+        "Namespace": "",
+        "Key": "5DB722004B6391AE428F84ACC7404583",
+        "SourceString": "玩家可以在<NoviceGuide_UITips_Red>【设置】</>界面中，根据操作习惯选择合适的<NoviceGuide_UITips_Red>【操作方式】</>预设，提升实战表现。",
+        "LocalizedString": "玩家可以在<NoviceGuide_UITips_Red>【设置】</>界面中，根据操作习惯选择合适的<NoviceGuide_UITips_Red>【操作方式】</>预设，提升实战表现。"
+      },
+      "ContentText": {
+        "CultureInvariantString": null
+      },
+      "Media": {
+        "ObjectName": "FileMediaSource'UI_NoviceGuide_BaseGuide_OpenFire_MB'",
+        "ObjectPath": "PM/Content/PaperMan/UI/Movies/VideoFile/UI_NoviceGuide_BaseGuide_OpenFire_MB.0"
+      },
+      "TriggerEvents": [
+        {
+          "UniqueName": "11",
+          "EventGameplayTag": {
+            "TagName": "None"
+          },
+          "EventType": "ECyGuideEventType::GuideTask",
+          "WeaponEventType": "ECyGuideWeaponEventType::None",
+          "GuideStateType": "ECyGuideStateType::None",
+          "GuideTaskStateType": "ECyGuideTaskStateType::Finish",
+          "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
+          "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
+          "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
+          "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
+          "SequenceStateType": "ECySequenceStateType::None",
+          "ActionType": "ECyGuideActionType::None",
+          "MeshModeType": "EMeshModeType::Normal",
+          "GameStateType": "EGStateType::None",
+          "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
+        }
+      ]
     }
   }
-]
+}

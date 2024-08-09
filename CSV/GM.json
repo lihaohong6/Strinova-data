@@ -1,2296 +1,2294 @@
-[
-  {
-    "Type": "DataTable",
-    "Name": "GM",
-    "Class": "UScriptClass'DataTable'",
-    "Properties": {
-      "RowStruct": {
-        "ObjectName": "ScriptStruct'CyGMTableRow'",
-        "ObjectPath": "/Script/PMGame"
-      }
+{
+  "Type": "DataTable",
+  "Name": "GM",
+  "Class": "UScriptClass'DataTable'",
+  "Properties": {
+    "RowStruct": {
+      "ObjectName": "ScriptStruct'CyGMTableRow'",
+      "ObjectPath": "/Script/PMGame"
+    }
+  },
+  "Rows": {
+    "1": {
+      "Id": 1,
+      "Name": "GiveWeapon",
+      "VariableList": [
+        {
+          "ParamName": {
+            "Namespace": "GM",
+            "Key": "1_VariableList_Index0_ParamName",
+            "SourceString": "武器Id",
+            "LocalizedString": "武器Id"
+          },
+          "ParamType": "DefaultWeapon"
+        }
+      ],
+      "Type1": "Character",
+      "Desc": {
+        "Namespace": "GM",
+        "Key": "1_Desc",
+        "SourceString": "更换武器",
+        "LocalizedString": "更换武器"
+      },
+      "IsServerGm": true,
+      "IsHide": false,
+      "IsCopy": false,
+      "IsMulticast": false
     },
-    "Rows": {
-      "1": {
-        "Id": 1,
-        "Name": "GiveWeapon",
-        "VariableList": [
-          {
-            "ParamName": {
-              "Namespace": "GM",
-              "Key": "1_VariableList_Index0_ParamName",
-              "SourceString": "武器Id",
-              "LocalizedString": "武器Id"
-            },
-            "ParamType": "DefaultWeapon"
-          }
-        ],
-        "Type1": "Character",
-        "Desc": {
-          "Namespace": "GM",
-          "Key": "1_Desc",
-          "SourceString": "更换武器",
-          "LocalizedString": "更换武器"
-        },
-        "IsServerGm": true,
-        "IsHide": false,
-        "IsCopy": false,
-        "IsMulticast": false
-      },
-      "2": {
-        "Id": 2,
-        "Name": "GiveWeapon",
-        "VariableList": [
-          {
-            "ParamName": {
-              "Namespace": "GM",
-              "Key": "2_VariableList_Index0_ParamName",
-              "SourceString": "皮肤Id",
-              "LocalizedString": "皮肤Id"
-            },
-            "ParamType": "WeaponSkin"
-          }
-        ],
-        "Type1": "Character",
-        "Desc": {
-          "Namespace": "GM",
-          "Key": "2_Desc",
-          "SourceString": "切换武器皮肤",
-          "LocalizedString": "切换武器皮肤"
-        },
-        "IsServerGm": true,
-        "IsHide": false,
-        "IsCopy": false,
-        "IsMulticast": false
-      },
-      "3": {
-        "Id": 3,
-        "Name": "ChangeRole",
-        "VariableList": [
-          {
-            "ParamName": {
-              "Namespace": "GM",
-              "Key": "3_VariableList_Index0_ParamName",
-              "SourceString": "角色Id",
-              "LocalizedString": "角色Id"
-            },
-            "ParamType": "Role"
-          }
-        ],
-        "Type1": "Character",
-        "Desc": {
-          "Namespace": "GM",
-          "Key": "3_Desc",
-          "SourceString": "更换角色",
-          "LocalizedString": "更换角色"
-        },
-        "IsServerGm": true,
-        "IsHide": false,
-        "IsCopy": false,
-        "IsMulticast": false
-      },
-      "4": {
-        "Id": 4,
-        "Name": "SetCharacterSkinID",
-        "VariableList": [
-          {
-            "ParamName": {
-              "Namespace": "GM",
-              "Key": "4_VariableList_Index0_ParamName",
-              "SourceString": "皮肤Id",
-              "LocalizedString": "皮肤Id"
-            },
-            "ParamType": "RoleSkin"
-          }
-        ],
-        "Type1": "Character",
-        "Desc": {
-          "Namespace": "GM",
-          "Key": "4_Desc",
-          "SourceString": "切换角色皮肤",
-          "LocalizedString": "切换角色皮肤"
-        },
-        "IsServerGm": true,
-        "IsHide": false,
-        "IsCopy": false,
-        "IsMulticast": false
-      },
-      "5": {
-        "Id": 5,
-        "Name": "AddGrowthPoint",
-        "VariableList": [
-          {
-            "ParamName": {
-              "Namespace": "GM",
-              "Key": "5_VariableList_Index0_ParamName",
-              "SourceString": "数量",
-              "LocalizedString": "数量"
-            },
-            "ParamType": "None"
-          }
-        ],
-        "Type1": "Character",
-        "Desc": {
-          "Namespace": "GM",
-          "Key": "5_Desc",
-          "SourceString": "增加成长点数",
-          "LocalizedString": "增加成长点数"
-        },
-        "IsServerGm": true,
-        "IsHide": false,
-        "IsCopy": false,
-        "IsMulticast": false
-      },
-      "6": {
-        "Id": 6,
-        "Name": "FullGrowthLevel",
-        "VariableList": [],
-        "Type1": "Character",
-        "Desc": {
-          "Namespace": "GM",
-          "Key": "6_Desc",
-          "SourceString": "成长满级",
-          "LocalizedString": "成长满级"
-        },
-        "IsServerGm": true,
-        "IsHide": false,
-        "IsCopy": false,
-        "IsMulticast": false
-      },
-      "7": {
-        "Id": 7,
-        "Name": "SwitchArousal",
-        "VariableList": [],
-        "Type1": "Character",
-        "Desc": {
-          "Namespace": "GM",
-          "Key": "7_Desc",
-          "SourceString": "切换觉醒2和3",
-          "LocalizedString": "切换觉醒2和3"
-        },
-        "IsServerGm": true,
-        "IsHide": false,
-        "IsCopy": false,
-        "IsMulticast": false
-      },
-      "8": {
-        "Id": 8,
-        "Name": "SetUltimateChargeCount",
-        "VariableList": [
-          {
-            "ParamName": {
-              "Namespace": "GM",
-              "Key": "8_VariableList_Index0_ParamName",
-              "SourceString": "绝招点数",
-              "LocalizedString": "绝招点数"
-            },
-            "ParamType": "None"
-          }
-        ],
-        "Type1": "Character",
-        "Desc": {
-          "Namespace": "GM",
-          "Key": "8_Desc",
-          "SourceString": "设置绝招点数",
-          "LocalizedString": "设置绝招点数"
-        },
-        "IsServerGm": true,
-        "IsHide": false,
-        "IsCopy": false,
-        "IsMulticast": false
-      },
-      "9": {
-        "Id": 9,
-        "Name": "AddSkillQFullPoints",
-        "VariableList": [],
-        "Type1": "Character",
-        "Desc": {
-          "Namespace": "GM",
-          "Key": "9_Desc",
-          "SourceString": "设置Q技能满点",
-          "LocalizedString": "设置Q技能满点"
-        },
-        "IsServerGm": true,
-        "IsHide": false,
-        "IsCopy": false,
-        "IsMulticast": false
-      },
-      "10": {
-        "Id": 10,
-        "Name": "ToggleIgnoreAbilitySystemCooldowns",
-        "VariableList": [],
-        "Type1": "Character",
-        "Desc": {
-          "Namespace": "GM",
-          "Key": "10_Desc",
-          "SourceString": "是否忽略使用技能冷却时间",
-          "LocalizedString": "是否忽略使用技能冷却时间"
-        },
-        "IsServerGm": true,
-        "IsHide": false,
-        "IsCopy": false,
-        "IsMulticast": false
-      },
-      "11": {
-        "Id": 11,
-        "Name": "ToggleIgnoreAbilitySystemCosts",
-        "VariableList": [],
-        "Type1": "Character",
-        "Desc": {
-          "Namespace": "GM",
-          "Key": "11_Desc",
-          "SourceString": "是否忽略使用技能消耗",
-          "LocalizedString": "是否忽略使用技能消耗"
-        },
-        "IsServerGm": true,
-        "IsHide": false,
-        "IsCopy": false,
-        "IsMulticast": false
-      },
-      "12": {
-        "Id": 12,
-        "Name": "SetCharacterHealth",
-        "VariableList": [
-          {
-            "ParamName": {
-              "Namespace": "GM",
-              "Key": "12_VariableList_Index0_ParamName",
-              "SourceString": "当前值",
-              "LocalizedString": "当前值"
-            },
-            "ParamType": "None"
+    "2": {
+      "Id": 2,
+      "Name": "GiveWeapon",
+      "VariableList": [
+        {
+          "ParamName": {
+            "Namespace": "GM",
+            "Key": "2_VariableList_Index0_ParamName",
+            "SourceString": "皮肤Id",
+            "LocalizedString": "皮肤Id"
           },
-          {
-            "ParamName": {
-              "Namespace": "GM",
-              "Key": "12_VariableList_Index1_ParamName",
-              "SourceString": "最大值",
-              "LocalizedString": "最大值"
-            },
-            "ParamType": "None"
-          }
-        ],
-        "Type1": "Character",
-        "Desc": {
-          "Namespace": "GM",
-          "Key": "12_Desc",
-          "SourceString": "设置角色血量",
-          "LocalizedString": "设置角色血量"
-        },
-        "IsServerGm": true,
-        "IsHide": false,
-        "IsCopy": false,
-        "IsMulticast": false
+          "ParamType": "WeaponSkin"
+        }
+      ],
+      "Type1": "Character",
+      "Desc": {
+        "Namespace": "GM",
+        "Key": "2_Desc",
+        "SourceString": "切换武器皮肤",
+        "LocalizedString": "切换武器皮肤"
       },
-      "13": {
-        "Id": 13,
-        "Name": "SetCharacterArmor",
-        "VariableList": [
-          {
-            "ParamName": {
-              "Namespace": "GM",
-              "Key": "13_VariableList_Index0_ParamName",
-              "SourceString": "当前值",
-              "LocalizedString": "当前值"
-            },
-            "ParamType": "None"
+      "IsServerGm": true,
+      "IsHide": false,
+      "IsCopy": false,
+      "IsMulticast": false
+    },
+    "3": {
+      "Id": 3,
+      "Name": "ChangeRole",
+      "VariableList": [
+        {
+          "ParamName": {
+            "Namespace": "GM",
+            "Key": "3_VariableList_Index0_ParamName",
+            "SourceString": "角色Id",
+            "LocalizedString": "角色Id"
           },
-          {
-            "ParamName": {
-              "Namespace": "GM",
-              "Key": "13_VariableList_Index1_ParamName",
-              "SourceString": "最大值",
-              "LocalizedString": "最大值"
-            },
-            "ParamType": "None"
-          }
-        ],
-        "Type1": "Character",
-        "Desc": {
-          "Namespace": "GM",
-          "Key": "13_Desc",
-          "SourceString": "设置角色护甲",
-          "LocalizedString": "设置角色护甲"
-        },
-        "IsServerGm": true,
-        "IsHide": false,
-        "IsCopy": false,
-        "IsMulticast": false
+          "ParamType": "Role"
+        }
+      ],
+      "Type1": "Character",
+      "Desc": {
+        "Namespace": "GM",
+        "Key": "3_Desc",
+        "SourceString": "更换角色",
+        "LocalizedString": "更换角色"
       },
-      "14": {
-        "Id": 14,
-        "Name": "SetPlayerName",
-        "VariableList": [
-          {
-            "ParamName": {
-              "Namespace": "GM",
-              "Key": "14_VariableList_Index0_ParamName",
-              "SourceString": "名字",
-              "LocalizedString": "名字"
-            },
-            "ParamType": "None"
-          }
-        ],
-        "Type1": "Character",
-        "Desc": {
-          "Namespace": "GM",
-          "Key": "14_Desc",
-          "SourceString": "设置玩家名字",
-          "LocalizedString": "设置玩家名字"
-        },
-        "IsServerGm": true,
-        "IsHide": true,
-        "IsCopy": false,
-        "IsMulticast": false
-      },
-      "15": {
-        "Id": 15,
-        "Name": "SevereInjured",
-        "VariableList": [],
-        "Type1": "Character",
-        "Desc": {
-          "Namespace": "GM",
-          "Key": "15_Desc",
-          "SourceString": "濒死",
-          "LocalizedString": "濒死"
-        },
-        "IsServerGm": true,
-        "IsHide": false,
-        "IsCopy": false,
-        "IsMulticast": false
-      },
-      "16": {
-        "Id": 16,
-        "Name": "DamageSelf",
-        "VariableList": [
-          {
-            "ParamName": {
-              "Namespace": "GM",
-              "Key": "16_VariableList_Index0_ParamName",
-              "SourceString": "数值",
-              "LocalizedString": "数值"
-            },
-            "ParamType": "None"
-          }
-        ],
-        "Type1": "Character",
-        "Desc": {
-          "Namespace": "GM",
-          "Key": "16_Desc",
-          "SourceString": "自伤",
-          "LocalizedString": "自伤"
-        },
-        "IsServerGm": true,
-        "IsHide": false,
-        "IsCopy": false,
-        "IsMulticast": false
-      },
-      "17": {
-        "Id": 17,
-        "Name": "Recover",
-        "VariableList": [],
-        "Type1": "Character",
-        "Desc": {
-          "Namespace": "GM",
-          "Key": "17_Desc",
-          "SourceString": "濒死恢复",
-          "LocalizedString": "濒死恢复"
-        },
-        "IsServerGm": true,
-        "IsHide": false,
-        "IsCopy": false,
-        "IsMulticast": false
-      },
-      "18": {
-        "Id": 18,
-        "Name": "Suicide",
-        "VariableList": [],
-        "Type1": "Character",
-        "Desc": {
-          "Namespace": "GM",
-          "Key": "18_Desc",
-          "SourceString": "自杀",
-          "LocalizedString": "自杀"
-        },
-        "IsServerGm": true,
-        "IsHide": false,
-        "IsCopy": false,
-        "IsMulticast": false
-      },
-      "19": {
-        "Id": 19,
-        "Name": "DisplayGrowthInfo",
-        "VariableList": [],
-        "Type1": "Character",
-        "Desc": {
-          "Namespace": "GM",
-          "Key": "19_Desc",
-          "SourceString": "打印枪械属性",
-          "LocalizedString": "打印枪械属性"
-        },
-        "IsServerGm": false,
-        "IsHide": false,
-        "IsCopy": false,
-        "IsMulticast": false
-      },
-      "20": {
-        "Id": 20,
-        "Name": "SetSparNum",
-        "VariableList": [
-          {
-            "ParamName": {
-              "Namespace": "GM",
-              "Key": "20_VariableList_Index0_ParamName",
-              "SourceString": "数量",
-              "LocalizedString": "数量"
-            },
-            "ParamType": "None"
-          }
-        ],
-        "Type1": "Character",
-        "Desc": {
-          "Namespace": "GM",
-          "Key": "20_Desc",
-          "SourceString": "设置晶体数量",
-          "LocalizedString": "设置晶体数量"
-        },
-        "IsServerGm": true,
-        "IsHide": false,
-        "IsCopy": false,
-        "IsMulticast": false
-      },
-      "21": {
-        "Id": 21,
-        "Name": "ShowDebug PlayerState",
-        "VariableList": [],
-        "Type1": "Character",
-        "Desc": {
-          "Namespace": "GM",
-          "Key": "21_Desc",
-          "SourceString": "显示角色状态",
-          "LocalizedString": "显示角色状态"
-        },
-        "IsServerGm": false,
-        "IsHide": false,
-        "IsCopy": false,
-        "IsMulticast": false
-      },
-      "22": {
-        "Id": 22,
-        "Name": "Cy.EnableADSMotion",
-        "VariableList": [
-          {
-            "ParamName": {
-              "Namespace": "GM",
-              "Key": "22_VariableList_Index0_ParamName",
-              "SourceString": "开启:1，关闭:0",
-              "LocalizedString": "开启:1，关闭:0"
-            },
-            "ParamType": "None"
-          }
-        ],
-        "Type1": "Character",
-        "Desc": {
-          "Namespace": "GM",
-          "Key": "22_Desc",
-          "SourceString": "开镜时是否需要呼吸动态",
-          "LocalizedString": "开镜时是否需要呼吸动态"
-        },
-        "IsServerGm": false,
-        "IsHide": false,
-        "IsCopy": false,
-        "IsMulticast": false
-      },
-      "23": {
-        "Id": 23,
-        "Name": "RandomAllSkin",
-        "VariableList": [],
-        "Type1": "Character",
-        "Desc": {
-          "Namespace": "GM",
-          "Key": "23_Desc",
-          "SourceString": "随机所有角色和主武器皮肤",
-          "LocalizedString": "随机所有角色和主武器皮肤"
-        },
-        "IsServerGm": true,
-        "IsHide": false,
-        "IsCopy": false,
-        "IsMulticast": false
-      },
-      "24": {
-        "Id": 24,
-        "Name": "net.MaxPlayersOverride",
-        "VariableList": [
-          {
-            "ParamName": {
-              "Namespace": "GM",
-              "Key": "24_VariableList_Index0_ParamName",
-              "SourceString": "数量",
-              "LocalizedString": "数量"
-            },
-            "ParamType": "None"
-          }
-        ],
-        "Type1": "Engine",
-        "Desc": {
-          "Namespace": "GM",
-          "Key": "24_Desc",
-          "SourceString": "设置局内玩家数量",
-          "LocalizedString": "设置局内玩家数量"
-        },
-        "IsServerGm": true,
-        "IsHide": false,
-        "IsCopy": false,
-        "IsMulticast": false
-      },
-      "25": {
-        "Id": 25,
-        "Name": "SimulatedMobileSetting",
-        "VariableList": [],
-        "Type1": "Engine",
-        "Desc": {
-          "Namespace": "GM",
-          "Key": "25_Desc",
-          "SourceString": "PC端应用MB端设置参数",
-          "LocalizedString": "PC端应用MB端设置参数"
-        },
-        "IsServerGm": false,
-        "IsHide": false,
-        "IsCopy": false,
-        "IsMulticast": false
-      },
-      "26": {
-        "Id": 26,
-        "Name": "Open 127.0.0.1:17777",
-        "VariableList": [],
-        "Type1": "Engine",
-        "Desc": {
-          "Namespace": "GM",
-          "Key": "26_Desc",
-          "SourceString": "编辑器重连",
-          "LocalizedString": "编辑器重连"
-        },
-        "IsServerGm": false,
-        "IsHide": false,
-        "IsCopy": false,
-        "IsMulticast": false
-      },
-      "27": {
-        "Id": 27,
-        "Name": "FinishRound",
-        "VariableList": [],
-        "Type1": "GameMode",
-        "Desc": {
-          "Namespace": "GM",
-          "Key": "27_Desc",
-          "SourceString": "结束当前回合",
-          "LocalizedString": "结束当前回合"
-        },
-        "IsServerGm": true,
-        "IsHide": false,
-        "IsCopy": false,
-        "IsMulticast": false
-      },
-      "28": {
-        "Id": 28,
-        "Name": "SetScore",
-        "VariableList": [
-          {
-            "ParamName": {
-              "Namespace": "GM",
-              "Key": "28_VariableList_Index0_ParamName",
-              "SourceString": "分数",
-              "LocalizedString": "分数"
-            },
-            "ParamType": "None"
+      "IsServerGm": true,
+      "IsHide": false,
+      "IsCopy": false,
+      "IsMulticast": false
+    },
+    "4": {
+      "Id": 4,
+      "Name": "SetCharacterSkinID",
+      "VariableList": [
+        {
+          "ParamName": {
+            "Namespace": "GM",
+            "Key": "4_VariableList_Index0_ParamName",
+            "SourceString": "皮肤Id",
+            "LocalizedString": "皮肤Id"
           },
-          {
-            "ParamName": {
-              "Namespace": "GM",
-              "Key": "28_VariableList_Index1_ParamName",
-              "SourceString": "队伍",
-              "LocalizedString": "队伍"
-            },
-            "ParamType": "None"
-          }
-        ],
-        "Type1": "GameMode",
-        "Desc": {
-          "Namespace": "GM",
-          "Key": "28_Desc",
-          "SourceString": "设置本方得分",
-          "LocalizedString": "设置本方得分"
-        },
-        "IsServerGm": true,
-        "IsHide": false,
-        "IsCopy": false,
-        "IsMulticast": false
+          "ParamType": "RoleSkin"
+        }
+      ],
+      "Type1": "Character",
+      "Desc": {
+        "Namespace": "GM",
+        "Key": "4_Desc",
+        "SourceString": "切换角色皮肤",
+        "LocalizedString": "切换角色皮肤"
       },
-      "29": {
-        "Id": 29,
-        "Name": "SetRemainingTime",
-        "VariableList": [
-          {
-            "ParamName": {
-              "Namespace": "GM",
-              "Key": "29_VariableList_Index0_ParamName",
-              "SourceString": "剩余时间",
-              "LocalizedString": "剩余时间"
-            },
-            "ParamType": "None"
-          }
-        ],
-        "Type1": "GameMode",
-        "Desc": {
-          "Namespace": "GM",
-          "Key": "29_Desc",
-          "SourceString": "设置当前回合剩余时间",
-          "LocalizedString": "设置当前回合剩余时间"
-        },
-        "IsServerGm": true,
-        "IsHide": false,
-        "IsCopy": false,
-        "IsMulticast": false
-      },
-      "30": {
-        "Id": 30,
-        "Name": "SetRemainingTimeZero",
-        "VariableList": [],
-        "Type1": "GameMode",
-        "Desc": {
-          "Namespace": "GM",
-          "Key": "30_Desc",
-          "SourceString": "清空当前回合剩余时间",
-          "LocalizedString": "清空当前回合剩余时间"
-        },
-        "IsServerGm": true,
-        "IsHide": false,
-        "IsCopy": false,
-        "IsMulticast": false
-      },
-      "31": {
-        "Id": 31,
-        "Name": "SetAllCharacterAttributeValue",
-        "VariableList": [
-          {
-            "ParamName": {
-              "Namespace": "GM",
-              "Key": "31_VariableList_Index0_ParamName",
-              "SourceString": "属性",
-              "LocalizedString": "属性"
-            },
-            "ParamType": "CharacterAttribute"
+      "IsServerGm": true,
+      "IsHide": false,
+      "IsCopy": false,
+      "IsMulticast": false
+    },
+    "5": {
+      "Id": 5,
+      "Name": "AddGrowthPoint",
+      "VariableList": [
+        {
+          "ParamName": {
+            "Namespace": "GM",
+            "Key": "5_VariableList_Index0_ParamName",
+            "SourceString": "数量",
+            "LocalizedString": "数量"
           },
-          {
-            "ParamName": {
-              "Namespace": "GM",
-              "Key": "31_VariableList_Index1_ParamName",
-              "SourceString": "数值",
-              "LocalizedString": "数值"
-            },
-            "ParamType": "None"
-          }
-        ],
-        "Type1": "GameMode",
-        "Desc": {
-          "Namespace": "GM",
-          "Key": "31_Desc",
-          "SourceString": "所有角色属性",
-          "LocalizedString": "所有角色属性"
-        },
-        "IsServerGm": true,
-        "IsHide": false,
-        "IsCopy": false,
-        "IsMulticast": false
+          "ParamType": "None"
+        }
+      ],
+      "Type1": "Character",
+      "Desc": {
+        "Namespace": "GM",
+        "Key": "5_Desc",
+        "SourceString": "增加成长点数",
+        "LocalizedString": "增加成长点数"
       },
-      "32": {
-        "Id": 32,
-        "Name": "LoadingMapDebug",
-        "VariableList": [],
-        "Type1": "GameMode",
-        "Desc": {
-          "Namespace": "GM",
-          "Key": "32_Desc",
-          "SourceString": "打印loading信息",
-          "LocalizedString": "打印loading信息"
-        },
-        "IsServerGm": false,
-        "IsHide": true,
-        "IsCopy": false,
-        "IsMulticast": false
+      "IsServerGm": true,
+      "IsHide": false,
+      "IsCopy": false,
+      "IsMulticast": false
+    },
+    "6": {
+      "Id": 6,
+      "Name": "FullGrowthLevel",
+      "VariableList": [],
+      "Type1": "Character",
+      "Desc": {
+        "Namespace": "GM",
+        "Key": "6_Desc",
+        "SourceString": "成长满级",
+        "LocalizedString": "成长满级"
       },
-      "33": {
-        "Id": 33,
-        "Name": "OpenLoadingMap",
-        "VariableList": [],
-        "Type1": "GameMode",
-        "Desc": {
-          "Namespace": "GM",
-          "Key": "33_Desc",
-          "SourceString": "连接loading地图",
-          "LocalizedString": "连接loading地图"
-        },
-        "IsServerGm": false,
-        "IsHide": true,
-        "IsCopy": false,
-        "IsMulticast": false
+      "IsServerGm": true,
+      "IsHide": false,
+      "IsCopy": false,
+      "IsMulticast": false
+    },
+    "7": {
+      "Id": 7,
+      "Name": "SwitchArousal",
+      "VariableList": [],
+      "Type1": "Character",
+      "Desc": {
+        "Namespace": "GM",
+        "Key": "7_Desc",
+        "SourceString": "切换觉醒2和3",
+        "LocalizedString": "切换觉醒2和3"
       },
-      "34": {
-        "Id": 34,
-        "Name": "Say",
-        "VariableList": [
-          {
-            "ParamName": {
-              "Namespace": "GM",
-              "Key": "34_VariableList_Index0_ParamName",
-              "SourceString": "内容",
-              "LocalizedString": "内容"
-            },
-            "ParamType": "None"
-          }
-        ],
-        "Type1": "GameMode",
-        "Desc": {
-          "CultureInvariantString": null
-        },
-        "IsServerGm": false,
-        "IsHide": true,
-        "IsCopy": false,
-        "IsMulticast": false
-      },
-      "35": {
-        "Id": 35,
-        "Name": "OpenLoadingMapSeamless",
-        "VariableList": [],
-        "Type1": "GameMode",
-        "Desc": {
-          "Namespace": "GM",
-          "Key": "35_Desc",
-          "SourceString": "Seamless连接loading地图",
-          "LocalizedString": "Seamless连接loading地图"
-        },
-        "IsServerGm": false,
-        "IsHide": true,
-        "IsCopy": false,
-        "IsMulticast": false
-      },
-      "36": {
-        "Id": 36,
-        "Name": "FinishLSMatchBegin",
-        "VariableList": [],
-        "Type1": "GameMode",
-        "Desc": {
-          "Namespace": "GM",
-          "Key": "36_Desc",
-          "SourceString": "跳过开场动画",
-          "LocalizedString": "跳过开场动画"
-        },
-        "IsServerGm": false,
-        "IsHide": true,
-        "IsCopy": false,
-        "IsMulticast": false
-      },
-      "37": {
-        "Id": 37,
-        "Name": "SetAllowBots",
-        "VariableList": [
-          {
-            "ParamName": {
-              "Namespace": "GM",
-              "Key": "37_VariableList_Index0_ParamName",
-              "SourceString": "bInAllowBots",
-              "LocalizedString": "bInAllowBots"
-            },
-            "ParamType": "None"
+      "IsServerGm": true,
+      "IsHide": false,
+      "IsCopy": false,
+      "IsMulticast": false
+    },
+    "8": {
+      "Id": 8,
+      "Name": "SetUltimateChargeCount",
+      "VariableList": [
+        {
+          "ParamName": {
+            "Namespace": "GM",
+            "Key": "8_VariableList_Index0_ParamName",
+            "SourceString": "绝招点数",
+            "LocalizedString": "绝招点数"
           },
-          {
-            "ParamName": {
-              "Namespace": "GM",
-              "Key": "37_VariableList_Index1_ParamName",
-              "SourceString": "InMaxBots",
-              "LocalizedString": "InMaxBots"
-            },
-            "ParamType": "None"
-          }
-        ],
-        "Type1": "GameMode",
-        "Desc": {
-          "Namespace": "GM",
-          "Key": "37_Desc",
-          "SourceString": "允许bot，bot数量上限",
-          "LocalizedString": "允许bot，bot数量上限"
-        },
-        "IsServerGm": true,
-        "IsHide": true,
-        "IsCopy": false,
-        "IsMulticast": false
+          "ParamType": "None"
+        }
+      ],
+      "Type1": "Character",
+      "Desc": {
+        "Namespace": "GM",
+        "Key": "8_Desc",
+        "SourceString": "设置绝招点数",
+        "LocalizedString": "设置绝招点数"
       },
-      "38": {
-        "Id": 38,
-        "Name": "SetBotLevel",
-        "VariableList": [
-          {
-            "ParamName": {
-              "Namespace": "GM",
-              "Key": "38_VariableList_Index0_ParamName",
-              "SourceString": "DifficultyLevel",
-              "LocalizedString": "DifficultyLevel"
-            },
-            "ParamType": "None"
+      "IsServerGm": true,
+      "IsHide": false,
+      "IsCopy": false,
+      "IsMulticast": false
+    },
+    "9": {
+      "Id": 9,
+      "Name": "AddSkillQFullPoints",
+      "VariableList": [],
+      "Type1": "Character",
+      "Desc": {
+        "Namespace": "GM",
+        "Key": "9_Desc",
+        "SourceString": "设置Q技能满点",
+        "LocalizedString": "设置Q技能满点"
+      },
+      "IsServerGm": true,
+      "IsHide": false,
+      "IsCopy": false,
+      "IsMulticast": false
+    },
+    "10": {
+      "Id": 10,
+      "Name": "ToggleIgnoreAbilitySystemCooldowns",
+      "VariableList": [],
+      "Type1": "Character",
+      "Desc": {
+        "Namespace": "GM",
+        "Key": "10_Desc",
+        "SourceString": "是否忽略使用技能冷却时间",
+        "LocalizedString": "是否忽略使用技能冷却时间"
+      },
+      "IsServerGm": true,
+      "IsHide": false,
+      "IsCopy": false,
+      "IsMulticast": false
+    },
+    "11": {
+      "Id": 11,
+      "Name": "ToggleIgnoreAbilitySystemCosts",
+      "VariableList": [],
+      "Type1": "Character",
+      "Desc": {
+        "Namespace": "GM",
+        "Key": "11_Desc",
+        "SourceString": "是否忽略使用技能消耗",
+        "LocalizedString": "是否忽略使用技能消耗"
+      },
+      "IsServerGm": true,
+      "IsHide": false,
+      "IsCopy": false,
+      "IsMulticast": false
+    },
+    "12": {
+      "Id": 12,
+      "Name": "SetCharacterHealth",
+      "VariableList": [
+        {
+          "ParamName": {
+            "Namespace": "GM",
+            "Key": "12_VariableList_Index0_ParamName",
+            "SourceString": "当前值",
+            "LocalizedString": "当前值"
           },
-          {
-            "ParamName": {
-              "Namespace": "GM",
-              "Key": "38_VariableList_Index1_ParamName",
-              "SourceString": "bIsBonusGame",
-              "LocalizedString": "bIsBonusGame"
-            },
-            "ParamType": "None"
-          }
-        ],
-        "Type1": "GameMode",
-        "Desc": {
-          "Namespace": "GM",
-          "Key": "38_Desc",
-          "SourceString": "设置AI等级",
-          "LocalizedString": "设置AI等级"
+          "ParamType": "None"
         },
-        "IsServerGm": true,
-        "IsHide": true,
-        "IsCopy": false,
-        "IsMulticast": false
-      },
-      "39": {
-        "Id": 39,
-        "Name": "SpawnBotWithParams",
-        "VariableList": [
-          {
-            "ParamName": {
-              "Namespace": "GM",
-              "Key": "39_VariableList_Index0_ParamName",
-              "SourceString": "阵营",
-              "LocalizedString": "阵营"
-            },
-            "ParamType": "None"
+        {
+          "ParamName": {
+            "Namespace": "GM",
+            "Key": "12_VariableList_Index1_ParamName",
+            "SourceString": "最大值",
+            "LocalizedString": "最大值"
           },
-          {
-            "ParamName": {
-              "Namespace": "GM",
-              "Key": "39_VariableList_Index1_ParamName",
-              "SourceString": "路径",
-              "LocalizedString": "路径"
-            },
-            "ParamType": "None"
+          "ParamType": "None"
+        }
+      ],
+      "Type1": "Character",
+      "Desc": {
+        "Namespace": "GM",
+        "Key": "12_Desc",
+        "SourceString": "设置角色血量",
+        "LocalizedString": "设置角色血量"
+      },
+      "IsServerGm": true,
+      "IsHide": false,
+      "IsCopy": false,
+      "IsMulticast": false
+    },
+    "13": {
+      "Id": 13,
+      "Name": "SetCharacterArmor",
+      "VariableList": [
+        {
+          "ParamName": {
+            "Namespace": "GM",
+            "Key": "13_VariableList_Index0_ParamName",
+            "SourceString": "当前值",
+            "LocalizedString": "当前值"
           },
-          {
-            "ParamName": {
-              "Namespace": "GM",
-              "Key": "39_VariableList_Index2_ParamName",
-              "SourceString": "路径",
-              "LocalizedString": "路径"
-            },
-            "ParamType": "None"
+          "ParamType": "None"
+        },
+        {
+          "ParamName": {
+            "Namespace": "GM",
+            "Key": "13_VariableList_Index1_ParamName",
+            "SourceString": "最大值",
+            "LocalizedString": "最大值"
           },
-          {
-            "ParamName": {
-              "Namespace": "GM",
-              "Key": "39_VariableList_Index3_ParamName",
-              "SourceString": "出生点",
-              "LocalizedString": "出生点"
-            },
-            "ParamType": "None"
-          }
-        ],
-        "Type1": "GameMode",
-        "Desc": {
-          "Namespace": "GM",
-          "Key": "39_Desc",
-          "SourceString": "召唤指定阵营，路径，出生点AI",
-          "LocalizedString": "召唤指定阵营，路径，出生点AI"
-        },
-        "IsServerGm": true,
-        "IsHide": true,
-        "IsCopy": false,
-        "IsMulticast": false
+          "ParamType": "None"
+        }
+      ],
+      "Type1": "Character",
+      "Desc": {
+        "Namespace": "GM",
+        "Key": "13_Desc",
+        "SourceString": "设置角色护甲",
+        "LocalizedString": "设置角色护甲"
       },
-      "40": {
-        "Id": 40,
-        "Name": "OpenLevelCmd",
-        "VariableList": [
-          {
-            "ParamName": {
-              "Namespace": "GM",
-              "Key": "40_VariableList_Index0_ParamName",
-              "SourceString": "Cmd",
-              "LocalizedString": "Cmd"
-            },
-            "ParamType": "None"
-          }
-        ],
-        "Type1": "GameMode",
-        "Desc": {
-          "Namespace": "GM",
-          "Key": "40_Desc",
-          "SourceString": "打开关卡",
-          "LocalizedString": "打开关卡"
-        },
-        "IsServerGm": false,
-        "IsHide": false,
-        "IsCopy": true,
-        "IsMulticast": false
-      },
-      "41": {
-        "Id": 41,
-        "Name": "ServerTargetScore",
-        "VariableList": [
-          {
-            "ParamName": {
-              "Namespace": "GM",
-              "Key": "41_VariableList_Index0_ParamName",
-              "SourceString": "分数",
-              "LocalizedString": "分数"
-            },
-            "ParamType": "None"
-          }
-        ],
-        "Type1": "GameMode",
-        "Desc": {
-          "Namespace": "GM",
-          "Key": "41_Desc",
-          "SourceString": "设置团竟目标分数",
-          "LocalizedString": "设置团竟目标分数"
-        },
-        "IsServerGm": true,
-        "IsHide": false,
-        "IsCopy": false,
-        "IsMulticast": false
-      },
-      "42": {
-        "Id": 42,
-        "Name": "EnterGameOver",
-        "VariableList": [
-          {
-            "ParamName": {
-              "Namespace": "GM",
-              "Key": "42_VariableList_Index0_ParamName",
-              "SourceString": "队伍Id",
-              "LocalizedString": "队伍Id"
-            },
-            "ParamType": "None"
-          }
-        ],
-        "Type1": "GameMode",
-        "Desc": {
-          "Namespace": "GM",
-          "Key": "42_Desc",
-          "SourceString": "选择获胜队伍进入结算",
-          "LocalizedString": "选择获胜队伍进入结算"
-        },
-        "IsServerGm": true,
-        "IsHide": false,
-        "IsCopy": false,
-        "IsMulticast": false
-      },
-      "43": {
-        "Id": 43,
-        "Name": "DamageTarget",
-        "VariableList": [
-          {
-            "ParamName": {
-              "Namespace": "GM",
-              "Key": "43_VariableList_Index0_ParamName",
-              "SourceString": "数值",
-              "LocalizedString": "数值"
-            },
-            "ParamType": "None"
-          }
-        ],
-        "Type1": "GameMode",
-        "Desc": {
-          "Namespace": "GM",
-          "Key": "43_Desc",
-          "SourceString": "伤害指向目标",
-          "LocalizedString": "伤害指向目标"
-        },
-        "IsServerGm": true,
-        "IsHide": false,
-        "IsCopy": false,
-        "IsMulticast": false
-      },
-      "44": {
-        "Id": 44,
-        "Name": "AISetPlayerAILevel",
-        "VariableList": [
-          {
-            "ParamName": {
-              "Namespace": "GM",
-              "Key": "44_VariableList_Index0_ParamName",
-              "SourceString": "PlayerSerial",
-              "LocalizedString": "PlayerSerial"
-            },
-            "ParamType": "None"
+      "IsServerGm": true,
+      "IsHide": false,
+      "IsCopy": false,
+      "IsMulticast": false
+    },
+    "14": {
+      "Id": 14,
+      "Name": "SetPlayerName",
+      "VariableList": [
+        {
+          "ParamName": {
+            "Namespace": "GM",
+            "Key": "14_VariableList_Index0_ParamName",
+            "SourceString": "名字",
+            "LocalizedString": "名字"
           },
-          {
-            "ParamName": {
-              "Namespace": "GM",
-              "Key": "44_VariableList_Index1_ParamName",
-              "SourceString": "AILevel",
-              "LocalizedString": "AILevel"
-            },
-            "ParamType": "None"
+          "ParamType": "None"
+        }
+      ],
+      "Type1": "Character",
+      "Desc": {
+        "Namespace": "GM",
+        "Key": "14_Desc",
+        "SourceString": "设置玩家名字",
+        "LocalizedString": "设置玩家名字"
+      },
+      "IsServerGm": true,
+      "IsHide": true,
+      "IsCopy": false,
+      "IsMulticast": false
+    },
+    "15": {
+      "Id": 15,
+      "Name": "SevereInjured",
+      "VariableList": [],
+      "Type1": "Character",
+      "Desc": {
+        "Namespace": "GM",
+        "Key": "15_Desc",
+        "SourceString": "濒死",
+        "LocalizedString": "濒死"
+      },
+      "IsServerGm": true,
+      "IsHide": false,
+      "IsCopy": false,
+      "IsMulticast": false
+    },
+    "16": {
+      "Id": 16,
+      "Name": "DamageSelf",
+      "VariableList": [
+        {
+          "ParamName": {
+            "Namespace": "GM",
+            "Key": "16_VariableList_Index0_ParamName",
+            "SourceString": "数值",
+            "LocalizedString": "数值"
           },
-          {
-            "ParamName": {
-              "Namespace": "GM",
-              "Key": "44_VariableList_Index2_ParamName",
-              "SourceString": "AIStyle",
-              "LocalizedString": "AIStyle"
-            },
-            "ParamType": "None"
-          }
-        ],
-        "Type1": "GameMode",
-        "Desc": {
-          "Namespace": "GM",
-          "Key": "44_Desc",
-          "SourceString": "设置指定玩家的AI等级",
-          "LocalizedString": "设置指定玩家的AI等级"
-        },
-        "IsServerGm": true,
-        "IsHide": false,
-        "IsCopy": false,
-        "IsMulticast": false
+          "ParamType": "None"
+        }
+      ],
+      "Type1": "Character",
+      "Desc": {
+        "Namespace": "GM",
+        "Key": "16_Desc",
+        "SourceString": "自伤",
+        "LocalizedString": "自伤"
       },
-      "45": {
-        "Id": 45,
-        "Name": "AISetTeamAILevel",
-        "VariableList": [
-          {
-            "ParamName": {
-              "Namespace": "GM",
-              "Key": "45_VariableList_Index0_ParamName",
-              "SourceString": "TeamID",
-              "LocalizedString": "TeamID"
-            },
-            "ParamType": "None"
+      "IsServerGm": true,
+      "IsHide": false,
+      "IsCopy": false,
+      "IsMulticast": false
+    },
+    "17": {
+      "Id": 17,
+      "Name": "Recover",
+      "VariableList": [],
+      "Type1": "Character",
+      "Desc": {
+        "Namespace": "GM",
+        "Key": "17_Desc",
+        "SourceString": "濒死恢复",
+        "LocalizedString": "濒死恢复"
+      },
+      "IsServerGm": true,
+      "IsHide": false,
+      "IsCopy": false,
+      "IsMulticast": false
+    },
+    "18": {
+      "Id": 18,
+      "Name": "Suicide",
+      "VariableList": [],
+      "Type1": "Character",
+      "Desc": {
+        "Namespace": "GM",
+        "Key": "18_Desc",
+        "SourceString": "自杀",
+        "LocalizedString": "自杀"
+      },
+      "IsServerGm": true,
+      "IsHide": false,
+      "IsCopy": false,
+      "IsMulticast": false
+    },
+    "19": {
+      "Id": 19,
+      "Name": "DisplayGrowthInfo",
+      "VariableList": [],
+      "Type1": "Character",
+      "Desc": {
+        "Namespace": "GM",
+        "Key": "19_Desc",
+        "SourceString": "打印枪械属性",
+        "LocalizedString": "打印枪械属性"
+      },
+      "IsServerGm": false,
+      "IsHide": false,
+      "IsCopy": false,
+      "IsMulticast": false
+    },
+    "20": {
+      "Id": 20,
+      "Name": "SetSparNum",
+      "VariableList": [
+        {
+          "ParamName": {
+            "Namespace": "GM",
+            "Key": "20_VariableList_Index0_ParamName",
+            "SourceString": "数量",
+            "LocalizedString": "数量"
           },
-          {
-            "ParamName": {
-              "Namespace": "GM",
-              "Key": "45_VariableList_Index1_ParamName",
-              "SourceString": "AILevel",
-              "LocalizedString": "AILevel"
-            },
-            "ParamType": "None"
+          "ParamType": "None"
+        }
+      ],
+      "Type1": "Character",
+      "Desc": {
+        "Namespace": "GM",
+        "Key": "20_Desc",
+        "SourceString": "设置晶体数量",
+        "LocalizedString": "设置晶体数量"
+      },
+      "IsServerGm": true,
+      "IsHide": false,
+      "IsCopy": false,
+      "IsMulticast": false
+    },
+    "21": {
+      "Id": 21,
+      "Name": "ShowDebug PlayerState",
+      "VariableList": [],
+      "Type1": "Character",
+      "Desc": {
+        "Namespace": "GM",
+        "Key": "21_Desc",
+        "SourceString": "显示角色状态",
+        "LocalizedString": "显示角色状态"
+      },
+      "IsServerGm": false,
+      "IsHide": false,
+      "IsCopy": false,
+      "IsMulticast": false
+    },
+    "22": {
+      "Id": 22,
+      "Name": "Cy.EnableADSMotion",
+      "VariableList": [
+        {
+          "ParamName": {
+            "Namespace": "GM",
+            "Key": "22_VariableList_Index0_ParamName",
+            "SourceString": "开启:1，关闭:0",
+            "LocalizedString": "开启:1，关闭:0"
           },
-          {
-            "ParamName": {
-              "Namespace": "GM",
-              "Key": "45_VariableList_Index2_ParamName",
-              "SourceString": "AIStyle",
-              "LocalizedString": "AIStyle"
-            },
-            "ParamType": "None"
-          }
-        ],
-        "Type1": "GameMode",
-        "Desc": {
-          "Namespace": "GM",
-          "Key": "45_Desc",
-          "SourceString": "设置指定队伍的AI等级",
-          "LocalizedString": "设置指定队伍的AI等级"
-        },
-        "IsServerGm": true,
-        "IsHide": false,
-        "IsCopy": false,
-        "IsMulticast": false
+          "ParamType": "None"
+        }
+      ],
+      "Type1": "Character",
+      "Desc": {
+        "Namespace": "GM",
+        "Key": "22_Desc",
+        "SourceString": "开镜时是否需要呼吸动态",
+        "LocalizedString": "开镜时是否需要呼吸动态"
       },
-      "46": {
-        "Id": 46,
-        "Name": "ShowCharacterOnlyInSelectRolePage",
-        "VariableList": [
-          {
-            "ParamName": {
-              "Namespace": "GM",
-              "Key": "46_VariableList_Index0_ParamName",
-              "SourceString": "是:true 否:false",
-              "LocalizedString": "是:true 否:false"
-            },
-            "ParamType": "None"
-          }
-        ],
-        "Type1": "GameMode",
-        "Desc": {
-          "Namespace": "GM",
-          "Key": "46_Desc",
-          "SourceString": "选人界面中只显示角色",
-          "LocalizedString": "选人界面中只显示角色"
-        },
-        "IsServerGm": false,
-        "IsHide": false,
-        "IsCopy": false,
-        "IsMulticast": false
+      "IsServerGm": false,
+      "IsHide": false,
+      "IsCopy": false,
+      "IsMulticast": false
+    },
+    "23": {
+      "Id": 23,
+      "Name": "RandomAllSkin",
+      "VariableList": [],
+      "Type1": "Character",
+      "Desc": {
+        "Namespace": "GM",
+        "Key": "23_Desc",
+        "SourceString": "随机所有角色和主武器皮肤",
+        "LocalizedString": "随机所有角色和主武器皮肤"
       },
-      "47": {
-        "Id": 47,
-        "Name": "DisplayMMRInfo",
-        "VariableList": [],
-        "Type1": "GameMode",
-        "Desc": {
-          "Namespace": "GM",
-          "Key": "47_Desc",
-          "SourceString": "显示AI等级和隐藏分",
-          "LocalizedString": "显示AI等级和隐藏分"
-        },
-        "IsServerGm": true,
-        "IsHide": false,
-        "IsCopy": false,
-        "IsMulticast": false
-      },
-      "48": {
-        "Id": 48,
-        "Name": "AIDisplayAllInfo",
-        "VariableList": [],
-        "Type1": "GameMode",
-        "Desc": {
-          "Namespace": "GM",
-          "Key": "48_Desc",
-          "SourceString": "显示AI信息",
-          "LocalizedString": "显示AI信息"
-        },
-        "IsServerGm": true,
-        "IsHide": false,
-        "IsCopy": false,
-        "IsMulticast": false
-      },
-      "49": {
-        "Id": 49,
-        "Name": "AIDisableAIAction",
-        "VariableList": [
-          {
-            "ParamName": {
-              "Namespace": "GM",
-              "Key": "49_VariableList_Index0_ParamName",
-              "SourceString": "禁止:1 允许:0",
-              "LocalizedString": "禁止:1 允许:0"
-            },
-            "ParamType": "None"
-          }
-        ],
-        "Type1": "GameMode",
-        "Desc": {
-          "Namespace": "GM",
-          "Key": "49_Desc",
-          "SourceString": "禁止超参数AI操作",
-          "LocalizedString": "禁止超参数AI操作"
-        },
-        "IsServerGm": true,
-        "IsHide": false,
-        "IsCopy": false,
-        "IsMulticast": false
-      },
-      "50": {
-        "Id": 50,
-        "Name": "ApplyMobileSensitivity",
-        "VariableList": [],
-        "Type1": "GameMode",
-        "Desc": {
-          "Namespace": "GM",
-          "Key": "50_Desc",
-          "SourceString": "初始化Mobile灵敏度",
-          "LocalizedString": "初始化Mobile灵敏度"
-        },
-        "IsServerGm": true,
-        "IsHide": false,
-        "IsCopy": false,
-        "IsMulticast": false
-      },
-      "51": {
-        "Id": 51,
-        "Name": "CalculateMmrWhenPlayerInactive",
-        "VariableList": [],
-        "Type1": "GameMode",
-        "Desc": {
-          "Namespace": "GM",
-          "Key": "51_Desc",
-          "SourceString": "离线、挂机也计算隐藏分",
-          "LocalizedString": "离线、挂机也计算隐藏分"
-        },
-        "IsServerGm": true,
-        "IsHide": false,
-        "IsCopy": false,
-        "IsMulticast": false
-      },
-      "52": {
-        "Id": 52,
-        "Name": "SetHangUpDetectionDuration",
-        "VariableList": [
-          {
-            "ParamName": {
-              "Namespace": "GM",
-              "Key": "52_VariableList_Index0_ParamName",
-              "SourceString": "时长",
-              "LocalizedString": "时长"
-            },
-            "ParamType": "None"
-          }
-        ],
-        "Type1": "GameMode",
-        "Desc": {
-          "Namespace": "GM",
-          "Key": "52_Desc",
-          "SourceString": "设置当前玩家挂机触发时间",
-          "LocalizedString": "设置当前玩家挂机触发时间"
-        },
-        "IsServerGm": false,
-        "IsHide": false,
-        "IsCopy": false,
-        "IsMulticast": false
-      },
-      "53": {
-        "Id": 53,
-        "Name": "SetHostedEnable",
-        "VariableList": [
-          {
-            "ParamName": {
-              "Namespace": "GM",
-              "Key": "53_VariableList_Index0_ParamName",
-              "SourceString": "是:1 否:0",
-              "LocalizedString": "是:1 否:0"
-            },
-            "ParamType": "None"
-          }
-        ],
-        "Type1": "GameMode",
-        "Desc": {
-          "Namespace": "GM",
-          "Key": "53_Desc",
-          "SourceString": "设置当前玩家是否支持AI托管",
-          "LocalizedString": "设置当前玩家是否支持AI托管"
-        },
-        "IsServerGm": true,
-        "IsHide": false,
-        "IsCopy": false,
-        "IsMulticast": false
-      },
-      "54": {
-        "Id": 54,
-        "Name": "SetHostedEnableForAll",
-        "VariableList": [
-          {
-            "ParamName": {
-              "Namespace": "GM",
-              "Key": "54_VariableList_Index0_ParamName",
-              "SourceString": "是:1 否:0",
-              "LocalizedString": "是:1 否:0"
-            },
-            "ParamType": "None"
-          }
-        ],
-        "Type1": "GameMode",
-        "Desc": {
-          "Namespace": "GM",
-          "Key": "54_Desc",
-          "SourceString": "设置所有玩家是否支持AI托管",
-          "LocalizedString": "设置所有玩家是否支持AI托管"
-        },
-        "IsServerGm": true,
-        "IsHide": false,
-        "IsCopy": false,
-        "IsMulticast": false
-      },
-      "55": {
-        "Id": 55,
-        "Name": "SpawnBot",
-        "VariableList": [],
-        "Type1": "GameMode",
-        "Desc": {
-          "Namespace": "GM",
-          "Key": "55_Desc",
-          "SourceString": "召唤AI",
-          "LocalizedString": "召唤AI"
-        },
-        "IsServerGm": true,
-        "IsHide": false,
-        "IsCopy": false,
-        "IsMulticast": false
-      },
-      "56": {
-        "Id": 56,
-        "Name": "SpawnSparBox",
-        "VariableList": [],
-        "Type1": "GameMode",
-        "Desc": {
-          "Namespace": "GM",
-          "Key": "56_Desc",
-          "SourceString": "生成晶体空投",
-          "LocalizedString": "生成晶体空投"
-        },
-        "IsServerGm": true,
-        "IsHide": false,
-        "IsCopy": false,
-        "IsMulticast": false
-      },
-      "57": {
-        "Id": 57,
-        "Name": "LogServerTime",
-        "VariableList": [],
-        "Type1": "Lobby",
-        "Desc": {
-          "Namespace": "GM",
-          "Key": "57_Desc",
-          "SourceString": "屏幕打印ServerTime",
-          "LocalizedString": "屏幕打印ServerTime"
-        },
-        "IsServerGm": false,
-        "IsHide": true,
-        "IsCopy": false,
-        "IsMulticast": false
-      },
-      "58": {
-        "Id": 58,
-        "Name": "gm_add_item",
-        "VariableList": [
-          {
-            "ParamName": {
-              "Namespace": "GM",
-              "Key": "58_VariableList_Index0_ParamName",
-              "SourceString": "道具Id",
-              "LocalizedString": "道具Id"
-            },
-            "ParamType": "Item"
+      "IsServerGm": true,
+      "IsHide": false,
+      "IsCopy": false,
+      "IsMulticast": false
+    },
+    "24": {
+      "Id": 24,
+      "Name": "net.MaxPlayersOverride",
+      "VariableList": [
+        {
+          "ParamName": {
+            "Namespace": "GM",
+            "Key": "24_VariableList_Index0_ParamName",
+            "SourceString": "数量",
+            "LocalizedString": "数量"
           },
-          {
-            "ParamName": {
-              "Namespace": "GM",
-              "Key": "58_VariableList_Index1_ParamName",
-              "SourceString": "道具数量",
-              "LocalizedString": "道具数量"
-            },
-            "ParamType": "None"
-          }
-        ],
-        "Type1": "Lobby",
-        "Desc": {
-          "Namespace": "GM",
-          "Key": "58_Desc",
-          "SourceString": "添加物品",
-          "LocalizedString": "添加物品"
-        },
-        "IsServerGm": true,
-        "IsHide": false,
-        "IsCopy": false,
-        "IsMulticast": false
+          "ParamType": "None"
+        }
+      ],
+      "Type1": "Engine",
+      "Desc": {
+        "Namespace": "GM",
+        "Key": "24_Desc",
+        "SourceString": "设置局内玩家数量",
+        "LocalizedString": "设置局内玩家数量"
       },
-      "59": {
-        "Id": 59,
-        "Name": "gm_del_item",
-        "VariableList": [
-          {
-            "ParamName": {
-              "Namespace": "GM",
-              "Key": "59_VariableList_Index0_ParamName",
-              "SourceString": "道具Id",
-              "LocalizedString": "道具Id"
-            },
-            "ParamType": "Item"
-          }
-        ],
-        "Type1": "Lobby",
-        "Desc": {
-          "Namespace": "GM",
-          "Key": "59_Desc",
-          "SourceString": "删除物品",
-          "LocalizedString": "删除物品"
-        },
-        "IsServerGm": true,
-        "IsHide": false,
-        "IsCopy": false,
-        "IsMulticast": false
+      "IsServerGm": true,
+      "IsHide": false,
+      "IsCopy": false,
+      "IsMulticast": false
+    },
+    "25": {
+      "Id": 25,
+      "Name": "SimulatedMobileSetting",
+      "VariableList": [],
+      "Type1": "Engine",
+      "Desc": {
+        "Namespace": "GM",
+        "Key": "25_Desc",
+        "SourceString": "PC端应用MB端设置参数",
+        "LocalizedString": "PC端应用MB端设置参数"
       },
-      "60": {
-        "Id": 60,
-        "Name": "gm_send_mail",
-        "VariableList": [
-          {
-            "ParamName": {
-              "Namespace": "GM",
-              "Key": "60_VariableList_Index0_ParamName",
-              "SourceString": "src_id",
-              "LocalizedString": "src_id"
-            },
-            "ParamType": "None"
+      "IsServerGm": false,
+      "IsHide": false,
+      "IsCopy": false,
+      "IsMulticast": false
+    },
+    "26": {
+      "Id": 26,
+      "Name": "Open 127.0.0.1:17777",
+      "VariableList": [],
+      "Type1": "Engine",
+      "Desc": {
+        "Namespace": "GM",
+        "Key": "26_Desc",
+        "SourceString": "编辑器重连",
+        "LocalizedString": "编辑器重连"
+      },
+      "IsServerGm": false,
+      "IsHide": false,
+      "IsCopy": false,
+      "IsMulticast": false
+    },
+    "27": {
+      "Id": 27,
+      "Name": "FinishRound",
+      "VariableList": [],
+      "Type1": "GameMode",
+      "Desc": {
+        "Namespace": "GM",
+        "Key": "27_Desc",
+        "SourceString": "结束当前回合",
+        "LocalizedString": "结束当前回合"
+      },
+      "IsServerGm": true,
+      "IsHide": false,
+      "IsCopy": false,
+      "IsMulticast": false
+    },
+    "28": {
+      "Id": 28,
+      "Name": "SetScore",
+      "VariableList": [
+        {
+          "ParamName": {
+            "Namespace": "GM",
+            "Key": "28_VariableList_Index0_ParamName",
+            "SourceString": "分数",
+            "LocalizedString": "分数"
           },
-          {
-            "ParamName": {
-              "Namespace": "GM",
-              "Key": "60_VariableList_Index1_ParamName",
-              "SourceString": " tar_id",
-              "LocalizedString": " tar_id"
-            },
-            "ParamType": "None"
+          "ParamType": "None"
+        },
+        {
+          "ParamName": {
+            "Namespace": "GM",
+            "Key": "28_VariableList_Index1_ParamName",
+            "SourceString": "队伍",
+            "LocalizedString": "队伍"
           },
-          {
-            "ParamName": {
-              "Namespace": "GM",
-              "Key": "60_VariableList_Index2_ParamName",
-              "SourceString": "标题",
-              "LocalizedString": "标题"
-            },
-            "ParamType": "None"
+          "ParamType": "None"
+        }
+      ],
+      "Type1": "GameMode",
+      "Desc": {
+        "Namespace": "GM",
+        "Key": "28_Desc",
+        "SourceString": "设置本方得分",
+        "LocalizedString": "设置本方得分"
+      },
+      "IsServerGm": true,
+      "IsHide": false,
+      "IsCopy": false,
+      "IsMulticast": false
+    },
+    "29": {
+      "Id": 29,
+      "Name": "SetRemainingTime",
+      "VariableList": [
+        {
+          "ParamName": {
+            "Namespace": "GM",
+            "Key": "29_VariableList_Index0_ParamName",
+            "SourceString": "剩余时间",
+            "LocalizedString": "剩余时间"
           },
-          {
-            "ParamName": {
-              "Namespace": "GM",
-              "Key": "60_VariableList_Index3_ParamName",
-              "SourceString": "内容",
-              "LocalizedString": "内容"
-            },
-            "ParamType": "None"
-          }
-        ],
-        "Type1": "Lobby",
-        "Desc": {
-          "Namespace": "GM",
-          "Key": "60_Desc",
-          "SourceString": "发送邮件",
-          "LocalizedString": "发送邮件"
-        },
-        "IsServerGm": true,
-        "IsHide": false,
-        "IsCopy": false,
-        "IsMulticast": false
+          "ParamType": "None"
+        }
+      ],
+      "Type1": "GameMode",
+      "Desc": {
+        "Namespace": "GM",
+        "Key": "29_Desc",
+        "SourceString": "设置当前回合剩余时间",
+        "LocalizedString": "设置当前回合剩余时间"
       },
-      "61": {
-        "Id": 61,
-        "Name": "gm_group_send_mail",
-        "VariableList": [
-          {
-            "ParamName": {
-              "Namespace": "GM",
-              "Key": "61_VariableList_Index0_ParamName",
-              "SourceString": "part_id",
-              "LocalizedString": "part_id"
-            },
-            "ParamType": "None"
+      "IsServerGm": true,
+      "IsHide": false,
+      "IsCopy": false,
+      "IsMulticast": false
+    },
+    "30": {
+      "Id": 30,
+      "Name": "SetRemainingTimeZero",
+      "VariableList": [],
+      "Type1": "GameMode",
+      "Desc": {
+        "Namespace": "GM",
+        "Key": "30_Desc",
+        "SourceString": "清空当前回合剩余时间",
+        "LocalizedString": "清空当前回合剩余时间"
+      },
+      "IsServerGm": true,
+      "IsHide": false,
+      "IsCopy": false,
+      "IsMulticast": false
+    },
+    "31": {
+      "Id": 31,
+      "Name": "SetAllCharacterAttributeValue",
+      "VariableList": [
+        {
+          "ParamName": {
+            "Namespace": "GM",
+            "Key": "31_VariableList_Index0_ParamName",
+            "SourceString": "属性",
+            "LocalizedString": "属性"
           },
-          {
-            "ParamName": {
-              "Namespace": "GM",
-              "Key": "61_VariableList_Index1_ParamName",
-              "SourceString": "标题",
-              "LocalizedString": "标题"
-            },
-            "ParamType": "None"
+          "ParamType": "CharacterAttribute"
+        },
+        {
+          "ParamName": {
+            "Namespace": "GM",
+            "Key": "31_VariableList_Index1_ParamName",
+            "SourceString": "数值",
+            "LocalizedString": "数值"
           },
-          {
-            "ParamName": {
-              "Namespace": "GM",
-              "Key": "61_VariableList_Index2_ParamName",
-              "SourceString": "内容",
-              "LocalizedString": "内容"
-            },
-            "ParamType": "None"
+          "ParamType": "None"
+        }
+      ],
+      "Type1": "GameMode",
+      "Desc": {
+        "Namespace": "GM",
+        "Key": "31_Desc",
+        "SourceString": "所有角色属性",
+        "LocalizedString": "所有角色属性"
+      },
+      "IsServerGm": true,
+      "IsHide": false,
+      "IsCopy": false,
+      "IsMulticast": false
+    },
+    "32": {
+      "Id": 32,
+      "Name": "LoadingMapDebug",
+      "VariableList": [],
+      "Type1": "GameMode",
+      "Desc": {
+        "Namespace": "GM",
+        "Key": "32_Desc",
+        "SourceString": "打印loading信息",
+        "LocalizedString": "打印loading信息"
+      },
+      "IsServerGm": false,
+      "IsHide": true,
+      "IsCopy": false,
+      "IsMulticast": false
+    },
+    "33": {
+      "Id": 33,
+      "Name": "OpenLoadingMap",
+      "VariableList": [],
+      "Type1": "GameMode",
+      "Desc": {
+        "Namespace": "GM",
+        "Key": "33_Desc",
+        "SourceString": "连接loading地图",
+        "LocalizedString": "连接loading地图"
+      },
+      "IsServerGm": false,
+      "IsHide": true,
+      "IsCopy": false,
+      "IsMulticast": false
+    },
+    "34": {
+      "Id": 34,
+      "Name": "Say",
+      "VariableList": [
+        {
+          "ParamName": {
+            "Namespace": "GM",
+            "Key": "34_VariableList_Index0_ParamName",
+            "SourceString": "内容",
+            "LocalizedString": "内容"
           },
-          {
-            "ParamName": {
-              "Namespace": "GM",
-              "Key": "61_VariableList_Index3_ParamName",
-              "SourceString": "attach",
-              "LocalizedString": "attach"
-            },
-            "ParamType": "None"
-          }
-        ],
-        "Type1": "Lobby",
-        "Desc": {
-          "Namespace": "GM",
-          "Key": "61_Desc",
-          "SourceString": "群发邮件",
-          "LocalizedString": "群发邮件"
-        },
-        "IsServerGm": true,
-        "IsHide": false,
-        "IsCopy": false,
-        "IsMulticast": false
+          "ParamType": "None"
+        }
+      ],
+      "Type1": "GameMode",
+      "Desc": {
+        "CultureInvariantString": null
       },
-      "62": {
-        "Id": 62,
-        "Name": "gm_set_attribute",
-        "VariableList": [
-          {
-            "ParamName": {
-              "Namespace": "GM",
-              "Key": "62_VariableList_Index0_ParamName",
-              "SourceString": "属性Id",
-              "LocalizedString": "属性Id"
-            },
-            "ParamType": "Attribute"
+      "IsServerGm": false,
+      "IsHide": true,
+      "IsCopy": false,
+      "IsMulticast": false
+    },
+    "35": {
+      "Id": 35,
+      "Name": "OpenLoadingMapSeamless",
+      "VariableList": [],
+      "Type1": "GameMode",
+      "Desc": {
+        "Namespace": "GM",
+        "Key": "35_Desc",
+        "SourceString": "Seamless连接loading地图",
+        "LocalizedString": "Seamless连接loading地图"
+      },
+      "IsServerGm": false,
+      "IsHide": true,
+      "IsCopy": false,
+      "IsMulticast": false
+    },
+    "36": {
+      "Id": 36,
+      "Name": "FinishLSMatchBegin",
+      "VariableList": [],
+      "Type1": "GameMode",
+      "Desc": {
+        "Namespace": "GM",
+        "Key": "36_Desc",
+        "SourceString": "跳过开场动画",
+        "LocalizedString": "跳过开场动画"
+      },
+      "IsServerGm": false,
+      "IsHide": true,
+      "IsCopy": false,
+      "IsMulticast": false
+    },
+    "37": {
+      "Id": 37,
+      "Name": "SetAllowBots",
+      "VariableList": [
+        {
+          "ParamName": {
+            "Namespace": "GM",
+            "Key": "37_VariableList_Index0_ParamName",
+            "SourceString": "bInAllowBots",
+            "LocalizedString": "bInAllowBots"
           },
-          {
-            "ParamName": {
-              "Namespace": "GM",
-              "Key": "62_VariableList_Index1_ParamName",
-              "SourceString": "数值",
-              "LocalizedString": "数值"
-            },
-            "ParamType": "None"
-          }
-        ],
-        "Type1": "Lobby",
-        "Desc": {
-          "Namespace": "GM",
-          "Key": "62_Desc",
-          "SourceString": "设置账号属性",
-          "LocalizedString": "设置账号属性"
+          "ParamType": "None"
         },
-        "IsServerGm": true,
-        "IsHide": false,
-        "IsCopy": false,
-        "IsMulticast": false
-      },
-      "63": {
-        "Id": 63,
-        "Name": "gm_add_weapon",
-        "VariableList": [
-          {
-            "ParamName": {
-              "Namespace": "GM",
-              "Key": "63_VariableList_Index0_ParamName",
-              "SourceString": "武器Id",
-              "LocalizedString": "武器Id"
-            },
-            "ParamType": "Weapon"
-          }
-        ],
-        "Type1": "Lobby",
-        "Desc": {
-          "Namespace": "GM",
-          "Key": "63_Desc",
-          "SourceString": "添加一把武器",
-          "LocalizedString": "添加一把武器"
-        },
-        "IsServerGm": true,
-        "IsHide": false,
-        "IsCopy": false,
-        "IsMulticast": false
-      },
-      "64": {
-        "Id": 64,
-        "Name": "gm_set_talent",
-        "VariableList": [
-          {
-            "ParamName": {
-              "Namespace": "GM",
-              "Key": "64_VariableList_Index0_ParamName",
-              "SourceString": "天赋Id",
-              "LocalizedString": "天赋Id"
-            },
-            "ParamType": "Attribute"
+        {
+          "ParamName": {
+            "Namespace": "GM",
+            "Key": "37_VariableList_Index1_ParamName",
+            "SourceString": "InMaxBots",
+            "LocalizedString": "InMaxBots"
           },
-          {
-            "ParamName": {
-              "Namespace": "GM",
-              "Key": "64_VariableList_Index1_ParamName",
-              "SourceString": "等级",
-              "LocalizedString": "等级"
-            },
-            "ParamType": "None"
-          }
-        ],
-        "Type1": "Lobby",
-        "Desc": {
-          "Namespace": "GM",
-          "Key": "64_Desc",
-          "SourceString": "设置天赋",
-          "LocalizedString": "设置天赋"
-        },
-        "IsServerGm": true,
-        "IsHide": true,
-        "IsCopy": false,
-        "IsMulticast": false
+          "ParamType": "None"
+        }
+      ],
+      "Type1": "GameMode",
+      "Desc": {
+        "Namespace": "GM",
+        "Key": "37_Desc",
+        "SourceString": "允许bot，bot数量上限",
+        "LocalizedString": "允许bot，bot数量上限"
       },
-      "65": {
-        "Id": 65,
-        "Name": "gm_add_role",
-        "VariableList": [
-          {
-            "ParamName": {
-              "Namespace": "GM",
-              "Key": "65_VariableList_Index0_ParamName",
-              "SourceString": "角色Id",
-              "LocalizedString": "角色Id"
-            },
-            "ParamType": "Role"
+      "IsServerGm": true,
+      "IsHide": true,
+      "IsCopy": false,
+      "IsMulticast": false
+    },
+    "38": {
+      "Id": 38,
+      "Name": "SetBotLevel",
+      "VariableList": [
+        {
+          "ParamName": {
+            "Namespace": "GM",
+            "Key": "38_VariableList_Index0_ParamName",
+            "SourceString": "DifficultyLevel",
+            "LocalizedString": "DifficultyLevel"
           },
-          {
-            "ParamName": {
-              "Namespace": "GM",
-              "Key": "65_VariableList_Index1_ParamName",
-              "SourceString": "life_time",
-              "LocalizedString": "life_time"
-            },
-            "ParamType": "None"
-          }
-        ],
-        "Type1": "Lobby",
-        "Desc": {
-          "Namespace": "GM",
-          "Key": "65_Desc",
-          "SourceString": "添加角色",
-          "LocalizedString": "添加角色"
+          "ParamType": "None"
         },
-        "IsServerGm": true,
-        "IsHide": false,
-        "IsCopy": false,
-        "IsMulticast": false
-      },
-      "66": {
-        "Id": 66,
-        "Name": "gm_add_role_skin",
-        "VariableList": [
-          {
-            "ParamName": {
-              "Namespace": "GM",
-              "Key": "66_VariableList_Index0_ParamName",
-              "SourceString": "皮肤Id",
-              "LocalizedString": "皮肤Id"
-            },
-            "ParamType": "RoleSkin"
+        {
+          "ParamName": {
+            "Namespace": "GM",
+            "Key": "38_VariableList_Index1_ParamName",
+            "SourceString": "bIsBonusGame",
+            "LocalizedString": "bIsBonusGame"
           },
-          {
-            "ParamName": {
-              "Namespace": "GM",
-              "Key": "66_VariableList_Index1_ParamName",
-              "SourceString": "life_time",
-              "LocalizedString": "life_time"
-            },
-            "ParamType": "None"
-          }
-        ],
-        "Type1": "Lobby",
-        "Desc": {
-          "Namespace": "GM",
-          "Key": "66_Desc",
-          "SourceString": "添加皮肤",
-          "LocalizedString": "添加皮肤"
-        },
-        "IsServerGm": true,
-        "IsHide": false,
-        "IsCopy": false,
-        "IsMulticast": false
+          "ParamType": "None"
+        }
+      ],
+      "Type1": "GameMode",
+      "Desc": {
+        "Namespace": "GM",
+        "Key": "38_Desc",
+        "SourceString": "设置AI等级",
+        "LocalizedString": "设置AI等级"
       },
-      "67": {
-        "Id": 67,
-        "Name": "gm_add_role_voice",
-        "VariableList": [
-          {
-            "ParamName": {
-              "Namespace": "GM",
-              "Key": "67_VariableList_Index0_ParamName",
-              "SourceString": "语音Id",
-              "LocalizedString": "语音Id"
-            },
-            "ParamType": "None"
-          }
-        ],
-        "Type1": "Lobby",
-        "Desc": {
-          "Namespace": "GM",
-          "Key": "67_Desc",
-          "SourceString": "添加语音",
-          "LocalizedString": "添加语音"
-        },
-        "IsServerGm": true,
-        "IsHide": false,
-        "IsCopy": false,
-        "IsMulticast": false
-      },
-      "68": {
-        "Id": 68,
-        "Name": "gm_add_role_action",
-        "VariableList": [
-          {
-            "ParamName": {
-              "Namespace": "GM",
-              "Key": "68_VariableList_Index0_ParamName",
-              "SourceString": "动作Id",
-              "LocalizedString": "动作Id"
-            },
-            "ParamType": "None"
-          }
-        ],
-        "Type1": "Lobby",
-        "Desc": {
-          "Namespace": "GM",
-          "Key": "68_Desc",
-          "SourceString": "添加动作",
-          "LocalizedString": "添加动作"
-        },
-        "IsServerGm": true,
-        "IsHide": false,
-        "IsCopy": false,
-        "IsMulticast": false
-      },
-      "69": {
-        "Id": 69,
-        "Name": "gm_task_progress_update",
-        "VariableList": [
-          {
-            "ParamName": {
-              "Namespace": "GM",
-              "Key": "69_VariableList_Index0_ParamName",
-              "SourceString": "任务Id",
-              "LocalizedString": "任务Id"
-            },
-            "ParamType": "None"
+      "IsServerGm": true,
+      "IsHide": true,
+      "IsCopy": false,
+      "IsMulticast": false
+    },
+    "39": {
+      "Id": 39,
+      "Name": "SpawnBotWithParams",
+      "VariableList": [
+        {
+          "ParamName": {
+            "Namespace": "GM",
+            "Key": "39_VariableList_Index0_ParamName",
+            "SourceString": "阵营",
+            "LocalizedString": "阵营"
           },
-          {
-            "ParamName": {
-              "Namespace": "GM",
-              "Key": "69_VariableList_Index1_ParamName",
-              "SourceString": "行为Id",
-              "LocalizedString": "行为Id"
-            },
-            "ParamType": "None"
+          "ParamType": "None"
+        },
+        {
+          "ParamName": {
+            "Namespace": "GM",
+            "Key": "39_VariableList_Index1_ParamName",
+            "SourceString": "路径",
+            "LocalizedString": "路径"
           },
-          {
-            "ParamName": {
-              "Namespace": "GM",
-              "Key": "69_VariableList_Index2_ParamName",
-              "SourceString": "进度",
-              "LocalizedString": "进度"
-            },
-            "ParamType": "None"
-          }
-        ],
-        "Type1": "Lobby",
-        "Desc": {
-          "Namespace": "GM",
-          "Key": "69_Desc",
-          "SourceString": "更新任务进度",
-          "LocalizedString": "更新任务进度"
+          "ParamType": "None"
         },
-        "IsServerGm": true,
-        "IsHide": false,
-        "IsCopy": false,
-        "IsMulticast": false
-      },
-      "70": {
-        "Id": 70,
-        "Name": "gm_add_role_data",
-        "VariableList": [],
-        "Type1": "Lobby",
-        "Desc": {
-          "Namespace": "GM",
-          "Key": "70_Desc",
-          "SourceString": "添加所有角色相关数据",
-          "LocalizedString": "添加所有角色相关数据"
-        },
-        "IsServerGm": true,
-        "IsHide": false,
-        "IsCopy": false,
-        "IsMulticast": false
-      },
-      "71": {
-        "Id": 71,
-        "Name": "TestProfile",
-        "VariableList": [],
-        "Type1": "Optimization",
-        "Desc": {
-          "CultureInvariantString": null
-        },
-        "IsServerGm": false,
-        "IsHide": false,
-        "IsCopy": false,
-        "IsMulticast": false
-      },
-      "72": {
-        "Id": 72,
-        "Name": "BeginProfile",
-        "VariableList": [],
-        "Type1": "Optimization",
-        "Desc": {
-          "CultureInvariantString": null
-        },
-        "IsServerGm": true,
-        "IsHide": false,
-        "IsCopy": false,
-        "IsMulticast": false
-      },
-      "73": {
-        "Id": 73,
-        "Name": "show Wireframe",
-        "VariableList": [],
-        "Type1": "Optimization",
-        "Desc": {
-          "Namespace": "GM",
-          "Key": "73_Desc",
-          "SourceString": "切换线框显示",
-          "LocalizedString": "切换线框显示"
-        },
-        "IsServerGm": false,
-        "IsHide": false,
-        "IsCopy": false,
-        "IsMulticast": false
-      },
-      "74": {
-        "Id": 74,
-        "Name": "SvrCmd",
-        "VariableList": [
-          {
-            "ParamName": {
-              "Namespace": "GM",
-              "Key": "74_VariableList_Index0_ParamName",
-              "SourceString": "Cmd",
-              "LocalizedString": "Cmd"
-            },
-            "ParamType": "None"
-          }
-        ],
-        "Type1": "Optimization",
-        "Desc": {
-          "Namespace": "GM",
-          "Key": "74_Desc",
-          "SourceString": "执行server指令",
-          "LocalizedString": "执行server指令"
-        },
-        "IsServerGm": false,
-        "IsHide": false,
-        "IsCopy": false,
-        "IsMulticast": false
-      },
-      "75": {
-        "Id": 75,
-        "Name": "MultiSvrCmd",
-        "VariableList": [
-          {
-            "ParamName": {
-              "Namespace": "GM",
-              "Key": "75_VariableList_Index0_ParamName",
-              "SourceString": "Cmd",
-              "LocalizedString": "Cmd"
-            },
-            "ParamType": "None"
-          }
-        ],
-        "Type1": "Optimization",
-        "Desc": {
-          "Namespace": "GM",
-          "Key": "75_Desc",
-          "SourceString": "multicast执行指令",
-          "LocalizedString": "multicast执行指令"
-        },
-        "IsServerGm": false,
-        "IsHide": false,
-        "IsCopy": false,
-        "IsMulticast": false
-      },
-      "76": {
-        "Id": 76,
-        "Name": "ServerSlomo",
-        "VariableList": [
-          {
-            "ParamName": {
-              "Namespace": "GM",
-              "Key": "76_VariableList_Index0_ParamName",
-              "SourceString": "倍率",
-              "LocalizedString": "倍率"
-            },
-            "ParamType": "None"
-          }
-        ],
-        "Type1": "Optimization",
-        "Desc": {
-          "Namespace": "GM",
-          "Key": "76_Desc",
-          "SourceString": "动画慢速",
-          "LocalizedString": "动画慢速"
-        },
-        "IsServerGm": false,
-        "IsHide": false,
-        "IsCopy": false,
-        "IsMulticast": false
-      },
-      "77": {
-        "Id": 77,
-        "Name": "ClearLogScreenError",
-        "VariableList": [],
-        "Type1": "Optimization",
-        "Desc": {
-          "Namespace": "GM",
-          "Key": "77_Desc",
-          "SourceString": "清除错误log",
-          "LocalizedString": "清除错误log"
-        },
-        "IsServerGm": false,
-        "IsHide": false,
-        "IsCopy": false,
-        "IsMulticast": false
-      },
-      "78": {
-        "Id": 78,
-        "Name": "ToggleLogScreenError",
-        "VariableList": [],
-        "Type1": "Optimization",
-        "Desc": {
-          "Namespace": "GM",
-          "Key": "78_Desc",
-          "SourceString": "开关错误log",
-          "LocalizedString": "开关错误log"
-        },
-        "IsServerGm": false,
-        "IsHide": false,
-        "IsCopy": false,
-        "IsMulticast": false
-      },
-      "79": {
-        "Id": 79,
-        "Name": "EndPagePlaySequence",
-        "VariableList": [
-          {
-            "ParamName": {
-              "Namespace": "GM",
-              "Key": "79_VariableList_Index0_ParamName",
-              "SourceString": "角色",
-              "LocalizedString": "角色"
-            },
-            "ParamType": "RoleSkin"
+        {
+          "ParamName": {
+            "Namespace": "GM",
+            "Key": "39_VariableList_Index2_ParamName",
+            "SourceString": "路径",
+            "LocalizedString": "路径"
           },
-          {
-            "ParamName": {
-              "Namespace": "GM",
-              "Key": "79_VariableList_Index1_ParamName",
-              "SourceString": "武器",
-              "LocalizedString": "武器"
-            },
-            "ParamType": "WeaponSkin"
+          "ParamType": "None"
+        },
+        {
+          "ParamName": {
+            "Namespace": "GM",
+            "Key": "39_VariableList_Index3_ParamName",
+            "SourceString": "出生点",
+            "LocalizedString": "出生点"
           },
-          {
-            "ParamName": {
-              "Namespace": "GM",
-              "Key": "79_VariableList_Index2_ParamName",
-              "SourceString": "类型",
-              "LocalizedString": "类型"
-            },
-            "ParamType": "SequenceType"
-          }
-        ],
-        "Type1": "UI",
-        "Desc": {
-          "Namespace": "GM",
-          "Key": "79_Desc",
-          "SourceString": "结算动画",
-          "LocalizedString": "结算动画"
-        },
-        "IsServerGm": false,
-        "IsHide": false,
-        "IsCopy": false,
-        "IsMulticast": false
+          "ParamType": "None"
+        }
+      ],
+      "Type1": "GameMode",
+      "Desc": {
+        "Namespace": "GM",
+        "Key": "39_Desc",
+        "SourceString": "召唤指定阵营，路径，出生点AI",
+        "LocalizedString": "召唤指定阵营，路径，出生点AI"
       },
-      "80": {
-        "Id": 80,
-        "Name": "ShowMiniMapComponent",
-        "VariableList": [
-          {
-            "ParamName": {
-              "Namespace": "GM",
-              "Key": "80_VariableList_Index0_ParamName",
-              "SourceString": "是:true 否:false",
-              "LocalizedString": "是:true 否:false"
-            },
-            "ParamType": "None"
-          }
-        ],
-        "Type1": "UI",
-        "Desc": {
-          "Namespace": "GM",
-          "Key": "80_Desc",
-          "SourceString": "显示minimap",
-          "LocalizedString": "显示minimap"
-        },
-        "IsServerGm": false,
-        "IsHide": true,
-        "IsCopy": false,
-        "IsMulticast": false
+      "IsServerGm": true,
+      "IsHide": true,
+      "IsCopy": false,
+      "IsMulticast": false
+    },
+    "40": {
+      "Id": 40,
+      "Name": "OpenLevelCmd",
+      "VariableList": [
+        {
+          "ParamName": {
+            "Namespace": "GM",
+            "Key": "40_VariableList_Index0_ParamName",
+            "SourceString": "Cmd",
+            "LocalizedString": "Cmd"
+          },
+          "ParamType": "None"
+        }
+      ],
+      "Type1": "GameMode",
+      "Desc": {
+        "Namespace": "GM",
+        "Key": "40_Desc",
+        "SourceString": "打开关卡",
+        "LocalizedString": "打开关卡"
       },
-      "81": {
-        "Id": 81,
-        "Name": "CloseAllPage",
-        "VariableList": [],
-        "Type1": "UI",
-        "Desc": {
-          "Namespace": "GM",
-          "Key": "81_Desc",
-          "SourceString": "关闭所有UI",
-          "LocalizedString": "关闭所有UI"
-        },
-        "IsServerGm": false,
-        "IsHide": false,
-        "IsCopy": false,
-        "IsMulticast": false
+      "IsServerGm": false,
+      "IsHide": false,
+      "IsCopy": true,
+      "IsMulticast": false
+    },
+    "41": {
+      "Id": 41,
+      "Name": "ServerTargetScore",
+      "VariableList": [
+        {
+          "ParamName": {
+            "Namespace": "GM",
+            "Key": "41_VariableList_Index0_ParamName",
+            "SourceString": "分数",
+            "LocalizedString": "分数"
+          },
+          "ParamType": "None"
+        }
+      ],
+      "Type1": "GameMode",
+      "Desc": {
+        "Namespace": "GM",
+        "Key": "41_Desc",
+        "SourceString": "设置团竟目标分数",
+        "LocalizedString": "设置团竟目标分数"
       },
-      "82": {
-        "Id": 82,
-        "Name": "OpenPage",
-        "VariableList": [
-          {
-            "ParamName": {
-              "Namespace": "GM",
-              "Key": "82_VariableList_Index0_ParamName",
-              "SourceString": "PageName",
-              "LocalizedString": "PageName"
-            },
-            "ParamType": "UI"
-          }
-        ],
-        "Type1": "UI",
-        "Desc": {
-          "Namespace": "GM",
-          "Key": "82_Desc",
-          "SourceString": "开UI",
-          "LocalizedString": "开UI"
-        },
-        "IsServerGm": false,
-        "IsHide": false,
-        "IsCopy": false,
-        "IsMulticast": false
+      "IsServerGm": true,
+      "IsHide": false,
+      "IsCopy": false,
+      "IsMulticast": false
+    },
+    "42": {
+      "Id": 42,
+      "Name": "EnterGameOver",
+      "VariableList": [
+        {
+          "ParamName": {
+            "Namespace": "GM",
+            "Key": "42_VariableList_Index0_ParamName",
+            "SourceString": "队伍Id",
+            "LocalizedString": "队伍Id"
+          },
+          "ParamType": "None"
+        }
+      ],
+      "Type1": "GameMode",
+      "Desc": {
+        "Namespace": "GM",
+        "Key": "42_Desc",
+        "SourceString": "选择获胜队伍进入结算",
+        "LocalizedString": "选择获胜队伍进入结算"
       },
-      "83": {
-        "Id": 83,
-        "Name": "ClosePage",
-        "VariableList": [
-          {
-            "ParamName": {
-              "Namespace": "GM",
-              "Key": "83_VariableList_Index0_ParamName",
-              "SourceString": "PageName",
-              "LocalizedString": "PageName"
-            },
-            "ParamType": "UI"
-          }
-        ],
-        "Type1": "UI",
-        "Desc": {
-          "Namespace": "GM",
-          "Key": "83_Desc",
-          "SourceString": "关UI",
-          "LocalizedString": "关UI"
-        },
-        "IsServerGm": false,
-        "IsHide": false,
-        "IsCopy": false,
-        "IsMulticast": false
+      "IsServerGm": true,
+      "IsHide": false,
+      "IsCopy": false,
+      "IsMulticast": false
+    },
+    "43": {
+      "Id": 43,
+      "Name": "DamageTarget",
+      "VariableList": [
+        {
+          "ParamName": {
+            "Namespace": "GM",
+            "Key": "43_VariableList_Index0_ParamName",
+            "SourceString": "数值",
+            "LocalizedString": "数值"
+          },
+          "ParamType": "None"
+        }
+      ],
+      "Type1": "GameMode",
+      "Desc": {
+        "Namespace": "GM",
+        "Key": "43_Desc",
+        "SourceString": "伤害指向目标",
+        "LocalizedString": "伤害指向目标"
       },
-      "84": {
-        "Id": 84,
-        "Name": "ToggleMobileHUD",
-        "VariableList": [],
-        "Type1": "UI",
-        "Desc": {
-          "Namespace": "GM",
-          "Key": "84_Desc",
-          "SourceString": "切换各平台UI",
-          "LocalizedString": "切换各平台UI"
+      "IsServerGm": true,
+      "IsHide": false,
+      "IsCopy": false,
+      "IsMulticast": false
+    },
+    "44": {
+      "Id": 44,
+      "Name": "AISetPlayerAILevel",
+      "VariableList": [
+        {
+          "ParamName": {
+            "Namespace": "GM",
+            "Key": "44_VariableList_Index0_ParamName",
+            "SourceString": "PlayerSerial",
+            "LocalizedString": "PlayerSerial"
+          },
+          "ParamType": "None"
         },
-        "IsServerGm": false,
-        "IsHide": false,
-        "IsCopy": false,
-        "IsMulticast": false
+        {
+          "ParamName": {
+            "Namespace": "GM",
+            "Key": "44_VariableList_Index1_ParamName",
+            "SourceString": "AILevel",
+            "LocalizedString": "AILevel"
+          },
+          "ParamType": "None"
+        },
+        {
+          "ParamName": {
+            "Namespace": "GM",
+            "Key": "44_VariableList_Index2_ParamName",
+            "SourceString": "AIStyle",
+            "LocalizedString": "AIStyle"
+          },
+          "ParamType": "None"
+        }
+      ],
+      "Type1": "GameMode",
+      "Desc": {
+        "Namespace": "GM",
+        "Key": "44_Desc",
+        "SourceString": "设置指定玩家的AI等级",
+        "LocalizedString": "设置指定玩家的AI等级"
       },
-      "85": {
-        "Id": 85,
-        "Name": "Slate.HitTestGridDebugging",
-        "VariableList": [
-          {
-            "ParamName": {
-              "Namespace": "GM",
-              "Key": "85_VariableList_Index0_ParamName",
-              "SourceString": "是:true 否:false",
-              "LocalizedString": "是:true 否:false"
-            },
-            "ParamType": "None"
-          }
-        ],
-        "Type1": "UI",
-        "Desc": {
-          "Namespace": "GM",
-          "Key": "85_Desc",
-          "SourceString": "显示UI按键热区",
-          "LocalizedString": "显示UI按键热区"
+      "IsServerGm": true,
+      "IsHide": false,
+      "IsCopy": false,
+      "IsMulticast": false
+    },
+    "45": {
+      "Id": 45,
+      "Name": "AISetTeamAILevel",
+      "VariableList": [
+        {
+          "ParamName": {
+            "Namespace": "GM",
+            "Key": "45_VariableList_Index0_ParamName",
+            "SourceString": "TeamID",
+            "LocalizedString": "TeamID"
+          },
+          "ParamType": "None"
         },
-        "IsServerGm": false,
-        "IsHide": false,
-        "IsCopy": false,
-        "IsMulticast": false
+        {
+          "ParamName": {
+            "Namespace": "GM",
+            "Key": "45_VariableList_Index1_ParamName",
+            "SourceString": "AILevel",
+            "LocalizedString": "AILevel"
+          },
+          "ParamType": "None"
+        },
+        {
+          "ParamName": {
+            "Namespace": "GM",
+            "Key": "45_VariableList_Index2_ParamName",
+            "SourceString": "AIStyle",
+            "LocalizedString": "AIStyle"
+          },
+          "ParamType": "None"
+        }
+      ],
+      "Type1": "GameMode",
+      "Desc": {
+        "Namespace": "GM",
+        "Key": "45_Desc",
+        "SourceString": "设置指定队伍的AI等级",
+        "LocalizedString": "设置指定队伍的AI等级"
       },
-      "86": {
-        "Id": 86,
-        "Name": "stat slate",
-        "VariableList": [],
-        "Type1": "UI",
-        "Desc": {
-          "CultureInvariantString": null
-        },
-        "IsServerGm": false,
-        "IsHide": false,
-        "IsCopy": false,
-        "IsMulticast": false
+      "IsServerGm": true,
+      "IsHide": false,
+      "IsCopy": false,
+      "IsMulticast": false
+    },
+    "46": {
+      "Id": 46,
+      "Name": "ShowCharacterOnlyInSelectRolePage",
+      "VariableList": [
+        {
+          "ParamName": {
+            "Namespace": "GM",
+            "Key": "46_VariableList_Index0_ParamName",
+            "SourceString": "是:true 否:false",
+            "LocalizedString": "是:true 否:false"
+          },
+          "ParamType": "None"
+        }
+      ],
+      "Type1": "GameMode",
+      "Desc": {
+        "Namespace": "GM",
+        "Key": "46_Desc",
+        "SourceString": "选人界面中只显示角色",
+        "LocalizedString": "选人界面中只显示角色"
       },
-      "87": {
-        "Id": 87,
-        "Name": "Joystick.ShowDebugging",
-        "VariableList": [
-          {
-            "ParamName": {
-              "Namespace": "GM",
-              "Key": "87_VariableList_Index0_ParamName",
-              "SourceString": "是:true 否:false",
-              "LocalizedString": "是:true 否:false"
-            },
-            "ParamType": "None"
-          }
-        ],
-        "Type1": "UI",
-        "Desc": {
-          "Namespace": "GM",
-          "Key": "87_Desc",
-          "SourceString": "Mobile操控Debug",
-          "LocalizedString": "Mobile操控Debug"
-        },
-        "IsServerGm": false,
-        "IsHide": false,
-        "IsCopy": false,
-        "IsMulticast": false
+      "IsServerGm": false,
+      "IsHide": false,
+      "IsCopy": false,
+      "IsMulticast": false
+    },
+    "47": {
+      "Id": 47,
+      "Name": "DisplayMMRInfo",
+      "VariableList": [],
+      "Type1": "GameMode",
+      "Desc": {
+        "Namespace": "GM",
+        "Key": "47_Desc",
+        "SourceString": "显示AI等级和隐藏分",
+        "LocalizedString": "显示AI等级和隐藏分"
       },
-      "88": {
-        "Id": 88,
-        "Name": "SlateDebugger.Start",
-        "VariableList": [],
-        "Type1": "UI",
-        "Desc": {
-          "CultureInvariantString": null
-        },
-        "IsServerGm": false,
-        "IsHide": false,
-        "IsCopy": false,
-        "IsMulticast": false
+      "IsServerGm": true,
+      "IsHide": false,
+      "IsCopy": false,
+      "IsMulticast": false
+    },
+    "48": {
+      "Id": 48,
+      "Name": "AIDisplayAllInfo",
+      "VariableList": [],
+      "Type1": "GameMode",
+      "Desc": {
+        "Namespace": "GM",
+        "Key": "48_Desc",
+        "SourceString": "显示AI信息",
+        "LocalizedString": "显示AI信息"
       },
-      "89": {
-        "Id": 89,
-        "Name": "SlateDebugger.Stop",
-        "VariableList": [],
-        "Type1": "UI",
-        "Desc": {
-          "CultureInvariantString": null
-        },
-        "IsServerGm": false,
-        "IsHide": false,
-        "IsCopy": false,
-        "IsMulticast": false
+      "IsServerGm": true,
+      "IsHide": false,
+      "IsCopy": false,
+      "IsMulticast": false
+    },
+    "49": {
+      "Id": 49,
+      "Name": "AIDisableAIAction",
+      "VariableList": [
+        {
+          "ParamName": {
+            "Namespace": "GM",
+            "Key": "49_VariableList_Index0_ParamName",
+            "SourceString": "禁止:1 允许:0",
+            "LocalizedString": "禁止:1 允许:0"
+          },
+          "ParamType": "None"
+        }
+      ],
+      "Type1": "GameMode",
+      "Desc": {
+        "Namespace": "GM",
+        "Key": "49_Desc",
+        "SourceString": "禁止超参数AI操作",
+        "LocalizedString": "禁止超参数AI操作"
       },
-      "90": {
-        "Id": 90,
-        "Name": "SlateDebugger.CaptureStack",
-        "VariableList": [],
-        "Type1": "UI",
-        "Desc": {
-          "CultureInvariantString": null
-        },
-        "IsServerGm": false,
-        "IsHide": false,
-        "IsCopy": false,
-        "IsMulticast": false
+      "IsServerGm": true,
+      "IsHide": false,
+      "IsCopy": false,
+      "IsMulticast": false
+    },
+    "50": {
+      "Id": 50,
+      "Name": "ApplyMobileSensitivity",
+      "VariableList": [],
+      "Type1": "GameMode",
+      "Desc": {
+        "Namespace": "GM",
+        "Key": "50_Desc",
+        "SourceString": "初始化Mobile灵敏度",
+        "LocalizedString": "初始化Mobile灵敏度"
       },
-      "91": {
-        "Id": 91,
-        "Name": "SceneMapChangeIconStyle",
-        "VariableList": [],
-        "Type1": "UI",
-        "Desc": {
-          "Namespace": "GM",
-          "Key": "91_Desc",
-          "SourceString": "小地图元素显示样式修改",
-          "LocalizedString": "小地图元素显示样式修改"
-        },
-        "IsServerGm": false,
-        "IsHide": false,
-        "IsCopy": false,
-        "IsMulticast": false
+      "IsServerGm": true,
+      "IsHide": false,
+      "IsCopy": false,
+      "IsMulticast": false
+    },
+    "51": {
+      "Id": 51,
+      "Name": "CalculateMmrWhenPlayerInactive",
+      "VariableList": [],
+      "Type1": "GameMode",
+      "Desc": {
+        "Namespace": "GM",
+        "Key": "51_Desc",
+        "SourceString": "离线、挂机也计算隐藏分",
+        "LocalizedString": "离线、挂机也计算隐藏分"
       },
-      "92": {
-        "Id": 92,
-        "Name": "HideSelectRolePage",
-        "VariableList": [],
-        "Type1": "UI",
-        "Desc": {
-          "Namespace": "GM",
-          "Key": "92_Desc",
-          "SourceString": "隐藏或者显示选人界面",
-          "LocalizedString": "隐藏或者显示选人界面"
-        },
-        "IsServerGm": false,
-        "IsHide": false,
-        "IsCopy": false,
-        "IsMulticast": false
+      "IsServerGm": true,
+      "IsHide": false,
+      "IsCopy": false,
+      "IsMulticast": false
+    },
+    "52": {
+      "Id": 52,
+      "Name": "SetHangUpDetectionDuration",
+      "VariableList": [
+        {
+          "ParamName": {
+            "Namespace": "GM",
+            "Key": "52_VariableList_Index0_ParamName",
+            "SourceString": "时长",
+            "LocalizedString": "时长"
+          },
+          "ParamType": "None"
+        }
+      ],
+      "Type1": "GameMode",
+      "Desc": {
+        "Namespace": "GM",
+        "Key": "52_Desc",
+        "SourceString": "设置当前玩家挂机触发时间",
+        "LocalizedString": "设置当前玩家挂机触发时间"
       },
-      "93": {
-        "Id": 93,
-        "Name": "CustomRoomListDataRepeated",
-        "VariableList": [],
-        "Type1": "UI",
-        "Desc": {
-          "Namespace": "GM",
-          "Key": "93_Desc",
-          "SourceString": "自定义房间列表数据是否重复显示",
-          "LocalizedString": "自定义房间列表数据是否重复显示"
-        },
-        "IsServerGm": false,
-        "IsHide": false,
-        "IsCopy": false,
-        "IsMulticast": false
+      "IsServerGm": false,
+      "IsHide": false,
+      "IsCopy": false,
+      "IsMulticast": false
+    },
+    "53": {
+      "Id": 53,
+      "Name": "SetHostedEnable",
+      "VariableList": [
+        {
+          "ParamName": {
+            "Namespace": "GM",
+            "Key": "53_VariableList_Index0_ParamName",
+            "SourceString": "是:1 否:0",
+            "LocalizedString": "是:1 否:0"
+          },
+          "ParamType": "None"
+        }
+      ],
+      "Type1": "GameMode",
+      "Desc": {
+        "Namespace": "GM",
+        "Key": "53_Desc",
+        "SourceString": "设置当前玩家是否支持AI托管",
+        "LocalizedString": "设置当前玩家是否支持AI托管"
       },
-      "94": {
-        "Id": 94,
-        "Name": "DisplayPanels",
-        "VariableList": [],
-        "Type1": "UI",
-        "Desc": {
-          "CultureInvariantString": null
-        },
-        "IsServerGm": false,
-        "IsHide": false,
-        "IsCopy": false,
-        "IsMulticast": false
+      "IsServerGm": true,
+      "IsHide": false,
+      "IsCopy": false,
+      "IsMulticast": false
+    },
+    "54": {
+      "Id": 54,
+      "Name": "SetHostedEnableForAll",
+      "VariableList": [
+        {
+          "ParamName": {
+            "Namespace": "GM",
+            "Key": "54_VariableList_Index0_ParamName",
+            "SourceString": "是:1 否:0",
+            "LocalizedString": "是:1 否:0"
+          },
+          "ParamType": "None"
+        }
+      ],
+      "Type1": "GameMode",
+      "Desc": {
+        "Namespace": "GM",
+        "Key": "54_Desc",
+        "SourceString": "设置所有玩家是否支持AI托管",
+        "LocalizedString": "设置所有玩家是否支持AI托管"
       },
-      "95": {
-        "Id": 95,
-        "Name": "DisplayPages",
-        "VariableList": [],
-        "Type1": "UI",
-        "Desc": {
-          "CultureInvariantString": null
-        },
-        "IsServerGm": false,
-        "IsHide": false,
-        "IsCopy": false,
-        "IsMulticast": false
+      "IsServerGm": true,
+      "IsHide": false,
+      "IsCopy": false,
+      "IsMulticast": false
+    },
+    "55": {
+      "Id": 55,
+      "Name": "SpawnBot",
+      "VariableList": [],
+      "Type1": "GameMode",
+      "Desc": {
+        "Namespace": "GM",
+        "Key": "55_Desc",
+        "SourceString": "召唤AI",
+        "LocalizedString": "召唤AI"
       },
-      "96": {
-        "Id": 96,
-        "Name": "lua ViewMgr:OpenPage(LuaGetWorld(), UIPageNameDefine.PufferResPage)",
-        "VariableList": [],
-        "Type1": "UI",
-        "Desc": {
-          "Namespace": "GM",
-          "Key": "96_Desc",
-          "SourceString": "Puffer资源窗口",
-          "LocalizedString": "Puffer资源窗口"
+      "IsServerGm": true,
+      "IsHide": false,
+      "IsCopy": false,
+      "IsMulticast": false
+    },
+    "56": {
+      "Id": 56,
+      "Name": "SpawnSparBox",
+      "VariableList": [],
+      "Type1": "GameMode",
+      "Desc": {
+        "Namespace": "GM",
+        "Key": "56_Desc",
+        "SourceString": "生成晶体空投",
+        "LocalizedString": "生成晶体空投"
+      },
+      "IsServerGm": true,
+      "IsHide": false,
+      "IsCopy": false,
+      "IsMulticast": false
+    },
+    "57": {
+      "Id": 57,
+      "Name": "LogServerTime",
+      "VariableList": [],
+      "Type1": "Lobby",
+      "Desc": {
+        "Namespace": "GM",
+        "Key": "57_Desc",
+        "SourceString": "屏幕打印ServerTime",
+        "LocalizedString": "屏幕打印ServerTime"
+      },
+      "IsServerGm": false,
+      "IsHide": true,
+      "IsCopy": false,
+      "IsMulticast": false
+    },
+    "58": {
+      "Id": 58,
+      "Name": "gm_add_item",
+      "VariableList": [
+        {
+          "ParamName": {
+            "Namespace": "GM",
+            "Key": "58_VariableList_Index0_ParamName",
+            "SourceString": "道具Id",
+            "LocalizedString": "道具Id"
+          },
+          "ParamType": "Item"
         },
-        "IsServerGm": false,
-        "IsHide": false,
-        "IsCopy": false,
-        "IsMulticast": false
-      }
+        {
+          "ParamName": {
+            "Namespace": "GM",
+            "Key": "58_VariableList_Index1_ParamName",
+            "SourceString": "道具数量",
+            "LocalizedString": "道具数量"
+          },
+          "ParamType": "None"
+        }
+      ],
+      "Type1": "Lobby",
+      "Desc": {
+        "Namespace": "GM",
+        "Key": "58_Desc",
+        "SourceString": "添加物品",
+        "LocalizedString": "添加物品"
+      },
+      "IsServerGm": true,
+      "IsHide": false,
+      "IsCopy": false,
+      "IsMulticast": false
+    },
+    "59": {
+      "Id": 59,
+      "Name": "gm_del_item",
+      "VariableList": [
+        {
+          "ParamName": {
+            "Namespace": "GM",
+            "Key": "59_VariableList_Index0_ParamName",
+            "SourceString": "道具Id",
+            "LocalizedString": "道具Id"
+          },
+          "ParamType": "Item"
+        }
+      ],
+      "Type1": "Lobby",
+      "Desc": {
+        "Namespace": "GM",
+        "Key": "59_Desc",
+        "SourceString": "删除物品",
+        "LocalizedString": "删除物品"
+      },
+      "IsServerGm": true,
+      "IsHide": false,
+      "IsCopy": false,
+      "IsMulticast": false
+    },
+    "60": {
+      "Id": 60,
+      "Name": "gm_send_mail",
+      "VariableList": [
+        {
+          "ParamName": {
+            "Namespace": "GM",
+            "Key": "60_VariableList_Index0_ParamName",
+            "SourceString": "src_id",
+            "LocalizedString": "src_id"
+          },
+          "ParamType": "None"
+        },
+        {
+          "ParamName": {
+            "Namespace": "GM",
+            "Key": "60_VariableList_Index1_ParamName",
+            "SourceString": " tar_id",
+            "LocalizedString": " tar_id"
+          },
+          "ParamType": "None"
+        },
+        {
+          "ParamName": {
+            "Namespace": "GM",
+            "Key": "60_VariableList_Index2_ParamName",
+            "SourceString": "标题",
+            "LocalizedString": "标题"
+          },
+          "ParamType": "None"
+        },
+        {
+          "ParamName": {
+            "Namespace": "GM",
+            "Key": "60_VariableList_Index3_ParamName",
+            "SourceString": "内容",
+            "LocalizedString": "内容"
+          },
+          "ParamType": "None"
+        }
+      ],
+      "Type1": "Lobby",
+      "Desc": {
+        "Namespace": "GM",
+        "Key": "60_Desc",
+        "SourceString": "发送邮件",
+        "LocalizedString": "发送邮件"
+      },
+      "IsServerGm": true,
+      "IsHide": false,
+      "IsCopy": false,
+      "IsMulticast": false
+    },
+    "61": {
+      "Id": 61,
+      "Name": "gm_group_send_mail",
+      "VariableList": [
+        {
+          "ParamName": {
+            "Namespace": "GM",
+            "Key": "61_VariableList_Index0_ParamName",
+            "SourceString": "part_id",
+            "LocalizedString": "part_id"
+          },
+          "ParamType": "None"
+        },
+        {
+          "ParamName": {
+            "Namespace": "GM",
+            "Key": "61_VariableList_Index1_ParamName",
+            "SourceString": "标题",
+            "LocalizedString": "标题"
+          },
+          "ParamType": "None"
+        },
+        {
+          "ParamName": {
+            "Namespace": "GM",
+            "Key": "61_VariableList_Index2_ParamName",
+            "SourceString": "内容",
+            "LocalizedString": "内容"
+          },
+          "ParamType": "None"
+        },
+        {
+          "ParamName": {
+            "Namespace": "GM",
+            "Key": "61_VariableList_Index3_ParamName",
+            "SourceString": "attach",
+            "LocalizedString": "attach"
+          },
+          "ParamType": "None"
+        }
+      ],
+      "Type1": "Lobby",
+      "Desc": {
+        "Namespace": "GM",
+        "Key": "61_Desc",
+        "SourceString": "群发邮件",
+        "LocalizedString": "群发邮件"
+      },
+      "IsServerGm": true,
+      "IsHide": false,
+      "IsCopy": false,
+      "IsMulticast": false
+    },
+    "62": {
+      "Id": 62,
+      "Name": "gm_set_attribute",
+      "VariableList": [
+        {
+          "ParamName": {
+            "Namespace": "GM",
+            "Key": "62_VariableList_Index0_ParamName",
+            "SourceString": "属性Id",
+            "LocalizedString": "属性Id"
+          },
+          "ParamType": "Attribute"
+        },
+        {
+          "ParamName": {
+            "Namespace": "GM",
+            "Key": "62_VariableList_Index1_ParamName",
+            "SourceString": "数值",
+            "LocalizedString": "数值"
+          },
+          "ParamType": "None"
+        }
+      ],
+      "Type1": "Lobby",
+      "Desc": {
+        "Namespace": "GM",
+        "Key": "62_Desc",
+        "SourceString": "设置账号属性",
+        "LocalizedString": "设置账号属性"
+      },
+      "IsServerGm": true,
+      "IsHide": false,
+      "IsCopy": false,
+      "IsMulticast": false
+    },
+    "63": {
+      "Id": 63,
+      "Name": "gm_add_weapon",
+      "VariableList": [
+        {
+          "ParamName": {
+            "Namespace": "GM",
+            "Key": "63_VariableList_Index0_ParamName",
+            "SourceString": "武器Id",
+            "LocalizedString": "武器Id"
+          },
+          "ParamType": "Weapon"
+        }
+      ],
+      "Type1": "Lobby",
+      "Desc": {
+        "Namespace": "GM",
+        "Key": "63_Desc",
+        "SourceString": "添加一把武器",
+        "LocalizedString": "添加一把武器"
+      },
+      "IsServerGm": true,
+      "IsHide": false,
+      "IsCopy": false,
+      "IsMulticast": false
+    },
+    "64": {
+      "Id": 64,
+      "Name": "gm_set_talent",
+      "VariableList": [
+        {
+          "ParamName": {
+            "Namespace": "GM",
+            "Key": "64_VariableList_Index0_ParamName",
+            "SourceString": "天赋Id",
+            "LocalizedString": "天赋Id"
+          },
+          "ParamType": "Attribute"
+        },
+        {
+          "ParamName": {
+            "Namespace": "GM",
+            "Key": "64_VariableList_Index1_ParamName",
+            "SourceString": "等级",
+            "LocalizedString": "等级"
+          },
+          "ParamType": "None"
+        }
+      ],
+      "Type1": "Lobby",
+      "Desc": {
+        "Namespace": "GM",
+        "Key": "64_Desc",
+        "SourceString": "设置天赋",
+        "LocalizedString": "设置天赋"
+      },
+      "IsServerGm": true,
+      "IsHide": true,
+      "IsCopy": false,
+      "IsMulticast": false
+    },
+    "65": {
+      "Id": 65,
+      "Name": "gm_add_role",
+      "VariableList": [
+        {
+          "ParamName": {
+            "Namespace": "GM",
+            "Key": "65_VariableList_Index0_ParamName",
+            "SourceString": "角色Id",
+            "LocalizedString": "角色Id"
+          },
+          "ParamType": "Role"
+        },
+        {
+          "ParamName": {
+            "Namespace": "GM",
+            "Key": "65_VariableList_Index1_ParamName",
+            "SourceString": "life_time",
+            "LocalizedString": "life_time"
+          },
+          "ParamType": "None"
+        }
+      ],
+      "Type1": "Lobby",
+      "Desc": {
+        "Namespace": "GM",
+        "Key": "65_Desc",
+        "SourceString": "添加角色",
+        "LocalizedString": "添加角色"
+      },
+      "IsServerGm": true,
+      "IsHide": false,
+      "IsCopy": false,
+      "IsMulticast": false
+    },
+    "66": {
+      "Id": 66,
+      "Name": "gm_add_role_skin",
+      "VariableList": [
+        {
+          "ParamName": {
+            "Namespace": "GM",
+            "Key": "66_VariableList_Index0_ParamName",
+            "SourceString": "皮肤Id",
+            "LocalizedString": "皮肤Id"
+          },
+          "ParamType": "RoleSkin"
+        },
+        {
+          "ParamName": {
+            "Namespace": "GM",
+            "Key": "66_VariableList_Index1_ParamName",
+            "SourceString": "life_time",
+            "LocalizedString": "life_time"
+          },
+          "ParamType": "None"
+        }
+      ],
+      "Type1": "Lobby",
+      "Desc": {
+        "Namespace": "GM",
+        "Key": "66_Desc",
+        "SourceString": "添加皮肤",
+        "LocalizedString": "添加皮肤"
+      },
+      "IsServerGm": true,
+      "IsHide": false,
+      "IsCopy": false,
+      "IsMulticast": false
+    },
+    "67": {
+      "Id": 67,
+      "Name": "gm_add_role_voice",
+      "VariableList": [
+        {
+          "ParamName": {
+            "Namespace": "GM",
+            "Key": "67_VariableList_Index0_ParamName",
+            "SourceString": "语音Id",
+            "LocalizedString": "语音Id"
+          },
+          "ParamType": "None"
+        }
+      ],
+      "Type1": "Lobby",
+      "Desc": {
+        "Namespace": "GM",
+        "Key": "67_Desc",
+        "SourceString": "添加语音",
+        "LocalizedString": "添加语音"
+      },
+      "IsServerGm": true,
+      "IsHide": false,
+      "IsCopy": false,
+      "IsMulticast": false
+    },
+    "68": {
+      "Id": 68,
+      "Name": "gm_add_role_action",
+      "VariableList": [
+        {
+          "ParamName": {
+            "Namespace": "GM",
+            "Key": "68_VariableList_Index0_ParamName",
+            "SourceString": "动作Id",
+            "LocalizedString": "动作Id"
+          },
+          "ParamType": "None"
+        }
+      ],
+      "Type1": "Lobby",
+      "Desc": {
+        "Namespace": "GM",
+        "Key": "68_Desc",
+        "SourceString": "添加动作",
+        "LocalizedString": "添加动作"
+      },
+      "IsServerGm": true,
+      "IsHide": false,
+      "IsCopy": false,
+      "IsMulticast": false
+    },
+    "69": {
+      "Id": 69,
+      "Name": "gm_task_progress_update",
+      "VariableList": [
+        {
+          "ParamName": {
+            "Namespace": "GM",
+            "Key": "69_VariableList_Index0_ParamName",
+            "SourceString": "任务Id",
+            "LocalizedString": "任务Id"
+          },
+          "ParamType": "None"
+        },
+        {
+          "ParamName": {
+            "Namespace": "GM",
+            "Key": "69_VariableList_Index1_ParamName",
+            "SourceString": "行为Id",
+            "LocalizedString": "行为Id"
+          },
+          "ParamType": "None"
+        },
+        {
+          "ParamName": {
+            "Namespace": "GM",
+            "Key": "69_VariableList_Index2_ParamName",
+            "SourceString": "进度",
+            "LocalizedString": "进度"
+          },
+          "ParamType": "None"
+        }
+      ],
+      "Type1": "Lobby",
+      "Desc": {
+        "Namespace": "GM",
+        "Key": "69_Desc",
+        "SourceString": "更新任务进度",
+        "LocalizedString": "更新任务进度"
+      },
+      "IsServerGm": true,
+      "IsHide": false,
+      "IsCopy": false,
+      "IsMulticast": false
+    },
+    "70": {
+      "Id": 70,
+      "Name": "gm_add_role_data",
+      "VariableList": [],
+      "Type1": "Lobby",
+      "Desc": {
+        "Namespace": "GM",
+        "Key": "70_Desc",
+        "SourceString": "添加所有角色相关数据",
+        "LocalizedString": "添加所有角色相关数据"
+      },
+      "IsServerGm": true,
+      "IsHide": false,
+      "IsCopy": false,
+      "IsMulticast": false
+    },
+    "71": {
+      "Id": 71,
+      "Name": "TestProfile",
+      "VariableList": [],
+      "Type1": "Optimization",
+      "Desc": {
+        "CultureInvariantString": null
+      },
+      "IsServerGm": false,
+      "IsHide": false,
+      "IsCopy": false,
+      "IsMulticast": false
+    },
+    "72": {
+      "Id": 72,
+      "Name": "BeginProfile",
+      "VariableList": [],
+      "Type1": "Optimization",
+      "Desc": {
+        "CultureInvariantString": null
+      },
+      "IsServerGm": true,
+      "IsHide": false,
+      "IsCopy": false,
+      "IsMulticast": false
+    },
+    "73": {
+      "Id": 73,
+      "Name": "show Wireframe",
+      "VariableList": [],
+      "Type1": "Optimization",
+      "Desc": {
+        "Namespace": "GM",
+        "Key": "73_Desc",
+        "SourceString": "切换线框显示",
+        "LocalizedString": "切换线框显示"
+      },
+      "IsServerGm": false,
+      "IsHide": false,
+      "IsCopy": false,
+      "IsMulticast": false
+    },
+    "74": {
+      "Id": 74,
+      "Name": "SvrCmd",
+      "VariableList": [
+        {
+          "ParamName": {
+            "Namespace": "GM",
+            "Key": "74_VariableList_Index0_ParamName",
+            "SourceString": "Cmd",
+            "LocalizedString": "Cmd"
+          },
+          "ParamType": "None"
+        }
+      ],
+      "Type1": "Optimization",
+      "Desc": {
+        "Namespace": "GM",
+        "Key": "74_Desc",
+        "SourceString": "执行server指令",
+        "LocalizedString": "执行server指令"
+      },
+      "IsServerGm": false,
+      "IsHide": false,
+      "IsCopy": false,
+      "IsMulticast": false
+    },
+    "75": {
+      "Id": 75,
+      "Name": "MultiSvrCmd",
+      "VariableList": [
+        {
+          "ParamName": {
+            "Namespace": "GM",
+            "Key": "75_VariableList_Index0_ParamName",
+            "SourceString": "Cmd",
+            "LocalizedString": "Cmd"
+          },
+          "ParamType": "None"
+        }
+      ],
+      "Type1": "Optimization",
+      "Desc": {
+        "Namespace": "GM",
+        "Key": "75_Desc",
+        "SourceString": "multicast执行指令",
+        "LocalizedString": "multicast执行指令"
+      },
+      "IsServerGm": false,
+      "IsHide": false,
+      "IsCopy": false,
+      "IsMulticast": false
+    },
+    "76": {
+      "Id": 76,
+      "Name": "ServerSlomo",
+      "VariableList": [
+        {
+          "ParamName": {
+            "Namespace": "GM",
+            "Key": "76_VariableList_Index0_ParamName",
+            "SourceString": "倍率",
+            "LocalizedString": "倍率"
+          },
+          "ParamType": "None"
+        }
+      ],
+      "Type1": "Optimization",
+      "Desc": {
+        "Namespace": "GM",
+        "Key": "76_Desc",
+        "SourceString": "动画慢速",
+        "LocalizedString": "动画慢速"
+      },
+      "IsServerGm": false,
+      "IsHide": false,
+      "IsCopy": false,
+      "IsMulticast": false
+    },
+    "77": {
+      "Id": 77,
+      "Name": "ClearLogScreenError",
+      "VariableList": [],
+      "Type1": "Optimization",
+      "Desc": {
+        "Namespace": "GM",
+        "Key": "77_Desc",
+        "SourceString": "清除错误log",
+        "LocalizedString": "清除错误log"
+      },
+      "IsServerGm": false,
+      "IsHide": false,
+      "IsCopy": false,
+      "IsMulticast": false
+    },
+    "78": {
+      "Id": 78,
+      "Name": "ToggleLogScreenError",
+      "VariableList": [],
+      "Type1": "Optimization",
+      "Desc": {
+        "Namespace": "GM",
+        "Key": "78_Desc",
+        "SourceString": "开关错误log",
+        "LocalizedString": "开关错误log"
+      },
+      "IsServerGm": false,
+      "IsHide": false,
+      "IsCopy": false,
+      "IsMulticast": false
+    },
+    "79": {
+      "Id": 79,
+      "Name": "EndPagePlaySequence",
+      "VariableList": [
+        {
+          "ParamName": {
+            "Namespace": "GM",
+            "Key": "79_VariableList_Index0_ParamName",
+            "SourceString": "角色",
+            "LocalizedString": "角色"
+          },
+          "ParamType": "RoleSkin"
+        },
+        {
+          "ParamName": {
+            "Namespace": "GM",
+            "Key": "79_VariableList_Index1_ParamName",
+            "SourceString": "武器",
+            "LocalizedString": "武器"
+          },
+          "ParamType": "WeaponSkin"
+        },
+        {
+          "ParamName": {
+            "Namespace": "GM",
+            "Key": "79_VariableList_Index2_ParamName",
+            "SourceString": "类型",
+            "LocalizedString": "类型"
+          },
+          "ParamType": "SequenceType"
+        }
+      ],
+      "Type1": "UI",
+      "Desc": {
+        "Namespace": "GM",
+        "Key": "79_Desc",
+        "SourceString": "结算动画",
+        "LocalizedString": "结算动画"
+      },
+      "IsServerGm": false,
+      "IsHide": false,
+      "IsCopy": false,
+      "IsMulticast": false
+    },
+    "80": {
+      "Id": 80,
+      "Name": "ShowMiniMapComponent",
+      "VariableList": [
+        {
+          "ParamName": {
+            "Namespace": "GM",
+            "Key": "80_VariableList_Index0_ParamName",
+            "SourceString": "是:true 否:false",
+            "LocalizedString": "是:true 否:false"
+          },
+          "ParamType": "None"
+        }
+      ],
+      "Type1": "UI",
+      "Desc": {
+        "Namespace": "GM",
+        "Key": "80_Desc",
+        "SourceString": "显示minimap",
+        "LocalizedString": "显示minimap"
+      },
+      "IsServerGm": false,
+      "IsHide": true,
+      "IsCopy": false,
+      "IsMulticast": false
+    },
+    "81": {
+      "Id": 81,
+      "Name": "CloseAllPage",
+      "VariableList": [],
+      "Type1": "UI",
+      "Desc": {
+        "Namespace": "GM",
+        "Key": "81_Desc",
+        "SourceString": "关闭所有UI",
+        "LocalizedString": "关闭所有UI"
+      },
+      "IsServerGm": false,
+      "IsHide": false,
+      "IsCopy": false,
+      "IsMulticast": false
+    },
+    "82": {
+      "Id": 82,
+      "Name": "OpenPage",
+      "VariableList": [
+        {
+          "ParamName": {
+            "Namespace": "GM",
+            "Key": "82_VariableList_Index0_ParamName",
+            "SourceString": "PageName",
+            "LocalizedString": "PageName"
+          },
+          "ParamType": "UI"
+        }
+      ],
+      "Type1": "UI",
+      "Desc": {
+        "Namespace": "GM",
+        "Key": "82_Desc",
+        "SourceString": "开UI",
+        "LocalizedString": "开UI"
+      },
+      "IsServerGm": false,
+      "IsHide": false,
+      "IsCopy": false,
+      "IsMulticast": false
+    },
+    "83": {
+      "Id": 83,
+      "Name": "ClosePage",
+      "VariableList": [
+        {
+          "ParamName": {
+            "Namespace": "GM",
+            "Key": "83_VariableList_Index0_ParamName",
+            "SourceString": "PageName",
+            "LocalizedString": "PageName"
+          },
+          "ParamType": "UI"
+        }
+      ],
+      "Type1": "UI",
+      "Desc": {
+        "Namespace": "GM",
+        "Key": "83_Desc",
+        "SourceString": "关UI",
+        "LocalizedString": "关UI"
+      },
+      "IsServerGm": false,
+      "IsHide": false,
+      "IsCopy": false,
+      "IsMulticast": false
+    },
+    "84": {
+      "Id": 84,
+      "Name": "ToggleMobileHUD",
+      "VariableList": [],
+      "Type1": "UI",
+      "Desc": {
+        "Namespace": "GM",
+        "Key": "84_Desc",
+        "SourceString": "切换各平台UI",
+        "LocalizedString": "切换各平台UI"
+      },
+      "IsServerGm": false,
+      "IsHide": false,
+      "IsCopy": false,
+      "IsMulticast": false
+    },
+    "85": {
+      "Id": 85,
+      "Name": "Slate.HitTestGridDebugging",
+      "VariableList": [
+        {
+          "ParamName": {
+            "Namespace": "GM",
+            "Key": "85_VariableList_Index0_ParamName",
+            "SourceString": "是:true 否:false",
+            "LocalizedString": "是:true 否:false"
+          },
+          "ParamType": "None"
+        }
+      ],
+      "Type1": "UI",
+      "Desc": {
+        "Namespace": "GM",
+        "Key": "85_Desc",
+        "SourceString": "显示UI按键热区",
+        "LocalizedString": "显示UI按键热区"
+      },
+      "IsServerGm": false,
+      "IsHide": false,
+      "IsCopy": false,
+      "IsMulticast": false
+    },
+    "86": {
+      "Id": 86,
+      "Name": "stat slate",
+      "VariableList": [],
+      "Type1": "UI",
+      "Desc": {
+        "CultureInvariantString": null
+      },
+      "IsServerGm": false,
+      "IsHide": false,
+      "IsCopy": false,
+      "IsMulticast": false
+    },
+    "87": {
+      "Id": 87,
+      "Name": "Joystick.ShowDebugging",
+      "VariableList": [
+        {
+          "ParamName": {
+            "Namespace": "GM",
+            "Key": "87_VariableList_Index0_ParamName",
+            "SourceString": "是:true 否:false",
+            "LocalizedString": "是:true 否:false"
+          },
+          "ParamType": "None"
+        }
+      ],
+      "Type1": "UI",
+      "Desc": {
+        "Namespace": "GM",
+        "Key": "87_Desc",
+        "SourceString": "Mobile操控Debug",
+        "LocalizedString": "Mobile操控Debug"
+      },
+      "IsServerGm": false,
+      "IsHide": false,
+      "IsCopy": false,
+      "IsMulticast": false
+    },
+    "88": {
+      "Id": 88,
+      "Name": "SlateDebugger.Start",
+      "VariableList": [],
+      "Type1": "UI",
+      "Desc": {
+        "CultureInvariantString": null
+      },
+      "IsServerGm": false,
+      "IsHide": false,
+      "IsCopy": false,
+      "IsMulticast": false
+    },
+    "89": {
+      "Id": 89,
+      "Name": "SlateDebugger.Stop",
+      "VariableList": [],
+      "Type1": "UI",
+      "Desc": {
+        "CultureInvariantString": null
+      },
+      "IsServerGm": false,
+      "IsHide": false,
+      "IsCopy": false,
+      "IsMulticast": false
+    },
+    "90": {
+      "Id": 90,
+      "Name": "SlateDebugger.CaptureStack",
+      "VariableList": [],
+      "Type1": "UI",
+      "Desc": {
+        "CultureInvariantString": null
+      },
+      "IsServerGm": false,
+      "IsHide": false,
+      "IsCopy": false,
+      "IsMulticast": false
+    },
+    "91": {
+      "Id": 91,
+      "Name": "SceneMapChangeIconStyle",
+      "VariableList": [],
+      "Type1": "UI",
+      "Desc": {
+        "Namespace": "GM",
+        "Key": "91_Desc",
+        "SourceString": "小地图元素显示样式修改",
+        "LocalizedString": "小地图元素显示样式修改"
+      },
+      "IsServerGm": false,
+      "IsHide": false,
+      "IsCopy": false,
+      "IsMulticast": false
+    },
+    "92": {
+      "Id": 92,
+      "Name": "HideSelectRolePage",
+      "VariableList": [],
+      "Type1": "UI",
+      "Desc": {
+        "Namespace": "GM",
+        "Key": "92_Desc",
+        "SourceString": "隐藏或者显示选人界面",
+        "LocalizedString": "隐藏或者显示选人界面"
+      },
+      "IsServerGm": false,
+      "IsHide": false,
+      "IsCopy": false,
+      "IsMulticast": false
+    },
+    "93": {
+      "Id": 93,
+      "Name": "CustomRoomListDataRepeated",
+      "VariableList": [],
+      "Type1": "UI",
+      "Desc": {
+        "Namespace": "GM",
+        "Key": "93_Desc",
+        "SourceString": "自定义房间列表数据是否重复显示",
+        "LocalizedString": "自定义房间列表数据是否重复显示"
+      },
+      "IsServerGm": false,
+      "IsHide": false,
+      "IsCopy": false,
+      "IsMulticast": false
+    },
+    "94": {
+      "Id": 94,
+      "Name": "DisplayPanels",
+      "VariableList": [],
+      "Type1": "UI",
+      "Desc": {
+        "CultureInvariantString": null
+      },
+      "IsServerGm": false,
+      "IsHide": false,
+      "IsCopy": false,
+      "IsMulticast": false
+    },
+    "95": {
+      "Id": 95,
+      "Name": "DisplayPages",
+      "VariableList": [],
+      "Type1": "UI",
+      "Desc": {
+        "CultureInvariantString": null
+      },
+      "IsServerGm": false,
+      "IsHide": false,
+      "IsCopy": false,
+      "IsMulticast": false
+    },
+    "96": {
+      "Id": 96,
+      "Name": "lua ViewMgr:OpenPage(LuaGetWorld(), UIPageNameDefine.PufferResPage)",
+      "VariableList": [],
+      "Type1": "UI",
+      "Desc": {
+        "Namespace": "GM",
+        "Key": "96_Desc",
+        "SourceString": "Puffer资源窗口",
+        "LocalizedString": "Puffer资源窗口"
+      },
+      "IsServerGm": false,
+      "IsHide": false,
+      "IsCopy": false,
+      "IsMulticast": false
     }
   }
-]
+}

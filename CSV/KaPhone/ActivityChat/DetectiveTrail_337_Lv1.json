@@ -1,249 +1,247 @@
-[
-  {
-    "Type": "DataTable",
-    "Name": "DetectiveTrail_337_Lv1",
-    "Class": "UScriptClass'DataTable'",
-    "Properties": {
-      "RowStruct": {
-        "ObjectName": "ScriptStruct'CyCommunicationSecondLevelConfig'",
-        "ObjectPath": "/Script/PMGame"
-      }
+{
+  "Type": "DataTable",
+  "Name": "DetectiveTrail_337_Lv1",
+  "Class": "UScriptClass'DataTable'",
+  "Properties": {
+    "RowStruct": {
+      "ObjectName": "ScriptStruct'CyCommunicationSecondLevelConfig'",
+      "ObjectPath": "/Script/PMGame"
+    }
+  },
+  "Rows": {
+    "Start": {
+      "bIsPlayer": false,
+      "bNeedShowAvatar": true,
+      "FromId": 133,
+      "Avatar": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoleSkin/RoleProfile/T_Dynamic_Role_Porfile_33702_133.T_Dynamic_Role_Porfile_33702_133",
+        "SubPathString": ""
+      },
+      "Type": "ECyCommunicationThirdLevelType::Normal",
+      "ContentType": "ECyCommunicationContentType::Text",
+      "TextContent": {
+        "Namespace": "DetectiveTrail_337_Lv1",
+        "Key": "RowStart_TextContent_FromRoleId133",
+        "SourceString": "惊不惊喜，意不意外？",
+        "LocalizedString": "惊不惊喜，意不意外？"
+      },
+      "TextureContent": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "AkOnEvent": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "GreetingCardList": [],
+      "NormalJumpRowName": "2",
+      "OptionType": "ECyCommunicationOptionType::None",
+      "TextContentList": [],
+      "EmojiList": [],
+      "TextureList": [],
+      "OptionalJumpRowNameArray": []
     },
-    "Rows": {
-      "Start": {
-        "bIsPlayer": false,
-        "bNeedShowAvatar": true,
-        "FromId": 133,
-        "Avatar": {
-          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoleSkin/RoleProfile/T_Dynamic_Role_Porfile_33702_133.T_Dynamic_Role_Porfile_33702_133",
-          "SubPathString": ""
-        },
-        "Type": "ECyCommunicationThirdLevelType::Normal",
-        "ContentType": "ECyCommunicationContentType::Text",
-        "TextContent": {
+    "2": {
+      "bIsPlayer": true,
+      "bNeedShowAvatar": false,
+      "FromId": 0,
+      "Avatar": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "Type": "ECyCommunicationThirdLevelType::PlayerOptions",
+      "ContentType": "ECyCommunicationContentType::None",
+      "TextContent": {
+        "CultureInvariantString": null
+      },
+      "TextureContent": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "AkOnEvent": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "GreetingCardList": [],
+      "NormalJumpRowName": "",
+      "OptionType": "ECyCommunicationOptionType::Text",
+      "TextContentList": [
+        {
           "Namespace": "DetectiveTrail_337_Lv1",
-          "Key": "RowStart_TextContent_FromRoleId133",
-          "SourceString": "惊不惊喜，意不意外？",
-          "LocalizedString": "惊不惊喜，意不意外？"
+          "Key": "Row2_PlayerOption1",
+          "SourceString": "完全不意外。",
+          "LocalizedString": "完全不意外。"
         },
-        "TextureContent": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "AkOnEvent": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "GreetingCardList": [],
-        "NormalJumpRowName": "2",
-        "OptionType": "ECyCommunicationOptionType::None",
-        "TextContentList": [],
-        "EmojiList": [],
-        "TextureList": [],
-        "OptionalJumpRowNameArray": []
-      },
-      "2": {
-        "bIsPlayer": true,
-        "bNeedShowAvatar": false,
-        "FromId": 0,
-        "Avatar": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "Type": "ECyCommunicationThirdLevelType::PlayerOptions",
-        "ContentType": "ECyCommunicationContentType::None",
-        "TextContent": {
-          "CultureInvariantString": null
-        },
-        "TextureContent": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "AkOnEvent": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "GreetingCardList": [],
-        "NormalJumpRowName": "",
-        "OptionType": "ECyCommunicationOptionType::Text",
-        "TextContentList": [
-          {
-            "Namespace": "DetectiveTrail_337_Lv1",
-            "Key": "Row2_PlayerOption1",
-            "SourceString": "完全不意外。",
-            "LocalizedString": "完全不意外。"
-          },
-          {
-            "Namespace": "DetectiveTrail_337_Lv1",
-            "Key": "Row2_PlayerOption2",
-            "SourceString": "还挺意外的。",
-            "LocalizedString": "还挺意外的。"
-          }
-        ],
-        "EmojiList": [],
-        "TextureList": [],
-        "OptionalJumpRowNameArray": [
-          "3",
-          "4"
-        ]
-      },
-      "3": {
-        "bIsPlayer": false,
-        "bNeedShowAvatar": true,
-        "FromId": 133,
-        "Avatar": {
-          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoleSkin/RoleProfile/T_Dynamic_Role_Porfile_33702_133.T_Dynamic_Role_Porfile_33702_133",
-          "SubPathString": ""
-        },
-        "Type": "ECyCommunicationThirdLevelType::Normal",
-        "ContentType": "ECyCommunicationContentType::Text",
-        "TextContent": {
+        {
           "Namespace": "DetectiveTrail_337_Lv1",
-          "Key": "Row3_TextContent_FromRoleId133",
-          "SourceString": "知道你早就看出来了。配合我玩这种角色扮演游戏，谢了，大侦探。",
-          "LocalizedString": "知道你早就看出来了。配合我玩这种角色扮演游戏，谢了，大侦探。"
-        },
-        "TextureContent": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "AkOnEvent": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "GreetingCardList": [],
-        "NormalJumpRowName": "5",
-        "OptionType": "ECyCommunicationOptionType::None",
-        "TextContentList": [],
-        "EmojiList": [],
-        "TextureList": [],
-        "OptionalJumpRowNameArray": []
+          "Key": "Row2_PlayerOption2",
+          "SourceString": "还挺意外的。",
+          "LocalizedString": "还挺意外的。"
+        }
+      ],
+      "EmojiList": [],
+      "TextureList": [],
+      "OptionalJumpRowNameArray": [
+        "3",
+        "4"
+      ]
+    },
+    "3": {
+      "bIsPlayer": false,
+      "bNeedShowAvatar": true,
+      "FromId": 133,
+      "Avatar": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoleSkin/RoleProfile/T_Dynamic_Role_Porfile_33702_133.T_Dynamic_Role_Porfile_33702_133",
+        "SubPathString": ""
       },
-      "4": {
-        "bIsPlayer": false,
-        "bNeedShowAvatar": true,
-        "FromId": 133,
-        "Avatar": {
-          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoleSkin/RoleProfile/T_Dynamic_Role_Porfile_33702_133.T_Dynamic_Role_Porfile_33702_133",
-          "SubPathString": ""
-        },
-        "Type": "ECyCommunicationThirdLevelType::Normal",
-        "ContentType": "ECyCommunicationContentType::Text",
-        "TextContent": {
-          "Namespace": "DetectiveTrail_337_Lv1",
-          "Key": "Row4_TextContent_FromRoleId133",
-          "SourceString": "是意外我用这种形式找到你吗？……哈，只是觉得直接委托会有点无聊。",
-          "LocalizedString": "是意外我用这种形式找到你吗？……哈，只是觉得直接委托会有点无聊。"
-        },
-        "TextureContent": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "AkOnEvent": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "GreetingCardList": [],
-        "NormalJumpRowName": "5",
-        "OptionType": "ECyCommunicationOptionType::None",
-        "TextContentList": [],
-        "EmojiList": [],
-        "TextureList": [],
-        "OptionalJumpRowNameArray": []
+      "Type": "ECyCommunicationThirdLevelType::Normal",
+      "ContentType": "ECyCommunicationContentType::Text",
+      "TextContent": {
+        "Namespace": "DetectiveTrail_337_Lv1",
+        "Key": "Row3_TextContent_FromRoleId133",
+        "SourceString": "知道你早就看出来了。配合我玩这种角色扮演游戏，谢了，大侦探。",
+        "LocalizedString": "知道你早就看出来了。配合我玩这种角色扮演游戏，谢了，大侦探。"
       },
-      "5": {
-        "bIsPlayer": false,
-        "bNeedShowAvatar": true,
-        "FromId": 133,
-        "Avatar": {
-          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoleSkin/RoleProfile/T_Dynamic_Role_Porfile_33702_133.T_Dynamic_Role_Porfile_33702_133",
-          "SubPathString": ""
-        },
-        "Type": "ECyCommunicationThirdLevelType::Normal",
-        "ContentType": "ECyCommunicationContentType::Text",
-        "TextContent": {
-          "Namespace": "DetectiveTrail_337_Lv1",
-          "Key": "Row5_TextContent_FromRoleId133",
-          "SourceString": "经历过这场小把戏后，我们彼此熟悉，也产生了信任，这无疑有利于接下来行动的开展。",
-          "LocalizedString": "经历过这场小把戏后，我们彼此熟悉，也产生了信任，这无疑有利于接下来行动的开展。"
-        },
-        "TextureContent": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "AkOnEvent": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "GreetingCardList": [],
-        "NormalJumpRowName": "6",
-        "OptionType": "ECyCommunicationOptionType::None",
-        "TextContentList": [],
-        "EmojiList": [],
-        "TextureList": [],
-        "OptionalJumpRowNameArray": []
+      "TextureContent": {
+        "AssetPathName": "None",
+        "SubPathString": ""
       },
-      "6": {
-        "bIsPlayer": false,
-        "bNeedShowAvatar": true,
-        "FromId": 133,
-        "Avatar": {
-          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoleSkin/RoleProfile/T_Dynamic_Role_Porfile_33702_133.T_Dynamic_Role_Porfile_33702_133",
-          "SubPathString": ""
-        },
-        "Type": "ECyCommunicationThirdLevelType::Normal",
-        "ContentType": "ECyCommunicationContentType::Text",
-        "TextContent": {
-          "Namespace": "DetectiveTrail_337_Lv1",
-          "Key": "Row6_TextContent_FromRoleId133",
-          "SourceString": "那么，再一次，恭喜你通过试炼。之后请多指教了，大侦探。",
-          "LocalizedString": "那么，再一次，恭喜你通过试炼。之后请多指教了，大侦探。"
-        },
-        "TextureContent": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "AkOnEvent": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "GreetingCardList": [],
-        "NormalJumpRowName": "End",
-        "OptionType": "ECyCommunicationOptionType::None",
-        "TextContentList": [],
-        "EmojiList": [],
-        "TextureList": [],
-        "OptionalJumpRowNameArray": []
+      "AkOnEvent": {
+        "AssetPathName": "None",
+        "SubPathString": ""
       },
-      "End": {
-        "bIsPlayer": false,
-        "bNeedShowAvatar": true,
-        "FromId": 0,
-        "Avatar": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "Type": "ECyCommunicationThirdLevelType::End",
-        "ContentType": "ECyCommunicationContentType::None",
-        "TextContent": {
-          "CultureInvariantString": null
-        },
-        "TextureContent": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "AkOnEvent": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "GreetingCardList": [],
-        "NormalJumpRowName": "",
-        "OptionType": "ECyCommunicationOptionType::None",
-        "TextContentList": [],
-        "EmojiList": [],
-        "TextureList": [],
-        "OptionalJumpRowNameArray": []
-      }
+      "GreetingCardList": [],
+      "NormalJumpRowName": "5",
+      "OptionType": "ECyCommunicationOptionType::None",
+      "TextContentList": [],
+      "EmojiList": [],
+      "TextureList": [],
+      "OptionalJumpRowNameArray": []
+    },
+    "4": {
+      "bIsPlayer": false,
+      "bNeedShowAvatar": true,
+      "FromId": 133,
+      "Avatar": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoleSkin/RoleProfile/T_Dynamic_Role_Porfile_33702_133.T_Dynamic_Role_Porfile_33702_133",
+        "SubPathString": ""
+      },
+      "Type": "ECyCommunicationThirdLevelType::Normal",
+      "ContentType": "ECyCommunicationContentType::Text",
+      "TextContent": {
+        "Namespace": "DetectiveTrail_337_Lv1",
+        "Key": "Row4_TextContent_FromRoleId133",
+        "SourceString": "是意外我用这种形式找到你吗？……哈，只是觉得直接委托会有点无聊。",
+        "LocalizedString": "是意外我用这种形式找到你吗？……哈，只是觉得直接委托会有点无聊。"
+      },
+      "TextureContent": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "AkOnEvent": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "GreetingCardList": [],
+      "NormalJumpRowName": "5",
+      "OptionType": "ECyCommunicationOptionType::None",
+      "TextContentList": [],
+      "EmojiList": [],
+      "TextureList": [],
+      "OptionalJumpRowNameArray": []
+    },
+    "5": {
+      "bIsPlayer": false,
+      "bNeedShowAvatar": true,
+      "FromId": 133,
+      "Avatar": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoleSkin/RoleProfile/T_Dynamic_Role_Porfile_33702_133.T_Dynamic_Role_Porfile_33702_133",
+        "SubPathString": ""
+      },
+      "Type": "ECyCommunicationThirdLevelType::Normal",
+      "ContentType": "ECyCommunicationContentType::Text",
+      "TextContent": {
+        "Namespace": "DetectiveTrail_337_Lv1",
+        "Key": "Row5_TextContent_FromRoleId133",
+        "SourceString": "经历过这场小把戏后，我们彼此熟悉，也产生了信任，这无疑有利于接下来行动的开展。",
+        "LocalizedString": "经历过这场小把戏后，我们彼此熟悉，也产生了信任，这无疑有利于接下来行动的开展。"
+      },
+      "TextureContent": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "AkOnEvent": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "GreetingCardList": [],
+      "NormalJumpRowName": "6",
+      "OptionType": "ECyCommunicationOptionType::None",
+      "TextContentList": [],
+      "EmojiList": [],
+      "TextureList": [],
+      "OptionalJumpRowNameArray": []
+    },
+    "6": {
+      "bIsPlayer": false,
+      "bNeedShowAvatar": true,
+      "FromId": 133,
+      "Avatar": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoleSkin/RoleProfile/T_Dynamic_Role_Porfile_33702_133.T_Dynamic_Role_Porfile_33702_133",
+        "SubPathString": ""
+      },
+      "Type": "ECyCommunicationThirdLevelType::Normal",
+      "ContentType": "ECyCommunicationContentType::Text",
+      "TextContent": {
+        "Namespace": "DetectiveTrail_337_Lv1",
+        "Key": "Row6_TextContent_FromRoleId133",
+        "SourceString": "那么，再一次，恭喜你通过试炼。之后请多指教了，大侦探。",
+        "LocalizedString": "那么，再一次，恭喜你通过试炼。之后请多指教了，大侦探。"
+      },
+      "TextureContent": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "AkOnEvent": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "GreetingCardList": [],
+      "NormalJumpRowName": "End",
+      "OptionType": "ECyCommunicationOptionType::None",
+      "TextContentList": [],
+      "EmojiList": [],
+      "TextureList": [],
+      "OptionalJumpRowNameArray": []
+    },
+    "End": {
+      "bIsPlayer": false,
+      "bNeedShowAvatar": true,
+      "FromId": 0,
+      "Avatar": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "Type": "ECyCommunicationThirdLevelType::End",
+      "ContentType": "ECyCommunicationContentType::None",
+      "TextContent": {
+        "CultureInvariantString": null
+      },
+      "TextureContent": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "AkOnEvent": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "GreetingCardList": [],
+      "NormalJumpRowName": "",
+      "OptionType": "ECyCommunicationOptionType::None",
+      "TextContentList": [],
+      "EmojiList": [],
+      "TextureList": [],
+      "OptionalJumpRowNameArray": []
     }
   }
-]
+}

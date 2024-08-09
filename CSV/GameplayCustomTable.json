@@ -1,151 +1,149 @@
-[
-  {
-    "Type": "DataTable",
-    "Name": "GameplayCustomTable",
-    "Class": "UScriptClass'DataTable'",
-    "Properties": {
-      "RowStruct": {
-        "ObjectName": "ScriptStruct'GameplayTagTableRow'",
-        "ObjectPath": "/Script/GameplayTags"
-      }
+{
+  "Type": "DataTable",
+  "Name": "GameplayCustomTable",
+  "Class": "UScriptClass'DataTable'",
+  "Properties": {
+    "RowStruct": {
+      "ObjectName": "ScriptStruct'GameplayTagTableRow'",
+      "ObjectPath": "/Script/GameplayTags"
+    }
+  },
+  "Rows": {
+    "Switch.Weapon.Damage.HeadShotOnly": {
+      "Tag": "Switch.Weapon.Damage.HeadShotOnly",
+      "DevComment": "仅爆头伤害有效"
     },
-    "Rows": {
-      "Switch.Weapon.Damage.HeadShotOnly": {
-        "Tag": "Switch.Weapon.Damage.HeadShotOnly",
-        "DevComment": "仅爆头伤害有效"
-      },
-      "Switch.Weapon.NoReload.On": {
-        "Tag": "Switch.Weapon.NoReload.On",
-        "DevComment": "开启主副武器无需换弹"
-      },
-      "Switch.Weapon.NoReload.Primary": {
-        "Tag": "Switch.Weapon.NoReload.Primary",
-        "DevComment": "主武器无需换弹"
-      },
-      "Switch.Weapon.NoReload.Secondary": {
-        "Tag": "Switch.Weapon.NoReload.Secondary",
-        "DevComment": "副武器无需换弹"
-      },
-      "Switch.Weapon.InfinityAmmo.On": {
-        "Tag": "Switch.Weapon.InfinityAmmo.On",
-        "DevComment": "开启主副武器无限子弹"
-      },
-      "Switch.Weapon.InfinityAmmo.Primary": {
-        "Tag": "Switch.Weapon.InfinityAmmo.Primary",
-        "DevComment": "主武器无限子弹"
-      },
-      "Switch.Weapon.InfinityAmmo.Secondary": {
-        "Tag": "Switch.Weapon.InfinityAmmo.Secondary",
-        "DevComment": "副武器无限子弹"
-      },
-      "Switch.Weapon.Primary.On": {
-        "Tag": "Switch.Weapon.Primary.On",
-        "DevComment": "开启主武器"
-      },
-      "Switch.Weapon.Secondary.On": {
-        "Tag": "Switch.Weapon.Secondary.On",
-        "DevComment": "开启副武器"
-      },
-      "Switch.Weapon.Secondary.Optional": {
-        "Tag": "Switch.Weapon.Secondary.Optional",
-        "DevComment": "开启限定副武器"
-      },
-      "Switch.Weapon.Grenades.On": {
-        "Tag": "Switch.Weapon.Grenades.On",
-        "DevComment": "开启战术道具"
-      },
-      "Switch.Weapon.Grenades.Optional": {
-        "Tag": "Switch.Weapon.Grenades.Optional",
-        "DevComment": "开启限定战术道具"
-      },
-      "Switch.Weapon.Grenades.Infinity": {
-        "Tag": "Switch.Weapon.Grenades.Infinity",
-        "DevComment": "无限战术道具"
-      },
-      "Switch.Weapon.Grenades.Retain": {
-        "Tag": "Switch.Weapon.Grenades.Retain",
-        "DevComment": "重生时保留战术道具"
-      },
-      "Switch.Weapon.Grenades.Initial": {
-        "Tag": "Switch.Weapon.Grenades.Initial",
-        "DevComment": "初始携带战术道具"
-      },
-      "Switch.Weapon.SnowBall.Freeze": {
-        "Tag": "Switch.Weapon.SnowBall.Freeze",
-        "DevComment": "雪球冰冻效果"
-      },
-      "Switch.Skill.Q.On": {
-        "Tag": "Switch.Skill.Q.On",
-        "DevComment": "开启主动技能(Q技能)"
-      },
-      "Switch.Skill.Q.ResetCD": {
-        "Tag": "Switch.Skill.Q.ResetCD",
-        "DevComment": "主动技能重生冷却刷新"
-      },
-      "Switch.Skill.X.On": {
-        "Tag": "Switch.Skill.X.On",
-        "DevComment": "开启终极技能(X技能)"
-      },
-      "Switch.Skill.X.ResetPoint": {
-        "Tag": "Switch.Skill.X.ResetPoint",
-        "DevComment": "终极技能重生时补满点数"
-      },
-      "Switch.Skill.X.Infinity": {
-        "Tag": "Switch.Skill.X.Infinity",
-        "DevComment": "终极技能不消耗点数"
-      },
-      "Switch.Skill.P.On": {
-        "Tag": "Switch.Skill.P.On",
-        "DevComment": "开启被动技能"
-      },
-      "Switch.Skill.State2D.On": {
-        "Tag": "Switch.Skill.State2D.On",
-        "DevComment": "开启弦化技能"
-      },
-      "Switch.Role.Optional": {
-        "Tag": "Switch.Role.Optional",
-        "DevComment": "开启限定角色"
-      },
-      "Switch.Role.SelectInGame": {
-        "Tag": "Switch.Role.SelectInGame",
-        "DevComment": "开启战斗中更换角色"
-      },
-      "Switch.Role.RandomRestart": {
-        "Tag": "Switch.Role.RandomRestart",
-        "DevComment": "随机角色重生"
-      },
-      "Switch.Role.FilterTeam": {
-        "Tag": "Switch.Role.FilterTeam",
-        "DevComment": "选人区分阵容"
-      },
-      "Switch.Role.Growth.On": {
-        "Tag": "Switch.Role.Growth.On",
-        "DevComment": "开启局内成长"
-      },
-      "Switch.Role.Growth.Infinity": {
-        "Tag": "Switch.Role.Growth.Infinity",
-        "DevComment": "无限局内成长"
-      },
-      "Switch.Role.Injured.On": {
-        "Tag": "Switch.Role.Injured.On",
-        "DevComment": "开启角色倒地"
-      },
-      "Switch.Team.Change.On": {
-        "Tag": "Switch.Team.Change.On",
-        "DevComment": "开启角色换边"
-      },
-      "Switch.Team.AllCarryBomb.On": {
-        "Tag": "Switch.Team.AllCarryBomb.On",
-        "DevComment": "开启全员携带炸弹"
-      },
-      "Switch.Game.ToggleMap.On": {
-        "Tag": "Switch.Game.ToggleMap.On",
-        "DevComment": "开启地图"
-      },
-      "Switch.Game.DisplayRule.On": {
-        "Tag": "Switch.Game.DisplayRule.On",
-        "DevComment": "显示规则"
-      }
+    "Switch.Weapon.NoReload.On": {
+      "Tag": "Switch.Weapon.NoReload.On",
+      "DevComment": "开启主副武器无需换弹"
+    },
+    "Switch.Weapon.NoReload.Primary": {
+      "Tag": "Switch.Weapon.NoReload.Primary",
+      "DevComment": "主武器无需换弹"
+    },
+    "Switch.Weapon.NoReload.Secondary": {
+      "Tag": "Switch.Weapon.NoReload.Secondary",
+      "DevComment": "副武器无需换弹"
+    },
+    "Switch.Weapon.InfinityAmmo.On": {
+      "Tag": "Switch.Weapon.InfinityAmmo.On",
+      "DevComment": "开启主副武器无限子弹"
+    },
+    "Switch.Weapon.InfinityAmmo.Primary": {
+      "Tag": "Switch.Weapon.InfinityAmmo.Primary",
+      "DevComment": "主武器无限子弹"
+    },
+    "Switch.Weapon.InfinityAmmo.Secondary": {
+      "Tag": "Switch.Weapon.InfinityAmmo.Secondary",
+      "DevComment": "副武器无限子弹"
+    },
+    "Switch.Weapon.Primary.On": {
+      "Tag": "Switch.Weapon.Primary.On",
+      "DevComment": "开启主武器"
+    },
+    "Switch.Weapon.Secondary.On": {
+      "Tag": "Switch.Weapon.Secondary.On",
+      "DevComment": "开启副武器"
+    },
+    "Switch.Weapon.Secondary.Optional": {
+      "Tag": "Switch.Weapon.Secondary.Optional",
+      "DevComment": "开启限定副武器"
+    },
+    "Switch.Weapon.Grenades.On": {
+      "Tag": "Switch.Weapon.Grenades.On",
+      "DevComment": "开启战术道具"
+    },
+    "Switch.Weapon.Grenades.Optional": {
+      "Tag": "Switch.Weapon.Grenades.Optional",
+      "DevComment": "开启限定战术道具"
+    },
+    "Switch.Weapon.Grenades.Infinity": {
+      "Tag": "Switch.Weapon.Grenades.Infinity",
+      "DevComment": "无限战术道具"
+    },
+    "Switch.Weapon.Grenades.Retain": {
+      "Tag": "Switch.Weapon.Grenades.Retain",
+      "DevComment": "重生时保留战术道具"
+    },
+    "Switch.Weapon.Grenades.Initial": {
+      "Tag": "Switch.Weapon.Grenades.Initial",
+      "DevComment": "初始携带战术道具"
+    },
+    "Switch.Weapon.SnowBall.Freeze": {
+      "Tag": "Switch.Weapon.SnowBall.Freeze",
+      "DevComment": "雪球冰冻效果"
+    },
+    "Switch.Skill.Q.On": {
+      "Tag": "Switch.Skill.Q.On",
+      "DevComment": "开启主动技能(Q技能)"
+    },
+    "Switch.Skill.Q.ResetCD": {
+      "Tag": "Switch.Skill.Q.ResetCD",
+      "DevComment": "主动技能重生冷却刷新"
+    },
+    "Switch.Skill.X.On": {
+      "Tag": "Switch.Skill.X.On",
+      "DevComment": "开启终极技能(X技能)"
+    },
+    "Switch.Skill.X.ResetPoint": {
+      "Tag": "Switch.Skill.X.ResetPoint",
+      "DevComment": "终极技能重生时补满点数"
+    },
+    "Switch.Skill.X.Infinity": {
+      "Tag": "Switch.Skill.X.Infinity",
+      "DevComment": "终极技能不消耗点数"
+    },
+    "Switch.Skill.P.On": {
+      "Tag": "Switch.Skill.P.On",
+      "DevComment": "开启被动技能"
+    },
+    "Switch.Skill.State2D.On": {
+      "Tag": "Switch.Skill.State2D.On",
+      "DevComment": "开启弦化技能"
+    },
+    "Switch.Role.Optional": {
+      "Tag": "Switch.Role.Optional",
+      "DevComment": "开启限定角色"
+    },
+    "Switch.Role.SelectInGame": {
+      "Tag": "Switch.Role.SelectInGame",
+      "DevComment": "开启战斗中更换角色"
+    },
+    "Switch.Role.RandomRestart": {
+      "Tag": "Switch.Role.RandomRestart",
+      "DevComment": "随机角色重生"
+    },
+    "Switch.Role.FilterTeam": {
+      "Tag": "Switch.Role.FilterTeam",
+      "DevComment": "选人区分阵容"
+    },
+    "Switch.Role.Growth.On": {
+      "Tag": "Switch.Role.Growth.On",
+      "DevComment": "开启局内成长"
+    },
+    "Switch.Role.Growth.Infinity": {
+      "Tag": "Switch.Role.Growth.Infinity",
+      "DevComment": "无限局内成长"
+    },
+    "Switch.Role.Injured.On": {
+      "Tag": "Switch.Role.Injured.On",
+      "DevComment": "开启角色倒地"
+    },
+    "Switch.Team.Change.On": {
+      "Tag": "Switch.Team.Change.On",
+      "DevComment": "开启角色换边"
+    },
+    "Switch.Team.AllCarryBomb.On": {
+      "Tag": "Switch.Team.AllCarryBomb.On",
+      "DevComment": "开启全员携带炸弹"
+    },
+    "Switch.Game.ToggleMap.On": {
+      "Tag": "Switch.Game.ToggleMap.On",
+      "DevComment": "开启地图"
+    },
+    "Switch.Game.DisplayRule.On": {
+      "Tag": "Switch.Game.DisplayRule.On",
+      "DevComment": "显示规则"
     }
   }
-]
+}

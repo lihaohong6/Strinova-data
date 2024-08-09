@@ -1,443 +1,437 @@
-[
-  {
-    "Type": "DataTable",
-    "Name": "DT_Guide_TeamGuide_Task",
-    "Class": "UScriptClass'DataTable'",
-    "Properties": {
-      "RowStruct": {
-        "ObjectName": "ScriptStruct'CyGuideTask'",
-        "ObjectPath": "/Script/PMGame"
-      }
+{
+  "Type": "DataTable",
+  "Name": "DT_Guide_TeamGuide_Task",
+  "Class": "UScriptClass'DataTable'",
+  "Properties": {
+    "RowStruct": {
+      "ObjectName": "ScriptStruct'CyGuideTask'",
+      "ObjectPath": "/Script/PMGame"
+    }
+  },
+  "Rows": {
+    "1": {
+      "TaskId": 1,
+      "bShow": false,
+      "bGuideEnd": false,
+      "bPlotMode": true,
+      "bHideCharacter": false,
+      "bDisableInput": true,
+      "bDisableAllInput": true,
+      "TaskName": {
+        "CultureInvariantString": null
+      },
+      "AutoFinishDelay": 10.0,
+      "TaskCompleteStateTime": 0.0,
+      "RevivePointName": "None",
+      "TargetPointTag": "None",
+      "CharacterAnimMontage": null,
+      "BeginTaskEvents": [
+        {
+          "UniqueName": "1",
+          "EventGameplayTag": {
+            "TagName": "None"
+          },
+          "EventType": "ECyGuideEventType::Guide",
+          "WeaponEventType": "ECyGuideWeaponEventType::None",
+          "GuideStateType": "ECyGuideStateType::Begin",
+          "GuideTaskStateType": "ECyGuideTaskStateType::None",
+          "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
+          "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
+          "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
+          "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
+          "SequenceStateType": "ECySequenceStateType::None",
+          "ActionType": "ECyGuideActionType::None",
+          "MeshModeType": "EMeshModeType::Normal",
+          "GameStateType": "EGStateType::None",
+          "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
+        }
+      ],
+      "RelationUniqueNames": [],
+      "SequenceMap": [
+        {
+          "Key": "ECyGuideTaskStateType::Begin",
+          "Value": {
+            "PlotSequenceId": 0,
+            "MapSequenceTags": [
+              "start"
+            ],
+            "BindActorTags": [
+              "146"
+            ]
+          }
+        }
+      ],
+      "EnabledGameFunctionConfig": {
+        "WeaponSlotTypes": [],
+        "AbilityInputIDs": [],
+        "GameUIFunctionTypes": [],
+        "GameUIFunctionPages": []
+      },
+      "DisableGameFunctionConfig": {
+        "WeaponSlotTypes": [],
+        "AbilityInputIDs": [
+          "EAInputID::SkillQ",
+          "EAInputID::SkillX",
+          "EAInputID::UsePrimary",
+          "EAInputID::Aiming",
+          "EAInputID::ADS"
+        ],
+        "GameUIFunctionTypes": [
+          "ECyGameUIFunctionType::Health",
+          "ECyGameUIFunctionType::SummonHealth",
+          "ECyGameUIFunctionType::RoundPanel",
+          "ECyGameUIFunctionType::MiniMap",
+          "ECyGameUIFunctionType::PrimaryWeapon",
+          "ECyGameUIFunctionType::SecondaryWeapon",
+          "ECyGameUIFunctionType::Grenade1",
+          "ECyGameUIFunctionType::Grenade2",
+          "ECyGameUIFunctionType::SkillQ",
+          "ECyGameUIFunctionType::SkillX",
+          "ECyGameUIFunctionType::RoundPanelTeamGuideTip",
+          "ECyGameUIFunctionType::Buff",
+          "ECyGameUIFunctionType::BigMap",
+          "ECyGameUIFunctionType::Head",
+          "ECyGameUIFunctionType::InGameESC"
+        ],
+        "GameUIFunctionPages": []
+      },
+      "SubTasks": [
+        {
+          "SubTaskId": 1001,
+          "bShow": false,
+          "bMustComplete": true,
+          "TaskName": "到达指定目标",
+          "InputKey": "ECyGuideInputKey::None",
+          "KeyText": {
+            "CultureInvariantString": null
+          },
+          "KeyActionData": {
+            "ActionName": "None",
+            "Scale": 0.0,
+            "IsAxisAction": false
+          },
+          "FormatInputKeyMap": [],
+          "Tips": [],
+          "TipTexts": [],
+          "SequenceMap": [],
+          "EndTaskEvents": [
+            {
+              "UniqueName": "1001",
+              "EventGameplayTag": {
+                "TagName": "None"
+              },
+              "EventType": "ECyGuideEventType::GuideTriggerArea",
+              "WeaponEventType": "ECyGuideWeaponEventType::None",
+              "GuideStateType": "ECyGuideStateType::None",
+              "GuideTaskStateType": "ECyGuideTaskStateType::None",
+              "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
+              "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
+              "GuideTriggerAreaType": "ECyGuideTriggerAreaType::EndTask",
+              "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
+              "SequenceStateType": "ECySequenceStateType::None",
+              "ActionType": "ECyGuideActionType::None",
+              "MeshModeType": "EMeshModeType::Normal",
+              "GameStateType": "EGStateType::None",
+              "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
+            }
+          ],
+          "FinishTaskNeedNum": 1,
+          "TaskState": "ECyGuideSubTaskStateType::None",
+          "FinishTaskNum": 0
+        }
+      ],
+      "TaskState": "ECyGuideTaskStateType::None"
     },
-    "Rows": {
-      "1": {
-        "TaskId": 1,
-        "bShow": false,
-        "bGuideEnd": false,
-        "bPlotMode": true,
-        "bHideCharacter": false,
-        "bDisableInput": true,
-        "bDisableAllInput": true,
-        "TaskName": {
-          "CultureInvariantString": null
-        },
-        "AutoFinishDelay": 10.0,
-        "TaskCompleteStateTime": 0.0,
-        "RevivePointName": "None",
-        "TargetPointTag": "None",
-        "CharacterAnimMontage": null,
-        "BeginTaskEvents": [
-          {
-            "UniqueName": "1",
-            "EventGameplayTag": {
-              "TagName": "None"
-            },
-            "EventType": "ECyGuideEventType::Guide",
-            "WeaponEventType": "ECyGuideWeaponEventType::None",
-            "GuideStateType": "ECyGuideStateType::Begin",
-            "GuideTaskStateType": "ECyGuideTaskStateType::None",
-            "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
-            "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
-            "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
-            "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
-            "SequenceStateType": "ECySequenceStateType::None",
-            "ActionType": "ECyGuideActionType::None",
-            "MeshModeType": "EMeshModeType::Normal",
-            "GameStateType": "EGStateType::None",
-            "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
-          }
+    "2": {
+      "TaskId": 2,
+      "bShow": false,
+      "bGuideEnd": false,
+      "bPlotMode": false,
+      "bHideCharacter": false,
+      "bDisableInput": true,
+      "bDisableAllInput": true,
+      "TaskName": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_KeyMappingFormat.ST_KeyMappingFormat",
+        "Key": "TeamGuideTask1"
+      },
+      "AutoFinishDelay": 0.1,
+      "TaskCompleteStateTime": 0.0,
+      "RevivePointName": "None",
+      "TargetPointTag": "101",
+      "CharacterAnimMontage": null,
+      "BeginTaskEvents": [
+        {
+          "UniqueName": "1",
+          "EventGameplayTag": {
+            "TagName": "None"
+          },
+          "EventType": "ECyGuideEventType::GuideTask",
+          "WeaponEventType": "ECyGuideWeaponEventType::None",
+          "GuideStateType": "ECyGuideStateType::None",
+          "GuideTaskStateType": "ECyGuideTaskStateType::End",
+          "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
+          "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
+          "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
+          "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
+          "SequenceStateType": "ECySequenceStateType::None",
+          "ActionType": "ECyGuideActionType::None",
+          "MeshModeType": "EMeshModeType::Normal",
+          "GameStateType": "EGStateType::None",
+          "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
+        }
+      ],
+      "RelationUniqueNames": [],
+      "SequenceMap": [],
+      "EnabledGameFunctionConfig": {
+        "WeaponSlotTypes": [
+          "EWeaponSlotTypes::WeaponSlot_Primary",
+          "EWeaponSlotTypes::WeaponSlot_Secondary"
         ],
-        "RelationUniqueNames": [],
-        "SequenceMap": [
-          {
-            "Key": "ECyGuideTaskStateType::Begin",
-            "Value": {
-              "PlotSequenceId": 0,
-              "MapSequenceTags": [
-                "start"
-              ],
-              "BindActorTags": [
-                "146"
-              ]
+        "AbilityInputIDs": [
+          "EAInputID::None",
+          "EAInputID::UsePrimary",
+          "EAInputID::Aiming",
+          "EAInputID::ADS"
+        ],
+        "GameUIFunctionTypes": [],
+        "GameUIFunctionPages": []
+      },
+      "DisableGameFunctionConfig": {
+        "WeaponSlotTypes": [],
+        "AbilityInputIDs": [],
+        "GameUIFunctionTypes": [],
+        "GameUIFunctionPages": []
+      },
+      "SubTasks": [
+        {
+          "SubTaskId": 1001,
+          "bShow": true,
+          "bMustComplete": false,
+          "TaskName": "TeamGuideTask",
+          "InputKey": "ECyGuideInputKey::None",
+          "KeyText": {
+            "CultureInvariantString": null
+          },
+          "KeyActionData": {
+            "ActionName": "None",
+            "Scale": 0.0,
+            "IsAxisAction": false
+          },
+          "FormatInputKeyMap": [],
+          "Tips": [],
+          "TipTexts": [],
+          "SequenceMap": [],
+          "EndTaskEvents": [
+            {
+              "UniqueName": "1001",
+              "EventGameplayTag": {
+                "TagName": "None"
+              },
+              "EventType": "ECyGuideEventType::GuideTriggerArea",
+              "WeaponEventType": "ECyGuideWeaponEventType::None",
+              "GuideStateType": "ECyGuideStateType::None",
+              "GuideTaskStateType": "ECyGuideTaskStateType::None",
+              "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
+              "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
+              "GuideTriggerAreaType": "ECyGuideTriggerAreaType::EndTask",
+              "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
+              "SequenceStateType": "ECySequenceStateType::None",
+              "ActionType": "ECyGuideActionType::None",
+              "MeshModeType": "EMeshModeType::Normal",
+              "GameStateType": "EGStateType::None",
+              "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
             }
-          }
-        ],
-        "EnabledGameFunctionConfig": {
-          "WeaponSlotTypes": [],
-          "AbilityInputIDs": [],
-          "GameUIFunctionTypes": [],
-          "GameUIFunctionPages": []
-        },
-        "DisableGameFunctionConfig": {
-          "WeaponSlotTypes": [],
-          "AbilityInputIDs": [
-            "EAInputID::SkillQ",
-            "EAInputID::SkillX",
-            "EAInputID::UsePrimary",
-            "EAInputID::Aiming",
-            "EAInputID::ADS"
           ],
-          "GameUIFunctionTypes": [
-            "ECyGameUIFunctionType::Health",
-            "ECyGameUIFunctionType::SummonHealth",
-            "ECyGameUIFunctionType::RoundPanel",
-            "ECyGameUIFunctionType::MiniMap",
-            "ECyGameUIFunctionType::PrimaryWeapon",
-            "ECyGameUIFunctionType::SecondaryWeapon",
-            "ECyGameUIFunctionType::Grenade1",
-            "ECyGameUIFunctionType::Grenade2",
-            "ECyGameUIFunctionType::SkillQ",
-            "ECyGameUIFunctionType::SkillX",
-            "ECyGameUIFunctionType::RoundPanelTeamGuideTip",
-            "ECyGameUIFunctionType::Buff",
-            "ECyGameUIFunctionType::BigMap",
-            "ECyGameUIFunctionType::Head",
-            "ECyGameUIFunctionType::InGameESC"
-          ],
-          "GameUIFunctionPages": []
-        },
-        "SubTasks": [
-          {
-            "SubTaskId": 1001,
-            "bShow": false,
-            "bMustComplete": true,
-            "TaskName": "到达指定目标",
-            "InputKey": "ECyGuideInputKey::None",
-            "KeyText": {
-              "CultureInvariantString": null
-            },
-            "KeyActionData": {
-              "ActionName": "None",
-              "Scale": 0.0,
-              "IsAxisAction": false
-            },
-            "FormatInputKeyMap": [],
-            "Tips": [],
-            "TipTexts": [],
-            "SequenceMap": [],
-            "EndTaskEvents": [
-              {
-                "UniqueName": "1001",
-                "EventGameplayTag": {
-                  "TagName": "None"
-                },
-                "EventType": "ECyGuideEventType::GuideTriggerArea",
-                "WeaponEventType": "ECyGuideWeaponEventType::None",
-                "GuideStateType": "ECyGuideStateType::None",
-                "GuideTaskStateType": "ECyGuideTaskStateType::None",
-                "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
-                "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
-                "GuideTriggerAreaType": "ECyGuideTriggerAreaType::EndTask",
-                "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
-                "SequenceStateType": "ECySequenceStateType::None",
-                "ActionType": "ECyGuideActionType::None",
-                "MeshModeType": "EMeshModeType::Normal",
-                "GameStateType": "EGStateType::None",
-                "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
-              }
-            ],
-            "FinishTaskNeedNum": 1,
-            "TaskState": "ECyGuideSubTaskStateType::None",
-            "FinishTaskNum": 0
-          }
-        ],
-        "TaskState": "ECyGuideTaskStateType::None"
+          "FinishTaskNeedNum": 0,
+          "TaskState": "ECyGuideSubTaskStateType::None",
+          "FinishTaskNum": 0
+        }
+      ],
+      "TaskState": "ECyGuideTaskStateType::None"
+    },
+    "3": {
+      "TaskId": 3,
+      "bShow": true,
+      "bGuideEnd": false,
+      "bPlotMode": false,
+      "bHideCharacter": false,
+      "bDisableInput": true,
+      "bDisableAllInput": false,
+      "TaskName": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_KeyMappingFormat.ST_KeyMappingFormat",
+        "Key": "TeamGuideTask1"
       },
-      "2": {
-        "TaskId": 2,
-        "bShow": false,
-        "bGuideEnd": false,
-        "bPlotMode": false,
-        "bHideCharacter": false,
-        "bDisableInput": true,
-        "bDisableAllInput": true,
-        "TaskName": {
-          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_KeyMappingFormat.ST_KeyMappingFormat",
-          "Key": "TeamGuideTask1",
-          "SourceString": "与欧泊成员汇合",
-          "LocalizedString": "与欧泊成员汇合"
-        },
-        "AutoFinishDelay": 0.1,
-        "TaskCompleteStateTime": 0.0,
-        "RevivePointName": "None",
-        "TargetPointTag": "101",
-        "CharacterAnimMontage": null,
-        "BeginTaskEvents": [
-          {
-            "UniqueName": "1",
-            "EventGameplayTag": {
-              "TagName": "None"
-            },
-            "EventType": "ECyGuideEventType::GuideTask",
-            "WeaponEventType": "ECyGuideWeaponEventType::None",
-            "GuideStateType": "ECyGuideStateType::None",
-            "GuideTaskStateType": "ECyGuideTaskStateType::End",
-            "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
-            "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
-            "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
-            "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
-            "SequenceStateType": "ECySequenceStateType::None",
-            "ActionType": "ECyGuideActionType::None",
-            "MeshModeType": "EMeshModeType::Normal",
-            "GameStateType": "EGStateType::None",
-            "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
-          }
-        ],
-        "RelationUniqueNames": [],
-        "SequenceMap": [],
-        "EnabledGameFunctionConfig": {
-          "WeaponSlotTypes": [
-            "EWeaponSlotTypes::WeaponSlot_Primary",
-            "EWeaponSlotTypes::WeaponSlot_Secondary"
-          ],
-          "AbilityInputIDs": [
-            "EAInputID::None",
-            "EAInputID::UsePrimary",
-            "EAInputID::Aiming",
-            "EAInputID::ADS"
-          ],
-          "GameUIFunctionTypes": [],
-          "GameUIFunctionPages": []
-        },
-        "DisableGameFunctionConfig": {
-          "WeaponSlotTypes": [],
-          "AbilityInputIDs": [],
-          "GameUIFunctionTypes": [],
-          "GameUIFunctionPages": []
-        },
-        "SubTasks": [
-          {
-            "SubTaskId": 1001,
-            "bShow": true,
-            "bMustComplete": false,
-            "TaskName": "TeamGuideTask",
-            "InputKey": "ECyGuideInputKey::None",
-            "KeyText": {
-              "CultureInvariantString": null
-            },
-            "KeyActionData": {
-              "ActionName": "None",
-              "Scale": 0.0,
-              "IsAxisAction": false
-            },
-            "FormatInputKeyMap": [],
-            "Tips": [],
-            "TipTexts": [],
-            "SequenceMap": [],
-            "EndTaskEvents": [
-              {
-                "UniqueName": "1001",
-                "EventGameplayTag": {
-                  "TagName": "None"
-                },
-                "EventType": "ECyGuideEventType::GuideTriggerArea",
-                "WeaponEventType": "ECyGuideWeaponEventType::None",
-                "GuideStateType": "ECyGuideStateType::None",
-                "GuideTaskStateType": "ECyGuideTaskStateType::None",
-                "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
-                "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
-                "GuideTriggerAreaType": "ECyGuideTriggerAreaType::EndTask",
-                "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
-                "SequenceStateType": "ECySequenceStateType::None",
-                "ActionType": "ECyGuideActionType::None",
-                "MeshModeType": "EMeshModeType::Normal",
-                "GameStateType": "EGStateType::None",
-                "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
-              }
+      "AutoFinishDelay": -1.0,
+      "TaskCompleteStateTime": 0.0,
+      "RevivePointName": "None",
+      "TargetPointTag": "None",
+      "CharacterAnimMontage": null,
+      "BeginTaskEvents": [
+        {
+          "UniqueName": "2",
+          "EventGameplayTag": {
+            "TagName": "None"
+          },
+          "EventType": "ECyGuideEventType::GuideTask",
+          "WeaponEventType": "ECyGuideWeaponEventType::None",
+          "GuideStateType": "ECyGuideStateType::None",
+          "GuideTaskStateType": "ECyGuideTaskStateType::End",
+          "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
+          "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
+          "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
+          "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
+          "SequenceStateType": "ECySequenceStateType::None",
+          "ActionType": "ECyGuideActionType::None",
+          "MeshModeType": "EMeshModeType::Normal",
+          "GameStateType": "EGStateType::None",
+          "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
+        }
+      ],
+      "RelationUniqueNames": [],
+      "SequenceMap": [
+        {
+          "Key": "ECyGuideTaskStateType::Finish",
+          "Value": {
+            "PlotSequenceId": 0,
+            "MapSequenceTags": [
+              "guide_end"
             ],
-            "FinishTaskNeedNum": 0,
-            "TaskState": "ECyGuideSubTaskStateType::None",
-            "FinishTaskNum": 0
+            "BindActorTags": [
+              "146"
+            ]
           }
-        ],
-        "TaskState": "ECyGuideTaskStateType::None"
+        }
+      ],
+      "EnabledGameFunctionConfig": {
+        "WeaponSlotTypes": [],
+        "AbilityInputIDs": [],
+        "GameUIFunctionTypes": [],
+        "GameUIFunctionPages": []
       },
-      "3": {
-        "TaskId": 3,
-        "bShow": true,
-        "bGuideEnd": false,
-        "bPlotMode": false,
-        "bHideCharacter": false,
-        "bDisableInput": true,
-        "bDisableAllInput": false,
-        "TaskName": {
-          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_KeyMappingFormat.ST_KeyMappingFormat",
-          "Key": "TeamGuideTask1",
-          "SourceString": "与欧泊成员汇合",
-          "LocalizedString": "与欧泊成员汇合"
-        },
-        "AutoFinishDelay": -1.0,
-        "TaskCompleteStateTime": 0.0,
-        "RevivePointName": "None",
-        "TargetPointTag": "None",
-        "CharacterAnimMontage": null,
-        "BeginTaskEvents": [
-          {
-            "UniqueName": "2",
-            "EventGameplayTag": {
-              "TagName": "None"
-            },
-            "EventType": "ECyGuideEventType::GuideTask",
-            "WeaponEventType": "ECyGuideWeaponEventType::None",
-            "GuideStateType": "ECyGuideStateType::None",
-            "GuideTaskStateType": "ECyGuideTaskStateType::End",
-            "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
-            "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
-            "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
-            "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
-            "SequenceStateType": "ECySequenceStateType::None",
-            "ActionType": "ECyGuideActionType::None",
-            "MeshModeType": "EMeshModeType::Normal",
-            "GameStateType": "EGStateType::None",
-            "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
-          }
-        ],
-        "RelationUniqueNames": [],
-        "SequenceMap": [
-          {
-            "Key": "ECyGuideTaskStateType::Finish",
-            "Value": {
-              "PlotSequenceId": 0,
-              "MapSequenceTags": [
-                "guide_end"
-              ],
-              "BindActorTags": [
-                "146"
-              ]
+      "DisableGameFunctionConfig": {
+        "WeaponSlotTypes": [],
+        "AbilityInputIDs": [],
+        "GameUIFunctionTypes": [],
+        "GameUIFunctionPages": []
+      },
+      "SubTasks": [
+        {
+          "SubTaskId": 301,
+          "bShow": true,
+          "bMustComplete": true,
+          "TaskName": "TeamGuideTask2",
+          "InputKey": "ECyGuideInputKey::None",
+          "KeyText": {
+            "CultureInvariantString": null
+          },
+          "KeyActionData": {
+            "ActionName": "None",
+            "Scale": 0.0,
+            "IsAxisAction": false
+          },
+          "FormatInputKeyMap": [],
+          "Tips": [],
+          "TipTexts": [],
+          "SequenceMap": [],
+          "EndTaskEvents": [
+            {
+              "UniqueName": "4",
+              "EventGameplayTag": {
+                "TagName": "None"
+              },
+              "EventType": "ECyGuideEventType::GuideDialogue",
+              "WeaponEventType": "ECyGuideWeaponEventType::None",
+              "GuideStateType": "ECyGuideStateType::None",
+              "GuideTaskStateType": "ECyGuideTaskStateType::None",
+              "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
+              "GuideDialogueStateType": "ECyGuideDialogueStateType::End",
+              "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
+              "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
+              "SequenceStateType": "ECySequenceStateType::None",
+              "ActionType": "ECyGuideActionType::None",
+              "MeshModeType": "EMeshModeType::Normal",
+              "GameStateType": "EGStateType::None",
+              "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
             }
-          }
-        ],
-        "EnabledGameFunctionConfig": {
-          "WeaponSlotTypes": [],
-          "AbilityInputIDs": [],
-          "GameUIFunctionTypes": [],
-          "GameUIFunctionPages": []
-        },
-        "DisableGameFunctionConfig": {
-          "WeaponSlotTypes": [],
-          "AbilityInputIDs": [],
-          "GameUIFunctionTypes": [],
-          "GameUIFunctionPages": []
-        },
-        "SubTasks": [
-          {
-            "SubTaskId": 301,
-            "bShow": true,
-            "bMustComplete": true,
-            "TaskName": "TeamGuideTask2",
-            "InputKey": "ECyGuideInputKey::None",
-            "KeyText": {
-              "CultureInvariantString": null
-            },
-            "KeyActionData": {
-              "ActionName": "None",
-              "Scale": 0.0,
-              "IsAxisAction": false
-            },
-            "FormatInputKeyMap": [],
-            "Tips": [],
-            "TipTexts": [],
-            "SequenceMap": [],
-            "EndTaskEvents": [
-              {
-                "UniqueName": "4",
-                "EventGameplayTag": {
-                  "TagName": "None"
-                },
-                "EventType": "ECyGuideEventType::GuideDialogue",
-                "WeaponEventType": "ECyGuideWeaponEventType::None",
-                "GuideStateType": "ECyGuideStateType::None",
-                "GuideTaskStateType": "ECyGuideTaskStateType::None",
-                "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
-                "GuideDialogueStateType": "ECyGuideDialogueStateType::End",
-                "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
-                "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
-                "SequenceStateType": "ECySequenceStateType::None",
-                "ActionType": "ECyGuideActionType::None",
-                "MeshModeType": "EMeshModeType::Normal",
-                "GameStateType": "EGStateType::None",
-                "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
-              }
-            ],
-            "FinishTaskNeedNum": 0,
-            "TaskState": "ECyGuideSubTaskStateType::None",
-            "FinishTaskNum": 0
-          }
-        ],
-        "TaskState": "ECyGuideTaskStateType::None"
+          ],
+          "FinishTaskNeedNum": 0,
+          "TaskState": "ECyGuideSubTaskStateType::None",
+          "FinishTaskNum": 0
+        }
+      ],
+      "TaskState": "ECyGuideTaskStateType::None"
+    },
+    "4": {
+      "TaskId": 4,
+      "bShow": false,
+      "bGuideEnd": true,
+      "bPlotMode": false,
+      "bHideCharacter": false,
+      "bDisableInput": false,
+      "bDisableAllInput": false,
+      "TaskName": {
+        "CultureInvariantString": null
       },
-      "4": {
-        "TaskId": 4,
-        "bShow": false,
-        "bGuideEnd": true,
-        "bPlotMode": false,
-        "bHideCharacter": false,
-        "bDisableInput": false,
-        "bDisableAllInput": false,
-        "TaskName": {
-          "CultureInvariantString": null
-        },
-        "AutoFinishDelay": 0.1,
-        "TaskCompleteStateTime": 0.0,
-        "RevivePointName": "None",
-        "TargetPointTag": "None",
-        "CharacterAnimMontage": null,
-        "BeginTaskEvents": [
-          {
-            "UniqueName": "3",
-            "EventGameplayTag": {
-              "TagName": "None"
-            },
-            "EventType": "ECyGuideEventType::GuideTask",
-            "WeaponEventType": "ECyGuideWeaponEventType::None",
-            "GuideStateType": "ECyGuideStateType::None",
-            "GuideTaskStateType": "ECyGuideTaskStateType::End",
-            "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
-            "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
-            "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
-            "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
-            "SequenceStateType": "ECySequenceStateType::None",
-            "ActionType": "ECyGuideActionType::None",
-            "MeshModeType": "EMeshModeType::Normal",
-            "GameStateType": "EGStateType::None",
-            "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
-          }
+      "AutoFinishDelay": 0.1,
+      "TaskCompleteStateTime": 0.0,
+      "RevivePointName": "None",
+      "TargetPointTag": "None",
+      "CharacterAnimMontage": null,
+      "BeginTaskEvents": [
+        {
+          "UniqueName": "3",
+          "EventGameplayTag": {
+            "TagName": "None"
+          },
+          "EventType": "ECyGuideEventType::GuideTask",
+          "WeaponEventType": "ECyGuideWeaponEventType::None",
+          "GuideStateType": "ECyGuideStateType::None",
+          "GuideTaskStateType": "ECyGuideTaskStateType::End",
+          "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
+          "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
+          "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
+          "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
+          "SequenceStateType": "ECySequenceStateType::None",
+          "ActionType": "ECyGuideActionType::None",
+          "MeshModeType": "EMeshModeType::Normal",
+          "GameStateType": "EGStateType::None",
+          "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
+        }
+      ],
+      "RelationUniqueNames": [],
+      "SequenceMap": [],
+      "EnabledGameFunctionConfig": {
+        "WeaponSlotTypes": [],
+        "AbilityInputIDs": [
+          "EAInputID::SkillQ"
         ],
-        "RelationUniqueNames": [],
-        "SequenceMap": [],
-        "EnabledGameFunctionConfig": {
-          "WeaponSlotTypes": [],
-          "AbilityInputIDs": [
-            "EAInputID::SkillQ"
-          ],
-          "GameUIFunctionTypes": [
-            "ECyGameUIFunctionType::PrimaryWeapon",
-            "ECyGameUIFunctionType::SecondaryWeapon",
-            "ECyGameUIFunctionType::Grenade1",
-            "ECyGameUIFunctionType::Grenade2",
-            "ECyGameUIFunctionType::SkillQ",
-            "ECyGameUIFunctionType::SkillX",
-            "ECyGameUIFunctionType::RoundPanelTeamGuideTip",
-            "ECyGameUIFunctionType::BigMap",
-            "ECyGameUIFunctionType::Buff",
-            "ECyGameUIFunctionType::Health",
-            "ECyGameUIFunctionType::SummonHealth",
-            "ECyGameUIFunctionType::RoundPanel",
-            "ECyGameUIFunctionType::MiniMap",
-            "ECyGameUIFunctionType::Head",
-            "ECyGameUIFunctionType::InGameESC"
-          ],
-          "GameUIFunctionPages": []
-        },
-        "DisableGameFunctionConfig": {
-          "WeaponSlotTypes": [],
-          "AbilityInputIDs": [],
-          "GameUIFunctionTypes": [],
-          "GameUIFunctionPages": []
-        },
-        "SubTasks": [],
-        "TaskState": "ECyGuideTaskStateType::None"
-      }
+        "GameUIFunctionTypes": [
+          "ECyGameUIFunctionType::PrimaryWeapon",
+          "ECyGameUIFunctionType::SecondaryWeapon",
+          "ECyGameUIFunctionType::Grenade1",
+          "ECyGameUIFunctionType::Grenade2",
+          "ECyGameUIFunctionType::SkillQ",
+          "ECyGameUIFunctionType::SkillX",
+          "ECyGameUIFunctionType::RoundPanelTeamGuideTip",
+          "ECyGameUIFunctionType::BigMap",
+          "ECyGameUIFunctionType::Buff",
+          "ECyGameUIFunctionType::Health",
+          "ECyGameUIFunctionType::SummonHealth",
+          "ECyGameUIFunctionType::RoundPanel",
+          "ECyGameUIFunctionType::MiniMap",
+          "ECyGameUIFunctionType::Head",
+          "ECyGameUIFunctionType::InGameESC"
+        ],
+        "GameUIFunctionPages": []
+      },
+      "DisableGameFunctionConfig": {
+        "WeaponSlotTypes": [],
+        "AbilityInputIDs": [],
+        "GameUIFunctionTypes": [],
+        "GameUIFunctionPages": []
+      },
+      "SubTasks": [],
+      "TaskState": "ECyGuideTaskStateType::None"
     }
   }
-]
+}

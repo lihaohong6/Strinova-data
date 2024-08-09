@@ -1,465 +1,463 @@
-[
-  {
-    "Type": "DataTable",
-    "Name": "DT_Guide_InstallBomb_Dialogue",
-    "Class": "UScriptClass'DataTable'",
-    "Properties": {
-      "RowStruct": {
-        "ObjectName": "ScriptStruct'CyGuideDialogueConfig'",
-        "ObjectPath": "/Script/PMGame"
+{
+  "Type": "DataTable",
+  "Name": "DT_Guide_InstallBomb_Dialogue",
+  "Class": "UScriptClass'DataTable'",
+  "Properties": {
+    "RowStruct": {
+      "ObjectName": "ScriptStruct'CyGuideDialogueConfig'",
+      "ObjectPath": "/Script/PMGame"
+    }
+  },
+  "Rows": {
+    "101": {
+      "DialogueId": 101,
+      "bShow": false,
+      "bAllowSkip": false,
+      "bFlickerHead": false,
+      "RoleId": 146,
+      "Text": {
+        "Namespace": "",
+        "Key": "081313E740DB0ECF4BCD27AB9063D73D",
+        "SourceString": "开始进行爆破玩法的引导教程",
+        "LocalizedString": "开始进行爆破玩法的引导教程"
+      },
+      "TextShowSpeed": 0.05,
+      "AkOnEvent": {
+        "AssetPathName": "/Game/WwiseAssets/AkEvent/Vox_Communicate_092.Vox_Communicate_092",
+        "SubPathString": ""
+      },
+      "Time": 7.0,
+      "TriggerEvents": [
+        {
+          "UniqueName": "99",
+          "EventGameplayTag": {
+            "TagName": "None"
+          },
+          "EventType": "ECyGuideEventType::GuideTask",
+          "WeaponEventType": "ECyGuideWeaponEventType::None",
+          "GuideStateType": "ECyGuideStateType::Begin",
+          "GuideTaskStateType": "ECyGuideTaskStateType::Begin",
+          "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
+          "GuideDialogueStateType": "ECyGuideDialogueStateType::End",
+          "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
+          "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
+          "SequenceStateType": "ECySequenceStateType::None",
+          "ActionType": "ECyGuideActionType::None",
+          "MeshModeType": "EMeshModeType::Normal",
+          "GameStateType": "EGStateType::None",
+          "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
+        }
+      ],
+      "RoleNameColor": {
+        "SpecifiedColor": {
+          "R": 1.0,
+          "G": 0.0,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "FF00FF"
+        },
+        "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
       }
     },
-    "Rows": {
-      "101": {
-        "DialogueId": 101,
-        "bShow": false,
-        "bAllowSkip": false,
-        "bFlickerHead": false,
-        "RoleId": 146,
-        "Text": {
-          "Namespace": "",
-          "Key": "081313E740DB0ECF4BCD27AB9063D73D",
-          "SourceString": "开始进行爆破玩法的引导教程",
-          "LocalizedString": "开始进行爆破玩法的引导教程"
-        },
-        "TextShowSpeed": 0.05,
-        "AkOnEvent": {
-          "AssetPathName": "/Game/WwiseAssets/AkEvent/Vox_Communicate_092.Vox_Communicate_092",
-          "SubPathString": ""
-        },
-        "Time": 7.0,
-        "TriggerEvents": [
-          {
-            "UniqueName": "99",
-            "EventGameplayTag": {
-              "TagName": "None"
-            },
-            "EventType": "ECyGuideEventType::GuideTask",
-            "WeaponEventType": "ECyGuideWeaponEventType::None",
-            "GuideStateType": "ECyGuideStateType::Begin",
-            "GuideTaskStateType": "ECyGuideTaskStateType::Begin",
-            "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
-            "GuideDialogueStateType": "ECyGuideDialogueStateType::End",
-            "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
-            "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
-            "SequenceStateType": "ECySequenceStateType::None",
-            "ActionType": "ECyGuideActionType::None",
-            "MeshModeType": "EMeshModeType::Normal",
-            "GameStateType": "EGStateType::None",
-            "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
-          }
-        ],
-        "RoleNameColor": {
-          "SpecifiedColor": {
-            "R": 1.0,
-            "G": 0.0,
-            "B": 1.0,
-            "A": 1.0,
-            "Hex": "FF00FF"
-          },
-          "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
-        }
+    "102": {
+      "DialogueId": 102,
+      "bShow": false,
+      "bAllowSkip": false,
+      "bFlickerHead": false,
+      "RoleId": 146,
+      "Text": {
+        "Namespace": "",
+        "Key": "3C621AD044AFE5FC28CD5F9FD07A4BF1",
+        "SourceString": "请根据提示完成第一阶段的任务",
+        "LocalizedString": "请根据提示完成第一阶段的任务"
       },
-      "102": {
-        "DialogueId": 102,
-        "bShow": false,
-        "bAllowSkip": false,
-        "bFlickerHead": false,
-        "RoleId": 146,
-        "Text": {
-          "Namespace": "",
-          "Key": "3C621AD044AFE5FC28CD5F9FD07A4BF1",
-          "SourceString": "请根据提示完成第一阶段的任务",
-          "LocalizedString": "请根据提示完成第一阶段的任务"
-        },
-        "TextShowSpeed": 0.05,
-        "AkOnEvent": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "Time": 2.0,
-        "TriggerEvents": [
-          {
-            "UniqueName": "101",
-            "EventGameplayTag": {
-              "TagName": "None"
-            },
-            "EventType": "ECyGuideEventType::GuideDialogue",
-            "WeaponEventType": "ECyGuideWeaponEventType::None",
-            "GuideStateType": "ECyGuideStateType::None",
-            "GuideTaskStateType": "ECyGuideTaskStateType::None",
-            "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
-            "GuideDialogueStateType": "ECyGuideDialogueStateType::End",
-            "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
-            "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
-            "SequenceStateType": "ECySequenceStateType::None",
-            "ActionType": "ECyGuideActionType::None",
-            "MeshModeType": "EMeshModeType::Normal",
-            "GameStateType": "EGStateType::None",
-            "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
-          }
-        ],
-        "RoleNameColor": {
-          "SpecifiedColor": {
-            "R": 1.0,
-            "G": 0.0,
-            "B": 1.0,
-            "A": 1.0,
-            "Hex": "FF00FF"
-          },
-          "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
-        }
+      "TextShowSpeed": 0.05,
+      "AkOnEvent": {
+        "AssetPathName": "None",
+        "SubPathString": ""
       },
-      "103": {
-        "DialogueId": 103,
-        "bShow": false,
-        "bAllowSkip": false,
-        "bFlickerHead": true,
-        "RoleId": 146,
-        "Text": {
-          "Namespace": "",
-          "Key": "4428BF104E1F57572E4D199122EE0AEA",
-          "SourceString": "前往指定位置，完成炸弹的拾取",
-          "LocalizedString": "前往指定位置，完成炸弹的拾取"
-        },
-        "TextShowSpeed": 0.05,
-        "AkOnEvent": {
-          "AssetPathName": "/Game/WwiseAssets/AkEvent/Vox_Communicate_093.Vox_Communicate_093",
-          "SubPathString": ""
-        },
-        "Time": 5.0,
-        "TriggerEvents": [
-          {
-            "UniqueName": "1",
-            "EventGameplayTag": {
-              "TagName": "None"
-            },
-            "EventType": "ECyGuideEventType::GuideTask",
-            "WeaponEventType": "ECyGuideWeaponEventType::None",
-            "GuideStateType": "ECyGuideStateType::End",
-            "GuideTaskStateType": "ECyGuideTaskStateType::Begin",
-            "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
-            "GuideDialogueStateType": "ECyGuideDialogueStateType::End",
-            "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
-            "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
-            "SequenceStateType": "ECySequenceStateType::None",
-            "ActionType": "ECyGuideActionType::None",
-            "MeshModeType": "EMeshModeType::Normal",
-            "GameStateType": "EGStateType::None",
-            "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
-          }
-        ],
-        "RoleNameColor": {
-          "SpecifiedColor": {
-            "R": 1.0,
-            "G": 0.0,
-            "B": 1.0,
-            "A": 1.0,
-            "Hex": "FF00FF"
+      "Time": 2.0,
+      "TriggerEvents": [
+        {
+          "UniqueName": "101",
+          "EventGameplayTag": {
+            "TagName": "None"
           },
-          "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          "EventType": "ECyGuideEventType::GuideDialogue",
+          "WeaponEventType": "ECyGuideWeaponEventType::None",
+          "GuideStateType": "ECyGuideStateType::None",
+          "GuideTaskStateType": "ECyGuideTaskStateType::None",
+          "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
+          "GuideDialogueStateType": "ECyGuideDialogueStateType::End",
+          "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
+          "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
+          "SequenceStateType": "ECySequenceStateType::None",
+          "ActionType": "ECyGuideActionType::None",
+          "MeshModeType": "EMeshModeType::Normal",
+          "GameStateType": "EGStateType::None",
+          "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
         }
+      ],
+      "RoleNameColor": {
+        "SpecifiedColor": {
+          "R": 1.0,
+          "G": 0.0,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "FF00FF"
+        },
+        "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+      }
+    },
+    "103": {
+      "DialogueId": 103,
+      "bShow": false,
+      "bAllowSkip": false,
+      "bFlickerHead": true,
+      "RoleId": 146,
+      "Text": {
+        "Namespace": "",
+        "Key": "4428BF104E1F57572E4D199122EE0AEA",
+        "SourceString": "前往指定位置，完成炸弹的拾取",
+        "LocalizedString": "前往指定位置，完成炸弹的拾取"
       },
-      "12": {
-        "DialogueId": 104,
-        "bShow": false,
-        "bAllowSkip": false,
-        "bFlickerHead": true,
-        "RoleId": 146,
-        "Text": {
-          "Namespace": "",
-          "Key": "2085D24543BA033346CC20B0AE8C56BC",
-          "SourceString": "向着爆破点前进，注意防范敌人的袭击。",
-          "LocalizedString": "向着爆破点前进，注意防范敌人的袭击。"
-        },
-        "TextShowSpeed": 0.05,
-        "AkOnEvent": {
-          "AssetPathName": "/Game/WwiseAssets/AkEvent/Vox_Communicate_094.Vox_Communicate_094",
-          "SubPathString": ""
-        },
-        "Time": 5.0,
-        "TriggerEvents": [
-          {
-            "UniqueName": "2",
-            "EventGameplayTag": {
-              "TagName": "None"
-            },
-            "EventType": "ECyGuideEventType::GuideTask",
-            "WeaponEventType": "ECyGuideWeaponEventType::None",
-            "GuideStateType": "ECyGuideStateType::None",
-            "GuideTaskStateType": "ECyGuideTaskStateType::Begin",
-            "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
-            "GuideDialogueStateType": "ECyGuideDialogueStateType::End",
-            "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
-            "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
-            "SequenceStateType": "ECySequenceStateType::None",
-            "ActionType": "ECyGuideActionType::None",
-            "MeshModeType": "EMeshModeType::Normal",
-            "GameStateType": "EGStateType::None",
-            "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
-          }
-        ],
-        "RoleNameColor": {
-          "SpecifiedColor": {
-            "R": 1.0,
-            "G": 0.0,
-            "B": 1.0,
-            "A": 1.0,
-            "Hex": "FF00FF"
-          },
-          "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
-        }
+      "TextShowSpeed": 0.05,
+      "AkOnEvent": {
+        "AssetPathName": "/Game/WwiseAssets/AkEvent/Vox_Communicate_093.Vox_Communicate_093",
+        "SubPathString": ""
       },
-      "104": {
-        "DialogueId": 105,
-        "bShow": false,
-        "bAllowSkip": false,
-        "bFlickerHead": false,
-        "RoleId": 146,
-        "Text": {
-          "Namespace": "",
-          "Key": "D1361598478E4DEB5EAD738EC80E235D",
-          "SourceString": "进入爆破区域后，长按F键直到炸弹安装成功",
-          "LocalizedString": "进入爆破区域后，长按F键直到炸弹安装成功"
-        },
-        "TextShowSpeed": 0.05,
-        "AkOnEvent": {
-          "AssetPathName": "/Game/WwiseAssets/AkEvent/Vox_Communicate_095.Vox_Communicate_095",
-          "SubPathString": ""
-        },
-        "Time": 5.0,
-        "TriggerEvents": [
-          {
-            "UniqueName": "4",
-            "EventGameplayTag": {
-              "TagName": "None"
-            },
-            "EventType": "ECyGuideEventType::GuideTask",
-            "WeaponEventType": "ECyGuideWeaponEventType::None",
-            "GuideStateType": "ECyGuideStateType::None",
-            "GuideTaskStateType": "ECyGuideTaskStateType::Begin",
-            "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
-            "GuideDialogueStateType": "ECyGuideDialogueStateType::End",
-            "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
-            "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
-            "SequenceStateType": "ECySequenceStateType::None",
-            "ActionType": "ECyGuideActionType::None",
-            "MeshModeType": "EMeshModeType::Normal",
-            "GameStateType": "EGStateType::None",
-            "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
-          }
-        ],
-        "RoleNameColor": {
-          "SpecifiedColor": {
-            "R": 1.0,
-            "G": 0.0,
-            "B": 1.0,
-            "A": 1.0,
-            "Hex": "FF00FF"
+      "Time": 5.0,
+      "TriggerEvents": [
+        {
+          "UniqueName": "1",
+          "EventGameplayTag": {
+            "TagName": "None"
           },
-          "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          "EventType": "ECyGuideEventType::GuideTask",
+          "WeaponEventType": "ECyGuideWeaponEventType::None",
+          "GuideStateType": "ECyGuideStateType::End",
+          "GuideTaskStateType": "ECyGuideTaskStateType::Begin",
+          "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
+          "GuideDialogueStateType": "ECyGuideDialogueStateType::End",
+          "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
+          "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
+          "SequenceStateType": "ECySequenceStateType::None",
+          "ActionType": "ECyGuideActionType::None",
+          "MeshModeType": "EMeshModeType::Normal",
+          "GameStateType": "EGStateType::None",
+          "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
         }
+      ],
+      "RoleNameColor": {
+        "SpecifiedColor": {
+          "R": 1.0,
+          "G": 0.0,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "FF00FF"
+        },
+        "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+      }
+    },
+    "12": {
+      "DialogueId": 104,
+      "bShow": false,
+      "bAllowSkip": false,
+      "bFlickerHead": true,
+      "RoleId": 146,
+      "Text": {
+        "Namespace": "",
+        "Key": "2085D24543BA033346CC20B0AE8C56BC",
+        "SourceString": "向着爆破点前进，注意防范敌人的袭击。",
+        "LocalizedString": "向着爆破点前进，注意防范敌人的袭击。"
       },
-      "NewRow": {
-        "DialogueId": 106,
-        "bShow": false,
-        "bAllowSkip": false,
-        "bFlickerHead": true,
-        "RoleId": 146,
-        "Text": {
-          "Namespace": "",
-          "Key": "08405EB14F5DBCA8F5594EAC04ED0DFE",
-          "SourceString": "阻止敌人拆除炸弹",
-          "LocalizedString": "阻止敌人拆除炸弹"
-        },
-        "TextShowSpeed": 0.05,
-        "AkOnEvent": {
-          "AssetPathName": "/Game/WwiseAssets/AkEvent/Vox_Communicate_096.Vox_Communicate_096",
-          "SubPathString": ""
-        },
-        "Time": 5.0,
-        "TriggerEvents": [
-          {
-            "UniqueName": "5",
-            "EventGameplayTag": {
-              "TagName": "None"
-            },
-            "EventType": "ECyGuideEventType::GuideTask",
-            "WeaponEventType": "ECyGuideWeaponEventType::None",
-            "GuideStateType": "ECyGuideStateType::None",
-            "GuideTaskStateType": "ECyGuideTaskStateType::Begin",
-            "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
-            "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
-            "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
-            "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
-            "SequenceStateType": "ECySequenceStateType::None",
-            "ActionType": "ECyGuideActionType::None",
-            "MeshModeType": "EMeshModeType::Normal",
-            "GameStateType": "EGStateType::None",
-            "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
-          }
-        ],
-        "RoleNameColor": {
-          "SpecifiedColor": {
-            "R": 1.0,
-            "G": 0.0,
-            "B": 1.0,
-            "A": 1.0,
-            "Hex": "FF00FF"
-          },
-          "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
-        }
+      "TextShowSpeed": 0.05,
+      "AkOnEvent": {
+        "AssetPathName": "/Game/WwiseAssets/AkEvent/Vox_Communicate_094.Vox_Communicate_094",
+        "SubPathString": ""
       },
-      "NewRow_0": {
-        "DialogueId": 107,
-        "bShow": false,
-        "bAllowSkip": false,
-        "bFlickerHead": true,
-        "RoleId": 146,
-        "Text": {
-          "Namespace": "",
-          "Key": "7A8608B048FC0F3C4C6DCEA96AFE9C4D",
-          "SourceString": "即将进入第二阶段的任务引导",
-          "LocalizedString": "即将进入第二阶段的任务引导"
-        },
-        "TextShowSpeed": 0.05,
-        "AkOnEvent": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "Time": 2.0,
-        "TriggerEvents": [
-          {
-            "UniqueName": "7",
-            "EventGameplayTag": {
-              "TagName": "None"
-            },
-            "EventType": "ECyGuideEventType::GuideTask",
-            "WeaponEventType": "ECyGuideWeaponEventType::None",
-            "GuideStateType": "ECyGuideStateType::None",
-            "GuideTaskStateType": "ECyGuideTaskStateType::Begin",
-            "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
-            "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
-            "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
-            "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
-            "SequenceStateType": "ECySequenceStateType::None",
-            "ActionType": "ECyGuideActionType::None",
-            "MeshModeType": "EMeshModeType::Normal",
-            "GameStateType": "EGStateType::None",
-            "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
-          }
-        ],
-        "RoleNameColor": {
-          "SpecifiedColor": {
-            "R": 1.0,
-            "G": 0.0,
-            "B": 1.0,
-            "A": 1.0,
-            "Hex": "FF00FF"
+      "Time": 5.0,
+      "TriggerEvents": [
+        {
+          "UniqueName": "2",
+          "EventGameplayTag": {
+            "TagName": "None"
           },
-          "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          "EventType": "ECyGuideEventType::GuideTask",
+          "WeaponEventType": "ECyGuideWeaponEventType::None",
+          "GuideStateType": "ECyGuideStateType::None",
+          "GuideTaskStateType": "ECyGuideTaskStateType::Begin",
+          "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
+          "GuideDialogueStateType": "ECyGuideDialogueStateType::End",
+          "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
+          "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
+          "SequenceStateType": "ECySequenceStateType::None",
+          "ActionType": "ECyGuideActionType::None",
+          "MeshModeType": "EMeshModeType::Normal",
+          "GameStateType": "EGStateType::None",
+          "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
         }
+      ],
+      "RoleNameColor": {
+        "SpecifiedColor": {
+          "R": 1.0,
+          "G": 0.0,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "FF00FF"
+        },
+        "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+      }
+    },
+    "104": {
+      "DialogueId": 105,
+      "bShow": false,
+      "bAllowSkip": false,
+      "bFlickerHead": false,
+      "RoleId": 146,
+      "Text": {
+        "Namespace": "",
+        "Key": "D1361598478E4DEB5EAD738EC80E235D",
+        "SourceString": "进入爆破区域后，长按F键直到炸弹安装成功",
+        "LocalizedString": "进入爆破区域后，长按F键直到炸弹安装成功"
       },
-      "NewRow_1": {
-        "DialogueId": 108,
-        "bShow": false,
-        "bAllowSkip": false,
-        "bFlickerHead": true,
-        "RoleId": 146,
-        "Text": {
-          "Namespace": "",
-          "Key": "92A4A460407766E8F6E95BA10F2B3651",
-          "SourceString": "前往爆破点拆除敌人安装的炸弹",
-          "LocalizedString": "前往爆破点拆除敌人安装的炸弹"
-        },
-        "TextShowSpeed": 0.05,
-        "AkOnEvent": {
-          "AssetPathName": "/Game/WwiseAssets/AkEvent/Vox_Communicate_097.Vox_Communicate_097",
-          "SubPathString": ""
-        },
-        "Time": 6.0,
-        "TriggerEvents": [
-          {
-            "UniqueName": "107",
-            "EventGameplayTag": {
-              "TagName": "None"
-            },
-            "EventType": "ECyGuideEventType::GuideDialogue",
-            "WeaponEventType": "ECyGuideWeaponEventType::None",
-            "GuideStateType": "ECyGuideStateType::None",
-            "GuideTaskStateType": "ECyGuideTaskStateType::None",
-            "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
-            "GuideDialogueStateType": "ECyGuideDialogueStateType::End",
-            "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
-            "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
-            "SequenceStateType": "ECySequenceStateType::None",
-            "ActionType": "ECyGuideActionType::None",
-            "MeshModeType": "EMeshModeType::Normal",
-            "GameStateType": "EGStateType::None",
-            "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
-          }
-        ],
-        "RoleNameColor": {
-          "SpecifiedColor": {
-            "R": 1.0,
-            "G": 0.0,
-            "B": 1.0,
-            "A": 1.0,
-            "Hex": "FF00FF"
-          },
-          "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
-        }
+      "TextShowSpeed": 0.05,
+      "AkOnEvent": {
+        "AssetPathName": "/Game/WwiseAssets/AkEvent/Vox_Communicate_095.Vox_Communicate_095",
+        "SubPathString": ""
       },
-      "NewRow_2": {
-        "DialogueId": 109,
-        "bShow": false,
-        "bAllowSkip": false,
-        "bFlickerHead": false,
-        "RoleId": 146,
-        "Text": {
-          "Namespace": "",
-          "Key": "10D4B67141E0AAB356EEADA1729C4AA4",
-          "SourceString": "小心防守在此的敌人",
-          "LocalizedString": "小心防守在此的敌人"
-        },
-        "TextShowSpeed": 0.05,
-        "AkOnEvent": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "Time": 2.0,
-        "TriggerEvents": [
-          {
-            "UniqueName": "108",
-            "EventGameplayTag": {
-              "TagName": "None"
-            },
-            "EventType": "ECyGuideEventType::GuideDialogue",
-            "WeaponEventType": "ECyGuideWeaponEventType::None",
-            "GuideStateType": "ECyGuideStateType::None",
-            "GuideTaskStateType": "ECyGuideTaskStateType::None",
-            "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
-            "GuideDialogueStateType": "ECyGuideDialogueStateType::End",
-            "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
-            "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
-            "SequenceStateType": "ECySequenceStateType::None",
-            "ActionType": "ECyGuideActionType::None",
-            "MeshModeType": "EMeshModeType::Normal",
-            "GameStateType": "EGStateType::None",
-            "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
-          }
-        ],
-        "RoleNameColor": {
-          "SpecifiedColor": {
-            "R": 1.0,
-            "G": 0.0,
-            "B": 1.0,
-            "A": 1.0,
-            "Hex": "FF00FF"
+      "Time": 5.0,
+      "TriggerEvents": [
+        {
+          "UniqueName": "4",
+          "EventGameplayTag": {
+            "TagName": "None"
           },
-          "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          "EventType": "ECyGuideEventType::GuideTask",
+          "WeaponEventType": "ECyGuideWeaponEventType::None",
+          "GuideStateType": "ECyGuideStateType::None",
+          "GuideTaskStateType": "ECyGuideTaskStateType::Begin",
+          "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
+          "GuideDialogueStateType": "ECyGuideDialogueStateType::End",
+          "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
+          "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
+          "SequenceStateType": "ECySequenceStateType::None",
+          "ActionType": "ECyGuideActionType::None",
+          "MeshModeType": "EMeshModeType::Normal",
+          "GameStateType": "EGStateType::None",
+          "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
         }
+      ],
+      "RoleNameColor": {
+        "SpecifiedColor": {
+          "R": 1.0,
+          "G": 0.0,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "FF00FF"
+        },
+        "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+      }
+    },
+    "NewRow": {
+      "DialogueId": 106,
+      "bShow": false,
+      "bAllowSkip": false,
+      "bFlickerHead": true,
+      "RoleId": 146,
+      "Text": {
+        "Namespace": "",
+        "Key": "08405EB14F5DBCA8F5594EAC04ED0DFE",
+        "SourceString": "阻止敌人拆除炸弹",
+        "LocalizedString": "阻止敌人拆除炸弹"
+      },
+      "TextShowSpeed": 0.05,
+      "AkOnEvent": {
+        "AssetPathName": "/Game/WwiseAssets/AkEvent/Vox_Communicate_096.Vox_Communicate_096",
+        "SubPathString": ""
+      },
+      "Time": 5.0,
+      "TriggerEvents": [
+        {
+          "UniqueName": "5",
+          "EventGameplayTag": {
+            "TagName": "None"
+          },
+          "EventType": "ECyGuideEventType::GuideTask",
+          "WeaponEventType": "ECyGuideWeaponEventType::None",
+          "GuideStateType": "ECyGuideStateType::None",
+          "GuideTaskStateType": "ECyGuideTaskStateType::Begin",
+          "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
+          "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
+          "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
+          "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
+          "SequenceStateType": "ECySequenceStateType::None",
+          "ActionType": "ECyGuideActionType::None",
+          "MeshModeType": "EMeshModeType::Normal",
+          "GameStateType": "EGStateType::None",
+          "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
+        }
+      ],
+      "RoleNameColor": {
+        "SpecifiedColor": {
+          "R": 1.0,
+          "G": 0.0,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "FF00FF"
+        },
+        "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+      }
+    },
+    "NewRow_0": {
+      "DialogueId": 107,
+      "bShow": false,
+      "bAllowSkip": false,
+      "bFlickerHead": true,
+      "RoleId": 146,
+      "Text": {
+        "Namespace": "",
+        "Key": "7A8608B048FC0F3C4C6DCEA96AFE9C4D",
+        "SourceString": "即将进入第二阶段的任务引导",
+        "LocalizedString": "即将进入第二阶段的任务引导"
+      },
+      "TextShowSpeed": 0.05,
+      "AkOnEvent": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "Time": 2.0,
+      "TriggerEvents": [
+        {
+          "UniqueName": "7",
+          "EventGameplayTag": {
+            "TagName": "None"
+          },
+          "EventType": "ECyGuideEventType::GuideTask",
+          "WeaponEventType": "ECyGuideWeaponEventType::None",
+          "GuideStateType": "ECyGuideStateType::None",
+          "GuideTaskStateType": "ECyGuideTaskStateType::Begin",
+          "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
+          "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
+          "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
+          "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
+          "SequenceStateType": "ECySequenceStateType::None",
+          "ActionType": "ECyGuideActionType::None",
+          "MeshModeType": "EMeshModeType::Normal",
+          "GameStateType": "EGStateType::None",
+          "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
+        }
+      ],
+      "RoleNameColor": {
+        "SpecifiedColor": {
+          "R": 1.0,
+          "G": 0.0,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "FF00FF"
+        },
+        "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+      }
+    },
+    "NewRow_1": {
+      "DialogueId": 108,
+      "bShow": false,
+      "bAllowSkip": false,
+      "bFlickerHead": true,
+      "RoleId": 146,
+      "Text": {
+        "Namespace": "",
+        "Key": "92A4A460407766E8F6E95BA10F2B3651",
+        "SourceString": "前往爆破点拆除敌人安装的炸弹",
+        "LocalizedString": "前往爆破点拆除敌人安装的炸弹"
+      },
+      "TextShowSpeed": 0.05,
+      "AkOnEvent": {
+        "AssetPathName": "/Game/WwiseAssets/AkEvent/Vox_Communicate_097.Vox_Communicate_097",
+        "SubPathString": ""
+      },
+      "Time": 6.0,
+      "TriggerEvents": [
+        {
+          "UniqueName": "107",
+          "EventGameplayTag": {
+            "TagName": "None"
+          },
+          "EventType": "ECyGuideEventType::GuideDialogue",
+          "WeaponEventType": "ECyGuideWeaponEventType::None",
+          "GuideStateType": "ECyGuideStateType::None",
+          "GuideTaskStateType": "ECyGuideTaskStateType::None",
+          "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
+          "GuideDialogueStateType": "ECyGuideDialogueStateType::End",
+          "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
+          "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
+          "SequenceStateType": "ECySequenceStateType::None",
+          "ActionType": "ECyGuideActionType::None",
+          "MeshModeType": "EMeshModeType::Normal",
+          "GameStateType": "EGStateType::None",
+          "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
+        }
+      ],
+      "RoleNameColor": {
+        "SpecifiedColor": {
+          "R": 1.0,
+          "G": 0.0,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "FF00FF"
+        },
+        "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+      }
+    },
+    "NewRow_2": {
+      "DialogueId": 109,
+      "bShow": false,
+      "bAllowSkip": false,
+      "bFlickerHead": false,
+      "RoleId": 146,
+      "Text": {
+        "Namespace": "",
+        "Key": "10D4B67141E0AAB356EEADA1729C4AA4",
+        "SourceString": "小心防守在此的敌人",
+        "LocalizedString": "小心防守在此的敌人"
+      },
+      "TextShowSpeed": 0.05,
+      "AkOnEvent": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "Time": 2.0,
+      "TriggerEvents": [
+        {
+          "UniqueName": "108",
+          "EventGameplayTag": {
+            "TagName": "None"
+          },
+          "EventType": "ECyGuideEventType::GuideDialogue",
+          "WeaponEventType": "ECyGuideWeaponEventType::None",
+          "GuideStateType": "ECyGuideStateType::None",
+          "GuideTaskStateType": "ECyGuideTaskStateType::None",
+          "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
+          "GuideDialogueStateType": "ECyGuideDialogueStateType::End",
+          "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
+          "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
+          "SequenceStateType": "ECySequenceStateType::None",
+          "ActionType": "ECyGuideActionType::None",
+          "MeshModeType": "EMeshModeType::Normal",
+          "GameStateType": "EGStateType::None",
+          "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
+        }
+      ],
+      "RoleNameColor": {
+        "SpecifiedColor": {
+          "R": 1.0,
+          "G": 0.0,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "FF00FF"
+        },
+        "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
       }
     }
   }
-]
+}

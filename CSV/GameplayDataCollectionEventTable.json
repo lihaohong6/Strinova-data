@@ -1,219 +1,217 @@
-[
-  {
-    "Type": "DataTable",
-    "Name": "GameplayDataCollectionEventTable",
-    "Class": "UScriptClass'DataTable'",
-    "Properties": {
-      "RowStruct": {
-        "ObjectName": "ScriptStruct'GameplayTagTableRow'",
-        "ObjectPath": "/Script/GameplayTags"
-      }
+{
+  "Type": "DataTable",
+  "Name": "GameplayDataCollectionEventTable",
+  "Class": "UScriptClass'DataTable'",
+  "Properties": {
+    "RowStruct": {
+      "ObjectName": "ScriptStruct'GameplayTagTableRow'",
+      "ObjectPath": "/Script/GameplayTags"
+    }
+  },
+  "Rows": {
+    "CollectionEvent": {
+      "Tag": "CollectionEvent",
+      "DevComment": "数据统计事件相关Tag [UCyGameplayEventWorldSubsystem]"
     },
-    "Rows": {
-      "CollectionEvent": {
-        "Tag": "CollectionEvent",
-        "DevComment": "数据统计事件相关Tag [UCyGameplayEventWorldSubsystem]"
-      },
-      "CollectionEvent.UsedCount.Graffiti": {
-        "Tag": "CollectionEvent.UsedCount.Graffiti",
-        "DevComment": "涂鸦使用次数"
-      },
-      "CollectionEvent.UsedCount.Grenade": {
-        "Tag": "CollectionEvent.UsedCount.Grenade",
-        "DevComment": "战术道具使用次数"
-      },
-      "CollectionEvent.UsedCount.Grenade.Splatoon": {
-        "Tag": "CollectionEvent.UsedCount.Grenade.Splatoon",
-        "DevComment": "手雷使用次数"
-      },
-      "CollectionEvent.UsedCount.Grenade.Flash": {
-        "Tag": "CollectionEvent.UsedCount.Grenade.Flash",
-        "DevComment": "闪光弹使用次数"
-      },
-      "CollectionEvent.UsedCount.Grenade.Smoke": {
-        "Tag": "CollectionEvent.UsedCount.Grenade.Smoke",
-        "DevComment": "烟雾弹使用次数"
-      },
-      "CollectionEvent.UsedCount.Grenade.Wind": {
-        "Tag": "CollectionEvent.UsedCount.Grenade.Wind",
-        "DevComment": "风场雷使用次数"
-      },
-      "CollectionEvent.UsedCount.Grenade.SlowDown": {
-        "Tag": "CollectionEvent.UsedCount.Grenade.SlowDown",
-        "DevComment": "减速雷使用次数"
-      },
-      "CollectionEvent.UsedCount.Grenade.Treatment": {
-        "Tag": "CollectionEvent.UsedCount.Grenade.Treatment",
-        "DevComment": "治疗雷使用次数"
-      },
-      "CollectionEvent.UsedCount.Grenade.Alarm": {
-        "Tag": "CollectionEvent.UsedCount.Grenade.Alarm",
-        "DevComment": "警报器使用次数"
-      },
-      "CollectionEvent.UsedCount.Grenade.Interceptor": {
-        "Tag": "CollectionEvent.UsedCount.Grenade.Interceptor",
-        "DevComment": "拦截者使用次数"
-      },
-      "CollectionEvent.Total.HitMost.All": {
-        "Tag": "CollectionEvent.Total.HitMost.All",
-        "DevComment": "总击中数最多"
-      },
-      "CollectionEvent.Total.HeadshotMost.All": {
-        "Tag": "CollectionEvent.Total.HeadshotMost.All",
-        "DevComment": "总爆头数最多"
-      },
-      "CollectionEvent.Total.CauseDamageMost.All": {
-        "Tag": "CollectionEvent.Total.CauseDamageMost.All",
-        "DevComment": "总造成伤害最多"
-      },
-      "CollectionEvent.Total.CauseDamageMost.PlayerWeapon.Primary": {
-        "Tag": "CollectionEvent.Total.CauseDamageMost.PlayerWeapon.Primary",
-        "DevComment": "总主武器造成伤害最多"
-      },
-      "CollectionEvent.Total.CauseDamageMost.PlayerWeapon.Secondary": {
-        "Tag": "CollectionEvent.Total.CauseDamageMost.PlayerWeapon.Secondary",
-        "DevComment": "总副武器造成伤害最多"
-      },
-      "CollectionEvent.Total.CauseDamageMost.PlayerWeapon.Throw": {
-        "Tag": "CollectionEvent.Total.CauseDamageMost.PlayerWeapon.Throw",
-        "DevComment": "总投掷物造成伤害最多"
-      },
-      "CollectionEvent.Total.CauseDamageMost.PlayerSkill.P": {
-        "Tag": "CollectionEvent.Total.CauseDamageMost.PlayerSkill.P",
-        "DevComment": "总被动技能造成伤害最多"
-      },
-      "CollectionEvent.Total.CauseDamageMost.PlayerSkill.Q": {
-        "Tag": "CollectionEvent.Total.CauseDamageMost.PlayerSkill.Q",
-        "DevComment": "总主动技能造成伤害最多"
-      },
-      "CollectionEvent.Total.CauseDamageMost.PlayerSkill.X": {
-        "Tag": "CollectionEvent.Total.CauseDamageMost.PlayerSkill.X",
-        "DevComment": "总大招技能造成伤害最多"
-      },
-      "CollectionEvent.Total.TakeDamageLeast.All": {
-        "Tag": "CollectionEvent.Total.TakeDamageLeast.All",
-        "DevComment": "总受到伤害最少"
-      },
-      "CollectionEvent.Total.CauseInjuredMost.All": {
-        "Tag": "CollectionEvent.Total.CauseInjuredMost.All",
-        "DevComment": "总造成重伤倒地数最多"
-      },
-      "CollectionEvent.Total.TakeInjuredLeast.All": {
-        "Tag": "CollectionEvent.Total.TakeInjuredLeast.All",
-        "DevComment": "总受到重伤倒地数最少"
-      },
-      "CollectionEvent.Total.KillMost.All": {
-        "Tag": "CollectionEvent.Total.KillMost.All",
-        "DevComment": "总击杀数最多"
-      },
-      "CollectionEvent.Total.ContinuousKillMost.All": {
-        "Tag": "CollectionEvent.Total.ContinuousKillMost.All",
-        "DevComment": "总连续击杀数最多"
-      },
-      "CollectionEvent.Total.DeathLeast.All": {
-        "Tag": "CollectionEvent.Total.DeathLeast.All",
-        "DevComment": "总死亡数最少"
-      },
-      "CollectionEvent.Total.AssistMost.All": {
-        "Tag": "CollectionEvent.Total.AssistMost.All",
-        "DevComment": "总助攻数最多"
-      },
-      "CollectionEvent.Total.RescueMost": {
-        "Tag": "CollectionEvent.Total.RescueMost",
-        "DevComment": "总救援数最多"
-      },
-      "CollectionEvent.Total.MoveDistMost.All": {
-        "Tag": "CollectionEvent.Total.MoveDistMost.All",
-        "DevComment": "总移动距离最大"
-      },
-      "CollectionEvent.Total.MoveDistMost.Normal": {
-        "Tag": "CollectionEvent.Total.MoveDistMost.Normal",
-        "DevComment": "总3D状态移动距离最大"
-      },
-      "CollectionEvent.Total.MoveDistMost.2D": {
-        "Tag": "CollectionEvent.Total.MoveDistMost.2D",
-        "DevComment": "总2D状态移动距离最大"
-      },
-      "CollectionEvent.Total.MoveDistMost.Slide": {
-        "Tag": "CollectionEvent.Total.MoveDistMost.Slide",
-        "DevComment": "总贴墙状态移动距离最大"
-      },
-      "CollectionEvent.Total.MoveDistMost.Sideway": {
-        "Tag": "CollectionEvent.Total.MoveDistMost.Sideway",
-        "DevComment": "总侧身状态移动距离最大"
-      },
-      "CollectionEvent.Total.MoveDistMost.Glide": {
-        "Tag": "CollectionEvent.Total.MoveDistMost.Glide",
-        "DevComment": "总飘飞状态移动距离最大"
-      },
-      "CollectionEvent.Total.InstallC4Most": {
-        "Tag": "CollectionEvent.Total.InstallC4Most",
-        "DevComment": "总安装C4数最多"
-      },
-      "CollectionEvent.Total.RemoveC4Most": {
-        "Tag": "CollectionEvent.Total.RemoveC4Most",
-        "DevComment": "总拆除C4数最多"
-      },
-      "CollectionEvent.Total.InstallOrRemoveC4Most": {
-        "Tag": "CollectionEvent.Total.InstallOrRemoveC4Most",
-        "DevComment": "总安装或拆除C4数最多"
-      },
-      "CollectionEvent.GetGrowthPoint": {
-        "Tag": "CollectionEvent.GetGrowthPoint",
-        "DevComment": "获得局内成长点"
-      },
-      "CollectionEvent.Xrayed.Enemy.PlayerSkill.Q": {
-        "Tag": "CollectionEvent.Xrayed.Enemy.PlayerSkill.Q",
-        "DevComment": "主动技能透视敌人"
-      },
-      "CollectionEvent.Xrayed.Enemy.PlayerSkill.P": {
-        "Tag": "CollectionEvent.Xrayed.Enemy.PlayerSkill.P",
-        "DevComment": "被动技能透视敌人"
-      },
-      "CollectionEvent.Xrayed.Enemy.PlayerSkill.X": {
-        "Tag": "CollectionEvent.Xrayed.Enemy.PlayerSkill.X",
-        "DevComment": "大招技能透视敌人"
-      },
-      "CollectionEvent.ViewOcclusion.PlayerSkill.Q": {
-        "Tag": "CollectionEvent.ViewOcclusion.PlayerSkill.Q",
-        "DevComment": "主动技能遮挡视野"
-      },
-      "CollectionEvent.SlowDown.ArousalTwo": {
-        "Tag": "CollectionEvent.SlowDown.ArousalTwo",
-        "DevComment": "觉醒技2减速"
-      },
-      "CollectionEvent.SlowDown.PlayerSkill.Q": {
-        "Tag": "CollectionEvent.SlowDown.PlayerSkill.Q",
-        "DevComment": "主动技能减速"
-      },
-      "CollectionEvent.SlowDown.PlayerSkill.P": {
-        "Tag": "CollectionEvent.SlowDown.PlayerSkill.P",
-        "DevComment": "被动技能减速"
-      },
-      "CollectionEvent.SlowDown.PlayerSkill.X": {
-        "Tag": "CollectionEvent.SlowDown.PlayerSkill.X",
-        "DevComment": "大招技能减速"
-      },
-      "CollectionEvent.ForceMove.Enemy.PlayerSkill.Q": {
-        "Tag": "CollectionEvent.ForceMove.Enemy.PlayerSkill.Q",
-        "DevComment": "主动技能强制移动敌人(比如，熊的野蛮冲撞)"
-      },
-      "CollectionEvent.DamageProtector.ArousalOne": {
-        "Tag": "CollectionEvent.DamageProtector.ArousalOne",
-        "DevComment": "觉醒技能1伤害保护"
-      },
-      "CollectionEvent.DeathProtector.ArousalOne": {
-        "Tag": "CollectionEvent.DeathProtector.ArousalOne",
-        "DevComment": "觉醒技能1死亡保护"
-      },
-      "CollectionEvent.StatTime.Start.PlayerSkill.P": {
-        "Tag": "CollectionEvent.StatTime.Start.PlayerSkill.P",
-        "DevComment": "开始统计被动时长"
-      },
-      "CollectionEvent.StatTime.End.PlayerSkill.P": {
-        "Tag": "CollectionEvent.StatTime.End.PlayerSkill.P",
-        "DevComment": "结束统计被动时长"
-      }
+    "CollectionEvent.UsedCount.Graffiti": {
+      "Tag": "CollectionEvent.UsedCount.Graffiti",
+      "DevComment": "涂鸦使用次数"
+    },
+    "CollectionEvent.UsedCount.Grenade": {
+      "Tag": "CollectionEvent.UsedCount.Grenade",
+      "DevComment": "战术道具使用次数"
+    },
+    "CollectionEvent.UsedCount.Grenade.Splatoon": {
+      "Tag": "CollectionEvent.UsedCount.Grenade.Splatoon",
+      "DevComment": "手雷使用次数"
+    },
+    "CollectionEvent.UsedCount.Grenade.Flash": {
+      "Tag": "CollectionEvent.UsedCount.Grenade.Flash",
+      "DevComment": "闪光弹使用次数"
+    },
+    "CollectionEvent.UsedCount.Grenade.Smoke": {
+      "Tag": "CollectionEvent.UsedCount.Grenade.Smoke",
+      "DevComment": "烟雾弹使用次数"
+    },
+    "CollectionEvent.UsedCount.Grenade.Wind": {
+      "Tag": "CollectionEvent.UsedCount.Grenade.Wind",
+      "DevComment": "风场雷使用次数"
+    },
+    "CollectionEvent.UsedCount.Grenade.SlowDown": {
+      "Tag": "CollectionEvent.UsedCount.Grenade.SlowDown",
+      "DevComment": "减速雷使用次数"
+    },
+    "CollectionEvent.UsedCount.Grenade.Treatment": {
+      "Tag": "CollectionEvent.UsedCount.Grenade.Treatment",
+      "DevComment": "治疗雷使用次数"
+    },
+    "CollectionEvent.UsedCount.Grenade.Alarm": {
+      "Tag": "CollectionEvent.UsedCount.Grenade.Alarm",
+      "DevComment": "警报器使用次数"
+    },
+    "CollectionEvent.UsedCount.Grenade.Interceptor": {
+      "Tag": "CollectionEvent.UsedCount.Grenade.Interceptor",
+      "DevComment": "拦截者使用次数"
+    },
+    "CollectionEvent.Total.HitMost.All": {
+      "Tag": "CollectionEvent.Total.HitMost.All",
+      "DevComment": "总击中数最多"
+    },
+    "CollectionEvent.Total.HeadshotMost.All": {
+      "Tag": "CollectionEvent.Total.HeadshotMost.All",
+      "DevComment": "总爆头数最多"
+    },
+    "CollectionEvent.Total.CauseDamageMost.All": {
+      "Tag": "CollectionEvent.Total.CauseDamageMost.All",
+      "DevComment": "总造成伤害最多"
+    },
+    "CollectionEvent.Total.CauseDamageMost.PlayerWeapon.Primary": {
+      "Tag": "CollectionEvent.Total.CauseDamageMost.PlayerWeapon.Primary",
+      "DevComment": "总主武器造成伤害最多"
+    },
+    "CollectionEvent.Total.CauseDamageMost.PlayerWeapon.Secondary": {
+      "Tag": "CollectionEvent.Total.CauseDamageMost.PlayerWeapon.Secondary",
+      "DevComment": "总副武器造成伤害最多"
+    },
+    "CollectionEvent.Total.CauseDamageMost.PlayerWeapon.Throw": {
+      "Tag": "CollectionEvent.Total.CauseDamageMost.PlayerWeapon.Throw",
+      "DevComment": "总投掷物造成伤害最多"
+    },
+    "CollectionEvent.Total.CauseDamageMost.PlayerSkill.P": {
+      "Tag": "CollectionEvent.Total.CauseDamageMost.PlayerSkill.P",
+      "DevComment": "总被动技能造成伤害最多"
+    },
+    "CollectionEvent.Total.CauseDamageMost.PlayerSkill.Q": {
+      "Tag": "CollectionEvent.Total.CauseDamageMost.PlayerSkill.Q",
+      "DevComment": "总主动技能造成伤害最多"
+    },
+    "CollectionEvent.Total.CauseDamageMost.PlayerSkill.X": {
+      "Tag": "CollectionEvent.Total.CauseDamageMost.PlayerSkill.X",
+      "DevComment": "总大招技能造成伤害最多"
+    },
+    "CollectionEvent.Total.TakeDamageLeast.All": {
+      "Tag": "CollectionEvent.Total.TakeDamageLeast.All",
+      "DevComment": "总受到伤害最少"
+    },
+    "CollectionEvent.Total.CauseInjuredMost.All": {
+      "Tag": "CollectionEvent.Total.CauseInjuredMost.All",
+      "DevComment": "总造成重伤倒地数最多"
+    },
+    "CollectionEvent.Total.TakeInjuredLeast.All": {
+      "Tag": "CollectionEvent.Total.TakeInjuredLeast.All",
+      "DevComment": "总受到重伤倒地数最少"
+    },
+    "CollectionEvent.Total.KillMost.All": {
+      "Tag": "CollectionEvent.Total.KillMost.All",
+      "DevComment": "总击杀数最多"
+    },
+    "CollectionEvent.Total.ContinuousKillMost.All": {
+      "Tag": "CollectionEvent.Total.ContinuousKillMost.All",
+      "DevComment": "总连续击杀数最多"
+    },
+    "CollectionEvent.Total.DeathLeast.All": {
+      "Tag": "CollectionEvent.Total.DeathLeast.All",
+      "DevComment": "总死亡数最少"
+    },
+    "CollectionEvent.Total.AssistMost.All": {
+      "Tag": "CollectionEvent.Total.AssistMost.All",
+      "DevComment": "总助攻数最多"
+    },
+    "CollectionEvent.Total.RescueMost": {
+      "Tag": "CollectionEvent.Total.RescueMost",
+      "DevComment": "总救援数最多"
+    },
+    "CollectionEvent.Total.MoveDistMost.All": {
+      "Tag": "CollectionEvent.Total.MoveDistMost.All",
+      "DevComment": "总移动距离最大"
+    },
+    "CollectionEvent.Total.MoveDistMost.Normal": {
+      "Tag": "CollectionEvent.Total.MoveDistMost.Normal",
+      "DevComment": "总3D状态移动距离最大"
+    },
+    "CollectionEvent.Total.MoveDistMost.2D": {
+      "Tag": "CollectionEvent.Total.MoveDistMost.2D",
+      "DevComment": "总2D状态移动距离最大"
+    },
+    "CollectionEvent.Total.MoveDistMost.Slide": {
+      "Tag": "CollectionEvent.Total.MoveDistMost.Slide",
+      "DevComment": "总贴墙状态移动距离最大"
+    },
+    "CollectionEvent.Total.MoveDistMost.Sideway": {
+      "Tag": "CollectionEvent.Total.MoveDistMost.Sideway",
+      "DevComment": "总侧身状态移动距离最大"
+    },
+    "CollectionEvent.Total.MoveDistMost.Glide": {
+      "Tag": "CollectionEvent.Total.MoveDistMost.Glide",
+      "DevComment": "总飘飞状态移动距离最大"
+    },
+    "CollectionEvent.Total.InstallC4Most": {
+      "Tag": "CollectionEvent.Total.InstallC4Most",
+      "DevComment": "总安装C4数最多"
+    },
+    "CollectionEvent.Total.RemoveC4Most": {
+      "Tag": "CollectionEvent.Total.RemoveC4Most",
+      "DevComment": "总拆除C4数最多"
+    },
+    "CollectionEvent.Total.InstallOrRemoveC4Most": {
+      "Tag": "CollectionEvent.Total.InstallOrRemoveC4Most",
+      "DevComment": "总安装或拆除C4数最多"
+    },
+    "CollectionEvent.GetGrowthPoint": {
+      "Tag": "CollectionEvent.GetGrowthPoint",
+      "DevComment": "获得局内成长点"
+    },
+    "CollectionEvent.Xrayed.Enemy.PlayerSkill.Q": {
+      "Tag": "CollectionEvent.Xrayed.Enemy.PlayerSkill.Q",
+      "DevComment": "主动技能透视敌人"
+    },
+    "CollectionEvent.Xrayed.Enemy.PlayerSkill.P": {
+      "Tag": "CollectionEvent.Xrayed.Enemy.PlayerSkill.P",
+      "DevComment": "被动技能透视敌人"
+    },
+    "CollectionEvent.Xrayed.Enemy.PlayerSkill.X": {
+      "Tag": "CollectionEvent.Xrayed.Enemy.PlayerSkill.X",
+      "DevComment": "大招技能透视敌人"
+    },
+    "CollectionEvent.ViewOcclusion.PlayerSkill.Q": {
+      "Tag": "CollectionEvent.ViewOcclusion.PlayerSkill.Q",
+      "DevComment": "主动技能遮挡视野"
+    },
+    "CollectionEvent.SlowDown.ArousalTwo": {
+      "Tag": "CollectionEvent.SlowDown.ArousalTwo",
+      "DevComment": "觉醒技2减速"
+    },
+    "CollectionEvent.SlowDown.PlayerSkill.Q": {
+      "Tag": "CollectionEvent.SlowDown.PlayerSkill.Q",
+      "DevComment": "主动技能减速"
+    },
+    "CollectionEvent.SlowDown.PlayerSkill.P": {
+      "Tag": "CollectionEvent.SlowDown.PlayerSkill.P",
+      "DevComment": "被动技能减速"
+    },
+    "CollectionEvent.SlowDown.PlayerSkill.X": {
+      "Tag": "CollectionEvent.SlowDown.PlayerSkill.X",
+      "DevComment": "大招技能减速"
+    },
+    "CollectionEvent.ForceMove.Enemy.PlayerSkill.Q": {
+      "Tag": "CollectionEvent.ForceMove.Enemy.PlayerSkill.Q",
+      "DevComment": "主动技能强制移动敌人(比如，熊的野蛮冲撞)"
+    },
+    "CollectionEvent.DamageProtector.ArousalOne": {
+      "Tag": "CollectionEvent.DamageProtector.ArousalOne",
+      "DevComment": "觉醒技能1伤害保护"
+    },
+    "CollectionEvent.DeathProtector.ArousalOne": {
+      "Tag": "CollectionEvent.DeathProtector.ArousalOne",
+      "DevComment": "觉醒技能1死亡保护"
+    },
+    "CollectionEvent.StatTime.Start.PlayerSkill.P": {
+      "Tag": "CollectionEvent.StatTime.Start.PlayerSkill.P",
+      "DevComment": "开始统计被动时长"
+    },
+    "CollectionEvent.StatTime.End.PlayerSkill.P": {
+      "Tag": "CollectionEvent.StatTime.End.PlayerSkill.P",
+      "DevComment": "结束统计被动时长"
     }
   }
-]
+}

@@ -1,1876 +1,1874 @@
-[
-  {
-    "Type": "DataTable",
-    "Name": "DT_Guide_NoviceGuide_UIGuide",
-    "Class": "UScriptClass'DataTable'",
-    "Properties": {
-      "RowStruct": {
-        "ObjectName": "ScriptStruct'CyGuideUIGuideConfig'",
-        "ObjectPath": "/Script/PMGame"
-      }
+{
+  "Type": "DataTable",
+  "Name": "DT_Guide_NoviceGuide_UIGuide",
+  "Class": "UScriptClass'DataTable'",
+  "Properties": {
+    "RowStruct": {
+      "ObjectName": "ScriptStruct'CyGuideUIGuideConfig'",
+      "ObjectPath": "/Script/PMGame"
+    }
+  },
+  "Rows": {
+    "1": {
+      "Id": 1,
+      "UIGuideTypeConfigs": [
+        {
+          "GameFunctionType": "ECyGameUIFunctionType::Move",
+          "UIGuideType": "ECyGuideUIGuideType::CircleEffect",
+          "GuideInfo": {
+            "CultureInvariantString": null
+          },
+          "BeginDelay": 0.0,
+          "LoopTimes": 0,
+          "LoopInterval": 0.0,
+          "bCustomLayout": false,
+          "bCustomLocation": false,
+          "Location": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "LocationOffset": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Size": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "AnchorData": {
+            "Offsets": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "Anchors": {
+              "Minimum": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Maximum": {
+                "X": 0.0,
+                "Y": 0.0
+              }
+            },
+            "Alignment": {
+              "X": 0.5,
+              "Y": 0.5
+            }
+          }
+        },
+        {
+          "GameFunctionType": "ECyGameUIFunctionType::Move",
+          "UIGuideType": "ECyGuideUIGuideType::TextInfo",
+          "GuideInfo": {
+            "Namespace": "",
+            "Key": "4A0A2501461DD242661384A51BC039BA",
+            "SourceString": "上滑移动",
+            "LocalizedString": "上滑移动"
+          },
+          "BeginDelay": 0.0,
+          "LoopTimes": 0,
+          "LoopInterval": 0.0,
+          "bCustomLayout": false,
+          "bCustomLocation": false,
+          "Location": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "LocationOffset": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Size": {
+            "X": 50.0,
+            "Y": 150.0
+          },
+          "AnchorData": {
+            "Offsets": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "Anchors": {
+              "Minimum": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Maximum": {
+                "X": 0.0,
+                "Y": 0.0
+              }
+            },
+            "Alignment": {
+              "X": 0.5,
+              "Y": 0.5
+            }
+          }
+        },
+        {
+          "GameFunctionType": "ECyGameUIFunctionType::View",
+          "UIGuideType": "ECyGuideUIGuideType::RightSlide",
+          "GuideInfo": {
+            "CultureInvariantString": null
+          },
+          "BeginDelay": 0.0,
+          "LoopTimes": 0,
+          "LoopInterval": 0.0,
+          "bCustomLayout": false,
+          "bCustomLocation": false,
+          "Location": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "LocationOffset": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Size": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "AnchorData": {
+            "Offsets": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "Anchors": {
+              "Minimum": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Maximum": {
+                "X": 0.0,
+                "Y": 0.0
+              }
+            },
+            "Alignment": {
+              "X": 0.5,
+              "Y": 0.5
+            }
+          }
+        }
+      ],
+      "TriggerBeginEvents": [
+        {
+          "UniqueName": "1",
+          "EventGameplayTag": {
+            "TagName": "None"
+          },
+          "EventType": "ECyGuideEventType::GuideTask",
+          "WeaponEventType": "ECyGuideWeaponEventType::None",
+          "GuideStateType": "ECyGuideStateType::None",
+          "GuideTaskStateType": "ECyGuideTaskStateType::Begin",
+          "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
+          "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
+          "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
+          "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
+          "SequenceStateType": "ECySequenceStateType::None",
+          "ActionType": "ECyGuideActionType::None",
+          "MeshModeType": "EMeshModeType::Normal",
+          "GameStateType": "EGStateType::None",
+          "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
+        }
+      ],
+      "TriggerEndEvents": [
+        {
+          "UniqueName": "1",
+          "EventGameplayTag": {
+            "TagName": "None"
+          },
+          "EventType": "ECyGuideEventType::GuideTask",
+          "WeaponEventType": "ECyGuideWeaponEventType::None",
+          "GuideStateType": "ECyGuideStateType::None",
+          "GuideTaskStateType": "ECyGuideTaskStateType::End",
+          "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
+          "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
+          "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
+          "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
+          "SequenceStateType": "ECySequenceStateType::None",
+          "ActionType": "ECyGuideActionType::None",
+          "MeshModeType": "EMeshModeType::Normal",
+          "GameStateType": "EGStateType::None",
+          "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
+        }
+      ]
     },
-    "Rows": {
-      "1": {
-        "Id": 1,
-        "UIGuideTypeConfigs": [
-          {
-            "GameFunctionType": "ECyGameUIFunctionType::Move",
-            "UIGuideType": "ECyGuideUIGuideType::CircleEffect",
-            "GuideInfo": {
-              "CultureInvariantString": null
-            },
-            "BeginDelay": 0.0,
-            "LoopTimes": 0,
-            "LoopInterval": 0.0,
-            "bCustomLayout": false,
-            "bCustomLocation": false,
-            "Location": {
-              "X": 0.0,
-              "Y": 0.0
-            },
-            "LocationOffset": {
-              "X": 0.0,
-              "Y": 0.0
-            },
-            "Size": {
-              "X": 0.0,
-              "Y": 0.0
-            },
-            "AnchorData": {
-              "Offsets": {
-                "Left": 0.0,
-                "Top": 0.0,
-                "Right": 0.0,
-                "Bottom": 0.0
-              },
-              "Anchors": {
-                "Minimum": {
-                  "X": 0.0,
-                  "Y": 0.0
-                },
-                "Maximum": {
-                  "X": 0.0,
-                  "Y": 0.0
-                }
-              },
-              "Alignment": {
-                "X": 0.5,
-                "Y": 0.5
-              }
-            }
+    "1_0": {
+      "Id": 2,
+      "UIGuideTypeConfigs": [
+        {
+          "GameFunctionType": "ECyGameUIFunctionType::Move",
+          "UIGuideType": "ECyGuideUIGuideType::CircleEffect",
+          "GuideInfo": {
+            "CultureInvariantString": null
           },
-          {
-            "GameFunctionType": "ECyGameUIFunctionType::Move",
-            "UIGuideType": "ECyGuideUIGuideType::TextInfo",
-            "GuideInfo": {
-              "Namespace": "",
-              "Key": "4A0A2501461DD242661384A51BC039BA",
-              "SourceString": "上滑移动",
-              "LocalizedString": "上滑移动"
-            },
-            "BeginDelay": 0.0,
-            "LoopTimes": 0,
-            "LoopInterval": 0.0,
-            "bCustomLayout": false,
-            "bCustomLocation": false,
-            "Location": {
-              "X": 0.0,
-              "Y": 0.0
-            },
-            "LocationOffset": {
-              "X": 0.0,
-              "Y": 0.0
-            },
-            "Size": {
-              "X": 50.0,
-              "Y": 150.0
-            },
-            "AnchorData": {
-              "Offsets": {
-                "Left": 0.0,
-                "Top": 0.0,
-                "Right": 0.0,
-                "Bottom": 0.0
-              },
-              "Anchors": {
-                "Minimum": {
-                  "X": 0.0,
-                  "Y": 0.0
-                },
-                "Maximum": {
-                  "X": 0.0,
-                  "Y": 0.0
-                }
-              },
-              "Alignment": {
-                "X": 0.5,
-                "Y": 0.5
-              }
-            }
+          "BeginDelay": 0.0,
+          "LoopTimes": 0,
+          "LoopInterval": 0.0,
+          "bCustomLayout": false,
+          "bCustomLocation": false,
+          "Location": {
+            "X": 0.0,
+            "Y": 0.0
           },
-          {
-            "GameFunctionType": "ECyGameUIFunctionType::View",
-            "UIGuideType": "ECyGuideUIGuideType::RightSlide",
-            "GuideInfo": {
-              "CultureInvariantString": null
-            },
-            "BeginDelay": 0.0,
-            "LoopTimes": 0,
-            "LoopInterval": 0.0,
-            "bCustomLayout": false,
-            "bCustomLocation": false,
-            "Location": {
-              "X": 0.0,
-              "Y": 0.0
-            },
-            "LocationOffset": {
-              "X": 0.0,
-              "Y": 0.0
-            },
-            "Size": {
-              "X": 0.0,
-              "Y": 0.0
-            },
-            "AnchorData": {
-              "Offsets": {
-                "Left": 0.0,
-                "Top": 0.0,
-                "Right": 0.0,
-                "Bottom": 0.0
-              },
-              "Anchors": {
-                "Minimum": {
-                  "X": 0.0,
-                  "Y": 0.0
-                },
-                "Maximum": {
-                  "X": 0.0,
-                  "Y": 0.0
-                }
-              },
-              "Alignment": {
-                "X": 0.5,
-                "Y": 0.5
-              }
-            }
-          }
-        ],
-        "TriggerBeginEvents": [
-          {
-            "UniqueName": "1",
-            "EventGameplayTag": {
-              "TagName": "None"
-            },
-            "EventType": "ECyGuideEventType::GuideTask",
-            "WeaponEventType": "ECyGuideWeaponEventType::None",
-            "GuideStateType": "ECyGuideStateType::None",
-            "GuideTaskStateType": "ECyGuideTaskStateType::Begin",
-            "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
-            "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
-            "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
-            "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
-            "SequenceStateType": "ECySequenceStateType::None",
-            "ActionType": "ECyGuideActionType::None",
-            "MeshModeType": "EMeshModeType::Normal",
-            "GameStateType": "EGStateType::None",
-            "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
-          }
-        ],
-        "TriggerEndEvents": [
-          {
-            "UniqueName": "1",
-            "EventGameplayTag": {
-              "TagName": "None"
-            },
-            "EventType": "ECyGuideEventType::GuideTask",
-            "WeaponEventType": "ECyGuideWeaponEventType::None",
-            "GuideStateType": "ECyGuideStateType::None",
-            "GuideTaskStateType": "ECyGuideTaskStateType::End",
-            "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
-            "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
-            "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
-            "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
-            "SequenceStateType": "ECySequenceStateType::None",
-            "ActionType": "ECyGuideActionType::None",
-            "MeshModeType": "EMeshModeType::Normal",
-            "GameStateType": "EGStateType::None",
-            "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
-          }
-        ]
-      },
-      "1_0": {
-        "Id": 2,
-        "UIGuideTypeConfigs": [
-          {
-            "GameFunctionType": "ECyGameUIFunctionType::Move",
-            "UIGuideType": "ECyGuideUIGuideType::CircleEffect",
-            "GuideInfo": {
-              "CultureInvariantString": null
-            },
-            "BeginDelay": 0.0,
-            "LoopTimes": 0,
-            "LoopInterval": 0.0,
-            "bCustomLayout": false,
-            "bCustomLocation": false,
-            "Location": {
-              "X": 0.0,
-              "Y": 0.0
-            },
-            "LocationOffset": {
-              "X": 0.0,
-              "Y": 0.0
-            },
-            "Size": {
-              "X": 0.0,
-              "Y": 0.0
-            },
-            "AnchorData": {
-              "Offsets": {
-                "Left": 0.0,
-                "Top": 0.0,
-                "Right": 0.0,
-                "Bottom": 0.0
-              },
-              "Anchors": {
-                "Minimum": {
-                  "X": 0.0,
-                  "Y": 0.0
-                },
-                "Maximum": {
-                  "X": 0.0,
-                  "Y": 0.0
-                }
-              },
-              "Alignment": {
-                "X": 0.5,
-                "Y": 0.5
-              }
-            }
+          "LocationOffset": {
+            "X": 0.0,
+            "Y": 0.0
           },
-          {
-            "GameFunctionType": "ECyGameUIFunctionType::Move",
-            "UIGuideType": "ECyGuideUIGuideType::TextInfo",
-            "GuideInfo": {
-              "Namespace": "",
-              "Key": "88B345144171D016B54D23BB6F8220E1",
-              "SourceString": "上滑至顶端冲刺",
-              "LocalizedString": "上滑至顶端冲刺"
-            },
-            "BeginDelay": 0.0,
-            "LoopTimes": 0,
-            "LoopInterval": 0.0,
-            "bCustomLayout": false,
-            "bCustomLocation": false,
-            "Location": {
-              "X": 0.0,
-              "Y": 0.0
-            },
-            "LocationOffset": {
-              "X": 0.0,
-              "Y": 0.0
-            },
-            "Size": {
-              "X": 50.0,
-              "Y": 150.0
-            },
-            "AnchorData": {
-              "Offsets": {
-                "Left": 0.0,
-                "Top": 0.0,
-                "Right": 0.0,
-                "Bottom": 0.0
-              },
-              "Anchors": {
-                "Minimum": {
-                  "X": 0.0,
-                  "Y": 0.0
-                },
-                "Maximum": {
-                  "X": 0.0,
-                  "Y": 0.0
-                }
-              },
-              "Alignment": {
-                "X": 0.5,
-                "Y": 0.5
-              }
-            }
-          }
-        ],
-        "TriggerBeginEvents": [
-          {
-            "UniqueName": "2",
-            "EventGameplayTag": {
-              "TagName": "None"
-            },
-            "EventType": "ECyGuideEventType::GuideTask",
-            "WeaponEventType": "ECyGuideWeaponEventType::None",
-            "GuideStateType": "ECyGuideStateType::None",
-            "GuideTaskStateType": "ECyGuideTaskStateType::Begin",
-            "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
-            "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
-            "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
-            "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
-            "SequenceStateType": "ECySequenceStateType::None",
-            "ActionType": "ECyGuideActionType::None",
-            "MeshModeType": "EMeshModeType::Normal",
-            "GameStateType": "EGStateType::None",
-            "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
-          }
-        ],
-        "TriggerEndEvents": [
-          {
-            "UniqueName": "2",
-            "EventGameplayTag": {
-              "TagName": "None"
-            },
-            "EventType": "ECyGuideEventType::GuideTask",
-            "WeaponEventType": "ECyGuideWeaponEventType::None",
-            "GuideStateType": "ECyGuideStateType::None",
-            "GuideTaskStateType": "ECyGuideTaskStateType::End",
-            "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
-            "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
-            "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
-            "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
-            "SequenceStateType": "ECySequenceStateType::None",
-            "ActionType": "ECyGuideActionType::None",
-            "MeshModeType": "EMeshModeType::Normal",
-            "GameStateType": "EGStateType::None",
-            "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
-          }
-        ]
-      },
-      "3": {
-        "Id": 3,
-        "UIGuideTypeConfigs": [
-          {
-            "GameFunctionType": "ECyGameUIFunctionType::Jump",
-            "UIGuideType": "ECyGuideUIGuideType::CircleEffect",
-            "GuideInfo": {
-              "CultureInvariantString": null
-            },
-            "BeginDelay": 0.0,
-            "LoopTimes": 0,
-            "LoopInterval": 0.0,
-            "bCustomLayout": false,
-            "bCustomLocation": false,
-            "Location": {
-              "X": 0.0,
-              "Y": 0.0
-            },
-            "LocationOffset": {
-              "X": 0.0,
-              "Y": 0.0
-            },
-            "Size": {
-              "X": 0.0,
-              "Y": 0.0
-            },
-            "AnchorData": {
-              "Offsets": {
-                "Left": 0.0,
-                "Top": 0.0,
-                "Right": 0.0,
-                "Bottom": 0.0
-              },
-              "Anchors": {
-                "Minimum": {
-                  "X": 0.0,
-                  "Y": 0.0
-                },
-                "Maximum": {
-                  "X": 0.0,
-                  "Y": 0.0
-                }
-              },
-              "Alignment": {
-                "X": 0.5,
-                "Y": 0.5
-              }
-            }
+          "Size": {
+            "X": 0.0,
+            "Y": 0.0
           },
-          {
-            "GameFunctionType": "ECyGameUIFunctionType::Jump",
-            "UIGuideType": "ECyGuideUIGuideType::TextInfo",
-            "GuideInfo": {
-              "Namespace": "",
-              "Key": "6A103399487B69619D771BB602465D53",
-              "SourceString": "点击跳跃",
-              "LocalizedString": "点击跳跃"
+          "AnchorData": {
+            "Offsets": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
             },
-            "BeginDelay": 0.0,
-            "LoopTimes": 0,
-            "LoopInterval": 0.0,
-            "bCustomLayout": false,
-            "bCustomLocation": false,
-            "Location": {
-              "X": 0.0,
-              "Y": 0.0
-            },
-            "LocationOffset": {
-              "X": 0.0,
-              "Y": 0.0
-            },
-            "Size": {
-              "X": 100.0,
-              "Y": 200.0
-            },
-            "AnchorData": {
-              "Offsets": {
-                "Left": 0.0,
-                "Top": 0.0,
-                "Right": 0.0,
-                "Bottom": 0.0
+            "Anchors": {
+              "Minimum": {
+                "X": 0.0,
+                "Y": 0.0
               },
-              "Anchors": {
-                "Minimum": {
-                  "X": 0.0,
-                  "Y": 0.0
-                },
-                "Maximum": {
-                  "X": 0.0,
-                  "Y": 0.0
-                }
-              },
-              "Alignment": {
-                "X": 0.5,
-                "Y": 0.5
+              "Maximum": {
+                "X": 0.0,
+                "Y": 0.0
               }
+            },
+            "Alignment": {
+              "X": 0.5,
+              "Y": 0.5
             }
           }
-        ],
-        "TriggerBeginEvents": [
-          {
-            "UniqueName": "3",
-            "EventGameplayTag": {
-              "TagName": "None"
-            },
-            "EventType": "ECyGuideEventType::GuideTask",
-            "WeaponEventType": "ECyGuideWeaponEventType::None",
-            "GuideStateType": "ECyGuideStateType::None",
-            "GuideTaskStateType": "ECyGuideTaskStateType::Begin",
-            "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
-            "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
-            "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
-            "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
-            "SequenceStateType": "ECySequenceStateType::None",
-            "ActionType": "ECyGuideActionType::None",
-            "MeshModeType": "EMeshModeType::Normal",
-            "GameStateType": "EGStateType::None",
-            "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
-          }
-        ],
-        "TriggerEndEvents": [
-          {
-            "UniqueName": "3",
-            "EventGameplayTag": {
-              "TagName": "None"
-            },
-            "EventType": "ECyGuideEventType::GuideTask",
-            "WeaponEventType": "ECyGuideWeaponEventType::None",
-            "GuideStateType": "ECyGuideStateType::None",
-            "GuideTaskStateType": "ECyGuideTaskStateType::End",
-            "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
-            "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
-            "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
-            "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
-            "SequenceStateType": "ECySequenceStateType::None",
-            "ActionType": "ECyGuideActionType::None",
-            "MeshModeType": "EMeshModeType::Normal",
-            "GameStateType": "EGStateType::None",
-            "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
-          }
-        ]
-      },
-      "5": {
-        "Id": 7,
-        "UIGuideTypeConfigs": [
-          {
-            "GameFunctionType": "ECyGameUIFunctionType::Slide",
-            "UIGuideType": "ECyGuideUIGuideType::CircleEffect",
-            "GuideInfo": {
-              "CultureInvariantString": null
-            },
-            "BeginDelay": 0.0,
-            "LoopTimes": 0,
-            "LoopInterval": 0.0,
-            "bCustomLayout": false,
-            "bCustomLocation": false,
-            "Location": {
-              "X": 0.0,
-              "Y": 0.0
-            },
-            "LocationOffset": {
-              "X": 0.0,
-              "Y": 0.0
-            },
-            "Size": {
-              "X": 0.0,
-              "Y": 0.0
-            },
-            "AnchorData": {
-              "Offsets": {
-                "Left": 0.0,
-                "Top": 0.0,
-                "Right": 0.0,
-                "Bottom": 0.0
-              },
-              "Anchors": {
-                "Minimum": {
-                  "X": 0.0,
-                  "Y": 0.0
-                },
-                "Maximum": {
-                  "X": 0.0,
-                  "Y": 0.0
-                }
-              },
-              "Alignment": {
-                "X": 0.5,
-                "Y": 0.5
-              }
-            }
+        },
+        {
+          "GameFunctionType": "ECyGameUIFunctionType::Move",
+          "UIGuideType": "ECyGuideUIGuideType::TextInfo",
+          "GuideInfo": {
+            "Namespace": "",
+            "Key": "88B345144171D016B54D23BB6F8220E1",
+            "SourceString": "上滑至顶端冲刺",
+            "LocalizedString": "上滑至顶端冲刺"
           },
-          {
-            "GameFunctionType": "ECyGameUIFunctionType::Slide",
-            "UIGuideType": "ECyGuideUIGuideType::TextInfo",
-            "GuideInfo": {
-              "Namespace": "",
-              "Key": "772C8A2B42002250B7A0169DA2B769A7",
-              "SourceString": "点击进行弦化-侧身",
-              "LocalizedString": "点击进行弦化-侧身"
-            },
-            "BeginDelay": 0.0,
-            "LoopTimes": 0,
-            "LoopInterval": 0.0,
-            "bCustomLayout": false,
-            "bCustomLocation": false,
-            "Location": {
-              "X": 0.0,
-              "Y": 0.0
-            },
-            "LocationOffset": {
-              "X": 0.0,
-              "Y": 0.0
-            },
-            "Size": {
-              "X": 100.0,
-              "Y": 200.0
-            },
-            "AnchorData": {
-              "Offsets": {
-                "Left": 0.0,
-                "Top": 0.0,
-                "Right": 0.0,
-                "Bottom": 0.0
-              },
-              "Anchors": {
-                "Minimum": {
-                  "X": 0.0,
-                  "Y": 0.0
-                },
-                "Maximum": {
-                  "X": 0.0,
-                  "Y": 0.0
-                }
-              },
-              "Alignment": {
-                "X": 0.5,
-                "Y": 0.5
-              }
-            }
-          }
-        ],
-        "TriggerBeginEvents": [
-          {
-            "UniqueName": "7",
-            "EventGameplayTag": {
-              "TagName": "None"
-            },
-            "EventType": "ECyGuideEventType::GuideTask",
-            "WeaponEventType": "ECyGuideWeaponEventType::None",
-            "GuideStateType": "ECyGuideStateType::None",
-            "GuideTaskStateType": "ECyGuideTaskStateType::Begin",
-            "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
-            "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
-            "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
-            "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
-            "SequenceStateType": "ECySequenceStateType::None",
-            "ActionType": "ECyGuideActionType::None",
-            "MeshModeType": "EMeshModeType::Normal",
-            "GameStateType": "EGStateType::None",
-            "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
-          }
-        ],
-        "TriggerEndEvents": [
-          {
-            "UniqueName": "7",
-            "EventGameplayTag": {
-              "TagName": "None"
-            },
-            "EventType": "ECyGuideEventType::GuideTask",
-            "WeaponEventType": "ECyGuideWeaponEventType::None",
-            "GuideStateType": "ECyGuideStateType::None",
-            "GuideTaskStateType": "ECyGuideTaskStateType::End",
-            "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
-            "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
-            "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
-            "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
-            "SequenceStateType": "ECySequenceStateType::None",
-            "ActionType": "ECyGuideActionType::None",
-            "MeshModeType": "EMeshModeType::Normal",
-            "GameStateType": "EGStateType::None",
-            "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
-          }
-        ]
-      },
-      "6": {
-        "Id": 6,
-        "UIGuideTypeConfigs": [
-          {
-            "GameFunctionType": "ECyGameUIFunctionType::Jump",
-            "UIGuideType": "ECyGuideUIGuideType::CircleEffect",
-            "GuideInfo": {
-              "CultureInvariantString": null
-            },
-            "BeginDelay": 0.0,
-            "LoopTimes": 0,
-            "LoopInterval": 0.0,
-            "bCustomLayout": false,
-            "bCustomLocation": false,
-            "Location": {
-              "X": 0.0,
-              "Y": 0.0
-            },
-            "LocationOffset": {
-              "X": 0.0,
-              "Y": 0.0
-            },
-            "Size": {
-              "X": 0.0,
-              "Y": 0.0
-            },
-            "AnchorData": {
-              "Offsets": {
-                "Left": 0.0,
-                "Top": 0.0,
-                "Right": 0.0,
-                "Bottom": 0.0
-              },
-              "Anchors": {
-                "Minimum": {
-                  "X": 0.0,
-                  "Y": 0.0
-                },
-                "Maximum": {
-                  "X": 0.0,
-                  "Y": 0.0
-                }
-              },
-              "Alignment": {
-                "X": 0.5,
-                "Y": 0.5
-              }
-            }
+          "BeginDelay": 0.0,
+          "LoopTimes": 0,
+          "LoopInterval": 0.0,
+          "bCustomLayout": false,
+          "bCustomLocation": false,
+          "Location": {
+            "X": 0.0,
+            "Y": 0.0
           },
-          {
-            "GameFunctionType": "ECyGameUIFunctionType::Jump",
-            "UIGuideType": "ECyGuideUIGuideType::TextInfo",
-            "GuideInfo": {
-              "Namespace": "",
-              "Key": "DDEB284B414086741BA670B835263198",
-              "SourceString": "连续点击三次跳跃按钮，进入飘飞状态",
-              "LocalizedString": "连续点击三次跳跃按钮，进入飘飞状态"
-            },
-            "BeginDelay": 0.0,
-            "LoopTimes": 0,
-            "LoopInterval": 0.0,
-            "bCustomLayout": false,
-            "bCustomLocation": false,
-            "Location": {
-              "X": 0.0,
-              "Y": 0.0
-            },
-            "LocationOffset": {
-              "X": 0.0,
-              "Y": 0.0
-            },
-            "Size": {
-              "X": 100.0,
-              "Y": 200.0
-            },
-            "AnchorData": {
-              "Offsets": {
-                "Left": 0.0,
-                "Top": 0.0,
-                "Right": 0.0,
-                "Bottom": 0.0
-              },
-              "Anchors": {
-                "Minimum": {
-                  "X": 0.0,
-                  "Y": 0.0
-                },
-                "Maximum": {
-                  "X": 0.0,
-                  "Y": 0.0
-                }
-              },
-              "Alignment": {
-                "X": 0.5,
-                "Y": 0.5
-              }
-            }
-          }
-        ],
-        "TriggerBeginEvents": [
-          {
-            "UniqueName": "6",
-            "EventGameplayTag": {
-              "TagName": "None"
-            },
-            "EventType": "ECyGuideEventType::GuideTask",
-            "WeaponEventType": "ECyGuideWeaponEventType::None",
-            "GuideStateType": "ECyGuideStateType::None",
-            "GuideTaskStateType": "ECyGuideTaskStateType::Begin",
-            "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
-            "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
-            "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
-            "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
-            "SequenceStateType": "ECySequenceStateType::None",
-            "ActionType": "ECyGuideActionType::None",
-            "MeshModeType": "EMeshModeType::Normal",
-            "GameStateType": "EGStateType::None",
-            "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
-          }
-        ],
-        "TriggerEndEvents": [
-          {
-            "UniqueName": "6",
-            "EventGameplayTag": {
-              "TagName": "None"
-            },
-            "EventType": "ECyGuideEventType::GuideTask",
-            "WeaponEventType": "ECyGuideWeaponEventType::None",
-            "GuideStateType": "ECyGuideStateType::None",
-            "GuideTaskStateType": "ECyGuideTaskStateType::End",
-            "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
-            "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
-            "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
-            "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
-            "SequenceStateType": "ECySequenceStateType::None",
-            "ActionType": "ECyGuideActionType::None",
-            "MeshModeType": "EMeshModeType::Normal",
-            "GameStateType": "EGStateType::None",
-            "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
-          }
-        ]
-      },
-      "7": {
-        "Id": 5,
-        "UIGuideTypeConfigs": [
-          {
-            "GameFunctionType": "ECyGameUIFunctionType::Slide",
-            "UIGuideType": "ECyGuideUIGuideType::CircleEffect",
-            "GuideInfo": {
-              "CultureInvariantString": null
-            },
-            "BeginDelay": 0.0,
-            "LoopTimes": 0,
-            "LoopInterval": 0.0,
-            "bCustomLayout": false,
-            "bCustomLocation": false,
-            "Location": {
-              "X": 0.0,
-              "Y": 0.0
-            },
-            "LocationOffset": {
-              "X": 0.0,
-              "Y": 0.0
-            },
-            "Size": {
-              "X": 0.0,
-              "Y": 0.0
-            },
-            "AnchorData": {
-              "Offsets": {
-                "Left": 0.0,
-                "Top": 0.0,
-                "Right": 0.0,
-                "Bottom": 0.0
-              },
-              "Anchors": {
-                "Minimum": {
-                  "X": 0.0,
-                  "Y": 0.0
-                },
-                "Maximum": {
-                  "X": 0.0,
-                  "Y": 0.0
-                }
-              },
-              "Alignment": {
-                "X": 0.5,
-                "Y": 0.5
-              }
-            }
+          "LocationOffset": {
+            "X": 0.0,
+            "Y": 0.0
           },
-          {
-            "GameFunctionType": "ECyGameUIFunctionType::Slide",
-            "UIGuideType": "ECyGuideUIGuideType::TextInfo",
-            "GuideInfo": {
-              "Namespace": "",
-              "Key": "7C3DD49D42FEC30374E87F84A3B40F66",
-              "SourceString": "点击进行弦化-贴墙",
-              "LocalizedString": "点击进行弦化-贴墙"
-            },
-            "BeginDelay": 0.0,
-            "LoopTimes": 0,
-            "LoopInterval": 0.0,
-            "bCustomLayout": false,
-            "bCustomLocation": false,
-            "Location": {
-              "X": 0.0,
-              "Y": 0.0
-            },
-            "LocationOffset": {
-              "X": 0.0,
-              "Y": 0.0
-            },
-            "Size": {
-              "X": 100.0,
-              "Y": 200.0
-            },
-            "AnchorData": {
-              "Offsets": {
-                "Left": 0.0,
-                "Top": 0.0,
-                "Right": 0.0,
-                "Bottom": 0.0
-              },
-              "Anchors": {
-                "Minimum": {
-                  "X": 0.0,
-                  "Y": 0.0
-                },
-                "Maximum": {
-                  "X": 0.0,
-                  "Y": 0.0
-                }
-              },
-              "Alignment": {
-                "X": 0.5,
-                "Y": 0.5
-              }
-            }
+          "Size": {
+            "X": 50.0,
+            "Y": 150.0
           },
-          {
-            "GameFunctionType": "ECyGameUIFunctionType::Slide",
-            "UIGuideType": "ECyGuideUIGuideType::None",
-            "GuideInfo": {
-              "CultureInvariantString": null
+          "AnchorData": {
+            "Offsets": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
             },
-            "BeginDelay": 0.0,
-            "LoopTimes": 0,
-            "LoopInterval": 0.0,
-            "bCustomLayout": false,
-            "bCustomLocation": false,
-            "Location": {
-              "X": 0.0,
-              "Y": 0.0
-            },
-            "LocationOffset": {
-              "X": 0.0,
-              "Y": 0.0
-            },
-            "Size": {
-              "X": 0.0,
-              "Y": 0.0
-            },
-            "AnchorData": {
-              "Offsets": {
-                "Left": 0.0,
-                "Top": 0.0,
-                "Right": 0.0,
-                "Bottom": 0.0
+            "Anchors": {
+              "Minimum": {
+                "X": 0.0,
+                "Y": 0.0
               },
-              "Anchors": {
-                "Minimum": {
-                  "X": 0.0,
-                  "Y": 0.0
-                },
-                "Maximum": {
-                  "X": 0.0,
-                  "Y": 0.0
-                }
-              },
-              "Alignment": {
-                "X": 0.5,
-                "Y": 0.5
+              "Maximum": {
+                "X": 0.0,
+                "Y": 0.0
               }
+            },
+            "Alignment": {
+              "X": 0.5,
+              "Y": 0.5
             }
           }
-        ],
-        "TriggerBeginEvents": [
-          {
-            "UniqueName": "5",
-            "EventGameplayTag": {
-              "TagName": "None"
-            },
-            "EventType": "ECyGuideEventType::GuideTask",
-            "WeaponEventType": "ECyGuideWeaponEventType::None",
-            "GuideStateType": "ECyGuideStateType::None",
-            "GuideTaskStateType": "ECyGuideTaskStateType::Begin",
-            "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
-            "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
-            "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
-            "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
-            "SequenceStateType": "ECySequenceStateType::None",
-            "ActionType": "ECyGuideActionType::None",
-            "MeshModeType": "EMeshModeType::Normal",
-            "GameStateType": "EGStateType::None",
-            "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
-          }
-        ],
-        "TriggerEndEvents": [
-          {
-            "UniqueName": "5",
-            "EventGameplayTag": {
-              "TagName": "None"
-            },
-            "EventType": "ECyGuideEventType::GuideTask",
-            "WeaponEventType": "ECyGuideWeaponEventType::None",
-            "GuideStateType": "ECyGuideStateType::None",
-            "GuideTaskStateType": "ECyGuideTaskStateType::End",
-            "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
-            "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
-            "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
-            "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
-            "SequenceStateType": "ECySequenceStateType::None",
-            "ActionType": "ECyGuideActionType::None",
-            "MeshModeType": "EMeshModeType::Normal",
-            "GameStateType": "EGStateType::None",
-            "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
-          }
-        ]
-      },
-      "10": {
-        "Id": 10,
-        "UIGuideTypeConfigs": [
-          {
-            "GameFunctionType": "ECyGameUIFunctionType::UsePrimary",
-            "UIGuideType": "ECyGuideUIGuideType::CircleEffect",
-            "GuideInfo": {
-              "CultureInvariantString": null
-            },
-            "BeginDelay": 0.0,
-            "LoopTimes": 0,
-            "LoopInterval": 0.0,
-            "bCustomLayout": false,
-            "bCustomLocation": false,
-            "Location": {
-              "X": 0.0,
-              "Y": 0.0
-            },
-            "LocationOffset": {
-              "X": 0.0,
-              "Y": 0.0
-            },
-            "Size": {
-              "X": 0.0,
-              "Y": 0.0
-            },
-            "AnchorData": {
-              "Offsets": {
-                "Left": 0.0,
-                "Top": 0.0,
-                "Right": 0.0,
-                "Bottom": 0.0
-              },
-              "Anchors": {
-                "Minimum": {
-                  "X": 0.0,
-                  "Y": 0.0
-                },
-                "Maximum": {
-                  "X": 0.0,
-                  "Y": 0.0
-                }
-              },
-              "Alignment": {
-                "X": 0.5,
-                "Y": 0.5
-              }
-            }
+        }
+      ],
+      "TriggerBeginEvents": [
+        {
+          "UniqueName": "2",
+          "EventGameplayTag": {
+            "TagName": "None"
           },
-          {
-            "GameFunctionType": "ECyGameUIFunctionType::UsePrimary",
-            "UIGuideType": "ECyGuideUIGuideType::TextInfo",
-            "GuideInfo": {
-              "Namespace": "",
-              "Key": "925C038B46D2AFC3B101BEB8911A9D9F",
-              "SourceString": "点击开火",
-              "LocalizedString": "点击开火"
-            },
-            "BeginDelay": 0.0,
-            "LoopTimes": 0,
-            "LoopInterval": 0.0,
-            "bCustomLayout": false,
-            "bCustomLocation": false,
-            "Location": {
-              "X": 0.0,
-              "Y": 0.0
-            },
-            "LocationOffset": {
-              "X": 0.0,
-              "Y": 0.0
-            },
-            "Size": {
-              "X": 50.0,
-              "Y": 150.0
-            },
-            "AnchorData": {
-              "Offsets": {
-                "Left": 0.0,
-                "Top": 0.0,
-                "Right": 0.0,
-                "Bottom": 0.0
-              },
-              "Anchors": {
-                "Minimum": {
-                  "X": 0.0,
-                  "Y": 0.0
-                },
-                "Maximum": {
-                  "X": 0.0,
-                  "Y": 0.0
-                }
-              },
-              "Alignment": {
-                "X": 0.5,
-                "Y": 0.5
-              }
-            }
+          "EventType": "ECyGuideEventType::GuideTask",
+          "WeaponEventType": "ECyGuideWeaponEventType::None",
+          "GuideStateType": "ECyGuideStateType::None",
+          "GuideTaskStateType": "ECyGuideTaskStateType::Begin",
+          "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
+          "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
+          "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
+          "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
+          "SequenceStateType": "ECySequenceStateType::None",
+          "ActionType": "ECyGuideActionType::None",
+          "MeshModeType": "EMeshModeType::Normal",
+          "GameStateType": "EGStateType::None",
+          "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
+        }
+      ],
+      "TriggerEndEvents": [
+        {
+          "UniqueName": "2",
+          "EventGameplayTag": {
+            "TagName": "None"
           },
-          {
-            "GameFunctionType": "ECyGameUIFunctionType::Aiming",
-            "UIGuideType": "ECyGuideUIGuideType::CircleHighlight",
-            "GuideInfo": {
-              "CultureInvariantString": null
-            },
-            "BeginDelay": 0.0,
-            "LoopTimes": 0,
-            "LoopInterval": 0.0,
-            "bCustomLayout": false,
-            "bCustomLocation": false,
-            "Location": {
-              "X": 0.0,
-              "Y": 0.0
-            },
-            "LocationOffset": {
-              "X": 0.0,
-              "Y": 0.0
-            },
-            "Size": {
-              "X": 0.0,
-              "Y": 0.0
-            },
-            "AnchorData": {
-              "Offsets": {
-                "Left": 0.0,
-                "Top": 0.0,
-                "Right": 0.0,
-                "Bottom": 0.0
-              },
-              "Anchors": {
-                "Minimum": {
-                  "X": 0.0,
-                  "Y": 0.0
-                },
-                "Maximum": {
-                  "X": 0.0,
-                  "Y": 0.0
-                }
-              },
-              "Alignment": {
-                "X": 0.5,
-                "Y": 0.5
-              }
-            }
-          }
-        ],
-        "TriggerBeginEvents": [
-          {
-            "UniqueName": "11",
-            "EventGameplayTag": {
-              "TagName": "None"
-            },
-            "EventType": "ECyGuideEventType::GuideTask",
-            "WeaponEventType": "ECyGuideWeaponEventType::None",
-            "GuideStateType": "ECyGuideStateType::None",
-            "GuideTaskStateType": "ECyGuideTaskStateType::Begin",
-            "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
-            "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
-            "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
-            "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
-            "SequenceStateType": "ECySequenceStateType::None",
-            "ActionType": "ECyGuideActionType::None",
-            "MeshModeType": "EMeshModeType::Normal",
-            "GameStateType": "EGStateType::None",
-            "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
-          }
-        ],
-        "TriggerEndEvents": [
-          {
-            "UniqueName": "11",
-            "EventGameplayTag": {
-              "TagName": "None"
-            },
-            "EventType": "ECyGuideEventType::GuideTask",
-            "WeaponEventType": "ECyGuideWeaponEventType::None",
-            "GuideStateType": "ECyGuideStateType::None",
-            "GuideTaskStateType": "ECyGuideTaskStateType::End",
-            "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
-            "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
-            "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
-            "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
-            "SequenceStateType": "ECySequenceStateType::None",
-            "ActionType": "ECyGuideActionType::None",
-            "MeshModeType": "EMeshModeType::Normal",
-            "GameStateType": "EGStateType::None",
-            "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
-          }
-        ]
-      },
-      "11": {
-        "Id": 91,
-        "UIGuideTypeConfigs": [
-          {
-            "GameFunctionType": "ECyGameUIFunctionType::PrimaryWeapon",
-            "UIGuideType": "ECyGuideUIGuideType::BoxEffect",
-            "GuideInfo": {
-              "CultureInvariantString": null
-            },
-            "BeginDelay": 0.0,
-            "LoopTimes": 0,
-            "LoopInterval": 0.0,
-            "bCustomLayout": false,
-            "bCustomLocation": false,
-            "Location": {
-              "X": 0.0,
-              "Y": 0.0
-            },
-            "LocationOffset": {
-              "X": 0.0,
-              "Y": 0.0
-            },
-            "Size": {
-              "X": 0.0,
-              "Y": 0.0
-            },
-            "AnchorData": {
-              "Offsets": {
-                "Left": 0.0,
-                "Top": 0.0,
-                "Right": 0.0,
-                "Bottom": 0.0
-              },
-              "Anchors": {
-                "Minimum": {
-                  "X": 0.0,
-                  "Y": 0.0
-                },
-                "Maximum": {
-                  "X": 0.0,
-                  "Y": 0.0
-                }
-              },
-              "Alignment": {
-                "X": 0.5,
-                "Y": 0.5
-              }
-            }
+          "EventType": "ECyGuideEventType::GuideTask",
+          "WeaponEventType": "ECyGuideWeaponEventType::None",
+          "GuideStateType": "ECyGuideStateType::None",
+          "GuideTaskStateType": "ECyGuideTaskStateType::End",
+          "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
+          "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
+          "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
+          "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
+          "SequenceStateType": "ECySequenceStateType::None",
+          "ActionType": "ECyGuideActionType::None",
+          "MeshModeType": "EMeshModeType::Normal",
+          "GameStateType": "EGStateType::None",
+          "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
+        }
+      ]
+    },
+    "3": {
+      "Id": 3,
+      "UIGuideTypeConfigs": [
+        {
+          "GameFunctionType": "ECyGameUIFunctionType::Jump",
+          "UIGuideType": "ECyGuideUIGuideType::CircleEffect",
+          "GuideInfo": {
+            "CultureInvariantString": null
           },
-          {
-            "GameFunctionType": "ECyGameUIFunctionType::PrimaryWeapon",
-            "UIGuideType": "ECyGuideUIGuideType::TextInfo",
-            "GuideInfo": {
-              "Namespace": "",
-              "Key": "A1A936B9445FE4588493E09B8E992AB9",
-              "SourceString": "点击切换为主武器",
-              "LocalizedString": "点击切换为主武器"
-            },
-            "BeginDelay": 0.0,
-            "LoopTimes": 0,
-            "LoopInterval": 0.0,
-            "bCustomLayout": false,
-            "bCustomLocation": false,
-            "Location": {
-              "X": 0.0,
-              "Y": 0.0
-            },
-            "LocationOffset": {
-              "X": 0.0,
-              "Y": 0.0
-            },
-            "Size": {
-              "X": 50.0,
-              "Y": 150.0
-            },
-            "AnchorData": {
-              "Offsets": {
-                "Left": 0.0,
-                "Top": 0.0,
-                "Right": 0.0,
-                "Bottom": 0.0
-              },
-              "Anchors": {
-                "Minimum": {
-                  "X": 0.0,
-                  "Y": 0.0
-                },
-                "Maximum": {
-                  "X": 0.0,
-                  "Y": 0.0
-                }
-              },
-              "Alignment": {
-                "X": 0.5,
-                "Y": 0.5
-              }
-            }
-          }
-        ],
-        "TriggerBeginEvents": [
-          {
-            "UniqueName": "91",
-            "EventGameplayTag": {
-              "TagName": "None"
-            },
-            "EventType": "ECyGuideEventType::GuideTask",
-            "WeaponEventType": "ECyGuideWeaponEventType::None",
-            "GuideStateType": "ECyGuideStateType::None",
-            "GuideTaskStateType": "ECyGuideTaskStateType::Begin",
-            "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
-            "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
-            "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
-            "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
-            "SequenceStateType": "ECySequenceStateType::None",
-            "ActionType": "ECyGuideActionType::None",
-            "MeshModeType": "EMeshModeType::Normal",
-            "GameStateType": "EGStateType::None",
-            "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
-          }
-        ],
-        "TriggerEndEvents": [
-          {
-            "UniqueName": "91",
-            "EventGameplayTag": {
-              "TagName": "None"
-            },
-            "EventType": "ECyGuideEventType::GuideTask",
-            "WeaponEventType": "ECyGuideWeaponEventType::None",
-            "GuideStateType": "ECyGuideStateType::None",
-            "GuideTaskStateType": "ECyGuideTaskStateType::End",
-            "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
-            "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
-            "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
-            "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
-            "SequenceStateType": "ECySequenceStateType::None",
-            "ActionType": "ECyGuideActionType::None",
-            "MeshModeType": "EMeshModeType::Normal",
-            "GameStateType": "EGStateType::None",
-            "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
-          }
-        ]
-      },
-      "12": {
-        "Id": 12,
-        "UIGuideTypeConfigs": [
-          {
-            "GameFunctionType": "ECyGameUIFunctionType::Grenade1",
-            "UIGuideType": "ECyGuideUIGuideType::BoxEffect",
-            "GuideInfo": {
-              "CultureInvariantString": null
-            },
-            "BeginDelay": 0.0,
-            "LoopTimes": 0,
-            "LoopInterval": 0.0,
-            "bCustomLayout": false,
-            "bCustomLocation": false,
-            "Location": {
-              "X": 0.0,
-              "Y": 0.0
-            },
-            "LocationOffset": {
-              "X": 0.0,
-              "Y": 0.0
-            },
-            "Size": {
-              "X": 0.0,
-              "Y": 0.0
-            },
-            "AnchorData": {
-              "Offsets": {
-                "Left": 0.0,
-                "Top": 0.0,
-                "Right": 0.0,
-                "Bottom": 0.0
-              },
-              "Anchors": {
-                "Minimum": {
-                  "X": 0.0,
-                  "Y": 0.0
-                },
-                "Maximum": {
-                  "X": 0.0,
-                  "Y": 0.0
-                }
-              },
-              "Alignment": {
-                "X": 0.5,
-                "Y": 0.5
-              }
-            }
+          "BeginDelay": 0.0,
+          "LoopTimes": 0,
+          "LoopInterval": 0.0,
+          "bCustomLayout": false,
+          "bCustomLocation": false,
+          "Location": {
+            "X": 0.0,
+            "Y": 0.0
           },
-          {
-            "GameFunctionType": "ECyGameUIFunctionType::Grenade1",
-            "UIGuideType": "ECyGuideUIGuideType::TextInfo",
-            "GuideInfo": {
-              "Namespace": "",
-              "Key": "D7773F3146D834972E9C39BD4BD75FF2",
-              "SourceString": "点击切换为投掷道具",
-              "LocalizedString": "点击切换为投掷道具"
-            },
-            "BeginDelay": 0.0,
-            "LoopTimes": 0,
-            "LoopInterval": 0.0,
-            "bCustomLayout": false,
-            "bCustomLocation": false,
-            "Location": {
-              "X": 0.0,
-              "Y": 0.0
-            },
-            "LocationOffset": {
-              "X": 0.0,
-              "Y": 0.0
-            },
-            "Size": {
-              "X": 50.0,
-              "Y": 150.0
-            },
-            "AnchorData": {
-              "Offsets": {
-                "Left": 0.0,
-                "Top": 0.0,
-                "Right": 0.0,
-                "Bottom": 0.0
-              },
-              "Anchors": {
-                "Minimum": {
-                  "X": 0.0,
-                  "Y": 0.0
-                },
-                "Maximum": {
-                  "X": 0.0,
-                  "Y": 0.0
-                }
-              },
-              "Alignment": {
-                "X": 0.5,
-                "Y": 0.5
-              }
-            }
-          }
-        ],
-        "TriggerBeginEvents": [
-          {
-            "UniqueName": "1201",
-            "EventGameplayTag": {
-              "TagName": "None"
-            },
-            "EventType": "ECyGuideEventType::GuideSubTask",
-            "WeaponEventType": "ECyGuideWeaponEventType::None",
-            "GuideStateType": "ECyGuideStateType::None",
-            "GuideTaskStateType": "ECyGuideTaskStateType::Begin",
-            "GuideSubTaskStateType": "ECyGuideSubTaskStateType::Finish",
-            "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
-            "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
-            "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
-            "SequenceStateType": "ECySequenceStateType::None",
-            "ActionType": "ECyGuideActionType::None",
-            "MeshModeType": "EMeshModeType::Normal",
-            "GameStateType": "EGStateType::None",
-            "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
-          }
-        ],
-        "TriggerEndEvents": [
-          {
-            "UniqueName": "1203",
-            "EventGameplayTag": {
-              "TagName": "None"
-            },
-            "EventType": "ECyGuideEventType::GuideSubTask",
-            "WeaponEventType": "ECyGuideWeaponEventType::None",
-            "GuideStateType": "ECyGuideStateType::None",
-            "GuideTaskStateType": "ECyGuideTaskStateType::End",
-            "GuideSubTaskStateType": "ECyGuideSubTaskStateType::Finish",
-            "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
-            "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
-            "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
-            "SequenceStateType": "ECySequenceStateType::None",
-            "ActionType": "ECyGuideActionType::None",
-            "MeshModeType": "EMeshModeType::Normal",
-            "GameStateType": "EGStateType::None",
-            "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
-          }
-        ]
-      },
-      "141": {
-        "Id": 14,
-        "UIGuideTypeConfigs": [
-          {
-            "GameFunctionType": "ECyGameUIFunctionType::SkillQ",
-            "UIGuideType": "ECyGuideUIGuideType::CircleEffect",
-            "GuideInfo": {
-              "CultureInvariantString": null
-            },
-            "BeginDelay": 0.0,
-            "LoopTimes": 0,
-            "LoopInterval": 0.0,
-            "bCustomLayout": false,
-            "bCustomLocation": false,
-            "Location": {
-              "X": 0.0,
-              "Y": 0.0
-            },
-            "LocationOffset": {
-              "X": 0.0,
-              "Y": 0.0
-            },
-            "Size": {
-              "X": 0.0,
-              "Y": 0.0
-            },
-            "AnchorData": {
-              "Offsets": {
-                "Left": 0.0,
-                "Top": 0.0,
-                "Right": 0.0,
-                "Bottom": 0.0
-              },
-              "Anchors": {
-                "Minimum": {
-                  "X": 0.0,
-                  "Y": 0.0
-                },
-                "Maximum": {
-                  "X": 0.0,
-                  "Y": 0.0
-                }
-              },
-              "Alignment": {
-                "X": 0.5,
-                "Y": 0.5
-              }
-            }
+          "LocationOffset": {
+            "X": 0.0,
+            "Y": 0.0
           },
-          {
-            "GameFunctionType": "ECyGameUIFunctionType::SkillQ",
-            "UIGuideType": "ECyGuideUIGuideType::TextInfo",
-            "GuideInfo": {
-              "Namespace": "",
-              "Key": "E422ABFF452E639C6F2CBBA95738BC4E",
-              "SourceString": "主动技能",
-              "LocalizedString": "主动技能"
-            },
-            "BeginDelay": 0.0,
-            "LoopTimes": 0,
-            "LoopInterval": 0.0,
-            "bCustomLayout": false,
-            "bCustomLocation": false,
-            "Location": {
-              "X": 0.0,
-              "Y": 0.0
-            },
-            "LocationOffset": {
-              "X": 0.0,
-              "Y": 0.0
-            },
-            "Size": {
-              "X": 100.0,
-              "Y": 50.0
-            },
-            "AnchorData": {
-              "Offsets": {
-                "Left": 0.0,
-                "Top": 0.0,
-                "Right": 0.0,
-                "Bottom": 0.0
-              },
-              "Anchors": {
-                "Minimum": {
-                  "X": 0.0,
-                  "Y": 0.0
-                },
-                "Maximum": {
-                  "X": 0.0,
-                  "Y": 0.0
-                }
-              },
-              "Alignment": {
-                "X": 0.5,
-                "Y": 0.5
-              }
-            }
-          }
-        ],
-        "TriggerBeginEvents": [
-          {
-            "UniqueName": "14",
-            "EventGameplayTag": {
-              "TagName": "None"
-            },
-            "EventType": "ECyGuideEventType::GuideTask",
-            "WeaponEventType": "ECyGuideWeaponEventType::None",
-            "GuideStateType": "ECyGuideStateType::None",
-            "GuideTaskStateType": "ECyGuideTaskStateType::Begin",
-            "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
-            "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
-            "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
-            "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
-            "SequenceStateType": "ECySequenceStateType::None",
-            "ActionType": "ECyGuideActionType::None",
-            "MeshModeType": "EMeshModeType::Normal",
-            "GameStateType": "EGStateType::None",
-            "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
-          }
-        ],
-        "TriggerEndEvents": [
-          {
-            "UniqueName": "1402",
-            "EventGameplayTag": {
-              "TagName": "None"
-            },
-            "EventType": "ECyGuideEventType::GuideSubTask",
-            "WeaponEventType": "ECyGuideWeaponEventType::None",
-            "GuideStateType": "ECyGuideStateType::None",
-            "GuideTaskStateType": "ECyGuideTaskStateType::End",
-            "GuideSubTaskStateType": "ECyGuideSubTaskStateType::Finish",
-            "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
-            "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
-            "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
-            "SequenceStateType": "ECySequenceStateType::None",
-            "ActionType": "ECyGuideActionType::None",
-            "MeshModeType": "EMeshModeType::Normal",
-            "GameStateType": "EGStateType::None",
-            "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
-          }
-        ]
-      },
-      "18": {
-        "Id": 18,
-        "UIGuideTypeConfigs": [
-          {
-            "GameFunctionType": "ECyGameUIFunctionType::SkillX",
-            "UIGuideType": "ECyGuideUIGuideType::CircleEffect",
-            "GuideInfo": {
-              "CultureInvariantString": null
-            },
-            "BeginDelay": 0.0,
-            "LoopTimes": 0,
-            "LoopInterval": 0.0,
-            "bCustomLayout": false,
-            "bCustomLocation": false,
-            "Location": {
-              "X": 0.0,
-              "Y": 0.0
-            },
-            "LocationOffset": {
-              "X": 0.0,
-              "Y": 0.0
-            },
-            "Size": {
-              "X": 0.0,
-              "Y": 0.0
-            },
-            "AnchorData": {
-              "Offsets": {
-                "Left": 0.0,
-                "Top": 0.0,
-                "Right": 0.0,
-                "Bottom": 0.0
-              },
-              "Anchors": {
-                "Minimum": {
-                  "X": 0.0,
-                  "Y": 0.0
-                },
-                "Maximum": {
-                  "X": 0.0,
-                  "Y": 0.0
-                }
-              },
-              "Alignment": {
-                "X": 0.5,
-                "Y": 0.5
-              }
-            }
+          "Size": {
+            "X": 0.0,
+            "Y": 0.0
           },
-          {
-            "GameFunctionType": "ECyGameUIFunctionType::SkillX",
-            "UIGuideType": "ECyGuideUIGuideType::TextInfo",
-            "GuideInfo": {
-              "Namespace": "",
-              "Key": "59E26C0342B12B008AD9BE95B06878A5",
-              "SourceString": "终极技能",
-              "LocalizedString": "终极技能"
+          "AnchorData": {
+            "Offsets": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
             },
-            "BeginDelay": 0.0,
-            "LoopTimes": 0,
-            "LoopInterval": 0.0,
-            "bCustomLayout": false,
-            "bCustomLocation": false,
-            "Location": {
-              "X": 0.0,
-              "Y": 0.0
-            },
-            "LocationOffset": {
-              "X": 0.0,
-              "Y": 0.0
-            },
-            "Size": {
-              "X": 100.0,
-              "Y": 50.0
-            },
-            "AnchorData": {
-              "Offsets": {
-                "Left": 0.0,
-                "Top": 0.0,
-                "Right": 0.0,
-                "Bottom": 0.0
+            "Anchors": {
+              "Minimum": {
+                "X": 0.0,
+                "Y": 0.0
               },
-              "Anchors": {
-                "Minimum": {
-                  "X": 0.0,
-                  "Y": 0.0
-                },
-                "Maximum": {
-                  "X": 0.0,
-                  "Y": 0.0
-                }
-              },
-              "Alignment": {
-                "X": 0.5,
-                "Y": 0.5
+              "Maximum": {
+                "X": 0.0,
+                "Y": 0.0
               }
+            },
+            "Alignment": {
+              "X": 0.5,
+              "Y": 0.5
             }
           }
-        ],
-        "TriggerBeginEvents": [
-          {
-            "UniqueName": "18",
-            "EventGameplayTag": {
-              "TagName": "None"
-            },
-            "EventType": "ECyGuideEventType::GuideTask",
-            "WeaponEventType": "ECyGuideWeaponEventType::None",
-            "GuideStateType": "ECyGuideStateType::None",
-            "GuideTaskStateType": "ECyGuideTaskStateType::Begin",
-            "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
-            "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
-            "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
-            "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
-            "SequenceStateType": "ECySequenceStateType::None",
-            "ActionType": "ECyGuideActionType::None",
-            "MeshModeType": "EMeshModeType::Normal",
-            "GameStateType": "EGStateType::None",
-            "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
-          }
-        ],
-        "TriggerEndEvents": [
-          {
-            "UniqueName": "18",
-            "EventGameplayTag": {
-              "TagName": "None"
-            },
-            "EventType": "ECyGuideEventType::GuideTask",
-            "WeaponEventType": "ECyGuideWeaponEventType::None",
-            "GuideStateType": "ECyGuideStateType::None",
-            "GuideTaskStateType": "ECyGuideTaskStateType::End",
-            "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
-            "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
-            "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
-            "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
-            "SequenceStateType": "ECySequenceStateType::None",
-            "ActionType": "ECyGuideActionType::None",
-            "MeshModeType": "EMeshModeType::Normal",
-            "GameStateType": "EGStateType::None",
-            "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
+        },
+        {
+          "GameFunctionType": "ECyGameUIFunctionType::Jump",
+          "UIGuideType": "ECyGuideUIGuideType::TextInfo",
+          "GuideInfo": {
+            "Namespace": "",
+            "Key": "6A103399487B69619D771BB602465D53",
+            "SourceString": "点击跳跃",
+            "LocalizedString": "点击跳跃"
           },
-          {
-            "UniqueName": "None",
-            "EventGameplayTag": {
-              "TagName": "Event.Consume.Skill.X"
-            },
-            "EventType": "ECyGuideEventType::None",
-            "WeaponEventType": "ECyGuideWeaponEventType::None",
-            "GuideStateType": "ECyGuideStateType::None",
-            "GuideTaskStateType": "ECyGuideTaskStateType::None",
-            "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
-            "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
-            "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
-            "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
-            "SequenceStateType": "ECySequenceStateType::None",
-            "ActionType": "ECyGuideActionType::None",
-            "MeshModeType": "EMeshModeType::Normal",
-            "GameStateType": "EGStateType::None",
-            "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
-          }
-        ]
-      },
-      "10_0": {
-        "Id": 101,
-        "UIGuideTypeConfigs": [
-          {
-            "GameFunctionType": "ECyGameUIFunctionType::Reload",
-            "UIGuideType": "ECyGuideUIGuideType::CircleEffect",
-            "GuideInfo": {
-              "CultureInvariantString": null
-            },
-            "BeginDelay": 0.0,
-            "LoopTimes": 0,
-            "LoopInterval": 0.0,
-            "bCustomLayout": false,
-            "bCustomLocation": false,
-            "Location": {
-              "X": 0.0,
-              "Y": 0.0
-            },
-            "LocationOffset": {
-              "X": 0.0,
-              "Y": 0.0
-            },
-            "Size": {
-              "X": 0.0,
-              "Y": 0.0
-            },
-            "AnchorData": {
-              "Offsets": {
-                "Left": 0.0,
-                "Top": 0.0,
-                "Right": 0.0,
-                "Bottom": 0.0
-              },
-              "Anchors": {
-                "Minimum": {
-                  "X": 0.0,
-                  "Y": 0.0
-                },
-                "Maximum": {
-                  "X": 0.0,
-                  "Y": 0.0
-                }
-              },
-              "Alignment": {
-                "X": 0.5,
-                "Y": 0.5
-              }
-            }
+          "BeginDelay": 0.0,
+          "LoopTimes": 0,
+          "LoopInterval": 0.0,
+          "bCustomLayout": false,
+          "bCustomLocation": false,
+          "Location": {
+            "X": 0.0,
+            "Y": 0.0
           },
-          {
-            "GameFunctionType": "ECyGameUIFunctionType::Reload",
-            "UIGuideType": "ECyGuideUIGuideType::TextInfo",
-            "GuideInfo": {
-              "Namespace": "",
-              "Key": "C715FCFC4A6B3CBB020F129B0F2601B7",
-              "SourceString": "点击换弹按钮换弹",
-              "LocalizedString": "点击换弹按钮换弹"
+          "LocationOffset": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Size": {
+            "X": 100.0,
+            "Y": 200.0
+          },
+          "AnchorData": {
+            "Offsets": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
             },
-            "BeginDelay": 0.0,
-            "LoopTimes": 0,
-            "LoopInterval": 0.0,
-            "bCustomLayout": false,
-            "bCustomLocation": false,
-            "Location": {
-              "X": 0.0,
-              "Y": 0.0
-            },
-            "LocationOffset": {
-              "X": 0.0,
-              "Y": 0.0
-            },
-            "Size": {
-              "X": 0.0,
-              "Y": 0.0
-            },
-            "AnchorData": {
-              "Offsets": {
-                "Left": 0.0,
-                "Top": 0.0,
-                "Right": 0.0,
-                "Bottom": 0.0
+            "Anchors": {
+              "Minimum": {
+                "X": 0.0,
+                "Y": 0.0
               },
-              "Anchors": {
-                "Minimum": {
-                  "X": 0.0,
-                  "Y": 0.0
-                },
-                "Maximum": {
-                  "X": 0.0,
-                  "Y": 0.0
-                }
-              },
-              "Alignment": {
-                "X": 0.5,
-                "Y": 0.5
+              "Maximum": {
+                "X": 0.0,
+                "Y": 0.0
               }
+            },
+            "Alignment": {
+              "X": 0.5,
+              "Y": 0.5
             }
           }
-        ],
-        "TriggerBeginEvents": [
-          {
-            "UniqueName": "1102",
-            "EventGameplayTag": {
-              "TagName": "None"
+        }
+      ],
+      "TriggerBeginEvents": [
+        {
+          "UniqueName": "3",
+          "EventGameplayTag": {
+            "TagName": "None"
+          },
+          "EventType": "ECyGuideEventType::GuideTask",
+          "WeaponEventType": "ECyGuideWeaponEventType::None",
+          "GuideStateType": "ECyGuideStateType::None",
+          "GuideTaskStateType": "ECyGuideTaskStateType::Begin",
+          "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
+          "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
+          "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
+          "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
+          "SequenceStateType": "ECySequenceStateType::None",
+          "ActionType": "ECyGuideActionType::None",
+          "MeshModeType": "EMeshModeType::Normal",
+          "GameStateType": "EGStateType::None",
+          "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
+        }
+      ],
+      "TriggerEndEvents": [
+        {
+          "UniqueName": "3",
+          "EventGameplayTag": {
+            "TagName": "None"
+          },
+          "EventType": "ECyGuideEventType::GuideTask",
+          "WeaponEventType": "ECyGuideWeaponEventType::None",
+          "GuideStateType": "ECyGuideStateType::None",
+          "GuideTaskStateType": "ECyGuideTaskStateType::End",
+          "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
+          "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
+          "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
+          "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
+          "SequenceStateType": "ECySequenceStateType::None",
+          "ActionType": "ECyGuideActionType::None",
+          "MeshModeType": "EMeshModeType::Normal",
+          "GameStateType": "EGStateType::None",
+          "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
+        }
+      ]
+    },
+    "5": {
+      "Id": 7,
+      "UIGuideTypeConfigs": [
+        {
+          "GameFunctionType": "ECyGameUIFunctionType::Slide",
+          "UIGuideType": "ECyGuideUIGuideType::CircleEffect",
+          "GuideInfo": {
+            "CultureInvariantString": null
+          },
+          "BeginDelay": 0.0,
+          "LoopTimes": 0,
+          "LoopInterval": 0.0,
+          "bCustomLayout": false,
+          "bCustomLocation": false,
+          "Location": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "LocationOffset": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Size": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "AnchorData": {
+            "Offsets": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
             },
-            "EventType": "ECyGuideEventType::GuideSubTask",
-            "WeaponEventType": "ECyGuideWeaponEventType::None",
-            "GuideStateType": "ECyGuideStateType::None",
-            "GuideTaskStateType": "ECyGuideTaskStateType::Begin",
-            "GuideSubTaskStateType": "ECyGuideSubTaskStateType::Finish",
-            "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
-            "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
-            "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
-            "SequenceStateType": "ECySequenceStateType::None",
-            "ActionType": "ECyGuideActionType::None",
-            "MeshModeType": "EMeshModeType::Normal",
-            "GameStateType": "EGStateType::None",
-            "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
-          }
-        ],
-        "TriggerEndEvents": [
-          {
-            "UniqueName": "11",
-            "EventGameplayTag": {
-              "TagName": "None"
+            "Anchors": {
+              "Minimum": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Maximum": {
+                "X": 0.0,
+                "Y": 0.0
+              }
             },
-            "EventType": "ECyGuideEventType::GuideTask",
-            "WeaponEventType": "ECyGuideWeaponEventType::None",
-            "GuideStateType": "ECyGuideStateType::None",
-            "GuideTaskStateType": "ECyGuideTaskStateType::Finish",
-            "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
-            "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
-            "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
-            "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
-            "SequenceStateType": "ECySequenceStateType::None",
-            "ActionType": "ECyGuideActionType::None",
-            "MeshModeType": "EMeshModeType::Normal",
-            "GameStateType": "EGStateType::None",
-            "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
+            "Alignment": {
+              "X": 0.5,
+              "Y": 0.5
+            }
           }
-        ]
-      }
+        },
+        {
+          "GameFunctionType": "ECyGameUIFunctionType::Slide",
+          "UIGuideType": "ECyGuideUIGuideType::TextInfo",
+          "GuideInfo": {
+            "Namespace": "",
+            "Key": "772C8A2B42002250B7A0169DA2B769A7",
+            "SourceString": "点击进行弦化-侧身",
+            "LocalizedString": "点击进行弦化-侧身"
+          },
+          "BeginDelay": 0.0,
+          "LoopTimes": 0,
+          "LoopInterval": 0.0,
+          "bCustomLayout": false,
+          "bCustomLocation": false,
+          "Location": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "LocationOffset": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Size": {
+            "X": 100.0,
+            "Y": 200.0
+          },
+          "AnchorData": {
+            "Offsets": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "Anchors": {
+              "Minimum": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Maximum": {
+                "X": 0.0,
+                "Y": 0.0
+              }
+            },
+            "Alignment": {
+              "X": 0.5,
+              "Y": 0.5
+            }
+          }
+        }
+      ],
+      "TriggerBeginEvents": [
+        {
+          "UniqueName": "7",
+          "EventGameplayTag": {
+            "TagName": "None"
+          },
+          "EventType": "ECyGuideEventType::GuideTask",
+          "WeaponEventType": "ECyGuideWeaponEventType::None",
+          "GuideStateType": "ECyGuideStateType::None",
+          "GuideTaskStateType": "ECyGuideTaskStateType::Begin",
+          "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
+          "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
+          "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
+          "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
+          "SequenceStateType": "ECySequenceStateType::None",
+          "ActionType": "ECyGuideActionType::None",
+          "MeshModeType": "EMeshModeType::Normal",
+          "GameStateType": "EGStateType::None",
+          "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
+        }
+      ],
+      "TriggerEndEvents": [
+        {
+          "UniqueName": "7",
+          "EventGameplayTag": {
+            "TagName": "None"
+          },
+          "EventType": "ECyGuideEventType::GuideTask",
+          "WeaponEventType": "ECyGuideWeaponEventType::None",
+          "GuideStateType": "ECyGuideStateType::None",
+          "GuideTaskStateType": "ECyGuideTaskStateType::End",
+          "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
+          "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
+          "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
+          "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
+          "SequenceStateType": "ECySequenceStateType::None",
+          "ActionType": "ECyGuideActionType::None",
+          "MeshModeType": "EMeshModeType::Normal",
+          "GameStateType": "EGStateType::None",
+          "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
+        }
+      ]
+    },
+    "6": {
+      "Id": 6,
+      "UIGuideTypeConfigs": [
+        {
+          "GameFunctionType": "ECyGameUIFunctionType::Jump",
+          "UIGuideType": "ECyGuideUIGuideType::CircleEffect",
+          "GuideInfo": {
+            "CultureInvariantString": null
+          },
+          "BeginDelay": 0.0,
+          "LoopTimes": 0,
+          "LoopInterval": 0.0,
+          "bCustomLayout": false,
+          "bCustomLocation": false,
+          "Location": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "LocationOffset": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Size": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "AnchorData": {
+            "Offsets": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "Anchors": {
+              "Minimum": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Maximum": {
+                "X": 0.0,
+                "Y": 0.0
+              }
+            },
+            "Alignment": {
+              "X": 0.5,
+              "Y": 0.5
+            }
+          }
+        },
+        {
+          "GameFunctionType": "ECyGameUIFunctionType::Jump",
+          "UIGuideType": "ECyGuideUIGuideType::TextInfo",
+          "GuideInfo": {
+            "Namespace": "",
+            "Key": "DDEB284B414086741BA670B835263198",
+            "SourceString": "连续点击三次跳跃按钮，进入飘飞状态",
+            "LocalizedString": "连续点击三次跳跃按钮，进入飘飞状态"
+          },
+          "BeginDelay": 0.0,
+          "LoopTimes": 0,
+          "LoopInterval": 0.0,
+          "bCustomLayout": false,
+          "bCustomLocation": false,
+          "Location": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "LocationOffset": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Size": {
+            "X": 100.0,
+            "Y": 200.0
+          },
+          "AnchorData": {
+            "Offsets": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "Anchors": {
+              "Minimum": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Maximum": {
+                "X": 0.0,
+                "Y": 0.0
+              }
+            },
+            "Alignment": {
+              "X": 0.5,
+              "Y": 0.5
+            }
+          }
+        }
+      ],
+      "TriggerBeginEvents": [
+        {
+          "UniqueName": "6",
+          "EventGameplayTag": {
+            "TagName": "None"
+          },
+          "EventType": "ECyGuideEventType::GuideTask",
+          "WeaponEventType": "ECyGuideWeaponEventType::None",
+          "GuideStateType": "ECyGuideStateType::None",
+          "GuideTaskStateType": "ECyGuideTaskStateType::Begin",
+          "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
+          "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
+          "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
+          "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
+          "SequenceStateType": "ECySequenceStateType::None",
+          "ActionType": "ECyGuideActionType::None",
+          "MeshModeType": "EMeshModeType::Normal",
+          "GameStateType": "EGStateType::None",
+          "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
+        }
+      ],
+      "TriggerEndEvents": [
+        {
+          "UniqueName": "6",
+          "EventGameplayTag": {
+            "TagName": "None"
+          },
+          "EventType": "ECyGuideEventType::GuideTask",
+          "WeaponEventType": "ECyGuideWeaponEventType::None",
+          "GuideStateType": "ECyGuideStateType::None",
+          "GuideTaskStateType": "ECyGuideTaskStateType::End",
+          "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
+          "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
+          "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
+          "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
+          "SequenceStateType": "ECySequenceStateType::None",
+          "ActionType": "ECyGuideActionType::None",
+          "MeshModeType": "EMeshModeType::Normal",
+          "GameStateType": "EGStateType::None",
+          "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
+        }
+      ]
+    },
+    "7": {
+      "Id": 5,
+      "UIGuideTypeConfigs": [
+        {
+          "GameFunctionType": "ECyGameUIFunctionType::Slide",
+          "UIGuideType": "ECyGuideUIGuideType::CircleEffect",
+          "GuideInfo": {
+            "CultureInvariantString": null
+          },
+          "BeginDelay": 0.0,
+          "LoopTimes": 0,
+          "LoopInterval": 0.0,
+          "bCustomLayout": false,
+          "bCustomLocation": false,
+          "Location": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "LocationOffset": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Size": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "AnchorData": {
+            "Offsets": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "Anchors": {
+              "Minimum": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Maximum": {
+                "X": 0.0,
+                "Y": 0.0
+              }
+            },
+            "Alignment": {
+              "X": 0.5,
+              "Y": 0.5
+            }
+          }
+        },
+        {
+          "GameFunctionType": "ECyGameUIFunctionType::Slide",
+          "UIGuideType": "ECyGuideUIGuideType::TextInfo",
+          "GuideInfo": {
+            "Namespace": "",
+            "Key": "7C3DD49D42FEC30374E87F84A3B40F66",
+            "SourceString": "点击进行弦化-贴墙",
+            "LocalizedString": "点击进行弦化-贴墙"
+          },
+          "BeginDelay": 0.0,
+          "LoopTimes": 0,
+          "LoopInterval": 0.0,
+          "bCustomLayout": false,
+          "bCustomLocation": false,
+          "Location": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "LocationOffset": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Size": {
+            "X": 100.0,
+            "Y": 200.0
+          },
+          "AnchorData": {
+            "Offsets": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "Anchors": {
+              "Minimum": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Maximum": {
+                "X": 0.0,
+                "Y": 0.0
+              }
+            },
+            "Alignment": {
+              "X": 0.5,
+              "Y": 0.5
+            }
+          }
+        },
+        {
+          "GameFunctionType": "ECyGameUIFunctionType::Slide",
+          "UIGuideType": "ECyGuideUIGuideType::None",
+          "GuideInfo": {
+            "CultureInvariantString": null
+          },
+          "BeginDelay": 0.0,
+          "LoopTimes": 0,
+          "LoopInterval": 0.0,
+          "bCustomLayout": false,
+          "bCustomLocation": false,
+          "Location": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "LocationOffset": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Size": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "AnchorData": {
+            "Offsets": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "Anchors": {
+              "Minimum": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Maximum": {
+                "X": 0.0,
+                "Y": 0.0
+              }
+            },
+            "Alignment": {
+              "X": 0.5,
+              "Y": 0.5
+            }
+          }
+        }
+      ],
+      "TriggerBeginEvents": [
+        {
+          "UniqueName": "5",
+          "EventGameplayTag": {
+            "TagName": "None"
+          },
+          "EventType": "ECyGuideEventType::GuideTask",
+          "WeaponEventType": "ECyGuideWeaponEventType::None",
+          "GuideStateType": "ECyGuideStateType::None",
+          "GuideTaskStateType": "ECyGuideTaskStateType::Begin",
+          "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
+          "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
+          "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
+          "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
+          "SequenceStateType": "ECySequenceStateType::None",
+          "ActionType": "ECyGuideActionType::None",
+          "MeshModeType": "EMeshModeType::Normal",
+          "GameStateType": "EGStateType::None",
+          "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
+        }
+      ],
+      "TriggerEndEvents": [
+        {
+          "UniqueName": "5",
+          "EventGameplayTag": {
+            "TagName": "None"
+          },
+          "EventType": "ECyGuideEventType::GuideTask",
+          "WeaponEventType": "ECyGuideWeaponEventType::None",
+          "GuideStateType": "ECyGuideStateType::None",
+          "GuideTaskStateType": "ECyGuideTaskStateType::End",
+          "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
+          "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
+          "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
+          "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
+          "SequenceStateType": "ECySequenceStateType::None",
+          "ActionType": "ECyGuideActionType::None",
+          "MeshModeType": "EMeshModeType::Normal",
+          "GameStateType": "EGStateType::None",
+          "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
+        }
+      ]
+    },
+    "10": {
+      "Id": 10,
+      "UIGuideTypeConfigs": [
+        {
+          "GameFunctionType": "ECyGameUIFunctionType::UsePrimary",
+          "UIGuideType": "ECyGuideUIGuideType::CircleEffect",
+          "GuideInfo": {
+            "CultureInvariantString": null
+          },
+          "BeginDelay": 0.0,
+          "LoopTimes": 0,
+          "LoopInterval": 0.0,
+          "bCustomLayout": false,
+          "bCustomLocation": false,
+          "Location": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "LocationOffset": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Size": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "AnchorData": {
+            "Offsets": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "Anchors": {
+              "Minimum": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Maximum": {
+                "X": 0.0,
+                "Y": 0.0
+              }
+            },
+            "Alignment": {
+              "X": 0.5,
+              "Y": 0.5
+            }
+          }
+        },
+        {
+          "GameFunctionType": "ECyGameUIFunctionType::UsePrimary",
+          "UIGuideType": "ECyGuideUIGuideType::TextInfo",
+          "GuideInfo": {
+            "Namespace": "",
+            "Key": "925C038B46D2AFC3B101BEB8911A9D9F",
+            "SourceString": "点击开火",
+            "LocalizedString": "点击开火"
+          },
+          "BeginDelay": 0.0,
+          "LoopTimes": 0,
+          "LoopInterval": 0.0,
+          "bCustomLayout": false,
+          "bCustomLocation": false,
+          "Location": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "LocationOffset": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Size": {
+            "X": 50.0,
+            "Y": 150.0
+          },
+          "AnchorData": {
+            "Offsets": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "Anchors": {
+              "Minimum": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Maximum": {
+                "X": 0.0,
+                "Y": 0.0
+              }
+            },
+            "Alignment": {
+              "X": 0.5,
+              "Y": 0.5
+            }
+          }
+        },
+        {
+          "GameFunctionType": "ECyGameUIFunctionType::Aiming",
+          "UIGuideType": "ECyGuideUIGuideType::CircleHighlight",
+          "GuideInfo": {
+            "CultureInvariantString": null
+          },
+          "BeginDelay": 0.0,
+          "LoopTimes": 0,
+          "LoopInterval": 0.0,
+          "bCustomLayout": false,
+          "bCustomLocation": false,
+          "Location": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "LocationOffset": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Size": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "AnchorData": {
+            "Offsets": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "Anchors": {
+              "Minimum": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Maximum": {
+                "X": 0.0,
+                "Y": 0.0
+              }
+            },
+            "Alignment": {
+              "X": 0.5,
+              "Y": 0.5
+            }
+          }
+        }
+      ],
+      "TriggerBeginEvents": [
+        {
+          "UniqueName": "11",
+          "EventGameplayTag": {
+            "TagName": "None"
+          },
+          "EventType": "ECyGuideEventType::GuideTask",
+          "WeaponEventType": "ECyGuideWeaponEventType::None",
+          "GuideStateType": "ECyGuideStateType::None",
+          "GuideTaskStateType": "ECyGuideTaskStateType::Begin",
+          "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
+          "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
+          "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
+          "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
+          "SequenceStateType": "ECySequenceStateType::None",
+          "ActionType": "ECyGuideActionType::None",
+          "MeshModeType": "EMeshModeType::Normal",
+          "GameStateType": "EGStateType::None",
+          "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
+        }
+      ],
+      "TriggerEndEvents": [
+        {
+          "UniqueName": "11",
+          "EventGameplayTag": {
+            "TagName": "None"
+          },
+          "EventType": "ECyGuideEventType::GuideTask",
+          "WeaponEventType": "ECyGuideWeaponEventType::None",
+          "GuideStateType": "ECyGuideStateType::None",
+          "GuideTaskStateType": "ECyGuideTaskStateType::End",
+          "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
+          "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
+          "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
+          "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
+          "SequenceStateType": "ECySequenceStateType::None",
+          "ActionType": "ECyGuideActionType::None",
+          "MeshModeType": "EMeshModeType::Normal",
+          "GameStateType": "EGStateType::None",
+          "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
+        }
+      ]
+    },
+    "11": {
+      "Id": 91,
+      "UIGuideTypeConfigs": [
+        {
+          "GameFunctionType": "ECyGameUIFunctionType::PrimaryWeapon",
+          "UIGuideType": "ECyGuideUIGuideType::BoxEffect",
+          "GuideInfo": {
+            "CultureInvariantString": null
+          },
+          "BeginDelay": 0.0,
+          "LoopTimes": 0,
+          "LoopInterval": 0.0,
+          "bCustomLayout": false,
+          "bCustomLocation": false,
+          "Location": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "LocationOffset": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Size": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "AnchorData": {
+            "Offsets": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "Anchors": {
+              "Minimum": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Maximum": {
+                "X": 0.0,
+                "Y": 0.0
+              }
+            },
+            "Alignment": {
+              "X": 0.5,
+              "Y": 0.5
+            }
+          }
+        },
+        {
+          "GameFunctionType": "ECyGameUIFunctionType::PrimaryWeapon",
+          "UIGuideType": "ECyGuideUIGuideType::TextInfo",
+          "GuideInfo": {
+            "Namespace": "",
+            "Key": "A1A936B9445FE4588493E09B8E992AB9",
+            "SourceString": "点击切换为主武器",
+            "LocalizedString": "点击切换为主武器"
+          },
+          "BeginDelay": 0.0,
+          "LoopTimes": 0,
+          "LoopInterval": 0.0,
+          "bCustomLayout": false,
+          "bCustomLocation": false,
+          "Location": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "LocationOffset": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Size": {
+            "X": 50.0,
+            "Y": 150.0
+          },
+          "AnchorData": {
+            "Offsets": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "Anchors": {
+              "Minimum": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Maximum": {
+                "X": 0.0,
+                "Y": 0.0
+              }
+            },
+            "Alignment": {
+              "X": 0.5,
+              "Y": 0.5
+            }
+          }
+        }
+      ],
+      "TriggerBeginEvents": [
+        {
+          "UniqueName": "91",
+          "EventGameplayTag": {
+            "TagName": "None"
+          },
+          "EventType": "ECyGuideEventType::GuideTask",
+          "WeaponEventType": "ECyGuideWeaponEventType::None",
+          "GuideStateType": "ECyGuideStateType::None",
+          "GuideTaskStateType": "ECyGuideTaskStateType::Begin",
+          "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
+          "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
+          "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
+          "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
+          "SequenceStateType": "ECySequenceStateType::None",
+          "ActionType": "ECyGuideActionType::None",
+          "MeshModeType": "EMeshModeType::Normal",
+          "GameStateType": "EGStateType::None",
+          "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
+        }
+      ],
+      "TriggerEndEvents": [
+        {
+          "UniqueName": "91",
+          "EventGameplayTag": {
+            "TagName": "None"
+          },
+          "EventType": "ECyGuideEventType::GuideTask",
+          "WeaponEventType": "ECyGuideWeaponEventType::None",
+          "GuideStateType": "ECyGuideStateType::None",
+          "GuideTaskStateType": "ECyGuideTaskStateType::End",
+          "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
+          "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
+          "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
+          "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
+          "SequenceStateType": "ECySequenceStateType::None",
+          "ActionType": "ECyGuideActionType::None",
+          "MeshModeType": "EMeshModeType::Normal",
+          "GameStateType": "EGStateType::None",
+          "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
+        }
+      ]
+    },
+    "12": {
+      "Id": 12,
+      "UIGuideTypeConfigs": [
+        {
+          "GameFunctionType": "ECyGameUIFunctionType::Grenade1",
+          "UIGuideType": "ECyGuideUIGuideType::BoxEffect",
+          "GuideInfo": {
+            "CultureInvariantString": null
+          },
+          "BeginDelay": 0.0,
+          "LoopTimes": 0,
+          "LoopInterval": 0.0,
+          "bCustomLayout": false,
+          "bCustomLocation": false,
+          "Location": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "LocationOffset": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Size": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "AnchorData": {
+            "Offsets": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "Anchors": {
+              "Minimum": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Maximum": {
+                "X": 0.0,
+                "Y": 0.0
+              }
+            },
+            "Alignment": {
+              "X": 0.5,
+              "Y": 0.5
+            }
+          }
+        },
+        {
+          "GameFunctionType": "ECyGameUIFunctionType::Grenade1",
+          "UIGuideType": "ECyGuideUIGuideType::TextInfo",
+          "GuideInfo": {
+            "Namespace": "",
+            "Key": "D7773F3146D834972E9C39BD4BD75FF2",
+            "SourceString": "点击切换为投掷道具",
+            "LocalizedString": "点击切换为投掷道具"
+          },
+          "BeginDelay": 0.0,
+          "LoopTimes": 0,
+          "LoopInterval": 0.0,
+          "bCustomLayout": false,
+          "bCustomLocation": false,
+          "Location": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "LocationOffset": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Size": {
+            "X": 50.0,
+            "Y": 150.0
+          },
+          "AnchorData": {
+            "Offsets": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "Anchors": {
+              "Minimum": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Maximum": {
+                "X": 0.0,
+                "Y": 0.0
+              }
+            },
+            "Alignment": {
+              "X": 0.5,
+              "Y": 0.5
+            }
+          }
+        }
+      ],
+      "TriggerBeginEvents": [
+        {
+          "UniqueName": "1201",
+          "EventGameplayTag": {
+            "TagName": "None"
+          },
+          "EventType": "ECyGuideEventType::GuideSubTask",
+          "WeaponEventType": "ECyGuideWeaponEventType::None",
+          "GuideStateType": "ECyGuideStateType::None",
+          "GuideTaskStateType": "ECyGuideTaskStateType::Begin",
+          "GuideSubTaskStateType": "ECyGuideSubTaskStateType::Finish",
+          "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
+          "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
+          "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
+          "SequenceStateType": "ECySequenceStateType::None",
+          "ActionType": "ECyGuideActionType::None",
+          "MeshModeType": "EMeshModeType::Normal",
+          "GameStateType": "EGStateType::None",
+          "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
+        }
+      ],
+      "TriggerEndEvents": [
+        {
+          "UniqueName": "1203",
+          "EventGameplayTag": {
+            "TagName": "None"
+          },
+          "EventType": "ECyGuideEventType::GuideSubTask",
+          "WeaponEventType": "ECyGuideWeaponEventType::None",
+          "GuideStateType": "ECyGuideStateType::None",
+          "GuideTaskStateType": "ECyGuideTaskStateType::End",
+          "GuideSubTaskStateType": "ECyGuideSubTaskStateType::Finish",
+          "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
+          "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
+          "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
+          "SequenceStateType": "ECySequenceStateType::None",
+          "ActionType": "ECyGuideActionType::None",
+          "MeshModeType": "EMeshModeType::Normal",
+          "GameStateType": "EGStateType::None",
+          "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
+        }
+      ]
+    },
+    "141": {
+      "Id": 14,
+      "UIGuideTypeConfigs": [
+        {
+          "GameFunctionType": "ECyGameUIFunctionType::SkillQ",
+          "UIGuideType": "ECyGuideUIGuideType::CircleEffect",
+          "GuideInfo": {
+            "CultureInvariantString": null
+          },
+          "BeginDelay": 0.0,
+          "LoopTimes": 0,
+          "LoopInterval": 0.0,
+          "bCustomLayout": false,
+          "bCustomLocation": false,
+          "Location": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "LocationOffset": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Size": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "AnchorData": {
+            "Offsets": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "Anchors": {
+              "Minimum": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Maximum": {
+                "X": 0.0,
+                "Y": 0.0
+              }
+            },
+            "Alignment": {
+              "X": 0.5,
+              "Y": 0.5
+            }
+          }
+        },
+        {
+          "GameFunctionType": "ECyGameUIFunctionType::SkillQ",
+          "UIGuideType": "ECyGuideUIGuideType::TextInfo",
+          "GuideInfo": {
+            "Namespace": "",
+            "Key": "E422ABFF452E639C6F2CBBA95738BC4E",
+            "SourceString": "主动技能",
+            "LocalizedString": "主动技能"
+          },
+          "BeginDelay": 0.0,
+          "LoopTimes": 0,
+          "LoopInterval": 0.0,
+          "bCustomLayout": false,
+          "bCustomLocation": false,
+          "Location": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "LocationOffset": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Size": {
+            "X": 100.0,
+            "Y": 50.0
+          },
+          "AnchorData": {
+            "Offsets": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "Anchors": {
+              "Minimum": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Maximum": {
+                "X": 0.0,
+                "Y": 0.0
+              }
+            },
+            "Alignment": {
+              "X": 0.5,
+              "Y": 0.5
+            }
+          }
+        }
+      ],
+      "TriggerBeginEvents": [
+        {
+          "UniqueName": "14",
+          "EventGameplayTag": {
+            "TagName": "None"
+          },
+          "EventType": "ECyGuideEventType::GuideTask",
+          "WeaponEventType": "ECyGuideWeaponEventType::None",
+          "GuideStateType": "ECyGuideStateType::None",
+          "GuideTaskStateType": "ECyGuideTaskStateType::Begin",
+          "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
+          "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
+          "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
+          "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
+          "SequenceStateType": "ECySequenceStateType::None",
+          "ActionType": "ECyGuideActionType::None",
+          "MeshModeType": "EMeshModeType::Normal",
+          "GameStateType": "EGStateType::None",
+          "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
+        }
+      ],
+      "TriggerEndEvents": [
+        {
+          "UniqueName": "1402",
+          "EventGameplayTag": {
+            "TagName": "None"
+          },
+          "EventType": "ECyGuideEventType::GuideSubTask",
+          "WeaponEventType": "ECyGuideWeaponEventType::None",
+          "GuideStateType": "ECyGuideStateType::None",
+          "GuideTaskStateType": "ECyGuideTaskStateType::End",
+          "GuideSubTaskStateType": "ECyGuideSubTaskStateType::Finish",
+          "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
+          "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
+          "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
+          "SequenceStateType": "ECySequenceStateType::None",
+          "ActionType": "ECyGuideActionType::None",
+          "MeshModeType": "EMeshModeType::Normal",
+          "GameStateType": "EGStateType::None",
+          "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
+        }
+      ]
+    },
+    "18": {
+      "Id": 18,
+      "UIGuideTypeConfigs": [
+        {
+          "GameFunctionType": "ECyGameUIFunctionType::SkillX",
+          "UIGuideType": "ECyGuideUIGuideType::CircleEffect",
+          "GuideInfo": {
+            "CultureInvariantString": null
+          },
+          "BeginDelay": 0.0,
+          "LoopTimes": 0,
+          "LoopInterval": 0.0,
+          "bCustomLayout": false,
+          "bCustomLocation": false,
+          "Location": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "LocationOffset": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Size": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "AnchorData": {
+            "Offsets": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "Anchors": {
+              "Minimum": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Maximum": {
+                "X": 0.0,
+                "Y": 0.0
+              }
+            },
+            "Alignment": {
+              "X": 0.5,
+              "Y": 0.5
+            }
+          }
+        },
+        {
+          "GameFunctionType": "ECyGameUIFunctionType::SkillX",
+          "UIGuideType": "ECyGuideUIGuideType::TextInfo",
+          "GuideInfo": {
+            "Namespace": "",
+            "Key": "59E26C0342B12B008AD9BE95B06878A5",
+            "SourceString": "终极技能",
+            "LocalizedString": "终极技能"
+          },
+          "BeginDelay": 0.0,
+          "LoopTimes": 0,
+          "LoopInterval": 0.0,
+          "bCustomLayout": false,
+          "bCustomLocation": false,
+          "Location": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "LocationOffset": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Size": {
+            "X": 100.0,
+            "Y": 50.0
+          },
+          "AnchorData": {
+            "Offsets": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "Anchors": {
+              "Minimum": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Maximum": {
+                "X": 0.0,
+                "Y": 0.0
+              }
+            },
+            "Alignment": {
+              "X": 0.5,
+              "Y": 0.5
+            }
+          }
+        }
+      ],
+      "TriggerBeginEvents": [
+        {
+          "UniqueName": "18",
+          "EventGameplayTag": {
+            "TagName": "None"
+          },
+          "EventType": "ECyGuideEventType::GuideTask",
+          "WeaponEventType": "ECyGuideWeaponEventType::None",
+          "GuideStateType": "ECyGuideStateType::None",
+          "GuideTaskStateType": "ECyGuideTaskStateType::Begin",
+          "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
+          "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
+          "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
+          "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
+          "SequenceStateType": "ECySequenceStateType::None",
+          "ActionType": "ECyGuideActionType::None",
+          "MeshModeType": "EMeshModeType::Normal",
+          "GameStateType": "EGStateType::None",
+          "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
+        }
+      ],
+      "TriggerEndEvents": [
+        {
+          "UniqueName": "18",
+          "EventGameplayTag": {
+            "TagName": "None"
+          },
+          "EventType": "ECyGuideEventType::GuideTask",
+          "WeaponEventType": "ECyGuideWeaponEventType::None",
+          "GuideStateType": "ECyGuideStateType::None",
+          "GuideTaskStateType": "ECyGuideTaskStateType::End",
+          "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
+          "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
+          "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
+          "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
+          "SequenceStateType": "ECySequenceStateType::None",
+          "ActionType": "ECyGuideActionType::None",
+          "MeshModeType": "EMeshModeType::Normal",
+          "GameStateType": "EGStateType::None",
+          "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
+        },
+        {
+          "UniqueName": "None",
+          "EventGameplayTag": {
+            "TagName": "Event.Consume.Skill.X"
+          },
+          "EventType": "ECyGuideEventType::None",
+          "WeaponEventType": "ECyGuideWeaponEventType::None",
+          "GuideStateType": "ECyGuideStateType::None",
+          "GuideTaskStateType": "ECyGuideTaskStateType::None",
+          "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
+          "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
+          "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
+          "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
+          "SequenceStateType": "ECySequenceStateType::None",
+          "ActionType": "ECyGuideActionType::None",
+          "MeshModeType": "EMeshModeType::Normal",
+          "GameStateType": "EGStateType::None",
+          "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
+        }
+      ]
+    },
+    "10_0": {
+      "Id": 101,
+      "UIGuideTypeConfigs": [
+        {
+          "GameFunctionType": "ECyGameUIFunctionType::Reload",
+          "UIGuideType": "ECyGuideUIGuideType::CircleEffect",
+          "GuideInfo": {
+            "CultureInvariantString": null
+          },
+          "BeginDelay": 0.0,
+          "LoopTimes": 0,
+          "LoopInterval": 0.0,
+          "bCustomLayout": false,
+          "bCustomLocation": false,
+          "Location": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "LocationOffset": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Size": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "AnchorData": {
+            "Offsets": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "Anchors": {
+              "Minimum": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Maximum": {
+                "X": 0.0,
+                "Y": 0.0
+              }
+            },
+            "Alignment": {
+              "X": 0.5,
+              "Y": 0.5
+            }
+          }
+        },
+        {
+          "GameFunctionType": "ECyGameUIFunctionType::Reload",
+          "UIGuideType": "ECyGuideUIGuideType::TextInfo",
+          "GuideInfo": {
+            "Namespace": "",
+            "Key": "C715FCFC4A6B3CBB020F129B0F2601B7",
+            "SourceString": "点击换弹按钮换弹",
+            "LocalizedString": "点击换弹按钮换弹"
+          },
+          "BeginDelay": 0.0,
+          "LoopTimes": 0,
+          "LoopInterval": 0.0,
+          "bCustomLayout": false,
+          "bCustomLocation": false,
+          "Location": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "LocationOffset": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Size": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "AnchorData": {
+            "Offsets": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "Anchors": {
+              "Minimum": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Maximum": {
+                "X": 0.0,
+                "Y": 0.0
+              }
+            },
+            "Alignment": {
+              "X": 0.5,
+              "Y": 0.5
+            }
+          }
+        }
+      ],
+      "TriggerBeginEvents": [
+        {
+          "UniqueName": "1102",
+          "EventGameplayTag": {
+            "TagName": "None"
+          },
+          "EventType": "ECyGuideEventType::GuideSubTask",
+          "WeaponEventType": "ECyGuideWeaponEventType::None",
+          "GuideStateType": "ECyGuideStateType::None",
+          "GuideTaskStateType": "ECyGuideTaskStateType::Begin",
+          "GuideSubTaskStateType": "ECyGuideSubTaskStateType::Finish",
+          "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
+          "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
+          "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
+          "SequenceStateType": "ECySequenceStateType::None",
+          "ActionType": "ECyGuideActionType::None",
+          "MeshModeType": "EMeshModeType::Normal",
+          "GameStateType": "EGStateType::None",
+          "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
+        }
+      ],
+      "TriggerEndEvents": [
+        {
+          "UniqueName": "11",
+          "EventGameplayTag": {
+            "TagName": "None"
+          },
+          "EventType": "ECyGuideEventType::GuideTask",
+          "WeaponEventType": "ECyGuideWeaponEventType::None",
+          "GuideStateType": "ECyGuideStateType::None",
+          "GuideTaskStateType": "ECyGuideTaskStateType::Finish",
+          "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
+          "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
+          "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
+          "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
+          "SequenceStateType": "ECySequenceStateType::None",
+          "ActionType": "ECyGuideActionType::None",
+          "MeshModeType": "EMeshModeType::Normal",
+          "GameStateType": "EGStateType::None",
+          "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
+        }
+      ]
     }
   }
-]
+}

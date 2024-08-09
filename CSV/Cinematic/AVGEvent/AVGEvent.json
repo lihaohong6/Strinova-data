@@ -1,3046 +1,3044 @@
-[
-  {
-    "Type": "DataTable",
-    "Name": "AVGEvent",
-    "Class": "UScriptClass'DataTable'",
-    "Properties": {
-      "RowStruct": {
-        "ObjectName": "ScriptStruct'CyAVGEventTableRow'",
-        "ObjectPath": "/Script/PMGame"
-      }
+{
+  "Type": "DataTable",
+  "Name": "AVGEvent",
+  "Class": "UScriptClass'DataTable'",
+  "Properties": {
+    "RowStruct": {
+      "ObjectName": "ScriptStruct'CyAVGEventTableRow'",
+      "ObjectPath": "/Script/PMGame"
+    }
+  },
+  "Rows": {
+    "1001": {
+      "EventId": 1001,
+      "NextEventIds": [
+        1002
+      ],
+      "EventType": "EEventType::NormalEvent",
+      "PrologueTitle": {
+        "Namespace": "AVGEvent",
+        "Key": "1001_PrologueTitle",
+        "SourceString": "开场白",
+        "LocalizedString": "开场白"
+      },
+      "SceneBg": {
+        "AssetPathName": "/Game/PaperMan/Environment/Textures/Maps/Apartment/Background/T_Evni_Background_01_O.T_Evni_Background_01_O",
+        "SubPathString": ""
+      },
+      "BackgroundDistance": 250.0,
+      "RoleId": 146,
+      "IsHidden": true,
+      "IdleAnim": {
+        "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/HuiXing/S201/Animations/Apartment/AS_HuiXing_Center_Idle.AS_HuiXing_Center_Idle",
+        "SubPathString": ""
+      },
+      "AvgAnimation": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "BubbleEmotionType": "E2DEmotionType::None",
+      "TalkerName": {
+        "CultureInvariantString": null
+      },
+      "TalkerRoleList": [],
+      "TextContext": {
+        "CultureInvariantString": null
+      },
+      "HoldTime": 2.5,
+      "AkEvent": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "AkLibSyncCh": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "AkLibSyncJp": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "RolePosition": {
+        "X": 56309.0,
+        "Y": 59083.0,
+        "Z": 1415.0
+      },
+      "RoleRotator": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 55.97903
+      },
+      "CameraPosition": {
+        "X": 56410.875,
+        "Y": 59239.645,
+        "Z": 1452.8658
+      },
+      "CameraRotator": {
+        "X": 5.4E-05,
+        "Y": 0.998341,
+        "Z": 596.39813
+      },
+      "SequenceAsset": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "BgAkEvent": {
+        "AssetPathName": "/Game/WwiseAssets/AkEvent/Bgm_Date_Play.Bgm_Date_Play",
+        "SubPathString": ""
+      },
+      "RolePerformanceList": [],
+      "ExtendPerformanceList": [],
+      "RemovePerformanceList": []
     },
-    "Rows": {
-      "1001": {
-        "EventId": 1001,
-        "NextEventIds": [
-          1002
-        ],
-        "EventType": "EEventType::NormalEvent",
-        "PrologueTitle": {
-          "Namespace": "AVGEvent",
-          "Key": "1001_PrologueTitle",
-          "SourceString": "开场白",
-          "LocalizedString": "开场白"
-        },
-        "SceneBg": {
-          "AssetPathName": "/Game/PaperMan/Environment/Textures/Maps/Apartment/Background/T_Evni_Background_01_O.T_Evni_Background_01_O",
-          "SubPathString": ""
-        },
-        "BackgroundDistance": 250.0,
-        "RoleId": 146,
-        "IsHidden": true,
-        "IdleAnim": {
-          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/HuiXing/S201/Animations/Apartment/AS_HuiXing_Center_Idle.AS_HuiXing_Center_Idle",
-          "SubPathString": ""
-        },
-        "AvgAnimation": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "BubbleEmotionType": "E2DEmotionType::None",
-        "TalkerName": {
-          "CultureInvariantString": null
-        },
-        "TalkerRoleList": [],
-        "TextContext": {
-          "CultureInvariantString": null
-        },
-        "HoldTime": 2.5,
-        "AkEvent": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "AkLibSyncCh": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "AkLibSyncJp": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "RolePosition": {
-          "X": 56309.0,
-          "Y": 59083.0,
-          "Z": 1415.0
-        },
-        "RoleRotator": {
-          "X": 0.0,
-          "Y": 0.0,
-          "Z": 55.97903
-        },
-        "CameraPosition": {
-          "X": 56410.875,
-          "Y": 59239.645,
-          "Z": 1452.8658
-        },
-        "CameraRotator": {
-          "X": 5.4E-05,
-          "Y": 0.998341,
-          "Z": 596.39813
-        },
-        "SequenceAsset": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "BgAkEvent": {
-          "AssetPathName": "/Game/WwiseAssets/AkEvent/Bgm_Date_Play.Bgm_Date_Play",
-          "SubPathString": ""
-        },
-        "RolePerformanceList": [],
-        "ExtendPerformanceList": [],
-        "RemovePerformanceList": []
+    "1002": {
+      "EventId": 1002,
+      "NextEventIds": [
+        1003
+      ],
+      "EventType": "EEventType::SingleClickEvent",
+      "PrologueTitle": {
+        "CultureInvariantString": null
       },
-      "1002": {
-        "EventId": 1002,
-        "NextEventIds": [
-          1003
-        ],
-        "EventType": "EEventType::SingleClickEvent",
-        "PrologueTitle": {
-          "CultureInvariantString": null
-        },
-        "SceneBg": {
-          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Talent/T_Dynamic_Talent_66101003.T_Dynamic_Talent_66101003",
-          "SubPathString": ""
-        },
-        "BackgroundDistance": 250.0,
-        "RoleId": 101,
-        "IsHidden": true,
-        "IdleAnim": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "AvgAnimation": {
-          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/HuiXing/S201/Animations/Apartment/AS_HuiXing_Talking_Hello_Montage.AS_HuiXing_Talking_Hello_Montage",
-          "SubPathString": ""
-        },
-        "BubbleEmotionType": "E2DEmotionType::None",
-        "TalkerName": {
-          "CultureInvariantString": null
-        },
-        "TalkerRoleList": [],
-        "TextContext": {
-          "Namespace": "AVGEvent",
-          "Key": "Row1002_From_Role101",
-          "SourceString": "（Bgm_Date_Happy测试和米雪儿警徽图标测试）",
-          "LocalizedString": "（Bgm_Date_Happy测试和米雪儿警徽图标测试）"
-        },
-        "HoldTime": 10.0,
-        "AkEvent": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "AkLibSyncCh": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "AkLibSyncJp": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "RolePosition": {
-          "X": 0.0,
-          "Y": 0.0,
-          "Z": 0.0
-        },
-        "RoleRotator": {
-          "X": 0.0,
-          "Y": 0.0,
-          "Z": 0.0
-        },
-        "CameraPosition": {
-          "X": 0.0,
-          "Y": 0.0,
-          "Z": 0.0
-        },
-        "CameraRotator": {
-          "X": 0.0,
-          "Y": 0.0,
-          "Z": 0.0
-        },
-        "SequenceAsset": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "BgAkEvent": {
-          "AssetPathName": "/Game/WwiseAssets/AkEvent/Bgm_Date_Happy.Bgm_Date_Happy",
-          "SubPathString": ""
-        },
-        "RolePerformanceList": [],
-        "ExtendPerformanceList": [
-          {
-            "Type": "EPerformanceType::CameraShake",
-            "StringParam": "1",
-            "TextParam": {
-              "CultureInvariantString": null
+      "SceneBg": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Talent/T_Dynamic_Talent_66101003.T_Dynamic_Talent_66101003",
+        "SubPathString": ""
+      },
+      "BackgroundDistance": 250.0,
+      "RoleId": 101,
+      "IsHidden": true,
+      "IdleAnim": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "AvgAnimation": {
+        "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/HuiXing/S201/Animations/Apartment/AS_HuiXing_Talking_Hello_Montage.AS_HuiXing_Talking_Hello_Montage",
+        "SubPathString": ""
+      },
+      "BubbleEmotionType": "E2DEmotionType::None",
+      "TalkerName": {
+        "CultureInvariantString": null
+      },
+      "TalkerRoleList": [],
+      "TextContext": {
+        "Namespace": "AVGEvent",
+        "Key": "Row1002_From_Role101",
+        "SourceString": "（Bgm_Date_Happy测试和米雪儿警徽图标测试）",
+        "LocalizedString": "（Bgm_Date_Happy测试和米雪儿警徽图标测试）"
+      },
+      "HoldTime": 10.0,
+      "AkEvent": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "AkLibSyncCh": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "AkLibSyncJp": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "RolePosition": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "RoleRotator": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "CameraPosition": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "CameraRotator": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SequenceAsset": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "BgAkEvent": {
+        "AssetPathName": "/Game/WwiseAssets/AkEvent/Bgm_Date_Happy.Bgm_Date_Happy",
+        "SubPathString": ""
+      },
+      "RolePerformanceList": [],
+      "ExtendPerformanceList": [
+        {
+          "Type": "EPerformanceType::CameraShake",
+          "StringParam": "1",
+          "TextParam": {
+            "CultureInvariantString": null
+          },
+          "AssetPath": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "RemovePerformanceList": []
+    },
+    "1003": {
+      "EventId": 1003,
+      "NextEventIds": [
+        1004,
+        1005
+      ],
+      "EventType": "EEventType::MultipleOptionEvent",
+      "PrologueTitle": {
+        "CultureInvariantString": null
+      },
+      "SceneBg": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Talent/T_Dynamic_Talent_66105003.T_Dynamic_Talent_66105003",
+        "SubPathString": ""
+      },
+      "BackgroundDistance": 250.0,
+      "RoleId": 146,
+      "IsHidden": true,
+      "IdleAnim": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "AvgAnimation": {
+        "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/HuiXing/S201/Animations/Apartment/AS_HuiXing_Talking_Hello_Montage.AS_HuiXing_Talking_Hello_Montage",
+        "SubPathString": ""
+      },
+      "BubbleEmotionType": "E2DEmotionType::Happy",
+      "TalkerName": {
+        "Namespace": "AVGEvent",
+        "Key": "1003_TalkerName",
+        "SourceString": "星绘",
+        "LocalizedString": "星绘"
+      },
+      "TalkerRoleList": [],
+      "TextContext": {
+        "Namespace": "AVGEvent",
+        "Key": "Row1003_From_Role146",
+        "SourceString": "Bgm_Date_Peace测试和奥黛丽手账图标测试",
+        "LocalizedString": "Bgm_Date_Peace测试和奥黛丽手账图标测试"
+      },
+      "HoldTime": 11.57381,
+      "AkEvent": {
+        "AssetPathName": "/Game/WwiseAssets/AkEvent/Vox_Huixing_BPCHAR_155.Vox_Huixing_BPCHAR_155",
+        "SubPathString": ""
+      },
+      "AkLibSyncCh": {
+        "AssetPathName": "/Game/WwiseAssets/AkLipSync/Chinese/Vox_Huixing_BPCHAR_155.Vox_Huixing_BPCHAR_155",
+        "SubPathString": ""
+      },
+      "AkLibSyncJp": {
+        "AssetPathName": "/Game/WwiseAssets/AkLipSync/Japanese/Vox_Huixing_BPCHAR_155.Vox_Huixing_BPCHAR_155",
+        "SubPathString": ""
+      },
+      "RolePosition": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "RoleRotator": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "CameraPosition": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "CameraRotator": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SequenceAsset": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "BgAkEvent": {
+        "AssetPathName": "/Game/WwiseAssets/AkEvent/Bgm_Date_Peace.Bgm_Date_Peace",
+        "SubPathString": ""
+      },
+      "RolePerformanceList": [],
+      "ExtendPerformanceList": [],
+      "RemovePerformanceList": [
+        "EPerformanceType::CameraShake"
+      ]
+    },
+    "1004": {
+      "EventId": 1004,
+      "NextEventIds": [
+        1006
+      ],
+      "EventType": "EEventType::SubOptionEvent",
+      "PrologueTitle": {
+        "CultureInvariantString": null
+      },
+      "SceneBg": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "BackgroundDistance": 250.0,
+      "RoleId": 0,
+      "IsHidden": false,
+      "IdleAnim": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "AvgAnimation": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "BubbleEmotionType": "E2DEmotionType::None",
+      "TalkerName": {
+        "CultureInvariantString": null
+      },
+      "TalkerRoleList": [],
+      "TextContext": {
+        "Namespace": "AVGEvent",
+        "Key": "Row1004_PlayerOption_ToRole146",
+        "SourceString": "谢谢你",
+        "LocalizedString": "谢谢你"
+      },
+      "HoldTime": 0.0,
+      "AkEvent": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "AkLibSyncCh": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "AkLibSyncJp": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "RolePosition": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "RoleRotator": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "CameraPosition": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "CameraRotator": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SequenceAsset": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "BgAkEvent": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "RolePerformanceList": [],
+      "ExtendPerformanceList": [],
+      "RemovePerformanceList": []
+    },
+    "1005": {
+      "EventId": 1005,
+      "NextEventIds": [
+        1007
+      ],
+      "EventType": "EEventType::SubOptionEvent",
+      "PrologueTitle": {
+        "CultureInvariantString": null
+      },
+      "SceneBg": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "BackgroundDistance": 250.0,
+      "RoleId": 0,
+      "IsHidden": false,
+      "IdleAnim": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "AvgAnimation": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "BubbleEmotionType": "E2DEmotionType::None",
+      "TalkerName": {
+        "CultureInvariantString": null
+      },
+      "TalkerRoleList": [],
+      "TextContext": {
+        "Namespace": "AVGEvent",
+        "Key": "Row1005_PlayerOption_ToRole146",
+        "SourceString": "不用了",
+        "LocalizedString": "不用了"
+      },
+      "HoldTime": 0.0,
+      "AkEvent": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "AkLibSyncCh": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "AkLibSyncJp": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "RolePosition": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "RoleRotator": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "CameraPosition": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "CameraRotator": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SequenceAsset": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "BgAkEvent": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "RolePerformanceList": [],
+      "ExtendPerformanceList": [],
+      "RemovePerformanceList": []
+    },
+    "1006": {
+      "EventId": 1006,
+      "NextEventIds": [
+        1008
+      ],
+      "EventType": "EEventType::SingleClickEvent",
+      "PrologueTitle": {
+        "CultureInvariantString": null
+      },
+      "SceneBg": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "BackgroundDistance": 250.0,
+      "RoleId": 0,
+      "IsHidden": false,
+      "IdleAnim": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "AvgAnimation": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "BubbleEmotionType": "E2DEmotionType::None",
+      "TalkerName": {
+        "CultureInvariantString": null
+      },
+      "TalkerRoleList": [],
+      "TextContext": {
+        "Namespace": "AVGEvent",
+        "Key": "Row1006_Aside_AboutRole146",
+        "SourceString": "（Bgm_Date_Relax测试）",
+        "LocalizedString": "（Bgm_Date_Relax测试）"
+      },
+      "HoldTime": 1.0,
+      "AkEvent": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "AkLibSyncCh": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "AkLibSyncJp": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "RolePosition": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "RoleRotator": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "CameraPosition": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "CameraRotator": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SequenceAsset": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "BgAkEvent": {
+        "AssetPathName": "/Game/WwiseAssets/AkEvent/Bgm_Date_Relax.Bgm_Date_Relax",
+        "SubPathString": ""
+      },
+      "RolePerformanceList": [],
+      "ExtendPerformanceList": [],
+      "RemovePerformanceList": []
+    },
+    "1007": {
+      "EventId": 1007,
+      "NextEventIds": [
+        1008
+      ],
+      "EventType": "EEventType::SingleClickEvent",
+      "PrologueTitle": {
+        "CultureInvariantString": null
+      },
+      "SceneBg": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Talent/T_Dynamic_Talent_66146004.T_Dynamic_Talent_66146004",
+        "SubPathString": ""
+      },
+      "BackgroundDistance": 250.0,
+      "RoleId": 0,
+      "IsHidden": true,
+      "IdleAnim": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "AvgAnimation": {
+        "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/HuiXing/S201/Animations/Apartment/AS_HuiXing_Talking_Panic_Montage.AS_HuiXing_Talking_Panic_Montage",
+        "SubPathString": ""
+      },
+      "BubbleEmotionType": "E2DEmotionType::None",
+      "TalkerName": {
+        "Namespace": "AVGEvent",
+        "Key": "1007_TalkerName",
+        "SourceString": "星绘",
+        "LocalizedString": "星绘"
+      },
+      "TalkerRoleList": [],
+      "TextContext": {
+        "Namespace": "AVGEvent",
+        "Key": "Row1007_From_OtherRole",
+        "SourceString": "Bgm_Date_Sad测试和星绘星空板图标测试",
+        "LocalizedString": "Bgm_Date_Sad测试和星绘星空板图标测试"
+      },
+      "HoldTime": 0.0,
+      "AkEvent": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "AkLibSyncCh": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "AkLibSyncJp": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "RolePosition": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "RoleRotator": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "CameraPosition": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "CameraRotator": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SequenceAsset": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "BgAkEvent": {
+        "AssetPathName": "/Game/WwiseAssets/AkEvent/Bgm_Date_Sad.Bgm_Date_Sad",
+        "SubPathString": ""
+      },
+      "RolePerformanceList": [],
+      "ExtendPerformanceList": [],
+      "RemovePerformanceList": []
+    },
+    "1008": {
+      "EventId": 1008,
+      "NextEventIds": [
+        1009
+      ],
+      "EventType": "EEventType::SingleClickEvent",
+      "PrologueTitle": {
+        "CultureInvariantString": null
+      },
+      "SceneBg": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Talent/T_Dynamic_Talent_66128001.T_Dynamic_Talent_66128001",
+        "SubPathString": ""
+      },
+      "BackgroundDistance": 250.0,
+      "RoleId": 0,
+      "IsHidden": true,
+      "IdleAnim": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "AvgAnimation": {
+        "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/HuiXing/S201/Animations/Apartment/AS_HuiXing_Talking_Panic_End_Montage.AS_HuiXing_Talking_Panic_End_Montage",
+        "SubPathString": ""
+      },
+      "BubbleEmotionType": "E2DEmotionType::None",
+      "TalkerName": {
+        "Namespace": "AVGEvent",
+        "Key": "1008_TalkerName",
+        "SourceString": "星绘",
+        "LocalizedString": "星绘"
+      },
+      "TalkerRoleList": [],
+      "TextContext": {
+        "Namespace": "AVGEvent",
+        "Key": "Row1008_From_OtherRole",
+        "SourceString": "Bgm_Date_Michele_Theme测试和拉薇匕首图标测试",
+        "LocalizedString": "Bgm_Date_Michele_Theme测试和拉薇匕首图标测试"
+      },
+      "HoldTime": 0.0,
+      "AkEvent": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "AkLibSyncCh": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "AkLibSyncJp": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "RolePosition": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "RoleRotator": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "CameraPosition": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "CameraRotator": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SequenceAsset": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "BgAkEvent": {
+        "AssetPathName": "/Game/WwiseAssets/AkEvent/Bgm_Date_Michele_Theme.Bgm_Date_Michele_Theme",
+        "SubPathString": ""
+      },
+      "RolePerformanceList": [],
+      "ExtendPerformanceList": [],
+      "RemovePerformanceList": []
+    },
+    "1009": {
+      "EventId": 1009,
+      "NextEventIds": [
+        1010
+      ],
+      "EventType": "EEventType::SingleClickEvent",
+      "PrologueTitle": {
+        "CultureInvariantString": null
+      },
+      "SceneBg": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "BackgroundDistance": 300.0,
+      "RoleId": 0,
+      "IsHidden": true,
+      "IdleAnim": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "AvgAnimation": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "BubbleEmotionType": "E2DEmotionType::None",
+      "TalkerName": {
+        "CultureInvariantString": null
+      },
+      "TalkerRoleList": [
+        146,
+        101
+      ],
+      "TextContext": {
+        "Namespace": "AVGEvent",
+        "Key": "Row1009_FromTalkert_Role146_101",
+        "SourceString": "Bgm_Date_HuiXing_Theme测试",
+        "LocalizedString": "Bgm_Date_HuiXing_Theme测试"
+      },
+      "HoldTime": 0.0,
+      "AkEvent": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "AkLibSyncCh": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "AkLibSyncJp": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "RolePosition": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "RoleRotator": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "CameraPosition": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "CameraRotator": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SequenceAsset": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "BgAkEvent": {
+        "AssetPathName": "/Game/WwiseAssets/AkEvent/Bgm_Date_HuiXing_Theme.Bgm_Date_HuiXing_Theme",
+        "SubPathString": ""
+      },
+      "RolePerformanceList": [
+        {
+          "Key": "1",
+          "Value": {
+            "RoleId": 146,
+            "IsHidden": false,
+            "AnimationAsset": {
+              "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/HuiXing/S201/Animations/Apartment/AS_HuiXing_Talking_Panic_End_Montage.AS_HuiXing_Talking_Panic_End_Montage",
+              "SubPathString": ""
             },
-            "AssetPath": {
+            "Pos": {
+              "X": 56309.0,
+              "Y": 59083.0,
+              "Z": 1415.0
+            },
+            "Rotator": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 60.0
+            },
+            "BlendInTime": 0.0,
+            "IsShowWave": false,
+            "IsShowBlack": false,
+            "WeaponId": 0,
+            "IsSmoothTransition": false,
+            "Is2D": false,
+            "TextureAsset": {
               "AssetPathName": "None",
               "SubPathString": ""
-            }
-          }
-        ],
-        "RemovePerformanceList": []
-      },
-      "1003": {
-        "EventId": 1003,
-        "NextEventIds": [
-          1004,
-          1005
-        ],
-        "EventType": "EEventType::MultipleOptionEvent",
-        "PrologueTitle": {
-          "CultureInvariantString": null
-        },
-        "SceneBg": {
-          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Talent/T_Dynamic_Talent_66105003.T_Dynamic_Talent_66105003",
-          "SubPathString": ""
-        },
-        "BackgroundDistance": 250.0,
-        "RoleId": 146,
-        "IsHidden": true,
-        "IdleAnim": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "AvgAnimation": {
-          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/HuiXing/S201/Animations/Apartment/AS_HuiXing_Talking_Hello_Montage.AS_HuiXing_Talking_Hello_Montage",
-          "SubPathString": ""
-        },
-        "BubbleEmotionType": "E2DEmotionType::Happy",
-        "TalkerName": {
-          "Namespace": "AVGEvent",
-          "Key": "1003_TalkerName",
-          "SourceString": "星绘",
-          "LocalizedString": "星绘"
-        },
-        "TalkerRoleList": [],
-        "TextContext": {
-          "Namespace": "AVGEvent",
-          "Key": "Row1003_From_Role146",
-          "SourceString": "Bgm_Date_Peace测试和奥黛丽手账图标测试",
-          "LocalizedString": "Bgm_Date_Peace测试和奥黛丽手账图标测试"
-        },
-        "HoldTime": 11.57381,
-        "AkEvent": {
-          "AssetPathName": "/Game/WwiseAssets/AkEvent/Vox_Huixing_BPCHAR_155.Vox_Huixing_BPCHAR_155",
-          "SubPathString": ""
-        },
-        "AkLibSyncCh": {
-          "AssetPathName": "/Game/WwiseAssets/AkLipSync/Chinese/Vox_Huixing_BPCHAR_155.Vox_Huixing_BPCHAR_155",
-          "SubPathString": ""
-        },
-        "AkLibSyncJp": {
-          "AssetPathName": "/Game/WwiseAssets/AkLipSync/Japanese/Vox_Huixing_BPCHAR_155.Vox_Huixing_BPCHAR_155",
-          "SubPathString": ""
-        },
-        "RolePosition": {
-          "X": 0.0,
-          "Y": 0.0,
-          "Z": 0.0
-        },
-        "RoleRotator": {
-          "X": 0.0,
-          "Y": 0.0,
-          "Z": 0.0
-        },
-        "CameraPosition": {
-          "X": 0.0,
-          "Y": 0.0,
-          "Z": 0.0
-        },
-        "CameraRotator": {
-          "X": 0.0,
-          "Y": 0.0,
-          "Z": 0.0
-        },
-        "SequenceAsset": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "BgAkEvent": {
-          "AssetPathName": "/Game/WwiseAssets/AkEvent/Bgm_Date_Peace.Bgm_Date_Peace",
-          "SubPathString": ""
-        },
-        "RolePerformanceList": [],
-        "ExtendPerformanceList": [],
-        "RemovePerformanceList": [
-          "EPerformanceType::CameraShake"
-        ]
-      },
-      "1004": {
-        "EventId": 1004,
-        "NextEventIds": [
-          1006
-        ],
-        "EventType": "EEventType::SubOptionEvent",
-        "PrologueTitle": {
-          "CultureInvariantString": null
-        },
-        "SceneBg": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "BackgroundDistance": 250.0,
-        "RoleId": 0,
-        "IsHidden": false,
-        "IdleAnim": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "AvgAnimation": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "BubbleEmotionType": "E2DEmotionType::None",
-        "TalkerName": {
-          "CultureInvariantString": null
-        },
-        "TalkerRoleList": [],
-        "TextContext": {
-          "Namespace": "AVGEvent",
-          "Key": "Row1004_PlayerOption_ToRole146",
-          "SourceString": "谢谢你",
-          "LocalizedString": "谢谢你"
-        },
-        "HoldTime": 0.0,
-        "AkEvent": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "AkLibSyncCh": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "AkLibSyncJp": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "RolePosition": {
-          "X": 0.0,
-          "Y": 0.0,
-          "Z": 0.0
-        },
-        "RoleRotator": {
-          "X": 0.0,
-          "Y": 0.0,
-          "Z": 0.0
-        },
-        "CameraPosition": {
-          "X": 0.0,
-          "Y": 0.0,
-          "Z": 0.0
-        },
-        "CameraRotator": {
-          "X": 0.0,
-          "Y": 0.0,
-          "Z": 0.0
-        },
-        "SequenceAsset": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "BgAkEvent": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "RolePerformanceList": [],
-        "ExtendPerformanceList": [],
-        "RemovePerformanceList": []
-      },
-      "1005": {
-        "EventId": 1005,
-        "NextEventIds": [
-          1007
-        ],
-        "EventType": "EEventType::SubOptionEvent",
-        "PrologueTitle": {
-          "CultureInvariantString": null
-        },
-        "SceneBg": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "BackgroundDistance": 250.0,
-        "RoleId": 0,
-        "IsHidden": false,
-        "IdleAnim": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "AvgAnimation": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "BubbleEmotionType": "E2DEmotionType::None",
-        "TalkerName": {
-          "CultureInvariantString": null
-        },
-        "TalkerRoleList": [],
-        "TextContext": {
-          "Namespace": "AVGEvent",
-          "Key": "Row1005_PlayerOption_ToRole146",
-          "SourceString": "不用了",
-          "LocalizedString": "不用了"
-        },
-        "HoldTime": 0.0,
-        "AkEvent": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "AkLibSyncCh": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "AkLibSyncJp": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "RolePosition": {
-          "X": 0.0,
-          "Y": 0.0,
-          "Z": 0.0
-        },
-        "RoleRotator": {
-          "X": 0.0,
-          "Y": 0.0,
-          "Z": 0.0
-        },
-        "CameraPosition": {
-          "X": 0.0,
-          "Y": 0.0,
-          "Z": 0.0
-        },
-        "CameraRotator": {
-          "X": 0.0,
-          "Y": 0.0,
-          "Z": 0.0
-        },
-        "SequenceAsset": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "BgAkEvent": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "RolePerformanceList": [],
-        "ExtendPerformanceList": [],
-        "RemovePerformanceList": []
-      },
-      "1006": {
-        "EventId": 1006,
-        "NextEventIds": [
-          1008
-        ],
-        "EventType": "EEventType::SingleClickEvent",
-        "PrologueTitle": {
-          "CultureInvariantString": null
-        },
-        "SceneBg": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "BackgroundDistance": 250.0,
-        "RoleId": 0,
-        "IsHidden": false,
-        "IdleAnim": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "AvgAnimation": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "BubbleEmotionType": "E2DEmotionType::None",
-        "TalkerName": {
-          "CultureInvariantString": null
-        },
-        "TalkerRoleList": [],
-        "TextContext": {
-          "Namespace": "AVGEvent",
-          "Key": "Row1006_Aside_AboutRole146",
-          "SourceString": "（Bgm_Date_Relax测试）",
-          "LocalizedString": "（Bgm_Date_Relax测试）"
-        },
-        "HoldTime": 1.0,
-        "AkEvent": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "AkLibSyncCh": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "AkLibSyncJp": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "RolePosition": {
-          "X": 0.0,
-          "Y": 0.0,
-          "Z": 0.0
-        },
-        "RoleRotator": {
-          "X": 0.0,
-          "Y": 0.0,
-          "Z": 0.0
-        },
-        "CameraPosition": {
-          "X": 0.0,
-          "Y": 0.0,
-          "Z": 0.0
-        },
-        "CameraRotator": {
-          "X": 0.0,
-          "Y": 0.0,
-          "Z": 0.0
-        },
-        "SequenceAsset": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "BgAkEvent": {
-          "AssetPathName": "/Game/WwiseAssets/AkEvent/Bgm_Date_Relax.Bgm_Date_Relax",
-          "SubPathString": ""
-        },
-        "RolePerformanceList": [],
-        "ExtendPerformanceList": [],
-        "RemovePerformanceList": []
-      },
-      "1007": {
-        "EventId": 1007,
-        "NextEventIds": [
-          1008
-        ],
-        "EventType": "EEventType::SingleClickEvent",
-        "PrologueTitle": {
-          "CultureInvariantString": null
-        },
-        "SceneBg": {
-          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Talent/T_Dynamic_Talent_66146004.T_Dynamic_Talent_66146004",
-          "SubPathString": ""
-        },
-        "BackgroundDistance": 250.0,
-        "RoleId": 0,
-        "IsHidden": true,
-        "IdleAnim": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "AvgAnimation": {
-          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/HuiXing/S201/Animations/Apartment/AS_HuiXing_Talking_Panic_Montage.AS_HuiXing_Talking_Panic_Montage",
-          "SubPathString": ""
-        },
-        "BubbleEmotionType": "E2DEmotionType::None",
-        "TalkerName": {
-          "Namespace": "AVGEvent",
-          "Key": "1007_TalkerName",
-          "SourceString": "星绘",
-          "LocalizedString": "星绘"
-        },
-        "TalkerRoleList": [],
-        "TextContext": {
-          "Namespace": "AVGEvent",
-          "Key": "Row1007_From_OtherRole",
-          "SourceString": "Bgm_Date_Sad测试和星绘星空板图标测试",
-          "LocalizedString": "Bgm_Date_Sad测试和星绘星空板图标测试"
-        },
-        "HoldTime": 0.0,
-        "AkEvent": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "AkLibSyncCh": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "AkLibSyncJp": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "RolePosition": {
-          "X": 0.0,
-          "Y": 0.0,
-          "Z": 0.0
-        },
-        "RoleRotator": {
-          "X": 0.0,
-          "Y": 0.0,
-          "Z": 0.0
-        },
-        "CameraPosition": {
-          "X": 0.0,
-          "Y": 0.0,
-          "Z": 0.0
-        },
-        "CameraRotator": {
-          "X": 0.0,
-          "Y": 0.0,
-          "Z": 0.0
-        },
-        "SequenceAsset": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "BgAkEvent": {
-          "AssetPathName": "/Game/WwiseAssets/AkEvent/Bgm_Date_Sad.Bgm_Date_Sad",
-          "SubPathString": ""
-        },
-        "RolePerformanceList": [],
-        "ExtendPerformanceList": [],
-        "RemovePerformanceList": []
-      },
-      "1008": {
-        "EventId": 1008,
-        "NextEventIds": [
-          1009
-        ],
-        "EventType": "EEventType::SingleClickEvent",
-        "PrologueTitle": {
-          "CultureInvariantString": null
-        },
-        "SceneBg": {
-          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Talent/T_Dynamic_Talent_66128001.T_Dynamic_Talent_66128001",
-          "SubPathString": ""
-        },
-        "BackgroundDistance": 250.0,
-        "RoleId": 0,
-        "IsHidden": true,
-        "IdleAnim": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "AvgAnimation": {
-          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/HuiXing/S201/Animations/Apartment/AS_HuiXing_Talking_Panic_End_Montage.AS_HuiXing_Talking_Panic_End_Montage",
-          "SubPathString": ""
-        },
-        "BubbleEmotionType": "E2DEmotionType::None",
-        "TalkerName": {
-          "Namespace": "AVGEvent",
-          "Key": "1008_TalkerName",
-          "SourceString": "星绘",
-          "LocalizedString": "星绘"
-        },
-        "TalkerRoleList": [],
-        "TextContext": {
-          "Namespace": "AVGEvent",
-          "Key": "Row1008_From_OtherRole",
-          "SourceString": "Bgm_Date_Michele_Theme测试和拉薇匕首图标测试",
-          "LocalizedString": "Bgm_Date_Michele_Theme测试和拉薇匕首图标测试"
-        },
-        "HoldTime": 0.0,
-        "AkEvent": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "AkLibSyncCh": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "AkLibSyncJp": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "RolePosition": {
-          "X": 0.0,
-          "Y": 0.0,
-          "Z": 0.0
-        },
-        "RoleRotator": {
-          "X": 0.0,
-          "Y": 0.0,
-          "Z": 0.0
-        },
-        "CameraPosition": {
-          "X": 0.0,
-          "Y": 0.0,
-          "Z": 0.0
-        },
-        "CameraRotator": {
-          "X": 0.0,
-          "Y": 0.0,
-          "Z": 0.0
-        },
-        "SequenceAsset": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "BgAkEvent": {
-          "AssetPathName": "/Game/WwiseAssets/AkEvent/Bgm_Date_Michele_Theme.Bgm_Date_Michele_Theme",
-          "SubPathString": ""
-        },
-        "RolePerformanceList": [],
-        "ExtendPerformanceList": [],
-        "RemovePerformanceList": []
-      },
-      "1009": {
-        "EventId": 1009,
-        "NextEventIds": [
-          1010
-        ],
-        "EventType": "EEventType::SingleClickEvent",
-        "PrologueTitle": {
-          "CultureInvariantString": null
-        },
-        "SceneBg": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "BackgroundDistance": 300.0,
-        "RoleId": 0,
-        "IsHidden": true,
-        "IdleAnim": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "AvgAnimation": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "BubbleEmotionType": "E2DEmotionType::None",
-        "TalkerName": {
-          "CultureInvariantString": null
-        },
-        "TalkerRoleList": [
-          146,
-          101
-        ],
-        "TextContext": {
-          "Namespace": "AVGEvent",
-          "Key": "Row1009_FromTalkert_Role146_101",
-          "SourceString": "Bgm_Date_HuiXing_Theme测试",
-          "LocalizedString": "Bgm_Date_HuiXing_Theme测试"
-        },
-        "HoldTime": 0.0,
-        "AkEvent": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "AkLibSyncCh": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "AkLibSyncJp": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "RolePosition": {
-          "X": 0.0,
-          "Y": 0.0,
-          "Z": 0.0
-        },
-        "RoleRotator": {
-          "X": 0.0,
-          "Y": 0.0,
-          "Z": 0.0
-        },
-        "CameraPosition": {
-          "X": 0.0,
-          "Y": 0.0,
-          "Z": 0.0
-        },
-        "CameraRotator": {
-          "X": 0.0,
-          "Y": 0.0,
-          "Z": 0.0
-        },
-        "SequenceAsset": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "BgAkEvent": {
-          "AssetPathName": "/Game/WwiseAssets/AkEvent/Bgm_Date_HuiXing_Theme.Bgm_Date_HuiXing_Theme",
-          "SubPathString": ""
-        },
-        "RolePerformanceList": [
-          {
-            "Key": "1",
-            "Value": {
-              "RoleId": 146,
-              "IsHidden": false,
-              "AnimationAsset": {
-                "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/HuiXing/S201/Animations/Apartment/AS_HuiXing_Talking_Panic_End_Montage.AS_HuiXing_Talking_Panic_End_Montage",
-                "SubPathString": ""
-              },
-              "Pos": {
-                "X": 56309.0,
-                "Y": 59083.0,
-                "Z": 1415.0
-              },
-              "Rotator": {
-                "X": 0.0,
-                "Y": 0.0,
-                "Z": 60.0
-              },
-              "BlendInTime": 0.0,
-              "IsShowWave": false,
-              "IsShowBlack": false,
-              "WeaponId": 0,
-              "IsSmoothTransition": false,
-              "Is2D": false,
-              "TextureAsset": {
-                "AssetPathName": "None",
-                "SubPathString": ""
-              },
-              "StringParam1": ""
-            }
-          },
-          {
-            "Key": "2",
-            "Value": {
-              "RoleId": 101,
-              "IsHidden": false,
-              "AnimationAsset": {
-                "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/Michele/S206/Animations/Apartment/AS_Michele_Talking_Smile_Montage.AS_Michele_Talking_Smile_Montage",
-                "SubPathString": ""
-              },
-              "Pos": {
-                "X": 56249.3,
-                "Y": 59075.0,
-                "Z": 1415.0
-              },
-              "Rotator": {
-                "X": 0.0,
-                "Y": 0.0,
-                "Z": 60.0
-              },
-              "BlendInTime": 0.0,
-              "IsShowWave": false,
-              "IsShowBlack": false,
-              "WeaponId": 0,
-              "IsSmoothTransition": false,
-              "Is2D": false,
-              "TextureAsset": {
-                "AssetPathName": "None",
-                "SubPathString": ""
-              },
-              "StringParam1": ""
-            }
-          },
-          {
-            "Key": "3",
-            "Value": {
-              "RoleId": 105,
-              "IsHidden": false,
-              "AnimationAsset": {
-                "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/Audrey/S201/Animations/Apartment/AS_Audrey_Talking_Think_Montage.AS_Audrey_Talking_Think_Montage",
-                "SubPathString": ""
-              },
-              "Pos": {
-                "X": 56324.0,
-                "Y": 59025.0,
-                "Z": 1415.0
-              },
-              "Rotator": {
-                "X": 0.0,
-                "Y": 0.0,
-                "Z": 60.0
-              },
-              "BlendInTime": 0.0,
-              "IsShowWave": false,
-              "IsShowBlack": false,
-              "WeaponId": 0,
-              "IsSmoothTransition": false,
-              "Is2D": false,
-              "TextureAsset": {
-                "AssetPathName": "None",
-                "SubPathString": ""
-              },
-              "StringParam1": ""
-            }
-          }
-        ],
-        "ExtendPerformanceList": [],
-        "RemovePerformanceList": []
-      },
-      "1010": {
-        "EventId": 1010,
-        "NextEventIds": [
-          99999
-        ],
-        "EventType": "EEventType::SingleClickEvent",
-        "PrologueTitle": {
-          "CultureInvariantString": null
-        },
-        "SceneBg": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "BackgroundDistance": 250.0,
-        "RoleId": 0,
-        "IsHidden": true,
-        "IdleAnim": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "AvgAnimation": {
-          "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/HuiXing/S201/Animations/Apartment/AS_HuiXing_Center_Idle.AS_HuiXing_Center_Idle",
-          "SubPathString": ""
-        },
-        "BubbleEmotionType": "E2DEmotionType::Think",
-        "TalkerName": {
-          "CultureInvariantString": null
-        },
-        "TalkerRoleList": [
-          105
-        ],
-        "TextContext": {
-          "Namespace": "AVGEvent",
-          "Key": "Row1010_FromTalkert_Role105",
-          "SourceString": "Bgm_Date_Stop测试",
-          "LocalizedString": "Bgm_Date_Stop测试"
-        },
-        "HoldTime": 6.23,
-        "AkEvent": {
-          "AssetPathName": "/Game/WwiseAssets/AkEvent/Vox_Huixing_BPCHAR_027.Vox_Huixing_BPCHAR_027",
-          "SubPathString": ""
-        },
-        "AkLibSyncCh": {
-          "AssetPathName": "/Game/WwiseAssets/AkLipSync/Chinese/Vox_Huixing_BPCHAR_027.Vox_Huixing_BPCHAR_027",
-          "SubPathString": ""
-        },
-        "AkLibSyncJp": {
-          "AssetPathName": "/Game/WwiseAssets/AkLipSync/Japanese/Vox_Huixing_BPCHAR_027.Vox_Huixing_BPCHAR_027",
-          "SubPathString": ""
-        },
-        "RolePosition": {
-          "X": 56284.0,
-          "Y": 59083.0,
-          "Z": 1415.0
-        },
-        "RoleRotator": {
-          "X": 0.0,
-          "Y": 0.0,
-          "Z": 0.0
-        },
-        "CameraPosition": {
-          "X": 0.0,
-          "Y": 0.0,
-          "Z": 0.0
-        },
-        "CameraRotator": {
-          "X": 0.0,
-          "Y": 0.0,
-          "Z": 0.0
-        },
-        "SequenceAsset": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "BgAkEvent": {
-          "AssetPathName": "/Game/WwiseAssets/AkEvent/Bgm_Date_Stop.Bgm_Date_Stop",
-          "SubPathString": ""
-        },
-        "RolePerformanceList": [
-          {
-            "Key": "1",
-            "Value": {
-              "RoleId": 146,
-              "IsHidden": false,
-              "AnimationAsset": {
-                "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/HuiXing/S201/Animations/Apartment/AS_HuiXing_Center_Idle.AS_HuiXing_Center_Idle",
-                "SubPathString": ""
-              },
-              "Pos": {
-                "X": 56284.0,
-                "Y": 59083.0,
-                "Z": 1415.0
-              },
-              "Rotator": {
-                "X": 0.0,
-                "Y": 0.0,
-                "Z": 0.0
-              },
-              "BlendInTime": 0.25,
-              "IsShowWave": false,
-              "IsShowBlack": false,
-              "WeaponId": 0,
-              "IsSmoothTransition": false,
-              "Is2D": false,
-              "TextureAsset": {
-                "AssetPathName": "None",
-                "SubPathString": ""
-              },
-              "StringParam1": ""
-            }
-          },
-          {
-            "Key": "2",
-            "Value": {
-              "RoleId": 101,
-              "IsHidden": true,
-              "AnimationAsset": {
-                "AssetPathName": "None",
-                "SubPathString": ""
-              },
-              "Pos": {
-                "X": 0.0,
-                "Y": 0.0,
-                "Z": 0.0
-              },
-              "Rotator": {
-                "X": 0.0,
-                "Y": 0.0,
-                "Z": 0.0
-              },
-              "BlendInTime": 0.25,
-              "IsShowWave": false,
-              "IsShowBlack": false,
-              "WeaponId": 0,
-              "IsSmoothTransition": false,
-              "Is2D": false,
-              "TextureAsset": {
-                "AssetPathName": "None",
-                "SubPathString": ""
-              },
-              "StringParam1": ""
-            }
-          },
-          {
-            "Key": "3",
-            "Value": {
-              "RoleId": 105,
-              "IsHidden": false,
-              "AnimationAsset": {
-                "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/Michele/S201/Animations/Apartment/AS_Michele_Talking_NoNoNo_Montage.AS_Michele_Talking_NoNoNo_Montage",
-                "SubPathString": ""
-              },
-              "Pos": {
-                "X": 56343.6,
-                "Y": 59091.0,
-                "Z": 1415.0
-              },
-              "Rotator": {
-                "X": 0.0,
-                "Y": 0.0,
-                "Z": 0.0
-              },
-              "BlendInTime": 0.25,
-              "IsShowWave": false,
-              "IsShowBlack": false,
-              "WeaponId": 0,
-              "IsSmoothTransition": false,
-              "Is2D": false,
-              "TextureAsset": {
-                "AssetPathName": "None",
-                "SubPathString": ""
-              },
-              "StringParam1": ""
-            }
-          }
-        ],
-        "ExtendPerformanceList": [],
-        "RemovePerformanceList": []
-      },
-      "1011": {
-        "EventId": 1011,
-        "NextEventIds": [
-          1012
-        ],
-        "EventType": "EEventType::NormalEvent",
-        "PrologueTitle": {
-          "CultureInvariantString": null
-        },
-        "SceneBg": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "BackgroundDistance": 0.0,
-        "RoleId": 0,
-        "IsHidden": false,
-        "IdleAnim": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "AvgAnimation": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "BubbleEmotionType": "E2DEmotionType::None",
-        "TalkerName": {
-          "CultureInvariantString": null
-        },
-        "TalkerRoleList": [],
-        "TextContext": {
-          "CultureInvariantString": null
-        },
-        "HoldTime": 2.0,
-        "AkEvent": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "AkLibSyncCh": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "AkLibSyncJp": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "RolePosition": {
-          "X": 0.0,
-          "Y": 0.0,
-          "Z": 0.0
-        },
-        "RoleRotator": {
-          "X": 0.0,
-          "Y": 0.0,
-          "Z": 0.0
-        },
-        "CameraPosition": {
-          "X": 0.0,
-          "Y": 0.0,
-          "Z": 0.0
-        },
-        "CameraRotator": {
-          "X": 0.0,
-          "Y": 0.0,
-          "Z": 0.0
-        },
-        "SequenceAsset": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "BgAkEvent": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "RolePerformanceList": [],
-        "ExtendPerformanceList": [
-          {
-            "Type": "EPerformanceType::BlackPrologue",
-            "StringParam": "2.0",
-            "TextParam": {
-              "Namespace": "AVGEvent",
-              "Key": "1011_ExtendPerformanceList_Index0_TextParam",
-              "SourceString": "发沙发沙发大撒旦飞洒德国萨格",
-              "LocalizedString": "发沙发沙发大撒旦飞洒德国萨格"
             },
-            "AssetPath": {
+            "StringParam1": ""
+          }
+        },
+        {
+          "Key": "2",
+          "Value": {
+            "RoleId": 101,
+            "IsHidden": false,
+            "AnimationAsset": {
+              "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/Michele/S206/Animations/Apartment/AS_Michele_Talking_Smile_Montage.AS_Michele_Talking_Smile_Montage",
+              "SubPathString": ""
+            },
+            "Pos": {
+              "X": 56249.3,
+              "Y": 59075.0,
+              "Z": 1415.0
+            },
+            "Rotator": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 60.0
+            },
+            "BlendInTime": 0.0,
+            "IsShowWave": false,
+            "IsShowBlack": false,
+            "WeaponId": 0,
+            "IsSmoothTransition": false,
+            "Is2D": false,
+            "TextureAsset": {
               "AssetPathName": "None",
               "SubPathString": ""
-            }
-          }
-        ],
-        "RemovePerformanceList": []
-      },
-      "1012": {
-        "EventId": 1012,
-        "NextEventIds": [
-          1013
-        ],
-        "EventType": "EEventType::NormalEvent",
-        "PrologueTitle": {
-          "CultureInvariantString": null
-        },
-        "SceneBg": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "BackgroundDistance": 0.0,
-        "RoleId": 0,
-        "IsHidden": false,
-        "IdleAnim": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "AvgAnimation": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "BubbleEmotionType": "E2DEmotionType::None",
-        "TalkerName": {
-          "CultureInvariantString": null
-        },
-        "TalkerRoleList": [],
-        "TextContext": {
-          "CultureInvariantString": null
-        },
-        "HoldTime": 2.0,
-        "AkEvent": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "AkLibSyncCh": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "AkLibSyncJp": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "RolePosition": {
-          "X": 0.0,
-          "Y": 0.0,
-          "Z": 0.0
-        },
-        "RoleRotator": {
-          "X": 0.0,
-          "Y": 0.0,
-          "Z": 0.0
-        },
-        "CameraPosition": {
-          "X": 0.0,
-          "Y": 0.0,
-          "Z": 0.0
-        },
-        "CameraRotator": {
-          "X": 0.0,
-          "Y": 0.0,
-          "Z": 0.0
-        },
-        "SequenceAsset": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "BgAkEvent": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "RolePerformanceList": [],
-        "ExtendPerformanceList": [
-          {
-            "Type": "EPerformanceType::BlackPrologue",
-            "StringParam": "2.0",
-            "TextParam": {
-              "Namespace": "AVGEvent",
-              "Key": "1012_ExtendPerformanceList_Index0_TextParam",
-              "SourceString": "如今，构造体与指挥官们，你们所作出的勇敢选择将成为重新点燃这片黑夜的最珍贵的星火",
-              "LocalizedString": "如今，构造体与指挥官们，你们所作出的勇敢选择将成为重新点燃这片黑夜的最珍贵的星火"
             },
-            "AssetPath": {
+            "StringParam1": ""
+          }
+        },
+        {
+          "Key": "3",
+          "Value": {
+            "RoleId": 105,
+            "IsHidden": false,
+            "AnimationAsset": {
+              "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/Audrey/S201/Animations/Apartment/AS_Audrey_Talking_Think_Montage.AS_Audrey_Talking_Think_Montage",
+              "SubPathString": ""
+            },
+            "Pos": {
+              "X": 56324.0,
+              "Y": 59025.0,
+              "Z": 1415.0
+            },
+            "Rotator": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 60.0
+            },
+            "BlendInTime": 0.0,
+            "IsShowWave": false,
+            "IsShowBlack": false,
+            "WeaponId": 0,
+            "IsSmoothTransition": false,
+            "Is2D": false,
+            "TextureAsset": {
               "AssetPathName": "None",
               "SubPathString": ""
-            }
-          }
-        ],
-        "RemovePerformanceList": []
-      },
-      "1013": {
-        "EventId": 1013,
-        "NextEventIds": [
-          1014
-        ],
-        "EventType": "EEventType::NormalEvent",
-        "PrologueTitle": {
-          "CultureInvariantString": null
-        },
-        "SceneBg": {
-          "AssetPathName": "/Game/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultBlack_Gamma.T_DefaultBlack_Gamma",
-          "SubPathString": ""
-        },
-        "BackgroundDistance": 0.0,
-        "RoleId": 0,
-        "IsHidden": false,
-        "IdleAnim": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "AvgAnimation": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "BubbleEmotionType": "E2DEmotionType::None",
-        "TalkerName": {
-          "CultureInvariantString": null
-        },
-        "TalkerRoleList": [],
-        "TextContext": {
-          "CultureInvariantString": null
-        },
-        "HoldTime": 1.0,
-        "AkEvent": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "AkLibSyncCh": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "AkLibSyncJp": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "RolePosition": {
-          "X": 0.0,
-          "Y": 0.0,
-          "Z": 0.0
-        },
-        "RoleRotator": {
-          "X": 0.0,
-          "Y": 0.0,
-          "Z": 0.0
-        },
-        "CameraPosition": {
-          "X": 56410.875,
-          "Y": 59239.645,
-          "Z": 1452.8658
-        },
-        "CameraRotator": {
-          "X": 5.4E-05,
-          "Y": 0.998341,
-          "Z": 596.39813
-        },
-        "SequenceAsset": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "BgAkEvent": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "RolePerformanceList": [],
-        "ExtendPerformanceList": [
-          {
-            "Type": "EPerformanceType::UIParticle",
-            "StringParam": "1",
-            "TextParam": {
-              "CultureInvariantString": null
             },
-            "AssetPath": {
+            "StringParam1": ""
+          }
+        }
+      ],
+      "ExtendPerformanceList": [],
+      "RemovePerformanceList": []
+    },
+    "1010": {
+      "EventId": 1010,
+      "NextEventIds": [
+        99999
+      ],
+      "EventType": "EEventType::SingleClickEvent",
+      "PrologueTitle": {
+        "CultureInvariantString": null
+      },
+      "SceneBg": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "BackgroundDistance": 250.0,
+      "RoleId": 0,
+      "IsHidden": true,
+      "IdleAnim": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "AvgAnimation": {
+        "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/HuiXing/S201/Animations/Apartment/AS_HuiXing_Center_Idle.AS_HuiXing_Center_Idle",
+        "SubPathString": ""
+      },
+      "BubbleEmotionType": "E2DEmotionType::Think",
+      "TalkerName": {
+        "CultureInvariantString": null
+      },
+      "TalkerRoleList": [
+        105
+      ],
+      "TextContext": {
+        "Namespace": "AVGEvent",
+        "Key": "Row1010_FromTalkert_Role105",
+        "SourceString": "Bgm_Date_Stop测试",
+        "LocalizedString": "Bgm_Date_Stop测试"
+      },
+      "HoldTime": 6.23,
+      "AkEvent": {
+        "AssetPathName": "/Game/WwiseAssets/AkEvent/Vox_Huixing_BPCHAR_027.Vox_Huixing_BPCHAR_027",
+        "SubPathString": ""
+      },
+      "AkLibSyncCh": {
+        "AssetPathName": "/Game/WwiseAssets/AkLipSync/Chinese/Vox_Huixing_BPCHAR_027.Vox_Huixing_BPCHAR_027",
+        "SubPathString": ""
+      },
+      "AkLibSyncJp": {
+        "AssetPathName": "/Game/WwiseAssets/AkLipSync/Japanese/Vox_Huixing_BPCHAR_027.Vox_Huixing_BPCHAR_027",
+        "SubPathString": ""
+      },
+      "RolePosition": {
+        "X": 56284.0,
+        "Y": 59083.0,
+        "Z": 1415.0
+      },
+      "RoleRotator": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "CameraPosition": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "CameraRotator": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SequenceAsset": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "BgAkEvent": {
+        "AssetPathName": "/Game/WwiseAssets/AkEvent/Bgm_Date_Stop.Bgm_Date_Stop",
+        "SubPathString": ""
+      },
+      "RolePerformanceList": [
+        {
+          "Key": "1",
+          "Value": {
+            "RoleId": 146,
+            "IsHidden": false,
+            "AnimationAsset": {
+              "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/HuiXing/S201/Animations/Apartment/AS_HuiXing_Center_Idle.AS_HuiXing_Center_Idle",
+              "SubPathString": ""
+            },
+            "Pos": {
+              "X": 56284.0,
+              "Y": 59083.0,
+              "Z": 1415.0
+            },
+            "Rotator": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "BlendInTime": 0.25,
+            "IsShowWave": false,
+            "IsShowBlack": false,
+            "WeaponId": 0,
+            "IsSmoothTransition": false,
+            "Is2D": false,
+            "TextureAsset": {
               "AssetPathName": "None",
               "SubPathString": ""
-            }
-          }
-        ],
-        "RemovePerformanceList": [
-          "EPerformanceType::BlackPrologue"
-        ]
-      },
-      "1014": {
-        "EventId": 1014,
-        "NextEventIds": [
-          1015
-        ],
-        "EventType": "EEventType::NormalEvent",
-        "PrologueTitle": {
-          "CultureInvariantString": null
-        },
-        "SceneBg": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "BackgroundDistance": 0.0,
-        "RoleId": 0,
-        "IsHidden": false,
-        "IdleAnim": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "AvgAnimation": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "BubbleEmotionType": "E2DEmotionType::None",
-        "TalkerName": {
-          "CultureInvariantString": null
-        },
-        "TalkerRoleList": [],
-        "TextContext": {
-          "CultureInvariantString": null
-        },
-        "HoldTime": 13.0,
-        "AkEvent": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "AkLibSyncCh": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "AkLibSyncJp": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "RolePosition": {
-          "X": 0.0,
-          "Y": 0.0,
-          "Z": 0.0
-        },
-        "RoleRotator": {
-          "X": 0.0,
-          "Y": 0.0,
-          "Z": 0.0
-        },
-        "CameraPosition": {
-          "X": 0.0,
-          "Y": 0.0,
-          "Z": 0.0
-        },
-        "CameraRotator": {
-          "X": 0.0,
-          "Y": 0.0,
-          "Z": 0.0
-        },
-        "SequenceAsset": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "BgAkEvent": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "RolePerformanceList": [],
-        "ExtendPerformanceList": [
-          {
-            "Type": "EPerformanceType::ConnectUI",
-            "StringParam": "",
-            "TextParam": {
-              "CultureInvariantString": null
             },
-            "AssetPath": {
+            "StringParam1": ""
+          }
+        },
+        {
+          "Key": "2",
+          "Value": {
+            "RoleId": 101,
+            "IsHidden": true,
+            "AnimationAsset": {
               "AssetPathName": "None",
               "SubPathString": ""
-            }
+            },
+            "Pos": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Rotator": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "BlendInTime": 0.25,
+            "IsShowWave": false,
+            "IsShowBlack": false,
+            "WeaponId": 0,
+            "IsSmoothTransition": false,
+            "Is2D": false,
+            "TextureAsset": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "StringParam1": ""
           }
-        ],
-        "RemovePerformanceList": [
-          "EPerformanceType::UIParticle"
-        ]
+        },
+        {
+          "Key": "3",
+          "Value": {
+            "RoleId": 105,
+            "IsHidden": false,
+            "AnimationAsset": {
+              "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/Michele/S201/Animations/Apartment/AS_Michele_Talking_NoNoNo_Montage.AS_Michele_Talking_NoNoNo_Montage",
+              "SubPathString": ""
+            },
+            "Pos": {
+              "X": 56343.6,
+              "Y": 59091.0,
+              "Z": 1415.0
+            },
+            "Rotator": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "BlendInTime": 0.25,
+            "IsShowWave": false,
+            "IsShowBlack": false,
+            "WeaponId": 0,
+            "IsSmoothTransition": false,
+            "Is2D": false,
+            "TextureAsset": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "StringParam1": ""
+          }
+        }
+      ],
+      "ExtendPerformanceList": [],
+      "RemovePerformanceList": []
+    },
+    "1011": {
+      "EventId": 1011,
+      "NextEventIds": [
+        1012
+      ],
+      "EventType": "EEventType::NormalEvent",
+      "PrologueTitle": {
+        "CultureInvariantString": null
       },
-      "1015": {
-        "EventId": 1015,
-        "NextEventIds": [
-          1016
-        ],
-        "EventType": "EEventType::SingleClickEvent",
-        "PrologueTitle": {
-          "CultureInvariantString": null
-        },
-        "SceneBg": {
-          "AssetPathName": "/Game/PaperMan/Environment/Textures/Maps/Apartment/Background/T_Evni_Background_01_O.T_Evni_Background_01_O",
-          "SubPathString": ""
-        },
-        "BackgroundDistance": 0.0,
-        "RoleId": 0,
-        "IsHidden": false,
-        "IdleAnim": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "AvgAnimation": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "BubbleEmotionType": "E2DEmotionType::None",
-        "TalkerName": {
-          "CultureInvariantString": null
-        },
-        "TalkerRoleList": [
-          146
-        ],
-        "TextContext": {
-          "Namespace": "AVGEvent",
-          "Key": "Row1015_FromTalkert_Role146",
-          "SourceString": "测试角色波纹效果及闪电特效",
-          "LocalizedString": "测试角色波纹效果及闪电特效"
-        },
-        "HoldTime": 2.0,
-        "AkEvent": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "AkLibSyncCh": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "AkLibSyncJp": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "RolePosition": {
-          "X": 0.0,
-          "Y": 0.0,
-          "Z": 0.0
-        },
-        "RoleRotator": {
-          "X": 0.0,
-          "Y": 0.0,
-          "Z": 0.0
-        },
-        "CameraPosition": {
-          "X": 0.0,
-          "Y": 0.0,
-          "Z": 0.0
-        },
-        "CameraRotator": {
-          "X": 0.0,
-          "Y": 0.0,
-          "Z": 0.0
-        },
-        "SequenceAsset": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "BgAkEvent": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "RolePerformanceList": [
-          {
-            "Key": "1",
-            "Value": {
-              "RoleId": 101,
-              "IsHidden": false,
-              "AnimationAsset": {
-                "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/Michele/S201/Animations/Apartment/AS_Michele_Center_Idle.AS_Michele_Center_Idle",
-                "SubPathString": ""
-              },
-              "Pos": {
-                "X": 56274.0,
-                "Y": 59083.0,
-                "Z": 1415.0
-              },
-              "Rotator": {
-                "X": 0.0,
-                "Y": 0.0,
-                "Z": 60.0
-              },
-              "BlendInTime": 0.0,
-              "IsShowWave": true,
-              "IsShowBlack": false,
-              "WeaponId": 0,
-              "IsSmoothTransition": false,
-              "Is2D": false,
-              "TextureAsset": {
-                "AssetPathName": "None",
-                "SubPathString": ""
-              },
-              "StringParam1": ""
-            }
+      "SceneBg": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "BackgroundDistance": 0.0,
+      "RoleId": 0,
+      "IsHidden": false,
+      "IdleAnim": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "AvgAnimation": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "BubbleEmotionType": "E2DEmotionType::None",
+      "TalkerName": {
+        "CultureInvariantString": null
+      },
+      "TalkerRoleList": [],
+      "TextContext": {
+        "CultureInvariantString": null
+      },
+      "HoldTime": 2.0,
+      "AkEvent": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "AkLibSyncCh": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "AkLibSyncJp": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "RolePosition": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "RoleRotator": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "CameraPosition": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "CameraRotator": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SequenceAsset": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "BgAkEvent": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "RolePerformanceList": [],
+      "ExtendPerformanceList": [
+        {
+          "Type": "EPerformanceType::BlackPrologue",
+          "StringParam": "2.0",
+          "TextParam": {
+            "Namespace": "AVGEvent",
+            "Key": "1011_ExtendPerformanceList_Index0_TextParam",
+            "SourceString": "发沙发沙发大撒旦飞洒德国萨格",
+            "LocalizedString": "发沙发沙发大撒旦飞洒德国萨格"
           },
-          {
-            "Key": "2",
-            "Value": {
-              "RoleId": 146,
-              "IsHidden": false,
-              "AnimationAsset": {
-                "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/HuiXing/S201/Animations/Apartment/AS_HuiXing_Talking_Sad.AS_HuiXing_Talking_Sad",
-                "SubPathString": ""
-              },
-              "Pos": {
-                "X": 56343.6,
-                "Y": 59091.0,
-                "Z": 1415.0
-              },
-              "Rotator": {
-                "X": 0.0,
-                "Y": 0.0,
-                "Z": 60.0
-              },
-              "BlendInTime": 0.0,
-              "IsShowWave": false,
-              "IsShowBlack": false,
-              "WeaponId": 0,
-              "IsSmoothTransition": false,
-              "Is2D": false,
-              "TextureAsset": {
-                "AssetPathName": "None",
-                "SubPathString": ""
-              },
-              "StringParam1": ""
-            }
+          "AssetPath": {
+            "AssetPathName": "None",
+            "SubPathString": ""
           }
-        ],
-        "ExtendPerformanceList": [
-          {
-            "Type": "EPerformanceType::PostProcess",
-            "StringParam": "",
-            "TextParam": {
-              "CultureInvariantString": null
-            },
-            "AssetPath": {
-              "AssetPathName": "/Game/PaperMan/Cinematics/CineAssets/Materials/PostProcess/MI_FlashingNoise.MI_FlashingNoise",
-              "SubPathString": ""
-            }
+        }
+      ],
+      "RemovePerformanceList": []
+    },
+    "1012": {
+      "EventId": 1012,
+      "NextEventIds": [
+        1013
+      ],
+      "EventType": "EEventType::NormalEvent",
+      "PrologueTitle": {
+        "CultureInvariantString": null
+      },
+      "SceneBg": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "BackgroundDistance": 0.0,
+      "RoleId": 0,
+      "IsHidden": false,
+      "IdleAnim": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "AvgAnimation": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "BubbleEmotionType": "E2DEmotionType::None",
+      "TalkerName": {
+        "CultureInvariantString": null
+      },
+      "TalkerRoleList": [],
+      "TextContext": {
+        "CultureInvariantString": null
+      },
+      "HoldTime": 2.0,
+      "AkEvent": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "AkLibSyncCh": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "AkLibSyncJp": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "RolePosition": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "RoleRotator": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "CameraPosition": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "CameraRotator": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SequenceAsset": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "BgAkEvent": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "RolePerformanceList": [],
+      "ExtendPerformanceList": [
+        {
+          "Type": "EPerformanceType::BlackPrologue",
+          "StringParam": "2.0",
+          "TextParam": {
+            "Namespace": "AVGEvent",
+            "Key": "1012_ExtendPerformanceList_Index0_TextParam",
+            "SourceString": "如今，构造体与指挥官们，你们所作出的勇敢选择将成为重新点燃这片黑夜的最珍贵的星火",
+            "LocalizedString": "如今，构造体与指挥官们，你们所作出的勇敢选择将成为重新点燃这片黑夜的最珍贵的星火"
           },
-          {
-            "Type": "EPerformanceType::UIParticle",
-            "StringParam": "2",
-            "TextParam": {
-              "CultureInvariantString": null
+          "AssetPath": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "RemovePerformanceList": []
+    },
+    "1013": {
+      "EventId": 1013,
+      "NextEventIds": [
+        1014
+      ],
+      "EventType": "EEventType::NormalEvent",
+      "PrologueTitle": {
+        "CultureInvariantString": null
+      },
+      "SceneBg": {
+        "AssetPathName": "/Game/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultBlack_Gamma.T_DefaultBlack_Gamma",
+        "SubPathString": ""
+      },
+      "BackgroundDistance": 0.0,
+      "RoleId": 0,
+      "IsHidden": false,
+      "IdleAnim": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "AvgAnimation": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "BubbleEmotionType": "E2DEmotionType::None",
+      "TalkerName": {
+        "CultureInvariantString": null
+      },
+      "TalkerRoleList": [],
+      "TextContext": {
+        "CultureInvariantString": null
+      },
+      "HoldTime": 1.0,
+      "AkEvent": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "AkLibSyncCh": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "AkLibSyncJp": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "RolePosition": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "RoleRotator": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "CameraPosition": {
+        "X": 56410.875,
+        "Y": 59239.645,
+        "Z": 1452.8658
+      },
+      "CameraRotator": {
+        "X": 5.4E-05,
+        "Y": 0.998341,
+        "Z": 596.39813
+      },
+      "SequenceAsset": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "BgAkEvent": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "RolePerformanceList": [],
+      "ExtendPerformanceList": [
+        {
+          "Type": "EPerformanceType::UIParticle",
+          "StringParam": "1",
+          "TextParam": {
+            "CultureInvariantString": null
+          },
+          "AssetPath": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "RemovePerformanceList": [
+        "EPerformanceType::BlackPrologue"
+      ]
+    },
+    "1014": {
+      "EventId": 1014,
+      "NextEventIds": [
+        1015
+      ],
+      "EventType": "EEventType::NormalEvent",
+      "PrologueTitle": {
+        "CultureInvariantString": null
+      },
+      "SceneBg": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "BackgroundDistance": 0.0,
+      "RoleId": 0,
+      "IsHidden": false,
+      "IdleAnim": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "AvgAnimation": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "BubbleEmotionType": "E2DEmotionType::None",
+      "TalkerName": {
+        "CultureInvariantString": null
+      },
+      "TalkerRoleList": [],
+      "TextContext": {
+        "CultureInvariantString": null
+      },
+      "HoldTime": 13.0,
+      "AkEvent": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "AkLibSyncCh": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "AkLibSyncJp": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "RolePosition": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "RoleRotator": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "CameraPosition": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "CameraRotator": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SequenceAsset": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "BgAkEvent": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "RolePerformanceList": [],
+      "ExtendPerformanceList": [
+        {
+          "Type": "EPerformanceType::ConnectUI",
+          "StringParam": "",
+          "TextParam": {
+            "CultureInvariantString": null
+          },
+          "AssetPath": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "RemovePerformanceList": [
+        "EPerformanceType::UIParticle"
+      ]
+    },
+    "1015": {
+      "EventId": 1015,
+      "NextEventIds": [
+        1016
+      ],
+      "EventType": "EEventType::SingleClickEvent",
+      "PrologueTitle": {
+        "CultureInvariantString": null
+      },
+      "SceneBg": {
+        "AssetPathName": "/Game/PaperMan/Environment/Textures/Maps/Apartment/Background/T_Evni_Background_01_O.T_Evni_Background_01_O",
+        "SubPathString": ""
+      },
+      "BackgroundDistance": 0.0,
+      "RoleId": 0,
+      "IsHidden": false,
+      "IdleAnim": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "AvgAnimation": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "BubbleEmotionType": "E2DEmotionType::None",
+      "TalkerName": {
+        "CultureInvariantString": null
+      },
+      "TalkerRoleList": [
+        146
+      ],
+      "TextContext": {
+        "Namespace": "AVGEvent",
+        "Key": "Row1015_FromTalkert_Role146",
+        "SourceString": "测试角色波纹效果及闪电特效",
+        "LocalizedString": "测试角色波纹效果及闪电特效"
+      },
+      "HoldTime": 2.0,
+      "AkEvent": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "AkLibSyncCh": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "AkLibSyncJp": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "RolePosition": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "RoleRotator": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "CameraPosition": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "CameraRotator": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SequenceAsset": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "BgAkEvent": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "RolePerformanceList": [
+        {
+          "Key": "1",
+          "Value": {
+            "RoleId": 101,
+            "IsHidden": false,
+            "AnimationAsset": {
+              "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/Michele/S201/Animations/Apartment/AS_Michele_Center_Idle.AS_Michele_Center_Idle",
+              "SubPathString": ""
             },
-            "AssetPath": {
+            "Pos": {
+              "X": 56274.0,
+              "Y": 59083.0,
+              "Z": 1415.0
+            },
+            "Rotator": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 60.0
+            },
+            "BlendInTime": 0.0,
+            "IsShowWave": true,
+            "IsShowBlack": false,
+            "WeaponId": 0,
+            "IsSmoothTransition": false,
+            "Is2D": false,
+            "TextureAsset": {
               "AssetPathName": "None",
               "SubPathString": ""
-            }
-          }
-        ],
-        "RemovePerformanceList": [
-          "EPerformanceType::ConnectUI"
-        ]
-      },
-      "1016": {
-        "EventId": 1016,
-        "NextEventIds": [
-          1017
-        ],
-        "EventType": "EEventType::SingleClickEvent",
-        "PrologueTitle": {
-          "CultureInvariantString": null
-        },
-        "SceneBg": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "BackgroundDistance": 0.0,
-        "RoleId": 0,
-        "IsHidden": false,
-        "IdleAnim": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "AvgAnimation": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "BubbleEmotionType": "E2DEmotionType::None",
-        "TalkerName": {
-          "CultureInvariantString": null
-        },
-        "TalkerRoleList": [
-          101
-        ],
-        "TextContext": {
-          "Namespace": "AVGEvent",
-          "Key": "Row1016_FromTalkert_Role101",
-          "SourceString": "测试角色波纹效果2",
-          "LocalizedString": "测试角色波纹效果2"
-        },
-        "HoldTime": 2.0,
-        "AkEvent": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "AkLibSyncCh": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "AkLibSyncJp": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "RolePosition": {
-          "X": 0.0,
-          "Y": 0.0,
-          "Z": 0.0
-        },
-        "RoleRotator": {
-          "X": 0.0,
-          "Y": 0.0,
-          "Z": 0.0
-        },
-        "CameraPosition": {
-          "X": 0.0,
-          "Y": 0.0,
-          "Z": 0.0
-        },
-        "CameraRotator": {
-          "X": 0.0,
-          "Y": 0.0,
-          "Z": 0.0
-        },
-        "SequenceAsset": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "BgAkEvent": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "RolePerformanceList": [
-          {
-            "Key": "1",
-            "Value": {
-              "RoleId": 101,
-              "IsHidden": false,
-              "AnimationAsset": {
-                "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/Michele/S201/Animations/Apartment/AS_Michele_Talking_JingYa.AS_Michele_Talking_JingYa",
-                "SubPathString": ""
-              },
-              "Pos": {
-                "X": 56282.0,
-                "Y": 59083.0,
-                "Z": 1415.0
-              },
-              "Rotator": {
-                "X": 0.0,
-                "Y": 0.0,
-                "Z": 60.0
-              },
-              "BlendInTime": 0.25,
-              "IsShowWave": false,
-              "IsShowBlack": false,
-              "WeaponId": 0,
-              "IsSmoothTransition": false,
-              "Is2D": false,
-              "TextureAsset": {
-                "AssetPathName": "None",
-                "SubPathString": ""
-              },
-              "StringParam1": ""
-            }
-          },
-          {
-            "Key": "2",
-            "Value": {
-              "RoleId": 146,
-              "IsHidden": false,
-              "AnimationAsset": {
-                "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/HuiXing/S201/Animations/Apartment/AS_HuiXing_Talking_Scare.AS_HuiXing_Talking_Scare",
-                "SubPathString": ""
-              },
-              "Pos": {
-                "X": 56316.0,
-                "Y": 59047.0,
-                "Z": 1415.0
-              },
-              "Rotator": {
-                "X": 0.0,
-                "Y": 0.0,
-                "Z": 60.0
-              },
-              "BlendInTime": 0.25,
-              "IsShowWave": true,
-              "IsShowBlack": false,
-              "WeaponId": 0,
-              "IsSmoothTransition": false,
-              "Is2D": false,
-              "TextureAsset": {
-                "AssetPathName": "None",
-                "SubPathString": ""
-              },
-              "StringParam1": ""
-            }
-          }
-        ],
-        "ExtendPerformanceList": [],
-        "RemovePerformanceList": [
-          "EPerformanceType::UIParticle"
-        ]
-      },
-      "1017": {
-        "EventId": 1017,
-        "NextEventIds": [
-          1018
-        ],
-        "EventType": "EEventType::NormalEvent",
-        "PrologueTitle": {
-          "CultureInvariantString": null
-        },
-        "SceneBg": {
-          "AssetPathName": "/Game/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultBlack_Gamma.T_DefaultBlack_Gamma",
-          "SubPathString": ""
-        },
-        "BackgroundDistance": 0.0,
-        "RoleId": 0,
-        "IsHidden": false,
-        "IdleAnim": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "AvgAnimation": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "BubbleEmotionType": "E2DEmotionType::None",
-        "TalkerName": {
-          "CultureInvariantString": null
-        },
-        "TalkerRoleList": [],
-        "TextContext": {
-          "CultureInvariantString": null
-        },
-        "HoldTime": 0.5,
-        "AkEvent": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "AkLibSyncCh": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "AkLibSyncJp": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "RolePosition": {
-          "X": 0.0,
-          "Y": 0.0,
-          "Z": 0.0
-        },
-        "RoleRotator": {
-          "X": 0.0,
-          "Y": 0.0,
-          "Z": 0.0
-        },
-        "CameraPosition": {
-          "X": 0.0,
-          "Y": 0.0,
-          "Z": 0.0
-        },
-        "CameraRotator": {
-          "X": 0.0,
-          "Y": 0.0,
-          "Z": 0.0
-        },
-        "SequenceAsset": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "BgAkEvent": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "RolePerformanceList": [
-          {
-            "Key": "1",
-            "Value": {
-              "RoleId": 101,
-              "IsHidden": true,
-              "AnimationAsset": {
-                "AssetPathName": "None",
-                "SubPathString": ""
-              },
-              "Pos": {
-                "X": 0.0,
-                "Y": 0.0,
-                "Z": 0.0
-              },
-              "Rotator": {
-                "X": 0.0,
-                "Y": 0.0,
-                "Z": 0.0
-              },
-              "BlendInTime": 0.25,
-              "IsShowWave": false,
-              "IsShowBlack": false,
-              "WeaponId": 0,
-              "IsSmoothTransition": false,
-              "Is2D": false,
-              "TextureAsset": {
-                "AssetPathName": "None",
-                "SubPathString": ""
-              },
-              "StringParam1": ""
-            }
-          },
-          {
-            "Key": "2",
-            "Value": {
-              "RoleId": 146,
-              "IsHidden": true,
-              "AnimationAsset": {
-                "AssetPathName": "None",
-                "SubPathString": ""
-              },
-              "Pos": {
-                "X": 0.0,
-                "Y": 0.0,
-                "Z": 0.0
-              },
-              "Rotator": {
-                "X": 0.0,
-                "Y": 0.0,
-                "Z": 0.0
-              },
-              "BlendInTime": 0.25,
-              "IsShowWave": false,
-              "IsShowBlack": false,
-              "WeaponId": 0,
-              "IsSmoothTransition": false,
-              "Is2D": false,
-              "TextureAsset": {
-                "AssetPathName": "None",
-                "SubPathString": ""
-              },
-              "StringParam1": ""
-            }
-          }
-        ],
-        "ExtendPerformanceList": [],
-        "RemovePerformanceList": [
-          "EPerformanceType::PostProcess"
-        ]
-      },
-      "1018": {
-        "EventId": 1018,
-        "NextEventIds": [
-          1019
-        ],
-        "EventType": "EEventType::SingleClickEvent",
-        "PrologueTitle": {
-          "CultureInvariantString": null
-        },
-        "SceneBg": {
-          "AssetPathName": "/Game/PaperMan/Environment/Textures/Maps/Apartment/Background/T_Evni_Background_01_E.T_Evni_Background_01_E",
-          "SubPathString": ""
-        },
-        "BackgroundDistance": 0.0,
-        "RoleId": 0,
-        "IsHidden": false,
-        "IdleAnim": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "AvgAnimation": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "BubbleEmotionType": "E2DEmotionType::None",
-        "TalkerName": {
-          "CultureInvariantString": null
-        },
-        "TalkerRoleList": [
-          146
-        ],
-        "TextContext": {
-          "Namespace": "AVGEvent",
-          "Key": "Row1018_FromTalkert_Role146",
-          "SourceString": "测试角色加剪影效果",
-          "LocalizedString": "测试角色加剪影效果"
-        },
-        "HoldTime": 2.0,
-        "AkEvent": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "AkLibSyncCh": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "AkLibSyncJp": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "RolePosition": {
-          "X": 0.0,
-          "Y": 0.0,
-          "Z": 0.0
-        },
-        "RoleRotator": {
-          "X": 0.0,
-          "Y": 0.0,
-          "Z": 0.0
-        },
-        "CameraPosition": {
-          "X": 0.0,
-          "Y": 0.0,
-          "Z": 0.0
-        },
-        "CameraRotator": {
-          "X": 0.0,
-          "Y": 0.0,
-          "Z": 0.0
-        },
-        "SequenceAsset": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "BgAkEvent": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "RolePerformanceList": [
-          {
-            "Key": "1",
-            "Value": {
-              "RoleId": 146,
-              "IsHidden": false,
-              "AnimationAsset": {
-                "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/HuiXing/S201/Animations/Apartment/AS_HuiXing_Talking_HaQian_Montage.AS_HuiXing_Talking_HaQian_Montage",
-                "SubPathString": ""
-              },
-              "Pos": {
-                "X": 56309.0,
-                "Y": 59083.0,
-                "Z": 1415.0
-              },
-              "Rotator": {
-                "X": 0.0,
-                "Y": 0.0,
-                "Z": 56.0
-              },
-              "BlendInTime": 0.0,
-              "IsShowWave": false,
-              "IsShowBlack": true,
-              "WeaponId": 0,
-              "IsSmoothTransition": false,
-              "Is2D": false,
-              "TextureAsset": {
-                "AssetPathName": "None",
-                "SubPathString": ""
-              },
-              "StringParam1": ""
-            }
-          }
-        ],
-        "ExtendPerformanceList": [],
-        "RemovePerformanceList": []
-      },
-      "1019": {
-        "EventId": 1019,
-        "NextEventIds": [
-          1020
-        ],
-        "EventType": "EEventType::SingleClickEvent",
-        "PrologueTitle": {
-          "CultureInvariantString": null
-        },
-        "SceneBg": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "BackgroundDistance": 0.0,
-        "RoleId": 0,
-        "IsHidden": false,
-        "IdleAnim": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "AvgAnimation": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "BubbleEmotionType": "E2DEmotionType::None",
-        "TalkerName": {
-          "CultureInvariantString": null
-        },
-        "TalkerRoleList": [
-          146
-        ],
-        "TextContext": {
-          "Namespace": "AVGEvent",
-          "Key": "Row1019_FromTalkert_Role146",
-          "SourceString": "测试移除剪影效果",
-          "LocalizedString": "测试移除剪影效果"
-        },
-        "HoldTime": 2.0,
-        "AkEvent": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "AkLibSyncCh": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "AkLibSyncJp": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "RolePosition": {
-          "X": 0.0,
-          "Y": 0.0,
-          "Z": 0.0
-        },
-        "RoleRotator": {
-          "X": 0.0,
-          "Y": 0.0,
-          "Z": 0.0
-        },
-        "CameraPosition": {
-          "X": 0.0,
-          "Y": 0.0,
-          "Z": 0.0
-        },
-        "CameraRotator": {
-          "X": 0.0,
-          "Y": 0.0,
-          "Z": 0.0
-        },
-        "SequenceAsset": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "BgAkEvent": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "RolePerformanceList": [
-          {
-            "Key": "1",
-            "Value": {
-              "RoleId": 146,
-              "IsHidden": false,
-              "AnimationAsset": {
-                "AssetPathName": "None",
-                "SubPathString": ""
-              },
-              "Pos": {
-                "X": 0.0,
-                "Y": 0.0,
-                "Z": 0.0
-              },
-              "Rotator": {
-                "X": 0.0,
-                "Y": 0.0,
-                "Z": 0.0
-              },
-              "BlendInTime": 0.25,
-              "IsShowWave": false,
-              "IsShowBlack": false,
-              "WeaponId": 0,
-              "IsSmoothTransition": false,
-              "Is2D": false,
-              "TextureAsset": {
-                "AssetPathName": "None",
-                "SubPathString": ""
-              },
-              "StringParam1": ""
-            }
-          }
-        ],
-        "ExtendPerformanceList": [],
-        "RemovePerformanceList": []
-      },
-      "1020": {
-        "EventId": 1020,
-        "NextEventIds": [
-          1021
-        ],
-        "EventType": "EEventType::SingleClickEvent",
-        "PrologueTitle": {
-          "CultureInvariantString": null
-        },
-        "SceneBg": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "BackgroundDistance": 0.0,
-        "RoleId": 0,
-        "IsHidden": false,
-        "IdleAnim": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "AvgAnimation": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "BubbleEmotionType": "E2DEmotionType::None",
-        "TalkerName": {
-          "CultureInvariantString": null
-        },
-        "TalkerRoleList": [
-          146
-        ],
-        "TextContext": {
-          "Namespace": "AVGEvent",
-          "Key": "Row1020_FromTalkert_Role146",
-          "SourceString": "测试场景黄色滤镜",
-          "LocalizedString": "测试场景黄色滤镜"
-        },
-        "HoldTime": 2.0,
-        "AkEvent": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "AkLibSyncCh": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "AkLibSyncJp": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "RolePosition": {
-          "X": 0.0,
-          "Y": 0.0,
-          "Z": 0.0
-        },
-        "RoleRotator": {
-          "X": 0.0,
-          "Y": 0.0,
-          "Z": 0.0
-        },
-        "CameraPosition": {
-          "X": 0.0,
-          "Y": 0.0,
-          "Z": 0.0
-        },
-        "CameraRotator": {
-          "X": 0.0,
-          "Y": 0.0,
-          "Z": 0.0
-        },
-        "SequenceAsset": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "BgAkEvent": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "RolePerformanceList": [
-          {
-            "Key": "1",
-            "Value": {
-              "RoleId": 146,
-              "IsHidden": false,
-              "AnimationAsset": {
-                "AssetPathName": "None",
-                "SubPathString": ""
-              },
-              "Pos": {
-                "X": 0.0,
-                "Y": 0.0,
-                "Z": 0.0
-              },
-              "Rotator": {
-                "X": 0.0,
-                "Y": 0.0,
-                "Z": 0.0
-              },
-              "BlendInTime": 0.25,
-              "IsShowWave": false,
-              "IsShowBlack": false,
-              "WeaponId": 0,
-              "IsSmoothTransition": false,
-              "Is2D": false,
-              "TextureAsset": {
-                "AssetPathName": "None",
-                "SubPathString": ""
-              },
-              "StringParam1": ""
-            }
-          }
-        ],
-        "ExtendPerformanceList": [
-          {
-            "Type": "EPerformanceType::SceneColor",
-            "StringParam": "#E1C16E",
-            "TextParam": {
-              "CultureInvariantString": null
             },
-            "AssetPath": {
+            "StringParam1": ""
+          }
+        },
+        {
+          "Key": "2",
+          "Value": {
+            "RoleId": 146,
+            "IsHidden": false,
+            "AnimationAsset": {
+              "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/HuiXing/S201/Animations/Apartment/AS_HuiXing_Talking_Sad.AS_HuiXing_Talking_Sad",
+              "SubPathString": ""
+            },
+            "Pos": {
+              "X": 56343.6,
+              "Y": 59091.0,
+              "Z": 1415.0
+            },
+            "Rotator": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 60.0
+            },
+            "BlendInTime": 0.0,
+            "IsShowWave": false,
+            "IsShowBlack": false,
+            "WeaponId": 0,
+            "IsSmoothTransition": false,
+            "Is2D": false,
+            "TextureAsset": {
               "AssetPathName": "None",
               "SubPathString": ""
-            }
-          }
-        ],
-        "RemovePerformanceList": []
-      },
-      "1021": {
-        "EventId": 1021,
-        "NextEventIds": [
-          1022
-        ],
-        "EventType": "EEventType::SingleClickEvent",
-        "PrologueTitle": {
-          "CultureInvariantString": null
-        },
-        "SceneBg": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "BackgroundDistance": 0.0,
-        "RoleId": 0,
-        "IsHidden": false,
-        "IdleAnim": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "AvgAnimation": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "BubbleEmotionType": "E2DEmotionType::None",
-        "TalkerName": {
-          "CultureInvariantString": null
-        },
-        "TalkerRoleList": [
-          105001
-        ],
-        "TextContext": {
-          "Namespace": "AVGEvent",
-          "Key": "Row1021_FromTalkert_Role105001",
-          "SourceString": "测试远程通讯1：你好你好你好",
-          "LocalizedString": "测试远程通讯1：你好你好你好"
-        },
-        "HoldTime": 2.0,
-        "AkEvent": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "AkLibSyncCh": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "AkLibSyncJp": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "RolePosition": {
-          "X": 0.0,
-          "Y": 0.0,
-          "Z": 0.0
-        },
-        "RoleRotator": {
-          "X": 0.0,
-          "Y": 0.0,
-          "Z": 0.0
-        },
-        "CameraPosition": {
-          "X": 0.0,
-          "Y": 0.0,
-          "Z": 0.0
-        },
-        "CameraRotator": {
-          "X": 0.0,
-          "Y": 0.0,
-          "Z": 0.0
-        },
-        "SequenceAsset": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "BgAkEvent": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "RolePerformanceList": [
-          {
-            "Key": "1",
-            "Value": {
-              "RoleId": 146,
-              "IsHidden": false,
-              "AnimationAsset": {
-                "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/HuiXing/S201/Animations/Apartment/AS_HuiXing_Interaction_7_12_backIdle.AS_HuiXing_Interaction_7_12_backIdle",
-                "SubPathString": ""
-              },
-              "Pos": {
-                "X": 56262.0,
-                "Y": 59083.0,
-                "Z": 1415.0
-              },
-              "Rotator": {
-                "X": 0.0,
-                "Y": 0.0,
-                "Z": 80.0
-              },
-              "BlendInTime": 0.0,
-              "IsShowWave": false,
-              "IsShowBlack": false,
-              "WeaponId": 0,
-              "IsSmoothTransition": false,
-              "Is2D": false,
-              "TextureAsset": {
-                "AssetPathName": "None",
-                "SubPathString": ""
-              },
-              "StringParam1": ""
-            }
-          }
-        ],
-        "ExtendPerformanceList": [
-          {
-            "Type": "EPerformanceType::RemoteCommunicationUI",
-            "StringParam": "105001|105001,101001",
-            "TextParam": {
-              "CultureInvariantString": null
             },
-            "AssetPath": {
+            "StringParam1": ""
+          }
+        }
+      ],
+      "ExtendPerformanceList": [
+        {
+          "Type": "EPerformanceType::PostProcess",
+          "StringParam": "",
+          "TextParam": {
+            "CultureInvariantString": null
+          },
+          "AssetPath": {
+            "AssetPathName": "/Game/PaperMan/Cinematics/CineAssets/Materials/PostProcess/MI_FlashingNoise.MI_FlashingNoise",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Type": "EPerformanceType::UIParticle",
+          "StringParam": "2",
+          "TextParam": {
+            "CultureInvariantString": null
+          },
+          "AssetPath": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "RemovePerformanceList": [
+        "EPerformanceType::ConnectUI"
+      ]
+    },
+    "1016": {
+      "EventId": 1016,
+      "NextEventIds": [
+        1017
+      ],
+      "EventType": "EEventType::SingleClickEvent",
+      "PrologueTitle": {
+        "CultureInvariantString": null
+      },
+      "SceneBg": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "BackgroundDistance": 0.0,
+      "RoleId": 0,
+      "IsHidden": false,
+      "IdleAnim": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "AvgAnimation": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "BubbleEmotionType": "E2DEmotionType::None",
+      "TalkerName": {
+        "CultureInvariantString": null
+      },
+      "TalkerRoleList": [
+        101
+      ],
+      "TextContext": {
+        "Namespace": "AVGEvent",
+        "Key": "Row1016_FromTalkert_Role101",
+        "SourceString": "测试角色波纹效果2",
+        "LocalizedString": "测试角色波纹效果2"
+      },
+      "HoldTime": 2.0,
+      "AkEvent": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "AkLibSyncCh": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "AkLibSyncJp": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "RolePosition": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "RoleRotator": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "CameraPosition": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "CameraRotator": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SequenceAsset": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "BgAkEvent": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "RolePerformanceList": [
+        {
+          "Key": "1",
+          "Value": {
+            "RoleId": 101,
+            "IsHidden": false,
+            "AnimationAsset": {
+              "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/Michele/S201/Animations/Apartment/AS_Michele_Talking_JingYa.AS_Michele_Talking_JingYa",
+              "SubPathString": ""
+            },
+            "Pos": {
+              "X": 56282.0,
+              "Y": 59083.0,
+              "Z": 1415.0
+            },
+            "Rotator": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 60.0
+            },
+            "BlendInTime": 0.25,
+            "IsShowWave": false,
+            "IsShowBlack": false,
+            "WeaponId": 0,
+            "IsSmoothTransition": false,
+            "Is2D": false,
+            "TextureAsset": {
               "AssetPathName": "None",
               "SubPathString": ""
-            }
-          }
-        ],
-        "RemovePerformanceList": [
-          "EPerformanceType::SceneColor"
-        ]
-      },
-      "1022": {
-        "EventId": 1022,
-        "NextEventIds": [
-          1023
-        ],
-        "EventType": "EEventType::SingleClickEvent",
-        "PrologueTitle": {
-          "CultureInvariantString": null
-        },
-        "SceneBg": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "BackgroundDistance": 0.0,
-        "RoleId": 0,
-        "IsHidden": false,
-        "IdleAnim": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "AvgAnimation": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "BubbleEmotionType": "E2DEmotionType::None",
-        "TalkerName": {
-          "CultureInvariantString": null
-        },
-        "TalkerRoleList": [
-          101001
-        ],
-        "TextContext": {
-          "Namespace": "AVGEvent",
-          "Key": "Row1022_FromTalkert_Role101001",
-          "SourceString": "测试远程通讯2：Hello, Hello, Hello",
-          "LocalizedString": "测试远程通讯2：Hello, Hello, Hello"
-        },
-        "HoldTime": 2.0,
-        "AkEvent": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "AkLibSyncCh": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "AkLibSyncJp": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "RolePosition": {
-          "X": 0.0,
-          "Y": 0.0,
-          "Z": 0.0
-        },
-        "RoleRotator": {
-          "X": 0.0,
-          "Y": 0.0,
-          "Z": 0.0
-        },
-        "CameraPosition": {
-          "X": 0.0,
-          "Y": 0.0,
-          "Z": 0.0
-        },
-        "CameraRotator": {
-          "X": 0.0,
-          "Y": 0.0,
-          "Z": 0.0
-        },
-        "SequenceAsset": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "BgAkEvent": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "RolePerformanceList": [],
-        "ExtendPerformanceList": [
-          {
-            "Type": "EPerformanceType::RemoteCommunicationUI",
-            "StringParam": "101001|105001,101001",
-            "TextParam": {
-              "CultureInvariantString": null
             },
-            "AssetPath": {
+            "StringParam1": ""
+          }
+        },
+        {
+          "Key": "2",
+          "Value": {
+            "RoleId": 146,
+            "IsHidden": false,
+            "AnimationAsset": {
+              "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/HuiXing/S201/Animations/Apartment/AS_HuiXing_Talking_Scare.AS_HuiXing_Talking_Scare",
+              "SubPathString": ""
+            },
+            "Pos": {
+              "X": 56316.0,
+              "Y": 59047.0,
+              "Z": 1415.0
+            },
+            "Rotator": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 60.0
+            },
+            "BlendInTime": 0.25,
+            "IsShowWave": true,
+            "IsShowBlack": false,
+            "WeaponId": 0,
+            "IsSmoothTransition": false,
+            "Is2D": false,
+            "TextureAsset": {
               "AssetPathName": "None",
               "SubPathString": ""
-            }
+            },
+            "StringParam1": ""
           }
-        ],
-        "RemovePerformanceList": []
+        }
+      ],
+      "ExtendPerformanceList": [],
+      "RemovePerformanceList": [
+        "EPerformanceType::UIParticle"
+      ]
+    },
+    "1017": {
+      "EventId": 1017,
+      "NextEventIds": [
+        1018
+      ],
+      "EventType": "EEventType::NormalEvent",
+      "PrologueTitle": {
+        "CultureInvariantString": null
       },
-      "1023": {
-        "EventId": 1023,
-        "NextEventIds": [
-          1024
-        ],
-        "EventType": "EEventType::NormalEvent",
-        "PrologueTitle": {
-          "CultureInvariantString": null
-        },
-        "SceneBg": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "BackgroundDistance": 0.0,
-        "RoleId": 0,
-        "IsHidden": false,
-        "IdleAnim": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "AvgAnimation": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "BubbleEmotionType": "E2DEmotionType::None",
-        "TalkerName": {
-          "CultureInvariantString": null
-        },
-        "TalkerRoleList": [],
-        "TextContext": {
-          "Namespace": "AVGEvent",
-          "Key": "Row1023_Aside_AboutRole146",
-          "SourceString": "移除远程通讯",
-          "LocalizedString": "移除远程通讯"
-        },
-        "HoldTime": 0.0,
-        "AkEvent": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "AkLibSyncCh": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "AkLibSyncJp": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "RolePosition": {
-          "X": 0.0,
-          "Y": 0.0,
-          "Z": 0.0
-        },
-        "RoleRotator": {
-          "X": 0.0,
-          "Y": 0.0,
-          "Z": 0.0
-        },
-        "CameraPosition": {
-          "X": 0.0,
-          "Y": 0.0,
-          "Z": 0.0
-        },
-        "CameraRotator": {
-          "X": 0.0,
-          "Y": 0.0,
-          "Z": 0.0
-        },
-        "SequenceAsset": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "BgAkEvent": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "RolePerformanceList": [
-          {
-            "Key": "1",
-            "Value": {
-              "RoleId": 146,
-              "IsHidden": true,
-              "AnimationAsset": {
-                "AssetPathName": "None",
-                "SubPathString": ""
-              },
-              "Pos": {
-                "X": 0.0,
-                "Y": 0.0,
-                "Z": 0.0
-              },
-              "Rotator": {
-                "X": 0.0,
-                "Y": 0.0,
-                "Z": 0.0
-              },
-              "BlendInTime": 0.25,
-              "IsShowWave": false,
-              "IsShowBlack": false,
-              "WeaponId": 0,
-              "IsSmoothTransition": false,
-              "Is2D": false,
-              "TextureAsset": {
-                "AssetPathName": "None",
-                "SubPathString": ""
-              },
-              "StringParam1": ""
-            }
+      "SceneBg": {
+        "AssetPathName": "/Game/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultBlack_Gamma.T_DefaultBlack_Gamma",
+        "SubPathString": ""
+      },
+      "BackgroundDistance": 0.0,
+      "RoleId": 0,
+      "IsHidden": false,
+      "IdleAnim": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "AvgAnimation": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "BubbleEmotionType": "E2DEmotionType::None",
+      "TalkerName": {
+        "CultureInvariantString": null
+      },
+      "TalkerRoleList": [],
+      "TextContext": {
+        "CultureInvariantString": null
+      },
+      "HoldTime": 0.5,
+      "AkEvent": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "AkLibSyncCh": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "AkLibSyncJp": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "RolePosition": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "RoleRotator": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "CameraPosition": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "CameraRotator": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SequenceAsset": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "BgAkEvent": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "RolePerformanceList": [
+        {
+          "Key": "1",
+          "Value": {
+            "RoleId": 101,
+            "IsHidden": true,
+            "AnimationAsset": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "Pos": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Rotator": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "BlendInTime": 0.25,
+            "IsShowWave": false,
+            "IsShowBlack": false,
+            "WeaponId": 0,
+            "IsSmoothTransition": false,
+            "Is2D": false,
+            "TextureAsset": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "StringParam1": ""
           }
-        ],
-        "ExtendPerformanceList": [],
-        "RemovePerformanceList": [
-          "EPerformanceType::RemoteCommunicationUI"
-        ]
+        },
+        {
+          "Key": "2",
+          "Value": {
+            "RoleId": 146,
+            "IsHidden": true,
+            "AnimationAsset": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "Pos": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Rotator": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "BlendInTime": 0.25,
+            "IsShowWave": false,
+            "IsShowBlack": false,
+            "WeaponId": 0,
+            "IsSmoothTransition": false,
+            "Is2D": false,
+            "TextureAsset": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "StringParam1": ""
+          }
+        }
+      ],
+      "ExtendPerformanceList": [],
+      "RemovePerformanceList": [
+        "EPerformanceType::PostProcess"
+      ]
+    },
+    "1018": {
+      "EventId": 1018,
+      "NextEventIds": [
+        1019
+      ],
+      "EventType": "EEventType::SingleClickEvent",
+      "PrologueTitle": {
+        "CultureInvariantString": null
       },
-      "1024": {
-        "EventId": 1024,
-        "NextEventIds": [
-          1025
-        ],
-        "EventType": "EEventType::SingleClickEvent",
-        "PrologueTitle": {
-          "CultureInvariantString": null
-        },
-        "SceneBg": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "BackgroundDistance": 0.0,
-        "RoleId": 0,
-        "IsHidden": false,
-        "IdleAnim": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "AvgAnimation": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "BubbleEmotionType": "E2DEmotionType::None",
-        "TalkerName": {
-          "CultureInvariantString": null
-        },
-        "TalkerRoleList": [
-          101
-        ],
-        "TextContext": {
-          "Namespace": "AVGEvent",
-          "Key": "Row1024_FromTalkert_Role101",
-          "SourceString": "测试2D立绘1",
-          "LocalizedString": "测试2D立绘1"
-        },
-        "HoldTime": 2.0,
-        "AkEvent": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "AkLibSyncCh": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "AkLibSyncJp": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "RolePosition": {
-          "X": 0.0,
-          "Y": 0.0,
-          "Z": 0.0
-        },
-        "RoleRotator": {
-          "X": 0.0,
-          "Y": 0.0,
-          "Z": 0.0
-        },
-        "CameraPosition": {
-          "X": 0.0,
-          "Y": 0.0,
-          "Z": 0.0
-        },
-        "CameraRotator": {
-          "X": 0.0,
-          "Y": 0.0,
-          "Z": 0.0
-        },
-        "SequenceAsset": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "BgAkEvent": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "RolePerformanceList": [
-          {
-            "Key": "1",
-            "Value": {
-              "RoleId": 101,
-              "IsHidden": false,
-              "AnimationAsset": {
-                "AssetPathName": "None",
-                "SubPathString": ""
-              },
-              "Pos": {
-                "X": -400.0,
-                "Y": 0.0,
-                "Z": 1.5
-              },
-              "Rotator": {
-                "X": 0.0,
-                "Y": 0.0,
-                "Z": 0.0
-              },
-              "BlendInTime": 0.25,
-              "IsShowWave": false,
-              "IsShowBlack": false,
-              "WeaponId": 0,
-              "IsSmoothTransition": false,
-              "Is2D": true,
-              "TextureAsset": {
-                "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoleCinematic/T_Dynamic_RoleCinematic_940001.T_Dynamic_RoleCinematic_940001",
-                "SubPathString": ""
-              },
-              "StringParam1": ""
-            }
+      "SceneBg": {
+        "AssetPathName": "/Game/PaperMan/Environment/Textures/Maps/Apartment/Background/T_Evni_Background_01_E.T_Evni_Background_01_E",
+        "SubPathString": ""
+      },
+      "BackgroundDistance": 0.0,
+      "RoleId": 0,
+      "IsHidden": false,
+      "IdleAnim": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "AvgAnimation": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "BubbleEmotionType": "E2DEmotionType::None",
+      "TalkerName": {
+        "CultureInvariantString": null
+      },
+      "TalkerRoleList": [
+        146
+      ],
+      "TextContext": {
+        "Namespace": "AVGEvent",
+        "Key": "Row1018_FromTalkert_Role146",
+        "SourceString": "测试角色加剪影效果",
+        "LocalizedString": "测试角色加剪影效果"
+      },
+      "HoldTime": 2.0,
+      "AkEvent": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "AkLibSyncCh": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "AkLibSyncJp": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "RolePosition": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "RoleRotator": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "CameraPosition": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "CameraRotator": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SequenceAsset": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "BgAkEvent": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "RolePerformanceList": [
+        {
+          "Key": "1",
+          "Value": {
+            "RoleId": 146,
+            "IsHidden": false,
+            "AnimationAsset": {
+              "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/HuiXing/S201/Animations/Apartment/AS_HuiXing_Talking_HaQian_Montage.AS_HuiXing_Talking_HaQian_Montage",
+              "SubPathString": ""
+            },
+            "Pos": {
+              "X": 56309.0,
+              "Y": 59083.0,
+              "Z": 1415.0
+            },
+            "Rotator": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 56.0
+            },
+            "BlendInTime": 0.0,
+            "IsShowWave": false,
+            "IsShowBlack": true,
+            "WeaponId": 0,
+            "IsSmoothTransition": false,
+            "Is2D": false,
+            "TextureAsset": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "StringParam1": ""
+          }
+        }
+      ],
+      "ExtendPerformanceList": [],
+      "RemovePerformanceList": []
+    },
+    "1019": {
+      "EventId": 1019,
+      "NextEventIds": [
+        1020
+      ],
+      "EventType": "EEventType::SingleClickEvent",
+      "PrologueTitle": {
+        "CultureInvariantString": null
+      },
+      "SceneBg": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "BackgroundDistance": 0.0,
+      "RoleId": 0,
+      "IsHidden": false,
+      "IdleAnim": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "AvgAnimation": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "BubbleEmotionType": "E2DEmotionType::None",
+      "TalkerName": {
+        "CultureInvariantString": null
+      },
+      "TalkerRoleList": [
+        146
+      ],
+      "TextContext": {
+        "Namespace": "AVGEvent",
+        "Key": "Row1019_FromTalkert_Role146",
+        "SourceString": "测试移除剪影效果",
+        "LocalizedString": "测试移除剪影效果"
+      },
+      "HoldTime": 2.0,
+      "AkEvent": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "AkLibSyncCh": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "AkLibSyncJp": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "RolePosition": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "RoleRotator": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "CameraPosition": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "CameraRotator": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SequenceAsset": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "BgAkEvent": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "RolePerformanceList": [
+        {
+          "Key": "1",
+          "Value": {
+            "RoleId": 146,
+            "IsHidden": false,
+            "AnimationAsset": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "Pos": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Rotator": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "BlendInTime": 0.25,
+            "IsShowWave": false,
+            "IsShowBlack": false,
+            "WeaponId": 0,
+            "IsSmoothTransition": false,
+            "Is2D": false,
+            "TextureAsset": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "StringParam1": ""
+          }
+        }
+      ],
+      "ExtendPerformanceList": [],
+      "RemovePerformanceList": []
+    },
+    "1020": {
+      "EventId": 1020,
+      "NextEventIds": [
+        1021
+      ],
+      "EventType": "EEventType::SingleClickEvent",
+      "PrologueTitle": {
+        "CultureInvariantString": null
+      },
+      "SceneBg": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "BackgroundDistance": 0.0,
+      "RoleId": 0,
+      "IsHidden": false,
+      "IdleAnim": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "AvgAnimation": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "BubbleEmotionType": "E2DEmotionType::None",
+      "TalkerName": {
+        "CultureInvariantString": null
+      },
+      "TalkerRoleList": [
+        146
+      ],
+      "TextContext": {
+        "Namespace": "AVGEvent",
+        "Key": "Row1020_FromTalkert_Role146",
+        "SourceString": "测试场景黄色滤镜",
+        "LocalizedString": "测试场景黄色滤镜"
+      },
+      "HoldTime": 2.0,
+      "AkEvent": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "AkLibSyncCh": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "AkLibSyncJp": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "RolePosition": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "RoleRotator": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "CameraPosition": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "CameraRotator": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SequenceAsset": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "BgAkEvent": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "RolePerformanceList": [
+        {
+          "Key": "1",
+          "Value": {
+            "RoleId": 146,
+            "IsHidden": false,
+            "AnimationAsset": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "Pos": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Rotator": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "BlendInTime": 0.25,
+            "IsShowWave": false,
+            "IsShowBlack": false,
+            "WeaponId": 0,
+            "IsSmoothTransition": false,
+            "Is2D": false,
+            "TextureAsset": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "StringParam1": ""
+          }
+        }
+      ],
+      "ExtendPerformanceList": [
+        {
+          "Type": "EPerformanceType::SceneColor",
+          "StringParam": "#E1C16E",
+          "TextParam": {
+            "CultureInvariantString": null
           },
-          {
-            "Key": "2",
-            "Value": {
-              "RoleId": 146,
-              "IsHidden": false,
-              "AnimationAsset": {
-                "AssetPathName": "None",
-                "SubPathString": ""
-              },
-              "Pos": {
-                "X": 400.0,
-                "Y": 0.0,
-                "Z": 1.5
-              },
-              "Rotator": {
-                "X": 0.0,
-                "Y": 0.0,
-                "Z": 0.0
-              },
-              "BlendInTime": 0.25,
-              "IsShowWave": false,
-              "IsShowBlack": false,
-              "WeaponId": 0,
-              "IsSmoothTransition": false,
-              "Is2D": true,
-              "TextureAsset": {
-                "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoleCinematic/T_Dynamic_RoleCinematic_940005.T_Dynamic_RoleCinematic_940005",
-                "SubPathString": ""
-              },
-              "StringParam1": ""
-            }
+          "AssetPath": {
+            "AssetPathName": "None",
+            "SubPathString": ""
           }
-        ],
-        "ExtendPerformanceList": [],
-        "RemovePerformanceList": []
+        }
+      ],
+      "RemovePerformanceList": []
+    },
+    "1021": {
+      "EventId": 1021,
+      "NextEventIds": [
+        1022
+      ],
+      "EventType": "EEventType::SingleClickEvent",
+      "PrologueTitle": {
+        "CultureInvariantString": null
       },
-      "1025": {
-        "EventId": 1025,
-        "NextEventIds": [
-          1026
-        ],
-        "EventType": "EEventType::SingleClickEvent",
-        "PrologueTitle": {
-          "CultureInvariantString": null
-        },
-        "SceneBg": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "BackgroundDistance": 0.0,
-        "RoleId": 0,
-        "IsHidden": false,
-        "IdleAnim": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "AvgAnimation": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "BubbleEmotionType": "E2DEmotionType::None",
-        "TalkerName": {
-          "CultureInvariantString": null
-        },
-        "TalkerRoleList": [
-          146
-        ],
-        "TextContext": {
-          "Namespace": "AVGEvent",
-          "Key": "Row1025_FromTalkert_Role146",
-          "SourceString": "测试2D立绘2",
-          "LocalizedString": "测试2D立绘2"
-        },
-        "HoldTime": 2.0,
-        "AkEvent": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "AkLibSyncCh": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "AkLibSyncJp": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "RolePosition": {
-          "X": 0.0,
-          "Y": 0.0,
-          "Z": 0.0
-        },
-        "RoleRotator": {
-          "X": 0.0,
-          "Y": 0.0,
-          "Z": 0.0
-        },
-        "CameraPosition": {
-          "X": 0.0,
-          "Y": 0.0,
-          "Z": 0.0
-        },
-        "CameraRotator": {
-          "X": 0.0,
-          "Y": 0.0,
-          "Z": 0.0
-        },
-        "SequenceAsset": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "BgAkEvent": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "RolePerformanceList": [
-          {
-            "Key": "1",
-            "Value": {
-              "RoleId": 101,
-              "IsHidden": true,
-              "AnimationAsset": {
-                "AssetPathName": "None",
-                "SubPathString": ""
-              },
-              "Pos": {
-                "X": 0.0,
-                "Y": 0.0,
-                "Z": 0.0
-              },
-              "Rotator": {
-                "X": 0.0,
-                "Y": 0.0,
-                "Z": 0.0
-              },
-              "BlendInTime": 0.25,
-              "IsShowWave": false,
-              "IsShowBlack": false,
-              "WeaponId": 0,
-              "IsSmoothTransition": false,
-              "Is2D": false,
-              "TextureAsset": {
-                "AssetPathName": "None",
-                "SubPathString": ""
-              },
-              "StringParam1": ""
-            }
+      "SceneBg": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "BackgroundDistance": 0.0,
+      "RoleId": 0,
+      "IsHidden": false,
+      "IdleAnim": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "AvgAnimation": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "BubbleEmotionType": "E2DEmotionType::None",
+      "TalkerName": {
+        "CultureInvariantString": null
+      },
+      "TalkerRoleList": [
+        105001
+      ],
+      "TextContext": {
+        "Namespace": "AVGEvent",
+        "Key": "Row1021_FromTalkert_Role105001",
+        "SourceString": "测试远程通讯1：你好你好你好",
+        "LocalizedString": "测试远程通讯1：你好你好你好"
+      },
+      "HoldTime": 2.0,
+      "AkEvent": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "AkLibSyncCh": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "AkLibSyncJp": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "RolePosition": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "RoleRotator": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "CameraPosition": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "CameraRotator": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SequenceAsset": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "BgAkEvent": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "RolePerformanceList": [
+        {
+          "Key": "1",
+          "Value": {
+            "RoleId": 146,
+            "IsHidden": false,
+            "AnimationAsset": {
+              "AssetPathName": "/Game/PaperMan/SkinAssets/Characters/HuiXing/S201/Animations/Apartment/AS_HuiXing_Interaction_7_12_backIdle.AS_HuiXing_Interaction_7_12_backIdle",
+              "SubPathString": ""
+            },
+            "Pos": {
+              "X": 56262.0,
+              "Y": 59083.0,
+              "Z": 1415.0
+            },
+            "Rotator": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 80.0
+            },
+            "BlendInTime": 0.0,
+            "IsShowWave": false,
+            "IsShowBlack": false,
+            "WeaponId": 0,
+            "IsSmoothTransition": false,
+            "Is2D": false,
+            "TextureAsset": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "StringParam1": ""
+          }
+        }
+      ],
+      "ExtendPerformanceList": [
+        {
+          "Type": "EPerformanceType::RemoteCommunicationUI",
+          "StringParam": "105001|105001,101001",
+          "TextParam": {
+            "CultureInvariantString": null
           },
-          {
-            "Key": "2",
-            "Value": {
-              "RoleId": 146,
-              "IsHidden": false,
-              "AnimationAsset": {
-                "AssetPathName": "None",
-                "SubPathString": ""
-              },
-              "Pos": {
-                "X": 0.0,
-                "Y": 0.0,
-                "Z": 1.5
-              },
-              "Rotator": {
-                "X": 0.0,
-                "Y": 0.0,
-                "Z": 0.0
-              },
-              "BlendInTime": 0.25,
-              "IsShowWave": false,
-              "IsShowBlack": false,
-              "WeaponId": 0,
-              "IsSmoothTransition": true,
-              "Is2D": true,
-              "TextureAsset": {
-                "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoleCinematic/T_Dynamic_RoleCinematic_940005.T_Dynamic_RoleCinematic_940005",
-                "SubPathString": ""
-              },
-              "StringParam1": "0.5"
-            }
+          "AssetPath": {
+            "AssetPathName": "None",
+            "SubPathString": ""
           }
-        ],
-        "ExtendPerformanceList": [],
-        "RemovePerformanceList": []
+        }
+      ],
+      "RemovePerformanceList": [
+        "EPerformanceType::SceneColor"
+      ]
+    },
+    "1022": {
+      "EventId": 1022,
+      "NextEventIds": [
+        1023
+      ],
+      "EventType": "EEventType::SingleClickEvent",
+      "PrologueTitle": {
+        "CultureInvariantString": null
       },
-      "1026": {
-        "EventId": 1026,
-        "NextEventIds": [
-          99999
-        ],
-        "EventType": "EEventType::NormalEvent",
-        "PrologueTitle": {
-          "CultureInvariantString": null
-        },
-        "SceneBg": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "BackgroundDistance": 0.0,
-        "RoleId": 0,
-        "IsHidden": false,
-        "IdleAnim": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "AvgAnimation": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "BubbleEmotionType": "E2DEmotionType::None",
-        "TalkerName": {
-          "CultureInvariantString": null
-        },
-        "TalkerRoleList": [],
-        "TextContext": {
-          "Namespace": "AVGEvent",
-          "Key": "Row1026_Aside_AboutRole146",
-          "SourceString": "移除2D立绘",
-          "LocalizedString": "移除2D立绘"
-        },
-        "HoldTime": 0.5,
-        "AkEvent": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "AkLibSyncCh": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "AkLibSyncJp": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "RolePosition": {
-          "X": 0.0,
-          "Y": 0.0,
-          "Z": 0.0
-        },
-        "RoleRotator": {
-          "X": 0.0,
-          "Y": 0.0,
-          "Z": 0.0
-        },
-        "CameraPosition": {
-          "X": 0.0,
-          "Y": 0.0,
-          "Z": 0.0
-        },
-        "CameraRotator": {
-          "X": 0.0,
-          "Y": 0.0,
-          "Z": 0.0
-        },
-        "SequenceAsset": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "BgAkEvent": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "RolePerformanceList": [
-          {
-            "Key": "2",
-            "Value": {
-              "RoleId": 0,
-              "IsHidden": true,
-              "AnimationAsset": {
-                "AssetPathName": "None",
-                "SubPathString": ""
-              },
-              "Pos": {
-                "X": 0.0,
-                "Y": 0.0,
-                "Z": 0.0
-              },
-              "Rotator": {
-                "X": 0.0,
-                "Y": 0.0,
-                "Z": 0.0
-              },
-              "BlendInTime": 0.25,
-              "IsShowWave": false,
-              "IsShowBlack": false,
-              "WeaponId": 0,
-              "IsSmoothTransition": false,
-              "Is2D": false,
-              "TextureAsset": {
-                "AssetPathName": "None",
-                "SubPathString": ""
-              },
-              "StringParam1": ""
-            }
+      "SceneBg": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "BackgroundDistance": 0.0,
+      "RoleId": 0,
+      "IsHidden": false,
+      "IdleAnim": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "AvgAnimation": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "BubbleEmotionType": "E2DEmotionType::None",
+      "TalkerName": {
+        "CultureInvariantString": null
+      },
+      "TalkerRoleList": [
+        101001
+      ],
+      "TextContext": {
+        "Namespace": "AVGEvent",
+        "Key": "Row1022_FromTalkert_Role101001",
+        "SourceString": "测试远程通讯2：Hello, Hello, Hello",
+        "LocalizedString": "测试远程通讯2：Hello, Hello, Hello"
+      },
+      "HoldTime": 2.0,
+      "AkEvent": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "AkLibSyncCh": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "AkLibSyncJp": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "RolePosition": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "RoleRotator": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "CameraPosition": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "CameraRotator": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SequenceAsset": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "BgAkEvent": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "RolePerformanceList": [],
+      "ExtendPerformanceList": [
+        {
+          "Type": "EPerformanceType::RemoteCommunicationUI",
+          "StringParam": "101001|105001,101001",
+          "TextParam": {
+            "CultureInvariantString": null
+          },
+          "AssetPath": {
+            "AssetPathName": "None",
+            "SubPathString": ""
           }
-        ],
-        "ExtendPerformanceList": [],
-        "RemovePerformanceList": []
+        }
+      ],
+      "RemovePerformanceList": []
+    },
+    "1023": {
+      "EventId": 1023,
+      "NextEventIds": [
+        1024
+      ],
+      "EventType": "EEventType::NormalEvent",
+      "PrologueTitle": {
+        "CultureInvariantString": null
       },
-      "99999": {
-        "EventId": 99999,
-        "NextEventIds": [],
-        "EventType": "EEventType::NormalEvent",
-        "PrologueTitle": {
-          "CultureInvariantString": null
+      "SceneBg": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "BackgroundDistance": 0.0,
+      "RoleId": 0,
+      "IsHidden": false,
+      "IdleAnim": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "AvgAnimation": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "BubbleEmotionType": "E2DEmotionType::None",
+      "TalkerName": {
+        "CultureInvariantString": null
+      },
+      "TalkerRoleList": [],
+      "TextContext": {
+        "Namespace": "AVGEvent",
+        "Key": "Row1023_Aside_AboutRole146",
+        "SourceString": "移除远程通讯",
+        "LocalizedString": "移除远程通讯"
+      },
+      "HoldTime": 0.0,
+      "AkEvent": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "AkLibSyncCh": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "AkLibSyncJp": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "RolePosition": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "RoleRotator": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "CameraPosition": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "CameraRotator": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SequenceAsset": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "BgAkEvent": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "RolePerformanceList": [
+        {
+          "Key": "1",
+          "Value": {
+            "RoleId": 146,
+            "IsHidden": true,
+            "AnimationAsset": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "Pos": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Rotator": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "BlendInTime": 0.25,
+            "IsShowWave": false,
+            "IsShowBlack": false,
+            "WeaponId": 0,
+            "IsSmoothTransition": false,
+            "Is2D": false,
+            "TextureAsset": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "StringParam1": ""
+          }
+        }
+      ],
+      "ExtendPerformanceList": [],
+      "RemovePerformanceList": [
+        "EPerformanceType::RemoteCommunicationUI"
+      ]
+    },
+    "1024": {
+      "EventId": 1024,
+      "NextEventIds": [
+        1025
+      ],
+      "EventType": "EEventType::SingleClickEvent",
+      "PrologueTitle": {
+        "CultureInvariantString": null
+      },
+      "SceneBg": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "BackgroundDistance": 0.0,
+      "RoleId": 0,
+      "IsHidden": false,
+      "IdleAnim": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "AvgAnimation": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "BubbleEmotionType": "E2DEmotionType::None",
+      "TalkerName": {
+        "CultureInvariantString": null
+      },
+      "TalkerRoleList": [
+        101
+      ],
+      "TextContext": {
+        "Namespace": "AVGEvent",
+        "Key": "Row1024_FromTalkert_Role101",
+        "SourceString": "测试2D立绘1",
+        "LocalizedString": "测试2D立绘1"
+      },
+      "HoldTime": 2.0,
+      "AkEvent": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "AkLibSyncCh": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "AkLibSyncJp": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "RolePosition": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "RoleRotator": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "CameraPosition": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "CameraRotator": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SequenceAsset": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "BgAkEvent": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "RolePerformanceList": [
+        {
+          "Key": "1",
+          "Value": {
+            "RoleId": 101,
+            "IsHidden": false,
+            "AnimationAsset": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "Pos": {
+              "X": -400.0,
+              "Y": 0.0,
+              "Z": 1.5
+            },
+            "Rotator": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "BlendInTime": 0.25,
+            "IsShowWave": false,
+            "IsShowBlack": false,
+            "WeaponId": 0,
+            "IsSmoothTransition": false,
+            "Is2D": true,
+            "TextureAsset": {
+              "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoleCinematic/T_Dynamic_RoleCinematic_940001.T_Dynamic_RoleCinematic_940001",
+              "SubPathString": ""
+            },
+            "StringParam1": ""
+          }
         },
-        "SceneBg": {
-          "AssetPathName": "/Game/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultBlack_Gamma.T_DefaultBlack_Gamma",
-          "SubPathString": ""
+        {
+          "Key": "2",
+          "Value": {
+            "RoleId": 146,
+            "IsHidden": false,
+            "AnimationAsset": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "Pos": {
+              "X": 400.0,
+              "Y": 0.0,
+              "Z": 1.5
+            },
+            "Rotator": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "BlendInTime": 0.25,
+            "IsShowWave": false,
+            "IsShowBlack": false,
+            "WeaponId": 0,
+            "IsSmoothTransition": false,
+            "Is2D": true,
+            "TextureAsset": {
+              "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoleCinematic/T_Dynamic_RoleCinematic_940005.T_Dynamic_RoleCinematic_940005",
+              "SubPathString": ""
+            },
+            "StringParam1": ""
+          }
+        }
+      ],
+      "ExtendPerformanceList": [],
+      "RemovePerformanceList": []
+    },
+    "1025": {
+      "EventId": 1025,
+      "NextEventIds": [
+        1026
+      ],
+      "EventType": "EEventType::SingleClickEvent",
+      "PrologueTitle": {
+        "CultureInvariantString": null
+      },
+      "SceneBg": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "BackgroundDistance": 0.0,
+      "RoleId": 0,
+      "IsHidden": false,
+      "IdleAnim": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "AvgAnimation": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "BubbleEmotionType": "E2DEmotionType::None",
+      "TalkerName": {
+        "CultureInvariantString": null
+      },
+      "TalkerRoleList": [
+        146
+      ],
+      "TextContext": {
+        "Namespace": "AVGEvent",
+        "Key": "Row1025_FromTalkert_Role146",
+        "SourceString": "测试2D立绘2",
+        "LocalizedString": "测试2D立绘2"
+      },
+      "HoldTime": 2.0,
+      "AkEvent": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "AkLibSyncCh": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "AkLibSyncJp": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "RolePosition": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "RoleRotator": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "CameraPosition": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "CameraRotator": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SequenceAsset": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "BgAkEvent": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "RolePerformanceList": [
+        {
+          "Key": "1",
+          "Value": {
+            "RoleId": 101,
+            "IsHidden": true,
+            "AnimationAsset": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "Pos": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Rotator": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "BlendInTime": 0.25,
+            "IsShowWave": false,
+            "IsShowBlack": false,
+            "WeaponId": 0,
+            "IsSmoothTransition": false,
+            "Is2D": false,
+            "TextureAsset": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "StringParam1": ""
+          }
         },
-        "BackgroundDistance": 0.0,
-        "RoleId": 0,
-        "IsHidden": true,
-        "IdleAnim": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "AvgAnimation": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "BubbleEmotionType": "E2DEmotionType::None",
-        "TalkerName": {
-          "CultureInvariantString": null
-        },
-        "TalkerRoleList": [],
-        "TextContext": {
-          "CultureInvariantString": null
-        },
-        "HoldTime": 1.5,
-        "AkEvent": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "AkLibSyncCh": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "AkLibSyncJp": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "RolePosition": {
-          "X": 0.0,
-          "Y": 0.0,
-          "Z": 0.0
-        },
-        "RoleRotator": {
-          "X": 0.0,
-          "Y": 0.0,
-          "Z": 0.0
-        },
-        "CameraPosition": {
-          "X": 0.0,
-          "Y": 0.0,
-          "Z": 0.0
-        },
-        "CameraRotator": {
-          "X": 0.0,
-          "Y": 0.0,
-          "Z": 0.0
-        },
-        "SequenceAsset": {
-          "AssetPathName": "None",
-          "SubPathString": ""
-        },
-        "BgAkEvent": {
-          "AssetPathName": "/Game/WwiseAssets/AkEvent/Bgm_Date_Stop.Bgm_Date_Stop",
-          "SubPathString": ""
-        },
-        "RolePerformanceList": [],
-        "ExtendPerformanceList": [],
-        "RemovePerformanceList": []
-      }
+        {
+          "Key": "2",
+          "Value": {
+            "RoleId": 146,
+            "IsHidden": false,
+            "AnimationAsset": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "Pos": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 1.5
+            },
+            "Rotator": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "BlendInTime": 0.25,
+            "IsShowWave": false,
+            "IsShowBlack": false,
+            "WeaponId": 0,
+            "IsSmoothTransition": true,
+            "Is2D": true,
+            "TextureAsset": {
+              "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoleCinematic/T_Dynamic_RoleCinematic_940005.T_Dynamic_RoleCinematic_940005",
+              "SubPathString": ""
+            },
+            "StringParam1": "0.5"
+          }
+        }
+      ],
+      "ExtendPerformanceList": [],
+      "RemovePerformanceList": []
+    },
+    "1026": {
+      "EventId": 1026,
+      "NextEventIds": [
+        99999
+      ],
+      "EventType": "EEventType::NormalEvent",
+      "PrologueTitle": {
+        "CultureInvariantString": null
+      },
+      "SceneBg": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "BackgroundDistance": 0.0,
+      "RoleId": 0,
+      "IsHidden": false,
+      "IdleAnim": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "AvgAnimation": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "BubbleEmotionType": "E2DEmotionType::None",
+      "TalkerName": {
+        "CultureInvariantString": null
+      },
+      "TalkerRoleList": [],
+      "TextContext": {
+        "Namespace": "AVGEvent",
+        "Key": "Row1026_Aside_AboutRole146",
+        "SourceString": "移除2D立绘",
+        "LocalizedString": "移除2D立绘"
+      },
+      "HoldTime": 0.5,
+      "AkEvent": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "AkLibSyncCh": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "AkLibSyncJp": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "RolePosition": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "RoleRotator": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "CameraPosition": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "CameraRotator": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SequenceAsset": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "BgAkEvent": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "RolePerformanceList": [
+        {
+          "Key": "2",
+          "Value": {
+            "RoleId": 0,
+            "IsHidden": true,
+            "AnimationAsset": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "Pos": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Rotator": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "BlendInTime": 0.25,
+            "IsShowWave": false,
+            "IsShowBlack": false,
+            "WeaponId": 0,
+            "IsSmoothTransition": false,
+            "Is2D": false,
+            "TextureAsset": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "StringParam1": ""
+          }
+        }
+      ],
+      "ExtendPerformanceList": [],
+      "RemovePerformanceList": []
+    },
+    "99999": {
+      "EventId": 99999,
+      "NextEventIds": [],
+      "EventType": "EEventType::NormalEvent",
+      "PrologueTitle": {
+        "CultureInvariantString": null
+      },
+      "SceneBg": {
+        "AssetPathName": "/Game/PaperMan/MaterialLibrary/DefaultTexture/T_DefaultBlack_Gamma.T_DefaultBlack_Gamma",
+        "SubPathString": ""
+      },
+      "BackgroundDistance": 0.0,
+      "RoleId": 0,
+      "IsHidden": true,
+      "IdleAnim": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "AvgAnimation": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "BubbleEmotionType": "E2DEmotionType::None",
+      "TalkerName": {
+        "CultureInvariantString": null
+      },
+      "TalkerRoleList": [],
+      "TextContext": {
+        "CultureInvariantString": null
+      },
+      "HoldTime": 1.5,
+      "AkEvent": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "AkLibSyncCh": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "AkLibSyncJp": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "RolePosition": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "RoleRotator": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "CameraPosition": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "CameraRotator": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SequenceAsset": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "BgAkEvent": {
+        "AssetPathName": "/Game/WwiseAssets/AkEvent/Bgm_Date_Stop.Bgm_Date_Stop",
+        "SubPathString": ""
+      },
+      "RolePerformanceList": [],
+      "ExtendPerformanceList": [],
+      "RemovePerformanceList": []
     }
   }
-]
+}

@@ -1,1415 +1,1413 @@
-[
-  {
-    "Type": "DataTable",
-    "Name": "GameplayResourceTable",
-    "Class": "UScriptClass'DataTable'",
-    "Properties": {
-      "RowStruct": {
-        "ObjectName": "ScriptStruct'GameplayTagTableRow'",
-        "ObjectPath": "/Script/GameplayTags"
-      }
+{
+  "Type": "DataTable",
+  "Name": "GameplayResourceTable",
+  "Class": "UScriptClass'DataTable'",
+  "Properties": {
+    "RowStruct": {
+      "ObjectName": "ScriptStruct'GameplayTagTableRow'",
+      "ObjectPath": "/Script/GameplayTags"
+    }
+  },
+  "Rows": {
+    "Resource.Audio.XRayed": {
+      "Tag": "Resource.Audio.XRayed",
+      "DevComment": ""
     },
-    "Rows": {
-      "Resource.Audio.XRayed": {
-        "Tag": "Resource.Audio.XRayed",
-        "DevComment": ""
-      },
-      "Resource.Audio.Stealth.OnActive": {
-        "Tag": "Resource.Audio.Stealth.OnActive",
-        "DevComment": "进入隐身音效"
-      },
-      "Resource.Audio.Stealth.OnRemove": {
-        "Tag": "Resource.Audio.Stealth.OnRemove",
-        "DevComment": "退出隐身音效"
-      },
-      "Resource.Audio.FlashGrenade.Activate": {
-        "Tag": "Resource.Audio.FlashGrenade.Activate",
-        "DevComment": ""
-      },
-      "Resource.Audio.FlashGrenade.Remove": {
-        "Tag": "Resource.Audio.FlashGrenade.Remove",
-        "DevComment": ""
-      },
-      "Resource.Audio.TreatmentGreade.WhileActive": {
-        "Tag": "Resource.Audio.TreatmentGreade.WhileActive",
-        "DevComment": ""
-      },
-      "Resource.Audio.TreatmentGreade.OnRemove": {
-        "Tag": "Resource.Audio.TreatmentGreade.OnRemove",
-        "DevComment": ""
-      },
-      "Resource.Audio.SlowDownGrenade.Activate": {
-        "Tag": "Resource.Audio.SlowDownGrenade.Activate",
-        "DevComment": ""
-      },
-      "Resource.Audio.SlowDownGrenade.Remove": {
-        "Tag": "Resource.Audio.SlowDownGrenade.Remove",
-        "DevComment": ""
-      },
-      "Resource.Audio.FlashGrenade.Reset": {
-        "Tag": "Resource.Audio.FlashGrenade.Reset",
-        "DevComment": ""
-      },
-      "Resource.Audio.X.OnActive": {
-        "Tag": "Resource.Audio.X.OnActive",
-        "DevComment": ""
-      },
-      "Resource.Audio.X.WhileActive": {
-        "Tag": "Resource.Audio.X.WhileActive",
-        "DevComment": ""
-      },
-      "Resource.Audio.X.OnRemove": {
-        "Tag": "Resource.Audio.X.OnRemove",
-        "DevComment": ""
-      },
-      "Resource.Audio.X.Equip": {
-        "Tag": "Resource.Audio.X.Equip",
-        "DevComment": ""
-      },
-      "Resource.Audio.X.Attack": {
-        "Tag": "Resource.Audio.X.Attack",
-        "DevComment": ""
-      },
-      "Resource.Audio.Fuchsia.P.OnActive": {
-        "Tag": "Resource.Audio.Fuchsia.P.OnActive",
-        "DevComment": ""
-      },
-      "Resource.Audio.Fuchsia.P.WhileActive": {
-        "Tag": "Resource.Audio.Fuchsia.P.WhileActive",
-        "DevComment": ""
-      },
-      "Resource.Audio.Fuchsia.Q.OnActive": {
-        "Tag": "Resource.Audio.Fuchsia.Q.OnActive",
-        "DevComment": "菲莎Q激活音效"
-      },
-      "Resource.Audio.Fuchsia.Q.WhileActive": {
-        "Tag": "Resource.Audio.Fuchsia.Q.WhileActive",
-        "DevComment": ""
-      },
-      "Resource.Audio.Fuchsia.Q.Arousal.OnActive": {
-        "Tag": "Resource.Audio.Fuchsia.Q.Arousal.OnActive",
-        "DevComment": "菲莎觉醒Q激活音效"
-      },
-      "Resource.Audio.Fuchsia.Q.Arousal.Enemy": {
-        "Tag": "Resource.Audio.Fuchsia.Q.Arousal.Enemy",
-        "DevComment": "菲莎觉醒Q敌人震慑音效"
-      },
-      "Resource.Audio.Fuchsia.EnhancedQ.OnActive": {
-        "Tag": "Resource.Audio.Fuchsia.EnhancedQ.OnActive",
-        "DevComment": ""
-      },
-      "Resource.Audio.Fuchsia.EnhancedQ.WhileActive": {
-        "Tag": "Resource.Audio.Fuchsia.EnhancedQ.WhileActive",
-        "DevComment": ""
-      },
-      "Resource.Audio.Fuchsia.X.WhileActive": {
-        "Tag": "Resource.Audio.Fuchsia.X.WhileActive",
-        "DevComment": ""
-      },
-      "Resource.Audio.Fuchsia.X.OnRemove": {
-        "Tag": "Resource.Audio.Fuchsia.X.OnRemove",
-        "DevComment": ""
-      },
-      "Resource.Audio.Fuchsia.P.Arousal.OnActive": {
-        "Tag": "Resource.Audio.Fuchsia.P.Arousal.OnActive",
-        "DevComment": "菲莎觉醒P激活bgm"
-      },
-      "Resource.Audio.Fuchsia.P.Arousal.WhileActive": {
-        "Tag": "Resource.Audio.Fuchsia.P.Arousal.WhileActive",
-        "DevComment": "菲莎觉醒P持续音效"
-      },
-      "Resource.Audio.Fuchsia.P.Arousal.Remove": {
-        "Tag": "Resource.Audio.Fuchsia.P.Arousal.Remove",
-        "DevComment": "菲莎觉醒P结束音效"
-      },
-      "Resource.Audio.MoBai.X.Revive": {
-        "Tag": "Resource.Audio.MoBai.X.Revive",
-        "DevComment": "白墨X期间重生音效"
-      },
-      "Resource.Audio.MoBai.X.Death": {
-        "Tag": "Resource.Audio.MoBai.X.Death",
-        "DevComment": "白墨X期间死亡音效"
-      },
-      "Resource.Audio.MoBai.X.WhileActive": {
-        "Tag": "Resource.Audio.MoBai.X.WhileActive",
-        "DevComment": "白墨X期间持续音效"
-      },
-      "Resource.Audio.AlarmGrenade.Loop": {
-        "Tag": "Resource.Audio.AlarmGrenade.Loop",
-        "DevComment": ""
-      },
-      "Resource.Audio.Vertigo.Loop": {
-        "Tag": "Resource.Audio.Vertigo.Loop",
-        "DevComment": "眩晕音效"
-      },
-      "Resource.Audio.GodTime.Active": {
-        "Tag": "Resource.Audio.GodTime.Active",
-        "DevComment": "无敌出现音效"
-      },
-      "Resource.Audio.GodTime.Remove": {
-        "Tag": "Resource.Audio.GodTime.Remove",
-        "DevComment": "无敌消失音效"
-      },
-      "Resource.Occlusion.EnemyTeamCanSee": {
-        "Tag": "Resource.Occlusion.EnemyTeamCanSee",
-        "DevComment": ""
-      },
-      "Resource.Occlusion.XRayWatchGame": {
-        "Tag": "Resource.Occlusion.XRayWatchGame",
-        "DevComment": ""
-      },
-      "Resource.Particle.FlashGrenade": {
-        "Tag": "Resource.Particle.FlashGrenade",
-        "DevComment": "闪光弹头顶粒子特效"
-      },
-      "Resource.Particle.FlashGrenade.2D": {
-        "Tag": "Resource.Particle.FlashGrenade.2D",
-        "DevComment": ""
-      },
-      "Resource.Particle.TreatmentGrenade": {
-        "Tag": "Resource.Particle.TreatmentGrenade",
-        "DevComment": "治疗雷循环特效"
-      },
-      "Resource.Particle.Q.OnActive": {
-        "Tag": "Resource.Particle.Q.OnActive",
-        "DevComment": ""
-      },
-      "Resource.Particle.Q.WhileActive.A": {
-        "Tag": "Resource.Particle.Q.WhileActive.A",
-        "DevComment": ""
-      },
-      "Resource.Particle.Q.WhileActive.B": {
-        "Tag": "Resource.Particle.Q.WhileActive.B",
-        "DevComment": ""
-      },
-      "Resource.Particle.Q.WhileActive.C": {
-        "Tag": "Resource.Particle.Q.WhileActive.C",
-        "DevComment": ""
-      },
-      "Resource.Particle.Q.OnTrigger.A": {
-        "Tag": "Resource.Particle.Q.OnTrigger.A",
-        "DevComment": ""
-      },
-      "Resource.Particle.Q.OnTrigger.B": {
-        "Tag": "Resource.Particle.Q.OnTrigger.B",
-        "DevComment": ""
-      },
-      "Resource.Particle.Q.OnRemove": {
-        "Tag": "Resource.Particle.Q.OnRemove",
-        "DevComment": ""
-      },
-      "Resource.Particle.Q.Equip": {
-        "Tag": "Resource.Particle.Q.Equip",
-        "DevComment": ""
-      },
-      "Resource.Particle.X.OnActive": {
-        "Tag": "Resource.Particle.X.OnActive",
-        "DevComment": ""
-      },
-      "Resource.Particle.X.WhileActive.A": {
-        "Tag": "Resource.Particle.X.WhileActive.A",
-        "DevComment": ""
-      },
-      "Resource.Particle.X.WhileActive.B": {
-        "Tag": "Resource.Particle.X.WhileActive.B",
-        "DevComment": ""
-      },
-      "Resource.Particle.X.WhileActive.C": {
-        "Tag": "Resource.Particle.X.WhileActive.C",
-        "DevComment": ""
-      },
-      "Resource.Particle.X.OnRemove": {
-        "Tag": "Resource.Particle.X.OnRemove",
-        "DevComment": ""
-      },
-      "Resource.Particle.X.Equip": {
-        "Tag": "Resource.Particle.X.Equip",
-        "DevComment": ""
-      },
-      "Resource.Particle.Character.SecondJump": {
-        "Tag": "Resource.Particle.Character.SecondJump",
-        "DevComment": "角色二段跳特效"
-      },
-      "Resource.Particle.SpeedSlow.WhileActive": {
-        "Tag": "Resource.Particle.SpeedSlow.WhileActive",
-        "DevComment": "减速标签"
-      },
-      "Resource.Particle.Block2D.3P": {
-        "Tag": "Resource.Particle.Block2D.3P",
-        "DevComment": "禁止2D的3P特效"
-      },
-      "Resource.Particle.DamageFactorStrong.WhileActive": {
-        "Tag": "Resource.Particle.DamageFactorStrong.WhileActive",
-        "DevComment": "伤害减少"
-      },
-      "Resource.Particle.DamageFactor.WhileActive": {
-        "Tag": "Resource.Particle.DamageFactor.WhileActive",
-        "DevComment": "伤害加深"
-      },
-      "Resource.Particle.Fuchsia.P.OnActive": {
-        "Tag": "Resource.Particle.Fuchsia.P.OnActive",
-        "DevComment": ""
-      },
-      "Resource.Particle.Fuchsia.P.WhileActive": {
-        "Tag": "Resource.Particle.Fuchsia.P.WhileActive",
-        "DevComment": ""
-      },
-      "Resource.Particle.Fuchsia.Q.WhileActive": {
-        "Tag": "Resource.Particle.Fuchsia.Q.WhileActive",
-        "DevComment": ""
-      },
-      "Resource.Particle.Fuchsia.Q.WhileActive.Eyes": {
-        "Tag": "Resource.Particle.Fuchsia.Q.WhileActive.Eyes",
-        "DevComment": "菲莎Q激活3D眼睛特效"
-      },
-      "Resource.Particle.Fuchsia.Q.WhileActive.Eyes.2D": {
-        "Tag": "Resource.Particle.Fuchsia.Q.WhileActive.Eyes.2D",
-        "DevComment": "菲莎Q激活2D眼睛特效"
-      },
-      "Resource.Particle.Fuchsia.Q.Arousal.OnActive": {
-        "Tag": "Resource.Particle.Fuchsia.Q.Arousal.OnActive",
-        "DevComment": "菲莎觉醒Q激活特效"
-      },
-      "Resource.Particle.Fuchsia.X.WhileActive": {
-        "Tag": "Resource.Particle.Fuchsia.X.WhileActive",
-        "DevComment": ""
-      },
-      "Resource.Particle.Fuchsia.X.WhileActive.Eyes": {
-        "Tag": "Resource.Particle.Fuchsia.X.WhileActive.Eyes",
-        "DevComment": "菲莎X激活3D眼睛特效"
-      },
-      "Resource.Particle.Fuchsia.X.WhileActive.Eyes.2D": {
-        "Tag": "Resource.Particle.Fuchsia.X.WhileActive.Eyes.2D",
-        "DevComment": "菲莎X激活2D眼睛特效"
-      },
-      "Resource.Particle.Fuchsia.Arousal.P.WhileActive": {
-        "Tag": "Resource.Particle.Fuchsia.Arousal.P.WhileActive",
-        "DevComment": "菲莎觉醒P激活特效"
-      },
-      "Resource.Particle.Fuchsia.Arousal.P.OnRemove": {
-        "Tag": "Resource.Particle.Fuchsia.Arousal.P.OnRemove",
-        "DevComment": "菲莎觉醒P结束特效"
-      },
-      "Resource.Particle.Mask.OnActivated": {
-        "Tag": "Resource.Particle.Mask.OnActivated",
-        "DevComment": "菲莎口罩戴上时特效"
-      },
-      "Resource.Particle.Mask.OnDeactivated": {
-        "Tag": "Resource.Particle.Mask.OnDeactivated",
-        "DevComment": "菲莎口罩消失时特效"
-      },
-      "Resource.Particle.Julian.Twine.WhileActive": {
-        "Tag": "Resource.Particle.Julian.Twine.WhileActive",
-        "DevComment": "朱利安缠绕特效"
-      },
-      "Resource.Particle.Julian.Twine.End": {
-        "Tag": "Resource.Particle.Julian.Twine.End",
-        "DevComment": "朱利安缠绕特效"
-      },
-      "Resource.Particle.Julian.ArousalTwo.Levitate.WhileActive": {
-        "Tag": "Resource.Particle.Julian.ArousalTwo.Levitate.WhileActive",
-        "DevComment": "朱利安悬浮粒子"
-      },
-      "Resource.Particle.Michele.Q.Muzzle": {
-        "Tag": "Resource.Particle.Michele.Q.Muzzle",
-        "DevComment": "米雪儿Q枪口特效"
-      },
-      "Resource.Particle.Michele.Q.Beam": {
-        "Tag": "Resource.Particle.Michele.Q.Beam",
-        "DevComment": "米雪儿Q弹道特效"
-      },
-      "Resource.Particle.Michele.Q.HitCharacter": {
-        "Tag": "Resource.Particle.Michele.Q.HitCharacter",
-        "DevComment": "米雪儿Q命中点效果"
-      },
-      "Resource.Particle.Michele.X.Preview": {
-        "Tag": "Resource.Particle.Michele.X.Preview",
-        "DevComment": "米雪儿X预览特效"
-      },
-      "Resource.Particle.Michele.X.EquipWeapon": {
-        "Tag": "Resource.Particle.Michele.X.EquipWeapon",
-        "DevComment": "无人机装备的武器特效"
-      },
-      "Resource.Particle.Michele.X.EquipCharacter": {
-        "Tag": "Resource.Particle.Michele.X.EquipCharacter",
-        "DevComment": "无人机装备的人物特效"
-      },
-      "Resource.Particle.Michele.X.Muzzle": {
-        "Tag": "Resource.Particle.Michele.X.Muzzle",
-        "DevComment": "无人机X枪口特效"
-      },
-      "Resource.Particle.Michele.X.Beam": {
-        "Tag": "Resource.Particle.Michele.X.Beam",
-        "DevComment": "无人机X弹道特效"
-      },
-      "Resource.Particle.Michele.X.MuzzleLeft": {
-        "Tag": "Resource.Particle.Michele.X.MuzzleLeft",
-        "DevComment": "无人机X左边枪口特效"
-      },
-      "Resource.Particle.Michele.X.MuzzleRight": {
-        "Tag": "Resource.Particle.Michele.X.MuzzleRight",
-        "DevComment": "无人机X右边枪口特效"
-      },
-      "Resource.Particle.Michele.X.BeamLeft": {
-        "Tag": "Resource.Particle.Michele.X.BeamLeft",
-        "DevComment": "无人机X左边弹道特效"
-      },
-      "Resource.Particle.Michele.X.BeamRight": {
-        "Tag": "Resource.Particle.Michele.X.BeamRight",
-        "DevComment": "无人机X右边弹道特效"
-      },
-      "Resource.Particle.Michele.X.NitrogenLeft": {
-        "Tag": "Resource.Particle.Michele.X.NitrogenLeft",
-        "DevComment": "无人机X左边氮气特效"
-      },
-      "Resource.Particle.Michele.X.NitrogenRight": {
-        "Tag": "Resource.Particle.Michele.X.NitrogenRight",
-        "DevComment": "无人机X右边氮气特效"
-      },
-      "Resource.Particle.Michele.X.HitCharacter1": {
-        "Tag": "Resource.Particle.Michele.X.HitCharacter1",
-        "DevComment": "无人机阶段1命中点效果"
-      },
-      "Resource.Particle.Michele.X.HitCharacter2": {
-        "Tag": "Resource.Particle.Michele.X.HitCharacter2",
-        "DevComment": "无人机阶段2命中点效果"
-      },
-      "Resource.Particle.MoBai.Q.Paint": {
-        "Tag": "Resource.Particle.MoBai.Q.Paint",
-        "DevComment": "白墨Q前摇、翻滚、后摇开始音效"
-      },
-      "Resource.Particle.MoBai.X.Revive": {
-        "Tag": "Resource.Particle.MoBai.X.Revive",
-        "DevComment": "白墨X期间重生特效"
-      },
-      "Resource.Particle.MoBai.X.Death": {
-        "Tag": "Resource.Particle.MoBai.X.Death",
-        "DevComment": "白墨X期间死亡特效"
-      },
-      "Resource.Particle.MoBai.X.WhileActive": {
-        "Tag": "Resource.Particle.MoBai.X.WhileActive",
-        "DevComment": "白墨X期间持续特效"
-      },
-      "Resource.Particle.Huixing.P.WhileActive": {
-        "Tag": "Resource.Particle.Huixing.P.WhileActive",
-        "DevComment": "星绘被动持续特效"
-      },
-      "Resource.Particle.Huixing.X.IdleStart": {
-        "Tag": "Resource.Particle.Huixing.X.IdleStart",
-        "DevComment": "星绘大招准备开始"
-      },
-      "Resource.Particle.Huixing.X.IdleEnd": {
-        "Tag": "Resource.Particle.Huixing.X.IdleEnd",
-        "DevComment": "星绘大招准备结束"
-      },
-      "Resource.Particle.Huixing.X.WhileActive": {
-        "Tag": "Resource.Particle.Huixing.X.WhileActive",
-        "DevComment": "星绘大招特效"
-      },
-      "Resource.Particle.Huixing.X.Start": {
-        "Tag": "Resource.Particle.Huixing.X.Start",
-        "DevComment": "星绘大招传送开始"
-      },
-      "Resource.Particle.Huixing.X.End": {
-        "Tag": "Resource.Particle.Huixing.X.End",
-        "DevComment": "星绘大招传送结束"
-      },
-      "Resource.Particle.Huixing.X.ExtraArmor": {
-        "Tag": "Resource.Particle.Huixing.X.ExtraArmor",
-        "DevComment": "星绘大招临时护甲"
-      },
-      "Resource.Particle.Huixing.X.Summon.WhileActive": {
-        "Tag": "Resource.Particle.Huixing.X.Summon.WhileActive",
-        "DevComment": "星绘大招周身特效"
-      },
-      "Resource.Particle.Huixing.X.Summon.Start": {
-        "Tag": "Resource.Particle.Huixing.X.Summon.Start",
-        "DevComment": "星绘大招周身传送开始"
-      },
-      "Resource.Particle.Huixing.X.Summon.End": {
-        "Tag": "Resource.Particle.Huixing.X.Summon.End",
-        "DevComment": "星绘大招周身传送结束"
-      },
-      "Resource.Particle.ArousalTwo.MoBai": {
-        "Tag": "Resource.Particle.ArousalTwo.MoBai",
-        "DevComment": "白墨觉醒2 头顶粒子"
-      },
-      "Resource.Particle.ArousalTwo.MoBai.2D": {
-        "Tag": "Resource.Particle.ArousalTwo.MoBai.2D",
-        "DevComment": "白墨觉醒2 头顶粒子2D"
-      },
-      "Resource.Particle.Intercept.Hit": {
-        "Tag": "Resource.Particle.Intercept.Hit",
-        "DevComment": "拦截者碰撞特效"
-      },
-      "Resource.Particle.Intercept.Explode": {
-        "Tag": "Resource.Particle.Intercept.Explode",
-        "DevComment": "拦截者碰撞爆炸特效"
-      },
-      "Resource.Particle.SlowDownGrenade.SpeedSlow.WhileActive": {
-        "Tag": "Resource.Particle.SlowDownGrenade.SpeedSlow.WhileActive",
-        "DevComment": "减速雷减速特效"
-      },
-      "Resource.ScreenEffect.SafeZone.Warning": {
-        "Tag": "Resource.ScreenEffect.SafeZone.Warning",
-        "DevComment": "团竞危险区域预警屏幕效果"
-      },
-      "Resource.ScreenEffect.Block2D": {
-        "Tag": "Resource.ScreenEffect.Block2D",
-        "DevComment": "禁止2D屏幕开始效果"
-      },
-      "Resource.ScreenEffect.Block2D.MoBai": {
-        "Tag": "Resource.ScreenEffect.Block2D.MoBai",
-        "DevComment": "白墨被动禁止2D屏幕效果"
-      },
-      "Resource.ScreenEffect.Block2D.ArousalFirst.MoBai": {
-        "Tag": "Resource.ScreenEffect.Block2D.ArousalFirst.MoBai",
-        "DevComment": "白墨觉醒1禁止2D屏幕效果"
-      },
-      "Resource.ScreenEffect.ArousalTwo.MoBai": {
-        "Tag": "Resource.ScreenEffect.ArousalTwo.MoBai",
-        "DevComment": "白墨觉醒2 屏幕效果"
-      },
-      "Resource.ScreenEffect.FlashGrenade": {
-        "Tag": "Resource.ScreenEffect.FlashGrenade",
-        "DevComment": ""
-      },
-      "Resource.ScreenEffect.Julian.ArousalTwo.Levitate": {
-        "Tag": "Resource.ScreenEffect.Julian.ArousalTwo.Levitate",
-        "DevComment": "朱利安觉醒二屏幕特效"
-      },
-      "Resource.ScreenEffect.SlowDownGrenade": {
-        "Tag": "Resource.ScreenEffect.SlowDownGrenade",
-        "DevComment": ""
-      },
-      "Resource.ScreenEffect.TreatmentGrenade": {
-        "Tag": "Resource.ScreenEffect.TreatmentGrenade",
-        "DevComment": ""
-      },
-      "Resource.ScreenEffect.Q": {
-        "Tag": "Resource.ScreenEffect.Q",
-        "DevComment": "Q屏幕动画"
-      },
-      "Resource.ScreenEffect.X": {
-        "Tag": "Resource.ScreenEffect.X",
-        "DevComment": "X屏幕动画"
-      },
-      "Resource.ScreenEffect.P": {
-        "Tag": "Resource.ScreenEffect.P",
-        "DevComment": "P屏幕动画"
-      },
-      "Resource.ScreenEffect.CrossHair.Open": {
-        "Tag": "Resource.ScreenEffect.CrossHair.Open",
-        "DevComment": "显示准心"
-      },
-      "Resource.ScreenEffect.CrossHair.Normal": {
-        "Tag": "Resource.ScreenEffect.CrossHair.Normal",
-        "DevComment": "未选中目标准心"
-      },
-      "Resource.ScreenEffect.CrossHair.Targeting": {
-        "Tag": "Resource.ScreenEffect.CrossHair.Targeting",
-        "DevComment": "选中目标准心"
-      },
-      "Resource.ScreenEffect.CrossHair.OnSelect": {
-        "Tag": "Resource.ScreenEffect.CrossHair.OnSelect",
-        "DevComment": "锁定目标准心"
-      },
-      "Resource.ScreenEffect.CrossHair.Hide": {
-        "Tag": "Resource.ScreenEffect.CrossHair.Hide",
-        "DevComment": "隐藏准心"
-      },
-      "Resource.Overhead.Reiichi.ArousalOne.WhileActive": {
-        "Tag": "Resource.Overhead.Reiichi.ArousalOne.WhileActive",
-        "DevComment": "令一觉醒头顶标记"
-      },
-      "Resource.Overhead.GameMode.StealSpar": {
-        "Tag": "Resource.Overhead.GameMode.StealSpar",
-        "DevComment": "采矿模式偷矿标志"
-      },
-      "Resource.Overhead.GameMode.PickSpar": {
-        "Tag": "Resource.Overhead.GameMode.PickSpar",
-        "DevComment": "采矿模式运送标志"
-      },
-      "Resource.CameraModifier.Vertigo": {
-        "Tag": "Resource.CameraModifier.Vertigo",
-        "DevComment": "眩晕屏幕效果"
-      },
-      "Resource.UI.XRayed": {
-        "Tag": "Resource.UI.XRayed",
-        "DevComment": "被透视UI提示"
-      },
-      "Resource.UI.Shadow": {
-        "Tag": "Resource.UI.Shadow",
-        "DevComment": "被显示残影UI提示"
-      },
-      "Resource.UI.AlarmEnter": {
-        "Tag": "Resource.UI.AlarmEnter",
-        "DevComment": "进入警报器区域提示"
-      },
-      "Resource.UI.ArousalThird.OnActive": {
-        "Tag": "Resource.UI.ArousalThird.OnActive",
-        "DevComment": "觉醒3效果激活UITips"
-      },
-      "Resource.UI.Lawine.ArousalOne.OnActive": {
-        "Tag": "Resource.UI.Lawine.ArousalOne.OnActive",
-        "DevComment": "拉薇觉醒Tips"
-      },
-      "Resource.UI.Reiichi.ArousalOne.OnActive": {
-        "Tag": "Resource.UI.Reiichi.ArousalOne.OnActive",
-        "DevComment": "令一觉醒Tips"
-      },
-      "Resource.UI.Feedback": {
-        "Tag": "Resource.UI.Feedback",
-        "DevComment": "通用Tips标签"
-      },
-      "Resource.UI.Feedback.DetectedTarget": {
-        "Tag": "Resource.UI.Feedback.DetectedTarget",
-        "DevComment": "通用检测到目标Tips标签"
-      },
-      "Resource.Shadow": {
-        "Tag": "Resource.Shadow",
-        "DevComment": "残影资源"
-      },
-      "Resource.Highlight.Shared": {
-        "Tag": "Resource.Highlight.Shared",
-        "DevComment": "通用高亮"
-      },
-      "Resource.Particle.Treat.Self": {
-        "Tag": "Resource.Particle.Treat.Self",
-        "DevComment": "治疗自己特效"
-      },
-      "Resource.Particle.Treat.Other": {
-        "Tag": "Resource.Particle.Treat.Other",
-        "DevComment": "治疗他人特效"
-      },
-      "Resource.Particle.Death.A": {
-        "Tag": "Resource.Particle.Death.A",
-        "DevComment": "死亡特效"
-      },
-      "Resource.Particle.Death.B": {
-        "Tag": "Resource.Particle.Death.B",
-        "DevComment": "死亡特效"
-      },
-      "Resource.Particle.Leave.A": {
-        "Tag": "Resource.Particle.Leave.A",
-        "DevComment": "离开特效"
-      },
-      "Resource.Particle.Leave.B": {
-        "Tag": "Resource.Particle.Leave.B",
-        "DevComment": "离开特效"
-      },
-      "Resource.Particle.Leave": {
-        "Tag": "Resource.Particle.Leave",
-        "DevComment": "离开特效"
-      },
-      "Resource.Particle.Wait.A": {
-        "Tag": "Resource.Particle.Wait.A",
-        "DevComment": "等待特效"
-      },
-      "Resource.Particle.Wait.B": {
-        "Tag": "Resource.Particle.Wait.B",
-        "DevComment": "等待特效"
-      },
-      "Resource.Particle.Entry.A": {
-        "Tag": "Resource.Particle.Entry.A",
-        "DevComment": "进入特效"
-      },
-      "Resource.Particle.Entry.B": {
-        "Tag": "Resource.Particle.Entry.B",
-        "DevComment": "进入特效"
-      },
-      "Resource.Particle.Work.A": {
-        "Tag": "Resource.Particle.Work.A",
-        "DevComment": "工作特效"
-      },
-      "Resource.Particle.Work.B": {
-        "Tag": "Resource.Particle.Work.B",
-        "DevComment": "工作特效"
-      },
-      "Resource.Particle.Work.C": {
-        "Tag": "Resource.Particle.Work.C",
-        "DevComment": "工作特效"
-      },
-      "Resource.Particle.Work.D": {
-        "Tag": "Resource.Particle.Work.D",
-        "DevComment": "工作特效"
-      },
-      "Resource.Particle.Work.E": {
-        "Tag": "Resource.Particle.Work.E",
-        "DevComment": "工作特效"
-      },
-      "Resource.Particle.SecondWork": {
-        "Tag": "Resource.Particle.SecondWork",
-        "DevComment": "工作特效2"
-      },
-      "Resource.Particle.ThirdWork": {
-        "Tag": "Resource.Particle.ThirdWork",
-        "DevComment": "工作特效3"
-      },
-      "Resource.Particle.FourthWork": {
-        "Tag": "Resource.Particle.FourthWork",
-        "DevComment": "工作特效4"
-      },
-      "Resource.Particle.FifthWork": {
-        "Tag": "Resource.Particle.FifthWork",
-        "DevComment": "工作特效5"
-      },
-      "Resource.Audio.Death.A": {
-        "Tag": "Resource.Audio.Death.A",
-        "DevComment": "死亡音效"
-      },
-      "Resource.Audio.Death.B": {
-        "Tag": "Resource.Audio.Death.B",
-        "DevComment": "死亡音效"
-      },
-      "Resource.Audio.Leave.A": {
-        "Tag": "Resource.Audio.Leave.A",
-        "DevComment": "离场音效"
-      },
-      "Resource.Audio.Leave.B": {
-        "Tag": "Resource.Audio.Leave.B",
-        "DevComment": "离场音效"
-      },
-      "Resource.Audio.Entry.A": {
-        "Tag": "Resource.Audio.Entry.A",
-        "DevComment": "入场音效"
-      },
-      "Resource.Audio.Entry.B": {
-        "Tag": "Resource.Audio.Entry.B",
-        "DevComment": "入场音效"
-      },
-      "Resource.Audio.Wait.A": {
-        "Tag": "Resource.Audio.Wait.A",
-        "DevComment": "等待音效"
-      },
-      "Resource.Audio.Wait.B": {
-        "Tag": "Resource.Audio.Wait.B",
-        "DevComment": "等待音效"
-      },
-      "Resource.Audio.Work.A": {
-        "Tag": "Resource.Audio.Work.A",
-        "DevComment": "工作音效"
-      },
-      "Resource.Audio.Work.B": {
-        "Tag": "Resource.Audio.Work.B",
-        "DevComment": "工作音效"
-      },
-      "Resource.Audio.Work.C": {
-        "Tag": "Resource.Audio.Work.C",
-        "DevComment": "工作音效"
-      },
-      "Resource.Audio.Work.D": {
-        "Tag": "Resource.Audio.Work.D",
-        "DevComment": "工作音效"
-      },
-      "Resource.Audio.Work.E": {
-        "Tag": "Resource.Audio.Work.E",
-        "DevComment": "工作音效"
-      },
-      "Resource.Audio.Idle": {
-        "Tag": "Resource.Audio.Idle",
-        "DevComment": "休息音效"
-      },
-      "Resource.Audio.Walk": {
-        "Tag": "Resource.Audio.Walk",
-        "DevComment": "走音效"
-      },
-      "Resource.Audio.Run": {
-        "Tag": "Resource.Audio.Run",
-        "DevComment": "跑音效"
-      },
-      "Resource.Audio.Sprint": {
-        "Tag": "Resource.Audio.Sprint",
-        "DevComment": "加速音效"
-      },
-      "Resource.Audio.X.HuiXing.IdleStart": {
-        "Tag": "Resource.Audio.X.HuiXing.IdleStart",
-        "DevComment": "星绘准备传送"
-      },
-      "Resource.Audio.X.HuiXing.IdleEnd": {
-        "Tag": "Resource.Audio.X.HuiXing.IdleEnd",
-        "DevComment": "星绘取消传送"
-      },
-      "Resource.Audio.X.HuiXing.Start": {
-        "Tag": "Resource.Audio.X.HuiXing.Start",
-        "DevComment": "星绘准备开始"
-      },
-      "Resource.Audio.X.HuiXing.End": {
-        "Tag": "Resource.Audio.X.HuiXing.End",
-        "DevComment": "星绘准备结束"
-      },
-      "Resource.Audio.ArousalTwo.Reiichi.Team": {
-        "Tag": "Resource.Audio.ArousalTwo.Reiichi.Team",
-        "DevComment": "令一觉醒2队友音效"
-      },
-      "Resource.Audio.ArousalTwo.Reiichi.Enemy": {
-        "Tag": "Resource.Audio.ArousalTwo.Reiichi.Enemy",
-        "DevComment": "令一觉醒2敌人音效"
-      },
-      "Resource.Material.XRayed": {
-        "Tag": "Resource.Material.XRayed",
-        "DevComment": "被透视材质效果"
-      },
-      "Resource.Material.WatchGameXRayed": {
-        "Tag": "Resource.Material.WatchGameXRayed",
-        "DevComment": "观战模式被透视材质效果"
-      },
-      "Resource.Material.Stealth": {
-        "Tag": "Resource.Material.Stealth",
-        "DevComment": "隐身材质效果"
-      },
-      "Resource.Material.Michele.X.Preview.Valid": {
-        "Tag": "Resource.Material.Michele.X.Preview.Valid",
-        "DevComment": "米雪儿X预览有效时材质"
-      },
-      "Resource.Particle.ArousalFirst.OnActive": {
-        "Tag": "Resource.Particle.ArousalFirst.OnActive",
-        "DevComment": ""
-      },
-      "Resource.Particle.ArousalFirst.WhileActive": {
-        "Tag": "Resource.Particle.ArousalFirst.WhileActive",
-        "DevComment": ""
-      },
-      "Resource.Particle.ArousalFirst.WhileActive.MoBai": {
-        "Tag": "Resource.Particle.ArousalFirst.WhileActive.MoBai",
-        "DevComment": "白墨觉醒1 头顶特效"
-      },
-      "Resource.Particle.ArousalFirst.WhileActive.2D.MoBai": {
-        "Tag": "Resource.Particle.ArousalFirst.WhileActive.2D.MoBai",
-        "DevComment": "白墨觉醒1 2D头顶特效"
-      },
-      "Resource.Material.Mobai.SelfColorX": {
-        "Tag": "Resource.Material.Mobai.SelfColorX",
-        "DevComment": "白墨大招自身材质效果"
-      },
-      "Resource.Particle.ArousalFirst.OnRemove": {
-        "Tag": "Resource.Particle.ArousalFirst.OnRemove",
-        "DevComment": ""
-      },
-      "Resource.Particle.ArousalSecond.OnActive": {
-        "Tag": "Resource.Particle.ArousalSecond.OnActive",
-        "DevComment": ""
-      },
-      "Resource.Particle.ArousalSecond.WhileActive": {
-        "Tag": "Resource.Particle.ArousalSecond.WhileActive",
-        "DevComment": ""
-      },
-      "Resource.Particle.ArousalSecond.OnRemove": {
-        "Tag": "Resource.Particle.ArousalSecond.OnRemove",
-        "DevComment": ""
-      },
-      "Resource.Particle.ArousalThird.OnActive": {
-        "Tag": "Resource.Particle.ArousalThird.OnActive",
-        "DevComment": ""
-      },
-      "Resource.Particle.ArousalThird.WhileActive": {
-        "Tag": "Resource.Particle.ArousalThird.WhileActive",
-        "DevComment": ""
-      },
-      "Resource.Particle.ArousalThird.WhileActive.2D": {
-        "Tag": "Resource.Particle.ArousalThird.WhileActive.2D",
-        "DevComment": ""
-      },
-      "Resource.Particle.ArousalThird.OnRemove": {
-        "Tag": "Resource.Particle.ArousalThird.OnRemove",
-        "DevComment": ""
-      },
-      "Resource.Audio.ArousalFirst.OnActive": {
-        "Tag": "Resource.Audio.ArousalFirst.OnActive",
-        "DevComment": ""
-      },
-      "Resource.Audio.ArousalFirst.WhileActive": {
-        "Tag": "Resource.Audio.ArousalFirst.WhileActive",
-        "DevComment": ""
-      },
-      "Resource.Audio.ArousalFirst.OnRemove": {
-        "Tag": "Resource.Audio.ArousalFirst.OnRemove",
-        "DevComment": ""
-      },
-      "Resource.Audio.ArousalSecond.OnActive": {
-        "Tag": "Resource.Audio.ArousalSecond.OnActive",
-        "DevComment": ""
-      },
-      "Resource.Audio.ArousalSecond.WhileActive": {
-        "Tag": "Resource.Audio.ArousalSecond.WhileActive",
-        "DevComment": ""
-      },
-      "Resource.Audio.ArousalSecond.OnRemove": {
-        "Tag": "Resource.Audio.ArousalSecond.OnRemove",
-        "DevComment": ""
-      },
-      "Resource.Audio.ArousalThird.OnActive": {
-        "Tag": "Resource.Audio.ArousalThird.OnActive",
-        "DevComment": ""
-      },
-      "Resource.Audio.ArousalThird.WhileActive": {
-        "Tag": "Resource.Audio.ArousalThird.WhileActive",
-        "DevComment": ""
-      },
-      "Resource.Audio.ArousalThird.OnRemove": {
-        "Tag": "Resource.Audio.ArousalThird.OnRemove",
-        "DevComment": ""
-      },
-      "Resource.Audio.Intercept.Hit": {
-        "Tag": "Resource.Audio.Intercept.Hit",
-        "DevComment": "拦截者碰撞声音"
-      },
-      "Resource.Audio.Intercept.Explode": {
-        "Tag": "Resource.Audio.Intercept.Explode",
-        "DevComment": "拦截者碰撞爆炸声音"
-      },
-      "Resource.ScreenEffect.ArousalFirst": {
-        "Tag": "Resource.ScreenEffect.ArousalFirst",
-        "DevComment": ""
-      },
-      "Resource.ScreenEffect.ArousalSecond": {
-        "Tag": "Resource.ScreenEffect.ArousalSecond",
-        "DevComment": ""
-      },
-      "Resource.ScreenEffect.ArousalThird": {
-        "Tag": "Resource.ScreenEffect.ArousalThird",
-        "DevComment": ""
-      },
-      "Resource.ScreenEffect.TargerLocked": {
-        "Tag": "Resource.ScreenEffect.TargerLocked",
-        "DevComment": "锁定目标屏幕效果"
-      },
-      "Resource.Material.Michele.X.Preview.InValid": {
-        "Tag": "Resource.Material.Michele.X.Preview.InValid",
-        "DevComment": "米雪儿X预览无效时材质"
-      },
-      "Resource.Decal.Michele.X.Preview": {
-        "Tag": "Resource.Decal.Michele.X.Preview",
-        "DevComment": "米雪儿X预览贴花"
-      },
-      "Resource.Decal.DeathMarker.SameTeam": {
-        "Tag": "Resource.Decal.DeathMarker.SameTeam",
-        "DevComment": "死亡标记默认贴花_自己队伍"
-      },
-      "Resource.Decal.DeathMarker.EnemyTeam": {
-        "Tag": "Resource.Decal.DeathMarker.EnemyTeam",
-        "DevComment": "死亡标记默认贴花_敌对队伍"
-      },
-      "Resource.Particle.BombDismantle.TopScreen": {
-        "Tag": "Resource.Particle.BombDismantle.TopScreen",
-        "DevComment": "拆弹器上屏幕特效"
-      },
-      "Resource.Particle.Bomb.CountdownSphere": {
-        "Tag": "Resource.Particle.Bomb.CountdownSphere",
-        "DevComment": "炸弹倒计时球形特效"
-      },
-      "Resource.Particle.Bomb.BurstSphere": {
-        "Tag": "Resource.Particle.Bomb.BurstSphere",
-        "DevComment": "炸弹爆炸球形特效"
-      },
-      "Resource.Particle.Summon.Destroy": {
-        "Tag": "Resource.Particle.Summon.Destroy",
-        "DevComment": "召唤物销毁特效"
-      },
-      "Resource.Particle.Summon.Destroy.Arousal": {
-        "Tag": "Resource.Particle.Summon.Destroy.Arousal",
-        "DevComment": "召唤物觉醒销毁特效"
-      },
-      "Resource.Growth.Upgraded": {
-        "Tag": "Resource.Growth.Upgraded",
-        "DevComment": "成长道具升级特效"
-      },
-      "Resource.Particle.Huixing.ArousalTwo": {
-        "Tag": "Resource.Particle.Huixing.ArousalTwo",
-        "DevComment": "星绘觉醒2闪光"
-      },
-      "Resource.Audio.Huixing.ArousalTwo.Activate": {
-        "Tag": "Resource.Audio.Huixing.ArousalTwo.Activate",
-        "DevComment": "星绘觉醒2闪光激活音效"
-      },
-      "Resource.Audio.Huixing.ArousalTwo.Remove": {
-        "Tag": "Resource.Audio.Huixing.ArousalTwo.Remove",
-        "DevComment": "星绘觉醒2闪光移除音效"
-      },
-      "Resource.ScreenEffect.Q.A": {
-        "Tag": "Resource.ScreenEffect.Q.A",
-        "DevComment": ""
-      },
-      "Resource.ScreenEffect.Q.B": {
-        "Tag": "Resource.ScreenEffect.Q.B",
-        "DevComment": ""
-      },
-      "Resource.Audio.SecondWork": {
-        "Tag": "Resource.Audio.SecondWork",
-        "DevComment": "工作音效"
-      },
-      "Resource.Audio.ThirdWork": {
-        "Tag": "Resource.Audio.ThirdWork",
-        "DevComment": "工作音效"
-      },
-      "Resource.Audio.FourthWork": {
-        "Tag": "Resource.Audio.FourthWork",
-        "DevComment": "工作音效"
-      },
-      "Resource.Audio.FifthWork": {
-        "Tag": "Resource.Audio.FifthWork",
-        "DevComment": "工作音效"
-      },
-      "Resource.InGameVoice.P.OnActive": {
-        "Tag": "Resource.InGameVoice.P.OnActive",
-        "DevComment": "局内语音被动技能触发"
-      },
-      "Resource.Material.GodTime": {
-        "Tag": "Resource.Material.GodTime",
-        "DevComment": "无敌材质"
-      },
-      "Resource.Audio.Equip.A": {
-        "Tag": "Resource.Audio.Equip.A",
-        "DevComment": "装备音效"
-      },
-      "Resource.Audio.Equip.B": {
-        "Tag": "Resource.Audio.Equip.B",
-        "DevComment": "装备音效"
-      },
-      "Resource.Audio.UnEquip.A": {
-        "Tag": "Resource.Audio.UnEquip.A",
-        "DevComment": "卸载音效"
-      },
-      "Resource.Audio.UnEquip.B": {
-        "Tag": "Resource.Audio.UnEquip.B",
-        "DevComment": "卸载音效"
-      },
-      "Resource.Decal.Work.A": {
-        "Tag": "Resource.Decal.Work.A",
-        "DevComment": "工作贴花"
-      },
-      "Resource.Decal.Work.B": {
-        "Tag": "Resource.Decal.Work.B",
-        "DevComment": "工作贴花"
-      },
-      "Resource.Decal.Work.C": {
-        "Tag": "Resource.Decal.Work.C",
-        "DevComment": "工作贴花"
-      },
-      "Resource.Decal.Work.D": {
-        "Tag": "Resource.Decal.Work.D",
-        "DevComment": "工作贴花"
-      },
-      "Resource.DecalParam.Work.A": {
-        "Tag": "Resource.DecalParam.Work.A",
-        "DevComment": "工作贴花参数"
-      },
-      "Resource.DecalParam.Work.B": {
-        "Tag": "Resource.DecalParam.Work.B",
-        "DevComment": "工作贴花参数"
-      },
-      "Resource.DecalParam.Work.C": {
-        "Tag": "Resource.DecalParam.Work.C",
-        "DevComment": "工作贴花参数"
-      },
-      "Resource.DecalParam.Work.D": {
-        "Tag": "Resource.DecalParam.Work.D",
-        "DevComment": "工作贴花参数"
-      },
-      "Resource.Particle.Injured.WhileActive": {
-        "Tag": "Resource.Particle.Injured.WhileActive",
-        "DevComment": "角色倒地特效"
-      },
-      "Resource.Audio.InGameSound.Mute": {
-        "Tag": "Resource.Audio.InGameSound.Mute",
-        "DevComment": "游戏结束的时候局内音效静音"
-      },
-      "Resource.Audio.InGameSound.UnMute": {
-        "Tag": "Resource.Audio.InGameSound.UnMute",
-        "DevComment": "游戏结束状态后取消局内音效静音"
-      },
-      "Resource.Particle.P": {
-        "Tag": "Resource.Particle.P",
-        "DevComment": "被动技能特效"
-      },
-      "Resource.Particle2D.P": {
-        "Tag": "Resource.Particle2D.P",
-        "DevComment": "被动技能特效"
-      },
-      "Resource.Audio.InGameSound.StopSystemVoice": {
-        "Tag": "Resource.Audio.InGameSound.StopSystemVoice",
-        "DevComment": "游戏对局内停止所有系统语音"
-      },
-      "Resource.Particle.Equip.A": {
-        "Tag": "Resource.Particle.Equip.A",
-        "DevComment": "装备粒子特效1"
-      },
-      "Resource.Particle.Equip.B": {
-        "Tag": "Resource.Particle.Equip.B",
-        "DevComment": "装备粒子特效2"
-      },
-      "Resource.Particle.Equip.C": {
-        "Tag": "Resource.Particle.Equip.C",
-        "DevComment": "装备粒子特效3"
-      },
-      "Resource.Particle.Equip.D": {
-        "Tag": "Resource.Particle.Equip.D",
-        "DevComment": "装备粒子特效4"
-      },
-      "Resource.Particle.UnEquip.A": {
-        "Tag": "Resource.Particle.UnEquip.A",
-        "DevComment": "卸载粒子特效1"
-      },
-      "Resource.Particle.UnEquip.B": {
-        "Tag": "Resource.Particle.UnEquip.B",
-        "DevComment": "卸载粒子特效2"
-      },
-      "Resource.Particle.EnterAttackType.A": {
-        "Tag": "Resource.Particle.EnterAttackType.A",
-        "DevComment": "切换开火模式特效1"
-      },
-      "Resource.Particle.EnterAttackType.B": {
-        "Tag": "Resource.Particle.EnterAttackType.B",
-        "DevComment": "切换开火模式特效2"
-      },
-      "Resource.Particle.LeaveAttackType.A": {
-        "Tag": "Resource.Particle.LeaveAttackType.A",
-        "DevComment": "还原开火模式特效1"
-      },
-      "Resource.Particle.LeaveAttackType.B": {
-        "Tag": "Resource.Particle.LeaveAttackType.B",
-        "DevComment": "还原开火模式特效2"
-      },
-      "Resource.Particle.ThrowBegin.A": {
-        "Tag": "Resource.Particle.ThrowBegin.A",
-        "DevComment": "开始投掷特效1"
-      },
-      "Resource.Particle.ThrowBegin.B": {
-        "Tag": "Resource.Particle.ThrowBegin.B",
-        "DevComment": "开始投掷特效2"
-      },
-      "Resource.Particle.ThrowBegin.C": {
-        "Tag": "Resource.Particle.ThrowBegin.C",
-        "DevComment": "开始投掷特效3"
-      },
-      "Resource.Particle.ThrowBegin.D": {
-        "Tag": "Resource.Particle.ThrowBegin.D",
-        "DevComment": "开始投掷特效4"
-      },
-      "Resource.Particle.ThrowEnd.A": {
-        "Tag": "Resource.Particle.ThrowEnd.A",
-        "DevComment": "结束投掷特效1"
-      },
-      "Resource.Particle.ThrowEnd.B": {
-        "Tag": "Resource.Particle.ThrowEnd.B",
-        "DevComment": "结束投掷特效2"
-      },
-      "Resource.Particle.ThrowEnd.C": {
-        "Tag": "Resource.Particle.ThrowEnd.C",
-        "DevComment": "结束投掷特效3"
-      },
-      "Resource.Particle.ThrowEnd.D": {
-        "Tag": "Resource.Particle.ThrowEnd.D",
-        "DevComment": "结束投掷特效4"
-      },
-      "Resource.ScreenEffect.Work.A": {
-        "Tag": "Resource.ScreenEffect.Work.A",
-        "DevComment": "工作状态屏幕特效1"
-      },
-      "Resource.ScreenEffect.Work.B": {
-        "Tag": "Resource.ScreenEffect.Work.B",
-        "DevComment": "工作状态屏幕特效2"
-      },
-      "Resource.ScreenEffect.Work.C": {
-        "Tag": "Resource.ScreenEffect.Work.C",
-        "DevComment": "工作状态屏幕特效3"
-      },
-      "Resource.Audio.ThrowBegin.A": {
-        "Tag": "Resource.Audio.ThrowBegin.A",
-        "DevComment": ""
-      },
-      "Resource.Audio.ThrowBegin.B": {
-        "Tag": "Resource.Audio.ThrowBegin.B",
-        "DevComment": ""
-      },
-      "Resource.Audio.ThrowEnd.A": {
-        "Tag": "Resource.Audio.ThrowEnd.A",
-        "DevComment": ""
-      },
-      "Resource.Audio.ThrowEnd.B": {
-        "Tag": "Resource.Audio.ThrowEnd.B",
-        "DevComment": ""
-      },
-      "Resource.Particle.Monitor.A": {
-        "Tag": "Resource.Particle.Monitor.A",
-        "DevComment": ""
-      },
-      "Resource.Particle.Monitor.B": {
-        "Tag": "Resource.Particle.Monitor.B",
-        "DevComment": ""
-      },
-      "Resource.Particle.Monitor.C": {
-        "Tag": "Resource.Particle.Monitor.C",
-        "DevComment": ""
-      },
-      "Resource.Audio.Q.OnActive.A": {
-        "Tag": "Resource.Audio.Q.OnActive.A",
-        "DevComment": ""
-      },
-      "Resource.Audio.Q.OnActive.B": {
-        "Tag": "Resource.Audio.Q.OnActive.B",
-        "DevComment": ""
-      },
-      "Resource.Audio.Q.OnActive.C": {
-        "Tag": "Resource.Audio.Q.OnActive.C",
-        "DevComment": ""
-      },
-      "Resource.Audio.Q.WhileActive.A": {
-        "Tag": "Resource.Audio.Q.WhileActive.A",
-        "DevComment": ""
-      },
-      "Resource.Audio.Q.WhileActive.B": {
-        "Tag": "Resource.Audio.Q.WhileActive.B",
-        "DevComment": ""
-      },
-      "Resource.Audio.Q.WhileActive.C": {
-        "Tag": "Resource.Audio.Q.WhileActive.C",
-        "DevComment": ""
-      },
-      "Resource.Audio.Q.OnRemove.A": {
-        "Tag": "Resource.Audio.Q.OnRemove.A",
-        "DevComment": ""
-      },
-      "Resource.Audio.Q.OnRemove.B": {
-        "Tag": "Resource.Audio.Q.OnRemove.B",
-        "DevComment": ""
-      },
-      "Resource.Audio.Q.OnRemove.C": {
-        "Tag": "Resource.Audio.Q.OnRemove.C",
-        "DevComment": ""
-      },
-      "Resource.Audio.P.OnActive": {
-        "Tag": "Resource.Audio.P.OnActive",
-        "DevComment": ""
-      },
-      "Resource.Audio.P.WhileActive": {
-        "Tag": "Resource.Audio.P.WhileActive",
-        "DevComment": ""
-      },
-      "Resource.Audio.P.OnRemove": {
-        "Tag": "Resource.Audio.P.OnRemove",
-        "DevComment": ""
-      },
-      "Resource.Material.A": {
-        "Tag": "Resource.Material.A",
-        "DevComment": ""
-      },
-      "Resource.Material.B": {
-        "Tag": "Resource.Material.B",
-        "DevComment": ""
-      },
-      "Resource.Audio.ArousalTwo.OnActive": {
-        "Tag": "Resource.Audio.ArousalTwo.OnActive",
-        "DevComment": ""
-      },
-      "Resource.Audio.ArousalTwo.WhileActive": {
-        "Tag": "Resource.Audio.ArousalTwo.WhileActive",
-        "DevComment": ""
-      },
-      "Resource.Audio.ArousalTwo.OnRemove": {
-        "Tag": "Resource.Audio.ArousalTwo.OnRemove",
-        "DevComment": ""
-      },
-      "Resource.Particle.ArousalTwo.OnActive": {
-        "Tag": "Resource.Particle.ArousalTwo.OnActive",
-        "DevComment": ""
-      },
-      "Resource.Particle.ArousalTwo.WhileActive": {
-        "Tag": "Resource.Particle.ArousalTwo.WhileActive",
-        "DevComment": ""
-      },
-      "Resource.Particle.ArousalTwo.OnRemove": {
-        "Tag": "Resource.Particle.ArousalTwo.OnRemove",
-        "DevComment": ""
-      },
-      "Resource.Particle.Weaknesses.WhileActive": {
-        "Tag": "Resource.Particle.Weaknesses.WhileActive",
-        "DevComment": ""
-      },
-      "Resource.Particle.Mesh.First.3D": {
-        "Tag": "Resource.Particle.Mesh.First.3D",
-        "DevComment": "3D模型皮肤特效1"
-      },
-      "Resource.Particle.Mesh.Second.3D": {
-        "Tag": "Resource.Particle.Mesh.Second.3D",
-        "DevComment": "3D模型皮肤特效2"
-      },
-      "Resource.Particle.Mesh.Third.3D": {
-        "Tag": "Resource.Particle.Mesh.Third.3D",
-        "DevComment": "3D模型皮肤特效3"
-      },
-      "Resource.Particle.Mesh.Fourth.3D": {
-        "Tag": "Resource.Particle.Mesh.Fourth.3D",
-        "DevComment": "3D模型皮肤特效4"
-      },
-      "Resource.Particle.Mesh.Fifth.3D": {
-        "Tag": "Resource.Particle.Mesh.Fifth.3D",
-        "DevComment": "3D模型皮肤特效5"
-      },
-      "Resource.Particle.Flavia.OverheadButterfly": {
-        "Tag": "Resource.Particle.Flavia.OverheadButterfly",
-        "DevComment": ""
-      },
-      "Resource.Particle.AnimNotify.A": {
-        "Tag": "Resource.Particle.AnimNotify.A",
-        "DevComment": ""
-      },
-      "Resource.Particle.AnimNotify.B": {
-        "Tag": "Resource.Particle.AnimNotify.B",
-        "DevComment": ""
-      },
-      "Resource.Particle.AnimNotify.C": {
-        "Tag": "Resource.Particle.AnimNotify.C",
-        "DevComment": ""
-      },
-      "Resource.Particle.AnimNotify.D": {
-        "Tag": "Resource.Particle.AnimNotify.D",
-        "DevComment": ""
-      },
-      "Resource.Particle.AnimNotify.E": {
-        "Tag": "Resource.Particle.AnimNotify.E",
-        "DevComment": ""
-      },
-      "Resource.Particle.AnimNotify.F": {
-        "Tag": "Resource.Particle.AnimNotify.F",
-        "DevComment": ""
-      },
-      "Resource.Particle.AnimNotify.G": {
-        "Tag": "Resource.Particle.AnimNotify.G",
-        "DevComment": ""
-      },
-      "Resource.Particle.AnimNotify.H": {
-        "Tag": "Resource.Particle.AnimNotify.H",
-        "DevComment": ""
-      },
-      "Resource.Particle.AnimNotify.I": {
-        "Tag": "Resource.Particle.AnimNotify.I",
-        "DevComment": ""
-      },
-      "Resource.Particle.AnimNotify.J": {
-        "Tag": "Resource.Particle.AnimNotify.J",
-        "DevComment": ""
-      },
-      "Resource.Particle.Freeze": {
-        "Tag": "Resource.Particle.Freeze",
-        "DevComment": ""
-      },
-      "Resource.Material.Freeze": {
-        "Tag": "Resource.Material.Freeze",
-        "DevComment": "冰冻材质"
-      },
-      "Resource.MeshAnim.Flavia.ButterflyWings": {
-        "Tag": "Resource.MeshAnim.Flavia.ButterflyWings",
-        "DevComment": "蝴蝶翅膀动画"
-      },
-      "Resource.Decal.Leave.A": {
-        "Tag": "Resource.Decal.Leave.A",
-        "DevComment": "离场贴花"
-      },
-      "Resource.Decal.Leave.B": {
-        "Tag": "Resource.Decal.Leave.B",
-        "DevComment": "离场贴花"
-      },
-      "Resource.Decal.Leave.C": {
-        "Tag": "Resource.Decal.Leave.C",
-        "DevComment": "离场贴花"
-      },
-      "Resource.Decal.Leave.D": {
-        "Tag": "Resource.Decal.Leave.D",
-        "DevComment": "离场贴花"
-      },
-      "Resource.Silence": {
-        "Tag": "Resource.Silence",
-        "DevComment": "沉默"
-      },
-      "Resource.Particle.OnHit": {
-        "Tag": "Resource.Particle.OnHit",
-        "DevComment": "受击特效"
-      },
-      "Resource.Audio.OnHit": {
-        "Tag": "Resource.Audio.OnHit",
-        "DevComment": "受击音效"
-      },
-      "Resource.Material.Fuchsia.Maid": {
-        "Tag": "Resource.Material.Fuschsia.Maid",
-        "DevComment": "绯莎女仆装材质效果"
-      },
-      "Resource.MeshAnim.A": {
-        "Tag": "Resource.MeshAnim.A",
-        "DevComment": ""
-      },
-      "Resource.MeshAnim.B": {
-        "Tag": "Resource.MeshAnim.B",
-        "DevComment": ""
-      },
-      "Resource.MeshAnim.C": {
-        "Tag": "Resource.MeshAnim.C",
-        "DevComment": ""
-      },
-      "Resource.MeshAnim.D": {
-        "Tag": "Resource.MeshAnim.D",
-        "DevComment": ""
-      },
-      "Resource.Particle.ArmorDestroy": {
-        "Tag": "Resource.Particle.ArmorDestroy",
-        "DevComment": "角色护甲破碎特效"
-      },
-      "Resource.Particle.Aika.Q.EnemyFire": {
-        "Tag": "Resource.Particle.Aika.Q.EnemyFire",
-        "DevComment": "艾卡觉醒1敌人身上烧伤和牢壁烧伤"
-      },
-      "Resource.Particle.SilenceZone.Mine": {
-        "Tag": "Resource.Particle.SilenceZone.Mine",
-        "DevComment": "挖矿沉默区GC特效"
-      },
-      "Resource.Audio.SilenceZone.Mine": {
-        "Tag": "Resource.Audio.SilenceZone.Mine",
-        "DevComment": "挖矿沉默区GC音效"
-      },
-      "Resource.ScreenEffect.SilenceZone.Mine": {
-        "Tag": "Resource.ScreenEffect.SilenceZone.Mine",
-        "DevComment": "挖矿沉默区GC屏幕效果"
-      },
-      "Resource.Audio.Shared.Silence.OnActive": {
-        "Tag": "Resource.Audio.Shared.Silence.OnActive",
-        "DevComment": "通用沉默效果OnActive音效"
-      },
-      "Resource.Audio.Shared.Silence.WhileActive": {
-        "Tag": "Resource.Audio.Shared.Silence.WhileActive",
-        "DevComment": "通用沉默效果WhileActive音效"
-      },
-      "Resource.Particle.Shared.Silence.WhileActive": {
-        "Tag": "Resource.Particle.Shared.Silence.WhileActive",
-        "DevComment": "通用沉默效果WhileActive粒子特效"
-      },
-      "Resource.ScreenEffect.Shared.Silence.WhileActive": {
-        "Tag": "Resource.ScreenEffect.Shared.Silence.WhileActive",
-        "DevComment": "通用沉默效果WhileActive屏幕特效"
-      },
-      "Resource.Audio.Shared.Vertigo.WhileActive": {
-        "Tag": "Resource.Audio.Shared.Vertigo.WhileActive",
-        "DevComment": "通用眩晕效果WhileActive音效"
-      },
-      "Resource.CameraModifier.Shared.Vertigo.WhileActive": {
-        "Tag": "Resource.CameraModifier.Shared.Vertigo.WhileActive",
-        "DevComment": "通用眩晕效果WhileActive相机效果"
-      },
-      "Resource.Particle.Shared.Intimacy": {
-        "Tag": "Resource.Particle.Shared.Intimacy",
-        "DevComment": "亲密度局内特效"
-      },
-      "Resource.Particle.Shared.Intimacy.WhileActive": {
-        "Tag": "Resource.Particle.Shared.Intimacy.WhileActive",
-        "DevComment": ""
-      },
-      "Resource.Particle.Shared.Intimacy.WhileActive.Effect01": {
-        "Tag": "Resource.Particle.Shared.Intimacy.WhileActive.Effect01",
-        "DevComment": ""
-      },
-      "Resource.Particle.Shared.Intimacy.WhileActive.Effect02": {
-        "Tag": "Resource.Particle.Shared.Intimacy.WhileActive.Effect02",
-        "DevComment": ""
-      }
+    "Resource.Audio.Stealth.OnActive": {
+      "Tag": "Resource.Audio.Stealth.OnActive",
+      "DevComment": "进入隐身音效"
+    },
+    "Resource.Audio.Stealth.OnRemove": {
+      "Tag": "Resource.Audio.Stealth.OnRemove",
+      "DevComment": "退出隐身音效"
+    },
+    "Resource.Audio.FlashGrenade.Activate": {
+      "Tag": "Resource.Audio.FlashGrenade.Activate",
+      "DevComment": ""
+    },
+    "Resource.Audio.FlashGrenade.Remove": {
+      "Tag": "Resource.Audio.FlashGrenade.Remove",
+      "DevComment": ""
+    },
+    "Resource.Audio.TreatmentGreade.WhileActive": {
+      "Tag": "Resource.Audio.TreatmentGreade.WhileActive",
+      "DevComment": ""
+    },
+    "Resource.Audio.TreatmentGreade.OnRemove": {
+      "Tag": "Resource.Audio.TreatmentGreade.OnRemove",
+      "DevComment": ""
+    },
+    "Resource.Audio.SlowDownGrenade.Activate": {
+      "Tag": "Resource.Audio.SlowDownGrenade.Activate",
+      "DevComment": ""
+    },
+    "Resource.Audio.SlowDownGrenade.Remove": {
+      "Tag": "Resource.Audio.SlowDownGrenade.Remove",
+      "DevComment": ""
+    },
+    "Resource.Audio.FlashGrenade.Reset": {
+      "Tag": "Resource.Audio.FlashGrenade.Reset",
+      "DevComment": ""
+    },
+    "Resource.Audio.X.OnActive": {
+      "Tag": "Resource.Audio.X.OnActive",
+      "DevComment": ""
+    },
+    "Resource.Audio.X.WhileActive": {
+      "Tag": "Resource.Audio.X.WhileActive",
+      "DevComment": ""
+    },
+    "Resource.Audio.X.OnRemove": {
+      "Tag": "Resource.Audio.X.OnRemove",
+      "DevComment": ""
+    },
+    "Resource.Audio.X.Equip": {
+      "Tag": "Resource.Audio.X.Equip",
+      "DevComment": ""
+    },
+    "Resource.Audio.X.Attack": {
+      "Tag": "Resource.Audio.X.Attack",
+      "DevComment": ""
+    },
+    "Resource.Audio.Fuchsia.P.OnActive": {
+      "Tag": "Resource.Audio.Fuchsia.P.OnActive",
+      "DevComment": ""
+    },
+    "Resource.Audio.Fuchsia.P.WhileActive": {
+      "Tag": "Resource.Audio.Fuchsia.P.WhileActive",
+      "DevComment": ""
+    },
+    "Resource.Audio.Fuchsia.Q.OnActive": {
+      "Tag": "Resource.Audio.Fuchsia.Q.OnActive",
+      "DevComment": "菲莎Q激活音效"
+    },
+    "Resource.Audio.Fuchsia.Q.WhileActive": {
+      "Tag": "Resource.Audio.Fuchsia.Q.WhileActive",
+      "DevComment": ""
+    },
+    "Resource.Audio.Fuchsia.Q.Arousal.OnActive": {
+      "Tag": "Resource.Audio.Fuchsia.Q.Arousal.OnActive",
+      "DevComment": "菲莎觉醒Q激活音效"
+    },
+    "Resource.Audio.Fuchsia.Q.Arousal.Enemy": {
+      "Tag": "Resource.Audio.Fuchsia.Q.Arousal.Enemy",
+      "DevComment": "菲莎觉醒Q敌人震慑音效"
+    },
+    "Resource.Audio.Fuchsia.EnhancedQ.OnActive": {
+      "Tag": "Resource.Audio.Fuchsia.EnhancedQ.OnActive",
+      "DevComment": ""
+    },
+    "Resource.Audio.Fuchsia.EnhancedQ.WhileActive": {
+      "Tag": "Resource.Audio.Fuchsia.EnhancedQ.WhileActive",
+      "DevComment": ""
+    },
+    "Resource.Audio.Fuchsia.X.WhileActive": {
+      "Tag": "Resource.Audio.Fuchsia.X.WhileActive",
+      "DevComment": ""
+    },
+    "Resource.Audio.Fuchsia.X.OnRemove": {
+      "Tag": "Resource.Audio.Fuchsia.X.OnRemove",
+      "DevComment": ""
+    },
+    "Resource.Audio.Fuchsia.P.Arousal.OnActive": {
+      "Tag": "Resource.Audio.Fuchsia.P.Arousal.OnActive",
+      "DevComment": "菲莎觉醒P激活bgm"
+    },
+    "Resource.Audio.Fuchsia.P.Arousal.WhileActive": {
+      "Tag": "Resource.Audio.Fuchsia.P.Arousal.WhileActive",
+      "DevComment": "菲莎觉醒P持续音效"
+    },
+    "Resource.Audio.Fuchsia.P.Arousal.Remove": {
+      "Tag": "Resource.Audio.Fuchsia.P.Arousal.Remove",
+      "DevComment": "菲莎觉醒P结束音效"
+    },
+    "Resource.Audio.MoBai.X.Revive": {
+      "Tag": "Resource.Audio.MoBai.X.Revive",
+      "DevComment": "白墨X期间重生音效"
+    },
+    "Resource.Audio.MoBai.X.Death": {
+      "Tag": "Resource.Audio.MoBai.X.Death",
+      "DevComment": "白墨X期间死亡音效"
+    },
+    "Resource.Audio.MoBai.X.WhileActive": {
+      "Tag": "Resource.Audio.MoBai.X.WhileActive",
+      "DevComment": "白墨X期间持续音效"
+    },
+    "Resource.Audio.AlarmGrenade.Loop": {
+      "Tag": "Resource.Audio.AlarmGrenade.Loop",
+      "DevComment": ""
+    },
+    "Resource.Audio.Vertigo.Loop": {
+      "Tag": "Resource.Audio.Vertigo.Loop",
+      "DevComment": "眩晕音效"
+    },
+    "Resource.Audio.GodTime.Active": {
+      "Tag": "Resource.Audio.GodTime.Active",
+      "DevComment": "无敌出现音效"
+    },
+    "Resource.Audio.GodTime.Remove": {
+      "Tag": "Resource.Audio.GodTime.Remove",
+      "DevComment": "无敌消失音效"
+    },
+    "Resource.Occlusion.EnemyTeamCanSee": {
+      "Tag": "Resource.Occlusion.EnemyTeamCanSee",
+      "DevComment": ""
+    },
+    "Resource.Occlusion.XRayWatchGame": {
+      "Tag": "Resource.Occlusion.XRayWatchGame",
+      "DevComment": ""
+    },
+    "Resource.Particle.FlashGrenade": {
+      "Tag": "Resource.Particle.FlashGrenade",
+      "DevComment": "闪光弹头顶粒子特效"
+    },
+    "Resource.Particle.FlashGrenade.2D": {
+      "Tag": "Resource.Particle.FlashGrenade.2D",
+      "DevComment": ""
+    },
+    "Resource.Particle.TreatmentGrenade": {
+      "Tag": "Resource.Particle.TreatmentGrenade",
+      "DevComment": "治疗雷循环特效"
+    },
+    "Resource.Particle.Q.OnActive": {
+      "Tag": "Resource.Particle.Q.OnActive",
+      "DevComment": ""
+    },
+    "Resource.Particle.Q.WhileActive.A": {
+      "Tag": "Resource.Particle.Q.WhileActive.A",
+      "DevComment": ""
+    },
+    "Resource.Particle.Q.WhileActive.B": {
+      "Tag": "Resource.Particle.Q.WhileActive.B",
+      "DevComment": ""
+    },
+    "Resource.Particle.Q.WhileActive.C": {
+      "Tag": "Resource.Particle.Q.WhileActive.C",
+      "DevComment": ""
+    },
+    "Resource.Particle.Q.OnTrigger.A": {
+      "Tag": "Resource.Particle.Q.OnTrigger.A",
+      "DevComment": ""
+    },
+    "Resource.Particle.Q.OnTrigger.B": {
+      "Tag": "Resource.Particle.Q.OnTrigger.B",
+      "DevComment": ""
+    },
+    "Resource.Particle.Q.OnRemove": {
+      "Tag": "Resource.Particle.Q.OnRemove",
+      "DevComment": ""
+    },
+    "Resource.Particle.Q.Equip": {
+      "Tag": "Resource.Particle.Q.Equip",
+      "DevComment": ""
+    },
+    "Resource.Particle.X.OnActive": {
+      "Tag": "Resource.Particle.X.OnActive",
+      "DevComment": ""
+    },
+    "Resource.Particle.X.WhileActive.A": {
+      "Tag": "Resource.Particle.X.WhileActive.A",
+      "DevComment": ""
+    },
+    "Resource.Particle.X.WhileActive.B": {
+      "Tag": "Resource.Particle.X.WhileActive.B",
+      "DevComment": ""
+    },
+    "Resource.Particle.X.WhileActive.C": {
+      "Tag": "Resource.Particle.X.WhileActive.C",
+      "DevComment": ""
+    },
+    "Resource.Particle.X.OnRemove": {
+      "Tag": "Resource.Particle.X.OnRemove",
+      "DevComment": ""
+    },
+    "Resource.Particle.X.Equip": {
+      "Tag": "Resource.Particle.X.Equip",
+      "DevComment": ""
+    },
+    "Resource.Particle.Character.SecondJump": {
+      "Tag": "Resource.Particle.Character.SecondJump",
+      "DevComment": "角色二段跳特效"
+    },
+    "Resource.Particle.SpeedSlow.WhileActive": {
+      "Tag": "Resource.Particle.SpeedSlow.WhileActive",
+      "DevComment": "减速标签"
+    },
+    "Resource.Particle.Block2D.3P": {
+      "Tag": "Resource.Particle.Block2D.3P",
+      "DevComment": "禁止2D的3P特效"
+    },
+    "Resource.Particle.DamageFactorStrong.WhileActive": {
+      "Tag": "Resource.Particle.DamageFactorStrong.WhileActive",
+      "DevComment": "伤害减少"
+    },
+    "Resource.Particle.DamageFactor.WhileActive": {
+      "Tag": "Resource.Particle.DamageFactor.WhileActive",
+      "DevComment": "伤害加深"
+    },
+    "Resource.Particle.Fuchsia.P.OnActive": {
+      "Tag": "Resource.Particle.Fuchsia.P.OnActive",
+      "DevComment": ""
+    },
+    "Resource.Particle.Fuchsia.P.WhileActive": {
+      "Tag": "Resource.Particle.Fuchsia.P.WhileActive",
+      "DevComment": ""
+    },
+    "Resource.Particle.Fuchsia.Q.WhileActive": {
+      "Tag": "Resource.Particle.Fuchsia.Q.WhileActive",
+      "DevComment": ""
+    },
+    "Resource.Particle.Fuchsia.Q.WhileActive.Eyes": {
+      "Tag": "Resource.Particle.Fuchsia.Q.WhileActive.Eyes",
+      "DevComment": "菲莎Q激活3D眼睛特效"
+    },
+    "Resource.Particle.Fuchsia.Q.WhileActive.Eyes.2D": {
+      "Tag": "Resource.Particle.Fuchsia.Q.WhileActive.Eyes.2D",
+      "DevComment": "菲莎Q激活2D眼睛特效"
+    },
+    "Resource.Particle.Fuchsia.Q.Arousal.OnActive": {
+      "Tag": "Resource.Particle.Fuchsia.Q.Arousal.OnActive",
+      "DevComment": "菲莎觉醒Q激活特效"
+    },
+    "Resource.Particle.Fuchsia.X.WhileActive": {
+      "Tag": "Resource.Particle.Fuchsia.X.WhileActive",
+      "DevComment": ""
+    },
+    "Resource.Particle.Fuchsia.X.WhileActive.Eyes": {
+      "Tag": "Resource.Particle.Fuchsia.X.WhileActive.Eyes",
+      "DevComment": "菲莎X激活3D眼睛特效"
+    },
+    "Resource.Particle.Fuchsia.X.WhileActive.Eyes.2D": {
+      "Tag": "Resource.Particle.Fuchsia.X.WhileActive.Eyes.2D",
+      "DevComment": "菲莎X激活2D眼睛特效"
+    },
+    "Resource.Particle.Fuchsia.Arousal.P.WhileActive": {
+      "Tag": "Resource.Particle.Fuchsia.Arousal.P.WhileActive",
+      "DevComment": "菲莎觉醒P激活特效"
+    },
+    "Resource.Particle.Fuchsia.Arousal.P.OnRemove": {
+      "Tag": "Resource.Particle.Fuchsia.Arousal.P.OnRemove",
+      "DevComment": "菲莎觉醒P结束特效"
+    },
+    "Resource.Particle.Mask.OnActivated": {
+      "Tag": "Resource.Particle.Mask.OnActivated",
+      "DevComment": "菲莎口罩戴上时特效"
+    },
+    "Resource.Particle.Mask.OnDeactivated": {
+      "Tag": "Resource.Particle.Mask.OnDeactivated",
+      "DevComment": "菲莎口罩消失时特效"
+    },
+    "Resource.Particle.Julian.Twine.WhileActive": {
+      "Tag": "Resource.Particle.Julian.Twine.WhileActive",
+      "DevComment": "朱利安缠绕特效"
+    },
+    "Resource.Particle.Julian.Twine.End": {
+      "Tag": "Resource.Particle.Julian.Twine.End",
+      "DevComment": "朱利安缠绕特效"
+    },
+    "Resource.Particle.Julian.ArousalTwo.Levitate.WhileActive": {
+      "Tag": "Resource.Particle.Julian.ArousalTwo.Levitate.WhileActive",
+      "DevComment": "朱利安悬浮粒子"
+    },
+    "Resource.Particle.Michele.Q.Muzzle": {
+      "Tag": "Resource.Particle.Michele.Q.Muzzle",
+      "DevComment": "米雪儿Q枪口特效"
+    },
+    "Resource.Particle.Michele.Q.Beam": {
+      "Tag": "Resource.Particle.Michele.Q.Beam",
+      "DevComment": "米雪儿Q弹道特效"
+    },
+    "Resource.Particle.Michele.Q.HitCharacter": {
+      "Tag": "Resource.Particle.Michele.Q.HitCharacter",
+      "DevComment": "米雪儿Q命中点效果"
+    },
+    "Resource.Particle.Michele.X.Preview": {
+      "Tag": "Resource.Particle.Michele.X.Preview",
+      "DevComment": "米雪儿X预览特效"
+    },
+    "Resource.Particle.Michele.X.EquipWeapon": {
+      "Tag": "Resource.Particle.Michele.X.EquipWeapon",
+      "DevComment": "无人机装备的武器特效"
+    },
+    "Resource.Particle.Michele.X.EquipCharacter": {
+      "Tag": "Resource.Particle.Michele.X.EquipCharacter",
+      "DevComment": "无人机装备的人物特效"
+    },
+    "Resource.Particle.Michele.X.Muzzle": {
+      "Tag": "Resource.Particle.Michele.X.Muzzle",
+      "DevComment": "无人机X枪口特效"
+    },
+    "Resource.Particle.Michele.X.Beam": {
+      "Tag": "Resource.Particle.Michele.X.Beam",
+      "DevComment": "无人机X弹道特效"
+    },
+    "Resource.Particle.Michele.X.MuzzleLeft": {
+      "Tag": "Resource.Particle.Michele.X.MuzzleLeft",
+      "DevComment": "无人机X左边枪口特效"
+    },
+    "Resource.Particle.Michele.X.MuzzleRight": {
+      "Tag": "Resource.Particle.Michele.X.MuzzleRight",
+      "DevComment": "无人机X右边枪口特效"
+    },
+    "Resource.Particle.Michele.X.BeamLeft": {
+      "Tag": "Resource.Particle.Michele.X.BeamLeft",
+      "DevComment": "无人机X左边弹道特效"
+    },
+    "Resource.Particle.Michele.X.BeamRight": {
+      "Tag": "Resource.Particle.Michele.X.BeamRight",
+      "DevComment": "无人机X右边弹道特效"
+    },
+    "Resource.Particle.Michele.X.NitrogenLeft": {
+      "Tag": "Resource.Particle.Michele.X.NitrogenLeft",
+      "DevComment": "无人机X左边氮气特效"
+    },
+    "Resource.Particle.Michele.X.NitrogenRight": {
+      "Tag": "Resource.Particle.Michele.X.NitrogenRight",
+      "DevComment": "无人机X右边氮气特效"
+    },
+    "Resource.Particle.Michele.X.HitCharacter1": {
+      "Tag": "Resource.Particle.Michele.X.HitCharacter1",
+      "DevComment": "无人机阶段1命中点效果"
+    },
+    "Resource.Particle.Michele.X.HitCharacter2": {
+      "Tag": "Resource.Particle.Michele.X.HitCharacter2",
+      "DevComment": "无人机阶段2命中点效果"
+    },
+    "Resource.Particle.MoBai.Q.Paint": {
+      "Tag": "Resource.Particle.MoBai.Q.Paint",
+      "DevComment": "白墨Q前摇、翻滚、后摇开始音效"
+    },
+    "Resource.Particle.MoBai.X.Revive": {
+      "Tag": "Resource.Particle.MoBai.X.Revive",
+      "DevComment": "白墨X期间重生特效"
+    },
+    "Resource.Particle.MoBai.X.Death": {
+      "Tag": "Resource.Particle.MoBai.X.Death",
+      "DevComment": "白墨X期间死亡特效"
+    },
+    "Resource.Particle.MoBai.X.WhileActive": {
+      "Tag": "Resource.Particle.MoBai.X.WhileActive",
+      "DevComment": "白墨X期间持续特效"
+    },
+    "Resource.Particle.Huixing.P.WhileActive": {
+      "Tag": "Resource.Particle.Huixing.P.WhileActive",
+      "DevComment": "星绘被动持续特效"
+    },
+    "Resource.Particle.Huixing.X.IdleStart": {
+      "Tag": "Resource.Particle.Huixing.X.IdleStart",
+      "DevComment": "星绘大招准备开始"
+    },
+    "Resource.Particle.Huixing.X.IdleEnd": {
+      "Tag": "Resource.Particle.Huixing.X.IdleEnd",
+      "DevComment": "星绘大招准备结束"
+    },
+    "Resource.Particle.Huixing.X.WhileActive": {
+      "Tag": "Resource.Particle.Huixing.X.WhileActive",
+      "DevComment": "星绘大招特效"
+    },
+    "Resource.Particle.Huixing.X.Start": {
+      "Tag": "Resource.Particle.Huixing.X.Start",
+      "DevComment": "星绘大招传送开始"
+    },
+    "Resource.Particle.Huixing.X.End": {
+      "Tag": "Resource.Particle.Huixing.X.End",
+      "DevComment": "星绘大招传送结束"
+    },
+    "Resource.Particle.Huixing.X.ExtraArmor": {
+      "Tag": "Resource.Particle.Huixing.X.ExtraArmor",
+      "DevComment": "星绘大招临时护甲"
+    },
+    "Resource.Particle.Huixing.X.Summon.WhileActive": {
+      "Tag": "Resource.Particle.Huixing.X.Summon.WhileActive",
+      "DevComment": "星绘大招周身特效"
+    },
+    "Resource.Particle.Huixing.X.Summon.Start": {
+      "Tag": "Resource.Particle.Huixing.X.Summon.Start",
+      "DevComment": "星绘大招周身传送开始"
+    },
+    "Resource.Particle.Huixing.X.Summon.End": {
+      "Tag": "Resource.Particle.Huixing.X.Summon.End",
+      "DevComment": "星绘大招周身传送结束"
+    },
+    "Resource.Particle.ArousalTwo.MoBai": {
+      "Tag": "Resource.Particle.ArousalTwo.MoBai",
+      "DevComment": "白墨觉醒2 头顶粒子"
+    },
+    "Resource.Particle.ArousalTwo.MoBai.2D": {
+      "Tag": "Resource.Particle.ArousalTwo.MoBai.2D",
+      "DevComment": "白墨觉醒2 头顶粒子2D"
+    },
+    "Resource.Particle.Intercept.Hit": {
+      "Tag": "Resource.Particle.Intercept.Hit",
+      "DevComment": "拦截者碰撞特效"
+    },
+    "Resource.Particle.Intercept.Explode": {
+      "Tag": "Resource.Particle.Intercept.Explode",
+      "DevComment": "拦截者碰撞爆炸特效"
+    },
+    "Resource.Particle.SlowDownGrenade.SpeedSlow.WhileActive": {
+      "Tag": "Resource.Particle.SlowDownGrenade.SpeedSlow.WhileActive",
+      "DevComment": "减速雷减速特效"
+    },
+    "Resource.ScreenEffect.SafeZone.Warning": {
+      "Tag": "Resource.ScreenEffect.SafeZone.Warning",
+      "DevComment": "团竞危险区域预警屏幕效果"
+    },
+    "Resource.ScreenEffect.Block2D": {
+      "Tag": "Resource.ScreenEffect.Block2D",
+      "DevComment": "禁止2D屏幕开始效果"
+    },
+    "Resource.ScreenEffect.Block2D.MoBai": {
+      "Tag": "Resource.ScreenEffect.Block2D.MoBai",
+      "DevComment": "白墨被动禁止2D屏幕效果"
+    },
+    "Resource.ScreenEffect.Block2D.ArousalFirst.MoBai": {
+      "Tag": "Resource.ScreenEffect.Block2D.ArousalFirst.MoBai",
+      "DevComment": "白墨觉醒1禁止2D屏幕效果"
+    },
+    "Resource.ScreenEffect.ArousalTwo.MoBai": {
+      "Tag": "Resource.ScreenEffect.ArousalTwo.MoBai",
+      "DevComment": "白墨觉醒2 屏幕效果"
+    },
+    "Resource.ScreenEffect.FlashGrenade": {
+      "Tag": "Resource.ScreenEffect.FlashGrenade",
+      "DevComment": ""
+    },
+    "Resource.ScreenEffect.Julian.ArousalTwo.Levitate": {
+      "Tag": "Resource.ScreenEffect.Julian.ArousalTwo.Levitate",
+      "DevComment": "朱利安觉醒二屏幕特效"
+    },
+    "Resource.ScreenEffect.SlowDownGrenade": {
+      "Tag": "Resource.ScreenEffect.SlowDownGrenade",
+      "DevComment": ""
+    },
+    "Resource.ScreenEffect.TreatmentGrenade": {
+      "Tag": "Resource.ScreenEffect.TreatmentGrenade",
+      "DevComment": ""
+    },
+    "Resource.ScreenEffect.Q": {
+      "Tag": "Resource.ScreenEffect.Q",
+      "DevComment": "Q屏幕动画"
+    },
+    "Resource.ScreenEffect.X": {
+      "Tag": "Resource.ScreenEffect.X",
+      "DevComment": "X屏幕动画"
+    },
+    "Resource.ScreenEffect.P": {
+      "Tag": "Resource.ScreenEffect.P",
+      "DevComment": "P屏幕动画"
+    },
+    "Resource.ScreenEffect.CrossHair.Open": {
+      "Tag": "Resource.ScreenEffect.CrossHair.Open",
+      "DevComment": "显示准心"
+    },
+    "Resource.ScreenEffect.CrossHair.Normal": {
+      "Tag": "Resource.ScreenEffect.CrossHair.Normal",
+      "DevComment": "未选中目标准心"
+    },
+    "Resource.ScreenEffect.CrossHair.Targeting": {
+      "Tag": "Resource.ScreenEffect.CrossHair.Targeting",
+      "DevComment": "选中目标准心"
+    },
+    "Resource.ScreenEffect.CrossHair.OnSelect": {
+      "Tag": "Resource.ScreenEffect.CrossHair.OnSelect",
+      "DevComment": "锁定目标准心"
+    },
+    "Resource.ScreenEffect.CrossHair.Hide": {
+      "Tag": "Resource.ScreenEffect.CrossHair.Hide",
+      "DevComment": "隐藏准心"
+    },
+    "Resource.Overhead.Reiichi.ArousalOne.WhileActive": {
+      "Tag": "Resource.Overhead.Reiichi.ArousalOne.WhileActive",
+      "DevComment": "令一觉醒头顶标记"
+    },
+    "Resource.Overhead.GameMode.StealSpar": {
+      "Tag": "Resource.Overhead.GameMode.StealSpar",
+      "DevComment": "采矿模式偷矿标志"
+    },
+    "Resource.Overhead.GameMode.PickSpar": {
+      "Tag": "Resource.Overhead.GameMode.PickSpar",
+      "DevComment": "采矿模式运送标志"
+    },
+    "Resource.CameraModifier.Vertigo": {
+      "Tag": "Resource.CameraModifier.Vertigo",
+      "DevComment": "眩晕屏幕效果"
+    },
+    "Resource.UI.XRayed": {
+      "Tag": "Resource.UI.XRayed",
+      "DevComment": "被透视UI提示"
+    },
+    "Resource.UI.Shadow": {
+      "Tag": "Resource.UI.Shadow",
+      "DevComment": "被显示残影UI提示"
+    },
+    "Resource.UI.AlarmEnter": {
+      "Tag": "Resource.UI.AlarmEnter",
+      "DevComment": "进入警报器区域提示"
+    },
+    "Resource.UI.ArousalThird.OnActive": {
+      "Tag": "Resource.UI.ArousalThird.OnActive",
+      "DevComment": "觉醒3效果激活UITips"
+    },
+    "Resource.UI.Lawine.ArousalOne.OnActive": {
+      "Tag": "Resource.UI.Lawine.ArousalOne.OnActive",
+      "DevComment": "拉薇觉醒Tips"
+    },
+    "Resource.UI.Reiichi.ArousalOne.OnActive": {
+      "Tag": "Resource.UI.Reiichi.ArousalOne.OnActive",
+      "DevComment": "令一觉醒Tips"
+    },
+    "Resource.UI.Feedback": {
+      "Tag": "Resource.UI.Feedback",
+      "DevComment": "通用Tips标签"
+    },
+    "Resource.UI.Feedback.DetectedTarget": {
+      "Tag": "Resource.UI.Feedback.DetectedTarget",
+      "DevComment": "通用检测到目标Tips标签"
+    },
+    "Resource.Shadow": {
+      "Tag": "Resource.Shadow",
+      "DevComment": "残影资源"
+    },
+    "Resource.Highlight.Shared": {
+      "Tag": "Resource.Highlight.Shared",
+      "DevComment": "通用高亮"
+    },
+    "Resource.Particle.Treat.Self": {
+      "Tag": "Resource.Particle.Treat.Self",
+      "DevComment": "治疗自己特效"
+    },
+    "Resource.Particle.Treat.Other": {
+      "Tag": "Resource.Particle.Treat.Other",
+      "DevComment": "治疗他人特效"
+    },
+    "Resource.Particle.Death.A": {
+      "Tag": "Resource.Particle.Death.A",
+      "DevComment": "死亡特效"
+    },
+    "Resource.Particle.Death.B": {
+      "Tag": "Resource.Particle.Death.B",
+      "DevComment": "死亡特效"
+    },
+    "Resource.Particle.Leave.A": {
+      "Tag": "Resource.Particle.Leave.A",
+      "DevComment": "离开特效"
+    },
+    "Resource.Particle.Leave.B": {
+      "Tag": "Resource.Particle.Leave.B",
+      "DevComment": "离开特效"
+    },
+    "Resource.Particle.Leave": {
+      "Tag": "Resource.Particle.Leave",
+      "DevComment": "离开特效"
+    },
+    "Resource.Particle.Wait.A": {
+      "Tag": "Resource.Particle.Wait.A",
+      "DevComment": "等待特效"
+    },
+    "Resource.Particle.Wait.B": {
+      "Tag": "Resource.Particle.Wait.B",
+      "DevComment": "等待特效"
+    },
+    "Resource.Particle.Entry.A": {
+      "Tag": "Resource.Particle.Entry.A",
+      "DevComment": "进入特效"
+    },
+    "Resource.Particle.Entry.B": {
+      "Tag": "Resource.Particle.Entry.B",
+      "DevComment": "进入特效"
+    },
+    "Resource.Particle.Work.A": {
+      "Tag": "Resource.Particle.Work.A",
+      "DevComment": "工作特效"
+    },
+    "Resource.Particle.Work.B": {
+      "Tag": "Resource.Particle.Work.B",
+      "DevComment": "工作特效"
+    },
+    "Resource.Particle.Work.C": {
+      "Tag": "Resource.Particle.Work.C",
+      "DevComment": "工作特效"
+    },
+    "Resource.Particle.Work.D": {
+      "Tag": "Resource.Particle.Work.D",
+      "DevComment": "工作特效"
+    },
+    "Resource.Particle.Work.E": {
+      "Tag": "Resource.Particle.Work.E",
+      "DevComment": "工作特效"
+    },
+    "Resource.Particle.SecondWork": {
+      "Tag": "Resource.Particle.SecondWork",
+      "DevComment": "工作特效2"
+    },
+    "Resource.Particle.ThirdWork": {
+      "Tag": "Resource.Particle.ThirdWork",
+      "DevComment": "工作特效3"
+    },
+    "Resource.Particle.FourthWork": {
+      "Tag": "Resource.Particle.FourthWork",
+      "DevComment": "工作特效4"
+    },
+    "Resource.Particle.FifthWork": {
+      "Tag": "Resource.Particle.FifthWork",
+      "DevComment": "工作特效5"
+    },
+    "Resource.Audio.Death.A": {
+      "Tag": "Resource.Audio.Death.A",
+      "DevComment": "死亡音效"
+    },
+    "Resource.Audio.Death.B": {
+      "Tag": "Resource.Audio.Death.B",
+      "DevComment": "死亡音效"
+    },
+    "Resource.Audio.Leave.A": {
+      "Tag": "Resource.Audio.Leave.A",
+      "DevComment": "离场音效"
+    },
+    "Resource.Audio.Leave.B": {
+      "Tag": "Resource.Audio.Leave.B",
+      "DevComment": "离场音效"
+    },
+    "Resource.Audio.Entry.A": {
+      "Tag": "Resource.Audio.Entry.A",
+      "DevComment": "入场音效"
+    },
+    "Resource.Audio.Entry.B": {
+      "Tag": "Resource.Audio.Entry.B",
+      "DevComment": "入场音效"
+    },
+    "Resource.Audio.Wait.A": {
+      "Tag": "Resource.Audio.Wait.A",
+      "DevComment": "等待音效"
+    },
+    "Resource.Audio.Wait.B": {
+      "Tag": "Resource.Audio.Wait.B",
+      "DevComment": "等待音效"
+    },
+    "Resource.Audio.Work.A": {
+      "Tag": "Resource.Audio.Work.A",
+      "DevComment": "工作音效"
+    },
+    "Resource.Audio.Work.B": {
+      "Tag": "Resource.Audio.Work.B",
+      "DevComment": "工作音效"
+    },
+    "Resource.Audio.Work.C": {
+      "Tag": "Resource.Audio.Work.C",
+      "DevComment": "工作音效"
+    },
+    "Resource.Audio.Work.D": {
+      "Tag": "Resource.Audio.Work.D",
+      "DevComment": "工作音效"
+    },
+    "Resource.Audio.Work.E": {
+      "Tag": "Resource.Audio.Work.E",
+      "DevComment": "工作音效"
+    },
+    "Resource.Audio.Idle": {
+      "Tag": "Resource.Audio.Idle",
+      "DevComment": "休息音效"
+    },
+    "Resource.Audio.Walk": {
+      "Tag": "Resource.Audio.Walk",
+      "DevComment": "走音效"
+    },
+    "Resource.Audio.Run": {
+      "Tag": "Resource.Audio.Run",
+      "DevComment": "跑音效"
+    },
+    "Resource.Audio.Sprint": {
+      "Tag": "Resource.Audio.Sprint",
+      "DevComment": "加速音效"
+    },
+    "Resource.Audio.X.HuiXing.IdleStart": {
+      "Tag": "Resource.Audio.X.HuiXing.IdleStart",
+      "DevComment": "星绘准备传送"
+    },
+    "Resource.Audio.X.HuiXing.IdleEnd": {
+      "Tag": "Resource.Audio.X.HuiXing.IdleEnd",
+      "DevComment": "星绘取消传送"
+    },
+    "Resource.Audio.X.HuiXing.Start": {
+      "Tag": "Resource.Audio.X.HuiXing.Start",
+      "DevComment": "星绘准备开始"
+    },
+    "Resource.Audio.X.HuiXing.End": {
+      "Tag": "Resource.Audio.X.HuiXing.End",
+      "DevComment": "星绘准备结束"
+    },
+    "Resource.Audio.ArousalTwo.Reiichi.Team": {
+      "Tag": "Resource.Audio.ArousalTwo.Reiichi.Team",
+      "DevComment": "令一觉醒2队友音效"
+    },
+    "Resource.Audio.ArousalTwo.Reiichi.Enemy": {
+      "Tag": "Resource.Audio.ArousalTwo.Reiichi.Enemy",
+      "DevComment": "令一觉醒2敌人音效"
+    },
+    "Resource.Material.XRayed": {
+      "Tag": "Resource.Material.XRayed",
+      "DevComment": "被透视材质效果"
+    },
+    "Resource.Material.WatchGameXRayed": {
+      "Tag": "Resource.Material.WatchGameXRayed",
+      "DevComment": "观战模式被透视材质效果"
+    },
+    "Resource.Material.Stealth": {
+      "Tag": "Resource.Material.Stealth",
+      "DevComment": "隐身材质效果"
+    },
+    "Resource.Material.Michele.X.Preview.Valid": {
+      "Tag": "Resource.Material.Michele.X.Preview.Valid",
+      "DevComment": "米雪儿X预览有效时材质"
+    },
+    "Resource.Particle.ArousalFirst.OnActive": {
+      "Tag": "Resource.Particle.ArousalFirst.OnActive",
+      "DevComment": ""
+    },
+    "Resource.Particle.ArousalFirst.WhileActive": {
+      "Tag": "Resource.Particle.ArousalFirst.WhileActive",
+      "DevComment": ""
+    },
+    "Resource.Particle.ArousalFirst.WhileActive.MoBai": {
+      "Tag": "Resource.Particle.ArousalFirst.WhileActive.MoBai",
+      "DevComment": "白墨觉醒1 头顶特效"
+    },
+    "Resource.Particle.ArousalFirst.WhileActive.2D.MoBai": {
+      "Tag": "Resource.Particle.ArousalFirst.WhileActive.2D.MoBai",
+      "DevComment": "白墨觉醒1 2D头顶特效"
+    },
+    "Resource.Material.Mobai.SelfColorX": {
+      "Tag": "Resource.Material.Mobai.SelfColorX",
+      "DevComment": "白墨大招自身材质效果"
+    },
+    "Resource.Particle.ArousalFirst.OnRemove": {
+      "Tag": "Resource.Particle.ArousalFirst.OnRemove",
+      "DevComment": ""
+    },
+    "Resource.Particle.ArousalSecond.OnActive": {
+      "Tag": "Resource.Particle.ArousalSecond.OnActive",
+      "DevComment": ""
+    },
+    "Resource.Particle.ArousalSecond.WhileActive": {
+      "Tag": "Resource.Particle.ArousalSecond.WhileActive",
+      "DevComment": ""
+    },
+    "Resource.Particle.ArousalSecond.OnRemove": {
+      "Tag": "Resource.Particle.ArousalSecond.OnRemove",
+      "DevComment": ""
+    },
+    "Resource.Particle.ArousalThird.OnActive": {
+      "Tag": "Resource.Particle.ArousalThird.OnActive",
+      "DevComment": ""
+    },
+    "Resource.Particle.ArousalThird.WhileActive": {
+      "Tag": "Resource.Particle.ArousalThird.WhileActive",
+      "DevComment": ""
+    },
+    "Resource.Particle.ArousalThird.WhileActive.2D": {
+      "Tag": "Resource.Particle.ArousalThird.WhileActive.2D",
+      "DevComment": ""
+    },
+    "Resource.Particle.ArousalThird.OnRemove": {
+      "Tag": "Resource.Particle.ArousalThird.OnRemove",
+      "DevComment": ""
+    },
+    "Resource.Audio.ArousalFirst.OnActive": {
+      "Tag": "Resource.Audio.ArousalFirst.OnActive",
+      "DevComment": ""
+    },
+    "Resource.Audio.ArousalFirst.WhileActive": {
+      "Tag": "Resource.Audio.ArousalFirst.WhileActive",
+      "DevComment": ""
+    },
+    "Resource.Audio.ArousalFirst.OnRemove": {
+      "Tag": "Resource.Audio.ArousalFirst.OnRemove",
+      "DevComment": ""
+    },
+    "Resource.Audio.ArousalSecond.OnActive": {
+      "Tag": "Resource.Audio.ArousalSecond.OnActive",
+      "DevComment": ""
+    },
+    "Resource.Audio.ArousalSecond.WhileActive": {
+      "Tag": "Resource.Audio.ArousalSecond.WhileActive",
+      "DevComment": ""
+    },
+    "Resource.Audio.ArousalSecond.OnRemove": {
+      "Tag": "Resource.Audio.ArousalSecond.OnRemove",
+      "DevComment": ""
+    },
+    "Resource.Audio.ArousalThird.OnActive": {
+      "Tag": "Resource.Audio.ArousalThird.OnActive",
+      "DevComment": ""
+    },
+    "Resource.Audio.ArousalThird.WhileActive": {
+      "Tag": "Resource.Audio.ArousalThird.WhileActive",
+      "DevComment": ""
+    },
+    "Resource.Audio.ArousalThird.OnRemove": {
+      "Tag": "Resource.Audio.ArousalThird.OnRemove",
+      "DevComment": ""
+    },
+    "Resource.Audio.Intercept.Hit": {
+      "Tag": "Resource.Audio.Intercept.Hit",
+      "DevComment": "拦截者碰撞声音"
+    },
+    "Resource.Audio.Intercept.Explode": {
+      "Tag": "Resource.Audio.Intercept.Explode",
+      "DevComment": "拦截者碰撞爆炸声音"
+    },
+    "Resource.ScreenEffect.ArousalFirst": {
+      "Tag": "Resource.ScreenEffect.ArousalFirst",
+      "DevComment": ""
+    },
+    "Resource.ScreenEffect.ArousalSecond": {
+      "Tag": "Resource.ScreenEffect.ArousalSecond",
+      "DevComment": ""
+    },
+    "Resource.ScreenEffect.ArousalThird": {
+      "Tag": "Resource.ScreenEffect.ArousalThird",
+      "DevComment": ""
+    },
+    "Resource.ScreenEffect.TargerLocked": {
+      "Tag": "Resource.ScreenEffect.TargerLocked",
+      "DevComment": "锁定目标屏幕效果"
+    },
+    "Resource.Material.Michele.X.Preview.InValid": {
+      "Tag": "Resource.Material.Michele.X.Preview.InValid",
+      "DevComment": "米雪儿X预览无效时材质"
+    },
+    "Resource.Decal.Michele.X.Preview": {
+      "Tag": "Resource.Decal.Michele.X.Preview",
+      "DevComment": "米雪儿X预览贴花"
+    },
+    "Resource.Decal.DeathMarker.SameTeam": {
+      "Tag": "Resource.Decal.DeathMarker.SameTeam",
+      "DevComment": "死亡标记默认贴花_自己队伍"
+    },
+    "Resource.Decal.DeathMarker.EnemyTeam": {
+      "Tag": "Resource.Decal.DeathMarker.EnemyTeam",
+      "DevComment": "死亡标记默认贴花_敌对队伍"
+    },
+    "Resource.Particle.BombDismantle.TopScreen": {
+      "Tag": "Resource.Particle.BombDismantle.TopScreen",
+      "DevComment": "拆弹器上屏幕特效"
+    },
+    "Resource.Particle.Bomb.CountdownSphere": {
+      "Tag": "Resource.Particle.Bomb.CountdownSphere",
+      "DevComment": "炸弹倒计时球形特效"
+    },
+    "Resource.Particle.Bomb.BurstSphere": {
+      "Tag": "Resource.Particle.Bomb.BurstSphere",
+      "DevComment": "炸弹爆炸球形特效"
+    },
+    "Resource.Particle.Summon.Destroy": {
+      "Tag": "Resource.Particle.Summon.Destroy",
+      "DevComment": "召唤物销毁特效"
+    },
+    "Resource.Particle.Summon.Destroy.Arousal": {
+      "Tag": "Resource.Particle.Summon.Destroy.Arousal",
+      "DevComment": "召唤物觉醒销毁特效"
+    },
+    "Resource.Growth.Upgraded": {
+      "Tag": "Resource.Growth.Upgraded",
+      "DevComment": "成长道具升级特效"
+    },
+    "Resource.Particle.Huixing.ArousalTwo": {
+      "Tag": "Resource.Particle.Huixing.ArousalTwo",
+      "DevComment": "星绘觉醒2闪光"
+    },
+    "Resource.Audio.Huixing.ArousalTwo.Activate": {
+      "Tag": "Resource.Audio.Huixing.ArousalTwo.Activate",
+      "DevComment": "星绘觉醒2闪光激活音效"
+    },
+    "Resource.Audio.Huixing.ArousalTwo.Remove": {
+      "Tag": "Resource.Audio.Huixing.ArousalTwo.Remove",
+      "DevComment": "星绘觉醒2闪光移除音效"
+    },
+    "Resource.ScreenEffect.Q.A": {
+      "Tag": "Resource.ScreenEffect.Q.A",
+      "DevComment": ""
+    },
+    "Resource.ScreenEffect.Q.B": {
+      "Tag": "Resource.ScreenEffect.Q.B",
+      "DevComment": ""
+    },
+    "Resource.Audio.SecondWork": {
+      "Tag": "Resource.Audio.SecondWork",
+      "DevComment": "工作音效"
+    },
+    "Resource.Audio.ThirdWork": {
+      "Tag": "Resource.Audio.ThirdWork",
+      "DevComment": "工作音效"
+    },
+    "Resource.Audio.FourthWork": {
+      "Tag": "Resource.Audio.FourthWork",
+      "DevComment": "工作音效"
+    },
+    "Resource.Audio.FifthWork": {
+      "Tag": "Resource.Audio.FifthWork",
+      "DevComment": "工作音效"
+    },
+    "Resource.InGameVoice.P.OnActive": {
+      "Tag": "Resource.InGameVoice.P.OnActive",
+      "DevComment": "局内语音被动技能触发"
+    },
+    "Resource.Material.GodTime": {
+      "Tag": "Resource.Material.GodTime",
+      "DevComment": "无敌材质"
+    },
+    "Resource.Audio.Equip.A": {
+      "Tag": "Resource.Audio.Equip.A",
+      "DevComment": "装备音效"
+    },
+    "Resource.Audio.Equip.B": {
+      "Tag": "Resource.Audio.Equip.B",
+      "DevComment": "装备音效"
+    },
+    "Resource.Audio.UnEquip.A": {
+      "Tag": "Resource.Audio.UnEquip.A",
+      "DevComment": "卸载音效"
+    },
+    "Resource.Audio.UnEquip.B": {
+      "Tag": "Resource.Audio.UnEquip.B",
+      "DevComment": "卸载音效"
+    },
+    "Resource.Decal.Work.A": {
+      "Tag": "Resource.Decal.Work.A",
+      "DevComment": "工作贴花"
+    },
+    "Resource.Decal.Work.B": {
+      "Tag": "Resource.Decal.Work.B",
+      "DevComment": "工作贴花"
+    },
+    "Resource.Decal.Work.C": {
+      "Tag": "Resource.Decal.Work.C",
+      "DevComment": "工作贴花"
+    },
+    "Resource.Decal.Work.D": {
+      "Tag": "Resource.Decal.Work.D",
+      "DevComment": "工作贴花"
+    },
+    "Resource.DecalParam.Work.A": {
+      "Tag": "Resource.DecalParam.Work.A",
+      "DevComment": "工作贴花参数"
+    },
+    "Resource.DecalParam.Work.B": {
+      "Tag": "Resource.DecalParam.Work.B",
+      "DevComment": "工作贴花参数"
+    },
+    "Resource.DecalParam.Work.C": {
+      "Tag": "Resource.DecalParam.Work.C",
+      "DevComment": "工作贴花参数"
+    },
+    "Resource.DecalParam.Work.D": {
+      "Tag": "Resource.DecalParam.Work.D",
+      "DevComment": "工作贴花参数"
+    },
+    "Resource.Particle.Injured.WhileActive": {
+      "Tag": "Resource.Particle.Injured.WhileActive",
+      "DevComment": "角色倒地特效"
+    },
+    "Resource.Audio.InGameSound.Mute": {
+      "Tag": "Resource.Audio.InGameSound.Mute",
+      "DevComment": "游戏结束的时候局内音效静音"
+    },
+    "Resource.Audio.InGameSound.UnMute": {
+      "Tag": "Resource.Audio.InGameSound.UnMute",
+      "DevComment": "游戏结束状态后取消局内音效静音"
+    },
+    "Resource.Particle.P": {
+      "Tag": "Resource.Particle.P",
+      "DevComment": "被动技能特效"
+    },
+    "Resource.Particle2D.P": {
+      "Tag": "Resource.Particle2D.P",
+      "DevComment": "被动技能特效"
+    },
+    "Resource.Audio.InGameSound.StopSystemVoice": {
+      "Tag": "Resource.Audio.InGameSound.StopSystemVoice",
+      "DevComment": "游戏对局内停止所有系统语音"
+    },
+    "Resource.Particle.Equip.A": {
+      "Tag": "Resource.Particle.Equip.A",
+      "DevComment": "装备粒子特效1"
+    },
+    "Resource.Particle.Equip.B": {
+      "Tag": "Resource.Particle.Equip.B",
+      "DevComment": "装备粒子特效2"
+    },
+    "Resource.Particle.Equip.C": {
+      "Tag": "Resource.Particle.Equip.C",
+      "DevComment": "装备粒子特效3"
+    },
+    "Resource.Particle.Equip.D": {
+      "Tag": "Resource.Particle.Equip.D",
+      "DevComment": "装备粒子特效4"
+    },
+    "Resource.Particle.UnEquip.A": {
+      "Tag": "Resource.Particle.UnEquip.A",
+      "DevComment": "卸载粒子特效1"
+    },
+    "Resource.Particle.UnEquip.B": {
+      "Tag": "Resource.Particle.UnEquip.B",
+      "DevComment": "卸载粒子特效2"
+    },
+    "Resource.Particle.EnterAttackType.A": {
+      "Tag": "Resource.Particle.EnterAttackType.A",
+      "DevComment": "切换开火模式特效1"
+    },
+    "Resource.Particle.EnterAttackType.B": {
+      "Tag": "Resource.Particle.EnterAttackType.B",
+      "DevComment": "切换开火模式特效2"
+    },
+    "Resource.Particle.LeaveAttackType.A": {
+      "Tag": "Resource.Particle.LeaveAttackType.A",
+      "DevComment": "还原开火模式特效1"
+    },
+    "Resource.Particle.LeaveAttackType.B": {
+      "Tag": "Resource.Particle.LeaveAttackType.B",
+      "DevComment": "还原开火模式特效2"
+    },
+    "Resource.Particle.ThrowBegin.A": {
+      "Tag": "Resource.Particle.ThrowBegin.A",
+      "DevComment": "开始投掷特效1"
+    },
+    "Resource.Particle.ThrowBegin.B": {
+      "Tag": "Resource.Particle.ThrowBegin.B",
+      "DevComment": "开始投掷特效2"
+    },
+    "Resource.Particle.ThrowBegin.C": {
+      "Tag": "Resource.Particle.ThrowBegin.C",
+      "DevComment": "开始投掷特效3"
+    },
+    "Resource.Particle.ThrowBegin.D": {
+      "Tag": "Resource.Particle.ThrowBegin.D",
+      "DevComment": "开始投掷特效4"
+    },
+    "Resource.Particle.ThrowEnd.A": {
+      "Tag": "Resource.Particle.ThrowEnd.A",
+      "DevComment": "结束投掷特效1"
+    },
+    "Resource.Particle.ThrowEnd.B": {
+      "Tag": "Resource.Particle.ThrowEnd.B",
+      "DevComment": "结束投掷特效2"
+    },
+    "Resource.Particle.ThrowEnd.C": {
+      "Tag": "Resource.Particle.ThrowEnd.C",
+      "DevComment": "结束投掷特效3"
+    },
+    "Resource.Particle.ThrowEnd.D": {
+      "Tag": "Resource.Particle.ThrowEnd.D",
+      "DevComment": "结束投掷特效4"
+    },
+    "Resource.ScreenEffect.Work.A": {
+      "Tag": "Resource.ScreenEffect.Work.A",
+      "DevComment": "工作状态屏幕特效1"
+    },
+    "Resource.ScreenEffect.Work.B": {
+      "Tag": "Resource.ScreenEffect.Work.B",
+      "DevComment": "工作状态屏幕特效2"
+    },
+    "Resource.ScreenEffect.Work.C": {
+      "Tag": "Resource.ScreenEffect.Work.C",
+      "DevComment": "工作状态屏幕特效3"
+    },
+    "Resource.Audio.ThrowBegin.A": {
+      "Tag": "Resource.Audio.ThrowBegin.A",
+      "DevComment": ""
+    },
+    "Resource.Audio.ThrowBegin.B": {
+      "Tag": "Resource.Audio.ThrowBegin.B",
+      "DevComment": ""
+    },
+    "Resource.Audio.ThrowEnd.A": {
+      "Tag": "Resource.Audio.ThrowEnd.A",
+      "DevComment": ""
+    },
+    "Resource.Audio.ThrowEnd.B": {
+      "Tag": "Resource.Audio.ThrowEnd.B",
+      "DevComment": ""
+    },
+    "Resource.Particle.Monitor.A": {
+      "Tag": "Resource.Particle.Monitor.A",
+      "DevComment": ""
+    },
+    "Resource.Particle.Monitor.B": {
+      "Tag": "Resource.Particle.Monitor.B",
+      "DevComment": ""
+    },
+    "Resource.Particle.Monitor.C": {
+      "Tag": "Resource.Particle.Monitor.C",
+      "DevComment": ""
+    },
+    "Resource.Audio.Q.OnActive.A": {
+      "Tag": "Resource.Audio.Q.OnActive.A",
+      "DevComment": ""
+    },
+    "Resource.Audio.Q.OnActive.B": {
+      "Tag": "Resource.Audio.Q.OnActive.B",
+      "DevComment": ""
+    },
+    "Resource.Audio.Q.OnActive.C": {
+      "Tag": "Resource.Audio.Q.OnActive.C",
+      "DevComment": ""
+    },
+    "Resource.Audio.Q.WhileActive.A": {
+      "Tag": "Resource.Audio.Q.WhileActive.A",
+      "DevComment": ""
+    },
+    "Resource.Audio.Q.WhileActive.B": {
+      "Tag": "Resource.Audio.Q.WhileActive.B",
+      "DevComment": ""
+    },
+    "Resource.Audio.Q.WhileActive.C": {
+      "Tag": "Resource.Audio.Q.WhileActive.C",
+      "DevComment": ""
+    },
+    "Resource.Audio.Q.OnRemove.A": {
+      "Tag": "Resource.Audio.Q.OnRemove.A",
+      "DevComment": ""
+    },
+    "Resource.Audio.Q.OnRemove.B": {
+      "Tag": "Resource.Audio.Q.OnRemove.B",
+      "DevComment": ""
+    },
+    "Resource.Audio.Q.OnRemove.C": {
+      "Tag": "Resource.Audio.Q.OnRemove.C",
+      "DevComment": ""
+    },
+    "Resource.Audio.P.OnActive": {
+      "Tag": "Resource.Audio.P.OnActive",
+      "DevComment": ""
+    },
+    "Resource.Audio.P.WhileActive": {
+      "Tag": "Resource.Audio.P.WhileActive",
+      "DevComment": ""
+    },
+    "Resource.Audio.P.OnRemove": {
+      "Tag": "Resource.Audio.P.OnRemove",
+      "DevComment": ""
+    },
+    "Resource.Material.A": {
+      "Tag": "Resource.Material.A",
+      "DevComment": ""
+    },
+    "Resource.Material.B": {
+      "Tag": "Resource.Material.B",
+      "DevComment": ""
+    },
+    "Resource.Audio.ArousalTwo.OnActive": {
+      "Tag": "Resource.Audio.ArousalTwo.OnActive",
+      "DevComment": ""
+    },
+    "Resource.Audio.ArousalTwo.WhileActive": {
+      "Tag": "Resource.Audio.ArousalTwo.WhileActive",
+      "DevComment": ""
+    },
+    "Resource.Audio.ArousalTwo.OnRemove": {
+      "Tag": "Resource.Audio.ArousalTwo.OnRemove",
+      "DevComment": ""
+    },
+    "Resource.Particle.ArousalTwo.OnActive": {
+      "Tag": "Resource.Particle.ArousalTwo.OnActive",
+      "DevComment": ""
+    },
+    "Resource.Particle.ArousalTwo.WhileActive": {
+      "Tag": "Resource.Particle.ArousalTwo.WhileActive",
+      "DevComment": ""
+    },
+    "Resource.Particle.ArousalTwo.OnRemove": {
+      "Tag": "Resource.Particle.ArousalTwo.OnRemove",
+      "DevComment": ""
+    },
+    "Resource.Particle.Weaknesses.WhileActive": {
+      "Tag": "Resource.Particle.Weaknesses.WhileActive",
+      "DevComment": ""
+    },
+    "Resource.Particle.Mesh.First.3D": {
+      "Tag": "Resource.Particle.Mesh.First.3D",
+      "DevComment": "3D模型皮肤特效1"
+    },
+    "Resource.Particle.Mesh.Second.3D": {
+      "Tag": "Resource.Particle.Mesh.Second.3D",
+      "DevComment": "3D模型皮肤特效2"
+    },
+    "Resource.Particle.Mesh.Third.3D": {
+      "Tag": "Resource.Particle.Mesh.Third.3D",
+      "DevComment": "3D模型皮肤特效3"
+    },
+    "Resource.Particle.Mesh.Fourth.3D": {
+      "Tag": "Resource.Particle.Mesh.Fourth.3D",
+      "DevComment": "3D模型皮肤特效4"
+    },
+    "Resource.Particle.Mesh.Fifth.3D": {
+      "Tag": "Resource.Particle.Mesh.Fifth.3D",
+      "DevComment": "3D模型皮肤特效5"
+    },
+    "Resource.Particle.Flavia.OverheadButterfly": {
+      "Tag": "Resource.Particle.Flavia.OverheadButterfly",
+      "DevComment": ""
+    },
+    "Resource.Particle.AnimNotify.A": {
+      "Tag": "Resource.Particle.AnimNotify.A",
+      "DevComment": ""
+    },
+    "Resource.Particle.AnimNotify.B": {
+      "Tag": "Resource.Particle.AnimNotify.B",
+      "DevComment": ""
+    },
+    "Resource.Particle.AnimNotify.C": {
+      "Tag": "Resource.Particle.AnimNotify.C",
+      "DevComment": ""
+    },
+    "Resource.Particle.AnimNotify.D": {
+      "Tag": "Resource.Particle.AnimNotify.D",
+      "DevComment": ""
+    },
+    "Resource.Particle.AnimNotify.E": {
+      "Tag": "Resource.Particle.AnimNotify.E",
+      "DevComment": ""
+    },
+    "Resource.Particle.AnimNotify.F": {
+      "Tag": "Resource.Particle.AnimNotify.F",
+      "DevComment": ""
+    },
+    "Resource.Particle.AnimNotify.G": {
+      "Tag": "Resource.Particle.AnimNotify.G",
+      "DevComment": ""
+    },
+    "Resource.Particle.AnimNotify.H": {
+      "Tag": "Resource.Particle.AnimNotify.H",
+      "DevComment": ""
+    },
+    "Resource.Particle.AnimNotify.I": {
+      "Tag": "Resource.Particle.AnimNotify.I",
+      "DevComment": ""
+    },
+    "Resource.Particle.AnimNotify.J": {
+      "Tag": "Resource.Particle.AnimNotify.J",
+      "DevComment": ""
+    },
+    "Resource.Particle.Freeze": {
+      "Tag": "Resource.Particle.Freeze",
+      "DevComment": ""
+    },
+    "Resource.Material.Freeze": {
+      "Tag": "Resource.Material.Freeze",
+      "DevComment": "冰冻材质"
+    },
+    "Resource.MeshAnim.Flavia.ButterflyWings": {
+      "Tag": "Resource.MeshAnim.Flavia.ButterflyWings",
+      "DevComment": "蝴蝶翅膀动画"
+    },
+    "Resource.Decal.Leave.A": {
+      "Tag": "Resource.Decal.Leave.A",
+      "DevComment": "离场贴花"
+    },
+    "Resource.Decal.Leave.B": {
+      "Tag": "Resource.Decal.Leave.B",
+      "DevComment": "离场贴花"
+    },
+    "Resource.Decal.Leave.C": {
+      "Tag": "Resource.Decal.Leave.C",
+      "DevComment": "离场贴花"
+    },
+    "Resource.Decal.Leave.D": {
+      "Tag": "Resource.Decal.Leave.D",
+      "DevComment": "离场贴花"
+    },
+    "Resource.Silence": {
+      "Tag": "Resource.Silence",
+      "DevComment": "沉默"
+    },
+    "Resource.Particle.OnHit": {
+      "Tag": "Resource.Particle.OnHit",
+      "DevComment": "受击特效"
+    },
+    "Resource.Audio.OnHit": {
+      "Tag": "Resource.Audio.OnHit",
+      "DevComment": "受击音效"
+    },
+    "Resource.Material.Fuchsia.Maid": {
+      "Tag": "Resource.Material.Fuschsia.Maid",
+      "DevComment": "绯莎女仆装材质效果"
+    },
+    "Resource.MeshAnim.A": {
+      "Tag": "Resource.MeshAnim.A",
+      "DevComment": ""
+    },
+    "Resource.MeshAnim.B": {
+      "Tag": "Resource.MeshAnim.B",
+      "DevComment": ""
+    },
+    "Resource.MeshAnim.C": {
+      "Tag": "Resource.MeshAnim.C",
+      "DevComment": ""
+    },
+    "Resource.MeshAnim.D": {
+      "Tag": "Resource.MeshAnim.D",
+      "DevComment": ""
+    },
+    "Resource.Particle.ArmorDestroy": {
+      "Tag": "Resource.Particle.ArmorDestroy",
+      "DevComment": "角色护甲破碎特效"
+    },
+    "Resource.Particle.Aika.Q.EnemyFire": {
+      "Tag": "Resource.Particle.Aika.Q.EnemyFire",
+      "DevComment": "艾卡觉醒1敌人身上烧伤和牢壁烧伤"
+    },
+    "Resource.Particle.SilenceZone.Mine": {
+      "Tag": "Resource.Particle.SilenceZone.Mine",
+      "DevComment": "挖矿沉默区GC特效"
+    },
+    "Resource.Audio.SilenceZone.Mine": {
+      "Tag": "Resource.Audio.SilenceZone.Mine",
+      "DevComment": "挖矿沉默区GC音效"
+    },
+    "Resource.ScreenEffect.SilenceZone.Mine": {
+      "Tag": "Resource.ScreenEffect.SilenceZone.Mine",
+      "DevComment": "挖矿沉默区GC屏幕效果"
+    },
+    "Resource.Audio.Shared.Silence.OnActive": {
+      "Tag": "Resource.Audio.Shared.Silence.OnActive",
+      "DevComment": "通用沉默效果OnActive音效"
+    },
+    "Resource.Audio.Shared.Silence.WhileActive": {
+      "Tag": "Resource.Audio.Shared.Silence.WhileActive",
+      "DevComment": "通用沉默效果WhileActive音效"
+    },
+    "Resource.Particle.Shared.Silence.WhileActive": {
+      "Tag": "Resource.Particle.Shared.Silence.WhileActive",
+      "DevComment": "通用沉默效果WhileActive粒子特效"
+    },
+    "Resource.ScreenEffect.Shared.Silence.WhileActive": {
+      "Tag": "Resource.ScreenEffect.Shared.Silence.WhileActive",
+      "DevComment": "通用沉默效果WhileActive屏幕特效"
+    },
+    "Resource.Audio.Shared.Vertigo.WhileActive": {
+      "Tag": "Resource.Audio.Shared.Vertigo.WhileActive",
+      "DevComment": "通用眩晕效果WhileActive音效"
+    },
+    "Resource.CameraModifier.Shared.Vertigo.WhileActive": {
+      "Tag": "Resource.CameraModifier.Shared.Vertigo.WhileActive",
+      "DevComment": "通用眩晕效果WhileActive相机效果"
+    },
+    "Resource.Particle.Shared.Intimacy": {
+      "Tag": "Resource.Particle.Shared.Intimacy",
+      "DevComment": "亲密度局内特效"
+    },
+    "Resource.Particle.Shared.Intimacy.WhileActive": {
+      "Tag": "Resource.Particle.Shared.Intimacy.WhileActive",
+      "DevComment": ""
+    },
+    "Resource.Particle.Shared.Intimacy.WhileActive.Effect01": {
+      "Tag": "Resource.Particle.Shared.Intimacy.WhileActive.Effect01",
+      "DevComment": ""
+    },
+    "Resource.Particle.Shared.Intimacy.WhileActive.Effect02": {
+      "Tag": "Resource.Particle.Shared.Intimacy.WhileActive.Effect02",
+      "DevComment": ""
     }
   }
-]
+}
