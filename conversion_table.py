@@ -11,8 +11,6 @@ class VoiceType(Enum):
 
 voice_conversion_table: dict[VoiceType, dict[str, str]] = {
     VoiceType.DORM: {
-        "019": ("当天第一次进入宿舍", "Entering the dorm for the first time on that day"),
-
         # dorm
         "008": ("早上问候", "Morning greeting"),
         "009": ("晚间问候", "Night greeting"),
@@ -221,6 +219,7 @@ voice_conversion_table: dict[VoiceType, dict[str, str]] = {
     VoiceType.OTHER: {
         "022": ("标题", "Title"),
         "018": ("获得角色", "Character obtained"),
+        "019": ("查看角色", "Character page"),
         "020": ("装备副武器", "Equip secondary weapon"),
         "021": ("装备战术道具", "Equip grenade"),
     }
