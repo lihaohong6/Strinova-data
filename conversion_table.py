@@ -18,14 +18,6 @@ voice_conversion_table: dict[VoiceType, dict[str, str]] = {
 
         "005": ("收到邮件", "Mail received"),
 
-        "011": ("玩家生日", "Player birthday"),
-        "034": ("玩家生日", "Player birthday"),
-
-        "012": ("角色生日", "Character birthday"),
-
-        "006": ("朋友生日", "Friend birthday"),
-        "007": ("朋友生日", "Friend birthday"),
-
         "013": ("元旦", "New Year"),
         "014": ("春节", "Spring Festival"),
         "015": ("圣诞节", "Christmas"),
@@ -94,12 +86,17 @@ voice_conversion_table: dict[VoiceType, dict[str, str]] = {
         "163": ("?", "?"),
         "164": ("?", "?"),
         # no prefix
+        "011": ("玩家生日", "Player birthday"),
+        "034": ("玩家生日", "Player birthday"),
+        "012": ("角色生日", "Character birthday"),
         "700": ("生日贺卡", "Birthday greeting card"),
         "701": ("生日蛋糕", "Birthday cake"),
         "702": ("生日回礼", "Reciprocating birthday gift"),
         "703": ("讨论生日礼物", "Discussing birthday gift"),
         "704": ("收到生日礼物", "Receiving birthday gift"),
-        "705": ("收到礼物", "Receiving birthday gift")
+        "705": ("收到礼物", "Receiving birthday gift"),
+        "006": ("朋友生日", "Friend birthday"),
+        "007": ("朋友生日", "Friend birthday"),
     },
     VoiceType.BATTLE: {
         "066": ("选择角色", "Character select"),
