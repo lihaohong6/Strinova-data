@@ -308,8 +308,18 @@
         "ObjectName": "DataTable'DT_UI_FirstAniversary'",
         "ObjectPath": "PM/Content/PaperMan/UI/BP/PC/Frontend/Activities/2024AnniversaryPC/DT_UI_FirstAniversary.0"
       },
-      null,
-      null,
+      {
+        "ObjectName": "DataTable'DT_UI_ClanPC'",
+        "ObjectPath": "PM/Content/PaperMan/UI/BP/PC/Frontend/Competition/DT_UI_ClanPC.0"
+      },
+      {
+        "ObjectName": "DataTable'DT_UI_DivisionLeisure'",
+        "ObjectPath": "PM/Content/PaperMan/UI/BP/PC/Frontend/CareerPC/LeisureCupPC/DT_UI_DivisionLeisure.0"
+      },
+      {
+        "ObjectName": "DataTable'DT_UI_Nurse'",
+        "ObjectPath": "PM/Content/PaperMan/UI/BP/PC/Frontend/Activities/Nurse/DT_UI_Nurse.0"
+      },
       {
         "ObjectName": "DataTable'DT_24AnniversaryCelebrationCheckIn'",
         "ObjectPath": "PM/Content/PaperMan/UI/BP/PC/Frontend/Activities/24CelebrationCheckInPage/DT_24AnniversaryCelebrationCheckIn.0"
@@ -1095,7 +1105,7 @@
       },
       "bIsPanel": false,
       "Layer": "EUILayer::Normal",
-      "Order": 10,
+      "Order": 0,
       "FullScreen": false,
       "SlotNameList": [],
       "Anchors": {
@@ -1729,36 +1739,6 @@
       "bIsPanel": false,
       "Layer": "EUILayer::Top",
       "Order": 111,
-      "FullScreen": false,
-      "SlotNameList": [],
-      "Anchors": {
-        "Minimum": {
-          "X": 0.0,
-          "Y": 0.0
-        },
-        "Maximum": {
-          "X": 0.0,
-          "Y": 0.0
-        }
-      },
-      "Alignment": {
-        "X": 0.0,
-        "Y": 0.0
-      }
-    },
-    "GameModeSelectPage": {
-      "PageName": "GameModeSelectPage",
-      "PageClass": {
-        "ObjectName": "Class'PMViewControllerPage'",
-        "ObjectPath": "/Script/PMGame"
-      },
-      "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/RoomPC/Common/WBP_GameModeSelectPage_PC.WBP_GameModeSelectPage_PC_C",
-        "SubPathString": ""
-      },
-      "bIsPanel": false,
-      "Layer": "EUILayer::Normal",
-      "Order": 5,
       "FullScreen": false,
       "SlotNameList": [],
       "Anchors": {
@@ -3534,6 +3514,96 @@
         "Y": 0.0
       }
     },
+    "HelpTipsUIPicPage": {
+      "PageName": "HelpTipsUIPicPage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/CommonPC/PopUp/WBP_CommonPC_ImageExplainPopUp_PC.WBP_CommonPC_ImageExplainPopUp_PC_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Top",
+      "Order": 0,
+      "FullScreen": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "HelpTipsUITextPage": {
+      "PageName": "HelpTipsUITextPage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/CommonPC/PopUp/WBP_CommonPC_CommonDescriptionPopUp_PC.WBP_CommonPC_CommonDescriptionPopUp_PC_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Top",
+      "Order": 0,
+      "FullScreen": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "ResultLeisureCupUpPage": {
+      "PageName": "ResultLeisureCupUpPage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/InGame/NonResidentFunctions/Result/RecreationCup/WBP_ResultLeisureCupUpPage.WBP_ResultLeisureCupUpPage_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 50,
+      "FullScreen": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
     "ServerButton": {
       "PageName": "ServerButton",
       "PageClass": {
@@ -5178,6 +5248,36 @@
         "Y": 0.0
       }
     },
+    "SelectSeeStoryLinePage": {
+      "PageName": "SelectSeeStoryLinePage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/LoginPC/WBP_SelectSeeStoryLinePage_PC.WBP_SelectSeeStoryLinePage_PC_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 10,
+      "FullScreen": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
     "SystemNoticePage": {
       "PageName": "SystemNoticePage",
       "PageClass": {
@@ -5611,6 +5711,66 @@
       "bIsPanel": false,
       "Layer": "EUILayer::Top",
       "Order": 120,
+      "FullScreen": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "PlayModeIntroPage": {
+      "PageName": "PlayModeIntroPage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/RoomPC/MatchRoom/WBP_SelectModeExplain_PC.WBP_SelectModeExplain_PC_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Top",
+      "Order": 0,
+      "FullScreen": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "GameModeSelectPage": {
+      "PageName": "GameModeSelectPage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/RoomPC/Common/WBP_RoomModeSelectPage_PC.WBP_RoomModeSelectPage_PC_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 5,
       "FullScreen": false,
       "SlotNameList": [],
       "Anchors": {
@@ -7050,7 +7210,7 @@
       },
       "bIsPanel": false,
       "Layer": "EUILayer::Top",
-      "Order": 110,
+      "Order": 100,
       "FullScreen": false,
       "SlotNameList": [],
       "Anchors": {
@@ -7710,7 +7870,7 @@
       },
       "bIsPanel": false,
       "Layer": "EUILayer::Normal",
-      "Order": 1,
+      "Order": 2,
       "FullScreen": false,
       "SlotNameList": [],
       "Anchors": {
@@ -7740,7 +7900,67 @@
       },
       "bIsPanel": false,
       "Layer": "EUILayer::Normal",
-      "Order": 2,
+      "Order": 5,
+      "FullScreen": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "RefereeGreenBackgroundPage": {
+      "PageName": "RefereeGreenBackgroundPage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/InGame/Referee/WBP_RefereeGreenBackgroundPage.WBP_RefereeGreenBackgroundPage_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Top",
+      "Order": 200,
+      "FullScreen": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "InGamePlayerCardPanel": {
+      "PageName": "InGamePlayerCardPanel",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/InGame/NonResidentFunctions/ChipCard/WBP_ChipCard.WBP_ChipCard_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Bottom",
+      "Order": 100,
       "FullScreen": false,
       "SlotNameList": [],
       "Anchors": {
@@ -7765,12 +7985,12 @@
         "ObjectPath": "/Script/PMGame"
       },
       "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/PC/InGame/NonResidentFunctions/BattleData/WBP_BattleData.WBP_BattleData_C",
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/InGame/NonResidentFunctions/BattleData/WBP_BattleDataPage.WBP_BattleDataPage_C",
         "SubPathString": ""
       },
       "bIsPanel": false,
       "Layer": "EUILayer::Top",
-      "Order": 105,
+      "Order": 98,
       "FullScreen": false,
       "SlotNameList": [],
       "Anchors": {
@@ -8538,36 +8758,6 @@
         "Y": 0.0
       }
     },
-    "PracticeChallengeExit": {
-      "PageName": "PracticeChallengeExit",
-      "PageClass": {
-        "ObjectName": "Class'PMViewControllerPage'",
-        "ObjectPath": "/Script/PMGame"
-      },
-      "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/PC/InGame/Practice/WBP_PracticeChallengeExit.WBP_PracticeChallengeExit_C",
-        "SubPathString": ""
-      },
-      "bIsPanel": false,
-      "Layer": "EUILayer::Normal",
-      "Order": 0,
-      "FullScreen": false,
-      "SlotNameList": [],
-      "Anchors": {
-        "Minimum": {
-          "X": 0.0,
-          "Y": 0.0
-        },
-        "Maximum": {
-          "X": 0.0,
-          "Y": 0.0
-        }
-      },
-      "Alignment": {
-        "X": 0.0,
-        "Y": 0.0
-      }
-    },
     "PracticeChallengeScore": {
       "PageName": "PracticeChallengeScore",
       "PageClass": {
@@ -8671,36 +8861,6 @@
       "bIsPanel": false,
       "Layer": "EUILayer::Top",
       "Order": 110,
-      "FullScreen": false,
-      "SlotNameList": [],
-      "Anchors": {
-        "Minimum": {
-          "X": 0.0,
-          "Y": 0.0
-        },
-        "Maximum": {
-          "X": 0.0,
-          "Y": 0.0
-        }
-      },
-      "Alignment": {
-        "X": 0.0,
-        "Y": 0.0
-      }
-    },
-    "PracticeRecordDataPage": {
-      "PageName": "PracticeRecordDataPage",
-      "PageClass": {
-        "ObjectName": "Class'PMViewControllerPage'",
-        "ObjectPath": "/Script/PMGame"
-      },
-      "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/PC/InGame/Practice/WBP_PracticeRecordData.WBP_PracticeRecordData_C",
-        "SubPathString": ""
-      },
-      "bIsPanel": false,
-      "Layer": "EUILayer::Normal",
-      "Order": 0,
       "FullScreen": false,
       "SlotNameList": [],
       "Anchors": {
@@ -8988,6 +9148,36 @@
         "Y": 0.0
       }
     },
+    "ScoreTeamGuide": {
+      "PageName": "ScoreTeamGuide",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/InGame/NonResidentFunctions/ScoreBoard/Team/WBP_ScoreTeam.WBP_ScoreTeam_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Top",
+      "Order": 0,
+      "FullScreen": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
     "ReplayControl": {
       "PageName": "ReplayControl",
       "PageClass": {
@@ -9181,156 +9371,6 @@
       "bIsPanel": false,
       "Layer": "EUILayer::Normal",
       "Order": 29,
-      "FullScreen": false,
-      "SlotNameList": [],
-      "Anchors": {
-        "Minimum": {
-          "X": 0.0,
-          "Y": 0.0
-        },
-        "Maximum": {
-          "X": 0.0,
-          "Y": 0.0
-        }
-      },
-      "Alignment": {
-        "X": 0.0,
-        "Y": 0.0
-      }
-    },
-    "SparResultPage": {
-      "PageName": "SparResultPage",
-      "PageClass": {
-        "ObjectName": "Class'PMViewControllerPage'",
-        "ObjectPath": "/Script/PMGame"
-      },
-      "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/PC/InGame/NonResidentFunctions/Result/Spar/WBP_SparResultPage.WBP_SparResultPage_C",
-        "SubPathString": ""
-      },
-      "bIsPanel": false,
-      "Layer": "EUILayer::Normal",
-      "Order": 30,
-      "FullScreen": false,
-      "SlotNameList": [],
-      "Anchors": {
-        "Minimum": {
-          "X": 0.0,
-          "Y": 0.0
-        },
-        "Maximum": {
-          "X": 0.0,
-          "Y": 0.0
-        }
-      },
-      "Alignment": {
-        "X": 0.0,
-        "Y": 0.0
-      }
-    },
-    "TeamThreeResultPage": {
-      "PageName": "TeamThreeResultPage",
-      "PageClass": {
-        "ObjectName": "Class'PMViewControllerPage'",
-        "ObjectPath": "/Script/PMGame"
-      },
-      "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/PC/InGame/NonResidentFunctions/Result/TeamThree/WBP_TeamThreeResultPage.WBP_TeamThreeResultPage_C",
-        "SubPathString": ""
-      },
-      "bIsPanel": false,
-      "Layer": "EUILayer::Normal",
-      "Order": 30,
-      "FullScreen": false,
-      "SlotNameList": [],
-      "Anchors": {
-        "Minimum": {
-          "X": 0.0,
-          "Y": 0.0
-        },
-        "Maximum": {
-          "X": 0.0,
-          "Y": 0.0
-        }
-      },
-      "Alignment": {
-        "X": 0.0,
-        "Y": 0.0
-      }
-    },
-    "TeamResultPage": {
-      "PageName": "TeamResultPage",
-      "PageClass": {
-        "ObjectName": "Class'PMViewControllerPage'",
-        "ObjectPath": "/Script/PMGame"
-      },
-      "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/PC/InGame/NonResidentFunctions/Result/Team/WBP_TeamResultPage.WBP_TeamResultPage_C",
-        "SubPathString": ""
-      },
-      "bIsPanel": false,
-      "Layer": "EUILayer::Normal",
-      "Order": 30,
-      "FullScreen": false,
-      "SlotNameList": [],
-      "Anchors": {
-        "Minimum": {
-          "X": 0.0,
-          "Y": 0.0
-        },
-        "Maximum": {
-          "X": 0.0,
-          "Y": 0.0
-        }
-      },
-      "Alignment": {
-        "X": 0.0,
-        "Y": 0.0
-      }
-    },
-    "HideSeekResultPage": {
-      "PageName": "HideSeekResultPage",
-      "PageClass": {
-        "ObjectName": "Class'PMViewControllerPage'",
-        "ObjectPath": "/Script/PMGame"
-      },
-      "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/PC/InGame/NonResidentFunctions/Result/HideSeek/WBP_HideSeekResultPage.WBP_HideSeekResultPage_C",
-        "SubPathString": ""
-      },
-      "bIsPanel": false,
-      "Layer": "EUILayer::Normal",
-      "Order": 30,
-      "FullScreen": false,
-      "SlotNameList": [],
-      "Anchors": {
-        "Minimum": {
-          "X": 0.0,
-          "Y": 0.0
-        },
-        "Maximum": {
-          "X": 0.0,
-          "Y": 0.0
-        }
-      },
-      "Alignment": {
-        "X": 0.0,
-        "Y": 0.0
-      }
-    },
-    "MineResultPage": {
-      "PageName": "MineResultPage",
-      "PageClass": {
-        "ObjectName": "Class'PMViewControllerPage'",
-        "ObjectPath": "/Script/PMGame"
-      },
-      "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/PC/InGame/NonResidentFunctions/Result/Mine/WBP_MineResultPage.WBP_MineResultPage_C",
-        "SubPathString": ""
-      },
-      "bIsPanel": false,
-      "Layer": "EUILayer::Normal",
-      "Order": 30,
       "FullScreen": false,
       "SlotNameList": [],
       "Anchors": {
@@ -10518,36 +10558,6 @@
         "Y": 0.0
       }
     },
-    "AbilityWeaponDuration": {
-      "PageName": "AbilityWeaponDuration",
-      "PageClass": {
-        "ObjectName": "Class'PMViewControllerPage'",
-        "ObjectPath": "/Script/PMGame"
-      },
-      "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/PC/InGame/HUDPC/AbilityWeapon/WBP_AbilityWeapon.WBP_AbilityWeapon_C",
-        "SubPathString": ""
-      },
-      "bIsPanel": false,
-      "Layer": "EUILayer::Normal",
-      "Order": 0,
-      "FullScreen": false,
-      "SlotNameList": [],
-      "Anchors": {
-        "Minimum": {
-          "X": 0.0,
-          "Y": 0.0
-        },
-        "Maximum": {
-          "X": 0.0,
-          "Y": 0.0
-        }
-      },
-      "Alignment": {
-        "X": 0.0,
-        "Y": 0.0
-      }
-    },
     "KokonaShiki_SelectTarget": {
       "PageName": "KokonaShiki_SelectTarget",
       "PageClass": {
@@ -11190,7 +11200,7 @@
       },
       "bIsPanel": false,
       "Layer": "EUILayer::Normal",
-      "Order": 1,
+      "Order": 3,
       "FullScreen": false,
       "SlotNameList": [],
       "Anchors": {
@@ -11250,7 +11260,7 @@
       },
       "bIsPanel": false,
       "Layer": "EUILayer::Normal",
-      "Order": 1,
+      "Order": 3,
       "FullScreen": false,
       "SlotNameList": [],
       "Anchors": {
@@ -11400,7 +11410,7 @@
       },
       "bIsPanel": false,
       "Layer": "EUILayer::Normal",
-      "Order": 1,
+      "Order": 3,
       "FullScreen": false,
       "SlotNameList": [],
       "Anchors": {
@@ -11971,66 +11981,6 @@
       "bIsPanel": false,
       "Layer": "EUILayer::Normal",
       "Order": 24,
-      "FullScreen": false,
-      "SlotNameList": [],
-      "Anchors": {
-        "Minimum": {
-          "X": 0.0,
-          "Y": 0.0
-        },
-        "Maximum": {
-          "X": 0.0,
-          "Y": 0.0
-        }
-      },
-      "Alignment": {
-        "X": 0.0,
-        "Y": 0.0
-      }
-    },
-    "AbilityWeaponProgress_FlaviaXRespawn": {
-      "PageName": "AbilityWeaponProgress_FlaviaXRespawn",
-      "PageClass": {
-        "ObjectName": "Class'PMViewControllerPage'",
-        "ObjectPath": "/Script/PMGame"
-      },
-      "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/PC/InGame/HUDPC/AbilityWeapon/WBP_ProgressX_Respawn_Flavia.WBP_ProgressX_Respawn_Flavia_C",
-        "SubPathString": ""
-      },
-      "bIsPanel": false,
-      "Layer": "EUILayer::Normal",
-      "Order": 11,
-      "FullScreen": false,
-      "SlotNameList": [],
-      "Anchors": {
-        "Minimum": {
-          "X": 0.0,
-          "Y": 0.0
-        },
-        "Maximum": {
-          "X": 0.0,
-          "Y": 0.0
-        }
-      },
-      "Alignment": {
-        "X": 0.0,
-        "Y": 0.0
-      }
-    },
-    "WBP_ProgressQ_GodMode_Flavia": {
-      "PageName": "WBP_ProgressQ_GodMode_Flavia",
-      "PageClass": {
-        "ObjectName": "Class'PMViewControllerPage'",
-        "ObjectPath": "/Script/PMGame"
-      },
-      "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/PC/InGame/HUDPC/AbilityWeapon/WBP_ProgressQ_GodMode_Flavia.WBP_ProgressQ_GodMode_Flavia_C",
-        "SubPathString": ""
-      },
-      "bIsPanel": false,
-      "Layer": "EUILayer::Normal",
-      "Order": 11,
       "FullScreen": false,
       "SlotNameList": [],
       "Anchors": {
@@ -15282,6 +15232,87 @@
         "Y": 0.0
       }
     },
+    "SceneMap_FragransQ": {
+      "PageName": "SceneMap_FragransQ",
+      "PageClass": null,
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/InGame/HUDPC/SceneMap/MarkPointItems/AbilityItems/WBP_FragransQItem.WBP_FragransQItem_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 0,
+      "FullScreen": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "SceneMap_FragransQSecond": {
+      "PageName": "SceneMap_FragransQSecond",
+      "PageClass": null,
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/InGame/HUDPC/SceneMap/MarkPointItems/AbilityItems/WBP_FragransQSecondItem.WBP_FragransQSecondItem_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 0,
+      "FullScreen": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "SceneMap_FragransX": {
+      "PageName": "SceneMap_FragransX",
+      "PageClass": null,
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/InGame/HUDPC/SceneMap/MarkPointItems/AbilityItems/WBP_FragransXItem.WBP_FragransXItem_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 0,
+      "FullScreen": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
     "MayDaySignInPage": {
       "PageName": "MayDaySignInPage",
       "PageClass": {
@@ -16871,6 +16902,936 @@
       },
       "ViewClass": {
         "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/Activities/2024AnniversaryPC/WBP_2024AnniversaryStorePage_PC.WBP_2024AnniversaryStorePage_PC_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 26,
+      "FullScreen": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "ClanTempPage": {
+      "PageName": "ClanTempPage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/Competition/Clan/WBP_ClanTempPage_PC.WBP_ClanTempPage_PC_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 0,
+      "FullScreen": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "ClanListPage": {
+      "PageName": "ClanListPage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/Competition/Clan/ClanList/WBP_ClanListPage_PC.WBP_ClanListPage_PC_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 1,
+      "FullScreen": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "ClanMainPage": {
+      "PageName": "ClanMainPage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/Competition/Clan/ClanInfo/WBP_ClanMainPage_PC.WBP_ClanMainPage_PC_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 1,
+      "FullScreen": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "CreateClanPage": {
+      "PageName": "CreateClanPage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/Competition/Clan/WBP_CreateClanPage_PC.WBP_CreateClanPage_PC_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Top",
+      "Order": 0,
+      "FullScreen": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "ClanDissolvingPage": {
+      "PageName": "ClanDissolvingPage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/Competition/Clan/ClanInfo/WBP_ClanDissolvingPage_PC.WBP_ClanDissolvingPage_PC_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 10,
+      "FullScreen": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "ClanFilterPage": {
+      "PageName": "ClanFilterPage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/Competition/Clan/ClanList/WBP_ClanFilterPage_PC.WBP_ClanFilterPage_PC_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Top",
+      "Order": 0,
+      "FullScreen": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "ClanSettingPage": {
+      "PageName": "ClanSettingPage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/Competition/Clan/WBP_ModifyClanSettingPage_PC.WBP_ModifyClanSettingPage_PC_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Top",
+      "Order": 0,
+      "FullScreen": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "ClanIconSettingPage": {
+      "PageName": "ClanIconSettingPage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/Competition/Clan/WBP_ClanIconSettingPage_PC.WBP_ClanIconSettingPage_PC_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Top",
+      "Order": 10,
+      "FullScreen": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "ClanRewardPage": {
+      "PageName": "ClanRewardPage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/Competition/Clan/ClanInfo/WBP_ClanRewardPage_PC.WBP_ClanRewardPage_PC_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 0,
+      "FullScreen": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "ClanApplyListPage": {
+      "PageName": "ClanApplyListPage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/Competition/Clan/PopUp/WBP_ClanApplyListPage_PC.WBP_ClanApplyListPage_PC_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 20,
+      "FullScreen": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "ClanActionWithFriendPage": {
+      "PageName": "ClanActionWithFriendPage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/Competition/Clan/PopUp/WBP_ClanActionWithFriendPage_PC.WBP_ClanActionWithFriendPage_PC_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 20,
+      "FullScreen": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "ClanRulePage": {
+      "PageName": "ClanRulePage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/Competition/Clan/PopUp/WBP_ClanRulePage_PC.WBP_ClanRulePage_PC_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Top",
+      "Order": 0,
+      "FullScreen": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "DissolveClanConfirmPage": {
+      "PageName": "DissolveClanConfirmPage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/Competition/Clan/ClanInfo/WBP_DissolveClanConfirm_PC.WBP_DissolveClanConfirm_PC_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Top",
+      "Order": 0,
+      "FullScreen": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "CancelDissolveClanPage": {
+      "PageName": "CancelDissolveClanPage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/Competition/Clan/ClanInfo/WBP_CancelDissolveClan_PC.WBP_CancelDissolveClan_PC_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Top",
+      "Order": 0,
+      "FullScreen": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "ClanEditSocialAccountPage": {
+      "PageName": "ClanEditSocialAccountPage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/Competition/Clan/PopUp/WBP_ClanEditSocialAccountPage_PC.WBP_ClanEditSocialAccountPage_PC_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Top",
+      "Order": 0,
+      "FullScreen": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "ClanLookSocialAccountPage": {
+      "PageName": "ClanLookSocialAccountPage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/Competition/Clan/PopUp/WBP_ClanLookSocialAccountPage_PC.WBP_ClanLookSocialAccountPage_PC_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Top",
+      "Order": 0,
+      "FullScreen": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "ClanLevelRulePage": {
+      "PageName": "ClanLevelRulePage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/Competition/Clan/PopUp/WBP_ClanLevelRulePage_PC.WBP_ClanLevelRulePage_PC_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Top",
+      "Order": 0,
+      "FullScreen": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "ClanAdditionRulePage": {
+      "PageName": "ClanAdditionRulePage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/Competition/Clan/PopUp/WBP_ClanAdditionRulePage_PC.WBP_ClanAdditionRulePage_PC_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Top",
+      "Order": 0,
+      "FullScreen": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "ClanLevelUpPage": {
+      "PageName": "ClanLevelUpPage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/Competition/Clan/WBP_ClanLevelUpgrade_PC.WBP_ClanLevelUpgrade_PC_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Top",
+      "Order": 0,
+      "FullScreen": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "OtherClanPage": {
+      "PageName": "OtherClanPage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/Competition/Clan/ClanInfo/WBP_OtherClanPage_PC.WBP_OtherClanPage_PC_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Top",
+      "Order": 0,
+      "FullScreen": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "CreateClanCostPage": {
+      "PageName": "CreateClanCostPage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/Competition/Clan/WBP_CreateClanCostPage_PC.WBP_CreateClanCostPage_PC_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Top",
+      "Order": 10,
+      "FullScreen": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "DivisionLeisurePage": {
+      "PageName": "DivisionLeisurePage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/CareerPC/LeisureCupPC/WBP_LeisureCup_PC.WBP_LeisureCup_PC_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 0,
+      "FullScreen": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "LeisureCupIconPage": {
+      "PageName": "LeisureCupIconPage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/CareerPC/LeisureCupPC/WBP_LeisureCupIcon_PC.WBP_LeisureCupIcon_PC_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 0,
+      "FullScreen": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "LeisureCupSeasonPrizePage": {
+      "PageName": "LeisureCupSeasonPrizePage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/CareerPC/LeisureCupPC/WBP_LeisureCupSeasonPrize_PC.WBP_LeisureCupSeasonPrize_PC_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 0,
+      "FullScreen": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "NurseMainPage": {
+      "PageName": "NurseMainPage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/Activities/Nurse/WBP_NurseMainPage_PC.WBP_NurseMainPage_PC_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 25,
+      "FullScreen": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "NurseTaskPage": {
+      "PageName": "NurseTaskPage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/Activities/Nurse/WBP_NurseTaskPage_PC.WBP_NurseTaskPage_PC_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 26,
+      "FullScreen": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "NurseStoryChapterPage": {
+      "PageName": "NurseStoryChapterPage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/Activities/Nurse/WBP_NurseStoryChapterPage_PC.WBP_NurseStoryChapterPage_PC_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 26,
+      "FullScreen": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "NurseInfoPage": {
+      "PageName": "NurseInfoPage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/Activities/Nurse/WBP_NurseInfoPage_PC.WBP_NurseInfoPage_PC_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 26,
+      "FullScreen": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "NurseDialogPage": {
+      "PageName": "NurseDialogPage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/Activities/Nurse/WBP_NurseTalkPage_PC.WBP_NurseTalkPage_PC_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 26,
+      "FullScreen": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "NursePointExchangePage": {
+      "PageName": "NursePointExchangePage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/Activities/Nurse/WBP_NursePointExchange_PC.WBP_NursePointExchange_PC_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 26,
+      "FullScreen": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "NurseStoryContentPage": {
+      "PageName": "NurseStoryContentPage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/Activities/GradeATemplate/WBP_GradeAStoryContentPage_PC.WBP_GradeAStoryContentPage_PC_C",
         "SubPathString": ""
       },
       "bIsPanel": false,

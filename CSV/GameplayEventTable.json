@@ -101,6 +101,10 @@
       "Tag": "Event.HitActor.Weapon.Primary",
       "DevComment": "主武器子弹落点"
     },
+    "Event.Action.WeaponSwitchedFailed": {
+      "Tag": "Event.Action.WeaponSwitchedFailed",
+      "DevComment": "武器切换失败了"
+    },
     "Event.Action.WeaponSwitched": {
       "Tag": "Event.Action.WeaponSwitched",
       "DevComment": "武器切换了"
@@ -2253,22 +2257,6 @@
       "Tag": "Event.Summon.Destroy.Flavia.Q.Eye",
       "DevComment": "芙拉薇娅Q召唤物眼睛摧毁"
     },
-    "Event.EscortVehicle.EscortArea.Enter": {
-      "Tag": "Event.EscortVehicle.EscortArea.Enter",
-      "DevComment": "玩家进入护送对象的护送区域"
-    },
-    "Event.EscortVehicle.EscortArea.Level": {
-      "Tag": "Event.EscortVehicle.EscortArea.Level",
-      "DevComment": "玩家离开护送对象的护送区域"
-    },
-    "Event.EscortVehicle.Wall.Begin": {
-      "Tag": "Event.EscortVehicle.Wall.Begin",
-      "DevComment": "玩家开始贴护送对象的墙上"
-    },
-    "Event.EscortVehicle.Wall.End": {
-      "Tag": "Event.EscortVehicle.Wall.End",
-      "DevComment": "玩家结束贴护送对象的墙上"
-    },
     "Event.Mine.StoreMine": {
       "Tag": "Event.Mine.StoreMine",
       "DevComment": "存放矿物"
@@ -2656,6 +2644,26 @@
     "Event.RestartArea.Leave": {
       "Tag": "Event.RestartArea.Leave",
       "DevComment": "玩家离开重生区域"
+    },
+    "Event.Payload.EscortArea.PlayerEnter": {
+      "Tag": "Event.Payload.EscortArea.PlayerEnter",
+      "DevComment": "玩家进入负载对象的护送区域"
+    },
+    "Event.Payload.EscortArea.PlayerLeave": {
+      "Tag": "Event.Payload.EscortArea.PlayerLeave",
+      "DevComment": "玩家离开负载对象的护送区域"
+    },
+    "Event.Payload.Wall.PlayerEnter": {
+      "Tag": "Event.Payload.Wall.PlayerEnter",
+      "DevComment": "玩家开始贴负载对象的墙上"
+    },
+    "Event.Payload.Wall.PlayerLeave": {
+      "Tag": "Event.Payload.Wall.PlayerLeave",
+      "DevComment": "玩家结束贴负载对象的墙上"
+    },
+    "Event.Summon.Clear": {
+      "Tag": "Event.Summon.Clear",
+      "DevComment": "清除召唤物"
     }
   }
 }

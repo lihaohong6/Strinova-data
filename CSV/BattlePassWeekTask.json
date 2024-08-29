@@ -70,8 +70,8 @@
       "Desc": {
         "Namespace": "BattlePassWeekTask",
         "Key": "20002_Desc",
-        "SourceString": "战斗结束后累计点赞10次",
-        "LocalizedString": "战斗结束后累计点赞10次"
+        "SourceString": "使用技能累计100次",
+        "LocalizedString": "使用技能累计100次"
       },
       "Type": 2,
       "SubType": 0,
@@ -84,12 +84,12 @@
       "TaskConditions": [
         {
           "MainCondition": {
-            "MainType": "ECyTaskMainConditionType::Lobby",
+            "MainType": "ECyTaskMainConditionType::Battle",
             "GameCondition": "ECyTaskGameConditionType::None",
             "GameResult": "ECyGameResultType::None",
             "RoundResult": "ECyRoundResultType::None",
             "bFriendTeam": false,
-            "BattleCondition": "ECyTaskBattleConditionType::None",
+            "BattleCondition": "ECyTaskBattleConditionType::UseSkillNum",
             "bHeadshot": false,
             "bFirstKill": false,
             "bRevenge": false,
@@ -101,8 +101,11 @@
             "MeshModes": [],
             "EnemyMeshModes": [],
             "WeaponTypes": [],
-            "SkillTypes": [],
-            "Num": 10,
+            "SkillTypes": [
+              "ECyPlayerSkillType::Q",
+              "ECyPlayerSkillType::X"
+            ],
+            "Num": 100,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None"
           },
@@ -337,8 +340,8 @@
       "Desc": {
         "Namespace": "BattlePassWeekTask",
         "Key": "20007_Desc",
-        "SourceString": "使用喷漆或动作次数累计50次",
-        "LocalizedString": "使用喷漆或动作次数累计50次"
+        "SourceString": "累计击中敌人500次",
+        "LocalizedString": "累计击中敌人500次"
       },
       "Type": 2,
       "SubType": 0,
@@ -351,25 +354,25 @@
       "TaskConditions": [
         {
           "MainCondition": {
-            "MainType": "ECyTaskMainConditionType::Action",
+            "MainType": "ECyTaskMainConditionType::Battle",
             "GameCondition": "ECyTaskGameConditionType::None",
             "GameResult": "ECyGameResultType::None",
             "RoundResult": "ECyRoundResultType::None",
             "bFriendTeam": false,
-            "BattleCondition": "ECyTaskBattleConditionType::None",
+            "BattleCondition": "ECyTaskBattleConditionType::HitNum",
             "bHeadshot": false,
             "bFirstKill": false,
             "bRevenge": false,
             "MultiKillLimit": 0,
             "HitDistLimit": 0,
             "bBlind": false,
-            "ActionCondition": "ECyTaskActionConditionType::UseGraffitiOrActionNum",
+            "ActionCondition": "ECyTaskActionConditionType::None",
             "RoleIds": [],
             "MeshModes": [],
             "EnemyMeshModes": [],
             "WeaponTypes": [],
             "SkillTypes": [],
-            "Num": 50,
+            "Num": 500,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None"
           },
@@ -914,8 +917,8 @@
       "Desc": {
         "Namespace": "BattlePassWeekTask",
         "Key": "20018_Desc",
-        "SourceString": "战斗结束后累计点赞10次",
-        "LocalizedString": "战斗结束后累计点赞10次"
+        "SourceString": "累计击中敌人500次",
+        "LocalizedString": "累计击中敌人500次"
       },
       "Type": 2,
       "SubType": 0,
@@ -928,12 +931,12 @@
       "TaskConditions": [
         {
           "MainCondition": {
-            "MainType": "ECyTaskMainConditionType::Lobby",
+            "MainType": "ECyTaskMainConditionType::Battle",
             "GameCondition": "ECyTaskGameConditionType::None",
             "GameResult": "ECyGameResultType::None",
             "RoundResult": "ECyRoundResultType::None",
             "bFriendTeam": false,
-            "BattleCondition": "ECyTaskBattleConditionType::None",
+            "BattleCondition": "ECyTaskBattleConditionType::HitNum",
             "bHeadshot": false,
             "bFirstKill": false,
             "bRevenge": false,
@@ -946,7 +949,7 @@
             "EnemyMeshModes": [],
             "WeaponTypes": [],
             "SkillTypes": [],
-            "Num": 10,
+            "Num": 500,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None"
           },
@@ -1441,8 +1444,8 @@
       "Desc": {
         "Namespace": "BattlePassWeekTask",
         "Key": "20028_Desc",
-        "SourceString": "使用喷漆或动作次数累计50次",
-        "LocalizedString": "使用喷漆或动作次数累计50次"
+        "SourceString": "累计击中敌人500次",
+        "LocalizedString": "累计击中敌人500次"
       },
       "Type": 2,
       "SubType": 0,
@@ -1455,25 +1458,25 @@
       "TaskConditions": [
         {
           "MainCondition": {
-            "MainType": "ECyTaskMainConditionType::Action",
+            "MainType": "ECyTaskMainConditionType::Battle",
             "GameCondition": "ECyTaskGameConditionType::None",
             "GameResult": "ECyGameResultType::None",
             "RoundResult": "ECyRoundResultType::None",
             "bFriendTeam": false,
-            "BattleCondition": "ECyTaskBattleConditionType::None",
+            "BattleCondition": "ECyTaskBattleConditionType::HitNum",
             "bHeadshot": false,
             "bFirstKill": false,
             "bRevenge": false,
             "MultiKillLimit": 0,
             "HitDistLimit": 0,
             "bBlind": false,
-            "ActionCondition": "ECyTaskActionConditionType::UseGraffitiOrActionNum",
+            "ActionCondition": "ECyTaskActionConditionType::None",
             "RoleIds": [],
             "MeshModes": [],
             "EnemyMeshModes": [],
             "WeaponTypes": [],
             "SkillTypes": [],
-            "Num": 50,
+            "Num": 500,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None"
           },
@@ -1597,8 +1600,8 @@
       "Desc": {
         "Namespace": "BattlePassWeekTask",
         "Key": "20031_Desc",
-        "SourceString": "战斗结束后累计点赞10次",
-        "LocalizedString": "战斗结束后累计点赞10次"
+        "SourceString": "累计击中敌人500次",
+        "LocalizedString": "累计击中敌人500次"
       },
       "Type": 2,
       "SubType": 0,
@@ -1611,12 +1614,12 @@
       "TaskConditions": [
         {
           "MainCondition": {
-            "MainType": "ECyTaskMainConditionType::Lobby",
+            "MainType": "ECyTaskMainConditionType::Battle",
             "GameCondition": "ECyTaskGameConditionType::None",
             "GameResult": "ECyGameResultType::None",
             "RoundResult": "ECyRoundResultType::None",
             "bFriendTeam": false,
-            "BattleCondition": "ECyTaskBattleConditionType::None",
+            "BattleCondition": "ECyTaskBattleConditionType::HitNum",
             "bHeadshot": false,
             "bFirstKill": false,
             "bRevenge": false,
@@ -1629,7 +1632,7 @@
             "EnemyMeshModes": [],
             "WeaponTypes": [],
             "SkillTypes": [],
-            "Num": 10,
+            "Num": 500,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None"
           },
@@ -1967,8 +1970,8 @@
       "Desc": {
         "Namespace": "BattlePassWeekTask",
         "Key": "20038_Desc",
-        "SourceString": "战斗结束后累计点赞10次",
-        "LocalizedString": "战斗结束后累计点赞10次"
+        "SourceString": "使用技能累计100次",
+        "LocalizedString": "使用技能累计100次"
       },
       "Type": 2,
       "SubType": 0,
@@ -1981,12 +1984,12 @@
       "TaskConditions": [
         {
           "MainCondition": {
-            "MainType": "ECyTaskMainConditionType::Lobby",
+            "MainType": "ECyTaskMainConditionType::Battle",
             "GameCondition": "ECyTaskGameConditionType::None",
             "GameResult": "ECyGameResultType::None",
             "RoundResult": "ECyRoundResultType::None",
             "bFriendTeam": false,
-            "BattleCondition": "ECyTaskBattleConditionType::None",
+            "BattleCondition": "ECyTaskBattleConditionType::UseSkillNum",
             "bHeadshot": false,
             "bFirstKill": false,
             "bRevenge": false,
@@ -1998,8 +2001,11 @@
             "MeshModes": [],
             "EnemyMeshModes": [],
             "WeaponTypes": [],
-            "SkillTypes": [],
-            "Num": 10,
+            "SkillTypes": [
+              "ECyPlayerSkillType::Q",
+              "ECyPlayerSkillType::X"
+            ],
+            "Num": 100,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None"
           },
@@ -2123,8 +2129,8 @@
       "Desc": {
         "Namespace": "BattlePassWeekTask",
         "Key": "20041_Desc",
-        "SourceString": "战斗结束后累计点赞10次",
-        "LocalizedString": "战斗结束后累计点赞10次"
+        "SourceString": "累计击中敌人500次",
+        "LocalizedString": "累计击中敌人500次"
       },
       "Type": 2,
       "SubType": 0,
@@ -2137,12 +2143,12 @@
       "TaskConditions": [
         {
           "MainCondition": {
-            "MainType": "ECyTaskMainConditionType::Lobby",
+            "MainType": "ECyTaskMainConditionType::Battle",
             "GameCondition": "ECyTaskGameConditionType::None",
             "GameResult": "ECyGameResultType::None",
             "RoundResult": "ECyRoundResultType::None",
             "bFriendTeam": false,
-            "BattleCondition": "ECyTaskBattleConditionType::None",
+            "BattleCondition": "ECyTaskBattleConditionType::HitNum",
             "bHeadshot": false,
             "bFirstKill": false,
             "bRevenge": false,
@@ -2155,7 +2161,7 @@
             "EnemyMeshModes": [],
             "WeaponTypes": [],
             "SkillTypes": [],
-            "Num": 10,
+            "Num": 500,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None"
           },
@@ -2493,8 +2499,8 @@
       "Desc": {
         "Namespace": "BattlePassWeekTask",
         "Key": "20048_Desc",
-        "SourceString": "战斗结束后累计点赞10次",
-        "LocalizedString": "战斗结束后累计点赞10次"
+        "SourceString": "使用技能累计100次",
+        "LocalizedString": "使用技能累计100次"
       },
       "Type": 2,
       "SubType": 0,
@@ -2507,12 +2513,12 @@
       "TaskConditions": [
         {
           "MainCondition": {
-            "MainType": "ECyTaskMainConditionType::Lobby",
+            "MainType": "ECyTaskMainConditionType::Battle",
             "GameCondition": "ECyTaskGameConditionType::None",
             "GameResult": "ECyGameResultType::None",
             "RoundResult": "ECyRoundResultType::None",
             "bFriendTeam": false,
-            "BattleCondition": "ECyTaskBattleConditionType::None",
+            "BattleCondition": "ECyTaskBattleConditionType::UseSkillNum",
             "bHeadshot": false,
             "bFirstKill": false,
             "bRevenge": false,
@@ -2524,8 +2530,11 @@
             "MeshModes": [],
             "EnemyMeshModes": [],
             "WeaponTypes": [],
-            "SkillTypes": [],
-            "Num": 10,
+            "SkillTypes": [
+              "ECyPlayerSkillType::Q",
+              "ECyPlayerSkillType::X"
+            ],
+            "Num": 100,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None"
           },

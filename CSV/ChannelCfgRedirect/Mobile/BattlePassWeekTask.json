@@ -1,0 +1,2655 @@
+{
+  "Type": "DataTable",
+  "Name": "BattlePassWeekTask",
+  "Class": "UScriptClass'DataTable'",
+  "Properties": {
+    "RowStruct": {
+      "ObjectName": "ScriptStruct'CyBattlePassWeekTaskTableRow'",
+      "ObjectPath": "/Script/PMGame"
+    }
+  },
+  "Rows": {
+    "20001": {
+      "Id": 20001,
+      "Week": 1,
+      "Circle": false,
+      "Desc": {
+        "Namespace": "BattlePassWeekTask",
+        "Key": "20001_Desc",
+        "SourceString": "使用大招技能累计10次",
+        "LocalizedString": "使用大招技能累计10次"
+      },
+      "Type": 2,
+      "SubType": 0,
+      "Prize": [
+        {
+          "ItemId": 4,
+          "ItemAmount": 200
+        }
+      ],
+      "TaskConditions": [
+        {
+          "MainCondition": {
+            "MainType": "ECyTaskMainConditionType::Battle",
+            "GameCondition": "ECyTaskGameConditionType::None",
+            "GameResult": "ECyGameResultType::None",
+            "RoundResult": "ECyRoundResultType::None",
+            "bFriendTeam": false,
+            "BattleCondition": "ECyTaskBattleConditionType::UseSkillNum",
+            "bHeadshot": false,
+            "bFirstKill": false,
+            "bRevenge": false,
+            "MultiKillLimit": 0,
+            "HitDistLimit": 0,
+            "bBlind": false,
+            "ActionCondition": "ECyTaskActionConditionType::None",
+            "RoleIds": [],
+            "MeshModes": [],
+            "EnemyMeshModes": [],
+            "WeaponTypes": [],
+            "SkillTypes": [
+              "ECyPlayerSkillType::X"
+            ],
+            "Num": 10,
+            "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
+            "EventTargetTeamRole": "ECyTaskTeamRoleType::None"
+          },
+          "LimitConditions": []
+        }
+      ],
+      "TaskLimit": {
+        "GameTypes": [],
+        "ModeTypes": []
+      },
+      "TaskPass": 3
+    },
+    "20002": {
+      "Id": 20002,
+      "Week": 1,
+      "Circle": false,
+      "Desc": {
+        "Namespace": "BattlePassWeekTask",
+        "Key": "20002_Desc",
+        "SourceString": "使用技能累计100次",
+        "LocalizedString": "使用技能累计100次"
+      },
+      "Type": 2,
+      "SubType": 0,
+      "Prize": [
+        {
+          "ItemId": 4,
+          "ItemAmount": 200
+        }
+      ],
+      "TaskConditions": [
+        {
+          "MainCondition": {
+            "MainType": "ECyTaskMainConditionType::Battle",
+            "GameCondition": "ECyTaskGameConditionType::None",
+            "GameResult": "ECyGameResultType::None",
+            "RoundResult": "ECyRoundResultType::None",
+            "bFriendTeam": false,
+            "BattleCondition": "ECyTaskBattleConditionType::UseSkillNum",
+            "bHeadshot": false,
+            "bFirstKill": false,
+            "bRevenge": false,
+            "MultiKillLimit": 0,
+            "HitDistLimit": 0,
+            "bBlind": false,
+            "ActionCondition": "ECyTaskActionConditionType::None",
+            "RoleIds": [],
+            "MeshModes": [],
+            "EnemyMeshModes": [],
+            "WeaponTypes": [],
+            "SkillTypes": [
+              "ECyPlayerSkillType::Q",
+              "ECyPlayerSkillType::X"
+            ],
+            "Num": 100,
+            "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
+            "EventTargetTeamRole": "ECyTaskTeamRoleType::None"
+          },
+          "LimitConditions": []
+        }
+      ],
+      "TaskLimit": {
+        "GameTypes": [],
+        "ModeTypes": []
+      },
+      "TaskPass": 3
+    },
+    "20003": {
+      "Id": 20003,
+      "Week": 1,
+      "Circle": false,
+      "Desc": {
+        "Namespace": "BattlePassWeekTask",
+        "Key": "20003_Desc",
+        "SourceString": "击败敌人累计100次",
+        "LocalizedString": "击败敌人累计100次"
+      },
+      "Type": 2,
+      "SubType": 0,
+      "Prize": [
+        {
+          "ItemId": 4,
+          "ItemAmount": 200
+        }
+      ],
+      "TaskConditions": [
+        {
+          "MainCondition": {
+            "MainType": "ECyTaskMainConditionType::Battle",
+            "GameCondition": "ECyTaskGameConditionType::None",
+            "GameResult": "ECyGameResultType::None",
+            "RoundResult": "ECyRoundResultType::None",
+            "bFriendTeam": false,
+            "BattleCondition": "ECyTaskBattleConditionType::KillNum",
+            "bHeadshot": false,
+            "bFirstKill": false,
+            "bRevenge": false,
+            "MultiKillLimit": 0,
+            "HitDistLimit": 0,
+            "bBlind": false,
+            "ActionCondition": "ECyTaskActionConditionType::None",
+            "RoleIds": [],
+            "MeshModes": [],
+            "EnemyMeshModes": [],
+            "WeaponTypes": [],
+            "SkillTypes": [],
+            "Num": 100,
+            "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
+            "EventTargetTeamRole": "ECyTaskTeamRoleType::None"
+          },
+          "LimitConditions": []
+        }
+      ],
+      "TaskLimit": {
+        "GameTypes": [],
+        "ModeTypes": []
+      },
+      "TaskPass": 3
+    },
+    "20004": {
+      "Id": 20004,
+      "Week": 1,
+      "Circle": false,
+      "Desc": {
+        "Namespace": "BattlePassWeekTask",
+        "Key": "20004_Desc",
+        "SourceString": "弦化飘飞或弦化移动累计距离7500米",
+        "LocalizedString": "弦化飘飞或弦化移动累计距离7500米"
+      },
+      "Type": 2,
+      "SubType": 0,
+      "Prize": [
+        {
+          "ItemId": 4,
+          "ItemAmount": 200
+        }
+      ],
+      "TaskConditions": [
+        {
+          "MainCondition": {
+            "MainType": "ECyTaskMainConditionType::Battle",
+            "GameCondition": "ECyTaskGameConditionType::None",
+            "GameResult": "ECyGameResultType::None",
+            "RoundResult": "ECyRoundResultType::None",
+            "bFriendTeam": false,
+            "BattleCondition": "ECyTaskBattleConditionType::MoveDistNum",
+            "bHeadshot": false,
+            "bFirstKill": false,
+            "bRevenge": false,
+            "MultiKillLimit": 0,
+            "HitDistLimit": 0,
+            "bBlind": false,
+            "ActionCondition": "ECyTaskActionConditionType::None",
+            "RoleIds": [],
+            "MeshModes": [
+              "EMeshModeType::Slide",
+              "EMeshModeType::Sideway",
+              "EMeshModeType::Glide"
+            ],
+            "EnemyMeshModes": [],
+            "WeaponTypes": [],
+            "SkillTypes": [],
+            "Num": 7500,
+            "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
+            "EventTargetTeamRole": "ECyTaskTeamRoleType::None"
+          },
+          "LimitConditions": []
+        }
+      ],
+      "TaskLimit": {
+        "GameTypes": [],
+        "ModeTypes": []
+      },
+      "TaskPass": 3
+    },
+    "20005": {
+      "Id": 20005,
+      "Week": 1,
+      "Circle": false,
+      "Desc": {
+        "Namespace": "BattlePassWeekTask",
+        "Key": "20005_Desc",
+        "SourceString": "拾取死亡掉落物次数100次",
+        "LocalizedString": "拾取死亡掉落物次数100次"
+      },
+      "Type": 2,
+      "SubType": 0,
+      "Prize": [
+        {
+          "ItemId": 4,
+          "ItemAmount": 200
+        }
+      ],
+      "TaskConditions": [
+        {
+          "MainCondition": {
+            "MainType": "ECyTaskMainConditionType::Action",
+            "GameCondition": "ECyTaskGameConditionType::None",
+            "GameResult": "ECyGameResultType::None",
+            "RoundResult": "ECyRoundResultType::None",
+            "bFriendTeam": false,
+            "BattleCondition": "ECyTaskBattleConditionType::None",
+            "bHeadshot": false,
+            "bFirstKill": false,
+            "bRevenge": false,
+            "MultiKillLimit": 0,
+            "HitDistLimit": 0,
+            "bBlind": false,
+            "ActionCondition": "ECyTaskActionConditionType::PickupDeathDropNum",
+            "RoleIds": [],
+            "MeshModes": [],
+            "EnemyMeshModes": [],
+            "WeaponTypes": [],
+            "SkillTypes": [],
+            "Num": 100,
+            "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
+            "EventTargetTeamRole": "ECyTaskTeamRoleType::None"
+          },
+          "LimitConditions": []
+        }
+      ],
+      "TaskLimit": {
+        "GameTypes": [],
+        "ModeTypes": []
+      },
+      "TaskPass": 3
+    },
+    "20006": {
+      "Id": 20006,
+      "Week": 2,
+      "Circle": false,
+      "Desc": {
+        "Namespace": "BattlePassWeekTask",
+        "Key": "20006_Desc",
+        "SourceString": "使用技能累计100次",
+        "LocalizedString": "使用技能累计100次"
+      },
+      "Type": 2,
+      "SubType": 0,
+      "Prize": [
+        {
+          "ItemId": 4,
+          "ItemAmount": 200
+        }
+      ],
+      "TaskConditions": [
+        {
+          "MainCondition": {
+            "MainType": "ECyTaskMainConditionType::Battle",
+            "GameCondition": "ECyTaskGameConditionType::None",
+            "GameResult": "ECyGameResultType::None",
+            "RoundResult": "ECyRoundResultType::None",
+            "bFriendTeam": false,
+            "BattleCondition": "ECyTaskBattleConditionType::UseSkillNum",
+            "bHeadshot": false,
+            "bFirstKill": false,
+            "bRevenge": false,
+            "MultiKillLimit": 0,
+            "HitDistLimit": 0,
+            "bBlind": false,
+            "ActionCondition": "ECyTaskActionConditionType::None",
+            "RoleIds": [],
+            "MeshModes": [],
+            "EnemyMeshModes": [],
+            "WeaponTypes": [],
+            "SkillTypes": [
+              "ECyPlayerSkillType::Q",
+              "ECyPlayerSkillType::X"
+            ],
+            "Num": 100,
+            "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
+            "EventTargetTeamRole": "ECyTaskTeamRoleType::None"
+          },
+          "LimitConditions": []
+        }
+      ],
+      "TaskLimit": {
+        "GameTypes": [],
+        "ModeTypes": []
+      },
+      "TaskPass": 3
+    },
+    "20007": {
+      "Id": 20007,
+      "Week": 2,
+      "Circle": false,
+      "Desc": {
+        "Namespace": "BattlePassWeekTask",
+        "Key": "20007_Desc",
+        "SourceString": "累计击中敌人500次",
+        "LocalizedString": "累计击中敌人500次"
+      },
+      "Type": 2,
+      "SubType": 0,
+      "Prize": [
+        {
+          "ItemId": 4,
+          "ItemAmount": 200
+        }
+      ],
+      "TaskConditions": [
+        {
+          "MainCondition": {
+            "MainType": "ECyTaskMainConditionType::Battle",
+            "GameCondition": "ECyTaskGameConditionType::None",
+            "GameResult": "ECyGameResultType::None",
+            "RoundResult": "ECyRoundResultType::None",
+            "bFriendTeam": false,
+            "BattleCondition": "ECyTaskBattleConditionType::HitNum",
+            "bHeadshot": false,
+            "bFirstKill": false,
+            "bRevenge": false,
+            "MultiKillLimit": 0,
+            "HitDistLimit": 0,
+            "bBlind": false,
+            "ActionCondition": "ECyTaskActionConditionType::None",
+            "RoleIds": [],
+            "MeshModes": [],
+            "EnemyMeshModes": [],
+            "WeaponTypes": [],
+            "SkillTypes": [],
+            "Num": 500,
+            "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
+            "EventTargetTeamRole": "ECyTaskTeamRoleType::None"
+          },
+          "LimitConditions": []
+        }
+      ],
+      "TaskLimit": {
+        "GameTypes": [],
+        "ModeTypes": []
+      },
+      "TaskPass": 3
+    },
+    "20008": {
+      "Id": 20008,
+      "Week": 2,
+      "Circle": false,
+      "Desc": {
+        "Namespace": "BattlePassWeekTask",
+        "Key": "20008_Desc",
+        "SourceString": "累计获得20回合比赛胜利",
+        "LocalizedString": "累计获得20回合比赛胜利"
+      },
+      "Type": 2,
+      "SubType": 0,
+      "Prize": [
+        {
+          "ItemId": 4,
+          "ItemAmount": 200
+        }
+      ],
+      "TaskConditions": [
+        {
+          "MainCondition": {
+            "MainType": "ECyTaskMainConditionType::Game",
+            "GameCondition": "ECyTaskGameConditionType::RoundNum",
+            "GameResult": "ECyGameResultType::None",
+            "RoundResult": "ECyRoundResultType::Win",
+            "bFriendTeam": false,
+            "BattleCondition": "ECyTaskBattleConditionType::None",
+            "bHeadshot": false,
+            "bFirstKill": false,
+            "bRevenge": false,
+            "MultiKillLimit": 0,
+            "HitDistLimit": 0,
+            "bBlind": false,
+            "ActionCondition": "ECyTaskActionConditionType::None",
+            "RoleIds": [],
+            "MeshModes": [],
+            "EnemyMeshModes": [],
+            "WeaponTypes": [],
+            "SkillTypes": [],
+            "Num": 20,
+            "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
+            "EventTargetTeamRole": "ECyTaskTeamRoleType::None"
+          },
+          "LimitConditions": []
+        }
+      ],
+      "TaskLimit": {
+        "GameTypes": [],
+        "ModeTypes": []
+      },
+      "TaskPass": 3
+    },
+    "20009": {
+      "Id": 20009,
+      "Week": 2,
+      "Circle": false,
+      "Desc": {
+        "Namespace": "BattlePassWeekTask",
+        "Key": "20009_Desc",
+        "SourceString": "参与击败敌人累计150次",
+        "LocalizedString": "参与击败敌人累计150次"
+      },
+      "Type": 2,
+      "SubType": 0,
+      "Prize": [
+        {
+          "ItemId": 4,
+          "ItemAmount": 200
+        }
+      ],
+      "TaskConditions": [
+        {
+          "MainCondition": {
+            "MainType": "ECyTaskMainConditionType::Battle",
+            "GameCondition": "ECyTaskGameConditionType::None",
+            "GameResult": "ECyGameResultType::None",
+            "RoundResult": "ECyRoundResultType::None",
+            "bFriendTeam": false,
+            "BattleCondition": "ECyTaskBattleConditionType::ParticipateKillNum",
+            "bHeadshot": false,
+            "bFirstKill": false,
+            "bRevenge": false,
+            "MultiKillLimit": 0,
+            "HitDistLimit": 0,
+            "bBlind": false,
+            "ActionCondition": "ECyTaskActionConditionType::None",
+            "RoleIds": [],
+            "MeshModes": [],
+            "EnemyMeshModes": [],
+            "WeaponTypes": [],
+            "SkillTypes": [],
+            "Num": 150,
+            "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
+            "EventTargetTeamRole": "ECyTaskTeamRoleType::None"
+          },
+          "LimitConditions": []
+        }
+      ],
+      "TaskLimit": {
+        "GameTypes": [],
+        "ModeTypes": []
+      },
+      "TaskPass": 3
+    },
+    "20010": {
+      "Id": 20010,
+      "Week": 2,
+      "Circle": false,
+      "Desc": {
+        "Namespace": "BattlePassWeekTask",
+        "Key": "20010_Desc",
+        "SourceString": "累计完成25场比赛",
+        "LocalizedString": "累计完成25场比赛"
+      },
+      "Type": 2,
+      "SubType": 0,
+      "Prize": [
+        {
+          "ItemId": 4,
+          "ItemAmount": 200
+        }
+      ],
+      "TaskConditions": [
+        {
+          "MainCondition": {
+            "MainType": "ECyTaskMainConditionType::Game",
+            "GameCondition": "ECyTaskGameConditionType::GameNum",
+            "GameResult": "ECyGameResultType::None",
+            "RoundResult": "ECyRoundResultType::None",
+            "bFriendTeam": false,
+            "BattleCondition": "ECyTaskBattleConditionType::None",
+            "bHeadshot": false,
+            "bFirstKill": false,
+            "bRevenge": false,
+            "MultiKillLimit": 0,
+            "HitDistLimit": 0,
+            "bBlind": false,
+            "ActionCondition": "ECyTaskActionConditionType::None",
+            "RoleIds": [],
+            "MeshModes": [],
+            "EnemyMeshModes": [],
+            "WeaponTypes": [],
+            "SkillTypes": [],
+            "Num": 25,
+            "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
+            "EventTargetTeamRole": "ECyTaskTeamRoleType::None"
+          },
+          "LimitConditions": []
+        }
+      ],
+      "TaskLimit": {
+        "GameTypes": [],
+        "ModeTypes": []
+      },
+      "TaskPass": 3
+    },
+    "20011": {
+      "Id": 20011,
+      "Week": 3,
+      "Circle": false,
+      "Desc": {
+        "Namespace": "BattlePassWeekTask",
+        "Key": "20011_Desc",
+        "SourceString": "累计击中敌人500次",
+        "LocalizedString": "累计击中敌人500次"
+      },
+      "Type": 2,
+      "SubType": 0,
+      "Prize": [
+        {
+          "ItemId": 4,
+          "ItemAmount": 200
+        }
+      ],
+      "TaskConditions": [
+        {
+          "MainCondition": {
+            "MainType": "ECyTaskMainConditionType::Battle",
+            "GameCondition": "ECyTaskGameConditionType::None",
+            "GameResult": "ECyGameResultType::None",
+            "RoundResult": "ECyRoundResultType::None",
+            "bFriendTeam": false,
+            "BattleCondition": "ECyTaskBattleConditionType::HitNum",
+            "bHeadshot": false,
+            "bFirstKill": false,
+            "bRevenge": false,
+            "MultiKillLimit": 0,
+            "HitDistLimit": 0,
+            "bBlind": false,
+            "ActionCondition": "ECyTaskActionConditionType::None",
+            "RoleIds": [],
+            "MeshModes": [],
+            "EnemyMeshModes": [],
+            "WeaponTypes": [],
+            "SkillTypes": [],
+            "Num": 500,
+            "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
+            "EventTargetTeamRole": "ECyTaskTeamRoleType::None"
+          },
+          "LimitConditions": []
+        }
+      ],
+      "TaskLimit": {
+        "GameTypes": [],
+        "ModeTypes": []
+      },
+      "TaskPass": 3
+    },
+    "20012": {
+      "Id": 20012,
+      "Week": 3,
+      "Circle": false,
+      "Desc": {
+        "Namespace": "BattlePassWeekTask",
+        "Key": "20012_Desc",
+        "SourceString": "累计完成40回合比赛",
+        "LocalizedString": "累计完成40回合比赛"
+      },
+      "Type": 2,
+      "SubType": 0,
+      "Prize": [
+        {
+          "ItemId": 4,
+          "ItemAmount": 200
+        }
+      ],
+      "TaskConditions": [
+        {
+          "MainCondition": {
+            "MainType": "ECyTaskMainConditionType::Game",
+            "GameCondition": "ECyTaskGameConditionType::RoundNum",
+            "GameResult": "ECyGameResultType::None",
+            "RoundResult": "ECyRoundResultType::None",
+            "bFriendTeam": false,
+            "BattleCondition": "ECyTaskBattleConditionType::None",
+            "bHeadshot": false,
+            "bFirstKill": false,
+            "bRevenge": false,
+            "MultiKillLimit": 0,
+            "HitDistLimit": 0,
+            "bBlind": false,
+            "ActionCondition": "ECyTaskActionConditionType::None",
+            "RoleIds": [],
+            "MeshModes": [],
+            "EnemyMeshModes": [],
+            "WeaponTypes": [],
+            "SkillTypes": [],
+            "Num": 40,
+            "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
+            "EventTargetTeamRole": "ECyTaskTeamRoleType::None"
+          },
+          "LimitConditions": []
+        }
+      ],
+      "TaskLimit": {
+        "GameTypes": [],
+        "ModeTypes": []
+      },
+      "TaskPass": 3
+    },
+    "20013": {
+      "Id": 20013,
+      "Week": 3,
+      "Circle": false,
+      "Desc": {
+        "Namespace": "BattlePassWeekTask",
+        "Key": "20013_Desc",
+        "SourceString": "拾取死亡掉落物次数100次",
+        "LocalizedString": "拾取死亡掉落物次数100次"
+      },
+      "Type": 2,
+      "SubType": 0,
+      "Prize": [
+        {
+          "ItemId": 4,
+          "ItemAmount": 200
+        }
+      ],
+      "TaskConditions": [
+        {
+          "MainCondition": {
+            "MainType": "ECyTaskMainConditionType::Action",
+            "GameCondition": "ECyTaskGameConditionType::None",
+            "GameResult": "ECyGameResultType::None",
+            "RoundResult": "ECyRoundResultType::None",
+            "bFriendTeam": false,
+            "BattleCondition": "ECyTaskBattleConditionType::None",
+            "bHeadshot": false,
+            "bFirstKill": false,
+            "bRevenge": false,
+            "MultiKillLimit": 0,
+            "HitDistLimit": 0,
+            "bBlind": false,
+            "ActionCondition": "ECyTaskActionConditionType::PickupDeathDropNum",
+            "RoleIds": [],
+            "MeshModes": [],
+            "EnemyMeshModes": [],
+            "WeaponTypes": [],
+            "SkillTypes": [],
+            "Num": 100,
+            "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
+            "EventTargetTeamRole": "ECyTaskTeamRoleType::None"
+          },
+          "LimitConditions": []
+        }
+      ],
+      "TaskLimit": {
+        "GameTypes": [],
+        "ModeTypes": []
+      },
+      "TaskPass": 3
+    },
+    "20014": {
+      "Id": 20014,
+      "Week": 3,
+      "Circle": false,
+      "Desc": {
+        "Namespace": "BattlePassWeekTask",
+        "Key": "20014_Desc",
+        "SourceString": "参与击败敌人累计150次",
+        "LocalizedString": "参与击败敌人累计150次"
+      },
+      "Type": 2,
+      "SubType": 0,
+      "Prize": [
+        {
+          "ItemId": 4,
+          "ItemAmount": 200
+        }
+      ],
+      "TaskConditions": [
+        {
+          "MainCondition": {
+            "MainType": "ECyTaskMainConditionType::Battle",
+            "GameCondition": "ECyTaskGameConditionType::None",
+            "GameResult": "ECyGameResultType::None",
+            "RoundResult": "ECyRoundResultType::None",
+            "bFriendTeam": false,
+            "BattleCondition": "ECyTaskBattleConditionType::ParticipateKillNum",
+            "bHeadshot": false,
+            "bFirstKill": false,
+            "bRevenge": false,
+            "MultiKillLimit": 0,
+            "HitDistLimit": 0,
+            "bBlind": false,
+            "ActionCondition": "ECyTaskActionConditionType::None",
+            "RoleIds": [],
+            "MeshModes": [],
+            "EnemyMeshModes": [],
+            "WeaponTypes": [],
+            "SkillTypes": [],
+            "Num": 150,
+            "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
+            "EventTargetTeamRole": "ECyTaskTeamRoleType::None"
+          },
+          "LimitConditions": []
+        }
+      ],
+      "TaskLimit": {
+        "GameTypes": [],
+        "ModeTypes": []
+      },
+      "TaskPass": 3
+    },
+    "20015": {
+      "Id": 20015,
+      "Week": 3,
+      "Circle": false,
+      "Desc": {
+        "Namespace": "BattlePassWeekTask",
+        "Key": "20015_Desc",
+        "SourceString": "累计为我方恢复血量或护甲数1000点",
+        "LocalizedString": "累计为我方恢复血量或护甲数1000点"
+      },
+      "Type": 2,
+      "SubType": 0,
+      "Prize": [
+        {
+          "ItemId": 4,
+          "ItemAmount": 200
+        }
+      ],
+      "TaskConditions": [
+        {
+          "MainCondition": {
+            "MainType": "ECyTaskMainConditionType::Battle",
+            "GameCondition": "ECyTaskGameConditionType::None",
+            "GameResult": "ECyGameResultType::None",
+            "RoundResult": "ECyRoundResultType::None",
+            "bFriendTeam": false,
+            "BattleCondition": "ECyTaskBattleConditionType::RecoveryHealthOrArmorNum",
+            "bHeadshot": false,
+            "bFirstKill": false,
+            "bRevenge": false,
+            "MultiKillLimit": 0,
+            "HitDistLimit": 0,
+            "bBlind": false,
+            "ActionCondition": "ECyTaskActionConditionType::None",
+            "RoleIds": [],
+            "MeshModes": [],
+            "EnemyMeshModes": [],
+            "WeaponTypes": [],
+            "SkillTypes": [],
+            "Num": 1000,
+            "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
+            "EventTargetTeamRole": "ECyTaskTeamRoleType::None"
+          },
+          "LimitConditions": []
+        }
+      ],
+      "TaskLimit": {
+        "GameTypes": [],
+        "ModeTypes": []
+      },
+      "TaskPass": 3
+    },
+    "20016": {
+      "Id": 20016,
+      "Week": 4,
+      "Circle": false,
+      "Desc": {
+        "Namespace": "BattlePassWeekTask",
+        "Key": "20016_Desc",
+        "SourceString": "使用大招技能累计10次",
+        "LocalizedString": "使用大招技能累计10次"
+      },
+      "Type": 2,
+      "SubType": 0,
+      "Prize": [
+        {
+          "ItemId": 4,
+          "ItemAmount": 200
+        }
+      ],
+      "TaskConditions": [
+        {
+          "MainCondition": {
+            "MainType": "ECyTaskMainConditionType::Battle",
+            "GameCondition": "ECyTaskGameConditionType::None",
+            "GameResult": "ECyGameResultType::None",
+            "RoundResult": "ECyRoundResultType::None",
+            "bFriendTeam": false,
+            "BattleCondition": "ECyTaskBattleConditionType::UseSkillNum",
+            "bHeadshot": false,
+            "bFirstKill": false,
+            "bRevenge": false,
+            "MultiKillLimit": 0,
+            "HitDistLimit": 0,
+            "bBlind": false,
+            "ActionCondition": "ECyTaskActionConditionType::None",
+            "RoleIds": [],
+            "MeshModes": [],
+            "EnemyMeshModes": [],
+            "WeaponTypes": [],
+            "SkillTypes": [
+              "ECyPlayerSkillType::X"
+            ],
+            "Num": 10,
+            "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
+            "EventTargetTeamRole": "ECyTaskTeamRoleType::None"
+          },
+          "LimitConditions": []
+        }
+      ],
+      "TaskLimit": {
+        "GameTypes": [],
+        "ModeTypes": []
+      },
+      "TaskPass": 3
+    },
+    "20017": {
+      "Id": 20017,
+      "Week": 4,
+      "Circle": false,
+      "Desc": {
+        "Namespace": "BattlePassWeekTask",
+        "Key": "20017_Desc",
+        "SourceString": "使用技能累计100次",
+        "LocalizedString": "使用技能累计100次"
+      },
+      "Type": 2,
+      "SubType": 0,
+      "Prize": [
+        {
+          "ItemId": 4,
+          "ItemAmount": 200
+        }
+      ],
+      "TaskConditions": [
+        {
+          "MainCondition": {
+            "MainType": "ECyTaskMainConditionType::Battle",
+            "GameCondition": "ECyTaskGameConditionType::None",
+            "GameResult": "ECyGameResultType::None",
+            "RoundResult": "ECyRoundResultType::None",
+            "bFriendTeam": false,
+            "BattleCondition": "ECyTaskBattleConditionType::UseSkillNum",
+            "bHeadshot": false,
+            "bFirstKill": false,
+            "bRevenge": false,
+            "MultiKillLimit": 0,
+            "HitDistLimit": 0,
+            "bBlind": false,
+            "ActionCondition": "ECyTaskActionConditionType::None",
+            "RoleIds": [],
+            "MeshModes": [],
+            "EnemyMeshModes": [],
+            "WeaponTypes": [],
+            "SkillTypes": [
+              "ECyPlayerSkillType::Q",
+              "ECyPlayerSkillType::X"
+            ],
+            "Num": 100,
+            "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
+            "EventTargetTeamRole": "ECyTaskTeamRoleType::None"
+          },
+          "LimitConditions": []
+        }
+      ],
+      "TaskLimit": {
+        "GameTypes": [],
+        "ModeTypes": []
+      },
+      "TaskPass": 3
+    },
+    "20018": {
+      "Id": 20018,
+      "Week": 4,
+      "Circle": false,
+      "Desc": {
+        "Namespace": "BattlePassWeekTask",
+        "Key": "20018_Desc",
+        "SourceString": "累计击中敌人500次",
+        "LocalizedString": "累计击中敌人500次"
+      },
+      "Type": 2,
+      "SubType": 0,
+      "Prize": [
+        {
+          "ItemId": 4,
+          "ItemAmount": 200
+        }
+      ],
+      "TaskConditions": [
+        {
+          "MainCondition": {
+            "MainType": "ECyTaskMainConditionType::Battle",
+            "GameCondition": "ECyTaskGameConditionType::None",
+            "GameResult": "ECyGameResultType::None",
+            "RoundResult": "ECyRoundResultType::None",
+            "bFriendTeam": false,
+            "BattleCondition": "ECyTaskBattleConditionType::HitNum",
+            "bHeadshot": false,
+            "bFirstKill": false,
+            "bRevenge": false,
+            "MultiKillLimit": 0,
+            "HitDistLimit": 0,
+            "bBlind": false,
+            "ActionCondition": "ECyTaskActionConditionType::None",
+            "RoleIds": [],
+            "MeshModes": [],
+            "EnemyMeshModes": [],
+            "WeaponTypes": [],
+            "SkillTypes": [],
+            "Num": 500,
+            "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
+            "EventTargetTeamRole": "ECyTaskTeamRoleType::None"
+          },
+          "LimitConditions": []
+        }
+      ],
+      "TaskLimit": {
+        "GameTypes": [],
+        "ModeTypes": []
+      },
+      "TaskPass": 3
+    },
+    "20019": {
+      "Id": 20019,
+      "Week": 4,
+      "Circle": false,
+      "Desc": {
+        "Namespace": "BattlePassWeekTask",
+        "Key": "20019_Desc",
+        "SourceString": "击败敌人累计100次",
+        "LocalizedString": "击败敌人累计100次"
+      },
+      "Type": 2,
+      "SubType": 0,
+      "Prize": [
+        {
+          "ItemId": 4,
+          "ItemAmount": 200
+        }
+      ],
+      "TaskConditions": [
+        {
+          "MainCondition": {
+            "MainType": "ECyTaskMainConditionType::Battle",
+            "GameCondition": "ECyTaskGameConditionType::None",
+            "GameResult": "ECyGameResultType::None",
+            "RoundResult": "ECyRoundResultType::None",
+            "bFriendTeam": false,
+            "BattleCondition": "ECyTaskBattleConditionType::KillNum",
+            "bHeadshot": false,
+            "bFirstKill": false,
+            "bRevenge": false,
+            "MultiKillLimit": 0,
+            "HitDistLimit": 0,
+            "bBlind": false,
+            "ActionCondition": "ECyTaskActionConditionType::None",
+            "RoleIds": [],
+            "MeshModes": [],
+            "EnemyMeshModes": [],
+            "WeaponTypes": [],
+            "SkillTypes": [],
+            "Num": 100,
+            "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
+            "EventTargetTeamRole": "ECyTaskTeamRoleType::None"
+          },
+          "LimitConditions": []
+        }
+      ],
+      "TaskLimit": {
+        "GameTypes": [],
+        "ModeTypes": []
+      },
+      "TaskPass": 3
+    },
+    "20020": {
+      "Id": 20020,
+      "Week": 4,
+      "Circle": false,
+      "Desc": {
+        "Namespace": "BattlePassWeekTask",
+        "Key": "20020_Desc",
+        "SourceString": "累计造成50000点伤害",
+        "LocalizedString": "累计造成50000点伤害"
+      },
+      "Type": 2,
+      "SubType": 0,
+      "Prize": [
+        {
+          "ItemId": 4,
+          "ItemAmount": 200
+        }
+      ],
+      "TaskConditions": [
+        {
+          "MainCondition": {
+            "MainType": "ECyTaskMainConditionType::Battle",
+            "GameCondition": "ECyTaskGameConditionType::None",
+            "GameResult": "ECyGameResultType::None",
+            "RoundResult": "ECyRoundResultType::None",
+            "bFriendTeam": false,
+            "BattleCondition": "ECyTaskBattleConditionType::DamageNum",
+            "bHeadshot": false,
+            "bFirstKill": false,
+            "bRevenge": false,
+            "MultiKillLimit": 0,
+            "HitDistLimit": 0,
+            "bBlind": false,
+            "ActionCondition": "ECyTaskActionConditionType::None",
+            "RoleIds": [],
+            "MeshModes": [],
+            "EnemyMeshModes": [],
+            "WeaponTypes": [],
+            "SkillTypes": [],
+            "Num": 50000,
+            "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
+            "EventTargetTeamRole": "ECyTaskTeamRoleType::None"
+          },
+          "LimitConditions": []
+        }
+      ],
+      "TaskLimit": {
+        "GameTypes": [],
+        "ModeTypes": []
+      },
+      "TaskPass": 3
+    },
+    "20021": {
+      "Id": 20021,
+      "Week": 5,
+      "Circle": false,
+      "Desc": {
+        "Namespace": "BattlePassWeekTask",
+        "Key": "20021_Desc",
+        "SourceString": "累计击中敌人500次",
+        "LocalizedString": "累计击中敌人500次"
+      },
+      "Type": 2,
+      "SubType": 0,
+      "Prize": [
+        {
+          "ItemId": 4,
+          "ItemAmount": 200
+        }
+      ],
+      "TaskConditions": [
+        {
+          "MainCondition": {
+            "MainType": "ECyTaskMainConditionType::Battle",
+            "GameCondition": "ECyTaskGameConditionType::None",
+            "GameResult": "ECyGameResultType::None",
+            "RoundResult": "ECyRoundResultType::None",
+            "bFriendTeam": false,
+            "BattleCondition": "ECyTaskBattleConditionType::HitNum",
+            "bHeadshot": false,
+            "bFirstKill": false,
+            "bRevenge": false,
+            "MultiKillLimit": 0,
+            "HitDistLimit": 0,
+            "bBlind": false,
+            "ActionCondition": "ECyTaskActionConditionType::None",
+            "RoleIds": [],
+            "MeshModes": [],
+            "EnemyMeshModes": [],
+            "WeaponTypes": [],
+            "SkillTypes": [],
+            "Num": 500,
+            "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
+            "EventTargetTeamRole": "ECyTaskTeamRoleType::None"
+          },
+          "LimitConditions": []
+        }
+      ],
+      "TaskLimit": {
+        "GameTypes": [],
+        "ModeTypes": []
+      },
+      "TaskPass": 3
+    },
+    "20022": {
+      "Id": 20022,
+      "Week": 5,
+      "Circle": false,
+      "Desc": {
+        "Namespace": "BattlePassWeekTask",
+        "Key": "20022_Desc",
+        "SourceString": "累计获得20回合比赛胜利",
+        "LocalizedString": "累计获得20回合比赛胜利"
+      },
+      "Type": 2,
+      "SubType": 0,
+      "Prize": [
+        {
+          "ItemId": 4,
+          "ItemAmount": 200
+        }
+      ],
+      "TaskConditions": [
+        {
+          "MainCondition": {
+            "MainType": "ECyTaskMainConditionType::Game",
+            "GameCondition": "ECyTaskGameConditionType::RoundNum",
+            "GameResult": "ECyGameResultType::None",
+            "RoundResult": "ECyRoundResultType::Win",
+            "bFriendTeam": false,
+            "BattleCondition": "ECyTaskBattleConditionType::None",
+            "bHeadshot": false,
+            "bFirstKill": false,
+            "bRevenge": false,
+            "MultiKillLimit": 0,
+            "HitDistLimit": 0,
+            "bBlind": false,
+            "ActionCondition": "ECyTaskActionConditionType::None",
+            "RoleIds": [],
+            "MeshModes": [],
+            "EnemyMeshModes": [],
+            "WeaponTypes": [],
+            "SkillTypes": [],
+            "Num": 20,
+            "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
+            "EventTargetTeamRole": "ECyTaskTeamRoleType::None"
+          },
+          "LimitConditions": []
+        }
+      ],
+      "TaskLimit": {
+        "GameTypes": [],
+        "ModeTypes": []
+      },
+      "TaskPass": 3
+    },
+    "20023": {
+      "Id": 20023,
+      "Week": 5,
+      "Circle": false,
+      "Desc": {
+        "Namespace": "BattlePassWeekTask",
+        "Key": "20023_Desc",
+        "SourceString": "参与击败敌人累计150次",
+        "LocalizedString": "参与击败敌人累计150次"
+      },
+      "Type": 2,
+      "SubType": 0,
+      "Prize": [
+        {
+          "ItemId": 4,
+          "ItemAmount": 200
+        }
+      ],
+      "TaskConditions": [
+        {
+          "MainCondition": {
+            "MainType": "ECyTaskMainConditionType::Battle",
+            "GameCondition": "ECyTaskGameConditionType::None",
+            "GameResult": "ECyGameResultType::None",
+            "RoundResult": "ECyRoundResultType::None",
+            "bFriendTeam": false,
+            "BattleCondition": "ECyTaskBattleConditionType::ParticipateKillNum",
+            "bHeadshot": false,
+            "bFirstKill": false,
+            "bRevenge": false,
+            "MultiKillLimit": 0,
+            "HitDistLimit": 0,
+            "bBlind": false,
+            "ActionCondition": "ECyTaskActionConditionType::None",
+            "RoleIds": [],
+            "MeshModes": [],
+            "EnemyMeshModes": [],
+            "WeaponTypes": [],
+            "SkillTypes": [],
+            "Num": 150,
+            "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
+            "EventTargetTeamRole": "ECyTaskTeamRoleType::None"
+          },
+          "LimitConditions": []
+        }
+      ],
+      "TaskLimit": {
+        "GameTypes": [],
+        "ModeTypes": []
+      },
+      "TaskPass": 3
+    },
+    "20024": {
+      "Id": 20024,
+      "Week": 5,
+      "Circle": false,
+      "Desc": {
+        "Namespace": "BattlePassWeekTask",
+        "Key": "20024_Desc",
+        "SourceString": "弦化飘飞或弦化移动累计距离7500米",
+        "LocalizedString": "弦化飘飞或弦化移动累计距离7500米"
+      },
+      "Type": 2,
+      "SubType": 0,
+      "Prize": [
+        {
+          "ItemId": 4,
+          "ItemAmount": 200
+        }
+      ],
+      "TaskConditions": [
+        {
+          "MainCondition": {
+            "MainType": "ECyTaskMainConditionType::Battle",
+            "GameCondition": "ECyTaskGameConditionType::None",
+            "GameResult": "ECyGameResultType::None",
+            "RoundResult": "ECyRoundResultType::None",
+            "bFriendTeam": false,
+            "BattleCondition": "ECyTaskBattleConditionType::MoveDistNum",
+            "bHeadshot": false,
+            "bFirstKill": false,
+            "bRevenge": false,
+            "MultiKillLimit": 0,
+            "HitDistLimit": 0,
+            "bBlind": false,
+            "ActionCondition": "ECyTaskActionConditionType::None",
+            "RoleIds": [],
+            "MeshModes": [
+              "EMeshModeType::Slide",
+              "EMeshModeType::Sideway",
+              "EMeshModeType::Glide"
+            ],
+            "EnemyMeshModes": [],
+            "WeaponTypes": [],
+            "SkillTypes": [],
+            "Num": 7500,
+            "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
+            "EventTargetTeamRole": "ECyTaskTeamRoleType::None"
+          },
+          "LimitConditions": []
+        }
+      ],
+      "TaskLimit": {
+        "GameTypes": [],
+        "ModeTypes": []
+      },
+      "TaskPass": 3
+    },
+    "20025": {
+      "Id": 20025,
+      "Week": 5,
+      "Circle": false,
+      "Desc": {
+        "Namespace": "BattlePassWeekTask",
+        "Key": "20025_Desc",
+        "SourceString": "累计为我方恢复血量或护甲数1000点",
+        "LocalizedString": "累计为我方恢复血量或护甲数1000点"
+      },
+      "Type": 2,
+      "SubType": 0,
+      "Prize": [
+        {
+          "ItemId": 4,
+          "ItemAmount": 200
+        }
+      ],
+      "TaskConditions": [
+        {
+          "MainCondition": {
+            "MainType": "ECyTaskMainConditionType::Battle",
+            "GameCondition": "ECyTaskGameConditionType::None",
+            "GameResult": "ECyGameResultType::None",
+            "RoundResult": "ECyRoundResultType::None",
+            "bFriendTeam": false,
+            "BattleCondition": "ECyTaskBattleConditionType::RecoveryHealthOrArmorNum",
+            "bHeadshot": false,
+            "bFirstKill": false,
+            "bRevenge": false,
+            "MultiKillLimit": 0,
+            "HitDistLimit": 0,
+            "bBlind": false,
+            "ActionCondition": "ECyTaskActionConditionType::None",
+            "RoleIds": [],
+            "MeshModes": [],
+            "EnemyMeshModes": [],
+            "WeaponTypes": [],
+            "SkillTypes": [],
+            "Num": 1000,
+            "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
+            "EventTargetTeamRole": "ECyTaskTeamRoleType::None"
+          },
+          "LimitConditions": []
+        }
+      ],
+      "TaskLimit": {
+        "GameTypes": [],
+        "ModeTypes": []
+      },
+      "TaskPass": 3
+    },
+    "20026": {
+      "Id": 20026,
+      "Week": 6,
+      "Circle": false,
+      "Desc": {
+        "Namespace": "BattlePassWeekTask",
+        "Key": "20026_Desc",
+        "SourceString": "使用技能累计100次",
+        "LocalizedString": "使用技能累计100次"
+      },
+      "Type": 2,
+      "SubType": 0,
+      "Prize": [
+        {
+          "ItemId": 4,
+          "ItemAmount": 200
+        }
+      ],
+      "TaskConditions": [
+        {
+          "MainCondition": {
+            "MainType": "ECyTaskMainConditionType::Battle",
+            "GameCondition": "ECyTaskGameConditionType::None",
+            "GameResult": "ECyGameResultType::None",
+            "RoundResult": "ECyRoundResultType::None",
+            "bFriendTeam": false,
+            "BattleCondition": "ECyTaskBattleConditionType::UseSkillNum",
+            "bHeadshot": false,
+            "bFirstKill": false,
+            "bRevenge": false,
+            "MultiKillLimit": 0,
+            "HitDistLimit": 0,
+            "bBlind": false,
+            "ActionCondition": "ECyTaskActionConditionType::None",
+            "RoleIds": [],
+            "MeshModes": [],
+            "EnemyMeshModes": [],
+            "WeaponTypes": [],
+            "SkillTypes": [
+              "ECyPlayerSkillType::Q",
+              "ECyPlayerSkillType::X"
+            ],
+            "Num": 100,
+            "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
+            "EventTargetTeamRole": "ECyTaskTeamRoleType::None"
+          },
+          "LimitConditions": []
+        }
+      ],
+      "TaskLimit": {
+        "GameTypes": [],
+        "ModeTypes": []
+      },
+      "TaskPass": 3
+    },
+    "20027": {
+      "Id": 20027,
+      "Week": 6,
+      "Circle": false,
+      "Desc": {
+        "Namespace": "BattlePassWeekTask",
+        "Key": "20027_Desc",
+        "SourceString": "累计完成40回合比赛",
+        "LocalizedString": "累计完成40回合比赛"
+      },
+      "Type": 2,
+      "SubType": 0,
+      "Prize": [
+        {
+          "ItemId": 4,
+          "ItemAmount": 200
+        }
+      ],
+      "TaskConditions": [
+        {
+          "MainCondition": {
+            "MainType": "ECyTaskMainConditionType::Game",
+            "GameCondition": "ECyTaskGameConditionType::RoundNum",
+            "GameResult": "ECyGameResultType::None",
+            "RoundResult": "ECyRoundResultType::None",
+            "bFriendTeam": false,
+            "BattleCondition": "ECyTaskBattleConditionType::None",
+            "bHeadshot": false,
+            "bFirstKill": false,
+            "bRevenge": false,
+            "MultiKillLimit": 0,
+            "HitDistLimit": 0,
+            "bBlind": false,
+            "ActionCondition": "ECyTaskActionConditionType::None",
+            "RoleIds": [],
+            "MeshModes": [],
+            "EnemyMeshModes": [],
+            "WeaponTypes": [],
+            "SkillTypes": [],
+            "Num": 40,
+            "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
+            "EventTargetTeamRole": "ECyTaskTeamRoleType::None"
+          },
+          "LimitConditions": []
+        }
+      ],
+      "TaskLimit": {
+        "GameTypes": [],
+        "ModeTypes": []
+      },
+      "TaskPass": 3
+    },
+    "20028": {
+      "Id": 20028,
+      "Week": 6,
+      "Circle": false,
+      "Desc": {
+        "Namespace": "BattlePassWeekTask",
+        "Key": "20028_Desc",
+        "SourceString": "累计击中敌人500次",
+        "LocalizedString": "累计击中敌人500次"
+      },
+      "Type": 2,
+      "SubType": 0,
+      "Prize": [
+        {
+          "ItemId": 4,
+          "ItemAmount": 200
+        }
+      ],
+      "TaskConditions": [
+        {
+          "MainCondition": {
+            "MainType": "ECyTaskMainConditionType::Battle",
+            "GameCondition": "ECyTaskGameConditionType::None",
+            "GameResult": "ECyGameResultType::None",
+            "RoundResult": "ECyRoundResultType::None",
+            "bFriendTeam": false,
+            "BattleCondition": "ECyTaskBattleConditionType::HitNum",
+            "bHeadshot": false,
+            "bFirstKill": false,
+            "bRevenge": false,
+            "MultiKillLimit": 0,
+            "HitDistLimit": 0,
+            "bBlind": false,
+            "ActionCondition": "ECyTaskActionConditionType::None",
+            "RoleIds": [],
+            "MeshModes": [],
+            "EnemyMeshModes": [],
+            "WeaponTypes": [],
+            "SkillTypes": [],
+            "Num": 500,
+            "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
+            "EventTargetTeamRole": "ECyTaskTeamRoleType::None"
+          },
+          "LimitConditions": []
+        }
+      ],
+      "TaskLimit": {
+        "GameTypes": [],
+        "ModeTypes": []
+      },
+      "TaskPass": 3
+    },
+    "20029": {
+      "Id": 20029,
+      "Week": 6,
+      "Circle": false,
+      "Desc": {
+        "Namespace": "BattlePassWeekTask",
+        "Key": "20029_Desc",
+        "SourceString": "拾取死亡掉落物次数100次",
+        "LocalizedString": "拾取死亡掉落物次数100次"
+      },
+      "Type": 2,
+      "SubType": 0,
+      "Prize": [
+        {
+          "ItemId": 4,
+          "ItemAmount": 200
+        }
+      ],
+      "TaskConditions": [
+        {
+          "MainCondition": {
+            "MainType": "ECyTaskMainConditionType::Action",
+            "GameCondition": "ECyTaskGameConditionType::None",
+            "GameResult": "ECyGameResultType::None",
+            "RoundResult": "ECyRoundResultType::None",
+            "bFriendTeam": false,
+            "BattleCondition": "ECyTaskBattleConditionType::None",
+            "bHeadshot": false,
+            "bFirstKill": false,
+            "bRevenge": false,
+            "MultiKillLimit": 0,
+            "HitDistLimit": 0,
+            "bBlind": false,
+            "ActionCondition": "ECyTaskActionConditionType::PickupDeathDropNum",
+            "RoleIds": [],
+            "MeshModes": [],
+            "EnemyMeshModes": [],
+            "WeaponTypes": [],
+            "SkillTypes": [],
+            "Num": 100,
+            "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
+            "EventTargetTeamRole": "ECyTaskTeamRoleType::None"
+          },
+          "LimitConditions": []
+        }
+      ],
+      "TaskLimit": {
+        "GameTypes": [],
+        "ModeTypes": []
+      },
+      "TaskPass": 3
+    },
+    "20030": {
+      "Id": 20030,
+      "Week": 6,
+      "Circle": false,
+      "Desc": {
+        "Namespace": "BattlePassWeekTask",
+        "Key": "20030_Desc",
+        "SourceString": "累计获得10场比赛胜利",
+        "LocalizedString": "累计获得10场比赛胜利"
+      },
+      "Type": 2,
+      "SubType": 0,
+      "Prize": [
+        {
+          "ItemId": 4,
+          "ItemAmount": 200
+        }
+      ],
+      "TaskConditions": [
+        {
+          "MainCondition": {
+            "MainType": "ECyTaskMainConditionType::Game",
+            "GameCondition": "ECyTaskGameConditionType::GameNum",
+            "GameResult": "ECyGameResultType::Win",
+            "RoundResult": "ECyRoundResultType::None",
+            "bFriendTeam": false,
+            "BattleCondition": "ECyTaskBattleConditionType::None",
+            "bHeadshot": false,
+            "bFirstKill": false,
+            "bRevenge": false,
+            "MultiKillLimit": 0,
+            "HitDistLimit": 0,
+            "bBlind": false,
+            "ActionCondition": "ECyTaskActionConditionType::None",
+            "RoleIds": [],
+            "MeshModes": [],
+            "EnemyMeshModes": [],
+            "WeaponTypes": [],
+            "SkillTypes": [],
+            "Num": 10,
+            "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
+            "EventTargetTeamRole": "ECyTaskTeamRoleType::None"
+          },
+          "LimitConditions": []
+        }
+      ],
+      "TaskLimit": {
+        "GameTypes": [],
+        "ModeTypes": []
+      },
+      "TaskPass": 3
+    },
+    "20031": {
+      "Id": 20031,
+      "Week": 7,
+      "Circle": false,
+      "Desc": {
+        "Namespace": "BattlePassWeekTask",
+        "Key": "20031_Desc",
+        "SourceString": "累计击中敌人500次",
+        "LocalizedString": "累计击中敌人500次"
+      },
+      "Type": 2,
+      "SubType": 0,
+      "Prize": [
+        {
+          "ItemId": 4,
+          "ItemAmount": 200
+        }
+      ],
+      "TaskConditions": [
+        {
+          "MainCondition": {
+            "MainType": "ECyTaskMainConditionType::Battle",
+            "GameCondition": "ECyTaskGameConditionType::None",
+            "GameResult": "ECyGameResultType::None",
+            "RoundResult": "ECyRoundResultType::None",
+            "bFriendTeam": false,
+            "BattleCondition": "ECyTaskBattleConditionType::HitNum",
+            "bHeadshot": false,
+            "bFirstKill": false,
+            "bRevenge": false,
+            "MultiKillLimit": 0,
+            "HitDistLimit": 0,
+            "bBlind": false,
+            "ActionCondition": "ECyTaskActionConditionType::None",
+            "RoleIds": [],
+            "MeshModes": [],
+            "EnemyMeshModes": [],
+            "WeaponTypes": [],
+            "SkillTypes": [],
+            "Num": 500,
+            "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
+            "EventTargetTeamRole": "ECyTaskTeamRoleType::None"
+          },
+          "LimitConditions": []
+        }
+      ],
+      "TaskLimit": {
+        "GameTypes": [],
+        "ModeTypes": []
+      },
+      "TaskPass": 3
+    },
+    "20032": {
+      "Id": 20032,
+      "Week": 7,
+      "Circle": false,
+      "Desc": {
+        "Namespace": "BattlePassWeekTask",
+        "Key": "20032_Desc",
+        "SourceString": "累计获得20回合比赛胜利",
+        "LocalizedString": "累计获得20回合比赛胜利"
+      },
+      "Type": 2,
+      "SubType": 0,
+      "Prize": [
+        {
+          "ItemId": 4,
+          "ItemAmount": 200
+        }
+      ],
+      "TaskConditions": [
+        {
+          "MainCondition": {
+            "MainType": "ECyTaskMainConditionType::Game",
+            "GameCondition": "ECyTaskGameConditionType::RoundNum",
+            "GameResult": "ECyGameResultType::None",
+            "RoundResult": "ECyRoundResultType::Win",
+            "bFriendTeam": false,
+            "BattleCondition": "ECyTaskBattleConditionType::None",
+            "bHeadshot": false,
+            "bFirstKill": false,
+            "bRevenge": false,
+            "MultiKillLimit": 0,
+            "HitDistLimit": 0,
+            "bBlind": false,
+            "ActionCondition": "ECyTaskActionConditionType::None",
+            "RoleIds": [],
+            "MeshModes": [],
+            "EnemyMeshModes": [],
+            "WeaponTypes": [],
+            "SkillTypes": [],
+            "Num": 20,
+            "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
+            "EventTargetTeamRole": "ECyTaskTeamRoleType::None"
+          },
+          "LimitConditions": []
+        }
+      ],
+      "TaskLimit": {
+        "GameTypes": [],
+        "ModeTypes": []
+      },
+      "TaskPass": 3
+    },
+    "20033": {
+      "Id": 20033,
+      "Week": 7,
+      "Circle": false,
+      "Desc": {
+        "Namespace": "BattlePassWeekTask",
+        "Key": "20033_Desc",
+        "SourceString": "参与击败敌人累计150次",
+        "LocalizedString": "参与击败敌人累计150次"
+      },
+      "Type": 2,
+      "SubType": 0,
+      "Prize": [
+        {
+          "ItemId": 4,
+          "ItemAmount": 200
+        }
+      ],
+      "TaskConditions": [
+        {
+          "MainCondition": {
+            "MainType": "ECyTaskMainConditionType::Battle",
+            "GameCondition": "ECyTaskGameConditionType::None",
+            "GameResult": "ECyGameResultType::None",
+            "RoundResult": "ECyRoundResultType::None",
+            "bFriendTeam": false,
+            "BattleCondition": "ECyTaskBattleConditionType::ParticipateKillNum",
+            "bHeadshot": false,
+            "bFirstKill": false,
+            "bRevenge": false,
+            "MultiKillLimit": 0,
+            "HitDistLimit": 0,
+            "bBlind": false,
+            "ActionCondition": "ECyTaskActionConditionType::None",
+            "RoleIds": [],
+            "MeshModes": [],
+            "EnemyMeshModes": [],
+            "WeaponTypes": [],
+            "SkillTypes": [],
+            "Num": 150,
+            "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
+            "EventTargetTeamRole": "ECyTaskTeamRoleType::None"
+          },
+          "LimitConditions": []
+        }
+      ],
+      "TaskLimit": {
+        "GameTypes": [],
+        "ModeTypes": []
+      },
+      "TaskPass": 3
+    },
+    "20034": {
+      "Id": 20034,
+      "Week": 7,
+      "Circle": false,
+      "Desc": {
+        "Namespace": "BattlePassWeekTask",
+        "Key": "20034_Desc",
+        "SourceString": "弦化飘飞或弦化移动累计距离7500米",
+        "LocalizedString": "弦化飘飞或弦化移动累计距离7500米"
+      },
+      "Type": 2,
+      "SubType": 0,
+      "Prize": [
+        {
+          "ItemId": 4,
+          "ItemAmount": 200
+        }
+      ],
+      "TaskConditions": [
+        {
+          "MainCondition": {
+            "MainType": "ECyTaskMainConditionType::Battle",
+            "GameCondition": "ECyTaskGameConditionType::None",
+            "GameResult": "ECyGameResultType::None",
+            "RoundResult": "ECyRoundResultType::None",
+            "bFriendTeam": false,
+            "BattleCondition": "ECyTaskBattleConditionType::MoveDistNum",
+            "bHeadshot": false,
+            "bFirstKill": false,
+            "bRevenge": false,
+            "MultiKillLimit": 0,
+            "HitDistLimit": 0,
+            "bBlind": false,
+            "ActionCondition": "ECyTaskActionConditionType::None",
+            "RoleIds": [],
+            "MeshModes": [
+              "EMeshModeType::Slide",
+              "EMeshModeType::Sideway",
+              "EMeshModeType::Glide"
+            ],
+            "EnemyMeshModes": [],
+            "WeaponTypes": [],
+            "SkillTypes": [],
+            "Num": 7500,
+            "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
+            "EventTargetTeamRole": "ECyTaskTeamRoleType::None"
+          },
+          "LimitConditions": []
+        }
+      ],
+      "TaskLimit": {
+        "GameTypes": [],
+        "ModeTypes": []
+      },
+      "TaskPass": 3
+    },
+    "20035": {
+      "Id": 20035,
+      "Week": 7,
+      "Circle": false,
+      "Desc": {
+        "Namespace": "BattlePassWeekTask",
+        "Key": "20035_Desc",
+        "SourceString": "累计为我方恢复血量或护甲数1000点",
+        "LocalizedString": "累计为我方恢复血量或护甲数1000点"
+      },
+      "Type": 2,
+      "SubType": 0,
+      "Prize": [
+        {
+          "ItemId": 4,
+          "ItemAmount": 200
+        }
+      ],
+      "TaskConditions": [
+        {
+          "MainCondition": {
+            "MainType": "ECyTaskMainConditionType::Battle",
+            "GameCondition": "ECyTaskGameConditionType::None",
+            "GameResult": "ECyGameResultType::None",
+            "RoundResult": "ECyRoundResultType::None",
+            "bFriendTeam": false,
+            "BattleCondition": "ECyTaskBattleConditionType::RecoveryHealthOrArmorNum",
+            "bHeadshot": false,
+            "bFirstKill": false,
+            "bRevenge": false,
+            "MultiKillLimit": 0,
+            "HitDistLimit": 0,
+            "bBlind": false,
+            "ActionCondition": "ECyTaskActionConditionType::None",
+            "RoleIds": [],
+            "MeshModes": [],
+            "EnemyMeshModes": [],
+            "WeaponTypes": [],
+            "SkillTypes": [],
+            "Num": 1000,
+            "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
+            "EventTargetTeamRole": "ECyTaskTeamRoleType::None"
+          },
+          "LimitConditions": []
+        }
+      ],
+      "TaskLimit": {
+        "GameTypes": [],
+        "ModeTypes": []
+      },
+      "TaskPass": 3
+    },
+    "20036": {
+      "Id": 20036,
+      "Week": 8,
+      "Circle": false,
+      "Desc": {
+        "Namespace": "BattlePassWeekTask",
+        "Key": "20036_Desc",
+        "SourceString": "使用大招技能累计10次",
+        "LocalizedString": "使用大招技能累计10次"
+      },
+      "Type": 2,
+      "SubType": 0,
+      "Prize": [
+        {
+          "ItemId": 4,
+          "ItemAmount": 200
+        }
+      ],
+      "TaskConditions": [
+        {
+          "MainCondition": {
+            "MainType": "ECyTaskMainConditionType::Battle",
+            "GameCondition": "ECyTaskGameConditionType::None",
+            "GameResult": "ECyGameResultType::None",
+            "RoundResult": "ECyRoundResultType::None",
+            "bFriendTeam": false,
+            "BattleCondition": "ECyTaskBattleConditionType::UseSkillNum",
+            "bHeadshot": false,
+            "bFirstKill": false,
+            "bRevenge": false,
+            "MultiKillLimit": 0,
+            "HitDistLimit": 0,
+            "bBlind": false,
+            "ActionCondition": "ECyTaskActionConditionType::None",
+            "RoleIds": [],
+            "MeshModes": [],
+            "EnemyMeshModes": [],
+            "WeaponTypes": [],
+            "SkillTypes": [
+              "ECyPlayerSkillType::X"
+            ],
+            "Num": 10,
+            "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
+            "EventTargetTeamRole": "ECyTaskTeamRoleType::None"
+          },
+          "LimitConditions": []
+        }
+      ],
+      "TaskLimit": {
+        "GameTypes": [],
+        "ModeTypes": []
+      },
+      "TaskPass": 3
+    },
+    "20037": {
+      "Id": 20037,
+      "Week": 8,
+      "Circle": false,
+      "Desc": {
+        "Namespace": "BattlePassWeekTask",
+        "Key": "20037_Desc",
+        "SourceString": "累计击中敌人500次",
+        "LocalizedString": "累计击中敌人500次"
+      },
+      "Type": 2,
+      "SubType": 0,
+      "Prize": [
+        {
+          "ItemId": 4,
+          "ItemAmount": 200
+        }
+      ],
+      "TaskConditions": [
+        {
+          "MainCondition": {
+            "MainType": "ECyTaskMainConditionType::Battle",
+            "GameCondition": "ECyTaskGameConditionType::None",
+            "GameResult": "ECyGameResultType::None",
+            "RoundResult": "ECyRoundResultType::None",
+            "bFriendTeam": false,
+            "BattleCondition": "ECyTaskBattleConditionType::HitNum",
+            "bHeadshot": false,
+            "bFirstKill": false,
+            "bRevenge": false,
+            "MultiKillLimit": 0,
+            "HitDistLimit": 0,
+            "bBlind": false,
+            "ActionCondition": "ECyTaskActionConditionType::None",
+            "RoleIds": [],
+            "MeshModes": [],
+            "EnemyMeshModes": [],
+            "WeaponTypes": [],
+            "SkillTypes": [],
+            "Num": 500,
+            "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
+            "EventTargetTeamRole": "ECyTaskTeamRoleType::None"
+          },
+          "LimitConditions": []
+        }
+      ],
+      "TaskLimit": {
+        "GameTypes": [],
+        "ModeTypes": []
+      },
+      "TaskPass": 3
+    },
+    "20038": {
+      "Id": 20038,
+      "Week": 8,
+      "Circle": false,
+      "Desc": {
+        "Namespace": "BattlePassWeekTask",
+        "Key": "20038_Desc",
+        "SourceString": "使用技能累计100次",
+        "LocalizedString": "使用技能累计100次"
+      },
+      "Type": 2,
+      "SubType": 0,
+      "Prize": [
+        {
+          "ItemId": 4,
+          "ItemAmount": 200
+        }
+      ],
+      "TaskConditions": [
+        {
+          "MainCondition": {
+            "MainType": "ECyTaskMainConditionType::Battle",
+            "GameCondition": "ECyTaskGameConditionType::None",
+            "GameResult": "ECyGameResultType::None",
+            "RoundResult": "ECyRoundResultType::None",
+            "bFriendTeam": false,
+            "BattleCondition": "ECyTaskBattleConditionType::UseSkillNum",
+            "bHeadshot": false,
+            "bFirstKill": false,
+            "bRevenge": false,
+            "MultiKillLimit": 0,
+            "HitDistLimit": 0,
+            "bBlind": false,
+            "ActionCondition": "ECyTaskActionConditionType::None",
+            "RoleIds": [],
+            "MeshModes": [],
+            "EnemyMeshModes": [],
+            "WeaponTypes": [],
+            "SkillTypes": [
+              "ECyPlayerSkillType::Q",
+              "ECyPlayerSkillType::X"
+            ],
+            "Num": 100,
+            "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
+            "EventTargetTeamRole": "ECyTaskTeamRoleType::None"
+          },
+          "LimitConditions": []
+        }
+      ],
+      "TaskLimit": {
+        "GameTypes": [],
+        "ModeTypes": []
+      },
+      "TaskPass": 3
+    },
+    "20039": {
+      "Id": 20039,
+      "Week": 8,
+      "Circle": false,
+      "Desc": {
+        "Namespace": "BattlePassWeekTask",
+        "Key": "20039_Desc",
+        "SourceString": "击败敌人累计100次",
+        "LocalizedString": "击败敌人累计100次"
+      },
+      "Type": 2,
+      "SubType": 0,
+      "Prize": [
+        {
+          "ItemId": 4,
+          "ItemAmount": 200
+        }
+      ],
+      "TaskConditions": [
+        {
+          "MainCondition": {
+            "MainType": "ECyTaskMainConditionType::Battle",
+            "GameCondition": "ECyTaskGameConditionType::None",
+            "GameResult": "ECyGameResultType::None",
+            "RoundResult": "ECyRoundResultType::None",
+            "bFriendTeam": false,
+            "BattleCondition": "ECyTaskBattleConditionType::KillNum",
+            "bHeadshot": false,
+            "bFirstKill": false,
+            "bRevenge": false,
+            "MultiKillLimit": 0,
+            "HitDistLimit": 0,
+            "bBlind": false,
+            "ActionCondition": "ECyTaskActionConditionType::None",
+            "RoleIds": [],
+            "MeshModes": [],
+            "EnemyMeshModes": [],
+            "WeaponTypes": [],
+            "SkillTypes": [],
+            "Num": 100,
+            "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
+            "EventTargetTeamRole": "ECyTaskTeamRoleType::None"
+          },
+          "LimitConditions": []
+        }
+      ],
+      "TaskLimit": {
+        "GameTypes": [],
+        "ModeTypes": []
+      },
+      "TaskPass": 3
+    },
+    "20040": {
+      "Id": 20040,
+      "Week": 8,
+      "Circle": false,
+      "Desc": {
+        "Namespace": "BattlePassWeekTask",
+        "Key": "20040_Desc",
+        "SourceString": "累计造成50000点伤害",
+        "LocalizedString": "累计造成50000点伤害"
+      },
+      "Type": 2,
+      "SubType": 0,
+      "Prize": [
+        {
+          "ItemId": 4,
+          "ItemAmount": 200
+        }
+      ],
+      "TaskConditions": [
+        {
+          "MainCondition": {
+            "MainType": "ECyTaskMainConditionType::Battle",
+            "GameCondition": "ECyTaskGameConditionType::None",
+            "GameResult": "ECyGameResultType::None",
+            "RoundResult": "ECyRoundResultType::None",
+            "bFriendTeam": false,
+            "BattleCondition": "ECyTaskBattleConditionType::DamageNum",
+            "bHeadshot": false,
+            "bFirstKill": false,
+            "bRevenge": false,
+            "MultiKillLimit": 0,
+            "HitDistLimit": 0,
+            "bBlind": false,
+            "ActionCondition": "ECyTaskActionConditionType::None",
+            "RoleIds": [],
+            "MeshModes": [],
+            "EnemyMeshModes": [],
+            "WeaponTypes": [],
+            "SkillTypes": [],
+            "Num": 50000,
+            "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
+            "EventTargetTeamRole": "ECyTaskTeamRoleType::None"
+          },
+          "LimitConditions": []
+        }
+      ],
+      "TaskLimit": {
+        "GameTypes": [],
+        "ModeTypes": []
+      },
+      "TaskPass": 3
+    },
+    "20041": {
+      "Id": 20041,
+      "Week": 9,
+      "Circle": false,
+      "Desc": {
+        "Namespace": "BattlePassWeekTask",
+        "Key": "20041_Desc",
+        "SourceString": "累计击中敌人500次",
+        "LocalizedString": "累计击中敌人500次"
+      },
+      "Type": 2,
+      "SubType": 0,
+      "Prize": [
+        {
+          "ItemId": 4,
+          "ItemAmount": 200
+        }
+      ],
+      "TaskConditions": [
+        {
+          "MainCondition": {
+            "MainType": "ECyTaskMainConditionType::Battle",
+            "GameCondition": "ECyTaskGameConditionType::None",
+            "GameResult": "ECyGameResultType::None",
+            "RoundResult": "ECyRoundResultType::None",
+            "bFriendTeam": false,
+            "BattleCondition": "ECyTaskBattleConditionType::HitNum",
+            "bHeadshot": false,
+            "bFirstKill": false,
+            "bRevenge": false,
+            "MultiKillLimit": 0,
+            "HitDistLimit": 0,
+            "bBlind": false,
+            "ActionCondition": "ECyTaskActionConditionType::None",
+            "RoleIds": [],
+            "MeshModes": [],
+            "EnemyMeshModes": [],
+            "WeaponTypes": [],
+            "SkillTypes": [],
+            "Num": 500,
+            "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
+            "EventTargetTeamRole": "ECyTaskTeamRoleType::None"
+          },
+          "LimitConditions": []
+        }
+      ],
+      "TaskLimit": {
+        "GameTypes": [],
+        "ModeTypes": []
+      },
+      "TaskPass": 3
+    },
+    "20042": {
+      "Id": 20042,
+      "Week": 9,
+      "Circle": false,
+      "Desc": {
+        "Namespace": "BattlePassWeekTask",
+        "Key": "20042_Desc",
+        "SourceString": "累计获得20回合比赛胜利",
+        "LocalizedString": "累计获得20回合比赛胜利"
+      },
+      "Type": 2,
+      "SubType": 0,
+      "Prize": [
+        {
+          "ItemId": 4,
+          "ItemAmount": 200
+        }
+      ],
+      "TaskConditions": [
+        {
+          "MainCondition": {
+            "MainType": "ECyTaskMainConditionType::Game",
+            "GameCondition": "ECyTaskGameConditionType::RoundNum",
+            "GameResult": "ECyGameResultType::None",
+            "RoundResult": "ECyRoundResultType::Win",
+            "bFriendTeam": false,
+            "BattleCondition": "ECyTaskBattleConditionType::None",
+            "bHeadshot": false,
+            "bFirstKill": false,
+            "bRevenge": false,
+            "MultiKillLimit": 0,
+            "HitDistLimit": 0,
+            "bBlind": false,
+            "ActionCondition": "ECyTaskActionConditionType::None",
+            "RoleIds": [],
+            "MeshModes": [],
+            "EnemyMeshModes": [],
+            "WeaponTypes": [],
+            "SkillTypes": [],
+            "Num": 20,
+            "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
+            "EventTargetTeamRole": "ECyTaskTeamRoleType::None"
+          },
+          "LimitConditions": []
+        }
+      ],
+      "TaskLimit": {
+        "GameTypes": [],
+        "ModeTypes": []
+      },
+      "TaskPass": 3
+    },
+    "20043": {
+      "Id": 20043,
+      "Week": 9,
+      "Circle": false,
+      "Desc": {
+        "Namespace": "BattlePassWeekTask",
+        "Key": "20043_Desc",
+        "SourceString": "参与击败敌人累计150次",
+        "LocalizedString": "参与击败敌人累计150次"
+      },
+      "Type": 2,
+      "SubType": 0,
+      "Prize": [
+        {
+          "ItemId": 4,
+          "ItemAmount": 200
+        }
+      ],
+      "TaskConditions": [
+        {
+          "MainCondition": {
+            "MainType": "ECyTaskMainConditionType::Battle",
+            "GameCondition": "ECyTaskGameConditionType::None",
+            "GameResult": "ECyGameResultType::None",
+            "RoundResult": "ECyRoundResultType::None",
+            "bFriendTeam": false,
+            "BattleCondition": "ECyTaskBattleConditionType::ParticipateKillNum",
+            "bHeadshot": false,
+            "bFirstKill": false,
+            "bRevenge": false,
+            "MultiKillLimit": 0,
+            "HitDistLimit": 0,
+            "bBlind": false,
+            "ActionCondition": "ECyTaskActionConditionType::None",
+            "RoleIds": [],
+            "MeshModes": [],
+            "EnemyMeshModes": [],
+            "WeaponTypes": [],
+            "SkillTypes": [],
+            "Num": 150,
+            "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
+            "EventTargetTeamRole": "ECyTaskTeamRoleType::None"
+          },
+          "LimitConditions": []
+        }
+      ],
+      "TaskLimit": {
+        "GameTypes": [],
+        "ModeTypes": []
+      },
+      "TaskPass": 3
+    },
+    "20044": {
+      "Id": 20044,
+      "Week": 9,
+      "Circle": false,
+      "Desc": {
+        "Namespace": "BattlePassWeekTask",
+        "Key": "20044_Desc",
+        "SourceString": "弦化飘飞或弦化移动累计距离7500米",
+        "LocalizedString": "弦化飘飞或弦化移动累计距离7500米"
+      },
+      "Type": 2,
+      "SubType": 0,
+      "Prize": [
+        {
+          "ItemId": 4,
+          "ItemAmount": 200
+        }
+      ],
+      "TaskConditions": [
+        {
+          "MainCondition": {
+            "MainType": "ECyTaskMainConditionType::Battle",
+            "GameCondition": "ECyTaskGameConditionType::None",
+            "GameResult": "ECyGameResultType::None",
+            "RoundResult": "ECyRoundResultType::None",
+            "bFriendTeam": false,
+            "BattleCondition": "ECyTaskBattleConditionType::MoveDistNum",
+            "bHeadshot": false,
+            "bFirstKill": false,
+            "bRevenge": false,
+            "MultiKillLimit": 0,
+            "HitDistLimit": 0,
+            "bBlind": false,
+            "ActionCondition": "ECyTaskActionConditionType::None",
+            "RoleIds": [],
+            "MeshModes": [
+              "EMeshModeType::Slide",
+              "EMeshModeType::Sideway",
+              "EMeshModeType::Glide"
+            ],
+            "EnemyMeshModes": [],
+            "WeaponTypes": [],
+            "SkillTypes": [],
+            "Num": 7500,
+            "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
+            "EventTargetTeamRole": "ECyTaskTeamRoleType::None"
+          },
+          "LimitConditions": []
+        }
+      ],
+      "TaskLimit": {
+        "GameTypes": [],
+        "ModeTypes": []
+      },
+      "TaskPass": 3
+    },
+    "20045": {
+      "Id": 20045,
+      "Week": 9,
+      "Circle": false,
+      "Desc": {
+        "Namespace": "BattlePassWeekTask",
+        "Key": "20045_Desc",
+        "SourceString": "累计为我方恢复血量或护甲数1000点",
+        "LocalizedString": "累计为我方恢复血量或护甲数1000点"
+      },
+      "Type": 2,
+      "SubType": 0,
+      "Prize": [
+        {
+          "ItemId": 4,
+          "ItemAmount": 200
+        }
+      ],
+      "TaskConditions": [
+        {
+          "MainCondition": {
+            "MainType": "ECyTaskMainConditionType::Battle",
+            "GameCondition": "ECyTaskGameConditionType::None",
+            "GameResult": "ECyGameResultType::None",
+            "RoundResult": "ECyRoundResultType::None",
+            "bFriendTeam": false,
+            "BattleCondition": "ECyTaskBattleConditionType::RecoveryHealthOrArmorNum",
+            "bHeadshot": false,
+            "bFirstKill": false,
+            "bRevenge": false,
+            "MultiKillLimit": 0,
+            "HitDistLimit": 0,
+            "bBlind": false,
+            "ActionCondition": "ECyTaskActionConditionType::None",
+            "RoleIds": [],
+            "MeshModes": [],
+            "EnemyMeshModes": [],
+            "WeaponTypes": [],
+            "SkillTypes": [],
+            "Num": 1000,
+            "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
+            "EventTargetTeamRole": "ECyTaskTeamRoleType::None"
+          },
+          "LimitConditions": []
+        }
+      ],
+      "TaskLimit": {
+        "GameTypes": [],
+        "ModeTypes": []
+      },
+      "TaskPass": 3
+    },
+    "20046": {
+      "Id": 20046,
+      "Week": 10,
+      "Circle": false,
+      "Desc": {
+        "Namespace": "BattlePassWeekTask",
+        "Key": "20046_Desc",
+        "SourceString": "使用大招技能累计10次",
+        "LocalizedString": "使用大招技能累计10次"
+      },
+      "Type": 2,
+      "SubType": 0,
+      "Prize": [
+        {
+          "ItemId": 4,
+          "ItemAmount": 200
+        }
+      ],
+      "TaskConditions": [
+        {
+          "MainCondition": {
+            "MainType": "ECyTaskMainConditionType::Battle",
+            "GameCondition": "ECyTaskGameConditionType::None",
+            "GameResult": "ECyGameResultType::None",
+            "RoundResult": "ECyRoundResultType::None",
+            "bFriendTeam": false,
+            "BattleCondition": "ECyTaskBattleConditionType::UseSkillNum",
+            "bHeadshot": false,
+            "bFirstKill": false,
+            "bRevenge": false,
+            "MultiKillLimit": 0,
+            "HitDistLimit": 0,
+            "bBlind": false,
+            "ActionCondition": "ECyTaskActionConditionType::None",
+            "RoleIds": [],
+            "MeshModes": [],
+            "EnemyMeshModes": [],
+            "WeaponTypes": [],
+            "SkillTypes": [
+              "ECyPlayerSkillType::X"
+            ],
+            "Num": 10,
+            "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
+            "EventTargetTeamRole": "ECyTaskTeamRoleType::None"
+          },
+          "LimitConditions": []
+        }
+      ],
+      "TaskLimit": {
+        "GameTypes": [],
+        "ModeTypes": []
+      },
+      "TaskPass": 3
+    },
+    "20047": {
+      "Id": 20047,
+      "Week": 10,
+      "Circle": false,
+      "Desc": {
+        "Namespace": "BattlePassWeekTask",
+        "Key": "20047_Desc",
+        "SourceString": "累计击中敌人500次",
+        "LocalizedString": "累计击中敌人500次"
+      },
+      "Type": 2,
+      "SubType": 0,
+      "Prize": [
+        {
+          "ItemId": 4,
+          "ItemAmount": 200
+        }
+      ],
+      "TaskConditions": [
+        {
+          "MainCondition": {
+            "MainType": "ECyTaskMainConditionType::Battle",
+            "GameCondition": "ECyTaskGameConditionType::None",
+            "GameResult": "ECyGameResultType::None",
+            "RoundResult": "ECyRoundResultType::None",
+            "bFriendTeam": false,
+            "BattleCondition": "ECyTaskBattleConditionType::HitNum",
+            "bHeadshot": false,
+            "bFirstKill": false,
+            "bRevenge": false,
+            "MultiKillLimit": 0,
+            "HitDistLimit": 0,
+            "bBlind": false,
+            "ActionCondition": "ECyTaskActionConditionType::None",
+            "RoleIds": [],
+            "MeshModes": [],
+            "EnemyMeshModes": [],
+            "WeaponTypes": [],
+            "SkillTypes": [],
+            "Num": 500,
+            "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
+            "EventTargetTeamRole": "ECyTaskTeamRoleType::None"
+          },
+          "LimitConditions": []
+        }
+      ],
+      "TaskLimit": {
+        "GameTypes": [],
+        "ModeTypes": []
+      },
+      "TaskPass": 3
+    },
+    "20048": {
+      "Id": 20048,
+      "Week": 10,
+      "Circle": false,
+      "Desc": {
+        "Namespace": "BattlePassWeekTask",
+        "Key": "20048_Desc",
+        "SourceString": "使用技能累计100次",
+        "LocalizedString": "使用技能累计100次"
+      },
+      "Type": 2,
+      "SubType": 0,
+      "Prize": [
+        {
+          "ItemId": 4,
+          "ItemAmount": 200
+        }
+      ],
+      "TaskConditions": [
+        {
+          "MainCondition": {
+            "MainType": "ECyTaskMainConditionType::Battle",
+            "GameCondition": "ECyTaskGameConditionType::None",
+            "GameResult": "ECyGameResultType::None",
+            "RoundResult": "ECyRoundResultType::None",
+            "bFriendTeam": false,
+            "BattleCondition": "ECyTaskBattleConditionType::UseSkillNum",
+            "bHeadshot": false,
+            "bFirstKill": false,
+            "bRevenge": false,
+            "MultiKillLimit": 0,
+            "HitDistLimit": 0,
+            "bBlind": false,
+            "ActionCondition": "ECyTaskActionConditionType::None",
+            "RoleIds": [],
+            "MeshModes": [],
+            "EnemyMeshModes": [],
+            "WeaponTypes": [],
+            "SkillTypes": [
+              "ECyPlayerSkillType::Q",
+              "ECyPlayerSkillType::X"
+            ],
+            "Num": 100,
+            "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
+            "EventTargetTeamRole": "ECyTaskTeamRoleType::None"
+          },
+          "LimitConditions": []
+        }
+      ],
+      "TaskLimit": {
+        "GameTypes": [],
+        "ModeTypes": []
+      },
+      "TaskPass": 3
+    },
+    "20049": {
+      "Id": 20049,
+      "Week": 10,
+      "Circle": false,
+      "Desc": {
+        "Namespace": "BattlePassWeekTask",
+        "Key": "20049_Desc",
+        "SourceString": "击败敌人累计100次",
+        "LocalizedString": "击败敌人累计100次"
+      },
+      "Type": 2,
+      "SubType": 0,
+      "Prize": [
+        {
+          "ItemId": 4,
+          "ItemAmount": 200
+        }
+      ],
+      "TaskConditions": [
+        {
+          "MainCondition": {
+            "MainType": "ECyTaskMainConditionType::Battle",
+            "GameCondition": "ECyTaskGameConditionType::None",
+            "GameResult": "ECyGameResultType::None",
+            "RoundResult": "ECyRoundResultType::None",
+            "bFriendTeam": false,
+            "BattleCondition": "ECyTaskBattleConditionType::KillNum",
+            "bHeadshot": false,
+            "bFirstKill": false,
+            "bRevenge": false,
+            "MultiKillLimit": 0,
+            "HitDistLimit": 0,
+            "bBlind": false,
+            "ActionCondition": "ECyTaskActionConditionType::None",
+            "RoleIds": [],
+            "MeshModes": [],
+            "EnemyMeshModes": [],
+            "WeaponTypes": [],
+            "SkillTypes": [],
+            "Num": 100,
+            "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
+            "EventTargetTeamRole": "ECyTaskTeamRoleType::None"
+          },
+          "LimitConditions": []
+        }
+      ],
+      "TaskLimit": {
+        "GameTypes": [],
+        "ModeTypes": []
+      },
+      "TaskPass": 3
+    },
+    "20050": {
+      "Id": 20050,
+      "Week": 10,
+      "Circle": false,
+      "Desc": {
+        "Namespace": "BattlePassWeekTask",
+        "Key": "20050_Desc",
+        "SourceString": "累计造成50000点伤害",
+        "LocalizedString": "累计造成50000点伤害"
+      },
+      "Type": 2,
+      "SubType": 0,
+      "Prize": [
+        {
+          "ItemId": 4,
+          "ItemAmount": 200
+        }
+      ],
+      "TaskConditions": [
+        {
+          "MainCondition": {
+            "MainType": "ECyTaskMainConditionType::Battle",
+            "GameCondition": "ECyTaskGameConditionType::None",
+            "GameResult": "ECyGameResultType::None",
+            "RoundResult": "ECyRoundResultType::None",
+            "bFriendTeam": false,
+            "BattleCondition": "ECyTaskBattleConditionType::DamageNum",
+            "bHeadshot": false,
+            "bFirstKill": false,
+            "bRevenge": false,
+            "MultiKillLimit": 0,
+            "HitDistLimit": 0,
+            "bBlind": false,
+            "ActionCondition": "ECyTaskActionConditionType::None",
+            "RoleIds": [],
+            "MeshModes": [],
+            "EnemyMeshModes": [],
+            "WeaponTypes": [],
+            "SkillTypes": [],
+            "Num": 50000,
+            "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
+            "EventTargetTeamRole": "ECyTaskTeamRoleType::None"
+          },
+          "LimitConditions": []
+        }
+      ],
+      "TaskLimit": {
+        "GameTypes": [],
+        "ModeTypes": []
+      },
+      "TaskPass": 3
+    }
+  }
+}

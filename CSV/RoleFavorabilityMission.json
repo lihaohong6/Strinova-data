@@ -1013,6 +1013,130 @@
         "GameTypes": [],
         "ModeTypes": []
       }
+    },
+    "40017": {
+      "Id": 40017,
+      "RoleId": 112,
+      "RoleLevel": 5,
+      "MissionName": {
+        "Namespace": "RoleFavorabilityMission",
+        "Key": "40017_MissionName",
+        "SourceString": "誓约任务·五",
+        "LocalizedString": "誓约任务·五"
+      },
+      "Desc": {
+        "Namespace": "RoleFavorabilityMission",
+        "Key": "40017_Desc",
+        "SourceString": "累积使用绯莎击杀敌人10次",
+        "LocalizedString": "累积使用绯莎击杀敌人10次"
+      },
+      "MissionAvgId": 0,
+      "MissionSeqId": 0,
+      "Type": 4,
+      "Prize": [
+        {
+          "ItemId": 10108057,
+          "ItemAmount": 1
+        }
+      ],
+      "TaskConditions": [
+        {
+          "MainCondition": {
+            "MainType": "ECyTaskMainConditionType::Battle",
+            "GameCondition": "ECyTaskGameConditionType::None",
+            "GameResult": "ECyGameResultType::None",
+            "RoundResult": "ECyRoundResultType::None",
+            "bFriendTeam": false,
+            "BattleCondition": "ECyTaskBattleConditionType::KillNum",
+            "bHeadshot": false,
+            "bFirstKill": false,
+            "bRevenge": false,
+            "MultiKillLimit": 0,
+            "HitDistLimit": 0,
+            "bBlind": false,
+            "ActionCondition": "ECyTaskActionConditionType::None",
+            "RoleIds": [
+              112
+            ],
+            "MeshModes": [],
+            "EnemyMeshModes": [],
+            "WeaponTypes": [],
+            "SkillTypes": [],
+            "Num": 10,
+            "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
+            "EventTargetTeamRole": "ECyTaskTeamRoleType::None"
+          },
+          "LimitConditions": []
+        }
+      ],
+      "TaskLimit": {
+        "GameTypes": [],
+        "ModeTypes": []
+      }
+    },
+    "40018": {
+      "Id": 40018,
+      "RoleId": 112,
+      "RoleLevel": 10,
+      "MissionName": {
+        "Namespace": "RoleFavorabilityMission",
+        "Key": "40018_MissionName",
+        "SourceString": "誓约任务·十",
+        "LocalizedString": "誓约任务·十"
+      },
+      "Desc": {
+        "Namespace": "RoleFavorabilityMission",
+        "Key": "40018_Desc",
+        "SourceString": "累积使用绯莎造成10000点伤害",
+        "LocalizedString": "累积使用绯莎造成10000点伤害"
+      },
+      "MissionAvgId": 112102000,
+      "MissionSeqId": 0,
+      "Type": 4,
+      "Prize": [
+        {
+          "ItemId": 20112201,
+          "ItemAmount": 1
+        },
+        {
+          "ItemId": 31002009,
+          "ItemAmount": 1
+        }
+      ],
+      "TaskConditions": [
+        {
+          "MainCondition": {
+            "MainType": "ECyTaskMainConditionType::Battle",
+            "GameCondition": "ECyTaskGameConditionType::None",
+            "GameResult": "ECyGameResultType::None",
+            "RoundResult": "ECyRoundResultType::None",
+            "bFriendTeam": false,
+            "BattleCondition": "ECyTaskBattleConditionType::DamageNum",
+            "bHeadshot": false,
+            "bFirstKill": false,
+            "bRevenge": false,
+            "MultiKillLimit": 0,
+            "HitDistLimit": 0,
+            "bBlind": false,
+            "ActionCondition": "ECyTaskActionConditionType::None",
+            "RoleIds": [
+              112
+            ],
+            "MeshModes": [],
+            "EnemyMeshModes": [],
+            "WeaponTypes": [],
+            "SkillTypes": [],
+            "Num": 10000,
+            "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
+            "EventTargetTeamRole": "ECyTaskTeamRoleType::None"
+          },
+          "LimitConditions": []
+        }
+      ],
+      "TaskLimit": {
+        "GameTypes": [],
+        "ModeTypes": []
+      }
     }
   }
 }

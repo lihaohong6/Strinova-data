@@ -20,7 +20,7 @@
       "TaskName": {
         "CultureInvariantString": null
       },
-      "AutoFinishDelay": 10.0,
+      "AutoFinishDelay": 0.1,
       "TaskCompleteStateTime": 0.0,
       "RevivePointName": "None",
       "TargetPointTag": "None",
@@ -81,8 +81,6 @@
           "ECyGameUIFunctionType::SummonHealth",
           "ECyGameUIFunctionType::RoundPanel",
           "ECyGameUIFunctionType::MiniMap",
-          "ECyGameUIFunctionType::PrimaryWeapon",
-          "ECyGameUIFunctionType::SecondaryWeapon",
           "ECyGameUIFunctionType::Grenade1",
           "ECyGameUIFunctionType::Grenade2",
           "ECyGameUIFunctionType::SkillQ",
@@ -188,7 +186,7 @@
           "EWeaponSlotTypes::WeaponSlot_Secondary"
         ],
         "AbilityInputIDs": [
-          "EAInputID::None",
+          "EAInputID::UseSecondary",
           "EAInputID::UsePrimary",
           "EAInputID::Aiming",
           "EAInputID::ADS"
@@ -205,7 +203,7 @@
       "SubTasks": [
         {
           "SubTaskId": 1001,
-          "bShow": true,
+          "bShow": false,
           "bMustComplete": false,
           "TaskName": "TeamGuideTask",
           "InputKey": "ECyGuideInputKey::None",
@@ -251,7 +249,7 @@
     },
     "3": {
       "TaskId": 3,
-      "bShow": true,
+      "bShow": false,
       "bGuideEnd": false,
       "bPlotMode": false,
       "bHideCharacter": false,
@@ -261,7 +259,7 @@
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_KeyMappingFormat.ST_KeyMappingFormat",
         "Key": "TeamGuideTask1"
       },
-      "AutoFinishDelay": -1.0,
+      "AutoFinishDelay": 0.1,
       "TaskCompleteStateTime": 0.0,
       "RevivePointName": "None",
       "TargetPointTag": "None",
@@ -317,7 +315,7 @@
       "SubTasks": [
         {
           "SubTaskId": 301,
-          "bShow": true,
+          "bShow": false,
           "bMustComplete": true,
           "TaskName": "TeamGuideTask2",
           "InputKey": "ECyGuideInputKey::None",
@@ -402,9 +400,7 @@
       "SequenceMap": [],
       "EnabledGameFunctionConfig": {
         "WeaponSlotTypes": [],
-        "AbilityInputIDs": [
-          "EAInputID::SkillQ"
-        ],
+        "AbilityInputIDs": [],
         "GameUIFunctionTypes": [
           "ECyGameUIFunctionType::PrimaryWeapon",
           "ECyGameUIFunctionType::SecondaryWeapon",
