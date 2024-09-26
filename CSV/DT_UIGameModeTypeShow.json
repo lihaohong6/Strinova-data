@@ -24,8 +24,7 @@
     "MapSceneWidget": {
       "ShowModeTypes": [],
       "HideModeTypes": [
-        "EPMGameModeType::NoviceGuide",
-        "EPMGameModeType::BombGuide"
+        "EPMGameModeType::NoviceGuide"
       ],
       "ShowGameStateTypes": [],
       "HideGameStateTypes": [],
@@ -52,7 +51,8 @@
         "EGStateType::FightSecond"
       ],
       "HideGameStateTypes": [
-        "EGStateType::GameEnd"
+        "EGStateType::GameEnd",
+        "EGStateType::GameOver"
       ],
       "ShowCharacterStateTypes": [],
       "HideCharacterStateTypes": [],
@@ -112,7 +112,8 @@
         "EGStateType::ChallengePrepare",
         "EGStateType::ChallengeWait",
         "EGStateType::RoleSelect",
-        "EGStateType::RoleReselect"
+        "EGStateType::RoleReselect",
+        "EGStateType::GameOver"
       ],
       "ShowCharacterStateTypes": [],
       "HideCharacterStateTypes": [],
@@ -180,7 +181,7 @@
         "EGStateType::RoleLoad",
         "EGStateType::RoleReset",
         "EGStateType::GameEnd",
-        "EGStateType::None"
+        "EGStateType::GameOver"
       ],
       "ShowCharacterStateTypes": [],
       "HideCharacterStateTypes": [],
@@ -190,8 +191,7 @@
       "ShowModeTypes": [],
       "HideModeTypes": [
         "EPMGameModeType::NoviceGuide",
-        "EPMGameModeType::BombGuide",
-        "EPMGameModeType::TeamGuide"
+        "EPMGameModeType::BombGuide"
       ],
       "ShowGameStateTypes": [],
       "HideGameStateTypes": [],
@@ -221,7 +221,8 @@
         "EGStateType::RoleReselect",
         "EGStateType::RoleReset",
         "EGStateType::RoleLoad",
-        "EGStateType::GameEnd"
+        "EGStateType::GameEnd",
+        "EGStateType::GameOver"
       ],
       "ShowCharacterStateTypes": [],
       "HideCharacterStateTypes": [],
@@ -269,6 +270,20 @@
       "HideModeTypes": [],
       "ShowGameStateTypes": [],
       "HideGameStateTypes": [],
+      "ShowCharacterStateTypes": [],
+      "HideCharacterStateTypes": [],
+      "bNeedsHideInReplayMode": false
+    },
+    "SettingPage_Spectator": {
+      "ShowModeTypes": [],
+      "HideModeTypes": [],
+      "ShowGameStateTypes": [],
+      "HideGameStateTypes": [
+        "EGStateType::RoleLoad",
+        "EGStateType::RoleReset",
+        "EGStateType::GameEnd",
+        "EGStateType::GameOver"
+      ],
       "ShowCharacterStateTypes": [],
       "HideCharacterStateTypes": [],
       "bNeedsHideInReplayMode": false

@@ -1,0 +1,106 @@
+{
+  "Type": "DataTable",
+  "Name": "DT_Guide_BombGuide_UIGuide",
+  "Class": "UScriptClass'DataTable'",
+  "Properties": {
+    "RowStruct": {
+      "ObjectName": "ScriptStruct'CyGuideUIGuideConfig'",
+      "ObjectPath": "/Script/PMGame"
+    }
+  },
+  "Rows": {
+    "10001": {
+      "Id": 10001,
+      "UIGuideTypeConfigs": [
+        {
+          "GameFunctionType": "ECyGameUIFunctionType::Interact",
+          "UIGuideType": "ECyGuideUIGuideType::CircleEffect",
+          "GuideInfo": {
+            "CultureInvariantString": null
+          },
+          "BeginDelay": 0.0,
+          "LoopTimes": 0,
+          "LoopInterval": 0.0,
+          "bCustomLayout": false,
+          "bCustomLocation": false,
+          "Location": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "LocationOffset": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Size": {
+            "X": 140.0,
+            "Y": 140.0
+          },
+          "AnchorData": {
+            "Offsets": {
+              "Left": 0.0,
+              "Top": 0.0,
+              "Right": 0.0,
+              "Bottom": 0.0
+            },
+            "Anchors": {
+              "Minimum": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Maximum": {
+                "X": 0.0,
+                "Y": 0.0
+              }
+            },
+            "Alignment": {
+              "X": 0.5,
+              "Y": 0.5
+            }
+          }
+        }
+      ],
+      "TriggerBeginEvents": [
+        {
+          "UniqueName": "ShowInteract",
+          "EventGameplayTag": {
+            "TagName": "Event.InteractPanel.Show"
+          },
+          "EventType": "ECyGuideEventType::GuideTask",
+          "WeaponEventType": "ECyGuideWeaponEventType::None",
+          "GuideStateType": "ECyGuideStateType::None",
+          "GuideTaskStateType": "ECyGuideTaskStateType::Begin",
+          "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
+          "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
+          "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
+          "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
+          "SequenceStateType": "ECySequenceStateType::None",
+          "ActionType": "ECyGuideActionType::None",
+          "MeshModeType": "EMeshModeType::Normal",
+          "GameStateType": "EGStateType::None",
+          "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
+        }
+      ],
+      "TriggerEndEvents": [
+        {
+          "UniqueName": "HideInteract",
+          "EventGameplayTag": {
+            "TagName": "Event.InteractPanel.Hide"
+          },
+          "EventType": "ECyGuideEventType::GuideTask",
+          "WeaponEventType": "ECyGuideWeaponEventType::None",
+          "GuideStateType": "ECyGuideStateType::None",
+          "GuideTaskStateType": "ECyGuideTaskStateType::End",
+          "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
+          "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
+          "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
+          "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
+          "SequenceStateType": "ECySequenceStateType::None",
+          "ActionType": "ECyGuideActionType::None",
+          "MeshModeType": "EMeshModeType::Normal",
+          "GameStateType": "EGStateType::None",
+          "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
+        }
+      ]
+    }
+  }
+}
