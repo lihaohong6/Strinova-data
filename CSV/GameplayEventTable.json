@@ -101,6 +101,10 @@
       "Tag": "Event.HitActor.Weapon.Primary",
       "DevComment": "主武器子弹落点"
     },
+    "Event.Action.WeaponSwitchedFailed": {
+      "Tag": "Event.Action.WeaponSwitchedFailed",
+      "DevComment": "武器切换失败了"
+    },
     "Event.Action.WeaponSwitched": {
       "Tag": "Event.Action.WeaponSwitched",
       "DevComment": "武器切换了"
@@ -265,6 +269,14 @@
       "Tag": "Event.Pickup.DeathDrop",
       "DevComment": "拾取死亡掉落物"
     },
+    "Event.Pickup.HumanSupply": {
+      "Tag": "Event.Pickup.HumanSupply",
+      "DevComment": "拾取人类补给物"
+    },
+    "Event.Pickup.ZombieUltimateSupply": {
+      "Tag": "Event.Pickup.ZombieUltimateSupply",
+      "DevComment": "拾取僵尸终极补给物"
+    },
     "Event.Sequence.Begin": {
       "Tag": "Event.Sequence.Begin",
       "DevComment": "Sequence开始"
@@ -401,6 +413,14 @@
       "Tag": "Event.Summon.Spawn.Meredith.Q.Projectile",
       "DevComment": "梅瑞迪斯Q技能子弹出生"
     },
+    "Event.Summon.Spawn.Julian.Q.Projectile": {
+      "Tag": "Event.Summon.Spawn.Julian.Q.Projectile",
+      "DevComment": "朱利安Q技能召唤物子弹"
+    },
+    "Event.Summon.Spawn.Julian.Q.Point": {
+      "Tag": "Event.Summon.Spawn.Julian.Q.Point",
+      "DevComment": "朱利安Q技能召唤物出生"
+    },
     "Event.Summon.Spawn.Julian.X.Nest": {
       "Tag": "Event.Summon.Spawn.Julian.X.Nest",
       "DevComment": "朱利安X技能召唤物出生"
@@ -505,6 +525,10 @@
       "Tag": "Event.Summon.Spawn.Galatea.Q",
       "DevComment": "加拉蒂亚Q技能召唤物出生"
     },
+    "Event.Summon.Spawn.Galatea.ArousalThree": {
+      "Tag": "Event.Summon.Spawn.Galatea.ArousalThree",
+      "DevComment": "加拉蒂亚觉醒3技能召唤物出生"
+    },
     "Event.Summon.Leave.Galatea.Q": {
       "Tag": "Event.Summon.Leave.Galatea.Q",
       "DevComment": "加拉蒂亚Q技能召唤物超时"
@@ -524,6 +548,10 @@
     "Event.Summon.Destroy.Galatea.Q.Projectile": {
       "Tag": "Event.Summon.Destroy.Galatea.Q.Projectile",
       "DevComment": "加拉蒂亚Q技能发射物销毁"
+    },
+    "Event.Summon.Spawn.Galatea.X.Projectile": {
+      "Tag": "Event.Summon.Spawn.Galatea.X.Projectile",
+      "DevComment": "加拉蒂亚X技能发射物生成"
     },
     "Event.Summon.Spawn.Huixing.Q": {
       "Tag": "Event.Summon.Spawn.Huixing.Q",
@@ -1024,6 +1052,14 @@
     "Event.GameState.GameEnd.End": {
       "Tag": "Event.GameState.GameEnd.End",
       "DevComment": "游戏状态-游戏全场结束"
+    },
+    "Event.GameState.GameOver.Begin": {
+      "Tag": "Event.GameState.GameOver.Begin",
+      "DevComment": "游戏状态-游戏已经结束了"
+    },
+    "Event.GameState.GameOver.End": {
+      "Tag": "Event.GameState.GameOver.End",
+      "DevComment": "游戏状态-游戏已经结束了"
     },
     "Event.GameState.FinalStage": {
       "Tag": "Event.GameState.FinalStage",
@@ -2197,6 +2233,10 @@
       "Tag": "Event.Accumulator.Flavia.P.Xpoint",
       "DevComment": "芙拉薇娅P加大招点累加器触发"
     },
+    "Event.Summon.Leave.Flavia.Q.Butterfly": {
+      "Tag": "Event.Summon.Leave.Flavia.Q.Butterfly",
+      "DevComment": "芙拉薇娅Q蝴蝶消失"
+    },
     "Event.Summon.Leave.Fuchsia.Q": {
       "Tag": "Event.Summon.Leave.Fuchsia.Q",
       "DevComment": "绯莎Q面罩消失"
@@ -2209,25 +2249,25 @@
       "Tag": "Event.Weapon.Work.End",
       "DevComment": "武器Work状态结束"
     },
-    "Event.Summon.Spawn.Flavia.Q": {
-      "Tag": "Event.Summon.Spawn.Flavia.Q",
-      "DevComment": "芙拉薇娅Q召唤物生成"
+    "Event.Weapon.Work.End.Flavia.Q": {
+      "Tag": "Event.Weapon.Work.End.Flavia.Q",
+      "DevComment": "芙拉薇娅Q技能武器Work状态结束"
     },
-    "Event.EscortVehicle.EscortArea.Enter": {
-      "Tag": "Event.EscortVehicle.EscortArea.Enter",
-      "DevComment": "玩家进入护送对象的护送区域"
+    "Event.Summon.Spawn.Flavia.Q.Butterfly": {
+      "Tag": "Event.Summon.Spawn.Flavia.Q.Butterfly",
+      "DevComment": "芙拉薇娅Q召唤物蝴蝶生成"
     },
-    "Event.EscortVehicle.EscortArea.Level": {
-      "Tag": "Event.EscortVehicle.EscortArea.Level",
-      "DevComment": "玩家离开护送对象的护送区域"
+    "Event.Summon.Spawn.Flavia.Q.Eye": {
+      "Tag": "Event.Summon.Spawn.Flavia.Q.Eye",
+      "DevComment": "芙拉薇娅Q召唤物眼睛生成"
     },
-    "Event.EscortVehicle.Wall.Begin": {
-      "Tag": "Event.EscortVehicle.Wall.Begin",
-      "DevComment": "玩家开始贴护送对象的墙上"
+    "Event.Summon.Destroy.Flavia.Q.Butterfly": {
+      "Tag": "Event.Summon.Destroy.Flavia.Q.Butterfly",
+      "DevComment": "芙拉薇娅Q召唤物蝴蝶摧毁"
     },
-    "Event.EscortVehicle.Wall.End": {
-      "Tag": "Event.EscortVehicle.Wall.End",
-      "DevComment": "玩家结束贴护送对象的墙上"
+    "Event.Summon.Destroy.Flavia.Q.Eye": {
+      "Tag": "Event.Summon.Destroy.Flavia.Q.Eye",
+      "DevComment": "芙拉薇娅Q召唤物眼睛摧毁"
     },
     "Event.Mine.StoreMine": {
       "Tag": "Event.Mine.StoreMine",
@@ -2429,13 +2469,25 @@
       "Tag": "Event.GameState.GameEnd.Ended",
       "DevComment": "游戏状态-游戏全场结束状态结束后"
     },
+    "Event.GameState.GameOver.PreBegin": {
+      "Tag": "Event.GameState.GameOver.PreBegin",
+      "DevComment": "游戏状态-游戏已经结束了状态开始前"
+    },
+    "Event.GameState.GameOver.Begun": {
+      "Tag": "Event.GameState.GameOver.Begun",
+      "DevComment": "游戏状态-游戏已经结束了状态开始后"
+    },
+    "Event.GameState.GameOver.PreEnd": {
+      "Tag": "Event.GameState.GameOver.PreEnd",
+      "DevComment": "游戏状态-游戏已经结束了状态结束前"
+    },
+    "Event.GameState.GameOver.Ended": {
+      "Tag": "Event.GameState.GameOver.Ended",
+      "DevComment": "游戏状态-游戏已经结束了状态结束后"
+    },
     "Event.Skill.Aika.X.OnDetected": {
       "Tag": "Event.Skill.Aika.X.OnDetected",
       "DevComment": "艾卡的X技能检测到敌人"
-    },
-    "Event.Summon.Destroy.Flavia.Q": {
-      "Tag": "Event.Summon.Destroy.Flavia.Q",
-      "DevComment": "芙拉薇娅Q召唤物摧毁"
     },
     "Event.Summon.Spawn.Fragrans.Q": {
       "Tag": "Event.Summon.Spawn.Fragrans.Q",
@@ -2541,6 +2593,14 @@
       "Tag": "Event.GameState.MonitorWaveTimer.TimeLeft.Third",
       "DevComment": "GS波次计时器3剩余时间变化事件"
     },
+    "Event.ExpLevel.LevelChanged.Player.HumanNormal": {
+      "Tag": "Event.ExpLevel.LevelChanged.Player.HumanNormal",
+      "DevComment": "普通人类等级变化"
+    },
+    "Event.ExpLevel.MaxLevelChanged.Player.HumanNormal": {
+      "Tag": "Event.ExpLevel.MaxLevelChanged.Player.HumanNormal",
+      "DevComment": "普通人类最大等级变化"
+    },
     "Event.ExpLevel.LevelChanged.Player.Zombie": {
       "Tag": "Event.ExpLevel.LevelChanged.Player.Zombie",
       "DevComment": "僵尸角色等级变化"
@@ -2573,6 +2633,14 @@
       "Tag": "Event.Summon.Destroy.Maddelena.X",
       "DevComment": "玛德蕾娜 X技能召唤物销毁"
     },
+    "Event.TeamIDChanged.PlayerState": {
+      "Tag": "Event.TeamIDChanged.PlayerState",
+      "DevComment": "PlayerStateTeamID变化"
+    },
+    "Event.Summon.Spawn.Rafa.Q": {
+      "Tag": "Event.Summon.Spawn.Rafa.Q",
+      "DevComment": "拉法Q召唤物生成"
+    },
     "Event.RecoveryExtraArmor": {
       "Tag": "Event.RecoveryExtraArmor",
       "DevComment": "恢复临时护甲"
@@ -2580,6 +2648,50 @@
     "Event.RecoveryExtraArmor.PlayerSkill.X": {
       "Tag": "Event.RecoveryExtraArmor.PlayerSkill.X",
       "DevComment": "使用终极技能恢复临时护甲"
+    },
+    "Event.Summon.Spawn.Fuchsia.Q": {
+      "Tag": "Event.Summon.Spawn.Fuchsia.Q",
+      "DevComment": "绯莎Q技能召唤物生成"
+    },
+    "Event.Summon.Destroy.Fuchsia.Q": {
+      "Tag": "Event.Summon.Destroy.Fuchsia.Q",
+      "DevComment": "绯莎Q技能召唤物销毁"
+    },
+    "Event.TeleportWallSlide.Success": {
+      "Tag": "Event.TeleportWallSlide.Success",
+      "DevComment": "传送贴墙成功"
+    },
+    "Event.TeleportWallSlide.Failed": {
+      "Tag": "Event.TeleportWallSlide.Failed",
+      "DevComment": "传送贴墙失败"
+    },
+    "Event.RestartArea.Enter": {
+      "Tag": "Event.RestartArea.Enter",
+      "DevComment": "玩家进入重生区域"
+    },
+    "Event.RestartArea.Leave": {
+      "Tag": "Event.RestartArea.Leave",
+      "DevComment": "玩家离开重生区域"
+    },
+    "Event.Payload.EscortArea.PlayerEnter": {
+      "Tag": "Event.Payload.EscortArea.PlayerEnter",
+      "DevComment": "玩家进入负载对象的护送区域"
+    },
+    "Event.Payload.EscortArea.PlayerLeave": {
+      "Tag": "Event.Payload.EscortArea.PlayerLeave",
+      "DevComment": "玩家离开负载对象的护送区域"
+    },
+    "Event.Payload.Wall.PlayerEnter": {
+      "Tag": "Event.Payload.Wall.PlayerEnter",
+      "DevComment": "玩家开始贴负载对象的墙上"
+    },
+    "Event.Payload.Wall.PlayerLeave": {
+      "Tag": "Event.Payload.Wall.PlayerLeave",
+      "DevComment": "玩家结束贴负载对象的墙上"
+    },
+    "Event.Summon.Clear": {
+      "Tag": "Event.Summon.Clear",
+      "DevComment": "清除召唤物"
     }
   }
 }

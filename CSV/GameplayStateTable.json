@@ -185,6 +185,10 @@
       "Tag": "State.Player.DisableKeepAim.ADS",
       "DevComment": "阻挡恢复ADS"
     },
+    "State.Player.DisableJump": {
+      "Tag": "State.Player.DisableJump",
+      "DevComment": "阻挡跳跃"
+    },
     "State.Player.DisableForceFly": {
       "Tag": "State.Player.DisableForceFly",
       "DevComment": "禁止强制吹飞"
@@ -373,6 +377,10 @@
       "Tag": "State.Immunity.Weak",
       "DevComment": "免疫状态: 免疫Debuff"
     },
+    "State.Immunity.Block2D": {
+      "Tag": "State.Immunity.Block2D",
+      "DevComment": "免疫状态: 免疫禁2D"
+    },
     "State.Motion.InAir.None": {
       "Tag": "State.Motion.InAir.None",
       "DevComment": "空中水平移动"
@@ -509,6 +517,26 @@
       "Tag": "State.Block.CanCancel.X",
       "DevComment": "标记可以打断时机的标签"
     },
+    "State.Block.CanCancel.E": {
+      "Tag": "State.Block.CanCancel.E",
+      "DevComment": "标记可以打断时机的标签"
+    },
+    "State.Block.IgnoreForceFly.P": {
+      "Tag": "State.Block.IgnoreForceFly.P",
+      "DevComment": "无视强制飘飞打断时机的标签"
+    },
+    "State.Block.IgnoreForceFly.Q": {
+      "Tag": "State.Block.IgnoreForceFly.Q",
+      "DevComment": "无视强制飘飞打断时机的标签"
+    },
+    "State.Block.IgnoreForceFly.X": {
+      "Tag": "State.Block.IgnoreForceFly.X",
+      "DevComment": "无视强制飘飞打断时机的标签"
+    },
+    "State.Block.IgnoreForceFly.E": {
+      "Tag": "State.Block.IgnoreForceFly.E",
+      "DevComment": "无视强制飘飞打断时机的标签"
+    },
     "State.Block.UpdatePredictAmmo": {
       "Tag": "State.Block.UpdatePredictAmmo",
       "DevComment": "客户端暂停矫正弹量"
@@ -560,14 +588,6 @@
     "State.Mine.StealMine": {
       "Tag": "State.Mine.StealMine",
       "DevComment": "偷矿状态"
-    },
-    "State.Player.Escort": {
-      "Tag": "State.Player.Escort",
-      "DevComment": "玩家护送状态"
-    },
-    "State.Player.EscortWall": {
-      "Tag": "State.Player.EscortWall",
-      "DevComment": "玩家护送贴墙状态"
     },
     "State.Player.CanUseGrowth": {
       "Tag": "State.Player.CanUseGrowth",
@@ -688,6 +708,42 @@
     "State.Charged.Stage.Five": {
       "Tag": "State.Charged.Stage.Five",
       "DevComment": "蓄力阶段五"
+    },
+    "State.Player.Hero.Unlocked": {
+      "Tag": "State.Player.Hero.Unlocked",
+      "DevComment": "生化模式英雄解锁"
+    },
+    "State.Summon.Shape.3D": {
+      "Tag": "State.Summon.Shape.3D",
+      "DevComment": "召唤物3D状态"
+    },
+    "State.Summon.Shape.2D": {
+      "Tag": "State.Summon.Shape.2D",
+      "DevComment": "召唤物2D状态"
+    },
+    "State.Player.WeaponUpgraded": {
+      "Tag": "State.Player.WeaponUpgraded",
+      "DevComment": "角色武器强化"
+    },
+    "State.Player.RestartArea": {
+      "Tag": "State.Player.RestartArea",
+      "DevComment": "玩家在复活区域状态"
+    },
+    "State.Player.Payload.EscortArea": {
+      "Tag": "State.Player.Payload.EscortArea",
+      "DevComment": "玩家在负载对象的护送区域"
+    },
+    "State.Player.Payload.Wall": {
+      "Tag": "State.Player.Payload.Wall",
+      "DevComment": "玩家在负载对象的墙上"
+    },
+    "State.Team.Payload.Wall": {
+      "Tag": "State.Team.Payload.Wall",
+      "DevComment": "队伍在负载对象的墙上"
+    },
+    "State.Player.CanSwitchMagnification": {
+      "Tag": "State.Player.CanSwitchMagnification",
+      "DevComment": "玩家可执行切换倍率倍镜"
     }
   }
 }

@@ -20,7 +20,7 @@
       "TaskName": {
         "CultureInvariantString": null
       },
-      "AutoFinishDelay": 10.0,
+      "AutoFinishDelay": 0.1,
       "TaskCompleteStateTime": 0.0,
       "RevivePointName": "None",
       "TargetPointTag": "None",
@@ -81,8 +81,6 @@
           "ECyGameUIFunctionType::SummonHealth",
           "ECyGameUIFunctionType::RoundPanel",
           "ECyGameUIFunctionType::MiniMap",
-          "ECyGameUIFunctionType::PrimaryWeapon",
-          "ECyGameUIFunctionType::SecondaryWeapon",
           "ECyGameUIFunctionType::Grenade1",
           "ECyGameUIFunctionType::Grenade2",
           "ECyGameUIFunctionType::SkillQ",
@@ -95,6 +93,7 @@
         ],
         "GameUIFunctionPages": []
       },
+      "CancelAllAbilityAndSummonTaskStates": [],
       "SubTasks": [
         {
           "SubTaskId": 1001,
@@ -107,12 +106,13 @@
           },
           "KeyActionData": {
             "ActionName": "None",
+            "ActionGamePadName": "None",
             "Scale": 0.0,
             "IsAxisAction": false
           },
           "FormatInputKeyMap": [],
           "Tips": [],
-          "TipTexts": [],
+          "TipsConfig": [],
           "SequenceMap": [],
           "EndTaskEvents": [
             {
@@ -151,10 +151,8 @@
       "bDisableInput": true,
       "bDisableAllInput": true,
       "TaskName": {
-        "Namespace": "",
-        "Key": "26E646E645C382DA322DE482FF667D46",
-        "SourceString": "与欧泊成员汇合",
-        "LocalizedString": "与欧泊成员汇合"
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_KeyMappingFormat.ST_KeyMappingFormat",
+        "Key": "TeamGuideTask1"
       },
       "AutoFinishDelay": 0.1,
       "TaskCompleteStateTime": 0.0,
@@ -190,7 +188,7 @@
           "EWeaponSlotTypes::WeaponSlot_Secondary"
         ],
         "AbilityInputIDs": [
-          "EAInputID::None",
+          "EAInputID::UseSecondary",
           "EAInputID::UsePrimary",
           "EAInputID::Aiming",
           "EAInputID::ADS"
@@ -204,10 +202,11 @@
         "GameUIFunctionTypes": [],
         "GameUIFunctionPages": []
       },
+      "CancelAllAbilityAndSummonTaskStates": [],
       "SubTasks": [
         {
           "SubTaskId": 1001,
-          "bShow": true,
+          "bShow": false,
           "bMustComplete": false,
           "TaskName": "TeamGuideTask",
           "InputKey": "ECyGuideInputKey::None",
@@ -216,12 +215,13 @@
           },
           "KeyActionData": {
             "ActionName": "None",
+            "ActionGamePadName": "None",
             "Scale": 0.0,
             "IsAxisAction": false
           },
           "FormatInputKeyMap": [],
           "Tips": [],
-          "TipTexts": [],
+          "TipsConfig": [],
           "SequenceMap": [],
           "EndTaskEvents": [
             {
@@ -253,19 +253,17 @@
     },
     "3": {
       "TaskId": 3,
-      "bShow": true,
+      "bShow": false,
       "bGuideEnd": false,
       "bPlotMode": false,
       "bHideCharacter": false,
       "bDisableInput": true,
       "bDisableAllInput": false,
       "TaskName": {
-        "Namespace": "",
-        "Key": "EFDB38394A122246A61F88853AF99CAB",
-        "SourceString": "与欧泊成员汇合",
-        "LocalizedString": "与欧泊成员汇合"
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_KeyMappingFormat.ST_KeyMappingFormat",
+        "Key": "TeamGuideTask1"
       },
-      "AutoFinishDelay": -1.0,
+      "AutoFinishDelay": 0.1,
       "TaskCompleteStateTime": 0.0,
       "RevivePointName": "None",
       "TargetPointTag": "None",
@@ -318,10 +316,11 @@
         "GameUIFunctionTypes": [],
         "GameUIFunctionPages": []
       },
+      "CancelAllAbilityAndSummonTaskStates": [],
       "SubTasks": [
         {
           "SubTaskId": 301,
-          "bShow": true,
+          "bShow": false,
           "bMustComplete": true,
           "TaskName": "TeamGuideTask2",
           "InputKey": "ECyGuideInputKey::None",
@@ -330,12 +329,13 @@
           },
           "KeyActionData": {
             "ActionName": "None",
+            "ActionGamePadName": "None",
             "Scale": 0.0,
             "IsAxisAction": false
           },
           "FormatInputKeyMap": [],
           "Tips": [],
-          "TipTexts": [],
+          "TipsConfig": [],
           "SequenceMap": [],
           "EndTaskEvents": [
             {
@@ -406,9 +406,7 @@
       "SequenceMap": [],
       "EnabledGameFunctionConfig": {
         "WeaponSlotTypes": [],
-        "AbilityInputIDs": [
-          "EAInputID::SkillQ"
-        ],
+        "AbilityInputIDs": [],
         "GameUIFunctionTypes": [
           "ECyGameUIFunctionType::PrimaryWeapon",
           "ECyGameUIFunctionType::SecondaryWeapon",
@@ -434,6 +432,7 @@
         "GameUIFunctionTypes": [],
         "GameUIFunctionPages": []
       },
+      "CancelAllAbilityAndSummonTaskStates": [],
       "SubTasks": [],
       "TaskState": "ECyGuideTaskStateType::None"
     }

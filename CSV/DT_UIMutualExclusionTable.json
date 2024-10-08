@@ -13,8 +13,15 @@
       "ClosedByUIs": [
         "GameKeyTipsPage",
         "SelectRolePage",
-        "ScorePage",
-        "SelectRolePracticePage"
+        "ScoreBomb",
+        "ResultGameFinishPage",
+        "RoundResultPage",
+        "ScoreEscort",
+        "ScoreTeam",
+        "ScoreTeamTri",
+        "ScoreTeamMulti",
+        "ScoreMine",
+        "ScoreZombie"
       ],
       "HidedByUIs": [
         "BigMap",
@@ -25,9 +32,10 @@
       "BlockedByUIs": [
         "GameKeyTipsPage",
         "SelectRolePage",
-        "ScorePage",
         "GrowthPage",
-        "BigMap"
+        "BigMap",
+        "ResultGameFinishPage",
+        "RoundResultPage"
       ]
     },
     "ReadyStage": {
@@ -45,8 +53,7 @@
       "CollapsedByUIs": [
         "BigMap",
         "SelectRolePage",
-        "GrowthPage",
-        "SelectRolePracticePage"
+        "GrowthPage"
       ],
       "BlockedByUIs": []
     },
@@ -65,7 +72,6 @@
       ],
       "BlockedByUIs": [
         "ScreenEffect_FlashGrenade",
-        "ScorePage",
         "SelectRolePage"
       ]
     },
@@ -111,8 +117,7 @@
         "SelectRolePage"
       ],
       "BlockedByUIs": [
-        "SelectRolePage",
-        "SelectRoleTeamPage"
+        "SelectRolePage"
       ]
     },
     "TacticWheelPage": {
@@ -123,7 +128,15 @@
         "Esc",
         "GrowthPage",
         "SelectRolePage",
-        "SelectRolePracticePage"
+        "ResultGameFinishPage",
+        "RoundResultPage",
+        "ScoreBomb",
+        "ScoreEscort",
+        "ScoreTeam",
+        "ScoreTeamTri",
+        "ScoreTeamMulti",
+        "ScoreMine",
+        "ScoreZombie"
       ],
       "HidedByUIs": [],
       "CollapsedByUIs": [],
@@ -134,7 +147,8 @@
         "Esc",
         "GrowthPage",
         "SelectRolePage",
-        "SelectRolePracticePage"
+        "ResultGameFinishPage",
+        "RoundResultPage"
       ]
     },
     "SettingPage": {
@@ -201,8 +215,7 @@
       "HidedByUIs": [],
       "CollapsedByUIs": [
         "GrowthPage",
-        "SelectRolePage",
-        "SelectRolePracticePage"
+        "SelectRolePage"
       ],
       "BlockedByUIs": []
     },
@@ -226,20 +239,17 @@
     "PracticeChallengeChoose": {
       "ClosedByUIs": [],
       "HidedByUIs": [
-        "SelectRolePage",
-        "SelectRolePracticePage"
+        "SelectRolePage"
       ],
       "CollapsedByUIs": [],
       "BlockedByUIs": [
-        "SelectRolePage",
-        "SelectRolePracticePage"
+        "SelectRolePage"
       ]
     },
     "PracticeChallengeScore": {
       "ClosedByUIs": [],
       "HidedByUIs": [
-        "SelectRolePage",
-        "SelectRolePracticePage"
+        "SelectRolePage"
       ],
       "CollapsedByUIs": [],
       "BlockedByUIs": []
@@ -252,7 +262,9 @@
         "Esc",
         "GrowthPage",
         "SelectRolePage",
-        "SelectRolePracticePage"
+        "TacticWheelPage",
+        "ResultGameFinishPage",
+        "RoundResultPage"
       ],
       "HidedByUIs": [],
       "CollapsedByUIs": [],
@@ -263,7 +275,9 @@
         "Esc",
         "GrowthPage",
         "SelectRolePage",
-        "SelectRolePracticePage"
+        "TacticWheelPage",
+        "ResultGameFinishPage",
+        "RoundResultPage"
       ]
     },
     "MinePage": {
@@ -288,8 +302,7 @@
       "ClosedByUIs": [],
       "HidedByUIs": [],
       "CollapsedByUIs": [
-        "SelectRolePage",
-        "SelectRolePracticePage"
+        "SelectRolePage"
       ],
       "BlockedByUIs": []
     },
@@ -320,10 +333,12 @@
       "ClosedByUIs": [],
       "HidedByUIs": [],
       "CollapsedByUIs": [
-        "SelectRolePage"
+        "SelectRolePage",
+        "SelectRoleSpectatorPage"
       ],
       "BlockedByUIs": [
-        "SelectRolePage"
+        "SelectRolePage",
+        "SelectRoleSpectatorPage"
       ]
     },
     "SelectRoleLoadingPage": {
@@ -333,6 +348,109 @@
       "BlockedByUIs": [
         "ResultPage"
       ]
+    },
+    "ScoreTeamTri": {
+      "ClosedByUIs": [],
+      "HidedByUIs": [
+        "SelectRolePage"
+      ],
+      "CollapsedByUIs": [],
+      "BlockedByUIs": [
+        "SelectRolePage"
+      ]
+    },
+    "ScoreTeam": {
+      "ClosedByUIs": [],
+      "HidedByUIs": [
+        "SelectRolePage"
+      ],
+      "CollapsedByUIs": [],
+      "BlockedByUIs": [
+        "SelectRolePage"
+      ]
+    },
+    "ScoreBomb": {
+      "ClosedByUIs": [],
+      "HidedByUIs": [
+        "SelectRolePage"
+      ],
+      "CollapsedByUIs": [],
+      "BlockedByUIs": [
+        "SelectRolePage"
+      ]
+    },
+    "ScoreEscort": {
+      "ClosedByUIs": [],
+      "HidedByUIs": [
+        "SelectRolePage"
+      ],
+      "CollapsedByUIs": [],
+      "BlockedByUIs": [
+        "SelectRolePage"
+      ]
+    },
+    "ScoreMine": {
+      "ClosedByUIs": [],
+      "HidedByUIs": [
+        "SelectRolePage"
+      ],
+      "CollapsedByUIs": [],
+      "BlockedByUIs": [
+        "SelectRolePage"
+      ]
+    },
+    "FriendPracticeRankPage": {
+      "ClosedByUIs": [
+        "SelectRolePage"
+      ],
+      "HidedByUIs": [],
+      "CollapsedByUIs": [],
+      "BlockedByUIs": []
+    },
+    "PracticeChallengeResultPage": {
+      "ClosedByUIs": [
+        "SelectRolePage"
+      ],
+      "HidedByUIs": [],
+      "CollapsedByUIs": [],
+      "BlockedByUIs": []
+    },
+    "PracticeSettingPage": {
+      "ClosedByUIs": [],
+      "HidedByUIs": [],
+      "CollapsedByUIs": [],
+      "BlockedByUIs": [
+        "SettingPage"
+      ]
+    },
+    "MassFightPage": {
+      "ClosedByUIs": [],
+      "HidedByUIs": [],
+      "CollapsedByUIs": [
+        "SelectRolePage",
+        "GrowthPage"
+      ],
+      "BlockedByUIs": [
+        "SelectRolePage"
+      ]
+    },
+    "InGamePlayerCardPanel": {
+      "ClosedByUIs": [],
+      "HidedByUIs": [],
+      "CollapsedByUIs": [
+        "SelectRolePage"
+      ],
+      "BlockedByUIs": []
+    },
+    "GameKeyTipsPage": {
+      "ClosedByUIs": [],
+      "HidedByUIs": [
+        "SelectRolePage",
+        "SettingPage",
+        "PracticeSettingPage"
+      ],
+      "CollapsedByUIs": [],
+      "BlockedByUIs": []
     }
   }
 }
