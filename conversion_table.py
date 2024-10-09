@@ -9,6 +9,9 @@ class VoiceType(Enum):
     OTHER = "Other"
 
 
+table_languages = ['cn', 'en']
+
+
 voice_conversion_table: dict[VoiceType, dict[str, str]] = {
     VoiceType.DORM: {
         # dorm
