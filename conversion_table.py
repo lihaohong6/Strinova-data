@@ -12,7 +12,7 @@ class VoiceType(Enum):
 table_languages = ['cn', 'en']
 
 
-voice_conversion_table: dict[VoiceType, dict[str, str]] = {
+voice_conversion_table: dict[VoiceType, dict[str, tuple[str]]] = {
     VoiceType.DORM: {
         # dorm
         "008": ("早上问候", "Morning greeting"),
@@ -224,3 +224,5 @@ voice_conversion_table: dict[VoiceType, dict[str, str]] = {
         "021": ("装备战术道具", "Equip grenade"),
     }
 }
+
+voice_conversion_table_flat: dict[str, tuple[str]] = dict((k, v) for d in voice_conversion_table.values() for k, v in d.items())
