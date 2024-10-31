@@ -157,12 +157,12 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "RangeIncreasedByMeters_WithNumParam"
+            "Key": "DamageAndRangeIncreased_WithNumParam"
           },
           "Arguments": [
             {
               "Type": 0,
-              "Value": 5
+              "Value": 50
             }
           ]
         },
@@ -1064,20 +1064,20 @@
           },
           "Arguments": [
             {
-              "Type": 0,
-              "Value": 5
+              "Type": 3,
+              "Value": 3.5
             }
           ]
         },
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "LimitIncreasedTo_WithNumParam"
+            "Key": "CooldownReducedBySeconds_WithNumParam"
           },
           "Arguments": [
             {
               "Type": 0,
-              "Value": 2
+              "Value": 7
             }
           ]
         }
@@ -5427,6 +5427,299 @@
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
           "Key": "Part_Accurate"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_Armor"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_Survive"
+        }
+      ],
+      "PartIcon": [],
+      "AttackSpeedWeight": 720,
+      "AttackSpeedMax": 1200,
+      "ShowAttackRange": [
+        10,
+        30,
+        50
+      ]
+    },
+    "121": {
+      "RoleId": 121,
+      "Parts1SingleSelect": true,
+      "Parts1Max1": [
+        1,
+        1
+      ],
+      "Parts1Need": [
+        150,
+        150
+      ],
+      "Parts2SingleSelect": true,
+      "Parts2Max1": [
+        1,
+        1
+      ],
+      "Parts2Need": [
+        150,
+        150
+      ],
+      "Parts4SingleSelect": true,
+      "Parts4Max1": [
+        1,
+        1
+      ],
+      "Parts4Need": [
+        150,
+        150
+      ],
+      "Parts5SingleSelect": true,
+      "Parts5Max1": [
+        1,
+        1
+      ],
+      "Parts5Need": [
+        150,
+        150
+      ],
+      "QSingleSelect": true,
+      "QMax1": [
+        1,
+        1
+      ],
+      "QNeed": [
+        250,
+        250
+      ],
+      "PassiveSingleSelect": true,
+      "PassiveMax1": [
+        1
+      ],
+      "PassiveNeed": [
+        250
+      ],
+      "ShieldSingleSelect": true,
+      "ShieldMax1": [
+        1,
+        1
+      ],
+      "ShieldNeed": [
+        250,
+        250
+      ],
+      "SurviveSingleSelect": true,
+      "SurviveMax1": [
+        1,
+        1
+      ],
+      "SurviveNeed": [
+        250,
+        250
+      ],
+      "DowngradeCost": 0.5,
+      "RecommendUpgrade": [
+        4,
+        8,
+        6
+      ],
+      "Arousal1ActivateNeed": [
+        1,
+        1,
+        0
+      ],
+      "Arousal2ActivateNeed": [
+        1,
+        2,
+        1
+      ],
+      "Arousal3ActivateNeed": [
+        1,
+        1,
+        2
+      ],
+      "ArousalActivateNeed": [
+        0,
+        0,
+        0
+      ],
+      "ArousalDeactivateCost": 0.5,
+      "WeaponChange": [],
+      "Part1Desc": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "ReloadSpeedIncreased"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "IncreasedNumberOfBullets"
+        }
+      ],
+      "Part1Icon": [],
+      "Part2Desc": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "HeadshotDamageIncreased"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "StringDamageIncreased"
+        }
+      ],
+      "Part2Icon": [],
+      "Part4Desc": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "ScatterControlImprovements"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "IncreasedCameraOpeningSpeed"
+        }
+      ],
+      "Part4Icon": [],
+      "Part5Desc": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "MaximumRunningSpeedIncreased"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "ImprovedRecoilControl"
+        }
+      ],
+      "Part5Icon": [],
+      "QDesc": [
+        {
+          "SourceFmt": {
+            "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+            "Key": "CooldownReducedBySeconds_WithNumParam"
+          },
+          "Arguments": [
+            {
+              "Type": 0,
+              "Value": 10
+            }
+          ]
+        },
+        {
+          "SourceFmt": {
+            "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+            "Key": "DecreaseEnergyCost_WithNumParam"
+          },
+          "Arguments": [
+            {
+              "Type": 0,
+              "Value": 20
+            }
+          ]
+        }
+      ],
+      "QIcon": [],
+      "PassiveDesc": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "DecreaseTriggerDamage"
+        }
+      ],
+      "PassiveIcon": [],
+      "ShieldDesc": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "QuickReturnOfLightArmor"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "HeavyArmor"
+        }
+      ],
+      "ShieldIcon": [],
+      "SurviveDesc": [
+        {
+          "SourceFmt": {
+            "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+            "Key": "StringAcceleration_WithNumParam"
+          },
+          "Arguments": [
+            {
+              "Type": 0,
+              "Value": 15
+            }
+          ]
+        },
+        {
+          "SourceFmt": {
+            "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+            "Key": "StringReductionCoefficientIncrease_WithNumParam"
+          },
+          "Arguments": [
+            {
+              "Type": 0,
+              "Value": 25
+            }
+          ]
+        }
+      ],
+      "SurviveIcon": [],
+      "Awakening1Icon": [],
+      "Awakening23Icon": [],
+      "DefaultProperty1": [
+        "ShootSpeed|65|1200",
+        "AimSpeed|45|100",
+        "Scattering|60|100",
+        "GunRecoil|50|100",
+        "MagazineCapacity|0.75|50",
+        "ReloadSpeed|24|50",
+        "PullBoltSpeed|0|100",
+        "MoveSpeed|57.6|100",
+        "Change2DHurt|64|100"
+      ],
+      "DefaultProperty3": [
+        "MagnificationRate|1.25",
+        "MovementSpeedChange|2.25",
+        "ReducedEmissions|0.99"
+      ],
+      "Part1Level01": [
+        "ReloadSpeed|*0.301"
+      ],
+      "Part1Level11": [
+        ""
+      ],
+      "Part2Level01": [
+        ""
+      ],
+      "Part2Level11": [
+        "Change2DHurt|*0.2"
+      ],
+      "Part4Level01": [
+        "Scattering|*0.25"
+      ],
+      "Part4Level11": [
+        "AimSpeed|*0.375"
+      ],
+      "Part5Level01": [
+        "MoveSpeed|*0.088"
+      ],
+      "Part5Level11": [
+        "GunRecoil|*0.25"
+      ],
+      "PartName": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_KeepFight"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_CriticalHit"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_Accurate"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_Function"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
