@@ -32,14 +32,15 @@
       "HideCharacterStateTypes": [],
       "bNeedsHideInReplayMode": false
     },
-    "Growth": {
+    "GrowthPage": {
       "ShowModeTypes": [],
       "HideModeTypes": [
         "EPMGameModeType::NoviceGuide",
         "EPMGameModeType::Spar",
         "EPMGameModeType::HideSeek",
         "EPMGameModeType::SnowBall",
-        "EPMGameModeType::BombGuide"
+        "EPMGameModeType::BombGuide",
+        "EPMGameModeType::TeamGuide"
       ],
       "ShowGameStateTypes": [
         "EGStateType::Warmup",
@@ -91,7 +92,9 @@
     },
     "BattleDataPage": {
       "ShowModeTypes": [],
-      "HideModeTypes": [],
+      "HideModeTypes": [
+        "EPMGameModeType::TeamGuide"
+      ],
       "ShowGameStateTypes": [],
       "HideGameStateTypes": [],
       "ShowCharacterStateTypes": [],
@@ -282,6 +285,18 @@
         "EGStateType::RoleReset",
         "EGStateType::GameEnd",
         "EGStateType::GameOver"
+      ],
+      "ShowCharacterStateTypes": [],
+      "HideCharacterStateTypes": [],
+      "bNeedsHideInReplayMode": false
+    },
+    "RefereeGMPage": {
+      "ShowModeTypes": [],
+      "HideModeTypes": [],
+      "ShowGameStateTypes": [],
+      "HideGameStateTypes": [
+        "EGStateType::GameOver",
+        "EGStateType::GameEnd"
       ],
       "ShowCharacterStateTypes": [],
       "HideCharacterStateTypes": [],
