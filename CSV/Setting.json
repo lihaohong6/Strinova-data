@@ -4808,7 +4808,7 @@
       },
       "Name": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Setting.ST_Setting",
-        "Key": "Switch_RoomChat_1"
+        "Key": "Switch_TeamOrRoomChat_1"
       },
       "UiType": 3,
       "Options": [
@@ -4824,12 +4824,12 @@
       "DefaultOptions": 1,
       "Tips": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Setting.ST_Setting",
-        "Key": "Switch_RoomChat_2"
+        "Key": "Switch_TeamOrRoomChat_2"
       },
       "Max": 0,
       "Min": 0,
       "Step": 0,
-      "Indexkey": "Switch_RoomChat",
+      "Indexkey": "Switch_TeamOrRoomChat",
       "DefaultOption2": "",
       "Status": 0,
       "Issub": 0
@@ -4843,31 +4843,31 @@
       },
       "Name": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Setting.ST_Setting",
-        "Key": "Switch_CustomRoomChat_1"
+        "Key": "TeamOrRoomInputMode_1"
       },
       "UiType": 3,
       "Options": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Setting.ST_Setting",
-          "Key": "Opt_1"
+          "Key": "Opt_67"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Setting.ST_Setting",
-          "Key": "Opt_2"
+          "Key": "Opt_68"
         }
       ],
-      "DefaultOptions": 2,
+      "DefaultOptions": 1,
       "Tips": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Setting.ST_Setting",
-        "Key": "Switch_CustomRoomChat_2"
+        "Key": "TeamOrRoomInputMode_2"
       },
       "Max": 0,
       "Min": 0,
       "Step": 0,
-      "Indexkey": "Switch_CustomRoomChat",
+      "Indexkey": "TeamOrRoomInputMode",
       "DefaultOption2": "",
       "Status": 0,
-      "Issub": 0
+      "Issub": 1
     },
     "518": {
       "Id": 518,
@@ -4878,130 +4878,38 @@
       },
       "Name": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Setting.ST_Setting",
-        "Key": "VoiceInputMode_1"
+        "Key": "TeamOrRoomInputRange_1"
       },
       "UiType": 3,
       "Options": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Setting.ST_Setting",
-          "Key": "Opt_67"
+          "Key": "VoiceInputRangeOpt_1"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Setting.ST_Setting",
-          "Key": "Opt_68"
+          "Key": "VoiceInputRangeOpt_2"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Setting.ST_Setting",
+          "Key": "VoiceInputRangeOpt_3"
         }
       ],
-      "DefaultOptions": 1,
+      "DefaultOptions": 2,
       "Tips": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Setting.ST_Setting",
-        "Key": "VoiceInputMode_2"
+        "Key": "TeamOrRoomInputRange_2"
       },
       "Max": 0,
       "Min": 0,
       "Step": 0,
-      "Indexkey": "VoiceInputMode",
-      "DefaultOption2": "",
+      "Indexkey": "TeamOrRoomInputRange",
+      "DefaultOption2": "1,2",
       "Status": 0,
-      "Issub": 0
+      "Issub": 1
     },
     "519": {
       "Id": 519,
-      "Type": "Sound",
-      "SubType": "",
-      "Title": {
-        "CultureInvariantString": null
-      },
-      "Name": {
-        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Setting.ST_Setting",
-        "Key": "VoiceInputModeDesc_1"
-      },
-      "UiType": 0,
-      "Options": [],
-      "DefaultOptions": 0,
-      "Tips": {
-        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Setting.ST_Setting",
-        "Key": "VoiceInputModeDesc_2"
-      },
-      "Max": 0,
-      "Min": 0,
-      "Step": 0,
-      "Indexkey": "VoiceInputModeDesc",
-      "DefaultOption2": "",
-      "Status": 0,
-      "Issub": 0
-    },
-    "520": {
-      "Id": 520,
-      "Type": "Sound",
-      "SubType": "",
-      "Title": {
-        "CultureInvariantString": null
-      },
-      "Name": {
-        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Setting.ST_Setting",
-        "Key": "Switch_TeamChat_1"
-      },
-      "UiType": 3,
-      "Options": [
-        {
-          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Setting.ST_Setting",
-          "Key": "Opt_1"
-        },
-        {
-          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Setting.ST_Setting",
-          "Key": "Opt_2"
-        }
-      ],
-      "DefaultOptions": 1,
-      "Tips": {
-        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Setting.ST_Setting",
-        "Key": "Switch_TeamChat_2"
-      },
-      "Max": 0,
-      "Min": 0,
-      "Step": 0,
-      "Indexkey": "Switch_TeamChat",
-      "DefaultOption2": "",
-      "Status": 0,
-      "Issub": 0
-    },
-    "521": {
-      "Id": 521,
-      "Type": "Sound",
-      "SubType": "",
-      "Title": {
-        "CultureInvariantString": null
-      },
-      "Name": {
-        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Setting.ST_Setting",
-        "Key": "TeamVoiceInputMode_1"
-      },
-      "UiType": 3,
-      "Options": [
-        {
-          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Setting.ST_Setting",
-          "Key": "Opt_67"
-        },
-        {
-          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Setting.ST_Setting",
-          "Key": "Opt_68"
-        }
-      ],
-      "DefaultOptions": 1,
-      "Tips": {
-        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Setting.ST_Setting",
-        "Key": "TeamVoiceInputMode_2"
-      },
-      "Max": 0,
-      "Min": 0,
-      "Step": 0,
-      "Indexkey": "TeamVoiceInputMode",
-      "DefaultOption2": "",
-      "Status": 0,
-      "Issub": 0
-    },
-    "522": {
-      "Id": 522,
       "Type": "Sound",
       "SubType": "",
       "Title": {
@@ -5026,8 +4934,143 @@
       "Status": 0,
       "Issub": 0
     },
+    "520": {
+      "Id": 520,
+      "Type": "Sound",
+      "SubType": "",
+      "Title": {
+        "CultureInvariantString": null
+      },
+      "Name": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Setting.ST_Setting",
+        "Key": "Switch_CustomRoomChat_1"
+      },
+      "UiType": 3,
+      "Options": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Setting.ST_Setting",
+          "Key": "Opt_1"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Setting.ST_Setting",
+          "Key": "Opt_2"
+        }
+      ],
+      "DefaultOptions": 1,
+      "Tips": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Setting.ST_Setting",
+        "Key": "Switch_CustomRoomChat_2"
+      },
+      "Max": 0,
+      "Min": 0,
+      "Step": 0,
+      "Indexkey": "Switch_CustomRoomChat",
+      "DefaultOption2": "",
+      "Status": 0,
+      "Issub": 0
+    },
+    "521": {
+      "Id": 521,
+      "Type": "Sound",
+      "SubType": "",
+      "Title": {
+        "CultureInvariantString": null
+      },
+      "Name": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Setting.ST_Setting",
+        "Key": "CustomRoomInputMode_1"
+      },
+      "UiType": 3,
+      "Options": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Setting.ST_Setting",
+          "Key": "Opt_67"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Setting.ST_Setting",
+          "Key": "Opt_68"
+        }
+      ],
+      "DefaultOptions": 1,
+      "Tips": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Setting.ST_Setting",
+        "Key": "CustomRoomInputMode_2"
+      },
+      "Max": 0,
+      "Min": 0,
+      "Step": 0,
+      "Indexkey": "CustomRoomInputMode",
+      "DefaultOption2": "",
+      "Status": 0,
+      "Issub": 1
+    },
+    "522": {
+      "Id": 522,
+      "Type": "Sound",
+      "SubType": "",
+      "Title": {
+        "CultureInvariantString": null
+      },
+      "Name": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Setting.ST_Setting",
+        "Key": "CustomRoomInputRange_1"
+      },
+      "UiType": 3,
+      "Options": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Setting.ST_Setting",
+          "Key": "VoiceInputRangeOpt_1"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Setting.ST_Setting",
+          "Key": "VoiceInputRangeOpt_2"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Setting.ST_Setting",
+          "Key": "VoiceInputRangeOpt_3"
+        }
+      ],
+      "DefaultOptions": 2,
+      "Tips": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Setting.ST_Setting",
+        "Key": "CustomRoomInputRange_2"
+      },
+      "Max": 0,
+      "Min": 0,
+      "Step": 0,
+      "Indexkey": "CustomRoomInputRange",
+      "DefaultOption2": "2,3",
+      "Status": 0,
+      "Issub": 1
+    },
     "523": {
       "Id": 523,
+      "Type": "Sound",
+      "SubType": "",
+      "Title": {
+        "CultureInvariantString": null
+      },
+      "Name": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Setting.ST_Setting",
+        "Key": "VoiceInputModeDesc_1"
+      },
+      "UiType": 0,
+      "Options": [],
+      "DefaultOptions": 0,
+      "Tips": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Setting.ST_Setting",
+        "Key": "VoiceInputModeDesc_2"
+      },
+      "Max": 0,
+      "Min": 0,
+      "Step": 0,
+      "Indexkey": "VoiceInputModeDesc",
+      "DefaultOption2": "",
+      "Status": 0,
+      "Issub": 0
+    },
+    "524": {
+      "Id": 524,
       "Type": "Sound",
       "SubType": "",
       "Title": {
@@ -5052,8 +5095,8 @@
       "Status": 0,
       "Issub": 0
     },
-    "524": {
-      "Id": 524,
+    "525": {
+      "Id": 525,
       "Type": "Sound",
       "SubType": "",
       "Title": {
@@ -5078,8 +5121,8 @@
       "Status": 0,
       "Issub": 0
     },
-    "525": {
-      "Id": 525,
+    "526": {
+      "Id": 526,
       "Type": "Sound",
       "SubType": "",
       "Title": {
