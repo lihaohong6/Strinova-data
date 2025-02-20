@@ -3610,7 +3610,7 @@
     "31000051": {
       "Id": 31000051,
       "Available": true,
-      "AvailableState": 0,
+      "AvailableState": 1,
       "Type": "EPMCardResourceType::Avatar",
       "Default": false,
       "Name": {
@@ -4624,7 +4624,7 @@
     "31000065": {
       "Id": 31000065,
       "Available": true,
-      "AvailableState": 0,
+      "AvailableState": 1,
       "Type": "EPMCardResourceType::Avatar",
       "Default": false,
       "Name": {
@@ -9594,7 +9594,7 @@
     "31000148": {
       "Id": 31000148,
       "Available": true,
-      "AvailableState": 0,
+      "AvailableState": 1,
       "Type": "EPMCardResourceType::Avatar",
       "Default": false,
       "Name": {
@@ -10684,7 +10684,7 @@
     "31000163": {
       "Id": 31000163,
       "Available": true,
-      "AvailableState": 0,
+      "AvailableState": 1,
       "Type": "EPMCardResourceType::Avatar",
       "Default": false,
       "Name": {
@@ -10742,14 +10742,14 @@
       "LimitType": 6,
       "LimitParam": 50,
       "GainType": [
-        0
+        6
       ],
-      "GainParam1": [],
+      "GainParam1": [
+        31000163
+      ],
       "GainParam2": {
-        "Namespace": "IdCard",
-        "Key": "31000163_GainParam2",
-        "SourceString": "0",
-        "LocalizedString": "0"
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
+        "Key": "LimitedTimeMall"
       },
       "AchievementType": false,
       "BadgeNum": 0
@@ -14116,7 +14116,7 @@
     "31001018": {
       "Id": 31001018,
       "Available": true,
-      "AvailableState": 0,
+      "AvailableState": 2,
       "Type": "EPMCardResourceType::Avatar",
       "Default": false,
       "Name": {
@@ -14189,7 +14189,7 @@
     "31001019": {
       "Id": 31001019,
       "Available": true,
-      "AvailableState": 0,
+      "AvailableState": 2,
       "Type": "EPMCardResourceType::Avatar",
       "Default": false,
       "Name": {
@@ -14262,7 +14262,7 @@
     "31001020": {
       "Id": 31001020,
       "Available": true,
-      "AvailableState": 0,
+      "AvailableState": 2,
       "Type": "EPMCardResourceType::Avatar",
       "Default": false,
       "Name": {
@@ -15710,7 +15710,7 @@
     "31001040": {
       "Id": 31001040,
       "Available": true,
-      "AvailableState": 0,
+      "AvailableState": 2,
       "Type": "EPMCardResourceType::Avatar",
       "Default": false,
       "Name": {
@@ -15783,7 +15783,7 @@
     "31001041": {
       "Id": 31001041,
       "Available": true,
-      "AvailableState": 0,
+      "AvailableState": 2,
       "Type": "EPMCardResourceType::Avatar",
       "Default": false,
       "Name": {
@@ -15856,7 +15856,7 @@
     "31001042": {
       "Id": 31001042,
       "Available": true,
-      "AvailableState": 0,
+      "AvailableState": 2,
       "Type": "EPMCardResourceType::Avatar",
       "Default": false,
       "Name": {
@@ -15929,7 +15929,7 @@
     "31001043": {
       "Id": 31001043,
       "Available": true,
-      "AvailableState": 0,
+      "AvailableState": 2,
       "Type": "EPMCardResourceType::Avatar",
       "Default": false,
       "Name": {
@@ -17232,6 +17232,79 @@
       "AchievementType": false,
       "BadgeNum": 0
     },
+    "31001062": {
+      "Id": 31001062,
+      "Available": true,
+      "AvailableState": 2,
+      "Type": "EPMCardResourceType::Avatar",
+      "Default": false,
+      "Name": {
+        "Namespace": "IdCard",
+        "Key": "31001062_Name",
+        "SourceString": "弦音纵客",
+        "LocalizedString": "弦音纵客"
+      },
+      "Quality": 4,
+      "SortId": 4058,
+      "Desc": {
+        "Namespace": "IdCard",
+        "Key": "31001062_Desc",
+        "SourceString": "行走于真实和虚幻之间，穿梭在弦音和虚无边缘。",
+        "LocalizedString": "行走于真实和虚幻之间，穿梭在弦音和虚无边缘。"
+      },
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/IdCard/Appearance/T_Dynamic_IdCard_31001062_icon.T_Dynamic_IdCard_31001062_icon",
+        "SubPathString": ""
+      },
+      "IconDisplayItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/IdCard/Appearance/T_Dynamic_IdCard_31001062.T_Dynamic_IdCard_31001062",
+        "SubPathString": ""
+      },
+      "IconIdcardL": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/IdCard/Appearance/T_Dynamic_IdCard_31001062.T_Dynamic_IdCard_31001062",
+        "SubPathString": ""
+      },
+      "AnimBlueprint": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/RoomPC/Card/DisplayCards/Avatar/WBP_CardAvatar_31001062.WBP_CardAvatar_31001062_C",
+        "SubPathString": ""
+      },
+      "JoinAnimBlueprint": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "IconIdcardFrame": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "IconIdcardFrameBack": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "IconIdcardFrameSide": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "IconIdcardFrameHeadphoto": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "PopupGain": 0,
+      "LimitNum": 1,
+      "LimitType": 6,
+      "LimitParam": 480,
+      "GainType": [
+        0
+      ],
+      "GainParam1": [],
+      "GainParam2": {
+        "Namespace": "IdCard",
+        "Key": "31001062_GainParam2",
+        "SourceString": "传说皮肤赠品",
+        "LocalizedString": "传说皮肤赠品"
+      },
+      "AchievementType": false,
+      "BadgeNum": 0
+    },
     "31001063": {
       "Id": 31001063,
       "Available": true,
@@ -17316,7 +17389,7 @@
         "LocalizedString": "宗师下“武”茶"
       },
       "Quality": 4,
-      "SortId": 4058,
+      "SortId": 4059,
       "Desc": {
         "Namespace": "IdCard",
         "Key": "31001064_Desc",
@@ -17389,7 +17462,7 @@
         "LocalizedString": "名门闺秀"
       },
       "Quality": 4,
-      "SortId": 4059,
+      "SortId": 4060,
       "Desc": {
         "Namespace": "IdCard",
         "Key": "31001065_Desc",
@@ -17462,7 +17535,7 @@
         "LocalizedString": "苍翠翎羽"
       },
       "Quality": 4,
-      "SortId": 4060,
+      "SortId": 4061,
       "Desc": {
         "Namespace": "IdCard",
         "Key": "31001066_Desc",
@@ -17518,6 +17591,79 @@
         "Key": "31001066_GainParam2",
         "SourceString": "加拉蒂亚旗袍基板",
         "LocalizedString": "加拉蒂亚旗袍基板"
+      },
+      "AchievementType": false,
+      "BadgeNum": 0
+    },
+    "31001070": {
+      "Id": 31001070,
+      "Available": true,
+      "AvailableState": 2,
+      "Type": "EPMCardResourceType::Avatar",
+      "Default": false,
+      "Name": {
+        "Namespace": "IdCard",
+        "Key": "31001070_Name",
+        "SourceString": "彼向初诞",
+        "LocalizedString": "彼向初诞"
+      },
+      "Quality": 4,
+      "SortId": 4062,
+      "Desc": {
+        "Namespace": "IdCard",
+        "Key": "31001070_Desc",
+        "SourceString": "我们将创造这个世界上的一切。",
+        "LocalizedString": "我们将创造这个世界上的一切。"
+      },
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/IdCard/Appearance/T_Dynamic_IdCard_31001070_icon.T_Dynamic_IdCard_31001070_icon",
+        "SubPathString": ""
+      },
+      "IconDisplayItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/IdCard/Appearance/T_Dynamic_IdCard_31001070.T_Dynamic_IdCard_31001070",
+        "SubPathString": ""
+      },
+      "IconIdcardL": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/IdCard/Appearance/T_Dynamic_IdCard_31001070.T_Dynamic_IdCard_31001070",
+        "SubPathString": ""
+      },
+      "AnimBlueprint": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/RoomPC/Card/DisplayCards/Avatar/WBP_CardAvatar_31001070.WBP_CardAvatar_31001070_C",
+        "SubPathString": ""
+      },
+      "JoinAnimBlueprint": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "IconIdcardFrame": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "IconIdcardFrameBack": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "IconIdcardFrameSide": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "IconIdcardFrameHeadphoto": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "PopupGain": 0,
+      "LimitNum": 1,
+      "LimitType": 6,
+      "LimitParam": 480,
+      "GainType": [
+        0
+      ],
+      "GainParam1": [],
+      "GainParam2": {
+        "Namespace": "IdCard",
+        "Key": "31001070_GainParam2",
+        "SourceString": "累充奖励",
+        "LocalizedString": "累充奖励"
       },
       "AchievementType": false,
       "BadgeNum": 0
@@ -18780,7 +18926,7 @@
         "LocalizedString": "U-06陆型封装"
       },
       "Quality": 4,
-      "SortId": 4061,
+      "SortId": 4063,
       "Desc": {
         "Namespace": "IdCard",
         "Key": "32000006_Desc",
@@ -18924,7 +19070,7 @@
         "LocalizedString": "U-07柒型封装"
       },
       "Quality": 4,
-      "SortId": 4062,
+      "SortId": 4064,
       "Desc": {
         "Namespace": "IdCard",
         "Key": "32000008_Desc",
@@ -18997,7 +19143,7 @@
         "LocalizedString": "U-08捌型封装"
       },
       "Quality": 4,
-      "SortId": 4063,
+      "SortId": 4065,
       "Desc": {
         "Namespace": "IdCard",
         "Key": "32000009_Desc",
@@ -19285,7 +19431,7 @@
         "LocalizedString": "U-09玖型封装"
       },
       "Quality": 4,
-      "SortId": 4064,
+      "SortId": 4066,
       "Desc": {
         "Namespace": "IdCard",
         "Key": "32000013_Desc",
@@ -19348,7 +19494,7 @@
     "32000014": {
       "Id": 32000014,
       "Available": true,
-      "AvailableState": 0,
+      "AvailableState": 2,
       "Type": "EPMCardResourceType::Frame",
       "Default": false,
       "Name": {
@@ -19429,7 +19575,7 @@
         "LocalizedString": "I-88金色门廊"
       },
       "Quality": 4,
-      "SortId": 4065,
+      "SortId": 4067,
       "Desc": {
         "Namespace": "IdCard",
         "Key": "32000015_Desc",
@@ -19500,7 +19646,7 @@
         "LocalizedString": "U-10拾型封装"
       },
       "Quality": 4,
-      "SortId": 4066,
+      "SortId": 4068,
       "Desc": {
         "Namespace": "IdCard",
         "Key": "32000016_Desc",
@@ -19573,7 +19719,7 @@
         "LocalizedString": "T-68激情混响"
       },
       "Quality": 4,
-      "SortId": 4067,
+      "SortId": 4069,
       "Desc": {
         "Namespace": "IdCard",
         "Key": "32000017_Desc",
@@ -19715,7 +19861,7 @@
         "LocalizedString": "G-22火烈鸟之羽"
       },
       "Quality": 4,
-      "SortId": 4068,
+      "SortId": 4070,
       "Desc": {
         "Namespace": "IdCard",
         "Key": "32000019_Desc",
@@ -19859,7 +20005,7 @@
         "LocalizedString": "航标-1ST"
       },
       "Quality": 4,
-      "SortId": 4069,
+      "SortId": 4071,
       "Desc": {
         "Namespace": "IdCard",
         "Key": "32000022_Desc",
@@ -20001,7 +20147,7 @@
         "LocalizedString": "V-06馥郁交织"
       },
       "Quality": 4,
-      "SortId": 4070,
+      "SortId": 4072,
       "Desc": {
         "Namespace": "IdCard",
         "Key": "32000024_Desc",
@@ -20061,6 +20207,79 @@
       "AchievementType": false,
       "BadgeNum": 3
     },
+    "32000027": {
+      "Id": 32000027,
+      "Available": false,
+      "AvailableState": 2,
+      "Type": "EPMCardResourceType::Frame",
+      "Default": false,
+      "Name": {
+        "Namespace": "IdCard",
+        "Key": "32000027_Name",
+        "SourceString": "雍华无瑕",
+        "LocalizedString": "雍华无瑕"
+      },
+      "Quality": 5,
+      "SortId": 5001,
+      "Desc": {
+        "Namespace": "IdCard",
+        "Key": "32000027_Desc",
+        "SourceString": "由乌尔比诺颁发的特殊封装，由军用级晶石的供应商直接授予为财团作出杰出贡献的引航者，同时也是乌尔比诺股东大会的入会凭证之一。\n\n可装配勋章数：4",
+        "LocalizedString": "由乌尔比诺颁发的特殊封装，由军用级晶石的供应商直接授予为财团作出杰出贡献的引航者，同时也是乌尔比诺股东大会的入会凭证之一。\n\n可装配勋章数：4"
+      },
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/IdCard/Background/T_Dynamic_IdCard_32000027_icon.T_Dynamic_IdCard_32000027_icon",
+        "SubPathString": ""
+      },
+      "IconDisplayItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/IdCard/Background/T_Dynamic_IdCard_32000027_L.T_Dynamic_IdCard_32000027_L",
+        "SubPathString": ""
+      },
+      "IconIdcardL": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/IdCard/Background/T_Dynamic_IdCard_32000027.T_Dynamic_IdCard_32000027",
+        "SubPathString": ""
+      },
+      "AnimBlueprint": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/RoomPC/Card/DisplayCards/Frame/WBP_CardFrame_27.WBP_CardFrame_27_C",
+        "SubPathString": ""
+      },
+      "JoinAnimBlueprint": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/RoomPC/Card/DisplayCards/Effects/WBP_CardFrameFX_27.WBP_CardFrameFX_27_C",
+        "SubPathString": ""
+      },
+      "IconIdcardFrame": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/IdCard/Frame/T_Dynamic_IdCard_32000027.T_Dynamic_IdCard_32000027",
+        "SubPathString": ""
+      },
+      "IconIdcardFrameBack": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/IdCard/Frame/T_Dynamic_IdCard_32000027_2.T_Dynamic_IdCard_32000027_2",
+        "SubPathString": ""
+      },
+      "IconIdcardFrameSide": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/IdCard/Frame/T_Dynamic_IdCard_32000027_3l.T_Dynamic_IdCard_32000027_3l",
+        "SubPathString": ""
+      },
+      "IconIdcardFrameHeadphoto": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/IdCard/Frame/T_Dynamic_IdCard_32000027_icon.T_Dynamic_IdCard_32000027_icon",
+        "SubPathString": ""
+      },
+      "PopupGain": 0,
+      "LimitNum": 1,
+      "LimitType": 6,
+      "LimitParam": 480,
+      "GainType": [
+        0
+      ],
+      "GainParam1": [],
+      "GainParam2": {
+        "Namespace": "IdCard",
+        "Key": "32000027_GainParam2",
+        "SourceString": "累充奖励",
+        "LocalizedString": "累充奖励"
+      },
+      "AchievementType": false,
+      "BadgeNum": 4
+    },
     "32000028": {
       "Id": 32000028,
       "Available": false,
@@ -20074,7 +20293,7 @@
         "LocalizedString": "W-02螺层之魄"
       },
       "Quality": 4,
-      "SortId": 4071,
+      "SortId": 4073,
       "Desc": {
         "Namespace": "IdCard",
         "Key": "32000028_Desc",
@@ -20147,7 +20366,7 @@
         "LocalizedString": "D-09晶石裂变"
       },
       "Quality": 4,
-      "SortId": 4072,
+      "SortId": 4074,
       "Desc": {
         "Namespace": "IdCard",
         "Key": "32000030_Desc",
