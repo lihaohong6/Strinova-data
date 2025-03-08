@@ -368,6 +368,18 @@
       {
         "ObjectName": "DataTable'DT_UI_SchoolDayPC'",
         "ObjectPath": "PM/Content/PaperMan/UI/BP/PC/Frontend/Activities/SchoolDayPC/DT_UI_SchoolDayPC.0"
+      },
+      {
+        "ObjectName": "DataTable'DT_UI_Biochemical'",
+        "ObjectPath": "PM/Content/PaperMan/UI/BP/PC/Frontend/Activities/Biochemical/DT_UI_Biochemical.0"
+      },
+      {
+        "ObjectName": "DataTable'DT_UI_InGamePC_Zombie'",
+        "ObjectPath": "PM/Content/PaperMan/UI/BP/PC/InGame/Zombie/DT_UI_InGamePC_Zombie.0"
+      },
+      {
+        "ObjectName": "DataTable'DT_UI_Roguelike'",
+        "ObjectPath": "PM/Content/PaperMan/UI/BP/PC/InGame/NonResidentFunctions/Roguelike/DT_UI_Roguelike.0"
       }
     ],
     "RowStruct": {
@@ -4159,6 +4171,36 @@
         "Y": 0.0
       }
     },
+    "CommonHighQualityItemDisplayPage": {
+      "PageName": "CommonHighQualityItemDisplayPage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/CommonPC/WBP_CommonHighQualityItemDisplay_PC.WBP_CommonHighQualityItemDisplay_PC_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Top",
+      "Order": 100,
+      "FullScreen": true,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
     "SelectServerButton": {
       "PageName": "SelectServerButton",
       "PageClass": {
@@ -5593,6 +5635,36 @@
         "Y": 0.0
       }
     },
+    "ResultCharacterGroupPhotoPage": {
+      "PageName": "ResultCharacterGroupPhotoPage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/InGame/NonResidentFunctions/Result/Common/WBP_ResultCharacterGroupPhotoPage.WBP_ResultCharacterGroupPhotoPage_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 29,
+      "FullScreen": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
     "BattlePassTaskPage": {
       "PageName": "BattlePassTaskPage",
       "PageClass": {
@@ -6020,7 +6092,7 @@
         "ObjectPath": "/Script/PMGame"
       },
       "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/PC/InGame/NonResidentFunctions/SelectRolePC/RoleLoading/WBP_TeamThreeSelectRoleLoadingPanel.WBP_TeamThreeSelectRoleLoadingPanel_C",
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/InGame/NonResidentFunctions/SelectRolePC/RoleLoading/WBP_TeamThreeSelectRoleLoadingPanel_PC.WBP_TeamThreeSelectRoleLoadingPanel_PC_C",
         "SubPathString": ""
       },
       "bIsPanel": false,
@@ -6051,6 +6123,36 @@
       },
       "ViewClass": {
         "AssetPathName": "/Game/PaperMan/UI/BP/PC/InGame/NonResidentFunctions/SelectRolePC/RoleLoading/WBP_SelectRoleTeamTwoLoading.WBP_SelectRoleTeamTwoLoading_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Loading",
+      "Order": 0,
+      "FullScreen": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "SelectRoleZombieLoadingPage": {
+      "PageName": "SelectRoleZombieLoadingPage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/InGame/NonResidentFunctions/SelectRolePC/RoleLoading/WBP_SelectRoleZombieLoadingPanel.WBP_SelectRoleZombieLoadingPanel_C",
         "SubPathString": ""
       },
       "bIsPanel": false,
@@ -13843,6 +13945,66 @@
         "Y": 0.0
       }
     },
+    "ScoreZombie": {
+      "PageName": "ScoreZombie",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/InGame/NonResidentFunctions/ScoreBoard/Zombie/WBP_ScoreZombie.WBP_ScoreZombie_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Top",
+      "Order": 98,
+      "FullScreen": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "ZombieChangeRolePage": {
+      "PageName": "ZombieChangeRolePage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/InGame/Zombie/ZombieChangeRole/WBP_ZombieChangeRoleSelectPage.WBP_ZombieChangeRoleSelectPage_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 15,
+      "FullScreen": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
     "MaidSecondMainPage": {
       "PageName": "MaidSecondMainPage",
       "PageClass": {
@@ -15059,7 +15221,7 @@
       "PageName": "PickUpZombieSupplyOverhead",
       "PageClass": null,
       "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/PC/InGame/Zombie/Overhead/WBP_PickUp_ZombieSupplyOverhead.WBP_PickUp_ZombieSupplyOverhead_C",
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/InGame/Zombie/Overhead/WBP_PickUp_ZombieSupplyOverhead.WBP_PickUp_ZombieSupplyOverhead_PC_C",
         "SubPathString": ""
       },
       "bIsPanel": false,
@@ -15084,6 +15246,33 @@
     },
     "SummonFakeHumanOverhead": {
       "PageName": "SummonFakeHumanOverhead",
+      "PageClass": null,
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/InGame/Overhead/WBP_SummonOverhead.WBP_SummonOverhead_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 0,
+      "FullScreen": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "SummonFakeHumanOverheadEnemy": {
+      "PageName": "SummonFakeHumanOverheadEnemy",
       "PageClass": null,
       "ViewClass": {
         "AssetPathName": "/Game/PaperMan/UI/BP/PC/InGame/Overhead/WBP_SummonOverhead.WBP_SummonOverhead_C",
@@ -15276,6 +15465,33 @@
       "PageClass": null,
       "ViewClass": {
         "AssetPathName": "/Game/PaperMan/UI/BP/PC/InGame/Overhead/WBP_MicheleCSummonOverhead.WBP_MicheleCSummonOverhead_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 0,
+      "FullScreen": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "PickUpCardBoxHumanSupplyOverhead": {
+      "PageName": "PickUpCardBoxHumanSupplyOverhead",
+      "PageClass": null,
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/InGame/Zombie/Overhead/WBP_PickUp_HumanCardBox.WBP_PickUp_HumanCardBox_C",
         "SubPathString": ""
       },
       "bIsPanel": false,
@@ -21176,6 +21392,276 @@
       "bIsPanel": false,
       "Layer": "EUILayer::Normal",
       "Order": 26,
+      "FullScreen": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "BiochemicalMainPage": {
+      "PageName": "BiochemicalMainPage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/Activities/Biochemical/WBP_Biochemical_Main.WBP_Biochemical_Main_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 25,
+      "FullScreen": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "BiochemicalMilestonePage": {
+      "PageName": "BiochemicalMilestonePage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/Activities/Biochemical/WBP_Biochemical_Milestone.WBP_Biochemical_Milestone_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 26,
+      "FullScreen": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "BiochemicalArchivePage": {
+      "PageName": "BiochemicalArchivePage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/Activities/Biochemical/WBP_Biochemical_Archives.WBP_Biochemical_Archives_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 26,
+      "FullScreen": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "BiochemicalInfoPage": {
+      "PageName": "BiochemicalInfoPage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/Activities/Biochemical/WBP_Biochemical_Explain.WBP_Biochemical_Explain_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 26,
+      "FullScreen": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "BiochemicalInfoCenterPage": {
+      "PageName": "BiochemicalInfoCenterPage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/Activities/Biochemical/WBP_Biochemical_Information.WBP_Biochemical_Information_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 26,
+      "FullScreen": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "BiochemicalInvitationPage": {
+      "PageName": "BiochemicalInvitationPage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/Activities/Biochemical/WBP_Biochemical_Phone.WBP_Biochemical_Phone_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 26,
+      "FullScreen": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "BiochemicalLevelUpPage": {
+      "PageName": "BiochemicalLevelUpPage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/Activities/Biochemical/WBP_Biochemical_LevelUp.WBP_Biochemical_LevelUp_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 27,
+      "FullScreen": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "RoguelikeCardPage": {
+      "PageName": "RoguelikeCardPage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/InGame/NonResidentFunctions/Roguelike/RoguelikeCard/WBP_RoguelikeCardPanel.WBP_RoguelikeCardPanel_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Top",
+      "Order": 100,
+      "FullScreen": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "RoguelikeCardSelectPage": {
+      "PageName": "RoguelikeCardSelectPage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/InGame/NonResidentFunctions/Roguelike/RoguelikeCard/WBP_RoguelikeCardSelectPanel.WBP_RoguelikeCardSelectPanel_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 100,
       "FullScreen": false,
       "SlotNameList": [],
       "Anchors": {

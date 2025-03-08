@@ -265,6 +265,14 @@
       "Tag": "State.PEnergy.Empty",
       "DevComment": "技能能量空"
     },
+    "State.PEnergy.High": {
+      "Tag": "State.PEnergy.High",
+      "DevComment": "高被动P能量"
+    },
+    "State.PEnergy.Low": {
+      "Tag": "State.PEnergy.Low",
+      "DevComment": "低被动P能量"
+    },
     "State.QEnergy.Full": {
       "Tag": "State.QEnergy.Full",
       "DevComment": "技能能量满"
@@ -820,6 +828,150 @@
     "State.Player.CastlingFail": {
       "Tag": "State.Player.CastlingFail",
       "DevComment": "加拉蒂亚传送失败"
+    },
+    "State.Player.PrepRole": {
+      "Tag": "State.Player.PrepRole",
+      "DevComment": "预备角色"
+    },
+    "State.Player.PrepRole.Zombie.Master": {
+      "Tag": "State.Player.PrepRole.Zombie.Master",
+      "DevComment": "预备生化母体"
+    },
+    "State.Player.PrepRole.Zombie.Normal": {
+      "Tag": "State.Player.PrepRole.Zombie.Normal",
+      "DevComment": "预备生化子体"
+    },
+    "State.Player.PrepRole.Zombie.Ultimate": {
+      "Tag": "State.Player.PrepRole.Zombie.Ultimate",
+      "DevComment": "预备生化终极体"
+    },
+    "State.Player.InBuilding": {
+      "Tag": "State.Player.InBuilding",
+      "DevComment": "在建筑物内"
+    },
+    "State.Player.BulletUpgraded": {
+      "Tag": "State.Player.BulletUpgraded",
+      "DevComment": "角色子弹强化"
+    },
+    "State.Player.AllowedChangeRole": {
+      "Tag": "State.Player.AllowedChangeRole",
+      "DevComment": "允许换角"
+    },
+    "State.Player.AllowedChangeRole.Human.Hero": {
+      "Tag": "State.Player.AllowedChangeRole.Human.Hero",
+      "DevComment": "生化允许换英雄"
+    },
+    "State.Player.AllowedChangeRole.Zombie.Normal": {
+      "Tag": "State.Player.AllowedChangeRole.Zombie.Normal",
+      "DevComment": "生化允许换子体"
+    },
+    "State.Player.AllowedChangeRole.Zombie.Master": {
+      "Tag": "State.Player.AllowedChangeRole.Zombie.Master",
+      "DevComment": "生化允许换母体"
+    },
+    "State.Player.AllowedChangeRole.Zombie.Ultimate": {
+      "Tag": "State.Player.AllowedChangeRole.Zombie.Ultimate",
+      "DevComment": "生化允许换终极体"
+    },
+    "State.Player.UpgradeSelect.A": {
+      "Tag": "State.Player.UpgradeSelect.A",
+      "DevComment": "升级路线A"
+    },
+    "State.Player.UpgradeSelect.B": {
+      "Tag": "State.Player.UpgradeSelect.B",
+      "DevComment": "升级路线B"
+    },
+    "State.Player.Hero.Blocked": {
+      "Tag": "State.Player.Hero.Blocked",
+      "DevComment": "禁止变身英雄"
+    },
+    "State.GameState.RandomBuff.Human.AllHeadShot": {
+      "Tag": "State.GameState.RandomBuff.Human.AllHeadShot",
+      "DevComment": "主武器,副武器造成的所有伤害都视作爆头伤害"
+    },
+    "State.GameState.RandomBuff.Human.ClosedBuff": {
+      "Tag": "State.GameState.RandomBuff.Human.ClosedBuff",
+      "DevComment": "僵尸和玩家自己距离越近,僵尸收到的伤害越高"
+    },
+    "State.GameState.RandomBuff.Human.MultiBuff": {
+      "Tag": "State.GameState.RandomBuff.Human.MultiBuff",
+      "DevComment": "玩家附近每有1个人类,攻击力增加"
+    },
+    "State.GameState.RandomBuff.Human.SoloBuff": {
+      "Tag": "State.GameState.RandomBuff.Human.SoloBuff",
+      "DevComment": "玩家附近无其他人类时,攻击力增加"
+    },
+    "State.GameState.RandomBuff.Zombie.KilForMoreSpeed": {
+      "Tag": "State.GameState.RandomBuff.Zombie.KilForMoreSpeed",
+      "DevComment": "每次捡到补给箱,可以永久增加移速,有上限,当回合生效"
+    },
+    "State.GameState.RandomBuff.Zombie.OneForAll": {
+      "Tag": "State.GameState.RandomBuff.Zombie.OneForAll",
+      "DevComment": "自己死亡时,XX范围内的所有僵尸将瞬间增加血量,超出上限的无效"
+    },
+    "State.GameState.RandomBuff.Zombie.OverGrowth": {
+      "Tag": "State.GameState.RandomBuff.Zombie.OverGrowth",
+      "DevComment": "僵尸升级系统中的获取经验值速度增加"
+    },
+    "State.GameState.RandomBuff.Zombie.WindFall": {
+      "Tag": "State.GameState.RandomBuff.Zombie.WindFall",
+      "DevComment": "僵尸捡补给箱时,额外增加僵尸升级系统的经验值"
+    },
+    "State.GameState.RandomBuff.Zombie.ZombieKillHour": {
+      "Tag": "State.GameState.RandomBuff.Zombie.ZombieKillHour",
+      "DevComment": "每击杀一个人类,增加伤害,血量值,血量上限,当回合生效"
+    },
+    "State.Player.AllHeadShot": {
+      "Tag": "State.Player.AllHeadShot",
+      "DevComment": "所有伤害视为爆头"
+    },
+    "State.Player.SoloBuff.Interrupt": {
+      "Tag": "State.Player.SoloBuff.Interrupt",
+      "DevComment": "打断SoloBuff效果"
+    },
+    "State.Player.IgnoreBodyDamageFactor.Head": {
+      "Tag": "State.Player.IgnoreBodyDamageFactor.Head",
+      "DevComment": "无视身体伤害加成,爆头伤害"
+    },
+    "State.Summon.C.Galatea": {
+      "Tag": "State.Summon.C.Galatea",
+      "DevComment": "加拉蒂亚C技能闪光状态"
+    },
+    "State.Player.Skill.P": {
+      "Tag": "State.Player.Skill.P",
+      "DevComment": "被动技能"
+    },
+    "State.Player.Skill.Q": {
+      "Tag": "State.Player.Skill.Q",
+      "DevComment": "主动技能"
+    },
+    "State.Player.Skill.X": {
+      "Tag": "State.Player.Skill.X",
+      "DevComment": "终极技能"
+    },
+    "State.Player.Skill.E": {
+      "Tag": "State.Player.Skill.E",
+      "DevComment": "E技能"
+    },
+    "State.Player.DisableUseGraffiti": {
+      "Tag": "State.Player.DisableUseGraffiti",
+      "DevComment": "禁止使用喷漆"
+    },
+    "State.Player.DisableUseWheel": {
+      "Tag": "State.Player.DisableUseWheel",
+      "DevComment": "禁止使用轮盘"
+    },
+    "State.Player.DisableUseWheel.Tactic": {
+      "Tag": "State.Player.DisableUseWheel.Tactic",
+      "DevComment": "禁止使用战术轮盘"
+    },
+    "State.Player.DisableUseWheel.Personality": {
+      "Tag": "State.Player.DisableUseWheel.Personality",
+      "DevComment": "禁止使用个性化轮盘"
+    },
+    "State.Player.DisableUseWheel.Mark": {
+      "Tag": "State.Player.DisableUseWheel.Mark",
+      "DevComment": "禁止使用标点轮盘"
     }
   }
 }

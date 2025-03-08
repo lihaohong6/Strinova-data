@@ -40,7 +40,8 @@
         "EPMGameModeType::HideSeek",
         "EPMGameModeType::SnowBall",
         "EPMGameModeType::BombGuide",
-        "EPMGameModeType::TeamGuide"
+        "EPMGameModeType::TeamGuide",
+        "EPMGameModeType::Zombie"
       ],
       "ShowGameStateTypes": [
         "EGStateType::Warmup",
@@ -105,7 +106,8 @@
       "ShowModeTypes": [],
       "HideModeTypes": [
         "EPMGameModeType::NoviceGuide",
-        "EPMGameModeType::BombGuide"
+        "EPMGameModeType::BombGuide",
+        "EPMGameModeType::Zombie"
       ],
       "ShowGameStateTypes": [],
       "HideGameStateTypes": [
@@ -300,6 +302,27 @@
       ],
       "ShowCharacterStateTypes": [],
       "HideCharacterStateTypes": [],
+      "bNeedsHideInReplayMode": false
+    },
+    "RoguelikeCardPage": {
+      "ShowModeTypes": [],
+      "HideModeTypes": [],
+      "ShowGameStateTypes": [
+        "EGStateType::Warmup",
+        "EGStateType::Fight",
+        "EGStateType::FightPlaced",
+        "EGStateType::Prepare",
+        "EGStateType::FightEnd",
+        "EGStateType::FightSecond"
+      ],
+      "HideGameStateTypes": [
+        "EGStateType::GameEnd",
+        "EGStateType::GameOver"
+      ],
+      "ShowCharacterStateTypes": [],
+      "HideCharacterStateTypes": [
+        "ECStateType::Death"
+      ],
       "bNeedsHideInReplayMode": false
     }
   }
