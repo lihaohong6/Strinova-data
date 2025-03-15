@@ -15,7 +15,7 @@
       "RoleLevel": 5,
       "MissionName": {
         "Namespace": "RoleFavorabilityMission",
-        "Key": "40007_MissionName",
+        "Key": "40001_MissionName",
         "SourceString": "誓约任务·五",
         "LocalizedString": "誓约任务·五"
       },
@@ -64,7 +64,8 @@
             "SkillTypes": [],
             "Num": 5,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
-            "EventTargetTeamRole": "ECyTaskTeamRoleType::None"
+            "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
+            "BehaviorId": 0
           },
           "LimitConditions": []
         }
@@ -80,7 +81,7 @@
       "RoleLevel": 10,
       "MissionName": {
         "Namespace": "RoleFavorabilityMission",
-        "Key": "40008_MissionName",
+        "Key": "40002_MissionName",
         "SourceString": "誓约任务·十",
         "LocalizedString": "誓约任务·十"
       },
@@ -133,7 +134,147 @@
             "SkillTypes": [],
             "Num": 10000,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
-            "EventTargetTeamRole": "ECyTaskTeamRoleType::None"
+            "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
+            "BehaviorId": 0
+          },
+          "LimitConditions": []
+        }
+      ],
+      "TaskLimit": {
+        "GameTypes": [],
+        "ModeTypes": []
+      }
+    },
+    "40001": {
+      "Id": 40001,
+      "RoleId": 101,
+      "RoleLevel": 5,
+      "MissionName": {
+        "Namespace": "RoleFavorabilityMission",
+        "Key": "40001_MissionName",
+        "SourceString": "誓约任务·五",
+        "LocalizedString": "誓约任务·五"
+      },
+      "Desc": {
+        "Namespace": "RoleFavorabilityMission",
+        "Key": "40001_Desc",
+        "SourceString": "累计使用米雪儿技能30次",
+        "LocalizedString": "累计使用米雪儿技能30次"
+      },
+      "MissionAvgId": 0,
+      "MissionSeqId": 0,
+      "Type": 4,
+      "Prize": [
+        {
+          "ItemId": 10101051,
+          "ItemAmount": 1
+        }
+      ],
+      "TaskConditions": [
+        {
+          "MainCondition": {
+            "MainType": "ECyTaskMainConditionType::Battle",
+            "GameCondition": "ECyTaskGameConditionType::None",
+            "GameResult": "ECyGameResultType::None",
+            "RoundResult": "ECyRoundResultType::None",
+            "bFriendTeam": false,
+            "bNoFriendTeam": false,
+            "BattleCondition": "ECyTaskBattleConditionType::UseSkillNum",
+            "bHeadshot": false,
+            "bHitBody": false,
+            "bFirstKill": false,
+            "bRevenge": false,
+            "MultiKillLimit": 0,
+            "HitDistLimit": 0,
+            "bBlind": false,
+            "ActionCondition": "ECyTaskActionConditionType::None",
+            "RoleIds": [
+              101
+            ],
+            "RoleProfessions": [],
+            "RoleTeams": [],
+            "MeshModes": [],
+            "EnemyMeshModes": [],
+            "WeaponTypes": [],
+            "WeaponHoldType": [],
+            "SkillTypes": [
+              "ECyPlayerSkillType::Q",
+              "ECyPlayerSkillType::X"
+            ],
+            "Num": 30,
+            "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
+            "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
+            "BehaviorId": 0
+          },
+          "LimitConditions": []
+        }
+      ],
+      "TaskLimit": {
+        "GameTypes": [],
+        "ModeTypes": []
+      }
+    },
+    "40002": {
+      "Id": 40002,
+      "RoleId": 101,
+      "RoleLevel": 10,
+      "MissionName": {
+        "Namespace": "RoleFavorabilityMission",
+        "Key": "40002_MissionName",
+        "SourceString": "誓约任务·十",
+        "LocalizedString": "誓约任务·十"
+      },
+      "Desc": {
+        "Namespace": "RoleFavorabilityMission",
+        "Key": "40002_Desc",
+        "SourceString": "累积使用米雪儿造成10000点伤害",
+        "LocalizedString": "累积使用米雪儿造成10000点伤害"
+      },
+      "MissionAvgId": 101102000,
+      "MissionSeqId": 0,
+      "Type": 4,
+      "Prize": [
+        {
+          "ItemId": 20101201,
+          "ItemAmount": 1
+        },
+        {
+          "ItemId": 31002001,
+          "ItemAmount": 1
+        }
+      ],
+      "TaskConditions": [
+        {
+          "MainCondition": {
+            "MainType": "ECyTaskMainConditionType::Battle",
+            "GameCondition": "ECyTaskGameConditionType::None",
+            "GameResult": "ECyGameResultType::None",
+            "RoundResult": "ECyRoundResultType::None",
+            "bFriendTeam": false,
+            "bNoFriendTeam": false,
+            "BattleCondition": "ECyTaskBattleConditionType::DamageNum",
+            "bHeadshot": false,
+            "bHitBody": false,
+            "bFirstKill": false,
+            "bRevenge": false,
+            "MultiKillLimit": 0,
+            "HitDistLimit": 0,
+            "bBlind": false,
+            "ActionCondition": "ECyTaskActionConditionType::None",
+            "RoleIds": [
+              101
+            ],
+            "RoleProfessions": [],
+            "RoleTeams": [],
+            "MeshModes": [],
+            "EnemyMeshModes": [],
+            "WeaponTypes": [],
+            "WeaponHoldType": [],
+            "SkillTypes": [],
+            "Num": 10000,
+            "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
+            "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
+            "BehaviorId": 0
           },
           "LimitConditions": []
         }

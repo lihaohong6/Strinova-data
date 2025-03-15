@@ -2629,21 +2629,29 @@
       "Tag": "Event.GameState.MonitorWaveTimer.TimeLeft.Third",
       "DevComment": "GS波次计时器3剩余时间变化事件"
     },
-    "Event.ExpLevel.LevelChanged.Player.HumanNormal": {
-      "Tag": "Event.ExpLevel.LevelChanged.Player.HumanNormal",
+    "Event.Level.LevelChanged.Player.HumanNormal": {
+      "Tag": "Event.Level.LevelChanged.Player.HumanNormal",
       "DevComment": "普通人类等级变化"
     },
-    "Event.ExpLevel.MaxLevelChanged.Player.HumanNormal": {
-      "Tag": "Event.ExpLevel.MaxLevelChanged.Player.HumanNormal",
+    "Event.Level.MaxLevelChanged.Player.HumanNormal": {
+      "Tag": "Event.Level.MaxLevelChanged.Player.HumanNormal",
       "DevComment": "普通人类最大等级变化"
+    },
+    "Event.ExpLevel.LevelChanged.Player.Human": {
+      "Tag": "Event.ExpLevel.LevelChanged.Player.Human",
+      "DevComment": "人类角色Exp等级变化"
+    },
+    "Event.ExpLevel.ExpChanged.Player.Human": {
+      "Tag": "Event.ExpLevel.ExpChanged.Player.Human",
+      "DevComment": "人类角色Exp经验变化"
     },
     "Event.ExpLevel.LevelChanged.Player.Zombie": {
       "Tag": "Event.ExpLevel.LevelChanged.Player.Zombie",
-      "DevComment": "僵尸角色等级变化"
+      "DevComment": "僵尸角色Exp等级变化"
     },
     "Event.ExpLevel.ExpChanged.Player.Zombie": {
       "Tag": "Event.ExpLevel.ExpChanged.Player.Zombie",
-      "DevComment": "僵尸角色经验变化"
+      "DevComment": "僵尸角色Exp经验变化"
     },
     "Event.Summon.Spawn.CrystalloidBeta1.E.Projectile": {
       "Tag": "Event.Summon.Spawn.CrystalloidBeta1.E.Projectile",
@@ -2808,6 +2816,178 @@
     "Event.Summon.TakeDamage.Reiichi.X": {
       "Tag": "Event.Summon.TakeDamage.Reiichi.X",
       "DevComment": "令铁墙受到伤害"
+    },
+    "Event.Accumulator.Lawine.P.Primary": {
+      "Tag": "Event.Accumulator.Lawine.P.Primary",
+      "DevComment": "拉薇被动主武器伤害累计触发事件"
+    },
+    "Event.Accumulator.Lawine.P.PlayerWeapon": {
+      "Tag": "Event.Accumulator.Lawine.P.PlayerWeapon",
+      "DevComment": "拉薇被动武器伤害累计触发事件"
+    },
+    "Event.PlayerDeath.Lawine.P": {
+      "Tag": "Event.PlayerDeath.Lawine.P",
+      "DevComment": "拉薇被动监听玩家死亡事件"
+    },
+    "Event.MonitorWaveTimer.One": {
+      "Tag": "Event.MonitorWaveTimer.One",
+      "DevComment": "GS波次计时器1时间变化事件"
+    },
+    "Event.MonitorWaveTimer.Two": {
+      "Tag": "Event.MonitorWaveTimer.Two",
+      "DevComment": "GS波次计时器2时间变化事件"
+    },
+    "Event.MonitorWaveTimer.Three": {
+      "Tag": "Event.MonitorWaveTimer.Three",
+      "DevComment": "GS波次计时器3时间变化事件"
+    },
+    "Event.MonitorWaveTimer.Four": {
+      "Tag": "Event.MonitorWaveTimer.Four",
+      "DevComment": "GS波次计时器4时间变化事件"
+    },
+    "Event.MonitorWaveTimer.Five": {
+      "Tag": "Event.MonitorWaveTimer.Five",
+      "DevComment": "GS波次计时器5时间变化事件"
+    },
+    "Event.MonitorWaveTimer.Six": {
+      "Tag": "Event.MonitorWaveTimer.Six",
+      "DevComment": "GS波次计时器6时间变化事件"
+    },
+    "Event.Card.TaskPointChanged": {
+      "Tag": "Event.Card.TaskPointChanged",
+      "DevComment": "卡牌任务点数变化"
+    },
+    "Event.ChangeRole.Human.Hero": {
+      "Tag": "Event.ChangeRole.Human.Hero",
+      "DevComment": "生化模式变英雄"
+    },
+    "Event.ExpLevel.LevelChanged.Player.Human.Ability": {
+      "Tag": "Event.ExpLevel.LevelChanged.Player.Human.Ability",
+      "DevComment": "人类能力Exp等级变化"
+    },
+    "Event.ExpLevel.ExpChanged.Player.Human.Ability": {
+      "Tag": "Event.ExpLevel.ExpChanged.Player.Human.Ability",
+      "DevComment": "人类能力Exp经验变化"
+    },
+    "Event.ExpLevel.LevelChanged.Player.Human.Weapon": {
+      "Tag": "Event.ExpLevel.LevelChanged.Player.Human.Weapon",
+      "DevComment": "人类武器Exp等级变化"
+    },
+    "Event.ExpLevel.ExpChanged.Player.Human.Weapon": {
+      "Tag": "Event.ExpLevel.ExpChanged.Player.Human.Weapon",
+      "DevComment": "人类武器Exp经验变化"
+    },
+    "Event.Ability.Activate": {
+      "Tag": "Event.Ability.Activate",
+      "DevComment": "技能激活"
+    },
+    "Event.Ability.PreEnd": {
+      "Tag": "Event.Ability.PreEnd",
+      "DevComment": "技能即将结束"
+    },
+    "Event.Ability.PostEnd": {
+      "Tag": "Event.Ability.PostEnd",
+      "DevComment": "技能结束"
+    },
+    "Event.Pickup.CardBox": {
+      "Tag": "Event.Pickup.CardBox",
+      "DevComment": "拾取卡牌箱子"
+    },
+    "Event.Accumulator.Michele.P.Weapon": {
+      "Tag": "Event.Accumulator.Michele.P.Weapon",
+      "DevComment": "米雪儿被动武器伤害累计触发事件"
+    },
+    "Event.Accumulator.Michele.P.Skill": {
+      "Tag": "Event.Accumulator.Michele.P.Skill",
+      "DevComment": "米雪儿被动技能伤害累计触发事件"
+    },
+    "Event.Game.OnTriggerBeginEvent": {
+      "Tag": "Event.Game.OnTriggerBeginEvent",
+      "DevComment": "进入触发器"
+    },
+    "Event.Game.OnTriggerEndEvent": {
+      "Tag": "Event.Game.OnTriggerEndEvent",
+      "DevComment": "离开触发器"
+    },
+    "Event.Summon.Spawn.Mara.Q": {
+      "Tag": "Event.Summon.Spawn.Mara.Q",
+      "DevComment": "玛拉Q技能子弹生成"
+    },
+    "Event.Summon.Leave.Mara.E": {
+      "Tag": "Event.Summon.Leave.Mara.E",
+      "DevComment": "玛拉E技能召唤物Leave状态事件"
+    },
+    "Event.Summon.Spawn.Mara.E": {
+      "Tag": "Event.Summon.Spawn.Mara.E",
+      "DevComment": "玛拉E技能召唤物生成"
+    },
+    "Event.HitActor.Payload": {
+      "Tag": "Event.HitActor.Payload",
+      "DevComment": "武器命中推车"
+    },
+    "Event.Summon.Leave.Mara.X": {
+      "Tag": "Event.Summon.Leave.Mara.X",
+      "DevComment": "玛拉X技能召唤物Leave状态事件"
+    },
+    "Event.GameState.AddPlayerState": {
+      "Tag": "Event.GameState.AddPlayerState",
+      "DevComment": "PlayerState登入"
+    },
+    "Event.GameState.RemovePlayerState": {
+      "Tag": "Event.GameState.RemovePlayerState",
+      "DevComment": "PlayerState登出"
+    },
+    "Event.Summon.Spawn.Michele.E": {
+      "Tag": "Event.Summon.Spawn.Michele.E",
+      "DevComment": "米雪儿E技能召唤物出生"
+    },
+    "Event.Summon.Spawn.Meredith.E.Projectile": {
+      "Tag": "Event.Summon.Spawn.Meredith.E.Projectile",
+      "DevComment": "梅瑞迪斯E技能子弹出生"
+    },
+    "Event.Summon.Spawn.Lawine.Q.Projectile": {
+      "Tag": "Event.Summon.Spawn.Lawine.Q.Projectile",
+      "DevComment": "拉薇Q技能子弹出生"
+    },
+    "Event.Summon.Spawn.Lawine.E.Projectile": {
+      "Tag": "Event.Summon.Spawn.Lawine.E.Projectile",
+      "DevComment": "拉薇E技能子弹出生"
+    },
+    "Event.Summon.Spawn.Kanami.E.Projectile": {
+      "Tag": "Event.Summon.Spawn.Kanami.E.Projectile",
+      "DevComment": "香奈美E技能子弹出生"
+    },
+    "Event.Summon.Spawn.Aika.E.Projectile": {
+      "Tag": "Event.Summon.Spawn.Aika.E.Projectile",
+      "DevComment": "艾卡E技能子弹出生"
+    },
+    "Event.Summon.Spawn.Huixing.E.Projectile": {
+      "Tag": "Event.Summon.Spawn.Huixing.E.Projectile",
+      "DevComment": "星绘E技能子弹出生"
+    },
+    "Event.Summon.Spawn.Audery.E.Projectile": {
+      "Tag": "Event.Summon.Spawn.Audery.E.Projectile",
+      "DevComment": "奥黛丽E技能子弹出生"
+    },
+    "Event.Summon.Spawn.MoBai.E.Projectile": {
+      "Tag": "Event.Summon.Spawn.MoBai.E.Projectile",
+      "DevComment": "白墨E技能子弹出生"
+    },
+    "Event.Summon.Spawn.Yvette.E.Projectile": {
+      "Tag": "Event.Summon.Spawn.Yvette.E.Projectile",
+      "DevComment": "伊薇特E技能子弹出生"
+    },
+    "Event.Summon.Spawn.KokonaShiki.E.Projectile": {
+      "Tag": "Event.Summon.Spawn.KokonaShiki.E.Projectile",
+      "DevComment": "心夏E技能子弹出生"
+    },
+    "Event.Summon.Spawn.Nobunaga.E.Projectile": {
+      "Tag": "Event.Summon.Spawn.Nobunaga.E.Projectile",
+      "DevComment": "信长E技能子弹出生"
+    },
+    "Event.HitActor.Skill": {
+      "Tag": "Event.HitActor.Skill",
+      "DevComment": "技能命中"
     }
   }
 }
