@@ -20890,6 +20890,220 @@
       "Level": 0,
       "Circle": false,
       "AutoReward": false
+    },
+    "50290": {
+      "Id": 50290,
+      "ActivityId": 10099,
+      "NextTaskId": 0,
+      "GroupId": 0,
+      "Title": {
+        "CultureInvariantString": null
+      },
+      "Desc": {
+        "Namespace": "ActivityTask",
+        "Key": "50010_Desc",
+        "SourceString": "登录游戏",
+        "LocalizedString": "登录游戏"
+      },
+      "Type": 5,
+      "UniqueType": 0,
+      "WebTask": false,
+      "DayFlush": true,
+      "WeekFlush": false,
+      "RoleId": 0,
+      "Israndom": false,
+      "Prize": [
+        {
+          "ItemId": 50079,
+          "ItemAmount": 30
+        }
+      ],
+      "TaskConditions": [
+        {
+          "MainCondition": {
+            "MainType": "ECyTaskMainConditionType::Lobby",
+            "GameCondition": "ECyTaskGameConditionType::None",
+            "GameResult": "ECyGameResultType::None",
+            "RoundResult": "ECyRoundResultType::None",
+            "bFriendTeam": false,
+            "bNoFriendTeam": false,
+            "BattleCondition": "ECyTaskBattleConditionType::None",
+            "bHeadshot": false,
+            "bHitBody": false,
+            "bFirstKill": false,
+            "bRevenge": false,
+            "MultiKillLimit": 0,
+            "HitDistLimit": 0,
+            "bBlind": false,
+            "ActionCondition": "ECyTaskActionConditionType::None",
+            "RoleIds": [],
+            "RoleProfessions": [],
+            "RoleTeams": [],
+            "MeshModes": [],
+            "EnemyMeshModes": [],
+            "WeaponTypes": [],
+            "WeaponHoldType": [],
+            "SkillTypes": [],
+            "Num": 1,
+            "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
+            "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
+            "BehaviorId": 15
+          },
+          "LimitConditions": []
+        }
+      ],
+      "TaskLimit": {
+        "GameTypes": [],
+        "ModeTypes": []
+      },
+      "GoTo": 0,
+      "Level": 0,
+      "Circle": false,
+      "AutoReward": true
+    },
+    "50291": {
+      "Id": 50291,
+      "ActivityId": 10099,
+      "NextTaskId": 0,
+      "GroupId": 0,
+      "Title": {
+        "CultureInvariantString": null
+      },
+      "Desc": {
+        "Namespace": "ActivityTask",
+        "Key": "50162_Desc",
+        "SourceString": "累计完成2场任意模式比赛",
+        "LocalizedString": "累计完成2场任意模式比赛"
+      },
+      "Type": 5,
+      "UniqueType": 0,
+      "WebTask": false,
+      "DayFlush": true,
+      "WeekFlush": false,
+      "RoleId": 0,
+      "Israndom": false,
+      "Prize": [
+        {
+          "ItemId": 50079,
+          "ItemAmount": 40
+        }
+      ],
+      "TaskConditions": [
+        {
+          "MainCondition": {
+            "MainType": "ECyTaskMainConditionType::Game",
+            "GameCondition": "ECyTaskGameConditionType::GameNum",
+            "GameResult": "ECyGameResultType::None",
+            "RoundResult": "ECyRoundResultType::None",
+            "bFriendTeam": false,
+            "bNoFriendTeam": false,
+            "BattleCondition": "ECyTaskBattleConditionType::None",
+            "bHeadshot": false,
+            "bHitBody": false,
+            "bFirstKill": false,
+            "bRevenge": false,
+            "MultiKillLimit": 0,
+            "HitDistLimit": 0,
+            "bBlind": false,
+            "ActionCondition": "ECyTaskActionConditionType::None",
+            "RoleIds": [],
+            "RoleProfessions": [],
+            "RoleTeams": [],
+            "MeshModes": [],
+            "EnemyMeshModes": [],
+            "WeaponTypes": [],
+            "WeaponHoldType": [],
+            "SkillTypes": [],
+            "Num": 2,
+            "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
+            "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
+            "BehaviorId": 0
+          },
+          "LimitConditions": []
+        }
+      ],
+      "TaskLimit": {
+        "GameTypes": [],
+        "ModeTypes": []
+      },
+      "GoTo": 1,
+      "Level": 0,
+      "Circle": false,
+      "AutoReward": true
+    },
+    "50292": {
+      "Id": 50292,
+      "ActivityId": 10099,
+      "NextTaskId": 0,
+      "GroupId": 0,
+      "Title": {
+        "CultureInvariantString": null
+      },
+      "Desc": {
+        "Namespace": "ActivityTask",
+        "Key": "50289_Desc",
+        "SourceString": "累计使用10次超弦体技能",
+        "LocalizedString": "累计使用10次超弦体技能"
+      },
+      "Type": 5,
+      "UniqueType": 0,
+      "WebTask": false,
+      "DayFlush": true,
+      "WeekFlush": false,
+      "RoleId": 0,
+      "Israndom": false,
+      "Prize": [
+        {
+          "ItemId": 50079,
+          "ItemAmount": 40
+        }
+      ],
+      "TaskConditions": [
+        {
+          "MainCondition": {
+            "MainType": "ECyTaskMainConditionType::Battle",
+            "GameCondition": "ECyTaskGameConditionType::None",
+            "GameResult": "ECyGameResultType::None",
+            "RoundResult": "ECyRoundResultType::None",
+            "bFriendTeam": false,
+            "bNoFriendTeam": false,
+            "BattleCondition": "ECyTaskBattleConditionType::UseSkillNum",
+            "bHeadshot": false,
+            "bHitBody": false,
+            "bFirstKill": false,
+            "bRevenge": false,
+            "MultiKillLimit": 0,
+            "HitDistLimit": 0,
+            "bBlind": false,
+            "ActionCondition": "ECyTaskActionConditionType::None",
+            "RoleIds": [],
+            "RoleProfessions": [],
+            "RoleTeams": [],
+            "MeshModes": [],
+            "EnemyMeshModes": [],
+            "WeaponTypes": [],
+            "WeaponHoldType": [],
+            "SkillTypes": [
+              "ECyPlayerSkillType::Q",
+              "ECyPlayerSkillType::X",
+              "ECyPlayerSkillType::E"
+            ],
+            "Num": 20,
+            "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
+            "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
+            "BehaviorId": 0
+          },
+          "LimitConditions": []
+        }
+      ],
+      "TaskLimit": {
+        "GameTypes": [],
+        "ModeTypes": []
+      },
+      "GoTo": 1,
+      "Level": 0,
+      "Circle": false,
+      "AutoReward": true
     }
   }
 }
