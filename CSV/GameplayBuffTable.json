@@ -41,9 +41,9 @@
       "Tag": "Buff.Fuchsia.ArousalTwo.InjuredHealth",
       "DevComment": "菲莎被动觉醒2倒地生命GE"
     },
-    "Buff.Strong.ExtraHealthMax.P.Fuchsia": {
-      "Tag": "Buff.Strong.ExtraHealthMax.P.Fuchsia",
-      "DevComment": "绯莎被动血量上限提升buff"
+    "Buff.Strong.ExtraHealthMax": {
+      "Tag": "Buff.Strong.ExtraHealthMax",
+      "DevComment": "血量上限提升buff"
     },
     "Buff.Weak.XRay.Q.Fuchsia": {
       "Tag": "Buff.Weak.XRay.Q.Fuchsia",
@@ -65,8 +65,8 @@
       "Tag": "Buff.Stealth.ArousalTwo.Galatea",
       "DevComment": "加拉蒂亚觉醒2隐身Buff"
     },
-    "Buff.Stealth.Q.Fissioner1": {
-      "Tag": "Buff.Stealth.Q.Fissioner1",
+    "Buff.Stealth.Q.Fissioner": {
+      "Tag": "Buff.Stealth.Q.Fissioner",
       "DevComment": "小鬼隐身"
     },
     "Buff.Weak.XRay.P.Reiichi": {
@@ -129,12 +129,16 @@
       "Tag": "Buff.Strong.IgnoreDamage",
       "DevComment": "忽略伤害"
     },
-    "Buff.Strong.IgnoreSlowUp.Q.Fissioner1": {
-      "Tag": "Buff.Strong.IgnoreSlowUp.Q.Fissioner1",
+    "Buff.Strong.IgnoreSlowUp.Q.Fissioner": {
+      "Tag": "Buff.Strong.IgnoreSlowUp.Q.Fissioner",
       "DevComment": "小鬼忽略减速"
     },
-    "Buff.Strong.ReduceDamage.Q.CrystalloidAlpha": {
-      "Tag": "Buff.Strong.ReduceDamage.Q.CrystalloidAlpha",
+    "Buff.Strong.IgnoreSlowUp.X.CrystalloidAlpha": {
+      "Tag": "Buff.Strong.IgnoreSlowUp.X.CrystalloidAlpha",
+      "DevComment": "大鬼忽略减速"
+    },
+    "Buff.Strong.ReduceDamage.X.CrystalloidAlpha": {
+      "Tag": "Buff.Strong.ReduceDamage.X.CrystalloidAlpha",
       "DevComment": "大鬼减伤"
     },
     "Buff.Weak.InvalidHealth.Value1": {
@@ -721,9 +725,149 @@
       "Tag": "Buff.Strong.AddArmorCD.P.Aika",
       "DevComment": "Aika被动恢复护甲CD(移动端用)"
     },
+    "Buff.Strong.HealthRecover.GameMode": {
+      "Tag": "Buff.Strong.HealthRecover.GameMode",
+      "DevComment": "玩法Buff回血"
+    },
     "Buff.Strong.ArmorRecover.GameMode": {
       "Tag": "Buff.Strong.ArmorRecover.GameMode",
       "DevComment": "玩法Buff回甲"
+    },
+    "Buff.Strong.P.Mara.CauseDamageFactor": {
+      "Tag": "Buff.Strong.P.Mara.CauseDamageFactor",
+      "DevComment": "玛拉P技能增伤Buff"
+    },
+    "Buff.Strong.E.Mara.StealthLow": {
+      "Tag": "Buff.Strong.E.Mara.StealthLow",
+      "DevComment": "玛拉C技能隐身加速Buff Low"
+    },
+    "Buff.Strong.E.Mara.StealthHigh": {
+      "Tag": "Buff.Strong.E.Mara.StealthHigh",
+      "DevComment": "玛拉C技能隐身加速Buff High"
+    },
+    "Buff.Strong.ArousalOne.Mara": {
+      "Tag": "Buff.Strong.ArousalOne.Mara",
+      "DevComment": "玛拉觉醒1强化Buff"
+    },
+    "Buff.Weak.Arousal2.Mara.DisableAim": {
+      "Tag": "Buff.Weak.Arousal2.Mara.DisableAim",
+      "DevComment": "玛拉觉醒2圈内眩晕敌人WeekBuff"
+    },
+    "Buff.Weak.Arousal2.Mara.SpeedSlow": {
+      "Tag": "Buff.Weak.Arousal2.Mara.SpeedSlow",
+      "DevComment": "玛拉觉醒2圈外减速敌人WeekBuff"
+    },
+    "Buff.Strong.X.Mara": {
+      "Tag": "Buff.Strong.X.Mara",
+      "DevComment": "玛拉大招死神来了标记自身的StrongBuff"
+    },
+    "Buff.Weak.X.Mara": {
+      "Tag": "Buff.Weak.X.Mara",
+      "DevComment": "玛拉大招死神印记标记受击者的WeakBuff"
+    },
+    "Buff.Strong.E.Mara.SkillDuration": {
+      "Tag": "Buff.Strong.E.Mara.SkillDuration",
+      "DevComment": "玛拉C技能持续时间强化Buff"
+    },
+    "Buff.Weak.Q.Mara": {
+      "Tag": "Buff.Weak.Q.Mara",
+      "DevComment": "玛拉Q技能灵魂出窍目标WeakBuff,灵魂球可受击过程"
+    },
+    "Buff.Weak.Q.MaraBindTag": {
+      "Tag": "Buff.Weak.Q.MaraBindTag",
+      "DevComment": "玛拉Q技能灵魂出窍目标WeakBuff.灵魂球全程"
+    },
+    "Buff.Weak.Q.MaraSummonLeave": {
+      "Tag": "Buff.Weak.Q.MaraSummonLeave",
+      "DevComment": "玛拉Q技能新灵魂球导致旧灵魂球进入Leave的Buff标签"
+    },
+    "Buff.Weak.E.Flavia": {
+      "Tag": "Buff.Weak.E.Flavia",
+      "DevComment": ""
+    },
+    "Buff.Weak.E.Flavia.Inner": {
+      "Tag": "Buff.Weak.E.Flavia.Inner",
+      "DevComment": "芙拉薇娅C技能内圈WeakBuff"
+    },
+    "Buff.Weak.E.Flavia.Outer": {
+      "Tag": "Buff.Weak.E.Flavia.Outer",
+      "DevComment": "芙拉薇娅C技能外圈WeakBuff"
+    },
+    "Buff.Strong.IgnoreFallingDamage": {
+      "Tag": "Buff.Strong.IgnoreFallingDamage",
+      "DevComment": "忽略掉落伤害"
+    },
+    "Buff.Strong.ExtraSlowDownAfterDamage": {
+      "Tag": "Buff.Strong.ExtraSlowDownAfterDamage",
+      "DevComment": "生化卡牌受击额外减速效果"
+    },
+    "Buff.Strong.Card.100130123": {
+      "Tag": "Buff.Strong.Card.100130123",
+      "DevComment": "推车卡牌100130123Buff"
+    },
+    "Buff.Strong.Card.100130124": {
+      "Tag": "Buff.Strong.Card.100130124",
+      "DevComment": "推车卡牌100130124Buff"
+    },
+    "Buff.Strong.Card.100130124Sgin": {
+      "Tag": "Buff.Strong.Card.100130124Sgin",
+      "DevComment": "推车卡牌100130124Sgin"
+    },
+    "Buff.Strong.Card.10013023": {
+      "Tag": "Buff.Strong.Card.10013023",
+      "DevComment": "推车卡牌10013023Buff"
+    },
+    "Buff.Strong.Card.10013024": {
+      "Tag": "Buff.Strong.Card.10013024",
+      "DevComment": "推车卡牌10013024Buff"
+    },
+    "Buff.Strong.Card.10013024Sgin": {
+      "Tag": "Buff.Strong.Card.10013024Sgin",
+      "DevComment": "推车卡牌10013024Sgin"
+    },
+    "Buff.Strong.Card.10013028": {
+      "Tag": "Buff.Strong.Card.10013028",
+      "DevComment": "推车卡牌10013028"
+    },
+    "Buff.Strong.Card.10013028CD": {
+      "Tag": "Buff.Strong.Card.10013028CD",
+      "DevComment": "推车卡牌10013028CD"
+    },
+    "Buff.Strong.Card.10013028Sgin": {
+      "Tag": "Buff.Strong.Card.10013028Sgin",
+      "DevComment": "推车卡牌10013028Sgin"
+    },
+    "Buff.Strong.Card.10013032Sgin": {
+      "Tag": "Buff.Strong.Card.10013032Sgin",
+      "DevComment": "推车卡牌10013032Sgin"
+    },
+    "Buff.Strong.Card.10013032CD": {
+      "Tag": "Buff.Strong.Card.10013032CD",
+      "DevComment": "推车卡牌10013032CD"
+    },
+    "Buff.Strong.Card.10013033": {
+      "Tag": "Buff.Strong.Card.10013033",
+      "DevComment": "推车卡牌10013033"
+    },
+    "Buff.Strong.Card.10013050": {
+      "Tag": "Buff.Strong.Card.10013050",
+      "DevComment": "推车卡牌10013050"
+    },
+    "Buff.Weak.Card.10013016CD": {
+      "Tag": "Buff.Weak.Card.10013016CD",
+      "DevComment": "推车卡牌10013016CD"
+    },
+    "Buff.Strong.Card.10013015": {
+      "Tag": "Buff.Strong.Card.10013015",
+      "DevComment": "推车卡牌10013015"
+    },
+    "Buff.Strong.Card.10013015CD": {
+      "Tag": "Buff.Strong.Card.10013015CD",
+      "DevComment": "推车卡牌10013015CD"
+    },
+    "Buff.Strong.Speed.Q.Fissioner": {
+      "Tag": "Buff.Strong.Speed.Q.Fissioner",
+      "DevComment": "生化僵尸Q技能加速"
     }
   }
 }

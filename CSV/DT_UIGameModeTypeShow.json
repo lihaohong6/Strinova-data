@@ -40,7 +40,8 @@
         "EPMGameModeType::HideSeek",
         "EPMGameModeType::SnowBall",
         "EPMGameModeType::BombGuide",
-        "EPMGameModeType::TeamGuide"
+        "EPMGameModeType::TeamGuide",
+        "EPMGameModeType::Zombie"
       ],
       "ShowGameStateTypes": [
         "EGStateType::Warmup",
@@ -93,7 +94,8 @@
     "BattleDataPage": {
       "ShowModeTypes": [],
       "HideModeTypes": [
-        "EPMGameModeType::TeamGuide"
+        "EPMGameModeType::TeamGuide",
+        "EPMGameModeType::Zombie"
       ],
       "ShowGameStateTypes": [],
       "HideGameStateTypes": [],
@@ -113,8 +115,6 @@
         "EGStateType::PracticeChallenge",
         "EGStateType::ChallengePrepare",
         "EGStateType::ChallengeWait",
-        "EGStateType::RoleSelect",
-        "EGStateType::RoleReselect",
         "EGStateType::GameOver"
       ],
       "ShowCharacterStateTypes": [],
@@ -131,7 +131,9 @@
       "ShowGameStateTypes": [],
       "HideGameStateTypes": [
         "EGStateType::RoleSelect",
-        "EGStateType::RoleReselect"
+        "EGStateType::RoleReselect",
+        "EGStateType::GameEnd",
+        "EGStateType::GameOver"
       ],
       "ShowCharacterStateTypes": [],
       "HideCharacterStateTypes": [
@@ -147,7 +149,10 @@
         "EPMGameModeType::TeamGuide"
       ],
       "ShowGameStateTypes": [],
-      "HideGameStateTypes": [],
+      "HideGameStateTypes": [
+        "EGStateType::GameEnd",
+        "EGStateType::GameOver"
+      ],
       "ShowCharacterStateTypes": [],
       "HideCharacterStateTypes": [
         "ECStateType::Death"
@@ -196,7 +201,10 @@
         "EPMGameModeType::BombGuide"
       ],
       "ShowGameStateTypes": [],
-      "HideGameStateTypes": [],
+      "HideGameStateTypes": [
+        "EGStateType::GameEnd",
+        "EGStateType::GameOver"
+      ],
       "ShowCharacterStateTypes": [],
       "HideCharacterStateTypes": [],
       "bNeedsHideInReplayMode": false
@@ -300,6 +308,51 @@
       ],
       "ShowCharacterStateTypes": [],
       "HideCharacterStateTypes": [],
+      "bNeedsHideInReplayMode": false
+    },
+    "RoguelikeCardPage": {
+      "ShowModeTypes": [],
+      "HideModeTypes": [],
+      "ShowGameStateTypes": [
+        "EGStateType::Warmup",
+        "EGStateType::Fight",
+        "EGStateType::FightPlaced",
+        "EGStateType::Prepare",
+        "EGStateType::FightEnd",
+        "EGStateType::FightSecond"
+      ],
+      "HideGameStateTypes": [
+        "EGStateType::GameEnd",
+        "EGStateType::GameOver"
+      ],
+      "ShowCharacterStateTypes": [],
+      "HideCharacterStateTypes": [
+        "ECStateType::Death"
+      ],
+      "bNeedsHideInReplayMode": false
+    },
+    "RoguelikeCardSelectPage": {
+      "ShowModeTypes": [],
+      "HideModeTypes": [],
+      "ShowGameStateTypes": [
+        "EGStateType::Warmup",
+        "EGStateType::Fight",
+        "EGStateType::FightPlaced",
+        "EGStateType::Prepare",
+        "EGStateType::FightEnd",
+        "EGStateType::FightSecond",
+        "EGStateType::Guide",
+        "EGStateType::RoleLoad"
+      ],
+      "HideGameStateTypes": [
+        "EGStateType::GameEnd",
+        "EGStateType::GameOver",
+        "EGStateType::FightEnd"
+      ],
+      "ShowCharacterStateTypes": [],
+      "HideCharacterStateTypes": [
+        "ECStateType::Death"
+      ],
       "bNeedsHideInReplayMode": false
     }
   }
