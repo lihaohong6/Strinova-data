@@ -171,6 +171,10 @@
       {
         "ObjectName": "DataTable'DT_UI_ResultMobile'",
         "ObjectPath": "/Game/PaperMan/UI/BP/Mobile/InGame/NonResidentFunctions/Result/DT_UI_ResultMobile"
+      },
+      {
+        "ObjectName": "DataTable'RoleProficiency'",
+        "ObjectPath": "/Game/PaperMan/UI/BP/Mobile/Frontend/RoleProficiency/RoleProficiency"
       }
     ],
     "RowStruct": {
@@ -216,7 +220,7 @@
         "ObjectPath": "/Script/PMGame"
       },
       "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/Upgrade/WBP_UpgradeMobile.WBP_UpgradeMobile_C",
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/Upgrade/WBP_Upgrade_Mobile.WBP_Upgrade_Mobile_C",
         "SubPathString": ""
       },
       "bIsPanel": false,
@@ -456,7 +460,7 @@
         "ObjectPath": "/Script/PMGame"
       },
       "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/CommonMobile/PopUp/WBP_MsgDialogPageMobile.WBP_MsgDialogPageMobile_C",
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/CommonMobile/PopUp/WBP_MsgDialogPage_Mobile.WBP_MsgDialogPage_Mobile_C",
         "SubPathString": ""
       },
       "bIsPanel": false,
@@ -576,7 +580,7 @@
         "ObjectPath": "/Script/PMGame"
       },
       "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/CommonMobile/PopUp/WBP_EditMsgDialogPageMobile.WBP_EditMsgDialogPageMobile_C",
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/CommonMobile/PopUp/WBP_EditMsgDialogPage_Mobile.WBP_EditMsgDialogPage_Mobile_C",
         "SubPathString": ""
       },
       "bIsPanel": false,
@@ -693,7 +697,7 @@
         "ObjectPath": "/Script/PMGame"
       },
       "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/CommonMobile/WBP_HighLightMask.WBP_HighLightMask_C",
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/CommonMobile/WBP_HighLightMask_Mobile.WBP_HighLightMask_Mobile_C",
         "SubPathString": ""
       },
       "bIsPanel": false,
@@ -896,6 +900,96 @@
         "Y": 0.0
       }
     },
+    "RoleTipsPage": {
+      "PageName": "RoleTipsPage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/Common/ItemTips/WBP_RoleTipsPage_Mobile.WBP_RoleTipsPage_Mobile_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Top",
+      "Order": 111,
+      "FullScreen": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "ItemTipsPage": {
+      "PageName": "ItemTipsPage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/Common/ItemTips/WBP_ItemTipsPage_Mobile.WBP_ItemTipsPage_Mobile_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Top",
+      "Order": 111,
+      "FullScreen": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "HelpTipsMultiLineTextPage": {
+      "PageName": "HelpTipsMultiLineTextPage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/CommonMobile/PopUp/WBP_CommonPopup1_Mobile.WBP_CommonPopup1_Mobile_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Top",
+      "Order": 0,
+      "FullScreen": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
     "Login": {
       "PageName": "Login",
       "PageClass": {
@@ -903,7 +997,7 @@
         "ObjectPath": "/Script/PMGame"
       },
       "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/LoginMobile/WBP_LoginPageMobile.WBP_LoginPageMobile_C",
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/LoginMobile/WBP_LoginPage_Mobile.WBP_LoginPage_Mobile_C",
         "SubPathString": ""
       },
       "bIsPanel": false,
@@ -1043,66 +1137,6 @@
         "Y": 0.0
       }
     },
-    "LoginVisualSettingPage": {
-      "PageName": "LoginVisualSettingPage",
-      "PageClass": {
-        "ObjectName": "Class'PMViewControllerPage'",
-        "ObjectPath": "/Script/PMGame"
-      },
-      "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/LoginMobile/Setting/WBP_LoginSettingPage_Mobile.WBP_LoginSettingPage_Mobile_C",
-        "SubPathString": ""
-      },
-      "bIsPanel": false,
-      "Layer": "EUILayer::Normal",
-      "Order": 0,
-      "FullScreen": true,
-      "SlotNameList": [],
-      "Anchors": {
-        "Minimum": {
-          "X": 0.0,
-          "Y": 0.0
-        },
-        "Maximum": {
-          "X": 0.0,
-          "Y": 0.0
-        }
-      },
-      "Alignment": {
-        "X": 0.0,
-        "Y": 0.0
-      }
-    },
-    "LoginSoundSettingPage": {
-      "PageName": "LoginSoundSettingPage",
-      "PageClass": {
-        "ObjectName": "Class'PMViewControllerPage'",
-        "ObjectPath": "/Script/PMGame"
-      },
-      "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/LoginMobile/Setting/WBP_LoginSettingPage_Mobile.WBP_LoginSettingPage_Mobile_C",
-        "SubPathString": ""
-      },
-      "bIsPanel": false,
-      "Layer": "EUILayer::Normal",
-      "Order": 0,
-      "FullScreen": true,
-      "SlotNameList": [],
-      "Anchors": {
-        "Minimum": {
-          "X": 0.0,
-          "Y": 0.0
-        },
-        "Maximum": {
-          "X": 0.0,
-          "Y": 0.0
-        }
-      },
-      "Alignment": {
-        "X": 0.0,
-        "Y": 0.0
-      }
-    },
     "WhetherPlayPage": {
       "PageName": "WhetherPlayPage",
       "PageClass": {
@@ -1133,6 +1167,36 @@
         "Y": 0.0
       }
     },
+    "LoginSettingPageMobile": {
+      "PageName": "LoginSettingPageMobile",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/LoginMobile/Setting/Page/WBP_LoginSettingPage_Mobile.WBP_LoginSettingPage_Mobile_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Top",
+      "Order": 50,
+      "FullScreen": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
     "EquipRoomPage": {
       "PageName": "EquipRoomPage",
       "PageClass": {
@@ -1140,7 +1204,7 @@
         "ObjectPath": "/Script/PMGame"
       },
       "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/EquipRoom/New/WBP_EquipRoomPageMobile_New.WBP_EquipRoomPageMobile_New_C",
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/EquipRoom/New/WBP_EquipRoomPage_New_Mobile.WBP_EquipRoomPage_New_Mobile_C",
         "SubPathString": ""
       },
       "bIsPanel": false,
@@ -1207,6 +1271,36 @@
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": true,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "RoleLabelPage": {
+      "PageName": "RoleLabelPage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/EquipRoom/New/WBP_TagDetailPage_Mobile.WBP_TagDetailPage_Mobile_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 0,
+      "FullScreen": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -2483,6 +2577,216 @@
         "Y": 0.0
       }
     },
+    "LotteryMainPage": {
+      "PageName": "LotteryMainPage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/Lottery/WBP_LotteryMainPage_Mobile.WBP_LotteryMainPage_Mobile_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 0,
+      "FullScreen": true,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "LotteryTransitionPage": {
+      "PageName": "LotteryTransitionPage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/Lottery/WBP_LotteryTransitionPage_Mobile.WBP_LotteryTransitionPage_Mobile_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 0,
+      "FullScreen": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "LotteryResultPage": {
+      "PageName": "LotteryResultPage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/Lottery/WBP_LotteryResult_Mobile.WBP_LotteryResult_Mobile_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 0,
+      "FullScreen": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "ResultDisplayPage": {
+      "PageName": "ResultDisplayPage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/Lottery/WBP_ResultDisplay_Mobile.WBP_ResultDisplay_Mobile_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 0,
+      "FullScreen": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "LotteryPoolDetailPage": {
+      "PageName": "LotteryPoolDetailPage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/Lottery/WBP_LotteryPoolDetail_Mobile.WBP_LotteryPoolDetail_Mobile_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 0,
+      "FullScreen": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "LotteryStatisticPage": {
+      "PageName": "LotteryStatisticPage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/Lottery/WBP_LotteryStatistic_Mobile.WBP_LotteryStatistic_Mobile_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 10,
+      "FullScreen": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "LotteryDirectionalPage": {
+      "PageName": "LotteryDirectionalPage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/Lottery/WBP_LotteryDirectional_Mobile.WBP_LotteryDirectional_Mobile_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 10,
+      "FullScreen": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
     "NavigationPage": {
       "PageName": "NavigationPage",
       "PageClass": {
@@ -2790,7 +3094,7 @@
         "ObjectPath": "/Script/PMGame"
       },
       "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/Room/Common/WBP_RoomCodePage_Mobile1.WBP_RoomCodePage_Mobile1_C",
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/Room/Common/WBP_RoomCodePage_1_Mobile.WBP_RoomCodePage_1_Mobile_C",
         "SubPathString": ""
       },
       "bIsPanel": false,
@@ -2850,7 +3154,7 @@
         "ObjectPath": "/Script/PMGame"
       },
       "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/Room/MatchRoom/WBP_RankPreparePage_MobileNew.WBP_RankPreparePage_MobileNew_C",
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/Room/MatchRoom/WBP_RankPreparePage_New_Mobile.WBP_RankPreparePage_New_Mobile_C",
         "SubPathString": ""
       },
       "bIsPanel": false,
@@ -3450,7 +3754,7 @@
         "ObjectPath": "/Script/PMGame"
       },
       "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/ChatMobile/WBP_ChatMainPageMobile.WBP_ChatMainPageMobile_C",
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/ChatMobile/WBP_ChatMainPage_Mobile.WBP_ChatMainPage_Mobile_C",
         "SubPathString": ""
       },
       "bIsPanel": false,
@@ -3540,7 +3844,7 @@
         "ObjectPath": "/Script/PMGame"
       },
       "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/ChatMobile/Setting/WBP_ChatSettingPageMobile.WBP_ChatSettingPageMobile_C",
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/ChatMobile/Setting/WBP_ChatSettingPage_Mobile.WBP_ChatSettingPage_Mobile_C",
         "SubPathString": ""
       },
       "bIsPanel": false,
@@ -3600,7 +3904,7 @@
         "ObjectPath": "/Script/PMGame"
       },
       "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/ChatMobile/Channel/WBP_ChatSendCardPopupMobile.WBP_ChatSendCardPopupMobile_C",
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/ChatMobile/Channel/WBP_ChatSendCardPopup_Mobile.WBP_ChatSendCardPopup_Mobile_C",
         "SubPathString": ""
       },
       "bIsPanel": false,
@@ -3630,7 +3934,7 @@
         "ObjectPath": "/Script/PMGame"
       },
       "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/ChatMobile/Channel/WBP_ChatChannelListMobile.WBP_ChatChannelListMobile_C",
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/ChatMobile/Channel/WBP_ChatChannelList_Mobile.WBP_ChatChannelList_Mobile_C",
         "SubPathString": ""
       },
       "bIsPanel": false,
@@ -3780,7 +4084,7 @@
         "ObjectPath": "/Script/PMGame"
       },
       "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/FriendMobile/WBP_FriendMsg_MB.WBP_FriendMsg_MB_C",
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/FriendMobile/WBP_FriendMsg_Mobile.WBP_FriendMsg_Mobile_C",
         "SubPathString": ""
       },
       "bIsPanel": false,
@@ -4470,7 +4774,7 @@
         "ObjectPath": "/Script/PMGame"
       },
       "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/Survey/WBP_Survey_Mobile.WBP_Survey_Mobile_C",
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/Survey/WBP_SurveyMainPage_Mobile.WBP_SurveyMainPage_Mobile_C",
         "SubPathString": ""
       },
       "bIsPanel": false,
@@ -4500,7 +4804,7 @@
         "ObjectPath": "/Script/PMGame"
       },
       "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/Setting/Page/WBP_SettingMobile.WBP_SettingMobile_C",
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/Setting/Page/WBP_Setting_Mobile.WBP_Setting_Mobile_C",
         "SubPathString": ""
       },
       "bIsPanel": false,
@@ -4530,7 +4834,7 @@
         "ObjectPath": "/Script/PMGame"
       },
       "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/Setting/Page/WBP_SettingOperationMainPage.WBP_SettingOperationMainPage_C",
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/Setting/Page/WBP_SettingOperationMainPage_Mobile.WBP_SettingOperationMainPage_Mobile_C",
         "SubPathString": ""
       },
       "bIsPanel": false,
@@ -4560,7 +4864,7 @@
         "ObjectPath": "/Script/PMGame"
       },
       "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/Setting/CloudSolution/WBP_SettingSolution_View.WBP_SettingSolution_View_C",
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/Setting/CloudSolution/WBP_SettingSolution_View_Mobile.WBP_SettingSolution_View_Mobile_C",
         "SubPathString": ""
       },
       "bIsPanel": false,
@@ -4590,7 +4894,7 @@
         "ObjectPath": "/Script/PMGame"
       },
       "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/Setting/CloudSolution/WBP_SettingSolution_Detail.WBP_SettingSolution_Detail_C",
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/Setting/CloudSolution/WBP_SettingSolution_Detail_Mobile.WBP_SettingSolution_Detail_Mobile_C",
         "SubPathString": ""
       },
       "bIsPanel": false,
@@ -4620,7 +4924,7 @@
         "ObjectPath": "/Script/PMGame"
       },
       "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/Setting/CloudSolution/WBP_SettingSolution_Preview.WBP_SettingSolution_Preview_C",
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/Setting/CloudSolution/WBP_SettingSolution_Preview_Mobile.WBP_SettingSolution_Preview_Mobile_C",
         "SubPathString": ""
       },
       "bIsPanel": false,
@@ -4650,12 +4954,42 @@
         "ObjectPath": "/Script/PMGame"
       },
       "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/Setting/Page/WBP_SettingDefault_View.WBP_SettingDefault_View_C",
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/Setting/Page/WBP_SettingDefault_View_Mobile.WBP_SettingDefault_View_Mobile_C",
         "SubPathString": ""
       },
       "bIsPanel": false,
       "Layer": "EUILayer::Top",
       "Order": 50,
+      "FullScreen": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "SettingSchemeOperate": {
+      "PageName": "SettingSchemeOperate",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/Setting/CloudSolution/WBP_SettingSolution_Operate_Mobile.WBP_SettingSolution_Operate_Mobile_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Top",
+      "Order": 60,
       "FullScreen": false,
       "SlotNameList": [],
       "Anchors": {
@@ -4710,7 +5044,7 @@
         "ObjectPath": "/Script/PMGame"
       },
       "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/PlayerProfileMobile/CareerPage/WBP_PlayerCareerPage_Mobile.WBP_PlayerCareerPage_Mobile_C",
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/PlayerProfileMobile/BattleDataPage/WBP_ProfileBattleDataPage_Mobile.WBP_ProfileBattleDataPage_Mobile_C",
         "SubPathString": ""
       },
       "bIsPanel": false,
@@ -4830,7 +5164,7 @@
         "ObjectPath": "/Script/PMGame"
       },
       "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/PlayerProfileMobile/FriendPage/WBP_FriendProfilePage_Mobile.WBP_FriendProfilePage_Mobile_C",
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/PlayerProfileMobile/HomePage/WBP_PlayerProfilePage_Mobile.WBP_PlayerProfilePage_Mobile_C",
         "SubPathString": ""
       },
       "bIsPanel": false,
@@ -4860,7 +5194,7 @@
         "ObjectPath": "/Script/PMGame"
       },
       "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/PlayerProfileMobile/FriendPage/WBP_FriendCareerPage_Mobile.WBP_FriendCareerPage_Mobile_C",
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/PlayerProfileMobile/BattleDataPage/WBP_ProfileBattleDataPage_Mobile.WBP_ProfileBattleDataPage_Mobile_C",
         "SubPathString": ""
       },
       "bIsPanel": false,
@@ -4890,7 +5224,7 @@
         "ObjectPath": "/Script/PMGame"
       },
       "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/PlayerProfileMobile/FriendPage/WBP_FriendRoleDataPage_Mobile.WBP_FriendRoleDataPage_Mobile_C",
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/PlayerProfileMobile/RoleDataPage/WBP_PlayerRolePage_Mobile.WBP_PlayerRolePage_Mobile_C",
         "SubPathString": ""
       },
       "bIsPanel": false,
@@ -4950,7 +5284,7 @@
         "ObjectPath": "/Script/PMGame"
       },
       "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/PlayerProfileMobile/FriendPage/WBP_FriendBattleRecordPage_Mobile.WBP_FriendBattleRecordPage_Mobile_C",
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/PlayerProfileMobile/BattleRecordPage/WBP_BattleRecordPage_Mobile.WBP_BattleRecordPage_Mobile_C",
         "SubPathString": ""
       },
       "bIsPanel": false,
@@ -4980,7 +5314,7 @@
         "ObjectPath": "/Script/PMGame"
       },
       "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/PlayerProfileMobile/BattleRecordPage/WBP_BattleRecordInfoNew_Mobile.WBP_BattleRecordInfoNew_Mobile_C",
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/PlayerProfileMobile/BattleRecordPage/BattleRecordData/WBP_BattleRecordDataMainPage_Mobile.WBP_BattleRecordDataMainPage_Mobile_C",
         "SubPathString": ""
       },
       "bIsPanel": false,
@@ -5310,7 +5644,7 @@
         "ObjectPath": "/Script/PMGame"
       },
       "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/ResUpdate/WBP_DownloadDialogMobile.WBP_DownloadDialogMobile_C",
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/ResUpdate/WBP_DownloadDialog_Mobile.WBP_DownloadDialog_Mobile_C",
         "SubPathString": ""
       },
       "bIsPanel": false,
@@ -5430,7 +5764,7 @@
         "ObjectPath": "/Script/PMGame"
       },
       "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/PC/InGame/HUDPC/ControlSummon/WBP_ControlSummonPanel.WBP_ControlSummonPanel_C",
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/InGame/Character/CommonCharacter/WBP_ControlSummonPanel.WBP_ControlSummonPanel_C",
         "SubPathString": ""
       },
       "bIsPanel": false,
@@ -7740,7 +8074,7 @@
         "ObjectPath": "/Script/PMGame"
       },
       "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/NonResidentFunctions/ScoreBoard/Escort/WBP_ScoreEscort_Mobile.WBP_ScoreEscort_Mobile_C",
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/NonResidentFunctions/ScoreBoard/Escort/New/WBP_ScoreBoard_Escort_New_Mobile.WBP_ScoreBoard_Escort_New_Mobile_C",
         "SubPathString": ""
       },
       "bIsPanel": false,
@@ -7806,6 +8140,66 @@
       "bIsPanel": false,
       "Layer": "EUILayer::Normal",
       "Order": 1,
+      "FullScreen": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "EscortSkillCardPage": {
+      "PageName": "EscortSkillCardPage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPanel'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/NonResidentFunctions/Growth/Escort/EscortSkillCard/WBP_GrowthEscortSkillCardPanel_Mobile.WBP_GrowthEscortSkillCardPanel_Mobile_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Top",
+      "Order": 0,
+      "FullScreen": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "ScoreEscort2": {
+      "PageName": "ScoreEscort2",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/NonResidentFunctions/ScoreBoard/Escort2/WBP_ScoreBoard_Escort2_Mobile.WBP_ScoreBoard_Escort2_Mobile_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Top",
+      "Order": 98,
       "FullScreen": false,
       "SlotNameList": [],
       "Anchors": {
@@ -7890,7 +8284,7 @@
         "ObjectPath": "/Script/PMGame"
       },
       "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/NonResidentFunctions/ScoreBoard/Personal/WBP_ScorePersonal_Mobile.WBP_ScorePersonal_Mobile_C",
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/NonResidentFunctions/ScoreBoard/Personal/New/WBP_ScoreBoard_DM_New_Mobile.WBP_ScoreBoard_DM_New_Mobile_C",
         "SubPathString": ""
       },
       "bIsPanel": false,
@@ -8693,6 +9087,36 @@
         "Y": 0.0
       }
     },
+    "PeakRankTipsMobile": {
+      "PageName": "PeakRankTipsMobile",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/PeakRankMatch/WBP_PeakRankTips_Mobile.WBP_PeakRankTips_Mobile_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Top",
+      "Order": 50,
+      "FullScreen": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
     "SpaceTimePage": {
       "PageName": "SpaceTimePage",
       "PageClass": {
@@ -8820,7 +9244,7 @@
         "ObjectPath": "/Script/PMGame"
       },
       "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/NonResidentFunctions/ScoreBoard/Team/WBP_ScoreTeam_Mobile.WBP_ScoreTeam_Mobile_C",
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/NonResidentFunctions/ScoreBoard/Team/New/WBP_ScoreBoard_TDM_New_Mobile.WBP_ScoreBoard_TDM_New_Mobile_C",
         "SubPathString": ""
       },
       "bIsPanel": false,
@@ -9147,7 +9571,7 @@
         "ObjectPath": "/Script/PMGame"
       },
       "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/NonResidentFunctions/ScoreBoard/Bomb/WBP_ScoreBomb_Mobile.WBP_ScoreBomb_Mobile_C",
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/NonResidentFunctions/ScoreBoard/Bomb/New/WBP_ScoreBoard_Bomb_New_Mobile.WBP_ScoreBoard_Bomb_New_Mobile_C",
         "SubPathString": ""
       },
       "bIsPanel": false,
@@ -9475,8 +9899,8 @@
         "SubPathString": ""
       },
       "bIsPanel": false,
-      "Layer": "EUILayer::Normal",
-      "Order": 100,
+      "Layer": "EUILayer::Top",
+      "Order": 10,
       "FullScreen": false,
       "SlotNameList": [],
       "Anchors": {
@@ -9505,8 +9929,8 @@
         "SubPathString": ""
       },
       "bIsPanel": false,
-      "Layer": "EUILayer::Max",
-      "Order": 100,
+      "Layer": "EUILayer::Top",
+      "Order": 101,
       "FullScreen": false,
       "SlotNameList": [],
       "Anchors": {
@@ -9626,8 +10050,188 @@
       },
       "bIsPanel": false,
       "Layer": "EUILayer::Normal",
+      "Order": 0,
+      "FullScreen": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "ResultTimeDilationPage": {
+      "PageName": "ResultTimeDilationPage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/NonResidentFunctions/Result/Common/WBP_ResultTimeDilationPage_Mobile.WBP_ResultTimeDilationPage_Mobile_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 0,
+      "FullScreen": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "ResultPersonalShowPage": {
+      "PageName": "ResultPersonalShowPage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/NonResidentFunctions/Result/Common/WBP_ResultPersonalShow_Mobile.WBP_ResultPersonalShow_Mobile_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 30,
+      "FullScreen": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "ResultInfoShowPage": {
+      "PageName": "ResultInfoShowPage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/NonResidentFunctions/Result/Common/WBP_ResultInfoShow_Mobile.WBP_ResultInfoShow_Mobile_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 30,
+      "FullScreen": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "ResultCharacterPage": {
+      "PageName": "ResultCharacterPage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/NonResidentFunctions/Result/Common/WBP_ResultCharacterPage_Mobile.WBP_ResultCharacterPage_Mobile_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
       "Order": 29,
       "FullScreen": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "RoleProficiencyMainPage": {
+      "PageName": "RoleProficiencyMainPage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/RoleProficiency/WBP_RoleProficiency_Mobile.WBP_RoleProficiency_Mobile_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 0,
+      "FullScreen": true,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "RoleProficiencyTaskPage": {
+      "PageName": "RoleProficiencyTaskPage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/RoleProficiency/WBP_RoleProficiencyTaskPage_Mobile.WBP_RoleProficiencyTaskPage_Mobile_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 0,
+      "FullScreen": true,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {

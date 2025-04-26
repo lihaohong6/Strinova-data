@@ -49,7 +49,11 @@
         "EGStateType::FightPlaced",
         "EGStateType::Prepare",
         "EGStateType::FightEnd",
-        "EGStateType::FightSecond"
+        "EGStateType::FightSecond",
+        "EGStateType::Guide",
+        "EGStateType::FightThird",
+        "EGStateType::FightForth",
+        "EGStateType::FightFifth"
       ],
       "HideGameStateTypes": [
         "EGStateType::GameEnd",
@@ -84,7 +88,10 @@
         "EGStateType::FightPlaced",
         "EGStateType::Prepare",
         "EGStateType::FightEnd",
-        "EGStateType::FightSecond"
+        "EGStateType::FightSecond",
+        "EGStateType::FightThird",
+        "EGStateType::FightForth",
+        "EGStateType::FightFifth"
       ],
       "HideGameStateTypes": [],
       "ShowCharacterStateTypes": [],
@@ -95,6 +102,7 @@
       "ShowModeTypes": [],
       "HideModeTypes": [
         "EPMGameModeType::TeamGuide",
+        "EPMGameModeType::BombPass",
         "EPMGameModeType::Zombie"
       ],
       "ShowGameStateTypes": [],
@@ -168,7 +176,10 @@
         "EGStateType::FightPlaced",
         "EGStateType::Prepare",
         "EGStateType::FightEnd",
-        "EGStateType::FightSecond"
+        "EGStateType::FightSecond",
+        "EGStateType::FightThird",
+        "EGStateType::FightForth",
+        "EGStateType::FightFifth"
       ],
       "HideGameStateTypes": [],
       "ShowCharacterStateTypes": [],
@@ -353,6 +364,17 @@
       "HideCharacterStateTypes": [
         "ECStateType::Death"
       ],
+      "bNeedsHideInReplayMode": false
+    },
+    "RoundResultPage": {
+      "ShowModeTypes": [],
+      "HideModeTypes": [
+        "EPMGameModeType::BombPass"
+      ],
+      "ShowGameStateTypes": [],
+      "HideGameStateTypes": [],
+      "ShowCharacterStateTypes": [],
+      "HideCharacterStateTypes": [],
       "bNeedsHideInReplayMode": false
     }
   }
