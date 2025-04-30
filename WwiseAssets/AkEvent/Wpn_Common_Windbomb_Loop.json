@@ -2,6 +2,7 @@
   "Type": "AkAudioEvent",
   "Name": "Wpn_Common_Windbomb_Loop",
   "Class": "UScriptClass'AkAudioEvent'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
   "Properties": {
     "MinimumDuration": 7.756104,
     "MaximumDuration": 7.756104,
@@ -9,5 +10,52 @@
       "ObjectName": "AkAudioBank'Wpn_Common'",
       "ObjectPath": "PM/Content/WwiseAssets/AkBank/Wpn_Common.0"
     }
-  }
+  },
+  "EventCookedData": {
+    "EventLanguageMap": [
+      {
+        "Key": {
+          "LanguageId": 0,
+          "LanguageName": "SFX",
+          "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
+        },
+        "Value": {
+          "EventId": 1175048936,
+          "SoundBanks": [
+            {
+              "SoundBankId": -848927478,
+              "SoundBankPathName": "Wpn_Common.bnk",
+              "MemoryAlignment": 16,
+              "bDeviceMemory": false,
+              "bContainsMedia": true,
+              "SoundBankType": "EWwiseSoundBankType::User",
+              "DebugName": "Wpn_Common"
+            }
+          ],
+          "Media": [
+            {
+              "MediaId": 1039506517,
+              "MediaPathName": "Media/SFX/Wpn_Common/1039506517.wem",
+              "PrefetchSize": 0,
+              "MemoryAlignment": 16,
+              "bDeviceMemory": false,
+              "bStreaming": true,
+              "DebugName": "weapon\\common\\wpn_common_windbomb_Loop.wav"
+            }
+          ],
+          "ExternalSources": [],
+          "SwitchContainerLeaves": [],
+          "RequiredGroupValueSet": [],
+          "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
+          "DebugName": "Wpn_Common_Windbomb_Loop"
+        }
+      }
+    ],
+    "DebugName": "Wpn_Common_Windbomb_Loop",
+    "EventId": 1175048936
+  },
+  "MaximumDuration": 7.756104,
+  "MinimumDuration": 7.756104,
+  "IsInfinite": false,
+  "MaxAttenuationRadius": 3000.0
 }

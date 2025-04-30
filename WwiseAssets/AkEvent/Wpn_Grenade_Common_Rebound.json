@@ -2,6 +2,7 @@
   "Type": "AkAudioEvent",
   "Name": "Wpn_Grenade_Common_Rebound",
   "Class": "UScriptClass'AkAudioEvent'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
   "Properties": {
     "MinimumDuration": 0.07705215,
     "MaximumDuration": 0.51800454,
@@ -9,5 +10,42 @@
       "ObjectName": "AkAudioBank'Wpn_Grenade'",
       "ObjectPath": "PM/Content/WwiseAssets/AkBank/Wpn_Grenade.0"
     }
-  }
+  },
+  "EventCookedData": {
+    "EventLanguageMap": [
+      {
+        "Key": {
+          "LanguageId": 0,
+          "LanguageName": "SFX",
+          "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
+        },
+        "Value": {
+          "EventId": 1556588247,
+          "SoundBanks": [
+            {
+              "SoundBankId": -1138515971,
+              "SoundBankPathName": "Wpn_Grenade.bnk",
+              "MemoryAlignment": 16,
+              "bDeviceMemory": false,
+              "bContainsMedia": true,
+              "SoundBankType": "EWwiseSoundBankType::User",
+              "DebugName": "Wpn_Grenade"
+            }
+          ],
+          "Media": [],
+          "ExternalSources": [],
+          "SwitchContainerLeaves": [],
+          "RequiredGroupValueSet": [],
+          "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
+          "DebugName": "Wpn_Grenade_Common_Rebound"
+        }
+      }
+    ],
+    "DebugName": "Wpn_Grenade_Common_Rebound",
+    "EventId": 1556588247
+  },
+  "MaximumDuration": 0.51800454,
+  "MinimumDuration": 0.07705215,
+  "IsInfinite": false,
+  "MaxAttenuationRadius": 3000.0
 }

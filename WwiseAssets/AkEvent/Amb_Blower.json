@@ -2,10 +2,58 @@
   "Type": "AkAudioEvent",
   "Name": "Amb_Blower",
   "Class": "UScriptClass'AkAudioEvent'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
   "Properties": {
     "RequiredBank": {
       "ObjectName": "AkAudioBank'Amb_Common'",
       "ObjectPath": "PM/Content/WwiseAssets/AkBank/Amb_Common.0"
     }
-  }
+  },
+  "EventCookedData": {
+    "EventLanguageMap": [
+      {
+        "Key": {
+          "LanguageId": 0,
+          "LanguageName": "SFX",
+          "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
+        },
+        "Value": {
+          "EventId": 1560117339,
+          "SoundBanks": [
+            {
+              "SoundBankId": 239935045,
+              "SoundBankPathName": "Amb_Common.bnk",
+              "MemoryAlignment": 16,
+              "bDeviceMemory": false,
+              "bContainsMedia": true,
+              "SoundBankType": "EWwiseSoundBankType::User",
+              "DebugName": "Amb_Common"
+            }
+          ],
+          "Media": [
+            {
+              "MediaId": 863187541,
+              "MediaPathName": "Media/SFX/Amb_Common/863187541.wem",
+              "PrefetchSize": 0,
+              "MemoryAlignment": 16,
+              "bDeviceMemory": false,
+              "bStreaming": true,
+              "DebugName": "ambient\\Common\\amb_station_blower.wav"
+            }
+          ],
+          "ExternalSources": [],
+          "SwitchContainerLeaves": [],
+          "RequiredGroupValueSet": [],
+          "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
+          "DebugName": "Amb_Blower"
+        }
+      }
+    ],
+    "DebugName": "Amb_Blower",
+    "EventId": 1560117339
+  },
+  "MaximumDuration": 0.0,
+  "MinimumDuration": 0.0,
+  "IsInfinite": true,
+  "MaxAttenuationRadius": 1500.0
 }

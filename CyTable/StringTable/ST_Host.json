@@ -2,9 +2,10 @@
   "Type": "StringTable",
   "Name": "ST_Host",
   "Class": "UScriptClass'StringTable'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
   "StringTable": {
     "TableNamespace": "ST_Host",
-    "KeysToMetaData": {
+    "KeysToEntries": {
       "ErrorEmail": "邮箱地址格式不正确",
       "SendTime1": "{Second}秒重试",
       "EmailOrCodeNotEmpty": "邮箱或验证码不能为空",
@@ -160,7 +161,7 @@
       "SendSuccess": "发送成功",
       "SendFailure": "发送失败",
       "RealNameTip": "根据当地法律法规要求,你需要完成实名制认证才可使用我们的的服务。点击继续,以开始实名制认证。每天最多可尝试{0}次实名认证,今日剩余次数:{1}/{2}。重试次数在每日00:00(UTC+0)重置。"
-    }
-  },
-  "StringTableId": 0
+    },
+    "KeysToMetaData": {}
+  }
 }

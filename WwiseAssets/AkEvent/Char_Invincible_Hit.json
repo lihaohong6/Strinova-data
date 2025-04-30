@@ -2,6 +2,7 @@
   "Type": "AkAudioEvent",
   "Name": "Char_Invincible_Hit",
   "Class": "UScriptClass'AkAudioEvent'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
   "Properties": {
     "MinimumDuration": 0.65190476,
     "MaximumDuration": 0.65190476,
@@ -9,5 +10,42 @@
       "ObjectName": "AkAudioBank'Char_Common'",
       "ObjectPath": "PM/Content/WwiseAssets/AkBank/Char_Common.0"
     }
-  }
+  },
+  "EventCookedData": {
+    "EventLanguageMap": [
+      {
+        "Key": {
+          "LanguageId": 0,
+          "LanguageName": "SFX",
+          "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
+        },
+        "Value": {
+          "EventId": -1085100231,
+          "SoundBanks": [
+            {
+              "SoundBankId": -766700885,
+              "SoundBankPathName": "Char_Common.bnk",
+              "MemoryAlignment": 16,
+              "bDeviceMemory": false,
+              "bContainsMedia": true,
+              "SoundBankType": "EWwiseSoundBankType::User",
+              "DebugName": "Char_Common"
+            }
+          ],
+          "Media": [],
+          "ExternalSources": [],
+          "SwitchContainerLeaves": [],
+          "RequiredGroupValueSet": [],
+          "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
+          "DebugName": "Char_Invincible_Hit"
+        }
+      }
+    ],
+    "DebugName": "Char_Invincible_Hit",
+    "EventId": -1085100231
+  },
+  "MaximumDuration": 0.65190476,
+  "MinimumDuration": 0.65190476,
+  "IsInfinite": false,
+  "MaxAttenuationRadius": 0.0
 }

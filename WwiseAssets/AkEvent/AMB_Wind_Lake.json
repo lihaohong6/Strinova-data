@@ -2,10 +2,67 @@
   "Type": "AkAudioEvent",
   "Name": "AMB_Wind_Lake",
   "Class": "UScriptClass'AkAudioEvent'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
   "Properties": {
     "RequiredBank": {
       "ObjectName": "AkAudioBank'AMB_Wind'",
       "ObjectPath": "PM/Content/WwiseAssets/AkBank/AMB_Wind.0"
     }
-  }
+  },
+  "EventCookedData": {
+    "EventLanguageMap": [
+      {
+        "Key": {
+          "LanguageId": 0,
+          "LanguageName": "SFX",
+          "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
+        },
+        "Value": {
+          "EventId": 2097501246,
+          "SoundBanks": [
+            {
+              "SoundBankId": 1439088316,
+              "SoundBankPathName": "AMB_Wind.bnk",
+              "MemoryAlignment": 16,
+              "bDeviceMemory": false,
+              "bContainsMedia": true,
+              "SoundBankType": "EWwiseSoundBankType::User",
+              "DebugName": "AMB_Wind"
+            }
+          ],
+          "Media": [
+            {
+              "MediaId": 26815333,
+              "MediaPathName": "Media/SFX/AMB_Wind/26815333.wem",
+              "PrefetchSize": 0,
+              "MemoryAlignment": 16,
+              "bDeviceMemory": false,
+              "bStreaming": true,
+              "DebugName": "ambient\\Wind\\AMB_Wind_Lake_Close_Loop.wav"
+            },
+            {
+              "MediaId": 221462546,
+              "MediaPathName": "Media/SFX/AMB_Wind/221462546.wem",
+              "PrefetchSize": 0,
+              "MemoryAlignment": 16,
+              "bDeviceMemory": false,
+              "bStreaming": true,
+              "DebugName": "ambient\\Wind\\AMB_Wind_Lake_Far_Loop.wav"
+            }
+          ],
+          "ExternalSources": [],
+          "SwitchContainerLeaves": [],
+          "RequiredGroupValueSet": [],
+          "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
+          "DebugName": "AMB_Wind_Lake"
+        }
+      }
+    ],
+    "DebugName": "AMB_Wind_Lake",
+    "EventId": 2097501246
+  },
+  "MaximumDuration": 0.0,
+  "MinimumDuration": 0.0,
+  "IsInfinite": true,
+  "MaxAttenuationRadius": 3000.0
 }

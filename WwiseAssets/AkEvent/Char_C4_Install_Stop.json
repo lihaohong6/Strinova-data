@@ -2,10 +2,48 @@
   "Type": "AkAudioEvent",
   "Name": "Char_C4_Install_Stop",
   "Class": "UScriptClass'AkAudioEvent'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
   "Properties": {
     "RequiredBank": {
       "ObjectName": "AkAudioBank'Wpn_Bomb'",
       "ObjectPath": "PM/Content/WwiseAssets/AkBank/Wpn_Bomb.0"
     }
-  }
+  },
+  "EventCookedData": {
+    "EventLanguageMap": [
+      {
+        "Key": {
+          "LanguageId": 0,
+          "LanguageName": "SFX",
+          "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
+        },
+        "Value": {
+          "EventId": 719241684,
+          "SoundBanks": [
+            {
+              "SoundBankId": -917051611,
+              "SoundBankPathName": "Wpn_Bomb.bnk",
+              "MemoryAlignment": 16,
+              "bDeviceMemory": false,
+              "bContainsMedia": true,
+              "SoundBankType": "EWwiseSoundBankType::User",
+              "DebugName": "Wpn_Bomb"
+            }
+          ],
+          "Media": [],
+          "ExternalSources": [],
+          "SwitchContainerLeaves": [],
+          "RequiredGroupValueSet": [],
+          "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
+          "DebugName": "Char_C4_Install_Stop"
+        }
+      }
+    ],
+    "DebugName": "Char_C4_Install_Stop",
+    "EventId": 719241684
+  },
+  "MaximumDuration": 0.0,
+  "MinimumDuration": 0.0,
+  "IsInfinite": false,
+  "MaxAttenuationRadius": 0.0
 }

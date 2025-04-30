@@ -2,6 +2,7 @@
   "Type": "AkAudioEvent",
   "Name": "Bullet_ShellDrop_Shotgun",
   "Class": "UScriptClass'AkAudioEvent'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
   "Properties": {
     "MinimumDuration": 0.7218821,
     "MaximumDuration": 2.2833333,
@@ -9,5 +10,42 @@
       "ObjectName": "AkAudioBank'Wpn_Bullet'",
       "ObjectPath": "PM/Content/WwiseAssets/AkBank/Wpn_Bullet.0"
     }
-  }
+  },
+  "EventCookedData": {
+    "EventLanguageMap": [
+      {
+        "Key": {
+          "LanguageId": 0,
+          "LanguageName": "SFX",
+          "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
+        },
+        "Value": {
+          "EventId": -398597362,
+          "SoundBanks": [
+            {
+              "SoundBankId": 1173691301,
+              "SoundBankPathName": "Wpn_Bullet.bnk",
+              "MemoryAlignment": 16,
+              "bDeviceMemory": false,
+              "bContainsMedia": true,
+              "SoundBankType": "EWwiseSoundBankType::User",
+              "DebugName": "Wpn_Bullet"
+            }
+          ],
+          "Media": [],
+          "ExternalSources": [],
+          "SwitchContainerLeaves": [],
+          "RequiredGroupValueSet": [],
+          "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
+          "DebugName": "Bullet_ShellDrop_Shotgun"
+        }
+      }
+    ],
+    "DebugName": "Bullet_ShellDrop_Shotgun",
+    "EventId": -398597362
+  },
+  "MaximumDuration": 2.2833333,
+  "MinimumDuration": 0.7218821,
+  "IsInfinite": false,
+  "MaxAttenuationRadius": 0.0
 }

@@ -2,9 +2,10 @@
   "Type": "StringTable",
   "Name": "ST_Replay",
   "Class": "UScriptClass'StringTable'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
   "StringTable": {
     "TableNamespace": "ST_Replay",
-    "KeysToMetaData": {
+    "KeysToEntries": {
       "ReplayFilePlayError": "播放失败， 回放文件存在问题",
       "PlayReplayAndQuitRoom": "进入录像回放将退出当前房间",
       "Cancel": "取消",
@@ -13,7 +14,7 @@
       "Content_QuitReplay": "是否退出录像，返回大厅",
       "Cancel_ContinueReplay": "继续播放",
       "DiskSizeNotFull": "游戏存储空间不足，请清理后再次下载"
-    }
-  },
-  "StringTableId": 0
+    },
+    "KeysToMetaData": {}
+  }
 }

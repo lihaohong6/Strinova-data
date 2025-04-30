@@ -2,9 +2,10 @@
   "Type": "StringTable",
   "Name": "ST_BattlePass",
   "Class": "UScriptClass'StringTable'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
   "StringTable": {
     "TableNamespace": "ST_BattlePass",
-    "KeysToMetaData": {
+    "KeysToEntries": {
       "BattlePassBuyLvSure": "您确认升级特别行动等级吗？",
       "DayTaskRefresh": "您确定消耗{ItemCnt}{ItemType}，刷新该任务吗？",
       "TimeUpdate": "后更新",
@@ -35,7 +36,7 @@
       "weekTask": "每周任务",
       "seasonTask": "赛季任务",
       "loopTask": "循环任务"
-    }
-  },
-  "StringTableId": 0
+    },
+    "KeysToMetaData": {}
+  }
 }

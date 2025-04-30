@@ -2,9 +2,10 @@
   "Type": "StringTable",
   "Name": "ST_CreditScore",
   "Class": "UScriptClass'StringTable'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
   "StringTable": {
     "TableNamespace": "ST_CreditScore",
-    "KeysToMetaData": {
+    "KeysToEntries": {
       "CreditStatus_1": "信用极差，不能参加除团队乱斗和自定义房间以外的对局，不能使用聊天系统",
       "CreditStatus_2": "信用较差，不能参加排位赛和一般爆破模式，不能使用聊天系统",
       "CreditStatus_3": "信用不佳，不能参加排位赛，不能使用聊天系统",
@@ -69,7 +70,7 @@
       "TexViolation_2": "处罚：",
       "GameNotConfirmed": "游戏未确认",
       "VoiceViolation": "语音违规"
-    }
-  },
-  "StringTableId": 0
+    },
+    "KeysToMetaData": {}
+  }
 }

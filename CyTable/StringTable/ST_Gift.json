@@ -2,9 +2,10 @@
   "Type": "StringTable",
   "Name": "ST_Gift",
   "Class": "UScriptClass'StringTable'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
   "StringTable": {
     "TableNamespace": "ST_Gift",
-    "KeysToMetaData": {
+    "KeysToEntries": {
       "GiftGiveDesTips": "超出限制字数",
       "UnableToGive": "好友已经获得该物品，无法赠送",
       "UnableToClaim": "你已经获得该物品，无法再向好友索要",
@@ -16,7 +17,7 @@
       "ComfirmText": "<Orange-Bold16>{0}</>赠送礼物给<Orange-Bold16>{1}</>吗",
       "LevelLimit": "账号达到{1}级才能赠送",
       "GiftFunctionCloseTips": "卡丘快递正在升级维护中，敬请期待哦~"
-    }
-  },
-  "StringTableId": 0
+    },
+    "KeysToMetaData": {}
+  }
 }

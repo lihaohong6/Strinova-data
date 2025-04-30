@@ -2,6 +2,7 @@
   "Type": "CyGuideDataAsset",
   "Name": "DA_Guide_TeamGuide",
   "Class": "UScriptClass'CyGuideDataAsset'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
   "Properties": {
     "bDisableInputAfterGuideFinish": false,
     "ShowDeathTipsDelay": 1.5,
@@ -10,7 +11,34 @@
       "ObjectPath": "PM/Content/PaperMan/CyGuide/BP_Guide_TaskTargetPointWithUI.0"
     },
     "RoleColorConfig": {
-      "GroupColor": null
+      "GroupColor": [
+        {
+          "Key": "1",
+          "Value": {
+            "SpecifiedColor": {
+              "R": 0.13,
+              "G": 0.13,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "6565FF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          }
+        },
+        {
+          "Key": "3",
+          "Value": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 0.8,
+              "B": 0.3,
+              "A": 1.0,
+              "Hex": "FFE895"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          }
+        }
+      ]
     },
     "AkGuideBegin": {
       "ObjectName": "AkAudioEvent'Bgm_Train_TeamMatch'",

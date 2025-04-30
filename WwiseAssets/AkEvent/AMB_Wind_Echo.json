@@ -2,10 +2,67 @@
   "Type": "AkAudioEvent",
   "Name": "AMB_Wind_Echo",
   "Class": "UScriptClass'AkAudioEvent'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
   "Properties": {
     "RequiredBank": {
       "ObjectName": "AkAudioBank'AMB_Wind'",
       "ObjectPath": "PM/Content/WwiseAssets/AkBank/AMB_Wind.0"
     }
-  }
+  },
+  "EventCookedData": {
+    "EventLanguageMap": [
+      {
+        "Key": {
+          "LanguageId": 0,
+          "LanguageName": "SFX",
+          "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
+        },
+        "Value": {
+          "EventId": -1859044592,
+          "SoundBanks": [
+            {
+              "SoundBankId": 1439088316,
+              "SoundBankPathName": "AMB_Wind.bnk",
+              "MemoryAlignment": 16,
+              "bDeviceMemory": false,
+              "bContainsMedia": true,
+              "SoundBankType": "EWwiseSoundBankType::User",
+              "DebugName": "AMB_Wind"
+            }
+          ],
+          "Media": [
+            {
+              "MediaId": 306003638,
+              "MediaPathName": "Media/SFX/AMB_Wind/306003638.wem",
+              "PrefetchSize": 0,
+              "MemoryAlignment": 16,
+              "bDeviceMemory": false,
+              "bStreaming": true,
+              "DebugName": "ambient\\Wind\\AMB_Wind_Echo_Drones_Loop.wav"
+            },
+            {
+              "MediaId": 334337201,
+              "MediaPathName": "Media/SFX/AMB_Wind/334337201.wem",
+              "PrefetchSize": 0,
+              "MemoryAlignment": 16,
+              "bDeviceMemory": false,
+              "bStreaming": true,
+              "DebugName": "ambient\\Wind\\AMB_Wind_Echo_Whisper_Loop.wav"
+            }
+          ],
+          "ExternalSources": [],
+          "SwitchContainerLeaves": [],
+          "RequiredGroupValueSet": [],
+          "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
+          "DebugName": "AMB_Wind_Echo"
+        }
+      }
+    ],
+    "DebugName": "AMB_Wind_Echo",
+    "EventId": -1859044592
+  },
+  "MaximumDuration": 0.0,
+  "MinimumDuration": 0.0,
+  "IsInfinite": true,
+  "MaxAttenuationRadius": 700.0
 }

@@ -2,9 +2,10 @@
   "Type": "StringTable",
   "Name": "ST_BattleScore",
   "Class": "UScriptClass'StringTable'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
   "StringTable": {
     "TableNamespace": "ST_BattleScore",
-    "KeysToMetaData": {
+    "KeysToEntries": {
       "KDA": "击败/ 阵亡 / 助攻",
       "UniqueSkill": "绝招",
       "GrowthLevel": "成长等级",
@@ -24,7 +25,7 @@
       "PushTime": "推进时间",
       "BlockTime": "阻止时间",
       "InstallAndRemove": "安放&拆除"
-    }
-  },
-  "StringTableId": 0
+    },
+    "KeysToMetaData": {}
+  }
 }

@@ -2,6 +2,7 @@
   "Type": "AkAudioEvent",
   "Name": "Weap_FAMAS_Switch",
   "Class": "UScriptClass'AkAudioEvent'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
   "Properties": {
     "MinimumDuration": 0.867551,
     "MaximumDuration": 0.867551,
@@ -9,5 +10,42 @@
       "ObjectName": "AkAudioBank'Wpn_FAMAS'",
       "ObjectPath": "PM/Content/WwiseAssets/AkBank/Wpn_FAMAS.0"
     }
-  }
+  },
+  "EventCookedData": {
+    "EventLanguageMap": [
+      {
+        "Key": {
+          "LanguageId": 0,
+          "LanguageName": "SFX",
+          "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
+        },
+        "Value": {
+          "EventId": -1537592862,
+          "SoundBanks": [
+            {
+              "SoundBankId": -1960476717,
+              "SoundBankPathName": "Wpn_FAMAS.bnk",
+              "MemoryAlignment": 16,
+              "bDeviceMemory": false,
+              "bContainsMedia": true,
+              "SoundBankType": "EWwiseSoundBankType::User",
+              "DebugName": "Wpn_FAMAS"
+            }
+          ],
+          "Media": [],
+          "ExternalSources": [],
+          "SwitchContainerLeaves": [],
+          "RequiredGroupValueSet": [],
+          "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
+          "DebugName": "Weap_FAMAS_Switch"
+        }
+      }
+    ],
+    "DebugName": "Weap_FAMAS_Switch",
+    "EventId": -1537592862
+  },
+  "MaximumDuration": 0.867551,
+  "MinimumDuration": 0.867551,
+  "IsInfinite": false,
+  "MaxAttenuationRadius": 0.0
 }

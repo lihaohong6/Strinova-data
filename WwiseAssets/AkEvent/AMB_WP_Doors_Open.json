@@ -2,6 +2,7 @@
   "Type": "AkAudioEvent",
   "Name": "AMB_WP_Doors_Open",
   "Class": "UScriptClass'AkAudioEvent'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
   "Properties": {
     "MinimumDuration": 2.983492,
     "MaximumDuration": 2.983492,
@@ -9,5 +10,52 @@
       "ObjectName": "AkAudioBank'AMB_WP'",
       "ObjectPath": "PM/Content/WwiseAssets/AkBank/AMB_WP.0"
     }
-  }
+  },
+  "EventCookedData": {
+    "EventLanguageMap": [
+      {
+        "Key": {
+          "LanguageId": 0,
+          "LanguageName": "SFX",
+          "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
+        },
+        "Value": {
+          "EventId": 1777261912,
+          "SoundBanks": [
+            {
+              "SoundBankId": -1105895269,
+              "SoundBankPathName": "AMB_WP.bnk",
+              "MemoryAlignment": 16,
+              "bDeviceMemory": false,
+              "bContainsMedia": true,
+              "SoundBankType": "EWwiseSoundBankType::User",
+              "DebugName": "AMB_WP"
+            }
+          ],
+          "Media": [
+            {
+              "MediaId": 178064454,
+              "MediaPathName": "Media/SFX/AMB_WP/178064454.wem",
+              "PrefetchSize": 0,
+              "MemoryAlignment": 16,
+              "bDeviceMemory": false,
+              "bStreaming": true,
+              "DebugName": "ambient\\OLGK\\amb_door_open0.2s.wav"
+            }
+          ],
+          "ExternalSources": [],
+          "SwitchContainerLeaves": [],
+          "RequiredGroupValueSet": [],
+          "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
+          "DebugName": "AMB_WP_Doors_Open"
+        }
+      }
+    ],
+    "DebugName": "AMB_WP_Doors_Open",
+    "EventId": 1777261912
+  },
+  "MaximumDuration": 2.983492,
+  "MinimumDuration": 2.983492,
+  "IsInfinite": false,
+  "MaxAttenuationRadius": 2000.0
 }

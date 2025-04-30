@@ -2,6 +2,7 @@
   "Type": "AkAudioEvent",
   "Name": "Char_Robot_SavingPeople",
   "Class": "UScriptClass'AkAudioEvent'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
   "Properties": {
     "MinimumDuration": 2.01,
     "MaximumDuration": 2.01,
@@ -9,5 +10,42 @@
       "ObjectName": "AkAudioBank'Char_Common'",
       "ObjectPath": "PM/Content/WwiseAssets/AkBank/Char_Common.0"
     }
-  }
+  },
+  "EventCookedData": {
+    "EventLanguageMap": [
+      {
+        "Key": {
+          "LanguageId": 0,
+          "LanguageName": "SFX",
+          "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
+        },
+        "Value": {
+          "EventId": -658127088,
+          "SoundBanks": [
+            {
+              "SoundBankId": -766700885,
+              "SoundBankPathName": "Char_Common.bnk",
+              "MemoryAlignment": 16,
+              "bDeviceMemory": false,
+              "bContainsMedia": true,
+              "SoundBankType": "EWwiseSoundBankType::User",
+              "DebugName": "Char_Common"
+            }
+          ],
+          "Media": [],
+          "ExternalSources": [],
+          "SwitchContainerLeaves": [],
+          "RequiredGroupValueSet": [],
+          "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
+          "DebugName": "Char_Robot_SavingPeople"
+        }
+      }
+    ],
+    "DebugName": "Char_Robot_SavingPeople",
+    "EventId": -658127088
+  },
+  "MaximumDuration": 2.01,
+  "MinimumDuration": 2.01,
+  "IsInfinite": false,
+  "MaxAttenuationRadius": 3000.0
 }

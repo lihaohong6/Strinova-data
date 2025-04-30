@@ -2,10 +2,55 @@
   "Type": "AkAudioEvent",
   "Name": "Replay_StopVoxAndBGM",
   "Class": "UScriptClass'AkAudioEvent'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
   "Properties": {
     "RequiredBank": {
       "ObjectName": "AkAudioBank'GameInitialization'",
       "ObjectPath": "PM/Content/WwiseAssets/AkBank/GameInitialization.0"
     }
-  }
+  },
+  "EventCookedData": {
+    "EventLanguageMap": [
+      {
+        "Key": {
+          "LanguageId": 0,
+          "LanguageName": "SFX",
+          "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
+        },
+        "Value": {
+          "EventId": 1767167189,
+          "SoundBanks": [
+            {
+              "SoundBankId": -1066119245,
+              "SoundBankPathName": "GameInitialization.bnk",
+              "MemoryAlignment": 16,
+              "bDeviceMemory": false,
+              "bContainsMedia": true,
+              "SoundBankType": "EWwiseSoundBankType::User",
+              "DebugName": "GameInitialization"
+            }
+          ],
+          "Media": [],
+          "ExternalSources": [],
+          "SwitchContainerLeaves": [],
+          "RequiredGroupValueSet": [
+            {
+              "Type": "EWwiseGroupType::State",
+              "GroupId": 412724365,
+              "Id": 743913214,
+              "DebugName": "Bgm_None"
+            }
+          ],
+          "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
+          "DebugName": "Replay_StopVoxAndBGM"
+        }
+      }
+    ],
+    "DebugName": "Replay_StopVoxAndBGM",
+    "EventId": 1767167189
+  },
+  "MaximumDuration": 0.0,
+  "MinimumDuration": 0.0,
+  "IsInfinite": false,
+  "MaxAttenuationRadius": 0.0
 }

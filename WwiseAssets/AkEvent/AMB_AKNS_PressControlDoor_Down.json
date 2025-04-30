@@ -2,6 +2,7 @@
   "Type": "AkAudioEvent",
   "Name": "AMB_AKNS_PressControlDoor_Down",
   "Class": "UScriptClass'AkAudioEvent'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
   "Properties": {
     "MinimumDuration": 5.0005,
     "MaximumDuration": 5.0005,
@@ -9,5 +10,42 @@
       "ObjectName": "AkAudioBank'AMB_AKNS_3D'",
       "ObjectPath": "PM/Content/WwiseAssets/AkBank/AMB_AKNS_3D.0"
     }
-  }
+  },
+  "EventCookedData": {
+    "EventLanguageMap": [
+      {
+        "Key": {
+          "LanguageId": 0,
+          "LanguageName": "SFX",
+          "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
+        },
+        "Value": {
+          "EventId": 1143464521,
+          "SoundBanks": [
+            {
+              "SoundBankId": -586611965,
+              "SoundBankPathName": "AMB_AKNS_3D.bnk",
+              "MemoryAlignment": 16,
+              "bDeviceMemory": false,
+              "bContainsMedia": true,
+              "SoundBankType": "EWwiseSoundBankType::User",
+              "DebugName": "AMB_AKNS_3D"
+            }
+          ],
+          "Media": [],
+          "ExternalSources": [],
+          "SwitchContainerLeaves": [],
+          "RequiredGroupValueSet": [],
+          "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
+          "DebugName": "AMB_AKNS_PressControlDoor_Down"
+        }
+      }
+    ],
+    "DebugName": "AMB_AKNS_PressControlDoor_Down",
+    "EventId": 1143464521
+  },
+  "MaximumDuration": 5.0005,
+  "MinimumDuration": 5.0005,
+  "IsInfinite": false,
+  "MaxAttenuationRadius": 1200.0
 }

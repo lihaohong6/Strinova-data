@@ -2,6 +2,7 @@
   "Type": "AkAudioEvent",
   "Name": "Weap_Common_Charge",
   "Class": "UScriptClass'AkAudioEvent'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
   "Properties": {
     "MinimumDuration": 0.7283447,
     "MaximumDuration": 0.7283447,
@@ -9,5 +10,42 @@
       "ObjectName": "AkAudioBank'Wpn_Common'",
       "ObjectPath": "PM/Content/WwiseAssets/AkBank/Wpn_Common.0"
     }
-  }
+  },
+  "EventCookedData": {
+    "EventLanguageMap": [
+      {
+        "Key": {
+          "LanguageId": 0,
+          "LanguageName": "SFX",
+          "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
+        },
+        "Value": {
+          "EventId": -526136587,
+          "SoundBanks": [
+            {
+              "SoundBankId": -848927478,
+              "SoundBankPathName": "Wpn_Common.bnk",
+              "MemoryAlignment": 16,
+              "bDeviceMemory": false,
+              "bContainsMedia": true,
+              "SoundBankType": "EWwiseSoundBankType::User",
+              "DebugName": "Wpn_Common"
+            }
+          ],
+          "Media": [],
+          "ExternalSources": [],
+          "SwitchContainerLeaves": [],
+          "RequiredGroupValueSet": [],
+          "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
+          "DebugName": "Weap_Common_Charge"
+        }
+      }
+    ],
+    "DebugName": "Weap_Common_Charge",
+    "EventId": -526136587
+  },
+  "MaximumDuration": 0.7283447,
+  "MinimumDuration": 0.7283447,
+  "IsInfinite": false,
+  "MaxAttenuationRadius": 0.0
 }

@@ -2,10 +2,58 @@
   "Type": "AkAudioEvent",
   "Name": "LS_BP3_Burn",
   "Class": "UScriptClass'AkAudioEvent'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
   "Properties": {
     "RequiredBank": {
       "ObjectName": "AkAudioBank'Story_BP3'",
       "ObjectPath": "PM/Content/WwiseAssets/AkBank/Story_BP3.0"
     }
-  }
+  },
+  "EventCookedData": {
+    "EventLanguageMap": [
+      {
+        "Key": {
+          "LanguageId": 0,
+          "LanguageName": "SFX",
+          "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
+        },
+        "Value": {
+          "EventId": 565562942,
+          "SoundBanks": [
+            {
+              "SoundBankId": 1345540944,
+              "SoundBankPathName": "Story_BP3.bnk",
+              "MemoryAlignment": 16,
+              "bDeviceMemory": false,
+              "bContainsMedia": true,
+              "SoundBankType": "EWwiseSoundBankType::User",
+              "DebugName": "Story_BP3"
+            }
+          ],
+          "Media": [
+            {
+              "MediaId": 900130618,
+              "MediaPathName": "Media/SFX/Story_BP3/900130618.wem",
+              "PrefetchSize": 0,
+              "MemoryAlignment": 16,
+              "bDeviceMemory": false,
+              "bStreaming": true,
+              "DebugName": "story\\BP3\\LS_BP3_Burn.wav"
+            }
+          ],
+          "ExternalSources": [],
+          "SwitchContainerLeaves": [],
+          "RequiredGroupValueSet": [],
+          "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
+          "DebugName": "LS_BP3_Burn"
+        }
+      }
+    ],
+    "DebugName": "LS_BP3_Burn",
+    "EventId": 565562942
+  },
+  "MaximumDuration": 0.0,
+  "MinimumDuration": 0.0,
+  "IsInfinite": true,
+  "MaxAttenuationRadius": 0.0
 }

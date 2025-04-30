@@ -2,6 +2,7 @@
   "Type": "AkAudioEvent",
   "Name": "Wpn_Alarm_Exploded",
   "Class": "UScriptClass'AkAudioEvent'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
   "Properties": {
     "MinimumDuration": 1.6360544,
     "MaximumDuration": 1.6360544,
@@ -9,5 +10,42 @@
       "ObjectName": "AkAudioBank'Alarm'",
       "ObjectPath": "PM/Content/WwiseAssets/AkBank/Alarm.0"
     }
-  }
+  },
+  "EventCookedData": {
+    "EventLanguageMap": [
+      {
+        "Key": {
+          "LanguageId": 0,
+          "LanguageName": "SFX",
+          "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
+        },
+        "Value": {
+          "EventId": -1724548066,
+          "SoundBanks": [
+            {
+              "SoundBankId": 855317084,
+              "SoundBankPathName": "Alarm.bnk",
+              "MemoryAlignment": 16,
+              "bDeviceMemory": false,
+              "bContainsMedia": true,
+              "SoundBankType": "EWwiseSoundBankType::User",
+              "DebugName": "Alarm"
+            }
+          ],
+          "Media": [],
+          "ExternalSources": [],
+          "SwitchContainerLeaves": [],
+          "RequiredGroupValueSet": [],
+          "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
+          "DebugName": "Wpn_Alarm_Exploded"
+        }
+      }
+    ],
+    "DebugName": "Wpn_Alarm_Exploded",
+    "EventId": -1724548066
+  },
+  "MaximumDuration": 1.6360544,
+  "MinimumDuration": 1.6360544,
+  "IsInfinite": false,
+  "MaxAttenuationRadius": 3000.0
 }

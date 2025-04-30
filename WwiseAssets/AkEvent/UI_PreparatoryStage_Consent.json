@@ -2,6 +2,7 @@
   "Type": "AkAudioEvent",
   "Name": "UI_PreparatoryStage_Consent",
   "Class": "UScriptClass'AkAudioEvent'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
   "Properties": {
     "MinimumDuration": 3.0,
     "MaximumDuration": 3.0,
@@ -9,5 +10,42 @@
       "ObjectName": "AkAudioBank'UI_PreparatoryStage'",
       "ObjectPath": "PM/Content/WwiseAssets/AkBank/UI_PreparatoryStage.0"
     }
-  }
+  },
+  "EventCookedData": {
+    "EventLanguageMap": [
+      {
+        "Key": {
+          "LanguageId": 0,
+          "LanguageName": "SFX",
+          "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
+        },
+        "Value": {
+          "EventId": -2071106656,
+          "SoundBanks": [
+            {
+              "SoundBankId": 122141943,
+              "SoundBankPathName": "UI_PreparatoryStage.bnk",
+              "MemoryAlignment": 16,
+              "bDeviceMemory": false,
+              "bContainsMedia": true,
+              "SoundBankType": "EWwiseSoundBankType::User",
+              "DebugName": "UI_PreparatoryStage"
+            }
+          ],
+          "Media": [],
+          "ExternalSources": [],
+          "SwitchContainerLeaves": [],
+          "RequiredGroupValueSet": [],
+          "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
+          "DebugName": "UI_PreparatoryStage_Consent"
+        }
+      }
+    ],
+    "DebugName": "UI_PreparatoryStage_Consent",
+    "EventId": -2071106656
+  },
+  "MaximumDuration": 3.0,
+  "MinimumDuration": 3.0,
+  "IsInfinite": false,
+  "MaxAttenuationRadius": 0.0
 }

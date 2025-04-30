@@ -2,6 +2,7 @@
   "Type": "AkAudioEvent",
   "Name": "Wpn_GrenadeTreatment_Loop",
   "Class": "UScriptClass'AkAudioEvent'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
   "Properties": {
     "MinimumDuration": 8.449637,
     "MaximumDuration": 8.449637,
@@ -9,5 +10,52 @@
       "ObjectName": "AkAudioBank'Wpn_Grenade_Treatment'",
       "ObjectPath": "PM/Content/WwiseAssets/AkBank/Wpn_Grenade_Treatment.0"
     }
-  }
+  },
+  "EventCookedData": {
+    "EventLanguageMap": [
+      {
+        "Key": {
+          "LanguageId": 0,
+          "LanguageName": "SFX",
+          "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
+        },
+        "Value": {
+          "EventId": -1498180840,
+          "SoundBanks": [
+            {
+              "SoundBankId": -1814013052,
+              "SoundBankPathName": "Wpn_Grenade_Treatment.bnk",
+              "MemoryAlignment": 16,
+              "bDeviceMemory": false,
+              "bContainsMedia": true,
+              "SoundBankType": "EWwiseSoundBankType::User",
+              "DebugName": "Wpn_Grenade_Treatment"
+            }
+          ],
+          "Media": [
+            {
+              "MediaId": 363974967,
+              "MediaPathName": "Media/SFX/Wpn_Grenade_Treatment/363974967.wem",
+              "PrefetchSize": 0,
+              "MemoryAlignment": 16,
+              "bDeviceMemory": false,
+              "bStreaming": true,
+              "DebugName": "weapon\\bomb\\Wpn_GrenadeTreatment_Loop.wav"
+            }
+          ],
+          "ExternalSources": [],
+          "SwitchContainerLeaves": [],
+          "RequiredGroupValueSet": [],
+          "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
+          "DebugName": "Wpn_GrenadeTreatment_Loop"
+        }
+      }
+    ],
+    "DebugName": "Wpn_GrenadeTreatment_Loop",
+    "EventId": -1498180840
+  },
+  "MaximumDuration": 8.449637,
+  "MinimumDuration": 8.449637,
+  "IsInfinite": false,
+  "MaxAttenuationRadius": 3000.0
 }

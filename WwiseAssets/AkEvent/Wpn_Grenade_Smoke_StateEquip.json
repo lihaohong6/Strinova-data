@@ -2,6 +2,7 @@
   "Type": "AkAudioEvent",
   "Name": "Wpn_Grenade_Smoke_StateEquip",
   "Class": "UScriptClass'AkAudioEvent'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
   "Properties": {
     "MinimumDuration": 0.61070293,
     "MaximumDuration": 0.6615193,
@@ -9,5 +10,42 @@
       "ObjectName": "AkAudioBank'Wpn_Grenade_Smoke'",
       "ObjectPath": "PM/Content/WwiseAssets/AkBank/Wpn_Grenade_Smoke.0"
     }
-  }
+  },
+  "EventCookedData": {
+    "EventLanguageMap": [
+      {
+        "Key": {
+          "LanguageId": 0,
+          "LanguageName": "SFX",
+          "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
+        },
+        "Value": {
+          "EventId": -1771763261,
+          "SoundBanks": [
+            {
+              "SoundBankId": 1301879979,
+              "SoundBankPathName": "Wpn_Grenade_Smoke.bnk",
+              "MemoryAlignment": 16,
+              "bDeviceMemory": false,
+              "bContainsMedia": true,
+              "SoundBankType": "EWwiseSoundBankType::User",
+              "DebugName": "Wpn_Grenade_Smoke"
+            }
+          ],
+          "Media": [],
+          "ExternalSources": [],
+          "SwitchContainerLeaves": [],
+          "RequiredGroupValueSet": [],
+          "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
+          "DebugName": "Wpn_Grenade_Smoke_StateEquip"
+        }
+      }
+    ],
+    "DebugName": "Wpn_Grenade_Smoke_StateEquip",
+    "EventId": -1771763261
+  },
+  "MaximumDuration": 0.6615193,
+  "MinimumDuration": 0.61070293,
+  "IsInfinite": false,
+  "MaxAttenuationRadius": 3000.0
 }

@@ -2,10 +2,92 @@
   "Type": "AkAudioEvent",
   "Name": "LS_S0C5_Start",
   "Class": "UScriptClass'AkAudioEvent'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
   "Properties": {
     "RequiredBank": {
       "ObjectName": "AkAudioBank'BGM_Story'",
       "ObjectPath": "PM/Content/WwiseAssets/AkBank/BGM_Story.0"
     }
-  }
+  },
+  "EventCookedData": {
+    "EventLanguageMap": [
+      {
+        "Key": {
+          "LanguageId": 0,
+          "LanguageName": "SFX",
+          "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
+        },
+        "Value": {
+          "EventId": 837179585,
+          "SoundBanks": [
+            {
+              "SoundBankId": -1580039201,
+              "SoundBankPathName": "BGM_Story.bnk",
+              "MemoryAlignment": 16,
+              "bDeviceMemory": false,
+              "bContainsMedia": true,
+              "SoundBankType": "EWwiseSoundBankType::User",
+              "DebugName": "BGM_Story"
+            }
+          ],
+          "Media": [
+            {
+              "MediaId": 181377491,
+              "MediaPathName": "Media/SFX/BGM_Story/181377491.wem",
+              "PrefetchSize": 0,
+              "MemoryAlignment": 16,
+              "bDeviceMemory": false,
+              "bStreaming": true,
+              "DebugName": "story\\S0C5\\LS_S0C5_AMB.wav"
+            },
+            {
+              "MediaId": 490595698,
+              "MediaPathName": "Media/SFX/BGM_Story/490595698.wem",
+              "PrefetchSize": 0,
+              "MemoryAlignment": 16,
+              "bDeviceMemory": false,
+              "bStreaming": true,
+              "DebugName": "bgm\\story\\LS_S0C5_BGM_outro.wav"
+            },
+            {
+              "MediaId": 994507485,
+              "MediaPathName": "Media/SFX/BGM_Story/994507485.wem",
+              "PrefetchSize": 0,
+              "MemoryAlignment": 16,
+              "bDeviceMemory": false,
+              "bStreaming": true,
+              "DebugName": "bgm\\story\\LS_Opol_Crisis_loop.wav"
+            },
+            {
+              "MediaId": 1015103543,
+              "MediaPathName": "Media/SFX/BGM_Story/1015103543.wem",
+              "PrefetchSize": 0,
+              "MemoryAlignment": 16,
+              "bDeviceMemory": false,
+              "bStreaming": true,
+              "DebugName": "bgm\\story\\LS_Opol_Crisis_intro.wav"
+            }
+          ],
+          "ExternalSources": [],
+          "SwitchContainerLeaves": [],
+          "RequiredGroupValueSet": [
+            {
+              "Type": "EWwiseGroupType::State",
+              "GroupId": 1195509938,
+              "Id": 1468271944,
+              "DebugName": "LS_Opol_Crisis_Loop"
+            }
+          ],
+          "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
+          "DebugName": "LS_S0C5_Start"
+        }
+      }
+    ],
+    "DebugName": "LS_S0C5_Start",
+    "EventId": 837179585
+  },
+  "MaximumDuration": 0.0,
+  "MinimumDuration": 0.0,
+  "IsInfinite": true,
+  "MaxAttenuationRadius": 0.0
 }

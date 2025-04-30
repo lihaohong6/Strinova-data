@@ -2,6 +2,7 @@
   "Type": "AkAudioEvent",
   "Name": "Weap_AUG_Reload_Start",
   "Class": "UScriptClass'AkAudioEvent'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
   "Properties": {
     "MinimumDuration": 0.8184127,
     "MaximumDuration": 0.8184127,
@@ -9,5 +10,42 @@
       "ObjectName": "AkAudioBank'Wpn_AUG'",
       "ObjectPath": "PM/Content/WwiseAssets/AkBank/Wpn_AUG.0"
     }
-  }
+  },
+  "EventCookedData": {
+    "EventLanguageMap": [
+      {
+        "Key": {
+          "LanguageId": 0,
+          "LanguageName": "SFX",
+          "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
+        },
+        "Value": {
+          "EventId": 2010305067,
+          "SoundBanks": [
+            {
+              "SoundBankId": -1991049246,
+              "SoundBankPathName": "Wpn_AUG.bnk",
+              "MemoryAlignment": 16,
+              "bDeviceMemory": false,
+              "bContainsMedia": true,
+              "SoundBankType": "EWwiseSoundBankType::User",
+              "DebugName": "Wpn_AUG"
+            }
+          ],
+          "Media": [],
+          "ExternalSources": [],
+          "SwitchContainerLeaves": [],
+          "RequiredGroupValueSet": [],
+          "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
+          "DebugName": "Weap_AUG_Reload_Start"
+        }
+      }
+    ],
+    "DebugName": "Weap_AUG_Reload_Start",
+    "EventId": 2010305067
+  },
+  "MaximumDuration": 0.8184127,
+  "MinimumDuration": 0.8184127,
+  "IsInfinite": false,
+  "MaxAttenuationRadius": 1200.0
 }

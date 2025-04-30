@@ -2,10 +2,48 @@
   "Type": "AkAudioEvent",
   "Name": "Wpn_GrenadeSlowDown_Debuff_Stop",
   "Class": "UScriptClass'AkAudioEvent'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
   "Properties": {
     "RequiredBank": {
       "ObjectName": "AkAudioBank'Wpn_Grenade_SlowDown'",
       "ObjectPath": "PM/Content/WwiseAssets/AkBank/Wpn_Grenade_SlowDown.0"
     }
-  }
+  },
+  "EventCookedData": {
+    "EventLanguageMap": [
+      {
+        "Key": {
+          "LanguageId": 0,
+          "LanguageName": "SFX",
+          "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
+        },
+        "Value": {
+          "EventId": 199292510,
+          "SoundBanks": [
+            {
+              "SoundBankId": -869959793,
+              "SoundBankPathName": "Wpn_Grenade_SlowDown.bnk",
+              "MemoryAlignment": 16,
+              "bDeviceMemory": false,
+              "bContainsMedia": true,
+              "SoundBankType": "EWwiseSoundBankType::User",
+              "DebugName": "Wpn_Grenade_SlowDown"
+            }
+          ],
+          "Media": [],
+          "ExternalSources": [],
+          "SwitchContainerLeaves": [],
+          "RequiredGroupValueSet": [],
+          "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
+          "DebugName": "Wpn_GrenadeSlowDown_Debuff_Stop"
+        }
+      }
+    ],
+    "DebugName": "Wpn_GrenadeSlowDown_Debuff_Stop",
+    "EventId": 199292510
+  },
+  "MaximumDuration": 0.0,
+  "MinimumDuration": 0.0,
+  "IsInfinite": false,
+  "MaxAttenuationRadius": 0.0
 }

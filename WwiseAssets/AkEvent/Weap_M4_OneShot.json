@@ -2,6 +2,7 @@
   "Type": "AkAudioEvent",
   "Name": "Weap_M4_OneShot",
   "Class": "UScriptClass'AkAudioEvent'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
   "Properties": {
     "MinimumDuration": 1.2952435,
     "MaximumDuration": 4.0038323,
@@ -9,5 +10,42 @@
       "ObjectName": "AkAudioBank'Wpn_M4a1'",
       "ObjectPath": "PM/Content/WwiseAssets/AkBank/Wpn_M4a1.0"
     }
-  }
+  },
+  "EventCookedData": {
+    "EventLanguageMap": [
+      {
+        "Key": {
+          "LanguageId": 0,
+          "LanguageName": "SFX",
+          "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
+        },
+        "Value": {
+          "EventId": -82209193,
+          "SoundBanks": [
+            {
+              "SoundBankId": -104100804,
+              "SoundBankPathName": "Wpn_M4a1.bnk",
+              "MemoryAlignment": 16,
+              "bDeviceMemory": false,
+              "bContainsMedia": true,
+              "SoundBankType": "EWwiseSoundBankType::User",
+              "DebugName": "Wpn_M4a1"
+            }
+          ],
+          "Media": [],
+          "ExternalSources": [],
+          "SwitchContainerLeaves": [],
+          "RequiredGroupValueSet": [],
+          "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
+          "DebugName": "Weap_M4_OneShot"
+        }
+      }
+    ],
+    "DebugName": "Weap_M4_OneShot",
+    "EventId": -82209193
+  },
+  "MaximumDuration": 4.0038323,
+  "MinimumDuration": 1.2952435,
+  "IsInfinite": false,
+  "MaxAttenuationRadius": 15000.0
 }

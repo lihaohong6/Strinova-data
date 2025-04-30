@@ -2,6 +2,7 @@
   "Type": "AkAudioEvent",
   "Name": "AMB_TCT4_DoorOpen",
   "Class": "UScriptClass'AkAudioEvent'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
   "Properties": {
     "MinimumDuration": 3.2708457,
     "MaximumDuration": 3.2708457,
@@ -9,5 +10,42 @@
       "ObjectName": "AkAudioBank'Amb_TCT4_3D'",
       "ObjectPath": "PM/Content/WwiseAssets/AkBank/Amb_TCT4_3D.0"
     }
-  }
+  },
+  "EventCookedData": {
+    "EventLanguageMap": [
+      {
+        "Key": {
+          "LanguageId": 0,
+          "LanguageName": "SFX",
+          "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
+        },
+        "Value": {
+          "EventId": -123021920,
+          "SoundBanks": [
+            {
+              "SoundBankId": 956161317,
+              "SoundBankPathName": "Amb_TCT4_3D.bnk",
+              "MemoryAlignment": 16,
+              "bDeviceMemory": false,
+              "bContainsMedia": true,
+              "SoundBankType": "EWwiseSoundBankType::User",
+              "DebugName": "Amb_TCT4_3D"
+            }
+          ],
+          "Media": [],
+          "ExternalSources": [],
+          "SwitchContainerLeaves": [],
+          "RequiredGroupValueSet": [],
+          "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
+          "DebugName": "AMB_TCT4_DoorOpen"
+        }
+      }
+    ],
+    "DebugName": "AMB_TCT4_DoorOpen",
+    "EventId": -123021920
+  },
+  "MaximumDuration": 3.2708457,
+  "MinimumDuration": 3.2708457,
+  "IsInfinite": false,
+  "MaxAttenuationRadius": 1000.0
 }

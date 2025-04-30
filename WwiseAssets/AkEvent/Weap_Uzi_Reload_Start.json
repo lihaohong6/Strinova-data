@@ -2,6 +2,7 @@
   "Type": "AkAudioEvent",
   "Name": "Weap_Uzi_Reload_Start",
   "Class": "UScriptClass'AkAudioEvent'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
   "Properties": {
     "MinimumDuration": 0.30331194,
     "MaximumDuration": 0.3038322,
@@ -9,5 +10,42 @@
       "ObjectName": "AkAudioBank'MicroUzi'",
       "ObjectPath": "PM/Content/WwiseAssets/AkBank/MicroUzi.0"
     }
-  }
+  },
+  "EventCookedData": {
+    "EventLanguageMap": [
+      {
+        "Key": {
+          "LanguageId": 0,
+          "LanguageName": "SFX",
+          "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
+        },
+        "Value": {
+          "EventId": -29687226,
+          "SoundBanks": [
+            {
+              "SoundBankId": -178662377,
+              "SoundBankPathName": "MicroUzi.bnk",
+              "MemoryAlignment": 16,
+              "bDeviceMemory": false,
+              "bContainsMedia": true,
+              "SoundBankType": "EWwiseSoundBankType::User",
+              "DebugName": "MicroUzi"
+            }
+          ],
+          "Media": [],
+          "ExternalSources": [],
+          "SwitchContainerLeaves": [],
+          "RequiredGroupValueSet": [],
+          "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
+          "DebugName": "Weap_Uzi_Reload_Start"
+        }
+      }
+    ],
+    "DebugName": "Weap_Uzi_Reload_Start",
+    "EventId": -29687226
+  },
+  "MaximumDuration": 0.3038322,
+  "MinimumDuration": 0.30331194,
+  "IsInfinite": false,
+  "MaxAttenuationRadius": 1200.0
 }

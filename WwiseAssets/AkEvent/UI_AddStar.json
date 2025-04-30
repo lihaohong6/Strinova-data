@@ -2,6 +2,7 @@
   "Type": "AkAudioEvent",
   "Name": "UI_AddStar",
   "Class": "UScriptClass'AkAudioEvent'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
   "Properties": {
     "MinimumDuration": 1.0035827,
     "MaximumDuration": 1.0035827,
@@ -9,5 +10,42 @@
       "ObjectName": "AkAudioBank'UI_InGame_Rank'",
       "ObjectPath": "PM/Content/WwiseAssets/AkBank/UI_InGame_Rank.0"
     }
-  }
+  },
+  "EventCookedData": {
+    "EventLanguageMap": [
+      {
+        "Key": {
+          "LanguageId": 0,
+          "LanguageName": "SFX",
+          "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
+        },
+        "Value": {
+          "EventId": 545470291,
+          "SoundBanks": [
+            {
+              "SoundBankId": -675781306,
+              "SoundBankPathName": "UI_InGame_Rank.bnk",
+              "MemoryAlignment": 16,
+              "bDeviceMemory": false,
+              "bContainsMedia": true,
+              "SoundBankType": "EWwiseSoundBankType::User",
+              "DebugName": "UI_InGame_Rank"
+            }
+          ],
+          "Media": [],
+          "ExternalSources": [],
+          "SwitchContainerLeaves": [],
+          "RequiredGroupValueSet": [],
+          "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
+          "DebugName": "UI_AddStar"
+        }
+      }
+    ],
+    "DebugName": "UI_AddStar",
+    "EventId": 545470291
+  },
+  "MaximumDuration": 1.0035827,
+  "MinimumDuration": 1.0035827,
+  "IsInfinite": false,
+  "MaxAttenuationRadius": 0.0
 }
