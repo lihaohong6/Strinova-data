@@ -2,6 +2,7 @@
   "Type": "DataTable",
   "Name": "Growth_Team",
   "Class": "UScriptClass'DataTable'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
   "Properties": {
     "RowStruct": {
       "ObjectName": "ScriptStruct'CyGrowthTableRow'",
@@ -169,11 +170,15 @@
       "Part1Desc": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "BaseDamageIncreased"
+          "Key": "BaseDamageIncreased",
+          "SourceString": "基础伤害提升",
+          "LocalizedString": "基础伤害提升"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "BaseRateOfFireIncreased"
+          "Key": "BaseRateOfFireIncreased",
+          "SourceString": "基础射速提升",
+          "LocalizedString": "基础射速提升"
         },
         {
           "CultureInvariantString": null
@@ -192,11 +197,15 @@
       "Part2Desc": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "HeadshotDamageIncreased"
+          "Key": "HeadshotDamageIncreased",
+          "SourceString": "爆头伤害提升",
+          "LocalizedString": "爆头伤害提升"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "StringDamageIncreased"
+          "Key": "StringDamageIncreased",
+          "SourceString": "弦化伤害提升",
+          "LocalizedString": "弦化伤害提升"
         },
         {
           "CultureInvariantString": null
@@ -215,11 +224,15 @@
       "Part4Desc": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "IncreasedNumberOfBullets"
+          "Key": "IncreasedNumberOfBullets",
+          "SourceString": "载弹数量提升",
+          "LocalizedString": "载弹数量提升"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "ReloadSpeedIncreased"
+          "Key": "ReloadSpeedIncreased",
+          "SourceString": "换弹速度提升",
+          "LocalizedString": "换弹速度提升"
         },
         {
           "CultureInvariantString": null
@@ -238,11 +251,15 @@
       "Part5Desc": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "IncreasedCameraOpeningSpeed"
+          "Key": "IncreasedCameraOpeningSpeed",
+          "SourceString": "开镜速度提升",
+          "LocalizedString": "开镜速度提升"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "ScatterControlImprovements"
+          "Key": "ScatterControlImprovements",
+          "SourceString": "散射控制提升",
+          "LocalizedString": "散射控制提升"
         },
         {
           "CultureInvariantString": null
@@ -262,7 +279,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "DamageAndRangeIncreased_WithNumParam"
+            "Key": "DamageAndRangeIncreased_WithNumParam",
+            "SourceString": "伤害和射程增加{0}%",
+            "LocalizedString": "伤害和射程增加{0}%"
           },
           "Arguments": [
             {
@@ -274,7 +293,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "LimitIncreasedTo_WithNumParam"
+            "Key": "LimitIncreasedTo_WithNumParam",
+            "SourceString": "上限增加至{0}个",
+            "LocalizedString": "上限增加至{0}个"
           },
           "Arguments": [
             {
@@ -298,7 +319,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "Details_101_Q_1"
+            "Key": "Details_101_Q_1",
+            "SourceString": "[主动技能]喵喵卫士的伤害和射程增加<GrowthMB_DescY>{0}%</>\r\n[技能效果说明-喵喵卫士]米雪儿投掷可附着在建筑表面的喵喵卫士，喵喵卫士将自动攻击一定范围内的敌方角色，并使其减速。",
+            "LocalizedString": "[主动技能]喵喵卫士的伤害和射程增加<GrowthMB_DescY>{0}%</>\r\n[技能效果说明-喵喵卫士]米雪儿投掷可附着在建筑表面的喵喵卫士，喵喵卫士将自动攻击一定范围内的敌方角色，并使其减速。"
           },
           "Arguments": [
             {
@@ -310,7 +333,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "Details_101_Q_2"
+            "Key": "Details_101_Q_2",
+            "SourceString": "[主动技能]喵喵卫士的上限增加至<GrowthMB_DescY>{0}</>个\r\n[技能效果说明-喵喵卫士]米雪儿投掷可附着在建筑表面的喵喵卫士，喵喵卫士将自动攻击一定范围内的敌方角色，并使其减速。",
+            "LocalizedString": "[主动技能]喵喵卫士的上限增加至<GrowthMB_DescY>{0}</>个\r\n[技能效果说明-喵喵卫士]米雪儿投掷可附着在建筑表面的喵喵卫士，喵喵卫士将自动攻击一定范围内的敌方角色，并使其减速。"
           },
           "Arguments": [
             {
@@ -324,7 +349,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "EnemyExposureTimeIncreasedSecondsBy_WithNumParam"
+            "Key": "EnemyExposureTimeIncreasedSecondsBy_WithNumParam",
+            "SourceString": "敌方暴露时间增加{0}秒",
+            "LocalizedString": "敌方暴露时间增加{0}秒"
           },
           "Arguments": [
             {
@@ -348,7 +375,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "Details_101_P_1"
+            "Key": "Details_101_P_1",
+            "SourceString": "[被动技能]猫踪喵迹对攻击自己的敌方暴露时间增加<GrowthMB_DescY>{0}</>秒\r\n[技能效果说明-猫踪喵迹]米雪儿会短暂透视使用武器直接命中自己的敌人。",
+            "LocalizedString": "[被动技能]猫踪喵迹对攻击自己的敌方暴露时间增加<GrowthMB_DescY>{0}</>秒\r\n[技能效果说明-猫踪喵迹]米雪儿会短暂透视使用武器直接命中自己的敌人。"
           },
           "Arguments": [
             {
@@ -373,11 +402,15 @@
       "ShieldDesc": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "QuickReturnOfLightArmor"
+          "Key": "QuickReturnOfLightArmor",
+          "SourceString": "快回轻型护甲",
+          "LocalizedString": "快回轻型护甲"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "HeavyArmor"
+          "Key": "HeavyArmor",
+          "SourceString": "重型护甲",
+          "LocalizedString": "重型护甲"
         }
       ],
       "ShieldIcon": [
@@ -394,7 +427,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "StringAcceleration_WithNumParam"
+            "Key": "StringAcceleration_WithNumParam",
+            "SourceString": "弦化状态移速增加{0}%",
+            "LocalizedString": "弦化状态移速增加{0}%"
           },
           "Arguments": [
             {
@@ -406,7 +441,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "SetStringReductionCoefficientValue_WithNumParam"
+            "Key": "SetStringReductionCoefficientValue_WithNumParam",
+            "SourceString": "弦化减伤系数提至{0}%",
+            "LocalizedString": "弦化减伤系数提至{0}%"
           },
           "Arguments": [
             {
@@ -523,27 +560,39 @@
       "PartName": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_Output"
+          "Key": "Part_Output",
+          "SourceString": "输出",
+          "LocalizedString": "输出"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_CriticalHit"
+          "Key": "Part_CriticalHit",
+          "SourceString": "暴击",
+          "LocalizedString": "暴击"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_KeepFight"
+          "Key": "Part_KeepFight",
+          "SourceString": "续航",
+          "LocalizedString": "续航"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_Accurate"
+          "Key": "Part_Accurate",
+          "SourceString": "精准",
+          "LocalizedString": "精准"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_Armor"
+          "Key": "Part_Armor",
+          "SourceString": "护甲",
+          "LocalizedString": "护甲"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_String"
+          "Key": "Part_String",
+          "SourceString": "弦化",
+          "LocalizedString": "弦化"
         }
       ],
       "PartIcon": [
@@ -748,11 +797,15 @@
       "Part1Desc": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "BaseDamageIncreased"
+          "Key": "BaseDamageIncreased",
+          "SourceString": "基础伤害提升",
+          "LocalizedString": "基础伤害提升"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "BaseRateOfFireIncreased"
+          "Key": "BaseRateOfFireIncreased",
+          "SourceString": "基础射速提升",
+          "LocalizedString": "基础射速提升"
         },
         {
           "CultureInvariantString": null
@@ -771,11 +824,15 @@
       "Part2Desc": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "HeadshotDamageIncreased"
+          "Key": "HeadshotDamageIncreased",
+          "SourceString": "爆头伤害提升",
+          "LocalizedString": "爆头伤害提升"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "StringDamageIncreased"
+          "Key": "StringDamageIncreased",
+          "SourceString": "弦化伤害提升",
+          "LocalizedString": "弦化伤害提升"
         },
         {
           "CultureInvariantString": null
@@ -794,11 +851,15 @@
       "Part4Desc": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "IncreasedNumberOfBullets"
+          "Key": "IncreasedNumberOfBullets",
+          "SourceString": "载弹数量提升",
+          "LocalizedString": "载弹数量提升"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "ReloadSpeedIncreased"
+          "Key": "ReloadSpeedIncreased",
+          "SourceString": "换弹速度提升",
+          "LocalizedString": "换弹速度提升"
         },
         {
           "CultureInvariantString": null
@@ -817,11 +878,15 @@
       "Part5Desc": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "ScatterControlImprovements"
+          "Key": "ScatterControlImprovements",
+          "SourceString": "散射控制提升",
+          "LocalizedString": "散射控制提升"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "ImprovedRecoilControl"
+          "Key": "ImprovedRecoilControl",
+          "SourceString": "后坐控制提升",
+          "LocalizedString": "后坐控制提升"
         },
         {
           "CultureInvariantString": null
@@ -841,7 +906,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "CooldownReducedBySeconds_WithNumParam"
+            "Key": "CooldownReducedBySeconds_WithNumParam",
+            "SourceString": "冷却时间减少{0}秒",
+            "LocalizedString": "冷却时间减少{0}秒"
           },
           "Arguments": [
             {
@@ -853,7 +920,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "DurationIncreasedBySeconds_WithNumParam"
+            "Key": "DurationIncreasedBySeconds_WithNumParam",
+            "SourceString": "持续时间增加{0}秒",
+            "LocalizedString": "持续时间增加{0}秒"
           },
           "Arguments": [
             {
@@ -877,7 +946,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "Details_132_Q_1"
+            "Key": "Details_132_Q_1",
+            "SourceString": "[主动技能]破甲电球的冷却时间减少<GrowthMB_DescY>{0}</>秒\r\n[技能效果说明-破甲电球]明发射一个电球，其达到最大距离、碰到敌方超弦体时会自动引爆，也可通过手动再次按下技能键后主动引爆。电球会破坏范围内所有敌方单位（包含召唤物）的护甲并造成减速。明进入电场将提升移动速度。",
+            "LocalizedString": "[主动技能]破甲电球的冷却时间减少<GrowthMB_DescY>{0}</>秒\r\n[技能效果说明-破甲电球]明发射一个电球，其达到最大距离、碰到敌方超弦体时会自动引爆，也可通过手动再次按下技能键后主动引爆。电球会破坏范围内所有敌方单位（包含召唤物）的护甲并造成减速。明进入电场将提升移动速度。"
           },
           "Arguments": [
             {
@@ -889,7 +960,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "Details_132_Q_2"
+            "Key": "Details_132_Q_2",
+            "SourceString": "[主动技能]破甲电球的持续时间增加<GrowthMB_DescY>{0}</>秒\r\n[技能效果说明-破甲电球]明发射一个电球，其达到最大距离、碰到敌方超弦体时会自动引爆，也可通过手动再次按下技能键后主动引爆。电球会破坏范围内所有敌方单位（包含召唤物）的护甲并造成减速。明进入电场将提升移动速度。",
+            "LocalizedString": "[主动技能]破甲电球的持续时间增加<GrowthMB_DescY>{0}</>秒\r\n[技能效果说明-破甲电球]明发射一个电球，其达到最大距离、碰到敌方超弦体时会自动引爆，也可通过手动再次按下技能键后主动引爆。电球会破坏范围内所有敌方单位（包含召唤物）的护甲并造成减速。明进入电场将提升移动速度。"
           },
           "Arguments": [
             {
@@ -903,7 +976,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "AbsorbArmor_WithNumParam"
+            "Key": "AbsorbArmor_WithNumParam",
+            "SourceString": "吸甲量提升{0}%",
+            "LocalizedString": "吸甲量提升{0}%"
           },
           "Arguments": [
             {
@@ -927,7 +1002,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "Details_132_P_1"
+            "Key": "Details_132_P_1",
+            "SourceString": "[被动技能]吸能赋甲的吸甲效率提升<GrowthMB_DescY>{0}%</>\r\n[技能效果说明-吸能赋甲明使用枪械和主动技能对敌方护甲或护盾造成伤害时，自己的护甲将得到基于该伤害量的回复。绝招持续时间内，被动会回复临时护甲并增加回复量。",
+            "LocalizedString": "[被动技能]吸能赋甲的吸甲效率提升<GrowthMB_DescY>{0}%</>\r\n[技能效果说明-吸能赋甲明使用枪械和主动技能对敌方护甲或护盾造成伤害时，自己的护甲将得到基于该伤害量的回复。绝招持续时间内，被动会回复临时护甲并增加回复量。"
           },
           "Arguments": [
             {
@@ -952,11 +1029,15 @@
       "ShieldDesc": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "QuickReturnOfLightArmor"
+          "Key": "QuickReturnOfLightArmor",
+          "SourceString": "快回轻型护甲",
+          "LocalizedString": "快回轻型护甲"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "HeavyArmor"
+          "Key": "HeavyArmor",
+          "SourceString": "重型护甲",
+          "LocalizedString": "重型护甲"
         }
       ],
       "ShieldIcon": [
@@ -973,7 +1054,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "StringAcceleration_WithNumParam"
+            "Key": "StringAcceleration_WithNumParam",
+            "SourceString": "弦化状态移速增加{0}%",
+            "LocalizedString": "弦化状态移速增加{0}%"
           },
           "Arguments": [
             {
@@ -985,7 +1068,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "SetStringReductionCoefficientValue_WithNumParam"
+            "Key": "SetStringReductionCoefficientValue_WithNumParam",
+            "SourceString": "弦化减伤系数提至{0}%",
+            "LocalizedString": "弦化减伤系数提至{0}%"
           },
           "Arguments": [
             {
@@ -1102,27 +1187,39 @@
       "PartName": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_Output"
+          "Key": "Part_Output",
+          "SourceString": "输出",
+          "LocalizedString": "输出"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_CriticalHit"
+          "Key": "Part_CriticalHit",
+          "SourceString": "暴击",
+          "LocalizedString": "暴击"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_KeepFight"
+          "Key": "Part_KeepFight",
+          "SourceString": "续航",
+          "LocalizedString": "续航"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_Accurate"
+          "Key": "Part_Accurate",
+          "SourceString": "精准",
+          "LocalizedString": "精准"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_Armor"
+          "Key": "Part_Armor",
+          "SourceString": "护甲",
+          "LocalizedString": "护甲"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_String"
+          "Key": "Part_String",
+          "SourceString": "弦化",
+          "LocalizedString": "弦化"
         }
       ],
       "PartIcon": [
@@ -1327,11 +1424,15 @@
       "Part1Desc": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "MaximumRunningSpeedIncreased"
+          "Key": "MaximumRunningSpeedIncreased",
+          "SourceString": "移动速度提升",
+          "LocalizedString": "移动速度提升"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "EffectiveRangeIncreased"
+          "Key": "EffectiveRangeIncreased",
+          "SourceString": "有效射程提升",
+          "LocalizedString": "有效射程提升"
         },
         {
           "CultureInvariantString": null
@@ -1350,11 +1451,15 @@
       "Part2Desc": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "HeadshotDamageIncreased"
+          "Key": "HeadshotDamageIncreased",
+          "SourceString": "爆头伤害提升",
+          "LocalizedString": "爆头伤害提升"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "StringDamageIncreased"
+          "Key": "StringDamageIncreased",
+          "SourceString": "弦化伤害提升",
+          "LocalizedString": "弦化伤害提升"
         },
         {
           "CultureInvariantString": null
@@ -1373,11 +1478,15 @@
       "Part4Desc": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "IncreasedNumberOfBullets"
+          "Key": "IncreasedNumberOfBullets",
+          "SourceString": "载弹数量提升",
+          "LocalizedString": "载弹数量提升"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "ReloadSpeedIncreased"
+          "Key": "ReloadSpeedIncreased",
+          "SourceString": "换弹速度提升",
+          "LocalizedString": "换弹速度提升"
         },
         {
           "CultureInvariantString": null
@@ -1396,11 +1505,15 @@
       "Part5Desc": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "ScatterControlImprovements"
+          "Key": "ScatterControlImprovements",
+          "SourceString": "散射控制提升",
+          "LocalizedString": "散射控制提升"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "ImprovedRecoilControl"
+          "Key": "ImprovedRecoilControl",
+          "SourceString": "后坐控制提升",
+          "LocalizedString": "后坐控制提升"
         },
         {
           "CultureInvariantString": null
@@ -1420,7 +1533,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "CooldownReducedBySeconds_WithNumParam"
+            "Key": "CooldownReducedBySeconds_WithNumParam",
+            "SourceString": "冷却时间减少{0}秒",
+            "LocalizedString": "冷却时间减少{0}秒"
           },
           "Arguments": [
             {
@@ -1432,7 +1547,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "LimitIncreasedTo_WithNumParam"
+            "Key": "LimitIncreasedTo_WithNumParam",
+            "SourceString": "上限增加至{0}个",
+            "LocalizedString": "上限增加至{0}个"
           },
           "Arguments": [
             {
@@ -1456,7 +1573,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "Details_146_Q_1"
+            "Key": "Details_146_Q_1",
+            "SourceString": "[主动技能]守护星芒的冷却时间减少<GrowthMB_DescY>{0}</>秒\r\n[技能效果说明-守护星芒]星绘选择一个友方角色，投掷流星弦能，使其提升护甲值及护甲上限。之后流星弦能将返回星绘身边，提升星绘的护甲值与护甲上限。",
+            "LocalizedString": "[主动技能]守护星芒的冷却时间减少<GrowthMB_DescY>{0}</>秒\r\n[技能效果说明-守护星芒]星绘选择一个友方角色，投掷流星弦能，使其提升护甲值及护甲上限。之后流星弦能将返回星绘身边，提升星绘的护甲值与护甲上限。"
           },
           "Arguments": [
             {
@@ -1468,7 +1587,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "Details_146_Q_2"
+            "Key": "Details_146_Q_2",
+            "SourceString": "[主动技能]守护星芒的上限增加至<GrowthMB_DescY>{0}</>个\r\n[技能效果说明-守护星芒]星绘选择一个友方角色，投掷流星弦能，使其提升护甲值及护甲上限。之后流星弦能将返回星绘身边，提升星绘的护甲值与护甲上限。",
+            "LocalizedString": "[主动技能]守护星芒的上限增加至<GrowthMB_DescY>{0}</>个\r\n[技能效果说明-守护星芒]星绘选择一个友方角色，投掷流星弦能，使其提升护甲值及护甲上限。之后流星弦能将返回星绘身边，提升星绘的护甲值与护甲上限。"
           },
           "Arguments": [
             {
@@ -1482,7 +1603,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "RecoverSpeed_WithNumParam"
+            "Key": "RecoverSpeed_WithNumParam",
+            "SourceString": "恢复速度提升{0}%",
+            "LocalizedString": "恢复速度提升{0}%"
           },
           "Arguments": [
             {
@@ -1506,7 +1629,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "Details_146_P_1"
+            "Key": "Details_146_P_1",
+            "SourceString": "[被动技能]星弦甲生的恢复速度提升<GrowthMB_DescY>{0}%</>\r\n[技能效果说明-星弦甲生]星绘周围有友方角色时，可缓慢恢复该角色与自身的护甲值。",
+            "LocalizedString": "[被动技能]星弦甲生的恢复速度提升<GrowthMB_DescY>{0}%</>\r\n[技能效果说明-星弦甲生]星绘周围有友方角色时，可缓慢恢复该角色与自身的护甲值。"
           },
           "Arguments": [
             {
@@ -1531,11 +1656,15 @@
       "ShieldDesc": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "QuickReturnOfLightArmor"
+          "Key": "QuickReturnOfLightArmor",
+          "SourceString": "快回轻型护甲",
+          "LocalizedString": "快回轻型护甲"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "HeavyArmor"
+          "Key": "HeavyArmor",
+          "SourceString": "重型护甲",
+          "LocalizedString": "重型护甲"
         }
       ],
       "ShieldIcon": [
@@ -1552,7 +1681,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "StringAcceleration_WithNumParam"
+            "Key": "StringAcceleration_WithNumParam",
+            "SourceString": "弦化状态移速增加{0}%",
+            "LocalizedString": "弦化状态移速增加{0}%"
           },
           "Arguments": [
             {
@@ -1564,7 +1695,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "SetStringReductionCoefficientValue_WithNumParam"
+            "Key": "SetStringReductionCoefficientValue_WithNumParam",
+            "SourceString": "弦化减伤系数提至{0}%",
+            "LocalizedString": "弦化减伤系数提至{0}%"
           },
           "Arguments": [
             {
@@ -1681,27 +1814,39 @@
       "PartName": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_Output"
+          "Key": "Part_Output",
+          "SourceString": "输出",
+          "LocalizedString": "输出"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_CriticalHit"
+          "Key": "Part_CriticalHit",
+          "SourceString": "暴击",
+          "LocalizedString": "暴击"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_KeepFight"
+          "Key": "Part_KeepFight",
+          "SourceString": "续航",
+          "LocalizedString": "续航"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_Accurate"
+          "Key": "Part_Accurate",
+          "SourceString": "精准",
+          "LocalizedString": "精准"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_Armor"
+          "Key": "Part_Armor",
+          "SourceString": "护甲",
+          "LocalizedString": "护甲"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_String"
+          "Key": "Part_String",
+          "SourceString": "弦化",
+          "LocalizedString": "弦化"
         }
       ],
       "PartIcon": [
@@ -1906,11 +2051,15 @@
       "Part1Desc": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "ReloadSpeedIncreased"
+          "Key": "ReloadSpeedIncreased",
+          "SourceString": "换弹速度提升",
+          "LocalizedString": "换弹速度提升"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "IncreasedNumberOfBullets"
+          "Key": "IncreasedNumberOfBullets",
+          "SourceString": "载弹数量提升",
+          "LocalizedString": "载弹数量提升"
         },
         {
           "CultureInvariantString": null
@@ -1929,11 +2078,15 @@
       "Part2Desc": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "HeadshotDamageIncreased"
+          "Key": "HeadshotDamageIncreased",
+          "SourceString": "爆头伤害提升",
+          "LocalizedString": "爆头伤害提升"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "StringDamageIncreased"
+          "Key": "StringDamageIncreased",
+          "SourceString": "弦化伤害提升",
+          "LocalizedString": "弦化伤害提升"
         },
         {
           "CultureInvariantString": null
@@ -1952,11 +2105,15 @@
       "Part4Desc": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "ScatterControlImprovements"
+          "Key": "ScatterControlImprovements",
+          "SourceString": "散射控制提升",
+          "LocalizedString": "散射控制提升"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "IncreasedCameraOpeningSpeed"
+          "Key": "IncreasedCameraOpeningSpeed",
+          "SourceString": "开镜速度提升",
+          "LocalizedString": "开镜速度提升"
         },
         {
           "CultureInvariantString": null
@@ -1975,11 +2132,15 @@
       "Part5Desc": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "MaximumRunningSpeedIncreased"
+          "Key": "MaximumRunningSpeedIncreased",
+          "SourceString": "移动速度提升",
+          "LocalizedString": "移动速度提升"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "ImprovedRecoilControl"
+          "Key": "ImprovedRecoilControl",
+          "SourceString": "后坐控制提升",
+          "LocalizedString": "后坐控制提升"
         },
         {
           "CultureInvariantString": null
@@ -1999,7 +2160,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "DurationIncreasedBySeconds_WithNumParam"
+            "Key": "DurationIncreasedBySeconds_WithNumParam",
+            "SourceString": "持续时间增加{0}秒",
+            "LocalizedString": "持续时间增加{0}秒"
           },
           "Arguments": [
             {
@@ -2011,7 +2174,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "CooldownReducedBySeconds_WithNumParam"
+            "Key": "CooldownReducedBySeconds_WithNumParam",
+            "SourceString": "冷却时间减少{0}秒",
+            "LocalizedString": "冷却时间减少{0}秒"
           },
           "Arguments": [
             {
@@ -2035,7 +2200,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "Details_133_Q_1"
+            "Key": "Details_133_Q_1",
+            "SourceString": "[主动技能]金沙热浪的持续时间增加<GrowthMB_DescY>{0}</>秒\r\n[技能效果说明-金沙热浪]梅瑞狄斯打出一颗弦能球体，于落点处创造一片黄沙领域，降低敌方角色移速和人机工效一段时间并暂时削减其生命值。",
+            "LocalizedString": "[主动技能]金沙热浪的持续时间增加<GrowthMB_DescY>{0}</>秒\r\n[技能效果说明-金沙热浪]梅瑞狄斯打出一颗弦能球体，于落点处创造一片黄沙领域，降低敌方角色移速和人机工效一段时间并暂时削减其生命值。"
           },
           "Arguments": [
             {
@@ -2047,7 +2214,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "Details_133_Q_2"
+            "Key": "Details_133_Q_2",
+            "SourceString": "[主动技能]金沙热浪的冷却时间减少<GrowthMB_DescY>{0}</>秒\r\n[技能效果说明-金沙热浪]梅瑞狄斯打出一颗弦能球体，于落点处创造一片黄沙领域，降低敌方角色移速和人机工效一段时间并暂时削减其生命值。",
+            "LocalizedString": "[主动技能]金沙热浪的冷却时间减少<GrowthMB_DescY>{0}</>秒\r\n[技能效果说明-金沙热浪]梅瑞狄斯打出一颗弦能球体，于落点处创造一片黄沙领域，降低敌方角色移速和人机工效一段时间并暂时削减其生命值。"
           },
           "Arguments": [
             {
@@ -2061,7 +2230,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "GravityReduceWhenSuspend"
+            "Key": "GravityReduceWhenSuspend",
+            "SourceString": "悬浮时重力减少",
+            "LocalizedString": "悬浮时重力减少"
           },
           "Arguments": []
         }
@@ -2080,7 +2251,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "Details_133_P_1"
+            "Key": "Details_133_P_1",
+            "SourceString": "[被动技能]时零沙环的悬浮时<GrowthMB_DescY>重力</>减少\r\n[技能效果说明-时零沙环]滞空状态下，当梅瑞狄斯进入技能瞄准、武器瞄准或者战术瞄准的状态时，自身的下落速度会被降低。",
+            "LocalizedString": "[被动技能]时零沙环的悬浮时<GrowthMB_DescY>重力</>减少\r\n[技能效果说明-时零沙环]滞空状态下，当梅瑞狄斯进入技能瞄准、武器瞄准或者战术瞄准的状态时，自身的下落速度会被降低。"
           },
           "Arguments": []
         }
@@ -2100,11 +2273,15 @@
       "ShieldDesc": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "QuickReturnOfLightArmor"
+          "Key": "QuickReturnOfLightArmor",
+          "SourceString": "快回轻型护甲",
+          "LocalizedString": "快回轻型护甲"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "HeavyArmor"
+          "Key": "HeavyArmor",
+          "SourceString": "重型护甲",
+          "LocalizedString": "重型护甲"
         }
       ],
       "ShieldIcon": [
@@ -2121,7 +2298,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "StringAcceleration_WithNumParam"
+            "Key": "StringAcceleration_WithNumParam",
+            "SourceString": "弦化状态移速增加{0}%",
+            "LocalizedString": "弦化状态移速增加{0}%"
           },
           "Arguments": [
             {
@@ -2133,7 +2312,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "SetStringReductionCoefficientValue_WithNumParam"
+            "Key": "SetStringReductionCoefficientValue_WithNumParam",
+            "SourceString": "弦化减伤系数提至{0}%",
+            "LocalizedString": "弦化减伤系数提至{0}%"
           },
           "Arguments": [
             {
@@ -2250,27 +2431,39 @@
       "PartName": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_KeepFight"
+          "Key": "Part_KeepFight",
+          "SourceString": "续航",
+          "LocalizedString": "续航"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_CriticalHit"
+          "Key": "Part_CriticalHit",
+          "SourceString": "暴击",
+          "LocalizedString": "暴击"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_Accurate"
+          "Key": "Part_Accurate",
+          "SourceString": "精准",
+          "LocalizedString": "精准"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_Function"
+          "Key": "Part_Function",
+          "SourceString": "机能",
+          "LocalizedString": "机能"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_Armor"
+          "Key": "Part_Armor",
+          "SourceString": "护甲",
+          "LocalizedString": "护甲"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_String"
+          "Key": "Part_String",
+          "SourceString": "弦化",
+          "LocalizedString": "弦化"
         }
       ],
       "PartIcon": [
@@ -2475,11 +2668,15 @@
       "Part1Desc": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "BaseDamageIncreased"
+          "Key": "BaseDamageIncreased",
+          "SourceString": "基础伤害提升",
+          "LocalizedString": "基础伤害提升"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "BaseRateOfFireIncreased"
+          "Key": "BaseRateOfFireIncreased",
+          "SourceString": "基础射速提升",
+          "LocalizedString": "基础射速提升"
         },
         {
           "CultureInvariantString": null
@@ -2498,11 +2695,15 @@
       "Part2Desc": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "HeadshotDamageIncreased"
+          "Key": "HeadshotDamageIncreased",
+          "SourceString": "爆头伤害提升",
+          "LocalizedString": "爆头伤害提升"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "StringDamageIncreased"
+          "Key": "StringDamageIncreased",
+          "SourceString": "弦化伤害提升",
+          "LocalizedString": "弦化伤害提升"
         },
         {
           "CultureInvariantString": null
@@ -2521,11 +2722,15 @@
       "Part4Desc": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "IncreasedNumberOfBullets"
+          "Key": "IncreasedNumberOfBullets",
+          "SourceString": "载弹数量提升",
+          "LocalizedString": "载弹数量提升"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "ReloadSpeedIncreased"
+          "Key": "ReloadSpeedIncreased",
+          "SourceString": "换弹速度提升",
+          "LocalizedString": "换弹速度提升"
         },
         {
           "CultureInvariantString": null
@@ -2544,11 +2749,15 @@
       "Part5Desc": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "ScatterControlImprovements"
+          "Key": "ScatterControlImprovements",
+          "SourceString": "散射控制提升",
+          "LocalizedString": "散射控制提升"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "ImprovedRecoilControl"
+          "Key": "ImprovedRecoilControl",
+          "SourceString": "后坐控制提升",
+          "LocalizedString": "后坐控制提升"
         },
         {
           "CultureInvariantString": null
@@ -2568,7 +2777,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "CooldownReducedBySeconds_WithNumParam"
+            "Key": "CooldownReducedBySeconds_WithNumParam",
+            "SourceString": "冷却时间减少{0}秒",
+            "LocalizedString": "冷却时间减少{0}秒"
           },
           "Arguments": [
             {
@@ -2580,7 +2791,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "DurationIncreasedBySeconds_WithNumParam"
+            "Key": "DurationIncreasedBySeconds_WithNumParam",
+            "SourceString": "持续时间增加{0}秒",
+            "LocalizedString": "持续时间增加{0}秒"
           },
           "Arguments": [
             {
@@ -2604,7 +2817,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "Details_112_Q_1"
+            "Key": "Details_112_Q_1",
+            "SourceString": "[主动技能]残息追踪的冷却时间减少<GrowthMB_DescY>{0}</>秒\r\n[技能效果说明-残息追踪]对周围敌人感知，满血敌人被短暂透视，生命值不满则被持续透视，上述效果仅自己可视。感应到敌人将增加绯莎的移动速度。",
+            "LocalizedString": "[主动技能]残息追踪的冷却时间减少<GrowthMB_DescY>{0}</>秒\r\n[技能效果说明-残息追踪]对周围敌人感知，满血敌人被短暂透视，生命值不满则被持续透视，上述效果仅自己可视。感应到敌人将增加绯莎的移动速度。"
           },
           "Arguments": [
             {
@@ -2616,7 +2831,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "Details_112_Q_2"
+            "Key": "Details_112_Q_2",
+            "SourceString": "[主动技能]残息追踪的持续时间增加<GrowthMB_DescY>{0}</>秒\r\n[技能效果说明-残息追踪]对周围敌人感知，满血敌人被短暂透视，生命值不满则被持续透视，上述效果仅自己可视。感应到敌人将增加绯莎的移动速度。",
+            "LocalizedString": "[主动技能]残息追踪的持续时间增加<GrowthMB_DescY>{0}</>秒\r\n[技能效果说明-残息追踪]对周围敌人感知，满血敌人被短暂透视，生命值不满则被持续透视，上述效果仅自己可视。感应到敌人将增加绯莎的移动速度。"
           },
           "Arguments": [
             {
@@ -2630,7 +2847,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "IncreaseRecoverAmountAndSpeed"
+            "Key": "IncreaseRecoverAmountAndSpeed",
+            "SourceString": "恢复总量和恢复速率提升",
+            "LocalizedString": "恢复总量和恢复速率提升"
           },
           "Arguments": []
         }
@@ -2649,7 +2868,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "Details_112_P_1"
+            "Key": "Details_112_P_1",
+            "SourceString": "[被动技能]以战养战的恢复<GrowthMB_DescY>总量</>和恢复<GrowthMB_DescY>速率</>提升\r\n[技能效果说明-以战养战]绯莎参与击破时，死亡的敌人将原地掉落能量晶体。绯莎可以靠近并吸收能量晶体，回复自身生命值。绯莎第一次吸取能量晶体时可增加自身生命值上限。",
+            "LocalizedString": "[被动技能]以战养战的恢复<GrowthMB_DescY>总量</>和恢复<GrowthMB_DescY>速率</>提升\r\n[技能效果说明-以战养战]绯莎参与击破时，死亡的敌人将原地掉落能量晶体。绯莎可以靠近并吸收能量晶体，回复自身生命值。绯莎第一次吸取能量晶体时可增加自身生命值上限。"
           },
           "Arguments": []
         }
@@ -2669,11 +2890,15 @@
       "ShieldDesc": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "QuickReturnOfLightArmor"
+          "Key": "QuickReturnOfLightArmor",
+          "SourceString": "快回轻型护甲",
+          "LocalizedString": "快回轻型护甲"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "HeavyArmor"
+          "Key": "HeavyArmor",
+          "SourceString": "重型护甲",
+          "LocalizedString": "重型护甲"
         }
       ],
       "ShieldIcon": [
@@ -2690,7 +2915,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "StringAcceleration_WithNumParam"
+            "Key": "StringAcceleration_WithNumParam",
+            "SourceString": "弦化状态移速增加{0}%",
+            "LocalizedString": "弦化状态移速增加{0}%"
           },
           "Arguments": [
             {
@@ -2702,7 +2929,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "SetStringReductionCoefficientValue_WithNumParam"
+            "Key": "SetStringReductionCoefficientValue_WithNumParam",
+            "SourceString": "弦化减伤系数提至{0}%",
+            "LocalizedString": "弦化减伤系数提至{0}%"
           },
           "Arguments": [
             {
@@ -2819,27 +3048,39 @@
       "PartName": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_Output"
+          "Key": "Part_Output",
+          "SourceString": "输出",
+          "LocalizedString": "输出"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_CriticalHit"
+          "Key": "Part_CriticalHit",
+          "SourceString": "暴击",
+          "LocalizedString": "暴击"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_KeepFight"
+          "Key": "Part_KeepFight",
+          "SourceString": "续航",
+          "LocalizedString": "续航"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_Accurate"
+          "Key": "Part_Accurate",
+          "SourceString": "精准",
+          "LocalizedString": "精准"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_Armor"
+          "Key": "Part_Armor",
+          "SourceString": "护甲",
+          "LocalizedString": "护甲"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_String"
+          "Key": "Part_String",
+          "SourceString": "弦化",
+          "LocalizedString": "弦化"
         }
       ],
       "PartIcon": [
@@ -3044,11 +3285,15 @@
       "Part1Desc": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "BaseDamageIncreased"
+          "Key": "BaseDamageIncreased",
+          "SourceString": "基础伤害提升",
+          "LocalizedString": "基础伤害提升"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "BaseRateOfFireIncreased"
+          "Key": "BaseRateOfFireIncreased",
+          "SourceString": "基础射速提升",
+          "LocalizedString": "基础射速提升"
         },
         {
           "CultureInvariantString": null
@@ -3067,11 +3312,15 @@
       "Part2Desc": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "HeadshotDamageIncreased"
+          "Key": "HeadshotDamageIncreased",
+          "SourceString": "爆头伤害提升",
+          "LocalizedString": "爆头伤害提升"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "StringDamageIncreased"
+          "Key": "StringDamageIncreased",
+          "SourceString": "弦化伤害提升",
+          "LocalizedString": "弦化伤害提升"
         },
         {
           "CultureInvariantString": null
@@ -3090,11 +3339,15 @@
       "Part4Desc": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "IncreasedNumberOfBullets"
+          "Key": "IncreasedNumberOfBullets",
+          "SourceString": "载弹数量提升",
+          "LocalizedString": "载弹数量提升"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "ReloadSpeedIncreased"
+          "Key": "ReloadSpeedIncreased",
+          "SourceString": "换弹速度提升",
+          "LocalizedString": "换弹速度提升"
         },
         {
           "CultureInvariantString": null
@@ -3113,11 +3366,15 @@
       "Part5Desc": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "ScatterControlImprovements"
+          "Key": "ScatterControlImprovements",
+          "SourceString": "散射控制提升",
+          "LocalizedString": "散射控制提升"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "ImprovedRecoilControl"
+          "Key": "ImprovedRecoilControl",
+          "SourceString": "后坐控制提升",
+          "LocalizedString": "后坐控制提升"
         },
         {
           "CultureInvariantString": null
@@ -3137,7 +3394,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "CooldownReducedBySeconds_WithNumParam"
+            "Key": "CooldownReducedBySeconds_WithNumParam",
+            "SourceString": "冷却时间减少{0}秒",
+            "LocalizedString": "冷却时间减少{0}秒"
           },
           "Arguments": [
             {
@@ -3149,7 +3408,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "EnemyExposureTimeIncreasedSecondsBy_WithNumParam"
+            "Key": "EnemyExposureTimeIncreasedSecondsBy_WithNumParam",
+            "SourceString": "敌方暴露时间增加{0}秒",
+            "LocalizedString": "敌方暴露时间增加{0}秒"
           },
           "Arguments": [
             {
@@ -3173,7 +3434,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "Details_128_Q_1"
+            "Key": "Details_128_Q_1",
+            "SourceString": "[主动技能]寻影猎刃的冷却时间减少<GrowthMB_DescY>{0}</>秒\r\n[技能效果说明-寻影猎刃]拉薇投掷脉冲刀，制造一个磁力场，将一定范围内的敌方单位暴露给拉薇及其队友，脉冲刀每次扫描探测不到敌人时会立刻消失，最多扫描三次。",
+            "LocalizedString": "[主动技能]寻影猎刃的冷却时间减少<GrowthMB_DescY>{0}</>秒\r\n[技能效果说明-寻影猎刃]拉薇投掷脉冲刀，制造一个磁力场，将一定范围内的敌方单位暴露给拉薇及其队友，脉冲刀每次扫描探测不到敌人时会立刻消失，最多扫描三次。"
           },
           "Arguments": [
             {
@@ -3185,7 +3448,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "Details_128_Q_2"
+            "Key": "Details_128_Q_2",
+            "SourceString": "[主动技能]寻影猎刃的暴露敌方时间增加<GrowthMB_DescY>{0}</>秒\r\n[技能效果说明-寻影猎刃]拉薇投掷脉冲刀，制造一个磁力场，将一定范围内的敌方单位暴露给拉薇及其队友，脉冲刀每次扫描探测不到敌人时会立刻消失，最多扫描三次。",
+            "LocalizedString": "[主动技能]寻影猎刃的暴露敌方时间增加<GrowthMB_DescY>{0}</>秒\r\n[技能效果说明-寻影猎刃]拉薇投掷脉冲刀，制造一个磁力场，将一定范围内的敌方单位暴露给拉薇及其队友，脉冲刀每次扫描探测不到敌人时会立刻消失，最多扫描三次。"
           },
           "Arguments": [
             {
@@ -3199,7 +3464,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "EnemyExposureTimeIncreasedSecondsBy_WithNumParam"
+            "Key": "EnemyExposureTimeIncreasedSecondsBy_WithNumParam",
+            "SourceString": "敌方暴露时间增加{0}秒",
+            "LocalizedString": "敌方暴露时间增加{0}秒"
           },
           "Arguments": [
             {
@@ -3223,7 +3490,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "Details_128_P_1"
+            "Key": "Details_128_P_1",
+            "SourceString": "[被动技能]曝影显踪的命中敌方暴露时间增加<GrowthMB_DescY>{0}</>秒\r\n[技能效果说明-曝影显踪]拉薇主武器命中敌方单位时，会将其短暂透视给自己。",
+            "LocalizedString": "[被动技能]曝影显踪的命中敌方暴露时间增加<GrowthMB_DescY>{0}</>秒\r\n[技能效果说明-曝影显踪]拉薇主武器命中敌方单位时，会将其短暂透视给自己。"
           },
           "Arguments": [
             {
@@ -3248,11 +3517,15 @@
       "ShieldDesc": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "QuickReturnOfLightArmor"
+          "Key": "QuickReturnOfLightArmor",
+          "SourceString": "快回轻型护甲",
+          "LocalizedString": "快回轻型护甲"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "HeavyArmor"
+          "Key": "HeavyArmor",
+          "SourceString": "重型护甲",
+          "LocalizedString": "重型护甲"
         }
       ],
       "ShieldIcon": [
@@ -3269,7 +3542,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "StringAcceleration_WithNumParam"
+            "Key": "StringAcceleration_WithNumParam",
+            "SourceString": "弦化状态移速增加{0}%",
+            "LocalizedString": "弦化状态移速增加{0}%"
           },
           "Arguments": [
             {
@@ -3281,7 +3556,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "SetStringReductionCoefficientValue_WithNumParam"
+            "Key": "SetStringReductionCoefficientValue_WithNumParam",
+            "SourceString": "弦化减伤系数提至{0}%",
+            "LocalizedString": "弦化减伤系数提至{0}%"
           },
           "Arguments": [
             {
@@ -3398,27 +3675,39 @@
       "PartName": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_Output"
+          "Key": "Part_Output",
+          "SourceString": "输出",
+          "LocalizedString": "输出"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_CriticalHit"
+          "Key": "Part_CriticalHit",
+          "SourceString": "暴击",
+          "LocalizedString": "暴击"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_KeepFight"
+          "Key": "Part_KeepFight",
+          "SourceString": "续航",
+          "LocalizedString": "续航"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_Accurate"
+          "Key": "Part_Accurate",
+          "SourceString": "精准",
+          "LocalizedString": "精准"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_Armor"
+          "Key": "Part_Armor",
+          "SourceString": "护甲",
+          "LocalizedString": "护甲"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_String"
+          "Key": "Part_String",
+          "SourceString": "弦化",
+          "LocalizedString": "弦化"
         }
       ],
       "PartIcon": [
@@ -3623,11 +3912,15 @@
       "Part1Desc": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "BaseDamageIncreased"
+          "Key": "BaseDamageIncreased",
+          "SourceString": "基础伤害提升",
+          "LocalizedString": "基础伤害提升"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "BaseRateOfFireIncreased"
+          "Key": "BaseRateOfFireIncreased",
+          "SourceString": "基础射速提升",
+          "LocalizedString": "基础射速提升"
         },
         {
           "CultureInvariantString": null
@@ -3646,11 +3939,15 @@
       "Part2Desc": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "HeadshotDamageIncreased"
+          "Key": "HeadshotDamageIncreased",
+          "SourceString": "爆头伤害提升",
+          "LocalizedString": "爆头伤害提升"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "StringDamageIncreased"
+          "Key": "StringDamageIncreased",
+          "SourceString": "弦化伤害提升",
+          "LocalizedString": "弦化伤害提升"
         },
         {
           "CultureInvariantString": null
@@ -3669,11 +3966,15 @@
       "Part4Desc": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "IncreasedNumberOfBullets"
+          "Key": "IncreasedNumberOfBullets",
+          "SourceString": "载弹数量提升",
+          "LocalizedString": "载弹数量提升"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "ReloadSpeedIncreased"
+          "Key": "ReloadSpeedIncreased",
+          "SourceString": "换弹速度提升",
+          "LocalizedString": "换弹速度提升"
         },
         {
           "CultureInvariantString": null
@@ -3692,11 +3993,15 @@
       "Part5Desc": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "IncreasedCameraOpeningSpeed"
+          "Key": "IncreasedCameraOpeningSpeed",
+          "SourceString": "开镜速度提升",
+          "LocalizedString": "开镜速度提升"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "ScatterControlImprovements"
+          "Key": "ScatterControlImprovements",
+          "SourceString": "散射控制提升",
+          "LocalizedString": "散射控制提升"
         },
         {
           "CultureInvariantString": null
@@ -3716,7 +4021,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "FireRateAndErgonomicsIncresedBy_WithNumParam"
+            "Key": "FireRateAndErgonomicsIncresedBy_WithNumParam",
+            "SourceString": "射速和人机工效提升{0}%",
+            "LocalizedString": "射速和人机工效提升{0}%"
           },
           "Arguments": [
             {
@@ -3728,7 +4035,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "ArmorRecoveryAmountPerSecIncreasedBy_WithNumParam"
+            "Key": "ArmorRecoveryAmountPerSecIncreasedBy_WithNumParam",
+            "SourceString": "每秒护甲恢复量增加{0}点",
+            "LocalizedString": "每秒护甲恢复量增加{0}点"
           },
           "Arguments": [
             {
@@ -3752,7 +4061,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "Details_108_Q_1"
+            "Key": "Details_108_Q_1",
+            "SourceString": "[主动技能]守望之眼的射速和人机工效(换弹、切枪、开镜、拉栓等速度)的提升效率提升<GrowthMB_DescY>{0}%</>\r\n[技能效果说明-守望之眼]信可布置至多两个守望之眼，信自身在守望之眼的范围内将获得射速和人机工效提升并回复护甲；两个守望之眼互相连接时，人机功效提升和回复护甲的效果将被强化。",
+            "LocalizedString": "[主动技能]守望之眼的射速和人机工效(换弹、切枪、开镜、拉栓等速度)的提升效率提升<GrowthMB_DescY>{0}%</>\r\n[技能效果说明-守望之眼]信可布置至多两个守望之眼，信自身在守望之眼的范围内将获得射速和人机工效提升并回复护甲；两个守望之眼互相连接时，人机功效提升和回复护甲的效果将被强化。"
           },
           "Arguments": [
             {
@@ -3764,7 +4075,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "Details_108_Q_2"
+            "Key": "Details_108_Q_2",
+            "SourceString": "[主动技能]守望之眼的每秒护甲回复量额外增加<GrowthMB_DescY>{0}</>\r\n[技能效果说明-守望之眼]信可布置至多两个守望之眼，信自身在守望之眼的范围内将获得射速和人机工效提升并回复护甲；两个守望之眼互相连接时，人机功效提升和回复护甲的效果将被强化。",
+            "LocalizedString": "[主动技能]守望之眼的每秒护甲回复量额外增加<GrowthMB_DescY>{0}</>\r\n[技能效果说明-守望之眼]信可布置至多两个守望之眼，信自身在守望之眼的范围内将获得射速和人机工效提升并回复护甲；两个守望之眼互相连接时，人机功效提升和回复护甲的效果将被强化。"
           },
           "Arguments": [
             {
@@ -3778,7 +4091,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "WeakenTimeIncreased_WithNumParam"
+            "Key": "WeakenTimeIncreased_WithNumParam",
+            "SourceString": "弱化时间增加{0}秒",
+            "LocalizedString": "弱化时间增加{0}秒"
           },
           "Arguments": [
             {
@@ -3802,7 +4117,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "Details_108_P_1"
+            "Key": "Details_108_P_1",
+            "SourceString": "[被动技能]致盲脉冲的弱化时间增加<GrowthMB_DescY>{0}</>秒\r\n[技能效果说明-致盲脉冲]开镜状态下的信会积蓄能量，能量蓄满后，信的下次射击在命中敌人时将使敌人的武器肩射散布增大、在开镜状态下丢失准星并丧失精准度。",
+            "LocalizedString": "[被动技能]致盲脉冲的弱化时间增加<GrowthMB_DescY>{0}</>秒\r\n[技能效果说明-致盲脉冲]开镜状态下的信会积蓄能量，能量蓄满后，信的下次射击在命中敌人时将使敌人的武器肩射散布增大、在开镜状态下丢失准星并丧失精准度。"
           },
           "Arguments": [
             {
@@ -3827,11 +4144,15 @@
       "ShieldDesc": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "QuickReturnOfLightArmor"
+          "Key": "QuickReturnOfLightArmor",
+          "SourceString": "快回轻型护甲",
+          "LocalizedString": "快回轻型护甲"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "HeavyArmor"
+          "Key": "HeavyArmor",
+          "SourceString": "重型护甲",
+          "LocalizedString": "重型护甲"
         }
       ],
       "ShieldIcon": [
@@ -3848,7 +4169,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "StringAcceleration_WithNumParam"
+            "Key": "StringAcceleration_WithNumParam",
+            "SourceString": "弦化状态移速增加{0}%",
+            "LocalizedString": "弦化状态移速增加{0}%"
           },
           "Arguments": [
             {
@@ -3860,7 +4183,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "SetStringReductionCoefficientValue_WithNumParam"
+            "Key": "SetStringReductionCoefficientValue_WithNumParam",
+            "SourceString": "弦化减伤系数提至{0}%",
+            "LocalizedString": "弦化减伤系数提至{0}%"
           },
           "Arguments": [
             {
@@ -3977,27 +4302,39 @@
       "PartName": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_Core"
+          "Key": "Part_Core",
+          "SourceString": "核心",
+          "LocalizedString": "核心"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_CriticalHit"
+          "Key": "Part_CriticalHit",
+          "SourceString": "暴击",
+          "LocalizedString": "暴击"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_KeepFight"
+          "Key": "Part_KeepFight",
+          "SourceString": "续航",
+          "LocalizedString": "续航"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_Accurate"
+          "Key": "Part_Accurate",
+          "SourceString": "精准",
+          "LocalizedString": "精准"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_Armor"
+          "Key": "Part_Armor",
+          "SourceString": "护甲",
+          "LocalizedString": "护甲"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_String"
+          "Key": "Part_String",
+          "SourceString": "弦化",
+          "LocalizedString": "弦化"
         }
       ],
       "PartIcon": [
@@ -4202,11 +4539,15 @@
       "Part1Desc": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "ReloadSpeedIncreased"
+          "Key": "ReloadSpeedIncreased",
+          "SourceString": "换弹速度提升",
+          "LocalizedString": "换弹速度提升"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "IncreasedNumberOfBullets"
+          "Key": "IncreasedNumberOfBullets",
+          "SourceString": "载弹数量提升",
+          "LocalizedString": "载弹数量提升"
         },
         {
           "CultureInvariantString": null
@@ -4225,11 +4566,15 @@
       "Part2Desc": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "HeadshotDamageIncreased"
+          "Key": "HeadshotDamageIncreased",
+          "SourceString": "爆头伤害提升",
+          "LocalizedString": "爆头伤害提升"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "StringDamageIncreased"
+          "Key": "StringDamageIncreased",
+          "SourceString": "弦化伤害提升",
+          "LocalizedString": "弦化伤害提升"
         },
         {
           "CultureInvariantString": null
@@ -4248,11 +4593,15 @@
       "Part4Desc": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "IncreasedCameraOpeningSpeed"
+          "Key": "IncreasedCameraOpeningSpeed",
+          "SourceString": "开镜速度提升",
+          "LocalizedString": "开镜速度提升"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "ScatterControlImprovements"
+          "Key": "ScatterControlImprovements",
+          "SourceString": "散射控制提升",
+          "LocalizedString": "散射控制提升"
         },
         {
           "CultureInvariantString": null
@@ -4271,11 +4620,15 @@
       "Part5Desc": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "MaximumRunningSpeedIncreased"
+          "Key": "MaximumRunningSpeedIncreased",
+          "SourceString": "移动速度提升",
+          "LocalizedString": "移动速度提升"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "ImprovedRecoilControl"
+          "Key": "ImprovedRecoilControl",
+          "SourceString": "后坐控制提升",
+          "LocalizedString": "后坐控制提升"
         },
         {
           "CultureInvariantString": null
@@ -4295,7 +4648,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "DurationIncreasedBySeconds_WithNumParam"
+            "Key": "DurationIncreasedBySeconds_WithNumParam",
+            "SourceString": "持续时间增加{0}秒",
+            "LocalizedString": "持续时间增加{0}秒"
           },
           "Arguments": [
             {
@@ -4307,7 +4662,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "LimitIncreasedTo_WithNumParam"
+            "Key": "LimitIncreasedTo_WithNumParam",
+            "SourceString": "上限增加至{0}个",
+            "LocalizedString": "上限增加至{0}个"
           },
           "Arguments": [
             {
@@ -4331,7 +4688,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "Details_107_Q_1"
+            "Key": "Details_107_Q_1",
+            "SourceString": "[主动技能]颜料束缚留下的颜料持续时间增加<GrowthMB_DescY>{0}</>秒\r\n[技能效果说明-颜料束缚]玛德蕾娜发射一滩颜料，经过这滩颜料的敌人将被减速、弦化禁止并暴露脚印。",
+            "LocalizedString": "[主动技能]颜料束缚留下的颜料持续时间增加<GrowthMB_DescY>{0}</>秒\r\n[技能效果说明-颜料束缚]玛德蕾娜发射一滩颜料，经过这滩颜料的敌人将被减速、弦化禁止并暴露脚印。"
           },
           "Arguments": [
             {
@@ -4343,7 +4702,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "Details_107_Q_2"
+            "Key": "Details_107_Q_2",
+            "SourceString": "[主动技能]颜料束缚的上限增加至<GrowthMB_DescY>{0}</>个\r\n[技能效果说明-颜料束缚]玛德蕾娜发射一滩颜料，经过这滩颜料的敌人将被减速、弦化禁止并暴露脚印。",
+            "LocalizedString": "[主动技能]颜料束缚的上限增加至<GrowthMB_DescY>{0}</>个\r\n[技能效果说明-颜料束缚]玛德蕾娜发射一滩颜料，经过这滩颜料的敌人将被减速、弦化禁止并暴露脚印。"
           },
           "Arguments": [
             {
@@ -4357,7 +4718,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "DurationFootPrintIncreasedBy_WithNumParam"
+            "Key": "DurationFootPrintIncreasedBy_WithNumParam",
+            "SourceString": "脚印暴露时间增加{0}秒",
+            "LocalizedString": "脚印暴露时间增加{0}秒"
           },
           "Arguments": [
             {
@@ -4381,7 +4744,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "Details_107_P_1"
+            "Key": "Details_107_P_1",
+            "SourceString": "[被动技能]颜料脚印的脚印暴露时间增加<GrowthMB_DescY>{0}</>秒\r\n[技能效果说明-颜料脚印]玛德蕾娜使用主武器命中敌方角色时，可使敌方角色减速并暴露脚印。",
+            "LocalizedString": "[被动技能]颜料脚印的脚印暴露时间增加<GrowthMB_DescY>{0}</>秒\r\n[技能效果说明-颜料脚印]玛德蕾娜使用主武器命中敌方角色时，可使敌方角色减速并暴露脚印。"
           },
           "Arguments": [
             {
@@ -4406,11 +4771,15 @@
       "ShieldDesc": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "QuickReturnOfLightArmor"
+          "Key": "QuickReturnOfLightArmor",
+          "SourceString": "快回轻型护甲",
+          "LocalizedString": "快回轻型护甲"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "HeavyArmor"
+          "Key": "HeavyArmor",
+          "SourceString": "重型护甲",
+          "LocalizedString": "重型护甲"
         }
       ],
       "ShieldIcon": [
@@ -4427,7 +4796,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "StringAcceleration_WithNumParam"
+            "Key": "StringAcceleration_WithNumParam",
+            "SourceString": "弦化状态移速增加{0}%",
+            "LocalizedString": "弦化状态移速增加{0}%"
           },
           "Arguments": [
             {
@@ -4439,7 +4810,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "SetStringReductionCoefficientValue_WithNumParam"
+            "Key": "SetStringReductionCoefficientValue_WithNumParam",
+            "SourceString": "弦化减伤系数提至{0}%",
+            "LocalizedString": "弦化减伤系数提至{0}%"
           },
           "Arguments": [
             {
@@ -4556,27 +4929,39 @@
       "PartName": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_KeepFight"
+          "Key": "Part_KeepFight",
+          "SourceString": "续航",
+          "LocalizedString": "续航"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_CriticalHit"
+          "Key": "Part_CriticalHit",
+          "SourceString": "暴击",
+          "LocalizedString": "暴击"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_Accurate"
+          "Key": "Part_Accurate",
+          "SourceString": "精准",
+          "LocalizedString": "精准"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_Function"
+          "Key": "Part_Function",
+          "SourceString": "机能",
+          "LocalizedString": "机能"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_Armor"
+          "Key": "Part_Armor",
+          "SourceString": "护甲",
+          "LocalizedString": "护甲"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_String"
+          "Key": "Part_String",
+          "SourceString": "弦化",
+          "LocalizedString": "弦化"
         }
       ],
       "PartIcon": [
@@ -4783,11 +5168,15 @@
       "Part1Desc": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "BaseDamageIncreased"
+          "Key": "BaseDamageIncreased",
+          "SourceString": "基础伤害提升",
+          "LocalizedString": "基础伤害提升"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "BaseRateOfFireIncreased"
+          "Key": "BaseRateOfFireIncreased",
+          "SourceString": "基础射速提升",
+          "LocalizedString": "基础射速提升"
         },
         {
           "CultureInvariantString": null
@@ -4806,11 +5195,15 @@
       "Part2Desc": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "HeadshotDamageIncreased"
+          "Key": "HeadshotDamageIncreased",
+          "SourceString": "爆头伤害提升",
+          "LocalizedString": "爆头伤害提升"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "StringDamageIncreased"
+          "Key": "StringDamageIncreased",
+          "SourceString": "弦化伤害提升",
+          "LocalizedString": "弦化伤害提升"
         },
         {
           "CultureInvariantString": null
@@ -4829,11 +5222,15 @@
       "Part4Desc": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "IncreasedNumberOfAmmoReserves"
+          "Key": "IncreasedNumberOfAmmoReserves",
+          "SourceString": "备弹数量提升",
+          "LocalizedString": "备弹数量提升"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "IncreasedCameraOpeningSpeed"
+          "Key": "IncreasedCameraOpeningSpeed",
+          "SourceString": "开镜速度提升",
+          "LocalizedString": "开镜速度提升"
         },
         {
           "CultureInvariantString": null
@@ -4852,11 +5249,15 @@
       "Part5Desc": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "ScatterControlImprovements"
+          "Key": "ScatterControlImprovements",
+          "SourceString": "散射控制提升",
+          "LocalizedString": "散射控制提升"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "ImprovedRecoilControl"
+          "Key": "ImprovedRecoilControl",
+          "SourceString": "后坐控制提升",
+          "LocalizedString": "后坐控制提升"
         },
         {
           "CultureInvariantString": null
@@ -4875,12 +5276,16 @@
       "QDesc": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "MachineGunOverheatsSlower"
+          "Key": "MachineGunOverheatsSlower",
+          "SourceString": "机枪过热速度变慢",
+          "LocalizedString": "机枪过热速度变慢"
         },
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "ShieldMaxIncrease"
+            "Key": "ShieldMaxIncrease",
+            "SourceString": "护盾最大值提升",
+            "LocalizedString": "护盾最大值提升"
           },
           "Arguments": []
         }
@@ -4898,12 +5303,16 @@
       "QDescDetails": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Details_105_Q_1"
+          "Key": "Details_105_Q_1",
+          "SourceString": "[主动技能]重火倾泄的架设机枪<GrowthMB_DescY>过热速度</>变慢\r\n[技能效果说明-重火倾泄]进入架设状态，大幅提升射速，无后坐力，连续射击不需更换弹匣。若奥黛丽的连续射击时间过长，便会进入枪口过热状态无法射击。",
+          "LocalizedString": "[主动技能]重火倾泄的架设机枪<GrowthMB_DescY>过热速度</>变慢\r\n[技能效果说明-重火倾泄]进入架设状态，大幅提升射速，无后坐力，连续射击不需更换弹匣。若奥黛丽的连续射击时间过长，便会进入枪口过热状态无法射击。"
         },
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "Details_105_Q_2"
+            "Key": "Details_105_Q_2",
+            "SourceString": "[主动技能]重火倾泄的架设机枪护盾<GrowthMB_DescY>最大值</>提升\r\n[技能效果说明-重火倾泄]进入架设状态，大幅提升射速，无后坐力，连续射击不需更换弹匣。若奥黛丽的连续射击时间过长，便会进入枪口过热状态无法射击。",
+            "LocalizedString": "[主动技能]重火倾泄的架设机枪护盾<GrowthMB_DescY>最大值</>提升\r\n[技能效果说明-重火倾泄]进入架设状态，大幅提升射速，无后坐力，连续射击不需更换弹匣。若奥黛丽的连续射击时间过长，便会进入枪口过热状态无法射击。"
           },
           "Arguments": []
         }
@@ -4912,14 +5321,18 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "ShieldMaxIncrease"
+            "Key": "ShieldMaxIncrease",
+            "SourceString": "护盾最大值提升",
+            "LocalizedString": "护盾最大值提升"
           },
           "Arguments": []
         },
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "ShieldRecoverSpeedIncrease_WithNumParam"
+            "Key": "ShieldRecoverSpeedIncrease_WithNumParam",
+            "SourceString": "护盾恢复增加{0}%",
+            "LocalizedString": "护盾恢复增加{0}%"
           },
           "Arguments": [
             {
@@ -4943,14 +5356,18 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "Details_105_P_1"
+            "Key": "Details_105_P_1",
+            "SourceString": "[被动技能]皇家盾牌的开镜护盾<GrowthMB_DescY>最大值</>提升\r\n[技能效果说明-皇家盾牌]奥黛丽进入架枪模式或进入开镜模式时，召唤护盾守护自身正面，且架枪模式下会获得额外护盾最大值。",
+            "LocalizedString": "[被动技能]皇家盾牌的开镜护盾<GrowthMB_DescY>最大值</>提升\r\n[技能效果说明-皇家盾牌]奥黛丽进入架枪模式或进入开镜模式时，召唤护盾守护自身正面，且架枪模式下会获得额外护盾最大值。"
           },
           "Arguments": []
         },
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "Details_105_P_2"
+            "Key": "Details_105_P_2",
+            "SourceString": "[被动技能]皇家盾牌的护盾回复增加<GrowthMB_DescY>{0}%</>\r\n[技能效果说明-皇家盾牌]奥黛丽进入架枪模式或进入开镜模式时，召唤护盾守护自身正面，且架枪模式下会获得额外护盾最大值。",
+            "LocalizedString": "[被动技能]皇家盾牌的护盾回复增加<GrowthMB_DescY>{0}%</>\r\n[技能效果说明-皇家盾牌]奥黛丽进入架枪模式或进入开镜模式时，召唤护盾守护自身正面，且架枪模式下会获得额外护盾最大值。"
           },
           "Arguments": [
             {
@@ -4975,11 +5392,15 @@
       "ShieldDesc": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "QuickReturnOfLightArmor"
+          "Key": "QuickReturnOfLightArmor",
+          "SourceString": "快回轻型护甲",
+          "LocalizedString": "快回轻型护甲"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "HeavyArmor"
+          "Key": "HeavyArmor",
+          "SourceString": "重型护甲",
+          "LocalizedString": "重型护甲"
         }
       ],
       "ShieldIcon": [
@@ -4996,7 +5417,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "StringAcceleration_WithNumParam"
+            "Key": "StringAcceleration_WithNumParam",
+            "SourceString": "弦化状态移速增加{0}%",
+            "LocalizedString": "弦化状态移速增加{0}%"
           },
           "Arguments": [
             {
@@ -5008,7 +5431,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "SetStringReductionCoefficientValue_WithNumParam"
+            "Key": "SetStringReductionCoefficientValue_WithNumParam",
+            "SourceString": "弦化减伤系数提至{0}%",
+            "LocalizedString": "弦化减伤系数提至{0}%"
           },
           "Arguments": [
             {
@@ -5125,27 +5550,39 @@
       "PartName": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_Output"
+          "Key": "Part_Output",
+          "SourceString": "输出",
+          "LocalizedString": "输出"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_CriticalHit"
+          "Key": "Part_CriticalHit",
+          "SourceString": "暴击",
+          "LocalizedString": "暴击"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_Function"
+          "Key": "Part_Function",
+          "SourceString": "机能",
+          "LocalizedString": "机能"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_Accurate"
+          "Key": "Part_Accurate",
+          "SourceString": "精准",
+          "LocalizedString": "精准"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_Armor"
+          "Key": "Part_Armor",
+          "SourceString": "护甲",
+          "LocalizedString": "护甲"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_String"
+          "Key": "Part_String",
+          "SourceString": "弦化",
+          "LocalizedString": "弦化"
         }
       ],
       "PartIcon": [
@@ -5352,11 +5789,15 @@
       "Part1Desc": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "BoltPullingSpeedIncreased"
+          "Key": "BoltPullingSpeedIncreased",
+          "SourceString": "拉栓速度提升",
+          "LocalizedString": "拉栓速度提升"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "IncreasedChargingSpeed"
+          "Key": "IncreasedChargingSpeed",
+          "SourceString": "蓄力速度提升",
+          "LocalizedString": "蓄力速度提升"
         },
         {
           "CultureInvariantString": null
@@ -5375,11 +5816,15 @@
       "Part2Desc": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "BaseDamageIncreased"
+          "Key": "BaseDamageIncreased",
+          "SourceString": "基础伤害提升",
+          "LocalizedString": "基础伤害提升"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "StringDamageIncreased"
+          "Key": "StringDamageIncreased",
+          "SourceString": "弦化伤害提升",
+          "LocalizedString": "弦化伤害提升"
         },
         {
           "CultureInvariantString": null
@@ -5398,11 +5843,15 @@
       "Part4Desc": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "IncreasedNumberOfBullets"
+          "Key": "IncreasedNumberOfBullets",
+          "SourceString": "载弹数量提升",
+          "LocalizedString": "载弹数量提升"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "ReloadSpeedIncreased"
+          "Key": "ReloadSpeedIncreased",
+          "SourceString": "换弹速度提升",
+          "LocalizedString": "换弹速度提升"
         },
         {
           "CultureInvariantString": null
@@ -5421,11 +5870,15 @@
       "Part5Desc": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "IncreasedCameraOpeningSpeed"
+          "Key": "IncreasedCameraOpeningSpeed",
+          "SourceString": "开镜速度提升",
+          "LocalizedString": "开镜速度提升"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "MaximumRunningSpeedIncreased"
+          "Key": "MaximumRunningSpeedIncreased",
+          "SourceString": "移动速度提升",
+          "LocalizedString": "移动速度提升"
         },
         {
           "CultureInvariantString": null
@@ -5445,7 +5898,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "ArmorRecoveryAmountPerSecIncreasedBy_WithNumParam"
+            "Key": "ArmorRecoveryAmountPerSecIncreasedBy_WithNumParam",
+            "SourceString": "每秒护甲恢复量增加{0}点",
+            "LocalizedString": "每秒护甲恢复量增加{0}点"
           },
           "Arguments": [
             {
@@ -5457,7 +5912,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "HealingRecoveryAmountPerSecIncreasedBy_WithNumParam"
+            "Key": "HealingRecoveryAmountPerSecIncreasedBy_WithNumParam",
+            "SourceString": "每秒生命恢复量增加{0}点",
+            "LocalizedString": "每秒生命恢复量增加{0}点"
           },
           "Arguments": [
             {
@@ -5481,7 +5938,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "Details_124_Q_1"
+            "Key": "Details_124_Q_1",
+            "SourceString": "[主动技能]治疗无人机的每秒护甲恢复量增加<GrowthMB_DescY>{0}</>点\r\n[技能效果说明-治疗无人机]心夏选择自己或一个友方角色为目标生成—个治疗无人机，无人机可以为被释放目标回复护甲，并给无人机周围所有友方目标回复生命值。",
+            "LocalizedString": "[主动技能]治疗无人机的每秒护甲恢复量增加<GrowthMB_DescY>{0}</>点\r\n[技能效果说明-治疗无人机]心夏选择自己或一个友方角色为目标生成—个治疗无人机，无人机可以为被释放目标回复护甲，并给无人机周围所有友方目标回复生命值。"
           },
           "Arguments": [
             {
@@ -5493,7 +5952,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "Details_124_Q_2"
+            "Key": "Details_124_Q_2",
+            "SourceString": "[主动技能]治疗无人机的每秒生命恢复量增加<GrowthMB_DescY>{0}</>点\r\n[技能效果说明-治疗无人机]心夏选择自己或一个友方角色为目标生成—个治疗无人机，无人机可以为被释放目标回复护甲，并给无人机周围所有友方目标回复生命值。",
+            "LocalizedString": "[主动技能]治疗无人机的每秒生命恢复量增加<GrowthMB_DescY>{0}</>点\r\n[技能效果说明-治疗无人机]心夏选择自己或一个友方角色为目标生成—个治疗无人机，无人机可以为被释放目标回复护甲，并给无人机周围所有友方目标回复生命值。"
           },
           "Arguments": [
             {
@@ -5507,7 +5968,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "IncreaseRescueHealth_WithNumParam"
+            "Key": "IncreaseRescueHealth_WithNumParam",
+            "SourceString": "提升救起生命值{0}点",
+            "LocalizedString": "提升救起生命值{0}点"
           },
           "Arguments": [
             {
@@ -5519,7 +5982,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "HealingRecoveryAmountPerSecIncreasedBy_WithNumParam"
+            "Key": "HealingRecoveryAmountPerSecIncreasedBy_WithNumParam",
+            "SourceString": "每秒生命恢复量增加{0}点",
+            "LocalizedString": "每秒生命恢复量增加{0}点"
           },
           "Arguments": [
             {
@@ -5543,7 +6008,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "Details_124_P_1"
+            "Key": "Details_124_P_1",
+            "SourceString": "[被动技能]急速救援的救起生命值提升<GrowthMB_DescY>{0}</>点\r\n[技能效果说明-急速救援]心夏会在未受击时缓慢回复自身生命值，同时在救援友方角色时，心夏会放出援护无人机自动扶起队友。",
+            "LocalizedString": "[被动技能]急速救援的救起生命值提升<GrowthMB_DescY>{0}</>点\r\n[技能效果说明-急速救援]心夏会在未受击时缓慢回复自身生命值，同时在救援友方角色时，心夏会放出援护无人机自动扶起队友。"
           },
           "Arguments": [
             {
@@ -5555,7 +6022,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "Details_124_P_2"
+            "Key": "Details_124_P_2",
+            "SourceString": "[被动技能]急速救援的每秒生命恢复量增加<GrowthMB_DescY>{0}</>点\r\n[技能效果说明-急速救援]心夏会在未受击时缓慢回复自身生命值，同时在救援友方角色时，心夏会放出援护无人机自动扶起队友。",
+            "LocalizedString": "[被动技能]急速救援的每秒生命恢复量增加<GrowthMB_DescY>{0}</>点\r\n[技能效果说明-急速救援]心夏会在未受击时缓慢回复自身生命值，同时在救援友方角色时，心夏会放出援护无人机自动扶起队友。"
           },
           "Arguments": [
             {
@@ -5580,11 +6049,15 @@
       "ShieldDesc": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "QuickReturnOfLightArmor"
+          "Key": "QuickReturnOfLightArmor",
+          "SourceString": "快回轻型护甲",
+          "LocalizedString": "快回轻型护甲"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "HeavyArmor"
+          "Key": "HeavyArmor",
+          "SourceString": "重型护甲",
+          "LocalizedString": "重型护甲"
         }
       ],
       "ShieldIcon": [
@@ -5601,7 +6074,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "StringAcceleration_WithNumParam"
+            "Key": "StringAcceleration_WithNumParam",
+            "SourceString": "弦化状态移速增加{0}%",
+            "LocalizedString": "弦化状态移速增加{0}%"
           },
           "Arguments": [
             {
@@ -5613,7 +6088,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "SetStringReductionCoefficientValue_WithNumParam"
+            "Key": "SetStringReductionCoefficientValue_WithNumParam",
+            "SourceString": "弦化减伤系数提至{0}%",
+            "LocalizedString": "弦化减伤系数提至{0}%"
           },
           "Arguments": [
             {
@@ -5730,27 +6207,39 @@
       "PartName": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_Core"
+          "Key": "Part_Core",
+          "SourceString": "核心",
+          "LocalizedString": "核心"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_Output"
+          "Key": "Part_Output",
+          "SourceString": "输出",
+          "LocalizedString": "输出"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_KeepFight"
+          "Key": "Part_KeepFight",
+          "SourceString": "续航",
+          "LocalizedString": "续航"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_Function"
+          "Key": "Part_Function",
+          "SourceString": "机能",
+          "LocalizedString": "机能"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_Armor"
+          "Key": "Part_Armor",
+          "SourceString": "护甲",
+          "LocalizedString": "护甲"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_String"
+          "Key": "Part_String",
+          "SourceString": "弦化",
+          "LocalizedString": "弦化"
         }
       ],
       "PartIcon": [
@@ -5955,11 +6444,15 @@
       "Part1Desc": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "IncreasedShutgunPellets"
+          "Key": "IncreasedShutgunPellets",
+          "SourceString": "弹丸数提升",
+          "LocalizedString": "弹丸数提升"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "BaseRateOfFireIncreased"
+          "Key": "BaseRateOfFireIncreased",
+          "SourceString": "基础射速提升",
+          "LocalizedString": "基础射速提升"
         },
         {
           "CultureInvariantString": null
@@ -5978,11 +6471,15 @@
       "Part2Desc": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "EffectiveRangeIncreased"
+          "Key": "EffectiveRangeIncreased",
+          "SourceString": "有效射程提升",
+          "LocalizedString": "有效射程提升"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "StringDamageIncreased"
+          "Key": "StringDamageIncreased",
+          "SourceString": "弦化伤害提升",
+          "LocalizedString": "弦化伤害提升"
         },
         {
           "CultureInvariantString": null
@@ -6001,11 +6498,15 @@
       "Part4Desc": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "IncreasedNumberOfBullets"
+          "Key": "IncreasedNumberOfBullets",
+          "SourceString": "载弹数量提升",
+          "LocalizedString": "载弹数量提升"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "ReloadSpeedIncreased"
+          "Key": "ReloadSpeedIncreased",
+          "SourceString": "换弹速度提升",
+          "LocalizedString": "换弹速度提升"
         },
         {
           "CultureInvariantString": null
@@ -6024,11 +6525,15 @@
       "Part5Desc": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "MaximumRunningSpeedIncreased"
+          "Key": "MaximumRunningSpeedIncreased",
+          "SourceString": "移动速度提升",
+          "LocalizedString": "移动速度提升"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "ScatterControlImprovements"
+          "Key": "ScatterControlImprovements",
+          "SourceString": "散射控制提升",
+          "LocalizedString": "散射控制提升"
         },
         {
           "CultureInvariantString": null
@@ -6048,7 +6553,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "CooldownReducedBySeconds_WithNumParam"
+            "Key": "CooldownReducedBySeconds_WithNumParam",
+            "SourceString": "冷却时间减少{0}秒",
+            "LocalizedString": "冷却时间减少{0}秒"
           },
           "Arguments": [
             {
@@ -6059,7 +6566,9 @@
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "DoubleTheNumberOfAutomaticReloads"
+          "Key": "DoubleTheNumberOfAutomaticReloads",
+          "SourceString": "自动上弹数翻倍",
+          "LocalizedString": "自动上弹数翻倍"
         }
       ],
       "QIcon": [
@@ -6076,7 +6585,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "Details_110_Q_1"
+            "Key": "Details_110_Q_1",
+            "SourceString": "[主动技能]炫空斗舞的冷却时间减少<GrowthMB_DescY>{0}</>秒\r\n[技能效果说明-炫空斗舞]白墨进入弦化状态，向前翻转跳跃贴近敌人，并为主武器自动补充子弹。白墨使用主武器命中敌方角色时，每发命中的弹丸都会返还部分炫空斗舞的冷却时间。",
+            "LocalizedString": "[主动技能]炫空斗舞的冷却时间减少<GrowthMB_DescY>{0}</>秒\r\n[技能效果说明-炫空斗舞]白墨进入弦化状态，向前翻转跳跃贴近敌人，并为主武器自动补充子弹。白墨使用主武器命中敌方角色时，每发命中的弹丸都会返还部分炫空斗舞的冷却时间。"
           },
           "Arguments": [
             {
@@ -6087,14 +6598,18 @@
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Details_110_Q_2"
+          "Key": "Details_110_Q_2",
+          "SourceString": "[主动技能]炫空斗舞自动上弹数<GrowthMB_DescY>翻倍</>\r\n[技能效果说明-炫空斗舞]白墨进入弦化状态，向前翻转跳跃贴近敌人，并为主武器自动补充子弹。白墨使用主武器命中敌方角色时，每发命中的弹丸都会返还部分炫空斗舞的冷却时间。",
+          "LocalizedString": "[主动技能]炫空斗舞自动上弹数<GrowthMB_DescY>翻倍</>\r\n[技能效果说明-炫空斗舞]白墨进入弦化状态，向前翻转跳跃贴近敌人，并为主武器自动补充子弹。白墨使用主武器命中敌方角色时，每发命中的弹丸都会返还部分炫空斗舞的冷却时间。"
         }
       ],
       "PassiveDesc": [
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "DurationIncreasedBySeconds_WithNumParam"
+            "Key": "DurationIncreasedBySeconds_WithNumParam",
+            "SourceString": "持续时间增加{0}秒",
+            "LocalizedString": "持续时间增加{0}秒"
           },
           "Arguments": [
             {
@@ -6118,7 +6633,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "Details_110_P_1"
+            "Key": "Details_110_P_1",
+            "SourceString": "[被动技能]嘻哈嘣彩的负面效果持续时间增加<GrowthMB_DescY>{0}</>秒\r\n[技能效果说明-嘻哈嘣彩]白墨的主武器单次射击命中敌人造成至少50点伤害后，使其弦化禁止。",
+            "LocalizedString": "[被动技能]嘻哈嘣彩的负面效果持续时间增加<GrowthMB_DescY>{0}</>秒\r\n[技能效果说明-嘻哈嘣彩]白墨的主武器单次射击命中敌人造成至少50点伤害后，使其弦化禁止。"
           },
           "Arguments": [
             {
@@ -6143,11 +6660,15 @@
       "ShieldDesc": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "QuickReturnOfLightArmor"
+          "Key": "QuickReturnOfLightArmor",
+          "SourceString": "快回轻型护甲",
+          "LocalizedString": "快回轻型护甲"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "HeavyArmor"
+          "Key": "HeavyArmor",
+          "SourceString": "重型护甲",
+          "LocalizedString": "重型护甲"
         }
       ],
       "ShieldIcon": [
@@ -6164,7 +6685,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "StringAcceleration_WithNumParam"
+            "Key": "StringAcceleration_WithNumParam",
+            "SourceString": "弦化状态移速增加{0}%",
+            "LocalizedString": "弦化状态移速增加{0}%"
           },
           "Arguments": [
             {
@@ -6176,7 +6699,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "SetStringReductionCoefficientValue_WithNumParam"
+            "Key": "SetStringReductionCoefficientValue_WithNumParam",
+            "SourceString": "弦化减伤系数提至{0}%",
+            "LocalizedString": "弦化减伤系数提至{0}%"
           },
           "Arguments": [
             {
@@ -6293,27 +6818,39 @@
       "PartName": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_Core"
+          "Key": "Part_Core",
+          "SourceString": "核心",
+          "LocalizedString": "核心"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_CriticalHit"
+          "Key": "Part_CriticalHit",
+          "SourceString": "暴击",
+          "LocalizedString": "暴击"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_KeepFight"
+          "Key": "Part_KeepFight",
+          "SourceString": "续航",
+          "LocalizedString": "续航"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_Function"
+          "Key": "Part_Function",
+          "SourceString": "机能",
+          "LocalizedString": "机能"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_Armor"
+          "Key": "Part_Armor",
+          "SourceString": "护甲",
+          "LocalizedString": "护甲"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_String"
+          "Key": "Part_String",
+          "SourceString": "弦化",
+          "LocalizedString": "弦化"
         }
       ],
       "PartIcon": [
@@ -6518,11 +7055,15 @@
       "Part1Desc": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "ReloadSpeedIncreased"
+          "Key": "ReloadSpeedIncreased",
+          "SourceString": "换弹速度提升",
+          "LocalizedString": "换弹速度提升"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "IncreasedNumberOfBullets"
+          "Key": "IncreasedNumberOfBullets",
+          "SourceString": "载弹数量提升",
+          "LocalizedString": "载弹数量提升"
         },
         {
           "CultureInvariantString": null
@@ -6541,11 +7082,15 @@
       "Part2Desc": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "HeadshotDamageIncreased"
+          "Key": "HeadshotDamageIncreased",
+          "SourceString": "爆头伤害提升",
+          "LocalizedString": "爆头伤害提升"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "StringDamageIncreased"
+          "Key": "StringDamageIncreased",
+          "SourceString": "弦化伤害提升",
+          "LocalizedString": "弦化伤害提升"
         },
         {
           "CultureInvariantString": null
@@ -6564,11 +7109,15 @@
       "Part4Desc": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "IncreasedCameraOpeningSpeed"
+          "Key": "IncreasedCameraOpeningSpeed",
+          "SourceString": "开镜速度提升",
+          "LocalizedString": "开镜速度提升"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "MaximumRunningSpeedIncreased"
+          "Key": "MaximumRunningSpeedIncreased",
+          "SourceString": "移动速度提升",
+          "LocalizedString": "移动速度提升"
         },
         {
           "CultureInvariantString": null
@@ -6587,11 +7136,15 @@
       "Part5Desc": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "ScatterControlImprovements"
+          "Key": "ScatterControlImprovements",
+          "SourceString": "散射控制提升",
+          "LocalizedString": "散射控制提升"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "ImprovedRecoilControl"
+          "Key": "ImprovedRecoilControl",
+          "SourceString": "后坐控制提升",
+          "LocalizedString": "后坐控制提升"
         },
         {
           "CultureInvariantString": null
@@ -6611,7 +7164,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "DurationIncreasedBySeconds_WithNumParam"
+            "Key": "DurationIncreasedBySeconds_WithNumParam",
+            "SourceString": "持续时间增加{0}秒",
+            "LocalizedString": "持续时间增加{0}秒"
           },
           "Arguments": [
             {
@@ -6623,7 +7178,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "CooldownReducedBySeconds_WithNumParam"
+            "Key": "CooldownReducedBySeconds_WithNumParam",
+            "SourceString": "冷却时间减少{0}秒",
+            "LocalizedString": "冷却时间减少{0}秒"
           },
           "Arguments": [
             {
@@ -6647,7 +7204,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "Details_109_Q_1"
+            "Key": "Details_109_Q_1",
+            "SourceString": "[主动技能]破晓帷幕的持续时间增加<GrowthMB_DescY>{0}</>秒\r\n[技能效果说明-破晓帷幕]令使用自己的伞制造出一堵可以纵向释放或者横向释放的弦能光幕，光幕会遮蔽视野。",
+            "LocalizedString": "[主动技能]破晓帷幕的持续时间增加<GrowthMB_DescY>{0}</>秒\r\n[技能效果说明-破晓帷幕]令使用自己的伞制造出一堵可以纵向释放或者横向释放的弦能光幕，光幕会遮蔽视野。"
           },
           "Arguments": [
             {
@@ -6659,7 +7218,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "Details_109_Q_2"
+            "Key": "Details_109_Q_2",
+            "SourceString": "[主动技能]破晓帷幕的冷却时间减少<GrowthMB_DescY>{0}</>秒\r\n[技能效果说明-破晓帷幕]令使用自己的伞制造出一堵可以纵向释放或者横向释放的弦能光幕，光幕会遮蔽视野。",
+            "LocalizedString": "[主动技能]破晓帷幕的冷却时间减少<GrowthMB_DescY>{0}</>秒\r\n[技能效果说明-破晓帷幕]令使用自己的伞制造出一堵可以纵向释放或者横向释放的弦能光幕，光幕会遮蔽视野。"
           },
           "Arguments": [
             {
@@ -6673,7 +7234,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "ActiveTimeShorten_WithNumParam"
+            "Key": "ActiveTimeShorten_WithNumParam",
+            "SourceString": "激活时间缩短{0}秒",
+            "LocalizedString": "激活时间缩短{0}秒"
           },
           "Arguments": [
             {
@@ -6697,7 +7260,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "Details_109_P_1"
+            "Key": "Details_109_P_1",
+            "SourceString": "[被动技能]黎明洞悉的激活时间缩短<GrowthMB_DescY>{0}</>秒\r\n[技能效果说明-黎明洞悉]在保持开镜状态时，令每一段时间会扫描一遍前方敌人及其召唤物，使其透视，仅令可见。",
+            "LocalizedString": "[被动技能]黎明洞悉的激活时间缩短<GrowthMB_DescY>{0}</>秒\r\n[技能效果说明-黎明洞悉]在保持开镜状态时，令每一段时间会扫描一遍前方敌人及其召唤物，使其透视，仅令可见。"
           },
           "Arguments": [
             {
@@ -6722,11 +7287,15 @@
       "ShieldDesc": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "QuickReturnOfLightArmor"
+          "Key": "QuickReturnOfLightArmor",
+          "SourceString": "快回轻型护甲",
+          "LocalizedString": "快回轻型护甲"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "HeavyArmor"
+          "Key": "HeavyArmor",
+          "SourceString": "重型护甲",
+          "LocalizedString": "重型护甲"
         }
       ],
       "ShieldIcon": [
@@ -6743,7 +7312,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "StringAcceleration_WithNumParam"
+            "Key": "StringAcceleration_WithNumParam",
+            "SourceString": "弦化状态移速增加{0}%",
+            "LocalizedString": "弦化状态移速增加{0}%"
           },
           "Arguments": [
             {
@@ -6755,7 +7326,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "SetStringReductionCoefficientValue_WithNumParam"
+            "Key": "SetStringReductionCoefficientValue_WithNumParam",
+            "SourceString": "弦化减伤系数提至{0}%",
+            "LocalizedString": "弦化减伤系数提至{0}%"
           },
           "Arguments": [
             {
@@ -6872,27 +7445,39 @@
       "PartName": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_KeepFight"
+          "Key": "Part_KeepFight",
+          "SourceString": "续航",
+          "LocalizedString": "续航"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_CriticalHit"
+          "Key": "Part_CriticalHit",
+          "SourceString": "暴击",
+          "LocalizedString": "暴击"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_Function"
+          "Key": "Part_Function",
+          "SourceString": "机能",
+          "LocalizedString": "机能"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_Control"
+          "Key": "Part_Control",
+          "SourceString": "操控",
+          "LocalizedString": "操控"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_Armor"
+          "Key": "Part_Armor",
+          "SourceString": "护甲",
+          "LocalizedString": "护甲"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_String"
+          "Key": "Part_String",
+          "SourceString": "弦化",
+          "LocalizedString": "弦化"
         }
       ],
       "PartIcon": [
@@ -7097,11 +7682,15 @@
       "Part1Desc": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "EffectiveRangeIncreased"
+          "Key": "EffectiveRangeIncreased",
+          "SourceString": "有效射程提升",
+          "LocalizedString": "有效射程提升"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "IncreasedNumberOfBullets"
+          "Key": "IncreasedNumberOfBullets",
+          "SourceString": "载弹数量提升",
+          "LocalizedString": "载弹数量提升"
         },
         {
           "CultureInvariantString": null
@@ -7120,11 +7709,15 @@
       "Part2Desc": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "HeadshotDamageIncreased"
+          "Key": "HeadshotDamageIncreased",
+          "SourceString": "爆头伤害提升",
+          "LocalizedString": "爆头伤害提升"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "StringDamageIncreased"
+          "Key": "StringDamageIncreased",
+          "SourceString": "弦化伤害提升",
+          "LocalizedString": "弦化伤害提升"
         },
         {
           "CultureInvariantString": null
@@ -7143,11 +7736,15 @@
       "Part4Desc": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "MaximumRunningSpeedIncreased"
+          "Key": "MaximumRunningSpeedIncreased",
+          "SourceString": "移动速度提升",
+          "LocalizedString": "移动速度提升"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "ReloadSpeedIncreased"
+          "Key": "ReloadSpeedIncreased",
+          "SourceString": "换弹速度提升",
+          "LocalizedString": "换弹速度提升"
         },
         {
           "CultureInvariantString": null
@@ -7166,11 +7763,15 @@
       "Part5Desc": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "ScatterControlImprovements"
+          "Key": "ScatterControlImprovements",
+          "SourceString": "散射控制提升",
+          "LocalizedString": "散射控制提升"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "IncreasedCameraOpeningSpeed"
+          "Key": "IncreasedCameraOpeningSpeed",
+          "SourceString": "开镜速度提升",
+          "LocalizedString": "开镜速度提升"
         },
         {
           "CultureInvariantString": null
@@ -7190,7 +7791,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "CooldownReducedBySeconds_WithNumParam"
+            "Key": "CooldownReducedBySeconds_WithNumParam",
+            "SourceString": "冷却时间减少{0}秒",
+            "LocalizedString": "冷却时间减少{0}秒"
           },
           "Arguments": [
             {
@@ -7202,7 +7805,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "AddedSprintTimes_WithNumParam"
+            "Key": "AddedSprintTimes_WithNumParam",
+            "SourceString": "增加{0}次冲刺次数",
+            "LocalizedString": "增加{0}次冲刺次数"
           },
           "Arguments": [
             {
@@ -7226,7 +7831,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "Details_131_Q_1"
+            "Key": "Details_131_Q_1",
+            "SourceString": "[主动技能]熊熊出击的冷却时间减少<GrowthMB_DescY>{0}</>秒\r\n[技能效果说明-熊熊出击]伊薇特召出战术熊，熊可以冲撞，撞到障碍物或是再次按下左键会在地面上留下冰面。冰面附带打滑和易伤效果。",
+            "LocalizedString": "[主动技能]熊熊出击的冷却时间减少<GrowthMB_DescY>{0}</>秒\r\n[技能效果说明-熊熊出击]伊薇特召出战术熊，熊可以冲撞，撞到障碍物或是再次按下左键会在地面上留下冰面。冰面附带打滑和易伤效果。"
           },
           "Arguments": [
             {
@@ -7238,7 +7845,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "Details_131_Q_2"
+            "Key": "Details_131_Q_2",
+            "SourceString": "[主动技能]熊熊出击的战术熊增加<GrowthMB_DescY>{0}</>次冲刺次数\r\n[技能效果说明-熊熊出击]伊薇特召出战术熊，熊可以冲撞，撞到障碍物或是再次按下左键会在地面上留下冰面。冰面附带打滑和易伤效果。",
+            "LocalizedString": "[主动技能]熊熊出击的战术熊增加<GrowthMB_DescY>{0}</>次冲刺次数\r\n[技能效果说明-熊熊出击]伊薇特召出战术熊，熊可以冲撞，撞到障碍物或是再次按下左键会在地面上留下冰面。冰面附带打滑和易伤效果。"
           },
           "Arguments": [
             {
@@ -7252,7 +7861,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "IncreaseStealthSpeed_WithNumParam"
+            "Key": "IncreaseStealthSpeed_WithNumParam",
+            "SourceString": "进入隐身加快{0}%",
+            "LocalizedString": "进入隐身加快{0}%"
           },
           "Arguments": [
             {
@@ -7276,7 +7887,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "Details_131_P_1"
+            "Key": "Details_131_P_1",
+            "SourceString": "[被动技能]皑皑藏雪的进入隐身速度加快<GrowthMB_DescY>{0}%</>\r\n[技能效果说明-皑皑藏雪]伊薇特站立不动一段时间后，会进入迷彩状态，远处的敌人看不见伊薇特，当愈发靠近时才会慢慢显示其轮廓。",
+            "LocalizedString": "[被动技能]皑皑藏雪的进入隐身速度加快<GrowthMB_DescY>{0}%</>\r\n[技能效果说明-皑皑藏雪]伊薇特站立不动一段时间后，会进入迷彩状态，远处的敌人看不见伊薇特，当愈发靠近时才会慢慢显示其轮廓。"
           },
           "Arguments": [
             {
@@ -7301,11 +7914,15 @@
       "ShieldDesc": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "QuickReturnOfLightArmor"
+          "Key": "QuickReturnOfLightArmor",
+          "SourceString": "快回轻型护甲",
+          "LocalizedString": "快回轻型护甲"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "HeavyArmor"
+          "Key": "HeavyArmor",
+          "SourceString": "重型护甲",
+          "LocalizedString": "重型护甲"
         }
       ],
       "ShieldIcon": [
@@ -7322,7 +7939,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "StringAcceleration_WithNumParam"
+            "Key": "StringAcceleration_WithNumParam",
+            "SourceString": "弦化状态移速增加{0}%",
+            "LocalizedString": "弦化状态移速增加{0}%"
           },
           "Arguments": [
             {
@@ -7334,7 +7953,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "SetStringReductionCoefficientValue_WithNumParam"
+            "Key": "SetStringReductionCoefficientValue_WithNumParam",
+            "SourceString": "弦化减伤系数提至{0}%",
+            "LocalizedString": "弦化减伤系数提至{0}%"
           },
           "Arguments": [
             {
@@ -7451,27 +8072,39 @@
       "PartName": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_Core"
+          "Key": "Part_Core",
+          "SourceString": "核心",
+          "LocalizedString": "核心"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_CriticalHit"
+          "Key": "Part_CriticalHit",
+          "SourceString": "暴击",
+          "LocalizedString": "暴击"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_Control"
+          "Key": "Part_Control",
+          "SourceString": "操控",
+          "LocalizedString": "操控"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_Accurate"
+          "Key": "Part_Accurate",
+          "SourceString": "精准",
+          "LocalizedString": "精准"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_Armor"
+          "Key": "Part_Armor",
+          "SourceString": "护甲",
+          "LocalizedString": "护甲"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_String"
+          "Key": "Part_String",
+          "SourceString": "弦化",
+          "LocalizedString": "弦化"
         }
       ],
       "PartIcon": [
@@ -7676,11 +8309,15 @@
       "Part1Desc": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "BoltPullingSpeedIncreased"
+          "Key": "BoltPullingSpeedIncreased",
+          "SourceString": "拉栓速度提升",
+          "LocalizedString": "拉栓速度提升"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "IncreasedChargingSpeed"
+          "Key": "IncreasedChargingSpeed",
+          "SourceString": "蓄力速度提升",
+          "LocalizedString": "蓄力速度提升"
         },
         {
           "CultureInvariantString": null
@@ -7699,11 +8336,15 @@
       "Part2Desc": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "BaseDamageIncreased"
+          "Key": "BaseDamageIncreased",
+          "SourceString": "基础伤害提升",
+          "LocalizedString": "基础伤害提升"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "StringDamageIncreased"
+          "Key": "StringDamageIncreased",
+          "SourceString": "弦化伤害提升",
+          "LocalizedString": "弦化伤害提升"
         },
         {
           "CultureInvariantString": null
@@ -7722,11 +8363,15 @@
       "Part4Desc": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "IncreasedNumberOfBullets"
+          "Key": "IncreasedNumberOfBullets",
+          "SourceString": "载弹数量提升",
+          "LocalizedString": "载弹数量提升"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "ReloadSpeedIncreased"
+          "Key": "ReloadSpeedIncreased",
+          "SourceString": "换弹速度提升",
+          "LocalizedString": "换弹速度提升"
         },
         {
           "CultureInvariantString": null
@@ -7745,11 +8390,15 @@
       "Part5Desc": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "IncreasedCameraOpeningSpeed"
+          "Key": "IncreasedCameraOpeningSpeed",
+          "SourceString": "开镜速度提升",
+          "LocalizedString": "开镜速度提升"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "MaximumRunningSpeedIncreased"
+          "Key": "MaximumRunningSpeedIncreased",
+          "SourceString": "移动速度提升",
+          "LocalizedString": "移动速度提升"
         },
         {
           "CultureInvariantString": null
@@ -7769,7 +8418,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "CooldownReducedBySeconds_WithNumParam"
+            "Key": "CooldownReducedBySeconds_WithNumParam",
+            "SourceString": "冷却时间减少{0}秒",
+            "LocalizedString": "冷却时间减少{0}秒"
           },
           "Arguments": [
             {
@@ -7781,7 +8432,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "NoteBloodIncreasedBy_WithNumParam"
+            "Key": "NoteBloodIncreasedBy_WithNumParam",
+            "SourceString": "音符血量增加{0}%",
+            "LocalizedString": "音符血量增加{0}%"
           },
           "Arguments": [
             {
@@ -7805,7 +8458,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "Details_137_Q_1"
+            "Key": "Details_137_Q_1",
+            "SourceString": "[主动技能]旋律回响的冷却时间减少<GrowthMB_DescY>{0}</>秒\r\n[技能效果说明-旋律回响]香奈美可以用枪射出声呐片，声呐片会释放出声波实时探查一定范围内无建筑障碍物遮挡的敌人，被发现的敌人会暴露给香奈美及其队友。",
+            "LocalizedString": "[主动技能]旋律回响的冷却时间减少<GrowthMB_DescY>{0}</>秒\r\n[技能效果说明-旋律回响]香奈美可以用枪射出声呐片，声呐片会释放出声波实时探查一定范围内无建筑障碍物遮挡的敌人，被发现的敌人会暴露给香奈美及其队友。"
           },
           "Arguments": [
             {
@@ -7817,7 +8472,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "Details_137_Q_2"
+            "Key": "Details_137_Q_2",
+            "SourceString": "[主动技能]旋律回响的音符血量增加<GrowthMB_DescY>{0}%</>\r\n[技能效果说明-旋律回响]香奈美可以用枪射出声呐片，声呐片会释放出声波实时探查一定范围内无建筑障碍物遮挡的敌人，被发现的敌人会暴露给香奈美及其队友。",
+            "LocalizedString": "[主动技能]旋律回响的音符血量增加<GrowthMB_DescY>{0}%</>\r\n[技能效果说明-旋律回响]香奈美可以用枪射出声呐片，声呐片会释放出声波实时探查一定范围内无建筑障碍物遮挡的敌人，被发现的敌人会暴露给香奈美及其队友。"
           },
           "Arguments": [
             {
@@ -7831,7 +8488,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "DurationIncreasedBySeconds_WithNumParam"
+            "Key": "DurationIncreasedBySeconds_WithNumParam",
+            "SourceString": "持续时间增加{0}秒",
+            "LocalizedString": "持续时间增加{0}秒"
           },
           "Arguments": [
             {
@@ -7855,7 +8514,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "Details_137_P_1"
+            "Key": "Details_137_P_1",
+            "SourceString": "[被动技能]交响爆音的持续时间增加<GrowthMB_DescY>{0}</>秒\r\n[技能效果说明-交响爆音]香奈美的主武器发射子弹之后，会以子弹落点范围产生一个圆形音波区，处在音波区内的敌人信息会被暴露给香奈美自己。",
+            "LocalizedString": "[被动技能]交响爆音的持续时间增加<GrowthMB_DescY>{0}</>秒\r\n[技能效果说明-交响爆音]香奈美的主武器发射子弹之后，会以子弹落点范围产生一个圆形音波区，处在音波区内的敌人信息会被暴露给香奈美自己。"
           },
           "Arguments": [
             {
@@ -7880,11 +8541,15 @@
       "ShieldDesc": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "QuickReturnOfLightArmor"
+          "Key": "QuickReturnOfLightArmor",
+          "SourceString": "快回轻型护甲",
+          "LocalizedString": "快回轻型护甲"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "HeavyArmor"
+          "Key": "HeavyArmor",
+          "SourceString": "重型护甲",
+          "LocalizedString": "重型护甲"
         }
       ],
       "ShieldIcon": [
@@ -7901,7 +8566,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "StringAcceleration_WithNumParam"
+            "Key": "StringAcceleration_WithNumParam",
+            "SourceString": "弦化状态移速增加{0}%",
+            "LocalizedString": "弦化状态移速增加{0}%"
           },
           "Arguments": [
             {
@@ -7913,7 +8580,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "SetStringReductionCoefficientValue_WithNumParam"
+            "Key": "SetStringReductionCoefficientValue_WithNumParam",
+            "SourceString": "弦化减伤系数提至{0}%",
+            "LocalizedString": "弦化减伤系数提至{0}%"
           },
           "Arguments": [
             {
@@ -8030,27 +8699,39 @@
       "PartName": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_Core"
+          "Key": "Part_Core",
+          "SourceString": "核心",
+          "LocalizedString": "核心"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_Output"
+          "Key": "Part_Output",
+          "SourceString": "输出",
+          "LocalizedString": "输出"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_KeepFight"
+          "Key": "Part_KeepFight",
+          "SourceString": "续航",
+          "LocalizedString": "续航"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_Function"
+          "Key": "Part_Function",
+          "SourceString": "机能",
+          "LocalizedString": "机能"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_Armor"
+          "Key": "Part_Armor",
+          "SourceString": "护甲",
+          "LocalizedString": "护甲"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_String"
+          "Key": "Part_String",
+          "SourceString": "弦化",
+          "LocalizedString": "弦化"
         }
       ],
       "PartIcon": [
@@ -8255,11 +8936,15 @@
       "Part1Desc": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "BaseDamageIncreased"
+          "Key": "BaseDamageIncreased",
+          "SourceString": "基础伤害提升",
+          "LocalizedString": "基础伤害提升"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "BaseRateOfFireIncreased"
+          "Key": "BaseRateOfFireIncreased",
+          "SourceString": "基础射速提升",
+          "LocalizedString": "基础射速提升"
         },
         {
           "CultureInvariantString": null
@@ -8278,11 +8963,15 @@
       "Part2Desc": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "HeadshotDamageIncreased"
+          "Key": "HeadshotDamageIncreased",
+          "SourceString": "爆头伤害提升",
+          "LocalizedString": "爆头伤害提升"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "StringDamageIncreased"
+          "Key": "StringDamageIncreased",
+          "SourceString": "弦化伤害提升",
+          "LocalizedString": "弦化伤害提升"
         },
         {
           "CultureInvariantString": null
@@ -8301,11 +8990,15 @@
       "Part4Desc": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "IncreasedNumberOfBullets"
+          "Key": "IncreasedNumberOfBullets",
+          "SourceString": "载弹数量提升",
+          "LocalizedString": "载弹数量提升"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "ReloadSpeedIncreased"
+          "Key": "ReloadSpeedIncreased",
+          "SourceString": "换弹速度提升",
+          "LocalizedString": "换弹速度提升"
         },
         {
           "CultureInvariantString": null
@@ -8324,11 +9017,15 @@
       "Part5Desc": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "ScatterControlImprovements"
+          "Key": "ScatterControlImprovements",
+          "SourceString": "散射控制提升",
+          "LocalizedString": "散射控制提升"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "ImprovedRecoilControl"
+          "Key": "ImprovedRecoilControl",
+          "SourceString": "后坐控制提升",
+          "LocalizedString": "后坐控制提升"
         },
         {
           "CultureInvariantString": null
@@ -8348,7 +9045,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "PhantomButterflyFlowTimeIncreasedBy_WithNumParam"
+            "Key": "PhantomButterflyFlowTimeIncreasedBy_WithNumParam",
+            "SourceString": "幻蝶跟随时间增加{0}秒",
+            "LocalizedString": "幻蝶跟随时间增加{0}秒"
           },
           "Arguments": [
             {
@@ -8360,7 +9059,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "HallucinogenBallBloodIncreasedBy_WithNumParam"
+            "Key": "HallucinogenBallBloodIncreasedBy_WithNumParam",
+            "SourceString": "致幻球生命值增加{0}%",
+            "LocalizedString": "致幻球生命值增加{0}%"
           },
           "Arguments": [
             {
@@ -8384,7 +9085,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "Details_115_Q_1"
+            "Key": "Details_115_Q_1",
+            "SourceString": "[主动技能]致幻魅影的幻蝶跟随时间增加<GrowthMB_DescY>{0}</>秒\r\n[技能效果说明-致幻魅影]芙拉薇娅召唤幻蝶短时间跟随自己，期间受到攻击损失生命值时进入短时间的无敌状态并原地生成一个致幻球。致幻球限制敌方视野且可被击碎。",
+            "LocalizedString": "[主动技能]致幻魅影的幻蝶跟随时间增加<GrowthMB_DescY>{0}</>秒\r\n[技能效果说明-致幻魅影]芙拉薇娅召唤幻蝶短时间跟随自己，期间受到攻击损失生命值时进入短时间的无敌状态并原地生成一个致幻球。致幻球限制敌方视野且可被击碎。"
           },
           "Arguments": [
             {
@@ -8396,7 +9099,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "Details_115_Q_2"
+            "Key": "Details_115_Q_2",
+            "SourceString": "[主动技能]致幻魅影的致幻球的生命值增加<GrowthMB_DescY>{0}</>%\r\n[技能效果说明-致幻魅影]芙拉薇娅召唤幻蝶短时间跟随自己，期间受到攻击损失生命值时进入短时间的无敌状态并原地生成一个致幻球。致幻球限制敌方视野且可被击碎。",
+            "LocalizedString": "[主动技能]致幻魅影的致幻球的生命值增加<GrowthMB_DescY>{0}</>%\r\n[技能效果说明-致幻魅影]芙拉薇娅召唤幻蝶短时间跟随自己，期间受到攻击损失生命值时进入短时间的无敌状态并原地生成一个致幻球。致幻球限制敌方视野且可被击碎。"
           },
           "Arguments": [
             {
@@ -8410,7 +9115,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "ReduceCDNeedDamage_WithNumParam"
+            "Key": "ReduceCDNeedDamage_WithNumParam",
+            "SourceString": "触发效果所需伤害量减少{0}%",
+            "LocalizedString": "触发效果所需伤害量减少{0}%"
           },
           "Arguments": [
             {
@@ -8434,7 +9141,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "Details_115_P_1"
+            "Key": "Details_115_P_1",
+            "SourceString": "[被动技能]周生复始的触发效果所需伤害量减少<GrowthMB_DescY>{0}%</>\r\n[技能效果说明-周生复始]芙拉薇娅累计受到少量伤害时会减少主动技能的冷却时间；累计受到大量伤害时会获得临时绝招点数，通过此方式获得的绝招点数当前回合有效。",
+            "LocalizedString": "[被动技能]周生复始的触发效果所需伤害量减少<GrowthMB_DescY>{0}%</>\r\n[技能效果说明-周生复始]芙拉薇娅累计受到少量伤害时会减少主动技能的冷却时间；累计受到大量伤害时会获得临时绝招点数，通过此方式获得的绝招点数当前回合有效。"
           },
           "Arguments": [
             {
@@ -8459,11 +9168,15 @@
       "ShieldDesc": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "QuickReturnOfLightArmor"
+          "Key": "QuickReturnOfLightArmor",
+          "SourceString": "快回轻型护甲",
+          "LocalizedString": "快回轻型护甲"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "HeavyArmor"
+          "Key": "HeavyArmor",
+          "SourceString": "重型护甲",
+          "LocalizedString": "重型护甲"
         }
       ],
       "ShieldIcon": [
@@ -8480,7 +9193,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "StringAcceleration_WithNumParam"
+            "Key": "StringAcceleration_WithNumParam",
+            "SourceString": "弦化状态移速增加{0}%",
+            "LocalizedString": "弦化状态移速增加{0}%"
           },
           "Arguments": [
             {
@@ -8492,7 +9207,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "SetStringReductionCoefficientValue_WithNumParam"
+            "Key": "SetStringReductionCoefficientValue_WithNumParam",
+            "SourceString": "弦化减伤系数提至{0}%",
+            "LocalizedString": "弦化减伤系数提至{0}%"
           },
           "Arguments": [
             {
@@ -8609,27 +9326,39 @@
       "PartName": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_Output"
+          "Key": "Part_Output",
+          "SourceString": "输出",
+          "LocalizedString": "输出"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_CriticalHit"
+          "Key": "Part_CriticalHit",
+          "SourceString": "暴击",
+          "LocalizedString": "暴击"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_KeepFight"
+          "Key": "Part_KeepFight",
+          "SourceString": "续航",
+          "LocalizedString": "续航"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_Accurate"
+          "Key": "Part_Accurate",
+          "SourceString": "精准",
+          "LocalizedString": "精准"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_Armor"
+          "Key": "Part_Armor",
+          "SourceString": "护甲",
+          "LocalizedString": "护甲"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_String"
+          "Key": "Part_String",
+          "SourceString": "弦化",
+          "LocalizedString": "弦化"
         }
       ],
       "PartIcon": [
@@ -8834,11 +9563,15 @@
       "Part1Desc": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "IncreasedShutgunPellets"
+          "Key": "IncreasedShutgunPellets",
+          "SourceString": "弹丸数提升",
+          "LocalizedString": "弹丸数提升"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "BaseRateOfFireIncreased"
+          "Key": "BaseRateOfFireIncreased",
+          "SourceString": "基础射速提升",
+          "LocalizedString": "基础射速提升"
         },
         {
           "CultureInvariantString": null
@@ -8857,11 +9590,15 @@
       "Part2Desc": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "EffectiveRangeIncreased"
+          "Key": "EffectiveRangeIncreased",
+          "SourceString": "有效射程提升",
+          "LocalizedString": "有效射程提升"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "StringDamageIncreased"
+          "Key": "StringDamageIncreased",
+          "SourceString": "弦化伤害提升",
+          "LocalizedString": "弦化伤害提升"
         },
         {
           "CultureInvariantString": null
@@ -8880,11 +9617,15 @@
       "Part4Desc": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "IncreasedNumberOfBullets"
+          "Key": "IncreasedNumberOfBullets",
+          "SourceString": "载弹数量提升",
+          "LocalizedString": "载弹数量提升"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "ReloadSpeedIncreased"
+          "Key": "ReloadSpeedIncreased",
+          "SourceString": "换弹速度提升",
+          "LocalizedString": "换弹速度提升"
         },
         {
           "CultureInvariantString": null
@@ -8903,11 +9644,15 @@
       "Part5Desc": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "MaximumRunningSpeedIncreased"
+          "Key": "MaximumRunningSpeedIncreased",
+          "SourceString": "移动速度提升",
+          "LocalizedString": "移动速度提升"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "ScatterControlImprovements"
+          "Key": "ScatterControlImprovements",
+          "SourceString": "散射控制提升",
+          "LocalizedString": "散射控制提升"
         },
         {
           "CultureInvariantString": null
@@ -8927,7 +9672,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "CooldownReducedBySeconds_WithNumParam"
+            "Key": "CooldownReducedBySeconds_WithNumParam",
+            "SourceString": "冷却时间减少{0}秒",
+            "LocalizedString": "冷却时间减少{0}秒"
           },
           "Arguments": [
             {
@@ -8939,7 +9686,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "DurationIncreasedBySeconds_WithNumParam"
+            "Key": "DurationIncreasedBySeconds_WithNumParam",
+            "SourceString": "持续时间增加{0}秒",
+            "LocalizedString": "持续时间增加{0}秒"
           },
           "Arguments": [
             {
@@ -8963,7 +9712,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "Details_119_Q_1"
+            "Key": "Details_119_Q_1",
+            "SourceString": "[主动技能]炼狱牢笼的冷却时间减少<GrowthMB_DescY>{0}</>秒\r\n[技能效果说明-炼狱牢笼]在面前生成一个球形火焰牢狱，敌人穿过牢壁时受到火焰伤害，弦化状态的敌人受到的伤害更高。火焰牢狱内没有敌人时会提前结束。艾卡在火焰牢狱内时，使用主武器可对同处内部的敌人造成额外火焰伤害。消耗100热量所获增益：敌人穿过牢壁时受到的伤害更高。",
+            "LocalizedString": "[主动技能]炼狱牢笼的冷却时间减少<GrowthMB_DescY>{0}</>秒\r\n[技能效果说明-炼狱牢笼]在面前生成一个球形火焰牢狱，敌人穿过牢壁时受到火焰伤害，弦化状态的敌人受到的伤害更高。火焰牢狱内没有敌人时会提前结束。艾卡在火焰牢狱内时，使用主武器可对同处内部的敌人造成额外火焰伤害。消耗100热量所获增益：敌人穿过牢壁时受到的伤害更高。"
           },
           "Arguments": [
             {
@@ -8975,7 +9726,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "Details_119_Q_2"
+            "Key": "Details_119_Q_2",
+            "SourceString": "[主动技能]炼狱牢笼的持续时间增加<GrowthMB_DescY>{0}</>秒\r\n[技能效果说明-炼狱牢笼]在面前生成一个球形火焰牢狱，敌人穿过牢壁时受到火焰伤害，弦化状态的敌人受到的伤害更高。火焰牢狱内没有敌人时会提前结束。艾卡在火焰牢狱内时，使用主武器可对同处内部的敌人造成额外火焰伤害。消耗100热量所获增益：敌人穿过牢壁时受到的伤害更高。",
+            "LocalizedString": "[主动技能]炼狱牢笼的持续时间增加<GrowthMB_DescY>{0}</>秒\r\n[技能效果说明-炼狱牢笼]在面前生成一个球形火焰牢狱，敌人穿过牢壁时受到火焰伤害，弦化状态的敌人受到的伤害更高。火焰牢狱内没有敌人时会提前结束。艾卡在火焰牢狱内时，使用主武器可对同处内部的敌人造成额外火焰伤害。消耗100热量所获增益：敌人穿过牢壁时受到的伤害更高。"
           },
           "Arguments": [
             {
@@ -8989,7 +9742,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "DamageConversionHeat_WithNumParam"
+            "Key": "DamageConversionHeat_WithNumParam",
+            "SourceString": "伤害转化热量比例提升{0}%",
+            "LocalizedString": "伤害转化热量比例提升{0}%"
           },
           "Arguments": [
             {
@@ -9013,7 +9768,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "Details_119_P_1"
+            "Key": "Details_119_P_1",
+            "SourceString": "[被动技能]日珥蓄火的伤害转化热量比例提升<GrowthMB_DescY>{0}%</>\r\n[技能效果说明-日珥蓄火]每次射击命中敌人会积攒热量，热量值最多为100。满热时对弦化敌人造伤能力增强。满热下，其他技能可以消耗热量获得强化。",
+            "LocalizedString": "[被动技能]日珥蓄火的伤害转化热量比例提升<GrowthMB_DescY>{0}%</>\r\n[技能效果说明-日珥蓄火]每次射击命中敌人会积攒热量，热量值最多为100。满热时对弦化敌人造伤能力增强。满热下，其他技能可以消耗热量获得强化。"
           },
           "Arguments": [
             {
@@ -9038,11 +9795,15 @@
       "ShieldDesc": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "QuickReturnOfLightArmor"
+          "Key": "QuickReturnOfLightArmor",
+          "SourceString": "快回轻型护甲",
+          "LocalizedString": "快回轻型护甲"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "HeavyArmor"
+          "Key": "HeavyArmor",
+          "SourceString": "重型护甲",
+          "LocalizedString": "重型护甲"
         }
       ],
       "ShieldIcon": [
@@ -9059,7 +9820,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "StringAcceleration_WithNumParam"
+            "Key": "StringAcceleration_WithNumParam",
+            "SourceString": "弦化状态移速增加{0}%",
+            "LocalizedString": "弦化状态移速增加{0}%"
           },
           "Arguments": [
             {
@@ -9071,7 +9834,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "SetStringReductionCoefficientValue_WithNumParam"
+            "Key": "SetStringReductionCoefficientValue_WithNumParam",
+            "SourceString": "弦化减伤系数提至{0}%",
+            "LocalizedString": "弦化减伤系数提至{0}%"
           },
           "Arguments": [
             {
@@ -9188,27 +9953,39 @@
       "PartName": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_Core"
+          "Key": "Part_Core",
+          "SourceString": "核心",
+          "LocalizedString": "核心"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_CriticalHit"
+          "Key": "Part_CriticalHit",
+          "SourceString": "暴击",
+          "LocalizedString": "暴击"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_KeepFight"
+          "Key": "Part_KeepFight",
+          "SourceString": "续航",
+          "LocalizedString": "续航"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_Function"
+          "Key": "Part_Function",
+          "SourceString": "机能",
+          "LocalizedString": "机能"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_Armor"
+          "Key": "Part_Armor",
+          "SourceString": "护甲",
+          "LocalizedString": "护甲"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_String"
+          "Key": "Part_String",
+          "SourceString": "弦化",
+          "LocalizedString": "弦化"
         }
       ],
       "PartIcon": [
@@ -9415,11 +10192,15 @@
       "Part1Desc": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "BaseDamageIncreased"
+          "Key": "BaseDamageIncreased",
+          "SourceString": "基础伤害提升",
+          "LocalizedString": "基础伤害提升"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "BaseRateOfFireIncreased"
+          "Key": "BaseRateOfFireIncreased",
+          "SourceString": "基础射速提升",
+          "LocalizedString": "基础射速提升"
         },
         {
           "CultureInvariantString": null
@@ -9438,11 +10219,15 @@
       "Part2Desc": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "HeadshotDamageIncreased"
+          "Key": "HeadshotDamageIncreased",
+          "SourceString": "爆头伤害提升",
+          "LocalizedString": "爆头伤害提升"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "StringDamageIncreased"
+          "Key": "StringDamageIncreased",
+          "SourceString": "弦化伤害提升",
+          "LocalizedString": "弦化伤害提升"
         },
         {
           "CultureInvariantString": null
@@ -9461,11 +10246,15 @@
       "Part4Desc": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "IncreasedNumberOfBullets"
+          "Key": "IncreasedNumberOfBullets",
+          "SourceString": "载弹数量提升",
+          "LocalizedString": "载弹数量提升"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "ReloadSpeedIncreased"
+          "Key": "ReloadSpeedIncreased",
+          "SourceString": "换弹速度提升",
+          "LocalizedString": "换弹速度提升"
         },
         {
           "CultureInvariantString": null
@@ -9484,11 +10273,15 @@
       "Part5Desc": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "ScatterControlImprovements"
+          "Key": "ScatterControlImprovements",
+          "SourceString": "散射控制提升",
+          "LocalizedString": "散射控制提升"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "ImprovedRecoilControl"
+          "Key": "ImprovedRecoilControl",
+          "SourceString": "后坐控制提升",
+          "LocalizedString": "后坐控制提升"
         },
         {
           "CultureInvariantString": null
@@ -9508,7 +10301,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "CooldownReducedBySeconds_WithNumParam"
+            "Key": "CooldownReducedBySeconds_WithNumParam",
+            "SourceString": "冷却时间减少{0}秒",
+            "LocalizedString": "冷却时间减少{0}秒"
           },
           "Arguments": [
             {
@@ -9520,7 +10315,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "CloneAddTimeBy_WithNumParam"
+            "Key": "CloneAddTimeBy_WithNumParam",
+            "SourceString": "假身存在时间增加{0}秒",
+            "LocalizedString": "假身存在时间增加{0}秒"
           },
           "Arguments": [
             {
@@ -9544,7 +10341,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "Details_205_Q_1"
+            "Key": "Details_205_Q_1",
+            "SourceString": "[主动技能]飞牌瞬闪的冷却时间减少<GrowthMB_DescY>{0}</>秒\r\n[技能效果说明-飞牌瞬闪]加拉蒂亚释放出一张卡牌以弧线飞出，卡牌碰到地面、墙面时会生成分身，按下交互键可以传送到分身位置。",
+            "LocalizedString": "[主动技能]飞牌瞬闪的冷却时间减少<GrowthMB_DescY>{0}</>秒\r\n[技能效果说明-飞牌瞬闪]加拉蒂亚释放出一张卡牌以弧线飞出，卡牌碰到地面、墙面时会生成分身，按下交互键可以传送到分身位置。"
           },
           "Arguments": [
             {
@@ -9556,7 +10355,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "Details_205_Q_2"
+            "Key": "Details_205_Q_2",
+            "SourceString": "[主动技能]飞牌瞬闪的假身存在时间增加{0}</>秒\r\n[对应技能效果备注]加拉蒂亚释放出一张卡牌以弧线飞出，卡牌碰到地面、墙面时会生成分身，按下交互键可以传送到分身位置。",
+            "LocalizedString": "[主动技能]飞牌瞬闪的假身存在时间增加{0}</>秒\r\n[对应技能效果备注]加拉蒂亚释放出一张卡牌以弧线飞出，卡牌碰到地面、墙面时会生成分身，按下交互键可以传送到分身位置。"
           },
           "Arguments": [
             {
@@ -9570,7 +10371,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "CooldownReducedBySeconds_WithNumParam"
+            "Key": "CooldownReducedBySeconds_WithNumParam",
+            "SourceString": "冷却时间减少{0}秒",
+            "LocalizedString": "冷却时间减少{0}秒"
           },
           "Arguments": [
             {
@@ -9582,7 +10385,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "PassiveCloneAddTimeBy_WithNumParam"
+            "Key": "PassiveCloneAddTimeBy_WithNumParam",
+            "SourceString": "假身存在时间增加{0}秒",
+            "LocalizedString": "假身存在时间增加{0}秒"
           },
           "Arguments": [
             {
@@ -9606,7 +10411,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "Details_205_P_1"
+            "Key": "Details_205_P_1",
+            "SourceString": "[被动技能]欺诈牌影的触发冷却时间减少<GrowthMB_DescY>{0}</>秒\r\n[技能效果说明-欺诈牌影]当加拉蒂亚脱离墙面时，会在贴墙位置留下一个分身，每次下墙都会重新生成分身，当分身受伤时该被动进入冷却。加拉蒂亚的每一个分身在生成时都可以短暂探测周围无建筑障碍物遮挡的敌人给加拉蒂亚及全体友方，攻击分身的敌人也会被暂时暴露。",
+            "LocalizedString": "[被动技能]欺诈牌影的触发冷却时间减少<GrowthMB_DescY>{0}</>秒\r\n[技能效果说明-欺诈牌影]当加拉蒂亚脱离墙面时，会在贴墙位置留下一个分身，每次下墙都会重新生成分身，当分身受伤时该被动进入冷却。加拉蒂亚的每一个分身在生成时都可以短暂探测周围无建筑障碍物遮挡的敌人给加拉蒂亚及全体友方，攻击分身的敌人也会被暂时暴露。"
           },
           "Arguments": [
             {
@@ -9618,7 +10425,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "Details_205_P_2"
+            "Key": "Details_205_P_2",
+            "SourceString": "[被动技能]欺诈牌影触发的假身存在时间增加<GrowthMB_DescY>{0}</>秒\r\n[技能效果说明-欺诈牌影]当加拉蒂亚脱离墙面时，会在贴墙位置留下一个分身，每次下墙都会重新生成分身，当分身受伤时该被动进入冷却。加拉蒂亚的每一个分身在生成时都可以短暂探测周围无建筑障碍物遮挡的敌人给加拉蒂亚及全体友方，攻击分身的敌人也会被暂时暴露。",
+            "LocalizedString": "[被动技能]欺诈牌影触发的假身存在时间增加<GrowthMB_DescY>{0}</>秒\r\n[技能效果说明-欺诈牌影]当加拉蒂亚脱离墙面时，会在贴墙位置留下一个分身，每次下墙都会重新生成分身，当分身受伤时该被动进入冷却。加拉蒂亚的每一个分身在生成时都可以短暂探测周围无建筑障碍物遮挡的敌人给加拉蒂亚及全体友方，攻击分身的敌人也会被暂时暴露。"
           },
           "Arguments": [
             {
@@ -9643,11 +10452,15 @@
       "ShieldDesc": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "QuickReturnOfLightArmor"
+          "Key": "QuickReturnOfLightArmor",
+          "SourceString": "快回轻型护甲",
+          "LocalizedString": "快回轻型护甲"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "HeavyArmor"
+          "Key": "HeavyArmor",
+          "SourceString": "重型护甲",
+          "LocalizedString": "重型护甲"
         }
       ],
       "ShieldIcon": [
@@ -9664,7 +10477,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "StringAcceleration_WithNumParam"
+            "Key": "StringAcceleration_WithNumParam",
+            "SourceString": "弦化状态移速增加{0}%",
+            "LocalizedString": "弦化状态移速增加{0}%"
           },
           "Arguments": [
             {
@@ -9676,7 +10491,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "SetStringReductionCoefficientValue_WithNumParam"
+            "Key": "SetStringReductionCoefficientValue_WithNumParam",
+            "SourceString": "弦化减伤系数提至{0}%",
+            "LocalizedString": "弦化减伤系数提至{0}%"
           },
           "Arguments": [
             {
@@ -9793,27 +10610,39 @@
       "PartName": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_Output"
+          "Key": "Part_Output",
+          "SourceString": "输出",
+          "LocalizedString": "输出"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_CriticalHit"
+          "Key": "Part_CriticalHit",
+          "SourceString": "暴击",
+          "LocalizedString": "暴击"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_KeepFight"
+          "Key": "Part_KeepFight",
+          "SourceString": "续航",
+          "LocalizedString": "续航"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_Accurate"
+          "Key": "Part_Accurate",
+          "SourceString": "精准",
+          "LocalizedString": "精准"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_Armor"
+          "Key": "Part_Armor",
+          "SourceString": "护甲",
+          "LocalizedString": "护甲"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_String"
+          "Key": "Part_String",
+          "SourceString": "弦化",
+          "LocalizedString": "弦化"
         }
       ],
       "PartIcon": [
@@ -10020,11 +10849,15 @@
       "Part1Desc": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "MaximumRunningSpeedIncreased"
+          "Key": "MaximumRunningSpeedIncreased",
+          "SourceString": "移动速度提升",
+          "LocalizedString": "移动速度提升"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "EffectiveRangeIncreased"
+          "Key": "EffectiveRangeIncreased",
+          "SourceString": "有效射程提升",
+          "LocalizedString": "有效射程提升"
         },
         {
           "CultureInvariantString": null
@@ -10043,11 +10876,15 @@
       "Part2Desc": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "HeadshotDamageIncreased"
+          "Key": "HeadshotDamageIncreased",
+          "SourceString": "爆头伤害提升",
+          "LocalizedString": "爆头伤害提升"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "StringDamageIncreased"
+          "Key": "StringDamageIncreased",
+          "SourceString": "弦化伤害提升",
+          "LocalizedString": "弦化伤害提升"
         },
         {
           "CultureInvariantString": null
@@ -10066,11 +10903,15 @@
       "Part4Desc": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "IncreasedNumberOfBullets"
+          "Key": "IncreasedNumberOfBullets",
+          "SourceString": "载弹数量提升",
+          "LocalizedString": "载弹数量提升"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "ReloadSpeedIncreased"
+          "Key": "ReloadSpeedIncreased",
+          "SourceString": "换弹速度提升",
+          "LocalizedString": "换弹速度提升"
         },
         {
           "CultureInvariantString": null
@@ -10089,11 +10930,15 @@
       "Part5Desc": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "IncreasedCameraOpeningSpeed"
+          "Key": "IncreasedCameraOpeningSpeed",
+          "SourceString": "开镜速度提升",
+          "LocalizedString": "开镜速度提升"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "ScatterControlImprovements"
+          "Key": "ScatterControlImprovements",
+          "SourceString": "散射控制提升",
+          "LocalizedString": "散射控制提升"
         },
         {
           "CultureInvariantString": null
@@ -10113,7 +10958,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "ScopeExpanded_WithNumParam"
+            "Key": "ScopeExpanded_WithNumParam",
+            "SourceString": "效果范围扩大{0}%",
+            "LocalizedString": "效果范围扩大{0}%"
           },
           "Arguments": [
             {
@@ -10125,7 +10972,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "DurationIncreasedBySeconds_WithNumParam"
+            "Key": "DurationIncreasedBySeconds_WithNumParam",
+            "SourceString": "持续时间增加{0}秒",
+            "LocalizedString": "持续时间增加{0}秒"
           },
           "Arguments": [
             {
@@ -10149,7 +10998,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "Details_120_Q_1"
+            "Key": "Details_120_Q_1",
+            "SourceString": "[主动技能]活力芬芳的效果范围扩大<GrowthMB_DescY>{0}</>%\r\n[技能效果说明-活力芬芳]珐格兰丝可以释放两种有限数量的香水。释放后会以自己为中心创造香氛区域，区域内己方会获得射速或移速提升，香氛效果会随着时间推移逐渐减弱，最终消失。",
+            "LocalizedString": "[主动技能]活力芬芳的效果范围扩大<GrowthMB_DescY>{0}</>%\r\n[技能效果说明-活力芬芳]珐格兰丝可以释放两种有限数量的香水。释放后会以自己为中心创造香氛区域，区域内己方会获得射速或移速提升，香氛效果会随着时间推移逐渐减弱，最终消失。"
           },
           "Arguments": [
             {
@@ -10161,7 +11012,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "Details_120_Q_2"
+            "Key": "Details_120_Q_2",
+            "SourceString": "[主动技能]活力芬芳的持续时间增加<GrowthMB_DescY>{0}</>秒\r\n[技能效果说明-活力芬芳]珐格兰丝可以释放两种有限数量的香水。释放后会以自己为中心创造香氛区域，区域内己方会获得射速或移速提升，香氛效果会随着时间推移逐渐减弱，最终消失。",
+            "LocalizedString": "[主动技能]活力芬芳的持续时间增加<GrowthMB_DescY>{0}</>秒\r\n[技能效果说明-活力芬芳]珐格兰丝可以释放两种有限数量的香水。释放后会以自己为中心创造香氛区域，区域内己方会获得射速或移速提升，香氛效果会随着时间推移逐渐减弱，最终消失。"
           },
           "Arguments": [
             {
@@ -10175,7 +11028,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "ScopeExpanded_WithNumParam_Details_P"
+            "Key": "ScopeExpanded_WithNumParam_Details_P",
+            "SourceString": null,
+            "LocalizedString": null
           },
           "Arguments": [
             {
@@ -10187,7 +11042,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "HealingRecoveryAmountPerSecIncreasedBy_WithNumParam_Details_P"
+            "Key": "HealingRecoveryAmountPerSecIncreasedBy_WithNumParam_Details_P",
+            "SourceString": null,
+            "LocalizedString": null
           },
           "Arguments": [
             {
@@ -10211,7 +11068,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "Details_120_P_1"
+            "Key": "Details_120_P_1",
+            "SourceString": "[被动技能]复苏芳香的效果范围扩大<GrowthMB_DescY>{0}%</>\r\n[技能效果说明-复苏芳香]珐格兰丝会散发淡淡的恢复香氛，附近的队友和自己都会缓慢恢复生命值。",
+            "LocalizedString": "[被动技能]复苏芳香的效果范围扩大<GrowthMB_DescY>{0}%</>\r\n[技能效果说明-复苏芳香]珐格兰丝会散发淡淡的恢复香氛，附近的队友和自己都会缓慢恢复生命值。"
           },
           "Arguments": [
             {
@@ -10223,7 +11082,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "Details_120_P_2"
+            "Key": "Details_120_P_2",
+            "SourceString": "[被动技能]复苏芳香的每秒生命恢复量增加<GrowthMB_DescY>{0}</>点\r\n[技能效果说明-复苏芳香]珐格兰丝会散发淡淡的恢复香氛，附近的队友和自己都会缓慢恢复生命值。",
+            "LocalizedString": "[被动技能]复苏芳香的每秒生命恢复量增加<GrowthMB_DescY>{0}</>点\r\n[技能效果说明-复苏芳香]珐格兰丝会散发淡淡的恢复香氛，附近的队友和自己都会缓慢恢复生命值。"
           },
           "Arguments": [
             {
@@ -10248,11 +11109,15 @@
       "ShieldDesc": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "QuickReturnOfLightArmor"
+          "Key": "QuickReturnOfLightArmor",
+          "SourceString": "快回轻型护甲",
+          "LocalizedString": "快回轻型护甲"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "HeavyArmor"
+          "Key": "HeavyArmor",
+          "SourceString": "重型护甲",
+          "LocalizedString": "重型护甲"
         }
       ],
       "ShieldIcon": [
@@ -10269,7 +11134,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "StringAcceleration_WithNumParam"
+            "Key": "StringAcceleration_WithNumParam",
+            "SourceString": "弦化状态移速增加{0}%",
+            "LocalizedString": "弦化状态移速增加{0}%"
           },
           "Arguments": [
             {
@@ -10281,7 +11148,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "SetStringReductionCoefficientValue_WithNumParam"
+            "Key": "SetStringReductionCoefficientValue_WithNumParam",
+            "SourceString": "弦化减伤系数提至{0}%",
+            "LocalizedString": "弦化减伤系数提至{0}%"
           },
           "Arguments": [
             {
@@ -10398,27 +11267,39 @@
       "PartName": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_Function"
+          "Key": "Part_Function",
+          "SourceString": "机能",
+          "LocalizedString": "机能"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_CriticalHit"
+          "Key": "Part_CriticalHit",
+          "SourceString": "暴击",
+          "LocalizedString": "暴击"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_KeepFight"
+          "Key": "Part_KeepFight",
+          "SourceString": "续航",
+          "LocalizedString": "续航"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_Accurate"
+          "Key": "Part_Accurate",
+          "SourceString": "精准",
+          "LocalizedString": "精准"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_Armor"
+          "Key": "Part_Armor",
+          "SourceString": "护甲",
+          "LocalizedString": "护甲"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_String"
+          "Key": "Part_String",
+          "SourceString": "弦化",
+          "LocalizedString": "弦化"
         }
       ],
       "PartIcon": [
@@ -10623,11 +11504,15 @@
       "Part1Desc": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "ReloadSpeedIncreased"
+          "Key": "ReloadSpeedIncreased",
+          "SourceString": "换弹速度提升",
+          "LocalizedString": "换弹速度提升"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "IncreasedNumberOfBullets"
+          "Key": "IncreasedNumberOfBullets",
+          "SourceString": "载弹数量提升",
+          "LocalizedString": "载弹数量提升"
         },
         {
           "CultureInvariantString": null
@@ -10646,11 +11531,15 @@
       "Part2Desc": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "HeadshotDamageIncreased"
+          "Key": "HeadshotDamageIncreased",
+          "SourceString": "爆头伤害提升",
+          "LocalizedString": "爆头伤害提升"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "StringDamageIncreased"
+          "Key": "StringDamageIncreased",
+          "SourceString": "弦化伤害提升",
+          "LocalizedString": "弦化伤害提升"
         },
         {
           "CultureInvariantString": null
@@ -10669,11 +11558,15 @@
       "Part4Desc": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "ScatterControlImprovements"
+          "Key": "ScatterControlImprovements",
+          "SourceString": "散射控制提升",
+          "LocalizedString": "散射控制提升"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "IncreasedCameraOpeningSpeed"
+          "Key": "IncreasedCameraOpeningSpeed",
+          "SourceString": "开镜速度提升",
+          "LocalizedString": "开镜速度提升"
         },
         {
           "CultureInvariantString": null
@@ -10692,11 +11585,15 @@
       "Part5Desc": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "MaximumRunningSpeedIncreased"
+          "Key": "MaximumRunningSpeedIncreased",
+          "SourceString": "移动速度提升",
+          "LocalizedString": "移动速度提升"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "ImprovedRecoilControl"
+          "Key": "ImprovedRecoilControl",
+          "SourceString": "后坐控制提升",
+          "LocalizedString": "后坐控制提升"
         },
         {
           "CultureInvariantString": null
@@ -10716,7 +11613,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "CooldownReducedBySeconds_WithNumParam"
+            "Key": "CooldownReducedBySeconds_WithNumParam",
+            "SourceString": "冷却时间减少{0}秒",
+            "LocalizedString": "冷却时间减少{0}秒"
           },
           "Arguments": [
             {
@@ -10728,7 +11627,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "ReduceEnergyConsumption_WithNumParam"
+            "Key": "ReduceEnergyConsumption_WithNumParam",
+            "SourceString": "减少能量消耗{0}%",
+            "LocalizedString": "减少能量消耗{0}%"
           },
           "Arguments": [
             {
@@ -10752,7 +11653,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "Details_121_Q_1"
+            "Key": "Details_121_Q_1",
+            "SourceString": "[主动技能]蚀甲毒雾的冷却时间减少<GrowthMB_DescY>{0}</>秒\r\n[技能效果说明-蚀甲毒雾]忧雾布置一个蜗牛装置，激活后可产生球形毒雾，临时腐蚀附近敌方角色的护甲上限。蜗牛装置最多同时存在3个。",
+            "LocalizedString": "[主动技能]蚀甲毒雾的冷却时间减少<GrowthMB_DescY>{0}</>秒\r\n[技能效果说明-蚀甲毒雾]忧雾布置一个蜗牛装置，激活后可产生球形毒雾，临时腐蚀附近敌方角色的护甲上限。蜗牛装置最多同时存在3个。"
           },
           "Arguments": [
             {
@@ -10764,7 +11667,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "Details_121_Q_2"
+            "Key": "Details_121_Q_2",
+            "SourceString": "[主动技能]蚀甲毒雾的减少能量消耗<GrowthMB_DescY>{0}</>%\r\n[技能效果说明-蚀甲毒雾]忧雾布置一个蜗牛装置，激活后可产生球形毒雾，临时腐蚀附近敌方角色的护甲上限。蜗牛装置最多同时存在3个。",
+            "LocalizedString": "[主动技能]蚀甲毒雾的减少能量消耗<GrowthMB_DescY>{0}</>%\r\n[技能效果说明-蚀甲毒雾]忧雾布置一个蜗牛装置，激活后可产生球形毒雾，临时腐蚀附近敌方角色的护甲上限。蜗牛装置最多同时存在3个。"
           },
           "Arguments": [
             {
@@ -10778,7 +11683,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "ReduceTriggerDamage"
+            "Key": "ReduceTriggerDamage",
+            "SourceString": "减少触发所需伤害",
+            "LocalizedString": "减少触发所需伤害"
           },
           "Arguments": []
         }
@@ -10797,7 +11704,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "Details_121_P_1"
+            "Key": "Details_121_P_1",
+            "SourceString": "[被动技能]毒雾爆发的触发<GrowthMB_DescY>所需伤害</>减小\r\n[技能效果说明-毒雾爆发]忧雾使用主武器对敌方角色的生命值造成一定量伤害后，会引爆敌人体内的腐蚀性毒素，临时腐蚀附近敌方角色的护甲上限。",
+            "LocalizedString": "[被动技能]毒雾爆发的触发<GrowthMB_DescY>所需伤害</>减小\r\n[技能效果说明-毒雾爆发]忧雾使用主武器对敌方角色的生命值造成一定量伤害后，会引爆敌人体内的腐蚀性毒素，临时腐蚀附近敌方角色的护甲上限。"
           },
           "Arguments": []
         }
@@ -10817,11 +11726,15 @@
       "ShieldDesc": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "QuickReturnOfLightArmor"
+          "Key": "QuickReturnOfLightArmor",
+          "SourceString": "快回轻型护甲",
+          "LocalizedString": "快回轻型护甲"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "HeavyArmor"
+          "Key": "HeavyArmor",
+          "SourceString": "重型护甲",
+          "LocalizedString": "重型护甲"
         }
       ],
       "ShieldIcon": [
@@ -10838,7 +11751,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "StringAcceleration_WithNumParam"
+            "Key": "StringAcceleration_WithNumParam",
+            "SourceString": "弦化状态移速增加{0}%",
+            "LocalizedString": "弦化状态移速增加{0}%"
           },
           "Arguments": [
             {
@@ -10850,7 +11765,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "SetStringReductionCoefficientValue_WithNumParam"
+            "Key": "SetStringReductionCoefficientValue_WithNumParam",
+            "SourceString": "弦化减伤系数提至{0}%",
+            "LocalizedString": "弦化减伤系数提至{0}%"
           },
           "Arguments": [
             {
@@ -10967,27 +11884,39 @@
       "PartName": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_KeepFight"
+          "Key": "Part_KeepFight",
+          "SourceString": "续航",
+          "LocalizedString": "续航"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_CriticalHit"
+          "Key": "Part_CriticalHit",
+          "SourceString": "暴击",
+          "LocalizedString": "暴击"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_Accurate"
+          "Key": "Part_Accurate",
+          "SourceString": "精准",
+          "LocalizedString": "精准"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_Function"
+          "Key": "Part_Function",
+          "SourceString": "机能",
+          "LocalizedString": "机能"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_Armor"
+          "Key": "Part_Armor",
+          "SourceString": "护甲",
+          "LocalizedString": "护甲"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_String"
+          "Key": "Part_String",
+          "SourceString": "弦化",
+          "LocalizedString": "弦化"
         }
       ],
       "PartIcon": [
@@ -11192,11 +12121,15 @@
       "Part1Desc": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "BaseDamageIncreased"
+          "Key": "BaseDamageIncreased",
+          "SourceString": "基础伤害提升",
+          "LocalizedString": "基础伤害提升"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "BaseRateOfFireIncreased"
+          "Key": "BaseRateOfFireIncreased",
+          "SourceString": "基础射速提升",
+          "LocalizedString": "基础射速提升"
         },
         {
           "CultureInvariantString": null
@@ -11215,11 +12148,15 @@
       "Part2Desc": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "HeadshotDamageIncreased"
+          "Key": "HeadshotDamageIncreased",
+          "SourceString": "爆头伤害提升",
+          "LocalizedString": "爆头伤害提升"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "StringDamageIncreased"
+          "Key": "StringDamageIncreased",
+          "SourceString": "弦化伤害提升",
+          "LocalizedString": "弦化伤害提升"
         },
         {
           "CultureInvariantString": null
@@ -11238,11 +12175,15 @@
       "Part4Desc": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "IncreasedNumberOfBullets"
+          "Key": "IncreasedNumberOfBullets",
+          "SourceString": "载弹数量提升",
+          "LocalizedString": "载弹数量提升"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "ReloadSpeedIncreased"
+          "Key": "ReloadSpeedIncreased",
+          "SourceString": "换弹速度提升",
+          "LocalizedString": "换弹速度提升"
         },
         {
           "CultureInvariantString": null
@@ -11261,11 +12202,15 @@
       "Part5Desc": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "IncreasedCameraOpeningSpeed"
+          "Key": "IncreasedCameraOpeningSpeed",
+          "SourceString": "开镜速度提升",
+          "LocalizedString": "开镜速度提升"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "ScatterControlImprovements"
+          "Key": "ScatterControlImprovements",
+          "SourceString": "散射控制提升",
+          "LocalizedString": "散射控制提升"
         },
         {
           "CultureInvariantString": null
@@ -11285,7 +12230,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "BlockBloodIncreasedBy_WithNumParam"
+            "Key": "BlockBloodIncreasedBy_WithNumParam",
+            "SourceString": "方块生命值提升{0}点",
+            "LocalizedString": "方块生命值提升{0}点"
           },
           "Arguments": [
             {
@@ -11297,7 +12244,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "ReduceEnergyConsumption_WithNumParam"
+            "Key": "ReduceEnergyConsumption_WithNumParam",
+            "SourceString": "减少能量消耗{0}%",
+            "LocalizedString": "减少能量消耗{0}%"
           },
           "Arguments": [
             {
@@ -11321,7 +12270,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "Details_123_Q_1"
+            "Key": "Details_123_Q_1",
+            "SourceString": "[主动技能]弦能掩墙的方块生命值提升<GrowthMB_DescY>{0}</>点\r\n[技能效果说明-弦能掩墙]蕾欧娜可以在指定平地或斜坡生成两种角度的正方形建筑块。方块生成会消耗技能点数及弦能条。方块最多同时存在16个。",
+            "LocalizedString": "[主动技能]弦能掩墙的方块生命值提升<GrowthMB_DescY>{0}</>点\r\n[技能效果说明-弦能掩墙]蕾欧娜可以在指定平地或斜坡生成两种角度的正方形建筑块。方块生成会消耗技能点数及弦能条。方块最多同时存在16个。"
           },
           "Arguments": [
             {
@@ -11333,7 +12284,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "Details_123_Q_2"
+            "Key": "Details_123_Q_2",
+            "SourceString": null,
+            "LocalizedString": null
           },
           "Arguments": [
             {
@@ -11347,7 +12300,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "MoveSpeedAndArmorRecoveryIncreasedBy_WithNumParam"
+            "Key": "MoveSpeedAndArmorRecoveryIncreasedBy_WithNumParam",
+            "SourceString": "加速与恢复效果提升{0}%",
+            "LocalizedString": "加速与恢复效果提升{0}%"
           },
           "Arguments": [
             {
@@ -11371,7 +12326,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "Details_123_P_1"
+            "Key": "Details_123_P_1",
+            "SourceString": "[被动技能]劳逸结合的加速与恢复效果提升<GrowthMB_DescY>{0}%</>\r\n[技能效果说明-劳逸结合蕾欧娜在弦化状态会持续恢复弦能，当弦能高于50%时，提高自身移动速度；低于50%时，逐渐恢复自身护甲。",
+            "LocalizedString": "[被动技能]劳逸结合的加速与恢复效果提升<GrowthMB_DescY>{0}%</>\r\n[技能效果说明-劳逸结合蕾欧娜在弦化状态会持续恢复弦能，当弦能高于50%时，提高自身移动速度；低于50%时，逐渐恢复自身护甲。"
           },
           "Arguments": [
             {
@@ -11396,11 +12353,15 @@
       "ShieldDesc": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "QuickReturnOfLightArmor"
+          "Key": "QuickReturnOfLightArmor",
+          "SourceString": "快回轻型护甲",
+          "LocalizedString": "快回轻型护甲"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "HeavyArmor"
+          "Key": "HeavyArmor",
+          "SourceString": "重型护甲",
+          "LocalizedString": "重型护甲"
         }
       ],
       "ShieldIcon": [
@@ -11417,7 +12378,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "StringAcceleration_WithNumParam"
+            "Key": "StringAcceleration_WithNumParam",
+            "SourceString": "弦化状态移速增加{0}%",
+            "LocalizedString": "弦化状态移速增加{0}%"
           },
           "Arguments": [
             {
@@ -11429,7 +12392,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "SetStringReductionCoefficientValue_WithNumParam"
+            "Key": "SetStringReductionCoefficientValue_WithNumParam",
+            "SourceString": "弦化减伤系数提至{0}%",
+            "LocalizedString": "弦化减伤系数提至{0}%"
           },
           "Arguments": [
             {
@@ -11546,27 +12511,39 @@
       "PartName": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_Output"
+          "Key": "Part_Output",
+          "SourceString": "输出",
+          "LocalizedString": "输出"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_CriticalHit"
+          "Key": "Part_CriticalHit",
+          "SourceString": "暴击",
+          "LocalizedString": "暴击"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_KeepFight"
+          "Key": "Part_KeepFight",
+          "SourceString": "续航",
+          "LocalizedString": "续航"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_Accurate"
+          "Key": "Part_Accurate",
+          "SourceString": "精准",
+          "LocalizedString": "精准"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_Armor"
+          "Key": "Part_Armor",
+          "SourceString": "护甲",
+          "LocalizedString": "护甲"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_String"
+          "Key": "Part_String",
+          "SourceString": "弦化",
+          "LocalizedString": "弦化"
         }
       ],
       "PartIcon": [
@@ -11771,11 +12748,15 @@
       "Part1Desc": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "BaseDamageIncreased"
+          "Key": "BaseDamageIncreased",
+          "SourceString": "基础伤害提升",
+          "LocalizedString": "基础伤害提升"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "BaseRateOfFireIncreased"
+          "Key": "BaseRateOfFireIncreased",
+          "SourceString": "基础射速提升",
+          "LocalizedString": "基础射速提升"
         },
         {
           "CultureInvariantString": null
@@ -11794,11 +12775,15 @@
       "Part2Desc": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "HeadshotDamageIncreased"
+          "Key": "HeadshotDamageIncreased",
+          "SourceString": "爆头伤害提升",
+          "LocalizedString": "爆头伤害提升"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "StringDamageIncreased"
+          "Key": "StringDamageIncreased",
+          "SourceString": "弦化伤害提升",
+          "LocalizedString": "弦化伤害提升"
         },
         {
           "CultureInvariantString": null
@@ -11817,11 +12802,15 @@
       "Part4Desc": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "IncreasedNumberOfBullets"
+          "Key": "IncreasedNumberOfBullets",
+          "SourceString": "载弹数量提升",
+          "LocalizedString": "载弹数量提升"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "ReloadSpeedIncreased"
+          "Key": "ReloadSpeedIncreased",
+          "SourceString": "换弹速度提升",
+          "LocalizedString": "换弹速度提升"
         },
         {
           "CultureInvariantString": null
@@ -11840,11 +12829,15 @@
       "Part5Desc": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "ScatterControlImprovements"
+          "Key": "ScatterControlImprovements",
+          "SourceString": "散射控制提升",
+          "LocalizedString": "散射控制提升"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "ImprovedRecoilControl"
+          "Key": "ImprovedRecoilControl",
+          "SourceString": "后坐控制提升",
+          "LocalizedString": "后坐控制提升"
         },
         {
           "CultureInvariantString": null
@@ -11864,7 +12857,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "CooldownReducedBySeconds_WithNumParam"
+            "Key": "CooldownReducedBySeconds_WithNumParam",
+            "SourceString": "冷却时间减少{0}秒",
+            "LocalizedString": "冷却时间减少{0}秒"
           },
           "Arguments": [
             {
@@ -11876,7 +12871,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "DurationIncreasedBySeconds_WithNumParam"
+            "Key": "DurationIncreasedBySeconds_WithNumParam",
+            "SourceString": "持续时间增加{0}秒",
+            "LocalizedString": "持续时间增加{0}秒"
           },
           "Arguments": [
             {
@@ -11901,7 +12898,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "AbsorbArmor_WithNumParam"
+            "Key": "AbsorbArmor_WithNumParam",
+            "SourceString": "吸甲量提升{0}%",
+            "LocalizedString": "吸甲量提升{0}%"
           },
           "Arguments": [
             {
@@ -11937,11 +12936,15 @@
       "ShieldDesc": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "QuickReturnOfLightArmor"
+          "Key": "QuickReturnOfLightArmor",
+          "SourceString": "快回轻型护甲",
+          "LocalizedString": "快回轻型护甲"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "HeavyArmor"
+          "Key": "HeavyArmor",
+          "SourceString": "重型护甲",
+          "LocalizedString": "重型护甲"
         }
       ],
       "ShieldIcon": [
@@ -11958,7 +12961,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "StringAcceleration_WithNumParam"
+            "Key": "StringAcceleration_WithNumParam",
+            "SourceString": "弦化状态移速增加{0}%",
+            "LocalizedString": "弦化状态移速增加{0}%"
           },
           "Arguments": [
             {
@@ -11970,7 +12975,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "SetStringReductionCoefficientValue_WithNumParam"
+            "Key": "SetStringReductionCoefficientValue_WithNumParam",
+            "SourceString": "弦化减伤系数提至{0}%",
+            "LocalizedString": "弦化减伤系数提至{0}%"
           },
           "Arguments": [
             {
@@ -12087,27 +13094,39 @@
       "PartName": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_Output"
+          "Key": "Part_Output",
+          "SourceString": "输出",
+          "LocalizedString": "输出"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_CriticalHit"
+          "Key": "Part_CriticalHit",
+          "SourceString": "暴击",
+          "LocalizedString": "暴击"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_KeepFight"
+          "Key": "Part_KeepFight",
+          "SourceString": "续航",
+          "LocalizedString": "续航"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_Accurate"
+          "Key": "Part_Accurate",
+          "SourceString": "精准",
+          "LocalizedString": "精准"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_Armor"
+          "Key": "Part_Armor",
+          "SourceString": "护甲",
+          "LocalizedString": "护甲"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_String"
+          "Key": "Part_String",
+          "SourceString": "弦化",
+          "LocalizedString": "弦化"
         }
       ],
       "PartIcon": [
@@ -12312,11 +13331,15 @@
       "Part1Desc": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "BaseDamageIncreased"
+          "Key": "BaseDamageIncreased",
+          "SourceString": "基础伤害提升",
+          "LocalizedString": "基础伤害提升"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "BaseRateOfFireIncreased"
+          "Key": "BaseRateOfFireIncreased",
+          "SourceString": "基础射速提升",
+          "LocalizedString": "基础射速提升"
         },
         {
           "CultureInvariantString": null
@@ -12335,11 +13358,15 @@
       "Part2Desc": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "HeadshotDamageIncreased"
+          "Key": "HeadshotDamageIncreased",
+          "SourceString": "爆头伤害提升",
+          "LocalizedString": "爆头伤害提升"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "StringDamageIncreased"
+          "Key": "StringDamageIncreased",
+          "SourceString": "弦化伤害提升",
+          "LocalizedString": "弦化伤害提升"
         },
         {
           "CultureInvariantString": null
@@ -12358,11 +13385,15 @@
       "Part4Desc": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "IncreasedNumberOfBullets"
+          "Key": "IncreasedNumberOfBullets",
+          "SourceString": "载弹数量提升",
+          "LocalizedString": "载弹数量提升"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "ReloadSpeedIncreased"
+          "Key": "ReloadSpeedIncreased",
+          "SourceString": "换弹速度提升",
+          "LocalizedString": "换弹速度提升"
         },
         {
           "CultureInvariantString": null
@@ -12381,11 +13412,15 @@
       "Part5Desc": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "ScatterControlImprovements"
+          "Key": "ScatterControlImprovements",
+          "SourceString": "散射控制提升",
+          "LocalizedString": "散射控制提升"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "ImprovedRecoilControl"
+          "Key": "ImprovedRecoilControl",
+          "SourceString": "后坐控制提升",
+          "LocalizedString": "后坐控制提升"
         },
         {
           "CultureInvariantString": null
@@ -12405,7 +13440,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "CooldownReducedBySeconds_WithNumParam"
+            "Key": "CooldownReducedBySeconds_WithNumParam",
+            "SourceString": "冷却时间减少{0}秒",
+            "LocalizedString": "冷却时间减少{0}秒"
           },
           "Arguments": [
             {
@@ -12417,7 +13454,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "DurationIncreasedBySeconds_WithNumParam"
+            "Key": "DurationIncreasedBySeconds_WithNumParam",
+            "SourceString": "持续时间增加{0}秒",
+            "LocalizedString": "持续时间增加{0}秒"
           },
           "Arguments": [
             {
@@ -12442,7 +13481,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "AbsorbArmor_WithNumParam"
+            "Key": "AbsorbArmor_WithNumParam",
+            "SourceString": "吸甲量提升{0}%",
+            "LocalizedString": "吸甲量提升{0}%"
           },
           "Arguments": [
             {
@@ -12478,11 +13519,15 @@
       "ShieldDesc": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "QuickReturnOfLightArmor"
+          "Key": "QuickReturnOfLightArmor",
+          "SourceString": "快回轻型护甲",
+          "LocalizedString": "快回轻型护甲"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "HeavyArmor"
+          "Key": "HeavyArmor",
+          "SourceString": "重型护甲",
+          "LocalizedString": "重型护甲"
         }
       ],
       "ShieldIcon": [
@@ -12499,7 +13544,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "StringAcceleration_WithNumParam"
+            "Key": "StringAcceleration_WithNumParam",
+            "SourceString": "弦化状态移速增加{0}%",
+            "LocalizedString": "弦化状态移速增加{0}%"
           },
           "Arguments": [
             {
@@ -12511,7 +13558,9 @@
         {
           "SourceFmt": {
             "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-            "Key": "SetStringReductionCoefficientValue_WithNumParam"
+            "Key": "SetStringReductionCoefficientValue_WithNumParam",
+            "SourceString": "弦化减伤系数提至{0}%",
+            "LocalizedString": "弦化减伤系数提至{0}%"
           },
           "Arguments": [
             {
@@ -12628,27 +13677,39 @@
       "PartName": [
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_Output"
+          "Key": "Part_Output",
+          "SourceString": "输出",
+          "LocalizedString": "输出"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_CriticalHit"
+          "Key": "Part_CriticalHit",
+          "SourceString": "暴击",
+          "LocalizedString": "暴击"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_KeepFight"
+          "Key": "Part_KeepFight",
+          "SourceString": "续航",
+          "LocalizedString": "续航"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_Accurate"
+          "Key": "Part_Accurate",
+          "SourceString": "精准",
+          "LocalizedString": "精准"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_Armor"
+          "Key": "Part_Armor",
+          "SourceString": "护甲",
+          "LocalizedString": "护甲"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
-          "Key": "Part_String"
+          "Key": "Part_String",
+          "SourceString": "弦化",
+          "LocalizedString": "弦化"
         }
       ],
       "PartIcon": [
