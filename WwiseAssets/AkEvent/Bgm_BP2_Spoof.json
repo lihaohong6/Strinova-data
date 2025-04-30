@@ -2,10 +2,55 @@
   "Type": "AkAudioEvent",
   "Name": "Bgm_BP2_Spoof",
   "Class": "UScriptClass'AkAudioEvent'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
   "Properties": {
     "RequiredBank": {
       "ObjectName": "AkAudioBank'BGM_BP2'",
       "ObjectPath": "PM/Content/WwiseAssets/AkBank/BGM_BP2.0"
     }
-  }
+  },
+  "EventCookedData": {
+    "EventLanguageMap": [
+      {
+        "Key": {
+          "LanguageId": 0,
+          "LanguageName": "SFX",
+          "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
+        },
+        "Value": {
+          "EventId": 1361263930,
+          "SoundBanks": [
+            {
+              "SoundBankId": 2110546824,
+              "SoundBankPathName": "BGM_BP2.bnk",
+              "MemoryAlignment": 16,
+              "bDeviceMemory": false,
+              "bContainsMedia": false,
+              "SoundBankType": "EWwiseSoundBankType::User",
+              "DebugName": "BGM_BP2"
+            }
+          ],
+          "Media": [],
+          "ExternalSources": [],
+          "SwitchContainerLeaves": [],
+          "RequiredGroupValueSet": [
+            {
+              "Type": "EWwiseGroupType::State",
+              "GroupId": 1195509938,
+              "Id": 1361263930,
+              "DebugName": "Bgm_BP2_Spoof"
+            }
+          ],
+          "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
+          "DebugName": "Bgm_BP2_Spoof"
+        }
+      }
+    ],
+    "DebugName": "Bgm_BP2_Spoof",
+    "EventId": 1361263930
+  },
+  "MaximumDuration": 0.0,
+  "MinimumDuration": 0.0,
+  "IsInfinite": false,
+  "MaxAttenuationRadius": 0.0
 }

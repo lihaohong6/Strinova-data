@@ -2,6 +2,7 @@
   "Type": "AkAudioEvent",
   "Name": "Ui_StartBattle",
   "Class": "UScriptClass'AkAudioEvent'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
   "Properties": {
     "MinimumDuration": 2.0970068,
     "MaximumDuration": 2.0970068,
@@ -9,5 +10,42 @@
       "ObjectName": "AkAudioBank'UI_OutGame_Common'",
       "ObjectPath": "PM/Content/WwiseAssets/AkBank/UI_OutGame_Common.0"
     }
-  }
+  },
+  "EventCookedData": {
+    "EventLanguageMap": [
+      {
+        "Key": {
+          "LanguageId": 0,
+          "LanguageName": "SFX",
+          "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
+        },
+        "Value": {
+          "EventId": 636080204,
+          "SoundBanks": [
+            {
+              "SoundBankId": -244319788,
+              "SoundBankPathName": "UI_OutGame_Common.bnk",
+              "MemoryAlignment": 16,
+              "bDeviceMemory": false,
+              "bContainsMedia": true,
+              "SoundBankType": "EWwiseSoundBankType::User",
+              "DebugName": "UI_OutGame_Common"
+            }
+          ],
+          "Media": [],
+          "ExternalSources": [],
+          "SwitchContainerLeaves": [],
+          "RequiredGroupValueSet": [],
+          "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
+          "DebugName": "Ui_StartBattle"
+        }
+      }
+    ],
+    "DebugName": "Ui_StartBattle",
+    "EventId": 636080204
+  },
+  "MaximumDuration": 2.0970068,
+  "MinimumDuration": 2.0970068,
+  "IsInfinite": false,
+  "MaxAttenuationRadius": 0.0
 }

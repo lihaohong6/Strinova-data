@@ -2,6 +2,7 @@
   "Type": "AkAudioEvent",
   "Name": "Bgm_Event_ClassicalConcert_Sax",
   "Class": "UScriptClass'AkAudioEvent'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
   "Properties": {
     "MinimumDuration": 20.000023,
     "MaximumDuration": 20.000023,
@@ -9,5 +10,52 @@
       "ObjectName": "AkAudioBank'BGM_Event_ClassicalConcert'",
       "ObjectPath": "PM/Content/WwiseAssets/AkBank/BGM_Event_ClassicalConcert.0"
     }
-  }
+  },
+  "EventCookedData": {
+    "EventLanguageMap": [
+      {
+        "Key": {
+          "LanguageId": 0,
+          "LanguageName": "SFX",
+          "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
+        },
+        "Value": {
+          "EventId": 1694966909,
+          "SoundBanks": [
+            {
+              "SoundBankId": -700784324,
+              "SoundBankPathName": "BGM_Event_ClassicalConcert.bnk",
+              "MemoryAlignment": 16,
+              "bDeviceMemory": false,
+              "bContainsMedia": true,
+              "SoundBankType": "EWwiseSoundBankType::User",
+              "DebugName": "BGM_Event_ClassicalConcert"
+            }
+          ],
+          "Media": [
+            {
+              "MediaId": 463715186,
+              "MediaPathName": "Media/SFX/BGM_Event_ClassicalConcert/463715186.wem",
+              "PrefetchSize": 0,
+              "MemoryAlignment": 16,
+              "bDeviceMemory": false,
+              "bStreaming": true,
+              "DebugName": "bgm\\special\\Bgm_Event_ClassicalConcert_Sax.wav"
+            }
+          ],
+          "ExternalSources": [],
+          "SwitchContainerLeaves": [],
+          "RequiredGroupValueSet": [],
+          "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
+          "DebugName": "Bgm_Event_ClassicalConcert_Sax"
+        }
+      }
+    ],
+    "DebugName": "Bgm_Event_ClassicalConcert_Sax",
+    "EventId": 1694966909
+  },
+  "MaximumDuration": 20.000023,
+  "MinimumDuration": 20.000023,
+  "IsInfinite": false,
+  "MaxAttenuationRadius": 0.0
 }

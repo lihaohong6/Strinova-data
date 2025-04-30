@@ -2,6 +2,7 @@
   "Type": "AkAudioEvent",
   "Name": "Char_Skill_Fail",
   "Class": "UScriptClass'AkAudioEvent'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
   "Properties": {
     "MinimumDuration": 0.59965986,
     "MaximumDuration": 0.64317346,
@@ -9,5 +10,42 @@
       "ObjectName": "AkAudioBank'Char_Common'",
       "ObjectPath": "PM/Content/WwiseAssets/AkBank/Char_Common.0"
     }
-  }
+  },
+  "EventCookedData": {
+    "EventLanguageMap": [
+      {
+        "Key": {
+          "LanguageId": 0,
+          "LanguageName": "SFX",
+          "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
+        },
+        "Value": {
+          "EventId": -868304054,
+          "SoundBanks": [
+            {
+              "SoundBankId": -766700885,
+              "SoundBankPathName": "Char_Common.bnk",
+              "MemoryAlignment": 16,
+              "bDeviceMemory": false,
+              "bContainsMedia": true,
+              "SoundBankType": "EWwiseSoundBankType::User",
+              "DebugName": "Char_Common"
+            }
+          ],
+          "Media": [],
+          "ExternalSources": [],
+          "SwitchContainerLeaves": [],
+          "RequiredGroupValueSet": [],
+          "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
+          "DebugName": "Char_Skill_Fail"
+        }
+      }
+    ],
+    "DebugName": "Char_Skill_Fail",
+    "EventId": -868304054
+  },
+  "MaximumDuration": 0.64317346,
+  "MinimumDuration": 0.59965986,
+  "IsInfinite": false,
+  "MaxAttenuationRadius": 0.0
 }

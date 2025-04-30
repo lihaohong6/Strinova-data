@@ -2,6 +2,7 @@
   "Type": "AkAudioEvent",
   "Name": "Weap_HKG3_Switch",
   "Class": "UScriptClass'AkAudioEvent'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
   "Properties": {
     "MinimumDuration": 0.4003855,
     "MaximumDuration": 0.4003855,
@@ -9,5 +10,42 @@
       "ObjectName": "AkAudioBank'Wpn_HKG3'",
       "ObjectPath": "PM/Content/WwiseAssets/AkBank/Wpn_HKG3.0"
     }
-  }
+  },
+  "EventCookedData": {
+    "EventLanguageMap": [
+      {
+        "Key": {
+          "LanguageId": 0,
+          "LanguageName": "SFX",
+          "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
+        },
+        "Value": {
+          "EventId": 517765155,
+          "SoundBanks": [
+            {
+              "SoundBankId": -441837940,
+              "SoundBankPathName": "Wpn_HKG3.bnk",
+              "MemoryAlignment": 16,
+              "bDeviceMemory": false,
+              "bContainsMedia": true,
+              "SoundBankType": "EWwiseSoundBankType::User",
+              "DebugName": "Wpn_HKG3"
+            }
+          ],
+          "Media": [],
+          "ExternalSources": [],
+          "SwitchContainerLeaves": [],
+          "RequiredGroupValueSet": [],
+          "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
+          "DebugName": "Weap_HKG3_Switch"
+        }
+      }
+    ],
+    "DebugName": "Weap_HKG3_Switch",
+    "EventId": 517765155
+  },
+  "MaximumDuration": 0.4003855,
+  "MinimumDuration": 0.4003855,
+  "IsInfinite": false,
+  "MaxAttenuationRadius": 0.0
 }

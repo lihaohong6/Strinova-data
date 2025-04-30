@@ -2,6 +2,7 @@
   "Type": "AkAudioEvent",
   "Name": "LS_BP5_Chime",
   "Class": "UScriptClass'AkAudioEvent'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
   "Properties": {
     "MinimumDuration": 5.0,
     "MaximumDuration": 5.0,
@@ -9,5 +10,42 @@
       "ObjectName": "AkAudioBank'Story_BP5'",
       "ObjectPath": "PM/Content/WwiseAssets/AkBank/Story_BP5.0"
     }
-  }
+  },
+  "EventCookedData": {
+    "EventLanguageMap": [
+      {
+        "Key": {
+          "LanguageId": 0,
+          "LanguageName": "SFX",
+          "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
+        },
+        "Value": {
+          "EventId": 1566025401,
+          "SoundBanks": [
+            {
+              "SoundBankId": 1345540950,
+              "SoundBankPathName": "Story_BP5.bnk",
+              "MemoryAlignment": 16,
+              "bDeviceMemory": false,
+              "bContainsMedia": true,
+              "SoundBankType": "EWwiseSoundBankType::User",
+              "DebugName": "Story_BP5"
+            }
+          ],
+          "Media": [],
+          "ExternalSources": [],
+          "SwitchContainerLeaves": [],
+          "RequiredGroupValueSet": [],
+          "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
+          "DebugName": "LS_BP5_Chime"
+        }
+      }
+    ],
+    "DebugName": "LS_BP5_Chime",
+    "EventId": 1566025401
+  },
+  "MaximumDuration": 5.0,
+  "MinimumDuration": 5.0,
+  "IsInfinite": false,
+  "MaxAttenuationRadius": 0.0
 }

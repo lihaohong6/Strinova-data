@@ -2,6 +2,7 @@
   "Type": "AkAudioEvent",
   "Name": "Amb_Door_Open",
   "Class": "UScriptClass'AkAudioEvent'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
   "Properties": {
     "MinimumDuration": 4.608458,
     "MaximumDuration": 4.608458,
@@ -9,5 +10,52 @@
       "ObjectName": "AkAudioBank'Amb_Olgk'",
       "ObjectPath": "PM/Content/WwiseAssets/AkBank/Amb_Olgk.0"
     }
-  }
+  },
+  "EventCookedData": {
+    "EventLanguageMap": [
+      {
+        "Key": {
+          "LanguageId": 0,
+          "LanguageName": "SFX",
+          "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
+        },
+        "Value": {
+          "EventId": 1369404025,
+          "SoundBanks": [
+            {
+              "SoundBankId": -401855803,
+              "SoundBankPathName": "Amb_Olgk.bnk",
+              "MemoryAlignment": 16,
+              "bDeviceMemory": false,
+              "bContainsMedia": false,
+              "SoundBankType": "EWwiseSoundBankType::User",
+              "DebugName": "Amb_Olgk"
+            }
+          ],
+          "Media": [
+            {
+              "MediaId": 564002706,
+              "MediaPathName": "Media/SFX/Amb_Olgk/564002706.wem",
+              "PrefetchSize": 0,
+              "MemoryAlignment": 16,
+              "bDeviceMemory": false,
+              "bStreaming": true,
+              "DebugName": "ambient\\OLGK\\amb_door_open.wav"
+            }
+          ],
+          "ExternalSources": [],
+          "SwitchContainerLeaves": [],
+          "RequiredGroupValueSet": [],
+          "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
+          "DebugName": "Amb_Door_Open"
+        }
+      }
+    ],
+    "DebugName": "Amb_Door_Open",
+    "EventId": 1369404025
+  },
+  "MaximumDuration": 4.608458,
+  "MinimumDuration": 4.608458,
+  "IsInfinite": false,
+  "MaxAttenuationRadius": 3500.0
 }

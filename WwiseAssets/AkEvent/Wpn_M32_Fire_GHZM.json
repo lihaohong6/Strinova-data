@@ -2,6 +2,7 @@
   "Type": "AkAudioEvent",
   "Name": "Wpn_M32_Fire_GHZM",
   "Class": "UScriptClass'AkAudioEvent'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
   "Properties": {
     "MinimumDuration": 1.6016576,
     "MaximumDuration": 7.4611564,
@@ -9,5 +10,42 @@
       "ObjectName": "AkAudioBank'Wpn_M32'",
       "ObjectPath": "PM/Content/WwiseAssets/AkBank/Wpn_M32.0"
     }
-  }
+  },
+  "EventCookedData": {
+    "EventLanguageMap": [
+      {
+        "Key": {
+          "LanguageId": 0,
+          "LanguageName": "SFX",
+          "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
+        },
+        "Value": {
+          "EventId": -975142127,
+          "SoundBanks": [
+            {
+              "SoundBankId": 1532838981,
+              "SoundBankPathName": "Wpn_M32.bnk",
+              "MemoryAlignment": 16,
+              "bDeviceMemory": false,
+              "bContainsMedia": true,
+              "SoundBankType": "EWwiseSoundBankType::User",
+              "DebugName": "Wpn_M32"
+            }
+          ],
+          "Media": [],
+          "ExternalSources": [],
+          "SwitchContainerLeaves": [],
+          "RequiredGroupValueSet": [],
+          "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
+          "DebugName": "Wpn_M32_Fire_GHZM"
+        }
+      }
+    ],
+    "DebugName": "Wpn_M32_Fire_GHZM",
+    "EventId": -975142127
+  },
+  "MaximumDuration": 7.4611564,
+  "MinimumDuration": 1.6016576,
+  "IsInfinite": false,
+  "MaxAttenuationRadius": 15000.0
 }

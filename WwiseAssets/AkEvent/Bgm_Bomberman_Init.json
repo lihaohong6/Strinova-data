@@ -2,10 +2,89 @@
   "Type": "AkAudioEvent",
   "Name": "Bgm_Bomberman_Init",
   "Class": "UScriptClass'AkAudioEvent'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
   "Properties": {
     "RequiredBank": {
       "ObjectName": "AkAudioBank'Bgm_Bomberman'",
       "ObjectPath": "PM/Content/WwiseAssets/AkBank/Bgm_Bomberman.0"
     }
-  }
+  },
+  "EventCookedData": {
+    "EventLanguageMap": [
+      {
+        "Key": {
+          "LanguageId": 0,
+          "LanguageName": "SFX",
+          "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
+        },
+        "Value": {
+          "EventId": 361015216,
+          "SoundBanks": [
+            {
+              "SoundBankId": -408743717,
+              "SoundBankPathName": "Bgm_Bomberman.bnk",
+              "MemoryAlignment": 16,
+              "bDeviceMemory": false,
+              "bContainsMedia": false,
+              "SoundBankType": "EWwiseSoundBankType::User",
+              "DebugName": "Bgm_Bomberman"
+            }
+          ],
+          "Media": [
+            {
+              "MediaId": 931201840,
+              "MediaPathName": "Media/SFX/Bgm_Bomberman/931201840.wem",
+              "PrefetchSize": 0,
+              "MemoryAlignment": 16,
+              "bDeviceMemory": false,
+              "bStreaming": true,
+              "DebugName": "bgm\\map\\Bgm_Bomberman_WarmUp.wav"
+            },
+            {
+              "MediaId": 732396403,
+              "MediaPathName": "Media/SFX/Bgm_Bomberman/732396403.wem",
+              "PrefetchSize": 0,
+              "MemoryAlignment": 16,
+              "bDeviceMemory": false,
+              "bStreaming": true,
+              "DebugName": "bgm\\map\\Bgm_Bomberman_Chasing_NormalGame.wav"
+            },
+            {
+              "MediaId": 181475157,
+              "MediaPathName": "Media/SFX/Bgm_Bomberman/181475157.wem",
+              "PrefetchSize": 0,
+              "MemoryAlignment": 16,
+              "bDeviceMemory": false,
+              "bStreaming": true,
+              "DebugName": "bgm\\map\\Bgm_Bomberman_Chasing_FinalGame.wav"
+            }
+          ],
+          "ExternalSources": [],
+          "SwitchContainerLeaves": [],
+          "RequiredGroupValueSet": [
+            {
+              "Type": "EWwiseGroupType::State",
+              "GroupId": 412724365,
+              "Id": 743913214,
+              "DebugName": "Bgm_None"
+            },
+            {
+              "Type": "EWwiseGroupType::State",
+              "GroupId": -408743717,
+              "Id": -2124785504,
+              "DebugName": "Bgm_Bomberman_None"
+            }
+          ],
+          "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
+          "DebugName": "Bgm_Bomberman_Init"
+        }
+      }
+    ],
+    "DebugName": "Bgm_Bomberman_Init",
+    "EventId": 361015216
+  },
+  "MaximumDuration": 0.0,
+  "MinimumDuration": 0.0,
+  "IsInfinite": true,
+  "MaxAttenuationRadius": 0.0
 }

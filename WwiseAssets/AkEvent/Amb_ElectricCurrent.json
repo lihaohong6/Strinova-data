@@ -2,10 +2,58 @@
   "Type": "AkAudioEvent",
   "Name": "Amb_ElectricCurrent",
   "Class": "UScriptClass'AkAudioEvent'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
   "Properties": {
     "RequiredBank": {
       "ObjectName": "AkAudioBank'Amb_Olgk'",
       "ObjectPath": "PM/Content/WwiseAssets/AkBank/Amb_Olgk.0"
     }
-  }
+  },
+  "EventCookedData": {
+    "EventLanguageMap": [
+      {
+        "Key": {
+          "LanguageId": 0,
+          "LanguageName": "SFX",
+          "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
+        },
+        "Value": {
+          "EventId": 889357266,
+          "SoundBanks": [
+            {
+              "SoundBankId": -401855803,
+              "SoundBankPathName": "Amb_Olgk.bnk",
+              "MemoryAlignment": 16,
+              "bDeviceMemory": false,
+              "bContainsMedia": false,
+              "SoundBankType": "EWwiseSoundBankType::User",
+              "DebugName": "Amb_Olgk"
+            }
+          ],
+          "Media": [
+            {
+              "MediaId": 1064932057,
+              "MediaPathName": "Media/SFX/Amb_Olgk/1064932057.wem",
+              "PrefetchSize": 0,
+              "MemoryAlignment": 16,
+              "bDeviceMemory": false,
+              "bStreaming": true,
+              "DebugName": "ambient\\OLGK\\Amb_ElectricCurrent.wav"
+            }
+          ],
+          "ExternalSources": [],
+          "SwitchContainerLeaves": [],
+          "RequiredGroupValueSet": [],
+          "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
+          "DebugName": "Amb_ElectricCurrent"
+        }
+      }
+    ],
+    "DebugName": "Amb_ElectricCurrent",
+    "EventId": 889357266
+  },
+  "MaximumDuration": 0.0,
+  "MinimumDuration": 0.0,
+  "IsInfinite": true,
+  "MaxAttenuationRadius": 1200.0
 }

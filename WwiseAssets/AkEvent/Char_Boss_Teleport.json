@@ -2,6 +2,7 @@
   "Type": "AkAudioEvent",
   "Name": "Char_Boss_Teleport",
   "Class": "UScriptClass'AkAudioEvent'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
   "Properties": {
     "MinimumDuration": 1.7523355,
     "MaximumDuration": 1.7523355,
@@ -9,5 +10,42 @@
       "ObjectName": "AkAudioBank'Char_Boss_Common'",
       "ObjectPath": "PM/Content/WwiseAssets/AkBank/Char_Boss_Common.0"
     }
-  }
+  },
+  "EventCookedData": {
+    "EventLanguageMap": [
+      {
+        "Key": {
+          "LanguageId": 0,
+          "LanguageName": "SFX",
+          "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
+        },
+        "Value": {
+          "EventId": 1532208887,
+          "SoundBanks": [
+            {
+              "SoundBankId": 1362493417,
+              "SoundBankPathName": "Char_Boss_Common.bnk",
+              "MemoryAlignment": 16,
+              "bDeviceMemory": false,
+              "bContainsMedia": true,
+              "SoundBankType": "EWwiseSoundBankType::User",
+              "DebugName": "Char_Boss_Common"
+            }
+          ],
+          "Media": [],
+          "ExternalSources": [],
+          "SwitchContainerLeaves": [],
+          "RequiredGroupValueSet": [],
+          "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
+          "DebugName": "Char_Boss_Teleport"
+        }
+      }
+    ],
+    "DebugName": "Char_Boss_Teleport",
+    "EventId": 1532208887
+  },
+  "MaximumDuration": 1.7523355,
+  "MinimumDuration": 1.7523355,
+  "IsInfinite": false,
+  "MaxAttenuationRadius": 3000.0
 }

@@ -2,10 +2,67 @@
   "Type": "AkAudioEvent",
   "Name": "Amb_Umeda_Wind_Low",
   "Class": "UScriptClass'AkAudioEvent'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
   "Properties": {
     "RequiredBank": {
       "ObjectName": "AkAudioBank'Amb_Umeda'",
       "ObjectPath": "PM/Content/WwiseAssets/AkBank/Amb_Umeda.0"
     }
-  }
+  },
+  "EventCookedData": {
+    "EventLanguageMap": [
+      {
+        "Key": {
+          "LanguageId": 0,
+          "LanguageName": "SFX",
+          "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
+        },
+        "Value": {
+          "EventId": -116809086,
+          "SoundBanks": [
+            {
+              "SoundBankId": 1027055556,
+              "SoundBankPathName": "Amb_Umeda.bnk",
+              "MemoryAlignment": 16,
+              "bDeviceMemory": false,
+              "bContainsMedia": true,
+              "SoundBankType": "EWwiseSoundBankType::User",
+              "DebugName": "Amb_Umeda"
+            }
+          ],
+          "Media": [
+            {
+              "MediaId": 206914057,
+              "MediaPathName": "Media/SFX/Amb_Umeda/206914057.wem",
+              "PrefetchSize": 0,
+              "MemoryAlignment": 16,
+              "bDeviceMemory": false,
+              "bStreaming": true,
+              "DebugName": "ambient\\Umeda\\Amb_Umeda_Wind_02.wav"
+            },
+            {
+              "MediaId": 344321097,
+              "MediaPathName": "Media/SFX/Amb_Umeda/344321097.wem",
+              "PrefetchSize": 0,
+              "MemoryAlignment": 16,
+              "bDeviceMemory": false,
+              "bStreaming": true,
+              "DebugName": "ambient\\Umeda\\Amb_Umeda_Wind_Low.wav"
+            }
+          ],
+          "ExternalSources": [],
+          "SwitchContainerLeaves": [],
+          "RequiredGroupValueSet": [],
+          "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
+          "DebugName": "Amb_Umeda_Wind_Low"
+        }
+      }
+    ],
+    "DebugName": "Amb_Umeda_Wind_Low",
+    "EventId": -116809086
+  },
+  "MaximumDuration": 0.0,
+  "MinimumDuration": 0.0,
+  "IsInfinite": true,
+  "MaxAttenuationRadius": 1200.0
 }
