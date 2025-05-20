@@ -1,0 +1,116 @@
+{
+  "Type": "CyGuideDataAsset",
+  "Name": "DA_Guide_EscortGuide",
+  "Class": "UScriptClass'CyGuideDataAsset'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "ShowDeathTipsDelay": 4.5,
+    "TaskTargetPointWithUIClass": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Guide_TaskTargetPointWithUI_C'",
+      "ObjectPath": "PM/Content/PaperMan/CyGuide/BP_Guide_TaskTargetPointWithUI.0"
+    },
+    "DefaultRevivePointTag": "EscortPlayerStart",
+    "RoleConfig": {
+      "RoleId": 105
+    },
+    "GuideAIRoleConfig": {
+      "RoleId": 133,
+      "MaxArmor": 0,
+      "DefaultWeaponSlot": "EWeaponSlotTypes::WeaponSlot_Fist"
+    },
+    "SpawnAIConfigArray": [
+      {
+        "AIType": 1,
+        "TeamId": 1,
+        "RoleId": 101,
+        "RoleSkinId": 0,
+        "bCustomPlayerName": true,
+        "PlayerName": "米雪儿",
+        "SpawnCount": 1,
+        "PlayerStartTagArray": [
+          "EnemySpawn_1"
+        ],
+        "InitialHasTags": []
+      },
+      {
+        "AIType": 1,
+        "TeamId": 1,
+        "RoleId": 108,
+        "RoleSkinId": 0,
+        "bCustomPlayerName": true,
+        "PlayerName": "信",
+        "SpawnCount": 1,
+        "PlayerStartTagArray": [
+          "EnemySpawn_2"
+        ],
+        "InitialHasTags": []
+      },
+      {
+        "AIType": 1,
+        "TeamId": 1,
+        "RoleId": 124,
+        "RoleSkinId": 0,
+        "bCustomPlayerName": true,
+        "PlayerName": "心夏",
+        "SpawnCount": 1,
+        "PlayerStartTagArray": [
+          "EnemySpawn_3"
+        ],
+        "InitialHasTags": []
+      },
+      {
+        "AIType": 1,
+        "TeamId": 0,
+        "RoleId": 128,
+        "RoleSkinId": 0,
+        "bCustomPlayerName": true,
+        "PlayerName": "拉薇",
+        "SpawnCount": 1,
+        "PlayerStartTagArray": [
+          "TeammateSpawn_1"
+        ],
+        "InitialHasTags": []
+      },
+      {
+        "AIType": 1,
+        "TeamId": 0,
+        "RoleId": 146,
+        "RoleSkinId": 0,
+        "bCustomPlayerName": true,
+        "PlayerName": "星绘",
+        "SpawnCount": 1,
+        "PlayerStartTagArray": [
+          "TeammateSpawn_2"
+        ],
+        "InitialHasTags": []
+      }
+    ],
+    "SpawnGuideAIConfigArray": [
+      {
+        "AIType": 0,
+        "TeamId": 0,
+        "RoleId": 133,
+        "RoleSkinId": 0,
+        "bCustomPlayerName": true,
+        "PlayerName": "",
+        "SpawnCount": 0,
+        "PlayerStartTagArray": [
+          "GuideAISpawnPoint"
+        ],
+        "InitialHasTags": []
+      }
+    ],
+    "TaskDataTable": {
+      "AssetPathName": "/Game/PaperMan/CSV/Guide/EscortGuide/DT_Guide_EscortGuide_Task.DT_Guide_EscortGuide_Task",
+      "SubPathString": ""
+    },
+    "EnemySpawnDataTable": {
+      "AssetPathName": "/Game/PaperMan/CSV/Guide/EscortGuide/DT_Guide_EscortGuide_EnemySpawn.DT_Guide_EscortGuide_EnemySpawn",
+      "SubPathString": ""
+    },
+    "DialogueDataTable": {
+      "AssetPathName": "/Game/PaperMan/CSV/Guide/EscortGuide/DT_Guide_EscortGuide_Dialogue.DT_Guide_EscortGuide_Dialogue",
+      "SubPathString": ""
+    }
+  }
+}

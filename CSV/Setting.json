@@ -855,8 +855,8 @@
       "Name": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Setting.ST_Setting",
         "Key": "CvStyle_1",
-        "SourceString": "配音语言（对局内）",
-        "LocalizedString": "配音语言（对局内）"
+        "SourceString": "配音语言",
+        "LocalizedString": "配音语言"
       },
       "UiType": 3,
       "Options": [
@@ -877,8 +877,8 @@
       "Tips": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Setting.ST_Setting",
         "Key": "CvStyle_2",
-        "SourceString": "选择游戏角色配音使用的语言。\r\n\r\n目前选择\"日语\"选项时，仅会将对局内的语音改为日语，在对局外仍将听到汉语配音，对局外的日语配音尚在制作中，敬请期待。",
-        "LocalizedString": "选择游戏角色配音使用的语言。\r\n\r\n目前选择\"日语\"选项时，仅会将对局内的语音改为日语，在对局外仍将听到汉语配音，对局外的日语配音尚在制作中，敬请期待。"
+        "SourceString": "选择游戏角色配音使用的语言。\r\n（备注：目前休息室仅部分角色支持切换日语配音）",
+        "LocalizedString": "选择游戏角色配音使用的语言。\r\n（备注：目前休息室仅部分角色支持切换日语配音）"
       },
       "Max": 0,
       "Min": 0,
@@ -2795,8 +2795,8 @@
       "Name": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Setting.ST_Setting",
         "Key": "SwitchMagnification_1",
-        "SourceString": "模式选择切换",
-        "LocalizedString": "模式选择切换"
+        "SourceString": "武器模式切换",
+        "LocalizedString": "武器模式切换"
       },
       "UiType": 4,
       "Options": [],
@@ -2804,8 +2804,8 @@
       "Tips": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Setting.ST_Setting",
         "Key": "SwitchMagnification_2",
-        "SourceString": "主武器瞄准镜倍率切换或射击模式选择\r\n瞄准镜倍率切换：仅部分角色可用\r\n射击模式选择：仅星绘",
-        "LocalizedString": "主武器瞄准镜倍率切换或射击模式选择\r\n瞄准镜倍率切换：仅部分角色可用\r\n射击模式选择：仅星绘"
+        "SourceString": "主武器瞄准镜倍率切换或开火模式选择\r\n瞄准镜倍率切换：仅部分角色可用 \r\n开火模式选择：仅星绘、信",
+        "LocalizedString": "主武器瞄准镜倍率切换或开火模式选择\r\n瞄准镜倍率切换：仅部分角色可用 \r\n开火模式选择：仅星绘、信"
       },
       "Max": 0,
       "Min": 0,
@@ -3932,6 +3932,434 @@
       "Issub": 0,
       "ExtraOption1": 0
     },
+    "278": {
+      "Id": 278,
+      "Type": "UGCConfig",
+      "SubType": "",
+      "Title": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Setting.ST_Setting",
+        "Key": "Title63",
+        "SourceString": "常规设置",
+        "LocalizedString": "常规设置"
+      },
+      "Name": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Setting.ST_Setting",
+        "Key": "ShowUGCBuilderTool_1",
+        "SourceString": "显示建造武器模型",
+        "LocalizedString": "显示建造武器模型"
+      },
+      "UiType": 3,
+      "Options": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Setting.ST_Setting",
+          "Key": "Opt_1",
+          "SourceString": "开启",
+          "LocalizedString": "开启"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Setting.ST_Setting",
+          "Key": "Opt_2",
+          "SourceString": "关闭",
+          "LocalizedString": "关闭"
+        }
+      ],
+      "DefaultOptions": 2,
+      "Tips": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Setting.ST_Setting",
+        "Key": "ShowUGCBuilderTool_2",
+        "SourceString": "切换以设置建造者的武器的可视性",
+        "LocalizedString": "切换以设置建造者的武器的可视性"
+      },
+      "Max": 0,
+      "Min": 0,
+      "Step": 0,
+      "Indexkey": "ShowUGCBuilderTool",
+      "DefaultOption2": "",
+      "Status": 0,
+      "Issub": 0,
+      "ExtraOption1": 0
+    },
+    "279": {
+      "Id": 279,
+      "Type": "UGCConfig",
+      "SubType": "",
+      "Title": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Setting.ST_Setting",
+        "Key": "Title64",
+        "SourceString": "快捷键设置",
+        "LocalizedString": "快捷键设置"
+      },
+      "Name": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Setting.ST_Setting",
+        "Key": "OpenBagPage_1",
+        "SourceString": "背包切换",
+        "LocalizedString": "背包切换"
+      },
+      "UiType": 4,
+      "Options": [],
+      "DefaultOptions": 0,
+      "Tips": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Setting.ST_Setting",
+        "Key": "OpenBagPage_2",
+        "SourceString": "打开/关闭创造者模式背包",
+        "LocalizedString": "打开/关闭创造者模式背包"
+      },
+      "Max": 0,
+      "Min": 0,
+      "Step": 0,
+      "Indexkey": "OpenBagPage",
+      "DefaultOption2": "B,Invalid",
+      "Status": 0,
+      "Issub": 0,
+      "ExtraOption1": 0
+    },
+    "280": {
+      "Id": 280,
+      "Type": "UGCConfig",
+      "SubType": "",
+      "Title": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Setting.ST_Setting",
+        "Key": "Title64",
+        "SourceString": "快捷键设置",
+        "LocalizedString": "快捷键设置"
+      },
+      "Name": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Setting.ST_Setting",
+        "Key": "EnterBuild_1",
+        "SourceString": "创造者切换",
+        "LocalizedString": "创造者切换"
+      },
+      "UiType": 4,
+      "Options": [],
+      "DefaultOptions": 0,
+      "Tips": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Setting.ST_Setting",
+        "Key": "EnterBuild_2",
+        "SourceString": "可以在创造者/角色间来回切换",
+        "LocalizedString": "可以在创造者/角色间来回切换"
+      },
+      "Max": 0,
+      "Min": 0,
+      "Step": 0,
+      "Indexkey": "EnterBuild",
+      "DefaultOption2": "O,Invalid",
+      "Status": 0,
+      "Issub": 0,
+      "ExtraOption1": 0
+    },
+    "281": {
+      "Id": 281,
+      "Type": "UGCConfig",
+      "SubType": "",
+      "Title": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Setting.ST_Setting",
+        "Key": "Title64",
+        "SourceString": "快捷键设置",
+        "LocalizedString": "快捷键设置"
+      },
+      "Name": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Setting.ST_Setting",
+        "Key": "UGCScreenShot_1",
+        "SourceString": "截取预览图",
+        "LocalizedString": "截取预览图"
+      },
+      "UiType": 4,
+      "Options": [],
+      "DefaultOptions": 0,
+      "Tips": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Setting.ST_Setting",
+        "Key": "UGCScreenShot_2",
+        "SourceString": "按下以截取预览图",
+        "LocalizedString": "按下以截取预览图"
+      },
+      "Max": 0,
+      "Min": 0,
+      "Step": 0,
+      "Indexkey": "UGCScreenShot",
+      "DefaultOption2": "P,Invalid",
+      "Status": 0,
+      "Issub": 0,
+      "ExtraOption1": 0
+    },
+    "282": {
+      "Id": 282,
+      "Type": "UGCConfig",
+      "SubType": "",
+      "Title": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Setting.ST_Setting",
+        "Key": "Title64",
+        "SourceString": "快捷键设置",
+        "LocalizedString": "快捷键设置"
+      },
+      "Name": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Setting.ST_Setting",
+        "Key": "SwitchPrefab1_1",
+        "SourceString": "快捷键1插槽",
+        "LocalizedString": "快捷键1插槽"
+      },
+      "UiType": 4,
+      "Options": [],
+      "DefaultOptions": 0,
+      "Tips": {
+        "CultureInvariantString": null
+      },
+      "Max": 0,
+      "Min": 0,
+      "Step": 0,
+      "Indexkey": "SwitchPrefab1",
+      "DefaultOption2": "One,Invalid",
+      "Status": 0,
+      "Issub": 0,
+      "ExtraOption1": 0
+    },
+    "283": {
+      "Id": 283,
+      "Type": "UGCConfig",
+      "SubType": "",
+      "Title": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Setting.ST_Setting",
+        "Key": "Title64",
+        "SourceString": "快捷键设置",
+        "LocalizedString": "快捷键设置"
+      },
+      "Name": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Setting.ST_Setting",
+        "Key": "SwitchPrefab2_1",
+        "SourceString": "快捷键2插槽",
+        "LocalizedString": "快捷键2插槽"
+      },
+      "UiType": 4,
+      "Options": [],
+      "DefaultOptions": 0,
+      "Tips": {
+        "CultureInvariantString": null
+      },
+      "Max": 0,
+      "Min": 0,
+      "Step": 0,
+      "Indexkey": "SwitchPrefab2",
+      "DefaultOption2": "Two,Invalid",
+      "Status": 0,
+      "Issub": 0,
+      "ExtraOption1": 0
+    },
+    "284": {
+      "Id": 284,
+      "Type": "UGCConfig",
+      "SubType": "",
+      "Title": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Setting.ST_Setting",
+        "Key": "Title64",
+        "SourceString": "快捷键设置",
+        "LocalizedString": "快捷键设置"
+      },
+      "Name": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Setting.ST_Setting",
+        "Key": "SwitchPrefab3_1",
+        "SourceString": "快捷键3插槽",
+        "LocalizedString": "快捷键3插槽"
+      },
+      "UiType": 4,
+      "Options": [],
+      "DefaultOptions": 0,
+      "Tips": {
+        "CultureInvariantString": null
+      },
+      "Max": 0,
+      "Min": 0,
+      "Step": 0,
+      "Indexkey": "SwitchPrefab3",
+      "DefaultOption2": "Three,Invalid",
+      "Status": 0,
+      "Issub": 0,
+      "ExtraOption1": 0
+    },
+    "285": {
+      "Id": 285,
+      "Type": "UGCConfig",
+      "SubType": "",
+      "Title": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Setting.ST_Setting",
+        "Key": "Title64",
+        "SourceString": "快捷键设置",
+        "LocalizedString": "快捷键设置"
+      },
+      "Name": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Setting.ST_Setting",
+        "Key": "SwitchPrefab4_1",
+        "SourceString": "快捷键4插槽",
+        "LocalizedString": "快捷键4插槽"
+      },
+      "UiType": 4,
+      "Options": [],
+      "DefaultOptions": 0,
+      "Tips": {
+        "CultureInvariantString": null
+      },
+      "Max": 0,
+      "Min": 0,
+      "Step": 0,
+      "Indexkey": "SwitchPrefab4",
+      "DefaultOption2": "Four,Invalid",
+      "Status": 0,
+      "Issub": 0,
+      "ExtraOption1": 0
+    },
+    "286": {
+      "Id": 286,
+      "Type": "UGCConfig",
+      "SubType": "",
+      "Title": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Setting.ST_Setting",
+        "Key": "Title64",
+        "SourceString": "快捷键设置",
+        "LocalizedString": "快捷键设置"
+      },
+      "Name": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Setting.ST_Setting",
+        "Key": "SwitchPrefab5_1",
+        "SourceString": "快捷键5插槽",
+        "LocalizedString": "快捷键5插槽"
+      },
+      "UiType": 4,
+      "Options": [],
+      "DefaultOptions": 0,
+      "Tips": {
+        "CultureInvariantString": null
+      },
+      "Max": 0,
+      "Min": 0,
+      "Step": 0,
+      "Indexkey": "SwitchPrefab5",
+      "DefaultOption2": "Five,Invalid",
+      "Status": 0,
+      "Issub": 0,
+      "ExtraOption1": 0
+    },
+    "287": {
+      "Id": 287,
+      "Type": "UGCConfig",
+      "SubType": "",
+      "Title": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Setting.ST_Setting",
+        "Key": "Title64",
+        "SourceString": "快捷键设置",
+        "LocalizedString": "快捷键设置"
+      },
+      "Name": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Setting.ST_Setting",
+        "Key": "SwitchPrefab6_1",
+        "SourceString": "快捷键6插槽",
+        "LocalizedString": "快捷键6插槽"
+      },
+      "UiType": 4,
+      "Options": [],
+      "DefaultOptions": 0,
+      "Tips": {
+        "CultureInvariantString": null
+      },
+      "Max": 0,
+      "Min": 0,
+      "Step": 0,
+      "Indexkey": "SwitchPrefab6",
+      "DefaultOption2": "Six,Invalid",
+      "Status": 0,
+      "Issub": 0,
+      "ExtraOption1": 0
+    },
+    "288": {
+      "Id": 288,
+      "Type": "UGCConfig",
+      "SubType": "",
+      "Title": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Setting.ST_Setting",
+        "Key": "Title64",
+        "SourceString": "快捷键设置",
+        "LocalizedString": "快捷键设置"
+      },
+      "Name": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Setting.ST_Setting",
+        "Key": "SwitchPrefab7_1",
+        "SourceString": "快捷键7插槽",
+        "LocalizedString": "快捷键7插槽"
+      },
+      "UiType": 4,
+      "Options": [],
+      "DefaultOptions": 0,
+      "Tips": {
+        "CultureInvariantString": null
+      },
+      "Max": 0,
+      "Min": 0,
+      "Step": 0,
+      "Indexkey": "SwitchPrefab7",
+      "DefaultOption2": "Seven,Invalid",
+      "Status": 0,
+      "Issub": 0,
+      "ExtraOption1": 0
+    },
+    "289": {
+      "Id": 289,
+      "Type": "UGCConfig",
+      "SubType": "",
+      "Title": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Setting.ST_Setting",
+        "Key": "Title64",
+        "SourceString": "快捷键设置",
+        "LocalizedString": "快捷键设置"
+      },
+      "Name": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Setting.ST_Setting",
+        "Key": "SwitchPrefab8_1",
+        "SourceString": "快捷键8插槽",
+        "LocalizedString": "快捷键8插槽"
+      },
+      "UiType": 4,
+      "Options": [],
+      "DefaultOptions": 0,
+      "Tips": {
+        "CultureInvariantString": null
+      },
+      "Max": 0,
+      "Min": 0,
+      "Step": 0,
+      "Indexkey": "SwitchPrefab8",
+      "DefaultOption2": "Eight,Invalid",
+      "Status": 0,
+      "Issub": 0,
+      "ExtraOption1": 0
+    },
+    "290": {
+      "Id": 290,
+      "Type": "UGCConfig",
+      "SubType": "",
+      "Title": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Setting.ST_Setting",
+        "Key": "Title64",
+        "SourceString": "快捷键设置",
+        "LocalizedString": "快捷键设置"
+      },
+      "Name": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Setting.ST_Setting",
+        "Key": "SwitchPrefab9_1",
+        "SourceString": "快捷键9插槽",
+        "LocalizedString": "快捷键9插槽"
+      },
+      "UiType": 4,
+      "Options": [],
+      "DefaultOptions": 0,
+      "Tips": {
+        "CultureInvariantString": null
+      },
+      "Max": 0,
+      "Min": 0,
+      "Step": 0,
+      "Indexkey": "SwitchPrefab9",
+      "DefaultOption2": "Nine,Invalid",
+      "Status": 0,
+      "Issub": 0,
+      "ExtraOption1": 0
+    },
     "301": {
       "Id": 301,
       "Type": "Sense",
@@ -4238,7 +4666,7 @@
       "Step": 0,
       "Indexkey": "DisplaySelect",
       "DefaultOption2": "",
-      "Status": 2,
+      "Status": 0,
       "Issub": 0,
       "ExtraOption1": 0
     },
@@ -6060,62 +6488,6 @@
       "Type": "Sound",
       "SubType": "",
       "Title": {
-        "CultureInvariantString": null
-      },
-      "Name": {
-        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Setting.ST_Setting",
-        "Key": "WindowsAudioAPI_1",
-        "SourceString": "音频API",
-        "LocalizedString": "音频API"
-      },
-      "UiType": 3,
-      "Options": [
-        {
-          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Setting.ST_Setting",
-          "Key": "Opt_AudioAPI_0",
-          "SourceString": "自动选择",
-          "LocalizedString": "自动选择"
-        },
-        {
-          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Setting.ST_Setting",
-          "Key": "Opt_AudioAPI_1",
-          "SourceString": "Wasapi",
-          "LocalizedString": "Wasapi"
-        },
-        {
-          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Setting.ST_Setting",
-          "Key": "Opt_AudioAPI_2",
-          "SourceString": "XAudio2",
-          "LocalizedString": "XAudio2"
-        },
-        {
-          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Setting.ST_Setting",
-          "Key": "Opt_AudioAPI_3",
-          "SourceString": "DirectSound",
-          "LocalizedString": "DirectSound"
-        }
-      ],
-      "DefaultOptions": 1,
-      "Tips": {
-        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Setting.ST_Setting",
-        "Key": "WindowsAudioAPI_2",
-        "SourceString": "选择音频系统使用的底层API（在重新启动游戏后生效）。\r\n自动选择：按照XAudio2、WASAPI、DirectSound顺序逐个匹配，使用首个支持的API。\r\n\r\n如果遇到音频问题，并在修改空间音效和音频输出配置后仍然无法解决，此时可能存在系统或硬件兼容性问题，可以尝试切换音频API配置来解决。",
-        "LocalizedString": "选择音频系统使用的底层API（在重新启动游戏后生效）。\r\n自动选择：按照XAudio2、WASAPI、DirectSound顺序逐个匹配，使用首个支持的API。\r\n\r\n如果遇到音频问题，并在修改空间音效和音频输出配置后仍然无法解决，此时可能存在系统或硬件兼容性问题，可以尝试切换音频API配置来解决。"
-      },
-      "Max": 0,
-      "Min": 0,
-      "Step": 0,
-      "Indexkey": "WindowsAudioAPI",
-      "DefaultOption2": "",
-      "Status": 0,
-      "Issub": 0,
-      "ExtraOption1": 0
-    },
-    "514": {
-      "Id": 514,
-      "Type": "Sound",
-      "SubType": "",
-      "Title": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Setting.ST_Setting",
         "Key": "Title19",
         "SourceString": "语音聊天",
@@ -6145,8 +6517,8 @@
       "Issub": 0,
       "ExtraOption1": 0
     },
-    "515": {
-      "Id": 515,
+    "514": {
+      "Id": 514,
       "Type": "Sound",
       "SubType": "",
       "Title": {
@@ -6176,8 +6548,8 @@
       "Issub": 0,
       "ExtraOption1": 0
     },
-    "516": {
-      "Id": 516,
+    "515": {
+      "Id": 515,
       "Type": "Sound",
       "SubType": "",
       "Title": {
@@ -6220,8 +6592,8 @@
       "Issub": 0,
       "ExtraOption1": 0
     },
-    "517": {
-      "Id": 517,
+    "516": {
+      "Id": 516,
       "Type": "Sound",
       "SubType": "",
       "Title": {
@@ -6264,8 +6636,8 @@
       "Issub": 1,
       "ExtraOption1": 0
     },
-    "518": {
-      "Id": 518,
+    "517": {
+      "Id": 517,
       "Type": "Sound",
       "SubType": "",
       "Title": {
@@ -6314,8 +6686,8 @@
       "Issub": 1,
       "ExtraOption1": 0
     },
-    "519": {
-      "Id": 519,
+    "518": {
+      "Id": 518,
       "Type": "Sound",
       "SubType": "",
       "Title": {
@@ -6345,8 +6717,8 @@
       "Issub": 0,
       "ExtraOption1": 0
     },
-    "520": {
-      "Id": 520,
+    "519": {
+      "Id": 519,
       "Type": "Sound",
       "SubType": "",
       "Title": {
@@ -6389,8 +6761,8 @@
       "Issub": 0,
       "ExtraOption1": 0
     },
-    "521": {
-      "Id": 521,
+    "520": {
+      "Id": 520,
       "Type": "Sound",
       "SubType": "",
       "Title": {
@@ -6433,8 +6805,8 @@
       "Issub": 1,
       "ExtraOption1": 0
     },
-    "522": {
-      "Id": 522,
+    "521": {
+      "Id": 521,
       "Type": "Sound",
       "SubType": "",
       "Title": {
@@ -6483,8 +6855,8 @@
       "Issub": 1,
       "ExtraOption1": 0
     },
-    "523": {
-      "Id": 523,
+    "522": {
+      "Id": 522,
       "Type": "Sound",
       "SubType": "",
       "Title": {
@@ -6514,8 +6886,8 @@
       "Issub": 0,
       "ExtraOption1": 0
     },
-    "524": {
-      "Id": 524,
+    "523": {
+      "Id": 523,
       "Type": "Sound",
       "SubType": "",
       "Title": {
@@ -6545,8 +6917,8 @@
       "Issub": 0,
       "ExtraOption1": 0
     },
-    "525": {
-      "Id": 525,
+    "524": {
+      "Id": 524,
       "Type": "Sound",
       "SubType": "",
       "Title": {
@@ -6576,8 +6948,8 @@
       "Issub": 0,
       "ExtraOption1": 0
     },
-    "526": {
-      "Id": 526,
+    "525": {
+      "Id": 525,
       "Type": "Sound",
       "SubType": "",
       "Title": {

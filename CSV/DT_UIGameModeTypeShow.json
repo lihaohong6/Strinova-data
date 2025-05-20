@@ -42,7 +42,8 @@
         "EPMGameModeType::SnowBall",
         "EPMGameModeType::BombGuide",
         "EPMGameModeType::TeamGuide",
-        "EPMGameModeType::Zombie"
+        "EPMGameModeType::Zombie",
+        "EPMGameModeType::UGC"
       ],
       "ShowGameStateTypes": [
         "EGStateType::Warmup",
@@ -190,7 +191,8 @@
     "BigMap": {
       "ShowModeTypes": [],
       "HideModeTypes": [
-        "EPMGameModeType::NoviceGuide"
+        "EPMGameModeType::NoviceGuide",
+        "EPMGameModeType::UGC"
       ],
       "ShowGameStateTypes": [],
       "HideGameStateTypes": [
@@ -323,7 +325,9 @@
       "bNeedsHideInReplayMode": false
     },
     "RoguelikeCardPage": {
-      "ShowModeTypes": [],
+      "ShowModeTypes": [
+        "EPMGameModeType::Zombie"
+      ],
       "HideModeTypes": [],
       "ShowGameStateTypes": [
         "EGStateType::Warmup",
@@ -331,7 +335,8 @@
         "EGStateType::FightPlaced",
         "EGStateType::Prepare",
         "EGStateType::FightEnd",
-        "EGStateType::FightSecond"
+        "EGStateType::FightSecond",
+        "EGStateType::Guide"
       ],
       "HideGameStateTypes": [
         "EGStateType::GameEnd",

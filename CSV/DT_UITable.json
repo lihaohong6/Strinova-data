@@ -385,6 +385,18 @@
       {
         "ObjectName": "DataTable'DT_UI_RegisterPage'",
         "ObjectPath": "PM/Content/PaperMan/UI/BP/PC/Frontend/LoginPC/Host/DT_UI_RegisterPage.0"
+      },
+      {
+        "ObjectName": "DataTable'DT_UI_UGCPC'",
+        "ObjectPath": "PM/Content/PaperMan/UI/BP/PC/Frontend/UGCPC/DT_UI_UGCPC.0"
+      },
+      {
+        "ObjectName": "CompositeDataTable'CDT_UI_InGamePC_UGC'",
+        "ObjectPath": "PM/Content/PaperMan/UI/BP/PC/InGame/UGC/CDT_UI_InGamePC_UGC.0"
+      },
+      {
+        "ObjectName": "DataTable'DT_UI_InGamePC_HotZone'",
+        "ObjectPath": "PM/Content/PaperMan/UI/BP/PC/InGame/HotZone/DT_UI_InGamePC_HotZone.0"
       }
     ],
     "RowStruct": {
@@ -4218,7 +4230,7 @@
       },
       "bIsPanel": false,
       "Layer": "EUILayer::Normal",
-      "Order": 24,
+      "Order": 26,
       "FullScreen": false,
       "SlotNameList": [],
       "Anchors": {
@@ -4249,6 +4261,66 @@
       "bIsPanel": false,
       "Layer": "EUILayer::Top",
       "Order": 110,
+      "FullScreen": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "FunParkMainPage": {
+      "PageName": "FunParkMainPage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/Activities/FunParkPC/WBP_FunParkPC_MainPage.WBP_FunParkPC_MainPage_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 25,
+      "FullScreen": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "FunParkInfoPage": {
+      "PageName": "FunParkInfoPage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/Activities/FunParkPC/WBP_FunParkPC_ExplainPage_.WBP_FunParkPC_ExplainPage__C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 26,
       "FullScreen": false,
       "SlotNameList": [],
       "Anchors": {
@@ -8230,7 +8302,7 @@
         "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/Hermes/HotList/WBP_HermesGoodsDetail.WBP_HermesGoodsDetail_C",
         "SubPathString": ""
       },
-      "bIsPanel": false,
+      "bIsPanel": true,
       "Layer": "EUILayer::Normal",
       "Order": 31,
       "FullScreen": true,
@@ -8322,6 +8394,36 @@
       },
       "bIsPanel": false,
       "Layer": "EUILayer::Normal",
+      "Order": 0,
+      "FullScreen": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "PayMethodPage": {
+      "PageName": "PayMethodPage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/Hermes/TopUp/WBP_PayMethod.WBP_PayMethod_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Top",
       "Order": 0,
       "FullScreen": false,
       "SlotNameList": [],
@@ -8460,6 +8562,36 @@
         "Y": 0.0
       }
     },
+    "TreasureBoxOperateReqPage": {
+      "PageName": "TreasureBoxOperateReqPage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/Hermes/TreasureBox/WBP_TreasureBoxOperateReqPage.WBP_TreasureBoxOperateReqPage_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Top",
+      "Order": 0,
+      "FullScreen": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
     "TreasureBoxResultPage": {
       "PageName": "TreasureBoxResultPage",
       "PageClass": {
@@ -8490,18 +8622,48 @@
         "Y": 0.0
       }
     },
-    "TreasureBoxOperateReqPage": {
-      "PageName": "TreasureBoxOperateReqPage",
+    "BPStorePage": {
+      "PageName": "BPStorePage",
       "PageClass": {
         "ObjectName": "Class'PMViewControllerPage'",
         "ObjectPath": "/Script/PMGame"
       },
       "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/Hermes/TreasureBox/WBP_TreasureBoxOperateReqPage.WBP_TreasureBoxOperateReqPage_C",
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/Hermes/BP/WBP_BPStore.WBP_BPStore_C",
         "SubPathString": ""
       },
       "bIsPanel": false,
-      "Layer": "EUILayer::Top",
+      "Layer": "EUILayer::Normal",
+      "Order": 0,
+      "FullScreen": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "CommonStorePage": {
+      "PageName": "CommonStorePage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/Hermes/Common/WBP_CommonStore.WBP_CommonStore_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
       "SlotNameList": [],
@@ -10003,6 +10165,66 @@
       "bIsPanel": false,
       "Layer": "EUILayer::Normal",
       "Order": 100,
+      "FullScreen": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "EscortGuidePage": {
+      "PageName": "EscortGuidePage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/InGame/Guide/EscortGuide/WBP_EscortGuidePage.WBP_EscortGuidePage_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 0,
+      "FullScreen": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "GrowthPageTips": {
+      "PageName": "GrowthPageTips",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/InGame/Guide/EscortGuide/WBP_EscortGuide_GrowthPageTips.WBP_EscortGuide_GrowthPageTips_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Loading",
+      "Order": 0,
       "FullScreen": false,
       "SlotNameList": [],
       "Anchors": {
@@ -11790,6 +12012,186 @@
         "Y": 0.0
       }
     },
+    "RuralStyleMainPage": {
+      "PageName": "RuralStyleMainPage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/Activities/RuralStylePC/WBP_RuralStylePC_MainPage.WBP_RuralStylePC_MainPage_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 20,
+      "FullScreen": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "RuralStyleMainExplainPage": {
+      "PageName": "RuralStyleMainExplainPage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/Activities/RuralStylePC/WBP_RuralStylePC_Explain.WBP_RuralStylePC_Explain_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 25,
+      "FullScreen": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "RiftWarMainPage": {
+      "PageName": "RiftWarMainPage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/Activities/RiftWarPC/WBP_RiftWar_Main.WBP_RiftWar_Main_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 20,
+      "FullScreen": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "RiftWarExplainPage": {
+      "PageName": "RiftWarExplainPage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/Activities/RiftWarPC/WBP_RiftWar_Explain.WBP_RiftWar_Explain_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 25,
+      "FullScreen": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "BiochemicalCardMainPage": {
+      "PageName": "BiochemicalCardMainPage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/Activities/BiochemicalCardPC/WBP_BiochemicalCardPC_MainPage.WBP_BiochemicalCardPC_MainPage_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 20,
+      "FullScreen": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "BiochemicalCardExplainPage": {
+      "PageName": "BiochemicalCardExplainPage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/Activities/BiochemicalCardPC/WBP_BiochemicalCardPC_Explain.WBP_BiochemicalCardPC_Explain_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 25,
+      "FullScreen": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
     "NationFasionMainPage": {
       "PageName": "NationFasionMainPage",
       "PageClass": {
@@ -13273,6 +13675,36 @@
       "bIsPanel": false,
       "Layer": "EUILayer::Top",
       "Order": 10,
+      "FullScreen": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "CustomRoomListFilterMapsPanel": {
+      "PageName": "CustomRoomListFilterPanel",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/UGCPC/WBP_FilterMapsPanel.WBP_FilterMapsPanel_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 40,
       "FullScreen": false,
       "SlotNameList": [],
       "Anchors": {
@@ -15876,6 +16308,33 @@
         "Y": 0.0
       }
     },
+    "EscortGuideWallToPayloadOverhead": {
+      "PageName": "EscortGuideWallToPayloadOverhead",
+      "PageClass": null,
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/InGame/Guide/EscortGuide/WBP_EscortGuideWallToPayloadOverHead.WBP_EscortGuideWallToPayloadOverHead_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 0,
+      "FullScreen": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
     "SceneMap_CharacterItem": {
       "PageName": "SceneMap_CharacterItem",
       "PageClass": null,
@@ -17528,6 +17987,33 @@
       "PageClass": null,
       "ViewClass": {
         "AssetPathName": "/Game/PaperMan/UI/BP/PC/InGame/BombPass/SceneMap/WBP_BombPassCharacterItem.WBP_BombPassCharacterItem_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 0,
+      "FullScreen": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "SceneMap_HotZonePointItem": {
+      "PageName": "SceneMap_HotZonePointItem",
+      "PageClass": null,
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/InGame/HotZone/SceneMap/WBP_HotZonePointItem.WBP_HotZonePointItem_C",
         "SubPathString": ""
       },
       "bIsPanel": false,
@@ -22464,6 +22950,450 @@
       },
       "bIsPanel": false,
       "Layer": "EUILayer::Top",
+      "Order": 0,
+      "FullScreen": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "LocalFileListPanel": {
+      "PageName": "LocalFileListPanel",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/UGCPC/WBP_UGCSavedFileList.WBP_UGCSavedFileList_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 42,
+      "FullScreen": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "UGCRoomPage": {
+      "PageName": "UGCRoomPage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/UGCPC/WBP_UGCRoom.WBP_UGCRoom_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 6,
+      "FullScreen": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "UGCRoomSettingPanel": {
+      "PageName": "UGCRoomSettingPanel",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/UGCPC/WBP_UGCRoomSetting.WBP_UGCRoomSetting_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 43,
+      "FullScreen": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "UGCPublishSettingPage": {
+      "PageName": "UGCPublishSettingPage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/UGCPC/WBP_UGCPublishSettingPage.WBP_UGCPublishSettingPage_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 44,
+      "FullScreen": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "UGCPublishSuccessMsgDialog": {
+      "PageName": "UGCPublishSuccessMsgDialog",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/UGCPC/WBP_UGCPublishSuccessMsgDialogPage.WBP_UGCPublishSuccessMsgDialogPage_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 45,
+      "FullScreen": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "UGCCreationMsgPage": {
+      "PageName": "UGCCreationMsgPage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/UGCPC/WBP_UGCCreationMsgPage.WBP_UGCCreationMsgPage_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Top",
+      "Order": 0,
+      "FullScreen": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "UGCPage": {
+      "PageName": "UGCPage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/InGame/UGC/WBP_UGCPage.WBP_UGCPage_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 0,
+      "FullScreen": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "UGCBagPage": {
+      "PageName": "UGCBagPage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/InGame/UGC/Bag/WBP_UGCBagPage.WBP_UGCBagPage_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 0,
+      "FullScreen": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "UGCGameKeyTipsPage": {
+      "PageName": "UGCGameKeyTipsPage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/InGame/UGC/WBP_UGCGameKeyTipsPage.WBP_UGCGameKeyTipsPage_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 0,
+      "FullScreen": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "UGCGenMapImagePage": {
+      "PageName": "UGCGenMapImagePage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/InGame/UGC/WBP_GenMapImagePage.WBP_GenMapImagePage_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 0,
+      "FullScreen": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "UGCSettingPage": {
+      "PageName": "UGCSettingPage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/InGame/UGC/WBP_UGCSettingsPage.WBP_UGCSettingsPage_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 0,
+      "FullScreen": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "HotZoneMatchPage": {
+      "PageName": "HotZoneMatchPage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/InGame/HotZone/WBP_HotZone_MatchPage.WBP_HotZone_MatchPage_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 0,
+      "FullScreen": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "ScoreHotZone": {
+      "PageName": "ScoreHotZone",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/InGame/NonResidentFunctions/ScoreBoard/HotZone/WBP_Score_HotZone.WBP_Score_HotZone_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 0,
+      "FullScreen": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "CharacterHotZoneOverhead": {
+      "PageName": "CharacterHotZoneOverhead",
+      "PageClass": null,
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/InGame/HotZone/Overhead/WBP_HotZone_Character_OverheadPanel.WBP_HotZone_Character_OverheadPanel_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 0,
+      "FullScreen": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "HotZonePointOverhead": {
+      "PageName": "HotZonePointOverhead",
+      "PageClass": null,
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/InGame/HotZone/Overhead/WBP_HotZonePoint_OverheadPanel.WBP_HotZonePoint_OverheadPanel_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
       "SlotNameList": [],

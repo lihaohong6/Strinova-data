@@ -1342,6 +1342,10 @@
       "Tag": "Event.Action.Action",
       "DevComment": "使用动作"
     },
+    "Event.Action.Emotion": {
+      "Tag": "Event.Action.Emotion",
+      "DevComment": "使用表情"
+    },
     "Event.Action.InstallC4": {
       "Tag": "Event.Action.InstallC4",
       "DevComment": "安装C4"
@@ -1773,6 +1777,10 @@
     "Event.CauseInjuredByWeapon.Tool": {
       "Tag": "Event.CauseInjuredByWeapon.Tool",
       "DevComment": "工具造成重伤倒地"
+    },
+    "Event.CauseDamage.PlayerSummon": {
+      "Tag": "Event.CauseDamage.PlayerSummon",
+      "DevComment": "玩家召唤物造成的伤害"
     },
     "Event.TakeInjured": {
       "Tag": "Event.TakeInjured",
@@ -2521,6 +2529,14 @@
     "Event.GameState.GameOver.Ended": {
       "Tag": "Event.GameState.GameOver.Ended",
       "DevComment": "游戏状态-游戏已经结束了状态结束后"
+    },
+    "Event.GameZone.StateChange.Enter": {
+      "Tag": "Event.GameZone.StateChange.Enter",
+      "DevComment": "游戏区域状态变化-例如占点区域状态"
+    },
+    "Event.GameZone.StateChange.End": {
+      "Tag": "Event.GameZone.StateChange.End",
+      "DevComment": "游戏区域状态变化-例如占点区域状态"
     },
     "Event.Skill.Aika.X.OnDetected": {
       "Tag": "Event.Skill.Aika.X.OnDetected",
@@ -3382,17 +3398,41 @@
       "Tag": "Event.Leave.Area",
       "DevComment": "离开某个区域事件"
     },
+    "Event.HotZone.Entry": {
+      "Tag": "Event.HotZone.Entry",
+      "DevComment": "热区-准备解锁"
+    },
+    "Event.HotZone.Work": {
+      "Tag": "Event.HotZone.Work",
+      "DevComment": "热区-解锁"
+    },
+    "Event.HotZone.Death": {
+      "Tag": "Event.HotZone.Death",
+      "DevComment": "热区-关闭"
+    },
+    "Event.HotZone.PlayerEnter": {
+      "Tag": "Event.HotZone.PlayerEnter",
+      "DevComment": "玩家进入热区"
+    },
+    "Event.HotZone.PlayerLeave": {
+      "Tag": "Event.HotZone.PlayerLeave",
+      "DevComment": "玩家离开热区"
+    },
     "Event.HalfEnter.PlayerJoinGame": {
       "Tag": "Event.HalfEnter.PlayerJoinGame",
       "DevComment": "中途加入玩家加入对局"
     },
-    "Event.Summon.Spawn.Yvette.Q.Bear": {
-      "Tag": "Event.Summon.Spawn.Yvette.Q.Bear",
-      "DevComment": "伊维特Q的熊生成"
+    "Event.Score.CompositeScoreRankChange": {
+      "Tag": "Event.Score.CompositeScoreRankChange",
+      "DevComment": "表现分排名变化"
     },
-    "Event.Summon.Destroy.Yvette.Q.Bear": {
-      "Tag": "Event.Summon.Destroy.Yvette.Q.Bear",
-      "DevComment": "伊维特Q的熊销毁"
+    "Event.Guide.SpawnActorOfWidgetAttach": {
+      "Tag": "Event.Guide.SpawnActorOfWidgetAttach",
+      "DevComment": "引导-UI-Attach的ActorSpawn"
+    },
+    "Event.Weapon.Equip.Begin.Flavia.Q": {
+      "Tag": "Event.Weapon.Equip.Begin.Flavia.Q",
+      "DevComment": "芙拉薇娅Q武器装备事件"
     },
     "Event.GameState.FightSecond.PreBegin": {
       "Tag": "Event.GameState.FightSecond.PreBegin",
@@ -3489,6 +3529,26 @@
     "Event.GameState.FightFifth.Ended": {
       "Tag": "Event.GameState.FightFifth.Ended",
       "DevComment": "游戏状态-游戏战斗阶段5结束后"
+    },
+    "Event.Summon.Spawn.Yvette.Q.Bear": {
+      "Tag": "Event.Summon.Spawn.Yvette.Q.Bear",
+      "DevComment": "伊维特Q的熊生成"
+    },
+    "Event.Summon.Destroy.Yvette.Q.Bear": {
+      "Tag": "Event.Summon.Destroy.Yvette.Q.Bear",
+      "DevComment": "伊维特Q的熊销毁"
+    },
+    "Event.Summon.Spawn.Audery.X.Projectile": {
+      "Tag": "Event.Summon.Spawn.Audery.X.Projectile",
+      "DevComment": "奥黛丽大招技能子弹出生"
+    },
+    "Event.CauseDamage.System.Card": {
+      "Tag": "Event.CauseDamage.System.Card",
+      "DevComment": "由卡牌引起的伤害"
+    },
+    "Event.Card.10013037": {
+      "Tag": "Event.Card.10013037",
+      "DevComment": "卡牌10013037事件"
     }
   }
 }

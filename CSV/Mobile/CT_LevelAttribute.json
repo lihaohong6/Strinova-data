@@ -3065,7 +3065,7 @@
       "PreInfinityExtrap": "RCCE_Constant",
       "PostInfinityExtrap": "RCCE_Constant"
     },
-    "Attribute.Damage.Set.Explode.Q.Ming": {
+    "Attribute.ArmorDamage.Set.Explode.Q.Ming": {
       "InterpMode": "RCIM_Linear",
       "Keys": [
         {
@@ -3101,7 +3101,7 @@
       "PreInfinityExtrap": "RCCE_Constant",
       "PostInfinityExtrap": "RCCE_Constant"
     },
-    "Attribute.Damage.Set.Infinity.Q.Ming": {
+    "Attribute.ArmorDamage.Set.Infinity.Q.Ming": {
       "InterpMode": "RCIM_Linear",
       "Keys": [
         {
@@ -4361,7 +4361,43 @@
       "PreInfinityExtrap": "RCCE_Constant",
       "PostInfinityExtrap": "RCCE_Constant"
     },
-    "Attribute.ExtraArmor.Add.X.Huixing": {
+    "Attribute.ExtraArmor.Add.X.Team.Huixing": {
+      "InterpMode": "RCIM_Linear",
+      "Keys": [
+        {
+          "Time": 0.0,
+          "Value": 100.0
+        },
+        {
+          "Time": 1.0,
+          "Value": 100.0
+        },
+        {
+          "Time": 2.0,
+          "Value": 100.0
+        },
+        {
+          "Time": 3.0,
+          "Value": 100.0
+        },
+        {
+          "Time": 16.0,
+          "Value": 100.0
+        },
+        {
+          "Time": 32.0,
+          "Value": 100.0
+        },
+        {
+          "Time": 64.0,
+          "Value": 100.0
+        }
+      ],
+      "DefaultValue": 3.4028235E+38,
+      "PreInfinityExtrap": "RCCE_Constant",
+      "PostInfinityExtrap": "RCCE_Constant"
+    },
+    "Attribute.ExtraArmor.Add.X.Self.Huixing": {
       "InterpMode": "RCIM_Linear",
       "Keys": [
         {
@@ -16925,42 +16961,6 @@
       "PreInfinityExtrap": "RCCE_Constant",
       "PostInfinityExtrap": "RCCE_Constant"
     },
-    "Duration.SpeedFactor.E.Fuchsia": {
-      "InterpMode": "RCIM_Linear",
-      "Keys": [
-        {
-          "Time": 0.0,
-          "Value": 1.0
-        },
-        {
-          "Time": 1.0,
-          "Value": 1.0
-        },
-        {
-          "Time": 2.0,
-          "Value": 1.0
-        },
-        {
-          "Time": 3.0,
-          "Value": 1.0
-        },
-        {
-          "Time": 16.0,
-          "Value": 1.0
-        },
-        {
-          "Time": 32.0,
-          "Value": 1.0
-        },
-        {
-          "Time": 64.0,
-          "Value": 1.0
-        }
-      ],
-      "DefaultValue": 3.4028235E+38,
-      "PreInfinityExtrap": "RCCE_Constant",
-      "PostInfinityExtrap": "RCCE_Constant"
-    },
     "Duration.Actuator.DeathState.E.Galatea": {
       "InterpMode": "RCIM_Linear",
       "Keys": [
@@ -17351,6 +17351,42 @@
         {
           "Time": 64.0,
           "Value": 0.0
+        }
+      ],
+      "DefaultValue": 3.4028235E+38,
+      "PreInfinityExtrap": "RCCE_Constant",
+      "PostInfinityExtrap": "RCCE_Constant"
+    },
+    "Duration.Death.Q.Summon.Kanami": {
+      "InterpMode": "RCIM_Linear",
+      "Keys": [
+        {
+          "Time": 0.0,
+          "Value": 1.0
+        },
+        {
+          "Time": 1.0,
+          "Value": 1.0
+        },
+        {
+          "Time": 2.0,
+          "Value": 1.0
+        },
+        {
+          "Time": 3.0,
+          "Value": 1.0
+        },
+        {
+          "Time": 16.0,
+          "Value": 1.0
+        },
+        {
+          "Time": 32.0,
+          "Value": 1.0
+        },
+        {
+          "Time": 64.0,
+          "Value": 1.0
         }
       ],
       "DefaultValue": 3.4028235E+38,

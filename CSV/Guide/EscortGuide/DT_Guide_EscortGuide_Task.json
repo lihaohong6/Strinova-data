@@ -1,0 +1,1313 @@
+{
+  "Type": "DataTable",
+  "Name": "DT_Guide_EscortGuide_Task",
+  "Class": "UScriptClass'DataTable'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "RowStruct": {
+      "ObjectName": "ScriptStruct'CyGuideTask'",
+      "ObjectPath": "/Script/PMGame"
+    }
+  },
+  "Rows": {
+    "1": {
+      "TaskId": 1,
+      "bShow": true,
+      "bGuideEnd": false,
+      "TaskText": {
+        "CultureInvariantString": null
+      },
+      "bPlotMode": false,
+      "PlotModeEndSmoothTime": 0.5,
+      "bPlotModeEndChangeViewRotation": false,
+      "PlotModeEndViewRotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      },
+      "bHideCharacter": false,
+      "bDisableInput": false,
+      "bDisableAllInput": false,
+      "TaskName": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_KeyMappingFormat.ST_KeyMappingFormat",
+        "Key": "EscortGuideTask1",
+        "SourceString": "欢迎来到极限推进模式教学，接下来你会学习如何完成护送任务",
+        "LocalizedString": "欢迎来到极限推进模式教学，接下来你会学习如何完成护送任务"
+      },
+      "AutoFinishDelay": -1.0,
+      "TaskCompleteStateTime": 1.0,
+      "RevivePointName": "None",
+      "TargetPointTag": "None",
+      "CharacterAnimMontage": null,
+      "BeginTaskEvents": [
+        {
+          "UniqueName": "11",
+          "EventGameplayTag": {
+            "TagName": "None"
+          },
+          "EventType": "ECyGuideEventType::GuideTask",
+          "WeaponEventType": "ECyGuideWeaponEventType::None",
+          "GuideStateType": "ECyGuideStateType::Begin",
+          "GuideTaskStateType": "ECyGuideTaskStateType::Finish",
+          "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
+          "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
+          "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
+          "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
+          "SequenceStateType": "ECySequenceStateType::None",
+          "ActionType": "ECyGuideActionType::None",
+          "MeshModeType": "EMeshModeType::Normal",
+          "GameStateType": "EGStateType::Guide",
+          "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
+        }
+      ],
+      "RelationUniqueNames": [],
+      "SequenceMap": [],
+      "EnabledGameFunctionConfig": {
+        "WeaponSlotTypes": [],
+        "AbilityInputIDs": [],
+        "GameUIFunctionTypes": [],
+        "GameUIFunctionPages": [],
+        "bNotAutoOpenGameUIFunctionPages": false
+      },
+      "DisableGameFunctionConfig": {
+        "WeaponSlotTypes": [],
+        "AbilityInputIDs": [],
+        "GameUIFunctionTypes": [],
+        "GameUIFunctionPages": [
+          "GrowthPage"
+        ],
+        "bNotAutoOpenGameUIFunctionPages": false
+      },
+      "CancelAllAbilityAndSummonTaskStates": [],
+      "SkillApplyConfig": {
+        "ApplyTargetActorType": "EActionApplyTargetActorType::None",
+        "SkillAddPointNum": []
+      },
+      "ShowActorTag": "None",
+      "HideActorTag": "None",
+      "SubTasks": [
+        {
+          "SubTaskId": 10001,
+          "bShow": true,
+          "bMustComplete": true,
+          "TaskName": "引导开始对话",
+          "InputKey": "ECyGuideInputKey::None",
+          "KeyText": {
+            "CultureInvariantString": null
+          },
+          "KeyActionData": {
+            "ActionName": "None",
+            "ActionGamePadName": "None",
+            "KeyBoardDefault": {
+              "KeyName": "None"
+            },
+            "GamePadDefault": {
+              "KeyName": "None"
+            },
+            "Scale": 0.0,
+            "IsAxisAction": false
+          },
+          "FormatInputKeyMap": [],
+          "Tips": [],
+          "TipsConfig": [],
+          "GamePadActionNames": [],
+          "SequenceMap": [],
+          "EndTaskEvents": [
+            {
+              "UniqueName": "101",
+              "EventGameplayTag": {
+                "TagName": "None"
+              },
+              "EventType": "ECyGuideEventType::GuideDialogue",
+              "WeaponEventType": "ECyGuideWeaponEventType::None",
+              "GuideStateType": "ECyGuideStateType::None",
+              "GuideTaskStateType": "ECyGuideTaskStateType::None",
+              "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
+              "GuideDialogueStateType": "ECyGuideDialogueStateType::End",
+              "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
+              "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
+              "SequenceStateType": "ECySequenceStateType::None",
+              "ActionType": "ECyGuideActionType::None",
+              "MeshModeType": "EMeshModeType::Normal",
+              "GameStateType": "EGStateType::None",
+              "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
+            }
+          ],
+          "FinishTaskNeedNum": 1,
+          "TaskState": "ECyGuideSubTaskStateType::None",
+          "FinishTaskNum": 0,
+          "StartTag": {
+            "TagName": "None"
+          },
+          "EndTag": {
+            "TagName": "None"
+          }
+        }
+      ],
+      "TaskState": "ECyGuideTaskStateType::None",
+      "StartTag": {
+        "TagName": "None"
+      },
+      "EndTag": {
+        "TagName": "None"
+      },
+      "InputKey": "ECyGuideInputKey::None",
+      "KeyText": {
+        "CultureInvariantString": null
+      },
+      "KeyActionData": {
+        "ActionName": "None",
+        "ActionGamePadName": "None",
+        "KeyBoardDefault": {
+          "KeyName": "None"
+        },
+        "GamePadDefault": {
+          "KeyName": "None"
+        },
+        "Scale": 0.0,
+        "IsAxisAction": false
+      }
+    },
+    "2": {
+      "TaskId": 2,
+      "bShow": true,
+      "bGuideEnd": false,
+      "TaskText": {
+        "CultureInvariantString": null
+      },
+      "bPlotMode": false,
+      "PlotModeEndSmoothTime": 0.5,
+      "bPlotModeEndChangeViewRotation": false,
+      "PlotModeEndViewRotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      },
+      "bHideCharacter": false,
+      "bDisableInput": false,
+      "bDisableAllInput": false,
+      "TaskName": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_KeyMappingFormat.ST_KeyMappingFormat",
+        "Key": "EscortGuideOpenGrowthPage",
+        "SourceString": "按【{0}】进入弦能增幅界面，强化护甲吧~",
+        "LocalizedString": "按【{0}】进入弦能增幅界面，强化护甲吧~"
+      },
+      "AutoFinishDelay": -1.0,
+      "TaskCompleteStateTime": 0.0,
+      "RevivePointName": "None",
+      "TargetPointTag": "None",
+      "CharacterAnimMontage": null,
+      "BeginTaskEvents": [
+        {
+          "UniqueName": "1",
+          "EventGameplayTag": {
+            "TagName": "None"
+          },
+          "EventType": "ECyGuideEventType::GuideTask",
+          "WeaponEventType": "ECyGuideWeaponEventType::None",
+          "GuideStateType": "ECyGuideStateType::None",
+          "GuideTaskStateType": "ECyGuideTaskStateType::Finish",
+          "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
+          "GuideDialogueStateType": "ECyGuideDialogueStateType::End",
+          "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
+          "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
+          "SequenceStateType": "ECySequenceStateType::None",
+          "ActionType": "ECyGuideActionType::None",
+          "MeshModeType": "EMeshModeType::Normal",
+          "GameStateType": "EGStateType::None",
+          "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
+        }
+      ],
+      "RelationUniqueNames": [],
+      "SequenceMap": [],
+      "EnabledGameFunctionConfig": {
+        "WeaponSlotTypes": [],
+        "AbilityInputIDs": [],
+        "GameUIFunctionTypes": [],
+        "GameUIFunctionPages": [
+          "GrowthPage"
+        ],
+        "bNotAutoOpenGameUIFunctionPages": true
+      },
+      "DisableGameFunctionConfig": {
+        "WeaponSlotTypes": [],
+        "AbilityInputIDs": [],
+        "GameUIFunctionTypes": [],
+        "GameUIFunctionPages": [],
+        "bNotAutoOpenGameUIFunctionPages": false
+      },
+      "CancelAllAbilityAndSummonTaskStates": [],
+      "SkillApplyConfig": {
+        "ApplyTargetActorType": "EActionApplyTargetActorType::None",
+        "SkillAddPointNum": []
+      },
+      "ShowActorTag": "None",
+      "HideActorTag": "None",
+      "SubTasks": [
+        {
+          "SubTaskId": 10002,
+          "bShow": true,
+          "bMustComplete": false,
+          "TaskName": "",
+          "InputKey": "ECyGuideInputKey::None",
+          "KeyText": {
+            "CultureInvariantString": null
+          },
+          "KeyActionData": {
+            "ActionName": "None",
+            "ActionGamePadName": "None",
+            "KeyBoardDefault": {
+              "KeyName": "None"
+            },
+            "GamePadDefault": {
+              "KeyName": "None"
+            },
+            "Scale": 0.0,
+            "IsAxisAction": false
+          },
+          "FormatInputKeyMap": [],
+          "Tips": [],
+          "TipsConfig": [],
+          "GamePadActionNames": [],
+          "SequenceMap": [],
+          "EndTaskEvents": [
+            {
+              "UniqueName": "None",
+              "EventGameplayTag": {
+                "TagName": "None"
+              },
+              "EventType": "ECyGuideEventType::GameState",
+              "WeaponEventType": "ECyGuideWeaponEventType::None",
+              "GuideStateType": "ECyGuideStateType::None",
+              "GuideTaskStateType": "ECyGuideTaskStateType::None",
+              "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
+              "GuideDialogueStateType": "ECyGuideDialogueStateType::End",
+              "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
+              "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
+              "SequenceStateType": "ECySequenceStateType::None",
+              "ActionType": "ECyGuideActionType::None",
+              "MeshModeType": "EMeshModeType::Normal",
+              "GameStateType": "EGStateType::Fight",
+              "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
+            }
+          ],
+          "FinishTaskNeedNum": 0,
+          "TaskState": "ECyGuideSubTaskStateType::None",
+          "FinishTaskNum": 0,
+          "StartTag": {
+            "TagName": "None"
+          },
+          "EndTag": {
+            "TagName": "None"
+          }
+        }
+      ],
+      "TaskState": "ECyGuideTaskStateType::None",
+      "StartTag": {
+        "TagName": "None"
+      },
+      "EndTag": {
+        "TagName": "None"
+      },
+      "InputKey": "ECyGuideInputKey::Growth",
+      "KeyText": {
+        "CultureInvariantString": null
+      },
+      "KeyActionData": {
+        "ActionName": "None",
+        "ActionGamePadName": "None",
+        "KeyBoardDefault": {
+          "KeyName": "None"
+        },
+        "GamePadDefault": {
+          "KeyName": "None"
+        },
+        "Scale": 0.0,
+        "IsAxisAction": false
+      }
+    },
+    "3": {
+      "TaskId": 3,
+      "bShow": true,
+      "bGuideEnd": false,
+      "TaskText": {
+        "CultureInvariantString": null
+      },
+      "bPlotMode": false,
+      "PlotModeEndSmoothTime": 0.5,
+      "bPlotModeEndChangeViewRotation": false,
+      "PlotModeEndViewRotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      },
+      "bHideCharacter": false,
+      "bDisableInput": false,
+      "bDisableAllInput": false,
+      "TaskName": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_KeyMappingFormat.ST_KeyMappingFormat",
+        "Key": "EscortGuideTask3",
+        "SourceString": "根据地面指示线，前往护送载具吧~",
+        "LocalizedString": "根据地面指示线，前往护送载具吧~"
+      },
+      "AutoFinishDelay": -1.0,
+      "TaskCompleteStateTime": 0.0,
+      "RevivePointName": "None",
+      "TargetPointTag": "None",
+      "CharacterAnimMontage": null,
+      "BeginTaskEvents": [
+        {
+          "UniqueName": "2",
+          "EventGameplayTag": {
+            "TagName": "None"
+          },
+          "EventType": "ECyGuideEventType::GuideTask",
+          "WeaponEventType": "ECyGuideWeaponEventType::None",
+          "GuideStateType": "ECyGuideStateType::None",
+          "GuideTaskStateType": "ECyGuideTaskStateType::Finish",
+          "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
+          "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
+          "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
+          "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
+          "SequenceStateType": "ECySequenceStateType::None",
+          "ActionType": "ECyGuideActionType::None",
+          "MeshModeType": "EMeshModeType::Normal",
+          "GameStateType": "EGStateType::Fight",
+          "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
+        }
+      ],
+      "RelationUniqueNames": [],
+      "SequenceMap": [],
+      "EnabledGameFunctionConfig": {
+        "WeaponSlotTypes": [],
+        "AbilityInputIDs": [],
+        "GameUIFunctionTypes": [],
+        "GameUIFunctionPages": [],
+        "bNotAutoOpenGameUIFunctionPages": false
+      },
+      "DisableGameFunctionConfig": {
+        "WeaponSlotTypes": [],
+        "AbilityInputIDs": [],
+        "GameUIFunctionTypes": [],
+        "GameUIFunctionPages": [],
+        "bNotAutoOpenGameUIFunctionPages": false
+      },
+      "CancelAllAbilityAndSummonTaskStates": [],
+      "SkillApplyConfig": {
+        "ApplyTargetActorType": "EActionApplyTargetActorType::None",
+        "SkillAddPointNum": []
+      },
+      "ShowActorTag": "None",
+      "HideActorTag": "None",
+      "SubTasks": [
+        {
+          "SubTaskId": 0,
+          "bShow": true,
+          "bMustComplete": false,
+          "TaskName": "",
+          "InputKey": "ECyGuideInputKey::None",
+          "KeyText": {
+            "CultureInvariantString": null
+          },
+          "KeyActionData": {
+            "ActionName": "None",
+            "ActionGamePadName": "None",
+            "KeyBoardDefault": {
+              "KeyName": "None"
+            },
+            "GamePadDefault": {
+              "KeyName": "None"
+            },
+            "Scale": 0.0,
+            "IsAxisAction": false
+          },
+          "FormatInputKeyMap": [],
+          "Tips": [],
+          "TipsConfig": [],
+          "GamePadActionNames": [],
+          "SequenceMap": [],
+          "EndTaskEvents": [
+            {
+              "UniqueName": "3",
+              "EventGameplayTag": {
+                "TagName": "None"
+              },
+              "EventType": "ECyGuideEventType::GuideTriggerArea",
+              "WeaponEventType": "ECyGuideWeaponEventType::None",
+              "GuideStateType": "ECyGuideStateType::None",
+              "GuideTaskStateType": "ECyGuideTaskStateType::None",
+              "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
+              "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
+              "GuideTriggerAreaType": "ECyGuideTriggerAreaType::EndTask",
+              "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
+              "SequenceStateType": "ECySequenceStateType::None",
+              "ActionType": "ECyGuideActionType::None",
+              "MeshModeType": "EMeshModeType::Normal",
+              "GameStateType": "EGStateType::None",
+              "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
+            }
+          ],
+          "FinishTaskNeedNum": 0,
+          "TaskState": "ECyGuideSubTaskStateType::None",
+          "FinishTaskNum": 0,
+          "StartTag": {
+            "TagName": "None"
+          },
+          "EndTag": {
+            "TagName": "None"
+          }
+        }
+      ],
+      "TaskState": "ECyGuideTaskStateType::None",
+      "StartTag": {
+        "TagName": "None"
+      },
+      "EndTag": {
+        "TagName": "None"
+      },
+      "InputKey": "ECyGuideInputKey::None",
+      "KeyText": {
+        "CultureInvariantString": null
+      },
+      "KeyActionData": {
+        "ActionName": "None",
+        "ActionGamePadName": "None",
+        "KeyBoardDefault": {
+          "KeyName": "None"
+        },
+        "GamePadDefault": {
+          "KeyName": "None"
+        },
+        "Scale": 0.0,
+        "IsAxisAction": false
+      }
+    },
+    "4": {
+      "TaskId": 4,
+      "bShow": true,
+      "bGuideEnd": false,
+      "TaskText": {
+        "CultureInvariantString": null
+      },
+      "bPlotMode": false,
+      "PlotModeEndSmoothTime": 0.5,
+      "bPlotModeEndChangeViewRotation": false,
+      "PlotModeEndViewRotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      },
+      "bHideCharacter": false,
+      "bDisableInput": false,
+      "bDisableAllInput": false,
+      "TaskName": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_KeyMappingFormat.ST_KeyMappingFormat",
+        "Key": "EscortGuideTask4",
+        "SourceString": "靠近车辆范围，车辆会自动前行，上方会显示当前护送进度",
+        "LocalizedString": "靠近车辆范围，车辆会自动前行，上方会显示当前护送进度"
+      },
+      "AutoFinishDelay": 99999.0,
+      "TaskCompleteStateTime": 0.0,
+      "RevivePointName": "None",
+      "TargetPointTag": "None",
+      "CharacterAnimMontage": null,
+      "BeginTaskEvents": [
+        {
+          "UniqueName": "3",
+          "EventGameplayTag": {
+            "TagName": "None"
+          },
+          "EventType": "ECyGuideEventType::GuideTask",
+          "WeaponEventType": "ECyGuideWeaponEventType::None",
+          "GuideStateType": "ECyGuideStateType::None",
+          "GuideTaskStateType": "ECyGuideTaskStateType::End",
+          "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
+          "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
+          "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
+          "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
+          "SequenceStateType": "ECySequenceStateType::None",
+          "ActionType": "ECyGuideActionType::None",
+          "MeshModeType": "EMeshModeType::Normal",
+          "GameStateType": "EGStateType::None",
+          "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
+        }
+      ],
+      "RelationUniqueNames": [],
+      "SequenceMap": [],
+      "EnabledGameFunctionConfig": {
+        "WeaponSlotTypes": [],
+        "AbilityInputIDs": [],
+        "GameUIFunctionTypes": [],
+        "GameUIFunctionPages": [],
+        "bNotAutoOpenGameUIFunctionPages": false
+      },
+      "DisableGameFunctionConfig": {
+        "WeaponSlotTypes": [],
+        "AbilityInputIDs": [],
+        "GameUIFunctionTypes": [],
+        "GameUIFunctionPages": [],
+        "bNotAutoOpenGameUIFunctionPages": false
+      },
+      "CancelAllAbilityAndSummonTaskStates": [],
+      "SkillApplyConfig": {
+        "ApplyTargetActorType": "EActionApplyTargetActorType::None",
+        "SkillAddPointNum": []
+      },
+      "ShowActorTag": "None",
+      "HideActorTag": "None",
+      "SubTasks": [
+        {
+          "SubTaskId": 42,
+          "bShow": true,
+          "bMustComplete": true,
+          "TaskName": "载具移动10m",
+          "InputKey": "ECyGuideInputKey::None",
+          "KeyText": {
+            "CultureInvariantString": null
+          },
+          "KeyActionData": {
+            "ActionName": "None",
+            "ActionGamePadName": "None",
+            "KeyBoardDefault": {
+              "KeyName": "None"
+            },
+            "GamePadDefault": {
+              "KeyName": "None"
+            },
+            "Scale": 0.0,
+            "IsAxisAction": false
+          },
+          "FormatInputKeyMap": [],
+          "Tips": [],
+          "TipsConfig": [],
+          "GamePadActionNames": [],
+          "SequenceMap": [],
+          "EndTaskEvents": [],
+          "FinishTaskNeedNum": 1,
+          "TaskState": "ECyGuideSubTaskStateType::None",
+          "FinishTaskNum": 0,
+          "StartTag": {
+            "TagName": "None"
+          },
+          "EndTag": {
+            "TagName": "None"
+          }
+        }
+      ],
+      "TaskState": "ECyGuideTaskStateType::None",
+      "StartTag": {
+        "TagName": "None"
+      },
+      "EndTag": {
+        "TagName": "None"
+      },
+      "InputKey": "ECyGuideInputKey::None",
+      "KeyText": {
+        "CultureInvariantString": null
+      },
+      "KeyActionData": {
+        "ActionName": "None",
+        "ActionGamePadName": "None",
+        "KeyBoardDefault": {
+          "KeyName": "None"
+        },
+        "GamePadDefault": {
+          "KeyName": "None"
+        },
+        "Scale": 0.0,
+        "IsAxisAction": false
+      }
+    },
+    "5": {
+      "TaskId": 5,
+      "bShow": true,
+      "bGuideEnd": false,
+      "TaskText": {
+        "CultureInvariantString": null
+      },
+      "bPlotMode": false,
+      "PlotModeEndSmoothTime": 0.5,
+      "bPlotModeEndChangeViewRotation": false,
+      "PlotModeEndViewRotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      },
+      "bHideCharacter": false,
+      "bDisableInput": false,
+      "bDisableAllInput": false,
+      "TaskName": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_KeyMappingFormat.ST_KeyMappingFormat",
+        "Key": "EscortGuideTask5",
+        "SourceString": "当你弦化贴到车上时，可获得恢复效果",
+        "LocalizedString": "当你弦化贴到车上时，可获得恢复效果"
+      },
+      "AutoFinishDelay": 99999.0,
+      "TaskCompleteStateTime": 0.0,
+      "RevivePointName": "None",
+      "TargetPointTag": "None",
+      "CharacterAnimMontage": null,
+      "BeginTaskEvents": [
+        {
+          "UniqueName": "4",
+          "EventGameplayTag": {
+            "TagName": "None"
+          },
+          "EventType": "ECyGuideEventType::GuideTask",
+          "WeaponEventType": "ECyGuideWeaponEventType::None",
+          "GuideStateType": "ECyGuideStateType::None",
+          "GuideTaskStateType": "ECyGuideTaskStateType::End",
+          "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
+          "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
+          "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
+          "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
+          "SequenceStateType": "ECySequenceStateType::None",
+          "ActionType": "ECyGuideActionType::None",
+          "MeshModeType": "EMeshModeType::Normal",
+          "GameStateType": "EGStateType::None",
+          "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
+        }
+      ],
+      "RelationUniqueNames": [],
+      "SequenceMap": [],
+      "EnabledGameFunctionConfig": {
+        "WeaponSlotTypes": [],
+        "AbilityInputIDs": [],
+        "GameUIFunctionTypes": [],
+        "GameUIFunctionPages": [],
+        "bNotAutoOpenGameUIFunctionPages": false
+      },
+      "DisableGameFunctionConfig": {
+        "WeaponSlotTypes": [],
+        "AbilityInputIDs": [],
+        "GameUIFunctionTypes": [],
+        "GameUIFunctionPages": [],
+        "bNotAutoOpenGameUIFunctionPages": false
+      },
+      "CancelAllAbilityAndSummonTaskStates": [],
+      "SkillApplyConfig": {
+        "ApplyTargetActorType": "EActionApplyTargetActorType::None",
+        "SkillAddPointNum": []
+      },
+      "ShowActorTag": "WallToPayloadTips",
+      "HideActorTag": "None",
+      "SubTasks": [],
+      "TaskState": "ECyGuideTaskStateType::None",
+      "StartTag": {
+        "TagName": "None"
+      },
+      "EndTag": {
+        "TagName": "None"
+      },
+      "InputKey": "ECyGuideInputKey::None",
+      "KeyText": {
+        "CultureInvariantString": null
+      },
+      "KeyActionData": {
+        "ActionName": "None",
+        "ActionGamePadName": "None",
+        "KeyBoardDefault": {
+          "KeyName": "None"
+        },
+        "GamePadDefault": {
+          "KeyName": "None"
+        },
+        "Scale": 0.0,
+        "IsAxisAction": false
+      }
+    },
+    "6": {
+      "TaskId": 6,
+      "bShow": false,
+      "bGuideEnd": false,
+      "TaskText": {
+        "CultureInvariantString": null
+      },
+      "bPlotMode": false,
+      "PlotModeEndSmoothTime": 0.5,
+      "bPlotModeEndChangeViewRotation": false,
+      "PlotModeEndViewRotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      },
+      "bHideCharacter": false,
+      "bDisableInput": false,
+      "bDisableAllInput": false,
+      "TaskName": {
+        "Namespace": "",
+        "Key": "800F69764FE3FEFAD21FFE8C4C6A06A3",
+        "SourceString": "贴墙Buff",
+        "LocalizedString": "贴墙Buff"
+      },
+      "AutoFinishDelay": 5.0,
+      "TaskCompleteStateTime": 0.0,
+      "RevivePointName": "None",
+      "TargetPointTag": "None",
+      "CharacterAnimMontage": null,
+      "BeginTaskEvents": [
+        {
+          "UniqueName": "5",
+          "EventGameplayTag": {
+            "TagName": "None"
+          },
+          "EventType": "ECyGuideEventType::GuideTask",
+          "WeaponEventType": "ECyGuideWeaponEventType::None",
+          "GuideStateType": "ECyGuideStateType::None",
+          "GuideTaskStateType": "ECyGuideTaskStateType::End",
+          "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
+          "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
+          "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
+          "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
+          "SequenceStateType": "ECySequenceStateType::None",
+          "ActionType": "ECyGuideActionType::None",
+          "MeshModeType": "EMeshModeType::Normal",
+          "GameStateType": "EGStateType::None",
+          "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
+        }
+      ],
+      "RelationUniqueNames": [],
+      "SequenceMap": [],
+      "EnabledGameFunctionConfig": {
+        "WeaponSlotTypes": [],
+        "AbilityInputIDs": [],
+        "GameUIFunctionTypes": [],
+        "GameUIFunctionPages": [],
+        "bNotAutoOpenGameUIFunctionPages": false
+      },
+      "DisableGameFunctionConfig": {
+        "WeaponSlotTypes": [],
+        "AbilityInputIDs": [],
+        "GameUIFunctionTypes": [],
+        "GameUIFunctionPages": [],
+        "bNotAutoOpenGameUIFunctionPages": false
+      },
+      "CancelAllAbilityAndSummonTaskStates": [],
+      "SkillApplyConfig": {
+        "ApplyTargetActorType": "EActionApplyTargetActorType::None",
+        "SkillAddPointNum": []
+      },
+      "ShowActorTag": "None",
+      "HideActorTag": "WallToPayloadTips",
+      "SubTasks": [],
+      "TaskState": "ECyGuideTaskStateType::None",
+      "StartTag": {
+        "TagName": "None"
+      },
+      "EndTag": {
+        "TagName": "None"
+      },
+      "InputKey": "ECyGuideInputKey::None",
+      "KeyText": {
+        "CultureInvariantString": null
+      },
+      "KeyActionData": {
+        "ActionName": "None",
+        "ActionGamePadName": "None",
+        "KeyBoardDefault": {
+          "KeyName": "None"
+        },
+        "GamePadDefault": {
+          "KeyName": "None"
+        },
+        "Scale": 0.0,
+        "IsAxisAction": false
+      }
+    },
+    "7": {
+      "TaskId": 7,
+      "bShow": true,
+      "bGuideEnd": false,
+      "TaskText": {
+        "CultureInvariantString": null
+      },
+      "bPlotMode": false,
+      "PlotModeEndSmoothTime": 0.5,
+      "bPlotModeEndChangeViewRotation": false,
+      "PlotModeEndViewRotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      },
+      "bHideCharacter": false,
+      "bDisableInput": false,
+      "bDisableAllInput": false,
+      "TaskName": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_KeyMappingFormat.ST_KeyMappingFormat",
+        "Key": "EscortGuideUseSkillTask_1",
+        "SourceString": "按【{0}】架设机枪",
+        "LocalizedString": "按【{0}】架设机枪"
+      },
+      "AutoFinishDelay": 99999.0,
+      "TaskCompleteStateTime": 0.0,
+      "RevivePointName": "None",
+      "TargetPointTag": "None",
+      "CharacterAnimMontage": null,
+      "BeginTaskEvents": [
+        {
+          "UniqueName": "10",
+          "EventGameplayTag": {
+            "TagName": "None"
+          },
+          "EventType": "ECyGuideEventType::GuideTask",
+          "WeaponEventType": "ECyGuideWeaponEventType::None",
+          "GuideStateType": "ECyGuideStateType::None",
+          "GuideTaskStateType": "ECyGuideTaskStateType::End",
+          "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
+          "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
+          "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
+          "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
+          "SequenceStateType": "ECySequenceStateType::None",
+          "ActionType": "ECyGuideActionType::None",
+          "MeshModeType": "EMeshModeType::Normal",
+          "GameStateType": "EGStateType::None",
+          "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
+        }
+      ],
+      "RelationUniqueNames": [],
+      "SequenceMap": [],
+      "EnabledGameFunctionConfig": {
+        "WeaponSlotTypes": [],
+        "AbilityInputIDs": [],
+        "GameUIFunctionTypes": [],
+        "GameUIFunctionPages": [],
+        "bNotAutoOpenGameUIFunctionPages": false
+      },
+      "DisableGameFunctionConfig": {
+        "WeaponSlotTypes": [],
+        "AbilityInputIDs": [],
+        "GameUIFunctionTypes": [],
+        "GameUIFunctionPages": [],
+        "bNotAutoOpenGameUIFunctionPages": false
+      },
+      "CancelAllAbilityAndSummonTaskStates": [],
+      "SkillApplyConfig": {
+        "ApplyTargetActorType": "EActionApplyTargetActorType::None",
+        "SkillAddPointNum": []
+      },
+      "ShowActorTag": "None",
+      "HideActorTag": "None",
+      "SubTasks": [],
+      "TaskState": "ECyGuideTaskStateType::None",
+      "StartTag": {
+        "TagName": "None"
+      },
+      "EndTag": {
+        "TagName": "None"
+      },
+      "InputKey": "ECyGuideInputKey::SkillQ",
+      "KeyText": {
+        "CultureInvariantString": null
+      },
+      "KeyActionData": {
+        "ActionName": "None",
+        "ActionGamePadName": "None",
+        "KeyBoardDefault": {
+          "KeyName": "None"
+        },
+        "GamePadDefault": {
+          "KeyName": "None"
+        },
+        "Scale": 0.0,
+        "IsAxisAction": false
+      }
+    },
+    "8": {
+      "TaskId": 8,
+      "bShow": true,
+      "bGuideEnd": false,
+      "TaskText": {
+        "CultureInvariantString": null
+      },
+      "bPlotMode": false,
+      "PlotModeEndSmoothTime": 0.5,
+      "bPlotModeEndChangeViewRotation": false,
+      "PlotModeEndViewRotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      },
+      "bHideCharacter": false,
+      "bDisableInput": false,
+      "bDisableAllInput": false,
+      "TaskName": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_KeyMappingFormat.ST_KeyMappingFormat",
+        "Key": "EscortGuideUseSkillTask_2",
+        "SourceString": "按【{0}】激活绝招-狂轰滥炸！",
+        "LocalizedString": "按【{0}】激活绝招-狂轰滥炸！"
+      },
+      "AutoFinishDelay": 99999.0,
+      "TaskCompleteStateTime": 0.0,
+      "RevivePointName": "None",
+      "TargetPointTag": "None",
+      "CharacterAnimMontage": null,
+      "BeginTaskEvents": [
+        {
+          "UniqueName": "7",
+          "EventGameplayTag": {
+            "TagName": "None"
+          },
+          "EventType": "ECyGuideEventType::GuideTask",
+          "WeaponEventType": "ECyGuideWeaponEventType::None",
+          "GuideStateType": "ECyGuideStateType::None",
+          "GuideTaskStateType": "ECyGuideTaskStateType::End",
+          "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
+          "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
+          "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
+          "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
+          "SequenceStateType": "ECySequenceStateType::None",
+          "ActionType": "ECyGuideActionType::None",
+          "MeshModeType": "EMeshModeType::Normal",
+          "GameStateType": "EGStateType::None",
+          "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
+        }
+      ],
+      "RelationUniqueNames": [],
+      "SequenceMap": [],
+      "EnabledGameFunctionConfig": {
+        "WeaponSlotTypes": [],
+        "AbilityInputIDs": [],
+        "GameUIFunctionTypes": [],
+        "GameUIFunctionPages": [],
+        "bNotAutoOpenGameUIFunctionPages": false
+      },
+      "DisableGameFunctionConfig": {
+        "WeaponSlotTypes": [],
+        "AbilityInputIDs": [],
+        "GameUIFunctionTypes": [],
+        "GameUIFunctionPages": [],
+        "bNotAutoOpenGameUIFunctionPages": false
+      },
+      "CancelAllAbilityAndSummonTaskStates": [],
+      "SkillApplyConfig": {
+        "ApplyTargetActorType": "EActionApplyTargetActorType::LocalPlayer",
+        "SkillAddPointNum": [
+          {
+            "Key": "ECyPlayerSkillType::X",
+            "Value": 9999
+          }
+        ]
+      },
+      "ShowActorTag": "None",
+      "HideActorTag": "None",
+      "SubTasks": [],
+      "TaskState": "ECyGuideTaskStateType::None",
+      "StartTag": {
+        "TagName": "None"
+      },
+      "EndTag": {
+        "TagName": "None"
+      },
+      "InputKey": "ECyGuideInputKey::SkillX",
+      "KeyText": {
+        "CultureInvariantString": null
+      },
+      "KeyActionData": {
+        "ActionName": "None",
+        "ActionGamePadName": "None",
+        "KeyBoardDefault": {
+          "KeyName": "None"
+        },
+        "GamePadDefault": {
+          "KeyName": "None"
+        },
+        "Scale": 0.0,
+        "IsAxisAction": false
+      }
+    },
+    "9": {
+      "TaskId": 9,
+      "bShow": true,
+      "bGuideEnd": true,
+      "TaskText": {
+        "CultureInvariantString": null
+      },
+      "bPlotMode": false,
+      "PlotModeEndSmoothTime": 0.5,
+      "bPlotModeEndChangeViewRotation": false,
+      "PlotModeEndViewRotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      },
+      "bHideCharacter": false,
+      "bDisableInput": false,
+      "bDisableAllInput": false,
+      "TaskName": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_KeyMappingFormat.ST_KeyMappingFormat",
+        "Key": "EscortGuideTask9",
+        "SourceString": "胜利就在眼前，载具到达前方蓝色检查点即可获胜！",
+        "LocalizedString": "胜利就在眼前，载具到达前方蓝色检查点即可获胜！"
+      },
+      "AutoFinishDelay": 99999.0,
+      "TaskCompleteStateTime": 0.0,
+      "RevivePointName": "None",
+      "TargetPointTag": "None",
+      "CharacterAnimMontage": null,
+      "BeginTaskEvents": [
+        {
+          "UniqueName": "8",
+          "EventGameplayTag": {
+            "TagName": "None"
+          },
+          "EventType": "ECyGuideEventType::GuideTask",
+          "WeaponEventType": "ECyGuideWeaponEventType::None",
+          "GuideStateType": "ECyGuideStateType::None",
+          "GuideTaskStateType": "ECyGuideTaskStateType::End",
+          "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
+          "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
+          "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
+          "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
+          "SequenceStateType": "ECySequenceStateType::None",
+          "ActionType": "ECyGuideActionType::None",
+          "MeshModeType": "EMeshModeType::Normal",
+          "GameStateType": "EGStateType::None",
+          "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
+        }
+      ],
+      "RelationUniqueNames": [],
+      "SequenceMap": [],
+      "EnabledGameFunctionConfig": {
+        "WeaponSlotTypes": [],
+        "AbilityInputIDs": [],
+        "GameUIFunctionTypes": [],
+        "GameUIFunctionPages": [],
+        "bNotAutoOpenGameUIFunctionPages": false
+      },
+      "DisableGameFunctionConfig": {
+        "WeaponSlotTypes": [],
+        "AbilityInputIDs": [],
+        "GameUIFunctionTypes": [],
+        "GameUIFunctionPages": [],
+        "bNotAutoOpenGameUIFunctionPages": false
+      },
+      "CancelAllAbilityAndSummonTaskStates": [],
+      "SkillApplyConfig": {
+        "ApplyTargetActorType": "EActionApplyTargetActorType::None",
+        "SkillAddPointNum": []
+      },
+      "ShowActorTag": "None",
+      "HideActorTag": "None",
+      "SubTasks": [],
+      "TaskState": "ECyGuideTaskStateType::None",
+      "StartTag": {
+        "TagName": "None"
+      },
+      "EndTag": {
+        "TagName": "None"
+      },
+      "InputKey": "ECyGuideInputKey::None",
+      "KeyText": {
+        "CultureInvariantString": null
+      },
+      "KeyActionData": {
+        "ActionName": "None",
+        "ActionGamePadName": "None",
+        "KeyBoardDefault": {
+          "KeyName": "None"
+        },
+        "GamePadDefault": {
+          "KeyName": "None"
+        },
+        "Scale": 0.0,
+        "IsAxisAction": false
+      }
+    },
+    "10": {
+      "TaskId": 10,
+      "bShow": true,
+      "bGuideEnd": false,
+      "TaskText": {
+        "CultureInvariantString": null
+      },
+      "bPlotMode": false,
+      "PlotModeEndSmoothTime": 0.5,
+      "bPlotModeEndChangeViewRotation": false,
+      "PlotModeEndViewRotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      },
+      "bHideCharacter": false,
+      "bDisableInput": false,
+      "bDisableAllInput": false,
+      "TaskName": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_KeyMappingFormat.ST_KeyMappingFormat",
+        "Key": "EscortGuideTask10",
+        "SourceString": "队友和敌人出现，敌人会阻碍运载目标的前进，尽快消灭敌人！",
+        "LocalizedString": "队友和敌人出现，敌人会阻碍运载目标的前进，尽快消灭敌人！"
+      },
+      "AutoFinishDelay": 99999.0,
+      "TaskCompleteStateTime": 0.0,
+      "RevivePointName": "None",
+      "TargetPointTag": "None",
+      "CharacterAnimMontage": null,
+      "BeginTaskEvents": [
+        {
+          "UniqueName": "6",
+          "EventGameplayTag": {
+            "TagName": "None"
+          },
+          "EventType": "ECyGuideEventType::GuideTask",
+          "WeaponEventType": "ECyGuideWeaponEventType::None",
+          "GuideStateType": "ECyGuideStateType::None",
+          "GuideTaskStateType": "ECyGuideTaskStateType::End",
+          "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
+          "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
+          "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
+          "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
+          "SequenceStateType": "ECySequenceStateType::None",
+          "ActionType": "ECyGuideActionType::None",
+          "MeshModeType": "EMeshModeType::Normal",
+          "GameStateType": "EGStateType::None",
+          "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
+        }
+      ],
+      "RelationUniqueNames": [],
+      "SequenceMap": [],
+      "EnabledGameFunctionConfig": {
+        "WeaponSlotTypes": [],
+        "AbilityInputIDs": [],
+        "GameUIFunctionTypes": [],
+        "GameUIFunctionPages": [],
+        "bNotAutoOpenGameUIFunctionPages": false
+      },
+      "DisableGameFunctionConfig": {
+        "WeaponSlotTypes": [],
+        "AbilityInputIDs": [],
+        "GameUIFunctionTypes": [],
+        "GameUIFunctionPages": [],
+        "bNotAutoOpenGameUIFunctionPages": false
+      },
+      "CancelAllAbilityAndSummonTaskStates": [],
+      "SkillApplyConfig": {
+        "ApplyTargetActorType": "EActionApplyTargetActorType::None",
+        "SkillAddPointNum": []
+      },
+      "ShowActorTag": "None",
+      "HideActorTag": "WallToPayloadTips",
+      "SubTasks": [],
+      "TaskState": "ECyGuideTaskStateType::None",
+      "StartTag": {
+        "TagName": "None"
+      },
+      "EndTag": {
+        "TagName": "None"
+      },
+      "InputKey": "ECyGuideInputKey::None",
+      "KeyText": {
+        "CultureInvariantString": null
+      },
+      "KeyActionData": {
+        "ActionName": "None",
+        "ActionGamePadName": "None",
+        "KeyBoardDefault": {
+          "KeyName": "None"
+        },
+        "GamePadDefault": {
+          "KeyName": "None"
+        },
+        "Scale": 0.0,
+        "IsAxisAction": false
+      }
+    },
+    "11": {
+      "TaskId": 11,
+      "bShow": false,
+      "bGuideEnd": false,
+      "TaskText": {
+        "CultureInvariantString": null
+      },
+      "bPlotMode": false,
+      "PlotModeEndSmoothTime": 0.5,
+      "bPlotModeEndChangeViewRotation": false,
+      "PlotModeEndViewRotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      },
+      "bHideCharacter": false,
+      "bDisableInput": true,
+      "bDisableAllInput": true,
+      "TaskName": {
+        "Namespace": "",
+        "Key": "3BD5BE9147055E0A53881090BAF6757E",
+        "SourceString": "玩家开始无操作时间",
+        "LocalizedString": "玩家开始无操作时间"
+      },
+      "AutoFinishDelay": 1.0,
+      "TaskCompleteStateTime": 0.0,
+      "RevivePointName": "None",
+      "TargetPointTag": "None",
+      "CharacterAnimMontage": null,
+      "BeginTaskEvents": [
+        {
+          "UniqueName": "None",
+          "EventGameplayTag": {
+            "TagName": "None"
+          },
+          "EventType": "ECyGuideEventType::GameState",
+          "WeaponEventType": "ECyGuideWeaponEventType::None",
+          "GuideStateType": "ECyGuideStateType::Begin",
+          "GuideTaskStateType": "ECyGuideTaskStateType::None",
+          "GuideSubTaskStateType": "ECyGuideSubTaskStateType::None",
+          "GuideDialogueStateType": "ECyGuideDialogueStateType::None",
+          "GuideTriggerAreaType": "ECyGuideTriggerAreaType::None",
+          "GuideEnemyEventType": "ECyGuideEnemyEventType::None",
+          "SequenceStateType": "ECySequenceStateType::None",
+          "ActionType": "ECyGuideActionType::None",
+          "MeshModeType": "EMeshModeType::Normal",
+          "GameStateType": "EGStateType::Guide",
+          "EquipmentSlotType": "ECyGuideEquipmentSlotType::None"
+        }
+      ],
+      "RelationUniqueNames": [],
+      "SequenceMap": [],
+      "EnabledGameFunctionConfig": {
+        "WeaponSlotTypes": [],
+        "AbilityInputIDs": [],
+        "GameUIFunctionTypes": [],
+        "GameUIFunctionPages": [],
+        "bNotAutoOpenGameUIFunctionPages": false
+      },
+      "DisableGameFunctionConfig": {
+        "WeaponSlotTypes": [],
+        "AbilityInputIDs": [],
+        "GameUIFunctionTypes": [],
+        "GameUIFunctionPages": [],
+        "bNotAutoOpenGameUIFunctionPages": false
+      },
+      "CancelAllAbilityAndSummonTaskStates": [],
+      "SkillApplyConfig": {
+        "ApplyTargetActorType": "EActionApplyTargetActorType::None",
+        "SkillAddPointNum": []
+      },
+      "ShowActorTag": "None",
+      "HideActorTag": "None",
+      "SubTasks": [],
+      "TaskState": "ECyGuideTaskStateType::None",
+      "StartTag": {
+        "TagName": "None"
+      },
+      "EndTag": {
+        "TagName": "None"
+      },
+      "InputKey": "ECyGuideInputKey::None",
+      "KeyText": {
+        "CultureInvariantString": null
+      },
+      "KeyActionData": {
+        "ActionName": "None",
+        "ActionGamePadName": "None",
+        "KeyBoardDefault": {
+          "KeyName": "None"
+        },
+        "GamePadDefault": {
+          "KeyName": "None"
+        },
+        "Scale": 0.0,
+        "IsAxisAction": false
+      }
+    }
+  }
+}
