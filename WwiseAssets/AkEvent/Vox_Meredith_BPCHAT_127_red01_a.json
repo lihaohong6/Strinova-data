@@ -4,8 +4,19 @@
   "Class": "UScriptClass'AkAudioEvent'",
   "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
   "Properties": {
+    "MultiLanguage": true,
     "MinimumDuration": 2.2526305,
     "MaximumDuration": 2.2526305,
+    "MultiMinimumDuration": [
+      2.2526305,
+      2.1055102,
+      2.8512018
+    ],
+    "MultiMaximumDuration": [
+      2.2526305,
+      2.1055102,
+      2.8512018
+    ],
     "RequiredBank": {
       "ObjectName": "AkAudioBank'Vox_Meredith_InGame_Rescue_red01'",
       "ObjectPath": "PM/Content/WwiseAssets/AkBank/Vox_Meredith_InGame_Rescue_red01.0"
@@ -15,16 +26,16 @@
     "EventLanguageMap": [
       {
         "Key": {
-          "LanguageId": 0,
-          "LanguageName": "SFX",
-          "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
+          "LanguageId": 1016554174,
+          "LanguageName": "Chinese",
+          "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
         },
         "Value": {
           "EventId": 1013186622,
           "SoundBanks": [
             {
               "SoundBankId": 1119451406,
-              "SoundBankPathName": "Vox_Meredith_InGame_Rescue_red01.bnk",
+              "SoundBankPathName": "Chinese/Vox_Meredith_InGame_Rescue_red01.bnk",
               "MemoryAlignment": 16,
               "bDeviceMemory": false,
               "bContainsMedia": false,
@@ -32,7 +43,91 @@
               "DebugName": "Vox_Meredith_InGame_Rescue_red01"
             }
           ],
-          "Media": [],
+          "Media": [
+            {
+              "MediaId": 953731056,
+              "MediaPathName": "Media/Chinese/Vox_Meredith_InGame_Rescue_red01/953731056.wem",
+              "PrefetchSize": 0,
+              "MemoryAlignment": 16,
+              "bDeviceMemory": false,
+              "bStreaming": true,
+              "DebugName": "Vox_Player\\Vox_Meredith\\Vox_Meredith_BPCHAT_127_red01_a.wav"
+            }
+          ],
+          "ExternalSources": [],
+          "SwitchContainerLeaves": [],
+          "RequiredGroupValueSet": [],
+          "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
+          "DebugName": "Vox_Meredith_BPCHAT_127_red01_a"
+        }
+      },
+      {
+        "Key": {
+          "LanguageId": -911729657,
+          "LanguageName": "English",
+          "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+        },
+        "Value": {
+          "EventId": 1013186622,
+          "SoundBanks": [
+            {
+              "SoundBankId": 1119451406,
+              "SoundBankPathName": "English/Vox_Meredith_InGame_Rescue_red01.bnk",
+              "MemoryAlignment": 16,
+              "bDeviceMemory": false,
+              "bContainsMedia": false,
+              "SoundBankType": "EWwiseSoundBankType::User",
+              "DebugName": "Vox_Meredith_InGame_Rescue_red01"
+            }
+          ],
+          "Media": [
+            {
+              "MediaId": 777278217,
+              "MediaPathName": "Media/English/Vox_Meredith_InGame_Rescue_red01/777278217.wem",
+              "PrefetchSize": 0,
+              "MemoryAlignment": 16,
+              "bDeviceMemory": false,
+              "bStreaming": true,
+              "DebugName": "Vox_Player\\Vox_Meredith\\Vox_Meredith_BPCHAT_127_red01_a.wav"
+            }
+          ],
+          "ExternalSources": [],
+          "SwitchContainerLeaves": [],
+          "RequiredGroupValueSet": [],
+          "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
+          "DebugName": "Vox_Meredith_BPCHAT_127_red01_a"
+        }
+      },
+      {
+        "Key": {
+          "LanguageId": 2008704848,
+          "LanguageName": "Japanese",
+          "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+        },
+        "Value": {
+          "EventId": 1013186622,
+          "SoundBanks": [
+            {
+              "SoundBankId": 1119451406,
+              "SoundBankPathName": "Japanese/Vox_Meredith_InGame_Rescue_red01.bnk",
+              "MemoryAlignment": 16,
+              "bDeviceMemory": false,
+              "bContainsMedia": false,
+              "SoundBankType": "EWwiseSoundBankType::User",
+              "DebugName": "Vox_Meredith_InGame_Rescue_red01"
+            }
+          ],
+          "Media": [
+            {
+              "MediaId": 422088296,
+              "MediaPathName": "Media/Japanese/Vox_Meredith_InGame_Rescue_red01/422088296.wem",
+              "PrefetchSize": 0,
+              "MemoryAlignment": 16,
+              "bDeviceMemory": false,
+              "bStreaming": true,
+              "DebugName": "Vox_Player\\Vox_Meredith\\Vox_Meredith_BPCHAT_127_red01_a.wav"
+            }
+          ],
           "ExternalSources": [],
           "SwitchContainerLeaves": [],
           "RequiredGroupValueSet": [],

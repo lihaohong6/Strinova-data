@@ -17,10 +17,10 @@
       "Desc": {
         "Namespace": "RoleProficiencyTask",
         "Key": "910101_Desc",
-        "SourceString": "累计使用【米雪儿】技能1次",
-        "LocalizedString": "累计使用【米雪儿】技能1次"
+        "SourceString": "使用【米雪儿】累计击败200个敌人",
+        "LocalizedString": "使用【米雪儿】累计击败200个敌人"
       },
-      "Type": 9,
+      "Type": 10,
       "Prize": [
         {
           "ItemId": 3,
@@ -28,7 +28,7 @@
         },
         {
           "ItemId": 9,
-          "ItemAmount": 10
+          "ItemAmount": 100
         }
       ],
       "TaskConditions": [
@@ -40,7 +40,7 @@
             "RoundResult": "ECyRoundResultType::None",
             "bFriendTeam": false,
             "bNoFriendTeam": false,
-            "BattleCondition": "ECyTaskBattleConditionType::UseSkillNum",
+            "BattleCondition": "ECyTaskBattleConditionType::KillNum",
             "bHeadshot": false,
             "bHitBody": false,
             "bFirstKill": false,
@@ -58,11 +58,8 @@
             "EnemyMeshModes": [],
             "WeaponTypes": [],
             "WeaponHoldType": [],
-            "SkillTypes": [
-              "ECyPlayerSkillType::Q",
-              "ECyPlayerSkillType::X"
-            ],
-            "Num": 1,
+            "SkillTypes": [],
+            "Num": 200,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
             "BehaviorId": 0
@@ -78,10 +75,10 @@
       "Desc": {
         "Namespace": "RoleProficiencyTask",
         "Key": "910102_Desc",
-        "SourceString": "累积使用【米雪儿】造成1000点伤害",
-        "LocalizedString": "累积使用【米雪儿】造成1000点伤害"
+        "SourceString": "使用【米雪儿】累积造成50000点伤害",
+        "LocalizedString": "使用【米雪儿】累积造成50000点伤害"
       },
-      "Type": 9,
+      "Type": 10,
       "Prize": [
         {
           "ItemId": 3,
@@ -89,7 +86,7 @@
         },
         {
           "ItemId": 9,
-          "ItemAmount": 10
+          "ItemAmount": 100
         }
       ],
       "TaskConditions": [
@@ -120,7 +117,7 @@
             "WeaponTypes": [],
             "WeaponHoldType": [],
             "SkillTypes": [],
-            "Num": 1000,
+            "Num": 50000,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
             "BehaviorId": 0
@@ -136,10 +133,10 @@
       "Desc": {
         "Namespace": "RoleProficiencyTask",
         "Key": "910103_Desc",
-        "SourceString": "累计使用【米雪儿】技能10次",
-        "LocalizedString": "累计使用【米雪儿】技能10次"
+        "SourceString": "使用【米雪儿】累计赢得12场比赛",
+        "LocalizedString": "使用【米雪儿】累计赢得12场比赛"
       },
-      "Type": 9,
+      "Type": 10,
       "Prize": [
         {
           "ItemId": 3,
@@ -147,19 +144,19 @@
         },
         {
           "ItemId": 9,
-          "ItemAmount": 10
+          "ItemAmount": 100
         }
       ],
       "TaskConditions": [
         {
           "MainCondition": {
-            "MainType": "ECyTaskMainConditionType::Battle",
-            "GameCondition": "ECyTaskGameConditionType::None",
-            "GameResult": "ECyGameResultType::None",
+            "MainType": "ECyTaskMainConditionType::Game",
+            "GameCondition": "ECyTaskGameConditionType::GameNum",
+            "GameResult": "ECyGameResultType::Win",
             "RoundResult": "ECyRoundResultType::None",
             "bFriendTeam": false,
             "bNoFriendTeam": false,
-            "BattleCondition": "ECyTaskBattleConditionType::UseSkillNum",
+            "BattleCondition": "ECyTaskBattleConditionType::None",
             "bHeadshot": false,
             "bHitBody": false,
             "bFirstKill": false,
@@ -177,11 +174,8 @@
             "EnemyMeshModes": [],
             "WeaponTypes": [],
             "WeaponHoldType": [],
-            "SkillTypes": [
-              "ECyPlayerSkillType::Q",
-              "ECyPlayerSkillType::X"
-            ],
-            "Num": 10,
+            "SkillTypes": [],
+            "Num": 12,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
             "BehaviorId": 0
@@ -197,10 +191,10 @@
       "Desc": {
         "Namespace": "RoleProficiencyTask",
         "Key": "910104_Desc",
-        "SourceString": "累计使用【米雪儿】技能30次",
-        "LocalizedString": "累计使用【米雪儿】技能30次"
+        "SourceString": "使用【米雪儿】累计释放主动技能180次",
+        "LocalizedString": "使用【米雪儿】累计释放主动技能180次"
       },
-      "Type": 9,
+      "Type": 10,
       "Prize": [
         {
           "ItemId": 3,
@@ -208,7 +202,7 @@
         },
         {
           "ItemId": 9,
-          "ItemAmount": 30
+          "ItemAmount": 200
         }
       ],
       "TaskConditions": [
@@ -239,10 +233,9 @@
             "WeaponTypes": [],
             "WeaponHoldType": [],
             "SkillTypes": [
-              "ECyPlayerSkillType::Q",
-              "ECyPlayerSkillType::X"
+              "ECyPlayerSkillType::Q"
             ],
-            "Num": 20,
+            "Num": 180,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
             "BehaviorId": 0
@@ -258,10 +251,10 @@
       "Desc": {
         "Namespace": "RoleProficiencyTask",
         "Key": "910105_Desc",
-        "SourceString": "累计使【米雪儿】技能40次",
-        "LocalizedString": "累计使【米雪儿】技能40次"
+        "SourceString": "使用【米雪儿】累计释放绝招20次",
+        "LocalizedString": "使用【米雪儿】累计释放绝招20次"
       },
-      "Type": 9,
+      "Type": 10,
       "Prize": [
         {
           "ItemId": 3,
@@ -269,7 +262,7 @@
         },
         {
           "ItemId": 9,
-          "ItemAmount": 30
+          "ItemAmount": 200
         }
       ],
       "TaskConditions": [
@@ -300,10 +293,9 @@
             "WeaponTypes": [],
             "WeaponHoldType": [],
             "SkillTypes": [
-              "ECyPlayerSkillType::Q",
               "ECyPlayerSkillType::X"
             ],
-            "Num": 30,
+            "Num": 20,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
             "BehaviorId": 0
@@ -319,10 +311,10 @@
       "Desc": {
         "Namespace": "RoleProficiencyTask",
         "Key": "910106_Desc",
-        "SourceString": "累计使用【米雪儿】技能40次",
-        "LocalizedString": "累计使用【米雪儿】技能40次"
+        "SourceString": "使用【米雪儿】累计完成50场比赛",
+        "LocalizedString": "使用【米雪儿】累计完成50场比赛"
       },
-      "Type": 9,
+      "Type": 10,
       "Prize": [
         {
           "ItemId": 3,
@@ -330,19 +322,19 @@
         },
         {
           "ItemId": 9,
-          "ItemAmount": 30
+          "ItemAmount": 200
         }
       ],
       "TaskConditions": [
         {
           "MainCondition": {
-            "MainType": "ECyTaskMainConditionType::Battle",
-            "GameCondition": "ECyTaskGameConditionType::None",
+            "MainType": "ECyTaskMainConditionType::Game",
+            "GameCondition": "ECyTaskGameConditionType::GameNum",
             "GameResult": "ECyGameResultType::None",
             "RoundResult": "ECyRoundResultType::None",
             "bFriendTeam": false,
             "bNoFriendTeam": false,
-            "BattleCondition": "ECyTaskBattleConditionType::UseSkillNum",
+            "BattleCondition": "ECyTaskBattleConditionType::None",
             "bHeadshot": false,
             "bHitBody": false,
             "bFirstKill": false,
@@ -360,11 +352,8 @@
             "EnemyMeshModes": [],
             "WeaponTypes": [],
             "WeaponHoldType": [],
-            "SkillTypes": [
-              "ECyPlayerSkillType::Q",
-              "ECyPlayerSkillType::X"
-            ],
-            "Num": 40,
+            "SkillTypes": [],
+            "Num": 50,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
             "BehaviorId": 0
@@ -380,10 +369,10 @@
       "Desc": {
         "Namespace": "RoleProficiencyTask",
         "Key": "910501_Desc",
-        "SourceString": "累计使用【奥黛丽】技能1次",
-        "LocalizedString": "累计使用【奥黛丽】技能1次"
+        "SourceString": "使用【奥黛丽】累计击败200个敌人",
+        "LocalizedString": "使用【奥黛丽】累计击败200个敌人"
       },
-      "Type": 9,
+      "Type": 10,
       "Prize": [
         {
           "ItemId": 3,
@@ -391,7 +380,7 @@
         },
         {
           "ItemId": 9,
-          "ItemAmount": 10
+          "ItemAmount": 100
         }
       ],
       "TaskConditions": [
@@ -403,7 +392,7 @@
             "RoundResult": "ECyRoundResultType::None",
             "bFriendTeam": false,
             "bNoFriendTeam": false,
-            "BattleCondition": "ECyTaskBattleConditionType::UseSkillNum",
+            "BattleCondition": "ECyTaskBattleConditionType::KillNum",
             "bHeadshot": false,
             "bHitBody": false,
             "bFirstKill": false,
@@ -421,11 +410,8 @@
             "EnemyMeshModes": [],
             "WeaponTypes": [],
             "WeaponHoldType": [],
-            "SkillTypes": [
-              "ECyPlayerSkillType::Q",
-              "ECyPlayerSkillType::X"
-            ],
-            "Num": 1,
+            "SkillTypes": [],
+            "Num": 200,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
             "BehaviorId": 0
@@ -441,10 +427,10 @@
       "Desc": {
         "Namespace": "RoleProficiencyTask",
         "Key": "910502_Desc",
-        "SourceString": "累积使用【奥黛丽】造成1000点伤害",
-        "LocalizedString": "累积使用【奥黛丽】造成1000点伤害"
+        "SourceString": "使用【奥黛丽】累积造成50000点伤害",
+        "LocalizedString": "使用【奥黛丽】累积造成50000点伤害"
       },
-      "Type": 9,
+      "Type": 10,
       "Prize": [
         {
           "ItemId": 3,
@@ -452,7 +438,7 @@
         },
         {
           "ItemId": 9,
-          "ItemAmount": 10
+          "ItemAmount": 100
         }
       ],
       "TaskConditions": [
@@ -483,7 +469,7 @@
             "WeaponTypes": [],
             "WeaponHoldType": [],
             "SkillTypes": [],
-            "Num": 1000,
+            "Num": 50000,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
             "BehaviorId": 0
@@ -499,10 +485,10 @@
       "Desc": {
         "Namespace": "RoleProficiencyTask",
         "Key": "910503_Desc",
-        "SourceString": "累计使用【奥黛丽】技能10次",
-        "LocalizedString": "累计使用【奥黛丽】技能10次"
+        "SourceString": "使用【奥黛丽】累计赢得12场比赛",
+        "LocalizedString": "使用【奥黛丽】累计赢得12场比赛"
       },
-      "Type": 9,
+      "Type": 10,
       "Prize": [
         {
           "ItemId": 3,
@@ -510,19 +496,19 @@
         },
         {
           "ItemId": 9,
-          "ItemAmount": 10
+          "ItemAmount": 100
         }
       ],
       "TaskConditions": [
         {
           "MainCondition": {
-            "MainType": "ECyTaskMainConditionType::Battle",
-            "GameCondition": "ECyTaskGameConditionType::None",
-            "GameResult": "ECyGameResultType::None",
+            "MainType": "ECyTaskMainConditionType::Game",
+            "GameCondition": "ECyTaskGameConditionType::GameNum",
+            "GameResult": "ECyGameResultType::Win",
             "RoundResult": "ECyRoundResultType::None",
             "bFriendTeam": false,
             "bNoFriendTeam": false,
-            "BattleCondition": "ECyTaskBattleConditionType::UseSkillNum",
+            "BattleCondition": "ECyTaskBattleConditionType::None",
             "bHeadshot": false,
             "bHitBody": false,
             "bFirstKill": false,
@@ -540,11 +526,8 @@
             "EnemyMeshModes": [],
             "WeaponTypes": [],
             "WeaponHoldType": [],
-            "SkillTypes": [
-              "ECyPlayerSkillType::Q",
-              "ECyPlayerSkillType::X"
-            ],
-            "Num": 10,
+            "SkillTypes": [],
+            "Num": 12,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
             "BehaviorId": 0
@@ -560,10 +543,10 @@
       "Desc": {
         "Namespace": "RoleProficiencyTask",
         "Key": "910504_Desc",
-        "SourceString": "累计使用【奥黛丽】技能30次",
-        "LocalizedString": "累计使用【奥黛丽】技能30次"
+        "SourceString": "使用【奥黛丽】累计释放主动技能180次",
+        "LocalizedString": "使用【奥黛丽】累计释放主动技能180次"
       },
-      "Type": 9,
+      "Type": 10,
       "Prize": [
         {
           "ItemId": 3,
@@ -571,7 +554,7 @@
         },
         {
           "ItemId": 9,
-          "ItemAmount": 30
+          "ItemAmount": 200
         }
       ],
       "TaskConditions": [
@@ -602,10 +585,9 @@
             "WeaponTypes": [],
             "WeaponHoldType": [],
             "SkillTypes": [
-              "ECyPlayerSkillType::Q",
-              "ECyPlayerSkillType::X"
+              "ECyPlayerSkillType::Q"
             ],
-            "Num": 20,
+            "Num": 180,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
             "BehaviorId": 0
@@ -621,10 +603,10 @@
       "Desc": {
         "Namespace": "RoleProficiencyTask",
         "Key": "910505_Desc",
-        "SourceString": "累计使用【奥黛丽】技能40次",
-        "LocalizedString": "累计使用【奥黛丽】技能40次"
+        "SourceString": "使用【奥黛丽】累计释放绝招20次",
+        "LocalizedString": "使用【奥黛丽】累计释放绝招20次"
       },
-      "Type": 9,
+      "Type": 10,
       "Prize": [
         {
           "ItemId": 3,
@@ -632,7 +614,7 @@
         },
         {
           "ItemId": 9,
-          "ItemAmount": 30
+          "ItemAmount": 200
         }
       ],
       "TaskConditions": [
@@ -663,10 +645,9 @@
             "WeaponTypes": [],
             "WeaponHoldType": [],
             "SkillTypes": [
-              "ECyPlayerSkillType::Q",
               "ECyPlayerSkillType::X"
             ],
-            "Num": 30,
+            "Num": 20,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
             "BehaviorId": 0
@@ -681,11 +662,11 @@
       "ProficiencyTask": 2,
       "Desc": {
         "Namespace": "RoleProficiencyTask",
-        "Key": "910505_Desc",
-        "SourceString": "累计使用【奥黛丽】技能40次",
-        "LocalizedString": "累计使用【奥黛丽】技能40次"
+        "Key": "910506_Desc",
+        "SourceString": "使用【奥黛丽】累计完成50场比赛",
+        "LocalizedString": "使用【奥黛丽】累计完成50场比赛"
       },
-      "Type": 9,
+      "Type": 10,
       "Prize": [
         {
           "ItemId": 3,
@@ -693,19 +674,19 @@
         },
         {
           "ItemId": 9,
-          "ItemAmount": 30
+          "ItemAmount": 200
         }
       ],
       "TaskConditions": [
         {
           "MainCondition": {
-            "MainType": "ECyTaskMainConditionType::Battle",
-            "GameCondition": "ECyTaskGameConditionType::None",
+            "MainType": "ECyTaskMainConditionType::Game",
+            "GameCondition": "ECyTaskGameConditionType::GameNum",
             "GameResult": "ECyGameResultType::None",
             "RoundResult": "ECyRoundResultType::None",
             "bFriendTeam": false,
             "bNoFriendTeam": false,
-            "BattleCondition": "ECyTaskBattleConditionType::UseSkillNum",
+            "BattleCondition": "ECyTaskBattleConditionType::None",
             "bHeadshot": false,
             "bHitBody": false,
             "bFirstKill": false,
@@ -723,11 +704,8 @@
             "EnemyMeshModes": [],
             "WeaponTypes": [],
             "WeaponHoldType": [],
-            "SkillTypes": [
-              "ECyPlayerSkillType::Q",
-              "ECyPlayerSkillType::X"
-            ],
-            "Num": 40,
+            "SkillTypes": [],
+            "Num": 50,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
             "BehaviorId": 0
@@ -743,10 +721,10 @@
       "Desc": {
         "Namespace": "RoleProficiencyTask",
         "Key": "910701_Desc",
-        "SourceString": "累计使用【玛德蕾娜】技能1次",
-        "LocalizedString": "累计使用【玛德蕾娜】技能1次"
+        "SourceString": "使用【玛德蕾娜】累计击败200个敌人",
+        "LocalizedString": "使用【玛德蕾娜】累计击败200个敌人"
       },
-      "Type": 9,
+      "Type": 10,
       "Prize": [
         {
           "ItemId": 3,
@@ -754,7 +732,7 @@
         },
         {
           "ItemId": 9,
-          "ItemAmount": 10
+          "ItemAmount": 100
         }
       ],
       "TaskConditions": [
@@ -766,7 +744,7 @@
             "RoundResult": "ECyRoundResultType::None",
             "bFriendTeam": false,
             "bNoFriendTeam": false,
-            "BattleCondition": "ECyTaskBattleConditionType::UseSkillNum",
+            "BattleCondition": "ECyTaskBattleConditionType::KillNum",
             "bHeadshot": false,
             "bHitBody": false,
             "bFirstKill": false,
@@ -784,11 +762,8 @@
             "EnemyMeshModes": [],
             "WeaponTypes": [],
             "WeaponHoldType": [],
-            "SkillTypes": [
-              "ECyPlayerSkillType::Q",
-              "ECyPlayerSkillType::X"
-            ],
-            "Num": 1,
+            "SkillTypes": [],
+            "Num": 200,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
             "BehaviorId": 0
@@ -804,10 +779,10 @@
       "Desc": {
         "Namespace": "RoleProficiencyTask",
         "Key": "910702_Desc",
-        "SourceString": "累积使用【玛德蕾娜】造成1000点伤害",
-        "LocalizedString": "累积使用【玛德蕾娜】造成1000点伤害"
+        "SourceString": "使用【玛德蕾娜】累积造成50000点伤害",
+        "LocalizedString": "使用【玛德蕾娜】累积造成50000点伤害"
       },
-      "Type": 9,
+      "Type": 10,
       "Prize": [
         {
           "ItemId": 3,
@@ -815,7 +790,7 @@
         },
         {
           "ItemId": 9,
-          "ItemAmount": 10
+          "ItemAmount": 100
         }
       ],
       "TaskConditions": [
@@ -846,7 +821,7 @@
             "WeaponTypes": [],
             "WeaponHoldType": [],
             "SkillTypes": [],
-            "Num": 1000,
+            "Num": 50000,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
             "BehaviorId": 0
@@ -862,10 +837,10 @@
       "Desc": {
         "Namespace": "RoleProficiencyTask",
         "Key": "910703_Desc",
-        "SourceString": "累计使用【玛德蕾娜】技能10次",
-        "LocalizedString": "累计使用【玛德蕾娜】技能10次"
+        "SourceString": "使用【玛德蕾娜】累计赢得12场比赛",
+        "LocalizedString": "使用【玛德蕾娜】累计赢得12场比赛"
       },
-      "Type": 9,
+      "Type": 10,
       "Prize": [
         {
           "ItemId": 3,
@@ -873,19 +848,19 @@
         },
         {
           "ItemId": 9,
-          "ItemAmount": 10
+          "ItemAmount": 100
         }
       ],
       "TaskConditions": [
         {
           "MainCondition": {
-            "MainType": "ECyTaskMainConditionType::Battle",
-            "GameCondition": "ECyTaskGameConditionType::None",
-            "GameResult": "ECyGameResultType::None",
+            "MainType": "ECyTaskMainConditionType::Game",
+            "GameCondition": "ECyTaskGameConditionType::GameNum",
+            "GameResult": "ECyGameResultType::Win",
             "RoundResult": "ECyRoundResultType::None",
             "bFriendTeam": false,
             "bNoFriendTeam": false,
-            "BattleCondition": "ECyTaskBattleConditionType::UseSkillNum",
+            "BattleCondition": "ECyTaskBattleConditionType::None",
             "bHeadshot": false,
             "bHitBody": false,
             "bFirstKill": false,
@@ -903,11 +878,8 @@
             "EnemyMeshModes": [],
             "WeaponTypes": [],
             "WeaponHoldType": [],
-            "SkillTypes": [
-              "ECyPlayerSkillType::Q",
-              "ECyPlayerSkillType::X"
-            ],
-            "Num": 10,
+            "SkillTypes": [],
+            "Num": 12,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
             "BehaviorId": 0
@@ -923,10 +895,10 @@
       "Desc": {
         "Namespace": "RoleProficiencyTask",
         "Key": "910704_Desc",
-        "SourceString": "累计使用【玛德蕾娜】技能30次",
-        "LocalizedString": "累计使用【玛德蕾娜】技能30次"
+        "SourceString": "使用【玛德蕾娜】累计释放主动技能180次",
+        "LocalizedString": "使用【玛德蕾娜】累计释放主动技能180次"
       },
-      "Type": 9,
+      "Type": 10,
       "Prize": [
         {
           "ItemId": 3,
@@ -934,7 +906,7 @@
         },
         {
           "ItemId": 9,
-          "ItemAmount": 30
+          "ItemAmount": 200
         }
       ],
       "TaskConditions": [
@@ -965,10 +937,9 @@
             "WeaponTypes": [],
             "WeaponHoldType": [],
             "SkillTypes": [
-              "ECyPlayerSkillType::Q",
-              "ECyPlayerSkillType::X"
+              "ECyPlayerSkillType::Q"
             ],
-            "Num": 20,
+            "Num": 180,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
             "BehaviorId": 0
@@ -984,10 +955,10 @@
       "Desc": {
         "Namespace": "RoleProficiencyTask",
         "Key": "910705_Desc",
-        "SourceString": "累计使用【玛德蕾娜】技能40次",
-        "LocalizedString": "累计使用【玛德蕾娜】技能40次"
+        "SourceString": "使用【玛德蕾娜】累计释放绝招20次",
+        "LocalizedString": "使用【玛德蕾娜】累计释放绝招20次"
       },
-      "Type": 9,
+      "Type": 10,
       "Prize": [
         {
           "ItemId": 3,
@@ -995,7 +966,7 @@
         },
         {
           "ItemId": 9,
-          "ItemAmount": 30
+          "ItemAmount": 200
         }
       ],
       "TaskConditions": [
@@ -1026,10 +997,9 @@
             "WeaponTypes": [],
             "WeaponHoldType": [],
             "SkillTypes": [
-              "ECyPlayerSkillType::Q",
               "ECyPlayerSkillType::X"
             ],
-            "Num": 30,
+            "Num": 20,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
             "BehaviorId": 0
@@ -1044,11 +1014,11 @@
       "ProficiencyTask": 2,
       "Desc": {
         "Namespace": "RoleProficiencyTask",
-        "Key": "910705_Desc",
-        "SourceString": "累计使用【玛德蕾娜】技能40次",
-        "LocalizedString": "累计使用【玛德蕾娜】技能40次"
+        "Key": "910706_Desc",
+        "SourceString": "使用【玛德蕾娜】累计完成50场比赛",
+        "LocalizedString": "使用【玛德蕾娜】累计完成50场比赛"
       },
-      "Type": 9,
+      "Type": 10,
       "Prize": [
         {
           "ItemId": 3,
@@ -1056,19 +1026,19 @@
         },
         {
           "ItemId": 9,
-          "ItemAmount": 30
+          "ItemAmount": 200
         }
       ],
       "TaskConditions": [
         {
           "MainCondition": {
-            "MainType": "ECyTaskMainConditionType::Battle",
-            "GameCondition": "ECyTaskGameConditionType::None",
+            "MainType": "ECyTaskMainConditionType::Game",
+            "GameCondition": "ECyTaskGameConditionType::GameNum",
             "GameResult": "ECyGameResultType::None",
             "RoundResult": "ECyRoundResultType::None",
             "bFriendTeam": false,
             "bNoFriendTeam": false,
-            "BattleCondition": "ECyTaskBattleConditionType::UseSkillNum",
+            "BattleCondition": "ECyTaskBattleConditionType::None",
             "bHeadshot": false,
             "bHitBody": false,
             "bFirstKill": false,
@@ -1086,11 +1056,8 @@
             "EnemyMeshModes": [],
             "WeaponTypes": [],
             "WeaponHoldType": [],
-            "SkillTypes": [
-              "ECyPlayerSkillType::Q",
-              "ECyPlayerSkillType::X"
-            ],
-            "Num": 40,
+            "SkillTypes": [],
+            "Num": 50,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
             "BehaviorId": 0
@@ -1106,10 +1073,10 @@
       "Desc": {
         "Namespace": "RoleProficiencyTask",
         "Key": "910801_Desc",
-        "SourceString": "累计使用【信】技能1次",
-        "LocalizedString": "累计使用【信】技能1次"
+        "SourceString": "使用【信】累计击败200个敌人",
+        "LocalizedString": "使用【信】累计击败200个敌人"
       },
-      "Type": 9,
+      "Type": 10,
       "Prize": [
         {
           "ItemId": 3,
@@ -1117,7 +1084,7 @@
         },
         {
           "ItemId": 9,
-          "ItemAmount": 10
+          "ItemAmount": 100
         }
       ],
       "TaskConditions": [
@@ -1129,7 +1096,7 @@
             "RoundResult": "ECyRoundResultType::None",
             "bFriendTeam": false,
             "bNoFriendTeam": false,
-            "BattleCondition": "ECyTaskBattleConditionType::UseSkillNum",
+            "BattleCondition": "ECyTaskBattleConditionType::KillNum",
             "bHeadshot": false,
             "bHitBody": false,
             "bFirstKill": false,
@@ -1147,11 +1114,8 @@
             "EnemyMeshModes": [],
             "WeaponTypes": [],
             "WeaponHoldType": [],
-            "SkillTypes": [
-              "ECyPlayerSkillType::Q",
-              "ECyPlayerSkillType::X"
-            ],
-            "Num": 1,
+            "SkillTypes": [],
+            "Num": 200,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
             "BehaviorId": 0
@@ -1167,10 +1131,10 @@
       "Desc": {
         "Namespace": "RoleProficiencyTask",
         "Key": "910802_Desc",
-        "SourceString": "累积使用【信】造成1000点伤害",
-        "LocalizedString": "累积使用【信】造成1000点伤害"
+        "SourceString": "使用【信】累积造成50000点伤害",
+        "LocalizedString": "使用【信】累积造成50000点伤害"
       },
-      "Type": 9,
+      "Type": 10,
       "Prize": [
         {
           "ItemId": 3,
@@ -1178,7 +1142,7 @@
         },
         {
           "ItemId": 9,
-          "ItemAmount": 10
+          "ItemAmount": 100
         }
       ],
       "TaskConditions": [
@@ -1209,7 +1173,7 @@
             "WeaponTypes": [],
             "WeaponHoldType": [],
             "SkillTypes": [],
-            "Num": 1000,
+            "Num": 50000,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
             "BehaviorId": 0
@@ -1225,10 +1189,10 @@
       "Desc": {
         "Namespace": "RoleProficiencyTask",
         "Key": "910803_Desc",
-        "SourceString": "累计使用【信】技能10次",
-        "LocalizedString": "累计使用【信】技能10次"
+        "SourceString": "使用【信】累计赢得12场比赛",
+        "LocalizedString": "使用【信】累计赢得12场比赛"
       },
-      "Type": 9,
+      "Type": 10,
       "Prize": [
         {
           "ItemId": 3,
@@ -1236,19 +1200,19 @@
         },
         {
           "ItemId": 9,
-          "ItemAmount": 10
+          "ItemAmount": 100
         }
       ],
       "TaskConditions": [
         {
           "MainCondition": {
-            "MainType": "ECyTaskMainConditionType::Battle",
-            "GameCondition": "ECyTaskGameConditionType::None",
-            "GameResult": "ECyGameResultType::None",
+            "MainType": "ECyTaskMainConditionType::Game",
+            "GameCondition": "ECyTaskGameConditionType::GameNum",
+            "GameResult": "ECyGameResultType::Win",
             "RoundResult": "ECyRoundResultType::None",
             "bFriendTeam": false,
             "bNoFriendTeam": false,
-            "BattleCondition": "ECyTaskBattleConditionType::UseSkillNum",
+            "BattleCondition": "ECyTaskBattleConditionType::None",
             "bHeadshot": false,
             "bHitBody": false,
             "bFirstKill": false,
@@ -1266,11 +1230,8 @@
             "EnemyMeshModes": [],
             "WeaponTypes": [],
             "WeaponHoldType": [],
-            "SkillTypes": [
-              "ECyPlayerSkillType::Q",
-              "ECyPlayerSkillType::X"
-            ],
-            "Num": 10,
+            "SkillTypes": [],
+            "Num": 12,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
             "BehaviorId": 0
@@ -1286,10 +1247,10 @@
       "Desc": {
         "Namespace": "RoleProficiencyTask",
         "Key": "910804_Desc",
-        "SourceString": "累计使用【信】技能30次",
-        "LocalizedString": "累计使用【信】技能30次"
+        "SourceString": "使用【信】累计释放主动技能180次",
+        "LocalizedString": "使用【信】累计释放主动技能180次"
       },
-      "Type": 9,
+      "Type": 10,
       "Prize": [
         {
           "ItemId": 3,
@@ -1297,7 +1258,7 @@
         },
         {
           "ItemId": 9,
-          "ItemAmount": 30
+          "ItemAmount": 200
         }
       ],
       "TaskConditions": [
@@ -1328,10 +1289,9 @@
             "WeaponTypes": [],
             "WeaponHoldType": [],
             "SkillTypes": [
-              "ECyPlayerSkillType::Q",
-              "ECyPlayerSkillType::X"
+              "ECyPlayerSkillType::Q"
             ],
-            "Num": 20,
+            "Num": 180,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
             "BehaviorId": 0
@@ -1347,10 +1307,10 @@
       "Desc": {
         "Namespace": "RoleProficiencyTask",
         "Key": "910805_Desc",
-        "SourceString": "累计使用【信】技能40次",
-        "LocalizedString": "累计使用【信】技能40次"
+        "SourceString": "使用【信】累计释放绝招20次",
+        "LocalizedString": "使用【信】累计释放绝招20次"
       },
-      "Type": 9,
+      "Type": 10,
       "Prize": [
         {
           "ItemId": 3,
@@ -1358,7 +1318,7 @@
         },
         {
           "ItemId": 9,
-          "ItemAmount": 30
+          "ItemAmount": 200
         }
       ],
       "TaskConditions": [
@@ -1389,10 +1349,9 @@
             "WeaponTypes": [],
             "WeaponHoldType": [],
             "SkillTypes": [
-              "ECyPlayerSkillType::Q",
               "ECyPlayerSkillType::X"
             ],
-            "Num": 30,
+            "Num": 20,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
             "BehaviorId": 0
@@ -1407,11 +1366,11 @@
       "ProficiencyTask": 2,
       "Desc": {
         "Namespace": "RoleProficiencyTask",
-        "Key": "910805_Desc",
-        "SourceString": "累计使用【信】技能40次",
-        "LocalizedString": "累计使用【信】技能40次"
+        "Key": "910806_Desc",
+        "SourceString": "使用【信】累计完成50场比赛",
+        "LocalizedString": "使用【信】累计完成50场比赛"
       },
-      "Type": 9,
+      "Type": 10,
       "Prize": [
         {
           "ItemId": 3,
@@ -1419,19 +1378,19 @@
         },
         {
           "ItemId": 9,
-          "ItemAmount": 30
+          "ItemAmount": 200
         }
       ],
       "TaskConditions": [
         {
           "MainCondition": {
-            "MainType": "ECyTaskMainConditionType::Battle",
-            "GameCondition": "ECyTaskGameConditionType::None",
+            "MainType": "ECyTaskMainConditionType::Game",
+            "GameCondition": "ECyTaskGameConditionType::GameNum",
             "GameResult": "ECyGameResultType::None",
             "RoundResult": "ECyRoundResultType::None",
             "bFriendTeam": false,
             "bNoFriendTeam": false,
-            "BattleCondition": "ECyTaskBattleConditionType::UseSkillNum",
+            "BattleCondition": "ECyTaskBattleConditionType::None",
             "bHeadshot": false,
             "bHitBody": false,
             "bFirstKill": false,
@@ -1449,11 +1408,8 @@
             "EnemyMeshModes": [],
             "WeaponTypes": [],
             "WeaponHoldType": [],
-            "SkillTypes": [
-              "ECyPlayerSkillType::Q",
-              "ECyPlayerSkillType::X"
-            ],
-            "Num": 40,
+            "SkillTypes": [],
+            "Num": 50,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
             "BehaviorId": 0
@@ -1469,10 +1425,10 @@
       "Desc": {
         "Namespace": "RoleProficiencyTask",
         "Key": "910901_Desc",
-        "SourceString": "累计使用【令】技能1次",
-        "LocalizedString": "累计使用【令】技能1次"
+        "SourceString": "使用【令】累计击败200个敌人",
+        "LocalizedString": "使用【令】累计击败200个敌人"
       },
-      "Type": 9,
+      "Type": 10,
       "Prize": [
         {
           "ItemId": 3,
@@ -1480,7 +1436,7 @@
         },
         {
           "ItemId": 9,
-          "ItemAmount": 10
+          "ItemAmount": 100
         }
       ],
       "TaskConditions": [
@@ -1492,7 +1448,7 @@
             "RoundResult": "ECyRoundResultType::None",
             "bFriendTeam": false,
             "bNoFriendTeam": false,
-            "BattleCondition": "ECyTaskBattleConditionType::UseSkillNum",
+            "BattleCondition": "ECyTaskBattleConditionType::KillNum",
             "bHeadshot": false,
             "bHitBody": false,
             "bFirstKill": false,
@@ -1510,11 +1466,8 @@
             "EnemyMeshModes": [],
             "WeaponTypes": [],
             "WeaponHoldType": [],
-            "SkillTypes": [
-              "ECyPlayerSkillType::Q",
-              "ECyPlayerSkillType::X"
-            ],
-            "Num": 1,
+            "SkillTypes": [],
+            "Num": 200,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
             "BehaviorId": 0
@@ -1530,10 +1483,10 @@
       "Desc": {
         "Namespace": "RoleProficiencyTask",
         "Key": "910902_Desc",
-        "SourceString": "累积使用【令】造成1000点伤害",
-        "LocalizedString": "累积使用【令】造成1000点伤害"
+        "SourceString": "使用【令】累积造成50000点伤害",
+        "LocalizedString": "使用【令】累积造成50000点伤害"
       },
-      "Type": 9,
+      "Type": 10,
       "Prize": [
         {
           "ItemId": 3,
@@ -1541,7 +1494,7 @@
         },
         {
           "ItemId": 9,
-          "ItemAmount": 10
+          "ItemAmount": 100
         }
       ],
       "TaskConditions": [
@@ -1572,7 +1525,7 @@
             "WeaponTypes": [],
             "WeaponHoldType": [],
             "SkillTypes": [],
-            "Num": 1000,
+            "Num": 50000,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
             "BehaviorId": 0
@@ -1588,10 +1541,10 @@
       "Desc": {
         "Namespace": "RoleProficiencyTask",
         "Key": "910903_Desc",
-        "SourceString": "累计使用【令】技能10次",
-        "LocalizedString": "累计使用【令】技能10次"
+        "SourceString": "使用【令】累计赢得12场比赛",
+        "LocalizedString": "使用【令】累计赢得12场比赛"
       },
-      "Type": 9,
+      "Type": 10,
       "Prize": [
         {
           "ItemId": 3,
@@ -1599,19 +1552,19 @@
         },
         {
           "ItemId": 9,
-          "ItemAmount": 10
+          "ItemAmount": 100
         }
       ],
       "TaskConditions": [
         {
           "MainCondition": {
-            "MainType": "ECyTaskMainConditionType::Battle",
-            "GameCondition": "ECyTaskGameConditionType::None",
-            "GameResult": "ECyGameResultType::None",
+            "MainType": "ECyTaskMainConditionType::Game",
+            "GameCondition": "ECyTaskGameConditionType::GameNum",
+            "GameResult": "ECyGameResultType::Win",
             "RoundResult": "ECyRoundResultType::None",
             "bFriendTeam": false,
             "bNoFriendTeam": false,
-            "BattleCondition": "ECyTaskBattleConditionType::UseSkillNum",
+            "BattleCondition": "ECyTaskBattleConditionType::None",
             "bHeadshot": false,
             "bHitBody": false,
             "bFirstKill": false,
@@ -1629,11 +1582,8 @@
             "EnemyMeshModes": [],
             "WeaponTypes": [],
             "WeaponHoldType": [],
-            "SkillTypes": [
-              "ECyPlayerSkillType::Q",
-              "ECyPlayerSkillType::X"
-            ],
-            "Num": 10,
+            "SkillTypes": [],
+            "Num": 12,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
             "BehaviorId": 0
@@ -1649,10 +1599,10 @@
       "Desc": {
         "Namespace": "RoleProficiencyTask",
         "Key": "910904_Desc",
-        "SourceString": "累计使用【令】技能30次",
-        "LocalizedString": "累计使用【令】技能30次"
+        "SourceString": "使用【令】累计释放主动技能180次",
+        "LocalizedString": "使用【令】累计释放主动技能180次"
       },
-      "Type": 9,
+      "Type": 10,
       "Prize": [
         {
           "ItemId": 3,
@@ -1660,7 +1610,7 @@
         },
         {
           "ItemId": 9,
-          "ItemAmount": 30
+          "ItemAmount": 200
         }
       ],
       "TaskConditions": [
@@ -1691,10 +1641,9 @@
             "WeaponTypes": [],
             "WeaponHoldType": [],
             "SkillTypes": [
-              "ECyPlayerSkillType::Q",
-              "ECyPlayerSkillType::X"
+              "ECyPlayerSkillType::Q"
             ],
-            "Num": 20,
+            "Num": 180,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
             "BehaviorId": 0
@@ -1710,10 +1659,10 @@
       "Desc": {
         "Namespace": "RoleProficiencyTask",
         "Key": "910905_Desc",
-        "SourceString": "累计使用【令】技能40次",
-        "LocalizedString": "累计使用【令】技能40次"
+        "SourceString": "使用【令】累计释放绝招20次",
+        "LocalizedString": "使用【令】累计释放绝招20次"
       },
-      "Type": 9,
+      "Type": 10,
       "Prize": [
         {
           "ItemId": 3,
@@ -1721,7 +1670,7 @@
         },
         {
           "ItemId": 9,
-          "ItemAmount": 30
+          "ItemAmount": 200
         }
       ],
       "TaskConditions": [
@@ -1752,10 +1701,9 @@
             "WeaponTypes": [],
             "WeaponHoldType": [],
             "SkillTypes": [
-              "ECyPlayerSkillType::Q",
               "ECyPlayerSkillType::X"
             ],
-            "Num": 30,
+            "Num": 20,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
             "BehaviorId": 0
@@ -1770,11 +1718,11 @@
       "ProficiencyTask": 2,
       "Desc": {
         "Namespace": "RoleProficiencyTask",
-        "Key": "910905_Desc",
-        "SourceString": "累计使用【令】技能40次",
-        "LocalizedString": "累计使用【令】技能40次"
+        "Key": "910906_Desc",
+        "SourceString": "使用【令】累计完成50场比赛",
+        "LocalizedString": "使用【令】累计完成50场比赛"
       },
-      "Type": 9,
+      "Type": 10,
       "Prize": [
         {
           "ItemId": 3,
@@ -1782,19 +1730,19 @@
         },
         {
           "ItemId": 9,
-          "ItemAmount": 30
+          "ItemAmount": 200
         }
       ],
       "TaskConditions": [
         {
           "MainCondition": {
-            "MainType": "ECyTaskMainConditionType::Battle",
-            "GameCondition": "ECyTaskGameConditionType::None",
+            "MainType": "ECyTaskMainConditionType::Game",
+            "GameCondition": "ECyTaskGameConditionType::GameNum",
             "GameResult": "ECyGameResultType::None",
             "RoundResult": "ECyRoundResultType::None",
             "bFriendTeam": false,
             "bNoFriendTeam": false,
-            "BattleCondition": "ECyTaskBattleConditionType::UseSkillNum",
+            "BattleCondition": "ECyTaskBattleConditionType::None",
             "bHeadshot": false,
             "bHitBody": false,
             "bFirstKill": false,
@@ -1812,11 +1760,8 @@
             "EnemyMeshModes": [],
             "WeaponTypes": [],
             "WeaponHoldType": [],
-            "SkillTypes": [
-              "ECyPlayerSkillType::Q",
-              "ECyPlayerSkillType::X"
-            ],
-            "Num": 40,
+            "SkillTypes": [],
+            "Num": 50,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
             "BehaviorId": 0
@@ -1832,10 +1777,10 @@
       "Desc": {
         "Namespace": "RoleProficiencyTask",
         "Key": "911001_Desc",
-        "SourceString": "累计使用【白墨】技能1次",
-        "LocalizedString": "累计使用【白墨】技能1次"
+        "SourceString": "使用【白墨】累计击败200个敌人",
+        "LocalizedString": "使用【白墨】累计击败200个敌人"
       },
-      "Type": 9,
+      "Type": 10,
       "Prize": [
         {
           "ItemId": 3,
@@ -1843,7 +1788,7 @@
         },
         {
           "ItemId": 9,
-          "ItemAmount": 10
+          "ItemAmount": 100
         }
       ],
       "TaskConditions": [
@@ -1855,7 +1800,7 @@
             "RoundResult": "ECyRoundResultType::None",
             "bFriendTeam": false,
             "bNoFriendTeam": false,
-            "BattleCondition": "ECyTaskBattleConditionType::UseSkillNum",
+            "BattleCondition": "ECyTaskBattleConditionType::KillNum",
             "bHeadshot": false,
             "bHitBody": false,
             "bFirstKill": false,
@@ -1873,11 +1818,8 @@
             "EnemyMeshModes": [],
             "WeaponTypes": [],
             "WeaponHoldType": [],
-            "SkillTypes": [
-              "ECyPlayerSkillType::Q",
-              "ECyPlayerSkillType::X"
-            ],
-            "Num": 1,
+            "SkillTypes": [],
+            "Num": 200,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
             "BehaviorId": 0
@@ -1893,10 +1835,10 @@
       "Desc": {
         "Namespace": "RoleProficiencyTask",
         "Key": "911002_Desc",
-        "SourceString": "累积使用【白墨】造成1000点伤害",
-        "LocalizedString": "累积使用【白墨】造成1000点伤害"
+        "SourceString": "使用【白墨】累积造成50000点伤害",
+        "LocalizedString": "使用【白墨】累积造成50000点伤害"
       },
-      "Type": 9,
+      "Type": 10,
       "Prize": [
         {
           "ItemId": 3,
@@ -1904,7 +1846,7 @@
         },
         {
           "ItemId": 9,
-          "ItemAmount": 10
+          "ItemAmount": 100
         }
       ],
       "TaskConditions": [
@@ -1935,7 +1877,7 @@
             "WeaponTypes": [],
             "WeaponHoldType": [],
             "SkillTypes": [],
-            "Num": 1000,
+            "Num": 50000,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
             "BehaviorId": 0
@@ -1951,10 +1893,10 @@
       "Desc": {
         "Namespace": "RoleProficiencyTask",
         "Key": "911003_Desc",
-        "SourceString": "累计使用【白墨】技能10次",
-        "LocalizedString": "累计使用【白墨】技能10次"
+        "SourceString": "使用【白墨】累计赢得12场比赛",
+        "LocalizedString": "使用【白墨】累计赢得12场比赛"
       },
-      "Type": 9,
+      "Type": 10,
       "Prize": [
         {
           "ItemId": 3,
@@ -1962,19 +1904,19 @@
         },
         {
           "ItemId": 9,
-          "ItemAmount": 10
+          "ItemAmount": 100
         }
       ],
       "TaskConditions": [
         {
           "MainCondition": {
-            "MainType": "ECyTaskMainConditionType::Battle",
-            "GameCondition": "ECyTaskGameConditionType::None",
-            "GameResult": "ECyGameResultType::None",
+            "MainType": "ECyTaskMainConditionType::Game",
+            "GameCondition": "ECyTaskGameConditionType::GameNum",
+            "GameResult": "ECyGameResultType::Win",
             "RoundResult": "ECyRoundResultType::None",
             "bFriendTeam": false,
             "bNoFriendTeam": false,
-            "BattleCondition": "ECyTaskBattleConditionType::UseSkillNum",
+            "BattleCondition": "ECyTaskBattleConditionType::None",
             "bHeadshot": false,
             "bHitBody": false,
             "bFirstKill": false,
@@ -1992,11 +1934,8 @@
             "EnemyMeshModes": [],
             "WeaponTypes": [],
             "WeaponHoldType": [],
-            "SkillTypes": [
-              "ECyPlayerSkillType::Q",
-              "ECyPlayerSkillType::X"
-            ],
-            "Num": 10,
+            "SkillTypes": [],
+            "Num": 12,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
             "BehaviorId": 0
@@ -2012,10 +1951,10 @@
       "Desc": {
         "Namespace": "RoleProficiencyTask",
         "Key": "911004_Desc",
-        "SourceString": "累计使用【白墨】技能30次",
-        "LocalizedString": "累计使用【白墨】技能30次"
+        "SourceString": "使用【白墨】累计释放主动技能180次",
+        "LocalizedString": "使用【白墨】累计释放主动技能180次"
       },
-      "Type": 9,
+      "Type": 10,
       "Prize": [
         {
           "ItemId": 3,
@@ -2023,7 +1962,7 @@
         },
         {
           "ItemId": 9,
-          "ItemAmount": 30
+          "ItemAmount": 200
         }
       ],
       "TaskConditions": [
@@ -2054,10 +1993,9 @@
             "WeaponTypes": [],
             "WeaponHoldType": [],
             "SkillTypes": [
-              "ECyPlayerSkillType::Q",
-              "ECyPlayerSkillType::X"
+              "ECyPlayerSkillType::Q"
             ],
-            "Num": 20,
+            "Num": 180,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
             "BehaviorId": 0
@@ -2073,10 +2011,10 @@
       "Desc": {
         "Namespace": "RoleProficiencyTask",
         "Key": "911005_Desc",
-        "SourceString": "累计使用【白墨】技能40次",
-        "LocalizedString": "累计使用【白墨】技能40次"
+        "SourceString": "使用【白墨】累计释放绝招20次",
+        "LocalizedString": "使用【白墨】累计释放绝招20次"
       },
-      "Type": 9,
+      "Type": 10,
       "Prize": [
         {
           "ItemId": 3,
@@ -2084,7 +2022,7 @@
         },
         {
           "ItemId": 9,
-          "ItemAmount": 30
+          "ItemAmount": 200
         }
       ],
       "TaskConditions": [
@@ -2115,10 +2053,9 @@
             "WeaponTypes": [],
             "WeaponHoldType": [],
             "SkillTypes": [
-              "ECyPlayerSkillType::Q",
               "ECyPlayerSkillType::X"
             ],
-            "Num": 30,
+            "Num": 20,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
             "BehaviorId": 0
@@ -2133,11 +2070,11 @@
       "ProficiencyTask": 2,
       "Desc": {
         "Namespace": "RoleProficiencyTask",
-        "Key": "911005_Desc",
-        "SourceString": "累计使用【白墨】技能40次",
-        "LocalizedString": "累计使用【白墨】技能40次"
+        "Key": "911006_Desc",
+        "SourceString": "使用【白墨】累计完成50场比赛",
+        "LocalizedString": "使用【白墨】累计完成50场比赛"
       },
-      "Type": 9,
+      "Type": 10,
       "Prize": [
         {
           "ItemId": 3,
@@ -2145,19 +2082,19 @@
         },
         {
           "ItemId": 9,
-          "ItemAmount": 30
+          "ItemAmount": 200
         }
       ],
       "TaskConditions": [
         {
           "MainCondition": {
-            "MainType": "ECyTaskMainConditionType::Battle",
-            "GameCondition": "ECyTaskGameConditionType::None",
+            "MainType": "ECyTaskMainConditionType::Game",
+            "GameCondition": "ECyTaskGameConditionType::GameNum",
             "GameResult": "ECyGameResultType::None",
             "RoundResult": "ECyRoundResultType::None",
             "bFriendTeam": false,
             "bNoFriendTeam": false,
-            "BattleCondition": "ECyTaskBattleConditionType::UseSkillNum",
+            "BattleCondition": "ECyTaskBattleConditionType::None",
             "bHeadshot": false,
             "bHitBody": false,
             "bFirstKill": false,
@@ -2175,11 +2112,8 @@
             "EnemyMeshModes": [],
             "WeaponTypes": [],
             "WeaponHoldType": [],
-            "SkillTypes": [
-              "ECyPlayerSkillType::Q",
-              "ECyPlayerSkillType::X"
-            ],
-            "Num": 40,
+            "SkillTypes": [],
+            "Num": 50,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
             "BehaviorId": 0
@@ -2195,10 +2129,10 @@
       "Desc": {
         "Namespace": "RoleProficiencyTask",
         "Key": "911201_Desc",
-        "SourceString": "累计使用【绯莎】技能1次",
-        "LocalizedString": "累计使用【绯莎】技能1次"
+        "SourceString": "使用【绯莎】累计击败200个敌人",
+        "LocalizedString": "使用【绯莎】累计击败200个敌人"
       },
-      "Type": 9,
+      "Type": 10,
       "Prize": [
         {
           "ItemId": 3,
@@ -2206,7 +2140,7 @@
         },
         {
           "ItemId": 9,
-          "ItemAmount": 10
+          "ItemAmount": 100
         }
       ],
       "TaskConditions": [
@@ -2218,7 +2152,7 @@
             "RoundResult": "ECyRoundResultType::None",
             "bFriendTeam": false,
             "bNoFriendTeam": false,
-            "BattleCondition": "ECyTaskBattleConditionType::UseSkillNum",
+            "BattleCondition": "ECyTaskBattleConditionType::KillNum",
             "bHeadshot": false,
             "bHitBody": false,
             "bFirstKill": false,
@@ -2236,11 +2170,8 @@
             "EnemyMeshModes": [],
             "WeaponTypes": [],
             "WeaponHoldType": [],
-            "SkillTypes": [
-              "ECyPlayerSkillType::Q",
-              "ECyPlayerSkillType::X"
-            ],
-            "Num": 1,
+            "SkillTypes": [],
+            "Num": 200,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
             "BehaviorId": 0
@@ -2256,10 +2187,10 @@
       "Desc": {
         "Namespace": "RoleProficiencyTask",
         "Key": "911202_Desc",
-        "SourceString": "累积使用【绯莎】造成1000点伤害",
-        "LocalizedString": "累积使用【绯莎】造成1000点伤害"
+        "SourceString": "使用【绯莎】累积造成50000点伤害",
+        "LocalizedString": "使用【绯莎】累积造成50000点伤害"
       },
-      "Type": 9,
+      "Type": 10,
       "Prize": [
         {
           "ItemId": 3,
@@ -2267,7 +2198,7 @@
         },
         {
           "ItemId": 9,
-          "ItemAmount": 10
+          "ItemAmount": 100
         }
       ],
       "TaskConditions": [
@@ -2298,7 +2229,7 @@
             "WeaponTypes": [],
             "WeaponHoldType": [],
             "SkillTypes": [],
-            "Num": 1000,
+            "Num": 50000,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
             "BehaviorId": 0
@@ -2314,10 +2245,10 @@
       "Desc": {
         "Namespace": "RoleProficiencyTask",
         "Key": "911203_Desc",
-        "SourceString": "累计使用【绯莎】技能10次",
-        "LocalizedString": "累计使用【绯莎】技能10次"
+        "SourceString": "使用【绯莎】累计赢得12场比赛",
+        "LocalizedString": "使用【绯莎】累计赢得12场比赛"
       },
-      "Type": 9,
+      "Type": 10,
       "Prize": [
         {
           "ItemId": 3,
@@ -2325,19 +2256,19 @@
         },
         {
           "ItemId": 9,
-          "ItemAmount": 10
+          "ItemAmount": 100
         }
       ],
       "TaskConditions": [
         {
           "MainCondition": {
-            "MainType": "ECyTaskMainConditionType::Battle",
-            "GameCondition": "ECyTaskGameConditionType::None",
-            "GameResult": "ECyGameResultType::None",
+            "MainType": "ECyTaskMainConditionType::Game",
+            "GameCondition": "ECyTaskGameConditionType::GameNum",
+            "GameResult": "ECyGameResultType::Win",
             "RoundResult": "ECyRoundResultType::None",
             "bFriendTeam": false,
             "bNoFriendTeam": false,
-            "BattleCondition": "ECyTaskBattleConditionType::UseSkillNum",
+            "BattleCondition": "ECyTaskBattleConditionType::None",
             "bHeadshot": false,
             "bHitBody": false,
             "bFirstKill": false,
@@ -2355,11 +2286,8 @@
             "EnemyMeshModes": [],
             "WeaponTypes": [],
             "WeaponHoldType": [],
-            "SkillTypes": [
-              "ECyPlayerSkillType::Q",
-              "ECyPlayerSkillType::X"
-            ],
-            "Num": 10,
+            "SkillTypes": [],
+            "Num": 12,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
             "BehaviorId": 0
@@ -2375,10 +2303,10 @@
       "Desc": {
         "Namespace": "RoleProficiencyTask",
         "Key": "911204_Desc",
-        "SourceString": "累计使用【绯莎】技能30次",
-        "LocalizedString": "累计使用【绯莎】技能30次"
+        "SourceString": "使用【绯莎】累计释放主动技能180次",
+        "LocalizedString": "使用【绯莎】累计释放主动技能180次"
       },
-      "Type": 9,
+      "Type": 10,
       "Prize": [
         {
           "ItemId": 3,
@@ -2386,7 +2314,7 @@
         },
         {
           "ItemId": 9,
-          "ItemAmount": 30
+          "ItemAmount": 200
         }
       ],
       "TaskConditions": [
@@ -2417,10 +2345,9 @@
             "WeaponTypes": [],
             "WeaponHoldType": [],
             "SkillTypes": [
-              "ECyPlayerSkillType::Q",
-              "ECyPlayerSkillType::X"
+              "ECyPlayerSkillType::Q"
             ],
-            "Num": 20,
+            "Num": 180,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
             "BehaviorId": 0
@@ -2436,10 +2363,10 @@
       "Desc": {
         "Namespace": "RoleProficiencyTask",
         "Key": "911205_Desc",
-        "SourceString": "累计使用【绯莎】技能40次",
-        "LocalizedString": "累计使用【绯莎】技能40次"
+        "SourceString": "使用【绯莎】累计释放绝招20次",
+        "LocalizedString": "使用【绯莎】累计释放绝招20次"
       },
-      "Type": 9,
+      "Type": 10,
       "Prize": [
         {
           "ItemId": 3,
@@ -2447,7 +2374,7 @@
         },
         {
           "ItemId": 9,
-          "ItemAmount": 30
+          "ItemAmount": 200
         }
       ],
       "TaskConditions": [
@@ -2478,10 +2405,9 @@
             "WeaponTypes": [],
             "WeaponHoldType": [],
             "SkillTypes": [
-              "ECyPlayerSkillType::Q",
               "ECyPlayerSkillType::X"
             ],
-            "Num": 30,
+            "Num": 20,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
             "BehaviorId": 0
@@ -2496,11 +2422,11 @@
       "ProficiencyTask": 2,
       "Desc": {
         "Namespace": "RoleProficiencyTask",
-        "Key": "911205_Desc",
-        "SourceString": "累计使用【绯莎】技能40次",
-        "LocalizedString": "累计使用【绯莎】技能40次"
+        "Key": "911206_Desc",
+        "SourceString": "使用【绯莎】累计完成50场比赛",
+        "LocalizedString": "使用【绯莎】累计完成50场比赛"
       },
-      "Type": 9,
+      "Type": 10,
       "Prize": [
         {
           "ItemId": 3,
@@ -2508,19 +2434,19 @@
         },
         {
           "ItemId": 9,
-          "ItemAmount": 30
+          "ItemAmount": 200
         }
       ],
       "TaskConditions": [
         {
           "MainCondition": {
-            "MainType": "ECyTaskMainConditionType::Battle",
-            "GameCondition": "ECyTaskGameConditionType::None",
+            "MainType": "ECyTaskMainConditionType::Game",
+            "GameCondition": "ECyTaskGameConditionType::GameNum",
             "GameResult": "ECyGameResultType::None",
             "RoundResult": "ECyRoundResultType::None",
             "bFriendTeam": false,
             "bNoFriendTeam": false,
-            "BattleCondition": "ECyTaskBattleConditionType::UseSkillNum",
+            "BattleCondition": "ECyTaskBattleConditionType::None",
             "bHeadshot": false,
             "bHitBody": false,
             "bFirstKill": false,
@@ -2538,11 +2464,8 @@
             "EnemyMeshModes": [],
             "WeaponTypes": [],
             "WeaponHoldType": [],
-            "SkillTypes": [
-              "ECyPlayerSkillType::Q",
-              "ECyPlayerSkillType::X"
-            ],
-            "Num": 40,
+            "SkillTypes": [],
+            "Num": 50,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
             "BehaviorId": 0
@@ -2558,10 +2481,10 @@
       "Desc": {
         "Namespace": "RoleProficiencyTask",
         "Key": "912401_Desc",
-        "SourceString": "累计使用【心夏】技能1次",
-        "LocalizedString": "累计使用【心夏】技能1次"
+        "SourceString": "使用【心夏】累计击败200个敌人",
+        "LocalizedString": "使用【心夏】累计击败200个敌人"
       },
-      "Type": 9,
+      "Type": 10,
       "Prize": [
         {
           "ItemId": 3,
@@ -2569,7 +2492,7 @@
         },
         {
           "ItemId": 9,
-          "ItemAmount": 10
+          "ItemAmount": 100
         }
       ],
       "TaskConditions": [
@@ -2581,7 +2504,7 @@
             "RoundResult": "ECyRoundResultType::None",
             "bFriendTeam": false,
             "bNoFriendTeam": false,
-            "BattleCondition": "ECyTaskBattleConditionType::UseSkillNum",
+            "BattleCondition": "ECyTaskBattleConditionType::KillNum",
             "bHeadshot": false,
             "bHitBody": false,
             "bFirstKill": false,
@@ -2599,11 +2522,8 @@
             "EnemyMeshModes": [],
             "WeaponTypes": [],
             "WeaponHoldType": [],
-            "SkillTypes": [
-              "ECyPlayerSkillType::Q",
-              "ECyPlayerSkillType::X"
-            ],
-            "Num": 1,
+            "SkillTypes": [],
+            "Num": 200,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
             "BehaviorId": 0
@@ -2619,10 +2539,10 @@
       "Desc": {
         "Namespace": "RoleProficiencyTask",
         "Key": "912402_Desc",
-        "SourceString": "累积使用【心夏】造成1000点伤害",
-        "LocalizedString": "累积使用【心夏】造成1000点伤害"
+        "SourceString": "使用【心夏】累积造成50000点伤害",
+        "LocalizedString": "使用【心夏】累积造成50000点伤害"
       },
-      "Type": 9,
+      "Type": 10,
       "Prize": [
         {
           "ItemId": 3,
@@ -2630,7 +2550,7 @@
         },
         {
           "ItemId": 9,
-          "ItemAmount": 10
+          "ItemAmount": 100
         }
       ],
       "TaskConditions": [
@@ -2661,7 +2581,7 @@
             "WeaponTypes": [],
             "WeaponHoldType": [],
             "SkillTypes": [],
-            "Num": 1000,
+            "Num": 50000,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
             "BehaviorId": 0
@@ -2677,10 +2597,10 @@
       "Desc": {
         "Namespace": "RoleProficiencyTask",
         "Key": "912403_Desc",
-        "SourceString": "累计使用【心夏】技能10次",
-        "LocalizedString": "累计使用【心夏】技能10次"
+        "SourceString": "使用【心夏】累计赢得12场比赛",
+        "LocalizedString": "使用【心夏】累计赢得12场比赛"
       },
-      "Type": 9,
+      "Type": 10,
       "Prize": [
         {
           "ItemId": 3,
@@ -2688,19 +2608,19 @@
         },
         {
           "ItemId": 9,
-          "ItemAmount": 10
+          "ItemAmount": 100
         }
       ],
       "TaskConditions": [
         {
           "MainCondition": {
-            "MainType": "ECyTaskMainConditionType::Battle",
-            "GameCondition": "ECyTaskGameConditionType::None",
-            "GameResult": "ECyGameResultType::None",
+            "MainType": "ECyTaskMainConditionType::Game",
+            "GameCondition": "ECyTaskGameConditionType::GameNum",
+            "GameResult": "ECyGameResultType::Win",
             "RoundResult": "ECyRoundResultType::None",
             "bFriendTeam": false,
             "bNoFriendTeam": false,
-            "BattleCondition": "ECyTaskBattleConditionType::UseSkillNum",
+            "BattleCondition": "ECyTaskBattleConditionType::None",
             "bHeadshot": false,
             "bHitBody": false,
             "bFirstKill": false,
@@ -2718,11 +2638,8 @@
             "EnemyMeshModes": [],
             "WeaponTypes": [],
             "WeaponHoldType": [],
-            "SkillTypes": [
-              "ECyPlayerSkillType::Q",
-              "ECyPlayerSkillType::X"
-            ],
-            "Num": 10,
+            "SkillTypes": [],
+            "Num": 12,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
             "BehaviorId": 0
@@ -2738,10 +2655,10 @@
       "Desc": {
         "Namespace": "RoleProficiencyTask",
         "Key": "912404_Desc",
-        "SourceString": "累计使用【心夏】技能30次",
-        "LocalizedString": "累计使用【心夏】技能30次"
+        "SourceString": "使用【心夏】累计释放主动技能180次",
+        "LocalizedString": "使用【心夏】累计释放主动技能180次"
       },
-      "Type": 9,
+      "Type": 10,
       "Prize": [
         {
           "ItemId": 3,
@@ -2749,7 +2666,7 @@
         },
         {
           "ItemId": 9,
-          "ItemAmount": 30
+          "ItemAmount": 200
         }
       ],
       "TaskConditions": [
@@ -2780,10 +2697,9 @@
             "WeaponTypes": [],
             "WeaponHoldType": [],
             "SkillTypes": [
-              "ECyPlayerSkillType::Q",
-              "ECyPlayerSkillType::X"
+              "ECyPlayerSkillType::Q"
             ],
-            "Num": 20,
+            "Num": 180,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
             "BehaviorId": 0
@@ -2799,10 +2715,10 @@
       "Desc": {
         "Namespace": "RoleProficiencyTask",
         "Key": "912405_Desc",
-        "SourceString": "累计使用【心夏】技能40次",
-        "LocalizedString": "累计使用【心夏】技能40次"
+        "SourceString": "使用【心夏】累计释放绝招20次",
+        "LocalizedString": "使用【心夏】累计释放绝招20次"
       },
-      "Type": 9,
+      "Type": 10,
       "Prize": [
         {
           "ItemId": 3,
@@ -2810,7 +2726,7 @@
         },
         {
           "ItemId": 9,
-          "ItemAmount": 30
+          "ItemAmount": 200
         }
       ],
       "TaskConditions": [
@@ -2841,10 +2757,9 @@
             "WeaponTypes": [],
             "WeaponHoldType": [],
             "SkillTypes": [
-              "ECyPlayerSkillType::Q",
               "ECyPlayerSkillType::X"
             ],
-            "Num": 30,
+            "Num": 20,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
             "BehaviorId": 0
@@ -2859,11 +2774,11 @@
       "ProficiencyTask": 2,
       "Desc": {
         "Namespace": "RoleProficiencyTask",
-        "Key": "912405_Desc",
-        "SourceString": "累计使用【心夏】技能40次",
-        "LocalizedString": "累计使用【心夏】技能40次"
+        "Key": "912406_Desc",
+        "SourceString": "使用【心夏】累计完成50场比赛",
+        "LocalizedString": "使用【心夏】累计完成50场比赛"
       },
-      "Type": 9,
+      "Type": 10,
       "Prize": [
         {
           "ItemId": 3,
@@ -2871,19 +2786,19 @@
         },
         {
           "ItemId": 9,
-          "ItemAmount": 30
+          "ItemAmount": 200
         }
       ],
       "TaskConditions": [
         {
           "MainCondition": {
-            "MainType": "ECyTaskMainConditionType::Battle",
-            "GameCondition": "ECyTaskGameConditionType::None",
+            "MainType": "ECyTaskMainConditionType::Game",
+            "GameCondition": "ECyTaskGameConditionType::GameNum",
             "GameResult": "ECyGameResultType::None",
             "RoundResult": "ECyRoundResultType::None",
             "bFriendTeam": false,
             "bNoFriendTeam": false,
-            "BattleCondition": "ECyTaskBattleConditionType::UseSkillNum",
+            "BattleCondition": "ECyTaskBattleConditionType::None",
             "bHeadshot": false,
             "bHitBody": false,
             "bFirstKill": false,
@@ -2901,11 +2816,8 @@
             "EnemyMeshModes": [],
             "WeaponTypes": [],
             "WeaponHoldType": [],
-            "SkillTypes": [
-              "ECyPlayerSkillType::Q",
-              "ECyPlayerSkillType::X"
-            ],
-            "Num": 40,
+            "SkillTypes": [],
+            "Num": 50,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
             "BehaviorId": 0
@@ -2921,10 +2833,10 @@
       "Desc": {
         "Namespace": "RoleProficiencyTask",
         "Key": "912801_Desc",
-        "SourceString": "累计使用【拉薇】技能1次",
-        "LocalizedString": "累计使用【拉薇】技能1次"
+        "SourceString": "使用【拉薇】累计击败200个敌人",
+        "LocalizedString": "使用【拉薇】累计击败200个敌人"
       },
-      "Type": 9,
+      "Type": 10,
       "Prize": [
         {
           "ItemId": 3,
@@ -2932,7 +2844,7 @@
         },
         {
           "ItemId": 9,
-          "ItemAmount": 10
+          "ItemAmount": 100
         }
       ],
       "TaskConditions": [
@@ -2944,7 +2856,7 @@
             "RoundResult": "ECyRoundResultType::None",
             "bFriendTeam": false,
             "bNoFriendTeam": false,
-            "BattleCondition": "ECyTaskBattleConditionType::UseSkillNum",
+            "BattleCondition": "ECyTaskBattleConditionType::KillNum",
             "bHeadshot": false,
             "bHitBody": false,
             "bFirstKill": false,
@@ -2962,11 +2874,8 @@
             "EnemyMeshModes": [],
             "WeaponTypes": [],
             "WeaponHoldType": [],
-            "SkillTypes": [
-              "ECyPlayerSkillType::Q",
-              "ECyPlayerSkillType::X"
-            ],
-            "Num": 1,
+            "SkillTypes": [],
+            "Num": 200,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
             "BehaviorId": 0
@@ -2982,10 +2891,10 @@
       "Desc": {
         "Namespace": "RoleProficiencyTask",
         "Key": "912802_Desc",
-        "SourceString": "累积使用【拉薇】造成1000点伤害",
-        "LocalizedString": "累积使用【拉薇】造成1000点伤害"
+        "SourceString": "使用【拉薇】累积造成50000点伤害",
+        "LocalizedString": "使用【拉薇】累积造成50000点伤害"
       },
-      "Type": 9,
+      "Type": 10,
       "Prize": [
         {
           "ItemId": 3,
@@ -2993,7 +2902,7 @@
         },
         {
           "ItemId": 9,
-          "ItemAmount": 10
+          "ItemAmount": 100
         }
       ],
       "TaskConditions": [
@@ -3024,7 +2933,7 @@
             "WeaponTypes": [],
             "WeaponHoldType": [],
             "SkillTypes": [],
-            "Num": 1000,
+            "Num": 50000,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
             "BehaviorId": 0
@@ -3040,10 +2949,10 @@
       "Desc": {
         "Namespace": "RoleProficiencyTask",
         "Key": "912803_Desc",
-        "SourceString": "累计使用【拉薇】技能10次",
-        "LocalizedString": "累计使用【拉薇】技能10次"
+        "SourceString": "使用【拉薇】累计赢得12场比赛",
+        "LocalizedString": "使用【拉薇】累计赢得12场比赛"
       },
-      "Type": 9,
+      "Type": 10,
       "Prize": [
         {
           "ItemId": 3,
@@ -3051,19 +2960,19 @@
         },
         {
           "ItemId": 9,
-          "ItemAmount": 10
+          "ItemAmount": 100
         }
       ],
       "TaskConditions": [
         {
           "MainCondition": {
-            "MainType": "ECyTaskMainConditionType::Battle",
-            "GameCondition": "ECyTaskGameConditionType::None",
-            "GameResult": "ECyGameResultType::None",
+            "MainType": "ECyTaskMainConditionType::Game",
+            "GameCondition": "ECyTaskGameConditionType::GameNum",
+            "GameResult": "ECyGameResultType::Win",
             "RoundResult": "ECyRoundResultType::None",
             "bFriendTeam": false,
             "bNoFriendTeam": false,
-            "BattleCondition": "ECyTaskBattleConditionType::UseSkillNum",
+            "BattleCondition": "ECyTaskBattleConditionType::None",
             "bHeadshot": false,
             "bHitBody": false,
             "bFirstKill": false,
@@ -3081,11 +2990,8 @@
             "EnemyMeshModes": [],
             "WeaponTypes": [],
             "WeaponHoldType": [],
-            "SkillTypes": [
-              "ECyPlayerSkillType::Q",
-              "ECyPlayerSkillType::X"
-            ],
-            "Num": 10,
+            "SkillTypes": [],
+            "Num": 12,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
             "BehaviorId": 0
@@ -3101,10 +3007,10 @@
       "Desc": {
         "Namespace": "RoleProficiencyTask",
         "Key": "912804_Desc",
-        "SourceString": "累计使用【拉薇】技能30次",
-        "LocalizedString": "累计使用【拉薇】技能30次"
+        "SourceString": "使用【拉薇】累计释放主动技能180次",
+        "LocalizedString": "使用【拉薇】累计释放主动技能180次"
       },
-      "Type": 9,
+      "Type": 10,
       "Prize": [
         {
           "ItemId": 3,
@@ -3112,7 +3018,7 @@
         },
         {
           "ItemId": 9,
-          "ItemAmount": 30
+          "ItemAmount": 200
         }
       ],
       "TaskConditions": [
@@ -3143,10 +3049,9 @@
             "WeaponTypes": [],
             "WeaponHoldType": [],
             "SkillTypes": [
-              "ECyPlayerSkillType::Q",
-              "ECyPlayerSkillType::X"
+              "ECyPlayerSkillType::Q"
             ],
-            "Num": 20,
+            "Num": 180,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
             "BehaviorId": 0
@@ -3162,10 +3067,10 @@
       "Desc": {
         "Namespace": "RoleProficiencyTask",
         "Key": "912805_Desc",
-        "SourceString": "累计使用【拉薇】技能40次",
-        "LocalizedString": "累计使用【拉薇】技能40次"
+        "SourceString": "使用【拉薇】累计释放绝招20次",
+        "LocalizedString": "使用【拉薇】累计释放绝招20次"
       },
-      "Type": 9,
+      "Type": 10,
       "Prize": [
         {
           "ItemId": 3,
@@ -3173,7 +3078,7 @@
         },
         {
           "ItemId": 9,
-          "ItemAmount": 30
+          "ItemAmount": 200
         }
       ],
       "TaskConditions": [
@@ -3204,10 +3109,9 @@
             "WeaponTypes": [],
             "WeaponHoldType": [],
             "SkillTypes": [
-              "ECyPlayerSkillType::Q",
               "ECyPlayerSkillType::X"
             ],
-            "Num": 30,
+            "Num": 20,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
             "BehaviorId": 0
@@ -3222,11 +3126,11 @@
       "ProficiencyTask": 2,
       "Desc": {
         "Namespace": "RoleProficiencyTask",
-        "Key": "912805_Desc",
-        "SourceString": "累计使用【拉薇】技能40次",
-        "LocalizedString": "累计使用【拉薇】技能40次"
+        "Key": "912806_Desc",
+        "SourceString": "使用【拉薇】累计完成50场比赛",
+        "LocalizedString": "使用【拉薇】累计完成50场比赛"
       },
-      "Type": 9,
+      "Type": 10,
       "Prize": [
         {
           "ItemId": 3,
@@ -3234,19 +3138,19 @@
         },
         {
           "ItemId": 9,
-          "ItemAmount": 30
+          "ItemAmount": 200
         }
       ],
       "TaskConditions": [
         {
           "MainCondition": {
-            "MainType": "ECyTaskMainConditionType::Battle",
-            "GameCondition": "ECyTaskGameConditionType::None",
+            "MainType": "ECyTaskMainConditionType::Game",
+            "GameCondition": "ECyTaskGameConditionType::GameNum",
             "GameResult": "ECyGameResultType::None",
             "RoundResult": "ECyRoundResultType::None",
             "bFriendTeam": false,
             "bNoFriendTeam": false,
-            "BattleCondition": "ECyTaskBattleConditionType::UseSkillNum",
+            "BattleCondition": "ECyTaskBattleConditionType::None",
             "bHeadshot": false,
             "bHitBody": false,
             "bFirstKill": false,
@@ -3264,11 +3168,8 @@
             "EnemyMeshModes": [],
             "WeaponTypes": [],
             "WeaponHoldType": [],
-            "SkillTypes": [
-              "ECyPlayerSkillType::Q",
-              "ECyPlayerSkillType::X"
-            ],
-            "Num": 40,
+            "SkillTypes": [],
+            "Num": 50,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
             "BehaviorId": 0
@@ -3284,10 +3185,10 @@
       "Desc": {
         "Namespace": "RoleProficiencyTask",
         "Key": "913101_Desc",
-        "SourceString": "累计使用【伊薇特】技能1次",
-        "LocalizedString": "累计使用【伊薇特】技能1次"
+        "SourceString": "使用【伊薇特】累计击败200个敌人",
+        "LocalizedString": "使用【伊薇特】累计击败200个敌人"
       },
-      "Type": 9,
+      "Type": 10,
       "Prize": [
         {
           "ItemId": 3,
@@ -3295,7 +3196,7 @@
         },
         {
           "ItemId": 9,
-          "ItemAmount": 10
+          "ItemAmount": 100
         }
       ],
       "TaskConditions": [
@@ -3307,7 +3208,7 @@
             "RoundResult": "ECyRoundResultType::None",
             "bFriendTeam": false,
             "bNoFriendTeam": false,
-            "BattleCondition": "ECyTaskBattleConditionType::UseSkillNum",
+            "BattleCondition": "ECyTaskBattleConditionType::KillNum",
             "bHeadshot": false,
             "bHitBody": false,
             "bFirstKill": false,
@@ -3325,11 +3226,8 @@
             "EnemyMeshModes": [],
             "WeaponTypes": [],
             "WeaponHoldType": [],
-            "SkillTypes": [
-              "ECyPlayerSkillType::Q",
-              "ECyPlayerSkillType::X"
-            ],
-            "Num": 1,
+            "SkillTypes": [],
+            "Num": 200,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
             "BehaviorId": 0
@@ -3345,10 +3243,10 @@
       "Desc": {
         "Namespace": "RoleProficiencyTask",
         "Key": "913102_Desc",
-        "SourceString": "累积使用【伊薇特】造成1000点伤害",
-        "LocalizedString": "累积使用【伊薇特】造成1000点伤害"
+        "SourceString": "使用【伊薇特】累积造成50000点伤害",
+        "LocalizedString": "使用【伊薇特】累积造成50000点伤害"
       },
-      "Type": 9,
+      "Type": 10,
       "Prize": [
         {
           "ItemId": 3,
@@ -3356,7 +3254,7 @@
         },
         {
           "ItemId": 9,
-          "ItemAmount": 10
+          "ItemAmount": 100
         }
       ],
       "TaskConditions": [
@@ -3387,7 +3285,7 @@
             "WeaponTypes": [],
             "WeaponHoldType": [],
             "SkillTypes": [],
-            "Num": 1000,
+            "Num": 50000,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
             "BehaviorId": 0
@@ -3403,10 +3301,10 @@
       "Desc": {
         "Namespace": "RoleProficiencyTask",
         "Key": "913103_Desc",
-        "SourceString": "累计使用【伊薇特】技能10次",
-        "LocalizedString": "累计使用【伊薇特】技能10次"
+        "SourceString": "使用【伊薇特】累计赢得12场比赛",
+        "LocalizedString": "使用【伊薇特】累计赢得12场比赛"
       },
-      "Type": 9,
+      "Type": 10,
       "Prize": [
         {
           "ItemId": 3,
@@ -3414,19 +3312,19 @@
         },
         {
           "ItemId": 9,
-          "ItemAmount": 10
+          "ItemAmount": 100
         }
       ],
       "TaskConditions": [
         {
           "MainCondition": {
-            "MainType": "ECyTaskMainConditionType::Battle",
-            "GameCondition": "ECyTaskGameConditionType::None",
-            "GameResult": "ECyGameResultType::None",
+            "MainType": "ECyTaskMainConditionType::Game",
+            "GameCondition": "ECyTaskGameConditionType::GameNum",
+            "GameResult": "ECyGameResultType::Win",
             "RoundResult": "ECyRoundResultType::None",
             "bFriendTeam": false,
             "bNoFriendTeam": false,
-            "BattleCondition": "ECyTaskBattleConditionType::UseSkillNum",
+            "BattleCondition": "ECyTaskBattleConditionType::None",
             "bHeadshot": false,
             "bHitBody": false,
             "bFirstKill": false,
@@ -3444,11 +3342,8 @@
             "EnemyMeshModes": [],
             "WeaponTypes": [],
             "WeaponHoldType": [],
-            "SkillTypes": [
-              "ECyPlayerSkillType::Q",
-              "ECyPlayerSkillType::X"
-            ],
-            "Num": 10,
+            "SkillTypes": [],
+            "Num": 12,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
             "BehaviorId": 0
@@ -3464,10 +3359,10 @@
       "Desc": {
         "Namespace": "RoleProficiencyTask",
         "Key": "913104_Desc",
-        "SourceString": "累计使用【伊薇特】技能30次",
-        "LocalizedString": "累计使用【伊薇特】技能30次"
+        "SourceString": "使用【伊薇特】累计释放主动技能180次",
+        "LocalizedString": "使用【伊薇特】累计释放主动技能180次"
       },
-      "Type": 9,
+      "Type": 10,
       "Prize": [
         {
           "ItemId": 3,
@@ -3475,7 +3370,7 @@
         },
         {
           "ItemId": 9,
-          "ItemAmount": 30
+          "ItemAmount": 200
         }
       ],
       "TaskConditions": [
@@ -3506,10 +3401,9 @@
             "WeaponTypes": [],
             "WeaponHoldType": [],
             "SkillTypes": [
-              "ECyPlayerSkillType::Q",
-              "ECyPlayerSkillType::X"
+              "ECyPlayerSkillType::Q"
             ],
-            "Num": 20,
+            "Num": 180,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
             "BehaviorId": 0
@@ -3525,10 +3419,10 @@
       "Desc": {
         "Namespace": "RoleProficiencyTask",
         "Key": "913105_Desc",
-        "SourceString": "累计使用【伊薇特】技能40次",
-        "LocalizedString": "累计使用【伊薇特】技能40次"
+        "SourceString": "使用【伊薇特】累计释放绝招20次",
+        "LocalizedString": "使用【伊薇特】累计释放绝招20次"
       },
-      "Type": 9,
+      "Type": 10,
       "Prize": [
         {
           "ItemId": 3,
@@ -3536,7 +3430,7 @@
         },
         {
           "ItemId": 9,
-          "ItemAmount": 30
+          "ItemAmount": 200
         }
       ],
       "TaskConditions": [
@@ -3567,10 +3461,9 @@
             "WeaponTypes": [],
             "WeaponHoldType": [],
             "SkillTypes": [
-              "ECyPlayerSkillType::Q",
               "ECyPlayerSkillType::X"
             ],
-            "Num": 30,
+            "Num": 20,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
             "BehaviorId": 0
@@ -3585,11 +3478,11 @@
       "ProficiencyTask": 2,
       "Desc": {
         "Namespace": "RoleProficiencyTask",
-        "Key": "913105_Desc",
-        "SourceString": "累计使用【伊薇特】技能40次",
-        "LocalizedString": "累计使用【伊薇特】技能40次"
+        "Key": "913106_Desc",
+        "SourceString": "使用【伊薇特】累计完成50场比赛",
+        "LocalizedString": "使用【伊薇特】累计完成50场比赛"
       },
-      "Type": 9,
+      "Type": 10,
       "Prize": [
         {
           "ItemId": 3,
@@ -3597,19 +3490,19 @@
         },
         {
           "ItemId": 9,
-          "ItemAmount": 30
+          "ItemAmount": 200
         }
       ],
       "TaskConditions": [
         {
           "MainCondition": {
-            "MainType": "ECyTaskMainConditionType::Battle",
-            "GameCondition": "ECyTaskGameConditionType::None",
+            "MainType": "ECyTaskMainConditionType::Game",
+            "GameCondition": "ECyTaskGameConditionType::GameNum",
             "GameResult": "ECyGameResultType::None",
             "RoundResult": "ECyRoundResultType::None",
             "bFriendTeam": false,
             "bNoFriendTeam": false,
-            "BattleCondition": "ECyTaskBattleConditionType::UseSkillNum",
+            "BattleCondition": "ECyTaskBattleConditionType::None",
             "bHeadshot": false,
             "bHitBody": false,
             "bFirstKill": false,
@@ -3627,11 +3520,8 @@
             "EnemyMeshModes": [],
             "WeaponTypes": [],
             "WeaponHoldType": [],
-            "SkillTypes": [
-              "ECyPlayerSkillType::Q",
-              "ECyPlayerSkillType::X"
-            ],
-            "Num": 40,
+            "SkillTypes": [],
+            "Num": 50,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
             "BehaviorId": 0
@@ -3647,10 +3537,10 @@
       "Desc": {
         "Namespace": "RoleProficiencyTask",
         "Key": "913201_Desc",
-        "SourceString": "累计使用【明】技能1次",
-        "LocalizedString": "累计使用【明】技能1次"
+        "SourceString": "使用【明】累计击败200个敌人",
+        "LocalizedString": "使用【明】累计击败200个敌人"
       },
-      "Type": 9,
+      "Type": 10,
       "Prize": [
         {
           "ItemId": 3,
@@ -3658,7 +3548,7 @@
         },
         {
           "ItemId": 9,
-          "ItemAmount": 10
+          "ItemAmount": 100
         }
       ],
       "TaskConditions": [
@@ -3670,7 +3560,7 @@
             "RoundResult": "ECyRoundResultType::None",
             "bFriendTeam": false,
             "bNoFriendTeam": false,
-            "BattleCondition": "ECyTaskBattleConditionType::UseSkillNum",
+            "BattleCondition": "ECyTaskBattleConditionType::KillNum",
             "bHeadshot": false,
             "bHitBody": false,
             "bFirstKill": false,
@@ -3688,11 +3578,8 @@
             "EnemyMeshModes": [],
             "WeaponTypes": [],
             "WeaponHoldType": [],
-            "SkillTypes": [
-              "ECyPlayerSkillType::Q",
-              "ECyPlayerSkillType::X"
-            ],
-            "Num": 1,
+            "SkillTypes": [],
+            "Num": 200,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
             "BehaviorId": 0
@@ -3708,10 +3595,10 @@
       "Desc": {
         "Namespace": "RoleProficiencyTask",
         "Key": "913202_Desc",
-        "SourceString": "累积使用【明】造成1000点伤害",
-        "LocalizedString": "累积使用【明】造成1000点伤害"
+        "SourceString": "使用【明】累积造成50000点伤害",
+        "LocalizedString": "使用【明】累积造成50000点伤害"
       },
-      "Type": 9,
+      "Type": 10,
       "Prize": [
         {
           "ItemId": 3,
@@ -3719,7 +3606,7 @@
         },
         {
           "ItemId": 9,
-          "ItemAmount": 10
+          "ItemAmount": 100
         }
       ],
       "TaskConditions": [
@@ -3750,7 +3637,7 @@
             "WeaponTypes": [],
             "WeaponHoldType": [],
             "SkillTypes": [],
-            "Num": 1000,
+            "Num": 50000,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
             "BehaviorId": 0
@@ -3766,10 +3653,10 @@
       "Desc": {
         "Namespace": "RoleProficiencyTask",
         "Key": "913203_Desc",
-        "SourceString": "累计使用【明】技能10次",
-        "LocalizedString": "累计使用【明】技能10次"
+        "SourceString": "使用【明】累计赢得12场比赛",
+        "LocalizedString": "使用【明】累计赢得12场比赛"
       },
-      "Type": 9,
+      "Type": 10,
       "Prize": [
         {
           "ItemId": 3,
@@ -3777,19 +3664,19 @@
         },
         {
           "ItemId": 9,
-          "ItemAmount": 10
+          "ItemAmount": 100
         }
       ],
       "TaskConditions": [
         {
           "MainCondition": {
-            "MainType": "ECyTaskMainConditionType::Battle",
-            "GameCondition": "ECyTaskGameConditionType::None",
-            "GameResult": "ECyGameResultType::None",
+            "MainType": "ECyTaskMainConditionType::Game",
+            "GameCondition": "ECyTaskGameConditionType::GameNum",
+            "GameResult": "ECyGameResultType::Win",
             "RoundResult": "ECyRoundResultType::None",
             "bFriendTeam": false,
             "bNoFriendTeam": false,
-            "BattleCondition": "ECyTaskBattleConditionType::UseSkillNum",
+            "BattleCondition": "ECyTaskBattleConditionType::None",
             "bHeadshot": false,
             "bHitBody": false,
             "bFirstKill": false,
@@ -3807,11 +3694,8 @@
             "EnemyMeshModes": [],
             "WeaponTypes": [],
             "WeaponHoldType": [],
-            "SkillTypes": [
-              "ECyPlayerSkillType::Q",
-              "ECyPlayerSkillType::X"
-            ],
-            "Num": 10,
+            "SkillTypes": [],
+            "Num": 12,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
             "BehaviorId": 0
@@ -3827,10 +3711,10 @@
       "Desc": {
         "Namespace": "RoleProficiencyTask",
         "Key": "913204_Desc",
-        "SourceString": "累计使用【明】技能30次",
-        "LocalizedString": "累计使用【明】技能30次"
+        "SourceString": "使用【明】累计释放主动技能180次",
+        "LocalizedString": "使用【明】累计释放主动技能180次"
       },
-      "Type": 9,
+      "Type": 10,
       "Prize": [
         {
           "ItemId": 3,
@@ -3838,7 +3722,7 @@
         },
         {
           "ItemId": 9,
-          "ItemAmount": 30
+          "ItemAmount": 200
         }
       ],
       "TaskConditions": [
@@ -3869,10 +3753,9 @@
             "WeaponTypes": [],
             "WeaponHoldType": [],
             "SkillTypes": [
-              "ECyPlayerSkillType::Q",
-              "ECyPlayerSkillType::X"
+              "ECyPlayerSkillType::Q"
             ],
-            "Num": 20,
+            "Num": 180,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
             "BehaviorId": 0
@@ -3888,10 +3771,10 @@
       "Desc": {
         "Namespace": "RoleProficiencyTask",
         "Key": "913205_Desc",
-        "SourceString": "累计使用【明】技能40次",
-        "LocalizedString": "累计使用【明】技能40次"
+        "SourceString": "使用【明】累计释放绝招20次",
+        "LocalizedString": "使用【明】累计释放绝招20次"
       },
-      "Type": 9,
+      "Type": 10,
       "Prize": [
         {
           "ItemId": 3,
@@ -3899,7 +3782,7 @@
         },
         {
           "ItemId": 9,
-          "ItemAmount": 30
+          "ItemAmount": 200
         }
       ],
       "TaskConditions": [
@@ -3930,10 +3813,9 @@
             "WeaponTypes": [],
             "WeaponHoldType": [],
             "SkillTypes": [
-              "ECyPlayerSkillType::Q",
               "ECyPlayerSkillType::X"
             ],
-            "Num": 30,
+            "Num": 20,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
             "BehaviorId": 0
@@ -3948,11 +3830,11 @@
       "ProficiencyTask": 2,
       "Desc": {
         "Namespace": "RoleProficiencyTask",
-        "Key": "913205_Desc",
-        "SourceString": "累计使用【明】技能40次",
-        "LocalizedString": "累计使用【明】技能40次"
+        "Key": "913206_Desc",
+        "SourceString": "使用【明】累计完成50场比赛",
+        "LocalizedString": "使用【明】累计完成50场比赛"
       },
-      "Type": 9,
+      "Type": 10,
       "Prize": [
         {
           "ItemId": 3,
@@ -3960,19 +3842,19 @@
         },
         {
           "ItemId": 9,
-          "ItemAmount": 30
+          "ItemAmount": 200
         }
       ],
       "TaskConditions": [
         {
           "MainCondition": {
-            "MainType": "ECyTaskMainConditionType::Battle",
-            "GameCondition": "ECyTaskGameConditionType::None",
+            "MainType": "ECyTaskMainConditionType::Game",
+            "GameCondition": "ECyTaskGameConditionType::GameNum",
             "GameResult": "ECyGameResultType::None",
             "RoundResult": "ECyRoundResultType::None",
             "bFriendTeam": false,
             "bNoFriendTeam": false,
-            "BattleCondition": "ECyTaskBattleConditionType::UseSkillNum",
+            "BattleCondition": "ECyTaskBattleConditionType::None",
             "bHeadshot": false,
             "bHitBody": false,
             "bFirstKill": false,
@@ -3990,11 +3872,8 @@
             "EnemyMeshModes": [],
             "WeaponTypes": [],
             "WeaponHoldType": [],
-            "SkillTypes": [
-              "ECyPlayerSkillType::Q",
-              "ECyPlayerSkillType::X"
-            ],
-            "Num": 40,
+            "SkillTypes": [],
+            "Num": 50,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
             "BehaviorId": 0
@@ -4010,10 +3889,10 @@
       "Desc": {
         "Namespace": "RoleProficiencyTask",
         "Key": "913301_Desc",
-        "SourceString": "累计使用【梅瑞狄斯】技能1次",
-        "LocalizedString": "累计使用【梅瑞狄斯】技能1次"
+        "SourceString": "使用【梅瑞狄斯】累计击败200个敌人",
+        "LocalizedString": "使用【梅瑞狄斯】累计击败200个敌人"
       },
-      "Type": 9,
+      "Type": 10,
       "Prize": [
         {
           "ItemId": 3,
@@ -4021,7 +3900,7 @@
         },
         {
           "ItemId": 9,
-          "ItemAmount": 10
+          "ItemAmount": 100
         }
       ],
       "TaskConditions": [
@@ -4033,7 +3912,7 @@
             "RoundResult": "ECyRoundResultType::None",
             "bFriendTeam": false,
             "bNoFriendTeam": false,
-            "BattleCondition": "ECyTaskBattleConditionType::UseSkillNum",
+            "BattleCondition": "ECyTaskBattleConditionType::KillNum",
             "bHeadshot": false,
             "bHitBody": false,
             "bFirstKill": false,
@@ -4051,11 +3930,8 @@
             "EnemyMeshModes": [],
             "WeaponTypes": [],
             "WeaponHoldType": [],
-            "SkillTypes": [
-              "ECyPlayerSkillType::Q",
-              "ECyPlayerSkillType::X"
-            ],
-            "Num": 1,
+            "SkillTypes": [],
+            "Num": 200,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
             "BehaviorId": 0
@@ -4071,10 +3947,10 @@
       "Desc": {
         "Namespace": "RoleProficiencyTask",
         "Key": "913302_Desc",
-        "SourceString": "累积使用【梅瑞狄斯】造成1000点伤害",
-        "LocalizedString": "累积使用【梅瑞狄斯】造成1000点伤害"
+        "SourceString": "使用【梅瑞狄斯】累积造成50000点伤害",
+        "LocalizedString": "使用【梅瑞狄斯】累积造成50000点伤害"
       },
-      "Type": 9,
+      "Type": 10,
       "Prize": [
         {
           "ItemId": 3,
@@ -4082,7 +3958,7 @@
         },
         {
           "ItemId": 9,
-          "ItemAmount": 10
+          "ItemAmount": 100
         }
       ],
       "TaskConditions": [
@@ -4113,7 +3989,7 @@
             "WeaponTypes": [],
             "WeaponHoldType": [],
             "SkillTypes": [],
-            "Num": 1000,
+            "Num": 50000,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
             "BehaviorId": 0
@@ -4129,10 +4005,10 @@
       "Desc": {
         "Namespace": "RoleProficiencyTask",
         "Key": "913303_Desc",
-        "SourceString": "累计使用【梅瑞狄斯】技能10次",
-        "LocalizedString": "累计使用【梅瑞狄斯】技能10次"
+        "SourceString": "使用【梅瑞狄斯】累计赢得12场比赛",
+        "LocalizedString": "使用【梅瑞狄斯】累计赢得12场比赛"
       },
-      "Type": 9,
+      "Type": 10,
       "Prize": [
         {
           "ItemId": 3,
@@ -4140,19 +4016,19 @@
         },
         {
           "ItemId": 9,
-          "ItemAmount": 10
+          "ItemAmount": 100
         }
       ],
       "TaskConditions": [
         {
           "MainCondition": {
-            "MainType": "ECyTaskMainConditionType::Battle",
-            "GameCondition": "ECyTaskGameConditionType::None",
-            "GameResult": "ECyGameResultType::None",
+            "MainType": "ECyTaskMainConditionType::Game",
+            "GameCondition": "ECyTaskGameConditionType::GameNum",
+            "GameResult": "ECyGameResultType::Win",
             "RoundResult": "ECyRoundResultType::None",
             "bFriendTeam": false,
             "bNoFriendTeam": false,
-            "BattleCondition": "ECyTaskBattleConditionType::UseSkillNum",
+            "BattleCondition": "ECyTaskBattleConditionType::None",
             "bHeadshot": false,
             "bHitBody": false,
             "bFirstKill": false,
@@ -4170,11 +4046,8 @@
             "EnemyMeshModes": [],
             "WeaponTypes": [],
             "WeaponHoldType": [],
-            "SkillTypes": [
-              "ECyPlayerSkillType::Q",
-              "ECyPlayerSkillType::X"
-            ],
-            "Num": 10,
+            "SkillTypes": [],
+            "Num": 12,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
             "BehaviorId": 0
@@ -4190,10 +4063,10 @@
       "Desc": {
         "Namespace": "RoleProficiencyTask",
         "Key": "913304_Desc",
-        "SourceString": "累计使用【梅瑞狄斯】技能30次",
-        "LocalizedString": "累计使用【梅瑞狄斯】技能30次"
+        "SourceString": "使用【梅瑞狄斯】累计释放主动技能180次",
+        "LocalizedString": "使用【梅瑞狄斯】累计释放主动技能180次"
       },
-      "Type": 9,
+      "Type": 10,
       "Prize": [
         {
           "ItemId": 3,
@@ -4201,7 +4074,7 @@
         },
         {
           "ItemId": 9,
-          "ItemAmount": 30
+          "ItemAmount": 200
         }
       ],
       "TaskConditions": [
@@ -4232,10 +4105,9 @@
             "WeaponTypes": [],
             "WeaponHoldType": [],
             "SkillTypes": [
-              "ECyPlayerSkillType::Q",
-              "ECyPlayerSkillType::X"
+              "ECyPlayerSkillType::Q"
             ],
-            "Num": 20,
+            "Num": 180,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
             "BehaviorId": 0
@@ -4251,10 +4123,10 @@
       "Desc": {
         "Namespace": "RoleProficiencyTask",
         "Key": "913305_Desc",
-        "SourceString": "累计使用【梅瑞狄斯】技能40次",
-        "LocalizedString": "累计使用【梅瑞狄斯】技能40次"
+        "SourceString": "使用【梅瑞狄斯】累计释放绝招20次",
+        "LocalizedString": "使用【梅瑞狄斯】累计释放绝招20次"
       },
-      "Type": 9,
+      "Type": 10,
       "Prize": [
         {
           "ItemId": 3,
@@ -4262,7 +4134,7 @@
         },
         {
           "ItemId": 9,
-          "ItemAmount": 30
+          "ItemAmount": 200
         }
       ],
       "TaskConditions": [
@@ -4293,10 +4165,9 @@
             "WeaponTypes": [],
             "WeaponHoldType": [],
             "SkillTypes": [
-              "ECyPlayerSkillType::Q",
               "ECyPlayerSkillType::X"
             ],
-            "Num": 30,
+            "Num": 20,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
             "BehaviorId": 0
@@ -4311,11 +4182,11 @@
       "ProficiencyTask": 2,
       "Desc": {
         "Namespace": "RoleProficiencyTask",
-        "Key": "913305_Desc",
-        "SourceString": "累计使用【梅瑞狄斯】技能40次",
-        "LocalizedString": "累计使用【梅瑞狄斯】技能40次"
+        "Key": "913306_Desc",
+        "SourceString": "使用【梅瑞狄斯】累计完成50场比赛",
+        "LocalizedString": "使用【梅瑞狄斯】累计完成50场比赛"
       },
-      "Type": 9,
+      "Type": 10,
       "Prize": [
         {
           "ItemId": 3,
@@ -4323,19 +4194,19 @@
         },
         {
           "ItemId": 9,
-          "ItemAmount": 30
+          "ItemAmount": 200
         }
       ],
       "TaskConditions": [
         {
           "MainCondition": {
-            "MainType": "ECyTaskMainConditionType::Battle",
-            "GameCondition": "ECyTaskGameConditionType::None",
+            "MainType": "ECyTaskMainConditionType::Game",
+            "GameCondition": "ECyTaskGameConditionType::GameNum",
             "GameResult": "ECyGameResultType::None",
             "RoundResult": "ECyRoundResultType::None",
             "bFriendTeam": false,
             "bNoFriendTeam": false,
-            "BattleCondition": "ECyTaskBattleConditionType::UseSkillNum",
+            "BattleCondition": "ECyTaskBattleConditionType::None",
             "bHeadshot": false,
             "bHitBody": false,
             "bFirstKill": false,
@@ -4353,11 +4224,8 @@
             "EnemyMeshModes": [],
             "WeaponTypes": [],
             "WeaponHoldType": [],
-            "SkillTypes": [
-              "ECyPlayerSkillType::Q",
-              "ECyPlayerSkillType::X"
-            ],
-            "Num": 40,
+            "SkillTypes": [],
+            "Num": 50,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
             "BehaviorId": 0
@@ -4373,10 +4241,10 @@
       "Desc": {
         "Namespace": "RoleProficiencyTask",
         "Key": "913701_Desc",
-        "SourceString": "累计使用【香奈美】技能1次",
-        "LocalizedString": "累计使用【香奈美】技能1次"
+        "SourceString": "使用【香奈美】累计击败200个敌人",
+        "LocalizedString": "使用【香奈美】累计击败200个敌人"
       },
-      "Type": 9,
+      "Type": 10,
       "Prize": [
         {
           "ItemId": 3,
@@ -4384,7 +4252,7 @@
         },
         {
           "ItemId": 9,
-          "ItemAmount": 10
+          "ItemAmount": 100
         }
       ],
       "TaskConditions": [
@@ -4396,7 +4264,7 @@
             "RoundResult": "ECyRoundResultType::None",
             "bFriendTeam": false,
             "bNoFriendTeam": false,
-            "BattleCondition": "ECyTaskBattleConditionType::UseSkillNum",
+            "BattleCondition": "ECyTaskBattleConditionType::KillNum",
             "bHeadshot": false,
             "bHitBody": false,
             "bFirstKill": false,
@@ -4406,7 +4274,7 @@
             "bBlind": false,
             "ActionCondition": "ECyTaskActionConditionType::None",
             "RoleIds": [
-              132
+              137
             ],
             "RoleProfessions": [],
             "RoleTeams": [],
@@ -4414,11 +4282,8 @@
             "EnemyMeshModes": [],
             "WeaponTypes": [],
             "WeaponHoldType": [],
-            "SkillTypes": [
-              "ECyPlayerSkillType::Q",
-              "ECyPlayerSkillType::X"
-            ],
-            "Num": 1,
+            "SkillTypes": [],
+            "Num": 200,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
             "BehaviorId": 0
@@ -4434,10 +4299,10 @@
       "Desc": {
         "Namespace": "RoleProficiencyTask",
         "Key": "913702_Desc",
-        "SourceString": "累积使用【香奈美】造成1000点伤害",
-        "LocalizedString": "累积使用【香奈美】造成1000点伤害"
+        "SourceString": "使用【香奈美】累积造成50000点伤害",
+        "LocalizedString": "使用【香奈美】累积造成50000点伤害"
       },
-      "Type": 9,
+      "Type": 10,
       "Prize": [
         {
           "ItemId": 3,
@@ -4445,7 +4310,7 @@
         },
         {
           "ItemId": 9,
-          "ItemAmount": 10
+          "ItemAmount": 100
         }
       ],
       "TaskConditions": [
@@ -4476,7 +4341,7 @@
             "WeaponTypes": [],
             "WeaponHoldType": [],
             "SkillTypes": [],
-            "Num": 1000,
+            "Num": 50000,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
             "BehaviorId": 0
@@ -4492,10 +4357,10 @@
       "Desc": {
         "Namespace": "RoleProficiencyTask",
         "Key": "913703_Desc",
-        "SourceString": "累计使用【香奈美】技能10次",
-        "LocalizedString": "累计使用【香奈美】技能10次"
+        "SourceString": "使用【香奈美】累计赢得12场比赛",
+        "LocalizedString": "使用【香奈美】累计赢得12场比赛"
       },
-      "Type": 9,
+      "Type": 10,
       "Prize": [
         {
           "ItemId": 3,
@@ -4503,19 +4368,19 @@
         },
         {
           "ItemId": 9,
-          "ItemAmount": 10
+          "ItemAmount": 100
         }
       ],
       "TaskConditions": [
         {
           "MainCondition": {
-            "MainType": "ECyTaskMainConditionType::Battle",
-            "GameCondition": "ECyTaskGameConditionType::None",
-            "GameResult": "ECyGameResultType::None",
+            "MainType": "ECyTaskMainConditionType::Game",
+            "GameCondition": "ECyTaskGameConditionType::GameNum",
+            "GameResult": "ECyGameResultType::Win",
             "RoundResult": "ECyRoundResultType::None",
             "bFriendTeam": false,
             "bNoFriendTeam": false,
-            "BattleCondition": "ECyTaskBattleConditionType::UseSkillNum",
+            "BattleCondition": "ECyTaskBattleConditionType::None",
             "bHeadshot": false,
             "bHitBody": false,
             "bFirstKill": false,
@@ -4533,11 +4398,8 @@
             "EnemyMeshModes": [],
             "WeaponTypes": [],
             "WeaponHoldType": [],
-            "SkillTypes": [
-              "ECyPlayerSkillType::Q",
-              "ECyPlayerSkillType::X"
-            ],
-            "Num": 10,
+            "SkillTypes": [],
+            "Num": 12,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
             "BehaviorId": 0
@@ -4553,10 +4415,10 @@
       "Desc": {
         "Namespace": "RoleProficiencyTask",
         "Key": "913704_Desc",
-        "SourceString": "累计使用【香奈美】技能30次",
-        "LocalizedString": "累计使用【香奈美】技能30次"
+        "SourceString": "使用【香奈美】累计释放主动技能180次",
+        "LocalizedString": "使用【香奈美】累计释放主动技能180次"
       },
-      "Type": 9,
+      "Type": 10,
       "Prize": [
         {
           "ItemId": 3,
@@ -4564,7 +4426,7 @@
         },
         {
           "ItemId": 9,
-          "ItemAmount": 30
+          "ItemAmount": 200
         }
       ],
       "TaskConditions": [
@@ -4595,10 +4457,9 @@
             "WeaponTypes": [],
             "WeaponHoldType": [],
             "SkillTypes": [
-              "ECyPlayerSkillType::Q",
-              "ECyPlayerSkillType::X"
+              "ECyPlayerSkillType::Q"
             ],
-            "Num": 20,
+            "Num": 180,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
             "BehaviorId": 0
@@ -4614,10 +4475,10 @@
       "Desc": {
         "Namespace": "RoleProficiencyTask",
         "Key": "913705_Desc",
-        "SourceString": "累计使用【香奈美】技能40次",
-        "LocalizedString": "累计使用【香奈美】技能40次"
+        "SourceString": "使用【香奈美】累计释放绝招20次",
+        "LocalizedString": "使用【香奈美】累计释放绝招20次"
       },
-      "Type": 9,
+      "Type": 10,
       "Prize": [
         {
           "ItemId": 3,
@@ -4625,7 +4486,7 @@
         },
         {
           "ItemId": 9,
-          "ItemAmount": 30
+          "ItemAmount": 200
         }
       ],
       "TaskConditions": [
@@ -4656,10 +4517,9 @@
             "WeaponTypes": [],
             "WeaponHoldType": [],
             "SkillTypes": [
-              "ECyPlayerSkillType::Q",
               "ECyPlayerSkillType::X"
             ],
-            "Num": 30,
+            "Num": 20,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
             "BehaviorId": 0
@@ -4674,11 +4534,11 @@
       "ProficiencyTask": 2,
       "Desc": {
         "Namespace": "RoleProficiencyTask",
-        "Key": "913705_Desc",
-        "SourceString": "累计使用【香奈美】技能40次",
-        "LocalizedString": "累计使用【香奈美】技能40次"
+        "Key": "913706_Desc",
+        "SourceString": "使用【香奈美】累计完成50场比赛",
+        "LocalizedString": "使用【香奈美】累计完成50场比赛"
       },
-      "Type": 9,
+      "Type": 10,
       "Prize": [
         {
           "ItemId": 3,
@@ -4686,19 +4546,19 @@
         },
         {
           "ItemId": 9,
-          "ItemAmount": 30
+          "ItemAmount": 200
         }
       ],
       "TaskConditions": [
         {
           "MainCondition": {
-            "MainType": "ECyTaskMainConditionType::Battle",
-            "GameCondition": "ECyTaskGameConditionType::None",
+            "MainType": "ECyTaskMainConditionType::Game",
+            "GameCondition": "ECyTaskGameConditionType::GameNum",
             "GameResult": "ECyGameResultType::None",
             "RoundResult": "ECyRoundResultType::None",
             "bFriendTeam": false,
             "bNoFriendTeam": false,
-            "BattleCondition": "ECyTaskBattleConditionType::UseSkillNum",
+            "BattleCondition": "ECyTaskBattleConditionType::None",
             "bHeadshot": false,
             "bHitBody": false,
             "bFirstKill": false,
@@ -4716,11 +4576,8 @@
             "EnemyMeshModes": [],
             "WeaponTypes": [],
             "WeaponHoldType": [],
-            "SkillTypes": [
-              "ECyPlayerSkillType::Q",
-              "ECyPlayerSkillType::X"
-            ],
-            "Num": 40,
+            "SkillTypes": [],
+            "Num": 50,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
             "BehaviorId": 0
@@ -4736,10 +4593,10 @@
       "Desc": {
         "Namespace": "RoleProficiencyTask",
         "Key": "914601_Desc",
-        "SourceString": "累计使用【星绘】技能1次",
-        "LocalizedString": "累计使用【星绘】技能1次"
+        "SourceString": "使用【星绘】累计击败200个敌人",
+        "LocalizedString": "使用【星绘】累计击败200个敌人"
       },
-      "Type": 9,
+      "Type": 10,
       "Prize": [
         {
           "ItemId": 3,
@@ -4747,7 +4604,7 @@
         },
         {
           "ItemId": 9,
-          "ItemAmount": 10
+          "ItemAmount": 100
         }
       ],
       "TaskConditions": [
@@ -4759,7 +4616,7 @@
             "RoundResult": "ECyRoundResultType::None",
             "bFriendTeam": false,
             "bNoFriendTeam": false,
-            "BattleCondition": "ECyTaskBattleConditionType::UseSkillNum",
+            "BattleCondition": "ECyTaskBattleConditionType::KillNum",
             "bHeadshot": false,
             "bHitBody": false,
             "bFirstKill": false,
@@ -4777,11 +4634,8 @@
             "EnemyMeshModes": [],
             "WeaponTypes": [],
             "WeaponHoldType": [],
-            "SkillTypes": [
-              "ECyPlayerSkillType::Q",
-              "ECyPlayerSkillType::X"
-            ],
-            "Num": 1,
+            "SkillTypes": [],
+            "Num": 200,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
             "BehaviorId": 0
@@ -4797,10 +4651,10 @@
       "Desc": {
         "Namespace": "RoleProficiencyTask",
         "Key": "914602_Desc",
-        "SourceString": "累积使用【星绘】造成1000点伤害",
-        "LocalizedString": "累积使用【星绘】造成1000点伤害"
+        "SourceString": "使用【星绘】累积造成50000点伤害",
+        "LocalizedString": "使用【星绘】累积造成50000点伤害"
       },
-      "Type": 9,
+      "Type": 10,
       "Prize": [
         {
           "ItemId": 3,
@@ -4808,7 +4662,7 @@
         },
         {
           "ItemId": 9,
-          "ItemAmount": 10
+          "ItemAmount": 100
         }
       ],
       "TaskConditions": [
@@ -4839,7 +4693,7 @@
             "WeaponTypes": [],
             "WeaponHoldType": [],
             "SkillTypes": [],
-            "Num": 1000,
+            "Num": 50000,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
             "BehaviorId": 0
@@ -4855,10 +4709,10 @@
       "Desc": {
         "Namespace": "RoleProficiencyTask",
         "Key": "914603_Desc",
-        "SourceString": "累计使用【星绘】技能10次",
-        "LocalizedString": "累计使用【星绘】技能10次"
+        "SourceString": "使用【星绘】累计赢得12场比赛",
+        "LocalizedString": "使用【星绘】累计赢得12场比赛"
       },
-      "Type": 9,
+      "Type": 10,
       "Prize": [
         {
           "ItemId": 3,
@@ -4866,19 +4720,19 @@
         },
         {
           "ItemId": 9,
-          "ItemAmount": 10
+          "ItemAmount": 100
         }
       ],
       "TaskConditions": [
         {
           "MainCondition": {
-            "MainType": "ECyTaskMainConditionType::Battle",
-            "GameCondition": "ECyTaskGameConditionType::None",
-            "GameResult": "ECyGameResultType::None",
+            "MainType": "ECyTaskMainConditionType::Game",
+            "GameCondition": "ECyTaskGameConditionType::GameNum",
+            "GameResult": "ECyGameResultType::Win",
             "RoundResult": "ECyRoundResultType::None",
             "bFriendTeam": false,
             "bNoFriendTeam": false,
-            "BattleCondition": "ECyTaskBattleConditionType::UseSkillNum",
+            "BattleCondition": "ECyTaskBattleConditionType::None",
             "bHeadshot": false,
             "bHitBody": false,
             "bFirstKill": false,
@@ -4896,11 +4750,8 @@
             "EnemyMeshModes": [],
             "WeaponTypes": [],
             "WeaponHoldType": [],
-            "SkillTypes": [
-              "ECyPlayerSkillType::Q",
-              "ECyPlayerSkillType::X"
-            ],
-            "Num": 10,
+            "SkillTypes": [],
+            "Num": 12,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
             "BehaviorId": 0
@@ -4916,10 +4767,10 @@
       "Desc": {
         "Namespace": "RoleProficiencyTask",
         "Key": "914604_Desc",
-        "SourceString": "累计使用【星绘】技能30次",
-        "LocalizedString": "累计使用【星绘】技能30次"
+        "SourceString": "使用【星绘】累计释放主动技能180次",
+        "LocalizedString": "使用【星绘】累计释放主动技能180次"
       },
-      "Type": 9,
+      "Type": 10,
       "Prize": [
         {
           "ItemId": 3,
@@ -4927,7 +4778,7 @@
         },
         {
           "ItemId": 9,
-          "ItemAmount": 30
+          "ItemAmount": 200
         }
       ],
       "TaskConditions": [
@@ -4958,10 +4809,9 @@
             "WeaponTypes": [],
             "WeaponHoldType": [],
             "SkillTypes": [
-              "ECyPlayerSkillType::Q",
-              "ECyPlayerSkillType::X"
+              "ECyPlayerSkillType::Q"
             ],
-            "Num": 20,
+            "Num": 180,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
             "BehaviorId": 0
@@ -4977,10 +4827,10 @@
       "Desc": {
         "Namespace": "RoleProficiencyTask",
         "Key": "914605_Desc",
-        "SourceString": "累计使用【星绘】技能40次",
-        "LocalizedString": "累计使用【星绘】技能40次"
+        "SourceString": "使用【星绘】累计释放绝招20次",
+        "LocalizedString": "使用【星绘】累计释放绝招20次"
       },
-      "Type": 9,
+      "Type": 10,
       "Prize": [
         {
           "ItemId": 3,
@@ -4988,7 +4838,7 @@
         },
         {
           "ItemId": 9,
-          "ItemAmount": 30
+          "ItemAmount": 200
         }
       ],
       "TaskConditions": [
@@ -5019,10 +4869,9 @@
             "WeaponTypes": [],
             "WeaponHoldType": [],
             "SkillTypes": [
-              "ECyPlayerSkillType::Q",
               "ECyPlayerSkillType::X"
             ],
-            "Num": 30,
+            "Num": 20,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
             "BehaviorId": 0
@@ -5037,11 +4886,11 @@
       "ProficiencyTask": 2,
       "Desc": {
         "Namespace": "RoleProficiencyTask",
-        "Key": "914605_Desc",
-        "SourceString": "累计使用【星绘】技能40次",
-        "LocalizedString": "累计使用【星绘】技能40次"
+        "Key": "914606_Desc",
+        "SourceString": "使用【星绘】累计完成50场比赛",
+        "LocalizedString": "使用【星绘】累计完成50场比赛"
       },
-      "Type": 9,
+      "Type": 10,
       "Prize": [
         {
           "ItemId": 3,
@@ -5049,19 +4898,19 @@
         },
         {
           "ItemId": 9,
-          "ItemAmount": 30
+          "ItemAmount": 200
         }
       ],
       "TaskConditions": [
         {
           "MainCondition": {
-            "MainType": "ECyTaskMainConditionType::Battle",
-            "GameCondition": "ECyTaskGameConditionType::None",
+            "MainType": "ECyTaskMainConditionType::Game",
+            "GameCondition": "ECyTaskGameConditionType::GameNum",
             "GameResult": "ECyGameResultType::None",
             "RoundResult": "ECyRoundResultType::None",
             "bFriendTeam": false,
             "bNoFriendTeam": false,
-            "BattleCondition": "ECyTaskBattleConditionType::UseSkillNum",
+            "BattleCondition": "ECyTaskBattleConditionType::None",
             "bHeadshot": false,
             "bHitBody": false,
             "bFirstKill": false,
@@ -5079,11 +4928,8 @@
             "EnemyMeshModes": [],
             "WeaponTypes": [],
             "WeaponHoldType": [],
-            "SkillTypes": [
-              "ECyPlayerSkillType::Q",
-              "ECyPlayerSkillType::X"
-            ],
-            "Num": 40,
+            "SkillTypes": [],
+            "Num": 50,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
             "BehaviorId": 0

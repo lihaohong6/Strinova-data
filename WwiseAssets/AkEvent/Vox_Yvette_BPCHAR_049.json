@@ -5,15 +5,17 @@
   "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
   "Properties": {
     "MultiLanguage": true,
+    "MinimumDuration": 1.0,
+    "MaximumDuration": 1.0,
     "MultiMinimumDuration": [
-      0.0,
-      0.0,
-      0.0
+      1.0,
+      19.111292,
+      1.0
     ],
     "MultiMaximumDuration": [
-      0.0,
-      0.0,
-      0.0
+      1.0,
+      19.111292,
+      1.0
     ],
     "RequiredBank": {
       "ObjectName": "AkAudioBank'Vox_Yvette_OutGame_Lounge_original'",
@@ -90,12 +92,22 @@
               "SoundBankPathName": "Japanese/Vox_Yvette_OutGame_Lounge_original.bnk",
               "MemoryAlignment": 16,
               "bDeviceMemory": false,
-              "bContainsMedia": false,
+              "bContainsMedia": true,
               "SoundBankType": "EWwiseSoundBankType::User",
               "DebugName": "Vox_Yvette_OutGame_Lounge_original"
             }
           ],
-          "Media": [],
+          "Media": [
+            {
+              "MediaId": 267883352,
+              "MediaPathName": "Media/Japanese/Vox_Yvette_OutGame_Lounge_original/267883352.wem",
+              "PrefetchSize": 0,
+              "MemoryAlignment": 16,
+              "bDeviceMemory": false,
+              "bStreaming": true,
+              "DebugName": "Vox_Player\\Vox_Yvette\\Vox_Yvette_BPCHAR_049_Rep.wav"
+            }
+          ],
           "ExternalSources": [],
           "SwitchContainerLeaves": [],
           "RequiredGroupValueSet": [],
@@ -107,8 +119,8 @@
     "DebugName": "Vox_Yvette_BPCHAR_049",
     "EventId": -1635573963
   },
-  "MaximumDuration": 0.0,
-  "MinimumDuration": 0.0,
+  "MaximumDuration": 1.0,
+  "MinimumDuration": 1.0,
   "IsInfinite": false,
   "MaxAttenuationRadius": 0.0
 }

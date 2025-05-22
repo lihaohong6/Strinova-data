@@ -17,8 +17,8 @@
       "Desc": {
         "Namespace": "BattlePassDayTask",
         "Key": "10001_Desc",
-        "SourceString": "完成2场比赛",
-        "LocalizedString": "完成2场比赛"
+        "SourceString": "完成2场游戏对局。",
+        "LocalizedString": "完成2场游戏对局。"
       },
       "Type": 1,
       "Prize": [
@@ -82,8 +82,8 @@
       "Desc": {
         "Namespace": "BattlePassDayTask",
         "Key": "10002_Desc",
-        "SourceString": "获得1场比赛胜利",
-        "LocalizedString": "获得1场比赛胜利"
+        "SourceString": "赢得1场游戏对局。",
+        "LocalizedString": "赢得1场游戏对局。"
       },
       "Type": 1,
       "Prize": [
@@ -147,8 +147,8 @@
       "Desc": {
         "Namespace": "BattlePassDayTask",
         "Key": "10003_Desc",
-        "SourceString": "累计击中50次敌人",
-        "LocalizedString": "累计击中50次敌人"
+        "SourceString": "累计命中敌方目标100次。",
+        "LocalizedString": "累计命中敌方目标100次。"
       },
       "Type": 1,
       "Prize": [
@@ -187,7 +187,7 @@
             "WeaponTypes": [],
             "WeaponHoldType": [],
             "SkillTypes": [],
-            "Num": 50,
+            "Num": 100,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
             "BehaviorId": 0
@@ -212,8 +212,8 @@
       "Desc": {
         "Namespace": "BattlePassDayTask",
         "Key": "10004_Desc",
-        "SourceString": "累计完成5回合比赛",
-        "LocalizedString": "累计完成5回合比赛"
+        "SourceString": "累计为己方队伍恢复生命值300点。",
+        "LocalizedString": "累计为己方队伍恢复生命值300点。"
       },
       "Type": 1,
       "Prize": [
@@ -229,13 +229,13 @@
       "TaskConditions": [
         {
           "MainCondition": {
-            "MainType": "ECyTaskMainConditionType::Game",
-            "GameCondition": "ECyTaskGameConditionType::RoundNum",
+            "MainType": "ECyTaskMainConditionType::Battle",
+            "GameCondition": "ECyTaskGameConditionType::None",
             "GameResult": "ECyGameResultType::None",
             "RoundResult": "ECyRoundResultType::None",
             "bFriendTeam": false,
             "bNoFriendTeam": false,
-            "BattleCondition": "ECyTaskBattleConditionType::None",
+            "BattleCondition": "ECyTaskBattleConditionType::RecoveryHealthNum",
             "bHeadshot": false,
             "bHitBody": false,
             "bFirstKill": false,
@@ -252,7 +252,7 @@
             "WeaponTypes": [],
             "WeaponHoldType": [],
             "SkillTypes": [],
-            "Num": 5,
+            "Num": 300,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
             "BehaviorId": 0
@@ -277,8 +277,8 @@
       "Desc": {
         "Namespace": "BattlePassDayTask",
         "Key": "10005_Desc",
-        "SourceString": "击败或参与击败敌人累计35次",
-        "LocalizedString": "击败或参与击败敌人累计35次"
+        "SourceString": "累计参与助攻20次。",
+        "LocalizedString": "累计参与助攻20次。"
       },
       "Type": 1,
       "Prize": [
@@ -300,7 +300,7 @@
             "RoundResult": "ECyRoundResultType::None",
             "bFriendTeam": false,
             "bNoFriendTeam": false,
-            "BattleCondition": "ECyTaskBattleConditionType::ParticipateKillNum",
+            "BattleCondition": "ECyTaskBattleConditionType::AssistNum",
             "bHeadshot": false,
             "bHitBody": false,
             "bFirstKill": false,
@@ -317,7 +317,7 @@
             "WeaponTypes": [],
             "WeaponHoldType": [],
             "SkillTypes": [],
-            "Num": 35,
+            "Num": 20,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
             "BehaviorId": 0
@@ -330,7 +330,7 @@
         "ModeTypes": []
       },
       "TaskIcon": {
-        "AssetPathName": "/Game/PaperMan/UI/Atlas/Mobile/Frontend/BattlePassMobile/Frames/SPR_UI_BattlePassMobile_GigTrick_Icon.SPR_UI_BattlePassMobile_GigTrick_Icon",
+        "AssetPathName": "None",
         "SubPathString": ""
       },
       "FunctionId": 10
@@ -342,8 +342,8 @@
       "Desc": {
         "Namespace": "BattlePassDayTask",
         "Key": "10006_Desc",
-        "SourceString": "累计造成4500点伤害",
-        "LocalizedString": "累计造成4500点伤害"
+        "SourceString": "累计造成伤害4000点.",
+        "LocalizedString": "累计造成伤害4000点."
       },
       "Type": 1,
       "Prize": [
@@ -382,7 +382,7 @@
             "WeaponTypes": [],
             "WeaponHoldType": [],
             "SkillTypes": [],
-            "Num": 4500,
+            "Num": 4000,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
             "BehaviorId": 0
@@ -407,8 +407,8 @@
       "Desc": {
         "Namespace": "BattlePassDayTask",
         "Key": "10007_Desc",
-        "SourceString": "击败敌人累计15次",
-        "LocalizedString": "击败敌人累计15次"
+        "SourceString": "累计击败敌人10次。",
+        "LocalizedString": "累计击败敌人10次。"
       },
       "Type": 1,
       "Prize": [
@@ -447,7 +447,7 @@
             "WeaponTypes": [],
             "WeaponHoldType": [],
             "SkillTypes": [],
-            "Num": 15,
+            "Num": 10,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
             "BehaviorId": 0
@@ -460,7 +460,7 @@
         "ModeTypes": []
       },
       "TaskIcon": {
-        "AssetPathName": "/Game/PaperMan/UI/Atlas/Mobile/Frontend/BattlePassMobile/Frames/SPR_UI_BattlePassMobile_GigTrick_Icon.SPR_UI_BattlePassMobile_GigTrick_Icon",
+        "AssetPathName": "None",
         "SubPathString": ""
       },
       "FunctionId": 10
@@ -472,8 +472,8 @@
       "Desc": {
         "Namespace": "BattlePassDayTask",
         "Key": "10009_Desc",
-        "SourceString": "使用喷漆或动作次数累计5次",
-        "LocalizedString": "使用喷漆或动作次数累计5次"
+        "SourceString": "累计使用喷漆5次。",
+        "LocalizedString": "累计使用喷漆5次。"
       },
       "Type": 1,
       "Prize": [
@@ -503,7 +503,7 @@
             "MultiKillLimit": 0,
             "HitDistLimit": 0,
             "bBlind": false,
-            "ActionCondition": "ECyTaskActionConditionType::UseGraffitiOrActionNum",
+            "ActionCondition": "ECyTaskActionConditionType::UseGraffitiNum",
             "RoleIds": [],
             "RoleProfessions": [],
             "RoleTeams": [],
@@ -537,8 +537,8 @@
       "Desc": {
         "Namespace": "BattlePassDayTask",
         "Key": "10010_Desc",
-        "SourceString": "使用技能累计10次",
-        "LocalizedString": "使用技能累计10次"
+        "SourceString": "累计使用技能20次。",
+        "LocalizedString": "累计使用技能20次。"
       },
       "Type": 1,
       "Prize": [
@@ -578,9 +578,10 @@
             "WeaponHoldType": [],
             "SkillTypes": [
               "ECyPlayerSkillType::Q",
-              "ECyPlayerSkillType::X"
+              "ECyPlayerSkillType::X",
+              "ECyPlayerSkillType::E"
             ],
-            "Num": 10,
+            "Num": 20,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
             "BehaviorId": 0
@@ -605,8 +606,8 @@
       "Desc": {
         "Namespace": "BattlePassDayTask",
         "Key": "10011_Desc",
-        "SourceString": "累计为我方恢复血量或护甲数250点",
-        "LocalizedString": "累计为我方恢复血量或护甲数250点"
+        "SourceString": "累计为己方队伍恢复护甲值300点。",
+        "LocalizedString": "累计为己方队伍恢复护甲值300点。"
       },
       "Type": 1,
       "Prize": [
@@ -628,7 +629,7 @@
             "RoundResult": "ECyRoundResultType::None",
             "bFriendTeam": false,
             "bNoFriendTeam": false,
-            "BattleCondition": "ECyTaskBattleConditionType::RecoveryHealthOrArmorNum",
+            "BattleCondition": "ECyTaskBattleConditionType::RecoveryArmorNum",
             "bHeadshot": false,
             "bHitBody": false,
             "bFirstKill": false,
@@ -645,7 +646,7 @@
             "WeaponTypes": [],
             "WeaponHoldType": [],
             "SkillTypes": [],
-            "Num": 250,
+            "Num": 300,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
             "BehaviorId": 0
@@ -670,8 +671,8 @@
       "Desc": {
         "Namespace": "BattlePassDayTask",
         "Key": "10012_Desc",
-        "SourceString": "弦化飘飞距离累计3000米",
-        "LocalizedString": "弦化飘飞距离累计3000米"
+        "SourceString": "累计弦化飘飞距离600米。",
+        "LocalizedString": "累计弦化飘飞距离600米。"
       },
       "Type": 1,
       "Prize": [
@@ -712,7 +713,7 @@
             "WeaponTypes": [],
             "WeaponHoldType": [],
             "SkillTypes": [],
-            "Num": 3000,
+            "Num": 600,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
             "BehaviorId": 0
@@ -737,8 +738,8 @@
       "Desc": {
         "Namespace": "BattlePassDayTask",
         "Key": "10013_Desc",
-        "SourceString": "拾取死亡掉落物次数15次",
-        "LocalizedString": "拾取死亡掉落物次数15次"
+        "SourceString": "累计命中弦化状态的敌人50次。",
+        "LocalizedString": "累计命中弦化状态的敌人50次。"
       },
       "Type": 1,
       "Prize": [
@@ -754,13 +755,13 @@
       "TaskConditions": [
         {
           "MainCondition": {
-            "MainType": "ECyTaskMainConditionType::Action",
+            "MainType": "ECyTaskMainConditionType::Battle",
             "GameCondition": "ECyTaskGameConditionType::None",
             "GameResult": "ECyGameResultType::None",
             "RoundResult": "ECyRoundResultType::None",
             "bFriendTeam": false,
             "bNoFriendTeam": false,
-            "BattleCondition": "ECyTaskBattleConditionType::None",
+            "BattleCondition": "ECyTaskBattleConditionType::HitNum",
             "bHeadshot": false,
             "bHitBody": false,
             "bFirstKill": false,
@@ -768,16 +769,20 @@
             "MultiKillLimit": 0,
             "HitDistLimit": 0,
             "bBlind": false,
-            "ActionCondition": "ECyTaskActionConditionType::PickupDeathDropNum",
+            "ActionCondition": "ECyTaskActionConditionType::None",
             "RoleIds": [],
             "RoleProfessions": [],
             "RoleTeams": [],
             "MeshModes": [],
-            "EnemyMeshModes": [],
+            "EnemyMeshModes": [
+              "EMeshModeType::Glide",
+              "EMeshModeType::Sideway",
+              "EMeshModeType::Slide"
+            ],
             "WeaponTypes": [],
             "WeaponHoldType": [],
             "SkillTypes": [],
-            "Num": 15,
+            "Num": 50,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
             "BehaviorId": 0
