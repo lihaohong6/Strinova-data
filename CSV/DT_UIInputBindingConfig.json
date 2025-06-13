@@ -2,6 +2,7 @@
   "Type": "DataTable",
   "Name": "DT_UIInputBindingConfig",
   "Class": "UScriptClass'DataTable'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
   "Properties": {
     "RowStruct": {
       "ObjectName": "ScriptStruct'PMUIInputBindingTableRow'",
@@ -61,8 +62,7 @@
     "Growth": {
       "InputName": "Growth",
       "RelatedUINames": [
-        "Growth",
-        "RoguelikeCardPage"
+        "Growth"
       ]
     },
     "GameKeyTips": {
@@ -117,6 +117,12 @@
       "InputName": "ToggleShowRefereeGMPage",
       "RelatedUINames": [
         "RefereeGMPage"
+      ]
+    },
+    "RoguelikeCardPage": {
+      "InputName": "CardInventory",
+      "RelatedUINames": [
+        "RoguelikeCardPage"
       ]
     }
   }

@@ -2,6 +2,7 @@
   "Type": "DataTable",
   "Name": "CreditScore",
   "Class": "UScriptClass'DataTable'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
   "Properties": {
     "RowStruct": {
       "ObjectName": "ScriptStruct'CyCreditScoreTableRow'",
@@ -13,12 +14,16 @@
       "CreditLevel": 1,
       "CreditScoreMin": 0,
       "CreditScoreMax": 300,
-      "CreditScoreDayget": 10,
+      "CreditScoreDayget": 600,
       "CreditIncome": -25,
       "ForbidAll": 0,
       "ForbidChat": 0,
       "ShowCreditPage": 1,
       "Reward": [],
+      "YearReward": [],
+      "MonthReward": [],
+      "WeekReward": [],
+      "DayReward": [],
       "LevelIcon": {
         "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/CreditScore/CreditScoreLevelIcon/T_Dynamic_CreateLevelIcon_1.T_Dynamic_CreateLevelIcon_1",
         "SubPathString": ""
@@ -29,11 +34,20 @@
         "SourceString": "恶劣",
         "LocalizedString": "恶劣"
       },
+      "SecondDesc": {
+        "CultureInvariantString": null
+      },
+      "ThirdDesc": {
+        "CultureInvariantString": null
+      },
+      "LevelCondition": {
+        "CultureInvariantString": null
+      },
       "AuthorityText1": {
         "Namespace": "CreditScore",
         "Key": "1_AuthorityText1",
-        "SourceString": "仅允许参与自定义房间和团队乱斗模式",
-        "LocalizedString": "仅允许参与自定义房间和团队乱斗模式"
+        "SourceString": "仅允许参与自定义房间、团队乱斗和晶源感染模式",
+        "LocalizedString": "仅允许参与自定义房间、团队乱斗和晶源感染模式"
       },
       "AuthorityText2": {
         "Namespace": "CreditScore",
@@ -61,12 +75,16 @@
       "CreditLevel": 2,
       "CreditScoreMin": 301,
       "CreditScoreMax": 600,
-      "CreditScoreDayget": 20,
+      "CreditScoreDayget": 600,
       "CreditIncome": 0,
       "ForbidAll": 0,
       "ForbidChat": 0,
       "ShowCreditPage": 1,
       "Reward": [],
+      "YearReward": [],
+      "MonthReward": [],
+      "WeekReward": [],
+      "DayReward": [],
       "LevelIcon": {
         "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/CreditScore/CreditScoreLevelIcon/T_Dynamic_CreateLevelIcon_2.T_Dynamic_CreateLevelIcon_2",
         "SubPathString": ""
@@ -76,6 +94,15 @@
         "Key": "2_CreditName",
         "SourceString": "不良",
         "LocalizedString": "不良"
+      },
+      "SecondDesc": {
+        "CultureInvariantString": null
+      },
+      "ThirdDesc": {
+        "CultureInvariantString": null
+      },
+      "LevelCondition": {
+        "CultureInvariantString": null
       },
       "AuthorityText1": {
         "Namespace": "CreditScore",
@@ -110,12 +137,16 @@
       "CreditLevel": 3,
       "CreditScoreMin": 601,
       "CreditScoreMax": 900,
-      "CreditScoreDayget": 30,
+      "CreditScoreDayget": 600,
       "CreditIncome": 0,
       "ForbidAll": 0,
       "ForbidChat": 1,
       "ShowCreditPage": 1,
       "Reward": [],
+      "YearReward": [],
+      "MonthReward": [],
+      "WeekReward": [],
+      "DayReward": [],
       "LevelIcon": {
         "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/CreditScore/CreditScoreLevelIcon/T_Dynamic_CreateLevelIcon_3.T_Dynamic_CreateLevelIcon_3",
         "SubPathString": ""
@@ -125,6 +156,15 @@
         "Key": "3_CreditName",
         "SourceString": "合格",
         "LocalizedString": "合格"
+      },
+      "SecondDesc": {
+        "CultureInvariantString": null
+      },
+      "ThirdDesc": {
+        "CultureInvariantString": null
+      },
+      "LevelCondition": {
+        "CultureInvariantString": null
       },
       "AuthorityText1": {
         "Namespace": "CreditScore",
@@ -158,12 +198,16 @@
       "CreditLevel": 4,
       "CreditScoreMin": 901,
       "CreditScoreMax": 1200,
-      "CreditScoreDayget": 40,
+      "CreditScoreDayget": 600,
       "CreditIncome": 0,
       "ForbidAll": 0,
       "ForbidChat": 1,
       "ShowCreditPage": 1,
       "Reward": [],
+      "YearReward": [],
+      "MonthReward": [],
+      "WeekReward": [],
+      "DayReward": [],
       "LevelIcon": {
         "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/CreditScore/CreditScoreLevelIcon/T_Dynamic_CreateLevelIcon_4.T_Dynamic_CreateLevelIcon_4",
         "SubPathString": ""
@@ -173,6 +217,15 @@
         "Key": "4_CreditName",
         "SourceString": "良好",
         "LocalizedString": "良好"
+      },
+      "SecondDesc": {
+        "CultureInvariantString": null
+      },
+      "ThirdDesc": {
+        "CultureInvariantString": null
+      },
+      "LevelCondition": {
+        "CultureInvariantString": null
       },
       "AuthorityText1": {
         "Namespace": "CreditScore",
@@ -206,7 +259,7 @@
       "CreditLevel": 5,
       "CreditScoreMin": 1201,
       "CreditScoreMax": 1600,
-      "CreditScoreDayget": 40,
+      "CreditScoreDayget": 600,
       "CreditIncome": 0,
       "ForbidAll": 0,
       "ForbidChat": 1,
@@ -217,6 +270,10 @@
           "ItemAmount": 1
         }
       ],
+      "YearReward": [],
+      "MonthReward": [],
+      "WeekReward": [],
+      "DayReward": [],
       "LevelIcon": {
         "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/CreditScore/CreditScoreLevelIcon/T_Dynamic_CreateLevelIcon_5.T_Dynamic_CreateLevelIcon_5",
         "SubPathString": ""
@@ -226,6 +283,15 @@
         "Key": "5_CreditName",
         "SourceString": "优秀",
         "LocalizedString": "优秀"
+      },
+      "SecondDesc": {
+        "CultureInvariantString": null
+      },
+      "ThirdDesc": {
+        "CultureInvariantString": null
+      },
+      "LevelCondition": {
+        "CultureInvariantString": null
       },
       "AuthorityText1": {
         "Namespace": "CreditScore",
@@ -263,7 +329,7 @@
       "CreditLevel": 6,
       "CreditScoreMin": 1601,
       "CreditScoreMax": 1800,
-      "CreditScoreDayget": 50,
+      "CreditScoreDayget": 600,
       "CreditIncome": 0,
       "ForbidAll": 0,
       "ForbidChat": 1,
@@ -278,6 +344,10 @@
           "ItemAmount": 1
         }
       ],
+      "YearReward": [],
+      "MonthReward": [],
+      "WeekReward": [],
+      "DayReward": [],
       "LevelIcon": {
         "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/CreditScore/CreditScoreLevelIcon/T_Dynamic_CreateLevelIcon_6.T_Dynamic_CreateLevelIcon_6",
         "SubPathString": ""
@@ -287,6 +357,15 @@
         "Key": "6_CreditName",
         "SourceString": "完美",
         "LocalizedString": "完美"
+      },
+      "SecondDesc": {
+        "CultureInvariantString": null
+      },
+      "ThirdDesc": {
+        "CultureInvariantString": null
+      },
+      "LevelCondition": {
+        "CultureInvariantString": null
       },
       "AuthorityText1": {
         "Namespace": "CreditScore",

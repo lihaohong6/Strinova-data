@@ -2,6 +2,7 @@
   "Type": "DataTable",
   "Name": "DT_UIPlayerRoleShowTable",
   "Class": "UScriptClass'DataTable'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
   "Properties": {
     "RowStruct": {
       "ObjectName": "ScriptStruct'PMUIPlayerRoleShowTableRow'",
@@ -33,6 +34,13 @@
     },
     "118": {
       "RoleId": 118,
+      "NeedsOpenPages": [
+        "SummonDuration"
+      ],
+      "NeedsPreLoadPages": []
+    },
+    "125": {
+      "RoleId": 125,
       "NeedsOpenPages": [
         "SummonDuration"
       ],

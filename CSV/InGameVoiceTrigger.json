@@ -2,6 +2,7 @@
   "Type": "DataTable",
   "Name": "InGameVoiceTrigger",
   "Class": "UScriptClass'DataTable'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
   "Properties": {
     "RowStruct": {
       "ObjectName": "ScriptStruct'CyInGameVoiceTriggerTableRow'",
@@ -6870,7 +6871,8 @@
       "RandomVoiceIds": [
         22132068,
         22132069,
-        22132070
+        22132070,
+        22132153
       ],
       "CoolDownTime": 10.0,
       "DelayPlayTime": 10.0,
@@ -8256,7 +8258,11 @@
       "InsideVoiceType": "EInsideVoiceType::Normal",
       "BroadcastObjectType": "EBroadcastObjectType::Self",
       "IsRandom": false,
-      "RandomVoiceIds": [],
+      "RandomVoiceIds": [
+        22132137,
+        22132164,
+        22132165
+      ],
       "CoolDownTime": 10.0,
       "DelayPlayTime": 2.0,
       "IsDeathNormalPlay": false,
@@ -8286,7 +8292,12 @@
       "InsideVoiceType": "EInsideVoiceType::Normal",
       "BroadcastObjectType": "EBroadcastObjectType::Self",
       "IsRandom": false,
-      "RandomVoiceIds": [],
+      "RandomVoiceIds": [
+        22132138,
+        22132162,
+        22132163,
+        22132154
+      ],
       "CoolDownTime": 10.0,
       "DelayPlayTime": 2.0,
       "IsDeathNormalPlay": false,
@@ -8346,7 +8357,10 @@
       "InsideVoiceType": "EInsideVoiceType::Normal",
       "BroadcastObjectType": "EBroadcastObjectType::Self",
       "IsRandom": false,
-      "RandomVoiceIds": [],
+      "RandomVoiceIds": [
+        22132140,
+        22132166
+      ],
       "CoolDownTime": 10.0,
       "DelayPlayTime": 2.0,
       "IsDeathNormalPlay": true,
@@ -8381,57 +8395,55 @@
       "DelayPlayTime": 3.0,
       "IsDeathNormalPlay": false,
       "GameModeTypeList": [
-        "EPMGameModeType::Bomb",
-        "EPMGameModeType::Bomb2"
+        "EPMGameModeType::Bomb"
       ],
       "RoleId": 132,
       "IsCheckTeamType": true,
       "TeamType": "EPMTeamType::Attack",
       "LookRoleIds": [
-        113,
+        128,
         132
       ],
-      "TargetRoleId": 113,
+      "TargetRoleId": 128,
       "InstigatorRoleId": 0,
       "Desc": {
         "Namespace": "InGameVoiceTrigger",
         "Key": "122132051_Desc",
-        "SourceString": "明——当嘉赫斯击倒敌人时",
-        "LocalizedString": "明——当嘉赫斯击倒敌人时"
+        "SourceString": "明——当拉薇击倒敌人时",
+        "LocalizedString": "明——当拉薇击倒敌人时"
       }
     },
     "122132052": {
       "Id": 122132052,
       "GameplayTag": {
-        "TagName": "UIEvent.Game.Install.C4.Begin"
+        "TagName": "UIEvent.Rescue.Start"
       },
       "VoiceId": 22132142,
       "TotalType": "EInsideVoiceBigType::Role",
-      "InsideVoiceType": "EInsideVoiceType::EasterEggTwo",
-      "BroadcastObjectType": "EBroadcastObjectType::Teammate",
+      "InsideVoiceType": "EInsideVoiceType::EasterEggOne",
+      "BroadcastObjectType": "EBroadcastObjectType::SelfAndTeammate",
       "IsRandom": false,
       "RandomVoiceIds": [],
       "CoolDownTime": 10.0,
-      "DelayPlayTime": 1.0,
+      "DelayPlayTime": 0.0,
       "IsDeathNormalPlay": false,
       "GameModeTypeList": [
-        "EPMGameModeType::Bomb",
-        "EPMGameModeType::Bomb2"
+        "EPMGameModeType::Bomb"
       ],
       "RoleId": 132,
       "IsCheckTeamType": true,
       "TeamType": "EPMTeamType::Attack",
       "LookRoleIds": [
-        113,
-        132
+        132,
+        128
       ],
-      "TargetRoleId": 113,
-      "InstigatorRoleId": 0,
+      "TargetRoleId": 132,
+      "InstigatorRoleId": 128,
       "Desc": {
         "Namespace": "InGameVoiceTrigger",
         "Key": "122132052_Desc",
-        "SourceString": "明——当嘉赫斯安装炸弹时",
-        "LocalizedString": "明——当嘉赫斯安装炸弹时"
+        "SourceString": "明——当扶起拉薇时",
+        "LocalizedString": "明——当扶起拉薇时"
       }
     },
     "122132053": {
@@ -8449,8 +8461,7 @@
       "DelayPlayTime": 3.0,
       "IsDeathNormalPlay": false,
       "GameModeTypeList": [
-        "EPMGameModeType::Bomb",
-        "EPMGameModeType::Bomb2"
+        "EPMGameModeType::Bomb"
       ],
       "RoleId": 132,
       "IsCheckTeamType": true,
@@ -8483,8 +8494,7 @@
       "DelayPlayTime": 1.0,
       "IsDeathNormalPlay": false,
       "GameModeTypeList": [
-        "EPMGameModeType::Bomb",
-        "EPMGameModeType::Bomb2"
+        "EPMGameModeType::Bomb"
       ],
       "RoleId": 132,
       "IsCheckTeamType": true,
@@ -8517,8 +8527,7 @@
       "DelayPlayTime": 10.0,
       "IsDeathNormalPlay": false,
       "GameModeTypeList": [
-        "EPMGameModeType::Bomb",
-        "EPMGameModeType::Bomb2"
+        "EPMGameModeType::Bomb"
       ],
       "RoleId": 132,
       "IsCheckTeamType": true,
@@ -8550,8 +8559,7 @@
       "DelayPlayTime": 3.0,
       "IsDeathNormalPlay": false,
       "GameModeTypeList": [
-        "EPMGameModeType::Bomb",
-        "EPMGameModeType::Bomb2"
+        "EPMGameModeType::Bomb"
       ],
       "RoleId": 132,
       "IsCheckTeamType": true,
@@ -8584,8 +8592,7 @@
       "DelayPlayTime": 0.0,
       "IsDeathNormalPlay": false,
       "GameModeTypeList": [
-        "EPMGameModeType::Bomb",
-        "EPMGameModeType::Bomb2"
+        "EPMGameModeType::Bomb"
       ],
       "RoleId": 132,
       "IsCheckTeamType": true,
@@ -8618,8 +8625,7 @@
       "DelayPlayTime": 0.0,
       "IsDeathNormalPlay": true,
       "GameModeTypeList": [
-        "EPMGameModeType::Bomb",
-        "EPMGameModeType::Bomb2"
+        "EPMGameModeType::Bomb"
       ],
       "RoleId": 132,
       "IsCheckTeamType": true,
@@ -8652,8 +8658,7 @@
       "DelayPlayTime": 3.0,
       "IsDeathNormalPlay": false,
       "GameModeTypeList": [
-        "EPMGameModeType::Bomb",
-        "EPMGameModeType::Bomb2"
+        "EPMGameModeType::Bomb"
       ],
       "RoleId": 132,
       "IsCheckTeamType": true,
@@ -8686,8 +8691,7 @@
       "DelayPlayTime": 0.0,
       "IsDeathNormalPlay": false,
       "GameModeTypeList": [
-        "EPMGameModeType::Bomb",
-        "EPMGameModeType::Bomb2"
+        "EPMGameModeType::Bomb"
       ],
       "RoleId": 132,
       "IsCheckTeamType": true,
@@ -8720,57 +8724,55 @@
       "DelayPlayTime": 3.0,
       "IsDeathNormalPlay": false,
       "GameModeTypeList": [
-        "EPMGameModeType::Bomb",
-        "EPMGameModeType::Bomb2"
+        "EPMGameModeType::Bomb"
       ],
       "RoleId": 132,
       "IsCheckTeamType": true,
       "TeamType": "EPMTeamType::Defend",
       "LookRoleIds": [
-        113,
+        128,
         132
       ],
-      "TargetRoleId": 113,
+      "TargetRoleId": 128,
       "InstigatorRoleId": 0,
       "Desc": {
         "Namespace": "InGameVoiceTrigger",
         "Key": "122132051_Desc",
-        "SourceString": "明——当嘉赫斯击倒敌人时",
-        "LocalizedString": "明——当嘉赫斯击倒敌人时"
+        "SourceString": "明——当拉薇击倒敌人时",
+        "LocalizedString": "明——当拉薇击倒敌人时"
       }
     },
     "122132062": {
       "Id": 122132062,
       "GameplayTag": {
-        "TagName": "UIEvent.Game.Install.C4.Begin"
+        "TagName": "UIEvent.Rescue.Start"
       },
       "VoiceId": 22132142,
       "TotalType": "EInsideVoiceBigType::Role",
-      "InsideVoiceType": "EInsideVoiceType::EasterEggTwo",
-      "BroadcastObjectType": "EBroadcastObjectType::Teammate",
+      "InsideVoiceType": "EInsideVoiceType::EasterEggOne",
+      "BroadcastObjectType": "EBroadcastObjectType::SelfAndTeammate",
       "IsRandom": false,
       "RandomVoiceIds": [],
       "CoolDownTime": 10.0,
-      "DelayPlayTime": 1.0,
+      "DelayPlayTime": 0.0,
       "IsDeathNormalPlay": false,
       "GameModeTypeList": [
-        "EPMGameModeType::Bomb",
-        "EPMGameModeType::Bomb2"
+        "EPMGameModeType::Bomb"
       ],
       "RoleId": 132,
       "IsCheckTeamType": true,
       "TeamType": "EPMTeamType::Defend",
       "LookRoleIds": [
-        113,
-        132
+        132,
+        128
       ],
-      "TargetRoleId": 113,
-      "InstigatorRoleId": 0,
+      "TargetRoleId": 132,
+      "InstigatorRoleId": 128,
       "Desc": {
         "Namespace": "InGameVoiceTrigger",
         "Key": "122132052_Desc",
-        "SourceString": "明——当嘉赫斯安装炸弹时",
-        "LocalizedString": "明——当嘉赫斯安装炸弹时"
+        "SourceString": "明——当扶起拉薇时",
+        "LocalizedString": "明——当扶起拉薇时"
       }
     },
     "122132063": {
@@ -8788,8 +8790,7 @@
       "DelayPlayTime": 3.0,
       "IsDeathNormalPlay": false,
       "GameModeTypeList": [
-        "EPMGameModeType::Bomb",
-        "EPMGameModeType::Bomb2"
+        "EPMGameModeType::Bomb"
       ],
       "RoleId": 132,
       "IsCheckTeamType": true,
@@ -8822,8 +8823,7 @@
       "DelayPlayTime": 1.0,
       "IsDeathNormalPlay": false,
       "GameModeTypeList": [
-        "EPMGameModeType::Bomb",
-        "EPMGameModeType::Bomb2"
+        "EPMGameModeType::Bomb"
       ],
       "RoleId": 132,
       "IsCheckTeamType": true,
@@ -8856,8 +8856,7 @@
       "DelayPlayTime": 10.0,
       "IsDeathNormalPlay": false,
       "GameModeTypeList": [
-        "EPMGameModeType::Bomb",
-        "EPMGameModeType::Bomb2"
+        "EPMGameModeType::Bomb"
       ],
       "RoleId": 132,
       "IsCheckTeamType": true,
@@ -8889,8 +8888,7 @@
       "DelayPlayTime": 3.0,
       "IsDeathNormalPlay": false,
       "GameModeTypeList": [
-        "EPMGameModeType::Bomb",
-        "EPMGameModeType::Bomb2"
+        "EPMGameModeType::Bomb"
       ],
       "RoleId": 132,
       "IsCheckTeamType": true,
@@ -8923,8 +8921,7 @@
       "DelayPlayTime": 0.0,
       "IsDeathNormalPlay": false,
       "GameModeTypeList": [
-        "EPMGameModeType::Bomb",
-        "EPMGameModeType::Bomb2"
+        "EPMGameModeType::Bomb"
       ],
       "RoleId": 132,
       "IsCheckTeamType": true,
@@ -8957,8 +8954,7 @@
       "DelayPlayTime": 0.0,
       "IsDeathNormalPlay": true,
       "GameModeTypeList": [
-        "EPMGameModeType::Bomb",
-        "EPMGameModeType::Bomb2"
+        "EPMGameModeType::Bomb"
       ],
       "RoleId": 132,
       "IsCheckTeamType": true,
@@ -8991,8 +8987,7 @@
       "DelayPlayTime": 3.0,
       "IsDeathNormalPlay": false,
       "GameModeTypeList": [
-        "EPMGameModeType::Bomb",
-        "EPMGameModeType::Bomb2"
+        "EPMGameModeType::Bomb"
       ],
       "RoleId": 132,
       "IsCheckTeamType": true,
@@ -9025,8 +9020,7 @@
       "DelayPlayTime": 0.0,
       "IsDeathNormalPlay": false,
       "GameModeTypeList": [
-        "EPMGameModeType::Bomb",
-        "EPMGameModeType::Bomb2"
+        "EPMGameModeType::Bomb"
       ],
       "RoleId": 132,
       "IsCheckTeamType": true,
@@ -9119,8 +9113,7 @@
       "DelayPlayTime": 1.0,
       "IsDeathNormalPlay": false,
       "GameModeTypeList": [
-        "EPMGameModeType::Bomb",
-        "EPMGameModeType::Bomb2"
+        "EPMGameModeType::Bomb"
       ],
       "RoleId": 132,
       "IsCheckTeamType": true,
@@ -9152,8 +9145,7 @@
       "DelayPlayTime": 2.0,
       "IsDeathNormalPlay": false,
       "GameModeTypeList": [
-        "EPMGameModeType::Bomb",
-        "EPMGameModeType::Bomb2"
+        "EPMGameModeType::Bomb"
       ],
       "RoleId": 132,
       "IsCheckTeamType": true,
@@ -9185,8 +9177,7 @@
       "DelayPlayTime": 1.0,
       "IsDeathNormalPlay": false,
       "GameModeTypeList": [
-        "EPMGameModeType::Bomb",
-        "EPMGameModeType::Bomb2"
+        "EPMGameModeType::Bomb"
       ],
       "RoleId": 132,
       "IsCheckTeamType": true,
@@ -9219,8 +9210,7 @@
       "DelayPlayTime": 1.0,
       "IsDeathNormalPlay": false,
       "GameModeTypeList": [
-        "EPMGameModeType::Bomb",
-        "EPMGameModeType::Bomb2"
+        "EPMGameModeType::Bomb"
       ],
       "RoleId": 132,
       "IsCheckTeamType": true,
@@ -9253,8 +9243,7 @@
       "DelayPlayTime": 1.0,
       "IsDeathNormalPlay": false,
       "GameModeTypeList": [
-        "EPMGameModeType::Bomb",
-        "EPMGameModeType::Bomb2"
+        "EPMGameModeType::Bomb"
       ],
       "RoleId": 132,
       "IsCheckTeamType": true,
@@ -9287,8 +9276,7 @@
       "DelayPlayTime": 1.0,
       "IsDeathNormalPlay": false,
       "GameModeTypeList": [
-        "EPMGameModeType::Bomb",
-        "EPMGameModeType::Bomb2"
+        "EPMGameModeType::Bomb"
       ],
       "RoleId": 132,
       "IsCheckTeamType": true,
@@ -9321,8 +9309,7 @@
       "DelayPlayTime": 1.0,
       "IsDeathNormalPlay": false,
       "GameModeTypeList": [
-        "EPMGameModeType::Bomb",
-        "EPMGameModeType::Bomb2"
+        "EPMGameModeType::Bomb"
       ],
       "RoleId": 132,
       "IsCheckTeamType": true,
@@ -9345,7 +9332,7 @@
       "GameplayTag": {
         "TagName": "UIEvent.Injured.Enemy"
       },
-      "VoiceId": 0,
+      "VoiceId": 22132151,
       "TotalType": "EInsideVoiceBigType::Role",
       "InsideVoiceType": "EInsideVoiceType::EasterEggTwo",
       "BroadcastObjectType": "EBroadcastObjectType::SelfAndTeammate",
@@ -9355,8 +9342,7 @@
       "DelayPlayTime": 1.0,
       "IsDeathNormalPlay": false,
       "GameModeTypeList": [
-        "EPMGameModeType::Bomb",
-        "EPMGameModeType::Bomb2"
+        "EPMGameModeType::Bomb"
       ],
       "RoleId": 132,
       "IsCheckTeamType": true,
@@ -9389,8 +9375,7 @@
       "DelayPlayTime": 1.0,
       "IsDeathNormalPlay": false,
       "GameModeTypeList": [
-        "EPMGameModeType::Bomb",
-        "EPMGameModeType::Bomb2"
+        "EPMGameModeType::Bomb"
       ],
       "RoleId": 132,
       "IsCheckTeamType": true,
@@ -9422,8 +9407,7 @@
       "DelayPlayTime": 2.0,
       "IsDeathNormalPlay": false,
       "GameModeTypeList": [
-        "EPMGameModeType::Bomb",
-        "EPMGameModeType::Bomb2"
+        "EPMGameModeType::Bomb"
       ],
       "RoleId": 132,
       "IsCheckTeamType": true,
@@ -9455,8 +9439,7 @@
       "DelayPlayTime": 1.0,
       "IsDeathNormalPlay": false,
       "GameModeTypeList": [
-        "EPMGameModeType::Bomb",
-        "EPMGameModeType::Bomb2"
+        "EPMGameModeType::Bomb"
       ],
       "RoleId": 132,
       "IsCheckTeamType": true,
@@ -9489,8 +9472,7 @@
       "DelayPlayTime": 1.0,
       "IsDeathNormalPlay": false,
       "GameModeTypeList": [
-        "EPMGameModeType::Bomb",
-        "EPMGameModeType::Bomb2"
+        "EPMGameModeType::Bomb"
       ],
       "RoleId": 132,
       "IsCheckTeamType": true,
@@ -9523,8 +9505,7 @@
       "DelayPlayTime": 1.0,
       "IsDeathNormalPlay": false,
       "GameModeTypeList": [
-        "EPMGameModeType::Bomb",
-        "EPMGameModeType::Bomb2"
+        "EPMGameModeType::Bomb"
       ],
       "RoleId": 132,
       "IsCheckTeamType": true,
@@ -9557,8 +9538,7 @@
       "DelayPlayTime": 1.0,
       "IsDeathNormalPlay": false,
       "GameModeTypeList": [
-        "EPMGameModeType::Bomb",
-        "EPMGameModeType::Bomb2"
+        "EPMGameModeType::Bomb"
       ],
       "RoleId": 132,
       "IsCheckTeamType": true,
@@ -9591,8 +9571,7 @@
       "DelayPlayTime": 1.0,
       "IsDeathNormalPlay": false,
       "GameModeTypeList": [
-        "EPMGameModeType::Bomb",
-        "EPMGameModeType::Bomb2"
+        "EPMGameModeType::Bomb"
       ],
       "RoleId": 132,
       "IsCheckTeamType": true,
@@ -9615,7 +9594,7 @@
       "GameplayTag": {
         "TagName": "UIEvent.Injured.Enemy"
       },
-      "VoiceId": 0,
+      "VoiceId": 22132151,
       "TotalType": "EInsideVoiceBigType::Role",
       "InsideVoiceType": "EInsideVoiceType::EasterEggTwo",
       "BroadcastObjectType": "EBroadcastObjectType::SelfAndTeammate",
@@ -9625,8 +9604,7 @@
       "DelayPlayTime": 1.0,
       "IsDeathNormalPlay": false,
       "GameModeTypeList": [
-        "EPMGameModeType::Bomb",
-        "EPMGameModeType::Bomb2"
+        "EPMGameModeType::Bomb"
       ],
       "RoleId": 132,
       "IsCheckTeamType": true,
@@ -9642,6 +9620,72 @@
         "Key": "122132080_Desc",
         "SourceString": "红皮局内彩蛋9-队友艾卡击倒敌人",
         "LocalizedString": "红皮局内彩蛋9-队友艾卡击倒敌人"
+      }
+    },
+    "122132089": {
+      "Id": 122132089,
+      "GameplayTag": {
+        "TagName": "UIEvent.Rescue.Start"
+      },
+      "VoiceId": 22132152,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::EasterEggOne",
+      "BroadcastObjectType": "EBroadcastObjectType::SelfAndTeammate",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 10.0,
+      "DelayPlayTime": 1.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::Bomb"
+      ],
+      "RoleId": 132,
+      "IsCheckTeamType": true,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [
+        132,
+        119
+      ],
+      "TargetRoleId": 132,
+      "InstigatorRoleId": 119,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122132089_Desc",
+        "SourceString": "明——救治队友艾卡",
+        "LocalizedString": "明——救治队友艾卡"
+      }
+    },
+    "122132090": {
+      "Id": 122132090,
+      "GameplayTag": {
+        "TagName": "UIEvent.Rescue.Start"
+      },
+      "VoiceId": 22132152,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::EasterEggOne",
+      "BroadcastObjectType": "EBroadcastObjectType::SelfAndTeammate",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 10.0,
+      "DelayPlayTime": 1.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::Bomb"
+      ],
+      "RoleId": 132,
+      "IsCheckTeamType": true,
+      "TeamType": "EPMTeamType::Defend",
+      "LookRoleIds": [
+        132,
+        119
+      ],
+      "TargetRoleId": 132,
+      "InstigatorRoleId": 119,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122132089_Desc",
+        "SourceString": "明——救治队友艾卡",
+        "LocalizedString": "明——救治队友艾卡"
       }
     },
     "122132500": {
@@ -20755,7 +20799,7 @@
       "IsRandom": false,
       "RandomVoiceIds": [],
       "CoolDownTime": 10.0,
-      "DelayPlayTime": 1.0,
+      "DelayPlayTime": 0.0,
       "IsDeathNormalPlay": true,
       "GameModeTypeList": [
         "EPMGameModeType::Bomb",
@@ -20888,7 +20932,7 @@
       "IsRandom": false,
       "RandomVoiceIds": [],
       "CoolDownTime": 10.0,
-      "DelayPlayTime": 1.0,
+      "DelayPlayTime": 0.0,
       "IsDeathNormalPlay": true,
       "GameModeTypeList": [
         "EPMGameModeType::Bomb",
@@ -35151,6 +35195,321 @@
         "LocalizedString": "信长-对局平局，且为MVP/SVP的时候"
       }
     },
+    "122108073": {
+      "Id": 122108073,
+      "GameplayTag": {
+        "TagName": "Event.Kill"
+      },
+      "VoiceId": 0,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::EasterEggThree",
+      "BroadcastObjectType": "EBroadcastObjectType::Teammate",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 10.0,
+      "DelayPlayTime": 1.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::Bomb"
+      ],
+      "RoleId": 108,
+      "IsCheckTeamType": true,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [
+        108
+      ],
+      "TargetRoleId": 108,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122108073_Desc",
+        "SourceString": "信长——他人首杀（红皮彩蛋1）",
+        "LocalizedString": "信长——他人首杀（红皮彩蛋1）"
+      }
+    },
+    "122108074": {
+      "Id": 122108074,
+      "GameplayTag": {
+        "TagName": "Event.Kill"
+      },
+      "VoiceId": 0,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::EasterEggTwo",
+      "BroadcastObjectType": "EBroadcastObjectType::Teammate",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 10.0,
+      "DelayPlayTime": 1.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::Bomb"
+      ],
+      "RoleId": 108,
+      "IsCheckTeamType": true,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [
+        108
+      ],
+      "TargetRoleId": 108,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122108074_Desc",
+        "SourceString": "信长——自己首杀（红皮彩蛋2）",
+        "LocalizedString": "信长——自己首杀（红皮彩蛋2）"
+      }
+    },
+    "122108075": {
+      "Id": 122108075,
+      "GameplayTag": {
+        "TagName": "Event.Death"
+      },
+      "VoiceId": 0,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::EasterEggTwo",
+      "BroadcastObjectType": "EBroadcastObjectType::Teammate",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 10.0,
+      "DelayPlayTime": 0.0,
+      "IsDeathNormalPlay": true,
+      "GameModeTypeList": [
+        "EPMGameModeType::Bomb"
+      ],
+      "RoleId": 108,
+      "IsCheckTeamType": true,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [],
+      "TargetRoleId": 108,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122108075_Desc",
+        "SourceString": "信长——自己被首杀（红皮彩蛋3）",
+        "LocalizedString": "信长——自己被首杀（红皮彩蛋3）"
+      }
+    },
+    "122108076": {
+      "Id": 122108076,
+      "GameplayTag": {
+        "TagName": "Event.Kill"
+      },
+      "VoiceId": 0,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::EasterEggOne",
+      "BroadcastObjectType": "EBroadcastObjectType::SelfAndEnemy",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 10.0,
+      "DelayPlayTime": 1.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::Bomb"
+      ],
+      "RoleId": 108,
+      "IsCheckTeamType": true,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [],
+      "TargetRoleId": 108,
+      "InstigatorRoleId": 110,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122108076_Desc",
+        "SourceString": "信长——击杀特殊敌人互动-白墨（红皮彩蛋6）",
+        "LocalizedString": "信长——击杀特殊敌人互动-白墨（红皮彩蛋6）"
+      }
+    },
+    "122108077": {
+      "Id": 122108077,
+      "GameplayTag": {
+        "TagName": "Event.Kill"
+      },
+      "VoiceId": 0,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::EasterEggOne",
+      "BroadcastObjectType": "EBroadcastObjectType::SelfAndEnemy",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 10.0,
+      "DelayPlayTime": 1.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::Bomb"
+      ],
+      "RoleId": 108,
+      "IsCheckTeamType": true,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [
+        108,
+        109
+      ],
+      "TargetRoleId": 108,
+      "InstigatorRoleId": 109,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122108077_Desc",
+        "SourceString": "信长——击杀特殊敌人互动-令（红皮彩蛋8）",
+        "LocalizedString": "信长——击杀特殊敌人互动-令（红皮彩蛋8）"
+      }
+    },
+    "122108078": {
+      "Id": 122108078,
+      "GameplayTag": {
+        "TagName": "Event.Kill"
+      },
+      "VoiceId": 0,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::EasterEggThree",
+      "BroadcastObjectType": "EBroadcastObjectType::Teammate",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 10.0,
+      "DelayPlayTime": 1.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::Bomb"
+      ],
+      "RoleId": 108,
+      "IsCheckTeamType": true,
+      "TeamType": "EPMTeamType::Defend",
+      "LookRoleIds": [
+        108
+      ],
+      "TargetRoleId": 108,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122108073_Desc",
+        "SourceString": "信长——他人首杀（红皮彩蛋1）",
+        "LocalizedString": "信长——他人首杀（红皮彩蛋1）"
+      }
+    },
+    "122108079": {
+      "Id": 122108079,
+      "GameplayTag": {
+        "TagName": "Event.Kill"
+      },
+      "VoiceId": 0,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::EasterEggTwo",
+      "BroadcastObjectType": "EBroadcastObjectType::Teammate",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 10.0,
+      "DelayPlayTime": 1.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::Bomb"
+      ],
+      "RoleId": 108,
+      "IsCheckTeamType": true,
+      "TeamType": "EPMTeamType::Defend",
+      "LookRoleIds": [],
+      "TargetRoleId": 108,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122108074_Desc",
+        "SourceString": "信长——自己首杀（红皮彩蛋2）",
+        "LocalizedString": "信长——自己首杀（红皮彩蛋2）"
+      }
+    },
+    "122108080": {
+      "Id": 122108080,
+      "GameplayTag": {
+        "TagName": "Event.Death"
+      },
+      "VoiceId": 0,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::EasterEggTwo",
+      "BroadcastObjectType": "EBroadcastObjectType::Teammate",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 10.0,
+      "DelayPlayTime": 0.0,
+      "IsDeathNormalPlay": true,
+      "GameModeTypeList": [
+        "EPMGameModeType::Bomb"
+      ],
+      "RoleId": 108,
+      "IsCheckTeamType": true,
+      "TeamType": "EPMTeamType::Defend",
+      "LookRoleIds": [],
+      "TargetRoleId": 108,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122108075_Desc",
+        "SourceString": "信长——自己被首杀（红皮彩蛋3）",
+        "LocalizedString": "信长——自己被首杀（红皮彩蛋3）"
+      }
+    },
+    "122108081": {
+      "Id": 122108081,
+      "GameplayTag": {
+        "TagName": "Event.Kill"
+      },
+      "VoiceId": 0,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::EasterEggOne",
+      "BroadcastObjectType": "EBroadcastObjectType::SelfAndEnemy",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 10.0,
+      "DelayPlayTime": 1.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::Bomb"
+      ],
+      "RoleId": 108,
+      "IsCheckTeamType": true,
+      "TeamType": "EPMTeamType::Defend",
+      "LookRoleIds": [
+        108,
+        110
+      ],
+      "TargetRoleId": 108,
+      "InstigatorRoleId": 110,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122108076_Desc",
+        "SourceString": "信长——击杀特殊敌人互动-白墨（红皮彩蛋6）",
+        "LocalizedString": "信长——击杀特殊敌人互动-白墨（红皮彩蛋6）"
+      }
+    },
+    "122108082": {
+      "Id": 122108082,
+      "GameplayTag": {
+        "TagName": "Event.Kill"
+      },
+      "VoiceId": 0,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::EasterEggOne",
+      "BroadcastObjectType": "EBroadcastObjectType::SelfAndEnemy",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 10.0,
+      "DelayPlayTime": 1.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::Bomb"
+      ],
+      "RoleId": 108,
+      "IsCheckTeamType": true,
+      "TeamType": "EPMTeamType::Defend",
+      "LookRoleIds": [
+        108,
+        109
+      ],
+      "TargetRoleId": 108,
+      "InstigatorRoleId": 109,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122108077_Desc",
+        "SourceString": "信长——击杀特殊敌人互动-令（红皮彩蛋8）",
+        "LocalizedString": "信长——击杀特殊敌人互动-令（红皮彩蛋8）"
+      }
+    },
     "122108500": {
       "Id": 122108500,
       "GameplayTag": {
@@ -42673,8 +43032,7 @@
       "DelayPlayTime": 1.0,
       "IsDeathNormalPlay": false,
       "GameModeTypeList": [
-        "EPMGameModeType::Bomb",
-        "EPMGameModeType::Bomb2"
+        "EPMGameModeType::Bomb"
       ],
       "RoleId": 115,
       "IsCheckTeamType": true,
@@ -42706,8 +43064,7 @@
       "DelayPlayTime": 1.0,
       "IsDeathNormalPlay": false,
       "GameModeTypeList": [
-        "EPMGameModeType::Bomb",
-        "EPMGameModeType::Bomb2"
+        "EPMGameModeType::Bomb"
       ],
       "RoleId": 115,
       "IsCheckTeamType": true,
@@ -42739,8 +43096,7 @@
       "DelayPlayTime": 1.0,
       "IsDeathNormalPlay": false,
       "GameModeTypeList": [
-        "EPMGameModeType::Bomb",
-        "EPMGameModeType::Bomb2"
+        "EPMGameModeType::Bomb"
       ],
       "RoleId": 115,
       "IsCheckTeamType": true,
@@ -42773,8 +43129,7 @@
       "DelayPlayTime": 1.0,
       "IsDeathNormalPlay": false,
       "GameModeTypeList": [
-        "EPMGameModeType::Bomb",
-        "EPMGameModeType::Bomb2"
+        "EPMGameModeType::Bomb"
       ],
       "RoleId": 115,
       "IsCheckTeamType": true,
@@ -42804,11 +43159,10 @@
       "IsRandom": false,
       "RandomVoiceIds": [],
       "CoolDownTime": 10.0,
-      "DelayPlayTime": 1.0,
+      "DelayPlayTime": 0.0,
       "IsDeathNormalPlay": true,
       "GameModeTypeList": [
-        "EPMGameModeType::Bomb",
-        "EPMGameModeType::Bomb2"
+        "EPMGameModeType::Bomb"
       ],
       "RoleId": 115,
       "IsCheckTeamType": true,
@@ -42840,8 +43194,7 @@
       "DelayPlayTime": 1.0,
       "IsDeathNormalPlay": false,
       "GameModeTypeList": [
-        "EPMGameModeType::Bomb",
-        "EPMGameModeType::Bomb2"
+        "EPMGameModeType::Bomb"
       ],
       "RoleId": 115,
       "IsCheckTeamType": true,
@@ -42873,8 +43226,7 @@
       "DelayPlayTime": 1.0,
       "IsDeathNormalPlay": false,
       "GameModeTypeList": [
-        "EPMGameModeType::Bomb",
-        "EPMGameModeType::Bomb2"
+        "EPMGameModeType::Bomb"
       ],
       "RoleId": 115,
       "IsCheckTeamType": true,
@@ -42906,8 +43258,7 @@
       "DelayPlayTime": 1.0,
       "IsDeathNormalPlay": false,
       "GameModeTypeList": [
-        "EPMGameModeType::Bomb",
-        "EPMGameModeType::Bomb2"
+        "EPMGameModeType::Bomb"
       ],
       "RoleId": 115,
       "IsCheckTeamType": true,
@@ -42940,8 +43291,7 @@
       "DelayPlayTime": 1.0,
       "IsDeathNormalPlay": false,
       "GameModeTypeList": [
-        "EPMGameModeType::Bomb",
-        "EPMGameModeType::Bomb2"
+        "EPMGameModeType::Bomb"
       ],
       "RoleId": 115,
       "IsCheckTeamType": true,
@@ -42971,11 +43321,10 @@
       "IsRandom": false,
       "RandomVoiceIds": [],
       "CoolDownTime": 10.0,
-      "DelayPlayTime": 1.0,
+      "DelayPlayTime": 0.0,
       "IsDeathNormalPlay": true,
       "GameModeTypeList": [
-        "EPMGameModeType::Bomb",
-        "EPMGameModeType::Bomb2"
+        "EPMGameModeType::Bomb"
       ],
       "RoleId": 115,
       "IsCheckTeamType": true,
@@ -43002,11 +43351,7 @@
       "InsideVoiceType": "EInsideVoiceType::Normal",
       "BroadcastObjectType": "EBroadcastObjectType::Self",
       "IsRandom": true,
-      "RandomVoiceIds": [
-        22115138,
-        22115162,
-        22115163
-      ],
+      "RandomVoiceIds": [],
       "CoolDownTime": 10.0,
       "DelayPlayTime": 2.0,
       "IsDeathNormalPlay": false,
@@ -43016,7 +43361,10 @@
       "RoleId": 115,
       "IsCheckTeamType": false,
       "TeamType": "EPMTeamType::Attack",
-      "LookRoleIds": [],
+      "LookRoleIds": [
+        0,
+        115
+      ],
       "TargetRoleId": 0,
       "InstigatorRoleId": 0,
       "Desc": {
@@ -43036,10 +43384,7 @@
       "InsideVoiceType": "EInsideVoiceType::Normal",
       "BroadcastObjectType": "EBroadcastObjectType::Self",
       "IsRandom": true,
-      "RandomVoiceIds": [
-        22115140,
-        22115166
-      ],
+      "RandomVoiceIds": [],
       "CoolDownTime": 10.0,
       "DelayPlayTime": 2.0,
       "IsDeathNormalPlay": true,
@@ -43049,7 +43394,10 @@
       "RoleId": 115,
       "IsCheckTeamType": false,
       "TeamType": "EPMTeamType::Attack",
-      "LookRoleIds": [],
+      "LookRoleIds": [
+        0,
+        115
+      ],
       "TargetRoleId": 0,
       "InstigatorRoleId": 0,
       "Desc": {
@@ -43064,7 +43412,7 @@
       "GameplayTag": {
         "TagName": "Event.Kill"
       },
-      "VoiceId": 0,
+      "VoiceId": 22115146,
       "TotalType": "EInsideVoiceBigType::Role",
       "InsideVoiceType": "EInsideVoiceType::EasterEggOne",
       "BroadcastObjectType": "EBroadcastObjectType::SelfAndEnemy",
@@ -43074,8 +43422,7 @@
       "DelayPlayTime": 1.0,
       "IsDeathNormalPlay": false,
       "GameModeTypeList": [
-        "EPMGameModeType::Bomb",
-        "EPMGameModeType::Bomb2"
+        "EPMGameModeType::Bomb"
       ],
       "RoleId": 115,
       "IsCheckTeamType": true,
@@ -43108,8 +43455,7 @@
       "DelayPlayTime": 10.0,
       "IsDeathNormalPlay": false,
       "GameModeTypeList": [
-        "EPMGameModeType::Bomb",
-        "EPMGameModeType::Bomb2"
+        "EPMGameModeType::Bomb"
       ],
       "RoleId": 115,
       "IsCheckTeamType": true,
@@ -43141,8 +43487,7 @@
       "DelayPlayTime": 1.0,
       "IsDeathNormalPlay": false,
       "GameModeTypeList": [
-        "EPMGameModeType::Bomb",
-        "EPMGameModeType::Bomb2"
+        "EPMGameModeType::Bomb"
       ],
       "RoleId": 115,
       "IsCheckTeamType": true,
@@ -43175,8 +43520,7 @@
       "DelayPlayTime": 1.0,
       "IsDeathNormalPlay": false,
       "GameModeTypeList": [
-        "EPMGameModeType::Bomb",
-        "EPMGameModeType::Bomb2"
+        "EPMGameModeType::Bomb"
       ],
       "RoleId": 115,
       "IsCheckTeamType": true,
@@ -43209,8 +43553,7 @@
       "DelayPlayTime": 1.0,
       "IsDeathNormalPlay": false,
       "GameModeTypeList": [
-        "EPMGameModeType::Bomb",
-        "EPMGameModeType::Bomb2"
+        "EPMGameModeType::Bomb"
       ],
       "RoleId": 115,
       "IsCheckTeamType": true,
@@ -43243,8 +43586,7 @@
       "DelayPlayTime": 0.0,
       "IsDeathNormalPlay": false,
       "GameModeTypeList": [
-        "EPMGameModeType::Bomb",
-        "EPMGameModeType::Bomb2"
+        "EPMGameModeType::Bomb"
       ],
       "RoleId": 115,
       "IsCheckTeamType": true,
@@ -43277,8 +43619,7 @@
       "DelayPlayTime": 0.0,
       "IsDeathNormalPlay": false,
       "GameModeTypeList": [
-        "EPMGameModeType::Bomb",
-        "EPMGameModeType::Bomb2"
+        "EPMGameModeType::Bomb"
       ],
       "RoleId": 115,
       "IsCheckTeamType": true,
@@ -43301,7 +43642,7 @@
       "GameplayTag": {
         "TagName": "Event.Kill"
       },
-      "VoiceId": 0,
+      "VoiceId": 22115146,
       "TotalType": "EInsideVoiceBigType::Role",
       "InsideVoiceType": "EInsideVoiceType::EasterEggOne",
       "BroadcastObjectType": "EBroadcastObjectType::SelfAndEnemy",
@@ -43311,8 +43652,7 @@
       "DelayPlayTime": 1.0,
       "IsDeathNormalPlay": false,
       "GameModeTypeList": [
-        "EPMGameModeType::Bomb",
-        "EPMGameModeType::Bomb2"
+        "EPMGameModeType::Bomb"
       ],
       "RoleId": 115,
       "IsCheckTeamType": true,
@@ -43345,8 +43685,7 @@
       "DelayPlayTime": 10.0,
       "IsDeathNormalPlay": false,
       "GameModeTypeList": [
-        "EPMGameModeType::Bomb",
-        "EPMGameModeType::Bomb2"
+        "EPMGameModeType::Bomb"
       ],
       "RoleId": 115,
       "IsCheckTeamType": true,
@@ -43378,8 +43717,7 @@
       "DelayPlayTime": 1.0,
       "IsDeathNormalPlay": false,
       "GameModeTypeList": [
-        "EPMGameModeType::Bomb",
-        "EPMGameModeType::Bomb2"
+        "EPMGameModeType::Bomb"
       ],
       "RoleId": 115,
       "IsCheckTeamType": true,
@@ -43412,8 +43750,7 @@
       "DelayPlayTime": 1.0,
       "IsDeathNormalPlay": false,
       "GameModeTypeList": [
-        "EPMGameModeType::Bomb",
-        "EPMGameModeType::Bomb2"
+        "EPMGameModeType::Bomb"
       ],
       "RoleId": 115,
       "IsCheckTeamType": true,
@@ -43446,8 +43783,7 @@
       "DelayPlayTime": 1.0,
       "IsDeathNormalPlay": false,
       "GameModeTypeList": [
-        "EPMGameModeType::Bomb",
-        "EPMGameModeType::Bomb2"
+        "EPMGameModeType::Bomb"
       ],
       "RoleId": 115,
       "IsCheckTeamType": true,
@@ -43480,8 +43816,7 @@
       "DelayPlayTime": 0.0,
       "IsDeathNormalPlay": false,
       "GameModeTypeList": [
-        "EPMGameModeType::Bomb",
-        "EPMGameModeType::Bomb2"
+        "EPMGameModeType::Bomb"
       ],
       "RoleId": 115,
       "IsCheckTeamType": true,
@@ -43514,8 +43849,7 @@
       "DelayPlayTime": 0.0,
       "IsDeathNormalPlay": false,
       "GameModeTypeList": [
-        "EPMGameModeType::Bomb",
-        "EPMGameModeType::Bomb2"
+        "EPMGameModeType::Bomb"
       ],
       "RoleId": 115,
       "IsCheckTeamType": true,
@@ -43531,6 +43865,200 @@
         "Key": "122115069_Desc",
         "SourceString": "特殊救治互动-玛德蕾娜",
         "LocalizedString": "特殊救治互动-玛德蕾娜"
+      }
+    },
+    "122115077": {
+      "Id": 122115077,
+      "GameplayTag": {
+        "TagName": "UIEvent.Rescue.Start"
+      },
+      "VoiceId": 22115147,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::EasterEggOne",
+      "BroadcastObjectType": "EBroadcastObjectType::SelfAndTeammate",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 10.0,
+      "DelayPlayTime": 0.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::Bomb"
+      ],
+      "RoleId": 115,
+      "IsCheckTeamType": true,
+      "TeamType": "EPMTeamType::Defend",
+      "LookRoleIds": [
+        115,
+        131
+      ],
+      "TargetRoleId": 115,
+      "InstigatorRoleId": 131,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122115077_Desc",
+        "SourceString": "扶起指定队友-伊薇特",
+        "LocalizedString": "扶起指定队友-伊薇特"
+      }
+    },
+    "122115078": {
+      "Id": 122115078,
+      "GameplayTag": {
+        "TagName": "UIEvent.Game.Remain.One.Self"
+      },
+      "VoiceId": 22115148,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::EasterEggTwo",
+      "BroadcastObjectType": "EBroadcastObjectType::Teammate",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 10.0,
+      "DelayPlayTime": 2.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::Bomb"
+      ],
+      "RoleId": 115,
+      "IsCheckTeamType": true,
+      "TeamType": "EPMTeamType::Defend",
+      "LookRoleIds": [
+        115
+      ],
+      "TargetRoleId": 115,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122115078_Desc",
+        "SourceString": "最后存活",
+        "LocalizedString": "最后存活"
+      }
+    },
+    "122115079": {
+      "Id": 122115079,
+      "GameplayTag": {
+        "TagName": "Event.Death"
+      },
+      "VoiceId": 22115149,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::EasterEggThree",
+      "BroadcastObjectType": "EBroadcastObjectType::Teammate",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 10.0,
+      "DelayPlayTime": 3.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::Bomb"
+      ],
+      "RoleId": 115,
+      "IsCheckTeamType": true,
+      "TeamType": "EPMTeamType::Defend",
+      "LookRoleIds": [
+        115
+      ],
+      "TargetRoleId": 115,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122115079_Desc",
+        "SourceString": "第一名队友死亡",
+        "LocalizedString": "第一名队友死亡"
+      }
+    },
+    "122115080": {
+      "Id": 122115080,
+      "GameplayTag": {
+        "TagName": "UIEvent.Rescue.Start"
+      },
+      "VoiceId": 22115147,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::EasterEggOne",
+      "BroadcastObjectType": "EBroadcastObjectType::SelfAndTeammate",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 10.0,
+      "DelayPlayTime": 0.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::Bomb"
+      ],
+      "RoleId": 115,
+      "IsCheckTeamType": true,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [
+        115,
+        131
+      ],
+      "TargetRoleId": 115,
+      "InstigatorRoleId": 131,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122115077_Desc",
+        "SourceString": "扶起指定队友-伊薇特",
+        "LocalizedString": "扶起指定队友-伊薇特"
+      }
+    },
+    "122115081": {
+      "Id": 122115081,
+      "GameplayTag": {
+        "TagName": "UIEvent.Game.Remain.One.Self"
+      },
+      "VoiceId": 22115148,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::EasterEggTwo",
+      "BroadcastObjectType": "EBroadcastObjectType::Teammate",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 10.0,
+      "DelayPlayTime": 2.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::Bomb"
+      ],
+      "RoleId": 115,
+      "IsCheckTeamType": true,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [
+        115
+      ],
+      "TargetRoleId": 115,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122115078_Desc",
+        "SourceString": "最后存活",
+        "LocalizedString": "最后存活"
+      }
+    },
+    "122115082": {
+      "Id": 122115082,
+      "GameplayTag": {
+        "TagName": "Event.Death"
+      },
+      "VoiceId": 22115149,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::EasterEggThree",
+      "BroadcastObjectType": "EBroadcastObjectType::Teammate",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 10.0,
+      "DelayPlayTime": 3.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::Bomb"
+      ],
+      "RoleId": 115,
+      "IsCheckTeamType": true,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [
+        115
+      ],
+      "TargetRoleId": 115,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122115079_Desc",
+        "SourceString": "第一名队友死亡",
+        "LocalizedString": "第一名队友死亡"
       }
     },
     "122115500": {
@@ -45469,7 +45997,7 @@
       "IsRandom": false,
       "RandomVoiceIds": [],
       "CoolDownTime": 10.0,
-      "DelayPlayTime": 1.0,
+      "DelayPlayTime": 0.0,
       "IsDeathNormalPlay": true,
       "GameModeTypeList": [
         "EPMGameModeType::Bomb",
@@ -45638,7 +46166,7 @@
       "IsRandom": false,
       "RandomVoiceIds": [],
       "CoolDownTime": 10.0,
-      "DelayPlayTime": 1.0,
+      "DelayPlayTime": 0.0,
       "IsDeathNormalPlay": false,
       "GameModeTypeList": [
         "EPMGameModeType::Bomb",
@@ -45672,7 +46200,7 @@
       "IsRandom": false,
       "RandomVoiceIds": [],
       "CoolDownTime": 10.0,
-      "DelayPlayTime": 1.0,
+      "DelayPlayTime": 0.0,
       "IsDeathNormalPlay": false,
       "GameModeTypeList": [
         "EPMGameModeType::Bomb",
@@ -45772,7 +46300,7 @@
       "IsRandom": false,
       "RandomVoiceIds": [],
       "CoolDownTime": 10.0,
-      "DelayPlayTime": 1.0,
+      "DelayPlayTime": 0.0,
       "IsDeathNormalPlay": true,
       "GameModeTypeList": [
         "EPMGameModeType::Bomb",
@@ -45941,7 +46469,7 @@
       "IsRandom": false,
       "RandomVoiceIds": [],
       "CoolDownTime": 10.0,
-      "DelayPlayTime": 1.0,
+      "DelayPlayTime": 0.0,
       "IsDeathNormalPlay": false,
       "GameModeTypeList": [
         "EPMGameModeType::Bomb",
@@ -45975,7 +46503,7 @@
       "IsRandom": false,
       "RandomVoiceIds": [],
       "CoolDownTime": 10.0,
-      "DelayPlayTime": 1.0,
+      "DelayPlayTime": 0.0,
       "IsDeathNormalPlay": false,
       "GameModeTypeList": [
         "EPMGameModeType::Bomb",
@@ -58913,6 +59441,2495 @@
         "LocalizedString": "受到来自后方的攻击/背后有人在打我1"
       }
     },
+    "122125001": {
+      "Id": 122125001,
+      "GameplayTag": {
+        "TagName": "UIEvent.SelectRole.Click.Role.Confirm"
+      },
+      "VoiceId": 22125067,
+      "TotalType": "EInsideVoiceBigType::System",
+      "InsideVoiceType": "EInsideVoiceType::Normal",
+      "BroadcastObjectType": "EBroadcastObjectType::Self",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 0.0,
+      "DelayPlayTime": 0.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::None"
+      ],
+      "RoleId": 125,
+      "IsCheckTeamType": false,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [],
+      "TargetRoleId": 0,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122101001_Desc",
+        "SourceString": "选角界面点击确认",
+        "LocalizedString": "选角界面点击确认"
+      }
+    },
+    "122125002": {
+      "Id": 122125002,
+      "GameplayTag": {
+        "TagName": "UIEvent.Game.RoundReady.Prologue"
+      },
+      "VoiceId": 22125068,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::Normal",
+      "BroadcastObjectType": "EBroadcastObjectType::Teammate",
+      "IsRandom": true,
+      "RandomVoiceIds": [
+        22125068,
+        22125069,
+        22125070
+      ],
+      "CoolDownTime": 10.0,
+      "DelayPlayTime": 10.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::None"
+      ],
+      "RoleId": 125,
+      "IsCheckTeamType": false,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [],
+      "TargetRoleId": 0,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122101002_Desc",
+        "SourceString": "进入局内对战，展示角色环节，角色的台词(3句随机）",
+        "LocalizedString": "进入局内对战，展示角色环节，角色的台词(3句随机）"
+      }
+    },
+    "122125003": {
+      "Id": 122125003,
+      "GameplayTag": {
+        "TagName": "UIEvent.AllowActive.Skill.Q"
+      },
+      "VoiceId": 22125071,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::Normal",
+      "BroadcastObjectType": "EBroadcastObjectType::Self",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 30.0,
+      "DelayPlayTime": 0.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::None"
+      ],
+      "RoleId": 125,
+      "IsCheckTeamType": false,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [],
+      "TargetRoleId": 0,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122101003_Desc",
+        "SourceString": "技能Q冷却完毕",
+        "LocalizedString": "技能Q冷却完毕"
+      }
+    },
+    "122125004": {
+      "Id": 122125004,
+      "GameplayTag": {
+        "TagName": "UIEvent.Activate.Skill.Q"
+      },
+      "VoiceId": 22125072,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::Normal",
+      "BroadcastObjectType": "EBroadcastObjectType::Teammate",
+      "IsRandom": true,
+      "RandomVoiceIds": [
+        22125072,
+        22125073,
+        22125074
+      ],
+      "CoolDownTime": 10.0,
+      "DelayPlayTime": 0.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::None"
+      ],
+      "RoleId": 125,
+      "IsCheckTeamType": false,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [],
+      "TargetRoleId": 0,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122101004_Desc",
+        "SourceString": "释放技能Q(3句随机）",
+        "LocalizedString": "释放技能Q(3句随机）"
+      }
+    },
+    "122125005": {
+      "Id": 122125005,
+      "GameplayTag": {
+        "TagName": "UIEvent.Activate.Skill.P"
+      },
+      "VoiceId": 22125075,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::Normal",
+      "BroadcastObjectType": "EBroadcastObjectType::Self",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 30.0,
+      "DelayPlayTime": 0.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::None"
+      ],
+      "RoleId": 125,
+      "IsCheckTeamType": false,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [],
+      "TargetRoleId": 0,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122101005_Desc",
+        "SourceString": "被动生效",
+        "LocalizedString": "被动生效"
+      }
+    },
+    "122125006": {
+      "Id": 122125006,
+      "GameplayTag": {
+        "TagName": "UIEvent.AllowActive.Skill.X"
+      },
+      "VoiceId": 22125076,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::Normal",
+      "BroadcastObjectType": "EBroadcastObjectType::Self",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 10.0,
+      "DelayPlayTime": 0.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::None"
+      ],
+      "RoleId": 125,
+      "IsCheckTeamType": false,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [],
+      "TargetRoleId": 0,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122101006_Desc",
+        "SourceString": "大招充能完毕",
+        "LocalizedString": "大招充能完毕"
+      }
+    },
+    "122125007": {
+      "Id": 122125007,
+      "GameplayTag": {
+        "TagName": "UIEvent.Activate.Skill.X"
+      },
+      "VoiceId": 22125077,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::Normal",
+      "BroadcastObjectType": "EBroadcastObjectType::Global",
+      "IsRandom": true,
+      "RandomVoiceIds": [
+        22125077,
+        22125078,
+        22125079
+      ],
+      "CoolDownTime": 10.0,
+      "DelayPlayTime": 0.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::None"
+      ],
+      "RoleId": 125,
+      "IsCheckTeamType": false,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [],
+      "TargetRoleId": 0,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122101007_Desc",
+        "SourceString": "释放大招(3句随机）",
+        "LocalizedString": "释放大招(3句随机）"
+      }
+    },
+    "122125008": {
+      "Id": 122125008,
+      "GameplayTag": {
+        "TagName": "UIEvent.NotActive.Skill.X"
+      },
+      "VoiceId": 22125080,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::Normal",
+      "BroadcastObjectType": "EBroadcastObjectType::Self",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 10.0,
+      "DelayPlayTime": 0.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::None"
+      ],
+      "RoleId": 125,
+      "IsCheckTeamType": false,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [],
+      "TargetRoleId": 0,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122101008_Desc",
+        "SourceString": "大招无法使用时",
+        "LocalizedString": "大招无法使用时"
+      }
+    },
+    "122125009": {
+      "Id": 122125009,
+      "GameplayTag": {
+        "TagName": "UIEvent.Consume.Grenade.Normal"
+      },
+      "VoiceId": 22125090,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::Normal",
+      "BroadcastObjectType": "EBroadcastObjectType::Teammate",
+      "IsRandom": true,
+      "RandomVoiceIds": [
+        22125090
+      ],
+      "CoolDownTime": 10.0,
+      "DelayPlayTime": 0.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::None"
+      ],
+      "RoleId": 125,
+      "IsCheckTeamType": false,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [],
+      "TargetRoleId": 0,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122101009_Desc",
+        "SourceString": "使用手雷(5句随机）",
+        "LocalizedString": "使用手雷(5句随机）"
+      }
+    },
+    "122125010": {
+      "Id": 122125010,
+      "GameplayTag": {
+        "TagName": "UIEvent.Consume.Grenade.Interceptor"
+      },
+      "VoiceId": 22125091,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::Normal",
+      "BroadcastObjectType": "EBroadcastObjectType::Teammate",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 10.0,
+      "DelayPlayTime": 0.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::None"
+      ],
+      "RoleId": 125,
+      "IsCheckTeamType": false,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [],
+      "TargetRoleId": 0,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122101010_Desc",
+        "SourceString": "使用主动防御机",
+        "LocalizedString": "使用主动防御机"
+      }
+    },
+    "122125011": {
+      "Id": 122125011,
+      "GameplayTag": {
+        "TagName": "UIEvent.Consume.Grenade.Smoke"
+      },
+      "VoiceId": 22125092,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::Normal",
+      "BroadcastObjectType": "EBroadcastObjectType::Teammate",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 10.0,
+      "DelayPlayTime": 0.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::None"
+      ],
+      "RoleId": 125,
+      "IsCheckTeamType": false,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [],
+      "TargetRoleId": 0,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122101011_Desc",
+        "SourceString": "使用烟雾弹",
+        "LocalizedString": "使用烟雾弹"
+      }
+    },
+    "122125012": {
+      "Id": 122125012,
+      "GameplayTag": {
+        "TagName": "UIEvent.Consume.Grenade.Flash"
+      },
+      "VoiceId": 22125093,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::Normal",
+      "BroadcastObjectType": "EBroadcastObjectType::Teammate",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 10.0,
+      "DelayPlayTime": 0.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::None"
+      ],
+      "RoleId": 125,
+      "IsCheckTeamType": false,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [],
+      "TargetRoleId": 0,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122101012_Desc",
+        "SourceString": "使用闪光弹",
+        "LocalizedString": "使用闪光弹"
+      }
+    },
+    "122125013": {
+      "Id": 122125013,
+      "GameplayTag": {
+        "TagName": "UIEvent.Consume.Grenade.Treatment"
+      },
+      "VoiceId": 22125094,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::Normal",
+      "BroadcastObjectType": "EBroadcastObjectType::Teammate",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 10.0,
+      "DelayPlayTime": 0.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::None"
+      ],
+      "RoleId": 125,
+      "IsCheckTeamType": false,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [],
+      "TargetRoleId": 0,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122101013_Desc",
+        "SourceString": "使用回血包",
+        "LocalizedString": "使用回血包"
+      }
+    },
+    "122125014": {
+      "Id": 122125014,
+      "GameplayTag": {
+        "TagName": "UIEvent.Consume.Grenade.WindField"
+      },
+      "VoiceId": 22125095,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::Normal",
+      "BroadcastObjectType": "EBroadcastObjectType::Teammate",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 10.0,
+      "DelayPlayTime": 0.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::None"
+      ],
+      "RoleId": 125,
+      "IsCheckTeamType": false,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [],
+      "TargetRoleId": 0,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122101014_Desc",
+        "SourceString": "使用风场雷",
+        "LocalizedString": "使用风场雷"
+      }
+    },
+    "122125015": {
+      "Id": 122125015,
+      "GameplayTag": {
+        "TagName": "UIEvent.Consume.Grenade.SlowDown"
+      },
+      "VoiceId": 22125096,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::Normal",
+      "BroadcastObjectType": "EBroadcastObjectType::Teammate",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 10.0,
+      "DelayPlayTime": 0.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::None"
+      ],
+      "RoleId": 125,
+      "IsCheckTeamType": false,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [],
+      "TargetRoleId": 0,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122101015_Desc",
+        "SourceString": "使用胶水雷",
+        "LocalizedString": "使用胶水雷"
+      }
+    },
+    "122125016": {
+      "Id": 122125016,
+      "GameplayTag": {
+        "TagName": "UIEvent.Consume.Grenade.Alarm"
+      },
+      "VoiceId": 22125097,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::Normal",
+      "BroadcastObjectType": "EBroadcastObjectType::Teammate",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 10.0,
+      "DelayPlayTime": 0.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::None"
+      ],
+      "RoleId": 125,
+      "IsCheckTeamType": false,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [],
+      "TargetRoleId": 0,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122101016_Desc",
+        "SourceString": "布置报警器",
+        "LocalizedString": "布置报警器"
+      }
+    },
+    "122125017": {
+      "Id": 122125017,
+      "GameplayTag": {
+        "TagName": "UIEvent.MarkPoint.DangerSignal"
+      },
+      "VoiceId": 22125098,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::Normal",
+      "BroadcastObjectType": "EBroadcastObjectType::Teammate",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 10.0,
+      "DelayPlayTime": 0.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::None"
+      ],
+      "RoleId": 125,
+      "IsCheckTeamType": false,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [],
+      "TargetRoleId": 0,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122101017_Desc",
+        "SourceString": "危险信号",
+        "LocalizedString": "危险信号"
+      }
+    },
+    "122125018": {
+      "Id": 122125018,
+      "GameplayTag": {
+        "TagName": "UIEvent.MarkPoint.GuardHere"
+      },
+      "VoiceId": 22125099,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::Normal",
+      "BroadcastObjectType": "EBroadcastObjectType::Teammate",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 10.0,
+      "DelayPlayTime": 0.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::None"
+      ],
+      "RoleId": 125,
+      "IsCheckTeamType": false,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [],
+      "TargetRoleId": 0,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122101018_Desc",
+        "SourceString": "我守这里",
+        "LocalizedString": "我守这里"
+      }
+    },
+    "122125019": {
+      "Id": 122125019,
+      "GameplayTag": {
+        "TagName": "UIEvent.MarkPoint.NeedHelp"
+      },
+      "VoiceId": 22125100,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::Normal",
+      "BroadcastObjectType": "EBroadcastObjectType::Teammate",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 10.0,
+      "DelayPlayTime": 0.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::None"
+      ],
+      "RoleId": 125,
+      "IsCheckTeamType": false,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [],
+      "TargetRoleId": 0,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122101019_Desc",
+        "SourceString": "需要支援",
+        "LocalizedString": "需要支援"
+      }
+    },
+    "122125020": {
+      "Id": 122125020,
+      "GameplayTag": {
+        "TagName": "UIEvent.MarkPoint.AttackHere"
+      },
+      "VoiceId": 22125101,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::Normal",
+      "BroadcastObjectType": "EBroadcastObjectType::Teammate",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 10.0,
+      "DelayPlayTime": 0.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::None"
+      ],
+      "RoleId": 125,
+      "IsCheckTeamType": false,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [],
+      "TargetRoleId": 0,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122101020_Desc",
+        "SourceString": "进攻这里",
+        "LocalizedString": "进攻这里"
+      }
+    },
+    "122125021": {
+      "Id": 122125021,
+      "GameplayTag": {
+        "TagName": "UIEvent.MarkPoint.BeCarefulHere"
+      },
+      "VoiceId": 22125102,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::Normal",
+      "BroadcastObjectType": "EBroadcastObjectType::Teammate",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 10.0,
+      "DelayPlayTime": 0.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::None"
+      ],
+      "RoleId": 125,
+      "IsCheckTeamType": false,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [],
+      "TargetRoleId": 0,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122101021_Desc",
+        "SourceString": "常规标记（注意此地）",
+        "LocalizedString": "常规标记（注意此地）"
+      }
+    },
+    "122125022": {
+      "Id": 122125022,
+      "GameplayTag": {
+        "TagName": "UIEvent.MarkPoint.FindC4"
+      },
+      "VoiceId": 22125104,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::Normal",
+      "BroadcastObjectType": "EBroadcastObjectType::Teammate",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 10.0,
+      "DelayPlayTime": 0.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::Bomb"
+      ],
+      "RoleId": 125,
+      "IsCheckTeamType": false,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [],
+      "TargetRoleId": 0,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122101022_Desc",
+        "SourceString": "标记炸弹，即安装包",
+        "LocalizedString": "标记炸弹，即安装包"
+      }
+    },
+    "122125023": {
+      "Id": 122125023,
+      "GameplayTag": {
+        "TagName": "UIEvent.TakeDamage"
+      },
+      "VoiceId": 22125108,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::Normal",
+      "BroadcastObjectType": "EBroadcastObjectType::Self",
+      "IsRandom": true,
+      "RandomVoiceIds": [
+        22125108
+      ],
+      "CoolDownTime": 10.0,
+      "DelayPlayTime": 0.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::None"
+      ],
+      "RoleId": 125,
+      "IsCheckTeamType": false,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [],
+      "TargetRoleId": 0,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122101023_Desc",
+        "SourceString": "受击时发出叫声(5句随机）",
+        "LocalizedString": "受击时发出叫声(5句随机）"
+      }
+    },
+    "122125024": {
+      "Id": 122125024,
+      "GameplayTag": {
+        "TagName": "Event.Kill"
+      },
+      "VoiceId": 22125109,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::Normal",
+      "BroadcastObjectType": "EBroadcastObjectType::Teammate",
+      "IsRandom": true,
+      "RandomVoiceIds": [
+        22125109,
+        22125110,
+        22125111,
+        22125112,
+        22125113,
+        22125114
+      ],
+      "CoolDownTime": 10.0,
+      "DelayPlayTime": 1.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::None"
+      ],
+      "RoleId": 125,
+      "IsCheckTeamType": false,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [],
+      "TargetRoleId": 0,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122101024_Desc",
+        "SourceString": "击杀敌方角色（6句随机）",
+        "LocalizedString": "击杀敌方角色（6句随机）"
+      }
+    },
+    "122125025": {
+      "Id": 122125025,
+      "GameplayTag": {
+        "TagName": "UIEvent.ConsecutiveKill.Two"
+      },
+      "VoiceId": 22125115,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::Normal",
+      "BroadcastObjectType": "EBroadcastObjectType::Teammate",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 10.0,
+      "DelayPlayTime": 1.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::None"
+      ],
+      "RoleId": 125,
+      "IsCheckTeamType": false,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [],
+      "TargetRoleId": 0,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122101025_Desc",
+        "SourceString": "双杀",
+        "LocalizedString": "双杀"
+      }
+    },
+    "122125026": {
+      "Id": 122125026,
+      "GameplayTag": {
+        "TagName": "UIEvent.ConsecutiveKill.Three"
+      },
+      "VoiceId": 22125116,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::Normal",
+      "BroadcastObjectType": "EBroadcastObjectType::Teammate",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 10.0,
+      "DelayPlayTime": 1.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::None"
+      ],
+      "RoleId": 125,
+      "IsCheckTeamType": false,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [],
+      "TargetRoleId": 0,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122101026_Desc",
+        "SourceString": "三杀",
+        "LocalizedString": "三杀"
+      }
+    },
+    "122125027": {
+      "Id": 122125027,
+      "GameplayTag": {
+        "TagName": "UIEvent.ConsecutiveKill.Four"
+      },
+      "VoiceId": 22125117,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::Normal",
+      "BroadcastObjectType": "EBroadcastObjectType::Teammate",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 10.0,
+      "DelayPlayTime": 1.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::None"
+      ],
+      "RoleId": 125,
+      "IsCheckTeamType": false,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [],
+      "TargetRoleId": 0,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122101027_Desc",
+        "SourceString": "四杀",
+        "LocalizedString": "四杀"
+      }
+    },
+    "122125028": {
+      "Id": 122125028,
+      "GameplayTag": {
+        "TagName": "UIEvent.ConsecutiveKill.Five"
+      },
+      "VoiceId": 22125118,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::Normal",
+      "BroadcastObjectType": "EBroadcastObjectType::Global",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 30.0,
+      "DelayPlayTime": 2.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::None"
+      ],
+      "RoleId": 125,
+      "IsCheckTeamType": false,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [],
+      "TargetRoleId": 0,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122101028_Desc",
+        "SourceString": "五杀",
+        "LocalizedString": "五杀"
+      }
+    },
+    "122125029": {
+      "Id": 122125029,
+      "GameplayTag": {
+        "TagName": "UIEvent.ConsecutiveKill.Six"
+      },
+      "VoiceId": 22125119,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::Normal",
+      "BroadcastObjectType": "EBroadcastObjectType::Global",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 30.0,
+      "DelayPlayTime": 2.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::None"
+      ],
+      "RoleId": 125,
+      "IsCheckTeamType": false,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [],
+      "TargetRoleId": 0,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122101029_Desc",
+        "SourceString": "超神",
+        "LocalizedString": "超神"
+      }
+    },
+    "122125030": {
+      "Id": 122125030,
+      "GameplayTag": {
+        "TagName": "UIEvent.Game.Revenge"
+      },
+      "VoiceId": 22125120,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::Normal",
+      "BroadcastObjectType": "EBroadcastObjectType::Teammate",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 10.0,
+      "DelayPlayTime": 0.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::None"
+      ],
+      "RoleId": 125,
+      "IsCheckTeamType": false,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [],
+      "TargetRoleId": 0,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122101030_Desc",
+        "SourceString": "复仇",
+        "LocalizedString": "复仇"
+      }
+    },
+    "122125031": {
+      "Id": 122125031,
+      "GameplayTag": {
+        "TagName": "UIEvent.OtherDeath"
+      },
+      "VoiceId": 22125121,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::Normal",
+      "BroadcastObjectType": "EBroadcastObjectType::Global",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 10.0,
+      "DelayPlayTime": 0.0,
+      "IsDeathNormalPlay": true,
+      "GameModeTypeList": [
+        "EPMGameModeType::None"
+      ],
+      "RoleId": 125,
+      "IsCheckTeamType": false,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [],
+      "TargetRoleId": 0,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122101031_Desc",
+        "SourceString": "被击杀播出",
+        "LocalizedString": "被击杀播出"
+      }
+    },
+    "122125032": {
+      "Id": 122125032,
+      "GameplayTag": {
+        "TagName": "UIEvent.Death.Injured.TimeOver"
+      },
+      "VoiceId": 22125122,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::Normal",
+      "BroadcastObjectType": "EBroadcastObjectType::Global",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 10.0,
+      "DelayPlayTime": 0.0,
+      "IsDeathNormalPlay": true,
+      "GameModeTypeList": [
+        "EPMGameModeType::Bomb"
+      ],
+      "RoleId": 125,
+      "IsCheckTeamType": false,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [],
+      "TargetRoleId": 0,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122101032_Desc",
+        "SourceString": "倒地时间结束后死亡",
+        "LocalizedString": "倒地时间结束后死亡"
+      }
+    },
+    "122125033": {
+      "Id": 122125033,
+      "GameplayTag": {
+        "TagName": "UIEvent.Death.Melee.Blade"
+      },
+      "VoiceId": 22125123,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::Normal",
+      "BroadcastObjectType": "EBroadcastObjectType::Global",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 10.0,
+      "DelayPlayTime": 0.0,
+      "IsDeathNormalPlay": true,
+      "GameModeTypeList": [
+        "EPMGameModeType::None"
+      ],
+      "RoleId": 125,
+      "IsCheckTeamType": false,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [],
+      "TargetRoleId": 0,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122101033_Desc",
+        "SourceString": "被武士刀击杀",
+        "LocalizedString": "被武士刀击杀"
+      }
+    },
+    "122125034": {
+      "Id": 122125034,
+      "GameplayTag": {
+        "TagName": "UIEvent.Death.DangerZone"
+      },
+      "VoiceId": 22125124,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::Normal",
+      "BroadcastObjectType": "EBroadcastObjectType::Global",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 10.0,
+      "DelayPlayTime": 0.0,
+      "IsDeathNormalPlay": true,
+      "GameModeTypeList": [
+        "EPMGameModeType::None"
+      ],
+      "RoleId": 125,
+      "IsCheckTeamType": false,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [],
+      "TargetRoleId": 0,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122101034_Desc",
+        "SourceString": "危险区域死亡",
+        "LocalizedString": "危险区域死亡"
+      }
+    },
+    "122125035": {
+      "Id": 122125035,
+      "GameplayTag": {
+        "TagName": "UIEvent.Death.Falling"
+      },
+      "VoiceId": 22125125,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::Normal",
+      "BroadcastObjectType": "EBroadcastObjectType::Global",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 10.0,
+      "DelayPlayTime": 0.0,
+      "IsDeathNormalPlay": true,
+      "GameModeTypeList": [
+        "EPMGameModeType::None"
+      ],
+      "RoleId": 125,
+      "IsCheckTeamType": false,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [],
+      "TargetRoleId": 0,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122101035_Desc",
+        "SourceString": "摔在地上死亡",
+        "LocalizedString": "摔在地上死亡"
+      }
+    },
+    "122125036": {
+      "Id": 122125036,
+      "GameplayTag": {
+        "TagName": "UIEvent.Injured.Enemy"
+      },
+      "VoiceId": 22125126,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::Normal",
+      "BroadcastObjectType": "EBroadcastObjectType::Teammate",
+      "IsRandom": true,
+      "RandomVoiceIds": [
+        22125126,
+        22125500,
+        22125501
+      ],
+      "CoolDownTime": 10.0,
+      "DelayPlayTime": 1.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::Bomb"
+      ],
+      "RoleId": 125,
+      "IsCheckTeamType": false,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [],
+      "TargetRoleId": 0,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122101036_Desc",
+        "SourceString": "将敌方角色击倒在地",
+        "LocalizedString": "将敌方角色击倒在地"
+      }
+    },
+    "122125037": {
+      "Id": 122125037,
+      "GameplayTag": {
+        "TagName": "UIEvent.Injured.Self"
+      },
+      "VoiceId": 22125127,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::Normal",
+      "BroadcastObjectType": "EBroadcastObjectType::Teammate",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 10.0,
+      "DelayPlayTime": 0.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::Bomb"
+      ],
+      "RoleId": 125,
+      "IsCheckTeamType": false,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [],
+      "TargetRoleId": 0,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122101037_Desc",
+        "SourceString": "自己被击倒",
+        "LocalizedString": "自己被击倒"
+      }
+    },
+    "122125038": {
+      "Id": 122125038,
+      "GameplayTag": {
+        "TagName": "UIEvent.Help.Ask"
+      },
+      "VoiceId": 22125128,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::Normal",
+      "BroadcastObjectType": "EBroadcastObjectType::Teammate",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 10.0,
+      "DelayPlayTime": 0.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::Bomb"
+      ],
+      "RoleId": 125,
+      "IsCheckTeamType": false,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [],
+      "TargetRoleId": 0,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122101038_Desc",
+        "SourceString": "倒地之后向队友发出求救",
+        "LocalizedString": "倒地之后向队友发出求救"
+      }
+    },
+    "122125039": {
+      "Id": 122125039,
+      "GameplayTag": {
+        "TagName": "UIEvent.Rescue.Start"
+      },
+      "VoiceId": 22125129,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::Normal",
+      "BroadcastObjectType": "EBroadcastObjectType::Teammate",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 10.0,
+      "DelayPlayTime": 0.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::Bomb"
+      ],
+      "RoleId": 125,
+      "IsCheckTeamType": false,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [],
+      "TargetRoleId": 0,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122101039_Desc",
+        "SourceString": "释放扶人装置，将队友扶起",
+        "LocalizedString": "释放扶人装置，将队友扶起"
+      }
+    },
+    "122125040": {
+      "Id": 122125040,
+      "GameplayTag": {
+        "TagName": "UIEvent.BeRescued.Success"
+      },
+      "VoiceId": 22125130,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::Normal",
+      "BroadcastObjectType": "EBroadcastObjectType::Teammate",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 10.0,
+      "DelayPlayTime": 0.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::Bomb"
+      ],
+      "RoleId": 125,
+      "IsCheckTeamType": false,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [],
+      "TargetRoleId": 0,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122101040_Desc",
+        "SourceString": "被队友扶起",
+        "LocalizedString": "被队友扶起"
+      }
+    },
+    "122125041": {
+      "Id": 122125041,
+      "GameplayTag": {
+        "TagName": "UIEvent.Game.Install.C4.Begin"
+      },
+      "VoiceId": 22125131,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::Normal",
+      "BroadcastObjectType": "EBroadcastObjectType::Teammate",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 10.0,
+      "DelayPlayTime": 0.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::Bomb"
+      ],
+      "RoleId": 125,
+      "IsCheckTeamType": false,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [],
+      "TargetRoleId": 0,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122101041_Desc",
+        "SourceString": "安装炸弹",
+        "LocalizedString": "安装炸弹"
+      }
+    },
+    "122125042": {
+      "Id": 122125042,
+      "GameplayTag": {
+        "TagName": "UIEvent.Game.Pickup.C4"
+      },
+      "VoiceId": 22125132,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::Normal",
+      "BroadcastObjectType": "EBroadcastObjectType::Teammate",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 10.0,
+      "DelayPlayTime": 0.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::Bomb"
+      ],
+      "RoleId": 125,
+      "IsCheckTeamType": false,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [],
+      "TargetRoleId": 0,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122101042_Desc",
+        "SourceString": "捡起地上的炸弹",
+        "LocalizedString": "捡起地上的炸弹"
+      }
+    },
+    "122125043": {
+      "Id": 122125043,
+      "GameplayTag": {
+        "TagName": "UIEvent.Game.Dismantle.C4.Begin"
+      },
+      "VoiceId": 22125133,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::Normal",
+      "BroadcastObjectType": "EBroadcastObjectType::Teammate",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 10.0,
+      "DelayPlayTime": 0.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::Bomb"
+      ],
+      "RoleId": 125,
+      "IsCheckTeamType": false,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [],
+      "TargetRoleId": 0,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122101043_Desc",
+        "SourceString": "开始拆除炸弹",
+        "LocalizedString": "开始拆除炸弹"
+      }
+    },
+    "122125044": {
+      "Id": 122125044,
+      "GameplayTag": {
+        "TagName": "UIEvent.Game.Drop.C4"
+      },
+      "VoiceId": 22125134,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::Normal",
+      "BroadcastObjectType": "EBroadcastObjectType::Teammate",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 10.0,
+      "DelayPlayTime": 0.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::Bomb"
+      ],
+      "RoleId": 125,
+      "IsCheckTeamType": false,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [],
+      "TargetRoleId": 0,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122101044_Desc",
+        "SourceString": "丢弃身上的炸弹",
+        "LocalizedString": "丢弃身上的炸弹"
+      }
+    },
+    "122125045": {
+      "Id": 122125045,
+      "GameplayTag": {
+        "TagName": "UIEvent.Game.Found.C4.Installed"
+      },
+      "VoiceId": 22125135,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::Normal",
+      "BroadcastObjectType": "EBroadcastObjectType::Teammate",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 10.0,
+      "DelayPlayTime": 0.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::Bomb"
+      ],
+      "RoleId": 125,
+      "IsCheckTeamType": false,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [],
+      "TargetRoleId": 0,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122101045_Desc",
+        "SourceString": "发现炸弹安装在这里",
+        "LocalizedString": "发现炸弹安装在这里"
+      }
+    },
+    "122125046": {
+      "Id": 122125046,
+      "GameplayTag": {
+        "TagName": "UIEvent.MeshType.2D.Fly"
+      },
+      "VoiceId": 22125136,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::Normal",
+      "BroadcastObjectType": "EBroadcastObjectType::Self",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 150.0,
+      "DelayPlayTime": 0.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::None"
+      ],
+      "RoleId": 125,
+      "IsCheckTeamType": false,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [],
+      "TargetRoleId": 0,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122101046_Desc",
+        "SourceString": "飞行状态播出",
+        "LocalizedString": "飞行状态播出"
+      }
+    },
+    "122125047": {
+      "Id": 122125047,
+      "GameplayTag": {
+        "TagName": "UIEvent.Game.Over.Fail"
+      },
+      "VoiceId": 22125137,
+      "TotalType": "EInsideVoiceBigType::System",
+      "InsideVoiceType": "EInsideVoiceType::Normal",
+      "BroadcastObjectType": "EBroadcastObjectType::Self",
+      "IsRandom": true,
+      "RandomVoiceIds": [
+        22125137,
+        22125164,
+        22125165
+      ],
+      "CoolDownTime": 10.0,
+      "DelayPlayTime": 2.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::None"
+      ],
+      "RoleId": 125,
+      "IsCheckTeamType": false,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [],
+      "TargetRoleId": 0,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122101047_Desc",
+        "SourceString": "对局失败的时候",
+        "LocalizedString": "对局失败的时候"
+      }
+    },
+    "122125048": {
+      "Id": 122125048,
+      "GameplayTag": {
+        "TagName": "UIEvent.Game.Over.Win"
+      },
+      "VoiceId": 22125138,
+      "TotalType": "EInsideVoiceBigType::System",
+      "InsideVoiceType": "EInsideVoiceType::Normal",
+      "BroadcastObjectType": "EBroadcastObjectType::Self",
+      "IsRandom": true,
+      "RandomVoiceIds": [
+        22125138,
+        22125162,
+        22125163
+      ],
+      "CoolDownTime": 10.0,
+      "DelayPlayTime": 2.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::None"
+      ],
+      "RoleId": 125,
+      "IsCheckTeamType": false,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [],
+      "TargetRoleId": 0,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122101048_Desc",
+        "SourceString": "对局胜利的时候",
+        "LocalizedString": "对局胜利的时候"
+      }
+    },
+    "122125049": {
+      "Id": 122125049,
+      "GameplayTag": {
+        "TagName": "UIEvent.Game.Over.SVP"
+      },
+      "VoiceId": 22125139,
+      "TotalType": "EInsideVoiceBigType::System",
+      "InsideVoiceType": "EInsideVoiceType::Normal",
+      "BroadcastObjectType": "EBroadcastObjectType::Self",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 10.0,
+      "DelayPlayTime": 2.0,
+      "IsDeathNormalPlay": true,
+      "GameModeTypeList": [
+        "EPMGameModeType::None"
+      ],
+      "RoleId": 125,
+      "IsCheckTeamType": false,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [],
+      "TargetRoleId": 0,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122101049_Desc",
+        "SourceString": "对局失败，且为SVP的时候",
+        "LocalizedString": "对局失败，且为SVP的时候"
+      }
+    },
+    "122125050": {
+      "Id": 122125050,
+      "GameplayTag": {
+        "TagName": "UIEvent.Game.Over.MVP"
+      },
+      "VoiceId": 22125140,
+      "TotalType": "EInsideVoiceBigType::System",
+      "InsideVoiceType": "EInsideVoiceType::Normal",
+      "BroadcastObjectType": "EBroadcastObjectType::Self",
+      "IsRandom": true,
+      "RandomVoiceIds": [
+        22125140,
+        22125166
+      ],
+      "CoolDownTime": 10.0,
+      "DelayPlayTime": 2.0,
+      "IsDeathNormalPlay": true,
+      "GameModeTypeList": [
+        "EPMGameModeType::None"
+      ],
+      "RoleId": 125,
+      "IsCheckTeamType": false,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [],
+      "TargetRoleId": 0,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122101050_Desc",
+        "SourceString": "对局胜利，且为MVP的时候",
+        "LocalizedString": "对局胜利，且为MVP的时候"
+      }
+    },
+    "122125051": {
+      "Id": 122125051,
+      "GameplayTag": {
+        "TagName": "UIEvent.Game.Remain.One.Self"
+      },
+      "VoiceId": 22125141,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::EasterEggTwo",
+      "BroadcastObjectType": "EBroadcastObjectType::Teammate",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 10.0,
+      "DelayPlayTime": 2.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::Bomb"
+      ],
+      "RoleId": 125,
+      "IsCheckTeamType": true,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [
+        125
+      ],
+      "TargetRoleId": 125,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122120051_Desc",
+        "SourceString": "局内彩蛋1：最后存活",
+        "LocalizedString": "局内彩蛋1：最后存活"
+      }
+    },
+    "122125052": {
+      "Id": 122125052,
+      "GameplayTag": {
+        "TagName": "Event.Kill"
+      },
+      "VoiceId": 22125142,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::EasterEggTwo",
+      "BroadcastObjectType": "EBroadcastObjectType::Teammate",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 10.0,
+      "DelayPlayTime": 0.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::Bomb"
+      ],
+      "RoleId": 125,
+      "IsCheckTeamType": true,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [
+        125
+      ],
+      "TargetRoleId": 125,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122120052_Desc",
+        "SourceString": "局内彩蛋2：自己首杀",
+        "LocalizedString": "局内彩蛋2：自己首杀"
+      }
+    },
+    "122125053": {
+      "Id": 122125053,
+      "GameplayTag": {
+        "TagName": "UIEvent.Game.RoundReady.Encourage"
+      },
+      "VoiceId": 22125143,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::EasterEggThree",
+      "BroadcastObjectType": "EBroadcastObjectType::SelfAndTeammate",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 10.0,
+      "DelayPlayTime": 10.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::Bomb"
+      ],
+      "RoleId": 125,
+      "IsCheckTeamType": true,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [
+        125
+      ],
+      "TargetRoleId": 125,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122120053_Desc",
+        "SourceString": "局内彩蛋3：大比分落后",
+        "LocalizedString": "局内彩蛋3：大比分落后"
+      }
+    },
+    "122125054": {
+      "Id": 122125054,
+      "GameplayTag": {
+        "TagName": "Event.Death"
+      },
+      "VoiceId": 22125144,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::EasterEggTwo",
+      "BroadcastObjectType": "EBroadcastObjectType::Teammate",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 10.0,
+      "DelayPlayTime": 0.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::Bomb"
+      ],
+      "RoleId": 125,
+      "IsCheckTeamType": true,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [
+        125
+      ],
+      "TargetRoleId": 125,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122120054_Desc",
+        "SourceString": "局内彩蛋4：自己被首杀",
+        "LocalizedString": "局内彩蛋4：自己被首杀"
+      }
+    },
+    "122125055": {
+      "Id": 122125055,
+      "GameplayTag": {
+        "TagName": "UIEvent.Game.Dismantle.C4.End"
+      },
+      "VoiceId": 22125145,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::EasterEggTwo",
+      "BroadcastObjectType": "EBroadcastObjectType::SelfAndTeammate",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 10.0,
+      "DelayPlayTime": 0.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::Bomb"
+      ],
+      "RoleId": 125,
+      "IsCheckTeamType": true,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [
+        101,
+        125
+      ],
+      "TargetRoleId": 101,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122125055_Desc",
+        "SourceString": "局内彩蛋5：队友拆弹——米雪儿",
+        "LocalizedString": "局内彩蛋5：队友拆弹——米雪儿"
+      }
+    },
+    "122125056": {
+      "Id": 122125056,
+      "GameplayTag": {
+        "TagName": "Event.Kill"
+      },
+      "VoiceId": 22125146,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::EasterEggTwo",
+      "BroadcastObjectType": "EBroadcastObjectType::SelfAndTeammate",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 10.0,
+      "DelayPlayTime": 1.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::Bomb"
+      ],
+      "RoleId": 125,
+      "IsCheckTeamType": true,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [
+        124,
+        125
+      ],
+      "TargetRoleId": 124,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122125056_Desc",
+        "SourceString": "局内彩蛋6：队友击杀互动——心夏",
+        "LocalizedString": "局内彩蛋6：队友击杀互动——心夏"
+      }
+    },
+    "122125057": {
+      "Id": 122125057,
+      "GameplayTag": {
+        "TagName": "Event.Kill"
+      },
+      "VoiceId": 22125147,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::EasterEggTwo",
+      "BroadcastObjectType": "EBroadcastObjectType::SelfAndTeammate",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 10.0,
+      "DelayPlayTime": 1.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::Bomb"
+      ],
+      "RoleId": 125,
+      "IsCheckTeamType": true,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [
+        115,
+        125
+      ],
+      "TargetRoleId": 115,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122125057_Desc",
+        "SourceString": "局内彩蛋7：队友击杀互动——芙拉薇娅",
+        "LocalizedString": "局内彩蛋7：队友击杀互动——芙拉薇娅"
+      }
+    },
+    "122125058": {
+      "Id": 122125058,
+      "GameplayTag": {
+        "TagName": "Event.Kill"
+      },
+      "VoiceId": 22125148,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::EasterEggOne",
+      "BroadcastObjectType": "EBroadcastObjectType::SelfAndEnemy",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 10.0,
+      "DelayPlayTime": 1.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::Bomb"
+      ],
+      "RoleId": 125,
+      "IsCheckTeamType": true,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [
+        125,
+        128
+      ],
+      "TargetRoleId": 125,
+      "InstigatorRoleId": 128,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122125058_Desc",
+        "SourceString": "局内彩蛋8：特殊击杀互动——击杀拉薇",
+        "LocalizedString": "局内彩蛋8：特殊击杀互动——击杀拉薇"
+      }
+    },
+    "122125059": {
+      "Id": 122125059,
+      "GameplayTag": {
+        "TagName": "Event.Death"
+      },
+      "VoiceId": 22125149,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::EasterEggOne",
+      "BroadcastObjectType": "EBroadcastObjectType::SelfAndEnemy",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 10.0,
+      "DelayPlayTime": 0.0,
+      "IsDeathNormalPlay": true,
+      "GameModeTypeList": [
+        "EPMGameModeType::Bomb"
+      ],
+      "RoleId": 125,
+      "IsCheckTeamType": true,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [
+        125,
+        109
+      ],
+      "TargetRoleId": 125,
+      "InstigatorRoleId": 109,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122125059_Desc",
+        "SourceString": "局内彩蛋9：特殊被击杀互动——被令击杀",
+        "LocalizedString": "局内彩蛋9：特殊被击杀互动——被令击杀"
+      }
+    },
+    "122125060": {
+      "Id": 122125060,
+      "GameplayTag": {
+        "TagName": "Event.Kill"
+      },
+      "VoiceId": 22125150,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::EasterEggOne",
+      "BroadcastObjectType": "EBroadcastObjectType::SelfAndEnemy",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 10.0,
+      "DelayPlayTime": 0.0,
+      "IsDeathNormalPlay": true,
+      "GameModeTypeList": [
+        "EPMGameModeType::Bomb"
+      ],
+      "RoleId": 125,
+      "IsCheckTeamType": true,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [
+        125,
+        109
+      ],
+      "TargetRoleId": 125,
+      "InstigatorRoleId": 109,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122125060_Desc",
+        "SourceString": "局内彩蛋10：特殊击杀互动——击杀令",
+        "LocalizedString": "局内彩蛋10：特殊击杀互动——击杀令"
+      }
+    },
+    "122125061": {
+      "Id": 122125061,
+      "GameplayTag": {
+        "TagName": "UIEvent.Game.Remain.One.Self"
+      },
+      "VoiceId": 22125141,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::EasterEggTwo",
+      "BroadcastObjectType": "EBroadcastObjectType::Teammate",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 10.0,
+      "DelayPlayTime": 2.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::Bomb"
+      ],
+      "RoleId": 125,
+      "IsCheckTeamType": true,
+      "TeamType": "EPMTeamType::Defend",
+      "LookRoleIds": [
+        125
+      ],
+      "TargetRoleId": 125,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122120051_Desc",
+        "SourceString": "局内彩蛋1：最后存活",
+        "LocalizedString": "局内彩蛋1：最后存活"
+      }
+    },
+    "122125062": {
+      "Id": 122125062,
+      "GameplayTag": {
+        "TagName": "Event.Kill"
+      },
+      "VoiceId": 22125142,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::EasterEggTwo",
+      "BroadcastObjectType": "EBroadcastObjectType::Teammate",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 10.0,
+      "DelayPlayTime": 0.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::Bomb"
+      ],
+      "RoleId": 125,
+      "IsCheckTeamType": true,
+      "TeamType": "EPMTeamType::Defend",
+      "LookRoleIds": [
+        125
+      ],
+      "TargetRoleId": 125,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122120052_Desc",
+        "SourceString": "局内彩蛋2：自己首杀",
+        "LocalizedString": "局内彩蛋2：自己首杀"
+      }
+    },
+    "122125063": {
+      "Id": 122125063,
+      "GameplayTag": {
+        "TagName": "UIEvent.Game.RoundReady.Encourage"
+      },
+      "VoiceId": 22125143,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::EasterEggThree",
+      "BroadcastObjectType": "EBroadcastObjectType::SelfAndTeammate",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 10.0,
+      "DelayPlayTime": 10.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::Bomb"
+      ],
+      "RoleId": 125,
+      "IsCheckTeamType": true,
+      "TeamType": "EPMTeamType::Defend",
+      "LookRoleIds": [
+        125
+      ],
+      "TargetRoleId": 125,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122120053_Desc",
+        "SourceString": "局内彩蛋3：大比分落后",
+        "LocalizedString": "局内彩蛋3：大比分落后"
+      }
+    },
+    "122125064": {
+      "Id": 122125064,
+      "GameplayTag": {
+        "TagName": "Event.Death"
+      },
+      "VoiceId": 22125144,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::EasterEggTwo",
+      "BroadcastObjectType": "EBroadcastObjectType::Teammate",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 10.0,
+      "DelayPlayTime": 0.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::Bomb"
+      ],
+      "RoleId": 125,
+      "IsCheckTeamType": true,
+      "TeamType": "EPMTeamType::Defend",
+      "LookRoleIds": [
+        125
+      ],
+      "TargetRoleId": 125,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122120054_Desc",
+        "SourceString": "局内彩蛋4：自己被首杀",
+        "LocalizedString": "局内彩蛋4：自己被首杀"
+      }
+    },
+    "122125065": {
+      "Id": 122125065,
+      "GameplayTag": {
+        "TagName": "UIEvent.Game.Dismantle.C4.End"
+      },
+      "VoiceId": 22125145,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::EasterEggTwo",
+      "BroadcastObjectType": "EBroadcastObjectType::SelfAndTeammate",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 10.0,
+      "DelayPlayTime": 0.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::Bomb"
+      ],
+      "RoleId": 125,
+      "IsCheckTeamType": true,
+      "TeamType": "EPMTeamType::Defend",
+      "LookRoleIds": [
+        101,
+        125
+      ],
+      "TargetRoleId": 101,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122125055_Desc",
+        "SourceString": "局内彩蛋5：队友拆弹——米雪儿",
+        "LocalizedString": "局内彩蛋5：队友拆弹——米雪儿"
+      }
+    },
+    "122125066": {
+      "Id": 122125066,
+      "GameplayTag": {
+        "TagName": "Event.Kill"
+      },
+      "VoiceId": 22125146,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::EasterEggTwo",
+      "BroadcastObjectType": "EBroadcastObjectType::SelfAndTeammate",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 10.0,
+      "DelayPlayTime": 1.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::Bomb"
+      ],
+      "RoleId": 125,
+      "IsCheckTeamType": true,
+      "TeamType": "EPMTeamType::Defend",
+      "LookRoleIds": [
+        124,
+        125
+      ],
+      "TargetRoleId": 124,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122125056_Desc",
+        "SourceString": "局内彩蛋6：队友击杀互动——心夏",
+        "LocalizedString": "局内彩蛋6：队友击杀互动——心夏"
+      }
+    },
+    "122125067": {
+      "Id": 122125067,
+      "GameplayTag": {
+        "TagName": "Event.Kill"
+      },
+      "VoiceId": 22125147,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::EasterEggTwo",
+      "BroadcastObjectType": "EBroadcastObjectType::SelfAndTeammate",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 10.0,
+      "DelayPlayTime": 1.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::Bomb"
+      ],
+      "RoleId": 125,
+      "IsCheckTeamType": true,
+      "TeamType": "EPMTeamType::Defend",
+      "LookRoleIds": [
+        115,
+        125
+      ],
+      "TargetRoleId": 115,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122125057_Desc",
+        "SourceString": "局内彩蛋7：队友击杀互动——芙拉薇娅",
+        "LocalizedString": "局内彩蛋7：队友击杀互动——芙拉薇娅"
+      }
+    },
+    "122125068": {
+      "Id": 122125068,
+      "GameplayTag": {
+        "TagName": "Event.Kill"
+      },
+      "VoiceId": 22125148,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::EasterEggOne",
+      "BroadcastObjectType": "EBroadcastObjectType::SelfAndEnemy",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 10.0,
+      "DelayPlayTime": 1.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::Bomb"
+      ],
+      "RoleId": 125,
+      "IsCheckTeamType": true,
+      "TeamType": "EPMTeamType::Defend",
+      "LookRoleIds": [
+        125,
+        128
+      ],
+      "TargetRoleId": 125,
+      "InstigatorRoleId": 128,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122125058_Desc",
+        "SourceString": "局内彩蛋8：特殊击杀互动——击杀拉薇",
+        "LocalizedString": "局内彩蛋8：特殊击杀互动——击杀拉薇"
+      }
+    },
+    "122125069": {
+      "Id": 122125069,
+      "GameplayTag": {
+        "TagName": "Event.Death"
+      },
+      "VoiceId": 22125149,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::EasterEggOne",
+      "BroadcastObjectType": "EBroadcastObjectType::SelfAndEnemy",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 10.0,
+      "DelayPlayTime": 0.0,
+      "IsDeathNormalPlay": true,
+      "GameModeTypeList": [
+        "EPMGameModeType::Bomb"
+      ],
+      "RoleId": 125,
+      "IsCheckTeamType": true,
+      "TeamType": "EPMTeamType::Defend",
+      "LookRoleIds": [
+        125,
+        109
+      ],
+      "TargetRoleId": 125,
+      "InstigatorRoleId": 109,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122125059_Desc",
+        "SourceString": "局内彩蛋9：特殊被击杀互动——被令击杀",
+        "LocalizedString": "局内彩蛋9：特殊被击杀互动——被令击杀"
+      }
+    },
+    "122125070": {
+      "Id": 122125070,
+      "GameplayTag": {
+        "TagName": "Event.Kill"
+      },
+      "VoiceId": 22125150,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::EasterEggOne",
+      "BroadcastObjectType": "EBroadcastObjectType::SelfAndEnemy",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 10.0,
+      "DelayPlayTime": 0.0,
+      "IsDeathNormalPlay": true,
+      "GameModeTypeList": [
+        "EPMGameModeType::Bomb"
+      ],
+      "RoleId": 125,
+      "IsCheckTeamType": true,
+      "TeamType": "EPMTeamType::Defend",
+      "LookRoleIds": [
+        125,
+        109
+      ],
+      "TargetRoleId": 125,
+      "InstigatorRoleId": 109,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122125060_Desc",
+        "SourceString": "局内彩蛋10：特殊击杀互动——击杀令",
+        "LocalizedString": "局内彩蛋10：特殊击杀互动——击杀令"
+      }
+    },
+    "122125500": {
+      "Id": 122125500,
+      "GameplayTag": {
+        "TagName": "UIEvent.AutoVoice.FindEnemy.Far"
+      },
+      "VoiceId": 22125502,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::Normal",
+      "BroadcastObjectType": "EBroadcastObjectType::Teammate",
+      "IsRandom": true,
+      "RandomVoiceIds": [
+        22125502,
+        22125503
+      ],
+      "CoolDownTime": 60.0,
+      "DelayPlayTime": 1.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::Bomb"
+      ],
+      "RoleId": 125,
+      "IsCheckTeamType": false,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [],
+      "TargetRoleId": 0,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122101500_Desc",
+        "SourceString": "远处（两人距离超过20米）发现敌人1",
+        "LocalizedString": "远处（两人距离超过20米）发现敌人1"
+      }
+    },
+    "122125501": {
+      "Id": 122125501,
+      "GameplayTag": {
+        "TagName": "UIEvent.AutoVoice.FindEnemy.Near"
+      },
+      "VoiceId": 22125504,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::Normal",
+      "BroadcastObjectType": "EBroadcastObjectType::Teammate",
+      "IsRandom": true,
+      "RandomVoiceIds": [
+        22125504,
+        22125505
+      ],
+      "CoolDownTime": 60.0,
+      "DelayPlayTime": 1.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::Bomb"
+      ],
+      "RoleId": 125,
+      "IsCheckTeamType": false,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [],
+      "TargetRoleId": 0,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122101501_Desc",
+        "SourceString": "近处（两人距离在20米内）发现敌人1",
+        "LocalizedString": "近处（两人距离在20米内）发现敌人1"
+      }
+    },
+    "122125502": {
+      "Id": 122125502,
+      "GameplayTag": {
+        "TagName": "UIEvent.AutoVoice.FindEnemy.Multi"
+      },
+      "VoiceId": 22125506,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::Normal",
+      "BroadcastObjectType": "EBroadcastObjectType::Teammate",
+      "IsRandom": true,
+      "RandomVoiceIds": [
+        22125506,
+        22125507
+      ],
+      "CoolDownTime": 60.0,
+      "DelayPlayTime": 1.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::Bomb"
+      ],
+      "RoleId": 125,
+      "IsCheckTeamType": false,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [],
+      "TargetRoleId": 0,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122101502_Desc",
+        "SourceString": "发现复数敌人1",
+        "LocalizedString": "发现复数敌人1"
+      }
+    },
+    "122125503": {
+      "Id": 122125503,
+      "GameplayTag": {
+        "TagName": "UIEvent.AutoVoice.CauseDamage.Begin"
+      },
+      "VoiceId": 22125508,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::Normal",
+      "BroadcastObjectType": "EBroadcastObjectType::Teammate",
+      "IsRandom": true,
+      "RandomVoiceIds": [
+        22125508,
+        22125509,
+        22125510
+      ],
+      "CoolDownTime": 50.0,
+      "DelayPlayTime": 1.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::Bomb"
+      ],
+      "RoleId": 125,
+      "IsCheckTeamType": false,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [],
+      "TargetRoleId": 0,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122101503_Desc",
+        "SourceString": "命中目标/正在与敌人交火1",
+        "LocalizedString": "命中目标/正在与敌人交火1"
+      }
+    },
+    "122125504": {
+      "Id": 122125504,
+      "GameplayTag": {
+        "TagName": "UIEvent.AutoVoice.CauseDamage.Multi"
+      },
+      "VoiceId": 22125511,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::Normal",
+      "BroadcastObjectType": "EBroadcastObjectType::Teammate",
+      "IsRandom": true,
+      "RandomVoiceIds": [
+        22125511,
+        22125512,
+        22125513
+      ],
+      "CoolDownTime": 5.0,
+      "DelayPlayTime": 0.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::Bomb"
+      ],
+      "RoleId": 125,
+      "IsCheckTeamType": false,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [],
+      "TargetRoleId": 0,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122101504_Desc",
+        "SourceString": "重创目标/已重伤敌人/大残一丝1",
+        "LocalizedString": "重创目标/已重伤敌人/大残一丝1"
+      }
+    },
+    "122125505": {
+      "Id": 122125505,
+      "GameplayTag": {
+        "TagName": "UIEvent.AutoVoice.BeingAttacked.Forward"
+      },
+      "VoiceId": 22125514,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::Normal",
+      "BroadcastObjectType": "EBroadcastObjectType::Teammate",
+      "IsRandom": true,
+      "RandomVoiceIds": [
+        22125514,
+        22125515
+      ],
+      "CoolDownTime": 40.0,
+      "DelayPlayTime": 0.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::Bomb"
+      ],
+      "RoleId": 125,
+      "IsCheckTeamType": false,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [],
+      "TargetRoleId": 0,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122101505_Desc",
+        "SourceString": "正在遭受攻击（正面90度受击/擦弹）/受到火力压制1",
+        "LocalizedString": "正在遭受攻击（正面90度受击/擦弹）/受到火力压制1"
+      }
+    },
+    "122125506": {
+      "Id": 122125506,
+      "GameplayTag": {
+        "TagName": "UIEvent.AutoVoice.BeingAttacked.Left"
+      },
+      "VoiceId": 22125516,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::Normal",
+      "BroadcastObjectType": "EBroadcastObjectType::Teammate",
+      "IsRandom": true,
+      "RandomVoiceIds": [
+        22125516,
+        22125517
+      ],
+      "CoolDownTime": 40.0,
+      "DelayPlayTime": 0.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::Bomb"
+      ],
+      "RoleId": 125,
+      "IsCheckTeamType": false,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [],
+      "TargetRoleId": 0,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122101506_Desc",
+        "SourceString": "左侧敌人在攻击我/左侧有敌人打中我了1",
+        "LocalizedString": "左侧敌人在攻击我/左侧有敌人打中我了1"
+      }
+    },
+    "122125507": {
+      "Id": 122125507,
+      "GameplayTag": {
+        "TagName": "UIEvent.AutoVoice.BeingAttacked.Right"
+      },
+      "VoiceId": 22125518,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::Normal",
+      "BroadcastObjectType": "EBroadcastObjectType::Teammate",
+      "IsRandom": true,
+      "RandomVoiceIds": [
+        22125518,
+        22125519
+      ],
+      "CoolDownTime": 40.0,
+      "DelayPlayTime": 0.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::Bomb"
+      ],
+      "RoleId": 125,
+      "IsCheckTeamType": false,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [],
+      "TargetRoleId": 0,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122101507_Desc",
+        "SourceString": "右侧敌人在攻击我/右侧有敌人打中我了1",
+        "LocalizedString": "右侧敌人在攻击我/右侧有敌人打中我了1"
+      }
+    },
+    "122125508": {
+      "Id": 122125508,
+      "GameplayTag": {
+        "TagName": "UIEvent.AutoVoice.BeingAttacked.Back"
+      },
+      "VoiceId": 22125520,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::Normal",
+      "BroadcastObjectType": "EBroadcastObjectType::Teammate",
+      "IsRandom": true,
+      "RandomVoiceIds": [
+        22125520,
+        22125521
+      ],
+      "CoolDownTime": 40.0,
+      "DelayPlayTime": 0.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::Bomb"
+      ],
+      "RoleId": 125,
+      "IsCheckTeamType": false,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [],
+      "TargetRoleId": 0,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122101508_Desc",
+        "SourceString": "受到来自后方的攻击/背后有人在打我1",
+        "LocalizedString": "受到来自后方的攻击/背后有人在打我1"
+      }
+    },
     "122101509": {
       "Id": 122101509,
       "GameplayTag": {
@@ -59543,6 +62560,36 @@
         "LocalizedString": "玛拉——警报器发现敌人"
       }
     },
+    "122125509": {
+      "Id": 122125509,
+      "GameplayTag": {
+        "TagName": "UIEvent.Grenade.Alarm.FindEnemy"
+      },
+      "VoiceId": 22125161,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::Normal",
+      "BroadcastObjectType": "EBroadcastObjectType::Teammate",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 40.0,
+      "DelayPlayTime": 0.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::None"
+      ],
+      "RoleId": 125,
+      "IsCheckTeamType": false,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [],
+      "TargetRoleId": 0,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122125509_Desc",
+        "SourceString": "千代——警报器发现敌人",
+        "LocalizedString": "千代——警报器发现敌人"
+      }
+    },
     "122999700": {
       "Id": 122999700,
       "GameplayTag": {
@@ -59554,7 +62601,7 @@
       "BroadcastObjectType": "EBroadcastObjectType::Teammate",
       "IsRandom": false,
       "RandomVoiceIds": [],
-      "CoolDownTime": 10.0,
+      "CoolDownTime": 2.0,
       "DelayPlayTime": 0.0,
       "IsDeathNormalPlay": false,
       "GameModeTypeList": [
@@ -59584,7 +62631,7 @@
       "BroadcastObjectType": "EBroadcastObjectType::Teammate",
       "IsRandom": false,
       "RandomVoiceIds": [],
-      "CoolDownTime": 10.0,
+      "CoolDownTime": 2.0,
       "DelayPlayTime": 0.0,
       "IsDeathNormalPlay": false,
       "GameModeTypeList": [
@@ -59593,9 +62640,7 @@
       "RoleId": 0,
       "IsCheckTeamType": false,
       "TeamType": "EPMTeamType::Attack",
-      "LookRoleIds": [
-        0
-      ],
+      "LookRoleIds": [],
       "TargetRoleId": 0,
       "InstigatorRoleId": 0,
       "Desc": {
@@ -59616,7 +62661,7 @@
       "BroadcastObjectType": "EBroadcastObjectType::Teammate",
       "IsRandom": false,
       "RandomVoiceIds": [],
-      "CoolDownTime": 10.0,
+      "CoolDownTime": 2.0,
       "DelayPlayTime": 0.0,
       "IsDeathNormalPlay": false,
       "GameModeTypeList": [
@@ -59625,9 +62670,7 @@
       "RoleId": 0,
       "IsCheckTeamType": false,
       "TeamType": "EPMTeamType::Attack",
-      "LookRoleIds": [
-        0
-      ],
+      "LookRoleIds": [],
       "TargetRoleId": 0,
       "InstigatorRoleId": 0,
       "Desc": {
@@ -59648,7 +62691,7 @@
       "BroadcastObjectType": "EBroadcastObjectType::Teammate",
       "IsRandom": false,
       "RandomVoiceIds": [],
-      "CoolDownTime": 10.0,
+      "CoolDownTime": 2.0,
       "DelayPlayTime": 0.0,
       "IsDeathNormalPlay": false,
       "GameModeTypeList": [
@@ -59657,9 +62700,7 @@
       "RoleId": 0,
       "IsCheckTeamType": false,
       "TeamType": "EPMTeamType::Attack",
-      "LookRoleIds": [
-        0
-      ],
+      "LookRoleIds": [],
       "TargetRoleId": 0,
       "InstigatorRoleId": 0,
       "Desc": {
@@ -59680,7 +62721,7 @@
       "BroadcastObjectType": "EBroadcastObjectType::Teammate",
       "IsRandom": false,
       "RandomVoiceIds": [],
-      "CoolDownTime": 10.0,
+      "CoolDownTime": 2.0,
       "DelayPlayTime": 0.0,
       "IsDeathNormalPlay": false,
       "GameModeTypeList": [
@@ -59689,9 +62730,7 @@
       "RoleId": 0,
       "IsCheckTeamType": false,
       "TeamType": "EPMTeamType::Attack",
-      "LookRoleIds": [
-        0
-      ],
+      "LookRoleIds": [],
       "TargetRoleId": 0,
       "InstigatorRoleId": 0,
       "Desc": {
@@ -59712,7 +62751,7 @@
       "BroadcastObjectType": "EBroadcastObjectType::Teammate",
       "IsRandom": false,
       "RandomVoiceIds": [],
-      "CoolDownTime": 10.0,
+      "CoolDownTime": 2.0,
       "DelayPlayTime": 0.0,
       "IsDeathNormalPlay": false,
       "GameModeTypeList": [
@@ -59721,9 +62760,7 @@
       "RoleId": 0,
       "IsCheckTeamType": false,
       "TeamType": "EPMTeamType::Attack",
-      "LookRoleIds": [
-        0
-      ],
+      "LookRoleIds": [],
       "TargetRoleId": 0,
       "InstigatorRoleId": 0,
       "Desc": {
@@ -59744,7 +62781,7 @@
       "BroadcastObjectType": "EBroadcastObjectType::Teammate",
       "IsRandom": false,
       "RandomVoiceIds": [],
-      "CoolDownTime": 10.0,
+      "CoolDownTime": 2.0,
       "DelayPlayTime": 0.0,
       "IsDeathNormalPlay": false,
       "GameModeTypeList": [
@@ -59753,9 +62790,7 @@
       "RoleId": 0,
       "IsCheckTeamType": false,
       "TeamType": "EPMTeamType::Attack",
-      "LookRoleIds": [
-        0
-      ],
+      "LookRoleIds": [],
       "TargetRoleId": 0,
       "InstigatorRoleId": 0,
       "Desc": {
@@ -59776,7 +62811,7 @@
       "BroadcastObjectType": "EBroadcastObjectType::Teammate",
       "IsRandom": false,
       "RandomVoiceIds": [],
-      "CoolDownTime": 10.0,
+      "CoolDownTime": 2.0,
       "DelayPlayTime": 0.0,
       "IsDeathNormalPlay": false,
       "GameModeTypeList": [
@@ -59785,9 +62820,7 @@
       "RoleId": 0,
       "IsCheckTeamType": false,
       "TeamType": "EPMTeamType::Attack",
-      "LookRoleIds": [
-        0
-      ],
+      "LookRoleIds": [],
       "TargetRoleId": 0,
       "InstigatorRoleId": 0,
       "Desc": {
@@ -59795,6 +62828,1146 @@
         "Key": "122995703_Desc",
         "SourceString": "危险信号-中文女声",
         "LocalizedString": "危险信号-中文女声"
+      }
+    },
+    "122999400": {
+      "Id": 122999400,
+      "GameplayTag": {
+        "TagName": "UIEvent.QuickChat.Attack"
+      },
+      "VoiceId": 22999400,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::Normal",
+      "BroadcastObjectType": "EBroadcastObjectType::Teammate",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 2.0,
+      "DelayPlayTime": 0.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::None"
+      ],
+      "RoleId": 0,
+      "IsCheckTeamType": false,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [],
+      "TargetRoleId": 0,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122999400_Desc",
+        "SourceString": "进攻",
+        "LocalizedString": "进攻"
+      }
+    },
+    "122999401": {
+      "Id": 122999401,
+      "GameplayTag": {
+        "TagName": "UIEvent.QuickChat.Wait"
+      },
+      "VoiceId": 22999401,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::Normal",
+      "BroadcastObjectType": "EBroadcastObjectType::Teammate",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 2.0,
+      "DelayPlayTime": 0.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::None"
+      ],
+      "RoleId": 0,
+      "IsCheckTeamType": false,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [],
+      "TargetRoleId": 0,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122999401_Desc",
+        "SourceString": "等等",
+        "LocalizedString": "等等"
+      }
+    },
+    "122999402": {
+      "Id": 122999402,
+      "GameplayTag": {
+        "TagName": "UIEvent.QuickChat.Retreat"
+      },
+      "VoiceId": 22999402,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::Normal",
+      "BroadcastObjectType": "EBroadcastObjectType::Teammate",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 2.0,
+      "DelayPlayTime": 0.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::None"
+      ],
+      "RoleId": 0,
+      "IsCheckTeamType": false,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [],
+      "TargetRoleId": 0,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122999402_Desc",
+        "SourceString": "撤退",
+        "LocalizedString": "撤退"
+      }
+    },
+    "122999403": {
+      "Id": 122999403,
+      "GameplayTag": {
+        "TagName": "UIEvent.QuickChat.Thanks"
+      },
+      "VoiceId": 22999403,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::Normal",
+      "BroadcastObjectType": "EBroadcastObjectType::Teammate",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 2.0,
+      "DelayPlayTime": 0.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::None"
+      ],
+      "RoleId": 0,
+      "IsCheckTeamType": false,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [],
+      "TargetRoleId": 0,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122999403_Desc",
+        "SourceString": "谢谢",
+        "LocalizedString": "谢谢"
+      }
+    },
+    "122999404": {
+      "Id": 122999404,
+      "GameplayTag": {
+        "TagName": "UIEvent.QuickChat.Great"
+      },
+      "VoiceId": 22999404,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::Normal",
+      "BroadcastObjectType": "EBroadcastObjectType::Teammate",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 2.0,
+      "DelayPlayTime": 0.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::None"
+      ],
+      "RoleId": 0,
+      "IsCheckTeamType": false,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [],
+      "TargetRoleId": 0,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122999404_Desc",
+        "SourceString": "真厉害",
+        "LocalizedString": "真厉害"
+      }
+    },
+    "122999405": {
+      "Id": 122999405,
+      "GameplayTag": {
+        "TagName": "UIEvent.QuickChat.Yes"
+      },
+      "VoiceId": 22999405,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::Normal",
+      "BroadcastObjectType": "EBroadcastObjectType::Teammate",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 2.0,
+      "DelayPlayTime": 0.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::None"
+      ],
+      "RoleId": 0,
+      "IsCheckTeamType": false,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [],
+      "TargetRoleId": 0,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122999405_Desc",
+        "SourceString": "收到",
+        "LocalizedString": "收到"
+      }
+    },
+    "122999406": {
+      "Id": 122999406,
+      "GameplayTag": {
+        "TagName": "UIEvent.QuickChat.No"
+      },
+      "VoiceId": 22999406,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::Normal",
+      "BroadcastObjectType": "EBroadcastObjectType::Teammate",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 2.0,
+      "DelayPlayTime": 0.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::None"
+      ],
+      "RoleId": 0,
+      "IsCheckTeamType": false,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [],
+      "TargetRoleId": 0,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122999406_Desc",
+        "SourceString": "拒绝",
+        "LocalizedString": "拒绝"
+      }
+    },
+    "122999407": {
+      "Id": 122999407,
+      "GameplayTag": {
+        "TagName": "UIEvent.QuickChat.Sorry"
+      },
+      "VoiceId": 22999407,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::Normal",
+      "BroadcastObjectType": "EBroadcastObjectType::Teammate",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 2.0,
+      "DelayPlayTime": 0.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::None"
+      ],
+      "RoleId": 0,
+      "IsCheckTeamType": false,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [],
+      "TargetRoleId": 0,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122999407_Desc",
+        "SourceString": "抱歉",
+        "LocalizedString": "抱歉"
+      }
+    },
+    "122999408": {
+      "Id": 122999408,
+      "GameplayTag": {
+        "TagName": "UIEvent.QuickChat.Hello"
+      },
+      "VoiceId": 22999408,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::Normal",
+      "BroadcastObjectType": "EBroadcastObjectType::Teammate",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 2.0,
+      "DelayPlayTime": 0.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::None"
+      ],
+      "RoleId": 0,
+      "IsCheckTeamType": false,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [],
+      "TargetRoleId": 0,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122999408_Desc",
+        "SourceString": "你好",
+        "LocalizedString": "你好"
+      }
+    },
+    "122999409": {
+      "Id": 122999409,
+      "GameplayTag": {
+        "TagName": "UIEvent.QuickChat.NoMatter"
+      },
+      "VoiceId": 22999409,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::Normal",
+      "BroadcastObjectType": "EBroadcastObjectType::Teammate",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 2.0,
+      "DelayPlayTime": 0.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::None"
+      ],
+      "RoleId": 0,
+      "IsCheckTeamType": false,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [],
+      "TargetRoleId": 0,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122999409_Desc",
+        "SourceString": "没关系",
+        "LocalizedString": "没关系"
+      }
+    },
+    "122999410": {
+      "Id": 122999410,
+      "GameplayTag": {
+        "TagName": "UIEvent.QuickChat.OpenMic"
+      },
+      "VoiceId": 22999410,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::Normal",
+      "BroadcastObjectType": "EBroadcastObjectType::Teammate",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 2.0,
+      "DelayPlayTime": 0.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::None"
+      ],
+      "RoleId": 0,
+      "IsCheckTeamType": false,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [],
+      "TargetRoleId": 0,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122999410_Desc",
+        "SourceString": "请打开麦克风交流",
+        "LocalizedString": "请打开麦克风交流"
+      }
+    },
+    "122999411": {
+      "Id": 122999411,
+      "GameplayTag": {
+        "TagName": "UIEvent.QuickChat.CanWin"
+      },
+      "VoiceId": 22999411,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::Normal",
+      "BroadcastObjectType": "EBroadcastObjectType::Teammate",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 2.0,
+      "DelayPlayTime": 0.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::None"
+      ],
+      "RoleId": 0,
+      "IsCheckTeamType": false,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [],
+      "TargetRoleId": 0,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122999411_Desc",
+        "SourceString": "稳住，我们能赢",
+        "LocalizedString": "稳住，我们能赢"
+      }
+    },
+    "122999412": {
+      "Id": 122999412,
+      "GameplayTag": {
+        "TagName": "UIEvent.QuickChat.BombForMe"
+      },
+      "VoiceId": 22999412,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::Normal",
+      "BroadcastObjectType": "EBroadcastObjectType::Teammate",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 2.0,
+      "DelayPlayTime": 0.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::None"
+      ],
+      "RoleId": 0,
+      "IsCheckTeamType": false,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [],
+      "TargetRoleId": 0,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122999412_Desc",
+        "SourceString": "炸弹给我",
+        "LocalizedString": "炸弹给我"
+      }
+    },
+    "122999413": {
+      "Id": 122999413,
+      "GameplayTag": {
+        "TagName": "UIEvent.QuickChat.BombPick"
+      },
+      "VoiceId": 22999413,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::Normal",
+      "BroadcastObjectType": "EBroadcastObjectType::Teammate",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 2.0,
+      "DelayPlayTime": 0.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::None"
+      ],
+      "RoleId": 0,
+      "IsCheckTeamType": false,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [],
+      "TargetRoleId": 0,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122999413_Desc",
+        "SourceString": "炸弹掉落，快去捡包",
+        "LocalizedString": "炸弹掉落，快去捡包"
+      }
+    },
+    "122999414": {
+      "Id": 122999414,
+      "GameplayTag": {
+        "TagName": "UIEvent.QuickChat.BombPlant"
+      },
+      "VoiceId": 22999414,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::Normal",
+      "BroadcastObjectType": "EBroadcastObjectType::Teammate",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 2.0,
+      "DelayPlayTime": 0.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::None"
+      ],
+      "RoleId": 0,
+      "IsCheckTeamType": false,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [],
+      "TargetRoleId": 0,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122999414_Desc",
+        "SourceString": "快去安装炸弹",
+        "LocalizedString": "快去安装炸弹"
+      }
+    },
+    "122999415": {
+      "Id": 122999415,
+      "GameplayTag": {
+        "TagName": "UIEvent.QuickChat.BombDropped"
+      },
+      "VoiceId": 22999415,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::Normal",
+      "BroadcastObjectType": "EBroadcastObjectType::Teammate",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 2.0,
+      "DelayPlayTime": 0.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::None"
+      ],
+      "RoleId": 0,
+      "IsCheckTeamType": false,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [],
+      "TargetRoleId": 0,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122999415_Desc",
+        "SourceString": "炸弹掉落，快来蹲防",
+        "LocalizedString": "炸弹掉落，快来蹲防"
+      }
+    },
+    "122999416": {
+      "Id": 122999416,
+      "GameplayTag": {
+        "TagName": "UIEvent.QuickChat.Tear"
+      },
+      "VoiceId": 22999416,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::Normal",
+      "BroadcastObjectType": "EBroadcastObjectType::Teammate",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 2.0,
+      "DelayPlayTime": 0.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::None"
+      ],
+      "RoleId": 0,
+      "IsCheckTeamType": false,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [],
+      "TargetRoleId": 0,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122999416_Desc",
+        "SourceString": "快去拆除炸弹",
+        "LocalizedString": "快去拆除炸弹"
+      }
+    },
+    "122999417": {
+      "Id": 122999417,
+      "GameplayTag": {
+        "TagName": "UIEvent.QuickChat.AttackA"
+      },
+      "VoiceId": 22999417,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::Normal",
+      "BroadcastObjectType": "EBroadcastObjectType::Teammate",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 2.0,
+      "DelayPlayTime": 0.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::None"
+      ],
+      "RoleId": 0,
+      "IsCheckTeamType": false,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [],
+      "TargetRoleId": 0,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122999417_Desc",
+        "SourceString": "进攻A点",
+        "LocalizedString": "进攻A点"
+      }
+    },
+    "122999418": {
+      "Id": 122999418,
+      "GameplayTag": {
+        "TagName": "UIEvent.QuickChat.AttackB"
+      },
+      "VoiceId": 22999418,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::Normal",
+      "BroadcastObjectType": "EBroadcastObjectType::Teammate",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 2.0,
+      "DelayPlayTime": 0.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::None"
+      ],
+      "RoleId": 0,
+      "IsCheckTeamType": false,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [],
+      "TargetRoleId": 0,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122999418_Desc",
+        "SourceString": "进攻B点",
+        "LocalizedString": "进攻B点"
+      }
+    },
+    "122999419": {
+      "Id": 122999419,
+      "GameplayTag": {
+        "TagName": "UIEvent.QuickChat.AttackC"
+      },
+      "VoiceId": 22999419,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::Normal",
+      "BroadcastObjectType": "EBroadcastObjectType::Teammate",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 2.0,
+      "DelayPlayTime": 0.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::None"
+      ],
+      "RoleId": 0,
+      "IsCheckTeamType": false,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [],
+      "TargetRoleId": 0,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122999419_Desc",
+        "SourceString": "进攻C点",
+        "LocalizedString": "进攻C点"
+      }
+    },
+    "122999420": {
+      "Id": 122999420,
+      "GameplayTag": {
+        "TagName": "UIEvent.QuickChat.DefendA"
+      },
+      "VoiceId": 22999420,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::Normal",
+      "BroadcastObjectType": "EBroadcastObjectType::Teammate",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 2.0,
+      "DelayPlayTime": 0.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::None"
+      ],
+      "RoleId": 0,
+      "IsCheckTeamType": false,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [],
+      "TargetRoleId": 0,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122999420_Desc",
+        "SourceString": "我守A点",
+        "LocalizedString": "我守A点"
+      }
+    },
+    "122999421": {
+      "Id": 122999421,
+      "GameplayTag": {
+        "TagName": "UIEvent.QuickChat.DefendB"
+      },
+      "VoiceId": 22999421,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::Normal",
+      "BroadcastObjectType": "EBroadcastObjectType::Teammate",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 2.0,
+      "DelayPlayTime": 0.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::None"
+      ],
+      "RoleId": 0,
+      "IsCheckTeamType": false,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [],
+      "TargetRoleId": 0,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122999421_Desc",
+        "SourceString": "我守B点",
+        "LocalizedString": "我守B点"
+      }
+    },
+    "122999422": {
+      "Id": 122999422,
+      "GameplayTag": {
+        "TagName": "UIEvent.QuickChat.DefendC"
+      },
+      "VoiceId": 22999422,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::Normal",
+      "BroadcastObjectType": "EBroadcastObjectType::Teammate",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 2.0,
+      "DelayPlayTime": 0.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::None"
+      ],
+      "RoleId": 0,
+      "IsCheckTeamType": false,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [],
+      "TargetRoleId": 0,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122999422_Desc",
+        "SourceString": "我守C点",
+        "LocalizedString": "我守C点"
+      }
+    },
+    "122999423": {
+      "Id": 122999423,
+      "GameplayTag": {
+        "TagName": "UIEvent.QuickChat.Togather"
+      },
+      "VoiceId": 22999423,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::Normal",
+      "BroadcastObjectType": "EBroadcastObjectType::Teammate",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 2.0,
+      "DelayPlayTime": 0.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::None"
+      ],
+      "RoleId": 0,
+      "IsCheckTeamType": false,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [],
+      "TargetRoleId": 0,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122999423_Desc",
+        "SourceString": "来我这边集合",
+        "LocalizedString": "来我这边集合"
+      }
+    },
+    "122999424": {
+      "Id": 122999424,
+      "GameplayTag": {
+        "TagName": "UIEvent.QuickChat.BackA"
+      },
+      "VoiceId": 22999424,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::Normal",
+      "BroadcastObjectType": "EBroadcastObjectType::Teammate",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 2.0,
+      "DelayPlayTime": 0.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::None"
+      ],
+      "RoleId": 0,
+      "IsCheckTeamType": false,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [],
+      "TargetRoleId": 0,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122999424_Desc",
+        "SourceString": "A点请求回防",
+        "LocalizedString": "A点请求回防"
+      }
+    },
+    "122999425": {
+      "Id": 122999425,
+      "GameplayTag": {
+        "TagName": "UIEvent.QuickChat.BackB"
+      },
+      "VoiceId": 22999425,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::Normal",
+      "BroadcastObjectType": "EBroadcastObjectType::Teammate",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 2.0,
+      "DelayPlayTime": 0.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::None"
+      ],
+      "RoleId": 0,
+      "IsCheckTeamType": false,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [],
+      "TargetRoleId": 0,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122999425_Desc",
+        "SourceString": "B点请求回防",
+        "LocalizedString": "B点请求回防"
+      }
+    },
+    "122999426": {
+      "Id": 122999426,
+      "GameplayTag": {
+        "TagName": "UIEvent.QuickChat.BackC"
+      },
+      "VoiceId": 22999426,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::Normal",
+      "BroadcastObjectType": "EBroadcastObjectType::Teammate",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 2.0,
+      "DelayPlayTime": 0.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::None"
+      ],
+      "RoleId": 0,
+      "IsCheckTeamType": false,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [],
+      "TargetRoleId": 0,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122999426_Desc",
+        "SourceString": "C点请求回防",
+        "LocalizedString": "C点请求回防"
+      }
+    },
+    "122999427": {
+      "Id": 122999427,
+      "GameplayTag": {
+        "TagName": "UIEvent.QuickChat.Friends"
+      },
+      "VoiceId": 22999427,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::Normal",
+      "BroadcastObjectType": "EBroadcastObjectType::Teammate",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 2.0,
+      "DelayPlayTime": 0.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::None"
+      ],
+      "RoleId": 0,
+      "IsCheckTeamType": false,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [],
+      "TargetRoleId": 0,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122999427_Desc",
+        "SourceString": "加个好友，下局一起吧",
+        "LocalizedString": "加个好友，下局一起吧"
+      }
+    },
+    "122999428": {
+      "Id": 122999428,
+      "GameplayTag": {
+        "TagName": "UIEvent.QuickChat.Recover"
+      },
+      "VoiceId": 22999428,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::Normal",
+      "BroadcastObjectType": "EBroadcastObjectType::Teammate",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 2.0,
+      "DelayPlayTime": 0.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::None"
+      ],
+      "RoleId": 0,
+      "IsCheckTeamType": false,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [],
+      "TargetRoleId": 0,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122999428_Desc",
+        "SourceString": "我需要回复",
+        "LocalizedString": "我需要回复"
+      }
+    },
+    "122999430": {
+      "Id": 122999430,
+      "GameplayTag": {
+        "TagName": "UIEvent.QuickChat.SkillQReady"
+      },
+      "VoiceId": 22999430,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::Normal",
+      "BroadcastObjectType": "EBroadcastObjectType::Teammate",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 2.0,
+      "DelayPlayTime": 0.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::None"
+      ],
+      "RoleId": 0,
+      "IsCheckTeamType": false,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [],
+      "TargetRoleId": 0,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122999430_Desc",
+        "SourceString": "主动技能状态【已就绪】",
+        "LocalizedString": "主动技能状态【已就绪】"
+      }
+    },
+    "122999429": {
+      "Id": 122999429,
+      "GameplayTag": {
+        "TagName": "UIEvent.QuickChat.SkillQReadyNot"
+      },
+      "VoiceId": 22999429,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::Normal",
+      "BroadcastObjectType": "EBroadcastObjectType::Teammate",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 2.0,
+      "DelayPlayTime": 0.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::None"
+      ],
+      "RoleId": 0,
+      "IsCheckTeamType": false,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [],
+      "TargetRoleId": 0,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122999429_Desc",
+        "SourceString": "主动技能状态【未就绪】",
+        "LocalizedString": "主动技能状态【未就绪】"
+      }
+    },
+    "122999432": {
+      "Id": 122999432,
+      "GameplayTag": {
+        "TagName": "UIEvent.QuickChat.SkillXReady"
+      },
+      "VoiceId": 22999432,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::Normal",
+      "BroadcastObjectType": "EBroadcastObjectType::Teammate",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 2.0,
+      "DelayPlayTime": 0.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::None"
+      ],
+      "RoleId": 0,
+      "IsCheckTeamType": false,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [],
+      "TargetRoleId": 0,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122999432_Desc",
+        "SourceString": "绝招状态【已就绪】",
+        "LocalizedString": "绝招状态【已就绪】"
+      }
+    },
+    "122999431": {
+      "Id": 122999431,
+      "GameplayTag": {
+        "TagName": "UIEvent.QuickChat.SkillxReadyNot"
+      },
+      "VoiceId": 22999431,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::Normal",
+      "BroadcastObjectType": "EBroadcastObjectType::Teammate",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 2.0,
+      "DelayPlayTime": 0.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::None"
+      ],
+      "RoleId": 0,
+      "IsCheckTeamType": false,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [],
+      "TargetRoleId": 0,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122999431_Desc",
+        "SourceString": "绝招状态【未就绪】",
+        "LocalizedString": "绝招状态【未就绪】"
+      }
+    },
+    "122999433": {
+      "Id": 122999433,
+      "GameplayTag": {
+        "TagName": "UIEvent.QuickChat.WaitMe"
+      },
+      "VoiceId": 22999433,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::Normal",
+      "BroadcastObjectType": "EBroadcastObjectType::Teammate",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 2.0,
+      "DelayPlayTime": 0.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::None"
+      ],
+      "RoleId": 0,
+      "IsCheckTeamType": false,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [],
+      "TargetRoleId": 0,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122999433_Desc",
+        "SourceString": "等我来",
+        "LocalizedString": "等我来"
+      }
+    },
+    "122999434": {
+      "Id": 122999434,
+      "GameplayTag": {
+        "TagName": "UIEvent.QuickChat.Calm"
+      },
+      "VoiceId": 22999434,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::Normal",
+      "BroadcastObjectType": "EBroadcastObjectType::Teammate",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 2.0,
+      "DelayPlayTime": 0.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::None"
+      ],
+      "RoleId": 0,
+      "IsCheckTeamType": false,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [],
+      "TargetRoleId": 0,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122999434_Desc",
+        "SourceString": "别打，等人齐",
+        "LocalizedString": "别打，等人齐"
+      }
+    },
+    "122999435": {
+      "Id": 122999435,
+      "GameplayTag": {
+        "TagName": "UIEvent.QuickChat.PayloadFight"
+      },
+      "VoiceId": 22999435,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::Normal",
+      "BroadcastObjectType": "EBroadcastObjectType::Teammate",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 2.0,
+      "DelayPlayTime": 0.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::None"
+      ],
+      "RoleId": 0,
+      "IsCheckTeamType": false,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [],
+      "TargetRoleId": 0,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122999435_Desc",
+        "SourceString": "快去争夺运载目标",
+        "LocalizedString": "快去争夺运载目标"
+      }
+    },
+    "122999436": {
+      "Id": 122999436,
+      "GameplayTag": {
+        "TagName": "UIEvent.QuickChat.PayloadFightMe"
+      },
+      "VoiceId": 22999436,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::Normal",
+      "BroadcastObjectType": "EBroadcastObjectType::Teammate",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 2.0,
+      "DelayPlayTime": 0.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::None"
+      ],
+      "RoleId": 0,
+      "IsCheckTeamType": false,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [],
+      "TargetRoleId": 0,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122999436_Desc",
+        "SourceString": "我来争夺运载目标",
+        "LocalizedString": "我来争夺运载目标"
+      }
+    },
+    "122999437": {
+      "Id": 122999437,
+      "GameplayTag": {
+        "TagName": "UIEvent.QuickChat.Cheer"
+      },
+      "VoiceId": 22999437,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::Normal",
+      "BroadcastObjectType": "EBroadcastObjectType::Teammate",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 2.0,
+      "DelayPlayTime": 0.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::None"
+      ],
+      "RoleId": 0,
+      "IsCheckTeamType": false,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [],
+      "TargetRoleId": 0,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122999437_Desc",
+        "SourceString": "加油",
+        "LocalizedString": "加油"
       }
     }
   }

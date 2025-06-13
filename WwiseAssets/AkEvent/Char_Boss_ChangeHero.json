@@ -2,6 +2,7 @@
   "Type": "AkAudioEvent",
   "Name": "Char_Boss_ChangeHero",
   "Class": "UScriptClass'AkAudioEvent'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
   "Properties": {
     "MinimumDuration": 5.0818596,
     "MaximumDuration": 5.0818596,
@@ -9,5 +10,42 @@
       "ObjectName": "AkAudioBank'Char_Boss_Common'",
       "ObjectPath": "PM/Content/WwiseAssets/AkBank/Char_Boss_Common.0"
     }
-  }
+  },
+  "EventCookedData": {
+    "EventLanguageMap": [
+      {
+        "Key": {
+          "LanguageId": 0,
+          "LanguageName": "SFX",
+          "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
+        },
+        "Value": {
+          "EventId": -915436750,
+          "SoundBanks": [
+            {
+              "SoundBankId": 1362493417,
+              "SoundBankPathName": "Char_Boss_Common.bnk",
+              "MemoryAlignment": 16,
+              "bDeviceMemory": false,
+              "bContainsMedia": true,
+              "SoundBankType": "EWwiseSoundBankType::User",
+              "DebugName": "Char_Boss_Common"
+            }
+          ],
+          "Media": [],
+          "ExternalSources": [],
+          "SwitchContainerLeaves": [],
+          "RequiredGroupValueSet": [],
+          "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
+          "DebugName": "Char_Boss_ChangeHero"
+        }
+      }
+    ],
+    "DebugName": "Char_Boss_ChangeHero",
+    "EventId": -915436750
+  },
+  "MaximumDuration": 5.0818596,
+  "MinimumDuration": 5.0818596,
+  "IsInfinite": false,
+  "MaxAttenuationRadius": 3000.0
 }

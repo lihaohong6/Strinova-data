@@ -2,6 +2,7 @@
   "Type": "DataTable",
   "Name": "GameplayDataCollectionEventTable",
   "Class": "UScriptClass'DataTable'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
   "Properties": {
     "RowStruct": {
       "ObjectName": "ScriptStruct'GameplayTagTableRow'",
@@ -220,6 +221,18 @@
     "CollectionEvent.ViewOcclusion.PlayerSkill.E": {
       "Tag": "CollectionEvent.ViewOcclusion.PlayerSkill.E",
       "DevComment": "C技能技能遮挡视野"
+    },
+    "CollectionEvent.Card.EffectiveUsed": {
+      "Tag": "CollectionEvent.Card.EffectiveUsed",
+      "DevComment": "卡牌有效释放"
+    },
+    "CollectionEvent.Card.EffectiveUsedBegin": {
+      "Tag": "CollectionEvent.Card.EffectiveUsedBegin",
+      "DevComment": "卡牌有效释放开始"
+    },
+    "CollectionEvent.Card.EffectiveUsedEnd": {
+      "Tag": "CollectionEvent.Card.EffectiveUsedEnd",
+      "DevComment": "卡牌有效释放结束"
     }
   }
 }

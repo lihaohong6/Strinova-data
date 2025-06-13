@@ -2,6 +2,7 @@
   "Type": "AkAudioEvent",
   "Name": "Ui_LowHP_Heartbeat",
   "Class": "UScriptClass'AkAudioEvent'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
   "Properties": {
     "MinimumDuration": 1.03577,
     "MaximumDuration": 1.03577,
@@ -9,5 +10,42 @@
       "ObjectName": "AkAudioBank'Char_Common'",
       "ObjectPath": "PM/Content/WwiseAssets/AkBank/Char_Common.0"
     }
-  }
+  },
+  "EventCookedData": {
+    "EventLanguageMap": [
+      {
+        "Key": {
+          "LanguageId": 0,
+          "LanguageName": "SFX",
+          "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
+        },
+        "Value": {
+          "EventId": -1893800095,
+          "SoundBanks": [
+            {
+              "SoundBankId": -766700885,
+              "SoundBankPathName": "Char_Common.bnk",
+              "MemoryAlignment": 16,
+              "bDeviceMemory": false,
+              "bContainsMedia": true,
+              "SoundBankType": "EWwiseSoundBankType::User",
+              "DebugName": "Char_Common"
+            }
+          ],
+          "Media": [],
+          "ExternalSources": [],
+          "SwitchContainerLeaves": [],
+          "RequiredGroupValueSet": [],
+          "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
+          "DebugName": "Ui_LowHP_Heartbeat"
+        }
+      }
+    ],
+    "DebugName": "Ui_LowHP_Heartbeat",
+    "EventId": -1893800095
+  },
+  "MaximumDuration": 1.03577,
+  "MinimumDuration": 1.03577,
+  "IsInfinite": false,
+  "MaxAttenuationRadius": 3000.0
 }

@@ -2,6 +2,7 @@
   "Type": "AkAudioEvent",
   "Name": "Weap_MG42_Reload_Start",
   "Class": "UScriptClass'AkAudioEvent'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
   "Properties": {
     "MinimumDuration": 0.6611337,
     "MaximumDuration": 0.6611337,
@@ -9,5 +10,42 @@
       "ObjectName": "AkAudioBank'Wpn_MG42'",
       "ObjectPath": "PM/Content/WwiseAssets/AkBank/Wpn_MG42.0"
     }
-  }
+  },
+  "EventCookedData": {
+    "EventLanguageMap": [
+      {
+        "Key": {
+          "LanguageId": 0,
+          "LanguageName": "SFX",
+          "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
+        },
+        "Value": {
+          "EventId": 939118604,
+          "SoundBanks": [
+            {
+              "SoundBankId": -1483784753,
+              "SoundBankPathName": "Wpn_MG42.bnk",
+              "MemoryAlignment": 16,
+              "bDeviceMemory": false,
+              "bContainsMedia": true,
+              "SoundBankType": "EWwiseSoundBankType::User",
+              "DebugName": "Wpn_MG42"
+            }
+          ],
+          "Media": [],
+          "ExternalSources": [],
+          "SwitchContainerLeaves": [],
+          "RequiredGroupValueSet": [],
+          "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
+          "DebugName": "Weap_MG42_Reload_Start"
+        }
+      }
+    ],
+    "DebugName": "Weap_MG42_Reload_Start",
+    "EventId": 939118604
+  },
+  "MaximumDuration": 0.6611337,
+  "MinimumDuration": 0.6611337,
+  "IsInfinite": false,
+  "MaxAttenuationRadius": 1200.0
 }

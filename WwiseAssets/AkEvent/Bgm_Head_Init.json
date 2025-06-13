@@ -2,10 +2,98 @@
   "Type": "AkAudioEvent",
   "Name": "Bgm_Head_Init",
   "Class": "UScriptClass'AkAudioEvent'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
   "Properties": {
     "RequiredBank": {
       "ObjectName": "AkAudioBank'BGM_Head'",
       "ObjectPath": "PM/Content/WwiseAssets/AkBank/BGM_Head.0"
     }
-  }
+  },
+  "EventCookedData": {
+    "EventLanguageMap": [
+      {
+        "Key": {
+          "LanguageId": 0,
+          "LanguageName": "SFX",
+          "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
+        },
+        "Value": {
+          "EventId": -308858541,
+          "SoundBanks": [
+            {
+              "SoundBankId": -1948271986,
+              "SoundBankPathName": "BGM_Head.bnk",
+              "MemoryAlignment": 16,
+              "bDeviceMemory": false,
+              "bContainsMedia": false,
+              "SoundBankType": "EWwiseSoundBankType::User",
+              "DebugName": "BGM_Head"
+            }
+          ],
+          "Media": [
+            {
+              "MediaId": 1071393797,
+              "MediaPathName": "Media/SFX/BGM_Head/1071393797.wem",
+              "PrefetchSize": 0,
+              "MemoryAlignment": 16,
+              "bDeviceMemory": false,
+              "bStreaming": true,
+              "DebugName": "bgm\\map\\Bgm_Head_WarmUp.wav"
+            },
+            {
+              "MediaId": 30821221,
+              "MediaPathName": "Media/SFX/BGM_Head/30821221.wem",
+              "PrefetchSize": 0,
+              "MemoryAlignment": 16,
+              "bDeviceMemory": false,
+              "bStreaming": true,
+              "DebugName": "bgm\\map\\Bgm_Head_Normal_Intro.wav"
+            },
+            {
+              "MediaId": 824327824,
+              "MediaPathName": "Media/SFX/BGM_Head/824327824.wem",
+              "PrefetchSize": 0,
+              "MemoryAlignment": 16,
+              "bDeviceMemory": false,
+              "bStreaming": true,
+              "DebugName": "bgm\\map\\Bgm_Head_Normal_Loop.wav"
+            },
+            {
+              "MediaId": 1055041579,
+              "MediaPathName": "Media/SFX/BGM_Head/1055041579.wem",
+              "PrefetchSize": 0,
+              "MemoryAlignment": 16,
+              "bDeviceMemory": false,
+              "bStreaming": true,
+              "DebugName": "bgm\\map\\Bgm_Head_Final.wav"
+            }
+          ],
+          "ExternalSources": [],
+          "SwitchContainerLeaves": [],
+          "RequiredGroupValueSet": [
+            {
+              "Type": "EWwiseGroupType::State",
+              "GroupId": 412724365,
+              "Id": 743913214,
+              "DebugName": "Bgm_None"
+            },
+            {
+              "Type": "EWwiseGroupType::State",
+              "GroupId": -1948271986,
+              "Id": -915028501,
+              "DebugName": "Bgm_Head_None"
+            }
+          ],
+          "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
+          "DebugName": "Bgm_Head_Init"
+        }
+      }
+    ],
+    "DebugName": "Bgm_Head_Init",
+    "EventId": -308858541
+  },
+  "MaximumDuration": 0.0,
+  "MinimumDuration": 0.0,
+  "IsInfinite": true,
+  "MaxAttenuationRadius": 0.0
 }

@@ -1,0 +1,1286 @@
+{
+  "Type": "DataTable",
+  "Name": "BattlePassDareTask",
+  "Class": "UScriptClass'DataTable'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "RowStruct": {
+      "ObjectName": "ScriptStruct'CyBattlePassDareTaskTableRow'",
+      "ObjectPath": "/Script/PMGame"
+    }
+  },
+  "Rows": {
+    "120001": {
+      "Id": 120001,
+      "Difficult": 1,
+      "Circle": false,
+      "Desc": {
+        "Namespace": "BattlePassDareTask",
+        "Key": "120001_Desc",
+        "SourceString": "累计完成8场游戏对局。",
+        "LocalizedString": "累计完成8场游戏对局。"
+      },
+      "Type": 12,
+      "Prize": [
+        {
+          "ItemId": 4,
+          "ItemAmount": 75
+        }
+      ],
+      "Permanent": false,
+      "TaskConditions": [
+        {
+          "MainCondition": {
+            "MainType": "ECyTaskMainConditionType::Game",
+            "GameCondition": "ECyTaskGameConditionType::GameNum",
+            "GameResult": "ECyGameResultType::None",
+            "RoundResult": "ECyRoundResultType::None",
+            "bFriendTeam": false,
+            "bNoFriendTeam": false,
+            "BattleCondition": "ECyTaskBattleConditionType::None",
+            "bHeadshot": false,
+            "bHitBody": false,
+            "bFirstKill": false,
+            "bRevenge": false,
+            "MultiKillLimit": 0,
+            "HitDistLimit": 0,
+            "bBlind": false,
+            "ActionCondition": "ECyTaskActionConditionType::None",
+            "RoleIds": [],
+            "RoleProfessions": [],
+            "RoleTeams": [],
+            "MeshModes": [],
+            "EnemyMeshModes": [],
+            "WeaponTypes": [],
+            "WeaponHoldType": [],
+            "SkillTypes": [],
+            "Num": 8,
+            "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
+            "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
+            "BehaviorId": 0,
+            "RandomCondition": []
+          },
+          "LimitConditions": []
+        }
+      ],
+      "TaskLimit": {
+        "GameTypes": [],
+        "ModeTypes": []
+      },
+      "WaitTime": 172800,
+      "DurationTime": 2592000,
+      "IsTemplate": false,
+      "RandomRole": []
+    },
+    "120002": {
+      "Id": 120002,
+      "Difficult": 1,
+      "Circle": false,
+      "Desc": {
+        "Namespace": "BattlePassDareTask",
+        "Key": "120002_Desc",
+        "SourceString": "累计赢得4场游戏对局。",
+        "LocalizedString": "累计赢得4场游戏对局。"
+      },
+      "Type": 12,
+      "Prize": [
+        {
+          "ItemId": 4,
+          "ItemAmount": 75
+        }
+      ],
+      "Permanent": false,
+      "TaskConditions": [
+        {
+          "MainCondition": {
+            "MainType": "ECyTaskMainConditionType::Game",
+            "GameCondition": "ECyTaskGameConditionType::GameNum",
+            "GameResult": "ECyGameResultType::Win",
+            "RoundResult": "ECyRoundResultType::None",
+            "bFriendTeam": false,
+            "bNoFriendTeam": false,
+            "BattleCondition": "ECyTaskBattleConditionType::None",
+            "bHeadshot": false,
+            "bHitBody": false,
+            "bFirstKill": false,
+            "bRevenge": false,
+            "MultiKillLimit": 0,
+            "HitDistLimit": 0,
+            "bBlind": false,
+            "ActionCondition": "ECyTaskActionConditionType::None",
+            "RoleIds": [],
+            "RoleProfessions": [],
+            "RoleTeams": [],
+            "MeshModes": [],
+            "EnemyMeshModes": [],
+            "WeaponTypes": [],
+            "WeaponHoldType": [],
+            "SkillTypes": [],
+            "Num": 4,
+            "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
+            "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
+            "BehaviorId": 0,
+            "RandomCondition": []
+          },
+          "LimitConditions": []
+        }
+      ],
+      "TaskLimit": {
+        "GameTypes": [],
+        "ModeTypes": []
+      },
+      "WaitTime": 172800,
+      "DurationTime": 2592000,
+      "IsTemplate": false,
+      "RandomRole": []
+    },
+    "120003": {
+      "Id": 120003,
+      "Difficult": 1,
+      "Circle": false,
+      "Desc": {
+        "Namespace": "BattlePassDareTask",
+        "Key": "120003_Desc",
+        "SourceString": "累计命中敌方目标400次。",
+        "LocalizedString": "累计命中敌方目标400次。"
+      },
+      "Type": 12,
+      "Prize": [
+        {
+          "ItemId": 4,
+          "ItemAmount": 75
+        }
+      ],
+      "Permanent": false,
+      "TaskConditions": [
+        {
+          "MainCondition": {
+            "MainType": "ECyTaskMainConditionType::Battle",
+            "GameCondition": "ECyTaskGameConditionType::None",
+            "GameResult": "ECyGameResultType::None",
+            "RoundResult": "ECyRoundResultType::None",
+            "bFriendTeam": false,
+            "bNoFriendTeam": false,
+            "BattleCondition": "ECyTaskBattleConditionType::HitNum",
+            "bHeadshot": false,
+            "bHitBody": false,
+            "bFirstKill": false,
+            "bRevenge": false,
+            "MultiKillLimit": 0,
+            "HitDistLimit": 0,
+            "bBlind": false,
+            "ActionCondition": "ECyTaskActionConditionType::None",
+            "RoleIds": [],
+            "RoleProfessions": [],
+            "RoleTeams": [],
+            "MeshModes": [],
+            "EnemyMeshModes": [],
+            "WeaponTypes": [],
+            "WeaponHoldType": [],
+            "SkillTypes": [],
+            "Num": 400,
+            "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
+            "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
+            "BehaviorId": 0,
+            "RandomCondition": []
+          },
+          "LimitConditions": []
+        }
+      ],
+      "TaskLimit": {
+        "GameTypes": [],
+        "ModeTypes": []
+      },
+      "WaitTime": 172800,
+      "DurationTime": 2592000,
+      "IsTemplate": false,
+      "RandomRole": []
+    },
+    "120004": {
+      "Id": 120004,
+      "Difficult": 1,
+      "Circle": false,
+      "Desc": {
+        "Namespace": "BattlePassDareTask",
+        "Key": "120004_Desc",
+        "SourceString": "累计为己方队伍恢复生命值1200点。",
+        "LocalizedString": "累计为己方队伍恢复生命值1200点。"
+      },
+      "Type": 12,
+      "Prize": [
+        {
+          "ItemId": 4,
+          "ItemAmount": 75
+        }
+      ],
+      "Permanent": false,
+      "TaskConditions": [
+        {
+          "MainCondition": {
+            "MainType": "ECyTaskMainConditionType::Battle",
+            "GameCondition": "ECyTaskGameConditionType::None",
+            "GameResult": "ECyGameResultType::None",
+            "RoundResult": "ECyRoundResultType::None",
+            "bFriendTeam": false,
+            "bNoFriendTeam": false,
+            "BattleCondition": "ECyTaskBattleConditionType::RecoveryHealthNum",
+            "bHeadshot": false,
+            "bHitBody": false,
+            "bFirstKill": false,
+            "bRevenge": false,
+            "MultiKillLimit": 0,
+            "HitDistLimit": 0,
+            "bBlind": false,
+            "ActionCondition": "ECyTaskActionConditionType::None",
+            "RoleIds": [],
+            "RoleProfessions": [],
+            "RoleTeams": [],
+            "MeshModes": [],
+            "EnemyMeshModes": [],
+            "WeaponTypes": [],
+            "WeaponHoldType": [],
+            "SkillTypes": [],
+            "Num": 1200,
+            "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
+            "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
+            "BehaviorId": 0,
+            "RandomCondition": []
+          },
+          "LimitConditions": []
+        }
+      ],
+      "TaskLimit": {
+        "GameTypes": [],
+        "ModeTypes": []
+      },
+      "WaitTime": 172800,
+      "DurationTime": 2592000,
+      "IsTemplate": false,
+      "RandomRole": []
+    },
+    "120005": {
+      "Id": 120005,
+      "Difficult": 1,
+      "Circle": false,
+      "Desc": {
+        "Namespace": "BattlePassDareTask",
+        "Key": "120005_Desc",
+        "SourceString": "累计参与助攻80次。",
+        "LocalizedString": "累计参与助攻80次。"
+      },
+      "Type": 12,
+      "Prize": [
+        {
+          "ItemId": 4,
+          "ItemAmount": 75
+        }
+      ],
+      "Permanent": false,
+      "TaskConditions": [
+        {
+          "MainCondition": {
+            "MainType": "ECyTaskMainConditionType::Battle",
+            "GameCondition": "ECyTaskGameConditionType::None",
+            "GameResult": "ECyGameResultType::None",
+            "RoundResult": "ECyRoundResultType::None",
+            "bFriendTeam": false,
+            "bNoFriendTeam": false,
+            "BattleCondition": "ECyTaskBattleConditionType::AssistNum",
+            "bHeadshot": false,
+            "bHitBody": false,
+            "bFirstKill": false,
+            "bRevenge": false,
+            "MultiKillLimit": 0,
+            "HitDistLimit": 0,
+            "bBlind": false,
+            "ActionCondition": "ECyTaskActionConditionType::None",
+            "RoleIds": [],
+            "RoleProfessions": [],
+            "RoleTeams": [],
+            "MeshModes": [],
+            "EnemyMeshModes": [],
+            "WeaponTypes": [],
+            "WeaponHoldType": [],
+            "SkillTypes": [],
+            "Num": 80,
+            "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
+            "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
+            "BehaviorId": 0,
+            "RandomCondition": []
+          },
+          "LimitConditions": []
+        }
+      ],
+      "TaskLimit": {
+        "GameTypes": [],
+        "ModeTypes": []
+      },
+      "WaitTime": 172800,
+      "DurationTime": 2592000,
+      "IsTemplate": false,
+      "RandomRole": []
+    },
+    "120006": {
+      "Id": 120006,
+      "Difficult": 1,
+      "Circle": false,
+      "Desc": {
+        "Namespace": "BattlePassDareTask",
+        "Key": "120006_Desc",
+        "SourceString": "累计造成伤害15000点。",
+        "LocalizedString": "累计造成伤害15000点。"
+      },
+      "Type": 12,
+      "Prize": [
+        {
+          "ItemId": 4,
+          "ItemAmount": 75
+        }
+      ],
+      "Permanent": false,
+      "TaskConditions": [
+        {
+          "MainCondition": {
+            "MainType": "ECyTaskMainConditionType::Battle",
+            "GameCondition": "ECyTaskGameConditionType::None",
+            "GameResult": "ECyGameResultType::None",
+            "RoundResult": "ECyRoundResultType::None",
+            "bFriendTeam": false,
+            "bNoFriendTeam": false,
+            "BattleCondition": "ECyTaskBattleConditionType::DamageNum",
+            "bHeadshot": false,
+            "bHitBody": false,
+            "bFirstKill": false,
+            "bRevenge": false,
+            "MultiKillLimit": 0,
+            "HitDistLimit": 0,
+            "bBlind": false,
+            "ActionCondition": "ECyTaskActionConditionType::None",
+            "RoleIds": [],
+            "RoleProfessions": [],
+            "RoleTeams": [],
+            "MeshModes": [],
+            "EnemyMeshModes": [],
+            "WeaponTypes": [],
+            "WeaponHoldType": [],
+            "SkillTypes": [],
+            "Num": 15000,
+            "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
+            "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
+            "BehaviorId": 0,
+            "RandomCondition": []
+          },
+          "LimitConditions": []
+        }
+      ],
+      "TaskLimit": {
+        "GameTypes": [],
+        "ModeTypes": []
+      },
+      "WaitTime": 172800,
+      "DurationTime": 2592000,
+      "IsTemplate": false,
+      "RandomRole": []
+    },
+    "120007": {
+      "Id": 120007,
+      "Difficult": 1,
+      "Circle": false,
+      "Desc": {
+        "Namespace": "BattlePassDareTask",
+        "Key": "120007_Desc",
+        "SourceString": "累计击败敌人40次。",
+        "LocalizedString": "累计击败敌人40次。"
+      },
+      "Type": 12,
+      "Prize": [
+        {
+          "ItemId": 4,
+          "ItemAmount": 75
+        }
+      ],
+      "Permanent": false,
+      "TaskConditions": [
+        {
+          "MainCondition": {
+            "MainType": "ECyTaskMainConditionType::Battle",
+            "GameCondition": "ECyTaskGameConditionType::None",
+            "GameResult": "ECyGameResultType::None",
+            "RoundResult": "ECyRoundResultType::None",
+            "bFriendTeam": false,
+            "bNoFriendTeam": false,
+            "BattleCondition": "ECyTaskBattleConditionType::KillNum",
+            "bHeadshot": false,
+            "bHitBody": false,
+            "bFirstKill": false,
+            "bRevenge": false,
+            "MultiKillLimit": 0,
+            "HitDistLimit": 0,
+            "bBlind": false,
+            "ActionCondition": "ECyTaskActionConditionType::None",
+            "RoleIds": [],
+            "RoleProfessions": [],
+            "RoleTeams": [],
+            "MeshModes": [],
+            "EnemyMeshModes": [],
+            "WeaponTypes": [],
+            "WeaponHoldType": [],
+            "SkillTypes": [],
+            "Num": 40,
+            "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
+            "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
+            "BehaviorId": 0,
+            "RandomCondition": []
+          },
+          "LimitConditions": []
+        }
+      ],
+      "TaskLimit": {
+        "GameTypes": [],
+        "ModeTypes": []
+      },
+      "WaitTime": 172800,
+      "DurationTime": 2592000,
+      "IsTemplate": false,
+      "RandomRole": []
+    },
+    "120008": {
+      "Id": 120008,
+      "Difficult": 1,
+      "Circle": false,
+      "Desc": {
+        "Namespace": "BattlePassDareTask",
+        "Key": "120008_Desc",
+        "SourceString": "累计使用技能80次。",
+        "LocalizedString": "累计使用技能80次。"
+      },
+      "Type": 12,
+      "Prize": [
+        {
+          "ItemId": 4,
+          "ItemAmount": 75
+        }
+      ],
+      "Permanent": false,
+      "TaskConditions": [
+        {
+          "MainCondition": {
+            "MainType": "ECyTaskMainConditionType::Battle",
+            "GameCondition": "ECyTaskGameConditionType::None",
+            "GameResult": "ECyGameResultType::None",
+            "RoundResult": "ECyRoundResultType::None",
+            "bFriendTeam": false,
+            "bNoFriendTeam": false,
+            "BattleCondition": "ECyTaskBattleConditionType::UseSkillNum",
+            "bHeadshot": false,
+            "bHitBody": false,
+            "bFirstKill": false,
+            "bRevenge": false,
+            "MultiKillLimit": 0,
+            "HitDistLimit": 0,
+            "bBlind": false,
+            "ActionCondition": "ECyTaskActionConditionType::None",
+            "RoleIds": [],
+            "RoleProfessions": [],
+            "RoleTeams": [],
+            "MeshModes": [],
+            "EnemyMeshModes": [],
+            "WeaponTypes": [],
+            "WeaponHoldType": [],
+            "SkillTypes": [
+              "ECyPlayerSkillType::Q",
+              "ECyPlayerSkillType::X",
+              "ECyPlayerSkillType::E"
+            ],
+            "Num": 80,
+            "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
+            "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
+            "BehaviorId": 0,
+            "RandomCondition": []
+          },
+          "LimitConditions": []
+        }
+      ],
+      "TaskLimit": {
+        "GameTypes": [],
+        "ModeTypes": []
+      },
+      "WaitTime": 172800,
+      "DurationTime": 2592000,
+      "IsTemplate": false,
+      "RandomRole": []
+    },
+    "120009": {
+      "Id": 120009,
+      "Difficult": 1,
+      "Circle": false,
+      "Desc": {
+        "Namespace": "BattlePassDareTask",
+        "Key": "120009_Desc",
+        "SourceString": "累计为己方队伍恢复护甲值1200点。",
+        "LocalizedString": "累计为己方队伍恢复护甲值1200点。"
+      },
+      "Type": 12,
+      "Prize": [
+        {
+          "ItemId": 4,
+          "ItemAmount": 75
+        }
+      ],
+      "Permanent": false,
+      "TaskConditions": [
+        {
+          "MainCondition": {
+            "MainType": "ECyTaskMainConditionType::Battle",
+            "GameCondition": "ECyTaskGameConditionType::None",
+            "GameResult": "ECyGameResultType::None",
+            "RoundResult": "ECyRoundResultType::None",
+            "bFriendTeam": false,
+            "bNoFriendTeam": false,
+            "BattleCondition": "ECyTaskBattleConditionType::RecoveryArmorNum",
+            "bHeadshot": false,
+            "bHitBody": false,
+            "bFirstKill": false,
+            "bRevenge": false,
+            "MultiKillLimit": 0,
+            "HitDistLimit": 0,
+            "bBlind": false,
+            "ActionCondition": "ECyTaskActionConditionType::None",
+            "RoleIds": [],
+            "RoleProfessions": [],
+            "RoleTeams": [],
+            "MeshModes": [],
+            "EnemyMeshModes": [],
+            "WeaponTypes": [],
+            "WeaponHoldType": [],
+            "SkillTypes": [],
+            "Num": 1200,
+            "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
+            "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
+            "BehaviorId": 0,
+            "RandomCondition": []
+          },
+          "LimitConditions": []
+        }
+      ],
+      "TaskLimit": {
+        "GameTypes": [],
+        "ModeTypes": []
+      },
+      "WaitTime": 172800,
+      "DurationTime": 2592000,
+      "IsTemplate": false,
+      "RandomRole": []
+    },
+    "120010": {
+      "Id": 120010,
+      "Difficult": 1,
+      "Circle": false,
+      "Desc": {
+        "Namespace": "BattlePassDareTask",
+        "Key": "120010_Desc",
+        "SourceString": "累计弦化飘飞距离2500米。",
+        "LocalizedString": "累计弦化飘飞距离2500米。"
+      },
+      "Type": 12,
+      "Prize": [
+        {
+          "ItemId": 4,
+          "ItemAmount": 75
+        }
+      ],
+      "Permanent": false,
+      "TaskConditions": [
+        {
+          "MainCondition": {
+            "MainType": "ECyTaskMainConditionType::Battle",
+            "GameCondition": "ECyTaskGameConditionType::None",
+            "GameResult": "ECyGameResultType::None",
+            "RoundResult": "ECyRoundResultType::None",
+            "bFriendTeam": false,
+            "bNoFriendTeam": false,
+            "BattleCondition": "ECyTaskBattleConditionType::MoveDistNum",
+            "bHeadshot": false,
+            "bHitBody": false,
+            "bFirstKill": false,
+            "bRevenge": false,
+            "MultiKillLimit": 0,
+            "HitDistLimit": 0,
+            "bBlind": false,
+            "ActionCondition": "ECyTaskActionConditionType::None",
+            "RoleIds": [],
+            "RoleProfessions": [],
+            "RoleTeams": [],
+            "MeshModes": [
+              "EMeshModeType::Glide"
+            ],
+            "EnemyMeshModes": [],
+            "WeaponTypes": [],
+            "WeaponHoldType": [],
+            "SkillTypes": [],
+            "Num": 2500,
+            "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
+            "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
+            "BehaviorId": 0,
+            "RandomCondition": []
+          },
+          "LimitConditions": []
+        }
+      ],
+      "TaskLimit": {
+        "GameTypes": [],
+        "ModeTypes": []
+      },
+      "WaitTime": 172800,
+      "DurationTime": 2592000,
+      "IsTemplate": false,
+      "RandomRole": []
+    },
+    "120011": {
+      "Id": 120011,
+      "Difficult": 1,
+      "Circle": false,
+      "Desc": {
+        "Namespace": "BattlePassDareTask",
+        "Key": "120011_Desc",
+        "SourceString": "累计命中弦化状态的敌人200次。",
+        "LocalizedString": "累计命中弦化状态的敌人200次。"
+      },
+      "Type": 12,
+      "Prize": [
+        {
+          "ItemId": 4,
+          "ItemAmount": 75
+        }
+      ],
+      "Permanent": false,
+      "TaskConditions": [
+        {
+          "MainCondition": {
+            "MainType": "ECyTaskMainConditionType::Battle",
+            "GameCondition": "ECyTaskGameConditionType::None",
+            "GameResult": "ECyGameResultType::None",
+            "RoundResult": "ECyRoundResultType::None",
+            "bFriendTeam": false,
+            "bNoFriendTeam": false,
+            "BattleCondition": "ECyTaskBattleConditionType::HitNum",
+            "bHeadshot": false,
+            "bHitBody": false,
+            "bFirstKill": false,
+            "bRevenge": false,
+            "MultiKillLimit": 0,
+            "HitDistLimit": 0,
+            "bBlind": false,
+            "ActionCondition": "ECyTaskActionConditionType::None",
+            "RoleIds": [],
+            "RoleProfessions": [],
+            "RoleTeams": [],
+            "MeshModes": [],
+            "EnemyMeshModes": [
+              "EMeshModeType::Glide",
+              "EMeshModeType::Sideway",
+              "EMeshModeType::Slide"
+            ],
+            "WeaponTypes": [],
+            "WeaponHoldType": [],
+            "SkillTypes": [],
+            "Num": 200,
+            "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
+            "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
+            "BehaviorId": 0,
+            "RandomCondition": []
+          },
+          "LimitConditions": []
+        }
+      ],
+      "TaskLimit": {
+        "GameTypes": [],
+        "ModeTypes": []
+      },
+      "WaitTime": 172800,
+      "DurationTime": 2592000,
+      "IsTemplate": false,
+      "RandomRole": []
+    },
+    "120012": {
+      "Id": 120012,
+      "Difficult": 1,
+      "Circle": false,
+      "Desc": {
+        "Namespace": "BattlePassDareTask",
+        "Key": "120012_Desc",
+        "SourceString": "使用{1}，{2}，{3}，{4}，{5}，完成6场游戏对局。",
+        "LocalizedString": "使用{1}，{2}，{3}，{4}，{5}，完成6场游戏对局。"
+      },
+      "Type": 12,
+      "Prize": [
+        {
+          "ItemId": 4,
+          "ItemAmount": 75
+        }
+      ],
+      "Permanent": false,
+      "TaskConditions": [
+        {
+          "MainCondition": {
+            "MainType": "ECyTaskMainConditionType::Game",
+            "GameCondition": "ECyTaskGameConditionType::GameNum",
+            "GameResult": "ECyGameResultType::None",
+            "RoundResult": "ECyRoundResultType::None",
+            "bFriendTeam": false,
+            "bNoFriendTeam": false,
+            "BattleCondition": "ECyTaskBattleConditionType::None",
+            "bHeadshot": false,
+            "bHitBody": false,
+            "bFirstKill": false,
+            "bRevenge": false,
+            "MultiKillLimit": 0,
+            "HitDistLimit": 0,
+            "bBlind": false,
+            "ActionCondition": "ECyTaskActionConditionType::None",
+            "RoleIds": [],
+            "RoleProfessions": [],
+            "RoleTeams": [],
+            "MeshModes": [],
+            "EnemyMeshModes": [],
+            "WeaponTypes": [],
+            "WeaponHoldType": [],
+            "SkillTypes": [],
+            "Num": 6,
+            "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
+            "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
+            "BehaviorId": 0,
+            "RandomCondition": []
+          },
+          "LimitConditions": []
+        }
+      ],
+      "TaskLimit": {
+        "GameTypes": [],
+        "ModeTypes": []
+      },
+      "WaitTime": 172800,
+      "DurationTime": 2592000,
+      "IsTemplate": true,
+      "RandomRole": [
+        0
+      ]
+    },
+    "120013": {
+      "Id": 120013,
+      "Difficult": 1,
+      "Circle": false,
+      "Desc": {
+        "Namespace": "BattlePassDareTask",
+        "Key": "120013_Desc",
+        "SourceString": "累计弦化承受伤害12000点。",
+        "LocalizedString": "累计弦化承受伤害12000点。"
+      },
+      "Type": 12,
+      "Prize": [
+        {
+          "ItemId": 4,
+          "ItemAmount": 75
+        }
+      ],
+      "Permanent": false,
+      "TaskConditions": [
+        {
+          "MainCondition": {
+            "MainType": "ECyTaskMainConditionType::Battle",
+            "GameCondition": "ECyTaskGameConditionType::None",
+            "GameResult": "ECyGameResultType::None",
+            "RoundResult": "ECyRoundResultType::None",
+            "bFriendTeam": false,
+            "bNoFriendTeam": false,
+            "BattleCondition": "ECyTaskBattleConditionType::None",
+            "bHeadshot": false,
+            "bHitBody": false,
+            "bFirstKill": false,
+            "bRevenge": false,
+            "MultiKillLimit": 0,
+            "HitDistLimit": 0,
+            "bBlind": false,
+            "ActionCondition": "ECyTaskActionConditionType::None",
+            "RoleIds": [],
+            "RoleProfessions": [],
+            "RoleTeams": [],
+            "MeshModes": [],
+            "EnemyMeshModes": [
+              "EMeshModeType::Glide",
+              "EMeshModeType::Sideway",
+              "EMeshModeType::Slide"
+            ],
+            "WeaponTypes": [],
+            "WeaponHoldType": [],
+            "SkillTypes": [],
+            "Num": 12000,
+            "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
+            "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
+            "BehaviorId": 0,
+            "RandomCondition": []
+          },
+          "LimitConditions": []
+        }
+      ],
+      "TaskLimit": {
+        "GameTypes": [],
+        "ModeTypes": []
+      },
+      "WaitTime": 172800,
+      "DurationTime": 2592000,
+      "IsTemplate": false,
+      "RandomRole": []
+    },
+    "120014": {
+      "Id": 120014,
+      "Difficult": 1,
+      "Circle": false,
+      "Desc": {
+        "Namespace": "BattlePassDareTask",
+        "Key": "120014_Desc",
+        "SourceString": "累计命中目标头部80次。",
+        "LocalizedString": "累计命中目标头部80次。"
+      },
+      "Type": 12,
+      "Prize": [
+        {
+          "ItemId": 4,
+          "ItemAmount": 75
+        }
+      ],
+      "Permanent": false,
+      "TaskConditions": [
+        {
+          "MainCondition": {
+            "MainType": "ECyTaskMainConditionType::Battle",
+            "GameCondition": "ECyTaskGameConditionType::None",
+            "GameResult": "ECyGameResultType::None",
+            "RoundResult": "ECyRoundResultType::None",
+            "bFriendTeam": false,
+            "bNoFriendTeam": false,
+            "BattleCondition": "ECyTaskBattleConditionType::HitNum",
+            "bHeadshot": true,
+            "bHitBody": false,
+            "bFirstKill": false,
+            "bRevenge": false,
+            "MultiKillLimit": 0,
+            "HitDistLimit": 0,
+            "bBlind": false,
+            "ActionCondition": "ECyTaskActionConditionType::None",
+            "RoleIds": [],
+            "RoleProfessions": [],
+            "RoleTeams": [],
+            "MeshModes": [],
+            "EnemyMeshModes": [],
+            "WeaponTypes": [],
+            "WeaponHoldType": [],
+            "SkillTypes": [],
+            "Num": 80,
+            "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
+            "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
+            "BehaviorId": 0,
+            "RandomCondition": []
+          },
+          "LimitConditions": []
+        }
+      ],
+      "TaskLimit": {
+        "GameTypes": [],
+        "ModeTypes": []
+      },
+      "WaitTime": 172800,
+      "DurationTime": 2592000,
+      "IsTemplate": false,
+      "RandomRole": []
+    },
+    "120015": {
+      "Id": 120015,
+      "Difficult": 1,
+      "Circle": false,
+      "Desc": {
+        "Namespace": "BattlePassDareTask",
+        "Key": "120015_Desc",
+        "SourceString": "使用{1}，{2}，{3}，{4}，{5}，获胜3场游戏对局。",
+        "LocalizedString": "使用{1}，{2}，{3}，{4}，{5}，获胜3场游戏对局。"
+      },
+      "Type": 12,
+      "Prize": [
+        {
+          "ItemId": 4,
+          "ItemAmount": 75
+        }
+      ],
+      "Permanent": false,
+      "TaskConditions": [
+        {
+          "MainCondition": {
+            "MainType": "ECyTaskMainConditionType::Game",
+            "GameCondition": "ECyTaskGameConditionType::GameNum",
+            "GameResult": "ECyGameResultType::Win",
+            "RoundResult": "ECyRoundResultType::None",
+            "bFriendTeam": false,
+            "bNoFriendTeam": false,
+            "BattleCondition": "ECyTaskBattleConditionType::None",
+            "bHeadshot": false,
+            "bHitBody": false,
+            "bFirstKill": false,
+            "bRevenge": false,
+            "MultiKillLimit": 0,
+            "HitDistLimit": 0,
+            "bBlind": false,
+            "ActionCondition": "ECyTaskActionConditionType::None",
+            "RoleIds": [],
+            "RoleProfessions": [],
+            "RoleTeams": [],
+            "MeshModes": [],
+            "EnemyMeshModes": [],
+            "WeaponTypes": [],
+            "WeaponHoldType": [],
+            "SkillTypes": [],
+            "Num": 3,
+            "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
+            "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
+            "BehaviorId": 0,
+            "RandomCondition": []
+          },
+          "LimitConditions": []
+        }
+      ],
+      "TaskLimit": {
+        "GameTypes": [],
+        "ModeTypes": []
+      },
+      "WaitTime": 172800,
+      "DurationTime": 2592000,
+      "IsTemplate": true,
+      "RandomRole": [
+        0
+      ]
+    },
+    "120016": {
+      "Id": 120016,
+      "Difficult": 1,
+      "Circle": false,
+      "Desc": {
+        "Namespace": "BattlePassDareTask",
+        "Key": "120016_Desc",
+        "SourceString": "使用{1}，{2}，{3}，{4}，{5}，击败敌人30次。",
+        "LocalizedString": "使用{1}，{2}，{3}，{4}，{5}，击败敌人30次。"
+      },
+      "Type": 12,
+      "Prize": [
+        {
+          "ItemId": 4,
+          "ItemAmount": 75
+        }
+      ],
+      "Permanent": false,
+      "TaskConditions": [
+        {
+          "MainCondition": {
+            "MainType": "ECyTaskMainConditionType::Battle",
+            "GameCondition": "ECyTaskGameConditionType::None",
+            "GameResult": "ECyGameResultType::None",
+            "RoundResult": "ECyRoundResultType::None",
+            "bFriendTeam": false,
+            "bNoFriendTeam": false,
+            "BattleCondition": "ECyTaskBattleConditionType::KillNum",
+            "bHeadshot": false,
+            "bHitBody": false,
+            "bFirstKill": false,
+            "bRevenge": false,
+            "MultiKillLimit": 0,
+            "HitDistLimit": 0,
+            "bBlind": false,
+            "ActionCondition": "ECyTaskActionConditionType::None",
+            "RoleIds": [],
+            "RoleProfessions": [],
+            "RoleTeams": [],
+            "MeshModes": [],
+            "EnemyMeshModes": [],
+            "WeaponTypes": [],
+            "WeaponHoldType": [],
+            "SkillTypes": [],
+            "Num": 30,
+            "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
+            "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
+            "BehaviorId": 0,
+            "RandomCondition": []
+          },
+          "LimitConditions": []
+        }
+      ],
+      "TaskLimit": {
+        "GameTypes": [],
+        "ModeTypes": []
+      },
+      "WaitTime": 172800,
+      "DurationTime": 2592000,
+      "IsTemplate": true,
+      "RandomRole": [
+        0
+      ]
+    },
+    "120017": {
+      "Id": 120017,
+      "Difficult": 1,
+      "Circle": false,
+      "Desc": {
+        "Namespace": "BattlePassDareTask",
+        "Key": "120017_Desc",
+        "SourceString": "使用{1}，{2}，{3}，{4}，{5}，造成伤害12000点。",
+        "LocalizedString": "使用{1}，{2}，{3}，{4}，{5}，造成伤害12000点。"
+      },
+      "Type": 12,
+      "Prize": [
+        {
+          "ItemId": 4,
+          "ItemAmount": 75
+        }
+      ],
+      "Permanent": false,
+      "TaskConditions": [
+        {
+          "MainCondition": {
+            "MainType": "ECyTaskMainConditionType::Battle",
+            "GameCondition": "ECyTaskGameConditionType::None",
+            "GameResult": "ECyGameResultType::None",
+            "RoundResult": "ECyRoundResultType::None",
+            "bFriendTeam": false,
+            "bNoFriendTeam": false,
+            "BattleCondition": "ECyTaskBattleConditionType::DamageNum",
+            "bHeadshot": false,
+            "bHitBody": false,
+            "bFirstKill": false,
+            "bRevenge": false,
+            "MultiKillLimit": 0,
+            "HitDistLimit": 0,
+            "bBlind": false,
+            "ActionCondition": "ECyTaskActionConditionType::None",
+            "RoleIds": [],
+            "RoleProfessions": [],
+            "RoleTeams": [],
+            "MeshModes": [],
+            "EnemyMeshModes": [],
+            "WeaponTypes": [],
+            "WeaponHoldType": [],
+            "SkillTypes": [],
+            "Num": 12000,
+            "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
+            "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
+            "BehaviorId": 0,
+            "RandomCondition": []
+          },
+          "LimitConditions": []
+        }
+      ],
+      "TaskLimit": {
+        "GameTypes": [],
+        "ModeTypes": []
+      },
+      "WaitTime": 172800,
+      "DurationTime": 2592000,
+      "IsTemplate": true,
+      "RandomRole": [
+        0
+      ]
+    },
+    "120018": {
+      "Id": 120018,
+      "Difficult": 1,
+      "Circle": false,
+      "Desc": {
+        "Namespace": "BattlePassDareTask",
+        "Key": "120018_Desc",
+        "SourceString": "使用{1}，{2}，{3}，{4}，{5}，参与助攻60次。",
+        "LocalizedString": "使用{1}，{2}，{3}，{4}，{5}，参与助攻60次。"
+      },
+      "Type": 12,
+      "Prize": [
+        {
+          "ItemId": 4,
+          "ItemAmount": 75
+        }
+      ],
+      "Permanent": false,
+      "TaskConditions": [
+        {
+          "MainCondition": {
+            "MainType": "ECyTaskMainConditionType::Battle",
+            "GameCondition": "ECyTaskGameConditionType::None",
+            "GameResult": "ECyGameResultType::None",
+            "RoundResult": "ECyRoundResultType::None",
+            "bFriendTeam": false,
+            "bNoFriendTeam": false,
+            "BattleCondition": "ECyTaskBattleConditionType::AssistNum",
+            "bHeadshot": false,
+            "bHitBody": false,
+            "bFirstKill": false,
+            "bRevenge": false,
+            "MultiKillLimit": 0,
+            "HitDistLimit": 0,
+            "bBlind": false,
+            "ActionCondition": "ECyTaskActionConditionType::None",
+            "RoleIds": [],
+            "RoleProfessions": [],
+            "RoleTeams": [],
+            "MeshModes": [],
+            "EnemyMeshModes": [],
+            "WeaponTypes": [],
+            "WeaponHoldType": [],
+            "SkillTypes": [],
+            "Num": 60,
+            "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
+            "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
+            "BehaviorId": 0,
+            "RandomCondition": []
+          },
+          "LimitConditions": []
+        }
+      ],
+      "TaskLimit": {
+        "GameTypes": [],
+        "ModeTypes": []
+      },
+      "WaitTime": 172800,
+      "DurationTime": 2592000,
+      "IsTemplate": true,
+      "RandomRole": [
+        0
+      ]
+    },
+    "120019": {
+      "Id": 120019,
+      "Difficult": 1,
+      "Circle": false,
+      "Desc": {
+        "Namespace": "BattlePassDareTask",
+        "Key": "120019_Desc",
+        "SourceString": "使用{1}，{2}，{3}，{4}，{5}，弦化承受伤害10000点。",
+        "LocalizedString": "使用{1}，{2}，{3}，{4}，{5}，弦化承受伤害10000点。"
+      },
+      "Type": 12,
+      "Prize": [
+        {
+          "ItemId": 4,
+          "ItemAmount": 75
+        }
+      ],
+      "Permanent": false,
+      "TaskConditions": [
+        {
+          "MainCondition": {
+            "MainType": "ECyTaskMainConditionType::Battle",
+            "GameCondition": "ECyTaskGameConditionType::None",
+            "GameResult": "ECyGameResultType::None",
+            "RoundResult": "ECyRoundResultType::None",
+            "bFriendTeam": false,
+            "bNoFriendTeam": false,
+            "BattleCondition": "ECyTaskBattleConditionType::None",
+            "bHeadshot": false,
+            "bHitBody": false,
+            "bFirstKill": false,
+            "bRevenge": false,
+            "MultiKillLimit": 0,
+            "HitDistLimit": 0,
+            "bBlind": false,
+            "ActionCondition": "ECyTaskActionConditionType::None",
+            "RoleIds": [],
+            "RoleProfessions": [],
+            "RoleTeams": [],
+            "MeshModes": [],
+            "EnemyMeshModes": [
+              "EMeshModeType::Glide",
+              "EMeshModeType::Sideway",
+              "EMeshModeType::Slide"
+            ],
+            "WeaponTypes": [],
+            "WeaponHoldType": [],
+            "SkillTypes": [],
+            "Num": 10000,
+            "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
+            "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
+            "BehaviorId": 0,
+            "RandomCondition": []
+          },
+          "LimitConditions": []
+        }
+      ],
+      "TaskLimit": {
+        "GameTypes": [],
+        "ModeTypes": []
+      },
+      "WaitTime": 172800,
+      "DurationTime": 2592000,
+      "IsTemplate": true,
+      "RandomRole": [
+        0
+      ]
+    },
+    "120020": {
+      "Id": 120020,
+      "Difficult": 1,
+      "Circle": false,
+      "Desc": {
+        "Namespace": "BattlePassDareTask",
+        "Key": "120020_Desc",
+        "SourceString": "使用{1}，{2}，{3}，{4}，{5}，命中目标头部60次。",
+        "LocalizedString": "使用{1}，{2}，{3}，{4}，{5}，命中目标头部60次。"
+      },
+      "Type": 12,
+      "Prize": [
+        {
+          "ItemId": 4,
+          "ItemAmount": 75
+        }
+      ],
+      "Permanent": false,
+      "TaskConditions": [
+        {
+          "MainCondition": {
+            "MainType": "ECyTaskMainConditionType::Battle",
+            "GameCondition": "ECyTaskGameConditionType::None",
+            "GameResult": "ECyGameResultType::None",
+            "RoundResult": "ECyRoundResultType::None",
+            "bFriendTeam": false,
+            "bNoFriendTeam": false,
+            "BattleCondition": "ECyTaskBattleConditionType::HitNum",
+            "bHeadshot": true,
+            "bHitBody": false,
+            "bFirstKill": false,
+            "bRevenge": false,
+            "MultiKillLimit": 0,
+            "HitDistLimit": 0,
+            "bBlind": false,
+            "ActionCondition": "ECyTaskActionConditionType::None",
+            "RoleIds": [],
+            "RoleProfessions": [],
+            "RoleTeams": [],
+            "MeshModes": [],
+            "EnemyMeshModes": [],
+            "WeaponTypes": [],
+            "WeaponHoldType": [],
+            "SkillTypes": [],
+            "Num": 60,
+            "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
+            "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
+            "BehaviorId": 0,
+            "RandomCondition": []
+          },
+          "LimitConditions": []
+        }
+      ],
+      "TaskLimit": {
+        "GameTypes": [],
+        "ModeTypes": []
+      },
+      "WaitTime": 172800,
+      "DurationTime": 2592000,
+      "IsTemplate": true,
+      "RandomRole": [
+        0
+      ]
+    }
+  }
+}

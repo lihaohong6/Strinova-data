@@ -2,6 +2,7 @@
   "Type": "DataTable",
   "Name": "NoviceMainTask",
   "Class": "UScriptClass'DataTable'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
   "Properties": {
     "RowStruct": {
       "ObjectName": "ScriptStruct'CyNoviceMainTaskTableRow'",
@@ -15,13 +16,70 @@
       "Desc": {
         "Namespace": "NoviceMainTask",
         "Key": "70001_Desc",
-        "SourceString": "完成<Outline-Medium-Yellow20>{0}/{1}</>场比赛",
-        "LocalizedString": "完成<Outline-Medium-Yellow20>{0}/{1}</>场比赛"
+        "SourceString": "登录游戏{0}/{1}",
+        "LocalizedString": "登录游戏{0}/{1}"
       },
       "Type": 7,
       "Prize": [
         {
-          "ItemId": 115,
+          "ItemId": 3,
+          "ItemAmount": 100
+        }
+      ],
+      "TaskConditions": [
+        {
+          "MainCondition": {
+            "MainType": "ECyTaskMainConditionType::Lobby",
+            "GameCondition": "ECyTaskGameConditionType::None",
+            "GameResult": "ECyGameResultType::None",
+            "RoundResult": "ECyRoundResultType::None",
+            "bFriendTeam": false,
+            "bNoFriendTeam": false,
+            "BattleCondition": "ECyTaskBattleConditionType::None",
+            "bHeadshot": false,
+            "bHitBody": false,
+            "bFirstKill": false,
+            "bRevenge": false,
+            "MultiKillLimit": 0,
+            "HitDistLimit": 0,
+            "bBlind": false,
+            "ActionCondition": "ECyTaskActionConditionType::None",
+            "RoleIds": [],
+            "RoleProfessions": [],
+            "RoleTeams": [],
+            "MeshModes": [],
+            "EnemyMeshModes": [],
+            "WeaponTypes": [],
+            "WeaponHoldType": [],
+            "SkillTypes": [],
+            "Num": 1,
+            "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
+            "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
+            "BehaviorId": 15,
+            "RandomCondition": []
+          },
+          "LimitConditions": []
+        }
+      ],
+      "TaskLimit": {
+        "GameTypes": [],
+        "ModeTypes": []
+      },
+      "GoTo": 0
+    },
+    "70002": {
+      "Id": 70002,
+      "NextId": 70003,
+      "Desc": {
+        "Namespace": "NoviceMainTask",
+        "Key": "70002_Desc",
+        "SourceString": "完成{0}/{1}场比赛",
+        "LocalizedString": "完成{0}/{1}场比赛"
+      },
+      "Type": 7,
+      "Prize": [
+        {
+          "ItemId": 131,
           "ItemAmount": 1
         }
       ],
@@ -54,7 +112,8 @@
             "Num": 2,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
-            "BehaviorId": 0
+            "BehaviorId": 0,
+            "RandomCondition": []
           },
           "LimitConditions": []
         }
@@ -65,19 +124,135 @@
       },
       "GoTo": 12303
     },
-    "70002": {
-      "Id": 70002,
-      "NextId": 70003,
+    "70003": {
+      "Id": 70003,
+      "NextId": 70004,
       "Desc": {
         "Namespace": "NoviceMainTask",
-        "Key": "70002_Desc",
-        "SourceString": "获得<Outline-Medium-Yellow20>{0}/{1}</>场比赛胜利",
-        "LocalizedString": "获得<Outline-Medium-Yellow20>{0}/{1}</>场比赛胜利"
+        "Key": "70003_Desc",
+        "SourceString": "账号等级达到{0}/{1}",
+        "LocalizedString": "账号等级达到{0}/{1}"
       },
       "Type": 7,
       "Prize": [
         {
-          "ItemId": 146,
+          "ItemId": 3,
+          "ItemAmount": 100
+        }
+      ],
+      "TaskConditions": [
+        {
+          "MainCondition": {
+            "MainType": "ECyTaskMainConditionType::Lobby",
+            "GameCondition": "ECyTaskGameConditionType::None",
+            "GameResult": "ECyGameResultType::None",
+            "RoundResult": "ECyRoundResultType::None",
+            "bFriendTeam": false,
+            "bNoFriendTeam": false,
+            "BattleCondition": "ECyTaskBattleConditionType::None",
+            "bHeadshot": false,
+            "bHitBody": false,
+            "bFirstKill": false,
+            "bRevenge": false,
+            "MultiKillLimit": 0,
+            "HitDistLimit": 0,
+            "bBlind": false,
+            "ActionCondition": "ECyTaskActionConditionType::None",
+            "RoleIds": [],
+            "RoleProfessions": [],
+            "RoleTeams": [],
+            "MeshModes": [],
+            "EnemyMeshModes": [],
+            "WeaponTypes": [],
+            "WeaponHoldType": [],
+            "SkillTypes": [],
+            "Num": 5,
+            "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
+            "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
+            "BehaviorId": 21,
+            "RandomCondition": []
+          },
+          "LimitConditions": []
+        }
+      ],
+      "TaskLimit": {
+        "GameTypes": [],
+        "ModeTypes": []
+      },
+      "GoTo": 12303
+    },
+    "70004": {
+      "Id": 70004,
+      "NextId": 70005,
+      "Desc": {
+        "Namespace": "NoviceMainTask",
+        "Key": "70004_Desc",
+        "SourceString": "完成{0}/{1}场爆破入侵比赛",
+        "LocalizedString": "完成{0}/{1}场爆破入侵比赛"
+      },
+      "Type": 7,
+      "Prize": [
+        {
+          "ItemId": 10001,
+          "ItemAmount": 1
+        }
+      ],
+      "TaskConditions": [
+        {
+          "MainCondition": {
+            "MainType": "ECyTaskMainConditionType::Game",
+            "GameCondition": "ECyTaskGameConditionType::GameNum",
+            "GameResult": "ECyGameResultType::None",
+            "RoundResult": "ECyRoundResultType::None",
+            "bFriendTeam": false,
+            "bNoFriendTeam": false,
+            "BattleCondition": "ECyTaskBattleConditionType::None",
+            "bHeadshot": false,
+            "bHitBody": false,
+            "bFirstKill": false,
+            "bRevenge": false,
+            "MultiKillLimit": 0,
+            "HitDistLimit": 0,
+            "bBlind": false,
+            "ActionCondition": "ECyTaskActionConditionType::None",
+            "RoleIds": [],
+            "RoleProfessions": [],
+            "RoleTeams": [],
+            "MeshModes": [],
+            "EnemyMeshModes": [],
+            "WeaponTypes": [],
+            "WeaponHoldType": [],
+            "SkillTypes": [],
+            "Num": 1,
+            "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
+            "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
+            "BehaviorId": 0,
+            "RandomCondition": []
+          },
+          "LimitConditions": []
+        }
+      ],
+      "TaskLimit": {
+        "GameTypes": [],
+        "ModeTypes": [
+          "EPMGameModeType::Bomb"
+        ]
+      },
+      "GoTo": 12303
+    },
+    "70005": {
+      "Id": 70005,
+      "NextId": 70006,
+      "Desc": {
+        "Namespace": "NoviceMainTask",
+        "Key": "70005_Desc",
+        "SourceString": "获得{0}/{1}场比赛胜利",
+        "LocalizedString": "获得{0}/{1}场比赛胜利"
+      },
+      "Type": 7,
+      "Prize": [
+        {
+          "ItemId": 10212,
           "ItemAmount": 1
         }
       ],
@@ -107,10 +282,11 @@
             "WeaponTypes": [],
             "WeaponHoldType": [],
             "SkillTypes": [],
-            "Num": 2,
+            "Num": 1,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
-            "BehaviorId": 0
+            "BehaviorId": 0,
+            "RandomCondition": []
           },
           "LimitConditions": []
         }
@@ -121,19 +297,76 @@
       },
       "GoTo": 12303
     },
-    "70003": {
-      "Id": 70003,
-      "NextId": 70004,
+    "70006": {
+      "Id": 70006,
+      "NextId": 70007,
       "Desc": {
         "Namespace": "NoviceMainTask",
-        "Key": "70001_Desc",
-        "SourceString": "完成<Outline-Medium-Yellow20>{0}/{1}</>场比赛",
-        "LocalizedString": "完成<Outline-Medium-Yellow20>{0}/{1}</>场比赛"
+        "Key": "70003_Desc",
+        "SourceString": "账号等级达到{0}/{1}",
+        "LocalizedString": "账号等级达到{0}/{1}"
       },
       "Type": 7,
       "Prize": [
         {
-          "ItemId": 137,
+          "ItemId": 3,
+          "ItemAmount": 100
+        }
+      ],
+      "TaskConditions": [
+        {
+          "MainCondition": {
+            "MainType": "ECyTaskMainConditionType::Lobby",
+            "GameCondition": "ECyTaskGameConditionType::None",
+            "GameResult": "ECyGameResultType::None",
+            "RoundResult": "ECyRoundResultType::None",
+            "bFriendTeam": false,
+            "bNoFriendTeam": false,
+            "BattleCondition": "ECyTaskBattleConditionType::None",
+            "bHeadshot": false,
+            "bHitBody": false,
+            "bFirstKill": false,
+            "bRevenge": false,
+            "MultiKillLimit": 0,
+            "HitDistLimit": 0,
+            "bBlind": false,
+            "ActionCondition": "ECyTaskActionConditionType::None",
+            "RoleIds": [],
+            "RoleProfessions": [],
+            "RoleTeams": [],
+            "MeshModes": [],
+            "EnemyMeshModes": [],
+            "WeaponTypes": [],
+            "WeaponHoldType": [],
+            "SkillTypes": [],
+            "Num": 8,
+            "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
+            "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
+            "BehaviorId": 21,
+            "RandomCondition": []
+          },
+          "LimitConditions": []
+        }
+      ],
+      "TaskLimit": {
+        "GameTypes": [],
+        "ModeTypes": []
+      },
+      "GoTo": 12303
+    },
+    "70007": {
+      "Id": 70007,
+      "NextId": 70008,
+      "Desc": {
+        "Namespace": "NoviceMainTask",
+        "Key": "70007_Desc",
+        "SourceString": "完成{0}/{1}场个人乱斗比赛",
+        "LocalizedString": "完成{0}/{1}场个人乱斗比赛"
+      },
+      "Type": 7,
+      "Prize": [
+        {
+          "ItemId": 22001,
           "ItemAmount": 1
         }
       ],
@@ -163,10 +396,70 @@
             "WeaponTypes": [],
             "WeaponHoldType": [],
             "SkillTypes": [],
-            "Num": 4,
+            "Num": 1,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
-            "BehaviorId": 0
+            "BehaviorId": 0,
+            "RandomCondition": []
+          },
+          "LimitConditions": []
+        }
+      ],
+      "TaskLimit": {
+        "GameTypes": [],
+        "ModeTypes": [
+          "EPMGameModeType::MassFight"
+        ]
+      },
+      "GoTo": 12303
+    },
+    "70008": {
+      "Id": 70008,
+      "NextId": 70009,
+      "Desc": {
+        "Namespace": "NoviceMainTask",
+        "Key": "70002_Desc",
+        "SourceString": "完成{0}/{1}场比赛",
+        "LocalizedString": "完成{0}/{1}场比赛"
+      },
+      "Type": 7,
+      "Prize": [
+        {
+          "ItemId": 3,
+          "ItemAmount": 100
+        }
+      ],
+      "TaskConditions": [
+        {
+          "MainCondition": {
+            "MainType": "ECyTaskMainConditionType::Game",
+            "GameCondition": "ECyTaskGameConditionType::GameNum",
+            "GameResult": "ECyGameResultType::None",
+            "RoundResult": "ECyRoundResultType::None",
+            "bFriendTeam": false,
+            "bNoFriendTeam": false,
+            "BattleCondition": "ECyTaskBattleConditionType::None",
+            "bHeadshot": false,
+            "bHitBody": false,
+            "bFirstKill": false,
+            "bRevenge": false,
+            "MultiKillLimit": 0,
+            "HitDistLimit": 0,
+            "bBlind": false,
+            "ActionCondition": "ECyTaskActionConditionType::None",
+            "RoleIds": [],
+            "RoleProfessions": [],
+            "RoleTeams": [],
+            "MeshModes": [],
+            "EnemyMeshModes": [],
+            "WeaponTypes": [],
+            "WeaponHoldType": [],
+            "SkillTypes": [],
+            "Num": 2,
+            "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
+            "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
+            "BehaviorId": 0,
+            "RandomCondition": []
           },
           "LimitConditions": []
         }
@@ -177,20 +470,77 @@
       },
       "GoTo": 12303
     },
-    "70004": {
-      "Id": 70004,
-      "NextId": 70005,
+    "70009": {
+      "Id": 70009,
+      "NextId": 70010,
       "Desc": {
         "Namespace": "NoviceMainTask",
-        "Key": "70001_Desc",
-        "SourceString": "完成<Outline-Medium-Yellow20>{0}/{1}</>场比赛",
-        "LocalizedString": "完成<Outline-Medium-Yellow20>{0}/{1}</>场比赛"
+        "Key": "70003_Desc",
+        "SourceString": "账号等级达到{0}/{1}",
+        "LocalizedString": "账号等级达到{0}/{1}"
       },
       "Type": 7,
       "Prize": [
         {
-          "ItemId": 2,
-          "ItemAmount": 10
+          "ItemId": 3,
+          "ItemAmount": 100
+        }
+      ],
+      "TaskConditions": [
+        {
+          "MainCondition": {
+            "MainType": "ECyTaskMainConditionType::Lobby",
+            "GameCondition": "ECyTaskGameConditionType::None",
+            "GameResult": "ECyGameResultType::None",
+            "RoundResult": "ECyRoundResultType::None",
+            "bFriendTeam": false,
+            "bNoFriendTeam": false,
+            "BattleCondition": "ECyTaskBattleConditionType::None",
+            "bHeadshot": false,
+            "bHitBody": false,
+            "bFirstKill": false,
+            "bRevenge": false,
+            "MultiKillLimit": 0,
+            "HitDistLimit": 0,
+            "bBlind": false,
+            "ActionCondition": "ECyTaskActionConditionType::None",
+            "RoleIds": [],
+            "RoleProfessions": [],
+            "RoleTeams": [],
+            "MeshModes": [],
+            "EnemyMeshModes": [],
+            "WeaponTypes": [],
+            "WeaponHoldType": [],
+            "SkillTypes": [],
+            "Num": 10,
+            "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
+            "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
+            "BehaviorId": 21,
+            "RandomCondition": []
+          },
+          "LimitConditions": []
+        }
+      ],
+      "TaskLimit": {
+        "GameTypes": [],
+        "ModeTypes": []
+      },
+      "GoTo": 12303
+    },
+    "70010": {
+      "Id": 70010,
+      "NextId": 0,
+      "Desc": {
+        "Namespace": "NoviceMainTask",
+        "Key": "70010_Desc",
+        "SourceString": "完成{0}/{1}场排位赛",
+        "LocalizedString": "完成{0}/{1}场排位赛"
+      },
+      "Type": 7,
+      "Prize": [
+        {
+          "ItemId": 3,
+          "ItemAmount": 100
         }
       ],
       "TaskConditions": [
@@ -222,352 +572,19 @@
             "Num": 5,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
-            "BehaviorId": 0
+            "BehaviorId": 0,
+            "RandomCondition": []
           },
           "LimitConditions": []
         }
       ],
       "TaskLimit": {
-        "GameTypes": [],
+        "GameTypes": [
+          "ECyGameType::Rank"
+        ],
         "ModeTypes": []
       },
-      "GoTo": 12303
-    },
-    "70005": {
-      "Id": 70005,
-      "NextId": 70006,
-      "Desc": {
-        "Namespace": "NoviceMainTask",
-        "Key": "70001_Desc",
-        "SourceString": "完成<Outline-Medium-Yellow20>{0}/{1}</>场比赛",
-        "LocalizedString": "完成<Outline-Medium-Yellow20>{0}/{1}</>场比赛"
-      },
-      "Type": 7,
-      "Prize": [
-        {
-          "ItemId": 2,
-          "ItemAmount": 60
-        }
-      ],
-      "TaskConditions": [
-        {
-          "MainCondition": {
-            "MainType": "ECyTaskMainConditionType::Game",
-            "GameCondition": "ECyTaskGameConditionType::GameNum",
-            "GameResult": "ECyGameResultType::None",
-            "RoundResult": "ECyRoundResultType::None",
-            "bFriendTeam": false,
-            "bNoFriendTeam": false,
-            "BattleCondition": "ECyTaskBattleConditionType::None",
-            "bHeadshot": false,
-            "bHitBody": false,
-            "bFirstKill": false,
-            "bRevenge": false,
-            "MultiKillLimit": 0,
-            "HitDistLimit": 0,
-            "bBlind": false,
-            "ActionCondition": "ECyTaskActionConditionType::None",
-            "RoleIds": [],
-            "RoleProfessions": [],
-            "RoleTeams": [],
-            "MeshModes": [],
-            "EnemyMeshModes": [],
-            "WeaponTypes": [],
-            "WeaponHoldType": [],
-            "SkillTypes": [],
-            "Num": 6,
-            "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
-            "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
-            "BehaviorId": 0
-          },
-          "LimitConditions": []
-        }
-      ],
-      "TaskLimit": {
-        "GameTypes": [],
-        "ModeTypes": []
-      },
-      "GoTo": 12303
-    },
-    "70006": {
-      "Id": 70006,
-      "NextId": 70007,
-      "Desc": {
-        "Namespace": "NoviceMainTask",
-        "Key": "70001_Desc",
-        "SourceString": "完成<Outline-Medium-Yellow20>{0}/{1}</>场比赛",
-        "LocalizedString": "完成<Outline-Medium-Yellow20>{0}/{1}</>场比赛"
-      },
-      "Type": 7,
-      "Prize": [
-        {
-          "ItemId": 2,
-          "ItemAmount": 10
-        }
-      ],
-      "TaskConditions": [
-        {
-          "MainCondition": {
-            "MainType": "ECyTaskMainConditionType::Game",
-            "GameCondition": "ECyTaskGameConditionType::GameNum",
-            "GameResult": "ECyGameResultType::None",
-            "RoundResult": "ECyRoundResultType::None",
-            "bFriendTeam": false,
-            "bNoFriendTeam": false,
-            "BattleCondition": "ECyTaskBattleConditionType::None",
-            "bHeadshot": false,
-            "bHitBody": false,
-            "bFirstKill": false,
-            "bRevenge": false,
-            "MultiKillLimit": 0,
-            "HitDistLimit": 0,
-            "bBlind": false,
-            "ActionCondition": "ECyTaskActionConditionType::None",
-            "RoleIds": [],
-            "RoleProfessions": [],
-            "RoleTeams": [],
-            "MeshModes": [],
-            "EnemyMeshModes": [],
-            "WeaponTypes": [],
-            "WeaponHoldType": [],
-            "SkillTypes": [],
-            "Num": 7,
-            "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
-            "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
-            "BehaviorId": 0
-          },
-          "LimitConditions": []
-        }
-      ],
-      "TaskLimit": {
-        "GameTypes": [],
-        "ModeTypes": []
-      },
-      "GoTo": 12303
-    },
-    "70007": {
-      "Id": 70007,
-      "NextId": 70008,
-      "Desc": {
-        "Namespace": "NoviceMainTask",
-        "Key": "70001_Desc",
-        "SourceString": "完成<Outline-Medium-Yellow20>{0}/{1}</>场比赛",
-        "LocalizedString": "完成<Outline-Medium-Yellow20>{0}/{1}</>场比赛"
-      },
-      "Type": 7,
-      "Prize": [
-        {
-          "ItemId": 2,
-          "ItemAmount": 20
-        }
-      ],
-      "TaskConditions": [
-        {
-          "MainCondition": {
-            "MainType": "ECyTaskMainConditionType::Game",
-            "GameCondition": "ECyTaskGameConditionType::GameNum",
-            "GameResult": "ECyGameResultType::None",
-            "RoundResult": "ECyRoundResultType::None",
-            "bFriendTeam": false,
-            "bNoFriendTeam": false,
-            "BattleCondition": "ECyTaskBattleConditionType::None",
-            "bHeadshot": false,
-            "bHitBody": false,
-            "bFirstKill": false,
-            "bRevenge": false,
-            "MultiKillLimit": 0,
-            "HitDistLimit": 0,
-            "bBlind": false,
-            "ActionCondition": "ECyTaskActionConditionType::None",
-            "RoleIds": [],
-            "RoleProfessions": [],
-            "RoleTeams": [],
-            "MeshModes": [],
-            "EnemyMeshModes": [],
-            "WeaponTypes": [],
-            "WeaponHoldType": [],
-            "SkillTypes": [],
-            "Num": 8,
-            "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
-            "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
-            "BehaviorId": 0
-          },
-          "LimitConditions": []
-        }
-      ],
-      "TaskLimit": {
-        "GameTypes": [],
-        "ModeTypes": []
-      },
-      "GoTo": 12303
-    },
-    "70008": {
-      "Id": 70008,
-      "NextId": 70009,
-      "Desc": {
-        "Namespace": "NoviceMainTask",
-        "Key": "70001_Desc",
-        "SourceString": "完成<Outline-Medium-Yellow20>{0}/{1}</>场比赛",
-        "LocalizedString": "完成<Outline-Medium-Yellow20>{0}/{1}</>场比赛"
-      },
-      "Type": 7,
-      "Prize": [
-        {
-          "ItemId": 2,
-          "ItemAmount": 30
-        }
-      ],
-      "TaskConditions": [
-        {
-          "MainCondition": {
-            "MainType": "ECyTaskMainConditionType::Game",
-            "GameCondition": "ECyTaskGameConditionType::GameNum",
-            "GameResult": "ECyGameResultType::None",
-            "RoundResult": "ECyRoundResultType::None",
-            "bFriendTeam": false,
-            "bNoFriendTeam": false,
-            "BattleCondition": "ECyTaskBattleConditionType::None",
-            "bHeadshot": false,
-            "bHitBody": false,
-            "bFirstKill": false,
-            "bRevenge": false,
-            "MultiKillLimit": 0,
-            "HitDistLimit": 0,
-            "bBlind": false,
-            "ActionCondition": "ECyTaskActionConditionType::None",
-            "RoleIds": [],
-            "RoleProfessions": [],
-            "RoleTeams": [],
-            "MeshModes": [],
-            "EnemyMeshModes": [],
-            "WeaponTypes": [],
-            "WeaponHoldType": [],
-            "SkillTypes": [],
-            "Num": 9,
-            "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
-            "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
-            "BehaviorId": 0
-          },
-          "LimitConditions": []
-        }
-      ],
-      "TaskLimit": {
-        "GameTypes": [],
-        "ModeTypes": []
-      },
-      "GoTo": 12303
-    },
-    "70009": {
-      "Id": 70009,
-      "NextId": 70010,
-      "Desc": {
-        "Namespace": "NoviceMainTask",
-        "Key": "70001_Desc",
-        "SourceString": "完成<Outline-Medium-Yellow20>{0}/{1}</>场比赛",
-        "LocalizedString": "完成<Outline-Medium-Yellow20>{0}/{1}</>场比赛"
-      },
-      "Type": 7,
-      "Prize": [
-        {
-          "ItemId": 2,
-          "ItemAmount": 40
-        }
-      ],
-      "TaskConditions": [
-        {
-          "MainCondition": {
-            "MainType": "ECyTaskMainConditionType::Game",
-            "GameCondition": "ECyTaskGameConditionType::GameNum",
-            "GameResult": "ECyGameResultType::None",
-            "RoundResult": "ECyRoundResultType::None",
-            "bFriendTeam": false,
-            "bNoFriendTeam": false,
-            "BattleCondition": "ECyTaskBattleConditionType::None",
-            "bHeadshot": false,
-            "bHitBody": false,
-            "bFirstKill": false,
-            "bRevenge": false,
-            "MultiKillLimit": 0,
-            "HitDistLimit": 0,
-            "bBlind": false,
-            "ActionCondition": "ECyTaskActionConditionType::None",
-            "RoleIds": [],
-            "RoleProfessions": [],
-            "RoleTeams": [],
-            "MeshModes": [],
-            "EnemyMeshModes": [],
-            "WeaponTypes": [],
-            "WeaponHoldType": [],
-            "SkillTypes": [],
-            "Num": 10,
-            "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
-            "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
-            "BehaviorId": 0
-          },
-          "LimitConditions": []
-        }
-      ],
-      "TaskLimit": {
-        "GameTypes": [],
-        "ModeTypes": []
-      },
-      "GoTo": 12303
-    },
-    "70010": {
-      "Id": 70010,
-      "NextId": 0,
-      "Desc": {
-        "Namespace": "NoviceMainTask",
-        "Key": "70001_Desc",
-        "SourceString": "完成<Outline-Medium-Yellow20>{0}/{1}</>场比赛",
-        "LocalizedString": "完成<Outline-Medium-Yellow20>{0}/{1}</>场比赛"
-      },
-      "Type": 7,
-      "Prize": [
-        {
-          "ItemId": 2,
-          "ItemAmount": 50
-        }
-      ],
-      "TaskConditions": [
-        {
-          "MainCondition": {
-            "MainType": "ECyTaskMainConditionType::Game",
-            "GameCondition": "ECyTaskGameConditionType::GameNum",
-            "GameResult": "ECyGameResultType::None",
-            "RoundResult": "ECyRoundResultType::None",
-            "bFriendTeam": false,
-            "bNoFriendTeam": false,
-            "BattleCondition": "ECyTaskBattleConditionType::None",
-            "bHeadshot": false,
-            "bHitBody": false,
-            "bFirstKill": false,
-            "bRevenge": false,
-            "MultiKillLimit": 0,
-            "HitDistLimit": 0,
-            "bBlind": false,
-            "ActionCondition": "ECyTaskActionConditionType::None",
-            "RoleIds": [],
-            "RoleProfessions": [],
-            "RoleTeams": [],
-            "MeshModes": [],
-            "EnemyMeshModes": [],
-            "WeaponTypes": [],
-            "WeaponHoldType": [],
-            "SkillTypes": [],
-            "Num": 11,
-            "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
-            "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
-            "BehaviorId": 0
-          },
-          "LimitConditions": []
-        }
-      ],
-      "TaskLimit": {
-        "GameTypes": [],
-        "ModeTypes": []
-      },
-      "GoTo": 12303
+      "GoTo": 12301
     }
   }
 }

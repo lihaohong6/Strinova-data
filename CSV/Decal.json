@@ -2,6 +2,7 @@
   "Type": "DataTable",
   "Name": "Decal",
   "Class": "UScriptClass'DataTable'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
   "Properties": {
     "RowStruct": {
       "ObjectName": "ScriptStruct'CyDecalTableRow'",
@@ -55,7 +56,9 @@
       "GainParam1": [],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "OfficialWebsiteReservation"
+        "Key": "OfficialWebsiteReservation",
+        "SourceString": "官网预约",
+        "LocalizedString": "官网预约"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -106,7 +109,9 @@
       "GainParam1": [],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "OfficialWebsiteReservation"
+        "Key": "OfficialWebsiteReservation",
+        "SourceString": "官网预约",
+        "LocalizedString": "官网预约"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -157,7 +162,9 @@
       "GainParam1": [],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "OfficialWebsiteReservation"
+        "Key": "OfficialWebsiteReservation",
+        "SourceString": "官网预约",
+        "LocalizedString": "官网预约"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -259,14 +266,16 @@
       "GainParam2": {
         "SourceFmt": {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-          "Key": "CombatMedalreward_WithLevelParam"
+          "Key": "CombatMedalreward_WithLevelParam",
+          "SourceString": "战斗勋章{0}级奖励",
+          "LocalizedString": "战斗勋章{0}级奖励"
         },
         "Arguments": [
           {
             "Type": 4,
             "Value": {
               "Namespace": "",
-              "Key": "5891A33B459F8205FD46E39D1EDC8304",
+              "Key": "65E07BD846CBD367FFCE76A24E0E473F",
               "SourceString": "C",
               "LocalizedString": "C"
             }
@@ -323,14 +332,16 @@
       "GainParam2": {
         "SourceFmt": {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-          "Key": "BrilliantAchievementReward_WithLevelParam"
+          "Key": "BrilliantAchievementReward_WithLevelParam",
+          "SourceString": "光辉成就{0}级奖励",
+          "LocalizedString": "光辉成就{0}级奖励"
         },
         "Arguments": [
           {
             "Type": 4,
             "Value": {
               "Namespace": "",
-              "Key": "7DC1AB36474338A942A8AA8A84D435B9",
+              "Key": "ACE6E53A47BAE2177C13AD9698947728",
               "SourceString": "C",
               "LocalizedString": "C"
             }
@@ -387,14 +398,16 @@
       "GainParam2": {
         "SourceFmt": {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-          "Key": "GloryAchievementReward_WithLevelParam"
+          "Key": "GloryAchievementReward_WithLevelParam",
+          "SourceString": "荣耀成就{0}级奖励",
+          "LocalizedString": "荣耀成就{0}级奖励"
         },
         "Arguments": [
           {
             "Type": 4,
             "Value": {
               "Namespace": "",
-              "Key": "EF1AB8694DB21CCE8D7A07AE14FC3E6E",
+              "Key": "D455771F4E342845539CC48272B663BB",
               "SourceString": "C",
               "LocalizedString": "C"
             }
@@ -657,14 +670,18 @@
       "GainParam2": {
         "SourceFmt": {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-          "Key": "Dormitory_WithRoleNameParam"
+          "Key": "Dormitory_WithRoleNameParam",
+          "SourceString": "宿舍-{0}",
+          "LocalizedString": "宿舍-{0}"
         },
         "Arguments": [
           {
             "Type": 4,
             "Value": {
               "TableId": "/Game/PaperMan/CyTable/StringTable/ST_RoleName.ST_RoleName",
-              "Key": "Audrey_CAP"
+              "Key": "Audrey_CAP",
+              "SourceString": "奥黛丽",
+              "LocalizedString": "奥黛丽"
             }
           }
         ]
@@ -719,14 +736,18 @@
       "GainParam2": {
         "SourceFmt": {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-          "Key": "Dormitory_WithRoleNameParam"
+          "Key": "Dormitory_WithRoleNameParam",
+          "SourceString": "宿舍-{0}",
+          "LocalizedString": "宿舍-{0}"
         },
         "Arguments": [
           {
             "Type": 4,
             "Value": {
               "TableId": "/Game/PaperMan/CyTable/StringTable/ST_RoleName.ST_RoleName",
-              "Key": "Lawine_CAP"
+              "Key": "Lawine_CAP",
+              "SourceString": "拉薇",
+              "LocalizedString": "拉薇"
             }
           }
         ]
@@ -781,14 +802,18 @@
       "GainParam2": {
         "SourceFmt": {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-          "Key": "Dormitory_WithRoleNameParam"
+          "Key": "Dormitory_WithRoleNameParam",
+          "SourceString": "宿舍-{0}",
+          "LocalizedString": "宿舍-{0}"
         },
         "Arguments": [
           {
             "Type": 4,
             "Value": {
               "TableId": "/Game/PaperMan/CyTable/StringTable/ST_RoleName.ST_RoleName",
-              "Key": "Meredith_CAP"
+              "Key": "Meredith_CAP",
+              "SourceString": "梅瑞狄斯",
+              "LocalizedString": "梅瑞狄斯"
             }
           }
         ]
@@ -843,14 +868,18 @@
       "GainParam2": {
         "SourceFmt": {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-          "Key": "Dormitory_WithRoleNameParam"
+          "Key": "Dormitory_WithRoleNameParam",
+          "SourceString": "宿舍-{0}",
+          "LocalizedString": "宿舍-{0}"
         },
         "Arguments": [
           {
             "Type": 4,
             "Value": {
               "TableId": "/Game/PaperMan/CyTable/StringTable/ST_RoleName.ST_RoleName",
-              "Key": "Michelle_CAP"
+              "Key": "Michelle_CAP",
+              "SourceString": "米雪儿·李",
+              "LocalizedString": "米雪儿·李"
             }
           }
         ]
@@ -905,14 +934,18 @@
       "GainParam2": {
         "SourceFmt": {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-          "Key": "Dormitory_WithRoleNameParam"
+          "Key": "Dormitory_WithRoleNameParam",
+          "SourceString": "宿舍-{0}",
+          "LocalizedString": "宿舍-{0}"
         },
         "Arguments": [
           {
             "Type": 4,
             "Value": {
               "TableId": "/Game/PaperMan/CyTable/StringTable/ST_RoleName.ST_RoleName",
-              "Key": "Maddelena_CAP"
+              "Key": "Maddelena_CAP",
+              "SourceString": "玛德蕾娜",
+              "LocalizedString": "玛德蕾娜"
             }
           }
         ]
@@ -968,7 +1001,9 @@
       ],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "SpecialOperations"
+        "Key": "SpecialOperations",
+        "SourceString": "特别行动",
+        "LocalizedString": "特别行动"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -1020,14 +1055,18 @@
       "GainParam2": {
         "SourceFmt": {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-          "Key": "Dormitory_WithRoleNameParam"
+          "Key": "Dormitory_WithRoleNameParam",
+          "SourceString": "宿舍-{0}",
+          "LocalizedString": "宿舍-{0}"
         },
         "Arguments": [
           {
             "Type": 4,
             "Value": {
               "TableId": "/Game/PaperMan/CyTable/StringTable/ST_RoleName.ST_RoleName",
-              "Key": "Kokona_CAP"
+              "Key": "Kokona_CAP",
+              "SourceString": "心夏",
+              "LocalizedString": "心夏"
             }
           }
         ]
@@ -1134,14 +1173,18 @@
       "GainParam2": {
         "SourceFmt": {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-          "Key": "Dormitory_WithRoleNameParam"
+          "Key": "Dormitory_WithRoleNameParam",
+          "SourceString": "宿舍-{0}",
+          "LocalizedString": "宿舍-{0}"
         },
         "Arguments": [
           {
             "Type": 4,
             "Value": {
               "TableId": "/Game/PaperMan/CyTable/StringTable/ST_RoleName.ST_RoleName",
-              "Key": "Nobunaga_CAP"
+              "Key": "Nobunaga_CAP",
+              "SourceString": "信",
+              "LocalizedString": "信"
             }
           }
         ]
@@ -1196,14 +1239,18 @@
       "GainParam2": {
         "SourceFmt": {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-          "Key": "Dormitory_WithRoleNameParam"
+          "Key": "Dormitory_WithRoleNameParam",
+          "SourceString": "宿舍-{0}",
+          "LocalizedString": "宿舍-{0}"
         },
         "Arguments": [
           {
             "Type": 4,
             "Value": {
               "TableId": "/Game/PaperMan/CyTable/StringTable/ST_RoleName.ST_RoleName",
-              "Key": "Reiichi_CAP"
+              "Key": "Reiichi_CAP",
+              "SourceString": "令",
+              "LocalizedString": "令"
             }
           }
         ]
@@ -1258,14 +1305,18 @@
       "GainParam2": {
         "SourceFmt": {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-          "Key": "Dormitory_WithRoleNameParam"
+          "Key": "Dormitory_WithRoleNameParam",
+          "SourceString": "宿舍-{0}",
+          "LocalizedString": "宿舍-{0}"
         },
         "Arguments": [
           {
             "Type": 4,
             "Value": {
               "TableId": "/Game/PaperMan/CyTable/StringTable/ST_RoleName.ST_RoleName",
-              "Key": "MoBai_CAP"
+              "Key": "MoBai_CAP",
+              "SourceString": "白墨",
+              "LocalizedString": "白墨"
             }
           }
         ]
@@ -1320,14 +1371,18 @@
       "GainParam2": {
         "SourceFmt": {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-          "Key": "Dormitory_WithRoleNameParam"
+          "Key": "Dormitory_WithRoleNameParam",
+          "SourceString": "宿舍-{0}",
+          "LocalizedString": "宿舍-{0}"
         },
         "Arguments": [
           {
             "Type": 4,
             "Value": {
               "TableId": "/Game/PaperMan/CyTable/StringTable/ST_RoleName.ST_RoleName",
-              "Key": "Ming_CAP"
+              "Key": "Ming_CAP",
+              "SourceString": "明",
+              "LocalizedString": "明"
             }
           }
         ]
@@ -1382,7 +1437,9 @@
       ],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "RoleWeaponPackageGift"
+        "Key": "RoleWeaponPackageGift",
+        "SourceString": "套装赠品",
+        "LocalizedString": "套装赠品"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -1391,7 +1448,7 @@
       "Id": 30000026,
       "BoolLoad": false,
       "Available": true,
-      "AvailableState": 1,
+      "AvailableState": 2,
       "Name": {
         "Namespace": "Decal",
         "Key": "30000026_Name",
@@ -1443,7 +1500,7 @@
       "Id": 30000027,
       "BoolLoad": false,
       "Available": true,
-      "AvailableState": 1,
+      "AvailableState": 2,
       "Name": {
         "Namespace": "Decal",
         "Key": "30000027_Name",
@@ -1642,14 +1699,18 @@
       "GainParam2": {
         "SourceFmt": {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-          "Key": "Dormitory_WithRoleNameParam"
+          "Key": "Dormitory_WithRoleNameParam",
+          "SourceString": "宿舍-{0}",
+          "LocalizedString": "宿舍-{0}"
         },
         "Arguments": [
           {
             "Type": 4,
             "Value": {
               "TableId": "/Game/PaperMan/CyTable/StringTable/ST_RoleName.ST_RoleName",
-              "Key": "HuiXing_CAP"
+              "Key": "HuiXing_CAP",
+              "SourceString": "星绘",
+              "LocalizedString": "星绘"
             }
           }
         ]
@@ -1704,14 +1765,18 @@
       "GainParam2": {
         "SourceFmt": {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-          "Key": "Dormitory_WithRoleNameParam"
+          "Key": "Dormitory_WithRoleNameParam",
+          "SourceString": "宿舍-{0}",
+          "LocalizedString": "宿舍-{0}"
         },
         "Arguments": [
           {
             "Type": 4,
             "Value": {
               "TableId": "/Game/PaperMan/CyTable/StringTable/ST_RoleName.ST_RoleName",
-              "Key": "HuiXing_CAP"
+              "Key": "HuiXing_CAP",
+              "SourceString": "星绘",
+              "LocalizedString": "星绘"
             }
           }
         ]
@@ -1870,14 +1935,18 @@
       "GainParam2": {
         "SourceFmt": {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-          "Key": "Dormitory_WithRoleNameParam"
+          "Key": "Dormitory_WithRoleNameParam",
+          "SourceString": "宿舍-{0}",
+          "LocalizedString": "宿舍-{0}"
         },
         "Arguments": [
           {
             "Type": 4,
             "Value": {
               "TableId": "/Game/PaperMan/CyTable/StringTable/ST_RoleName.ST_RoleName",
-              "Key": "Audrey_CAP"
+              "Key": "Audrey_CAP",
+              "SourceString": "奥黛丽",
+              "LocalizedString": "奥黛丽"
             }
           }
         ]
@@ -1932,14 +2001,18 @@
       "GainParam2": {
         "SourceFmt": {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-          "Key": "Dormitory_WithRoleNameParam"
+          "Key": "Dormitory_WithRoleNameParam",
+          "SourceString": "宿舍-{0}",
+          "LocalizedString": "宿舍-{0}"
         },
         "Arguments": [
           {
             "Type": 4,
             "Value": {
               "TableId": "/Game/PaperMan/CyTable/StringTable/ST_RoleName.ST_RoleName",
-              "Key": "Lawine_CAP"
+              "Key": "Lawine_CAP",
+              "SourceString": "拉薇",
+              "LocalizedString": "拉薇"
             }
           }
         ]
@@ -1994,14 +2067,18 @@
       "GainParam2": {
         "SourceFmt": {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-          "Key": "Dormitory_WithRoleNameParam"
+          "Key": "Dormitory_WithRoleNameParam",
+          "SourceString": "宿舍-{0}",
+          "LocalizedString": "宿舍-{0}"
         },
         "Arguments": [
           {
             "Type": 4,
             "Value": {
               "TableId": "/Game/PaperMan/CyTable/StringTable/ST_RoleName.ST_RoleName",
-              "Key": "Meredith_CAP"
+              "Key": "Meredith_CAP",
+              "SourceString": "梅瑞狄斯",
+              "LocalizedString": "梅瑞狄斯"
             }
           }
         ]
@@ -2056,14 +2133,18 @@
       "GainParam2": {
         "SourceFmt": {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-          "Key": "Dormitory_WithRoleNameParam"
+          "Key": "Dormitory_WithRoleNameParam",
+          "SourceString": "宿舍-{0}",
+          "LocalizedString": "宿舍-{0}"
         },
         "Arguments": [
           {
             "Type": 4,
             "Value": {
               "TableId": "/Game/PaperMan/CyTable/StringTable/ST_RoleName.ST_RoleName",
-              "Key": "Michelle_CAP"
+              "Key": "Michelle_CAP",
+              "SourceString": "米雪儿·李",
+              "LocalizedString": "米雪儿·李"
             }
           }
         ]
@@ -2222,14 +2303,18 @@
       "GainParam2": {
         "SourceFmt": {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-          "Key": "Dormitory_WithRoleNameParam"
+          "Key": "Dormitory_WithRoleNameParam",
+          "SourceString": "宿舍-{0}",
+          "LocalizedString": "宿舍-{0}"
         },
         "Arguments": [
           {
             "Type": 4,
             "Value": {
               "TableId": "/Game/PaperMan/CyTable/StringTable/ST_RoleName.ST_RoleName",
-              "Key": "Kokona_CAP"
+              "Key": "Kokona_CAP",
+              "SourceString": "心夏",
+              "LocalizedString": "心夏"
             }
           }
         ]
@@ -2397,7 +2482,7 @@
       "Id": 30000044,
       "BoolLoad": false,
       "Available": false,
-      "AvailableState": 1,
+      "AvailableState": 2,
       "Name": {
         "Namespace": "Decal",
         "Key": "30000044_Name",
@@ -2449,7 +2534,7 @@
       "Id": 30000045,
       "BoolLoad": false,
       "Available": false,
-      "AvailableState": 0,
+      "AvailableState": 2,
       "Name": {
         "Namespace": "Decal",
         "Key": "30000045_Name",
@@ -2486,13 +2571,16 @@
       "LimitParam": 160,
       "GainTypeMb": [],
       "GainType": [
-        1
+        6
       ],
       "GainParam1": [
         30000045
       ],
       "GainParam2": {
-        "CultureInvariantString": null
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
+        "Key": "LimitedTimeMall",
+        "SourceString": "限时商城",
+        "LocalizedString": "限时商城"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -2647,7 +2735,9 @@
       "GainParam1": [],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "MichellePlayTime"
+        "Key": "MichellePlayTime",
+        "SourceString": "米雪儿游戏时间",
+        "LocalizedString": "米雪儿游戏时间"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -2698,7 +2788,9 @@
       "GainParam1": [],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "MichellePlayTime"
+        "Key": "MichellePlayTime",
+        "SourceString": "米雪儿游戏时间",
+        "LocalizedString": "米雪儿游戏时间"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -2749,7 +2841,9 @@
       "GainParam1": [],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "MichellePlayTime"
+        "Key": "MichellePlayTime",
+        "SourceString": "米雪儿游戏时间",
+        "LocalizedString": "米雪儿游戏时间"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -3114,7 +3208,9 @@
       ],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "SpecialOperations"
+        "Key": "SpecialOperations",
+        "SourceString": "特别行动",
+        "LocalizedString": "特别行动"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -3167,7 +3263,9 @@
       ],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "SpecialOperations"
+        "Key": "SpecialOperations",
+        "SourceString": "特别行动",
+        "LocalizedString": "特别行动"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -3270,7 +3368,9 @@
       ],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "SpecialOperations"
+        "Key": "SpecialOperations",
+        "SourceString": "特别行动",
+        "LocalizedString": "特别行动"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -3321,7 +3421,9 @@
       "GainParam1": [],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "SpecialOperations"
+        "Key": "SpecialOperations",
+        "SourceString": "特别行动",
+        "LocalizedString": "特别行动"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -3374,7 +3476,9 @@
       ],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "SpecialOperations"
+        "Key": "SpecialOperations",
+        "SourceString": "特别行动",
+        "LocalizedString": "特别行动"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -3425,7 +3529,9 @@
       "GainParam1": [],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "MichellePlayTime"
+        "Key": "MichellePlayTime",
+        "SourceString": "米雪儿游戏时间",
+        "LocalizedString": "米雪儿游戏时间"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -3478,7 +3584,9 @@
       ],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "SpecialOperations"
+        "Key": "SpecialOperations",
+        "SourceString": "特别行动",
+        "LocalizedString": "特别行动"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -3531,7 +3639,9 @@
       ],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "SpecialOperations"
+        "Key": "SpecialOperations",
+        "SourceString": "特别行动",
+        "LocalizedString": "特别行动"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -3584,7 +3694,9 @@
       ],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "SpecialOperations"
+        "Key": "SpecialOperations",
+        "SourceString": "特别行动",
+        "LocalizedString": "特别行动"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -3793,7 +3905,9 @@
       ],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "SpecialOperations"
+        "Key": "SpecialOperations",
+        "SourceString": "特别行动",
+        "LocalizedString": "特别行动"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -3846,7 +3960,9 @@
       ],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "SpecialOperations"
+        "Key": "SpecialOperations",
+        "SourceString": "特别行动",
+        "LocalizedString": "特别行动"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -3899,7 +4015,9 @@
       ],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "SpecialOperations"
+        "Key": "SpecialOperations",
+        "SourceString": "特别行动",
+        "LocalizedString": "特别行动"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -4160,7 +4278,9 @@
       ],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "SpecialOperations"
+        "Key": "SpecialOperations",
+        "SourceString": "特别行动",
+        "LocalizedString": "特别行动"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -4213,7 +4333,9 @@
       ],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "SpecialOperations"
+        "Key": "SpecialOperations",
+        "SourceString": "特别行动",
+        "LocalizedString": "特别行动"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -4266,7 +4388,9 @@
       ],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "SpecialOperations"
+        "Key": "SpecialOperations",
+        "SourceString": "特别行动",
+        "LocalizedString": "特别行动"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -4317,7 +4441,9 @@
       "GainParam1": [],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "SummerMusicFestival"
+        "Key": "SummerMusicFestival",
+        "SourceString": "夏日音乐节",
+        "LocalizedString": "夏日音乐节"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -4370,7 +4496,9 @@
       ],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "SpecialOperations"
+        "Key": "SpecialOperations",
+        "SourceString": "特别行动",
+        "LocalizedString": "特别行动"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -4423,7 +4551,9 @@
       ],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "SpecialOperations"
+        "Key": "SpecialOperations",
+        "SourceString": "特别行动",
+        "LocalizedString": "特别行动"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -4476,7 +4606,9 @@
       ],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "SpecialOperations"
+        "Key": "SpecialOperations",
+        "SourceString": "特别行动",
+        "LocalizedString": "特别行动"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -4581,7 +4713,9 @@
       ],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "SpecialOperations"
+        "Key": "SpecialOperations",
+        "SourceString": "特别行动",
+        "LocalizedString": "特别行动"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -4634,7 +4768,9 @@
       ],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "SpecialOperations"
+        "Key": "SpecialOperations",
+        "SourceString": "特别行动",
+        "LocalizedString": "特别行动"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -4687,7 +4823,9 @@
       ],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "SpecialOperations"
+        "Key": "SpecialOperations",
+        "SourceString": "特别行动",
+        "LocalizedString": "特别行动"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -4740,7 +4878,9 @@
       ],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "SpecialOperations"
+        "Key": "SpecialOperations",
+        "SourceString": "特别行动",
+        "LocalizedString": "特别行动"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -5053,7 +5193,9 @@
       ],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "LimitedTimeMall"
+        "Key": "LimitedTimeMall",
+        "SourceString": "限时商城",
+        "LocalizedString": "限时商城"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -5104,7 +5246,9 @@
       "GainParam1": [],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "DailyShop"
+        "Key": "DailyShop",
+        "SourceString": "每日商城",
+        "LocalizedString": "每日商城"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -5155,7 +5299,9 @@
       "GainParam1": [],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "DailyShop"
+        "Key": "DailyShop",
+        "SourceString": "每日商城",
+        "LocalizedString": "每日商城"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -5208,7 +5354,9 @@
       ],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "SpecialOperations"
+        "Key": "SpecialOperations",
+        "SourceString": "特别行动",
+        "LocalizedString": "特别行动"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -5311,7 +5459,9 @@
       ],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "SpecialOperations"
+        "Key": "SpecialOperations",
+        "SourceString": "特别行动",
+        "LocalizedString": "特别行动"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -5364,7 +5514,9 @@
       ],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "SpecialOperations"
+        "Key": "SpecialOperations",
+        "SourceString": "特别行动",
+        "LocalizedString": "特别行动"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -5417,7 +5569,9 @@
       ],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "SpecialOperations"
+        "Key": "SpecialOperations",
+        "SourceString": "特别行动",
+        "LocalizedString": "特别行动"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -5470,7 +5624,9 @@
       ],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "SpecialOperations"
+        "Key": "SpecialOperations",
+        "SourceString": "特别行动",
+        "LocalizedString": "特别行动"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -5521,7 +5677,9 @@
       "GainParam1": [],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "DailyShop"
+        "Key": "DailyShop",
+        "SourceString": "每日商城",
+        "LocalizedString": "每日商城"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -5572,7 +5730,9 @@
       "GainParam1": [],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "DailyShop"
+        "Key": "DailyShop",
+        "SourceString": "每日商城",
+        "LocalizedString": "每日商城"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -5833,7 +5993,9 @@
       ],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "SpecialOperations"
+        "Key": "SpecialOperations",
+        "SourceString": "特别行动",
+        "LocalizedString": "特别行动"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -5886,7 +6048,9 @@
       ],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "SpecialOperations"
+        "Key": "SpecialOperations",
+        "SourceString": "特别行动",
+        "LocalizedString": "特别行动"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -5990,14 +6154,18 @@
       "GainParam2": {
         "SourceFmt": {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-          "Key": "Dormitory_WithRoleNameParam"
+          "Key": "Dormitory_WithRoleNameParam",
+          "SourceString": "宿舍-{0}",
+          "LocalizedString": "宿舍-{0}"
         },
         "Arguments": [
           {
             "Type": 4,
             "Value": {
               "TableId": "/Game/PaperMan/CyTable/StringTable/ST_RoleName.ST_RoleName",
-              "Key": "Maddelena_CAP"
+              "Key": "Maddelena_CAP",
+              "SourceString": "玛德蕾娜",
+              "LocalizedString": "玛德蕾娜"
             }
           }
         ]
@@ -6053,7 +6221,9 @@
       ],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "LimitedTimeMall"
+        "Key": "LimitedTimeMall",
+        "SourceString": "限时商城",
+        "LocalizedString": "限时商城"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -6106,7 +6276,9 @@
       ],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "LimitedTimeMall"
+        "Key": "LimitedTimeMall",
+        "SourceString": "限时商城",
+        "LocalizedString": "限时商城"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -6157,7 +6329,9 @@
       "GainParam1": [],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "ActivityAward"
+        "Key": "ActivityAward",
+        "SourceString": "活动奖励",
+        "LocalizedString": "活动奖励"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -6208,7 +6382,9 @@
       "GainParam1": [],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "ActivityAward"
+        "Key": "ActivityAward",
+        "SourceString": "活动奖励",
+        "LocalizedString": "活动奖励"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -6260,14 +6436,18 @@
       "GainParam2": {
         "SourceFmt": {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-          "Key": "Dormitory_WithRoleNameParam"
+          "Key": "Dormitory_WithRoleNameParam",
+          "SourceString": "宿舍-{0}",
+          "LocalizedString": "宿舍-{0}"
         },
         "Arguments": [
           {
             "Type": 4,
             "Value": {
               "TableId": "/Game/PaperMan/CyTable/StringTable/ST_RoleName.ST_RoleName",
-              "Key": "Yvette_CAP"
+              "Key": "Yvette_CAP",
+              "SourceString": "伊薇特",
+              "LocalizedString": "伊薇特"
             }
           }
         ]
@@ -6321,7 +6501,9 @@
       "GainParam1": [],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "ActivityAward"
+        "Key": "ActivityAward",
+        "SourceString": "活动奖励",
+        "LocalizedString": "活动奖励"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -6478,7 +6660,9 @@
       ],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "SpecialOperations"
+        "Key": "SpecialOperations",
+        "SourceString": "特别行动",
+        "LocalizedString": "特别行动"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -6531,7 +6715,9 @@
       ],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "SpecialOperations"
+        "Key": "SpecialOperations",
+        "SourceString": "特别行动",
+        "LocalizedString": "特别行动"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -6584,7 +6770,9 @@
       ],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "SpecialOperations"
+        "Key": "SpecialOperations",
+        "SourceString": "特别行动",
+        "LocalizedString": "特别行动"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -6637,7 +6825,9 @@
       ],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "SpecialOperations"
+        "Key": "SpecialOperations",
+        "SourceString": "特别行动",
+        "LocalizedString": "特别行动"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -6690,7 +6880,9 @@
       ],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "SpecialOperations"
+        "Key": "SpecialOperations",
+        "SourceString": "特别行动",
+        "LocalizedString": "特别行动"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -6743,7 +6935,9 @@
       ],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "SpecialOperations"
+        "Key": "SpecialOperations",
+        "SourceString": "特别行动",
+        "LocalizedString": "特别行动"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -6848,7 +7042,9 @@
       ],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "LimitedTimeMall"
+        "Key": "LimitedTimeMall",
+        "SourceString": "限时商城",
+        "LocalizedString": "限时商城"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -7056,14 +7252,18 @@
       "GainParam2": {
         "SourceFmt": {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-          "Key": "Dormitory_WithRoleNameParam"
+          "Key": "Dormitory_WithRoleNameParam",
+          "SourceString": "宿舍-{0}",
+          "LocalizedString": "宿舍-{0}"
         },
         "Arguments": [
           {
             "Type": 4,
             "Value": {
               "TableId": "/Game/PaperMan/CyTable/StringTable/ST_RoleName.ST_RoleName",
-              "Key": "Kanami_CAP"
+              "Key": "Kanami_CAP",
+              "SourceString": "香奈美",
+              "LocalizedString": "香奈美"
             }
           }
         ]
@@ -7119,7 +7319,9 @@
       ],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "SpecialOperations"
+        "Key": "SpecialOperations",
+        "SourceString": "特别行动",
+        "LocalizedString": "特别行动"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -7172,7 +7374,9 @@
       ],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "SpecialOperations"
+        "Key": "SpecialOperations",
+        "SourceString": "特别行动",
+        "LocalizedString": "特别行动"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -7223,7 +7427,9 @@
       "GainParam1": [],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "ActivityAward"
+        "Key": "ActivityAward",
+        "SourceString": "活动奖励",
+        "LocalizedString": "活动奖励"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -7274,7 +7480,9 @@
       "GainParam1": [],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "ActivityAward"
+        "Key": "ActivityAward",
+        "SourceString": "活动奖励",
+        "LocalizedString": "活动奖励"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -7325,7 +7533,9 @@
       "GainParam1": [],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "ActivityAward"
+        "Key": "ActivityAward",
+        "SourceString": "活动奖励",
+        "LocalizedString": "活动奖励"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -7378,7 +7588,9 @@
       ],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "SpecialOperations"
+        "Key": "SpecialOperations",
+        "SourceString": "特别行动",
+        "LocalizedString": "特别行动"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -7481,7 +7693,9 @@
       "GainParam1": [],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "ActivityAward"
+        "Key": "ActivityAward",
+        "SourceString": "活动奖励",
+        "LocalizedString": "活动奖励"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -7490,7 +7704,7 @@
       "Id": 30000142,
       "BoolLoad": false,
       "Available": false,
-      "AvailableState": 0,
+      "AvailableState": 2,
       "Name": {
         "Namespace": "Decal",
         "Key": "30000142_Name",
@@ -7532,7 +7746,9 @@
       "GainParam1": [],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "ActivityAward"
+        "Key": "ActivityAward",
+        "SourceString": "活动奖励",
+        "LocalizedString": "活动奖励"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -7541,7 +7757,7 @@
       "Id": 30000143,
       "BoolLoad": false,
       "Available": false,
-      "AvailableState": 0,
+      "AvailableState": 2,
       "Name": {
         "Namespace": "Decal",
         "Key": "30000143_Name",
@@ -7583,7 +7799,9 @@
       "GainParam1": [],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "ActivityAward"
+        "Key": "ActivityAward",
+        "SourceString": "活动奖励",
+        "LocalizedString": "活动奖励"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -7636,7 +7854,9 @@
       ],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "SpecialOperations"
+        "Key": "SpecialOperations",
+        "SourceString": "特别行动",
+        "LocalizedString": "特别行动"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -7687,7 +7907,9 @@
       "GainParam1": [],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "ActivityAward"
+        "Key": "ActivityAward",
+        "SourceString": "活动奖励",
+        "LocalizedString": "活动奖励"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -7740,7 +7962,9 @@
       ],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "SpecialOperations"
+        "Key": "SpecialOperations",
+        "SourceString": "特别行动",
+        "LocalizedString": "特别行动"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -7793,7 +8017,9 @@
       ],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "SpecialOperations"
+        "Key": "SpecialOperations",
+        "SourceString": "特别行动",
+        "LocalizedString": "特别行动"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -7846,7 +8072,9 @@
       ],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "LimitedTimeMall"
+        "Key": "LimitedTimeMall",
+        "SourceString": "限时商城",
+        "LocalizedString": "限时商城"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -8004,7 +8232,9 @@
       ],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "RoleWeaponPackageGift"
+        "Key": "RoleWeaponPackageGift",
+        "SourceString": "套装赠品",
+        "LocalizedString": "套装赠品"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -8056,7 +8286,9 @@
       ],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "RoleWeaponPackageGift"
+        "Key": "RoleWeaponPackageGift",
+        "SourceString": "套装赠品",
+        "LocalizedString": "套装赠品"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -8106,7 +8338,9 @@
       "GainParam1": [],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "ActivityAward"
+        "Key": "ActivityAward",
+        "SourceString": "活动奖励",
+        "LocalizedString": "活动奖励"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -8156,7 +8390,9 @@
       "GainParam1": [],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "ActivityAward"
+        "Key": "ActivityAward",
+        "SourceString": "活动奖励",
+        "LocalizedString": "活动奖励"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -8206,7 +8442,9 @@
       "GainParam1": [],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "ActivityAward"
+        "Key": "ActivityAward",
+        "SourceString": "活动奖励",
+        "LocalizedString": "活动奖励"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -8256,7 +8494,9 @@
       "GainParam1": [],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "ActivityAward"
+        "Key": "ActivityAward",
+        "SourceString": "活动奖励",
+        "LocalizedString": "活动奖励"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -8306,7 +8546,9 @@
       "GainParam1": [],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "ActivityAward"
+        "Key": "ActivityAward",
+        "SourceString": "活动奖励",
+        "LocalizedString": "活动奖励"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -8356,7 +8598,9 @@
       "GainParam1": [],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "ActivityAward"
+        "Key": "ActivityAward",
+        "SourceString": "活动奖励",
+        "LocalizedString": "活动奖励"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -8406,7 +8650,9 @@
       "GainParam1": [],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "ActivityAward"
+        "Key": "ActivityAward",
+        "SourceString": "活动奖励",
+        "LocalizedString": "活动奖励"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -8457,7 +8703,9 @@
       "GainParam1": [],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "ActivityAward"
+        "Key": "ActivityAward",
+        "SourceString": "活动奖励",
+        "LocalizedString": "活动奖励"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -8508,7 +8756,9 @@
       "GainParam1": [],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "ActivityAward"
+        "Key": "ActivityAward",
+        "SourceString": "活动奖励",
+        "LocalizedString": "活动奖励"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -8559,7 +8809,9 @@
       "GainParam1": [],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "ActivityAward"
+        "Key": "ActivityAward",
+        "SourceString": "活动奖励",
+        "LocalizedString": "活动奖励"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -8612,7 +8864,9 @@
       ],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "RoleWeaponPackageGift"
+        "Key": "RoleWeaponPackageGift",
+        "SourceString": "套装赠品",
+        "LocalizedString": "套装赠品"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -8665,7 +8919,9 @@
       ],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "RoleWeaponPackageGift"
+        "Key": "RoleWeaponPackageGift",
+        "SourceString": "套装赠品",
+        "LocalizedString": "套装赠品"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -8718,7 +8974,9 @@
       ],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "RoleWeaponPackageGift"
+        "Key": "RoleWeaponPackageGift",
+        "SourceString": "套装赠品",
+        "LocalizedString": "套装赠品"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -8771,7 +9029,9 @@
       ],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "RoleWeaponPackageGift"
+        "Key": "RoleWeaponPackageGift",
+        "SourceString": "套装赠品",
+        "LocalizedString": "套装赠品"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -8823,7 +9083,9 @@
       ],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "RoleWeaponPackageGift"
+        "Key": "RoleWeaponPackageGift",
+        "SourceString": "套装赠品",
+        "LocalizedString": "套装赠品"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -8875,7 +9137,9 @@
       ],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "RoleWeaponPackageGift"
+        "Key": "RoleWeaponPackageGift",
+        "SourceString": "套装赠品",
+        "LocalizedString": "套装赠品"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -8927,7 +9191,9 @@
       ],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "RoleWeaponPackageGift"
+        "Key": "RoleWeaponPackageGift",
+        "SourceString": "套装赠品",
+        "LocalizedString": "套装赠品"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -8936,7 +9202,7 @@
       "Id": 30001020,
       "BoolLoad": false,
       "Available": false,
-      "AvailableState": 0,
+      "AvailableState": 2,
       "Name": {
         "Namespace": "Decal",
         "Key": "30001020_Name",
@@ -8979,7 +9245,9 @@
       ],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "RoleWeaponPackageGift"
+        "Key": "RoleWeaponPackageGift",
+        "SourceString": "套装赠品",
+        "LocalizedString": "套装赠品"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -8988,7 +9256,7 @@
       "Id": 30001021,
       "BoolLoad": false,
       "Available": false,
-      "AvailableState": 0,
+      "AvailableState": 2,
       "Name": {
         "Namespace": "Decal",
         "Key": "30001021_Name",
@@ -9031,7 +9299,9 @@
       ],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "RoleWeaponPackageGift"
+        "Key": "RoleWeaponPackageGift",
+        "SourceString": "套装赠品",
+        "LocalizedString": "套装赠品"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -9040,7 +9310,7 @@
       "Id": 30001022,
       "BoolLoad": false,
       "Available": false,
-      "AvailableState": 0,
+      "AvailableState": 2,
       "Name": {
         "Namespace": "Decal",
         "Key": "30001022_Name",
@@ -9083,7 +9353,9 @@
       ],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "RoleWeaponPackageGift"
+        "Key": "RoleWeaponPackageGift",
+        "SourceString": "套装赠品",
+        "LocalizedString": "套装赠品"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -9396,7 +9668,9 @@
       ],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "LimitedTimeMall"
+        "Key": "LimitedTimeMall",
+        "SourceString": "限时商城",
+        "LocalizedString": "限时商城"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -9447,7 +9721,9 @@
       "GainParam1": [],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "ActivityAward"
+        "Key": "ActivityAward",
+        "SourceString": "活动奖励",
+        "LocalizedString": "活动奖励"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -9498,7 +9774,9 @@
       "GainParam1": [],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "ActivityAward"
+        "Key": "ActivityAward",
+        "SourceString": "活动奖励",
+        "LocalizedString": "活动奖励"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -9601,7 +9879,9 @@
       "GainParam1": [],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "DailyShop"
+        "Key": "DailyShop",
+        "SourceString": "每日商城",
+        "LocalizedString": "每日商城"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -9808,7 +10088,9 @@
       "GainParam1": [],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "ActivityAward"
+        "Key": "ActivityAward",
+        "SourceString": "活动奖励",
+        "LocalizedString": "活动奖励"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -9859,7 +10141,9 @@
       "GainParam1": [],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "ActivityAward"
+        "Key": "ActivityAward",
+        "SourceString": "活动奖励",
+        "LocalizedString": "活动奖励"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -10067,14 +10351,18 @@
       "GainParam2": {
         "SourceFmt": {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-          "Key": "Dormitory_WithRoleNameParam"
+          "Key": "Dormitory_WithRoleNameParam",
+          "SourceString": "宿舍-{0}",
+          "LocalizedString": "宿舍-{0}"
         },
         "Arguments": [
           {
             "Type": 4,
             "Value": {
               "TableId": "/Game/PaperMan/CyTable/StringTable/ST_RoleName.ST_RoleName",
-              "Key": "Lawine_CAP"
+              "Key": "Lawine_CAP",
+              "SourceString": "拉薇",
+              "LocalizedString": "拉薇"
             }
           }
         ]
@@ -10128,7 +10416,9 @@
       "GainParam1": [],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "ActivityAward"
+        "Key": "ActivityAward",
+        "SourceString": "活动奖励",
+        "LocalizedString": "活动奖励"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -10179,7 +10469,9 @@
       "GainParam1": [],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "ActivityAward"
+        "Key": "ActivityAward",
+        "SourceString": "活动奖励",
+        "LocalizedString": "活动奖励"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -10230,7 +10522,9 @@
       "GainParam1": [],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "ActivityAward"
+        "Key": "ActivityAward",
+        "SourceString": "活动奖励",
+        "LocalizedString": "活动奖励"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -10281,7 +10575,9 @@
       "GainParam1": [],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "ActivityAward"
+        "Key": "ActivityAward",
+        "SourceString": "活动奖励",
+        "LocalizedString": "活动奖励"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -10486,7 +10782,9 @@
       "GainParam1": [],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "ActivityAward"
+        "Key": "ActivityAward",
+        "SourceString": "活动奖励",
+        "LocalizedString": "活动奖励"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -10537,7 +10835,9 @@
       "GainParam1": [],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "ActivityAward"
+        "Key": "ActivityAward",
+        "SourceString": "活动奖励",
+        "LocalizedString": "活动奖励"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -10588,7 +10888,9 @@
       "GainParam1": [],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "DailyShop"
+        "Key": "DailyShop",
+        "SourceString": "每日商城",
+        "LocalizedString": "每日商城"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -10639,7 +10941,9 @@
       "GainParam1": [],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "DailyShop"
+        "Key": "DailyShop",
+        "SourceString": "每日商城",
+        "LocalizedString": "每日商城"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -10692,7 +10996,9 @@
       ],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "SpecialOperations"
+        "Key": "SpecialOperations",
+        "SourceString": "特别行动",
+        "LocalizedString": "特别行动"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -10743,7 +11049,9 @@
       "GainParam1": [],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "DailyShop"
+        "Key": "DailyShop",
+        "SourceString": "每日商城",
+        "LocalizedString": "每日商城"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -10794,7 +11102,9 @@
       "GainParam1": [],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "DailyShop"
+        "Key": "DailyShop",
+        "SourceString": "每日商城",
+        "LocalizedString": "每日商城"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -10845,7 +11155,9 @@
       "GainParam1": [],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "DailyShop"
+        "Key": "DailyShop",
+        "SourceString": "每日商城",
+        "LocalizedString": "每日商城"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -10896,7 +11208,9 @@
       "GainParam1": [],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "DailyShop"
+        "Key": "DailyShop",
+        "SourceString": "每日商城",
+        "LocalizedString": "每日商城"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -11207,7 +11521,9 @@
       "GainParam1": [],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "ActivityAward"
+        "Key": "ActivityAward",
+        "SourceString": "活动奖励",
+        "LocalizedString": "活动奖励"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -11259,14 +11575,18 @@
       "GainParam2": {
         "SourceFmt": {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-          "Key": "Dormitory_WithRoleNameParam"
+          "Key": "Dormitory_WithRoleNameParam",
+          "SourceString": "宿舍-{0}",
+          "LocalizedString": "宿舍-{0}"
         },
         "Arguments": [
           {
             "Type": 4,
             "Value": {
               "TableId": "/Game/PaperMan/CyTable/StringTable/ST_RoleName.ST_RoleName",
-              "Key": "Maddelena_CAP"
+              "Key": "Maddelena_CAP",
+              "SourceString": "玛德蕾娜",
+              "LocalizedString": "玛德蕾娜"
             }
           }
         ]
@@ -11321,14 +11641,18 @@
       "GainParam2": {
         "SourceFmt": {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-          "Key": "Dormitory_WithRoleNameParam"
+          "Key": "Dormitory_WithRoleNameParam",
+          "SourceString": "宿舍-{0}",
+          "LocalizedString": "宿舍-{0}"
         },
         "Arguments": [
           {
             "Type": 4,
             "Value": {
               "TableId": "/Game/PaperMan/CyTable/StringTable/ST_RoleName.ST_RoleName",
-              "Key": "Yvette_CAP"
+              "Key": "Yvette_CAP",
+              "SourceString": "伊薇特",
+              "LocalizedString": "伊薇特"
             }
           }
         ]
@@ -11640,7 +11964,9 @@
       "GainParam1": [],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "SpecialOperations"
+        "Key": "SpecialOperations",
+        "SourceString": "特别行动",
+        "LocalizedString": "特别行动"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -11691,7 +12017,9 @@
       "GainParam1": [],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "ActivityAward"
+        "Key": "ActivityAward",
+        "SourceString": "活动奖励",
+        "LocalizedString": "活动奖励"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -11744,7 +12072,9 @@
       ],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "SpecialOperations"
+        "Key": "SpecialOperations",
+        "SourceString": "特别行动",
+        "LocalizedString": "特别行动"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -11797,7 +12127,9 @@
       ],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "SpecialOperations"
+        "Key": "SpecialOperations",
+        "SourceString": "特别行动",
+        "LocalizedString": "特别行动"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -11850,7 +12182,9 @@
       ],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "LimitedTimeMall"
+        "Key": "LimitedTimeMall",
+        "SourceString": "限时商城",
+        "LocalizedString": "限时商城"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -11902,14 +12236,18 @@
       "GainParam2": {
         "SourceFmt": {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-          "Key": "Dormitory_WithRoleNameParam"
+          "Key": "Dormitory_WithRoleNameParam",
+          "SourceString": "宿舍-{0}",
+          "LocalizedString": "宿舍-{0}"
         },
         "Arguments": [
           {
             "Type": 4,
             "Value": {
               "TableId": "/Game/PaperMan/CyTable/StringTable/ST_RoleName.ST_RoleName",
-              "Key": "Kanami_CAP"
+              "Key": "Kanami_CAP",
+              "SourceString": "香奈美",
+              "LocalizedString": "香奈美"
             }
           }
         ]
@@ -11964,14 +12302,18 @@
       "GainParam2": {
         "SourceFmt": {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-          "Key": "Dormitory_WithRoleNameParam"
+          "Key": "Dormitory_WithRoleNameParam",
+          "SourceString": "宿舍-{0}",
+          "LocalizedString": "宿舍-{0}"
         },
         "Arguments": [
           {
             "Type": 4,
             "Value": {
               "TableId": "/Game/PaperMan/CyTable/StringTable/ST_RoleName.ST_RoleName",
-              "Key": "Fuchsia_CAP"
+              "Key": "Fuchsia_CAP",
+              "SourceString": "绯莎",
+              "LocalizedString": "绯莎"
             }
           }
         ]
@@ -12025,7 +12367,9 @@
       "GainParam1": [],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "ActivityAward"
+        "Key": "ActivityAward",
+        "SourceString": "活动奖励",
+        "LocalizedString": "活动奖励"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -12078,7 +12422,9 @@
       ],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "SpecialOperations"
+        "Key": "SpecialOperations",
+        "SourceString": "特别行动",
+        "LocalizedString": "特别行动"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -12130,14 +12476,18 @@
       "GainParam2": {
         "SourceFmt": {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-          "Key": "Dormitory_WithRoleNameParam"
+          "Key": "Dormitory_WithRoleNameParam",
+          "SourceString": "宿舍-{0}",
+          "LocalizedString": "宿舍-{0}"
         },
         "Arguments": [
           {
             "Type": 4,
             "Value": {
               "TableId": "/Game/PaperMan/CyTable/StringTable/ST_RoleName.ST_RoleName",
-              "Key": "Fuchsia_CAP"
+              "Key": "Fuchsia_CAP",
+              "SourceString": "绯莎",
+              "LocalizedString": "绯莎"
             }
           }
         ]
@@ -12193,7 +12543,9 @@
       ],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "SpecialOperations"
+        "Key": "SpecialOperations",
+        "SourceString": "特别行动",
+        "LocalizedString": "特别行动"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -12246,7 +12598,9 @@
       ],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "SpecialOperations"
+        "Key": "SpecialOperations",
+        "SourceString": "特别行动",
+        "LocalizedString": "特别行动"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -12299,7 +12653,9 @@
       ],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "SpecialOperations"
+        "Key": "SpecialOperations",
+        "SourceString": "特别行动",
+        "LocalizedString": "特别行动"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -12350,7 +12706,9 @@
       "GainParam1": [],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "ActivityAward"
+        "Key": "ActivityAward",
+        "SourceString": "活动奖励",
+        "LocalizedString": "活动奖励"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -12359,7 +12717,7 @@
       "Id": 30002073,
       "BoolLoad": false,
       "Available": false,
-      "AvailableState": 0,
+      "AvailableState": 2,
       "Name": {
         "Namespace": "Decal",
         "Key": "30002073_Name",
@@ -12401,7 +12759,9 @@
       "GainParam1": [],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "ActivityAward"
+        "Key": "LimitedTimeMall",
+        "SourceString": "限时商城",
+        "LocalizedString": "限时商城"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -12452,7 +12812,9 @@
       "GainParam1": [],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "ActivityAward"
+        "Key": "ActivityAward",
+        "SourceString": "活动奖励",
+        "LocalizedString": "活动奖励"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -12527,7 +12889,7 @@
         "LocalizedString": "在与明战斗后，某人留下了这个警示牌。"
       },
       "Quality": 3,
-      "SortId": 3136,
+      "SortId": 3149,
       "AvailableType": [
         1,
         2,
@@ -12557,7 +12919,9 @@
       ],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "SpecialOperations"
+        "Key": "SpecialOperations",
+        "SourceString": "特别行动",
+        "LocalizedString": "特别行动"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -12580,7 +12944,7 @@
         "LocalizedString": "在与梅瑞迪斯战斗后，某人留下了这个警示牌。"
       },
       "Quality": 3,
-      "SortId": 3136,
+      "SortId": 3149,
       "AvailableType": [
         1,
         2,
@@ -12610,7 +12974,9 @@
       ],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "SpecialOperations"
+        "Key": "SpecialOperations",
+        "SourceString": "特别行动",
+        "LocalizedString": "特别行动"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -12633,7 +12999,7 @@
         "LocalizedString": "在与伊薇特战斗后，某人留下了这个警示牌。"
       },
       "Quality": 3,
-      "SortId": 3136,
+      "SortId": 3149,
       "AvailableType": [
         1,
         2,
@@ -12663,7 +13029,9 @@
       ],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "SpecialOperations"
+        "Key": "SpecialOperations",
+        "SourceString": "特别行动",
+        "LocalizedString": "特别行动"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -12686,7 +13054,7 @@
         "LocalizedString": "招财进宝，日进斗晶！"
       },
       "Quality": 3,
-      "SortId": 3136,
+      "SortId": 3149,
       "AvailableType": [
         1,
         2,
@@ -12716,7 +13084,9 @@
       ],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "SpecialOperations"
+        "Key": "SpecialOperations",
+        "SourceString": "特别行动",
+        "LocalizedString": "特别行动"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -12739,7 +13109,7 @@
         "LocalizedString": "在与艾卡战斗后，某人留下了这个警示牌。"
       },
       "Quality": 3,
-      "SortId": 3136,
+      "SortId": 3149,
       "AvailableType": [
         1,
         2,
@@ -12769,7 +13139,115 @@
       ],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "LimitedTimeMall"
+        "Key": "LimitedTimeMall",
+        "SourceString": "限时商城",
+        "LocalizedString": "限时商城"
+      },
+      "RandomIndex": false,
+      "DefaultEquip": false
+    },
+    "30002081": {
+      "Id": 30002081,
+      "BoolLoad": false,
+      "Available": false,
+      "AvailableState": 2,
+      "Name": {
+        "Namespace": "Decal",
+        "Key": "30002081_Name",
+        "SourceString": "内有恶鲨",
+        "LocalizedString": "内有恶鲨"
+      },
+      "Desc": {
+        "Namespace": "Decal",
+        "Key": "30002081_Desc",
+        "SourceString": "在与绯莎战斗后，某人留下了这个警示牌。",
+        "LocalizedString": "在与绯莎战斗后，某人留下了这个警示牌。"
+      },
+      "Quality": 3,
+      "SortId": 3104,
+      "AvailableType": [
+        1,
+        2,
+        3
+      ],
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/PaintingListDecal/T_Dynamic_Decal_30002081.T_Dynamic_Decal_30002081",
+        "SubPathString": ""
+      },
+      "IconBig": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/DecalShow/T_Dynamic_Decal_L_30002081.T_Dynamic_Decal_L_30002081",
+        "SubPathString": ""
+      },
+      "BluePrint": {
+        "AssetPathName": "/Game/PaperMan/CyAbilities/Shared/GA/GA_Graffiti/BP_DecalActor.BP_DecalActor",
+        "SubPathString": ""
+      },
+      "LimitNum": 1,
+      "LimitType": 6,
+      "LimitParam": 160,
+      "GainTypeMb": [],
+      "GainType": [
+        0
+      ],
+      "GainParam1": [],
+      "GainParam2": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
+        "Key": "LimitedTimeMall",
+        "SourceString": "限时商城",
+        "LocalizedString": "限时商城"
+      },
+      "RandomIndex": false,
+      "DefaultEquip": false
+    },
+    "30002082": {
+      "Id": 30002082,
+      "BoolLoad": false,
+      "Available": false,
+      "AvailableState": 2,
+      "Name": {
+        "Namespace": "Decal",
+        "Key": "30002082_Name",
+        "SourceString": "闪光喵",
+        "LocalizedString": "闪光喵"
+      },
+      "Desc": {
+        "Namespace": "Decal",
+        "Key": "30002082_Desc",
+        "SourceString": "就连剪刀手的研究员都对它丰富的功能性感到惊叹！",
+        "LocalizedString": "就连剪刀手的研究员都对它丰富的功能性感到惊叹！"
+      },
+      "Quality": 3,
+      "SortId": 3149,
+      "AvailableType": [
+        1,
+        2,
+        3
+      ],
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/PaintingListDecal/T_Dynamic_Decal_30002082.T_Dynamic_Decal_30002082",
+        "SubPathString": ""
+      },
+      "IconBig": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/DecalShow/T_Dynamic_Decal_L_30002082.T_Dynamic_Decal_L_30002082",
+        "SubPathString": ""
+      },
+      "BluePrint": {
+        "AssetPathName": "/Game/PaperMan/CyAbilities/Shared/GA/GA_Graffiti/BP_DecalActor.BP_DecalActor",
+        "SubPathString": ""
+      },
+      "LimitNum": 1,
+      "LimitType": 6,
+      "LimitParam": 160,
+      "GainTypeMb": [],
+      "GainType": [
+        0
+      ],
+      "GainParam1": [],
+      "GainParam2": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
+        "Key": "LimitedTimeMall",
+        "SourceString": "限时商城",
+        "LocalizedString": "限时商城"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -12792,7 +13270,7 @@
         "LocalizedString": "“游戏，引领世界前行！”"
       },
       "Quality": 2,
-      "SortId": 2127,
+      "SortId": 2128,
       "AvailableType": [
         1,
         2,
@@ -12820,7 +13298,9 @@
       "GainParam1": [],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "ActivityAward"
+        "Key": "ActivityAward",
+        "SourceString": "活动奖励",
+        "LocalizedString": "活动奖励"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -12873,7 +13353,9 @@
       ],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "SpecialOperations"
+        "Key": "SpecialOperations",
+        "SourceString": "特别行动",
+        "LocalizedString": "特别行动"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -12896,7 +13378,7 @@
         "LocalizedString": "薯条们！听我号令，向他们反击！"
       },
       "Quality": 3,
-      "SortId": 3136,
+      "SortId": 3149,
       "AvailableType": [
         1,
         2,
@@ -12926,7 +13408,9 @@
       ],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "LimitedTimeMall"
+        "Key": "LimitedTimeMall",
+        "SourceString": "限时商城",
+        "LocalizedString": "限时商城"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -12949,7 +13433,7 @@
         "LocalizedString": "微风吹拂，裙摆飘扬，是青春最美的模样。试着给超弦体伙伴穿上，会有奇妙的事情发生哦！"
       },
       "Quality": 3,
-      "SortId": 3105,
+      "SortId": 3107,
       "AvailableType": [
         1,
         2,
@@ -12975,7 +13459,9 @@
       "GainParam1": [],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "ActivityAward"
+        "Key": "ActivityAward",
+        "SourceString": "活动奖励",
+        "LocalizedString": "活动奖励"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -12998,7 +13484,7 @@
         "LocalizedString": "来自宇宙空间的讯号，与卡丘世界碰撞出热烈的火花。靠近它，便能找到化身异星来客的方法。\n【卡拉彼丘XAlienware 联动活动限定喷漆】"
       },
       "Quality": 3,
-      "SortId": 3106,
+      "SortId": 3108,
       "AvailableType": [
         1,
         2,
@@ -13026,7 +13512,9 @@
       "GainParam1": [],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "ActivityAward"
+        "Key": "ActivityAward",
+        "SourceString": "活动奖励",
+        "LocalizedString": "活动奖励"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -13077,7 +13565,9 @@
       "GainParam1": [],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "ActivityAward"
+        "Key": "ActivityAward",
+        "SourceString": "活动奖励",
+        "LocalizedString": "活动奖励"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -13100,7 +13590,7 @@
         "LocalizedString": "你的灵魂已被标记。"
       },
       "Quality": 3,
-      "SortId": 3136,
+      "SortId": 3149,
       "AvailableType": [
         1,
         2,
@@ -13130,7 +13620,9 @@
       ],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "SpecialOperations"
+        "Key": "SpecialOperations",
+        "SourceString": "特别行动",
+        "LocalizedString": "特别行动"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -13153,7 +13645,7 @@
         "LocalizedString": "战斗如此频繁，我甚至都不能安静地把水喝完。"
       },
       "Quality": 3,
-      "SortId": 3136,
+      "SortId": 3149,
       "AvailableType": [
         1,
         2,
@@ -13183,7 +13675,9 @@
       ],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "SpecialOperations"
+        "Key": "SpecialOperations",
+        "SourceString": "特别行动",
+        "LocalizedString": "特别行动"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -13206,7 +13700,7 @@
         "LocalizedString": "天赋选手也需要不断进步。"
       },
       "Quality": 3,
-      "SortId": 3136,
+      "SortId": 3149,
       "AvailableType": [
         1,
         2,
@@ -13236,7 +13730,9 @@
       ],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "SpecialOperations"
+        "Key": "SpecialOperations",
+        "SourceString": "特别行动",
+        "LocalizedString": "特别行动"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -13259,7 +13755,7 @@
         "LocalizedString": "为了胜利，米雪儿会负重前行"
       },
       "Quality": 3,
-      "SortId": 3136,
+      "SortId": 3149,
       "AvailableType": [
         1,
         2,
@@ -13289,7 +13785,9 @@
       ],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "SpecialOperations"
+        "Key": "SpecialOperations",
+        "SourceString": "特别行动",
+        "LocalizedString": "特别行动"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -13312,7 +13810,7 @@
         "LocalizedString": "让我看看是哪个家伙会闯进我的视线。"
       },
       "Quality": 3,
-      "SortId": 3136,
+      "SortId": 3149,
       "AvailableType": [
         1,
         2,
@@ -13342,7 +13840,112 @@
       ],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "SpecialOperations"
+        "Key": "SpecialOperations",
+        "SourceString": "特别行动",
+        "LocalizedString": "特别行动"
+      },
+      "RandomIndex": false,
+      "DefaultEquip": false
+    },
+    "30002123": {
+      "Id": 30002123,
+      "BoolLoad": false,
+      "Available": false,
+      "AvailableState": 2,
+      "Name": {
+        "Namespace": "Decal",
+        "Key": "30002123_Name",
+        "SourceString": "补充水分",
+        "LocalizedString": "补充水分"
+      },
+      "Desc": {
+        "Namespace": "Decal",
+        "Key": "30002123_Desc",
+        "SourceString": "战斗的闲暇，补充一下水分和阳光吧。",
+        "LocalizedString": "战斗的闲暇，补充一下水分和阳光吧。"
+      },
+      "Quality": 3,
+      "SortId": 3114,
+      "AvailableType": [
+        1,
+        2,
+        3
+      ],
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/PaintingListDecal/T_Dynamic_Decal_30002123.T_Dynamic_Decal_30002123",
+        "SubPathString": ""
+      },
+      "IconBig": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/DecalShow/T_Dynamic_Decal_L_30002123.T_Dynamic_Decal_L_30002123",
+        "SubPathString": ""
+      },
+      "BluePrint": {
+        "AssetPathName": "/Game/PaperMan/CyAbilities/Shared/GA/GA_Graffiti/BP_DecalActor.BP_DecalActor",
+        "SubPathString": ""
+      },
+      "LimitNum": 1,
+      "LimitType": 6,
+      "LimitParam": 160,
+      "GainTypeMb": [],
+      "GainType": [
+        0
+      ],
+      "GainParam1": [],
+      "GainParam2": {
+        "CultureInvariantString": null
+      },
+      "RandomIndex": false,
+      "DefaultEquip": false
+    },
+    "30002125": {
+      "Id": 30002125,
+      "BoolLoad": false,
+      "Available": false,
+      "AvailableState": 2,
+      "Name": {
+        "Namespace": "Decal",
+        "Key": "30002125_Name",
+        "SourceString": "我想到了",
+        "LocalizedString": "我想到了"
+      },
+      "Desc": {
+        "Namespace": "Decal",
+        "Key": "30002125_Desc",
+        "SourceString": "思考的结果，有可能是发现，也有可能是发笑。",
+        "LocalizedString": "思考的结果，有可能是发现，也有可能是发笑。"
+      },
+      "Quality": 3,
+      "SortId": 3115,
+      "AvailableType": [
+        1,
+        2,
+        3
+      ],
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/PaintingListDecal/T_Dynamic_Decal_30002125.T_Dynamic_Decal_30002125",
+        "SubPathString": ""
+      },
+      "IconBig": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/DecalShow/T_Dynamic_Decal_L_30002125.T_Dynamic_Decal_L_30002125",
+        "SubPathString": ""
+      },
+      "BluePrint": {
+        "AssetPathName": "/Game/PaperMan/CyAbilities/Shared/GA/GA_Graffiti/BP_DecalActor.BP_DecalActor",
+        "SubPathString": ""
+      },
+      "LimitNum": 1,
+      "LimitType": 6,
+      "LimitParam": 160,
+      "GainTypeMb": [],
+      "GainType": [
+        0
+      ],
+      "GainParam1": [],
+      "GainParam2": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
+        "Key": "LimitedTimeMall",
+        "SourceString": "限时商城",
+        "LocalizedString": "限时商城"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -13365,7 +13968,7 @@
         "LocalizedString": "到了这种时刻，最重要是好好回收弦序列。"
       },
       "Quality": 2,
-      "SortId": 2127,
+      "SortId": 2128,
       "AvailableType": [
         1,
         2,
@@ -13395,7 +13998,9 @@
       ],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "SpecialOperations"
+        "Key": "SpecialOperations",
+        "SourceString": "特别行动",
+        "LocalizedString": "特别行动"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -13418,7 +14023,7 @@
         "LocalizedString": "前方发生交战，请市民在远处观战。"
       },
       "Quality": 2,
-      "SortId": 2127,
+      "SortId": 2128,
       "AvailableType": [
         1,
         2,
@@ -13448,7 +14053,9 @@
       ],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "SpecialOperations"
+        "Key": "SpecialOperations",
+        "SourceString": "特别行动",
+        "LocalizedString": "特别行动"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -13471,7 +14078,7 @@
         "LocalizedString": "这是数据损坏的余象，也是意识崩溃的残响。"
       },
       "Quality": 2,
-      "SortId": 2127,
+      "SortId": 2128,
       "AvailableType": [
         1,
         2,
@@ -13501,7 +14108,9 @@
       ],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "SpecialOperations"
+        "Key": "SpecialOperations",
+        "SourceString": "特别行动",
+        "LocalizedString": "特别行动"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -13524,7 +14133,7 @@
         "LocalizedString": "共同的危机会让我们重新凝聚。"
       },
       "Quality": 2,
-      "SortId": 2127,
+      "SortId": 2128,
       "AvailableType": [
         1,
         2,
@@ -13554,7 +14163,9 @@
       ],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "SpecialOperations"
+        "Key": "SpecialOperations",
+        "SourceString": "特别行动",
+        "LocalizedString": "特别行动"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -13577,7 +14188,7 @@
         "LocalizedString": "年轻画家的笔触，将梦境凝固在绘制的瞬间。"
       },
       "Quality": 2,
-      "SortId": 2127,
+      "SortId": 2128,
       "AvailableType": [
         1,
         2,
@@ -13607,7 +14218,9 @@
       ],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "SpecialOperations"
+        "Key": "SpecialOperations",
+        "SourceString": "特别行动",
+        "LocalizedString": "特别行动"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -13630,7 +14243,7 @@
         "LocalizedString": "一个存在于历史和绘卷中的美丽景致。"
       },
       "Quality": 2,
-      "SortId": 2127,
+      "SortId": 2128,
       "AvailableType": [
         1,
         2,
@@ -13660,7 +14273,9 @@
       ],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "SpecialOperations"
+        "Key": "SpecialOperations",
+        "SourceString": "特别行动",
+        "LocalizedString": "特别行动"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -13683,7 +14298,7 @@
         "LocalizedString": "灵魂升温的最佳燃料。"
       },
       "Quality": 2,
-      "SortId": 2127,
+      "SortId": 2128,
       "AvailableType": [
         1,
         2,
@@ -13713,7 +14328,9 @@
       ],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "SpecialOperations"
+        "Key": "SpecialOperations",
+        "SourceString": "特别行动",
+        "LocalizedString": "特别行动"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -13736,7 +14353,7 @@
         "LocalizedString": "扳手在任何情况下都很可靠。"
       },
       "Quality": 2,
-      "SortId": 2127,
+      "SortId": 2128,
       "AvailableType": [
         1,
         2,
@@ -13766,7 +14383,9 @@
       ],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "SpecialOperations"
+        "Key": "SpecialOperations",
+        "SourceString": "特别行动",
+        "LocalizedString": "特别行动"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -13777,16 +14396,16 @@
       "Available": false,
       "AvailableState": 2,
       "Name": {
-        "Namespace": "Decal",
+        "Namespace": "Decal_I18N",
         "Key": "30002141_Name",
-        "SourceString": "我不接受！\nDamn it... I should not have lost!",
-        "LocalizedString": "我不接受！\nDamn it... I should not have lost!"
+        "SourceString": "我不接受！",
+        "LocalizedString": "我不接受！"
       },
       "Desc": {
-        "Namespace": "Decal",
+        "Namespace": "Decal_I18N",
         "Key": "30002141_Desc",
-        "SourceString": "Spray Creation – Design Your Own Strinova Spray! 参赛作品的第一名。引航者@pewchii_的绝妙之作。",
-        "LocalizedString": "Spray Creation – Design Your Own Strinova Spray! 参赛作品的第一名。引航者@pewchii_的绝妙之作。"
+        "SourceString": "参赛作品的第一名。引航者@pewchii_的绝妙之作。",
+        "LocalizedString": "参赛作品的第一名。引航者@pewchii_的绝妙之作。"
       },
       "Quality": 3,
       "SortId": 3134,
@@ -13817,7 +14436,115 @@
       "GainParam1": [],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "ActivityAward"
+        "Key": "ActivityAward",
+        "SourceString": "活动奖励",
+        "LocalizedString": "活动奖励"
+      },
+      "RandomIndex": false,
+      "DefaultEquip": false
+    },
+    "30002142": {
+      "Id": 30002142,
+      "BoolLoad": false,
+      "Available": false,
+      "AvailableState": 2,
+      "Name": {
+        "Namespace": "Decal",
+        "Key": "30002142_Name",
+        "SourceString": "切勿回头",
+        "LocalizedString": "切勿回头"
+      },
+      "Desc": {
+        "Namespace": "Decal",
+        "Key": "30002142_Desc",
+        "SourceString": "真玩家，从不回头看爆炸。",
+        "LocalizedString": "真玩家，从不回头看爆炸。"
+      },
+      "Quality": 2,
+      "SortId": 2142,
+      "AvailableType": [
+        1,
+        2,
+        3
+      ],
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/PaintingListDecal/T_Dynamic_Decal_30002142.T_Dynamic_Decal_30002142",
+        "SubPathString": ""
+      },
+      "IconBig": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/DecalShow/T_Dynamic_Decal_L_30002142.T_Dynamic_Decal_L_30002142",
+        "SubPathString": ""
+      },
+      "BluePrint": {
+        "AssetPathName": "/Game/PaperMan/CyAbilities/Shared/GA/GA_Graffiti/BP_DecalActor.BP_DecalActor",
+        "SubPathString": ""
+      },
+      "LimitNum": 1,
+      "LimitType": 6,
+      "LimitParam": 50,
+      "GainTypeMb": [],
+      "GainType": [
+        0
+      ],
+      "GainParam1": [],
+      "GainParam2": {
+        "Namespace": "Decal",
+        "Key": "30002121_GainParam2",
+        "SourceString": "BP10储备",
+        "LocalizedString": "BP10储备"
+      },
+      "RandomIndex": false,
+      "DefaultEquip": false
+    },
+    "30002143": {
+      "Id": 30002143,
+      "BoolLoad": false,
+      "Available": false,
+      "AvailableState": 2,
+      "Name": {
+        "Namespace": "Decal",
+        "Key": "30002143_Name",
+        "SourceString": "满分达人",
+        "LocalizedString": "满分达人"
+      },
+      "Desc": {
+        "Namespace": "Decal",
+        "Key": "30002143_Desc",
+        "SourceString": "恭喜你在弦区争夺中获得了：一百分！",
+        "LocalizedString": "恭喜你在弦区争夺中获得了：一百分！"
+      },
+      "Quality": 3,
+      "SortId": 3135,
+      "AvailableType": [
+        1,
+        2,
+        3
+      ],
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/PaintingListDecal/T_Dynamic_Decal_30002143.T_Dynamic_Decal_30002143",
+        "SubPathString": ""
+      },
+      "IconBig": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/DecalShow/T_Dynamic_Decal_L_30002143.T_Dynamic_Decal_L_30002143",
+        "SubPathString": ""
+      },
+      "BluePrint": {
+        "AssetPathName": "/Game/PaperMan/CyAbilities/Shared/GA/GA_Graffiti/BP_DecalActor.BP_DecalActor",
+        "SubPathString": ""
+      },
+      "LimitNum": 1,
+      "LimitType": 6,
+      "LimitParam": 160,
+      "GainTypeMb": [],
+      "GainType": [
+        0
+      ],
+      "GainParam1": [],
+      "GainParam2": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
+        "Key": "ActivityAward",
+        "SourceString": "活动奖励",
+        "LocalizedString": "活动奖励"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -13840,7 +14567,7 @@
         "LocalizedString": "物质的尽头是以太，它一直延续到宇宙的终极。第1赛季排位奖励。"
       },
       "Quality": 3,
-      "SortId": 3113,
+      "SortId": 3118,
       "AvailableType": [
         1,
         2,
@@ -13868,7 +14595,9 @@
       "GainParam1": [],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "SeasonRewards"
+        "Key": "SeasonRewards",
+        "SourceString": "赛季奖励",
+        "LocalizedString": "赛季奖励"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -13891,7 +14620,7 @@
         "LocalizedString": "初步开始变化的物质形态。第1赛季排位奖励。"
       },
       "Quality": 3,
-      "SortId": 3114,
+      "SortId": 3119,
       "AvailableType": [
         1,
         2,
@@ -13919,7 +14648,9 @@
       "GainParam1": [],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "SeasonRewards"
+        "Key": "SeasonRewards",
+        "SourceString": "赛季奖励",
+        "LocalizedString": "赛季奖励"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -13942,7 +14673,7 @@
         "LocalizedString": "达到原子级别的物质形态。第1赛季排位奖励。"
       },
       "Quality": 3,
-      "SortId": 3115,
+      "SortId": 3120,
       "AvailableType": [
         1,
         2,
@@ -13970,7 +14701,9 @@
       "GainParam1": [],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "SeasonRewards"
+        "Key": "SeasonRewards",
+        "SourceString": "赛季奖励",
+        "LocalizedString": "赛季奖励"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -13993,7 +14726,7 @@
         "LocalizedString": "进化到质子级别的基本粒子形态。第1赛季排位奖励。"
       },
       "Quality": 3,
-      "SortId": 3116,
+      "SortId": 3121,
       "AvailableType": [
         1,
         2,
@@ -14021,7 +14754,9 @@
       "GainParam1": [],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "SeasonRewards"
+        "Key": "SeasonRewards",
+        "SourceString": "赛季奖励",
+        "LocalizedString": "赛季奖励"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -14044,7 +14779,7 @@
         "LocalizedString": "转变到自由中子级别的基本粒子形态。第1赛季排位奖励。"
       },
       "Quality": 3,
-      "SortId": 3117,
+      "SortId": 3122,
       "AvailableType": [
         1,
         2,
@@ -14072,7 +14807,9 @@
       "GainParam1": [],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "SeasonRewards"
+        "Key": "SeasonRewards",
+        "SourceString": "赛季奖励",
+        "LocalizedString": "赛季奖励"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -14095,7 +14832,7 @@
         "LocalizedString": "触及到束缚电子级别的基本粒子形态。第1赛季排位奖励。"
       },
       "Quality": 3,
-      "SortId": 3118,
+      "SortId": 3123,
       "AvailableType": [
         1,
         2,
@@ -14123,7 +14860,9 @@
       "GainParam1": [],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "SeasonRewards"
+        "Key": "SeasonRewards",
+        "SourceString": "赛季奖励",
+        "LocalizedString": "赛季奖励"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -14146,7 +14885,7 @@
         "LocalizedString": "深入到夸克层次的禁闭形态。第1赛季排位奖励。"
       },
       "Quality": 3,
-      "SortId": 3119,
+      "SortId": 3124,
       "AvailableType": [
         1,
         2,
@@ -14174,7 +14913,9 @@
       "GainParam1": [],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "SeasonRewards"
+        "Key": "SeasonRewards",
+        "SourceString": "赛季奖励",
+        "LocalizedString": "赛季奖励"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -14197,7 +14938,7 @@
         "LocalizedString": "无限逼近超弦层次的形态。第1赛季排位奖励。"
       },
       "Quality": 3,
-      "SortId": 3120,
+      "SortId": 3125,
       "AvailableType": [
         1,
         2,
@@ -14225,7 +14966,9 @@
       "GainParam1": [],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "SeasonRewards"
+        "Key": "SeasonRewards",
+        "SourceString": "赛季奖励",
+        "LocalizedString": "赛季奖励"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -14276,7 +15019,9 @@
       "GainParam1": [],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "SeasonRewards"
+        "Key": "SeasonRewards",
+        "SourceString": "赛季奖励",
+        "LocalizedString": "赛季奖励"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -14299,7 +15044,7 @@
         "LocalizedString": "物质的尽头是以太，它一直延续到宇宙的终极。第2赛季排位奖励。"
       },
       "Quality": 3,
-      "SortId": 3121,
+      "SortId": 3126,
       "AvailableType": [
         1,
         2,
@@ -14327,7 +15072,9 @@
       "GainParam1": [],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "SeasonRewards"
+        "Key": "SeasonRewards",
+        "SourceString": "赛季奖励",
+        "LocalizedString": "赛季奖励"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -14350,7 +15097,7 @@
         "LocalizedString": "初步开始变化的物质形态。第2赛季排位奖励。"
       },
       "Quality": 3,
-      "SortId": 3122,
+      "SortId": 3127,
       "AvailableType": [
         1,
         2,
@@ -14378,7 +15125,9 @@
       "GainParam1": [],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "SeasonRewards"
+        "Key": "SeasonRewards",
+        "SourceString": "赛季奖励",
+        "LocalizedString": "赛季奖励"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -14401,7 +15150,7 @@
         "LocalizedString": "达到原子级别的物质形态。第2赛季排位奖励。"
       },
       "Quality": 3,
-      "SortId": 3123,
+      "SortId": 3128,
       "AvailableType": [
         1,
         2,
@@ -14429,7 +15178,9 @@
       "GainParam1": [],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "SeasonRewards"
+        "Key": "SeasonRewards",
+        "SourceString": "赛季奖励",
+        "LocalizedString": "赛季奖励"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -14452,7 +15203,7 @@
         "LocalizedString": "进化到质子级别的基本粒子形态。第2赛季排位奖励。"
       },
       "Quality": 3,
-      "SortId": 3124,
+      "SortId": 3129,
       "AvailableType": [
         1,
         2,
@@ -14480,7 +15231,9 @@
       "GainParam1": [],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "SeasonRewards"
+        "Key": "SeasonRewards",
+        "SourceString": "赛季奖励",
+        "LocalizedString": "赛季奖励"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -14503,7 +15256,7 @@
         "LocalizedString": "转变到自由中子级别的基本粒子形态。第2赛季排位奖励。"
       },
       "Quality": 3,
-      "SortId": 3125,
+      "SortId": 3130,
       "AvailableType": [
         1,
         2,
@@ -14531,7 +15284,9 @@
       "GainParam1": [],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "SeasonRewards"
+        "Key": "SeasonRewards",
+        "SourceString": "赛季奖励",
+        "LocalizedString": "赛季奖励"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -14554,7 +15309,7 @@
         "LocalizedString": "触及到束缚电子级别的基本粒子形态。第2赛季排位奖励。"
       },
       "Quality": 3,
-      "SortId": 3126,
+      "SortId": 3131,
       "AvailableType": [
         1,
         2,
@@ -14582,7 +15337,9 @@
       "GainParam1": [],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "SeasonRewards"
+        "Key": "SeasonRewards",
+        "SourceString": "赛季奖励",
+        "LocalizedString": "赛季奖励"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -14605,7 +15362,7 @@
         "LocalizedString": "深入到夸克层次的禁闭形态。第2赛季排位奖励。"
       },
       "Quality": 3,
-      "SortId": 3127,
+      "SortId": 3132,
       "AvailableType": [
         1,
         2,
@@ -14633,7 +15390,9 @@
       "GainParam1": [],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "SeasonRewards"
+        "Key": "SeasonRewards",
+        "SourceString": "赛季奖励",
+        "LocalizedString": "赛季奖励"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -14656,7 +15415,7 @@
         "LocalizedString": "无限逼近超弦层次的形态。第2赛季排位奖励。"
       },
       "Quality": 3,
-      "SortId": 3128,
+      "SortId": 3133,
       "AvailableType": [
         1,
         2,
@@ -14684,7 +15443,9 @@
       "GainParam1": [],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "SeasonRewards"
+        "Key": "SeasonRewards",
+        "SourceString": "赛季奖励",
+        "LocalizedString": "赛季奖励"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -14735,7 +15496,9 @@
       "GainParam1": [],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "SeasonRewards"
+        "Key": "SeasonRewards",
+        "SourceString": "赛季奖励",
+        "LocalizedString": "赛季奖励"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -14758,7 +15521,7 @@
         "LocalizedString": "物质的尽头是以太，它一直延续到宇宙的终极。第3赛季排位奖励。"
       },
       "Quality": 3,
-      "SortId": 3129,
+      "SortId": 3134,
       "AvailableType": [
         1,
         2,
@@ -14786,7 +15549,9 @@
       "GainParam1": [],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "SeasonRewards"
+        "Key": "SeasonRewards",
+        "SourceString": "赛季奖励",
+        "LocalizedString": "赛季奖励"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -14809,7 +15574,7 @@
         "LocalizedString": "初步开始变化的物质形态。第3赛季排位奖励。"
       },
       "Quality": 3,
-      "SortId": 3130,
+      "SortId": 3135,
       "AvailableType": [
         1,
         2,
@@ -14837,7 +15602,9 @@
       "GainParam1": [],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "SeasonRewards"
+        "Key": "SeasonRewards",
+        "SourceString": "赛季奖励",
+        "LocalizedString": "赛季奖励"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -14860,7 +15627,7 @@
         "LocalizedString": "达到原子级别的物质形态。第3赛季排位奖励。"
       },
       "Quality": 3,
-      "SortId": 3131,
+      "SortId": 3136,
       "AvailableType": [
         1,
         2,
@@ -14888,7 +15655,9 @@
       "GainParam1": [],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "SeasonRewards"
+        "Key": "SeasonRewards",
+        "SourceString": "赛季奖励",
+        "LocalizedString": "赛季奖励"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -14911,7 +15680,7 @@
         "LocalizedString": "进化到质子级别的基本粒子形态。第3赛季排位奖励。"
       },
       "Quality": 3,
-      "SortId": 3132,
+      "SortId": 3137,
       "AvailableType": [
         1,
         2,
@@ -14939,7 +15708,9 @@
       "GainParam1": [],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "SeasonRewards"
+        "Key": "SeasonRewards",
+        "SourceString": "赛季奖励",
+        "LocalizedString": "赛季奖励"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -14962,7 +15733,7 @@
         "LocalizedString": "转变到自由中子级别的基本粒子形态。第3赛季排位奖励。"
       },
       "Quality": 3,
-      "SortId": 3133,
+      "SortId": 3138,
       "AvailableType": [
         1,
         2,
@@ -14990,7 +15761,9 @@
       "GainParam1": [],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "SeasonRewards"
+        "Key": "SeasonRewards",
+        "SourceString": "赛季奖励",
+        "LocalizedString": "赛季奖励"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -15013,7 +15786,7 @@
         "LocalizedString": "触及到束缚电子级别的基本粒子形态。第3赛季排位奖励。"
       },
       "Quality": 3,
-      "SortId": 3134,
+      "SortId": 3139,
       "AvailableType": [
         1,
         2,
@@ -15041,7 +15814,9 @@
       "GainParam1": [],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "SeasonRewards"
+        "Key": "SeasonRewards",
+        "SourceString": "赛季奖励",
+        "LocalizedString": "赛季奖励"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -15064,7 +15839,7 @@
         "LocalizedString": "深入到夸克层次的禁闭形态。第3赛季排位奖励。"
       },
       "Quality": 3,
-      "SortId": 3135,
+      "SortId": 3140,
       "AvailableType": [
         1,
         2,
@@ -15092,7 +15867,9 @@
       "GainParam1": [],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "SeasonRewards"
+        "Key": "SeasonRewards",
+        "SourceString": "赛季奖励",
+        "LocalizedString": "赛季奖励"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -15115,7 +15892,7 @@
         "LocalizedString": "无限逼近超弦层次的形态。第3赛季排位奖励。"
       },
       "Quality": 3,
-      "SortId": 3136,
+      "SortId": 3141,
       "AvailableType": [
         1,
         2,
@@ -15143,7 +15920,9 @@
       "GainParam1": [],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "SeasonRewards"
+        "Key": "SeasonRewards",
+        "SourceString": "赛季奖励",
+        "LocalizedString": "赛季奖励"
       },
       "RandomIndex": false,
       "DefaultEquip": false
@@ -15194,7 +15973,486 @@
       "GainParam1": [],
       "GainParam2": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "SeasonRewards"
+        "Key": "SeasonRewards",
+        "SourceString": "赛季奖励",
+        "LocalizedString": "赛季奖励"
+      },
+      "RandomIndex": false,
+      "DefaultEquip": false
+    },
+    "30004031": {
+      "Id": 30004031,
+      "BoolLoad": false,
+      "Available": false,
+      "AvailableState": 2,
+      "Name": {
+        "Namespace": "Decal",
+        "Key": "30003027_Name",
+        "SourceString": "至纯物质—S4",
+        "LocalizedString": "至纯物质—S4"
+      },
+      "Desc": {
+        "Namespace": "Decal",
+        "Key": "30003027_Desc",
+        "SourceString": "物质的尽头是以太，它一直延续到宇宙的终极。第4赛季排位奖励。",
+        "LocalizedString": "物质的尽头是以太，它一直延续到宇宙的终极。第4赛季排位奖励。"
+      },
+      "Quality": 3,
+      "SortId": 3142,
+      "AvailableType": [
+        1,
+        2,
+        3
+      ],
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/PaintingListDecal/T_Dynamic_Decal_30004031.T_Dynamic_Decal_30004031",
+        "SubPathString": ""
+      },
+      "IconBig": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/DecalShow/T_Dynamic_Decal_L_30004031.T_Dynamic_Decal_L_30004031",
+        "SubPathString": ""
+      },
+      "BluePrint": {
+        "AssetPathName": "/Game/PaperMan/CyAbilities/Shared/GA/GA_Graffiti/BP_DecalActor.BP_DecalActor",
+        "SubPathString": ""
+      },
+      "LimitNum": 1,
+      "LimitType": 6,
+      "LimitParam": 160,
+      "GainTypeMb": [],
+      "GainType": [
+        0
+      ],
+      "GainParam1": [],
+      "GainParam2": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
+        "Key": "SeasonRewards",
+        "SourceString": "赛季奖励",
+        "LocalizedString": "赛季奖励"
+      },
+      "RandomIndex": false,
+      "DefaultEquip": false
+    },
+    "30004032": {
+      "Id": 30004032,
+      "BoolLoad": false,
+      "Available": false,
+      "AvailableState": 2,
+      "Name": {
+        "Namespace": "Decal",
+        "Key": "30003028_Name",
+        "SourceString": "升格分子—S4",
+        "LocalizedString": "升格分子—S4"
+      },
+      "Desc": {
+        "Namespace": "Decal",
+        "Key": "30003028_Desc",
+        "SourceString": "初步开始变化的物质形态。第4赛季排位奖励。",
+        "LocalizedString": "初步开始变化的物质形态。第4赛季排位奖励。"
+      },
+      "Quality": 3,
+      "SortId": 3143,
+      "AvailableType": [
+        1,
+        2,
+        3
+      ],
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/PaintingListDecal/T_Dynamic_Decal_30004032.T_Dynamic_Decal_30004032",
+        "SubPathString": ""
+      },
+      "IconBig": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/DecalShow/T_Dynamic_Decal_L_30004032.T_Dynamic_Decal_L_30004032",
+        "SubPathString": ""
+      },
+      "BluePrint": {
+        "AssetPathName": "/Game/PaperMan/CyAbilities/Shared/GA/GA_Graffiti/BP_DecalActor.BP_DecalActor",
+        "SubPathString": ""
+      },
+      "LimitNum": 1,
+      "LimitType": 6,
+      "LimitParam": 160,
+      "GainTypeMb": [],
+      "GainType": [
+        0
+      ],
+      "GainParam1": [],
+      "GainParam2": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
+        "Key": "SeasonRewards",
+        "SourceString": "赛季奖励",
+        "LocalizedString": "赛季奖励"
+      },
+      "RandomIndex": false,
+      "DefaultEquip": false
+    },
+    "30004033": {
+      "Id": 30004033,
+      "BoolLoad": false,
+      "Available": false,
+      "AvailableState": 2,
+      "Name": {
+        "Namespace": "Decal",
+        "Key": "30003029_Name",
+        "SourceString": "虚空原子—S4",
+        "LocalizedString": "虚空原子—S4"
+      },
+      "Desc": {
+        "Namespace": "Decal",
+        "Key": "30003029_Desc",
+        "SourceString": "达到原子级别的物质形态。第4赛季排位奖励。",
+        "LocalizedString": "达到原子级别的物质形态。第4赛季排位奖励。"
+      },
+      "Quality": 3,
+      "SortId": 3144,
+      "AvailableType": [
+        1,
+        2,
+        3
+      ],
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/PaintingListDecal/T_Dynamic_Decal_30004033.T_Dynamic_Decal_30004033",
+        "SubPathString": ""
+      },
+      "IconBig": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/DecalShow/T_Dynamic_Decal_L_30004033.T_Dynamic_Decal_L_30004033",
+        "SubPathString": ""
+      },
+      "BluePrint": {
+        "AssetPathName": "/Game/PaperMan/CyAbilities/Shared/GA/GA_Graffiti/BP_DecalActor.BP_DecalActor",
+        "SubPathString": ""
+      },
+      "LimitNum": 1,
+      "LimitType": 6,
+      "LimitParam": 160,
+      "GainTypeMb": [],
+      "GainType": [
+        0
+      ],
+      "GainParam1": [],
+      "GainParam2": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
+        "Key": "SeasonRewards",
+        "SourceString": "赛季奖励",
+        "LocalizedString": "赛季奖励"
+      },
+      "RandomIndex": false,
+      "DefaultEquip": false
+    },
+    "30004034": {
+      "Id": 30004034,
+      "BoolLoad": false,
+      "Available": false,
+      "AvailableState": 2,
+      "Name": {
+        "Namespace": "Decal",
+        "Key": "30003030_Name",
+        "SourceString": "聚变质子—S4",
+        "LocalizedString": "聚变质子—S4"
+      },
+      "Desc": {
+        "Namespace": "Decal",
+        "Key": "30003030_Desc",
+        "SourceString": "进化到质子级别的基本粒子形态。第4赛季排位奖励。",
+        "LocalizedString": "进化到质子级别的基本粒子形态。第4赛季排位奖励。"
+      },
+      "Quality": 3,
+      "SortId": 3145,
+      "AvailableType": [
+        1,
+        2,
+        3
+      ],
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/PaintingListDecal/T_Dynamic_Decal_30004034.T_Dynamic_Decal_30004034",
+        "SubPathString": ""
+      },
+      "IconBig": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/DecalShow/T_Dynamic_Decal_L_30004034.T_Dynamic_Decal_L_30004034",
+        "SubPathString": ""
+      },
+      "BluePrint": {
+        "AssetPathName": "/Game/PaperMan/CyAbilities/Shared/GA/GA_Graffiti/BP_DecalActor.BP_DecalActor",
+        "SubPathString": ""
+      },
+      "LimitNum": 1,
+      "LimitType": 6,
+      "LimitParam": 160,
+      "GainTypeMb": [],
+      "GainType": [
+        0
+      ],
+      "GainParam1": [],
+      "GainParam2": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
+        "Key": "SeasonRewards",
+        "SourceString": "赛季奖励",
+        "LocalizedString": "赛季奖励"
+      },
+      "RandomIndex": false,
+      "DefaultEquip": false
+    },
+    "30004035": {
+      "Id": 30004035,
+      "BoolLoad": false,
+      "Available": false,
+      "AvailableState": 2,
+      "Name": {
+        "Namespace": "Decal",
+        "Key": "30003031_Name",
+        "SourceString": "自由中子—S4",
+        "LocalizedString": "自由中子—S4"
+      },
+      "Desc": {
+        "Namespace": "Decal",
+        "Key": "30003031_Desc",
+        "SourceString": "转变到自由中子级别的基本粒子形态。第4赛季排位奖励。",
+        "LocalizedString": "转变到自由中子级别的基本粒子形态。第4赛季排位奖励。"
+      },
+      "Quality": 3,
+      "SortId": 3146,
+      "AvailableType": [
+        1,
+        2,
+        3
+      ],
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/PaintingListDecal/T_Dynamic_Decal_30004035.T_Dynamic_Decal_30004035",
+        "SubPathString": ""
+      },
+      "IconBig": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/DecalShow/T_Dynamic_Decal_L_30004035.T_Dynamic_Decal_L_30004035",
+        "SubPathString": ""
+      },
+      "BluePrint": {
+        "AssetPathName": "/Game/PaperMan/CyAbilities/Shared/GA/GA_Graffiti/BP_DecalActor.BP_DecalActor",
+        "SubPathString": ""
+      },
+      "LimitNum": 1,
+      "LimitType": 6,
+      "LimitParam": 160,
+      "GainTypeMb": [],
+      "GainType": [
+        0
+      ],
+      "GainParam1": [],
+      "GainParam2": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
+        "Key": "SeasonRewards",
+        "SourceString": "赛季奖励",
+        "LocalizedString": "赛季奖励"
+      },
+      "RandomIndex": false,
+      "DefaultEquip": false
+    },
+    "30004036": {
+      "Id": 30004036,
+      "BoolLoad": false,
+      "Available": false,
+      "AvailableState": 2,
+      "Name": {
+        "Namespace": "Decal",
+        "Key": "30003032_Name",
+        "SourceString": "束缚电子—S4",
+        "LocalizedString": "束缚电子—S4"
+      },
+      "Desc": {
+        "Namespace": "Decal",
+        "Key": "30003032_Desc",
+        "SourceString": "触及到束缚电子级别的基本粒子形态。第4赛季排位奖励。",
+        "LocalizedString": "触及到束缚电子级别的基本粒子形态。第4赛季排位奖励。"
+      },
+      "Quality": 3,
+      "SortId": 3147,
+      "AvailableType": [
+        1,
+        2,
+        3
+      ],
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/PaintingListDecal/T_Dynamic_Decal_30004036.T_Dynamic_Decal_30004036",
+        "SubPathString": ""
+      },
+      "IconBig": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/DecalShow/T_Dynamic_Decal_L_30004036.T_Dynamic_Decal_L_30004036",
+        "SubPathString": ""
+      },
+      "BluePrint": {
+        "AssetPathName": "/Game/PaperMan/CyAbilities/Shared/GA/GA_Graffiti/BP_DecalActor.BP_DecalActor",
+        "SubPathString": ""
+      },
+      "LimitNum": 1,
+      "LimitType": 6,
+      "LimitParam": 160,
+      "GainTypeMb": [],
+      "GainType": [
+        0
+      ],
+      "GainParam1": [],
+      "GainParam2": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
+        "Key": "SeasonRewards",
+        "SourceString": "赛季奖励",
+        "LocalizedString": "赛季奖励"
+      },
+      "RandomIndex": false,
+      "DefaultEquip": false
+    },
+    "30004037": {
+      "Id": 30004037,
+      "BoolLoad": false,
+      "Available": false,
+      "AvailableState": 2,
+      "Name": {
+        "Namespace": "Decal",
+        "Key": "30003033_Name",
+        "SourceString": "禁闭夸克—S4",
+        "LocalizedString": "禁闭夸克—S4"
+      },
+      "Desc": {
+        "Namespace": "Decal",
+        "Key": "30003033_Desc",
+        "SourceString": "深入到夸克层次的禁闭形态。第4赛季排位奖励。",
+        "LocalizedString": "深入到夸克层次的禁闭形态。第4赛季排位奖励。"
+      },
+      "Quality": 3,
+      "SortId": 3148,
+      "AvailableType": [
+        1,
+        2,
+        3
+      ],
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/PaintingListDecal/T_Dynamic_Decal_30004037.T_Dynamic_Decal_30004037",
+        "SubPathString": ""
+      },
+      "IconBig": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/DecalShow/T_Dynamic_Decal_L_30004037.T_Dynamic_Decal_L_30004037",
+        "SubPathString": ""
+      },
+      "BluePrint": {
+        "AssetPathName": "/Game/PaperMan/CyAbilities/Shared/GA/GA_Graffiti/BP_DecalActor.BP_DecalActor",
+        "SubPathString": ""
+      },
+      "LimitNum": 1,
+      "LimitType": 6,
+      "LimitParam": 160,
+      "GainTypeMb": [],
+      "GainType": [
+        0
+      ],
+      "GainParam1": [],
+      "GainParam2": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
+        "Key": "SeasonRewards",
+        "SourceString": "赛季奖励",
+        "LocalizedString": "赛季奖励"
+      },
+      "RandomIndex": false,
+      "DefaultEquip": false
+    },
+    "30004038": {
+      "Id": 30004038,
+      "BoolLoad": false,
+      "Available": false,
+      "AvailableState": 2,
+      "Name": {
+        "Namespace": "Decal",
+        "Key": "30003034_Name",
+        "SourceString": "无限超弦—S4",
+        "LocalizedString": "无限超弦—S4"
+      },
+      "Desc": {
+        "Namespace": "Decal",
+        "Key": "30003034_Desc",
+        "SourceString": "无限逼近超弦层次的形态。第4赛季排位奖励。",
+        "LocalizedString": "无限逼近超弦层次的形态。第4赛季排位奖励。"
+      },
+      "Quality": 3,
+      "SortId": 3149,
+      "AvailableType": [
+        1,
+        2,
+        3
+      ],
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/PaintingListDecal/T_Dynamic_Decal_30004038.T_Dynamic_Decal_30004038",
+        "SubPathString": ""
+      },
+      "IconBig": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/DecalShow/T_Dynamic_Decal_L_30004038.T_Dynamic_Decal_L_30004038",
+        "SubPathString": ""
+      },
+      "BluePrint": {
+        "AssetPathName": "/Game/PaperMan/CyAbilities/Shared/GA/GA_Graffiti/BP_DecalActor.BP_DecalActor",
+        "SubPathString": ""
+      },
+      "LimitNum": 1,
+      "LimitType": 6,
+      "LimitParam": 160,
+      "GainTypeMb": [],
+      "GainType": [
+        0
+      ],
+      "GainParam1": [],
+      "GainParam2": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
+        "Key": "SeasonRewards",
+        "SourceString": "赛季奖励",
+        "LocalizedString": "赛季奖励"
+      },
+      "RandomIndex": false,
+      "DefaultEquip": false
+    },
+    "30004039": {
+      "Id": 30004039,
+      "BoolLoad": false,
+      "Available": false,
+      "AvailableState": 2,
+      "Name": {
+        "Namespace": "Decal",
+        "Key": "30003035_Name",
+        "SourceString": "奇点—S4",
+        "LocalizedString": "奇点—S4"
+      },
+      "Desc": {
+        "Namespace": "Decal",
+        "Key": "30003035_Desc",
+        "SourceString": "这就是…终极？第4赛季排位奖励。",
+        "LocalizedString": "这就是…终极？第4赛季排位奖励。"
+      },
+      "Quality": 4,
+      "SortId": 4025,
+      "AvailableType": [
+        1,
+        2,
+        3
+      ],
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/PaintingListDecal/T_Dynamic_Decal_30004039.T_Dynamic_Decal_30004039",
+        "SubPathString": ""
+      },
+      "IconBig": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Decal/DecalShow/T_Dynamic_Decal_L_30004039.T_Dynamic_Decal_L_30004039",
+        "SubPathString": ""
+      },
+      "BluePrint": {
+        "AssetPathName": "/Game/PaperMan/CyAbilities/Shared/GA/GA_Graffiti/BP_DecalActor.BP_DecalActor",
+        "SubPathString": ""
+      },
+      "LimitNum": 1,
+      "LimitType": 6,
+      "LimitParam": 480,
+      "GainTypeMb": [],
+      "GainType": [
+        0
+      ],
+      "GainParam1": [],
+      "GainParam2": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
+        "Key": "SeasonRewards",
+        "SourceString": "赛季奖励",
+        "LocalizedString": "赛季奖励"
       },
       "RandomIndex": false,
       "DefaultEquip": false

@@ -2,6 +2,7 @@
   "Type": "AkAudioEvent",
   "Name": "Weap_Vector_LoopShot_Stop",
   "Class": "UScriptClass'AkAudioEvent'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
   "Properties": {
     "MinimumDuration": 0.2096073,
     "MaximumDuration": 3.5946667,
@@ -9,5 +10,42 @@
       "ObjectName": "AkAudioBank'Wpn_Vector'",
       "ObjectPath": "PM/Content/WwiseAssets/AkBank/Wpn_Vector.0"
     }
-  }
+  },
+  "EventCookedData": {
+    "EventLanguageMap": [
+      {
+        "Key": {
+          "LanguageId": 0,
+          "LanguageName": "SFX",
+          "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
+        },
+        "Value": {
+          "EventId": 364754156,
+          "SoundBanks": [
+            {
+              "SoundBankId": -1008248676,
+              "SoundBankPathName": "Wpn_Vector.bnk",
+              "MemoryAlignment": 16,
+              "bDeviceMemory": false,
+              "bContainsMedia": true,
+              "SoundBankType": "EWwiseSoundBankType::User",
+              "DebugName": "Wpn_Vector"
+            }
+          ],
+          "Media": [],
+          "ExternalSources": [],
+          "SwitchContainerLeaves": [],
+          "RequiredGroupValueSet": [],
+          "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
+          "DebugName": "Weap_Vector_LoopShot_Stop"
+        }
+      }
+    ],
+    "DebugName": "Weap_Vector_LoopShot_Stop",
+    "EventId": 364754156
+  },
+  "MaximumDuration": 3.5946667,
+  "MinimumDuration": 0.2096073,
+  "IsInfinite": false,
+  "MaxAttenuationRadius": 15000.0
 }

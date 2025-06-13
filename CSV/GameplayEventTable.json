@@ -2,6 +2,7 @@
   "Type": "DataTable",
   "Name": "GameplayEventTable",
   "Class": "UScriptClass'DataTable'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
   "Properties": {
     "RowStruct": {
       "ObjectName": "ScriptStruct'GameplayTagTableRow'",
@@ -1341,6 +1342,10 @@
       "Tag": "Event.Action.Action",
       "DevComment": "使用动作"
     },
+    "Event.Action.Emotion": {
+      "Tag": "Event.Action.Emotion",
+      "DevComment": "使用表情"
+    },
     "Event.Action.InstallC4": {
       "Tag": "Event.Action.InstallC4",
       "DevComment": "安装C4"
@@ -1772,6 +1777,10 @@
     "Event.CauseInjuredByWeapon.Tool": {
       "Tag": "Event.CauseInjuredByWeapon.Tool",
       "DevComment": "工具造成重伤倒地"
+    },
+    "Event.CauseDamage.PlayerSummon": {
+      "Tag": "Event.CauseDamage.PlayerSummon",
+      "DevComment": "玩家召唤物造成的伤害"
     },
     "Event.TakeInjured": {
       "Tag": "Event.TakeInjured",
@@ -2521,6 +2530,14 @@
       "Tag": "Event.GameState.GameOver.Ended",
       "DevComment": "游戏状态-游戏已经结束了状态结束后"
     },
+    "Event.GameZone.StateChange.Enter": {
+      "Tag": "Event.GameZone.StateChange.Enter",
+      "DevComment": "游戏区域状态变化-例如占点区域状态"
+    },
+    "Event.GameZone.StateChange.End": {
+      "Tag": "Event.GameZone.StateChange.End",
+      "DevComment": "游戏区域状态变化-例如占点区域状态"
+    },
     "Event.Skill.Aika.X.OnDetected": {
       "Tag": "Event.Skill.Aika.X.OnDetected",
       "DevComment": "艾卡的X技能检测到敌人"
@@ -3069,30 +3086,6 @@
       "Tag": "Event.GameState.StateTimeEnd",
       "DevComment": "游戏状态-状态倒计时结束"
     },
-    "Event.Pickup.LifeTimeEnd": {
-      "Tag": "Event.Pickup.LifeTimeEnd",
-      "DevComment": "拾取物到达存在时间"
-    },
-    "Event.BePickup.Energy": {
-      "Tag": "Event.BePickup.Energy",
-      "DevComment": "能量被拾取"
-    },
-    "Event.BePickup.Ammo": {
-      "Tag": "Event.BePickup.Ammo",
-      "DevComment": "弹药被拾取"
-    },
-    "Event.BePickup.Armor": {
-      "Tag": "Event.BePickup.Armor",
-      "DevComment": "护甲被拾取"
-    },
-    "Event.BePickup.Throw": {
-      "Tag": "Event.BePickup.Throw",
-      "DevComment": "投掷物被拾取"
-    },
-    "Event.BePickup.DeathDrop": {
-      "Tag": "Event.BePickup.DeathDrop",
-      "DevComment": "死亡掉落物被拾取"
-    },
     "Event.AIState.Entry.PreBegin": {
       "Tag": "Event.AIState.Entry.PreBegin",
       "DevComment": "AI状态-进入状态-开始前"
@@ -3381,9 +3374,257 @@
       "Tag": "Event.Leave.Area",
       "DevComment": "离开某个区域事件"
     },
+    "Event.HotZone.Entry": {
+      "Tag": "Event.HotZone.Entry",
+      "DevComment": "热区-准备解锁"
+    },
+    "Event.HotZone.Work": {
+      "Tag": "Event.HotZone.Work",
+      "DevComment": "热区-解锁"
+    },
+    "Event.HotZone.Death": {
+      "Tag": "Event.HotZone.Death",
+      "DevComment": "热区-关闭"
+    },
+    "Event.HotZone.PlayerEnter": {
+      "Tag": "Event.HotZone.PlayerEnter",
+      "DevComment": "玩家进入热区"
+    },
+    "Event.HotZone.PlayerLeave": {
+      "Tag": "Event.HotZone.PlayerLeave",
+      "DevComment": "玩家离开热区"
+    },
     "Event.HalfEnter.PlayerJoinGame": {
       "Tag": "Event.HalfEnter.PlayerJoinGame",
       "DevComment": "中途加入玩家加入对局"
+    },
+    "Event.Score.CompositeScoreRankChange": {
+      "Tag": "Event.Score.CompositeScoreRankChange",
+      "DevComment": "表现分排名变化"
+    },
+    "Event.Guide.SpawnActorOfWidgetAttach": {
+      "Tag": "Event.Guide.SpawnActorOfWidgetAttach",
+      "DevComment": "引导-UI-Attach的ActorSpawn"
+    },
+    "Event.Weapon.Equip.Begin.Flavia.Q": {
+      "Tag": "Event.Weapon.Equip.Begin.Flavia.Q",
+      "DevComment": "芙拉薇娅Q武器装备事件"
+    },
+    "Event.GameState.FightSecond.PreBegin": {
+      "Tag": "Event.GameState.FightSecond.PreBegin",
+      "DevComment": "游戏状态-游戏战斗阶段2开始前"
+    },
+    "Event.GameState.FightSecond.Begin": {
+      "Tag": "Event.GameState.FightSecond.Begin",
+      "DevComment": "游戏状态-游戏战斗阶段2开始"
+    },
+    "Event.GameState.FightSecond.Begun": {
+      "Tag": "Event.GameState.FightSecond.Begun",
+      "DevComment": "游戏状态-游戏战斗阶段2开始后"
+    },
+    "Event.GameState.FightSecond.PreEnd": {
+      "Tag": "Event.GameState.FightSecond.PreEnd",
+      "DevComment": "游戏状态-游戏战斗阶段2结束前"
+    },
+    "Event.GameState.FightSecond.End": {
+      "Tag": "Event.GameState.FightSecond.End",
+      "DevComment": "游戏状态-游戏战斗阶段2结束"
+    },
+    "Event.GameState.FightSecond.Ended": {
+      "Tag": "Event.GameState.FightSecond.Ended",
+      "DevComment": "游戏状态-游戏战斗阶段2结束后"
+    },
+    "Event.GameState.FightThird.PreBegin": {
+      "Tag": "Event.GameState.FightThird.PreBegin",
+      "DevComment": "游戏状态-游戏战斗阶段3开始前"
+    },
+    "Event.GameState.FightThird.Begin": {
+      "Tag": "Event.GameState.FightThird.Begin",
+      "DevComment": "游戏状态-游戏战斗阶段3开始"
+    },
+    "Event.GameState.FightThird.Begun": {
+      "Tag": "Event.GameState.FightThird.Begun",
+      "DevComment": "游戏状态-游戏战斗阶段3开始后"
+    },
+    "Event.GameState.FightThird.PreEnd": {
+      "Tag": "Event.GameState.FightThird.PreEnd",
+      "DevComment": "游戏状态-游戏战斗阶段3结束前"
+    },
+    "Event.GameState.FightThird.End": {
+      "Tag": "Event.GameState.FightThird.End",
+      "DevComment": "游戏状态-游戏战斗阶段3结束"
+    },
+    "Event.GameState.FightThird.Ended": {
+      "Tag": "Event.GameState.FightThird.Ended",
+      "DevComment": "游戏状态-游戏战斗阶段3结束后"
+    },
+    "Event.GameState.FightForth.PreBegin": {
+      "Tag": "Event.GameState.FightForth.PreBegin",
+      "DevComment": "游戏状态-游戏战斗阶段4开始前"
+    },
+    "Event.GameState.FightForth.Begin": {
+      "Tag": "Event.GameState.FightForth.Begin",
+      "DevComment": "游戏状态-游戏战斗阶段4开始"
+    },
+    "Event.GameState.FightForth.Begun": {
+      "Tag": "Event.GameState.FightForth.Begun",
+      "DevComment": "游戏状态-游戏战斗阶段4开始后"
+    },
+    "Event.GameState.FightForth.PreEnd": {
+      "Tag": "Event.GameState.FightForth.PreEnd",
+      "DevComment": "游戏状态-游戏战斗阶段4结束前"
+    },
+    "Event.GameState.FightForth.End": {
+      "Tag": "Event.GameState.FightForth.End",
+      "DevComment": "游戏状态-游戏战斗阶段4结束"
+    },
+    "Event.GameState.FightForth.Ended": {
+      "Tag": "Event.GameState.FightForth.Ended",
+      "DevComment": "游戏状态-游戏战斗阶段4结束后"
+    },
+    "Event.GameState.FightFifth.PreBegin": {
+      "Tag": "Event.GameState.FightFifth.PreBegin",
+      "DevComment": "游戏状态-游戏战斗阶段5开始前"
+    },
+    "Event.GameState.FightFifth.Begin": {
+      "Tag": "Event.GameState.FightFifth.Begin",
+      "DevComment": "游戏状态-游戏战斗阶段5开始"
+    },
+    "Event.GameState.FightFifth.Begun": {
+      "Tag": "Event.GameState.FightFifth.Begun",
+      "DevComment": "游戏状态-游戏战斗阶段5开始后"
+    },
+    "Event.GameState.FightFifth.PreEnd": {
+      "Tag": "Event.GameState.FightFifth.PreEnd",
+      "DevComment": "游戏状态-游戏战斗阶段5结束前"
+    },
+    "Event.GameState.FightFifth.End": {
+      "Tag": "Event.GameState.FightFifth.End",
+      "DevComment": "游戏状态-游戏战斗阶段5结束"
+    },
+    "Event.GameState.FightFifth.Ended": {
+      "Tag": "Event.GameState.FightFifth.Ended",
+      "DevComment": "游戏状态-游戏战斗阶段5结束后"
+    },
+    "Event.Summon.Spawn.Yvette.Q.Bear": {
+      "Tag": "Event.Summon.Spawn.Yvette.Q.Bear",
+      "DevComment": "伊维特Q的熊生成"
+    },
+    "Event.Summon.Destroy.Yvette.Q.Bear": {
+      "Tag": "Event.Summon.Destroy.Yvette.Q.Bear",
+      "DevComment": "伊维特Q的熊销毁"
+    },
+    "Event.Summon.Spawn.Audery.X.Projectile": {
+      "Tag": "Event.Summon.Spawn.Audery.X.Projectile",
+      "DevComment": "奥黛丽大招技能子弹出生"
+    },
+    "Event.CauseDamage.System.Card": {
+      "Tag": "Event.CauseDamage.System.Card",
+      "DevComment": "由卡牌引起的伤害"
+    },
+    "Event.Card.10013037": {
+      "Tag": "Event.Card.10013037",
+      "DevComment": "卡牌10013037事件"
+    },
+    "Event.Summon.Destroy.Michele.E": {
+      "Tag": "Event.Summon.Destroy.Michele.E",
+      "DevComment": "米雪儿的E召唤物销毁事件"
+    },
+    "Event.Summon.Death.Audrey.P": {
+      "Tag": "Event.Summon.Death.Audrey.P",
+      "DevComment": "奥黛丽被动的盾被打破"
+    },
+    "Event.Summon.Destroy.Audrey.Arousal.Two": {
+      "Tag": "Event.Summon.Destroy.Audrey.Arousal.Two",
+      "DevComment": "奥黛丽觉醒2的召唤物销毁"
+    },
+    "Event.Summon.Destroy.Nobunaga.E": {
+      "Tag": "Event.Summon.Destroy.Nobunaga.E",
+      "DevComment": "信的C技能召唤物销毁"
+    },
+    "Event.Summon.Destroy.Meredith.E": {
+      "Tag": "Event.Summon.Destroy.Meredith.E",
+      "DevComment": "梅瑞狄斯的C技能召唤物销毁"
+    },
+    "Event.Summon.Destroy.Galatea.E": {
+      "Tag": "Event.Summon.Destroy.Galatea.E",
+      "DevComment": "加拉蒂亚的C技能召唤物销毁"
+    },
+    "Event.Summon.Destroy.Galatea.X": {
+      "Tag": "Event.Summon.Destroy.Galatea.X",
+      "DevComment": "加拉蒂亚的X技能召唤物销毁"
+    },
+    "Event.Summon.Destroy.Galatea.Arousal.Three": {
+      "Tag": "Event.Summon.Destroy.Galatea.Arousal.Three",
+      "DevComment": "加拉蒂亚觉醒3召唤物销毁"
+    },
+    "Event.Summon.Destroy.Mara.Q": {
+      "Tag": "Event.Summon.Destroy.Mara.Q",
+      "DevComment": "玛拉的Q技能召唤物销毁"
+    },
+    "Event.Summon.Destroy.Audrey.E": {
+      "Tag": "Event.Summon.Destroy.Audrey.E",
+      "DevComment": "奥黛丽的C技能召唤物销毁"
+    },
+    "Event.Summon.Destroy.Yvette.E": {
+      "Tag": "Event.Summon.Destroy.Yvette.E",
+      "DevComment": "伊薇特的C技能召唤物销毁"
+    },
+    "Event.Card.CountChanged": {
+      "Tag": "Event.Card.CountChanged",
+      "DevComment": "拥有卡牌数量变化事件"
+    },
+    "Event.Accumulator.Chiyo.ArousalOne": {
+      "Tag": "Event.Accumulator.Chiyo.ArousalOne",
+      "DevComment": "千代觉醒1伤害累计触发事件"
+    },
+    "Event.Summon.Destroy.Chiyo.X.Projectile": {
+      "Tag": "Event.Summon.Destroy.Chiyo.X.Projectile",
+      "DevComment": "千代X技能子弹销毁"
+    },
+    "Event.Summon.Spawn.Chiyo.X.Projectile": {
+      "Tag": "Event.Summon.Spawn.Chiyo.X.Projectile",
+      "DevComment": "千代X技能子弹出生"
+    },
+    "Event.SkillHit.Q": {
+      "Tag": "Event.SkillHit.Q",
+      "DevComment": "Q技能命中"
+    },
+    "Event.SkillHit.X": {
+      "Tag": "Event.SkillHit.X",
+      "DevComment": "X技能命中"
+    },
+    "Event.PickupSpawn": {
+      "Tag": "Event.PickupSpawn",
+      "DevComment": "拾取物生成"
+    },
+    "Event.PickupRelease": {
+      "Tag": "Event.PickupRelease",
+      "DevComment": "拾取物回收"
+    },
+    "Event.GameplayEffect.Add.Chiyo.Q.Warning": {
+      "Tag": "Event.GameplayEffect.Add.Chiyo.Q.Warning",
+      "DevComment": "千代Q技能预警BUFF添加事件"
+    },
+    "Event.GameplayEffect.Remove.Chiyo.Q.Warning": {
+      "Tag": "Event.GameplayEffect.Remove.Chiyo.Q.Warning",
+      "DevComment": "千代Q技能预警BUFF移除事件"
+    },
+    "Event.GameplayEffect.Add.Chiyo.X.Warning": {
+      "Tag": "Event.GameplayEffect.Add.Chiyo.X.Warning",
+      "DevComment": "千代X技能预警BUFF添加事件"
+    },
+    "Event.GameplayEffect.Remove.Chiyo.X.Warning": {
+      "Tag": "Event.GameplayEffect.Remove.Chiyo.X.Warning",
+      "DevComment": "千代X技能预警BUFF移除事件"
+    },
+    "Event.Weapon.KnifeBlock": {
+      "Tag": "Event.Weapon.KnifeBlock",
+      "DevComment": "触发格挡"
+    },
+    "Event.Weapon.KnifeBlockWowowo": {
+      "Tag": "Event.Weapon.KnifeBlockWowowo",
+      "DevComment": "触发格挡尖叫鸡"
     }
   }
 }

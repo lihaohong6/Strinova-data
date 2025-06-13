@@ -2,6 +2,7 @@
   "Type": "AkAudioEvent",
   "Name": "Wpn_Bullet_Hit_Water",
   "Class": "UScriptClass'AkAudioEvent'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
   "Properties": {
     "MinimumDuration": 0.96900225,
     "MaximumDuration": 1.8068296,
@@ -9,5 +10,42 @@
       "ObjectName": "AkAudioBank'Wpn_Bullet'",
       "ObjectPath": "PM/Content/WwiseAssets/AkBank/Wpn_Bullet.0"
     }
-  }
+  },
+  "EventCookedData": {
+    "EventLanguageMap": [
+      {
+        "Key": {
+          "LanguageId": 0,
+          "LanguageName": "SFX",
+          "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
+        },
+        "Value": {
+          "EventId": -1531729645,
+          "SoundBanks": [
+            {
+              "SoundBankId": 1173691301,
+              "SoundBankPathName": "Wpn_Bullet.bnk",
+              "MemoryAlignment": 16,
+              "bDeviceMemory": false,
+              "bContainsMedia": true,
+              "SoundBankType": "EWwiseSoundBankType::User",
+              "DebugName": "Wpn_Bullet"
+            }
+          ],
+          "Media": [],
+          "ExternalSources": [],
+          "SwitchContainerLeaves": [],
+          "RequiredGroupValueSet": [],
+          "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
+          "DebugName": "Wpn_Bullet_Hit_Water"
+        }
+      }
+    ],
+    "DebugName": "Wpn_Bullet_Hit_Water",
+    "EventId": -1531729645
+  },
+  "MaximumDuration": 1.8068296,
+  "MinimumDuration": 0.96900225,
+  "IsInfinite": false,
+  "MaxAttenuationRadius": 5000.0
 }

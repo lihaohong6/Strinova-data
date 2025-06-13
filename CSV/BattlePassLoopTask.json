@@ -2,75 +2,12 @@
   "Type": "DataTable",
   "Name": "BattlePassLoopTask",
   "Class": "UScriptClass'DataTable'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
   "Properties": {
     "RowStruct": {
       "ObjectName": "ScriptStruct'CyBattlePassLoopTaskTableRow'",
       "ObjectPath": "/Script/PMGame"
     }
   },
-  "Rows": {
-    "30001": {
-      "Id": 30001,
-      "Circle": true,
-      "Desc": {
-        "Namespace": "BattlePassLoopTask",
-        "Key": "30001_Desc",
-        "SourceString": "获得500点账号经验",
-        "LocalizedString": "获得500点账号经验"
-      },
-      "Type": 3,
-      "Prize": [
-        {
-          "ItemId": 4,
-          "ItemAmount": 30
-        }
-      ],
-      "DescShort": {
-        "CultureInvariantString": null
-      },
-      "TaskConditions": [
-        {
-          "MainCondition": {
-            "MainType": "ECyTaskMainConditionType::Lobby",
-            "GameCondition": "ECyTaskGameConditionType::None",
-            "GameResult": "ECyGameResultType::None",
-            "RoundResult": "ECyRoundResultType::None",
-            "bFriendTeam": false,
-            "bNoFriendTeam": false,
-            "BattleCondition": "ECyTaskBattleConditionType::None",
-            "bHeadshot": false,
-            "bHitBody": false,
-            "bFirstKill": false,
-            "bRevenge": false,
-            "MultiKillLimit": 0,
-            "HitDistLimit": 0,
-            "bBlind": false,
-            "ActionCondition": "ECyTaskActionConditionType::None",
-            "RoleIds": [],
-            "RoleProfessions": [],
-            "RoleTeams": [],
-            "MeshModes": [],
-            "EnemyMeshModes": [],
-            "WeaponTypes": [],
-            "WeaponHoldType": [],
-            "SkillTypes": [],
-            "Num": 500,
-            "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
-            "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
-            "BehaviorId": 9
-          },
-          "LimitConditions": []
-        }
-      ],
-      "TaskLimit": {
-        "GameTypes": [],
-        "ModeTypes": []
-      },
-      "TaskIcon": {
-        "AssetPathName": "/Game/PaperMan/UI/Atlas/Mobile/Frontend/BattlePassMobile/Frames/SPR_UI_BattlePassMobile_GigTrick_Icon.SPR_UI_BattlePassMobile_GigTrick_Icon",
-        "SubPathString": ""
-      },
-      "FunctionId": 10
-    }
-  }
+  "Rows": {}
 }

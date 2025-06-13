@@ -2,10 +2,48 @@
   "Type": "AkAudioEvent",
   "Name": "UI_Dialogue_Script",
   "Class": "UScriptClass'AkAudioEvent'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
   "Properties": {
     "RequiredBank": {
       "ObjectName": "AkAudioBank'UI_Lounge'",
       "ObjectPath": "PM/Content/WwiseAssets/AkBank/UI_Lounge.0"
     }
-  }
+  },
+  "EventCookedData": {
+    "EventLanguageMap": [
+      {
+        "Key": {
+          "LanguageId": 0,
+          "LanguageName": "SFX",
+          "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
+        },
+        "Value": {
+          "EventId": 902709218,
+          "SoundBanks": [
+            {
+              "SoundBankId": -1419545100,
+              "SoundBankPathName": "UI_Lounge.bnk",
+              "MemoryAlignment": 16,
+              "bDeviceMemory": false,
+              "bContainsMedia": true,
+              "SoundBankType": "EWwiseSoundBankType::User",
+              "DebugName": "UI_Lounge"
+            }
+          ],
+          "Media": [],
+          "ExternalSources": [],
+          "SwitchContainerLeaves": [],
+          "RequiredGroupValueSet": [],
+          "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
+          "DebugName": "UI_Dialogue_Script"
+        }
+      }
+    ],
+    "DebugName": "UI_Dialogue_Script",
+    "EventId": 902709218
+  },
+  "MaximumDuration": 0.0,
+  "MinimumDuration": 0.0,
+  "IsInfinite": true,
+  "MaxAttenuationRadius": 0.0
 }

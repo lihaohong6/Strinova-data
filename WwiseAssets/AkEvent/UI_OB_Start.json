@@ -2,6 +2,7 @@
   "Type": "AkAudioEvent",
   "Name": "UI_OB_Start",
   "Class": "UScriptClass'AkAudioEvent'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
   "Properties": {
     "MinimumDuration": 1.7726984,
     "MaximumDuration": 1.7726984,
@@ -9,5 +10,42 @@
       "ObjectName": "AkAudioBank'UI_OB'",
       "ObjectPath": "PM/Content/WwiseAssets/AkBank/UI_OB.0"
     }
-  }
+  },
+  "EventCookedData": {
+    "EventLanguageMap": [
+      {
+        "Key": {
+          "LanguageId": 0,
+          "LanguageName": "SFX",
+          "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
+        },
+        "Value": {
+          "EventId": -179380968,
+          "SoundBanks": [
+            {
+              "SoundBankId": 1801758113,
+              "SoundBankPathName": "UI_OB.bnk",
+              "MemoryAlignment": 16,
+              "bDeviceMemory": false,
+              "bContainsMedia": true,
+              "SoundBankType": "EWwiseSoundBankType::User",
+              "DebugName": "UI_OB"
+            }
+          ],
+          "Media": [],
+          "ExternalSources": [],
+          "SwitchContainerLeaves": [],
+          "RequiredGroupValueSet": [],
+          "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
+          "DebugName": "UI_OB_Start"
+        }
+      }
+    ],
+    "DebugName": "UI_OB_Start",
+    "EventId": -179380968
+  },
+  "MaximumDuration": 1.7726984,
+  "MinimumDuration": 1.7726984,
+  "IsInfinite": false,
+  "MaxAttenuationRadius": 0.0
 }

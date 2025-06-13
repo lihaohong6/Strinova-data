@@ -2,6 +2,7 @@
   "Type": "DataTable",
   "Name": "GuideStep",
   "Class": "UScriptClass'DataTable'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
   "Properties": {
     "RowStruct": {
       "ObjectName": "ScriptStruct'CyGuideStepTableRow'",
@@ -13,13 +14,16 @@
       "TaskSubid": 1000001,
       "TaskParentid": 10000,
       "TaskType": 1,
-      "ParamType": "",
+      "ParamType": 0,
       "TaskParam": 0,
       "PageClass": "NavigationPage",
-      "ParentClassName": "None",
-      "SlateName": "None",
-      "SlateShape": 0,
-      "SlateZoom": 0,
+      "ParentClass": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "TargetName": "",
+      "MaskShape": 0,
+      "MaskZoom": 0,
       "MaskType": 1,
       "DialogId": 1000001
     },
@@ -27,13 +31,16 @@
       "TaskSubid": 1000002,
       "TaskParentid": 10000,
       "TaskType": 1,
-      "ParamType": "",
+      "ParamType": 0,
       "TaskParam": 0,
       "PageClass": "NavigationPage",
-      "ParentClassName": "None",
-      "SlateName": "None",
-      "SlateShape": 0,
-      "SlateZoom": 0,
+      "ParentClass": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "TargetName": "",
+      "MaskShape": 0,
+      "MaskZoom": 0,
       "MaskType": 1,
       "DialogId": 1000002
     },
@@ -41,13 +48,16 @@
       "TaskSubid": 1000003,
       "TaskParentid": 10000,
       "TaskType": 3,
-      "ParamType": "1",
+      "ParamType": 1,
       "TaskParam": 2,
       "PageClass": "NavigationPage",
-      "ParentClassName": "None",
-      "SlateName": "None",
-      "SlateShape": 0,
-      "SlateZoom": 0,
+      "ParentClass": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "TargetName": "RewardDisplayPage",
+      "MaskShape": 0,
+      "MaskZoom": 0,
       "MaskType": 0,
       "DialogId": 0
     },
@@ -55,13 +65,16 @@
       "TaskSubid": 1000004,
       "TaskParentid": 10000,
       "TaskType": 2,
-      "ParamType": "",
+      "ParamType": 0,
       "TaskParam": 0,
       "PageClass": "NavigationPage",
-      "ParentClassName": "None",
-      "SlateName": "Button_Equip",
-      "SlateShape": 0,
-      "SlateZoom": 0,
+      "ParentClass": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "TargetName": "Button_Equip",
+      "MaskShape": 0,
+      "MaskZoom": 0,
       "MaskType": 1,
       "DialogId": 1000004
     },
@@ -69,13 +82,16 @@
       "TaskSubid": 1000005,
       "TaskParentid": 10000,
       "TaskType": 2,
-      "ParamType": "2",
-      "TaskParam": 4,
+      "ParamType": 3,
+      "TaskParam": 105,
       "PageClass": "EquipRoomPage",
-      "ParentClassName": "None",
-      "SlateName": "DynamicEntryBox_Item",
-      "SlateShape": 0,
-      "SlateZoom": 0,
+      "ParentClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/EquipRoom/New/WBP_RoleGridItemNew_Mobile.WBP_RoleGridItemNew_Mobile_C",
+        "SubPathString": ""
+      },
+      "TargetName": "UPMBaseWidgetItem",
+      "MaskShape": 0,
+      "MaskZoom": 0,
       "MaskType": 1,
       "DialogId": 1000005
     },
@@ -83,13 +99,16 @@
       "TaskSubid": 1000006,
       "TaskParentid": 10000,
       "TaskType": 2,
-      "ParamType": "",
+      "ParamType": 0,
       "TaskParam": 0,
       "PageClass": "EquipRoomPage",
-      "ParentClassName": "None",
-      "SlateName": "Btn_RoleUnlock",
-      "SlateShape": 0,
-      "SlateZoom": 0,
+      "ParentClass": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "TargetName": "Btn_RoleUnlock",
+      "MaskShape": 0,
+      "MaskZoom": 0,
       "MaskType": 1,
       "DialogId": 1000006
     },
@@ -97,13 +116,16 @@
       "TaskSubid": 1000007,
       "TaskParentid": 10000,
       "TaskType": 2,
-      "ParamType": "2",
-      "TaskParam": 1,
-      "PageClass": "EquipRoomPage",
-      "ParentClassName": "WBP_HermesPurchaseGoodsPriceCombination_Mobile",
-      "SlateName": "DynamicEntryBox",
-      "SlateShape": 0,
-      "SlateZoom": 0,
+      "ParamType": 4,
+      "TaskParam": 2,
+      "PageClass": "HermesPurchaseGoodsPage",
+      "ParentClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/Hermes/HotList/WBP_HermesPurchaseGoodsPriceItem_Mobile.WBP_HermesPurchaseGoodsPriceItem_Mobile_C",
+        "SubPathString": ""
+      },
+      "TargetName": "CurrencyButton",
+      "MaskShape": 0,
+      "MaskZoom": 0,
       "MaskType": 1,
       "DialogId": 1000007
     },
@@ -111,13 +133,16 @@
       "TaskSubid": 1000008,
       "TaskParentid": 10000,
       "TaskType": 2,
-      "ParamType": "",
+      "ParamType": 0,
       "TaskParam": 0,
-      "PageClass": "EquipRoomPage",
-      "ParentClassName": "WBP_CustomStyleButton_Mobile",
-      "SlateName": "Button_Return",
-      "SlateShape": 0,
-      "SlateZoom": 0,
+      "PageClass": "HermesPurchaseGoodsPage",
+      "ParentClass": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "TargetName": "Button_Buy",
+      "MaskShape": 0,
+      "MaskZoom": 0,
       "MaskType": 1,
       "DialogId": 1000008
     },
@@ -125,71 +150,290 @@
       "TaskSubid": 1000101,
       "TaskParentid": 10001,
       "TaskType": 1,
-      "ParamType": "",
+      "ParamType": 0,
       "TaskParam": 0,
-      "PageClass": "PlayModeSelectPage",
-      "ParentClassName": "None",
-      "SlateName": "None",
-      "SlateShape": 0,
-      "SlateZoom": 0,
-      "MaskType": 0,
-      "DialogId": 1000001
+      "PageClass": "NavigationPage",
+      "ParentClass": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "TargetName": "",
+      "MaskShape": 0,
+      "MaskZoom": 0,
+      "MaskType": 1,
+      "DialogId": 1000101
     },
     "1000102": {
       "TaskSubid": 1000102,
       "TaskParentid": 10001,
       "TaskType": 1,
-      "ParamType": "",
+      "ParamType": 0,
       "TaskParam": 0,
-      "PageClass": "PlayModeSelectPage",
-      "ParentClassName": "None",
-      "SlateName": "None",
-      "SlateShape": 0,
-      "SlateZoom": 0,
+      "PageClass": "NavigationPage",
+      "ParentClass": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "TargetName": "",
+      "MaskShape": 0,
+      "MaskZoom": 0,
       "MaskType": 1,
-      "DialogId": 1000002
+      "DialogId": 1000102
     },
     "1000103": {
       "TaskSubid": 1000103,
       "TaskParentid": 10001,
       "TaskType": 2,
-      "ParamType": "2",
-      "TaskParam": 1,
-      "PageClass": "PlayModeSelectPage",
-      "ParentClassName": "None",
-      "SlateName": "DynamicEntryBox_PlayModes",
-      "SlateShape": 0,
-      "SlateZoom": 1,
+      "ParamType": 0,
+      "TaskParam": 0,
+      "PageClass": "NavigationPage",
+      "ParentClass": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "TargetName": "Button_Play",
+      "MaskShape": 0,
+      "MaskZoom": 0,
       "MaskType": 1,
-      "DialogId": 1000001
+      "DialogId": 1000103
+    },
+    "1000104": {
+      "TaskSubid": 1000104,
+      "TaskParentid": 10001,
+      "TaskType": 1,
+      "ParamType": 0,
+      "TaskParam": 0,
+      "PageClass": "PlayModeSelectPage",
+      "ParentClass": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "TargetName": "",
+      "MaskShape": 0,
+      "MaskZoom": 0,
+      "MaskType": 1,
+      "DialogId": 1000104
+    },
+    "1000105": {
+      "TaskSubid": 1000105,
+      "TaskParentid": 10001,
+      "TaskType": 2,
+      "ParamType": 5,
+      "TaskParam": 9,
+      "PageClass": "PlayModeSelectPage",
+      "ParentClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/Room/RoomMode/WBP_PlayModeSelectCard_Mobile.WBP_PlayModeSelectCard_Mobile_C",
+        "SubPathString": ""
+      },
+      "TargetName": "Button_ModeCard",
+      "MaskShape": 0,
+      "MaskZoom": 0,
+      "MaskType": 1,
+      "DialogId": 1000105
     },
     "1000106": {
       "TaskSubid": 1000106,
       "TaskParentid": 10001,
-      "TaskType": 2,
-      "ParamType": "",
-      "TaskParam": 1,
+      "TaskType": 4,
+      "ParamType": 0,
+      "TaskParam": 0,
       "PageClass": "PlayModeSelectPage",
-      "ParentClassName": "None",
-      "SlateName": "Button_Confirm",
-      "SlateShape": 0,
-      "SlateZoom": 1,
+      "ParentClass": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "TargetName": "GuideGraphInstructionPage",
+      "MaskShape": 0,
+      "MaskZoom": 0,
+      "MaskType": 0,
+      "DialogId": 0
+    },
+    "1000107": {
+      "TaskSubid": 1000107,
+      "TaskParentid": 10001,
+      "TaskType": 2,
+      "ParamType": 0,
+      "TaskParam": 0,
+      "PageClass": "PlayModeSelectPage",
+      "ParentClass": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "TargetName": "Button_Confirm",
+      "MaskShape": 0,
+      "MaskZoom": 0,
       "MaskType": 1,
-      "DialogId": 1000003
+      "DialogId": 1000107
+    },
+    "1000108": {
+      "TaskSubid": 1000108,
+      "TaskParentid": 10001,
+      "TaskType": 2,
+      "ParamType": 0,
+      "TaskParam": 0,
+      "PageClass": "RankPCPage",
+      "ParentClass": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "TargetName": "Button_Type1",
+      "MaskShape": 0,
+      "MaskZoom": 0,
+      "MaskType": 1,
+      "DialogId": 1000108
+    },
+    "1000200": {
+      "TaskSubid": 1000200,
+      "TaskParentid": 10002,
+      "TaskType": 4,
+      "ParamType": 0,
+      "TaskParam": 0,
+      "PageClass": "RankPCPage",
+      "ParentClass": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "TargetName": "FunctionUnLockPopPage",
+      "MaskShape": 0,
+      "MaskZoom": 0,
+      "MaskType": 0,
+      "DialogId": 0
     },
     "1000201": {
       "TaskSubid": 1000201,
       "TaskParentid": 10002,
-      "TaskType": 2,
-      "ParamType": "",
-      "TaskParam": 1,
-      "PageClass": "PlayModeSelectPage",
-      "ParentClassName": "None",
-      "SlateName": "Button_Confirm",
-      "SlateShape": 0,
-      "SlateZoom": 1,
+      "TaskType": 1,
+      "ParamType": 0,
+      "TaskParam": 0,
+      "PageClass": "RankPCPage",
+      "ParentClass": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "TargetName": "",
+      "MaskShape": 0,
+      "MaskZoom": 0,
       "MaskType": 1,
-      "DialogId": 1000003
+      "DialogId": 1000201
+    },
+    "1000202": {
+      "TaskSubid": 1000202,
+      "TaskParentid": 10002,
+      "TaskType": 1,
+      "ParamType": 0,
+      "TaskParam": 0,
+      "PageClass": "RankPCPage",
+      "ParentClass": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "TargetName": "",
+      "MaskShape": 0,
+      "MaskZoom": 0,
+      "MaskType": 1,
+      "DialogId": 1000202
+    },
+    "1000203": {
+      "TaskSubid": 1000203,
+      "TaskParentid": 10002,
+      "TaskType": 3,
+      "ParamType": 0,
+      "TaskParam": 3,
+      "PageClass": "RankPCPage",
+      "ParentClass": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "TargetName": "RewardDisplayPage",
+      "MaskShape": 0,
+      "MaskZoom": 0,
+      "MaskType": 0,
+      "DialogId": 0
+    },
+    "1000204": {
+      "TaskSubid": 1000204,
+      "TaskParentid": 10002,
+      "TaskType": 1,
+      "ParamType": 0,
+      "TaskParam": 0,
+      "PageClass": "RankPCPage",
+      "ParentClass": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "TargetName": "",
+      "MaskShape": 0,
+      "MaskZoom": 0,
+      "MaskType": 1,
+      "DialogId": 1000204
+    },
+    "1000205": {
+      "TaskSubid": 1000205,
+      "TaskParentid": 10002,
+      "TaskType": 2,
+      "ParamType": 0,
+      "TaskParam": 0,
+      "PageClass": "RankPCPage",
+      "ParentClass": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "TargetName": "Button_ToLobby",
+      "MaskShape": 0,
+      "MaskZoom": 0,
+      "MaskType": 1,
+      "DialogId": 1000205
+    },
+    "1000206": {
+      "TaskSubid": 1000206,
+      "TaskParentid": 10002,
+      "TaskType": 2,
+      "ParamType": 0,
+      "TaskParam": 0,
+      "PageClass": "NavigationPage",
+      "ParentClass": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "TargetName": "Button_HermesActivity",
+      "MaskShape": 0,
+      "MaskZoom": 0,
+      "MaskType": 1,
+      "DialogId": 1000206
+    },
+    "1000207": {
+      "TaskSubid": 1000207,
+      "TaskParentid": 10002,
+      "TaskType": 2,
+      "ParamType": 6,
+      "TaskParam": 2001,
+      "PageClass": "LotteryMainPage",
+      "ParentClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/Lottery/WBP_LotteryEntryItem_Mobile.WBP_LotteryEntryItem_Mobile_C",
+        "SubPathString": ""
+      },
+      "TargetName": "ButtonClick",
+      "MaskShape": 0,
+      "MaskZoom": 0,
+      "MaskType": 1,
+      "DialogId": 1000207
+    },
+    "1000208": {
+      "TaskSubid": 1000208,
+      "TaskParentid": 10002,
+      "TaskType": 2,
+      "ParamType": 0,
+      "TaskParam": 0,
+      "PageClass": "LotteryEntryPage",
+      "ParentClass": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "TargetName": "Button_Enter",
+      "MaskShape": 0,
+      "MaskZoom": 0,
+      "MaskType": 1,
+      "DialogId": 1000208
     }
   }
 }

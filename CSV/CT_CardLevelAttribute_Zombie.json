@@ -2,6 +2,7 @@
   "Type": "CurveTable",
   "Name": "CT_CardLevelAttribute_Zombie",
   "Class": "UScriptClass'CurveTable'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
   "CurveTableMode": "SimpleCurves",
   "Rows": {
     "Attribute.ExtraHorizontalRecoilFactor.Add.10231001": {
@@ -1124,6 +1125,38 @@
       "PreInfinityExtrap": "RCCE_Constant",
       "PostInfinityExtrap": "RCCE_Constant"
     },
+    "Attribute.ExtraPullBoltSpeedFactor.Add.10241010": {
+      "InterpMode": "RCIM_Linear",
+      "Keys": [
+        {
+          "Time": 0.0,
+          "Value": 0.0
+        },
+        {
+          "Time": 1.0,
+          "Value": 0.25
+        },
+        {
+          "Time": 2.0,
+          "Value": 0.55
+        },
+        {
+          "Time": 3.0,
+          "Value": 0.9
+        },
+        {
+          "Time": 4.0,
+          "Value": 0.9
+        },
+        {
+          "Time": 5.0,
+          "Value": 0.9
+        }
+      ],
+      "DefaultValue": 3.4028235E+38,
+      "PreInfinityExtrap": "RCCE_Constant",
+      "PostInfinityExtrap": "RCCE_Constant"
+    },
     "Attribute.SecondaryExtraAttackSpeedFactor.Add.10241010": {
       "InterpMode": "RCIM_Linear",
       "Keys": [
@@ -1220,38 +1253,6 @@
       "PreInfinityExtrap": "RCCE_Constant",
       "PostInfinityExtrap": "RCCE_Constant"
     },
-    "Attribute.Armor.Add.10241012": {
-      "InterpMode": "RCIM_Linear",
-      "Keys": [
-        {
-          "Time": 0.0,
-          "Value": 0.0
-        },
-        {
-          "Time": 1.0,
-          "Value": 1000.0
-        },
-        {
-          "Time": 2.0,
-          "Value": 2200.0
-        },
-        {
-          "Time": 3.0,
-          "Value": 3600.0
-        },
-        {
-          "Time": 4.0,
-          "Value": 3600.0
-        },
-        {
-          "Time": 5.0,
-          "Value": 3600.0
-        }
-      ],
-      "DefaultValue": 3.4028235E+38,
-      "PreInfinityExtrap": "RCCE_Constant",
-      "PostInfinityExtrap": "RCCE_Constant"
-    },
     "Duration.Silence.10241012": {
       "InterpMode": "RCIM_Linear",
       "Keys": [
@@ -1284,7 +1285,7 @@
       "PreInfinityExtrap": "RCCE_Constant",
       "PostInfinityExtrap": "RCCE_Constant"
     },
-    "Attribute.HealthMax.Add.10241013": {
+    "Attribute.Armor.Add.10241012": {
       "InterpMode": "RCIM_Linear",
       "Keys": [
         {
@@ -1316,7 +1317,7 @@
       "PreInfinityExtrap": "RCCE_Constant",
       "PostInfinityExtrap": "RCCE_Constant"
     },
-    "Attribute.Health.Add.10241013": {
+    "Attribute.HealthMax.Add.10241013": {
       "InterpMode": "RCIM_Linear",
       "Keys": [
         {
@@ -1380,7 +1381,7 @@
       "PreInfinityExtrap": "RCCE_Constant",
       "PostInfinityExtrap": "RCCE_Constant"
     },
-    "Attribute.HealthMax.Multiply.10241014": {
+    "Attribute.Health.Add.10241013": {
       "InterpMode": "RCIM_Linear",
       "Keys": [
         {
@@ -1389,30 +1390,30 @@
         },
         {
           "Time": 1.0,
-          "Value": 1.64
+          "Value": 1000.0
         },
         {
           "Time": 2.0,
-          "Value": 2.4
+          "Value": 2200.0
         },
         {
           "Time": 3.0,
-          "Value": 3.3
+          "Value": 3600.0
         },
         {
           "Time": 4.0,
-          "Value": 3.3
+          "Value": 3600.0
         },
         {
           "Time": 5.0,
-          "Value": 3.3
+          "Value": 3600.0
         }
       ],
       "DefaultValue": 3.4028235E+38,
       "PreInfinityExtrap": "RCCE_Constant",
       "PostInfinityExtrap": "RCCE_Constant"
     },
-    "Attribute.Health.Multiply.10241014": {
+    "Attribute.HealthMax.Multiply.10241014": {
       "InterpMode": "RCIM_Linear",
       "Keys": [
         {
@@ -1470,6 +1471,38 @@
         {
           "Time": 5.0,
           "Value": 0.8
+        }
+      ],
+      "DefaultValue": 3.4028235E+38,
+      "PreInfinityExtrap": "RCCE_Constant",
+      "PostInfinityExtrap": "RCCE_Constant"
+    },
+    "Attribute.Health.Multiply.10241014": {
+      "InterpMode": "RCIM_Linear",
+      "Keys": [
+        {
+          "Time": 0.0,
+          "Value": 0.0
+        },
+        {
+          "Time": 1.0,
+          "Value": 1.64
+        },
+        {
+          "Time": 2.0,
+          "Value": 2.4
+        },
+        {
+          "Time": 3.0,
+          "Value": 3.3
+        },
+        {
+          "Time": 4.0,
+          "Value": 3.3
+        },
+        {
+          "Time": 5.0,
+          "Value": 3.3
         }
       ],
       "DefaultValue": 3.4028235E+38,
@@ -1965,23 +1998,23 @@
         },
         {
           "Time": 1.0,
-          "Value": 2.5
+          "Value": 1.75
         },
         {
           "Time": 2.0,
-          "Value": 3.1
+          "Value": 2.25
         },
         {
           "Time": 3.0,
-          "Value": 3.8
+          "Value": 2.75
         },
         {
           "Time": 4.0,
-          "Value": 4.5
+          "Value": 3.25
         },
         {
           "Time": 5.0,
-          "Value": 4.5
+          "Value": 3.25
         }
       ],
       "DefaultValue": 3.4028235E+38,
@@ -2404,6 +2437,38 @@
       "PreInfinityExtrap": "RCCE_Constant",
       "PostInfinityExtrap": "RCCE_Constant"
     },
+    "Attribute.HealthMax.Multiply.10341003": {
+      "InterpMode": "RCIM_Linear",
+      "Keys": [
+        {
+          "Time": 0.0,
+          "Value": 0.0
+        },
+        {
+          "Time": 1.0,
+          "Value": 1.64
+        },
+        {
+          "Time": 2.0,
+          "Value": 2.4
+        },
+        {
+          "Time": 3.0,
+          "Value": 3.3
+        },
+        {
+          "Time": 4.0,
+          "Value": 3.3
+        },
+        {
+          "Time": 5.0,
+          "Value": 3.3
+        }
+      ],
+      "DefaultValue": 3.4028235E+38,
+      "PreInfinityExtrap": "RCCE_Constant",
+      "PostInfinityExtrap": "RCCE_Constant"
+    },
     "Attribute.ArmorMax.Multiply.10341003": {
       "InterpMode": "RCIM_Linear",
       "Keys": [
@@ -2430,6 +2495,38 @@
         {
           "Time": 5.0,
           "Value": 0.8
+        }
+      ],
+      "DefaultValue": 3.4028235E+38,
+      "PreInfinityExtrap": "RCCE_Constant",
+      "PostInfinityExtrap": "RCCE_Constant"
+    },
+    "Attribute.Health.Multiply.10341003": {
+      "InterpMode": "RCIM_Linear",
+      "Keys": [
+        {
+          "Time": 0.0,
+          "Value": 0.0
+        },
+        {
+          "Time": 1.0,
+          "Value": 1.64
+        },
+        {
+          "Time": 2.0,
+          "Value": 2.4
+        },
+        {
+          "Time": 3.0,
+          "Value": 3.3
+        },
+        {
+          "Time": 4.0,
+          "Value": 3.3
+        },
+        {
+          "Time": 5.0,
+          "Value": 3.3
         }
       ],
       "DefaultValue": 3.4028235E+38,
@@ -2468,7 +2565,7 @@
       "PreInfinityExtrap": "RCCE_Constant",
       "PostInfinityExtrap": "RCCE_Constant"
     },
-    "Attribute.HealthMax.Multiply.10341003": {
+    "Attribute.SpeedFactor.Add.10341001": {
       "InterpMode": "RCIM_Linear",
       "Keys": [
         {
@@ -2477,55 +2574,23 @@
         },
         {
           "Time": 1.0,
-          "Value": 1.64
+          "Value": 0.2
         },
         {
           "Time": 2.0,
-          "Value": 2.4
+          "Value": 0.4
         },
         {
           "Time": 3.0,
-          "Value": 3.3
+          "Value": 0.66
         },
         {
           "Time": 4.0,
-          "Value": 3.3
+          "Value": 0.66
         },
         {
           "Time": 5.0,
-          "Value": 3.3
-        }
-      ],
-      "DefaultValue": 3.4028235E+38,
-      "PreInfinityExtrap": "RCCE_Constant",
-      "PostInfinityExtrap": "RCCE_Constant"
-    },
-    "Attribute.Health.Multiply.10341003": {
-      "InterpMode": "RCIM_Linear",
-      "Keys": [
-        {
-          "Time": 0.0,
-          "Value": 0.0
-        },
-        {
-          "Time": 1.0,
-          "Value": 1.64
-        },
-        {
-          "Time": 2.0,
-          "Value": 2.4
-        },
-        {
-          "Time": 3.0,
-          "Value": 3.3
-        },
-        {
-          "Time": 4.0,
-          "Value": 3.3
-        },
-        {
-          "Time": 5.0,
-          "Value": 3.3
+          "Value": 0.66
         }
       ],
       "DefaultValue": 3.4028235E+38,
@@ -2596,7 +2661,7 @@
       "PreInfinityExtrap": "RCCE_Constant",
       "PostInfinityExtrap": "RCCE_Constant"
     },
-    "Attribute.SpeedFactor.Add.10341001": {
+    "Attribute.JumpSpeedFactor.Add.10341002": {
       "InterpMode": "RCIM_Linear",
       "Keys": [
         {
@@ -2605,23 +2670,23 @@
         },
         {
           "Time": 1.0,
-          "Value": 0.2
+          "Value": 0.3
         },
         {
           "Time": 2.0,
-          "Value": 0.4
+          "Value": 0.6
         },
         {
           "Time": 3.0,
-          "Value": 0.66
+          "Value": 1.0
         },
         {
           "Time": 4.0,
-          "Value": 0.66
+          "Value": 1.0
         },
         {
           "Time": 5.0,
-          "Value": 0.66
+          "Value": 1.0
         }
       ],
       "DefaultValue": 3.4028235E+38,
@@ -2686,38 +2751,6 @@
         {
           "Time": 5.0,
           "Value": 0.8
-        }
-      ],
-      "DefaultValue": 3.4028235E+38,
-      "PreInfinityExtrap": "RCCE_Constant",
-      "PostInfinityExtrap": "RCCE_Constant"
-    },
-    "Attribute.JumpSpeedFactor.Add.10341002": {
-      "InterpMode": "RCIM_Linear",
-      "Keys": [
-        {
-          "Time": 0.0,
-          "Value": 0.0
-        },
-        {
-          "Time": 1.0,
-          "Value": 0.3
-        },
-        {
-          "Time": 2.0,
-          "Value": 0.6
-        },
-        {
-          "Time": 3.0,
-          "Value": 1.0
-        },
-        {
-          "Time": 4.0,
-          "Value": 1.0
-        },
-        {
-          "Time": 5.0,
-          "Value": 1.0
         }
       ],
       "DefaultValue": 3.4028235E+38,
@@ -3044,38 +3077,6 @@
       "PreInfinityExtrap": "RCCE_Constant",
       "PostInfinityExtrap": "RCCE_Constant"
     },
-    "Attribute.Health.Multiply.10341012": {
-      "InterpMode": "RCIM_Linear",
-      "Keys": [
-        {
-          "Time": 0.0,
-          "Value": 0.0
-        },
-        {
-          "Time": 1.0,
-          "Value": 1.64
-        },
-        {
-          "Time": 2.0,
-          "Value": 2.4
-        },
-        {
-          "Time": 3.0,
-          "Value": 3.3
-        },
-        {
-          "Time": 4.0,
-          "Value": 3.3
-        },
-        {
-          "Time": 5.0,
-          "Value": 3.3
-        }
-      ],
-      "DefaultValue": 3.4028235E+38,
-      "PreInfinityExtrap": "RCCE_Constant",
-      "PostInfinityExtrap": "RCCE_Constant"
-    },
     "Duration.Silence.10341012": {
       "InterpMode": "RCIM_Linear",
       "Keys": [
@@ -3108,7 +3109,7 @@
       "PreInfinityExtrap": "RCCE_Constant",
       "PostInfinityExtrap": "RCCE_Constant"
     },
-    "Attribute.ArmorMax.Multiply.10341013": {
+    "Attribute.Health.Multiply.10341012": {
       "InterpMode": "RCIM_Linear",
       "Keys": [
         {
@@ -3117,30 +3118,30 @@
         },
         {
           "Time": 1.0,
-          "Value": 1.8
+          "Value": 1.64
         },
         {
           "Time": 2.0,
-          "Value": 2.8
+          "Value": 2.4
         },
         {
           "Time": 3.0,
-          "Value": 4.0
+          "Value": 3.3
         },
         {
           "Time": 4.0,
-          "Value": 4.0
+          "Value": 3.3
         },
         {
           "Time": 5.0,
-          "Value": 4.0
+          "Value": 3.3
         }
       ],
       "DefaultValue": 3.4028235E+38,
       "PreInfinityExtrap": "RCCE_Constant",
       "PostInfinityExtrap": "RCCE_Constant"
     },
-    "Attribute.Armor.Multiply.10341013": {
+    "Attribute.ArmorMax.Multiply.10341013": {
       "InterpMode": "RCIM_Linear",
       "Keys": [
         {
@@ -3198,6 +3199,38 @@
         {
           "Time": 5.0,
           "Value": 2.0
+        }
+      ],
+      "DefaultValue": 3.4028235E+38,
+      "PreInfinityExtrap": "RCCE_Constant",
+      "PostInfinityExtrap": "RCCE_Constant"
+    },
+    "Attribute.Armor.Multiply.10341013": {
+      "InterpMode": "RCIM_Linear",
+      "Keys": [
+        {
+          "Time": 0.0,
+          "Value": 0.0
+        },
+        {
+          "Time": 1.0,
+          "Value": 1.8
+        },
+        {
+          "Time": 2.0,
+          "Value": 2.8
+        },
+        {
+          "Time": 3.0,
+          "Value": 4.0
+        },
+        {
+          "Time": 4.0,
+          "Value": 4.0
+        },
+        {
+          "Time": 5.0,
+          "Value": 4.0
         }
       ],
       "DefaultValue": 3.4028235E+38,
@@ -3460,6 +3493,38 @@
       "PreInfinityExtrap": "RCCE_Constant",
       "PostInfinityExtrap": "RCCE_Constant"
     },
+    "Attribute.CauseDamageFactor.Add.10351001": {
+      "InterpMode": "RCIM_Linear",
+      "Keys": [
+        {
+          "Time": 0.0,
+          "Value": 0.0
+        },
+        {
+          "Time": 1.0,
+          "Value": 0.5
+        },
+        {
+          "Time": 2.0,
+          "Value": 1.1
+        },
+        {
+          "Time": 3.0,
+          "Value": 1.8
+        },
+        {
+          "Time": 4.0,
+          "Value": 2.6
+        },
+        {
+          "Time": 5.0,
+          "Value": 2.6
+        }
+      ],
+      "DefaultValue": 3.4028235E+38,
+      "PreInfinityExtrap": "RCCE_Constant",
+      "PostInfinityExtrap": "RCCE_Constant"
+    },
     "Attribute.ArmorMax.Multiply.10351001": {
       "InterpMode": "RCIM_Linear",
       "Keys": [
@@ -3518,38 +3583,6 @@
         {
           "Time": 5.0,
           "Value": 0.8
-        }
-      ],
-      "DefaultValue": 3.4028235E+38,
-      "PreInfinityExtrap": "RCCE_Constant",
-      "PostInfinityExtrap": "RCCE_Constant"
-    },
-    "Attribute.CauseDamageFactor.Add.10351001": {
-      "InterpMode": "RCIM_Linear",
-      "Keys": [
-        {
-          "Time": 0.0,
-          "Value": 0.0
-        },
-        {
-          "Time": 1.0,
-          "Value": 0.5
-        },
-        {
-          "Time": 2.0,
-          "Value": 1.1
-        },
-        {
-          "Time": 3.0,
-          "Value": 1.8
-        },
-        {
-          "Time": 4.0,
-          "Value": 2.6
-        },
-        {
-          "Time": 5.0,
-          "Value": 2.6
         }
       ],
       "DefaultValue": 3.4028235E+38,
@@ -4013,7 +4046,455 @@
         },
         {
           "Time": 1.0,
-          "Value": 0.03
+          "Value": 0.04
+        },
+        {
+          "Time": 2.0,
+          "Value": 0.04
+        },
+        {
+          "Time": 3.0,
+          "Value": 0.04
+        },
+        {
+          "Time": 4.0,
+          "Value": 0.04
+        },
+        {
+          "Time": 5.0,
+          "Value": 0.04
+        }
+      ],
+      "DefaultValue": 3.4028235E+38,
+      "PreInfinityExtrap": "RCCE_Constant",
+      "PostInfinityExtrap": "RCCE_Constant"
+    },
+    "Duration.SpeedFactor.10231012": {
+      "InterpMode": "RCIM_Linear",
+      "Keys": [
+        {
+          "Time": 0.0,
+          "Value": 0.0
+        },
+        {
+          "Time": 1.0,
+          "Value": 2.0
+        },
+        {
+          "Time": 2.0,
+          "Value": 2.0
+        },
+        {
+          "Time": 3.0,
+          "Value": 2.0
+        },
+        {
+          "Time": 4.0,
+          "Value": 2.0
+        },
+        {
+          "Time": 5.0,
+          "Value": 2.0
+        }
+      ],
+      "DefaultValue": 3.4028235E+38,
+      "PreInfinityExtrap": "RCCE_Constant",
+      "PostInfinityExtrap": "RCCE_Constant"
+    },
+    "Attribute.SpeedFactor.Add.10231012": {
+      "InterpMode": "RCIM_Linear",
+      "Keys": [
+        {
+          "Time": 0.0,
+          "Value": 0.0
+        },
+        {
+          "Time": 1.0,
+          "Value": 0.6
+        },
+        {
+          "Time": 2.0,
+          "Value": 0.6
+        },
+        {
+          "Time": 3.0,
+          "Value": 0.6
+        },
+        {
+          "Time": 4.0,
+          "Value": 0.6
+        },
+        {
+          "Time": 5.0,
+          "Value": 0.6
+        }
+      ],
+      "DefaultValue": 3.4028235E+38,
+      "PreInfinityExtrap": "RCCE_Constant",
+      "PostInfinityExtrap": "RCCE_Constant"
+    },
+    "Attribute.SpeedFactor.Add.20251005": {
+      "InterpMode": "RCIM_Linear",
+      "Keys": [
+        {
+          "Time": 0.0,
+          "Value": 0.0
+        },
+        {
+          "Time": 1.0,
+          "Value": 0.1
+        },
+        {
+          "Time": 2.0,
+          "Value": 0.2
+        },
+        {
+          "Time": 3.0,
+          "Value": 0.3
+        },
+        {
+          "Time": 4.0,
+          "Value": 0.3
+        },
+        {
+          "Time": 5.0,
+          "Value": 0.3
+        }
+      ],
+      "DefaultValue": 3.4028235E+38,
+      "PreInfinityExtrap": "RCCE_Constant",
+      "PostInfinityExtrap": "RCCE_Constant"
+    },
+    "Attribute.DamageFactor.Add.20251005": {
+      "InterpMode": "RCIM_Linear",
+      "Keys": [
+        {
+          "Time": 0.0,
+          "Value": 0.0
+        },
+        {
+          "Time": 1.0,
+          "Value": -0.15
+        },
+        {
+          "Time": 2.0,
+          "Value": -0.25
+        },
+        {
+          "Time": 3.0,
+          "Value": -0.35
+        },
+        {
+          "Time": 4.0,
+          "Value": -0.35
+        },
+        {
+          "Time": 5.0,
+          "Value": -0.35
+        }
+      ],
+      "DefaultValue": 3.4028235E+38,
+      "PreInfinityExtrap": "RCCE_Constant",
+      "PostInfinityExtrap": "RCCE_Constant"
+    },
+    "Duration.Stealth.20251004": {
+      "InterpMode": "RCIM_Linear",
+      "Keys": [
+        {
+          "Time": 0.0,
+          "Value": 0.0
+        },
+        {
+          "Time": 1.0,
+          "Value": 2.0
+        },
+        {
+          "Time": 2.0,
+          "Value": 2.0
+        },
+        {
+          "Time": 3.0,
+          "Value": 2.0
+        },
+        {
+          "Time": 4.0,
+          "Value": 2.0
+        },
+        {
+          "Time": 5.0,
+          "Value": 2.0
+        }
+      ],
+      "DefaultValue": 3.4028235E+38,
+      "PreInfinityExtrap": "RCCE_Constant",
+      "PostInfinityExtrap": "RCCE_Constant"
+    },
+    "Distance.Teammate.10231013": {
+      "InterpMode": "RCIM_Linear",
+      "Keys": [
+        {
+          "Time": 0.0,
+          "Value": 0.0
+        },
+        {
+          "Time": 1.0,
+          "Value": 1000.0
+        },
+        {
+          "Time": 2.0,
+          "Value": 1000.0
+        },
+        {
+          "Time": 3.0,
+          "Value": 1000.0
+        },
+        {
+          "Time": 4.0,
+          "Value": 1000.0
+        },
+        {
+          "Time": 5.0,
+          "Value": 1000.0
+        }
+      ],
+      "DefaultValue": 3.4028235E+38,
+      "PreInfinityExtrap": "RCCE_Constant",
+      "PostInfinityExtrap": "RCCE_Constant"
+    },
+    "Attribute.Armor.Add.10231013": {
+      "InterpMode": "RCIM_Linear",
+      "Keys": [
+        {
+          "Time": 0.0,
+          "Value": 0.0
+        },
+        {
+          "Time": 1.0,
+          "Value": 100.0
+        },
+        {
+          "Time": 2.0,
+          "Value": 200.0
+        },
+        {
+          "Time": 3.0,
+          "Value": 200.0
+        },
+        {
+          "Time": 4.0,
+          "Value": 200.0
+        },
+        {
+          "Time": 5.0,
+          "Value": 200.0
+        }
+      ],
+      "DefaultValue": 3.4028235E+38,
+      "PreInfinityExtrap": "RCCE_Constant",
+      "PostInfinityExtrap": "RCCE_Constant"
+    },
+    "Distance.Teammate.10241018": {
+      "InterpMode": "RCIM_Linear",
+      "Keys": [
+        {
+          "Time": 0.0,
+          "Value": 0.0
+        },
+        {
+          "Time": 1.0,
+          "Value": 1000.0
+        },
+        {
+          "Time": 2.0,
+          "Value": 1000.0
+        },
+        {
+          "Time": 3.0,
+          "Value": 1000.0
+        },
+        {
+          "Time": 4.0,
+          "Value": 1000.0
+        },
+        {
+          "Time": 5.0,
+          "Value": 1000.0
+        }
+      ],
+      "DefaultValue": 3.4028235E+38,
+      "PreInfinityExtrap": "RCCE_Constant",
+      "PostInfinityExtrap": "RCCE_Constant"
+    },
+    "Attribute.ExtraAttackSpeedFactor.Add.10241018": {
+      "InterpMode": "RCIM_Linear",
+      "Keys": [
+        {
+          "Time": 0.0,
+          "Value": 0.0
+        },
+        {
+          "Time": 1.0,
+          "Value": 0.25
+        },
+        {
+          "Time": 2.0,
+          "Value": 0.5
+        },
+        {
+          "Time": 3.0,
+          "Value": 0.5
+        },
+        {
+          "Time": 4.0,
+          "Value": 0.5
+        },
+        {
+          "Time": 5.0,
+          "Value": 0.5
+        }
+      ],
+      "DefaultValue": 3.4028235E+38,
+      "PreInfinityExtrap": "RCCE_Constant",
+      "PostInfinityExtrap": "RCCE_Constant"
+    },
+    "Attribute.ExtraPullBoltSpeedFactor.Add.10241018": {
+      "InterpMode": "RCIM_Linear",
+      "Keys": [
+        {
+          "Time": 0.0,
+          "Value": 0.0
+        },
+        {
+          "Time": 1.0,
+          "Value": 0.25
+        },
+        {
+          "Time": 2.0,
+          "Value": 0.5
+        },
+        {
+          "Time": 3.0,
+          "Value": 0.5
+        },
+        {
+          "Time": 4.0,
+          "Value": 0.5
+        },
+        {
+          "Time": 5.0,
+          "Value": 0.5
+        }
+      ],
+      "DefaultValue": 3.4028235E+38,
+      "PreInfinityExtrap": "RCCE_Constant",
+      "PostInfinityExtrap": "RCCE_Constant"
+    },
+    "Duration.Silence.10341019": {
+      "InterpMode": "RCIM_Linear",
+      "Keys": [
+        {
+          "Time": 0.0,
+          "Value": 0.0
+        },
+        {
+          "Time": 1.0,
+          "Value": 1.0
+        },
+        {
+          "Time": 2.0,
+          "Value": 1.0
+        },
+        {
+          "Time": 3.0,
+          "Value": 1.0
+        },
+        {
+          "Time": 4.0,
+          "Value": 1.0
+        },
+        {
+          "Time": 5.0,
+          "Value": 1.0
+        }
+      ],
+      "DefaultValue": 3.4028235E+38,
+      "PreInfinityExtrap": "RCCE_Constant",
+      "PostInfinityExtrap": "RCCE_Constant"
+    },
+    "Attribute.ExtraDamage.10351007": {
+      "InterpMode": "RCIM_Linear",
+      "Keys": [
+        {
+          "Time": 0.0,
+          "Value": 0.0
+        },
+        {
+          "Time": 1.0,
+          "Value": 0.18
+        },
+        {
+          "Time": 2.0,
+          "Value": 0.36
+        },
+        {
+          "Time": 3.0,
+          "Value": 0.54
+        },
+        {
+          "Time": 4.0,
+          "Value": 0.72
+        },
+        {
+          "Time": 5.0,
+          "Value": 0.72
+        }
+      ],
+      "DefaultValue": 3.4028235E+38,
+      "PreInfinityExtrap": "RCCE_Constant",
+      "PostInfinityExtrap": "RCCE_Constant"
+    },
+    "Duration.Alive.10341021": {
+      "InterpMode": "RCIM_Linear",
+      "Keys": [
+        {
+          "Time": 0.0,
+          "Value": 0.0
+        },
+        {
+          "Time": 1.0,
+          "Value": 1.0
+        },
+        {
+          "Time": 2.0,
+          "Value": 1.0
+        },
+        {
+          "Time": 3.0,
+          "Value": 1.0
+        },
+        {
+          "Time": 4.0,
+          "Value": 1.0
+        },
+        {
+          "Time": 5.0,
+          "Value": 1.0
+        }
+      ],
+      "DefaultValue": 3.4028235E+38,
+      "PreInfinityExtrap": "RCCE_Constant",
+      "PostInfinityExtrap": "RCCE_Constant"
+    },
+    "Attribute.CauseDamageFactor.Add.10341021": {
+      "InterpMode": "RCIM_Linear",
+      "Keys": [
+        {
+          "Time": 0.0,
+          "Value": 0.0
+        },
+        {
+          "Time": 1.0,
+          "Value": 0.015
         },
         {
           "Time": 2.0,
@@ -4030,6 +4511,614 @@
         {
           "Time": 5.0,
           "Value": 0.03
+        }
+      ],
+      "DefaultValue": 3.4028235E+38,
+      "PreInfinityExtrap": "RCCE_Constant",
+      "PostInfinityExtrap": "RCCE_Constant"
+    },
+    "Duration.AddHealth.10251012": {
+      "InterpMode": "RCIM_Linear",
+      "Keys": [
+        {
+          "Time": 0.0,
+          "Value": 0.0
+        },
+        {
+          "Time": 1.0,
+          "Value": 3.0
+        },
+        {
+          "Time": 2.0,
+          "Value": 2.0
+        },
+        {
+          "Time": 3.0,
+          "Value": 1.2
+        },
+        {
+          "Time": 4.0,
+          "Value": 0.6
+        },
+        {
+          "Time": 5.0,
+          "Value": 0.6
+        }
+      ],
+      "DefaultValue": 3.4028235E+38,
+      "PreInfinityExtrap": "RCCE_Constant",
+      "PostInfinityExtrap": "RCCE_Constant"
+    },
+    "Attribute.Health.Add.10251012": {
+      "InterpMode": "RCIM_Linear",
+      "Keys": [
+        {
+          "Time": 0.0,
+          "Value": 0.0
+        },
+        {
+          "Time": 1.0,
+          "Value": 120.0
+        },
+        {
+          "Time": 2.0,
+          "Value": 180.0
+        },
+        {
+          "Time": 3.0,
+          "Value": 240.0
+        },
+        {
+          "Time": 4.0,
+          "Value": 300.0
+        },
+        {
+          "Time": 5.0,
+          "Value": 300.0
+        }
+      ],
+      "DefaultValue": 3.4028235E+38,
+      "PreInfinityExtrap": "RCCE_Constant",
+      "PostInfinityExtrap": "RCCE_Constant"
+    },
+    "Attribute.CauseDamageFactor.10341020": {
+      "InterpMode": "RCIM_Linear",
+      "Keys": [
+        {
+          "Time": 0.0,
+          "Value": 0.0
+        },
+        {
+          "Time": 1.0,
+          "Value": 0.035
+        },
+        {
+          "Time": 2.0,
+          "Value": 0.07
+        },
+        {
+          "Time": 3.0,
+          "Value": 0.07
+        },
+        {
+          "Time": 4.0,
+          "Value": 0.07
+        },
+        {
+          "Time": 5.0,
+          "Value": 0.07
+        }
+      ],
+      "DefaultValue": 3.4028235E+38,
+      "PreInfinityExtrap": "RCCE_Constant",
+      "PostInfinityExtrap": "RCCE_Constant"
+    },
+    "Attribute.ExtraPrimaryCauseDamageFactor.Add.10241019": {
+      "InterpMode": "RCIM_Linear",
+      "Keys": [
+        {
+          "Time": 0.0,
+          "Value": 0.0
+        },
+        {
+          "Time": 1.0,
+          "Value": 0.4
+        },
+        {
+          "Time": 2.0,
+          "Value": 0.8
+        },
+        {
+          "Time": 3.0,
+          "Value": 1.2
+        },
+        {
+          "Time": 4.0,
+          "Value": 1.6
+        },
+        {
+          "Time": 5.0,
+          "Value": 1.6
+        }
+      ],
+      "DefaultValue": 3.4028235E+38,
+      "PreInfinityExtrap": "RCCE_Constant",
+      "PostInfinityExtrap": "RCCE_Constant"
+    },
+    "Duration.GiveChoice.10241017": {
+      "InterpMode": "RCIM_Linear",
+      "Keys": [
+        {
+          "Time": 0.0,
+          "Value": 0.0
+        },
+        {
+          "Time": 1.0,
+          "Value": 35.0
+        },
+        {
+          "Time": 2.0,
+          "Value": 35.0
+        },
+        {
+          "Time": 3.0,
+          "Value": 35.0
+        },
+        {
+          "Time": 4.0,
+          "Value": 35.0
+        },
+        {
+          "Time": 5.0,
+          "Value": 35.0
+        }
+      ],
+      "DefaultValue": 3.4028235E+38,
+      "PreInfinityExtrap": "RCCE_Constant",
+      "PostInfinityExtrap": "RCCE_Constant"
+    },
+    "Duration.GiveChoice.10341018": {
+      "InterpMode": "RCIM_Linear",
+      "Keys": [
+        {
+          "Time": 0.0,
+          "Value": 0.0
+        },
+        {
+          "Time": 1.0,
+          "Value": 35.0
+        },
+        {
+          "Time": 2.0,
+          "Value": 35.0
+        },
+        {
+          "Time": 3.0,
+          "Value": 35.0
+        },
+        {
+          "Time": 4.0,
+          "Value": 35.0
+        },
+        {
+          "Time": 5.0,
+          "Value": 35.0
+        }
+      ],
+      "DefaultValue": 3.4028235E+38,
+      "PreInfinityExtrap": "RCCE_Constant",
+      "PostInfinityExtrap": "RCCE_Constant"
+    },
+    "Attribute.CauseDamageFactor.Base.10251008": {
+      "InterpMode": "RCIM_Linear",
+      "Keys": [
+        {
+          "Time": 0.0,
+          "Value": 0.0
+        },
+        {
+          "Time": 1.0,
+          "Value": -0.5
+        },
+        {
+          "Time": 2.0,
+          "Value": -0.5
+        },
+        {
+          "Time": 3.0,
+          "Value": -0.5
+        },
+        {
+          "Time": 4.0,
+          "Value": -0.5
+        },
+        {
+          "Time": 5.0,
+          "Value": -0.5
+        }
+      ],
+      "DefaultValue": 3.4028235E+38,
+      "PreInfinityExtrap": "RCCE_Constant",
+      "PostInfinityExtrap": "RCCE_Constant"
+    },
+    "Attribute.CauseDamageFactor.Add.10251008": {
+      "InterpMode": "RCIM_Linear",
+      "Keys": [
+        {
+          "Time": 0.0,
+          "Value": 0.0
+        },
+        {
+          "Time": 1.0,
+          "Value": 0.25
+        },
+        {
+          "Time": 2.0,
+          "Value": 0.25
+        },
+        {
+          "Time": 3.0,
+          "Value": 0.25
+        },
+        {
+          "Time": 4.0,
+          "Value": 0.25
+        },
+        {
+          "Time": 5.0,
+          "Value": 0.25
+        }
+      ],
+      "DefaultValue": 3.4028235E+38,
+      "PreInfinityExtrap": "RCCE_Constant",
+      "PostInfinityExtrap": "RCCE_Constant"
+    },
+    "Card.TaskPoint.Add.10251007": {
+      "InterpMode": "RCIM_Linear",
+      "Keys": [
+        {
+          "Time": 0.0,
+          "Value": 0.0
+        },
+        {
+          "Time": 1.0,
+          "Value": 24.0
+        },
+        {
+          "Time": 2.0,
+          "Value": 24.0
+        },
+        {
+          "Time": 3.0,
+          "Value": 24.0
+        },
+        {
+          "Time": 4.0,
+          "Value": 24.0
+        },
+        {
+          "Time": 5.0,
+          "Value": 24.0
+        }
+      ],
+      "DefaultValue": 3.4028235E+38,
+      "PreInfinityExtrap": "RCCE_Constant",
+      "PostInfinityExtrap": "RCCE_Constant"
+    },
+    "Card.LimitRemianChoice.10251007": {
+      "InterpMode": "RCIM_Linear",
+      "Keys": [
+        {
+          "Time": 0.0,
+          "Value": 0.0
+        },
+        {
+          "Time": 1.0,
+          "Value": 5.0
+        },
+        {
+          "Time": 2.0,
+          "Value": 5.0
+        },
+        {
+          "Time": 3.0,
+          "Value": 5.0
+        },
+        {
+          "Time": 4.0,
+          "Value": 5.0
+        },
+        {
+          "Time": 5.0,
+          "Value": 5.0
+        }
+      ],
+      "DefaultValue": 3.4028235E+38,
+      "PreInfinityExtrap": "RCCE_Constant",
+      "PostInfinityExtrap": "RCCE_Constant"
+    },
+    "Card.TaskPoint.Add.10351006": {
+      "InterpMode": "RCIM_Linear",
+      "Keys": [
+        {
+          "Time": 0.0,
+          "Value": 0.0
+        },
+        {
+          "Time": 1.0,
+          "Value": 30.0
+        },
+        {
+          "Time": 2.0,
+          "Value": 30.0
+        },
+        {
+          "Time": 3.0,
+          "Value": 30.0
+        },
+        {
+          "Time": 4.0,
+          "Value": 30.0
+        },
+        {
+          "Time": 5.0,
+          "Value": 30.0
+        }
+      ],
+      "DefaultValue": 3.4028235E+38,
+      "PreInfinityExtrap": "RCCE_Constant",
+      "PostInfinityExtrap": "RCCE_Constant"
+    },
+    "Card.LimitRemianChoice.10351006": {
+      "InterpMode": "RCIM_Linear",
+      "Keys": [
+        {
+          "Time": 0.0,
+          "Value": 0.0
+        },
+        {
+          "Time": 1.0,
+          "Value": 5.0
+        },
+        {
+          "Time": 2.0,
+          "Value": 5.0
+        },
+        {
+          "Time": 3.0,
+          "Value": 5.0
+        },
+        {
+          "Time": 4.0,
+          "Value": 5.0
+        },
+        {
+          "Time": 5.0,
+          "Value": 5.0
+        }
+      ],
+      "DefaultValue": 3.4028235E+38,
+      "PreInfinityExtrap": "RCCE_Constant",
+      "PostInfinityExtrap": "RCCE_Constant"
+    },
+    "Card.AddLevel1.Weight.20251006": {
+      "InterpMode": "RCIM_Linear",
+      "Keys": [
+        {
+          "Time": 0.0,
+          "Value": 0.0
+        },
+        {
+          "Time": 1.0,
+          "Value": 66.0
+        },
+        {
+          "Time": 2.0,
+          "Value": 66.0
+        },
+        {
+          "Time": 3.0,
+          "Value": 66.0
+        },
+        {
+          "Time": 4.0,
+          "Value": 66.0
+        },
+        {
+          "Time": 5.0,
+          "Value": 66.0
+        }
+      ],
+      "DefaultValue": 3.4028235E+38,
+      "PreInfinityExtrap": "RCCE_Constant",
+      "PostInfinityExtrap": "RCCE_Constant"
+    },
+    "Card.AddLevel3.Weight.20251006": {
+      "InterpMode": "RCIM_Linear",
+      "Keys": [
+        {
+          "Time": 0.0,
+          "Value": 0.0
+        },
+        {
+          "Time": 1.0,
+          "Value": 20.0
+        },
+        {
+          "Time": 2.0,
+          "Value": 20.0
+        },
+        {
+          "Time": 3.0,
+          "Value": 20.0
+        },
+        {
+          "Time": 4.0,
+          "Value": 20.0
+        },
+        {
+          "Time": 5.0,
+          "Value": 20.0
+        }
+      ],
+      "DefaultValue": 3.4028235E+38,
+      "PreInfinityExtrap": "RCCE_Constant",
+      "PostInfinityExtrap": "RCCE_Constant"
+    },
+    "Card.AddLevel5.Weight.20251006": {
+      "InterpMode": "RCIM_Linear",
+      "Keys": [
+        {
+          "Time": 0.0,
+          "Value": 0.0
+        },
+        {
+          "Time": 1.0,
+          "Value": 7.0
+        },
+        {
+          "Time": 2.0,
+          "Value": 7.0
+        },
+        {
+          "Time": 3.0,
+          "Value": 7.0
+        },
+        {
+          "Time": 4.0,
+          "Value": 7.0
+        },
+        {
+          "Time": 5.0,
+          "Value": 7.0
+        }
+      ],
+      "DefaultValue": 3.4028235E+38,
+      "PreInfinityExtrap": "RCCE_Constant",
+      "PostInfinityExtrap": "RCCE_Constant"
+    },
+    "Card.AddLevel7.Weight.20251006": {
+      "InterpMode": "RCIM_Linear",
+      "Keys": [
+        {
+          "Time": 0.0,
+          "Value": 0.0
+        },
+        {
+          "Time": 1.0,
+          "Value": 2.0
+        },
+        {
+          "Time": 2.0,
+          "Value": 2.0
+        },
+        {
+          "Time": 3.0,
+          "Value": 2.0
+        },
+        {
+          "Time": 4.0,
+          "Value": 2.0
+        },
+        {
+          "Time": 5.0,
+          "Value": 2.0
+        }
+      ],
+      "DefaultValue": 3.4028235E+38,
+      "PreInfinityExtrap": "RCCE_Constant",
+      "PostInfinityExtrap": "RCCE_Constant"
+    },
+    "Card.ChangeZombie.Weight.20251006": {
+      "InterpMode": "RCIM_Linear",
+      "Keys": [
+        {
+          "Time": 0.0,
+          "Value": 0.0
+        },
+        {
+          "Time": 1.0,
+          "Value": 5.0
+        },
+        {
+          "Time": 2.0,
+          "Value": 5.0
+        },
+        {
+          "Time": 3.0,
+          "Value": 5.0
+        },
+        {
+          "Time": 4.0,
+          "Value": 5.0
+        },
+        {
+          "Time": 5.0,
+          "Value": 5.0
+        }
+      ],
+      "DefaultValue": 3.4028235E+38,
+      "PreInfinityExtrap": "RCCE_Constant",
+      "PostInfinityExtrap": "RCCE_Constant"
+    },
+    "Card.Level.Rate.20351002": {
+      "InterpMode": "RCIM_Linear",
+      "Keys": [
+        {
+          "Time": 0.0,
+          "Value": 0.0
+        },
+        {
+          "Time": 1.0,
+          "Value": 0.12
+        },
+        {
+          "Time": 2.0,
+          "Value": 0.12
+        },
+        {
+          "Time": 3.0,
+          "Value": 0.12
+        },
+        {
+          "Time": 4.0,
+          "Value": 0.12
+        },
+        {
+          "Time": 5.0,
+          "Value": 0.12
+        }
+      ],
+      "DefaultValue": 3.4028235E+38,
+      "PreInfinityExtrap": "RCCE_Constant",
+      "PostInfinityExtrap": "RCCE_Constant"
+    },
+    "Attribute.ExtraMeleeAttackSpeedFactor.Add.10341004": {
+      "InterpMode": "RCIM_Linear",
+      "Keys": [
+        {
+          "Time": 0.0,
+          "Value": 0.0
+        },
+        {
+          "Time": 1.0,
+          "Value": 0.18
+        },
+        {
+          "Time": 2.0,
+          "Value": 0.36
+        },
+        {
+          "Time": 3.0,
+          "Value": 0.54
+        },
+        {
+          "Time": 4.0,
+          "Value": 0.54
+        },
+        {
+          "Time": 5.0,
+          "Value": 0.54
         }
       ],
       "DefaultValue": 3.4028235E+38,

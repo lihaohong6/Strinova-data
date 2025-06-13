@@ -2,6 +2,7 @@
   "Type": "DataTable",
   "Name": "DT_UIMutualExclusionTable",
   "Class": "UScriptClass'DataTable'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
   "Properties": {
     "RowStruct": {
       "ObjectName": "ScriptStruct'PMUIMutualExclusionTableRow'",
@@ -75,7 +76,8 @@
         "ScreenEffect_HuiXingArousalTwo",
         "ScreenEffect_FlashGrenade",
         "SettingPage",
-        "GrowthPage"
+        "GrowthPage",
+        "HelpTipsInGameUIGuidePage"
       ],
       "HidedByUIs": [
         "Esc"
@@ -535,6 +537,61 @@
       "HidedByUIs": [],
       "CollapsedByUIs": [],
       "BlockedByUIs": []
+    },
+    "BombPassPage": {
+      "ClosedByUIs": [],
+      "HidedByUIs": [],
+      "CollapsedByUIs": [
+        "GrowthPage",
+        "SelectRolePage"
+      ],
+      "BlockedByUIs": [
+        "SelectRolePage"
+      ]
+    },
+    "UGCPage": {
+      "ClosedByUIs": [],
+      "HidedByUIs": [],
+      "CollapsedByUIs": [
+        "SelectRolePage"
+      ],
+      "BlockedByUIs": [
+        "SelectRolePage"
+      ]
+    },
+    "UGCBagPage": {
+      "ClosedByUIs": [
+        "UGCGenMapImagePage"
+      ],
+      "HidedByUIs": [],
+      "CollapsedByUIs": [
+        "SelectRolePage"
+      ],
+      "BlockedByUIs": [
+        "SelectRolePage"
+      ]
+    },
+    "HotZoneMatchPage": {
+      "ClosedByUIs": [],
+      "HidedByUIs": [],
+      "CollapsedByUIs": [
+        "GrowthPage",
+        "SelectRolePage"
+      ],
+      "BlockedByUIs": [
+        "SelectRolePage"
+      ]
+    },
+    "ExKnifeFightPage": {
+      "ClosedByUIs": [],
+      "HidedByUIs": [],
+      "CollapsedByUIs": [
+        "GrowthPage",
+        "SelectRolePage"
+      ],
+      "BlockedByUIs": [
+        "SelectRolePage"
+      ]
     }
   }
 }

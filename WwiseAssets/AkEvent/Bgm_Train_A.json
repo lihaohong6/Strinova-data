@@ -2,10 +2,55 @@
   "Type": "AkAudioEvent",
   "Name": "Bgm_Train_A",
   "Class": "UScriptClass'AkAudioEvent'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
   "Properties": {
     "RequiredBank": {
       "ObjectName": "AkAudioBank'BGM_Train'",
       "ObjectPath": "PM/Content/WwiseAssets/AkBank/BGM_Train.0"
     }
-  }
+  },
+  "EventCookedData": {
+    "EventLanguageMap": [
+      {
+        "Key": {
+          "LanguageId": 0,
+          "LanguageName": "SFX",
+          "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
+        },
+        "Value": {
+          "EventId": -1271499298,
+          "SoundBanks": [
+            {
+              "SoundBankId": -58547874,
+              "SoundBankPathName": "BGM_Train.bnk",
+              "MemoryAlignment": 16,
+              "bDeviceMemory": false,
+              "bContainsMedia": false,
+              "SoundBankType": "EWwiseSoundBankType::User",
+              "DebugName": "BGM_Train"
+            }
+          ],
+          "Media": [],
+          "ExternalSources": [],
+          "SwitchContainerLeaves": [],
+          "RequiredGroupValueSet": [
+            {
+              "Type": "EWwiseGroupType::State",
+              "GroupId": -58547874,
+              "Id": 1959200713,
+              "DebugName": "Train_A"
+            }
+          ],
+          "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
+          "DebugName": "BGM_Train_A"
+        }
+      }
+    ],
+    "DebugName": "BGM_Train_A",
+    "EventId": -1271499298
+  },
+  "MaximumDuration": 0.0,
+  "MinimumDuration": 0.0,
+  "IsInfinite": false,
+  "MaxAttenuationRadius": 0.0
 }

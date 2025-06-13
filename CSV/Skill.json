@@ -2,6 +2,7 @@
   "Type": "DataTable",
   "Name": "Skill",
   "Class": "UScriptClass'DataTable'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
   "Properties": {
     "RowStruct": {
       "ObjectName": "ScriptStruct'CySkillTableRow'",
@@ -3116,8 +3117,8 @@
       "Intro": {
         "Namespace": "Skill",
         "Key": "1212_Intro",
-        "SourceString": "忧雾使用主武器对敌方角色的生命值造成一定量伤害后，会引爆敌人体内的腐蚀性毒素，临时腐蚀附近敌方角色的护甲上限。",
-        "LocalizedString": "忧雾使用主武器对敌方角色的生命值造成一定量伤害后，会引爆敌人体内的腐蚀性毒素，临时腐蚀附近敌方角色的护甲上限。"
+        "SourceString": "忧雾使用主武器对敌方角色的生命值造成一定量伤害后，会对目标及附近的敌方角色造成伤害并临时腐蚀其护甲上限。",
+        "LocalizedString": "忧雾使用主武器对敌方角色的生命值造成一定量伤害后，会对目标及附近的敌方角色造成伤害并临时腐蚀其护甲上限。"
       },
       "IntroPropel": {
         "CultureInvariantString": null
@@ -3360,6 +3361,174 @@
       },
       "IconSkill": {
         "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Skill/T_Dynamic_Skill_12303.T_Dynamic_Skill_12303",
+        "SubPathString": ""
+      },
+      "ActiveCond": [],
+      "SkillCd": 0,
+      "BluePrint": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      }
+    },
+    "1251": {
+      "SkillId": 1251,
+      "SkillType": 1,
+      "Name": {
+        "Namespace": "Skill",
+        "Key": "1251_Name",
+        "SourceString": "爆绽瞬华",
+        "LocalizedString": "爆绽瞬华"
+      },
+      "Tips": {
+        "CultureInvariantString": null
+      },
+      "DisplayName": {
+        "Namespace": "Skill",
+        "Key": "1011_DisplayName",
+        "SourceString": "伤害",
+        "LocalizedString": "伤害"
+      },
+      "SpellGuideName": {
+        "CultureInvariantString": null
+      },
+      "AwakenSketch": {
+        "CultureInvariantString": null
+      },
+      "Intro": {
+        "Namespace": "Skill",
+        "Key": "1251_Intro",
+        "SourceString": "千代射出一发可附着在建筑表面的爆炸箭，爆炸箭可被主动引爆或在侦测到敌人后自行引爆。",
+        "LocalizedString": "千代射出一发可附着在建筑表面的爆炸箭，爆炸箭可被主动引爆或在侦测到敌人后自行引爆。"
+      },
+      "IntroPropel": {
+        "CultureInvariantString": null
+      },
+      "IconSkillUsing": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Skill/T_Dynamic_Skill_12501.T_Dynamic_Skill_12501",
+        "SubPathString": ""
+      },
+      "IconSkillDisable": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Skill/T_Dynamic_Skill_12501.T_Dynamic_Skill_12501",
+        "SubPathString": ""
+      },
+      "IconSkillCd": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Skill/T_Dynamic_Skill_12501.T_Dynamic_Skill_12501",
+        "SubPathString": ""
+      },
+      "IconSkill": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Skill/T_Dynamic_Skill_12501.T_Dynamic_Skill_12501",
+        "SubPathString": ""
+      },
+      "ActiveCond": [],
+      "SkillCd": 0,
+      "BluePrint": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      }
+    },
+    "1252": {
+      "SkillId": 1252,
+      "SkillType": 2,
+      "Name": {
+        "Namespace": "Skill",
+        "Key": "1252_Name",
+        "SourceString": "静心凝势",
+        "LocalizedString": "静心凝势"
+      },
+      "Tips": {
+        "CultureInvariantString": null
+      },
+      "DisplayName": {
+        "Namespace": "Skill",
+        "Key": "1221_DisplayName",
+        "SourceString": "增益",
+        "LocalizedString": "增益"
+      },
+      "SpellGuideName": {
+        "CultureInvariantString": null
+      },
+      "AwakenSketch": {
+        "CultureInvariantString": null
+      },
+      "Intro": {
+        "Namespace": "Skill",
+        "Key": "1252_Intro",
+        "SourceString": "千代会持续恢复专注度，进行攻击后会短暂减缓恢复速度;满专注值时，造成伤害后会消耗专注值并在一段时间内强化自身输出。",
+        "LocalizedString": "千代会持续恢复专注度，进行攻击后会短暂减缓恢复速度;满专注值时，造成伤害后会消耗专注值并在一段时间内强化自身输出。"
+      },
+      "IntroPropel": {
+        "CultureInvariantString": null
+      },
+      "IconSkillUsing": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Skill/T_Dynamic_Skill_12502.T_Dynamic_Skill_12502",
+        "SubPathString": ""
+      },
+      "IconSkillDisable": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Skill/T_Dynamic_Skill_12502.T_Dynamic_Skill_12502",
+        "SubPathString": ""
+      },
+      "IconSkillCd": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Skill/T_Dynamic_Skill_12502.T_Dynamic_Skill_12502",
+        "SubPathString": ""
+      },
+      "IconSkill": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Skill/T_Dynamic_Skill_12502.T_Dynamic_Skill_12502",
+        "SubPathString": ""
+      },
+      "ActiveCond": [],
+      "SkillCd": 0,
+      "BluePrint": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      }
+    },
+    "1253": {
+      "SkillId": 1253,
+      "SkillType": 3,
+      "Name": {
+        "Namespace": "Skill",
+        "Key": "1253_Name",
+        "SourceString": "枫烬崩天",
+        "LocalizedString": "枫烬崩天"
+      },
+      "Tips": {
+        "CultureInvariantString": null
+      },
+      "DisplayName": {
+        "Namespace": "Skill",
+        "Key": "1011_DisplayName",
+        "SourceString": "伤害",
+        "LocalizedString": "伤害"
+      },
+      "SpellGuideName": {
+        "CultureInvariantString": null
+      },
+      "AwakenSketch": {
+        "CultureInvariantString": null
+      },
+      "Intro": {
+        "Namespace": "Skill",
+        "Key": "1253_Intro",
+        "SourceString": "千代会透视队友附近的敌人，并且在蓄力后向目标方向发射可以穿透墙体的爆炸箭，箭矢根据蓄力时长达到最大飞行距离或命中敌人时停留，并在短暂延时后爆炸，对目标点周围造成高额伤害。",
+        "LocalizedString": "千代会透视队友附近的敌人，并且在蓄力后向目标方向发射可以穿透墙体的爆炸箭，箭矢根据蓄力时长达到最大飞行距离或命中敌人时停留，并在短暂延时后爆炸，对目标点周围造成高额伤害。"
+      },
+      "IntroPropel": {
+        "CultureInvariantString": null
+      },
+      "IconSkillUsing": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Skill/T_Dynamic_Skill_12503.T_Dynamic_Skill_12503",
+        "SubPathString": ""
+      },
+      "IconSkillDisable": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Skill/T_Dynamic_Skill_12503.T_Dynamic_Skill_12503",
+        "SubPathString": ""
+      },
+      "IconSkillCd": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Skill/T_Dynamic_Skill_12503.T_Dynamic_Skill_12503",
+        "SubPathString": ""
+      },
+      "IconSkill": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Skill/T_Dynamic_Skill_12503.T_Dynamic_Skill_12503",
         "SubPathString": ""
       },
       "ActiveCond": [],
@@ -4284,8 +4453,8 @@
       "Intro": {
         "Namespace": "Skill",
         "Key": "1074_Intro",
-        "SourceString": "玛德蕾娜贴墙移动至颜料区域内时，会潜入颜料，潜入后会缓慢回复生命值。",
-        "LocalizedString": "玛德蕾娜贴墙移动至颜料区域内时，会潜入颜料，潜入后会缓慢回复生命值。"
+        "SourceString": "己方角色在颜料区域内贴墙时，会潜入颜料并缓慢回复生命值。",
+        "LocalizedString": "己方角色在颜料区域内贴墙时，会潜入颜料并缓慢回复生命值。"
       },
       "IntroPropel": {
         "CultureInvariantString": null
@@ -5364,8 +5533,8 @@
       "Intro": {
         "Namespace": "Skill",
         "Key": "1104_Intro",
-        "SourceString": "被动触发时，对敌人的视野遮罩效果将更加强烈，能遮住敌人的大部分屏幕。",
-        "LocalizedString": "被动触发时，对敌人的视野遮罩效果将更加强烈，能遮住敌人的大部分屏幕。"
+        "SourceString": "被动触发时，对敌人的视野遮罩效果将更加强烈且会造成减速效果。",
+        "LocalizedString": "被动触发时，对敌人的视野遮罩效果将更加强烈且会造成减速效果。"
       },
       "IntroPropel": {
         "CultureInvariantString": null
@@ -7326,6 +7495,177 @@
         "SubPathString": ""
       }
     },
+    "1254": {
+      "SkillId": 1254,
+      "SkillType": 4,
+      "Name": {
+        "Namespace": "Skill",
+        "Key": "1254_Name",
+        "SourceString": "枯息蚀疗",
+        "LocalizedString": "枯息蚀疗"
+      },
+      "Tips": {
+        "CultureInvariantString": null
+      },
+      "DisplayName": {
+        "CultureInvariantString": null
+      },
+      "SpellGuideName": {
+        "CultureInvariantString": null
+      },
+      "AwakenSketch": {
+        "CultureInvariantString": null
+      },
+      "Intro": {
+        "Namespace": "Skill",
+        "Key": "1254_Intro",
+        "SourceString": " 千代使用枪械和技能对敌方造成一定量伤害后，会在一段时间内减弱目标的护甲与血量回复效果。",
+        "LocalizedString": " 千代使用枪械和技能对敌方造成一定量伤害后，会在一段时间内减弱目标的护甲与血量回复效果。"
+      },
+      "IntroPropel": {
+        "CultureInvariantString": null
+      },
+      "IconSkillUsing": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Skill/T_Dynamic_Skill_12504.T_Dynamic_Skill_12504",
+        "SubPathString": ""
+      },
+      "IconSkillDisable": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Skill/T_Dynamic_Skill_12504.T_Dynamic_Skill_12504",
+        "SubPathString": ""
+      },
+      "IconSkillCd": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Skill/T_Dynamic_Skill_12504.T_Dynamic_Skill_12504",
+        "SubPathString": ""
+      },
+      "IconSkill": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Skill/T_Dynamic_Skill_12504.T_Dynamic_Skill_12504",
+        "SubPathString": ""
+      },
+      "ActiveCond": [
+        1,
+        1,
+        0
+      ],
+      "SkillCd": 0,
+      "BluePrint": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      }
+    },
+    "1255": {
+      "SkillId": 1255,
+      "SkillType": 4,
+      "Name": {
+        "Namespace": "Skill",
+        "Key": "1255_Name",
+        "SourceString": "裂华残响",
+        "LocalizedString": "裂华残响"
+      },
+      "Tips": {
+        "CultureInvariantString": null
+      },
+      "DisplayName": {
+        "CultureInvariantString": null
+      },
+      "SpellGuideName": {
+        "CultureInvariantString": null
+      },
+      "AwakenSketch": {
+        "CultureInvariantString": null
+      },
+      "Intro": {
+        "Namespace": "Skill",
+        "Key": "1255_Intro",
+        "SourceString": "主动技能爆炸后会分裂出小的能量体，并在一段时间后再次爆炸。",
+        "LocalizedString": "主动技能爆炸后会分裂出小的能量体，并在一段时间后再次爆炸。"
+      },
+      "IntroPropel": {
+        "CultureInvariantString": null
+      },
+      "IconSkillUsing": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Skill/T_Dynamic_Skill_12505.T_Dynamic_Skill_12505",
+        "SubPathString": ""
+      },
+      "IconSkillDisable": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Skill/T_Dynamic_Skill_12505.T_Dynamic_Skill_12505",
+        "SubPathString": ""
+      },
+      "IconSkillCd": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Skill/T_Dynamic_Skill_12505.T_Dynamic_Skill_12505",
+        "SubPathString": ""
+      },
+      "IconSkill": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Skill/T_Dynamic_Skill_12505.T_Dynamic_Skill_12505",
+        "SubPathString": ""
+      },
+      "ActiveCond": [
+        3,
+        1,
+        1
+      ],
+      "SkillCd": 0,
+      "BluePrint": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      }
+    },
+    "1256": {
+      "SkillId": 1256,
+      "SkillType": 4,
+      "Name": {
+        "Namespace": "Skill",
+        "Key": "1256_Name",
+        "SourceString": "绽华陷阱",
+        "LocalizedString": "绽华陷阱"
+      },
+      "Tips": {
+        "CultureInvariantString": null
+      },
+      "DisplayName": {
+        "CultureInvariantString": null
+      },
+      "SpellGuideName": {
+        "CultureInvariantString": null
+      },
+      "AwakenSketch": {
+        "CultureInvariantString": null
+      },
+      "Intro": {
+        "Namespace": "Skill",
+        "Key": "1256_Intro",
+        "SourceString": "主动技能的存在时间大幅延长，可以在准备阶段提前释放并透视受到伤害的敌人。",
+        "LocalizedString": "主动技能的存在时间大幅延长，可以在准备阶段提前释放并透视受到伤害的敌人。"
+      },
+      "IntroPropel": {
+        "CultureInvariantString": null
+      },
+      "IconSkillUsing": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Skill/T_Dynamic_Skill_12506.T_Dynamic_Skill_12506",
+        "SubPathString": ""
+      },
+      "IconSkillDisable": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Skill/T_Dynamic_Skill_12506.T_Dynamic_Skill_12506",
+        "SubPathString": ""
+      },
+      "IconSkillCd": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Skill/T_Dynamic_Skill_12506.T_Dynamic_Skill_12506",
+        "SubPathString": ""
+      },
+      "IconSkill": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Skill/T_Dynamic_Skill_12506.T_Dynamic_Skill_12506",
+        "SubPathString": ""
+      },
+      "ActiveCond": [
+        1,
+        1,
+        2
+      ],
+      "SkillCd": 0,
+      "BluePrint": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      }
+    },
     "1017": {
       "SkillId": 1017,
       "SkillType": 5,
@@ -9152,9 +9492,9 @@
       },
       "DisplayName": {
         "Namespace": "Skill",
-        "Key": "1289_DisplayName",
-        "SourceString": "致盲",
-        "LocalizedString": "致盲"
+        "Key": "1011_DisplayName",
+        "SourceString": "伤害",
+        "LocalizedString": "伤害"
       },
       "SpellGuideName": {
         "CultureInvariantString": null
@@ -9165,8 +9505,8 @@
       "Intro": {
         "Namespace": "Skill",
         "Key": "1289_Intro",
-        "SourceString": "拉薇可以扔出一把闪光脉冲刀，脉冲刀插在障碍物上后引爆，并对周围所有敌人造成致盲效果，引爆前有一段延迟，延迟期间内飞刀可以被摧毁。",
-        "LocalizedString": "拉薇可以扔出一把闪光脉冲刀，脉冲刀插在障碍物上后引爆，并对周围所有敌人造成致盲效果，引爆前有一段延迟，延迟期间内飞刀可以被摧毁。"
+        "SourceString": "拉薇扔出一把爆炸脉冲刀，脉冲刀插在障碍物上后会立刻引爆，并对周围所有敌人造成伤害和准镜模糊效果，敌方召唤物会受到额外伤害。",
+        "LocalizedString": "拉薇扔出一把爆炸脉冲刀，脉冲刀插在障碍物上后会立刻引爆，并对周围所有敌人造成伤害和准镜模糊效果，敌方召唤物会受到额外伤害。"
       },
       "IntroPropel": {
         "CultureInvariantString": null
@@ -9208,7 +9548,7 @@
       },
       "DisplayName": {
         "Namespace": "Skill",
-        "Key": "1289_DisplayName",
+        "Key": "1329_DisplayName",
         "SourceString": "致盲",
         "LocalizedString": "致盲"
       },
@@ -9992,7 +10332,7 @@
       },
       "DisplayName": {
         "Namespace": "Skill",
-        "Key": "1289_DisplayName",
+        "Key": "1329_DisplayName",
         "SourceString": "致盲",
         "LocalizedString": "致盲"
       },
@@ -10193,6 +10533,62 @@
       },
       "IconSkill": {
         "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Skill/T_Dynamic_Skill_12209.T_Dynamic_Skill_12209",
+        "SubPathString": ""
+      },
+      "ActiveCond": [],
+      "SkillCd": 0,
+      "BluePrint": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      }
+    },
+    "1259": {
+      "SkillId": 1259,
+      "SkillType": 6,
+      "Name": {
+        "Namespace": "Skill",
+        "Key": "1259_Name",
+        "SourceString": "滞影贯云",
+        "LocalizedString": "滞影贯云"
+      },
+      "Tips": {
+        "CultureInvariantString": null
+      },
+      "DisplayName": {
+        "Namespace": "Skill",
+        "Key": "1011_DisplayName",
+        "SourceString": "伤害",
+        "LocalizedString": "伤害"
+      },
+      "SpellGuideName": {
+        "CultureInvariantString": null
+      },
+      "AwakenSketch": {
+        "CultureInvariantString": null
+      },
+      "Intro": {
+        "Namespace": "Skill",
+        "Key": "1259_Intro",
+        "SourceString": "千代蓄力后向目标方向发射一支贯穿箭矢，对路径上的敌人造成高额伤害和减速效果。",
+        "LocalizedString": "千代蓄力后向目标方向发射一支贯穿箭矢，对路径上的敌人造成高额伤害和减速效果。"
+      },
+      "IntroPropel": {
+        "CultureInvariantString": null
+      },
+      "IconSkillUsing": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Skill/T_Dynamic_Skill_12509.T_Dynamic_Skill_12509",
+        "SubPathString": ""
+      },
+      "IconSkillDisable": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Skill/T_Dynamic_Skill_12509.T_Dynamic_Skill_12509",
+        "SubPathString": ""
+      },
+      "IconSkillCd": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Skill/T_Dynamic_Skill_12509.T_Dynamic_Skill_12509",
+        "SubPathString": ""
+      },
+      "IconSkill": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Skill/T_Dynamic_Skill_12509.T_Dynamic_Skill_12509",
         "SubPathString": ""
       },
       "ActiveCond": [],
@@ -10529,6 +10925,256 @@
       },
       "IconSkill": {
         "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Skill/T_Dynamic_Skill_30601.T_Dynamic_Skill_30601",
+        "SubPathString": ""
+      },
+      "ActiveCond": [],
+      "SkillCd": 0,
+      "BluePrint": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      }
+    },
+    "1521": {
+      "SkillId": 1521,
+      "SkillType": 1,
+      "Name": {
+        "Namespace": "Skill",
+        "Key": "1521_Name",
+        "SourceString": "格挡",
+        "LocalizedString": "格挡"
+      },
+      "Tips": {
+        "CultureInvariantString": null
+      },
+      "DisplayName": {
+        "CultureInvariantString": null
+      },
+      "SpellGuideName": {
+        "CultureInvariantString": null
+      },
+      "AwakenSketch": {
+        "CultureInvariantString": null
+      },
+      "Intro": {
+        "CultureInvariantString": null
+      },
+      "IntroPropel": {
+        "CultureInvariantString": null
+      },
+      "IconSkillUsing": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Skill/T_Dynamic_Skill_15201.T_Dynamic_Skill_15201",
+        "SubPathString": ""
+      },
+      "IconSkillDisable": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Skill/T_Dynamic_Skill_15201.T_Dynamic_Skill_15201",
+        "SubPathString": ""
+      },
+      "IconSkillCd": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Skill/T_Dynamic_Skill_15201.T_Dynamic_Skill_15201",
+        "SubPathString": ""
+      },
+      "IconSkill": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Skill/T_Dynamic_Skill_15201.T_Dynamic_Skill_15201",
+        "SubPathString": ""
+      },
+      "ActiveCond": [],
+      "SkillCd": 0,
+      "BluePrint": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      }
+    },
+    "1522": {
+      "SkillId": 1522,
+      "SkillType": 1,
+      "Name": {
+        "Namespace": "Skill",
+        "Key": "1522_Name",
+        "SourceString": "重击",
+        "LocalizedString": "重击"
+      },
+      "Tips": {
+        "CultureInvariantString": null
+      },
+      "DisplayName": {
+        "CultureInvariantString": null
+      },
+      "SpellGuideName": {
+        "CultureInvariantString": null
+      },
+      "AwakenSketch": {
+        "CultureInvariantString": null
+      },
+      "Intro": {
+        "CultureInvariantString": null
+      },
+      "IntroPropel": {
+        "CultureInvariantString": null
+      },
+      "IconSkillUsing": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Skill/T_Dynamic_Skill_15202.T_Dynamic_Skill_15202",
+        "SubPathString": ""
+      },
+      "IconSkillDisable": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Skill/T_Dynamic_Skill_15202.T_Dynamic_Skill_15202",
+        "SubPathString": ""
+      },
+      "IconSkillCd": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Skill/T_Dynamic_Skill_15202.T_Dynamic_Skill_15202",
+        "SubPathString": ""
+      },
+      "IconSkill": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Skill/T_Dynamic_Skill_15202.T_Dynamic_Skill_15202",
+        "SubPathString": ""
+      },
+      "ActiveCond": [],
+      "SkillCd": 0,
+      "BluePrint": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      }
+    },
+    "1523": {
+      "SkillId": 1523,
+      "SkillType": 1,
+      "Name": {
+        "Namespace": "Skill",
+        "Key": "1523_Name",
+        "SourceString": "啊啊啊！",
+        "LocalizedString": "啊啊啊！"
+      },
+      "Tips": {
+        "CultureInvariantString": null
+      },
+      "DisplayName": {
+        "CultureInvariantString": null
+      },
+      "SpellGuideName": {
+        "CultureInvariantString": null
+      },
+      "AwakenSketch": {
+        "CultureInvariantString": null
+      },
+      "Intro": {
+        "CultureInvariantString": null
+      },
+      "IntroPropel": {
+        "CultureInvariantString": null
+      },
+      "IconSkillUsing": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Skill/T_Dynamic_Skill_15203.T_Dynamic_Skill_15203",
+        "SubPathString": ""
+      },
+      "IconSkillDisable": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Skill/T_Dynamic_Skill_15203.T_Dynamic_Skill_15203",
+        "SubPathString": ""
+      },
+      "IconSkillCd": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Skill/T_Dynamic_Skill_15203.T_Dynamic_Skill_15203",
+        "SubPathString": ""
+      },
+      "IconSkill": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Skill/T_Dynamic_Skill_15203.T_Dynamic_Skill_15203",
+        "SubPathString": ""
+      },
+      "ActiveCond": [],
+      "SkillCd": 0,
+      "BluePrint": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      }
+    },
+    "1524": {
+      "SkillId": 1524,
+      "SkillType": 1,
+      "Name": {
+        "Namespace": "Skill",
+        "Key": "1524_Name",
+        "SourceString": "咸鱼回旋",
+        "LocalizedString": "咸鱼回旋"
+      },
+      "Tips": {
+        "CultureInvariantString": null
+      },
+      "DisplayName": {
+        "CultureInvariantString": null
+      },
+      "SpellGuideName": {
+        "CultureInvariantString": null
+      },
+      "AwakenSketch": {
+        "CultureInvariantString": null
+      },
+      "Intro": {
+        "CultureInvariantString": null
+      },
+      "IntroPropel": {
+        "CultureInvariantString": null
+      },
+      "IconSkillUsing": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Skill/T_Dynamic_Skill_15204.T_Dynamic_Skill_15204",
+        "SubPathString": ""
+      },
+      "IconSkillDisable": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Skill/T_Dynamic_Skill_15204.T_Dynamic_Skill_15204",
+        "SubPathString": ""
+      },
+      "IconSkillCd": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Skill/T_Dynamic_Skill_15204.T_Dynamic_Skill_15204",
+        "SubPathString": ""
+      },
+      "IconSkill": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Skill/T_Dynamic_Skill_15204.T_Dynamic_Skill_15204",
+        "SubPathString": ""
+      },
+      "ActiveCond": [],
+      "SkillCd": 0,
+      "BluePrint": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      }
+    },
+    "1525": {
+      "SkillId": 1525,
+      "SkillType": 1,
+      "Name": {
+        "Namespace": "Skill",
+        "Key": "1525_Name",
+        "SourceString": "居合",
+        "LocalizedString": "居合"
+      },
+      "Tips": {
+        "CultureInvariantString": null
+      },
+      "DisplayName": {
+        "CultureInvariantString": null
+      },
+      "SpellGuideName": {
+        "CultureInvariantString": null
+      },
+      "AwakenSketch": {
+        "CultureInvariantString": null
+      },
+      "Intro": {
+        "CultureInvariantString": null
+      },
+      "IntroPropel": {
+        "CultureInvariantString": null
+      },
+      "IconSkillUsing": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Skill/T_Dynamic_Skill_15205.T_Dynamic_Skill_15205",
+        "SubPathString": ""
+      },
+      "IconSkillDisable": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Skill/T_Dynamic_Skill_15205.T_Dynamic_Skill_15205",
+        "SubPathString": ""
+      },
+      "IconSkillCd": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Skill/T_Dynamic_Skill_15205.T_Dynamic_Skill_15205",
+        "SubPathString": ""
+      },
+      "IconSkill": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Skill/T_Dynamic_Skill_15205.T_Dynamic_Skill_15205",
         "SubPathString": ""
       },
       "ActiveCond": [],

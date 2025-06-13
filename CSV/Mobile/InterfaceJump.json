@@ -2,6 +2,7 @@
   "Type": "DataTable",
   "Name": "InterfaceJump",
   "Class": "UScriptClass'DataTable'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
   "Properties": {
     "RowStruct": {
       "ObjectName": "ScriptStruct'CyInterfaceJumpTableRow'",
@@ -9,45 +10,905 @@
     }
   },
   "Rows": {
-    "99001": {
-      "Id": 99001,
+    "10001": {
+      "Id": 10001,
       "Desc": {
         "Namespace": "InterfaceJump",
-        "Key": "99001_Desc",
-        "SourceString": "对局匹配（测试配置）",
-        "LocalizedString": "对局匹配（测试配置）"
+        "Key": "10001_Desc",
+        "SourceString": "默认装备",
+        "LocalizedString": "默认装备"
       },
       "FunctionId": 0
     },
-    "99002": {
-      "Id": 99002,
+    "10002": {
+      "Id": 10002,
       "Desc": {
         "Namespace": "InterfaceJump",
-        "Key": "99002_Desc",
-        "SourceString": "限时商城（测试配置）",
-        "LocalizedString": "限时商城（测试配置）"
+        "Key": "10002_Desc",
+        "SourceString": "套装赠送",
+        "LocalizedString": "套装赠送"
+      },
+      "FunctionId": 0
+    },
+    "10003": {
+      "Id": 10003,
+      "Desc": {
+        "Namespace": "InterfaceJump",
+        "Key": "10003_Desc",
+        "SourceString": "暂无获取来源",
+        "LocalizedString": "暂无获取来源"
+      },
+      "FunctionId": 0
+    },
+    "10004": {
+      "Id": 10004,
+      "Desc": {
+        "Namespace": "InterfaceJump",
+        "Key": "10004_Desc",
+        "SourceString": "活动获得",
+        "LocalizedString": "活动获得"
+      },
+      "FunctionId": 0
+    },
+    "10005": {
+      "Id": 10005,
+      "Desc": {
+        "Namespace": "InterfaceJump",
+        "Key": "10005_Desc",
+        "SourceString": "打开弦列维度礼盒概率获得",
+        "LocalizedString": "打开弦列维度礼盒概率获得"
+      },
+      "FunctionId": 0
+    },
+    "10006": {
+      "Id": 10006,
+      "Desc": {
+        "Namespace": "InterfaceJump",
+        "Key": "10006_Desc",
+        "SourceString": "晶核兑换",
+        "LocalizedString": "晶核兑换"
+      },
+      "FunctionId": 0
+    },
+    "10007": {
+      "Id": 10007,
+      "Desc": {
+        "Namespace": "InterfaceJump",
+        "Key": "10007_Desc",
+        "SourceString": "超弦体-基弦或晶核直购",
+        "LocalizedString": "超弦体-基弦或晶核直购"
+      },
+      "FunctionId": 0
+    },
+    "10008": {
+      "Id": 10008,
+      "Desc": {
+        "Namespace": "InterfaceJump",
+        "Key": "10008_Desc",
+        "SourceString": "超弦体-基弦直购",
+        "LocalizedString": "超弦体-基弦直购"
+      },
+      "FunctionId": 0
+    },
+    "10009": {
+      "Id": 10009,
+      "Desc": {
+        "Namespace": "InterfaceJump",
+        "Key": "10009_Desc",
+        "SourceString": "芯片工艺-基弦直购",
+        "LocalizedString": "芯片工艺-基弦直购"
+      },
+      "FunctionId": 0
+    },
+    "10702": {
+      "Id": 10702,
+      "Desc": {
+        "Namespace": "InterfaceJump",
+        "Key": "10702_Desc",
+        "SourceString": "限时商城",
+        "LocalizedString": "限时商城"
       },
       "FunctionId": 10702
     },
-    "99003": {
-      "Id": 99003,
+    "10703": {
+      "Id": 10703,
       "Desc": {
         "Namespace": "InterfaceJump",
-        "Key": "99003_Desc",
-        "SourceString": "排位赛（10级解锁，测试配置）",
-        "LocalizedString": "排位赛（10级解锁，测试配置）"
+        "Key": "10703_Desc",
+        "SourceString": "礼包获得",
+        "LocalizedString": "礼包获得"
+      },
+      "FunctionId": 10703
+    },
+    "10704": {
+      "Id": 10704,
+      "Desc": {
+        "Namespace": "InterfaceJump",
+        "Key": "10704_Desc",
+        "SourceString": "推荐",
+        "LocalizedString": "推荐"
+      },
+      "FunctionId": 10704
+    },
+    "10711": {
+      "Id": 10711,
+      "Desc": {
+        "Namespace": "InterfaceJump",
+        "Key": "10711_Desc",
+        "SourceString": "新手礼包",
+        "LocalizedString": "新手礼包"
+      },
+      "FunctionId": 10711
+    },
+    "10712": {
+      "Id": 10712,
+      "Desc": {
+        "Namespace": "InterfaceJump",
+        "Key": "10712_Desc",
+        "SourceString": "等级礼包",
+        "LocalizedString": "等级礼包"
+      },
+      "FunctionId": 10712
+    },
+    "10713": {
+      "Id": 10713,
+      "Desc": {
+        "Namespace": "InterfaceJump",
+        "Key": "10713_Desc",
+        "SourceString": "推荐礼包",
+        "LocalizedString": "推荐礼包"
+      },
+      "FunctionId": 10713
+    },
+    "10800": {
+      "Id": 10800,
+      "Desc": {
+        "Namespace": "InterfaceJump",
+        "Key": "10800_Desc",
+        "SourceString": "意识重构",
+        "LocalizedString": "意识重构"
+      },
+      "FunctionId": 0
+    },
+    "10801": {
+      "Id": 10801,
+      "Desc": {
+        "Namespace": "InterfaceJump",
+        "Key": "10801_Desc",
+        "SourceString": "意识重构-新界开拓",
+        "LocalizedString": "意识重构-新界开拓"
+      },
+      "FunctionId": 0
+    },
+    "10802": {
+      "Id": 10802,
+      "Desc": {
+        "Namespace": "InterfaceJump",
+        "Key": "10802_Desc",
+        "SourceString": "意识重构-超弦跃迁",
+        "LocalizedString": "意识重构-超弦跃迁"
+      },
+      "FunctionId": 0
+    },
+    "11000": {
+      "Id": 11000,
+      "Desc": {
+        "Namespace": "InterfaceJump",
+        "Key": "11000_Desc",
+        "SourceString": "特别行动-S1赛季",
+        "LocalizedString": "特别行动-S1赛季"
+      },
+      "FunctionId": 11001
+    },
+    "11002": {
+      "Id": 11002,
+      "Desc": {
+        "Namespace": "InterfaceJump",
+        "Key": "11002_Desc",
+        "SourceString": "特别行动-任务奖励",
+        "LocalizedString": "特别行动-任务奖励"
+      },
+      "FunctionId": 11002
+    },
+    "11100": {
+      "Id": 11100,
+      "Desc": {
+        "Namespace": "InterfaceJump",
+        "Key": "11100_Desc",
+        "SourceString": "誓约等级奖励",
+        "LocalizedString": "誓约等级奖励"
+      },
+      "FunctionId": 11100
+    },
+    "11101": {
+      "Id": 11101,
+      "Desc": {
+        "Namespace": "InterfaceJump",
+        "Key": "11101_Desc",
+        "SourceString": "赠送礼物",
+        "LocalizedString": "赠送礼物"
+      },
+      "FunctionId": 11100
+    },
+    "11901": {
+      "Id": 11901,
+      "Desc": {
+        "Namespace": "InterfaceJump",
+        "Key": "11901_Desc",
+        "SourceString": "充值",
+        "LocalizedString": "充值"
+      },
+      "FunctionId": 11901
+    },
+    "11902": {
+      "Id": 11902,
+      "Desc": {
+        "Namespace": "InterfaceJump",
+        "Key": "11902_Desc",
+        "SourceString": "月卡奖励",
+        "LocalizedString": "月卡奖励"
+      },
+      "FunctionId": 11902
+    },
+    "11904": {
+      "Id": 11904,
+      "Desc": {
+        "Namespace": "InterfaceJump",
+        "Key": "11904_Desc",
+        "SourceString": "累充奖励",
+        "LocalizedString": "累充奖励"
+      },
+      "FunctionId": 11904
+    },
+    "12011": {
+      "Id": 12011,
+      "Desc": {
+        "Namespace": "InterfaceJump",
+        "Key": "12011_Desc",
+        "SourceString": "排位-每周任务",
+        "LocalizedString": "排位-每周任务"
+      },
+      "FunctionId": 12011
+    },
+    "12012": {
+      "Id": 12012,
+      "Desc": {
+        "Namespace": "InterfaceJump",
+        "Key": "12012_Desc",
+        "SourceString": "排位-段位征程",
+        "LocalizedString": "排位-段位征程"
+      },
+      "FunctionId": 12012
+    },
+    "12013": {
+      "Id": 12013,
+      "Desc": {
+        "Namespace": "InterfaceJump",
+        "Key": "12013_Desc",
+        "SourceString": "排位-弦能商店",
+        "LocalizedString": "排位-弦能商店"
+      },
+      "FunctionId": 12013
+    },
+    "12100": {
+      "Id": 12100,
+      "Desc": {
+        "Namespace": "InterfaceJump",
+        "Key": "12100_Desc",
+        "SourceString": "招募超弦体",
+        "LocalizedString": "招募超弦体"
+      },
+      "FunctionId": 12100
+    },
+    "12102": {
+      "Id": 12102,
+      "Desc": {
+        "Namespace": "InterfaceJump",
+        "Key": "12102_Desc",
+        "SourceString": "直购",
+        "LocalizedString": "直购"
+      },
+      "FunctionId": 12102
+    },
+    "12105": {
+      "Id": 12105,
+      "Desc": {
+        "Namespace": "InterfaceJump",
+        "Key": "12102_Desc",
+        "SourceString": "直购",
+        "LocalizedString": "直购"
+      },
+      "FunctionId": 12105
+    },
+    "12106": {
+      "Id": 12106,
+      "Desc": {
+        "Namespace": "InterfaceJump",
+        "Key": "12102_Desc",
+        "SourceString": "直购",
+        "LocalizedString": "直购"
+      },
+      "FunctionId": 12106
+    },
+    "12107": {
+      "Id": 12107,
+      "Desc": {
+        "Namespace": "InterfaceJump",
+        "Key": "12102_Desc",
+        "SourceString": "直购",
+        "LocalizedString": "直购"
+      },
+      "FunctionId": 12107
+    },
+    "12120": {
+      "Id": 12120,
+      "Desc": {
+        "Namespace": "InterfaceJump",
+        "Key": "12102_Desc",
+        "SourceString": "直购",
+        "LocalizedString": "直购"
+      },
+      "FunctionId": 12120
+    },
+    "12412": {
+      "Id": 12412,
+      "Desc": {
+        "Namespace": "InterfaceJump",
+        "Key": "12412_Desc",
+        "SourceString": "超弦体印迹Lv.10",
+        "LocalizedString": "超弦体印迹Lv.10"
+      },
+      "FunctionId": 0
+    },
+    "12413": {
+      "Id": 12413,
+      "Desc": {
+        "Namespace": "InterfaceJump",
+        "Key": "12413_Desc",
+        "SourceString": "超弦体印迹Lv.20",
+        "LocalizedString": "超弦体印迹Lv.20"
+      },
+      "FunctionId": 0
+    },
+    "12414": {
+      "Id": 12414,
+      "Desc": {
+        "Namespace": "InterfaceJump",
+        "Key": "12414_Desc",
+        "SourceString": "超弦体印迹Lv.30",
+        "LocalizedString": "超弦体印迹Lv.30"
+      },
+      "FunctionId": 0
+    },
+    "12421": {
+      "Id": 12421,
+      "Desc": {
+        "Namespace": "InterfaceJump",
+        "Key": "12421_Desc",
+        "SourceString": "使用超弦体进行匹配对局",
+        "LocalizedString": "使用超弦体进行匹配对局"
+      },
+      "FunctionId": 12303
+    },
+    "12422": {
+      "Id": 12422,
+      "Desc": {
+        "Namespace": "InterfaceJump",
+        "Key": "12422_Desc",
+        "SourceString": "完成超弦体印迹目标",
+        "LocalizedString": "完成超弦体印迹目标"
+      },
+      "FunctionId": 0
+    },
+    "12301": {
+      "Id": 12301,
+      "Desc": {
+        "Namespace": "InterfaceJump",
+        "Key": "12301_Desc",
+        "SourceString": "比赛获得",
+        "LocalizedString": "比赛获得"
       },
       "FunctionId": 12301
     },
-    "99004": {
-      "Id": 99004,
+    "12302": {
+      "Id": 12302,
       "Desc": {
         "Namespace": "InterfaceJump",
-        "Key": "99004_Desc",
-        "SourceString": "测试配置五跳转是商城一二三四五一二三四五测试配置五",
-        "LocalizedString": "测试配置五跳转是商城一二三四五一二三四五测试配置五"
+        "Key": "12301_Desc",
+        "SourceString": "比赛获得",
+        "LocalizedString": "比赛获得"
       },
-      "FunctionId": 10702
+      "FunctionId": 12302
+    },
+    "12303": {
+      "Id": 12303,
+      "Desc": {
+        "Namespace": "InterfaceJump",
+        "Key": "12301_Desc",
+        "SourceString": "比赛获得",
+        "LocalizedString": "比赛获得"
+      },
+      "FunctionId": 12303
+    },
+    "13202": {
+      "Id": 13202,
+      "Desc": {
+        "Namespace": "InterfaceJump",
+        "Key": "13202_Desc",
+        "SourceString": "Fanbook社区奖励",
+        "LocalizedString": "Fanbook社区奖励"
+      },
+      "FunctionId": 0
+    },
+    "20001": {
+      "Id": 20001,
+      "Desc": {
+        "Namespace": "InterfaceJump",
+        "Key": "20001_Desc",
+        "SourceString": "【活动】伊薇特指引",
+        "LocalizedString": "【活动】伊薇特指引"
+      },
+      "FunctionId": 20001
+    },
+    "20002": {
+      "Id": 20002,
+      "Desc": {
+        "Namespace": "InterfaceJump",
+        "Key": "20002_Desc",
+        "SourceString": "【活动】七日特训",
+        "LocalizedString": "【活动】七日特训"
+      },
+      "FunctionId": 20002
+    },
+    "100101": {
+      "Id": 100101,
+      "Desc": {
+        "Namespace": "InterfaceJump",
+        "Key": "100101_Desc",
+        "SourceString": "至纯物质段位奖励",
+        "LocalizedString": "至纯物质段位奖励"
+      },
+      "FunctionId": 12301
+    },
+    "100102": {
+      "Id": 100102,
+      "Desc": {
+        "Namespace": "InterfaceJump",
+        "Key": "100102_Desc",
+        "SourceString": "升格分子段位奖励",
+        "LocalizedString": "升格分子段位奖励"
+      },
+      "FunctionId": 12301
+    },
+    "100103": {
+      "Id": 100103,
+      "Desc": {
+        "Namespace": "InterfaceJump",
+        "Key": "100103_Desc",
+        "SourceString": "虚空原子段位奖励",
+        "LocalizedString": "虚空原子段位奖励"
+      },
+      "FunctionId": 12301
+    },
+    "100104": {
+      "Id": 100104,
+      "Desc": {
+        "Namespace": "InterfaceJump",
+        "Key": "100104_Desc",
+        "SourceString": "聚变质子段位奖励",
+        "LocalizedString": "聚变质子段位奖励"
+      },
+      "FunctionId": 12301
+    },
+    "100105": {
+      "Id": 100105,
+      "Desc": {
+        "Namespace": "InterfaceJump",
+        "Key": "100105_Desc",
+        "SourceString": "自由中子段位奖励",
+        "LocalizedString": "自由中子段位奖励"
+      },
+      "FunctionId": 12301
+    },
+    "100106": {
+      "Id": 100106,
+      "Desc": {
+        "Namespace": "InterfaceJump",
+        "Key": "100106_Desc",
+        "SourceString": "束缚电子段位奖励",
+        "LocalizedString": "束缚电子段位奖励"
+      },
+      "FunctionId": 12301
+    },
+    "100107": {
+      "Id": 100107,
+      "Desc": {
+        "Namespace": "InterfaceJump",
+        "Key": "100107_Desc",
+        "SourceString": "禁闭夸克段位奖励",
+        "LocalizedString": "禁闭夸克段位奖励"
+      },
+      "FunctionId": 12301
+    },
+    "100108": {
+      "Id": 100108,
+      "Desc": {
+        "Namespace": "InterfaceJump",
+        "Key": "100108_Desc",
+        "SourceString": "无限超弦段位奖励",
+        "LocalizedString": "无限超弦段位奖励"
+      },
+      "FunctionId": 12301
+    },
+    "100109": {
+      "Id": 100109,
+      "Desc": {
+        "Namespace": "InterfaceJump",
+        "Key": "100109_Desc",
+        "SourceString": "奇点段位奖励",
+        "LocalizedString": "奇点段位奖励"
+      },
+      "FunctionId": 12301
+    },
+    "990001": {
+      "Id": 990001,
+      "Desc": {
+        "Namespace": "InterfaceJump",
+        "Key": "990001_Desc",
+        "SourceString": "时空之约签到获得",
+        "LocalizedString": "时空之约签到获得"
+      },
+      "FunctionId": 0
+    },
+    "33002001": {
+      "Id": 33002001,
+      "Desc": {
+        "Namespace": "InterfaceJump",
+        "Key": "33002001_Desc",
+        "SourceString": "米雪儿誓约Lv.1奖励",
+        "LocalizedString": "米雪儿誓约Lv.1奖励"
+      },
+      "FunctionId": 0
+    },
+    "33002002": {
+      "Id": 33002002,
+      "Desc": {
+        "Namespace": "InterfaceJump",
+        "Key": "33002002_Desc",
+        "SourceString": "奥黛丽誓约Lv.1奖励",
+        "LocalizedString": "奥黛丽誓约Lv.1奖励"
+      },
+      "FunctionId": 0
+    },
+    "33002003": {
+      "Id": 33002003,
+      "Desc": {
+        "Namespace": "InterfaceJump",
+        "Key": "33002003_Desc",
+        "SourceString": "星绘誓约Lv.1奖励",
+        "LocalizedString": "星绘誓约Lv.1奖励"
+      },
+      "FunctionId": 0
+    },
+    "31000080": {
+      "Id": 31000080,
+      "Desc": {
+        "Namespace": "InterfaceJump",
+        "Key": "31000080_Desc",
+        "SourceString": "星绘誓约Lv.4奖励",
+        "LocalizedString": "星绘誓约Lv.4奖励"
+      },
+      "FunctionId": 0
+    },
+    "31000081": {
+      "Id": 31000081,
+      "Desc": {
+        "Namespace": "InterfaceJump",
+        "Key": "31000081_Desc",
+        "SourceString": "米雪儿誓约Lv.4奖励",
+        "LocalizedString": "米雪儿誓约Lv.4奖励"
+      },
+      "FunctionId": 0
+    },
+    "31000108": {
+      "Id": 31000108,
+      "Desc": {
+        "Namespace": "InterfaceJump",
+        "Key": "31000108_Desc",
+        "SourceString": "奥黛丽誓约Lv.4奖励",
+        "LocalizedString": "奥黛丽誓约Lv.4奖励"
+      },
+      "FunctionId": 0
+    },
+    "31001001": {
+      "Id": 31001001,
+      "Desc": {
+        "Namespace": "InterfaceJump",
+        "Key": "31001001_Desc",
+        "SourceString": "【逆影蔷薇】套装赠品",
+        "LocalizedString": "【逆影蔷薇】套装赠品"
+      },
+      "FunctionId": 0
+    },
+    "31001002": {
+      "Id": 31001002,
+      "Desc": {
+        "Namespace": "InterfaceJump",
+        "Key": "31001002_Desc",
+        "SourceString": "【猎虎裁恶】套装赠品",
+        "LocalizedString": "【猎虎裁恶】套装赠品"
+      },
+      "FunctionId": 0
+    },
+    "31001003": {
+      "Id": 31001003,
+      "Desc": {
+        "Namespace": "InterfaceJump",
+        "Key": "31001003_Desc",
+        "SourceString": "【激扬碧浪】套装赠品",
+        "LocalizedString": "【激扬碧浪】套装赠品"
+      },
+      "FunctionId": 0
+    },
+    "31001004": {
+      "Id": 31001004,
+      "Desc": {
+        "Namespace": "InterfaceJump",
+        "Key": "31001004_Desc",
+        "SourceString": "【沙滩牛仔】套装赠品",
+        "LocalizedString": "【沙滩牛仔】套装赠品"
+      },
+      "FunctionId": 0
+    },
+    "31001005": {
+      "Id": 31001005,
+      "Desc": {
+        "Namespace": "InterfaceJump",
+        "Key": "31001005_Desc",
+        "SourceString": "【海滨奇遇】套装赠品",
+        "LocalizedString": "【海滨奇遇】套装赠品"
+      },
+      "FunctionId": 0
+    },
+    "31001046": {
+      "Id": 31001046,
+      "Desc": {
+        "Namespace": "InterfaceJump",
+        "Key": "31001046_Desc",
+        "SourceString": "【苍雷潜龙】套装赠品",
+        "LocalizedString": "【苍雷潜龙】套装赠品"
+      },
+      "FunctionId": 0
+    },
+    "31001061": {
+      "Id": 31001061,
+      "Desc": {
+        "Namespace": "InterfaceJump",
+        "Key": "31001061_Desc",
+        "SourceString": "【机动天使】套装赠品",
+        "LocalizedString": "【机动天使】套装赠品"
+      },
+      "FunctionId": 0
+    },
+    "31001062": {
+      "Id": 31001062,
+      "Desc": {
+        "Namespace": "InterfaceJump",
+        "Key": "31001062_Desc",
+        "SourceString": "【百万主播】套装赠品",
+        "LocalizedString": "【百万主播】套装赠品"
+      },
+      "FunctionId": 0
+    },
+    "30000013": {
+      "Id": 30000013,
+      "Desc": {
+        "Namespace": "InterfaceJump",
+        "Key": "30000013_Desc",
+        "SourceString": "奥黛丽誓约Lv.2奖励",
+        "LocalizedString": "奥黛丽誓约Lv.2奖励"
+      },
+      "FunctionId": 0
+    },
+    "30000016": {
+      "Id": 30000016,
+      "Desc": {
+        "Namespace": "InterfaceJump",
+        "Key": "30000016_Desc",
+        "SourceString": "米雪儿誓约Lv.2奖励",
+        "LocalizedString": "米雪儿誓约Lv.2奖励"
+      },
+      "FunctionId": 0
+    },
+    "30000030": {
+      "Id": 30000030,
+      "Desc": {
+        "Namespace": "InterfaceJump",
+        "Key": "30000030_Desc",
+        "SourceString": "星绘誓约Lv.2奖励",
+        "LocalizedString": "星绘誓约Lv.2奖励"
+      },
+      "FunctionId": 0
+    },
+    "30000031": {
+      "Id": 30000031,
+      "Desc": {
+        "Namespace": "InterfaceJump",
+        "Key": "30000031_Desc",
+        "SourceString": "星绘誓约Lv.9奖励",
+        "LocalizedString": "星绘誓约Lv.9奖励"
+      },
+      "FunctionId": 0
+    },
+    "30000034": {
+      "Id": 30000034,
+      "Desc": {
+        "Namespace": "InterfaceJump",
+        "Key": "30000034_Desc",
+        "SourceString": "奥黛丽誓约Lv.9奖励",
+        "LocalizedString": "奥黛丽誓约Lv.9奖励"
+      },
+      "FunctionId": 0
+    },
+    "30000037": {
+      "Id": 30000037,
+      "Desc": {
+        "Namespace": "InterfaceJump",
+        "Key": "30000037_Desc",
+        "SourceString": "米雪儿誓约Lv.9奖励",
+        "LocalizedString": "米雪儿誓约Lv.9奖励"
+      },
+      "FunctionId": 0
+    },
+    "60000031": {
+      "Id": 60000031,
+      "Desc": {
+        "Namespace": "InterfaceJump",
+        "Key": "60000031_Desc",
+        "SourceString": "米雪儿誓约Lv.3奖励",
+        "LocalizedString": "米雪儿誓约Lv.3奖励"
+      },
+      "FunctionId": 0
+    },
+    "60000033": {
+      "Id": 60000033,
+      "Desc": {
+        "Namespace": "InterfaceJump",
+        "Key": "60000033_Desc",
+        "SourceString": "米雪儿誓约Lv.6奖励",
+        "LocalizedString": "米雪儿誓约Lv.6奖励"
+      },
+      "FunctionId": 0
+    },
+    "60000036": {
+      "Id": 60000036,
+      "Desc": {
+        "Namespace": "InterfaceJump",
+        "Key": "60000036_Desc",
+        "SourceString": "星绘誓约Lv.3奖励",
+        "LocalizedString": "星绘誓约Lv.3奖励"
+      },
+      "FunctionId": 0
+    },
+    "60000038": {
+      "Id": 60000038,
+      "Desc": {
+        "Namespace": "InterfaceJump",
+        "Key": "60000038_Desc",
+        "SourceString": "星绘誓约Lv.6奖励",
+        "LocalizedString": "星绘誓约Lv.6奖励"
+      },
+      "FunctionId": 0
+    },
+    "60000041": {
+      "Id": 60000041,
+      "Desc": {
+        "Namespace": "InterfaceJump",
+        "Key": "60000041_Desc",
+        "SourceString": "奥黛丽誓约Lv.3奖励",
+        "LocalizedString": "奥黛丽誓约Lv.3奖励"
+      },
+      "FunctionId": 0
+    },
+    "60000043": {
+      "Id": 60000043,
+      "Desc": {
+        "Namespace": "InterfaceJump",
+        "Key": "60000043_Desc",
+        "SourceString": "奥黛丽誓约Lv.6奖励",
+        "LocalizedString": "奥黛丽誓约Lv.6奖励"
+      },
+      "FunctionId": 0
+    },
+    "20101054": {
+      "Id": 20101054,
+      "Desc": {
+        "Namespace": "InterfaceJump",
+        "Key": "20101054_Desc",
+        "SourceString": "米雪儿誓约Lv.8奖励",
+        "LocalizedString": "米雪儿誓约Lv.8奖励"
+      },
+      "FunctionId": 0
+    },
+    "20101201": {
+      "Id": 20101201,
+      "Desc": {
+        "Namespace": "InterfaceJump",
+        "Key": "20101201_Desc",
+        "SourceString": "米雪儿誓约Lv.10奖励",
+        "LocalizedString": "米雪儿誓约Lv.10奖励"
+      },
+      "FunctionId": 0
+    },
+    "20105051": {
+      "Id": 20105051,
+      "Desc": {
+        "Namespace": "InterfaceJump",
+        "Key": "20105051_Desc",
+        "SourceString": "奥黛丽誓约Lv.8奖励",
+        "LocalizedString": "奥黛丽誓约Lv.8奖励"
+      },
+      "FunctionId": 0
+    },
+    "20105201": {
+      "Id": 20105201,
+      "Desc": {
+        "Namespace": "InterfaceJump",
+        "Key": "20105201_Desc",
+        "SourceString": "奥黛丽誓约Lv.10奖励",
+        "LocalizedString": "奥黛丽誓约Lv.10奖励"
+      },
+      "FunctionId": 0
+    },
+    "20146055": {
+      "Id": 20146055,
+      "Desc": {
+        "Namespace": "InterfaceJump",
+        "Key": "20146055_Desc",
+        "SourceString": "星绘誓约Lv.8奖励",
+        "LocalizedString": "星绘誓约Lv.8奖励"
+      },
+      "FunctionId": 0
+    },
+    "20146201": {
+      "Id": 20146201,
+      "Desc": {
+        "Namespace": "InterfaceJump",
+        "Key": "20146201_Desc",
+        "SourceString": "星绘誓约Lv.10奖励",
+        "LocalizedString": "星绘誓约Lv.10奖励"
+      },
+      "FunctionId": 0
+    },
+    "10101051": {
+      "Id": 10101051,
+      "Desc": {
+        "Namespace": "InterfaceJump",
+        "Key": "10101051_Desc",
+        "SourceString": "米雪儿誓约Lv.5任务奖励",
+        "LocalizedString": "米雪儿誓约Lv.5任务奖励"
+      },
+      "FunctionId": 0
+    },
+    "10403052": {
+      "Id": 10403052,
+      "Desc": {
+        "Namespace": "InterfaceJump",
+        "Key": "10403052_Desc",
+        "SourceString": "奥黛丽誓约Lv.5任务奖励",
+        "LocalizedString": "奥黛丽誓约Lv.5任务奖励"
+      },
+      "FunctionId": 0
+    },
+    "10106056": {
+      "Id": 10106056,
+      "Desc": {
+        "Namespace": "InterfaceJump",
+        "Key": "10106056_Desc",
+        "SourceString": "星绘誓约Lv.5任务奖励",
+        "LocalizedString": "星绘誓约Lv.5任务奖励"
+      },
+      "FunctionId": 0
     }
   }
 }

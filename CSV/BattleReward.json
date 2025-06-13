@@ -2,6 +2,7 @@
   "Type": "DataTable",
   "Name": "BattleReward",
   "Class": "UScriptClass'DataTable'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
   "Properties": {
     "RowStruct": {
       "ObjectName": "ScriptStruct'CyBattleRewardTableRow'",
@@ -157,6 +158,10 @@
       "Parameter": "n3",
       "Value": 0.2
     },
+    "exp0": {
+      "Parameter": "exp0",
+      "Value": 1250.0
+    },
     "exp1": {
       "Parameter": "exp1",
       "Value": 12000.0
@@ -168,6 +173,10 @@
     "exp3": {
       "Parameter": "exp3",
       "Value": 24000.0
+    },
+    "exp10": {
+      "Parameter": "exp10",
+      "Value": 250.0
     },
     "exp11": {
       "Parameter": "exp11",
@@ -181,6 +190,10 @@
       "Parameter": "exp13",
       "Value": 4800.0
     },
+    "exp20": {
+      "Parameter": "exp20",
+      "Value": 500.0
+    },
     "exp21": {
       "Parameter": "exp21",
       "Value": 4800.0
@@ -192,6 +205,10 @@
     "exp23": {
       "Parameter": "exp23",
       "Value": 9600.0
+    },
+    "exp30": {
+      "Parameter": "exp30",
+      "Value": 400.0
     },
     "o1": {
       "Parameter": "o1",
@@ -653,6 +670,98 @@
       "Parameter": "l56",
       "Value": 18.030676
     },
+    "a61": {
+      "Parameter": "a61",
+      "Value": 2.2
+    },
+    "b61": {
+      "Parameter": "b61",
+      "Value": 0.0
+    },
+    "c61": {
+      "Parameter": "c61",
+      "Value": 0.011
+    },
+    "e61": {
+      "Parameter": "e61",
+      "Value": 0.0
+    },
+    "f61": {
+      "Parameter": "f61",
+      "Value": -2.2
+    },
+    "g61": {
+      "Parameter": "g61",
+      "Value": 88.72172
+    },
+    "h61": {
+      "Parameter": "h61",
+      "Value": 0.00275
+    },
+    "p61": {
+      "Parameter": "p61",
+      "Value": 0.0
+    },
+    "p62": {
+      "Parameter": "p62",
+      "Value": 0.0
+    },
+    "p63": {
+      "Parameter": "p63",
+      "Value": 0.0
+    },
+    "p64": {
+      "Parameter": "p64",
+      "Value": 0.0
+    },
+    "p65": {
+      "Parameter": "p65",
+      "Value": 2.5
+    },
+    "k61": {
+      "Parameter": "k61",
+      "Value": 88.72172
+    },
+    "k62": {
+      "Parameter": "k62",
+      "Value": 346.0
+    },
+    "k63": {
+      "Parameter": "k63",
+      "Value": 3.0
+    },
+    "k64": {
+      "Parameter": "k64",
+      "Value": 1.1E-06
+    },
+    "k65": {
+      "Parameter": "k65",
+      "Value": 0.0
+    },
+    "l61": {
+      "Parameter": "l61",
+      "Value": 3.2412163E-06
+    },
+    "l62": {
+      "Parameter": "l62",
+      "Value": 0.0
+    },
+    "l63": {
+      "Parameter": "l63",
+      "Value": 6.0
+    },
+    "l64": {
+      "Parameter": "l64",
+      "Value": 0.5
+    },
+    "l65": {
+      "Parameter": "l65",
+      "Value": 17.679361
+    },
+    "l66": {
+      "Parameter": "l66",
+      "Value": 1.4732802
+    },
     "a81": {
       "Parameter": "a81",
       "Value": 10.0
@@ -787,11 +896,11 @@
     },
     "i91": {
       "Parameter": "i91",
-      "Value": 0.0
+      "Value": 1.0
     },
     "j91": {
       "Parameter": "j91",
-      "Value": 350.0
+      "Value": 300.0
     },
     "p91": {
       "Parameter": "p91",
@@ -811,6 +920,78 @@
     },
     "p95": {
       "Parameter": "p95",
+      "Value": 0.0
+    },
+    "a101": {
+      "Parameter": "a101",
+      "Value": 2.5
+    },
+    "b101": {
+      "Parameter": "b101",
+      "Value": 0.0
+    },
+    "c101": {
+      "Parameter": "c101",
+      "Value": 0.03
+    },
+    "d101": {
+      "Parameter": "d101",
+      "Value": 1.0
+    },
+    "e101": {
+      "Parameter": "e101",
+      "Value": 0.0
+    },
+    "f101": {
+      "Parameter": "f101",
+      "Value": 0.0
+    },
+    "p101": {
+      "Parameter": "p101",
+      "Value": 0.2
+    },
+    "p102": {
+      "Parameter": "p102",
+      "Value": 1.0
+    },
+    "p103": {
+      "Parameter": "p103",
+      "Value": 0.006
+    },
+    "p104": {
+      "Parameter": "p104",
+      "Value": 0.0
+    },
+    "p105": {
+      "Parameter": "p105",
+      "Value": 2.5
+    },
+    "g101": {
+      "Parameter": "g101",
+      "Value": 0.0
+    },
+    "h101": {
+      "Parameter": "h101",
+      "Value": 0.008
+    },
+    "k101": {
+      "Parameter": "k101",
+      "Value": 0.0
+    },
+    "k102": {
+      "Parameter": "k102",
+      "Value": 0.0
+    },
+    "k103": {
+      "Parameter": "k103",
+      "Value": 0.0
+    },
+    "k104": {
+      "Parameter": "k104",
+      "Value": 0.0
+    },
+    "k105": {
+      "Parameter": "k105",
       "Value": 0.0
     },
     "la0": {
@@ -1251,7 +1432,7 @@
     },
     "lf14": {
       "Parameter": "lf14",
-      "Value": 224.0
+      "Value": 240.0
     },
     "lf15": {
       "Parameter": "lf15",
@@ -1275,7 +1456,7 @@
     },
     "lg1": {
       "Parameter": "lg1",
-      "Value": 1.11
+      "Value": 1.0
     },
     "lg2": {
       "Parameter": "lg2",
@@ -1283,19 +1464,19 @@
     },
     "lg3": {
       "Parameter": "lg3",
-      "Value": 0.88
+      "Value": 1.0
     },
     "lg4": {
       "Parameter": "lg4",
-      "Value": 0.77
+      "Value": 0.0
     },
     "lg5": {
       "Parameter": "lg5",
-      "Value": 0.66
+      "Value": 0.0
     },
     "lg6": {
       "Parameter": "lg6",
-      "Value": 725.24
+      "Value": 840.0
     },
     "lg7": {
       "Parameter": "lg7",
@@ -1307,15 +1488,15 @@
     },
     "lg9": {
       "Parameter": "lg9",
-      "Value": 90.65
+      "Value": 105.0
     },
     "lg10": {
       "Parameter": "lg10",
-      "Value": 453.28
+      "Value": 525.0
     },
     "lg11": {
       "Parameter": "lg11",
-      "Value": 18.88
+      "Value": 21.87
     },
     "lg12": {
       "Parameter": "lg12",
@@ -1327,11 +1508,11 @@
     },
     "lg14": {
       "Parameter": "lg14",
-      "Value": 365.54
+      "Value": 210.0
     },
     "lg15": {
       "Parameter": "lg15",
-      "Value": 11.5
+      "Value": 6.0
     },
     "lg16": {
       "Parameter": "lg16",
@@ -1343,7 +1524,83 @@
     },
     "lg99": {
       "Parameter": "lg99",
-      "Value": 453.28
+      "Value": 525.0
+    },
+    "lh0": {
+      "Parameter": "lh0",
+      "Value": 0.17637554
+    },
+    "lh1": {
+      "Parameter": "lh1",
+      "Value": 1.14
+    },
+    "lh2": {
+      "Parameter": "lh2",
+      "Value": 0.85
+    },
+    "lh3": {
+      "Parameter": "lh3",
+      "Value": 1.0
+    },
+    "lh4": {
+      "Parameter": "lh4",
+      "Value": 0.0
+    },
+    "lh5": {
+      "Parameter": "lh5",
+      "Value": 0.0
+    },
+    "lh6": {
+      "Parameter": "lh6",
+      "Value": 1067.2
+    },
+    "lh7": {
+      "Parameter": "lh7",
+      "Value": 1.0
+    },
+    "lh8": {
+      "Parameter": "lh8",
+      "Value": -0.1
+    },
+    "lh9": {
+      "Parameter": "lh9",
+      "Value": 133.4
+    },
+    "lh10": {
+      "Parameter": "lh10",
+      "Value": 667.0
+    },
+    "lh11": {
+      "Parameter": "lh11",
+      "Value": 27.79
+    },
+    "lh12": {
+      "Parameter": "lh12",
+      "Value": 0.6
+    },
+    "lh13": {
+      "Parameter": "lh13",
+      "Value": -0.3
+    },
+    "lh14": {
+      "Parameter": "lh14",
+      "Value": 311.23
+    },
+    "lh15": {
+      "Parameter": "lh15",
+      "Value": 6.0
+    },
+    "lh16": {
+      "Parameter": "lh16",
+      "Value": 50.0
+    },
+    "lh17": {
+      "Parameter": "lh17",
+      "Value": 0.0
+    },
+    "lh99": {
+      "Parameter": "lh99",
+      "Value": 667.0
     }
   }
 }

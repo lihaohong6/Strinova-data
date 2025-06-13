@@ -2,6 +2,7 @@
   "Type": "DataTable",
   "Name": "GameplayUIEventTable",
   "Class": "UScriptClass'DataTable'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
   "Properties": {
     "RowStruct": {
       "ObjectName": "ScriptStruct'GameplayTagTableRow'",
@@ -776,6 +777,234 @@
     "UIEvent.Game.Zombie.SuperSupply": {
       "Tag": "UIEvent.Game.Zombie.SuperSupply",
       "DevComment": "高级物资箱掉落"
+    },
+    "UIEvent.QuickChat.Attack": {
+      "Tag": "UIEvent.QuickChat.Attack",
+      "DevComment": "进攻"
+    },
+    "UIEvent.QuickChat.Wait": {
+      "Tag": "UIEvent.QuickChat.Wait",
+      "DevComment": "等等"
+    },
+    "UIEvent.QuickChat.Retreat": {
+      "Tag": "UIEvent.QuickChat.Retreat",
+      "DevComment": "撤退"
+    },
+    "UIEvent.QuickChat.Thanks": {
+      "Tag": "UIEvent.QuickChat.Thanks",
+      "DevComment": "谢谢"
+    },
+    "UIEvent.QuickChat.Great": {
+      "Tag": "UIEvent.QuickChat.Great",
+      "DevComment": "真厉害"
+    },
+    "UIEvent.QuickChat.Yes": {
+      "Tag": "UIEvent.QuickChat.Yes",
+      "DevComment": "收到"
+    },
+    "UIEvent.QuickChat.No": {
+      "Tag": "UIEvent.QuickChat.No",
+      "DevComment": "拒绝"
+    },
+    "UIEvent.QuickChat.Sorry": {
+      "Tag": "UIEvent.QuickChat.Sorry",
+      "DevComment": "抱歉"
+    },
+    "UIEvent.QuickChat.Hello": {
+      "Tag": "UIEvent.QuickChat.Hello",
+      "DevComment": "你好"
+    },
+    "UIEvent.QuickChat.NoMatter": {
+      "Tag": "UIEvent.QuickChat.NoMatter",
+      "DevComment": "没关系"
+    },
+    "UIEvent.QuickChat.OpenMic": {
+      "Tag": "UIEvent.QuickChat.OpenMic",
+      "DevComment": "请打开麦克风交流"
+    },
+    "UIEvent.QuickChat.CanWin": {
+      "Tag": "UIEvent.QuickChat.CanWin",
+      "DevComment": "稳住,我们能赢"
+    },
+    "UIEvent.QuickChat.BombForMe": {
+      "Tag": "UIEvent.QuickChat.BombForMe",
+      "DevComment": "炸弹给我"
+    },
+    "UIEvent.QuickChat.BombPick": {
+      "Tag": "UIEvent.QuickChat.BombPick",
+      "DevComment": "炸弹掉落,快去捡包"
+    },
+    "UIEvent.QuickChat.BombPlant": {
+      "Tag": "UIEvent.QuickChat.BombPlant",
+      "DevComment": "快去安装炸弹"
+    },
+    "UIEvent.QuickChat.BombDropped": {
+      "Tag": "UIEvent.QuickChat.BombDropped",
+      "DevComment": "炸弹掉落,快来蹲防"
+    },
+    "UIEvent.QuickChat.Tear": {
+      "Tag": "UIEvent.QuickChat.Tear",
+      "DevComment": "快去拆除炸弹"
+    },
+    "UIEvent.QuickChat.AttackA": {
+      "Tag": "UIEvent.QuickChat.AttackA",
+      "DevComment": "进攻A点"
+    },
+    "UIEvent.QuickChat.AttackB": {
+      "Tag": "UIEvent.QuickChat.AttackB",
+      "DevComment": "进攻B点"
+    },
+    "UIEvent.QuickChat.AttackC": {
+      "Tag": "UIEvent.QuickChat.AttackC",
+      "DevComment": "进攻C点"
+    },
+    "UIEvent.QuickChat.DefendA": {
+      "Tag": "UIEvent.QuickChat.DefendA",
+      "DevComment": "我守A点"
+    },
+    "UIEvent.QuickChat.DefendB": {
+      "Tag": "UIEvent.QuickChat.DefendB",
+      "DevComment": "我守B点"
+    },
+    "UIEvent.QuickChat.DefendC": {
+      "Tag": "UIEvent.QuickChat.DefendC",
+      "DevComment": "我守C点"
+    },
+    "UIEvent.QuickChat.Togather": {
+      "Tag": "UIEvent.QuickChat.Togather",
+      "DevComment": "来我这边集合"
+    },
+    "UIEvent.QuickChat.BackA": {
+      "Tag": "UIEvent.QuickChat.BackA",
+      "DevComment": "A点请求回防"
+    },
+    "UIEvent.QuickChat.BackB": {
+      "Tag": "UIEvent.QuickChat.BackB",
+      "DevComment": "B点请求回防"
+    },
+    "UIEvent.QuickChat.BackC": {
+      "Tag": "UIEvent.QuickChat.BackC",
+      "DevComment": "C点请求回防"
+    },
+    "UIEvent.QuickChat.Friends": {
+      "Tag": "UIEvent.QuickChat.Friends",
+      "DevComment": "加个好友,下局一起吧"
+    },
+    "UIEvent.QuickChat.Recover": {
+      "Tag": "UIEvent.QuickChat.Recover",
+      "DevComment": "我需要回复"
+    },
+    "UIEvent.QuickChat.SkillQReady": {
+      "Tag": "UIEvent.QuickChat.SkillQReady",
+      "DevComment": "主动技能状态[已就绪]"
+    },
+    "UIEvent.QuickChat.SkillQReadyNot": {
+      "Tag": "UIEvent.QuickChat.SkillQReadyNot",
+      "DevComment": "主动技能状态[未就绪]"
+    },
+    "UIEvent.QuickChat.SkillXReady": {
+      "Tag": "UIEvent.QuickChat.SkillXReady",
+      "DevComment": "绝招状态[已就绪]"
+    },
+    "UIEvent.QuickChat.SkillxReadyNot": {
+      "Tag": "UIEvent.QuickChat.SkillxReadyNot",
+      "DevComment": "绝招状态[未就绪]"
+    },
+    "UIEvent.QuickChat.WaitMe": {
+      "Tag": "UIEvent.QuickChat.WaitMe",
+      "DevComment": "等我来"
+    },
+    "UIEvent.QuickChat.Calm": {
+      "Tag": "UIEvent.QuickChat.Calm",
+      "DevComment": "别打,等人齐"
+    },
+    "UIEvent.QuickChat.PayloadFight": {
+      "Tag": "UIEvent.QuickChat.PayloadFight",
+      "DevComment": "快去争夺运载目标"
+    },
+    "UIEvent.QuickChat.PayloadFightMe": {
+      "Tag": "UIEvent.QuickChat.PayloadFightMe",
+      "DevComment": "我来争夺运载目标"
+    },
+    "UIEvent.QuickChat.Cheer": {
+      "Tag": "UIEvent.QuickChat.Cheer",
+      "DevComment": "加油"
+    },
+    "UIEvent.Game.UGC.AutoSaveSuccess": {
+      "Tag": "UIEvent.Game.UGC.AutoSaveSuccess",
+      "DevComment": "UGC地图自动保存成功"
+    },
+    "UIEvent.Game.HotZone.GameTarget": {
+      "Tag": "UIEvent.Game.HotZone.GameTarget",
+      "DevComment": "热区模式目标"
+    },
+    "UIEvent.Game.HotZone.PrepareEnd": {
+      "Tag": "UIEvent.Game.HotZone.PrepareEnd",
+      "DevComment": "开局语音准备阶段技术"
+    },
+    "UIEvent.Game.HotZone.Activate": {
+      "Tag": "UIEvent.Game.HotZone.Activate",
+      "DevComment": "热区点开放"
+    },
+    "UIEvent.Game.HotZone.WaveNearEnd": {
+      "Tag": "UIEvent.Game.HotZone.WaveNearEnd",
+      "DevComment": "波次即将结束"
+    },
+    "UIEvent.Game.HotZone.Emerge": {
+      "Tag": "UIEvent.Game.HotZone.Emerge",
+      "DevComment": "热区出现"
+    },
+    "UIEvent.Game.HotZone.Team50Lead": {
+      "Tag": "UIEvent.Game.HotZone.Team50Lead",
+      "DevComment": "我方50%领先"
+    },
+    "UIEvent.Game.HotZone.Team50Behind": {
+      "Tag": "UIEvent.Game.HotZone.Team50Behind",
+      "DevComment": "我方50%落后"
+    },
+    "UIEvent.Game.HotZone.Enemy50Lead": {
+      "Tag": "UIEvent.Game.HotZone.Enemy50Lead",
+      "DevComment": "地方50%领先"
+    },
+    "UIEvent.Game.HotZone.Enemy50Behind": {
+      "Tag": "UIEvent.Game.HotZone.Enemy50Behind",
+      "DevComment": "地方50%落后"
+    },
+    "UIEvent.Game.HotZone.Team70Lead": {
+      "Tag": "UIEvent.Game.HotZone.Team70Lead",
+      "DevComment": "我方70%领先"
+    },
+    "UIEvent.Game.HotZone.Team70Behind": {
+      "Tag": "UIEvent.Game.HotZone.Team70Behind",
+      "DevComment": "我方70%落后"
+    },
+    "UIEvent.Game.HotZone.Enemy70Lead": {
+      "Tag": "UIEvent.Game.HotZone.Enemy70Lead",
+      "DevComment": "地方70%领先"
+    },
+    "UIEvent.Game.HotZone.Enemy70Behind": {
+      "Tag": "UIEvent.Game.HotZone.Enemy70Behind",
+      "DevComment": "地方70%落后"
+    },
+    "UIEvent.Game.HotZone.Team90Lead": {
+      "Tag": "UIEvent.Game.HotZone.Team90Lead",
+      "DevComment": "我方90%领先"
+    },
+    "UIEvent.Game.HotZone.Team90Behind": {
+      "Tag": "UIEvent.Game.HotZone.Team90Behind",
+      "DevComment": "我方90%落后"
+    },
+    "UIEvent.Game.HotZone.Enemy90Lead": {
+      "Tag": "UIEvent.Game.HotZone.Enemy90Lead",
+      "DevComment": "地方90%领先"
+    },
+    "UIEvent.Game.HotZone.Enemy90Behind": {
+      "Tag": "UIEvent.Game.HotZone.Enemy90Behind",
+      "DevComment": "地方90%落后"
+    },
+    "UIEvent.Game.KnifeFight.RoundStart": {
+      "Tag": "UIEvent.Game.KnifeFight.RoundStart",
+      "DevComment": "刀战模式正式开始语音"
     }
   }
 }

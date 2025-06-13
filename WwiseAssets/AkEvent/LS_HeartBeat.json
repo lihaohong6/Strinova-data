@@ -2,10 +2,58 @@
   "Type": "AkAudioEvent",
   "Name": "LS_HeartBeat",
   "Class": "UScriptClass'AkAudioEvent'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
   "Properties": {
     "RequiredBank": {
       "ObjectName": "AkAudioBank'LS_Common'",
       "ObjectPath": "PM/Content/WwiseAssets/AkBank/LS_Common.0"
     }
-  }
+  },
+  "EventCookedData": {
+    "EventLanguageMap": [
+      {
+        "Key": {
+          "LanguageId": 0,
+          "LanguageName": "SFX",
+          "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
+        },
+        "Value": {
+          "EventId": 270585627,
+          "SoundBanks": [
+            {
+              "SoundBankId": -177489642,
+              "SoundBankPathName": "LS_Common.bnk",
+              "MemoryAlignment": 16,
+              "bDeviceMemory": false,
+              "bContainsMedia": true,
+              "SoundBankType": "EWwiseSoundBankType::User",
+              "DebugName": "LS_Common"
+            }
+          ],
+          "Media": [
+            {
+              "MediaId": 382350897,
+              "MediaPathName": "Media/SFX/LS_Common/382350897.wem",
+              "PrefetchSize": 0,
+              "MemoryAlignment": 16,
+              "bDeviceMemory": false,
+              "bStreaming": true,
+              "DebugName": "story\\LS_Common\\LS_HeartBeat.wav"
+            }
+          ],
+          "ExternalSources": [],
+          "SwitchContainerLeaves": [],
+          "RequiredGroupValueSet": [],
+          "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
+          "DebugName": "LS_HeartBeat"
+        }
+      }
+    ],
+    "DebugName": "LS_HeartBeat",
+    "EventId": 270585627
+  },
+  "MaximumDuration": 0.0,
+  "MinimumDuration": 0.0,
+  "IsInfinite": true,
+  "MaxAttenuationRadius": 0.0
 }

@@ -2,6 +2,7 @@
   "Type": "DataTable",
   "Name": "GM",
   "Class": "UScriptClass'DataTable'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
   "Properties": {
     "RowStruct": {
       "ObjectName": "ScriptStruct'CyGMTableRow'",
@@ -128,7 +129,7 @@
         {
           "ParamName": {
             "Namespace": "GM",
-            "Key": "114_VariableList_Index2_ParamName",
+            "Key": "115_VariableList_Index2_ParamName",
             "SourceString": "数量",
             "LocalizedString": "数量"
           },
@@ -494,7 +495,7 @@
         {
           "ParamName": {
             "Namespace": "GM",
-            "Key": "114_VariableList_Index2_ParamName",
+            "Key": "115_VariableList_Index2_ParamName",
             "SourceString": "数量",
             "LocalizedString": "数量"
           },
@@ -540,7 +541,7 @@
         {
           "ParamName": {
             "Namespace": "GM",
-            "Key": "108_VariableList_Index0_ParamName",
+            "Key": "109_VariableList_Index0_ParamName",
             "SourceString": "开启:1，关闭:0",
             "LocalizedString": "开启:1，关闭:0"
           },
@@ -695,7 +696,7 @@
         {
           "ParamName": {
             "Namespace": "GM",
-            "Key": "114_VariableList_Index2_ParamName",
+            "Key": "115_VariableList_Index2_ParamName",
             "SourceString": "数量",
             "LocalizedString": "数量"
           },
@@ -1379,7 +1380,7 @@
         "SourceString": "显示AI信息",
         "LocalizedString": "显示AI信息"
       },
-      "IsServerGm": true,
+      "IsServerGm": false,
       "IsHide": false,
       "IsCopy": false,
       "IsMulticast": false
@@ -1483,7 +1484,7 @@
         {
           "ParamName": {
             "Namespace": "GM",
-            "Key": "126_VariableList_Index0_ParamName",
+            "Key": "127_VariableList_Index0_ParamName",
             "SourceString": "是:1 否:0",
             "LocalizedString": "是:1 否:0"
           },
@@ -1511,7 +1512,7 @@
         {
           "ParamName": {
             "Namespace": "GM",
-            "Key": "126_VariableList_Index0_ParamName",
+            "Key": "127_VariableList_Index0_ParamName",
             "SourceString": "是:1 否:0",
             "LocalizedString": "是:1 否:0"
           },
@@ -1851,7 +1852,7 @@
         {
           "ParamName": {
             "Namespace": "GM",
-            "Key": "114_VariableList_Index1_ParamName",
+            "Key": "115_VariableList_Index1_ParamName",
             "SourceString": "等级",
             "LocalizedString": "等级"
           },
@@ -2009,7 +2010,7 @@
         {
           "ParamName": {
             "Namespace": "GM",
-            "Key": "129_VariableList_Index0_ParamName",
+            "Key": "130_VariableList_Index0_ParamName",
             "SourceString": "任务ID",
             "LocalizedString": "任务ID"
           },
@@ -2311,6 +2312,52 @@
     },
     "87": {
       "Id": 87,
+      "Name": "GroupPhotoPagePlaySequenceGM",
+      "VariableList": [
+        {
+          "ParamName": {
+            "Namespace": "GM",
+            "Key": "87_VariableList_Index0_ParamName",
+            "SourceString": "角色列表",
+            "LocalizedString": "角色列表"
+          },
+          "ParamType": "None"
+        },
+        {
+          "ParamName": {
+            "Namespace": "GM",
+            "Key": "87_VariableList_Index1_ParamName",
+            "SourceString": "武器列表",
+            "LocalizedString": "武器列表"
+          },
+          "ParamType": "None"
+        },
+        {
+          "ParamName": {
+            "Namespace": "GM",
+            "Key": "87_VariableList_Index2_ParamName",
+            "SourceString": "0:单数 1:双数 站位类型",
+            "LocalizedString": "0:单数 1:双数 站位类型"
+          },
+          "ParamType": "None"
+        }
+      ],
+      "Types": [
+        "UI"
+      ],
+      "Desc": {
+        "Namespace": "GM",
+        "Key": "87_Desc",
+        "SourceString": "结算合影动画",
+        "LocalizedString": "结算合影动画"
+      },
+      "IsServerGm": false,
+      "IsHide": false,
+      "IsCopy": false,
+      "IsMulticast": false
+    },
+    "88": {
+      "Id": 88,
       "Name": "ShowMiniMapComponent",
       "VariableList": [
         {
@@ -2328,7 +2375,7 @@
       ],
       "Desc": {
         "Namespace": "GM",
-        "Key": "87_Desc",
+        "Key": "88_Desc",
         "SourceString": "显示minimap",
         "LocalizedString": "显示minimap"
       },
@@ -2337,8 +2384,8 @@
       "IsCopy": false,
       "IsMulticast": false
     },
-    "88": {
-      "Id": 88,
+    "89": {
+      "Id": 89,
       "Name": "CloseAllPage",
       "VariableList": [],
       "Types": [
@@ -2346,7 +2393,7 @@
       ],
       "Desc": {
         "Namespace": "GM",
-        "Key": "88_Desc",
+        "Key": "89_Desc",
         "SourceString": "关闭所有UI",
         "LocalizedString": "关闭所有UI"
       },
@@ -2355,42 +2402,14 @@
       "IsCopy": false,
       "IsMulticast": false
     },
-    "89": {
-      "Id": 89,
+    "90": {
+      "Id": 90,
       "Name": "OpenPage",
       "VariableList": [
         {
           "ParamName": {
             "Namespace": "GM",
-            "Key": "89_VariableList_Index0_ParamName",
-            "SourceString": "PageName",
-            "LocalizedString": "PageName"
-          },
-          "ParamType": "UI"
-        }
-      ],
-      "Types": [
-        "UI"
-      ],
-      "Desc": {
-        "Namespace": "GM",
-        "Key": "89_Desc",
-        "SourceString": "开UI",
-        "LocalizedString": "开UI"
-      },
-      "IsServerGm": false,
-      "IsHide": false,
-      "IsCopy": false,
-      "IsMulticast": false
-    },
-    "90": {
-      "Id": 90,
-      "Name": "ClosePage",
-      "VariableList": [
-        {
-          "ParamName": {
-            "Namespace": "GM",
-            "Key": "89_VariableList_Index0_ParamName",
+            "Key": "90_VariableList_Index0_ParamName",
             "SourceString": "PageName",
             "LocalizedString": "PageName"
           },
@@ -2403,8 +2422,8 @@
       "Desc": {
         "Namespace": "GM",
         "Key": "90_Desc",
-        "SourceString": "关UI",
-        "LocalizedString": "关UI"
+        "SourceString": "开UI",
+        "LocalizedString": "开UI"
       },
       "IsServerGm": false,
       "IsHide": false,
@@ -2413,16 +2432,26 @@
     },
     "91": {
       "Id": 91,
-      "Name": "ToggleMobileHUD",
-      "VariableList": [],
+      "Name": "ClosePage",
+      "VariableList": [
+        {
+          "ParamName": {
+            "Namespace": "GM",
+            "Key": "90_VariableList_Index0_ParamName",
+            "SourceString": "PageName",
+            "LocalizedString": "PageName"
+          },
+          "ParamType": "UI"
+        }
+      ],
       "Types": [
         "UI"
       ],
       "Desc": {
         "Namespace": "GM",
         "Key": "91_Desc",
-        "SourceString": "切换各平台UI",
-        "LocalizedString": "切换各平台UI"
+        "SourceString": "关UI",
+        "LocalizedString": "关UI"
       },
       "IsServerGm": false,
       "IsHide": false,
@@ -2431,6 +2460,24 @@
     },
     "92": {
       "Id": 92,
+      "Name": "ToggleMobileHUD",
+      "VariableList": [],
+      "Types": [
+        "UI"
+      ],
+      "Desc": {
+        "Namespace": "GM",
+        "Key": "92_Desc",
+        "SourceString": "切换各平台UI",
+        "LocalizedString": "切换各平台UI"
+      },
+      "IsServerGm": false,
+      "IsHide": false,
+      "IsCopy": false,
+      "IsMulticast": false
+    },
+    "93": {
+      "Id": 93,
       "Name": "Slate.HitTestGridDebugging",
       "VariableList": [
         {
@@ -2448,7 +2495,7 @@
       ],
       "Desc": {
         "Namespace": "GM",
-        "Key": "92_Desc",
+        "Key": "93_Desc",
         "SourceString": "显示UI按键热区",
         "LocalizedString": "显示UI按键热区"
       },
@@ -2457,8 +2504,8 @@
       "IsCopy": false,
       "IsMulticast": false
     },
-    "93": {
-      "Id": 93,
+    "94": {
+      "Id": 94,
       "Name": "stat slate",
       "VariableList": [],
       "Types": [
@@ -2472,8 +2519,8 @@
       "IsCopy": false,
       "IsMulticast": false
     },
-    "94": {
-      "Id": 94,
+    "95": {
+      "Id": 95,
       "Name": "Joystick.ShowDebugging",
       "VariableList": [
         {
@@ -2491,7 +2538,7 @@
       ],
       "Desc": {
         "Namespace": "GM",
-        "Key": "94_Desc",
+        "Key": "95_Desc",
         "SourceString": "Mobile操控Debug",
         "LocalizedString": "Mobile操控Debug"
       },
@@ -2500,24 +2547,9 @@
       "IsCopy": false,
       "IsMulticast": false
     },
-    "95": {
-      "Id": 95,
-      "Name": "SlateDebugger.Start",
-      "VariableList": [],
-      "Types": [
-        "UI"
-      ],
-      "Desc": {
-        "CultureInvariantString": null
-      },
-      "IsServerGm": false,
-      "IsHide": false,
-      "IsCopy": false,
-      "IsMulticast": false
-    },
     "96": {
       "Id": 96,
-      "Name": "SlateDebugger.Stop",
+      "Name": "SlateDebugger.Start",
       "VariableList": [],
       "Types": [
         "UI"
@@ -2532,7 +2564,7 @@
     },
     "97": {
       "Id": 97,
-      "Name": "SlateDebugger.CaptureStack",
+      "Name": "SlateDebugger.Stop",
       "VariableList": [],
       "Types": [
         "UI"
@@ -2547,61 +2579,7 @@
     },
     "98": {
       "Id": 98,
-      "Name": "SceneMapChangeIconStyle",
-      "VariableList": [],
-      "Types": [
-        "UI"
-      ],
-      "Desc": {
-        "Namespace": "GM",
-        "Key": "98_Desc",
-        "SourceString": "小地图元素显示样式修改",
-        "LocalizedString": "小地图元素显示样式修改"
-      },
-      "IsServerGm": false,
-      "IsHide": false,
-      "IsCopy": false,
-      "IsMulticast": false
-    },
-    "99": {
-      "Id": 99,
-      "Name": "HideSelectRolePage",
-      "VariableList": [],
-      "Types": [
-        "UI"
-      ],
-      "Desc": {
-        "Namespace": "GM",
-        "Key": "99_Desc",
-        "SourceString": "隐藏或者显示选人界面",
-        "LocalizedString": "隐藏或者显示选人界面"
-      },
-      "IsServerGm": false,
-      "IsHide": false,
-      "IsCopy": false,
-      "IsMulticast": false
-    },
-    "100": {
-      "Id": 100,
-      "Name": "CustomRoomListDataRepeated",
-      "VariableList": [],
-      "Types": [
-        "UI"
-      ],
-      "Desc": {
-        "Namespace": "GM",
-        "Key": "100_Desc",
-        "SourceString": "自定义房间列表数据是否重复显示",
-        "LocalizedString": "自定义房间列表数据是否重复显示"
-      },
-      "IsServerGm": false,
-      "IsHide": false,
-      "IsCopy": false,
-      "IsMulticast": false
-    },
-    "101": {
-      "Id": 101,
-      "Name": "DisplayPanels",
+      "Name": "SlateDebugger.CaptureStack",
       "VariableList": [],
       "Types": [
         "UI"
@@ -2614,9 +2592,63 @@
       "IsCopy": false,
       "IsMulticast": false
     },
+    "99": {
+      "Id": 99,
+      "Name": "SceneMapChangeIconStyle",
+      "VariableList": [],
+      "Types": [
+        "UI"
+      ],
+      "Desc": {
+        "Namespace": "GM",
+        "Key": "99_Desc",
+        "SourceString": "小地图元素显示样式修改",
+        "LocalizedString": "小地图元素显示样式修改"
+      },
+      "IsServerGm": false,
+      "IsHide": false,
+      "IsCopy": false,
+      "IsMulticast": false
+    },
+    "100": {
+      "Id": 100,
+      "Name": "HideSelectRolePage",
+      "VariableList": [],
+      "Types": [
+        "UI"
+      ],
+      "Desc": {
+        "Namespace": "GM",
+        "Key": "100_Desc",
+        "SourceString": "隐藏或者显示选人界面",
+        "LocalizedString": "隐藏或者显示选人界面"
+      },
+      "IsServerGm": false,
+      "IsHide": false,
+      "IsCopy": false,
+      "IsMulticast": false
+    },
+    "101": {
+      "Id": 101,
+      "Name": "CustomRoomListDataRepeated",
+      "VariableList": [],
+      "Types": [
+        "UI"
+      ],
+      "Desc": {
+        "Namespace": "GM",
+        "Key": "101_Desc",
+        "SourceString": "自定义房间列表数据是否重复显示",
+        "LocalizedString": "自定义房间列表数据是否重复显示"
+      },
+      "IsServerGm": false,
+      "IsHide": false,
+      "IsCopy": false,
+      "IsMulticast": false
+    },
     "102": {
       "Id": 102,
-      "Name": "DisplayPages",
+      "Name": "DisplayPanels",
       "VariableList": [],
       "Types": [
         "UI"
@@ -2631,16 +2663,13 @@
     },
     "103": {
       "Id": 103,
-      "Name": "DisplayMarkPointPosition",
+      "Name": "DisplayPages",
       "VariableList": [],
       "Types": [
         "UI"
       ],
       "Desc": {
-        "Namespace": "GM",
-        "Key": "103_Desc",
-        "SourceString": "打印局内标点的坐标",
-        "LocalizedString": "打印局内标点的坐标"
+        "CultureInvariantString": null
       },
       "IsServerGm": false,
       "IsHide": false,
@@ -2649,7 +2678,7 @@
     },
     "104": {
       "Id": 104,
-      "Name": "lua ViewMgr:OpenPage(LuaGetWorld(), UIPageNameDefine.PufferResPage)",
+      "Name": "DisplayMarkPointPosition",
       "VariableList": [],
       "Types": [
         "UI"
@@ -2657,8 +2686,8 @@
       "Desc": {
         "Namespace": "GM",
         "Key": "104_Desc",
-        "SourceString": "Puffer资源窗口",
-        "LocalizedString": "Puffer资源窗口"
+        "SourceString": "打印局内标点的坐标",
+        "LocalizedString": "打印局内标点的坐标"
       },
       "IsServerGm": false,
       "IsHide": false,
@@ -2667,7 +2696,7 @@
     },
     "105": {
       "Id": 105,
-      "Name": "Cy.AimAssistDebugInfo.CheckPlayerInRange 2",
+      "Name": "lua ViewMgr:OpenPage(LuaGetWorld(), UIPageNameDefine.PufferResPage)",
       "VariableList": [],
       "Types": [
         "UI"
@@ -2675,8 +2704,8 @@
       "Desc": {
         "Namespace": "GM",
         "Key": "105_Desc",
-        "SourceString": "辅助瞄准目标点",
-        "LocalizedString": "辅助瞄准目标点"
+        "SourceString": "Puffer资源窗口",
+        "LocalizedString": "Puffer资源窗口"
       },
       "IsServerGm": false,
       "IsHide": false,
@@ -2685,7 +2714,7 @@
     },
     "106": {
       "Id": 106,
-      "Name": "Joystick.TestRotator 1 100 0 2.0f",
+      "Name": "Cy.AimAssistDebugInfo.CheckPlayerInRange 2",
       "VariableList": [],
       "Types": [
         "UI"
@@ -2693,8 +2722,8 @@
       "Desc": {
         "Namespace": "GM",
         "Key": "106_Desc",
-        "SourceString": "Joystick滑屏调试",
-        "LocalizedString": "Joystick滑屏调试"
+        "SourceString": "辅助瞄准目标点",
+        "LocalizedString": "辅助瞄准目标点"
       },
       "IsServerGm": false,
       "IsHide": false,
@@ -2703,12 +2732,30 @@
     },
     "107": {
       "Id": 107,
+      "Name": "Joystick.TestRotator 1 100 0 2.0f",
+      "VariableList": [],
+      "Types": [
+        "UI"
+      ],
+      "Desc": {
+        "Namespace": "GM",
+        "Key": "107_Desc",
+        "SourceString": "Joystick滑屏调试",
+        "LocalizedString": "Joystick滑屏调试"
+      },
+      "IsServerGm": false,
+      "IsHide": false,
+      "IsCopy": false,
+      "IsMulticast": false
+    },
+    "108": {
+      "Id": 108,
       "Name": "AkAudio.EnableShowEvent",
       "VariableList": [
         {
           "ParamName": {
             "Namespace": "GM",
-            "Key": "107_VariableList_Index0_ParamName",
+            "Key": "108_VariableList_Index0_ParamName",
             "SourceString": "仅日志:1，仅2D:2,全部:3, 关闭:0",
             "LocalizedString": "仅日志:1，仅2D:2,全部:3, 关闭:0"
           },
@@ -2720,7 +2767,7 @@
       ],
       "Desc": {
         "Namespace": "GM",
-        "Key": "107_Desc",
+        "Key": "108_Desc",
         "SourceString": "显示播放的音效名称",
         "LocalizedString": "显示播放的音效名称"
       },
@@ -2729,42 +2776,14 @@
       "IsCopy": false,
       "IsMulticast": false
     },
-    "108": {
-      "Id": 108,
+    "109": {
+      "Id": 109,
       "Name": "AkAudio.DebugLibSync",
       "VariableList": [
         {
           "ParamName": {
             "Namespace": "GM",
-            "Key": "108_VariableList_Index0_ParamName",
-            "SourceString": "开启:1，关闭:0",
-            "LocalizedString": "开启:1，关闭:0"
-          },
-          "ParamType": "None"
-        }
-      ],
-      "Types": [
-        "Sound"
-      ],
-      "Desc": {
-        "Namespace": "GM",
-        "Key": "108_Desc",
-        "SourceString": "开启口型调试相关功能",
-        "LocalizedString": "开启口型调试相关功能"
-      },
-      "IsServerGm": false,
-      "IsHide": false,
-      "IsCopy": false,
-      "IsMulticast": false
-    },
-    "109": {
-      "Id": 109,
-      "Name": "AkAudio.ApartmentNormalLanguage",
-      "VariableList": [
-        {
-          "ParamName": {
-            "Namespace": "GM",
-            "Key": "108_VariableList_Index0_ParamName",
+            "Key": "109_VariableList_Index0_ParamName",
             "SourceString": "开启:1，关闭:0",
             "LocalizedString": "开启:1，关闭:0"
           },
@@ -2777,8 +2796,8 @@
       "Desc": {
         "Namespace": "GM",
         "Key": "109_Desc",
-        "SourceString": "休息室取消语种屏蔽使用设置语言",
-        "LocalizedString": "休息室取消语种屏蔽使用设置语言"
+        "SourceString": "开启口型调试相关功能",
+        "LocalizedString": "开启口型调试相关功能"
       },
       "IsServerGm": false,
       "IsHide": false,
@@ -2787,40 +2806,12 @@
     },
     "110": {
       "Id": 110,
-      "Name": "AkAudio.ToggleLanguage",
+      "Name": "AkAudio.ApartmentNormalLanguage",
       "VariableList": [
         {
           "ParamName": {
             "Namespace": "GM",
-            "Key": "110_VariableList_Index0_ParamName",
-            "SourceString": "中文:0,日语:1,英语:2",
-            "LocalizedString": "中文:0,日语:1,英语:2"
-          },
-          "ParamType": "None"
-        }
-      ],
-      "Types": [
-        "Sound"
-      ],
-      "Desc": {
-        "Namespace": "GM",
-        "Key": "110_Desc",
-        "SourceString": "强制切换当前语音为对应语种",
-        "LocalizedString": "强制切换当前语音为对应语种"
-      },
-      "IsServerGm": false,
-      "IsHide": false,
-      "IsCopy": false,
-      "IsMulticast": false
-    },
-    "111": {
-      "Id": 111,
-      "Name": "AkAudio.DebugCharacterVoice",
-      "VariableList": [
-        {
-          "ParamName": {
-            "Namespace": "GM",
-            "Key": "108_VariableList_Index0_ParamName",
+            "Key": "109_VariableList_Index0_ParamName",
             "SourceString": "开启:1，关闭:0",
             "LocalizedString": "开启:1，关闭:0"
           },
@@ -2832,9 +2823,37 @@
       ],
       "Desc": {
         "Namespace": "GM",
+        "Key": "110_Desc",
+        "SourceString": "休息室取消语种屏蔽使用设置语言",
+        "LocalizedString": "休息室取消语种屏蔽使用设置语言"
+      },
+      "IsServerGm": false,
+      "IsHide": false,
+      "IsCopy": false,
+      "IsMulticast": false
+    },
+    "111": {
+      "Id": 111,
+      "Name": "AkAudio.ToggleLanguage",
+      "VariableList": [
+        {
+          "ParamName": {
+            "Namespace": "GM",
+            "Key": "111_VariableList_Index0_ParamName",
+            "SourceString": "中文:0,日语:1,英语:2",
+            "LocalizedString": "中文:0,日语:1,英语:2"
+          },
+          "ParamType": "None"
+        }
+      ],
+      "Types": [
+        "Sound"
+      ],
+      "Desc": {
+        "Namespace": "GM",
         "Key": "111_Desc",
-        "SourceString": "开启调试角色CV语音相关功能",
-        "LocalizedString": "开启调试角色CV语音相关功能"
+        "SourceString": "强制切换当前语音为对应语种",
+        "LocalizedString": "强制切换当前语音为对应语种"
       },
       "IsServerGm": false,
       "IsHide": false,
@@ -2843,12 +2862,12 @@
     },
     "112": {
       "Id": 112,
-      "Name": "AkAudio.DebugFootstepMaterial",
+      "Name": "AkAudio.DebugCharacterVoice",
       "VariableList": [
         {
           "ParamName": {
             "Namespace": "GM",
-            "Key": "108_VariableList_Index0_ParamName",
+            "Key": "109_VariableList_Index0_ParamName",
             "SourceString": "开启:1，关闭:0",
             "LocalizedString": "开启:1，关闭:0"
           },
@@ -2861,8 +2880,8 @@
       "Desc": {
         "Namespace": "GM",
         "Key": "112_Desc",
-        "SourceString": "开启脚步声音调试功能",
-        "LocalizedString": "开启脚步声音调试功能"
+        "SourceString": "开启调试角色CV语音相关功能",
+        "LocalizedString": "开启调试角色CV语音相关功能"
       },
       "IsServerGm": false,
       "IsHide": false,
@@ -2871,12 +2890,40 @@
     },
     "113": {
       "Id": 113,
+      "Name": "AkAudio.DebugFootstepMaterial",
+      "VariableList": [
+        {
+          "ParamName": {
+            "Namespace": "GM",
+            "Key": "109_VariableList_Index0_ParamName",
+            "SourceString": "开启:1，关闭:0",
+            "LocalizedString": "开启:1，关闭:0"
+          },
+          "ParamType": "None"
+        }
+      ],
+      "Types": [
+        "Sound"
+      ],
+      "Desc": {
+        "Namespace": "GM",
+        "Key": "113_Desc",
+        "SourceString": "开启脚步声音调试功能",
+        "LocalizedString": "开启脚步声音调试功能"
+      },
+      "IsServerGm": false,
+      "IsHide": false,
+      "IsCopy": false,
+      "IsMulticast": false
+    },
+    "114": {
+      "Id": 114,
       "Name": "AkAudio.PlayAudio",
       "VariableList": [
         {
           "ParamName": {
             "Namespace": "GM",
-            "Key": "113_VariableList_Index0_ParamName",
+            "Key": "114_VariableList_Index0_ParamName",
             "SourceString": "Event名称",
             "LocalizedString": "Event名称"
           },
@@ -2888,7 +2935,7 @@
       ],
       "Desc": {
         "Namespace": "GM",
-        "Key": "113_Desc",
+        "Key": "114_Desc",
         "SourceString": "播放指定名称的音效",
         "LocalizedString": "播放指定名称的音效"
       },
@@ -2897,14 +2944,14 @@
       "IsCopy": false,
       "IsMulticast": false
     },
-    "114": {
-      "Id": 114,
+    "115": {
+      "Id": 115,
       "Name": "AddCard",
       "VariableList": [
         {
           "ParamName": {
             "Namespace": "GM",
-            "Key": "114_VariableList_Index0_ParamName",
+            "Key": "115_VariableList_Index0_ParamName",
             "SourceString": "卡牌Id",
             "LocalizedString": "卡牌Id"
           },
@@ -2913,7 +2960,7 @@
         {
           "ParamName": {
             "Namespace": "GM",
-            "Key": "114_VariableList_Index1_ParamName",
+            "Key": "115_VariableList_Index1_ParamName",
             "SourceString": "等级",
             "LocalizedString": "等级"
           },
@@ -2922,7 +2969,7 @@
         {
           "ParamName": {
             "Namespace": "GM",
-            "Key": "114_VariableList_Index2_ParamName",
+            "Key": "115_VariableList_Index2_ParamName",
             "SourceString": "数量",
             "LocalizedString": "数量"
           },
@@ -2934,7 +2981,7 @@
       ],
       "Desc": {
         "Namespace": "GM",
-        "Key": "114_Desc",
+        "Key": "115_Desc",
         "SourceString": "添加卡牌",
         "LocalizedString": "添加卡牌"
       },
@@ -2943,8 +2990,8 @@
       "IsCopy": false,
       "IsMulticast": false
     },
-    "115": {
-      "Id": 115,
+    "116": {
+      "Id": 116,
       "Name": "DisableAllScreenMessages",
       "VariableList": [],
       "Types": [
@@ -2952,7 +2999,7 @@
       ],
       "Desc": {
         "Namespace": "GM",
-        "Key": "115_Desc",
+        "Key": "116_Desc",
         "SourceString": "关闭打印提示",
         "LocalizedString": "关闭打印提示"
       },
@@ -2961,8 +3008,8 @@
       "IsCopy": false,
       "IsMulticast": false
     },
-    "116": {
-      "Id": 116,
+    "117": {
+      "Id": 117,
       "Name": "ShowHUD",
       "VariableList": [],
       "Types": [
@@ -2970,7 +3017,7 @@
       ],
       "Desc": {
         "Namespace": "GM",
-        "Key": "116_Desc",
+        "Key": "117_Desc",
         "SourceString": "显示隐藏准心和版本信息",
         "LocalizedString": "显示隐藏准心和版本信息"
       },
@@ -2979,8 +3026,8 @@
       "IsCopy": false,
       "IsMulticast": false
     },
-    "117": {
-      "Id": 117,
+    "118": {
+      "Id": 118,
       "Name": "ToggleDebugCamera",
       "VariableList": [],
       "Types": [
@@ -2988,7 +3035,7 @@
       ],
       "Desc": {
         "Namespace": "GM",
-        "Key": "117_Desc",
+        "Key": "118_Desc",
         "SourceString": "打开/关闭自由控制镜头",
         "LocalizedString": "打开/关闭自由控制镜头"
       },
@@ -2997,42 +3044,14 @@
       "IsCopy": false,
       "IsMulticast": false
     },
-    "118": {
-      "Id": 118,
+    "119": {
+      "Id": 119,
       "Name": "EnableOcclusion",
       "VariableList": [
         {
           "ParamName": {
             "Namespace": "GM",
-            "Key": "108_VariableList_Index0_ParamName",
-            "SourceString": "开启:1，关闭:0",
-            "LocalizedString": "开启:1，关闭:0"
-          },
-          "ParamType": "None"
-        }
-      ],
-      "Types": [
-        "Record"
-      ],
-      "Desc": {
-        "Namespace": "GM",
-        "Key": "118_Desc",
-        "SourceString": "关闭透视",
-        "LocalizedString": "关闭透视"
-      },
-      "IsServerGm": false,
-      "IsHide": false,
-      "IsCopy": false,
-      "IsMulticast": false
-    },
-    "119": {
-      "Id": 119,
-      "Name": "Cy.BlockUIOpen",
-      "VariableList": [
-        {
-          "ParamName": {
-            "Namespace": "GM",
-            "Key": "108_VariableList_Index0_ParamName",
+            "Key": "109_VariableList_Index0_ParamName",
             "SourceString": "开启:1，关闭:0",
             "LocalizedString": "开启:1，关闭:0"
           },
@@ -3045,8 +3064,8 @@
       "Desc": {
         "Namespace": "GM",
         "Key": "119_Desc",
-        "SourceString": "屏蔽UI打开",
-        "LocalizedString": "屏蔽UI打开"
+        "SourceString": "关闭透视",
+        "LocalizedString": "关闭透视"
       },
       "IsServerGm": false,
       "IsHide": false,
@@ -3055,12 +3074,12 @@
     },
     "120": {
       "Id": 120,
-      "Name": "EnableTeamType",
+      "Name": "Cy.BlockUIOpen",
       "VariableList": [
         {
           "ParamName": {
             "Namespace": "GM",
-            "Key": "108_VariableList_Index0_ParamName",
+            "Key": "109_VariableList_Index0_ParamName",
             "SourceString": "开启:1，关闭:0",
             "LocalizedString": "开启:1，关闭:0"
           },
@@ -3073,8 +3092,8 @@
       "Desc": {
         "Namespace": "GM",
         "Key": "120_Desc",
-        "SourceString": "关闭/打开描边",
-        "LocalizedString": "关闭/打开描边"
+        "SourceString": "屏蔽UI打开",
+        "LocalizedString": "屏蔽UI打开"
       },
       "IsServerGm": false,
       "IsHide": false,
@@ -3083,12 +3102,40 @@
     },
     "121": {
       "Id": 121,
+      "Name": "EnableTeamType",
+      "VariableList": [
+        {
+          "ParamName": {
+            "Namespace": "GM",
+            "Key": "109_VariableList_Index0_ParamName",
+            "SourceString": "开启:1，关闭:0",
+            "LocalizedString": "开启:1，关闭:0"
+          },
+          "ParamType": "None"
+        }
+      ],
+      "Types": [
+        "Record"
+      ],
+      "Desc": {
+        "Namespace": "GM",
+        "Key": "121_Desc",
+        "SourceString": "关闭/打开描边",
+        "LocalizedString": "关闭/打开描边"
+      },
+      "IsServerGm": false,
+      "IsHide": false,
+      "IsCopy": false,
+      "IsMulticast": false
+    },
+    "122": {
+      "Id": 122,
       "Name": "Slate.Switch.WidgetComponent",
       "VariableList": [
         {
           "ParamName": {
             "Namespace": "GM",
-            "Key": "121_VariableList_Index0_ParamName",
+            "Key": "122_VariableList_Index0_ParamName",
             "SourceString": "开启:1，关闭:2",
             "LocalizedString": "开启:1，关闭:2"
           },
@@ -3100,7 +3147,7 @@
       ],
       "Desc": {
         "Namespace": "GM",
-        "Key": "121_Desc",
+        "Key": "122_Desc",
         "SourceString": "去除头顶信息",
         "LocalizedString": "去除头顶信息"
       },
@@ -3109,8 +3156,8 @@
       "IsCopy": false,
       "IsMulticast": false
     },
-    "122": {
-      "Id": 122,
+    "123": {
+      "Id": 123,
       "Name": "fov 85",
       "VariableList": [],
       "Types": [
@@ -3118,7 +3165,7 @@
       ],
       "Desc": {
         "Namespace": "GM",
-        "Key": "122_Desc",
+        "Key": "123_Desc",
         "SourceString": "默认视角",
         "LocalizedString": "默认视角"
       },
@@ -3127,8 +3174,8 @@
       "IsCopy": false,
       "IsMulticast": false
     },
-    "123": {
-      "Id": 123,
+    "124": {
+      "Id": 124,
       "Name": "fov 60",
       "VariableList": [],
       "Types": [
@@ -3136,7 +3183,7 @@
       ],
       "Desc": {
         "Namespace": "GM",
-        "Key": "123_Desc",
+        "Key": "124_Desc",
         "SourceString": "拉近视角",
         "LocalizedString": "拉近视角"
       },
@@ -3145,8 +3192,8 @@
       "IsCopy": false,
       "IsMulticast": false
     },
-    "124": {
-      "Id": 124,
+    "125": {
+      "Id": 125,
       "Name": "fov 45",
       "VariableList": [],
       "Types": [
@@ -3154,7 +3201,7 @@
       ],
       "Desc": {
         "Namespace": "GM",
-        "Key": "124_Desc",
+        "Key": "125_Desc",
         "SourceString": "越肩视角",
         "LocalizedString": "越肩视角"
       },
@@ -3163,8 +3210,8 @@
       "IsCopy": false,
       "IsMulticast": false
     },
-    "125": {
-      "Id": 125,
+    "126": {
+      "Id": 126,
       "Name": "ClosePage ADS | ClosePage Wall2D | ClosePage Jump",
       "VariableList": [],
       "Types": [
@@ -3172,7 +3219,7 @@
       ],
       "Desc": {
         "Namespace": "GM",
-        "Key": "125_Desc",
+        "Key": "126_Desc",
         "SourceString": "屏蔽右下角操控按钮",
         "LocalizedString": "屏蔽右下角操控按钮"
       },
@@ -3181,14 +3228,14 @@
       "IsCopy": false,
       "IsMulticast": false
     },
-    "126": {
-      "Id": 126,
+    "127": {
+      "Id": 127,
       "Name": "SetEnableEliminatePlayer",
       "VariableList": [
         {
           "ParamName": {
             "Namespace": "GM",
-            "Key": "126_VariableList_Index0_ParamName",
+            "Key": "127_VariableList_Index0_ParamName",
             "SourceString": "是:1 否:0",
             "LocalizedString": "是:1 否:0"
           },
@@ -3198,7 +3245,7 @@
       "Types": [],
       "Desc": {
         "Namespace": "GM",
-        "Key": "126_Desc",
+        "Key": "127_Desc",
         "SourceString": "是否淘汰失败角色",
         "LocalizedString": "是否淘汰失败角色"
       },
@@ -3207,8 +3254,8 @@
       "IsCopy": false,
       "IsMulticast": false
     },
-    "127": {
-      "Id": 127,
+    "128": {
+      "Id": 128,
       "Name": "HidePage NavigationPage | HidePage ChatPage | HidePage ApartmentPage",
       "VariableList": [],
       "Types": [
@@ -3216,7 +3263,7 @@
       ],
       "Desc": {
         "Namespace": "GM",
-        "Key": "127_Desc",
+        "Key": "128_Desc",
         "SourceString": "屏蔽大厅主界面",
         "LocalizedString": "屏蔽大厅主界面"
       },
@@ -3225,8 +3272,8 @@
       "IsCopy": false,
       "IsMulticast": false
     },
-    "128": {
-      "Id": 128,
+    "129": {
+      "Id": 129,
       "Name": "OpenPage NavigationPage | OpenPage ChatPage | OpenPage ApartmentPage",
       "VariableList": [],
       "Types": [
@@ -3234,7 +3281,7 @@
       ],
       "Desc": {
         "Namespace": "GM",
-        "Key": "128_Desc",
+        "Key": "129_Desc",
         "SourceString": "显示大厅主界面",
         "LocalizedString": "显示大厅主界面"
       },
@@ -3243,14 +3290,14 @@
       "IsCopy": false,
       "IsMulticast": false
     },
-    "129": {
-      "Id": 129,
+    "130": {
+      "Id": 130,
       "Name": "ExecuteFrontendGuide",
       "VariableList": [
         {
           "ParamName": {
             "Namespace": "GM",
-            "Key": "129_VariableList_Index0_ParamName",
+            "Key": "130_VariableList_Index0_ParamName",
             "SourceString": "任务ID",
             "LocalizedString": "任务ID"
           },
@@ -3262,9 +3309,37 @@
       ],
       "Desc": {
         "Namespace": "GM",
-        "Key": "129_Desc",
+        "Key": "130_Desc",
         "SourceString": "执行局外引导",
         "LocalizedString": "执行局外引导"
+      },
+      "IsServerGm": false,
+      "IsHide": false,
+      "IsCopy": false,
+      "IsMulticast": false
+    },
+    "131": {
+      "Id": 131,
+      "Name": "EnableFrequentlyRefreshPing",
+      "VariableList": [
+        {
+          "ParamName": {
+            "Namespace": "GM",
+            "Key": "131_VariableList_Index0_ParamName",
+            "SourceString": "开启:1 关闭:0",
+            "LocalizedString": "开启:1 关闭:0"
+          },
+          "ParamType": "None"
+        }
+      ],
+      "Types": [
+        "Optimization"
+      ],
+      "Desc": {
+        "Namespace": "GM",
+        "Key": "131_Desc",
+        "SourceString": "开启定时刷新ping",
+        "LocalizedString": "开启定时刷新ping"
       },
       "IsServerGm": false,
       "IsHide": false,

@@ -2,6 +2,7 @@
   "Type": "AkAudioEvent",
   "Name": "Weap_M82a1_OneShot",
   "Class": "UScriptClass'AkAudioEvent'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
   "Properties": {
     "MinimumDuration": 3.2144897,
     "MaximumDuration": 4.703651,
@@ -9,5 +10,42 @@
       "ObjectName": "AkAudioBank'Wpn_AMR'",
       "ObjectPath": "PM/Content/WwiseAssets/AkBank/Wpn_AMR.0"
     }
-  }
+  },
+  "EventCookedData": {
+    "EventLanguageMap": [
+      {
+        "Key": {
+          "LanguageId": 0,
+          "LanguageName": "SFX",
+          "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
+        },
+        "Value": {
+          "EventId": 802631535,
+          "SoundBanks": [
+            {
+              "SoundBankId": -1588386497,
+              "SoundBankPathName": "Wpn_AMR.bnk",
+              "MemoryAlignment": 16,
+              "bDeviceMemory": false,
+              "bContainsMedia": true,
+              "SoundBankType": "EWwiseSoundBankType::User",
+              "DebugName": "Wpn_AMR"
+            }
+          ],
+          "Media": [],
+          "ExternalSources": [],
+          "SwitchContainerLeaves": [],
+          "RequiredGroupValueSet": [],
+          "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
+          "DebugName": "Weap_M82a1_OneShot"
+        }
+      }
+    ],
+    "DebugName": "Weap_M82a1_OneShot",
+    "EventId": 802631535
+  },
+  "MaximumDuration": 4.703651,
+  "MinimumDuration": 3.2144897,
+  "IsInfinite": false,
+  "MaxAttenuationRadius": 0.0
 }

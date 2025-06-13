@@ -2,6 +2,7 @@
   "Type": "DataTable",
   "Name": "Result_Title",
   "Class": "UScriptClass'DataTable'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
   "Properties": {
     "RowStruct": {
       "ObjectName": "ScriptStruct'CyResultTitleTableRow'",
@@ -11,24 +12,24 @@
   "Rows": {
     "1": {
       "TitleId": 1,
+      "EvaluateDataType": "EEvaluateDataType::Kill5",
       "TitleName": {
         "Namespace": "Result_Title",
         "Key": "1_TitleName",
-        "SourceString": "五边形战士\n",
-        "LocalizedString": "五边形战士\n"
+        "SourceString": "五边形战士",
+        "LocalizedString": "五边形战士"
       },
       "TitleDesc": {
         "Namespace": "Result_Title",
         "Key": "1_TitleDesc",
-        "SourceString": "五杀数",
-        "LocalizedString": "五杀数"
+        "SourceString": "最多五杀数",
+        "LocalizedString": "最多五杀数"
       },
-      "Priority": 1,
-      "ModeEnable": 0,
-      "CampEnable": 0
+      "Priority": 1
     },
     "2": {
       "TitleId": 2,
+      "EvaluateDataType": "EEvaluateDataType::Kill4",
       "TitleName": {
         "Namespace": "Result_Title",
         "Key": "2_TitleName",
@@ -38,15 +39,14 @@
       "TitleDesc": {
         "Namespace": "Result_Title",
         "Key": "2_TitleDesc",
-        "SourceString": "四杀数",
-        "LocalizedString": "四杀数"
+        "SourceString": "最多四杀数",
+        "LocalizedString": "最多四杀数"
       },
-      "Priority": 2,
-      "ModeEnable": 0,
-      "CampEnable": 0
+      "Priority": 2
     },
     "3": {
       "TitleId": 3,
+      "EvaluateDataType": "EEvaluateDataType::AliveRoundNum",
       "TitleName": {
         "Namespace": "Result_Title",
         "Key": "3_TitleName",
@@ -56,15 +56,14 @@
       "TitleDesc": {
         "Namespace": "Result_Title",
         "Key": "3_TitleDesc",
-        "SourceString": "超弦体存活回合",
-        "LocalizedString": "超弦体存活回合"
+        "SourceString": "最多超弦体存活回合",
+        "LocalizedString": "最多超弦体存活回合"
       },
-      "Priority": 2,
-      "ModeEnable": 0,
-      "CampEnable": 0
+      "Priority": 2
     },
     "4": {
       "TitleId": 4,
+      "EvaluateDataType": "EEvaluateDataType::Kill3",
       "TitleName": {
         "Namespace": "Result_Title",
         "Key": "4_TitleName",
@@ -74,15 +73,14 @@
       "TitleDesc": {
         "Namespace": "Result_Title",
         "Key": "4_TitleDesc",
-        "SourceString": "三杀数",
-        "LocalizedString": "三杀数"
+        "SourceString": "最多三杀数",
+        "LocalizedString": "最多三杀数"
       },
-      "Priority": 3,
-      "ModeEnable": 0,
-      "CampEnable": 0
+      "Priority": 3
     },
     "5": {
       "TitleId": 5,
+      "EvaluateDataType": "EEvaluateDataType::KillNum",
       "TitleName": {
         "Namespace": "Result_Title",
         "Key": "5_TitleName",
@@ -92,15 +90,14 @@
       "TitleDesc": {
         "Namespace": "Result_Title",
         "Key": "5_TitleDesc",
-        "SourceString": "击杀数",
-        "LocalizedString": "击杀数"
+        "SourceString": "最多击杀数",
+        "LocalizedString": "最多击杀数"
       },
-      "Priority": 3,
-      "ModeEnable": 0,
-      "CampEnable": 0
+      "Priority": 3
     },
     "6": {
       "TitleId": 6,
+      "EvaluateDataType": "EEvaluateDataType::AssistNum",
       "TitleName": {
         "Namespace": "Result_Title",
         "Key": "6_TitleName",
@@ -110,15 +107,14 @@
       "TitleDesc": {
         "Namespace": "Result_Title",
         "Key": "6_TitleDesc",
-        "SourceString": "助攻数",
-        "LocalizedString": "助攻数"
+        "SourceString": "最多助攻数",
+        "LocalizedString": "最多助攻数"
       },
-      "Priority": 3,
-      "ModeEnable": 0,
-      "CampEnable": 0
+      "Priority": 3
     },
     "7": {
       "TitleId": 7,
+      "EvaluateDataType": "EEvaluateDataType::DamageNum",
       "TitleName": {
         "Namespace": "Result_Title",
         "Key": "7_TitleName",
@@ -128,15 +124,14 @@
       "TitleDesc": {
         "Namespace": "Result_Title",
         "Key": "7_TitleDesc",
-        "SourceString": "伤害量",
-        "LocalizedString": "伤害量"
+        "SourceString": "最多伤害量",
+        "LocalizedString": "最多伤害量"
       },
-      "Priority": 3,
-      "ModeEnable": 0,
-      "CampEnable": 0
+      "Priority": 3
     },
     "8": {
       "TitleId": 8,
+      "EvaluateDataType": "EEvaluateDataType::PayloadAttackTime",
       "TitleName": {
         "Namespace": "Result_Title",
         "Key": "8_TitleName",
@@ -146,15 +141,14 @@
       "TitleDesc": {
         "Namespace": "Result_Title",
         "Key": "8_TitleDesc",
-        "SourceString": "推进时间",
-        "LocalizedString": "推进时间"
+        "SourceString": "最多推进时间",
+        "LocalizedString": "最多推进时间"
       },
-      "Priority": 3,
-      "ModeEnable": 6,
-      "CampEnable": 1
+      "Priority": 3
     },
     "9": {
       "TitleId": 9,
+      "EvaluateDataType": "EEvaluateDataType::PayloadDefendTime",
       "TitleName": {
         "Namespace": "Result_Title",
         "Key": "9_TitleName",
@@ -164,15 +158,14 @@
       "TitleDesc": {
         "Namespace": "Result_Title",
         "Key": "9_TitleDesc",
-        "SourceString": "阻止时间",
-        "LocalizedString": "阻止时间"
+        "SourceString": "最多阻止时间",
+        "LocalizedString": "最多阻止时间"
       },
-      "Priority": 3,
-      "ModeEnable": 6,
-      "CampEnable": 2
+      "Priority": 3
     },
     "10": {
       "TitleId": 10,
+      "EvaluateDataType": "EEvaluateDataType::KillHeadNum",
       "TitleName": {
         "Namespace": "Result_Title",
         "Key": "10_TitleName",
@@ -185,12 +178,11 @@
         "SourceString": "爆头击败次数",
         "LocalizedString": "爆头击败次数"
       },
-      "Priority": 4,
-      "ModeEnable": 0,
-      "CampEnable": 0
+      "Priority": 4
     },
     "11": {
       "TitleId": 11,
+      "EvaluateDataType": "EEvaluateDataType::AssistBySkillNum",
       "TitleName": {
         "Namespace": "Result_Title",
         "Key": "11_TitleName",
@@ -200,15 +192,14 @@
       "TitleDesc": {
         "Namespace": "Result_Title",
         "Key": "11_TitleDesc",
-        "SourceString": "技能助攻次数",
-        "LocalizedString": "技能助攻次数"
+        "SourceString": "最多技能助攻次数",
+        "LocalizedString": "最多技能助攻次数"
       },
-      "Priority": 4,
-      "ModeEnable": 0,
-      "CampEnable": 0
+      "Priority": 4
     },
     "12": {
       "TitleId": 12,
+      "EvaluateDataType": "EEvaluateDataType::InstallC4Count",
       "TitleName": {
         "Namespace": "Result_Title",
         "Key": "12_TitleName",
@@ -218,15 +209,14 @@
       "TitleDesc": {
         "Namespace": "Result_Title",
         "Key": "12_TitleDesc",
-        "SourceString": "下包数量",
-        "LocalizedString": "下包数量"
+        "SourceString": "最多下包数量",
+        "LocalizedString": "最多下包数量"
       },
-      "Priority": 4,
-      "ModeEnable": 0,
-      "CampEnable": 0
+      "Priority": 4
     },
     "13": {
       "TitleId": 13,
+      "EvaluateDataType": "EEvaluateDataType::RemoveC4Count",
       "TitleName": {
         "Namespace": "Result_Title",
         "Key": "13_TitleName",
@@ -236,15 +226,14 @@
       "TitleDesc": {
         "Namespace": "Result_Title",
         "Key": "13_TitleDesc",
-        "SourceString": "拆包数量",
-        "LocalizedString": "拆包数量"
+        "SourceString": "最多拆包数量",
+        "LocalizedString": "最多拆包数量"
       },
-      "Priority": 4,
-      "ModeEnable": 0,
-      "CampEnable": 0
+      "Priority": 4
     },
     "14": {
       "TitleId": 14,
+      "EvaluateDataType": "EEvaluateDataType::PersonalScore",
       "TitleName": {
         "Namespace": "Result_Title",
         "Key": "14_TitleName",
@@ -254,15 +243,14 @@
       "TitleDesc": {
         "Namespace": "Result_Title",
         "Key": "14_TitleDesc",
-        "SourceString": "输出分",
-        "LocalizedString": "输出分"
+        "SourceString": "最多输出分",
+        "LocalizedString": "最多输出分"
       },
-      "Priority": 4,
-      "ModeEnable": 0,
-      "CampEnable": 0
+      "Priority": 4
     },
     "15": {
       "TitleId": 15,
+      "EvaluateDataType": "EEvaluateDataType::TeamworkScore",
       "TitleName": {
         "Namespace": "Result_Title",
         "Key": "15_TitleName",
@@ -272,15 +260,14 @@
       "TitleDesc": {
         "Namespace": "Result_Title",
         "Key": "15_TitleDesc",
-        "SourceString": "战术分",
-        "LocalizedString": "战术分"
+        "SourceString": "最多战术分",
+        "LocalizedString": "最多战术分"
       },
-      "Priority": 4,
-      "ModeEnable": 0,
-      "CampEnable": 0
+      "Priority": 4
     },
     "16": {
       "TitleId": 16,
+      "EvaluateDataType": "EEvaluateDataType::SkillHitCount",
       "TitleName": {
         "Namespace": "Result_Title",
         "Key": "16_TitleName",
@@ -290,15 +277,14 @@
       "TitleDesc": {
         "Namespace": "Result_Title",
         "Key": "16_TitleDesc",
-        "SourceString": "技能命中次数",
-        "LocalizedString": "技能命中次数"
+        "SourceString": "最多技能命中次数",
+        "LocalizedString": "最多技能命中次数"
       },
-      "Priority": 5,
-      "ModeEnable": 0,
-      "CampEnable": 0
+      "Priority": 5
     },
     "17": {
       "TitleId": 17,
+      "EvaluateDataType": "EEvaluateDataType::TakeDamageNum",
       "TitleName": {
         "Namespace": "Result_Title",
         "Key": "17_TitleName",
@@ -308,15 +294,14 @@
       "TitleDesc": {
         "Namespace": "Result_Title",
         "Key": "17_TitleDesc",
-        "SourceString": "承受伤害",
-        "LocalizedString": "承受伤害"
+        "SourceString": "最多承受伤害",
+        "LocalizedString": "最多承受伤害"
       },
-      "Priority": 5,
-      "ModeEnable": 0,
-      "CampEnable": 0
+      "Priority": 5
     },
     "18": {
       "TitleId": 18,
+      "EvaluateDataType": "EEvaluateDataType::KillNumPayloadNear",
       "TitleName": {
         "Namespace": "Result_Title",
         "Key": "18_TitleName",
@@ -326,15 +311,14 @@
       "TitleDesc": {
         "Namespace": "Result_Title",
         "Key": "18_TitleDesc",
-        "SourceString": "击败载具附近敌人",
-        "LocalizedString": "击败载具附近敌人"
+        "SourceString": "最多击败载具附近敌人",
+        "LocalizedString": "最多击败载具附近敌人"
       },
-      "Priority": 5,
-      "ModeEnable": 6,
-      "CampEnable": 0
+      "Priority": 5
     },
     "19": {
       "TitleId": 19,
+      "EvaluateDataType": "EEvaluateDataType::MoveDistanceBy3D",
       "TitleName": {
         "Namespace": "Result_Title",
         "Key": "19_TitleName",
@@ -344,15 +328,14 @@
       "TitleDesc": {
         "Namespace": "Result_Title",
         "Key": "19_TitleDesc",
-        "SourceString": "非弦化移动距离",
-        "LocalizedString": "非弦化移动距离"
+        "SourceString": "最多非弦化移动距离",
+        "LocalizedString": "最多非弦化移动距离"
       },
-      "Priority": 6,
-      "ModeEnable": 0,
-      "CampEnable": 0
+      "Priority": 6
     },
     "20": {
       "TitleId": 20,
+      "EvaluateDataType": "EEvaluateDataType::MoveDistanceBy2D",
       "TitleName": {
         "Namespace": "Result_Title",
         "Key": "20_TitleName",
@@ -362,15 +345,14 @@
       "TitleDesc": {
         "Namespace": "Result_Title",
         "Key": "20_TitleDesc",
-        "SourceString": "弦化移动距离",
-        "LocalizedString": "弦化移动距离"
+        "SourceString": "最多弦化移动距离",
+        "LocalizedString": "最多弦化移动距离"
       },
-      "Priority": 6,
-      "ModeEnable": 0,
-      "CampEnable": 0
+      "Priority": 6
     },
     "21": {
       "TitleId": 21,
+      "EvaluateDataType": "EEvaluateDataType::SkillUsedNum",
       "TitleName": {
         "Namespace": "Result_Title",
         "Key": "21_TitleName",
@@ -380,15 +362,14 @@
       "TitleDesc": {
         "Namespace": "Result_Title",
         "Key": "21_TitleDesc",
-        "SourceString": "技能释放次数",
-        "LocalizedString": "技能释放次数"
+        "SourceString": "最多技能释放次数",
+        "LocalizedString": "最多技能释放次数"
       },
-      "Priority": 6,
-      "ModeEnable": 0,
-      "CampEnable": 0
+      "Priority": 6
     },
     "22": {
       "TitleId": 22,
+      "EvaluateDataType": "EEvaluateDataType::Heal",
       "TitleName": {
         "Namespace": "Result_Title",
         "Key": "22_TitleName",
@@ -398,15 +379,14 @@
       "TitleDesc": {
         "Namespace": "Result_Title",
         "Key": "22_TitleDesc",
-        "SourceString": "治疗量",
-        "LocalizedString": "治疗量"
+        "SourceString": "最多治疗量",
+        "LocalizedString": "最多治疗量"
       },
-      "Priority": 6,
-      "ModeEnable": 0,
-      "CampEnable": 0
+      "Priority": 6
     },
     "23": {
       "TitleId": 23,
+      "EvaluateDataType": "EEvaluateDataType::KillCountBySecond",
       "TitleName": {
         "Namespace": "Result_Title",
         "Key": "23_TitleName",
@@ -416,15 +396,14 @@
       "TitleDesc": {
         "Namespace": "Result_Title",
         "Key": "23_TitleDesc",
-        "SourceString": "副武器击杀",
-        "LocalizedString": "副武器击杀"
+        "SourceString": "最多副武器击杀",
+        "LocalizedString": "最多副武器击杀"
       },
-      "Priority": 6,
-      "ModeEnable": 0,
-      "CampEnable": 0
+      "Priority": 6
     },
     "24": {
       "TitleId": 24,
+      "EvaluateDataType": "EEvaluateDataType::Mesh2DTakeDamageNum",
       "TitleName": {
         "Namespace": "Result_Title",
         "Key": "24_TitleName",
@@ -434,15 +413,14 @@
       "TitleDesc": {
         "Namespace": "Result_Title",
         "Key": "24_TitleDesc",
-        "SourceString": "弦化承受伤害",
-        "LocalizedString": "弦化承受伤害"
+        "SourceString": "最多弦化承受伤害",
+        "LocalizedString": "最多弦化承受伤害"
       },
-      "Priority": 6,
-      "ModeEnable": 0,
-      "CampEnable": 0
+      "Priority": 6
     },
     "25": {
       "TitleId": 25,
+      "EvaluateDataType": "EEvaluateDataType::DeathNum",
       "TitleName": {
         "Namespace": "Result_Title",
         "Key": "25_TitleName",
@@ -452,15 +430,14 @@
       "TitleDesc": {
         "Namespace": "Result_Title",
         "Key": "25_TitleDesc",
-        "SourceString": "阵亡次数",
-        "LocalizedString": "阵亡次数"
+        "SourceString": "最多阵亡次数",
+        "LocalizedString": "最多阵亡次数"
       },
-      "Priority": 6,
-      "ModeEnable": 0,
-      "CampEnable": 0
+      "Priority": 6
     },
     "26": {
       "TitleId": 26,
+      "EvaluateDataType": "EEvaluateDataType::OnEscortWallTime",
       "TitleName": {
         "Namespace": "Result_Title",
         "Key": "26_TitleName",
@@ -470,15 +447,14 @@
       "TitleDesc": {
         "Namespace": "Result_Title",
         "Key": "26_TitleDesc",
-        "SourceString": "贴车时间",
-        "LocalizedString": "贴车时间"
+        "SourceString": "最多贴车时间",
+        "LocalizedString": "最多贴车时间"
       },
-      "Priority": 6,
-      "ModeEnable": 6,
-      "CampEnable": 0
+      "Priority": 6
     },
     "27": {
       "TitleId": 27,
+      "EvaluateDataType": "EEvaluateDataType::RescueNum",
       "TitleName": {
         "Namespace": "Result_Title",
         "Key": "27_TitleName",
@@ -488,15 +464,14 @@
       "TitleDesc": {
         "Namespace": "Result_Title",
         "Key": "27_TitleDesc",
-        "SourceString": "救治次数",
-        "LocalizedString": "救治次数"
+        "SourceString": "最多救治次数",
+        "LocalizedString": "最多救治次数"
       },
-      "Priority": 6,
-      "ModeEnable": 0,
-      "CampEnable": 0
+      "Priority": 6
     },
     "28": {
       "TitleId": 28,
+      "EvaluateDataType": "EEvaluateDataType::BeInjuredNum",
       "TitleName": {
         "Namespace": "Result_Title",
         "Key": "28_TitleName",
@@ -506,15 +481,14 @@
       "TitleDesc": {
         "Namespace": "Result_Title",
         "Key": "28_TitleDesc",
-        "SourceString": "倒地次数",
-        "LocalizedString": "倒地次数"
+        "SourceString": "最多倒地次数",
+        "LocalizedString": "最多倒地次数"
       },
-      "Priority": 6,
-      "ModeEnable": 0,
-      "CampEnable": 0
+      "Priority": 6
     },
     "29": {
       "TitleId": 29,
+      "EvaluateDataType": "EEvaluateDataType::PickUpCount",
       "TitleName": {
         "Namespace": "Result_Title",
         "Key": "29_TitleName",
@@ -524,15 +498,14 @@
       "TitleDesc": {
         "Namespace": "Result_Title",
         "Key": "29_TitleDesc",
-        "SourceString": "掉落物拾取次数",
-        "LocalizedString": "掉落物拾取次数"
+        "SourceString": "最多掉落物拾取次数",
+        "LocalizedString": "最多掉落物拾取次数"
       },
-      "Priority": 6,
-      "ModeEnable": 0,
-      "CampEnable": 0
+      "Priority": 6
     },
     "30": {
       "TitleId": 30,
+      "EvaluateDataType": "EEvaluateDataType::DestroySummonCount",
       "TitleName": {
         "Namespace": "Result_Title",
         "Key": "30_TitleName",
@@ -542,15 +515,14 @@
       "TitleDesc": {
         "Namespace": "Result_Title",
         "Key": "30_TitleDesc",
-        "SourceString": "召唤物摧毁次数",
-        "LocalizedString": "召唤物摧毁次数"
+        "SourceString": "最多召唤物摧毁次数",
+        "LocalizedString": "最多召唤物摧毁次数"
       },
-      "Priority": 6,
-      "ModeEnable": 0,
-      "CampEnable": 0
+      "Priority": 6
     },
     "31": {
       "TitleId": 31,
+      "EvaluateDataType": "EEvaluateDataType::AliveTime",
       "TitleName": {
         "Namespace": "Result_Title",
         "Key": "31_TitleName",
@@ -560,15 +532,14 @@
       "TitleDesc": {
         "Namespace": "Result_Title",
         "Key": "31_TitleDesc",
-        "SourceString": "存活时长",
-        "LocalizedString": "存活时长"
+        "SourceString": "最多存活时长",
+        "LocalizedString": "最多存活时长"
       },
-      "Priority": 6,
-      "ModeEnable": 0,
-      "CampEnable": 0
+      "Priority": 6
     },
     "32": {
       "TitleId": 32,
+      "EvaluateDataType": "EEvaluateDataType::GraffitiUsedCount",
       "TitleName": {
         "Namespace": "Result_Title",
         "Key": "32_TitleName",
@@ -578,15 +549,14 @@
       "TitleDesc": {
         "Namespace": "Result_Title",
         "Key": "32_TitleDesc",
-        "SourceString": "喷漆次数",
-        "LocalizedString": "喷漆次数"
+        "SourceString": "最多喷漆次数",
+        "LocalizedString": "最多喷漆次数"
       },
-      "Priority": 7,
-      "ModeEnable": 0,
-      "CampEnable": 0
+      "Priority": 7
     },
     "33": {
       "TitleId": 33,
+      "EvaluateDataType": "EEvaluateDataType::EmotionUsedCount",
       "TitleName": {
         "Namespace": "Result_Title",
         "Key": "33_TitleName",
@@ -596,15 +566,14 @@
       "TitleDesc": {
         "Namespace": "Result_Title",
         "Key": "33_TitleDesc",
-        "SourceString": "表情使用次数",
-        "LocalizedString": "表情使用次数"
+        "SourceString": "最多表情使用次数",
+        "LocalizedString": "最多表情使用次数"
       },
-      "Priority": 7,
-      "ModeEnable": 0,
-      "CampEnable": 0
+      "Priority": 7
     },
     "34": {
       "TitleId": 34,
+      "EvaluateDataType": "EEvaluateDataType::ActionUsedCount",
       "TitleName": {
         "Namespace": "Result_Title",
         "Key": "34_TitleName",
@@ -614,15 +583,14 @@
       "TitleDesc": {
         "Namespace": "Result_Title",
         "Key": "34_TitleDesc",
-        "SourceString": "动作使用次数",
-        "LocalizedString": "动作使用次数"
+        "SourceString": "最多动作使用次数",
+        "LocalizedString": "最多动作使用次数"
       },
-      "Priority": 7,
-      "ModeEnable": 0,
-      "CampEnable": 0
+      "Priority": 7
     },
     "35": {
       "TitleId": 35,
+      "EvaluateDataType": "EEvaluateDataType::VoicedUsedTime",
       "TitleName": {
         "Namespace": "Result_Title",
         "Key": "35_TitleName",
@@ -632,15 +600,14 @@
       "TitleDesc": {
         "Namespace": "Result_Title",
         "Key": "35_TitleDesc",
-        "SourceString": "语音使用时长",
-        "LocalizedString": "语音使用时长"
+        "SourceString": "最多语音使用时长",
+        "LocalizedString": "最多语音使用时长"
       },
-      "Priority": 7,
-      "ModeEnable": 0,
-      "CampEnable": 0
+      "Priority": 7
     },
     "36": {
       "TitleId": 36,
+      "EvaluateDataType": "EEvaluateDataType::BulletNum",
       "TitleName": {
         "Namespace": "Result_Title",
         "Key": "36_TitleName",
@@ -650,15 +617,14 @@
       "TitleDesc": {
         "Namespace": "Result_Title",
         "Key": "36_TitleDesc",
-        "SourceString": "开火次数",
-        "LocalizedString": "开火次数"
+        "SourceString": "最多开火次数",
+        "LocalizedString": "最多开火次数"
       },
-      "Priority": 7,
-      "ModeEnable": 0,
-      "CampEnable": 0
+      "Priority": 7
     },
     "37": {
       "TitleId": 37,
+      "EvaluateDataType": "EEvaluateDataType::AimTime",
       "TitleName": {
         "Namespace": "Result_Title",
         "Key": "37_TitleName",
@@ -668,15 +634,14 @@
       "TitleDesc": {
         "Namespace": "Result_Title",
         "Key": "37_TitleDesc",
-        "SourceString": "开镜时间",
-        "LocalizedString": "开镜时间"
+        "SourceString": "最多开镜时间",
+        "LocalizedString": "最多开镜时间"
       },
-      "Priority": 7,
-      "ModeEnable": 0,
-      "CampEnable": 0
+      "Priority": 7
     },
     "38": {
       "TitleId": 38,
+      "EvaluateDataType": "EEvaluateDataType::SkyTime",
       "TitleName": {
         "Namespace": "Result_Title",
         "Key": "38_TitleName",
@@ -686,15 +651,14 @@
       "TitleDesc": {
         "Namespace": "Result_Title",
         "Key": "38_TitleDesc",
-        "SourceString": "滞空时间",
-        "LocalizedString": "滞空时间"
+        "SourceString": "最多滞空时间",
+        "LocalizedString": "最多滞空时间"
       },
-      "Priority": 7,
-      "ModeEnable": 0,
-      "CampEnable": 0
+      "Priority": 7
     },
     "39": {
       "TitleId": 39,
+      "EvaluateDataType": "EEvaluateDataType::JumpCount",
       "TitleName": {
         "Namespace": "Result_Title",
         "Key": "39_TitleName",
@@ -704,15 +668,14 @@
       "TitleDesc": {
         "Namespace": "Result_Title",
         "Key": "39_TitleDesc",
-        "SourceString": "跳跃次数",
-        "LocalizedString": "跳跃次数"
+        "SourceString": "最多跳跃次数",
+        "LocalizedString": "最多跳跃次数"
       },
-      "Priority": 7,
-      "ModeEnable": 0,
-      "CampEnable": 0
+      "Priority": 7
     },
     "40": {
       "TitleId": 40,
+      "EvaluateDataType": "EEvaluateDataType::TransformationCount",
       "TitleName": {
         "Namespace": "Result_Title",
         "Key": "40_TitleName",
@@ -722,15 +685,14 @@
       "TitleDesc": {
         "Namespace": "Result_Title",
         "Key": "40_TitleDesc",
-        "SourceString": "怪物变身次数",
-        "LocalizedString": "怪物变身次数"
+        "SourceString": "最多怪物变身次数",
+        "LocalizedString": "最多怪物变身次数"
       },
-      "Priority": 7,
-      "ModeEnable": 0,
-      "CampEnable": 0
+      "Priority": 7
     },
     "41": {
       "TitleId": 41,
+      "EvaluateDataType": "EEvaluateDataType::None",
       "TitleName": {
         "Namespace": "Result_Title",
         "Key": "41_TitleName",
@@ -740,12 +702,11 @@
       "TitleDesc": {
         "CultureInvariantString": null
       },
-      "Priority": 8,
-      "ModeEnable": 0,
-      "CampEnable": 0
+      "Priority": 8
     },
     "42": {
       "TitleId": 42,
+      "EvaluateDataType": "EEvaluateDataType::None",
       "TitleName": {
         "Namespace": "Result_Title",
         "Key": "42_TitleName",
@@ -755,12 +716,11 @@
       "TitleDesc": {
         "CultureInvariantString": null
       },
-      "Priority": 8,
-      "ModeEnable": 0,
-      "CampEnable": 0
+      "Priority": 8
     },
     "43": {
       "TitleId": 43,
+      "EvaluateDataType": "EEvaluateDataType::None",
       "TitleName": {
         "Namespace": "Result_Title",
         "Key": "43_TitleName",
@@ -770,12 +730,11 @@
       "TitleDesc": {
         "CultureInvariantString": null
       },
-      "Priority": 8,
-      "ModeEnable": 0,
-      "CampEnable": 0
+      "Priority": 8
     },
     "44": {
       "TitleId": 44,
+      "EvaluateDataType": "EEvaluateDataType::None",
       "TitleName": {
         "Namespace": "Result_Title",
         "Key": "44_TitleName",
@@ -785,12 +744,11 @@
       "TitleDesc": {
         "CultureInvariantString": null
       },
-      "Priority": 8,
-      "ModeEnable": 0,
-      "CampEnable": 0
+      "Priority": 8
     },
     "45": {
       "TitleId": 45,
+      "EvaluateDataType": "EEvaluateDataType::None",
       "TitleName": {
         "Namespace": "Result_Title",
         "Key": "45_TitleName",
@@ -800,9 +758,7 @@
       "TitleDesc": {
         "CultureInvariantString": null
       },
-      "Priority": 8,
-      "ModeEnable": 0,
-      "CampEnable": 0
+      "Priority": 8
     }
   }
 }

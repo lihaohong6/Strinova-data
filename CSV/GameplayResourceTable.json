@@ -2,6 +2,7 @@
   "Type": "DataTable",
   "Name": "GameplayResourceTable",
   "Class": "UScriptClass'DataTable'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
   "Properties": {
     "RowStruct": {
       "ObjectName": "ScriptStruct'GameplayTagTableRow'",
@@ -61,12 +62,44 @@
       "Tag": "Resource.Audio.X.OnRemove",
       "DevComment": ""
     },
-    "Resource.Audio.X.Equip": {
-      "Tag": "Resource.Audio.X.Equip",
+    "Resource.Audio.X.Equip.A": {
+      "Tag": "Resource.Audio.X.Equip.A",
       "DevComment": ""
     },
-    "Resource.Audio.X.Attack": {
-      "Tag": "Resource.Audio.X.Attack",
+    "Resource.Audio.X.Equip.B": {
+      "Tag": "Resource.Audio.X.Equip.B",
+      "DevComment": ""
+    },
+    "Resource.Audio.X.Equip.C": {
+      "Tag": "Resource.Audio.X.Equip.C",
+      "DevComment": ""
+    },
+    "Resource.Audio.X.Equip.D": {
+      "Tag": "Resource.Audio.X.Equip.D",
+      "DevComment": ""
+    },
+    "Resource.Audio.X.Equip.E": {
+      "Tag": "Resource.Audio.X.Equip.E",
+      "DevComment": ""
+    },
+    "Resource.Audio.X.Attack.A": {
+      "Tag": "Resource.Audio.X.Attack.A",
+      "DevComment": ""
+    },
+    "Resource.Audio.X.Attack.B": {
+      "Tag": "Resource.Audio.X.Attack.B",
+      "DevComment": ""
+    },
+    "Resource.Audio.X.Attack.C": {
+      "Tag": "Resource.Audio.X.Attack.C",
+      "DevComment": ""
+    },
+    "Resource.Audio.X.Attack.D": {
+      "Tag": "Resource.Audio.X.Attack.D",
+      "DevComment": ""
+    },
+    "Resource.Audio.X.Attack.E": {
+      "Tag": "Resource.Audio.X.Attack.E",
       "DevComment": ""
     },
     "Resource.Audio.Fuchsia.P.OnActive": {
@@ -1053,6 +1086,10 @@
       "Tag": "Resource.Particle.Huixing.ArousalTwo",
       "DevComment": "星绘觉醒2闪光"
     },
+    "Resource.Particle2D.Huixing.ArousalTwo": {
+      "Tag": "Resource.Particle2D.Huixing.ArousalTwo",
+      "DevComment": "星绘觉醒2闪光"
+    },
     "Resource.Audio.Huixing.ArousalTwo.Activate": {
       "Tag": "Resource.Audio.Huixing.ArousalTwo.Activate",
       "DevComment": "星绘觉醒2闪光激活音效"
@@ -1841,8 +1878,24 @@
       "Tag": "Resource.Audio.Fuchsia.E.OnActive",
       "DevComment": "菲莎C技能激活音效"
     },
-    "Resource.Audio.E.OnActive": {
-      "Tag": "Resource.Audio.E.OnActive",
+    "Resource.Audio.E.OnActive.A": {
+      "Tag": "Resource.Audio.E.OnActive.A",
+      "DevComment": ""
+    },
+    "Resource.Audio.E.OnActive.B": {
+      "Tag": "Resource.Audio.E.OnActive.B",
+      "DevComment": ""
+    },
+    "Resource.Audio.E.OnActive.C": {
+      "Tag": "Resource.Audio.E.OnActive.C",
+      "DevComment": ""
+    },
+    "Resource.Audio.E.OnActive.D": {
+      "Tag": "Resource.Audio.E.OnActive.D",
+      "DevComment": ""
+    },
+    "Resource.Audio.E.OnActive.E": {
+      "Tag": "Resource.Audio.E.OnActive.E",
       "DevComment": ""
     },
     "Resource.Audio.E.WhileActive": {
@@ -1964,6 +2017,446 @@
     "Resource.ScreenEffect.Maddelena.Pigment": {
       "Tag": "Resource.ScreenEffect.Maddelena.Pigment",
       "DevComment": "玛德蕾娜颜料"
+    },
+    "Resource.Particle.Circle": {
+      "Tag": "Resource.Particle.Circle",
+      "DevComment": "圆形区域特效"
+    },
+    "Resource.Material.Stealth.Common": {
+      "Tag": "Resource.Material.Stealth.Common",
+      "DevComment": "通用隐身材质效果"
+    },
+    "Resource.Particle.IceScope.Common": {
+      "Tag": "Resource.Particle.IceScope.Common",
+      "DevComment": "通用冰雪区域"
+    },
+    "Resource.ScreenEffect.Treatment.Zombie.WhileActive": {
+      "Tag": "Resource.ScreenEffect.Treatment.Zombie.WhileActive",
+      "DevComment": ""
+    },
+    "Resource.Particle.Treatment.Zombie.WhileActive": {
+      "Tag": "Resource.Particle.Treatment.Zombie.WhileActive",
+      "DevComment": ""
+    },
+    "Resource.Audio.Treatment.Zombie.WhileActive": {
+      "Tag": "Resource.Audio.Treatment.Zombie.WhileActive",
+      "DevComment": ""
+    },
+    "Resource.Audio.Treatment.Zombie.OnRemove": {
+      "Tag": "Resource.Audio.Treatment.Zombie.OnRemove",
+      "DevComment": ""
+    },
+    "Resource.UI.Feedback.Mark": {
+      "Tag": "Resource.UI.Feedback.Mark",
+      "DevComment": "标记提示"
+    },
+    "Resource.Particle.DotFireDamage": {
+      "Tag": "Resource.Particle.DotFireDamage",
+      "DevComment": "灼烧特效"
+    },
+    "Resource.Particle.ActionReward.One": {
+      "Tag": "Resource.Particle.ActionReward.One",
+      "DevComment": "行为奖励表现特效1"
+    },
+    "Resource.Particle.ActionReward.Two": {
+      "Tag": "Resource.Particle.ActionReward.Two",
+      "DevComment": "行为奖励表现特效2"
+    },
+    "Resource.Particle.ActionRewardEnd.One": {
+      "Tag": "Resource.Particle.ActionRewardEnd.One",
+      "DevComment": "行为奖励表现结束特效1"
+    },
+    "Resource.Particle.ActionRewardEnd.Two": {
+      "Tag": "Resource.Particle.ActionRewardEnd.Two",
+      "DevComment": "行为奖励表现结束特效2"
+    },
+    "Resource.Particle2D.ActionReward.One": {
+      "Tag": "Resource.Particle2D.ActionReward.One",
+      "DevComment": "行为奖励表现2D特效1"
+    },
+    "Resource.Particle2D.ActionReward.Two": {
+      "Tag": "Resource.Particle2D.ActionReward.Two",
+      "DevComment": "行为奖励表现2D特效2"
+    },
+    "Resource.Particle2D.ActionRewardEnd.One": {
+      "Tag": "Resource.Particle2D.ActionRewardEnd.One",
+      "DevComment": "行为奖励表现2D结束特效1"
+    },
+    "Resource.Particle2D.ActionRewardEnd.Two": {
+      "Tag": "Resource.Particle2D.ActionRewardEnd.Two",
+      "DevComment": "行为奖励表现2D结束特效2"
+    },
+    "Resource.Audio.ActionReward.One": {
+      "Tag": "Resource.Audio.ActionReward.One",
+      "DevComment": ""
+    },
+    "Resource.Audio.ActionReward.Two": {
+      "Tag": "Resource.Audio.ActionReward.Two",
+      "DevComment": ""
+    },
+    "Resource.Audio.ActionRewardEnd.One": {
+      "Tag": "Resource.Audio.ActionRewardEnd.One",
+      "DevComment": ""
+    },
+    "Resource.Audio.ActionRewardEnd.Two": {
+      "Tag": "Resource.Audio.ActionRewardEnd.Two",
+      "DevComment": ""
+    },
+    "Resource.Particle.Shared.RescueSelf.WhileActive": {
+      "Tag": "Resource.Particle.Shared.RescueSelf.WhileActive",
+      "DevComment": "自救粒子特效"
+    },
+    "Resource.Audio.Shared.RescueSelf.OnActive": {
+      "Tag": "Resource.Audio.Shared.RescueSelf.OnActive",
+      "DevComment": "自救音效"
+    },
+    "Resource.Particle.Reload.A": {
+      "Tag": "Resource.Particle.Reload.A",
+      "DevComment": ""
+    },
+    "Resource.Particle.Reload.B": {
+      "Tag": "Resource.Particle.Reload.B",
+      "DevComment": ""
+    },
+    "Resource.Particle.Reload.C": {
+      "Tag": "Resource.Particle.Reload.C",
+      "DevComment": ""
+    },
+    "Resource.ScreenEffect.HideSight": {
+      "Tag": "Resource.ScreenEffect.HideSight",
+      "DevComment": "准镜模糊屏幕特效"
+    },
+    "Resource.Particle.LinkFx.KeepLink.A": {
+      "Tag": "Resource.Particle.LinkFx.KeepLink.A",
+      "DevComment": ""
+    },
+    "Resource.Particle.LinkFx.OnStart.A": {
+      "Tag": "Resource.Particle.LinkFx.OnStart.A",
+      "DevComment": ""
+    },
+    "Resource.Particle.LinkFx.OnEnd.A": {
+      "Tag": "Resource.Particle.LinkFx.OnEnd.A",
+      "DevComment": ""
+    },
+    "Resource.Particle.LinkFx.Loop.A": {
+      "Tag": "Resource.Particle.LinkFx.Loop.A",
+      "DevComment": ""
+    },
+    "Resource.Audio.LinkFx.KeepLink.A": {
+      "Tag": "Resource.Audio.LinkFx.KeepLink.A",
+      "DevComment": ""
+    },
+    "Resource.Audio.LinkFx.OnStart.A": {
+      "Tag": "Resource.Audio.LinkFx.OnStart.A",
+      "DevComment": ""
+    },
+    "Resource.Audio.LinkFx.OnEnd.A": {
+      "Tag": "Resource.Audio.LinkFx.OnEnd.A",
+      "DevComment": ""
+    },
+    "Resource.Audio.LinkFx.Loop.A": {
+      "Tag": "Resource.Audio.LinkFx.Loop.A",
+      "DevComment": ""
+    },
+    "Resource.Audio.OnADSLevelChanged.A": {
+      "Tag": "Resource.Audio.OnADSLevelChanged.A",
+      "DevComment": "切换倍镜音效"
+    },
+    "Resource.Audio.OnAttackTypeChange.Single": {
+      "Tag": "Resource.Audio.OnAttackTypeChange.Single",
+      "DevComment": "切换开火模式为Single时音效"
+    },
+    "Resource.Audio.OnAttackTypeChange.Burst": {
+      "Tag": "Resource.Audio.OnAttackTypeChange.Burst",
+      "DevComment": "切换开火模式为Burst时音效"
+    },
+    "Resource.Audio.OnAttackTypeChange.Auto": {
+      "Tag": "Resource.Audio.OnAttackTypeChange.Auto",
+      "DevComment": "切换开火模式为Auto时音效"
+    },
+    "Resource.Particle.Trail.A": {
+      "Tag": "Resource.Particle.Trail.A",
+      "DevComment": "拖尾特效"
+    },
+    "Resource.Decal.Melee.Attack.A": {
+      "Tag": "Resource.Decal.Melee.Attack.A",
+      "DevComment": ""
+    },
+    "Resource.Decal.Melee.Attack.B": {
+      "Tag": "Resource.Decal.Melee.Attack.B",
+      "DevComment": ""
+    },
+    "Resource.Decal.Melee.Attack.C": {
+      "Tag": "Resource.Decal.Melee.Attack.C",
+      "DevComment": ""
+    },
+    "Resource.Decal.Melee.Attack.D": {
+      "Tag": "Resource.Decal.Melee.Attack.D",
+      "DevComment": ""
+    },
+    "Resource.Decal.Melee.Attack.E": {
+      "Tag": "Resource.Decal.Melee.Attack.E",
+      "DevComment": ""
+    },
+    "Resource.Particle.Melee.Attack.A": {
+      "Tag": "Resource.Particle.Melee.Attack.A",
+      "DevComment": ""
+    },
+    "Resource.Particle.Melee.Attack.B": {
+      "Tag": "Resource.Particle.Melee.Attack.B",
+      "DevComment": ""
+    },
+    "Resource.Particle.Melee.Attack.C": {
+      "Tag": "Resource.Particle.Melee.Attack.C",
+      "DevComment": ""
+    },
+    "Resource.Particle.Melee.Attack.D": {
+      "Tag": "Resource.Particle.Melee.Attack.D",
+      "DevComment": ""
+    },
+    "Resource.Particle.Melee.Attack.E": {
+      "Tag": "Resource.Particle.Melee.Attack.E",
+      "DevComment": ""
+    },
+    "Resource.Particle.Melee.Equip.A": {
+      "Tag": "Resource.Particle.Melee.Equip.A",
+      "DevComment": ""
+    },
+    "Resource.Particle.Melee.Equip.B": {
+      "Tag": "Resource.Particle.Melee.Equip.B",
+      "DevComment": ""
+    },
+    "Resource.Particle.Melee.Equip.C": {
+      "Tag": "Resource.Particle.Melee.Equip.C",
+      "DevComment": ""
+    },
+    "Resource.Particle.Melee.Equip.D": {
+      "Tag": "Resource.Particle.Melee.Equip.D",
+      "DevComment": ""
+    },
+    "Resource.Particle.Melee.Equip.E": {
+      "Tag": "Resource.Particle.Melee.Equip.E",
+      "DevComment": ""
+    },
+    "Resource.Particle.Melee.Hold.A": {
+      "Tag": "Resource.Particle.Melee.Hold.A",
+      "DevComment": ""
+    },
+    "Resource.Particle.Melee.Hold.B": {
+      "Tag": "Resource.Particle.Melee.Hold.B",
+      "DevComment": ""
+    },
+    "Resource.Particle.Melee.Hold.C": {
+      "Tag": "Resource.Particle.Melee.Hold.C",
+      "DevComment": ""
+    },
+    "Resource.Particle.Melee.Hold.D": {
+      "Tag": "Resource.Particle.Melee.Hold.D",
+      "DevComment": ""
+    },
+    "Resource.Particle.Melee.Hold.E": {
+      "Tag": "Resource.Particle.Melee.Hold.E",
+      "DevComment": ""
+    },
+    "Resource.Particle.Ready.A": {
+      "Tag": "Resource.Particle.Ready.A",
+      "DevComment": ""
+    },
+    "Resource.Particle.Ready.B": {
+      "Tag": "Resource.Particle.Ready.B",
+      "DevComment": ""
+    },
+    "Resource.Particle.Ready.C": {
+      "Tag": "Resource.Particle.Ready.C",
+      "DevComment": ""
+    },
+    "Resource.Particle.Ready.D": {
+      "Tag": "Resource.Particle.Ready.D",
+      "DevComment": ""
+    },
+    "Resource.Particle.Ready.E": {
+      "Tag": "Resource.Particle.Ready.E",
+      "DevComment": ""
+    },
+    "Resource.ScreenEffect.X.A": {
+      "Tag": "Resource.ScreenEffect.X.A",
+      "DevComment": ""
+    },
+    "Resource.ScreenEffect.X.B": {
+      "Tag": "Resource.ScreenEffect.X.B",
+      "DevComment": ""
+    },
+    "Resource.Particle.E.WhileActive.A": {
+      "Tag": "Resource.Particle.E.WhileActive.A",
+      "DevComment": ""
+    },
+    "Resource.Particle.E.WhileActive.B": {
+      "Tag": "Resource.Particle.E.WhileActive.B",
+      "DevComment": ""
+    },
+    "Resource.Particle.E.WhileActive.C": {
+      "Tag": "Resource.Particle.E.WhileActive.C",
+      "DevComment": ""
+    },
+    "Resource.Particle.E.WhileActive.D": {
+      "Tag": "Resource.Particle.E.WhileActive.D",
+      "DevComment": ""
+    },
+    "Resource.Particle.E.WhileActive.E": {
+      "Tag": "Resource.Particle.E.WhileActive.E",
+      "DevComment": ""
+    },
+    "Resource.Particle.E.OnActive.A": {
+      "Tag": "Resource.Particle.E.OnActive.A",
+      "DevComment": ""
+    },
+    "Resource.Particle.E.OnActive.B": {
+      "Tag": "Resource.Particle.E.OnActive.B",
+      "DevComment": ""
+    },
+    "Resource.Particle.E.OnActive.C": {
+      "Tag": "Resource.Particle.E.OnActive.C",
+      "DevComment": ""
+    },
+    "Resource.Particle.E.OnActive.D": {
+      "Tag": "Resource.Particle.E.OnActive.D",
+      "DevComment": ""
+    },
+    "Resource.Particle.E.OnActive.E": {
+      "Tag": "Resource.Particle.E.OnActive.E",
+      "DevComment": ""
+    },
+    "Resource.Particle.Shared.AntiHeal.WhileActive": {
+      "Tag": "Resource.Particle.Shared.AntiHeal.WhileActive",
+      "DevComment": ""
+    },
+    "Resource.Particle.Shared.AntiHeal.OnRemove": {
+      "Tag": "Resource.Particle.Shared.AntiHeal.OnRemove",
+      "DevComment": ""
+    },
+    "Resource.Audio.Shared.AntiHeal.WhileActive": {
+      "Tag": "Resource.Audio.Shared.AntiHeal.WhileActive",
+      "DevComment": ""
+    },
+    "Resource.Audio.Shared.AntiHeal.OnRemove": {
+      "Tag": "Resource.Audio.Shared.AntiHeal.OnRemove",
+      "DevComment": ""
+    },
+    "Resource.Audio.X.ThrowEnd.A": {
+      "Tag": "Resource.Audio.X.ThrowEnd.A",
+      "DevComment": ""
+    },
+    "Resource.Audio.X.ThrowEnd.B": {
+      "Tag": "Resource.Audio.X.ThrowEnd.B",
+      "DevComment": ""
+    },
+    "Resource.Audio.X.ThrowEnd.C": {
+      "Tag": "Resource.Audio.X.ThrowEnd.C",
+      "DevComment": ""
+    },
+    "Resource.Audio.X.ThrowEnd.D": {
+      "Tag": "Resource.Audio.X.ThrowEnd.D",
+      "DevComment": ""
+    },
+    "Resource.Audio.X.ThrowEnd.E": {
+      "Tag": "Resource.Audio.X.ThrowEnd.E",
+      "DevComment": ""
+    },
+    "Resource.Audio.Melee.Attack.A": {
+      "Tag": "Resource.Audio.Melee.Attack.A",
+      "DevComment": ""
+    },
+    "Resource.Audio.Melee.Attack.B": {
+      "Tag": "Resource.Audio.Melee.Attack.B",
+      "DevComment": ""
+    },
+    "Resource.Audio.Melee.Attack.C": {
+      "Tag": "Resource.Audio.Melee.Attack.C",
+      "DevComment": ""
+    },
+    "Resource.Audio.Melee.Attack.D": {
+      "Tag": "Resource.Audio.Melee.Attack.D",
+      "DevComment": ""
+    },
+    "Resource.Audio.Melee.Attack.E": {
+      "Tag": "Resource.Audio.Melee.Attack.E",
+      "DevComment": ""
+    },
+    "Resource.Audio.Melee.Equip.A": {
+      "Tag": "Resource.Audio.Melee.Equip.A",
+      "DevComment": ""
+    },
+    "Resource.Audio.Melee.Equip.B": {
+      "Tag": "Resource.Audio.Melee.Equip.B",
+      "DevComment": ""
+    },
+    "Resource.Audio.Melee.Equip.C": {
+      "Tag": "Resource.Audio.Melee.Equip.C",
+      "DevComment": ""
+    },
+    "Resource.Audio.Melee.Equip.D": {
+      "Tag": "Resource.Audio.Melee.Equip.D",
+      "DevComment": ""
+    },
+    "Resource.Audio.Melee.Equip.E": {
+      "Tag": "Resource.Audio.Melee.Equip.E",
+      "DevComment": ""
+    },
+    "Resource.Audio.AnimNotify.A": {
+      "Tag": "Resource.Audio.AnimNotify.A",
+      "DevComment": ""
+    },
+    "Resource.Audio.AnimNotify.B": {
+      "Tag": "Resource.Audio.AnimNotify.B",
+      "DevComment": ""
+    },
+    "Resource.Audio.AnimNotify.C": {
+      "Tag": "Resource.Audio.AnimNotify.C",
+      "DevComment": ""
+    },
+    "Resource.Audio.AnimNotify.D": {
+      "Tag": "Resource.Audio.AnimNotify.D",
+      "DevComment": ""
+    },
+    "Resource.Audio.AnimNotify.E": {
+      "Tag": "Resource.Audio.AnimNotify.E",
+      "DevComment": ""
+    },
+    "Resource.Particle.KnifeBlocking.OnActive": {
+      "Tag": "Resource.Particle.KnifeBlocking.OnActive",
+      "DevComment": ""
+    },
+    "Resource.Particle.KnifeBlocking.WhileActive": {
+      "Tag": "Resource.Particle.KnifeBlocking.WhileActive",
+      "DevComment": ""
+    },
+    "Resource.Particle.KnifeBlockGot.OnActive": {
+      "Tag": "Resource.Particle.KnifeBlockGot.OnActive",
+      "DevComment": ""
+    },
+    "Resource.Particle.KnifeBlockGot.WhileActive": {
+      "Tag": "Resource.Particle.KnifeBlockGot.WhileActive",
+      "DevComment": ""
+    },
+    "Resource.Audio.KnifeBlocking.OnActive": {
+      "Tag": "Resource.Audio.KnifeBlocking.OnActive",
+      "DevComment": ""
+    },
+    "Resource.Audio.KnifeBlocking.WhileActive": {
+      "Tag": "Resource.Audio.KnifeBlocking.WhileActive",
+      "DevComment": ""
+    },
+    "Resource.Audio.KnifeBlockGot.OnActive": {
+      "Tag": "Resource.Audio.KnifeBlockGot.OnActive",
+      "DevComment": ""
+    },
+    "Resource.Audio.KnifeBlockGot.WhileActive": {
+      "Tag": "Resource.Audio.KnifeBlockGot.WhileActive",
+      "DevComment": ""
+    },
+    "Resource.Particle.Shared.Wall.Payload.WhileActive": {
+      "Tag": "Resource.Particle.Shared.Wall.Payload.WhileActive",
+      "DevComment": "贴车特效"
     }
   }
 }

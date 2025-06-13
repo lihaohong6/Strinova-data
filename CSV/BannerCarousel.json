@@ -2,6 +2,7 @@
   "Type": "DataTable",
   "Name": "BannerCarousel",
   "Class": "UScriptClass'DataTable'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
   "Properties": {
     "RowStruct": {
       "ObjectName": "ScriptStruct'CyBannerCarouselTableRow'",
@@ -243,7 +244,7 @@
         "Ticks": 638774244000000000
       },
       "EndTime": {
-        "Ticks": 638793251990000000
+        "Ticks": 638798435990000000
       },
       "JumpType": 0,
       "JumpCmd": "HermesJumpToHotlistCmd",
@@ -303,7 +304,7 @@
         "Ticks": 638786340000000000
       },
       "EndTime": {
-        "Ticks": 638810531990000000
+        "Ticks": 638798435990000000
       },
       "JumpType": 0,
       "JumpCmd": "HermesJumpToHotlistCmd",
@@ -330,13 +331,13 @@
         "SubPathString": ""
       },
       "StartTime": {
-        "Ticks": 638786340000000000
+        "Ticks": 638798436000000000
       },
       "EndTime": {
-        "Ticks": 638796707990000000
+        "Ticks": 638810531990000000
       },
       "JumpType": 0,
-      "JumpCmd": "HermesJumpToHotlistCmd",
+      "JumpCmd": "HermesJumpToCmd,HermesHotListPage,20120",
       "JumpUrl": ""
     },
     "12": {
@@ -459,15 +460,45 @@
       "JumpCmd": "",
       "JumpUrl": ""
     },
-    "17": {
-      "Id": 10090,
-      "Sort": 17,
-      "Type": 2,
+    "16": {
+      "Id": 10100,
+      "Sort": 20,
+      "Type": 1,
       "Title": {
         "Namespace": "BannerCarousel",
-        "Key": "37_Title",
-        "SourceString": "特惠时装返场",
-        "LocalizedString": "特惠时装返场"
+        "Key": "41_Title",
+        "SourceString": "爆弹倒计时",
+        "LocalizedString": "爆弹倒计时"
+      },
+      "BannerName": {
+        "CultureInvariantString": null
+      },
+      "BannerNameJustify": 0,
+      "EnableBannerNameDoubleLine": false,
+      "Icon": "",
+      "Localicon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Banner/T_Dynamic_Banner_10100.T_Dynamic_Banner_10100",
+        "SubPathString": ""
+      },
+      "StartTime": {
+        "Ticks": 0
+      },
+      "EndTime": {
+        "Ticks": 0
+      },
+      "JumpType": 0,
+      "JumpCmd": "",
+      "JumpUrl": ""
+    },
+    "17": {
+      "Id": 10090,
+      "Sort": 25,
+      "Type": 2,
+      "Title": {
+        "Namespace": "BannerCarousel_I18N",
+        "Key": "17_Title",
+        "SourceString": "限时商城",
+        "LocalizedString": "限时商城"
       },
       "BannerName": {
         "CultureInvariantString": null
@@ -480,13 +511,553 @@
         "SubPathString": ""
       },
       "StartTime": {
+        "Ticks": 638822628000000000
+      },
+      "EndTime": {
+        "Ticks": 638834723990000000
+      },
+      "JumpType": 0,
+      "JumpCmd": "HermesJumpToCmd,HermesHotListPage,20115",
+      "JumpUrl": ""
+    },
+    "18": {
+      "Id": 20015,
+      "Sort": 18,
+      "Type": 2,
+      "Title": {
+        "Namespace": "BannerCarousel_I18N",
+        "Key": "18_Title",
+        "SourceString": "限时商城",
+        "LocalizedString": "限时商城"
+      },
+      "BannerName": {
+        "CultureInvariantString": null
+      },
+      "BannerNameJustify": 0,
+      "EnableBannerNameDoubleLine": false,
+      "Icon": "",
+      "Localicon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Banner/T_Dynamic_Banner_20015.T_Dynamic_Banner_20015",
+        "SubPathString": ""
+      },
+      "StartTime": {
         "Ticks": 638810532000000000
       },
       "EndTime": {
-        "Ticks": 638833859990000000
+        "Ticks": 638822627990000000
       },
       "JumpType": 0,
-      "JumpCmd": "HermesJumpToHotlistCmd",
+      "JumpCmd": "HermesJumpToCmd,HermesHotListPage,20141",
+      "JumpUrl": ""
+    },
+    "19": {
+      "Id": 20016,
+      "Sort": 17,
+      "Type": 2,
+      "Title": {
+        "Namespace": "BannerCarousel_I18N",
+        "Key": "19_Title",
+        "SourceString": "特惠组合包",
+        "LocalizedString": "特惠组合包"
+      },
+      "BannerName": {
+        "CultureInvariantString": null
+      },
+      "BannerNameJustify": 0,
+      "EnableBannerNameDoubleLine": false,
+      "Icon": "",
+      "Localicon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Banner/T_Dynamic_Banner_20016.T_Dynamic_Banner_20016",
+        "SubPathString": ""
+      },
+      "StartTime": {
+        "Ticks": 638810532000000000
+      },
+      "EndTime": {
+        "Ticks": 638858915990000000
+      },
+      "JumpType": 0,
+      "JumpCmd": "HermesJumpToCmd,HermesHotListPage,20130",
+      "JumpUrl": ""
+    },
+    "20": {
+      "Id": 10108,
+      "Sort": 21,
+      "Type": 1,
+      "Title": {
+        "Namespace": "BannerCarousel",
+        "Key": "42_Title",
+        "SourceString": "萌萌大乱斗",
+        "LocalizedString": "萌萌大乱斗"
+      },
+      "BannerName": {
+        "CultureInvariantString": null
+      },
+      "BannerNameJustify": 0,
+      "EnableBannerNameDoubleLine": false,
+      "Icon": "",
+      "Localicon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Banner/T_Dynamic_Banner_10108.T_Dynamic_Banner_10108",
+        "SubPathString": ""
+      },
+      "StartTime": {
+        "Ticks": 0
+      },
+      "EndTime": {
+        "Ticks": 0
+      },
+      "JumpType": 0,
+      "JumpCmd": "",
+      "JumpUrl": ""
+    },
+    "21": {
+      "Id": 10110,
+      "Sort": 28,
+      "Type": 1,
+      "Title": {
+        "Namespace": "BannerCarousel",
+        "Key": "44_Title",
+        "SourceString": "田间野趣",
+        "LocalizedString": "田间野趣"
+      },
+      "BannerName": {
+        "CultureInvariantString": null
+      },
+      "BannerNameJustify": 0,
+      "EnableBannerNameDoubleLine": false,
+      "Icon": "",
+      "Localicon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Banner/T_Dynamic_Banner_10110.T_Dynamic_Banner_10110",
+        "SubPathString": ""
+      },
+      "StartTime": {
+        "Ticks": 0
+      },
+      "EndTime": {
+        "Ticks": 0
+      },
+      "JumpType": 0,
+      "JumpCmd": "",
+      "JumpUrl": ""
+    },
+    "22": {
+      "Id": 20017,
+      "Sort": 32,
+      "Type": 2,
+      "Title": {
+        "Namespace": "BannerCarousel_I18N",
+        "Key": "22_Title",
+        "SourceString": "限时商城",
+        "LocalizedString": "限时商城"
+      },
+      "BannerName": {
+        "CultureInvariantString": null
+      },
+      "BannerNameJustify": 0,
+      "EnableBannerNameDoubleLine": false,
+      "Icon": "",
+      "Localicon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Banner/T_Dynamic_Banner_20017.T_Dynamic_Banner_20017",
+        "SubPathString": ""
+      },
+      "StartTime": {
+        "Ticks": 638834724000000000
+      },
+      "EndTime": {
+        "Ticks": 638846819990000000
+      },
+      "JumpType": 0,
+      "JumpCmd": "HermesJumpToCmd,HermesHotListPage,20147",
+      "JumpUrl": ""
+    },
+    "23": {
+      "Id": 10034,
+      "Sort": 33,
+      "Type": 2,
+      "Title": {
+        "Namespace": "BannerCarousel_I18N",
+        "Key": "23_Title",
+        "SourceString": "限时商城",
+        "LocalizedString": "限时商城"
+      },
+      "BannerName": {
+        "CultureInvariantString": null
+      },
+      "BannerNameJustify": 0,
+      "EnableBannerNameDoubleLine": false,
+      "Icon": "",
+      "Localicon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Banner/T_Dynamic_Banner_10034.T_Dynamic_Banner_10034",
+        "SubPathString": ""
+      },
+      "StartTime": {
+        "Ticks": 638846820000000000
+      },
+      "EndTime": {
+        "Ticks": 638858915990000000
+      },
+      "JumpType": 0,
+      "JumpCmd": "HermesJumpToCmd,HermesHotListPage,20048",
+      "JumpUrl": ""
+    },
+    "24": {
+      "Id": 20018,
+      "Sort": 35,
+      "Type": 2,
+      "Title": {
+        "Namespace": "BannerCarousel_I18N",
+        "Key": "24_Title",
+        "SourceString": "限时商城",
+        "LocalizedString": "限时商城"
+      },
+      "BannerName": {
+        "CultureInvariantString": null
+      },
+      "BannerNameJustify": 0,
+      "EnableBannerNameDoubleLine": false,
+      "Icon": "",
+      "Localicon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Banner/T_Dynamic_Banner_20018.T_Dynamic_Banner_20018",
+        "SubPathString": ""
+      },
+      "StartTime": {
+        "Ticks": 638858916000000000
+      },
+      "EndTime": {
+        "Ticks": 638871011990000000
+      },
+      "JumpType": 0,
+      "JumpCmd": "HermesJumpToCmd,HermesHotListPage,20152",
+      "JumpUrl": ""
+    },
+    "25": {
+      "Id": 10115,
+      "Sort": 26,
+      "Type": 1,
+      "Title": {
+        "Namespace": "BannerCarousel",
+        "Key": "43_Title",
+        "SourceString": "奇趣游乐园",
+        "LocalizedString": "奇趣游乐园"
+      },
+      "BannerName": {
+        "CultureInvariantString": null
+      },
+      "BannerNameJustify": 0,
+      "EnableBannerNameDoubleLine": false,
+      "Icon": "",
+      "Localicon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Banner/T_Dynamic_Banner_10115.T_Dynamic_Banner_10115",
+        "SubPathString": ""
+      },
+      "StartTime": {
+        "Ticks": 0
+      },
+      "EndTime": {
+        "Ticks": 0
+      },
+      "JumpType": 0,
+      "JumpCmd": "",
+      "JumpUrl": ""
+    },
+    "26": {
+      "Id": 10113,
+      "Sort": 27,
+      "Type": 1,
+      "Title": {
+        "Namespace": "BannerCarousel",
+        "Key": "45_Title",
+        "SourceString": "裂隙争战",
+        "LocalizedString": "裂隙争战"
+      },
+      "BannerName": {
+        "CultureInvariantString": null
+      },
+      "BannerNameJustify": 0,
+      "EnableBannerNameDoubleLine": false,
+      "Icon": "",
+      "Localicon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Banner/T_Dynamic_Banner_10113.T_Dynamic_Banner_10113",
+        "SubPathString": ""
+      },
+      "StartTime": {
+        "Ticks": 0
+      },
+      "EndTime": {
+        "Ticks": 0
+      },
+      "JumpType": 0,
+      "JumpCmd": "",
+      "JumpUrl": ""
+    },
+    "27": {
+      "Id": 20020,
+      "Sort": 16,
+      "Type": 2,
+      "Title": {
+        "Namespace": "BannerCarousel_I18N",
+        "Key": "27_Title",
+        "SourceString": "世纪歌姬",
+        "LocalizedString": "世纪歌姬"
+      },
+      "BannerName": {
+        "CultureInvariantString": null
+      },
+      "BannerNameJustify": 0,
+      "EnableBannerNameDoubleLine": false,
+      "Icon": "",
+      "Localicon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Banner/T_Dynamic_Banner_20020.T_Dynamic_Banner_20020",
+        "SubPathString": ""
+      },
+      "StartTime": {
+        "Ticks": 638804484000000000
+      },
+      "EndTime": {
+        "Ticks": 638828675990000000
+      },
+      "JumpType": 0,
+      "JumpCmd": "HermesJumpToCmd,Lottery,17",
+      "JumpUrl": ""
+    },
+    "28": {
+      "Id": 20021,
+      "Sort": 30,
+      "Type": 2,
+      "Title": {
+        "Namespace": "BannerCarousel_I18N",
+        "Key": "28_Title",
+        "SourceString": "千面之月",
+        "LocalizedString": "千面之月"
+      },
+      "BannerName": {
+        "CultureInvariantString": null
+      },
+      "BannerNameJustify": 0,
+      "EnableBannerNameDoubleLine": false,
+      "Icon": "",
+      "Localicon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Banner/T_Dynamic_Banner_20021.T_Dynamic_Banner_20021",
+        "SubPathString": ""
+      },
+      "StartTime": {
+        "Ticks": 638828676000000000
+      },
+      "EndTime": {
+        "Ticks": 638852867990000000
+      },
+      "JumpType": 0,
+      "JumpCmd": "HermesJumpToCmd,Lottery,19",
+      "JumpUrl": ""
+    },
+    "29": {
+      "Id": 20022,
+      "Sort": 34,
+      "Type": 2,
+      "Title": {
+        "Namespace": "BannerCarousel_I18N",
+        "Key": "29_Title",
+        "SourceString": "日珥战姬",
+        "LocalizedString": "日珥战姬"
+      },
+      "BannerName": {
+        "CultureInvariantString": null
+      },
+      "BannerNameJustify": 0,
+      "EnableBannerNameDoubleLine": false,
+      "Icon": "",
+      "Localicon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Banner/T_Dynamic_Banner_20022.T_Dynamic_Banner_20022",
+        "SubPathString": ""
+      },
+      "StartTime": {
+        "Ticks": 638852868000000000
+      },
+      "EndTime": {
+        "Ticks": 638877059990000000
+      },
+      "JumpType": 0,
+      "JumpCmd": "HermesJumpToCmd,Lottery,21",
+      "JumpUrl": ""
+    },
+    "30": {
+      "Id": 20024,
+      "Sort": 24,
+      "Type": 2,
+      "Title": {
+        "Namespace": "BannerCarousel_I18N",
+        "Key": "30_Title",
+        "SourceString": "特惠组合包",
+        "LocalizedString": "特惠组合包"
+      },
+      "BannerName": {
+        "CultureInvariantString": null
+      },
+      "BannerNameJustify": 0,
+      "EnableBannerNameDoubleLine": false,
+      "Icon": "",
+      "Localicon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Banner/T_Dynamic_Banner_20024.T_Dynamic_Banner_20024",
+        "SubPathString": ""
+      },
+      "StartTime": {
+        "Ticks": 638822628000000000
+      },
+      "EndTime": {
+        "Ticks": 638858915990000000
+      },
+      "JumpType": 0,
+      "JumpCmd": "HermesJumpToCmd,HermesHotListPage,20157",
+      "JumpUrl": ""
+    },
+    "64": {
+      "Id": 20025,
+      "Sort": 31,
+      "Type": 2,
+      "Title": {
+        "Namespace": "BannerCarousel",
+        "Key": "64_Title",
+        "SourceString": "晶源感染卡牌",
+        "LocalizedString": "晶源感染卡牌"
+      },
+      "BannerName": {
+        "CultureInvariantString": null
+      },
+      "BannerNameJustify": 0,
+      "EnableBannerNameDoubleLine": false,
+      "Icon": "",
+      "Localicon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Banner/T_Dynamic_Banner_20025.T_Dynamic_Banner_20025",
+        "SubPathString": ""
+      },
+      "StartTime": {
+        "Ticks": 638836452000000000
+      },
+      "EndTime": {
+        "Ticks": 638895203990000000
+      },
+      "JumpType": 0,
+      "JumpCmd": "HermesJumpToCmd,HermesHotListPage,20164",
+      "JumpUrl": ""
+    },
+    "32": {
+      "Id": 10114,
+      "Sort": 44,
+      "Type": 1,
+      "Title": {
+        "Namespace": "BannerCarousel",
+        "Key": "46_Title",
+        "SourceString": "卡牌速递",
+        "LocalizedString": "卡牌速递"
+      },
+      "BannerName": {
+        "CultureInvariantString": null
+      },
+      "BannerNameJustify": 0,
+      "EnableBannerNameDoubleLine": false,
+      "Icon": "",
+      "Localicon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Banner/T_Dynamic_Banner_10114.T_Dynamic_Banner_10114",
+        "SubPathString": ""
+      },
+      "StartTime": {
+        "Ticks": 0
+      },
+      "EndTime": {
+        "Ticks": 0
+      },
+      "JumpType": 0,
+      "JumpCmd": "",
+      "JumpUrl": ""
+    },
+    "46": {
+      "Id": 10111,
+      "Sort": 46,
+      "Type": 1,
+      "Title": {
+        "Namespace": "BannerCarousel",
+        "Key": "47_Title",
+        "SourceString": "燃枫为狩，挽弓卫道",
+        "LocalizedString": "燃枫为狩，挽弓卫道"
+      },
+      "BannerName": {
+        "CultureInvariantString": null
+      },
+      "BannerNameJustify": 0,
+      "EnableBannerNameDoubleLine": false,
+      "Icon": "",
+      "Localicon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Banner/T_Dynamic_Banner_10111.T_Dynamic_Banner_10111",
+        "SubPathString": ""
+      },
+      "StartTime": {
+        "Ticks": 0
+      },
+      "EndTime": {
+        "Ticks": 0
+      },
+      "JumpType": 0,
+      "JumpCmd": "",
+      "JumpUrl": ""
+    },
+    "47": {
+      "Id": 10119,
+      "Sort": 47,
+      "Type": 1,
+      "Title": {
+        "Namespace": "BannerCarousel",
+        "Key": "48_Title",
+        "SourceString": "咸鱼特卖",
+        "LocalizedString": "咸鱼特卖"
+      },
+      "BannerName": {
+        "CultureInvariantString": null
+      },
+      "BannerNameJustify": 0,
+      "EnableBannerNameDoubleLine": false,
+      "Icon": "",
+      "Localicon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Banner/T_Dynamic_Banner_10119.T_Dynamic_Banner_10119",
+        "SubPathString": ""
+      },
+      "StartTime": {
+        "Ticks": 0
+      },
+      "EndTime": {
+        "Ticks": 0
+      },
+      "JumpType": 0,
+      "JumpCmd": "",
+      "JumpUrl": ""
+    },
+    "48": {
+      "Id": 10110,
+      "Sort": 48,
+      "Type": 1,
+      "Title": {
+        "Namespace": "BannerCarousel",
+        "Key": "49_Title",
+        "SourceString": "夺旗阵营战",
+        "LocalizedString": "夺旗阵营战"
+      },
+      "BannerName": {
+        "CultureInvariantString": null
+      },
+      "BannerNameJustify": 0,
+      "EnableBannerNameDoubleLine": false,
+      "Icon": "",
+      "Localicon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Banner/T_Dynamic_Banner_10110.T_Dynamic_Banner_10110",
+        "SubPathString": ""
+      },
+      "StartTime": {
+        "Ticks": 0
+      },
+      "EndTime": {
+        "Ticks": 0
+      },
+      "JumpType": 0,
+      "JumpCmd": "",
       "JumpUrl": ""
     }
   }

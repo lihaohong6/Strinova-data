@@ -2,6 +2,7 @@
   "Type": "AkAudioEvent",
   "Name": "UI_EquipmentRoom_Unlock",
   "Class": "UScriptClass'AkAudioEvent'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
   "Properties": {
     "MinimumDuration": 2.003084,
     "MaximumDuration": 2.003084,
@@ -9,5 +10,42 @@
       "ObjectName": "AkAudioBank'UI_EquipmentRoom'",
       "ObjectPath": "PM/Content/WwiseAssets/AkBank/UI_EquipmentRoom.0"
     }
-  }
+  },
+  "EventCookedData": {
+    "EventLanguageMap": [
+      {
+        "Key": {
+          "LanguageId": 0,
+          "LanguageName": "SFX",
+          "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
+        },
+        "Value": {
+          "EventId": 556448790,
+          "SoundBanks": [
+            {
+              "SoundBankId": 766976815,
+              "SoundBankPathName": "UI_EquipmentRoom.bnk",
+              "MemoryAlignment": 16,
+              "bDeviceMemory": false,
+              "bContainsMedia": true,
+              "SoundBankType": "EWwiseSoundBankType::User",
+              "DebugName": "UI_EquipmentRoom"
+            }
+          ],
+          "Media": [],
+          "ExternalSources": [],
+          "SwitchContainerLeaves": [],
+          "RequiredGroupValueSet": [],
+          "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
+          "DebugName": "UI_EquipmentRoom_Unlock"
+        }
+      }
+    ],
+    "DebugName": "UI_EquipmentRoom_Unlock",
+    "EventId": 556448790
+  },
+  "MaximumDuration": 2.003084,
+  "MinimumDuration": 2.003084,
+  "IsInfinite": false,
+  "MaxAttenuationRadius": 0.0
 }

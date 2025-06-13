@@ -2,6 +2,7 @@
   "Type": "DataTable",
   "Name": "GuideTask",
   "Class": "UScriptClass'DataTable'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
   "Properties": {
     "RowStruct": {
       "ObjectName": "ScriptStruct'CyGuideTaskTableRow'",
@@ -21,8 +22,8 @@
       "Desc": {
         "Namespace": "GuideTask",
         "Key": "60001_Desc",
-        "SourceString": "完成团竞引导",
-        "LocalizedString": "完成团竞引导"
+        "SourceString": "完成1场推车训练",
+        "LocalizedString": "完成1场推车训练"
       },
       "Type": 6,
       "UniqueType": 0,
@@ -61,7 +62,8 @@
             "Num": 1,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
-            "BehaviorId": 53
+            "BehaviorId": 55,
+            "RandomCondition": []
           },
           "LimitConditions": []
         }
@@ -70,8 +72,8 @@
         "GameTypes": [],
         "ModeTypes": []
       },
-      "Lev": 2,
-      "GuideName": "TeamFightGuide",
+      "Lev": 1,
+      "GuideName": "CartGuide",
       "RewardShow": 1
     },
     "60002": {
@@ -86,8 +88,8 @@
       "Desc": {
         "Namespace": "GuideTask",
         "Key": "60002_Desc",
-        "SourceString": "完成1场无限团竞模式",
-        "LocalizedString": "完成1场无限团竞模式"
+        "SourceString": "完成1场任意模式",
+        "LocalizedString": "完成1场任意模式"
       },
       "Type": 6,
       "UniqueType": 0,
@@ -126,7 +128,8 @@
             "Num": 1,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
-            "BehaviorId": 50
+            "BehaviorId": 64,
+            "RandomCondition": []
           },
           "LimitConditions": []
         }
@@ -136,7 +139,7 @@
         "ModeTypes": []
       },
       "Lev": 2,
-      "GuideName": "TeamFight",
+      "GuideName": "PushCar",
       "RewardShow": 0
     },
     "60003": {
@@ -145,14 +148,14 @@
       "Title": {
         "Namespace": "GuideTask",
         "Key": "60003_Title",
-        "SourceString": "新模式",
-        "LocalizedString": "新模式"
+        "SourceString": "技能",
+        "LocalizedString": "技能"
       },
       "Desc": {
         "Namespace": "GuideTask",
         "Key": "60003_Desc",
-        "SourceString": "完成爆破引导",
-        "LocalizedString": "完成爆破引导"
+        "SourceString": "使用Q技能5次",
+        "LocalizedString": "使用Q技能5次"
       },
       "Type": 6,
       "UniqueType": 0,
@@ -165,13 +168,13 @@
       "TaskConditions": [
         {
           "MainCondition": {
-            "MainType": "ECyTaskMainConditionType::Lobby",
+            "MainType": "ECyTaskMainConditionType::Battle",
             "GameCondition": "ECyTaskGameConditionType::None",
             "GameResult": "ECyGameResultType::None",
             "RoundResult": "ECyRoundResultType::None",
             "bFriendTeam": false,
             "bNoFriendTeam": false,
-            "BattleCondition": "ECyTaskBattleConditionType::None",
+            "BattleCondition": "ECyTaskBattleConditionType::UseSkillNum",
             "bHeadshot": false,
             "bHitBody": false,
             "bFirstKill": false,
@@ -187,11 +190,14 @@
             "EnemyMeshModes": [],
             "WeaponTypes": [],
             "WeaponHoldType": [],
-            "SkillTypes": [],
-            "Num": 1,
+            "SkillTypes": [
+              "ECyPlayerSkillType::Q"
+            ],
+            "Num": 5,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
-            "BehaviorId": 54
+            "BehaviorId": 0,
+            "RandomCondition": []
           },
           "LimitConditions": []
         }
@@ -201,7 +207,7 @@
         "ModeTypes": []
       },
       "Lev": 4,
-      "GuideName": "BombGuide",
+      "GuideName": "",
       "RewardShow": 0
     },
     "60004": {
@@ -210,14 +216,14 @@
       "Title": {
         "Namespace": "GuideTask",
         "Key": "60004_Title",
-        "SourceString": "爆破",
-        "LocalizedString": "爆破"
+        "SourceString": "射击",
+        "LocalizedString": "射击"
       },
       "Desc": {
         "Namespace": "GuideTask",
         "Key": "60004_Desc",
-        "SourceString": "安装或者拆除1次炸弹\n完成1场一般爆破模式",
-        "LocalizedString": "安装或者拆除1次炸弹\n完成1场一般爆破模式"
+        "SourceString": "击杀或助攻5名敌人",
+        "LocalizedString": "击杀或助攻5名敌人"
       },
       "Type": 6,
       "UniqueType": 0,
@@ -230,45 +236,13 @@
       "TaskConditions": [
         {
           "MainCondition": {
-            "MainType": "ECyTaskMainConditionType::Action",
+            "MainType": "ECyTaskMainConditionType::Battle",
             "GameCondition": "ECyTaskGameConditionType::None",
             "GameResult": "ECyGameResultType::None",
             "RoundResult": "ECyRoundResultType::None",
             "bFriendTeam": false,
             "bNoFriendTeam": false,
-            "BattleCondition": "ECyTaskBattleConditionType::None",
-            "bHeadshot": false,
-            "bHitBody": false,
-            "bFirstKill": false,
-            "bRevenge": false,
-            "MultiKillLimit": 0,
-            "HitDistLimit": 0,
-            "bBlind": false,
-            "ActionCondition": "ECyTaskActionConditionType::InstallOrRemoveC4Num",
-            "RoleIds": [],
-            "RoleProfessions": [],
-            "RoleTeams": [],
-            "MeshModes": [],
-            "EnemyMeshModes": [],
-            "WeaponTypes": [],
-            "WeaponHoldType": [],
-            "SkillTypes": [],
-            "Num": 1,
-            "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
-            "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
-            "BehaviorId": 0
-          },
-          "LimitConditions": []
-        },
-        {
-          "MainCondition": {
-            "MainType": "ECyTaskMainConditionType::Lobby",
-            "GameCondition": "ECyTaskGameConditionType::None",
-            "GameResult": "ECyGameResultType::None",
-            "RoundResult": "ECyRoundResultType::None",
-            "bFriendTeam": false,
-            "bNoFriendTeam": false,
-            "BattleCondition": "ECyTaskBattleConditionType::None",
+            "BattleCondition": "ECyTaskBattleConditionType::ParticipateKillNum",
             "bHeadshot": false,
             "bHitBody": false,
             "bFirstKill": false,
@@ -285,10 +259,11 @@
             "WeaponTypes": [],
             "WeaponHoldType": [],
             "SkillTypes": [],
-            "Num": 1,
+            "Num": 5,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
-            "BehaviorId": 51
+            "BehaviorId": 0,
+            "RandomCondition": []
           },
           "LimitConditions": []
         }
@@ -298,7 +273,7 @@
         "ModeTypes": []
       },
       "Lev": 4,
-      "GuideName": "Bomb",
+      "GuideName": "",
       "RewardShow": 0
     },
     "60005": {
@@ -307,14 +282,14 @@
       "Title": {
         "Namespace": "GuideTask",
         "Key": "60005_Title",
-        "SourceString": "极限推进",
-        "LocalizedString": "极限推进"
+        "SourceString": "胜利",
+        "LocalizedString": "胜利"
       },
       "Desc": {
         "Namespace": "GuideTask",
         "Key": "60005_Desc",
-        "SourceString": "完成1场极限推进模式",
-        "LocalizedString": "完成1场极限推进模式"
+        "SourceString": "取得1场任意模式胜利",
+        "LocalizedString": "取得1场任意模式胜利"
       },
       "Type": 6,
       "UniqueType": 0,
@@ -353,7 +328,8 @@
             "Num": 1,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
-            "BehaviorId": 52
+            "BehaviorId": 56,
+            "RandomCondition": []
           },
           "LimitConditions": []
         }
@@ -363,7 +339,7 @@
         "ModeTypes": []
       },
       "Lev": 4,
-      "GuideName": "PushCar",
+      "GuideName": "",
       "RewardShow": 0
     }
   }

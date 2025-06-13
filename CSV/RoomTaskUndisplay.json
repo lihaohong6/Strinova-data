@@ -2,6 +2,7 @@
   "Type": "DataTable",
   "Name": "RoomTaskUndisplay",
   "Class": "UScriptClass'DataTable'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
   "Properties": {
     "RowStruct": {
       "ObjectName": "ScriptStruct'CyRoomTaskUndisplayTableRow'",
@@ -39,7 +40,8 @@
             "Num": 1,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
-            "BehaviorId": 15
+            "BehaviorId": 15,
+            "RandomCondition": []
           },
           "LimitConditions": []
         }

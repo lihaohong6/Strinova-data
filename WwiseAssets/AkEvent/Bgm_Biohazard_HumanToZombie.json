@@ -2,10 +2,61 @@
   "Type": "AkAudioEvent",
   "Name": "Bgm_Biohazard_HumanToZombie",
   "Class": "UScriptClass'AkAudioEvent'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
   "Properties": {
     "RequiredBank": {
       "ObjectName": "AkAudioBank'Bgm_Biohazard'",
       "ObjectPath": "PM/Content/WwiseAssets/AkBank/Bgm_Biohazard.0"
     }
-  }
+  },
+  "EventCookedData": {
+    "EventLanguageMap": [
+      {
+        "Key": {
+          "LanguageId": 0,
+          "LanguageName": "SFX",
+          "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
+        },
+        "Value": {
+          "EventId": 1615133265,
+          "SoundBanks": [
+            {
+              "SoundBankId": 2112405386,
+              "SoundBankPathName": "Bgm_Biohazard.bnk",
+              "MemoryAlignment": 16,
+              "bDeviceMemory": false,
+              "bContainsMedia": true,
+              "SoundBankType": "EWwiseSoundBankType::User",
+              "DebugName": "Bgm_Biohazard"
+            }
+          ],
+          "Media": [],
+          "ExternalSources": [],
+          "SwitchContainerLeaves": [],
+          "RequiredGroupValueSet": [
+            {
+              "Type": "EWwiseGroupType::State",
+              "GroupId": 2112405386,
+              "Id": 1267649422,
+              "DebugName": "Bgm_Biohazard_ShortAudio_HumanToZombie"
+            },
+            {
+              "Type": "EWwiseGroupType::State",
+              "GroupId": 2112405386,
+              "Id": 1796627234,
+              "DebugName": "Bgm_Biohazard_NormalZombie"
+            }
+          ],
+          "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
+          "DebugName": "Bgm_Biohazard_HumanToZombie"
+        }
+      }
+    ],
+    "DebugName": "Bgm_Biohazard_HumanToZombie",
+    "EventId": 1615133265
+  },
+  "MaximumDuration": 0.0,
+  "MinimumDuration": 0.0,
+  "IsInfinite": false,
+  "MaxAttenuationRadius": 0.0
 }

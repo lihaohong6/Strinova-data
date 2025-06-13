@@ -2,6 +2,7 @@
   "Type": "CyGuideDataAsset",
   "Name": "DA_Guide_NoviceGuide",
   "Class": "UScriptClass'CyGuideDataAsset'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
   "Properties": {
     "ShowDeathTipsDelay": 1.5,
     "TaskTargetPointWithUIClass": {
@@ -72,7 +73,9 @@
         "RoleId": 220,
         "RoleSkinId": 0,
         "bCustomPlayerName": true,
-        "PlayerName": "",
+        "PlayerName": {
+          "CultureInvariantString": null
+        },
         "SpawnCount": 4,
         "PlayerStartTagArray": [
           "EnemyDefaultSpawnPoint"
@@ -87,7 +90,9 @@
         "RoleId": 133,
         "RoleSkinId": 0,
         "bCustomPlayerName": true,
-        "PlayerName": "",
+        "PlayerName": {
+          "CultureInvariantString": null
+        },
         "SpawnCount": 1,
         "PlayerStartTagArray": [
           "GuideAISpawnPoint"

@@ -2,6 +2,7 @@
   "Type": "CompositeDataTable",
   "Name": "DT_UITableMobile",
   "Class": "UScriptClass'CompositeDataTable'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
   "Properties": {
     "ParentTables": [
       {
@@ -62,7 +63,7 @@
       },
       {
         "ObjectName": "DataTable'DT_UI_SettingMobile'",
-        "ObjectPath": "/Game/PaperMan/UI/BP/Mobile/Frontend/Setting/DT_UI_SettingMobile"
+        "ObjectPath": "/Game/PaperMan/UI/BP/Mobile/Frontend/SettingMobile/DT_UI_SettingMobile"
       },
       {
         "ObjectName": "DataTable'DT_PlayerProfileMobile'",
@@ -86,7 +87,7 @@
       },
       {
         "ObjectName": "DataTable'DT_UI_SceneMapMobile'",
-        "ObjectPath": "/Game/PaperMan/UI/BP/Mobile/InGame/HUDMobile/SceneMap/DT_UI_SceneMapMobile"
+        "ObjectPath": "/Game/PaperMan/UI/BP/Mobile/InGame/SceneMap/DT_UI_SceneMapMobile"
       },
       {
         "ObjectName": "DataTable'DT_UI_OverheadMobile'",
@@ -109,10 +110,6 @@
         "ObjectPath": "/Game/PaperMan/UI/BP/Mobile/InGame/NonResidentFunctions/SelectRoleMobile/DT_UI_SelectRoleMobile"
       },
       {
-        "ObjectName": "DataTable'DT_UI_AbilityWeapon_Mobile'",
-        "ObjectPath": "/Game/PaperMan/UI/BP/Mobile/InGame/HUDMobile/AbilityWeapon/DT_UI_AbilityWeapon_Mobile"
-      },
-      {
         "ObjectName": "DataTable'DT_UI_SystemNoticeMobile'",
         "ObjectPath": "/Game/PaperMan/UI/BP/Mobile/Frontend/SystemNoticeMobile/DT_UI_SystemNoticeMobile"
       },
@@ -122,7 +119,7 @@
       },
       {
         "ObjectName": "DataTable'DT_UI_ObserverMobile'",
-        "ObjectPath": "/Game/PaperMan/UI/BP/Mobile/InGame/ObserverMobile/DT_UI_ObserverMobile"
+        "ObjectPath": "/Game/PaperMan/UI/BP/Mobile/InGame/NonResidentFunctions/ObserverMobile/DT_UI_ObserverMobile"
       },
       {
         "ObjectName": "CompositeDataTable'CDT_UI_InGameMobile_BombGuide'",
@@ -175,6 +172,26 @@
       {
         "ObjectName": "DataTable'RoleProficiency'",
         "ObjectPath": "/Game/PaperMan/UI/BP/Mobile/Frontend/RoleProficiency/RoleProficiency"
+      },
+      {
+        "ObjectName": "DataTable'DT_UI_CreditMobile'",
+        "ObjectPath": "/Game/PaperMan/UI/BP/Mobile/Frontend/CreditScoreMobile/DT_UI_CreditMobile"
+      },
+      {
+        "ObjectName": "CompositeDataTable'CDT_UI_InGameMobile_Zombie'",
+        "ObjectPath": "/Game/PaperMan/UI/BP/Mobile/InGame/Zombie/CDT_UI_InGameMobile_Zombie"
+      },
+      {
+        "ObjectName": "DataTable'DT_UI_TalentMobile'",
+        "ObjectPath": "/Game/PaperMan/UI/BP/Mobile/Frontend/TalentMobile/DT_UI_TalentMobile"
+      },
+      {
+        "ObjectName": "DataTable'DT_UI_SummerThemeSongMobile'",
+        "ObjectPath": "/Game/PaperMan/UI/BP/Mobile/Frontend/Activities/SummerThemeSong/DT_UI_SummerThemeSongMobile"
+      },
+      {
+        "ObjectName": "DataTable'DT_UI_ActiveTokensSystem'",
+        "ObjectPath": "/Game/PaperMan/UI/BP/Mobile/Frontend/ActiveTokensSystem/DT_UI_ActiveTokensSystem"
       }
     ],
     "RowStruct": {
@@ -195,8 +212,9 @@
       },
       "bIsPanel": false,
       "Layer": "EUILayer::Top",
-      "Order": 60,
+      "Order": 101,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -227,6 +245,7 @@
       "Layer": "EUILayer::Top",
       "Order": 100,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -257,6 +276,7 @@
       "Layer": "EUILayer::Top",
       "Order": 1,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -287,6 +307,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -317,6 +338,7 @@
       "Layer": "EUILayer::Loading",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -347,6 +369,7 @@
       "Layer": "EUILayer::Top",
       "Order": 1,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -377,6 +400,7 @@
       "Layer": "EUILayer::Top",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -407,6 +431,7 @@
       "Layer": "EUILayer::Top",
       "Order": 2,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -437,6 +462,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": true,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -467,6 +493,7 @@
       "Layer": "EUILayer::Top",
       "Order": 111,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -497,6 +524,7 @@
       "Layer": "EUILayer::Top",
       "Order": 111,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -527,6 +555,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 150,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -557,6 +586,7 @@
       "Layer": "EUILayer::Top",
       "Order": 201,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -587,6 +617,7 @@
       "Layer": "EUILayer::Top",
       "Order": 110,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -617,6 +648,7 @@
       "Layer": "EUILayer::Top",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -647,6 +679,7 @@
       "Layer": "EUILayer::Top",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -674,6 +707,7 @@
       "Layer": "EUILayer::Top",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -702,8 +736,9 @@
       },
       "bIsPanel": false,
       "Layer": "EUILayer::Normal",
-      "Order": 1,
+      "Order": 59,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -732,8 +767,9 @@
       },
       "bIsPanel": false,
       "Layer": "EUILayer::Normal",
-      "Order": 2,
+      "Order": 60,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -764,6 +800,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 80,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -794,6 +831,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 80,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -824,6 +862,7 @@
       "Layer": "EUILayer::Max",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -854,6 +893,7 @@
       "Layer": "EUILayer::Top",
       "Order": 150,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -884,6 +924,7 @@
       "Layer": "EUILayer::Top",
       "Order": 111,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -911,9 +952,10 @@
         "SubPathString": ""
       },
       "bIsPanel": false,
-      "Layer": "EUILayer::Normal",
+      "Layer": "EUILayer::Top",
       "Order": 111,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -944,6 +986,7 @@
       "Layer": "EUILayer::Top",
       "Order": 111,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -974,6 +1017,221 @@
       "Layer": "EUILayer::Top",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "RewardDisplayJumpPage": {
+      "PageName": "RewardDisplayJumpPage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/Common/ItemDisplayPanel/WBP_RewardJumpPage_Mobile.WBP_RewardJumpPage_Mobile_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Top",
+      "Order": 60,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "WeaponSkinEffectPreviewPage": {
+      "PageName": "WeaponSkinEffectPreviewPage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/EquipRoom/New/SkinUpgrade/WBP_WeaponSkinEffectPreviewPage_Mobile.WBP_WeaponSkinEffectPreviewPage_Mobile_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 0,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "ReconnectPage": {
+      "PageName": "ReconnectPage",
+      "PageClass": null,
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/ReconnectMobile/WBP_Reconnect_Mobile.WBP_Reconnect_Mobile_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Top",
+      "Order": 150,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "PendingPage": {
+      "PageName": "PendingPage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/ReconnectMobile/WBP_Reconnect_Mobile.WBP_Reconnect_Mobile_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Top",
+      "Order": 100,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "FXWindowPage": {
+      "PageName": "FXWindowPage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/Common/WBP_FXWindow_Mobile.WBP_FXWindow_Mobile_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Top",
+      "Order": 200,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "FlapFacePromotionPage": {
+      "PageName": "FlapFacePromotionPage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/Activities/FacePicture/WBP_FacePicture_Mobile.WBP_FacePicture_Mobile_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Top",
+      "Order": 60,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "DecorationTipsPage": {
+      "PageName": "DecorationTipsPage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/Common/ItemTips/WBP_DecorationItemTipsPage_Mobile.WBP_DecorationItemTipsPage_Mobile_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Top",
+      "Order": 111,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -1004,6 +1262,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": true,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -1034,6 +1293,7 @@
       "Layer": "EUILayer::Top",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -1064,6 +1324,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 10,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -1094,6 +1355,7 @@
       "Layer": "EUILayer::Top",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -1121,6 +1383,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -1151,6 +1414,7 @@
       "Layer": "EUILayer::Top",
       "Order": 10,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -1181,6 +1445,7 @@
       "Layer": "EUILayer::Top",
       "Order": 50,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -1211,6 +1476,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": true,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -1241,6 +1507,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": true,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -1271,6 +1538,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": true,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -1299,8 +1567,164 @@
       },
       "bIsPanel": false,
       "Layer": "EUILayer::Normal",
+      "Order": 90,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "DecorationMainPage": {
+      "PageName": "DecorationMainPage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/EquipRoom/New/Decoration/WBP_DecorationMainPage_Mobile.WBP_DecorationMainPage_Mobile_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 0,
+      "FullScreen": true,
+      "OnlyScreen2DUI": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "DecorationUpgradePage": {
+      "PageName": "DecorationUpgradePage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/EquipRoom/New/Decoration/WBP_DecorationUpgradePage_Mobile.WBP_DecorationUpgradePage_Mobile_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "DecorationWearPage": {
+      "PageName": "DecorationWearPage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/EquipRoom/New/Decoration/WBP_DecorationWearPage_Mobile.WBP_DecorationWearPage_Mobile_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 0,
+      "FullScreen": true,
+      "OnlyScreen2DUI": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "DecorationDecompositionPage": {
+      "PageName": "DecorationDecompositionPage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/EquipRoom/New/Decoration/WBP_DecorationDecompositionPage_Mobile.WBP_DecorationDecompositionPage_Mobile_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 0,
+      "FullScreen": true,
+      "OnlyScreen2DUI": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "DecorationDecompositionTipPage": {
+      "PageName": "DecorationDecompositionTipPage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/EquipRoom/New/Decoration/WBP_DecorationDecompositionTipPage_Mobile.WBP_DecorationDecompositionTipPage_Mobile_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 0,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -1331,6 +1755,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -1354,13 +1779,14 @@
         "ObjectPath": "/Script/PMGame"
       },
       "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/HUDMobile/MarkSystem/WBP_MarkWheelPage_Mobile.WBP_MarkWheelPage_Mobile_C",
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/NonResidentFunctions/MarkSystem/WBP_MarkWheelPage_Mobile.WBP_MarkWheelPage_Mobile_C",
         "SubPathString": ""
       },
       "bIsPanel": false,
       "Layer": "EUILayer::Top",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -1391,6 +1817,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 10,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -1421,6 +1848,7 @@
       "Layer": "EUILayer::Top",
       "Order": 99,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -1451,6 +1879,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 11,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -1481,6 +1910,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -1511,6 +1941,7 @@
       "Layer": "EUILayer::Top",
       "Order": 100,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -1541,6 +1972,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -1571,6 +2003,7 @@
       "Layer": "EUILayer::Top",
       "Order": 101,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -1601,6 +2034,7 @@
       "Layer": "EUILayer::Loading",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -1631,6 +2065,7 @@
       "Layer": "EUILayer::Top",
       "Order": 61,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -1661,6 +2096,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -1691,6 +2127,7 @@
       "Layer": "EUILayer::Loading",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -1721,6 +2158,7 @@
       "Layer": "EUILayer::Top",
       "Order": 60,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -1751,6 +2189,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 30,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -1781,6 +2220,7 @@
       "Layer": "EUILayer::Top",
       "Order": 100,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -1811,6 +2251,7 @@
       "Layer": "EUILayer::Top",
       "Order": 60,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -1841,6 +2282,7 @@
       "Layer": "EUILayer::Top",
       "Order": 60,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -1871,6 +2313,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 30,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -1901,6 +2344,7 @@
       "Layer": "EUILayer::Top",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -1931,6 +2375,7 @@
       "Layer": "EUILayer::Top",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -1961,6 +2406,7 @@
       "Layer": "EUILayer::Top",
       "Order": 60,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -1984,13 +2430,14 @@
         "ObjectPath": "/Script/PMGame"
       },
       "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/HUDMobile/SceneMap/WBP_BigSceneMap_Mobile.WBP_BigSceneMap_Mobile_C",
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/SceneMap/WBP_BigSceneMap_Mobile.WBP_BigSceneMap_Mobile_C",
         "SubPathString": ""
       },
       "bIsPanel": false,
       "Layer": "EUILayer::Top",
       "Order": 2,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -2021,6 +2468,7 @@
       "Layer": "EUILayer::Top",
       "Order": 1,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -2051,6 +2499,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": true,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -2081,6 +2530,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": true,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -2108,9 +2558,10 @@
         "SubPathString": ""
       },
       "bIsPanel": false,
-      "Layer": "EUILayer::Normal",
-      "Order": 101,
+      "Layer": "EUILayer::Top",
+      "Order": 11,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -2141,6 +2592,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": true,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -2171,6 +2623,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": true,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -2201,6 +2654,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": true,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -2231,66 +2685,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": true,
-      "SlotNameList": [],
-      "Anchors": {
-        "Minimum": {
-          "X": 0.0,
-          "Y": 0.0
-        },
-        "Maximum": {
-          "X": 0.0,
-          "Y": 0.0
-        }
-      },
-      "Alignment": {
-        "X": 0.0,
-        "Y": 0.0
-      }
-    },
-    "HermesNewbieGiftPackPage": {
-      "PageName": "HermesNewbieGiftPackPage",
-      "PageClass": {
-        "ObjectName": "Class'PMViewControllerPage'",
-        "ObjectPath": "/Script/PMGame"
-      },
-      "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/Hermes/GiftPack/WBP_HermesGiftPack_Mobile.WBP_HermesGiftPack_Mobile_C",
-        "SubPathString": ""
-      },
-      "bIsPanel": false,
-      "Layer": "EUILayer::Normal",
-      "Order": 0,
-      "FullScreen": true,
-      "SlotNameList": [],
-      "Anchors": {
-        "Minimum": {
-          "X": 0.0,
-          "Y": 0.0
-        },
-        "Maximum": {
-          "X": 0.0,
-          "Y": 0.0
-        }
-      },
-      "Alignment": {
-        "X": 0.0,
-        "Y": 0.0
-      }
-    },
-    "HermesLevelGiftPackPage": {
-      "PageName": "HermesLevelGiftPackPage",
-      "PageClass": {
-        "ObjectName": "Class'PMViewControllerPage'",
-        "ObjectPath": "/Script/PMGame"
-      },
-      "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/Hermes/GiftPack/WBP_HermesGiftPack_Mobile.WBP_HermesGiftPack_Mobile_C",
-        "SubPathString": ""
-      },
-      "bIsPanel": false,
-      "Layer": "EUILayer::Normal",
-      "Order": 0,
-      "FullScreen": true,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -2321,6 +2716,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": true,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -2351,6 +2747,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": true,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -2381,6 +2778,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": true,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -2404,73 +2802,14 @@
         "ObjectPath": "/Script/PMGame"
       },
       "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/Hermes/Store/WBP_HermesStorePage_Mobile.WBP_HermesStorePage_Mobile_C",
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/Hermes/Store/WBP_HermesExchangePage_Mobile.WBP_HermesExchangePage_Mobile_C",
         "SubPathString": ""
       },
       "bIsPanel": false,
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": true,
-      "SlotNameList": [],
-      "Anchors": {
-        "Minimum": {
-          "X": 0.0,
-          "Y": 0.0
-        },
-        "Maximum": {
-          "X": 0.0,
-          "Y": 0.0
-        }
-      },
-      "Alignment": {
-        "X": 0.0,
-        "Y": 0.0
-      }
-    },
-    "HermesRolePage": {
-      "PageName": "HermesRolePage",
-      "PageClass": {
-        "ObjectName": "Class'PMViewControllerPage'",
-        "ObjectPath": "/Script/PMGame"
-      },
-      "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/Hermes/Store/WBP_HermesStorePage_Mobile.WBP_HermesStorePage_Mobile_C",
-        "SubPathString": ""
-      },
-      "bIsPanel": false,
-      "Layer": "EUILayer::Normal",
-      "Order": 0,
-      "FullScreen": true,
-      "SlotNameList": [],
-      "Anchors": {
-        "Minimum": {
-          "X": 0.0,
-          "Y": 0.0
-        },
-        "Maximum": {
-          "X": 0.0,
-          "Y": 0.0
-        }
-      },
-      "Alignment": {
-        "X": 0.0,
-        "Y": 0.0
-      }
-    },
-    "HermesSkinPage": {
-      "PageName": "HermesSkinPage",
-      "PageClass": {
-        "ObjectName": "Class'PMViewControllerPage'",
-        "ObjectPath": "/Script/PMGame"
-      },
-      "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/Hermes/Store/WBP_HermesStorePage_Mobile.WBP_HermesStorePage_Mobile_C",
-        "SubPathString": ""
-      },
-      "bIsPanel": false,
-      "Layer": "EUILayer::Normal",
-      "Order": 0,
-      "FullScreen": true,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -2499,68 +2838,9 @@
       },
       "bIsPanel": false,
       "Layer": "EUILayer::Top",
-      "Order": 10,
+      "Order": 11,
       "FullScreen": false,
-      "SlotNameList": [],
-      "Anchors": {
-        "Minimum": {
-          "X": 0.0,
-          "Y": 0.0
-        },
-        "Maximum": {
-          "X": 0.0,
-          "Y": 0.0
-        }
-      },
-      "Alignment": {
-        "X": 0.0,
-        "Y": 0.0
-      }
-    },
-    "HermesVIPPage_TopUp": {
-      "PageName": "HermesVIPPage_TopUp",
-      "PageClass": {
-        "ObjectName": "Class'PMViewControllerPage'",
-        "ObjectPath": "/Script/PMGame"
-      },
-      "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/Hermes/VIP/WBP_HermesVIP_Mobile.WBP_HermesVIP_Mobile_C",
-        "SubPathString": ""
-      },
-      "bIsPanel": false,
-      "Layer": "EUILayer::Normal",
-      "Order": 0,
-      "FullScreen": true,
-      "SlotNameList": [],
-      "Anchors": {
-        "Minimum": {
-          "X": 0.0,
-          "Y": 0.0
-        },
-        "Maximum": {
-          "X": 0.0,
-          "Y": 0.0
-        }
-      },
-      "Alignment": {
-        "X": 0.0,
-        "Y": 0.0
-      }
-    },
-    "HermesMonthCardPage_TopUp": {
-      "PageName": "HermesMonthCardPage_TopUp",
-      "PageClass": {
-        "ObjectName": "Class'PMViewControllerPage'",
-        "ObjectPath": "/Script/PMGame"
-      },
-      "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/Hermes/MonthCard/WBP_HermesMonthCard_Mobile.WBP_HermesMonthCard_Mobile_C",
-        "SubPathString": ""
-      },
-      "bIsPanel": false,
-      "Layer": "EUILayer::Normal",
-      "Order": 0,
-      "FullScreen": true,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -2591,6 +2871,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": true,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -2621,6 +2902,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -2651,6 +2933,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -2681,6 +2964,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -2711,6 +2995,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -2738,9 +3023,10 @@
         "SubPathString": ""
       },
       "bIsPanel": false,
-      "Layer": "EUILayer::Normal",
-      "Order": 10,
+      "Layer": "EUILayer::Top",
+      "Order": 11,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -2768,9 +3054,41 @@
         "SubPathString": ""
       },
       "bIsPanel": false,
-      "Layer": "EUILayer::Normal",
-      "Order": 10,
+      "Layer": "EUILayer::Top",
+      "Order": 11,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "MonthlyCardPage": {
+      "PageName": "MonthlyCardPage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/Activities/FacePicture/WBP_MonthlyCard_Mobile.WBP_MonthlyCard_Mobile_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 90,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -2801,6 +3119,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 2,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -2831,6 +3150,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 10,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -2861,6 +3181,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 23,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -2891,6 +3212,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 30,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -2921,6 +3243,38 @@
       "Layer": "EUILayer::Top",
       "Order": 50,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "DiscordPage": {
+      "PageName": "DiscordPage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/NavigationBar/Community/WBP_DiscordPage_Mobile.WBP_DiscordPage_Mobile_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Top",
+      "Order": 50,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -2951,6 +3305,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 2,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -2981,6 +3336,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 30,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -3011,6 +3367,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 1,
       "FullScreen": true,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -3041,6 +3398,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 1,
       "FullScreen": true,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -3071,6 +3429,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 30,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -3101,6 +3460,7 @@
       "Layer": "EUILayer::Top",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -3131,6 +3491,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 50,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -3161,6 +3522,7 @@
       "Layer": "EUILayer::Top",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -3191,6 +3553,7 @@
       "Layer": "EUILayer::Top",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -3221,6 +3584,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 50,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -3251,6 +3615,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": true,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -3281,6 +3646,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": true,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -3311,6 +3677,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 70,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -3341,6 +3708,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 31,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -3371,6 +3739,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 30,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -3401,6 +3770,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 80,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -3428,9 +3798,10 @@
         "SubPathString": ""
       },
       "bIsPanel": false,
-      "Layer": "EUILayer::Top",
+      "Layer": "EUILayer::Loading",
       "Order": 10,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -3454,13 +3825,14 @@
         "ObjectPath": "/Script/PMGame"
       },
       "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/BattlePass/Background/WBP_BattlePassBGPage_Mobile.WBP_BattlePassBGPage_Mobile_C",
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/BattlePass/UnlockBattlePassPage/WBP_UnlockBattlePassPage_Mobile.WBP_UnlockBattlePassPage_Mobile_C",
         "SubPathString": ""
       },
       "bIsPanel": false,
       "Layer": "EUILayer::Normal",
       "Order": 40,
       "FullScreen": true,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -3491,6 +3863,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": true,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -3521,6 +3894,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": true,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -3551,6 +3925,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 30,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -3581,6 +3956,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 30,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -3611,6 +3987,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -3641,6 +4018,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 20,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -3671,6 +4049,7 @@
       "Layer": "EUILayer::Top",
       "Order": 15,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -3701,6 +4080,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 25,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -3731,6 +4111,7 @@
       "Layer": "EUILayer::Top",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -3761,6 +4142,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 15,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -3791,6 +4173,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 60,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -3821,6 +4204,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 100,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -3851,6 +4235,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 100,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -3881,6 +4266,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 100,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -3911,6 +4297,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 100,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -3941,6 +4328,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 100,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -3971,6 +4359,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": true,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -4001,6 +4390,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 20,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -4031,6 +4421,7 @@
       "Layer": "EUILayer::Top",
       "Order": 10,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -4061,6 +4452,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 10,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -4091,6 +4483,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 60,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -4121,6 +4514,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 60,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -4151,6 +4545,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 60,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -4181,6 +4576,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 20,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -4211,6 +4607,7 @@
       "Layer": "EUILayer::Top",
       "Order": 30,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -4239,8 +4636,9 @@
       },
       "bIsPanel": false,
       "Layer": "EUILayer::Normal",
-      "Order": 10,
+      "Order": 60,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -4269,8 +4667,9 @@
       },
       "bIsPanel": false,
       "Layer": "EUILayer::Normal",
-      "Order": 10,
+      "Order": 60,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -4301,6 +4700,7 @@
       "Layer": "EUILayer::Top",
       "Order": 30,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -4331,6 +4731,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 10,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -4361,6 +4762,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": true,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -4391,6 +4793,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": true,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -4421,6 +4824,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": true,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -4451,6 +4855,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": true,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -4481,6 +4886,7 @@
       "Layer": "EUILayer::Top",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -4511,6 +4917,7 @@
       "Layer": "EUILayer::Top",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -4534,13 +4941,14 @@
         "ObjectPath": "/Script/PMGame"
       },
       "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/CareerMobile/Achievement/WBP_Achievement_Mobile.WBP_Achievement_Mobile_C",
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/CareerMobile/AchievementMobile/WBP_Achievement_Mobile.WBP_Achievement_Mobile_C",
         "SubPathString": ""
       },
       "bIsPanel": false,
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": true,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -4571,6 +4979,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": true,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -4594,13 +5003,14 @@
         "ObjectPath": "/Script/PMGame"
       },
       "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/CareerMobile/CareerRank/WBP_CareerRank_Mobile.WBP_CareerRank_Mobile_C",
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/CareerMobile/CareerRankMobile/WBP_CareerRank_Mobile.WBP_CareerRank_Mobile_C",
         "SubPathString": ""
       },
       "bIsPanel": false,
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": true,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -4624,13 +5034,14 @@
         "ObjectPath": "/Script/PMGame"
       },
       "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/CareerMobile/CareerRank/WBP_HonorRank_Mobile.WBP_HonorRank_Mobile_C",
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/CareerMobile/CareerRankMobile/WBP_HonorRank_Mobile.WBP_HonorRank_Mobile_C",
         "SubPathString": ""
       },
       "bIsPanel": false,
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": true,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -4654,13 +5065,14 @@
         "ObjectPath": "/Script/PMGame"
       },
       "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/CareerMobile/CareerRank/WBP_SeasonPrizePage_Mobile.WBP_SeasonPrizePage_Mobile_C",
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/CareerMobile/CareerRankMobile/WBP_SeasonPrizePage_Mobile.WBP_SeasonPrizePage_Mobile_C",
         "SubPathString": ""
       },
       "bIsPanel": false,
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": true,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -4684,13 +5096,14 @@
         "ObjectPath": "/Script/PMGame"
       },
       "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/CareerMobile/CareerRank/WBP_RankIconPage_Mobile.WBP_RankIconPage_Mobile_C",
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/CareerMobile/CareerRankMobile/WBP_RankIconPage_Mobile.WBP_RankIconPage_Mobile_C",
         "SubPathString": ""
       },
       "bIsPanel": false,
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": true,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -4714,13 +5127,14 @@
         "ObjectPath": "/Script/PMGame"
       },
       "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/CareerMobile/CareerRank/WBP_PrizeDisplay_Mobile.WBP_PrizeDisplay_Mobile_C",
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/CareerMobile/CareerRankMobile/WBP_PrizeDisplay_Mobile.WBP_PrizeDisplay_Mobile_C",
         "SubPathString": ""
       },
       "bIsPanel": false,
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -4744,13 +5158,14 @@
         "ObjectPath": "/Script/PMGame"
       },
       "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/CareerMobile/CareerRank/WBP_RankIntroPage_Mobile.WBP_RankIntroPage_Mobile_C",
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/CareerMobile/CareerRankMobile/WBP_RankIntroPage_Mobile.WBP_RankIntroPage_Mobile_C",
         "SubPathString": ""
       },
       "bIsPanel": false,
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -4781,6 +5196,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 100,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -4804,13 +5220,14 @@
         "ObjectPath": "/Script/PMGame"
       },
       "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/Setting/Page/WBP_Setting_Mobile.WBP_Setting_Mobile_C",
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/SettingMobile/Page/WBP_Setting_Mobile.WBP_Setting_Mobile_C",
         "SubPathString": ""
       },
       "bIsPanel": false,
       "Layer": "EUILayer::Top",
-      "Order": 50,
+      "Order": 100,
       "FullScreen": true,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -4834,13 +5251,14 @@
         "ObjectPath": "/Script/PMGame"
       },
       "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/Setting/Page/WBP_SettingOperationMainPage_Mobile.WBP_SettingOperationMainPage_Mobile_C",
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/SettingMobile/Page/WBP_SettingOperationMainPage_Mobile.WBP_SettingOperationMainPage_Mobile_C",
         "SubPathString": ""
       },
       "bIsPanel": false,
       "Layer": "EUILayer::Top",
-      "Order": 50,
+      "Order": 100,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -4864,13 +5282,14 @@
         "ObjectPath": "/Script/PMGame"
       },
       "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/Setting/CloudSolution/WBP_SettingSolution_View_Mobile.WBP_SettingSolution_View_Mobile_C",
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/SettingMobile/CloudSolution/WBP_SettingSolution_View_Mobile.WBP_SettingSolution_View_Mobile_C",
         "SubPathString": ""
       },
       "bIsPanel": false,
       "Layer": "EUILayer::Top",
-      "Order": 50,
+      "Order": 100,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -4894,13 +5313,14 @@
         "ObjectPath": "/Script/PMGame"
       },
       "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/Setting/CloudSolution/WBP_SettingSolution_Detail_Mobile.WBP_SettingSolution_Detail_Mobile_C",
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/SettingMobile/CloudSolution/WBP_SettingSolutionDetail_Mobile.WBP_SettingSolutionDetail_Mobile_C",
         "SubPathString": ""
       },
       "bIsPanel": false,
       "Layer": "EUILayer::Top",
-      "Order": 50,
+      "Order": 100,
       "FullScreen": true,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -4924,13 +5344,14 @@
         "ObjectPath": "/Script/PMGame"
       },
       "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/Setting/CloudSolution/WBP_SettingSolution_Preview_Mobile.WBP_SettingSolution_Preview_Mobile_C",
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/SettingMobile/CloudSolution/WBP_SettingSolution_Preview_Mobile.WBP_SettingSolution_Preview_Mobile_C",
         "SubPathString": ""
       },
       "bIsPanel": false,
       "Layer": "EUILayer::Top",
-      "Order": 50,
+      "Order": 100,
       "FullScreen": true,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -4954,13 +5375,14 @@
         "ObjectPath": "/Script/PMGame"
       },
       "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/Setting/Page/WBP_SettingDefault_View_Mobile.WBP_SettingDefault_View_Mobile_C",
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/SettingMobile/Page/WBP_SettingDefault_View_Mobile.WBP_SettingDefault_View_Mobile_C",
         "SubPathString": ""
       },
       "bIsPanel": false,
       "Layer": "EUILayer::Top",
-      "Order": 50,
+      "Order": 100,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -4984,13 +5406,45 @@
         "ObjectPath": "/Script/PMGame"
       },
       "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/Setting/CloudSolution/WBP_SettingSolution_Operate_Mobile.WBP_SettingSolution_Operate_Mobile_C",
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/SettingMobile/CloudSolution/WBP_SettingSolution_Operate_Mobile.WBP_SettingSolution_Operate_Mobile_C",
         "SubPathString": ""
       },
       "bIsPanel": false,
       "Layer": "EUILayer::Top",
-      "Order": 60,
+      "Order": 101,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "SettingSchemeKOLPage": {
+      "PageName": "SettingSchemeKOLPage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/SettingMobile/CloudSolution/WBP_KOL_Mobile.WBP_KOL_Mobile_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Top",
+      "Order": 101,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -5021,6 +5475,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": true,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -5051,6 +5506,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": true,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -5081,6 +5537,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": true,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -5111,6 +5568,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": true,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -5141,6 +5599,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": true,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -5171,6 +5630,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": true,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -5201,6 +5661,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": true,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -5231,6 +5692,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": true,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -5261,6 +5723,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -5291,6 +5754,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -5321,6 +5785,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 1,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -5351,6 +5816,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 10,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -5381,6 +5847,7 @@
       "Layer": "EUILayer::Top",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -5411,6 +5878,7 @@
       "Layer": "EUILayer::Top",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -5441,6 +5909,7 @@
       "Layer": "EUILayer::Top",
       "Order": 1,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -5471,6 +5940,7 @@
       "Layer": "EUILayer::Top",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -5501,6 +5971,7 @@
       "Layer": "EUILayer::Top",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -5531,6 +6002,7 @@
       "Layer": "EUILayer::Top",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -5561,6 +6033,7 @@
       "Layer": "EUILayer::Top",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -5591,6 +6064,7 @@
       "Layer": "EUILayer::Top",
       "Order": 55,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -5621,6 +6095,7 @@
       "Layer": "EUILayer::Top",
       "Order": 54,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -5651,6 +6126,7 @@
       "Layer": "EUILayer::Top",
       "Order": 56,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -5681,6 +6157,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -5704,13 +6181,14 @@
         "ObjectPath": "/Script/PMGame"
       },
       "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/HUDMobile/Buff/WBP_Progress_Huixing_Teleport_Mobile.WBP_Progress_Huixing_Teleport_Mobile_C",
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/Character/HuiXingHUD/WBP_Progress_Huixing_Teleport_Mobile.WBP_Progress_Huixing_Teleport_Mobile_C",
         "SubPathString": ""
       },
       "bIsPanel": false,
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -5734,13 +6212,14 @@
         "ObjectPath": "/Script/PMGame"
       },
       "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/HUDMobile/Health/WBP_SummonDurationPanel_Mobile.WBP_SummonDurationPanel_Mobile_C",
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/Character/CommonCharacter/WBP_SummonDurationPanel_Mobile.WBP_SummonDurationPanel_Mobile_C",
         "SubPathString": ""
       },
       "bIsPanel": false,
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -5764,43 +6243,14 @@
         "ObjectPath": "/Script/PMGame"
       },
       "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/PC/InGame/HUDPC/ControlSummon/WBP_ControlSummonPanel.WBP_ControlSummonPanel_C",
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/InGame/Character/CommonCharacter/WBP_ControlSummonPanel.WBP_ControlSummonPanel_C",
         "SubPathString": ""
       },
       "bIsPanel": false,
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
-      "SlotNameList": [],
-      "Anchors": {
-        "Minimum": {
-          "X": 0.0,
-          "Y": 0.0
-        },
-        "Maximum": {
-          "X": 0.0,
-          "Y": 0.0
-        }
-      },
-      "Alignment": {
-        "X": 0.0,
-        "Y": 0.0
-      }
-    },
-    "AbilityWeaponDuration": {
-      "PageName": "AbilityWeaponDuration",
-      "PageClass": {
-        "ObjectName": "Class'PMViewControllerPage'",
-        "ObjectPath": "/Script/PMGame"
-      },
-      "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/HUDMobile/AbilityWeapon/WBP_AbilityWeapon_Mobile.WBP_AbilityWeapon_Mobile_C",
-        "SubPathString": ""
-      },
-      "bIsPanel": false,
-      "Layer": "EUILayer::Normal",
-      "Order": 0,
-      "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -5831,6 +6281,38 @@
       "Layer": "EUILayer::Top",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "RescueTeleport": {
+      "PageName": "RescueTeleport",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/HUDMobile/Abilities/WBP_Progress_Teleport_Mobile.WBP_Progress_Teleport_Mobile_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 0,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -5851,13 +6333,14 @@
       "PageName": "SceneMap_CharacterItem",
       "PageClass": null,
       "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/HUDMobile/SceneMap/MarkPointItems/CharacterItems/WBP_CharacterItem_Mobile.WBP_CharacterItem_Mobile_C",
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/SceneMap/WBP_CharacterItem_Mobile.WBP_CharacterItem_Mobile_C",
         "SubPathString": ""
       },
       "bIsPanel": false,
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -5878,13 +6361,14 @@
       "PageName": "SceneMap_PointItem",
       "PageClass": null,
       "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/HUDMobile/SceneMap/MarkPointItems/WBP_APointNameItem_Mobile.WBP_APointNameItem_Mobile_C",
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/SceneMap/WBP_APointNameItem_Mobile.WBP_APointNameItem_Mobile_C",
         "SubPathString": ""
       },
       "bIsPanel": false,
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -5905,13 +6389,14 @@
       "PageName": "SceneMap_MarkItem",
       "PageClass": null,
       "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/HUDMobile/SceneMap/MarkPointItems/WBP_SceneMapMarkItem_Mobile.WBP_SceneMapMarkItem_Mobile_C",
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/SceneMap/WBP_SceneMapMarkItem_Mobile.WBP_SceneMapMarkItem_Mobile_C",
         "SubPathString": ""
       },
       "bIsPanel": false,
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -5932,13 +6417,14 @@
       "PageName": "SceneMap_BombItem",
       "PageClass": null,
       "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/HUDMobile/SceneMap/MarkPointItems/WBP_SceneBombItem_Mobile.WBP_SceneBombItem_Mobile_C",
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/SceneMap/WBP_SceneBombItem_Mobile.WBP_SceneBombItem_Mobile_C",
         "SubPathString": ""
       },
       "bIsPanel": false,
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -5959,13 +6445,14 @@
       "PageName": "SceneMap_AreaName",
       "PageClass": null,
       "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/HUDMobile/SceneMap/MarkPointItems/WBP_AreaNameItem_Mobile.WBP_AreaNameItem_Mobile_C",
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/SceneMap/WBP_AreaNameItem_Mobile.WBP_AreaNameItem_Mobile_C",
         "SubPathString": ""
       },
       "bIsPanel": false,
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -5986,13 +6473,14 @@
       "PageName": "SceneMap_GoldSparMark",
       "PageClass": null,
       "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/HUDMobile/SceneMap/MarkPointItems/Spar/WBP_SceneGoldSparMark_Mobile.WBP_SceneGoldSparMark_Mobile_C",
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/Spar/SceneMap/WBP_SceneGoldSparMark_Mobile.WBP_SceneGoldSparMark_Mobile_C",
         "SubPathString": ""
       },
       "bIsPanel": false,
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -6013,13 +6501,14 @@
       "PageName": "SceneMap_PurpleSparMark",
       "PageClass": null,
       "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/HUDMobile/SceneMap/MarkPointItems/Spar/WBP_ScenePurpleSparMark_Mobile.WBP_ScenePurpleSparMark_Mobile_C",
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/Spar/SceneMap/WBP_ScenePurpleSparMark_Mobile.WBP_ScenePurpleSparMark_Mobile_C",
         "SubPathString": ""
       },
       "bIsPanel": false,
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -6040,13 +6529,14 @@
       "PageName": "SceneMap_TopPlayerSparMark",
       "PageClass": null,
       "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/HUDMobile/SceneMap/MarkPointItems/Spar/WBP_SceneTopPlayerMark_Mobile.WBP_SceneTopPlayerMark_Mobile_C",
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/Spar/SceneMap/WBP_SceneTopPlayerMark_Mobile.WBP_SceneTopPlayerMark_Mobile_C",
         "SubPathString": ""
       },
       "bIsPanel": false,
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -6067,13 +6557,14 @@
       "PageName": "SceneMap_AirDropSparItem",
       "PageClass": null,
       "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/HUDMobile/SceneMap/MarkPointItems/Spar/WBP_SparAirDropBoxItem_Mobile.WBP_SparAirDropBoxItem_Mobile_C",
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/Spar/SceneMap/WBP_SparAirDropBoxItem_Mobile.WBP_SparAirDropBoxItem_Mobile_C",
         "SubPathString": ""
       },
       "bIsPanel": false,
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -6094,13 +6585,14 @@
       "PageName": "SceneMap_SlienceZoneMineItem",
       "PageClass": null,
       "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/HUDMobile/SceneMap/MarkPointItems/Mine/WBP_SlienceZoneItem_Mobile.WBP_SlienceZoneItem_Mobile_C",
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/Mine/SceneMap/WBP_SlienceZoneItem_Mobile.WBP_SlienceZoneItem_Mobile_C",
         "SubPathString": ""
       },
       "bIsPanel": false,
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -6121,13 +6613,14 @@
       "PageName": "SceneMap_EscortCheckPointItem",
       "PageClass": null,
       "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/HUDMobile/SceneMap/MarkPointItems/Escort/WBP_EscortCheckPointItem_Mobile.WBP_EscortCheckPointItem_Mobile_C",
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/Escort/SceneMap/WBP_EscortCheckPointItem_Mobile.WBP_EscortCheckPointItem_Mobile_C",
         "SubPathString": ""
       },
       "bIsPanel": false,
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -6148,13 +6641,14 @@
       "PageName": "SceneMap_EscortPartitionWall",
       "PageClass": null,
       "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/HUDMobile/SceneMap/MarkPointItems/Escort/WBP_EscortPartitionWall_Mobile.WBP_EscortPartitionWall_Mobile_C",
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/Escort/SceneMap/WBP_EscortPartitionWall_Mobile.WBP_EscortPartitionWall_Mobile_C",
         "SubPathString": ""
       },
       "bIsPanel": false,
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -6175,13 +6669,14 @@
       "PageName": "SceneMap_EscortPathItem",
       "PageClass": null,
       "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/HUDMobile/SceneMap/MarkPointItems/Escort/WBP_EscortPathItem_Mobile.WBP_EscortPathItem_Mobile_C",
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/Escort/SceneMap/WBP_EscortPathItem_Mobile.WBP_EscortPathItem_Mobile_C",
         "SubPathString": ""
       },
       "bIsPanel": false,
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -6202,13 +6697,14 @@
       "PageName": "SceneMap_EscortPayLoadItem",
       "PageClass": null,
       "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/HUDMobile/SceneMap/MarkPointItems/Escort/WBP_EscortPayLoadItem_Mobile.WBP_EscortPayLoadItem_Mobile_C",
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/Escort/SceneMap/WBP_EscortPayLoadItem_Mobile.WBP_EscortPayLoadItem_Mobile_C",
         "SubPathString": ""
       },
       "bIsPanel": false,
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -6229,13 +6725,14 @@
       "PageName": "SceneMap_EscortRestartAreaItem",
       "PageClass": null,
       "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/HUDMobile/SceneMap/MarkPointItems/Escort/WBP_EscortRestartAreaItem_Mobile.WBP_EscortRestartAreaItem_Mobile_C",
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/Escort/SceneMap/WBP_EscortRestartAreaItem_Mobile.WBP_EscortRestartAreaItem_Mobile_C",
         "SubPathString": ""
       },
       "bIsPanel": false,
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -6256,13 +6753,14 @@
       "PageName": "SceneMap_StolenMineItem",
       "PageClass": null,
       "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/HUDMobile/SceneMap/MarkPointItems/CharacterItems/Mine/WBP_StolenMine_Mobile.WBP_StolenMine_Mobile_C",
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/Mine/SceneMap/WBP_StolenMine_Mobile.WBP_StolenMine_Mobile_C",
         "SubPathString": ""
       },
       "bIsPanel": false,
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -6283,13 +6781,14 @@
       "PageName": "SceneMap_CharacterItemMine",
       "PageClass": null,
       "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/HUDMobile/SceneMap/MarkPointItems/CharacterItems/Mine/WBP_CharacterItem_Mine_Mobile.WBP_CharacterItem_Mine_Mobile_C",
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/Mine/SceneMap/WBP_CharacterItem_Mine_Mobile.WBP_CharacterItem_Mine_Mobile_C",
         "SubPathString": ""
       },
       "bIsPanel": false,
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -6310,13 +6809,14 @@
       "PageName": "SceneMap_CharacterItemHideSeek",
       "PageClass": null,
       "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/HUDMobile/SceneMap/MarkPointItems/CharacterItems/HideSeek/WBP_CharacterItem_HideSeek_Mobile.WBP_CharacterItem_HideSeek_Mobile_C",
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/HideSeek/SceneMap/WBP_CharacterItem_HideSeek_Mobile.WBP_CharacterItem_HideSeek_Mobile_C",
         "SubPathString": ""
       },
       "bIsPanel": false,
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -6337,13 +6837,14 @@
       "PageName": "SceneMap_AlarmGrenadeItem",
       "PageClass": null,
       "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/HUDMobile/SceneMap/MarkPointItems/AbilityItems/WBP_AlarmGrenadeItem_Mobile.WBP_AlarmGrenadeItem_Mobile_C",
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/SceneMap/AbilityItems/WBP_AlarmGrenadeItem_Mobile.WBP_AlarmGrenadeItem_Mobile_C",
         "SubPathString": ""
       },
       "bIsPanel": false,
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -6364,13 +6865,14 @@
       "PageName": "SceneMap_AuderyQTwoItem",
       "PageClass": null,
       "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/HUDMobile/SceneMap/MarkPointItems/AbilityItems/WBP_AuderyQTwoItem_Mobile.WBP_AuderyQTwoItem_Mobile_C",
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/SceneMap/AbilityItems/WBP_AuderyQTwoItem_Mobile.WBP_AuderyQTwoItem_Mobile_C",
         "SubPathString": ""
       },
       "bIsPanel": false,
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -6391,13 +6893,14 @@
       "PageName": "SceneMap_ControlSommonBearItem",
       "PageClass": null,
       "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/HUDMobile/SceneMap/MarkPointItems/AbilityItems/WBP_ControlSommonKumaItem_Mobile.WBP_ControlSommonKumaItem_Mobile_C",
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/SceneMap/AbilityItems/WBP_ControlSommonKumaItem_Mobile.WBP_ControlSommonKumaItem_Mobile_C",
         "SubPathString": ""
       },
       "bIsPanel": false,
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -6418,13 +6921,14 @@
       "PageName": "SceneMap_CopyCharacterItem",
       "PageClass": null,
       "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/HUDMobile/SceneMap/MarkPointItems/AbilityItems/WBP_CopyCharacterItem_Mobile.WBP_CopyCharacterItem_Mobile_C",
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/SceneMap/AbilityItems/WBP_CopyCharacterItem_Mobile.WBP_CopyCharacterItem_Mobile_C",
         "SubPathString": ""
       },
       "bIsPanel": false,
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -6445,13 +6949,14 @@
       "PageName": "SceneMap_WeakenFieldItem",
       "PageClass": null,
       "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/HUDMobile/SceneMap/MarkPointItems/AbilityItems/WBP_CySceneMapWeakenFieldItemWidget_Mobile.WBP_CySceneMapWeakenFieldItemWidget_Mobile_C",
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/SceneMap/AbilityItems/WBP_CySceneMapWeakenFieldItemWidget_Mobile.WBP_CySceneMapWeakenFieldItemWidget_Mobile_C",
         "SubPathString": ""
       },
       "bIsPanel": false,
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -6472,13 +6977,14 @@
       "PageName": "SceneMap_ElectroMagneticItem",
       "PageClass": null,
       "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/HUDMobile/SceneMap/MarkPointItems/AbilityItems/WBP_ElectroMagneticItem_Mobile.WBP_ElectroMagneticItem_Mobile_C",
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/SceneMap/AbilityItems/WBP_ElectroMagneticItem_Mobile.WBP_ElectroMagneticItem_Mobile_C",
         "SubPathString": ""
       },
       "bIsPanel": false,
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -6499,13 +7005,14 @@
       "PageName": "SceneMap_PreviewlineItemView",
       "PageClass": null,
       "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/HUDMobile/SceneMap/MarkPointItems/AbilityItems/WBP_ElectroMagneticItem_View_Mobile.WBP_ElectroMagneticItem_View_Mobile_C",
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/SceneMap/AbilityItems/WBP_ElectroMagneticItem_View_Mobile.WBP_ElectroMagneticItem_View_Mobile_C",
         "SubPathString": ""
       },
       "bIsPanel": false,
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -6526,13 +7033,14 @@
       "PageName": "SceneMap_FlaviaXItem",
       "PageClass": null,
       "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/HUDMobile/SceneMap/MarkPointItems/AbilityItems/WBP_FlaviaXItem_Mobile.WBP_FlaviaXItem_Mobile_C",
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/SceneMap/AbilityItems/WBP_FlaviaXItem_Mobile.WBP_FlaviaXItem_Mobile_C",
         "SubPathString": ""
       },
       "bIsPanel": false,
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -6553,13 +7061,14 @@
       "PageName": "SceneMap_InterceptorGrenadeItem",
       "PageClass": null,
       "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/HUDMobile/SceneMap/MarkPointItems/AbilityItems/WBP_InterceptorGrenadeItem_Mobile.WBP_InterceptorGrenadeItem_Mobile_C",
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/SceneMap/AbilityItems/WBP_InterceptorGrenadeItem_Mobile.WBP_InterceptorGrenadeItem_Mobile_C",
         "SubPathString": ""
       },
       "bIsPanel": false,
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -6580,13 +7089,14 @@
       "PageName": "SceneMap_KanamiXItem",
       "PageClass": null,
       "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/HUDMobile/SceneMap/MarkPointItems/AbilityItems/WBP_KanamiStarLightStageItem_Mobile.WBP_KanamiStarLightStageItem_Mobile_C",
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/SceneMap/AbilityItems/WBP_KanamiStarLightStageItem_Mobile.WBP_KanamiStarLightStageItem_Mobile_C",
         "SubPathString": ""
       },
       "bIsPanel": false,
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -6607,13 +7117,14 @@
       "PageName": "SceneMap_BroilingFieldItem",
       "PageClass": null,
       "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/HUDMobile/SceneMap/MarkPointItems/AbilityItems/WBP_PMSceneMapBroilingFieldItemWidget_Mobile.WBP_PMSceneMapBroilingFieldItemWidget_Mobile_C",
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/SceneMap/AbilityItems/WBP_PMSceneMapBroilingFieldItemWidget_Mobile.WBP_PMSceneMapBroilingFieldItemWidget_Mobile_C",
         "SubPathString": ""
       },
       "bIsPanel": false,
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -6634,13 +7145,14 @@
       "PageName": "SceneMap_DuatFieldItem",
       "PageClass": null,
       "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/HUDMobile/SceneMap/MarkPointItems/AbilityItems/WBP_PMSceneMapDuatFieldItemWidget_Mobile.WBP_PMSceneMapDuatFieldItemWidget_Mobile_C",
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/SceneMap/AbilityItems/WBP_PMSceneMapDuatFieldItemWidget_Mobile.WBP_PMSceneMapDuatFieldItemWidget_Mobile_C",
         "SubPathString": ""
       },
       "bIsPanel": false,
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -6661,13 +7173,14 @@
       "PageName": "SceneMap_RadarDeviceItem",
       "PageClass": null,
       "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/HUDMobile/SceneMap/MarkPointItems/AbilityItems/WBP_PMSceneMapRadarDeviceItemWidget_Mobile.WBP_PMSceneMapRadarDeviceItemWidget_Mobile_C",
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/SceneMap/AbilityItems/WBP_PMSceneMapRadarDeviceItemWidget_Mobile.WBP_PMSceneMapRadarDeviceItemWidget_Mobile_C",
         "SubPathString": ""
       },
       "bIsPanel": false,
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -6688,13 +7201,14 @@
       "PageName": "SceneMap_SafeZoneItem",
       "PageClass": null,
       "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/HUDMobile/SceneMap/MarkPointItems/AbilityItems/WBP_PMSceneMapSafeZoneItem_Mobile.WBP_PMSceneMapSafeZoneItem_Mobile_C",
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/SceneMap/AbilityItems/WBP_PMSceneMapSafeZoneItem_Mobile.WBP_PMSceneMapSafeZoneItem_Mobile_C",
         "SubPathString": ""
       },
       "bIsPanel": false,
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -6715,13 +7229,14 @@
       "PageName": "SceneMap_SharkBreathItem",
       "PageClass": null,
       "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/HUDMobile/SceneMap/MarkPointItems/AbilityItems/WBP_PMSceneMapSharkBreathItem_Mobile.WBP_PMSceneMapSharkBreathItem_Mobile_C",
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/SceneMap/AbilityItems/WBP_PMSceneMapSharkBreathItem_Mobile.WBP_PMSceneMapSharkBreathItem_Mobile_C",
         "SubPathString": ""
       },
       "bIsPanel": false,
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -6742,13 +7257,14 @@
       "PageName": "SceneMap_SquareSafeZoneItem",
       "PageClass": null,
       "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/HUDMobile/SceneMap/MarkPointItems/AbilityItems/WBP_PMSceneMapSquareSafeZoneItem_Mobile.WBP_PMSceneMapSquareSafeZoneItem_Mobile_C",
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/SceneMap/AbilityItems/WBP_PMSceneMapSquareSafeZoneItem_Mobile.WBP_PMSceneMapSquareSafeZoneItem_Mobile_C",
         "SubPathString": ""
       },
       "bIsPanel": false,
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -6769,13 +7285,14 @@
       "PageName": "SceneMap_WaterPoloItem",
       "PageClass": null,
       "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/HUDMobile/SceneMap/MarkPointItems/AbilityItems/WBP_PMSceneMapWaterPoloItemWidget_Mobile.WBP_PMSceneMapWaterPoloItemWidget_Mobile_C",
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/SceneMap/AbilityItems/WBP_PMSceneMapWaterPoloItemWidget_Mobile.WBP_PMSceneMapWaterPoloItemWidget_Mobile_C",
         "SubPathString": ""
       },
       "bIsPanel": false,
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -6796,13 +7313,14 @@
       "PageName": "SceneMap_MicheleQItem",
       "PageClass": null,
       "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/HUDMobile/SceneMap/MarkPointItems/AbilityItems/WBP_Q_Michele_Mobile.WBP_Q_Michele_Mobile_C",
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/SceneMap/AbilityItems/WBP_Q_Michele_Mobile.WBP_Q_Michele_Mobile_C",
         "SubPathString": ""
       },
       "bIsPanel": false,
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -6823,13 +7341,14 @@
       "PageName": "SceneMap_ReiichiQPreviewItem",
       "PageClass": null,
       "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/HUDMobile/SceneMap/MarkPointItems/AbilityItems/WBP_Q_Preview_ReiichiItem_Mobile.WBP_Q_Preview_ReiichiItem_Mobile_C",
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/SceneMap/AbilityItems/WBP_Q_Preview_ReiichiItem_Mobile.WBP_Q_Preview_ReiichiItem_Mobile_C",
         "SubPathString": ""
       },
       "bIsPanel": false,
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -6850,13 +7369,14 @@
       "PageName": "SceneMap_ReiichiQItem",
       "PageClass": null,
       "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/HUDMobile/SceneMap/MarkPointItems/AbilityItems/WBP_Q_ReiichiItem_Mobile.WBP_Q_ReiichiItem_Mobile_C",
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/SceneMap/AbilityItems/WBP_Q_ReiichiItem_Mobile.WBP_Q_ReiichiItem_Mobile_C",
         "SubPathString": ""
       },
       "bIsPanel": false,
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -6877,13 +7397,14 @@
       "PageName": "SceneMap_MicheleXItem",
       "PageClass": null,
       "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/HUDMobile/SceneMap/MarkPointItems/AbilityItems/WBP_SuperNekobotItem_Mobile.WBP_SuperNekobotItem_Mobile_C",
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/SceneMap/AbilityItems/WBP_SuperNekobotItem_Mobile.WBP_SuperNekobotItem_Mobile_C",
         "SubPathString": ""
       },
       "bIsPanel": false,
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -6904,13 +7425,14 @@
       "PageName": "SceneMap_LawineXItem",
       "PageClass": null,
       "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/HUDMobile/SceneMap/MarkPointItems/AbilityItems/WBP_X_Lawine_Item_Mobile.WBP_X_Lawine_Item_Mobile_C",
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/SceneMap/AbilityItems/WBP_X_Lawine_Item_Mobile.WBP_X_Lawine_Item_Mobile_C",
         "SubPathString": ""
       },
       "bIsPanel": false,
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -6931,13 +7453,14 @@
       "PageName": "SceneMap_MoBaiXItem",
       "PageClass": null,
       "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/HUDMobile/SceneMap/MarkPointItems/AbilityItems/WBP_X_MoBaiItem_Mobile.WBP_X_MoBaiItem_Mobile_C",
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/SceneMap/AbilityItems/WBP_X_MoBaiItem_Mobile.WBP_X_MoBaiItem_Mobile_C",
         "SubPathString": ""
       },
       "bIsPanel": false,
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -6958,13 +7481,14 @@
       "PageName": "SceneMap_YvetteQControlRangeItem",
       "PageClass": null,
       "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/HUDMobile/SceneMap/MarkPointItems/AbilityItems/WBP_AbilityYvetteQControlRangeItem_Mobile.WBP_AbilityYvetteQControlRangeItem_Mobile_C",
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/SceneMap/AbilityItems/WBP_AbilityYvetteQControlRangeItem_Mobile.WBP_AbilityYvetteQControlRangeItem_Mobile_C",
         "SubPathString": ""
       },
       "bIsPanel": false,
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -6992,6 +7516,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -7019,6 +7544,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -7046,6 +7572,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -7073,6 +7600,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -7100,6 +7628,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -7127,6 +7656,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -7154,6 +7684,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -7181,6 +7712,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -7208,6 +7740,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -7235,6 +7768,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -7262,6 +7796,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -7289,6 +7824,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -7316,6 +7852,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -7343,6 +7880,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -7370,6 +7908,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -7397,6 +7936,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -7424,6 +7964,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -7451,6 +7992,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -7478,6 +8020,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -7505,6 +8048,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -7532,6 +8076,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -7559,6 +8104,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -7586,6 +8132,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -7613,6 +8160,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -7640,6 +8188,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -7667,6 +8216,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -7694,6 +8244,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -7721,6 +8272,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -7748,6 +8300,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -7775,6 +8328,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -7795,13 +8349,14 @@
       "PageName": "MarkPoint",
       "PageClass": null,
       "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/HUDMobile/MarkSystem/WBP_MarkPoint_Mobile.WBP_MarkPoint_Mobile_C",
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/Overhead/MarkSystem/WBP_MarkPoint_Mobile.WBP_MarkPoint_Mobile_C",
         "SubPathString": ""
       },
       "bIsPanel": true,
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -7829,6 +8384,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -7856,6 +8412,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -7883,6 +8440,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -7910,6 +8468,63 @@
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "EscortGuideWallToPayloadOverhead": {
+      "PageName": "EscortGuideWallToPayloadOverhead",
+      "PageClass": null,
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/Guide/EscortGuide/WBP_EscortGuideWallToPayloadOverHead_Mobile.WBP_EscortGuideWallToPayloadOverHead_Mobile_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": true,
+      "Layer": "EUILayer::Normal",
+      "Order": 0,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "CompetitiveSupplyBoxOverhead": {
+      "PageName": "CompetitiveSupplyBoxOverhead",
+      "PageClass": null,
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/Overhead/WBP_CompetitiveSupplyBox_Mobile.WBP_CompetitiveSupplyBox_Mobile_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": true,
+      "Layer": "EUILayer::Normal",
+      "Order": 0,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -7937,6 +8552,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -7964,6 +8580,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -7991,6 +8608,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -8021,6 +8639,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -8051,6 +8670,7 @@
       "Layer": "EUILayer::Top",
       "Order": 50,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -8081,6 +8701,7 @@
       "Layer": "EUILayer::Top",
       "Order": 98,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -8111,6 +8732,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 30,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -8141,6 +8763,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 1,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -8171,6 +8794,38 @@
       "Layer": "EUILayer::Top",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "ScoreEscort2": {
+      "PageName": "ScoreEscort2",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/NonResidentFunctions/ScoreBoard/Escort2/WBP_ScoreBoard_Escort2_Mobile.WBP_ScoreBoard_Escort2_Mobile_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Top",
+      "Order": 98,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -8201,6 +8856,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -8231,6 +8887,7 @@
       "Layer": "EUILayer::Top",
       "Order": 50,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -8261,6 +8918,7 @@
       "Layer": "EUILayer::Top",
       "Order": 98,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -8291,6 +8949,7 @@
       "Layer": "EUILayer::Loading",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -8321,6 +8980,7 @@
       "Layer": "EUILayer::Loading",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -8351,66 +9011,7 @@
       "Layer": "EUILayer::Loading",
       "Order": 0,
       "FullScreen": false,
-      "SlotNameList": [],
-      "Anchors": {
-        "Minimum": {
-          "X": 0.0,
-          "Y": 0.0
-        },
-        "Maximum": {
-          "X": 0.0,
-          "Y": 0.0
-        }
-      },
-      "Alignment": {
-        "X": 0.0,
-        "Y": 0.0
-      }
-    },
-    "AbilityWeaponProgress_FlaviaXRespawn": {
-      "PageName": "AbilityWeaponProgress_FlaviaXRespawn",
-      "PageClass": {
-        "ObjectName": "Class'PMViewControllerPage'",
-        "ObjectPath": "/Script/PMGame"
-      },
-      "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/HUDMobile/AbilityWeapon/WBP_ProgressX_Respawn_Flavia_Mobile.WBP_ProgressX_Respawn_Flavia_Mobile_C",
-        "SubPathString": ""
-      },
-      "bIsPanel": false,
-      "Layer": "EUILayer::Normal",
-      "Order": 11,
-      "FullScreen": false,
-      "SlotNameList": [],
-      "Anchors": {
-        "Minimum": {
-          "X": 0.0,
-          "Y": 0.0
-        },
-        "Maximum": {
-          "X": 0.0,
-          "Y": 0.0
-        }
-      },
-      "Alignment": {
-        "X": 0.0,
-        "Y": 0.0
-      }
-    },
-    "WBP_ProgressQ_GodMode_Flavia": {
-      "PageName": "WBP_ProgressQ_GodMode_Flavia",
-      "PageClass": {
-        "ObjectName": "Class'PMViewControllerPage'",
-        "ObjectPath": "/Script/PMGame"
-      },
-      "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/HUDMobile/AbilityWeapon/WBP_ProgressQ_GodMode_Flavia_Mobile.WBP_ProgressQ_GodMode_Flavia_Mobile_C",
-        "SubPathString": ""
-      },
-      "bIsPanel": false,
-      "Layer": "EUILayer::Normal",
-      "Order": 11,
-      "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -8441,6 +9042,7 @@
       "Layer": "EUILayer::Max",
       "Order": 232,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -8471,6 +9073,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -8501,6 +9104,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -8531,6 +9135,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -8561,6 +9166,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -8591,6 +9197,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -8614,13 +9221,14 @@
         "ObjectPath": "/Script/PMGame"
       },
       "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/ObserverMobile/WBP_SelectRoleSpectatorPage_Mobile.WBP_SelectRoleSpectatorPage_Mobile_C",
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/NonResidentFunctions/ObserverMobile/WBP_SelectRoleSpectatorPage_Mobile.WBP_SelectRoleSpectatorPage_Mobile_C",
         "SubPathString": ""
       },
       "bIsPanel": false,
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -8651,6 +9259,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -8681,6 +9290,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 100,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -8711,6 +9321,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -8741,6 +9352,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -8771,6 +9383,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": true,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -8801,6 +9414,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 8,
       "FullScreen": true,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -8831,6 +9445,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 8,
       "FullScreen": true,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -8861,6 +9476,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 8,
       "FullScreen": true,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -8891,6 +9507,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 8,
       "FullScreen": true,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -8921,6 +9538,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 8,
       "FullScreen": true,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -8951,6 +9569,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 8,
       "FullScreen": true,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -8981,6 +9600,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 8,
       "FullScreen": true,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -9011,36 +9631,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 8,
       "FullScreen": true,
-      "SlotNameList": [],
-      "Anchors": {
-        "Minimum": {
-          "X": 0.0,
-          "Y": 0.0
-        },
-        "Maximum": {
-          "X": 0.0,
-          "Y": 0.0
-        }
-      },
-      "Alignment": {
-        "X": 0.0,
-        "Y": 0.0
-      }
-    },
-    "DivisionCompetitionDownPageMobile": {
-      "PageName": "DivisionCompetitionDownPageMobile",
-      "PageClass": {
-        "ObjectName": "Class'PMViewControllerPage'",
-        "ObjectPath": "/Script/PMGame"
-      },
-      "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/Common/DivisionCompetition/WBP_DivisionCompetitionDown_Mobile.WBP_DivisionCompetitionDown_Mobile_C",
-        "SubPathString": ""
-      },
-      "bIsPanel": false,
-      "Layer": "EUILayer::Top",
-      "Order": 0,
-      "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -9071,6 +9662,7 @@
       "Layer": "EUILayer::Top",
       "Order": 50,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -9101,6 +9693,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 24,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -9131,6 +9724,503 @@
       "Layer": "EUILayer::Normal",
       "Order": 101,
       "FullScreen": true,
+      "OnlyScreen2DUI": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "ActivityJumpQQPage": {
+      "PageName": "ActivityJumpQQPage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/Activities/JumpPageActivity/WBP_ActivityJumpQQPage_Mobile.WBP_ActivityJumpQQPage_Mobile_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 0,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "ActivityJumpWeChatPage": {
+      "PageName": "ActivityJumpWeChatPage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/Activities/JumpPageActivity/WBP_ActivityJumpWeChatPage_Mobile.WBP_ActivityJumpWeChatPage_Mobile_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 0,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "ActivityJumpMiaoPage": {
+      "PageName": "ActivityJumpMiaoPage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/Activities/JumpPageActivity/WBP_ActivityJumpMiaoPage_Mobile.WBP_ActivityJumpMiaoPage_Mobile_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 0,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "ActivityFacebookPage": {
+      "PageName": "ActivityFacebookPage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/Activities/JumpPageActivity/WBP_ActivityFacebookPage_Mobile.WBP_ActivityFacebookPage_Mobile_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 0,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "ActivityLinePage": {
+      "PageName": "ActivityLinePage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/Activities/JumpPageActivity/WBP_ActivityLinePage_Mobile.WBP_ActivityLinePage_Mobile_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 0,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "ActivityLinktreePage": {
+      "PageName": "ActivityLinePage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/Activities/JumpPageActivity/WBP_ActivityLinktreePage_Mobile.WBP_ActivityLinktreePage_Mobile_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 0,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "ActivitySmallDirectPurchasePage": {
+      "PageName": "ActivitySmallDirectPurchasePage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/Activities/SmallDirectPurchase/WBP_ActivitySmallDirectPurchasePage_Mobile.WBP_ActivitySmallDirectPurchasePage_Mobile_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 0,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "ActivitySmallDirectPurchasePage1": {
+      "PageName": "ActivitySmallDirectPurchasePage1",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/Activities/SmallDirectPurchase/WBP_ActivitySmallDirectPurchasePage1_Mobile.WBP_ActivitySmallDirectPurchasePage1_Mobile_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 0,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "ActivityFirstRechargePage": {
+      "PageName": "ActivityFirstRechargePage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/Activities/FirstRecharge/WBP_FirstRechargePage_Mobile.WBP_FirstRechargePage_Mobile_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Top",
+      "Order": 0,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "MilestoneMainPage": {
+      "PageName": "MilestoneMainPage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/Activities/Milestone/WBP_MilestoneMainPage_Mobile.WBP_MilestoneMainPage_Mobile_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 0,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "NewRoleOnlineMainPage": {
+      "PageName": "NewRoleOnlineMainPage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/Activities/NewRoleOnline/WBP_NewRoleOnlineMainPage_Mobile.WBP_NewRoleOnlineMainPage_Mobile_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 0,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "WeekendCarnivalMainPage": {
+      "PageName": "WeekendCarnivalMainPage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/Activities/WeekendCarnival/WBP_WeekendCarnivalMainPage_Mobile.WBP_WeekendCarnivalMainPage_Mobile_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 0,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "NoviceLevelRewardMainPage": {
+      "PageName": "NoviceLevelRewardMainPage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/Activities/NoviceLevelReward/WBP_NoviceLevelRewardMainPage_Mobile.WBP_NoviceLevelRewardMainPage_Mobile_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 0,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "ActivityMainPage": {
+      "PageName": "ActivityMainPage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/Activities/WBP_ActivityMainPage_Mobile.WBP_ActivityMainPage_Mobile_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Top",
+      "Order": 0,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "HeartStringsMainPage": {
+      "PageName": "HeartstringsMainPage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/Activities/Heartstrings/WBP_HeartstringsMainPage_Mobile.WBP_HeartstringsMainPage_Mobile_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 0,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "ConsumeRebateMainPage": {
+      "PageName": "ConsumeRebateMainPage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/Activities/ConsumeRebate/WBP_ConsumeRebateMainPage_Mobile.WBP_ConsumeRebateMainPage_Mobile_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 0,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -9161,6 +10251,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -9191,6 +10282,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -9221,6 +10313,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 30,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -9251,6 +10344,7 @@
       "Layer": "EUILayer::Top",
       "Order": 98,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -9281,6 +10375,7 @@
       "Layer": "EUILayer::Top",
       "Order": 60,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -9304,13 +10399,14 @@
         "ObjectPath": "/Script/PMGame"
       },
       "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/NonResidentFunctions/Growth/Team/WBP_GrowthTeamThreePanel_Mobile.WBP_GrowthTeamThreePanel_Mobile_C",
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/NonResidentFunctions/Growth/Team/WBP_GrowthPanelTeamThree_New_Mobile.WBP_GrowthPanelTeamThree_New_Mobile_C",
         "SubPathString": ""
       },
       "bIsPanel": false,
       "Layer": "EUILayer::Top",
       "Order": 60,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -9338,6 +10434,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -9368,6 +10465,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 30,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -9398,6 +10496,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 30,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -9428,6 +10527,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -9458,6 +10558,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 30,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -9488,6 +10589,7 @@
       "Layer": "EUILayer::Top",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -9518,6 +10620,7 @@
       "Layer": "EUILayer::Top",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -9548,6 +10651,7 @@
       "Layer": "EUILayer::Top",
       "Order": 98,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -9578,6 +10682,7 @@
       "Layer": "EUILayer::Top",
       "Order": 60,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -9605,6 +10710,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -9635,6 +10741,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -9665,6 +10772,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -9695,6 +10803,7 @@
       "Layer": "EUILayer::Top",
       "Order": 60,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -9725,6 +10834,7 @@
       "Layer": "EUILayer::Top",
       "Order": 60,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -9755,6 +10865,7 @@
       "Layer": "EUILayer::Top",
       "Order": 60,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -9785,6 +10896,38 @@
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "EscortGuidePage": {
+      "PageName": "EscortGuidePage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/Guide/EscortGuide/WBP_GuideTaskPanel_Mobile.WBP_GuideTaskPanel_Mobile_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 58,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -9815,6 +10958,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -9842,6 +10986,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -9872,6 +11017,7 @@
       "Layer": "EUILayer::Top",
       "Order": 10,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -9902,6 +11048,7 @@
       "Layer": "EUILayer::Top",
       "Order": 101,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -9932,6 +11079,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -9962,6 +11110,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -9989,9 +11138,10 @@
         "SubPathString": ""
       },
       "bIsPanel": false,
-      "Layer": "EUILayer::Top",
-      "Order": 0,
+      "Layer": "EUILayer::Normal",
+      "Order": 100,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -10022,6 +11172,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -10052,6 +11203,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -10082,6 +11234,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 30,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -10112,6 +11265,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 30,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -10142,6 +11296,38 @@
       "Layer": "EUILayer::Normal",
       "Order": 29,
       "FullScreen": false,
+      "OnlyScreen2DUI": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "DivisionCompetitionDownPageMobile": {
+      "PageName": "DivisionCompetitionDownPageMobile",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/NonResidentFunctions/Result/Common/Rank/WBP_DivisionCompetitionDown_Mobile.WBP_DivisionCompetitionDown_Mobile_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Top",
+      "Order": 0,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -10172,6 +11358,7 @@
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": true,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {
@@ -10202,6 +11389,379 @@
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": true,
+      "OnlyScreen2DUI": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "CreditScorePage": {
+      "PageName": "CreditScorePage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/CreditScoreMobile/WBP_CreditMainPage_Mobile.WBP_CreditMainPage_Mobile_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 0,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "CreditScorePopupPanel": {
+      "PageName": "CreditScorePopupPanel",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/CreditScoreMobile/WBP_CreditChange_Mobile.WBP_CreditChange_Mobile_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Top",
+      "Order": 20,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "CreditScoreCreditRules": {
+      "PageName": "CreditScoreCreditRules",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/CreditScoreMobile/WBP_CreditPopUpPage_Mobile.WBP_CreditPopUpPage_Mobile_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Top",
+      "Order": 0,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "CreditScoreMatchRulesPage": {
+      "PageName": "CreditScoreMatchRulePage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/CreditScoreMobile/WBP_RuleDescription_Mobile.WBP_RuleDescription_Mobile_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Top",
+      "Order": 0,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "CreditScoreRecordPage": {
+      "PageName": "CreditScoreRecordPage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/CreditScoreMobile/WBP_CreditRecord_Mobile.WBP_CreditRecord_Mobile_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Top",
+      "Order": 0,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "ZombiePage": {
+      "PageName": "ZombiePage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/Zombie/WBP_ZombieMatchPage_Mobile.WBP_ZombieMatchPage_Mobile_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 0,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "ScoreZombie": {
+      "PageName": "ScoreZombie",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/InGame/NonResidentFunctions/ScoreBoard/Zombie/WBP_ScoreZombie.WBP_ScoreZombie_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Top",
+      "Order": 50,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "ZombieChangeRolePage": {
+      "PageName": "ScorePersonal",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/InGame/Zombie/ZombieChangeRole/WBP_ZombieChangeRoleSelectPage.WBP_ZombieChangeRoleSelectPage_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Top",
+      "Order": 98,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "TalentPage": {
+      "PageName": "TalentPage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/TalentMobile/WBP_TalentPage_Mobile.WBP_TalentPage_Mobile_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 8,
+      "FullScreen": true,
+      "OnlyScreen2DUI": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "SummerThemeSongMainPage": {
+      "PageName": "SummerThemeSongMainPage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/Activities/SummerThemeSong/WBP_STS_MainPage_Mobile.WBP_STS_MainPage_Mobile_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 0,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "SummerThemeSongDailyFlipTimesPage": {
+      "PageName": "SummerThemeSongDailyFlipTimesPage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/Activities/SummerThemeSong/WBP_STS_DailyFilpTimesPage_Mobile.WBP_STS_DailyFilpTimesPage_Mobile_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 23,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false,
+      "SlotNameList": [],
+      "Anchors": {
+        "Minimum": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Maximum": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Alignment": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    "ActiveTokensShopPage": {
+      "PageName": "ActiveTokensShopPage",
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/ActiveTokensSystem/WBP_ActiveTokensShopPage_Mobile.WBP_ActiveTokensShopPage_Mobile_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 0,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false,
       "SlotNameList": [],
       "Anchors": {
         "Minimum": {

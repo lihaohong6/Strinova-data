@@ -2,6 +2,7 @@
   "Type": "DataTable",
   "Name": "DT_Guide_TeamGuide_Task",
   "Class": "UScriptClass'DataTable'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
   "Properties": {
     "RowStruct": {
       "ObjectName": "ScriptStruct'CyGuideTask'",
@@ -75,7 +76,8 @@
         "WeaponSlotTypes": [],
         "AbilityInputIDs": [],
         "GameUIFunctionTypes": [],
-        "GameUIFunctionPages": []
+        "GameUIFunctionPages": [],
+        "bNotAutoOpenGameUIFunctionPages": false
       },
       "DisableGameFunctionConfig": {
         "WeaponSlotTypes": [],
@@ -101,9 +103,16 @@
           "ECyGameUIFunctionType::Head",
           "ECyGameUIFunctionType::InGameESC"
         ],
-        "GameUIFunctionPages": []
+        "GameUIFunctionPages": [],
+        "bNotAutoOpenGameUIFunctionPages": false
       },
       "CancelAllAbilityAndSummonTaskStates": [],
+      "SkillApplyConfig": {
+        "ApplyTargetActorType": "EActionApplyTargetActorType::None",
+        "SkillAddPointNum": []
+      },
+      "ShowActorTag": "None",
+      "HideActorTag": "None",
       "SubTasks": [
         {
           "SubTaskId": 1001,
@@ -169,6 +178,22 @@
       },
       "EndTag": {
         "TagName": "None"
+      },
+      "InputKey": "ECyGuideInputKey::None",
+      "KeyText": {
+        "CultureInvariantString": null
+      },
+      "KeyActionData": {
+        "ActionName": "None",
+        "ActionGamePadName": "None",
+        "KeyBoardDefault": {
+          "KeyName": "None"
+        },
+        "GamePadDefault": {
+          "KeyName": "None"
+        },
+        "Scale": 0.0,
+        "IsAxisAction": false
       }
     },
     "2": {
@@ -191,7 +216,9 @@
       "bDisableAllInput": true,
       "TaskName": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_KeyMappingFormat.ST_KeyMappingFormat",
-        "Key": "TeamGuideTask1"
+        "Key": "TeamGuideTask1",
+        "SourceString": "与欧泊成员汇合",
+        "LocalizedString": "与欧泊成员汇合"
       },
       "AutoFinishDelay": 0.1,
       "TaskCompleteStateTime": 0.0,
@@ -233,15 +260,23 @@
           "EAInputID::ADS"
         ],
         "GameUIFunctionTypes": [],
-        "GameUIFunctionPages": []
+        "GameUIFunctionPages": [],
+        "bNotAutoOpenGameUIFunctionPages": false
       },
       "DisableGameFunctionConfig": {
         "WeaponSlotTypes": [],
         "AbilityInputIDs": [],
         "GameUIFunctionTypes": [],
-        "GameUIFunctionPages": []
+        "GameUIFunctionPages": [],
+        "bNotAutoOpenGameUIFunctionPages": false
       },
       "CancelAllAbilityAndSummonTaskStates": [],
+      "SkillApplyConfig": {
+        "ApplyTargetActorType": "EActionApplyTargetActorType::None",
+        "SkillAddPointNum": []
+      },
+      "ShowActorTag": "None",
+      "HideActorTag": "None",
       "SubTasks": [
         {
           "SubTaskId": 1001,
@@ -307,6 +342,22 @@
       },
       "EndTag": {
         "TagName": "None"
+      },
+      "InputKey": "ECyGuideInputKey::None",
+      "KeyText": {
+        "CultureInvariantString": null
+      },
+      "KeyActionData": {
+        "ActionName": "None",
+        "ActionGamePadName": "None",
+        "KeyBoardDefault": {
+          "KeyName": "None"
+        },
+        "GamePadDefault": {
+          "KeyName": "None"
+        },
+        "Scale": 0.0,
+        "IsAxisAction": false
       }
     },
     "3": {
@@ -329,7 +380,9 @@
       "bDisableAllInput": false,
       "TaskName": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_KeyMappingFormat.ST_KeyMappingFormat",
-        "Key": "TeamGuideTask1"
+        "Key": "TeamGuideTask1",
+        "SourceString": "与欧泊成员汇合",
+        "LocalizedString": "与欧泊成员汇合"
       },
       "AutoFinishDelay": 0.1,
       "TaskCompleteStateTime": 0.0,
@@ -376,15 +429,23 @@
         "WeaponSlotTypes": [],
         "AbilityInputIDs": [],
         "GameUIFunctionTypes": [],
-        "GameUIFunctionPages": []
+        "GameUIFunctionPages": [],
+        "bNotAutoOpenGameUIFunctionPages": false
       },
       "DisableGameFunctionConfig": {
         "WeaponSlotTypes": [],
         "AbilityInputIDs": [],
         "GameUIFunctionTypes": [],
-        "GameUIFunctionPages": []
+        "GameUIFunctionPages": [],
+        "bNotAutoOpenGameUIFunctionPages": false
       },
       "CancelAllAbilityAndSummonTaskStates": [],
+      "SkillApplyConfig": {
+        "ApplyTargetActorType": "EActionApplyTargetActorType::None",
+        "SkillAddPointNum": []
+      },
+      "ShowActorTag": "None",
+      "HideActorTag": "None",
       "SubTasks": [
         {
           "SubTaskId": 301,
@@ -450,6 +511,22 @@
       },
       "EndTag": {
         "TagName": "None"
+      },
+      "InputKey": "ECyGuideInputKey::None",
+      "KeyText": {
+        "CultureInvariantString": null
+      },
+      "KeyActionData": {
+        "ActionName": "None",
+        "ActionGamePadName": "None",
+        "KeyBoardDefault": {
+          "KeyName": "None"
+        },
+        "GamePadDefault": {
+          "KeyName": "None"
+        },
+        "Scale": 0.0,
+        "IsAxisAction": false
       }
     },
     "4": {
@@ -521,15 +598,23 @@
           "ECyGameUIFunctionType::Head",
           "ECyGameUIFunctionType::InGameESC"
         ],
-        "GameUIFunctionPages": []
+        "GameUIFunctionPages": [],
+        "bNotAutoOpenGameUIFunctionPages": false
       },
       "DisableGameFunctionConfig": {
         "WeaponSlotTypes": [],
         "AbilityInputIDs": [],
         "GameUIFunctionTypes": [],
-        "GameUIFunctionPages": []
+        "GameUIFunctionPages": [],
+        "bNotAutoOpenGameUIFunctionPages": false
       },
       "CancelAllAbilityAndSummonTaskStates": [],
+      "SkillApplyConfig": {
+        "ApplyTargetActorType": "EActionApplyTargetActorType::None",
+        "SkillAddPointNum": []
+      },
+      "ShowActorTag": "None",
+      "HideActorTag": "None",
       "SubTasks": [],
       "TaskState": "ECyGuideTaskStateType::None",
       "StartTag": {
@@ -537,6 +622,22 @@
       },
       "EndTag": {
         "TagName": "None"
+      },
+      "InputKey": "ECyGuideInputKey::None",
+      "KeyText": {
+        "CultureInvariantString": null
+      },
+      "KeyActionData": {
+        "ActionName": "None",
+        "ActionGamePadName": "None",
+        "KeyBoardDefault": {
+          "KeyName": "None"
+        },
+        "GamePadDefault": {
+          "KeyName": "None"
+        },
+        "Scale": 0.0,
+        "IsAxisAction": false
       }
     }
   }

@@ -2,6 +2,7 @@
   "Type": "DataTable",
   "Name": "RuleAttribute",
   "Class": "UScriptClass'DataTable'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
   "Properties": {
     "RowStruct": {
       "ObjectName": "ScriptStruct'CyRuleAttributeTableRow'",
@@ -34,12 +35,12 @@
         1,
         4,
         6,
-        9,
         11,
         15,
         16,
         22,
-        26
+        25,
+        28
       ],
       "DefaultValue": [
         2
@@ -327,7 +328,8 @@
       "SettingOptions": [
         11001,
         11002,
-        11003
+        11003,
+        11005
       ],
       "DefaultValue": [
         11001
@@ -515,6 +517,40 @@
       ],
       "Available": 1
     },
+    "101026": {
+      "AttrId": 101026,
+      "AttrGroup": 10101,
+      "Name": {
+        "CultureInvariantString": null
+      },
+      "Module": 1,
+      "SubModule": 1,
+      "Condition": 0,
+      "Sort": 14,
+      "SupportMode": [
+        25
+      ],
+      "Desc": {
+        "CultureInvariantString": null
+      },
+      "CampSetting": 0,
+      "SettingType": 1,
+      "SettingInterval": 0,
+      "SettingOptions": [
+        2501,
+        2504
+      ],
+      "DefaultValue": [
+        2501
+      ],
+      "MaxValue": [
+        20000
+      ],
+      "MinValue": [
+        10
+      ],
+      "Available": 1
+    },
     "101027": {
       "AttrId": 101027,
       "AttrGroup": 10101,
@@ -542,6 +578,42 @@
       ],
       "DefaultValue": [
         2628
+      ],
+      "MaxValue": [
+        20000
+      ],
+      "MinValue": [
+        10
+      ],
+      "Available": 1
+    },
+    "101028": {
+      "AttrId": 101028,
+      "AttrGroup": 10101,
+      "Name": {
+        "CultureInvariantString": null
+      },
+      "Module": 1,
+      "SubModule": 1,
+      "Condition": 0,
+      "Sort": 18,
+      "SupportMode": [
+        28
+      ],
+      "Desc": {
+        "CultureInvariantString": null
+      },
+      "CampSetting": 0,
+      "SettingType": 1,
+      "SettingInterval": 0,
+      "SettingOptions": [
+        2810,
+        2812,
+        2813,
+        2815
+      ],
+      "DefaultValue": [
+        2810
       ],
       "MaxValue": [
         20000
@@ -798,7 +870,9 @@
         12,
         15,
         16,
-        26
+        25,
+        26,
+        28
       ],
       "Desc": {
         "CultureInvariantString": null
@@ -1160,6 +1234,74 @@
       ],
       "Available": 1
     },
+    "103030": {
+      "AttrId": 103030,
+      "AttrGroup": 10302,
+      "Name": {
+        "CultureInvariantString": null
+      },
+      "Module": 1,
+      "SubModule": 3,
+      "Condition": 0,
+      "Sort": 0,
+      "SupportMode": [
+        25
+      ],
+      "Desc": {
+        "CultureInvariantString": null
+      },
+      "CampSetting": 0,
+      "SettingType": 5,
+      "SettingInterval": 1,
+      "SettingOptions": [],
+      "DefaultValue": [
+        5,
+        5
+      ],
+      "MaxValue": [
+        5,
+        5
+      ],
+      "MinValue": [
+        0,
+        0
+      ],
+      "Available": 1
+    },
+    "103031": {
+      "AttrId": 103031,
+      "AttrGroup": 10302,
+      "Name": {
+        "CultureInvariantString": null
+      },
+      "Module": 1,
+      "SubModule": 3,
+      "Condition": 0,
+      "Sort": 0,
+      "SupportMode": [
+        28
+      ],
+      "Desc": {
+        "CultureInvariantString": null
+      },
+      "CampSetting": 0,
+      "SettingType": 5,
+      "SettingInterval": 1,
+      "SettingOptions": [],
+      "DefaultValue": [
+        6,
+        6
+      ],
+      "MaxValue": [
+        6,
+        6
+      ],
+      "MinValue": [
+        0,
+        0
+      ],
+      "Available": 0
+    },
     "10401": {
       "AttrId": 10401,
       "AttrGroup": 0,
@@ -1217,7 +1359,9 @@
         6,
         9,
         12,
-        26
+        25,
+        26,
+        28
       ],
       "Desc": {
         "CultureInvariantString": null
@@ -1337,6 +1481,7 @@
         2,
         6,
         15,
+        25,
         26
       ],
       "Desc": {
@@ -1374,6 +1519,7 @@
         2,
         6,
         15,
+        25,
         26
       ],
       "Desc": {
@@ -1411,6 +1557,7 @@
         2,
         6,
         15,
+        25,
         26
       ],
       "Desc": {
@@ -1474,8 +1621,7 @@
       "SupportMode": [
         2,
         9,
-        12,
-        22
+        12
       ],
       "Desc": {
         "CultureInvariantString": null
@@ -1508,7 +1654,8 @@
       "SupportMode": [
         1,
         4,
-        15
+        15,
+        22
       ],
       "Desc": {
         "CultureInvariantString": null
@@ -1585,6 +1732,7 @@
         9,
         11,
         12,
+        25,
         26
       ],
       "Desc": {
@@ -1945,7 +2093,9 @@
         4,
         9,
         12,
-        16
+        25,
+        16,
+        28
       ],
       "Desc": {
         "CultureInvariantString": null
@@ -2006,7 +2156,8 @@
         120,
         121,
         122,
-        123
+        123,
+        125
       ],
       "DefaultValue": [
         101,
@@ -2029,7 +2180,8 @@
         120,
         121,
         122,
-        123
+        123,
+        125
       ],
       "MaxValue": [],
       "MinValue": [],
@@ -2364,6 +2516,7 @@
       "Condition": 0,
       "Sort": 1,
       "SupportMode": [
+        1,
         2,
         4,
         6,
@@ -2371,6 +2524,7 @@
         12,
         15,
         16,
+        25,
         26
       ],
       "Desc": {
@@ -2402,8 +2556,8 @@
       "Condition": 0,
       "Sort": 1,
       "SupportMode": [
-        1,
-        11
+        11,
+        28
       ],
       "Desc": {
         "CultureInvariantString": null
@@ -2487,6 +2641,86 @@
       ],
       "Available": 1
     },
+    "202031": {
+      "AttrId": 202031,
+      "AttrGroup": 20203,
+      "Name": {
+        "Namespace": "RuleAttribute",
+        "Key": "202031_Name",
+        "SourceString": "主动技能重生时技能冷却默认关闭",
+        "LocalizedString": "主动技能重生时技能冷却默认关闭"
+      },
+      "Module": 2,
+      "SubModule": 2,
+      "Condition": 20201,
+      "Sort": 3,
+      "SupportMode": [
+        1,
+        6,
+        25
+      ],
+      "Desc": {
+        "CultureInvariantString": null
+      },
+      "CampSetting": 1,
+      "SettingType": 3,
+      "SettingInterval": 0,
+      "SettingOptions": [],
+      "DefaultValue": [
+        0
+      ],
+      "MaxValue": [
+        1
+      ],
+      "MinValue": [
+        0
+      ],
+      "Available": 1
+    },
+    "202032": {
+      "AttrId": 202032,
+      "AttrGroup": 20203,
+      "Name": {
+        "Namespace": "RuleAttribute",
+        "Key": "202032_Name",
+        "SourceString": "主动技能重生时技能冷却默认开启",
+        "LocalizedString": "主动技能重生时技能冷却默认开启"
+      },
+      "Module": 2,
+      "SubModule": 2,
+      "Condition": 20201,
+      "Sort": 3,
+      "SupportMode": [
+        2,
+        4,
+        9,
+        11,
+        12,
+        15,
+        16,
+        21,
+        24,
+        26,
+        28
+      ],
+      "Desc": {
+        "CultureInvariantString": null
+      },
+      "CampSetting": 1,
+      "SettingType": 3,
+      "SettingInterval": 0,
+      "SettingOptions": [],
+      "DefaultValue": [
+        1
+      ],
+      "MaxValue": [
+        1
+      ],
+      "MinValue": [
+        0
+      ],
+      "Available": 1
+    },
     "20204": {
       "AttrId": 20204,
       "AttrGroup": 0,
@@ -2519,6 +2753,50 @@
       ],
       "Available": 1
     },
+    "202041": {
+      "AttrId": 202041,
+      "AttrGroup": 20204,
+      "Name": {
+        "Namespace": "RuleAttribute",
+        "Key": "202041_Name",
+        "SourceString": "所有模式被动技能默认开启",
+        "LocalizedString": "所有模式被动技能默认开启"
+      },
+      "Module": 2,
+      "SubModule": 2,
+      "Condition": 20204,
+      "Sort": 4,
+      "SupportMode": [
+        1,
+        2,
+        4,
+        6,
+        9,
+        11,
+        12,
+        23,
+        24,
+        25,
+        26
+      ],
+      "Desc": {
+        "CultureInvariantString": null
+      },
+      "CampSetting": 1,
+      "SettingType": 3,
+      "SettingInterval": 0,
+      "SettingOptions": [],
+      "DefaultValue": [
+        1
+      ],
+      "MaxValue": [
+        1
+      ],
+      "MinValue": [
+        0
+      ],
+      "Available": 1
+    },
     "202042": {
       "AttrId": 202042,
       "AttrGroup": 20204,
@@ -2533,7 +2811,8 @@
       "Condition": 20204,
       "Sort": 5,
       "SupportMode": [
-        22
+        22,
+        28
       ],
       "Desc": {
         "CultureInvariantString": null
@@ -2600,6 +2879,7 @@
         12,
         15,
         16,
+        25,
         26
       ],
       "Desc": {
@@ -2801,6 +3081,7 @@
         12,
         15,
         16,
+        25,
         26
       ],
       "Desc": {
@@ -2936,7 +3217,7 @@
       "Condition": 20210,
       "Sort": 17,
       "SupportMode": [
-        0
+        25
       ],
       "Desc": {
         "CultureInvariantString": null
@@ -4235,7 +4516,8 @@
         12,
         13,
         16,
-        22
+        22,
+        28
       ],
       "Desc": {
         "CultureInvariantString": null
@@ -4267,6 +4549,7 @@
       "Sort": 0,
       "SupportMode": [
         6,
+        25,
         26
       ],
       "Desc": {
@@ -4368,7 +4651,8 @@
         11,
         12,
         15,
-        26
+        26,
+        28
       ],
       "Desc": {
         "CultureInvariantString": null

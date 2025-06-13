@@ -2,6 +2,7 @@
   "Type": "DataTable",
   "Name": "DivisionBParameter",
   "Class": "UScriptClass'DataTable'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
   "Properties": {
     "RowStruct": {
       "ObjectName": "ScriptStruct'CyDivisionBParameterTableRow'",
@@ -41,16 +42,7 @@
       "Value": 1600.0,
       "Range": []
     },
-    "cMMRmatchclass": {
-      "Value": 0.0,
-      "Range": [
-        0,
-        1,
-        2,
-        3
-      ]
-    },
-    "cMMRmatchratio": {
+    "cMMRmatchfluctuateratio": {
       "Value": 0.0,
       "Range": [
         0
@@ -65,7 +57,10 @@
       "Range": [
         0,
         1,
-        2
+        12,
+        14,
+        22,
+        24
       ]
     },
     "PSmatchcnt": {
@@ -84,12 +79,20 @@
       "Value": 0.2,
       "Range": []
     },
+    "PSmapvalidity": {
+      "Value": 30.0,
+      "Range": []
+    },
     "PSmapstandard": {
       "Value": 12000.0,
       "Range": []
     },
     "PSmapstandardratio": {
       "Value": 0.5,
+      "Range": []
+    },
+    "PSrolevalidity": {
+      "Value": 30.0,
       "Range": []
     },
     "PSrolestandard": {
@@ -146,7 +149,7 @@
       ]
     },
     "divisionwinstreak": {
-      "Value": 3.0,
+      "Value": 2.0,
       "Range": []
     },
     "divisionjumpps": {
@@ -156,8 +159,8 @@
     "divisionjumpcd": {
       "Value": 0.0,
       "Range": [
-        2,
-        10
+        1,
+        5
       ]
     },
     "divisionjumpresetcd": {
@@ -171,7 +174,10 @@
       "Range": [
         0,
         1,
-        2
+        12,
+        14,
+        22,
+        24
       ]
     },
     "cMMRbalance2": {
@@ -247,11 +253,11 @@
       ]
     },
     "divisionthreshold": {
-      "Value": 36.0,
+      "Value": 99.0,
       "Range": []
     },
     "divisonmax": {
-      "Value": 99.0,
+      "Value": 37.0,
       "Range": []
     },
     "modethreshold": {
@@ -292,6 +298,10 @@
       ]
     },
     "losestreaktime": {
+      "Value": 72.0,
+      "Range": []
+    },
+    "winstreaktime": {
       "Value": 72.0,
       "Range": []
     },
@@ -337,12 +347,72 @@
         9,
         31,
         5,
-        32
+        32,
+        33,
+        34
       ]
     },
-    "matchaifixcamp": {
-      "Value": 1.0,
-      "Range": []
+    "NegativeAvoidanceCnt": {
+      "Value": 0.0,
+      "Range": [
+        0
+      ]
+    },
+    "AIdramaId": {
+      "Value": 0.0,
+      "Range": [
+        0
+      ]
+    },
+    "AIdivisionset1": {
+      "Value": 0.0,
+      "Range": [
+        0
+      ]
+    },
+    "AIdivisionset2": {
+      "Value": 0.0,
+      "Range": [
+        1,
+        1
+      ]
+    },
+    "matchallmode1": {
+      "Value": 0.0,
+      "Range": [
+        0
+      ]
+    },
+    "matchallcnt1": {
+      "Value": 0.0,
+      "Range": [
+        0
+      ]
+    },
+    "matchallmode2": {
+      "Value": 0.0,
+      "Range": [
+        0
+      ]
+    },
+    "matchallcnt2": {
+      "Value": 0.0,
+      "Range": [
+        0
+      ]
+    },
+    "CampCapacityFix": {
+      "Value": 0.0,
+      "Range": [
+        0
+      ]
+    },
+    "CircuitBreakerParameters": {
+      "Value": 0.0,
+      "Range": [
+        8,
+        3
+      ]
     }
   }
 }

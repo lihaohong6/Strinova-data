@@ -2,10 +2,55 @@
   "Type": "AkAudioEvent",
   "Name": "Bgm_Store_Capsule",
   "Class": "UScriptClass'AkAudioEvent'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
   "Properties": {
     "RequiredBank": {
       "ObjectName": "AkAudioBank'BGM_OutGame'",
       "ObjectPath": "PM/Content/WwiseAssets/AkBank/BGM_OutGame.0"
     }
-  }
+  },
+  "EventCookedData": {
+    "EventLanguageMap": [
+      {
+        "Key": {
+          "LanguageId": 0,
+          "LanguageName": "SFX",
+          "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
+        },
+        "Value": {
+          "EventId": 1276051471,
+          "SoundBanks": [
+            {
+              "SoundBankId": 1003108466,
+              "SoundBankPathName": "BGM_OutGame.bnk",
+              "MemoryAlignment": 16,
+              "bDeviceMemory": false,
+              "bContainsMedia": false,
+              "SoundBankType": "EWwiseSoundBankType::User",
+              "DebugName": "BGM_OutGame"
+            }
+          ],
+          "Media": [],
+          "ExternalSources": [],
+          "SwitchContainerLeaves": [],
+          "RequiredGroupValueSet": [
+            {
+              "Type": "EWwiseGroupType::State",
+              "GroupId": 412724365,
+              "Id": 1276051471,
+              "DebugName": "Bgm_Store_Capsule"
+            }
+          ],
+          "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
+          "DebugName": "BGM_Store_Capsule"
+        }
+      }
+    ],
+    "DebugName": "BGM_Store_Capsule",
+    "EventId": 1276051471
+  },
+  "MaximumDuration": 0.0,
+  "MinimumDuration": 0.0,
+  "IsInfinite": false,
+  "MaxAttenuationRadius": 0.0
 }

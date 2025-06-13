@@ -2,6 +2,7 @@
   "Type": "AkAudioEvent",
   "Name": "Wpn_Katana_Hit_Concrete",
   "Class": "UScriptClass'AkAudioEvent'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
   "Properties": {
     "MinimumDuration": 0.36051288,
     "MaximumDuration": 0.49444017,
@@ -9,5 +10,42 @@
       "ObjectName": "AkAudioBank'Wpn_Katana'",
       "ObjectPath": "PM/Content/WwiseAssets/AkBank/Wpn_Katana.0"
     }
-  }
+  },
+  "EventCookedData": {
+    "EventLanguageMap": [
+      {
+        "Key": {
+          "LanguageId": 0,
+          "LanguageName": "SFX",
+          "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
+        },
+        "Value": {
+          "EventId": -1591226523,
+          "SoundBanks": [
+            {
+              "SoundBankId": -152607525,
+              "SoundBankPathName": "Wpn_Katana.bnk",
+              "MemoryAlignment": 16,
+              "bDeviceMemory": false,
+              "bContainsMedia": true,
+              "SoundBankType": "EWwiseSoundBankType::User",
+              "DebugName": "Wpn_Katana"
+            }
+          ],
+          "Media": [],
+          "ExternalSources": [],
+          "SwitchContainerLeaves": [],
+          "RequiredGroupValueSet": [],
+          "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
+          "DebugName": "Wpn_Katana_Hit_Concrete"
+        }
+      }
+    ],
+    "DebugName": "Wpn_Katana_Hit_Concrete",
+    "EventId": -1591226523
+  },
+  "MaximumDuration": 0.49444017,
+  "MinimumDuration": 0.36051288,
+  "IsInfinite": false,
+  "MaxAttenuationRadius": 5000.0
 }
