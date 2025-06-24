@@ -4,8 +4,17 @@
   "Class": "UScriptClass'AkAudioEvent'",
   "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
   "Properties": {
+    "MultiLanguage": true,
     "MinimumDuration": 3.5261679,
     "MaximumDuration": 3.5261679,
+    "MultiMinimumDuration": [
+      3.5261679,
+      1.4894558
+    ],
+    "MultiMaximumDuration": [
+      3.5261679,
+      1.4894558
+    ],
     "RequiredBank": {
       "ObjectName": "AkAudioBank'Vox_Nobunaga_InGame_Result_red01'",
       "ObjectPath": "PM/Content/WwiseAssets/AkBank/Vox_Nobunaga_InGame_Result_red01.0"
@@ -15,16 +24,16 @@
     "EventLanguageMap": [
       {
         "Key": {
-          "LanguageId": 0,
-          "LanguageName": "SFX",
-          "LanguageRequirement": "EWwiseLanguageRequirement::SFX"
+          "LanguageId": 1016554174,
+          "LanguageName": "Chinese",
+          "LanguageRequirement": "EWwiseLanguageRequirement::IsDefault"
         },
         "Value": {
           "EventId": 1643061661,
           "SoundBanks": [
             {
               "SoundBankId": 1223536147,
-              "SoundBankPathName": "Vox_Nobunaga_InGame_Result_red01.bnk",
+              "SoundBankPathName": "Chinese/Vox_Nobunaga_InGame_Result_red01.bnk",
               "MemoryAlignment": 16,
               "bDeviceMemory": false,
               "bContainsMedia": false,
@@ -32,7 +41,91 @@
               "DebugName": "Vox_Nobunaga_InGame_Result_red01"
             }
           ],
-          "Media": [],
+          "Media": [
+            {
+              "MediaId": 1041821330,
+              "MediaPathName": "Media/Chinese/Vox_Nobunaga_InGame_Result_red01/1041821330.wem",
+              "PrefetchSize": 0,
+              "MemoryAlignment": 16,
+              "bDeviceMemory": false,
+              "bStreaming": true,
+              "DebugName": "Vox_Player\\Vox_Nobunaga\\Vox_Nobunaga_BPCHAT_138_red01_a.wav"
+            }
+          ],
+          "ExternalSources": [],
+          "SwitchContainerLeaves": [],
+          "RequiredGroupValueSet": [],
+          "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
+          "DebugName": "Vox_Nobunaga_BPCHAT_138_red01_a"
+        }
+      },
+      {
+        "Key": {
+          "LanguageId": -911729657,
+          "LanguageName": "English",
+          "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+        },
+        "Value": {
+          "EventId": 1643061661,
+          "SoundBanks": [
+            {
+              "SoundBankId": 1223536147,
+              "SoundBankPathName": "English/Vox_Nobunaga_InGame_Result_red01.bnk",
+              "MemoryAlignment": 16,
+              "bDeviceMemory": false,
+              "bContainsMedia": false,
+              "SoundBankType": "EWwiseSoundBankType::User",
+              "DebugName": "Vox_Nobunaga_InGame_Result_red01"
+            }
+          ],
+          "Media": [
+            {
+              "MediaId": 1056601349,
+              "MediaPathName": "Media/English/Vox_Nobunaga_InGame_Result_red01/1056601349.wem",
+              "PrefetchSize": 0,
+              "MemoryAlignment": 16,
+              "bDeviceMemory": false,
+              "bStreaming": true,
+              "DebugName": "Vox_Player\\Vox_Nobunaga\\Vox_Nobunaga_BPCHAT_138_red01_a.wav"
+            }
+          ],
+          "ExternalSources": [],
+          "SwitchContainerLeaves": [],
+          "RequiredGroupValueSet": [],
+          "DestroyOptions": "EWwiseEventDestroyOptions::StopEventOnDestroy",
+          "DebugName": "Vox_Nobunaga_BPCHAT_138_red01_a"
+        }
+      },
+      {
+        "Key": {
+          "LanguageId": 2008704848,
+          "LanguageName": "Japanese",
+          "LanguageRequirement": "EWwiseLanguageRequirement::IsOptional"
+        },
+        "Value": {
+          "EventId": 1643061661,
+          "SoundBanks": [
+            {
+              "SoundBankId": 1223536147,
+              "SoundBankPathName": "Japanese/Vox_Nobunaga_InGame_Result_red01.bnk",
+              "MemoryAlignment": 16,
+              "bDeviceMemory": false,
+              "bContainsMedia": false,
+              "SoundBankType": "EWwiseSoundBankType::User",
+              "DebugName": "Vox_Nobunaga_InGame_Result_red01"
+            }
+          ],
+          "Media": [
+            {
+              "MediaId": 98879190,
+              "MediaPathName": "Media/Japanese/Vox_Nobunaga_InGame_Result_red01/98879190.wem",
+              "PrefetchSize": 0,
+              "MemoryAlignment": 16,
+              "bDeviceMemory": false,
+              "bStreaming": true,
+              "DebugName": "Vox_Player\\Vox_Nobunaga\\Vox_Nobunaga_BPCHAT_138_red01_a.wav"
+            }
+          ],
           "ExternalSources": [],
           "SwitchContainerLeaves": [],
           "RequiredGroupValueSet": [],
