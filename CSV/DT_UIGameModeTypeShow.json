@@ -43,7 +43,8 @@
         "EPMGameModeType::BombGuide",
         "EPMGameModeType::TeamGuide",
         "EPMGameModeType::Zombie",
-        "EPMGameModeType::UGC"
+        "EPMGameModeType::UGC",
+        "EPMGameModeType::ZombieGuide"
       ],
       "ShowGameStateTypes": [
         "EGStateType::Warmup",
@@ -105,7 +106,9 @@
       "HideModeTypes": [
         "EPMGameModeType::TeamGuide",
         "EPMGameModeType::BombPass",
-        "EPMGameModeType::Zombie"
+        "EPMGameModeType::Zombie",
+        "EPMGameModeType::ZombieGuide",
+        "EPMGameModeType::ExtremeKnifeFight"
       ],
       "ShowGameStateTypes": [],
       "HideGameStateTypes": [],
@@ -326,7 +329,8 @@
     },
     "RoguelikeCardPage": {
       "ShowModeTypes": [
-        "EPMGameModeType::Zombie"
+        "EPMGameModeType::Zombie",
+        "EPMGameModeType::ZombieGuide"
       ],
       "HideModeTypes": [],
       "ShowGameStateTypes": [
@@ -379,6 +383,44 @@
       ],
       "ShowGameStateTypes": [],
       "HideGameStateTypes": [],
+      "ShowCharacterStateTypes": [],
+      "HideCharacterStateTypes": [],
+      "bNeedsHideInReplayMode": false
+    },
+    "GameChatPage": {
+      "ShowModeTypes": [],
+      "HideModeTypes": [
+        "EPMGameModeType::EscortGuide",
+        "EPMGameModeType::BombGuide2",
+        "EPMGameModeType::ZombieGuide"
+      ],
+      "ShowGameStateTypes": [],
+      "HideGameStateTypes": [],
+      "ShowCharacterStateTypes": [],
+      "HideCharacterStateTypes": [],
+      "bNeedsHideInReplayMode": false
+    },
+    "GameChatInputPage": {
+      "ShowModeTypes": [],
+      "HideModeTypes": [
+        "EPMGameModeType::EscortGuide",
+        "EPMGameModeType::BombGuide2",
+        "EPMGameModeType::ZombieGuide"
+      ],
+      "ShowGameStateTypes": [],
+      "HideGameStateTypes": [],
+      "ShowCharacterStateTypes": [],
+      "HideCharacterStateTypes": [],
+      "bNeedsHideInReplayMode": false
+    },
+    "InGamePlayerCardPanel": {
+      "ShowModeTypes": [],
+      "HideModeTypes": [],
+      "ShowGameStateTypes": [],
+      "HideGameStateTypes": [
+        "EGStateType::GameEnd",
+        "EGStateType::GameOver"
+      ],
       "ShowCharacterStateTypes": [],
       "HideCharacterStateTypes": [],
       "bNeedsHideInReplayMode": false

@@ -318,12 +318,12 @@
       "Tag": "Event.Summon.Destroy.KokonaShiki.Q",
       "DevComment": "志木心夏Q技能召唤物销毁"
     },
-    "Event.Summon.Spawn.Lawine.Q": {
-      "Tag": "Event.Summon.Spawn.Lawine.Q",
+    "Event.Summon.Spawn.Lawine.Q.Knife": {
+      "Tag": "Event.Summon.Spawn.Lawine.Q.Knife",
       "DevComment": "拉薇Q技能召唤物出生"
     },
-    "Event.Summon.Destroy.Lawine.Q": {
-      "Tag": "Event.Summon.Destroy.Lawine.Q",
+    "Event.Summon.Destroy.Lawine.Q.Knife": {
+      "Tag": "Event.Summon.Destroy.Lawine.Q.Knife",
       "DevComment": "拉薇Q技能召唤物销毁"
     },
     "Event.Summon.Spawn.Lawine.X": {
@@ -522,8 +522,8 @@
       "Tag": "Event.Summon.TakeDamage.Galatea.P",
       "DevComment": "加拉蒂亚P技能召唤物受到伤害"
     },
-    "Event.Summon.Spawn.Galatea.Q": {
-      "Tag": "Event.Summon.Spawn.Galatea.Q",
+    "Event.Summon.Spawn.Galatea.Q.Summon": {
+      "Tag": "Event.Summon.Spawn.Galatea.Q.Summon",
       "DevComment": "加拉蒂亚Q技能召唤物出生"
     },
     "Event.Summon.Spawn.Galatea.ArousalThree": {
@@ -1654,6 +1654,138 @@
       "Tag": "Event.TakeDamageByWeapon.Tool",
       "DevComment": "受到工具造成伤害"
     },
+    "Event.TakeDamageSummon": {
+      "Tag": "Event.TakeDamageSummon",
+      "DevComment": "受到伤害"
+    },
+    "Event.TakeDamageSummon.PlayerWeapon": {
+      "Tag": "Event.TakeDamageSummon.PlayerWeapon",
+      "DevComment": "受到武器造成伤害"
+    },
+    "Event.TakeDamageSummon.PlayerWeapon.Primary": {
+      "Tag": "Event.TakeDamageSummon.PlayerWeapon.Primary",
+      "DevComment": "受到主武器造成伤害"
+    },
+    "Event.TakeDamageSummon.PlayerWeapon.Secondary": {
+      "Tag": "Event.TakeDamageSummon.PlayerWeapon.Secondary",
+      "DevComment": "受到副武器造成伤害"
+    },
+    "Event.TakeDamageSummon.PlayerWeapon.Throw": {
+      "Tag": "Event.TakeDamageSummon.PlayerWeapon.Throw",
+      "DevComment": "受到投掷武器造成伤害"
+    },
+    "Event.TakeDamageSummon.PlayerWeapon.C4": {
+      "Tag": "Event.TakeDamageSummon.PlayerWeapon.C4",
+      "DevComment": "受到炸弹造成伤害"
+    },
+    "Event.TakeDamageSummon.PlayerSkill": {
+      "Tag": "Event.TakeDamageSummon.PlayerSkill",
+      "DevComment": "受到技能造成伤害"
+    },
+    "Event.TakeDamageSummon.PlayerSkill.P": {
+      "Tag": "Event.TakeDamageSummon.PlayerSkill.P",
+      "DevComment": "受到被动技能造成伤害"
+    },
+    "Event.TakeDamageSummon.PlayerSkill.Q": {
+      "Tag": "Event.TakeDamageSummon.PlayerSkill.Q",
+      "DevComment": "受到主动技能造成伤害"
+    },
+    "Event.TakeDamageSummon.PlayerSkill.X": {
+      "Tag": "Event.TakeDamageSummon.PlayerSkill.X",
+      "DevComment": "受到大招技能造成伤害"
+    },
+    "Event.TakeDamageSummon.System": {
+      "Tag": "Event.TakeDamageSummon.System",
+      "DevComment": "受到系统造成伤害"
+    },
+    "Event.TakeDamageSummon.System.Fall": {
+      "Tag": "Event.TakeDamageSummon.System.Fall",
+      "DevComment": "受到掉落造成伤害"
+    },
+    "Event.TakeDamageSummon.System.DangerZone": {
+      "Tag": "Event.TakeDamageSummon.System.DangerZone",
+      "DevComment": "受到危险区造成伤害"
+    },
+    "Event.TakeDamageSummon.System.DeathZone": {
+      "Tag": "Event.TakeDamageSummon.System.DeathZone",
+      "DevComment": "受到死亡区造成伤害"
+    },
+    "Event.TakeDamageSummonByWeapon": {
+      "Tag": "Event.TakeDamageSummonByWeapon",
+      "DevComment": "受到武器造成伤害"
+    },
+    "Event.TakeDamageSummonByWeapon.Gun": {
+      "Tag": "Event.TakeDamageSummonByWeapon.Gun",
+      "DevComment": "受到枪械武器造成伤害"
+    },
+    "Event.TakeDamageSummonByWeapon.Gun.SR": {
+      "Tag": "Event.TakeDamageSummonByWeapon.Gun.SR",
+      "DevComment": "受到狙击枪造成伤害"
+    },
+    "Event.TakeDamageSummonByWeapon.Gun.AR": {
+      "Tag": "Event.TakeDamageSummonByWeapon.Gun.AR",
+      "DevComment": "受到步枪造成伤害"
+    },
+    "Event.TakeDamageSummonByWeapon.Gun.SMG": {
+      "Tag": "Event.TakeDamageSummonByWeapon.Gun.SMG",
+      "DevComment": "受到冲锋枪造成伤害"
+    },
+    "Event.TakeDamageSummonByWeapon.Gun.SG": {
+      "Tag": "Event.TakeDamageSummonByWeapon.Gun.SG",
+      "DevComment": "受到喷子造成伤害"
+    },
+    "Event.TakeDamageSummonByWeapon.Gun.PT": {
+      "Tag": "Event.TakeDamageSummonByWeapon.Gun.PT",
+      "DevComment": "受到手枪造成伤害"
+    },
+    "Event.TakeDamageSummonByWeapon.Gun.LMG": {
+      "Tag": "Event.TakeDamageSummonByWeapon.Gun.LMG",
+      "DevComment": "受到轻机枪造成伤害"
+    },
+    "Event.TakeDamageSummonByWeapon.Gun.Ejector": {
+      "Tag": "Event.TakeDamageSummonByWeapon.Gun.Ejector",
+      "DevComment": "受到喷射器造成伤害"
+    },
+    "Event.TakeDamageSummonByWeapon.Melee": {
+      "Tag": "Event.TakeDamageSummonByWeapon.Melee",
+      "DevComment": "受到近战武器造成伤害"
+    },
+    "Event.TakeDamageSummonByWeapon.Melee.Blade": {
+      "Tag": "Event.TakeDamageSummonByWeapon.Melee.Blade",
+      "DevComment": "受到刀击造成伤害"
+    },
+    "Event.TakeDamageSummonByWeapon.Melee.Knife": {
+      "Tag": "Event.TakeDamageSummonByWeapon.Melee.Knife",
+      "DevComment": "受到小刀造成伤害"
+    },
+    "Event.TakeDamageSummonByWeapon.Melee.Fist": {
+      "Tag": "Event.TakeDamageSummonByWeapon.Melee.Fist",
+      "DevComment": "受到拳头造成伤害"
+    },
+    "Event.TakeDamageSummonByWeapon.Throw": {
+      "Tag": "Event.TakeDamageSummonByWeapon.Throw",
+      "DevComment": "受到投掷物造成伤害"
+    },
+    "Event.TakeDamageSummonByWeapon.Launcher": {
+      "Tag": "Event.TakeDamageSummonByWeapon.Launcher",
+      "DevComment": "受到释放器造成伤害"
+    },
+    "Event.TakeDamageSummonByWeapon.Device": {
+      "Tag": "Event.TakeDamageSummonByWeapon.Device",
+      "DevComment": "受到装置造成伤害"
+    },
+    "Event.TakeDamageSummonByWeapon.Tool": {
+      "Tag": "Event.TakeDamageSummonByWeapon.Tool",
+      "DevComment": "受到工具造成伤害"
+    },
+    "Event.TakeDamageSummonBySlot": {
+      "Tag": "Event.TakeDamageSummonBySlot",
+      "DevComment": ""
+    },
+    "Event.TakeDamageSummonBySlot.BombPass": {
+      "Tag": "Event.TakeDamageSummonBySlot.BombPass",
+      "DevComment": ""
+    },
     "Event.CauseInjured": {
       "Tag": "Event.CauseInjured",
       "DevComment": "造成重伤倒地"
@@ -2290,9 +2422,17 @@
       "Tag": "Event.Weapon.Work.End",
       "DevComment": "武器Work状态结束"
     },
+    "Event.Weapon.Work.Start.Flavia.Q": {
+      "Tag": "Event.Weapon.Work.Start.Flavia.Q",
+      "DevComment": "芙拉薇娅Q技能武器Work状态开始"
+    },
     "Event.Weapon.Work.End.Flavia.Q": {
       "Tag": "Event.Weapon.Work.End.Flavia.Q",
       "DevComment": "芙拉薇娅Q技能武器Work状态结束"
+    },
+    "Event.Weapon.Work.Start.Flavia.X": {
+      "Tag": "Event.Weapon.Work.Start.Flavia.X",
+      "DevComment": "芙拉薇娅X技能武器Work状态开始"
     },
     "Event.Summon.Spawn.Flavia.Q.Butterfly": {
       "Tag": "Event.Summon.Spawn.Flavia.Q.Butterfly",
@@ -3086,30 +3226,6 @@
       "Tag": "Event.GameState.StateTimeEnd",
       "DevComment": "游戏状态-状态倒计时结束"
     },
-    "Event.Pickup.LifeTimeEnd": {
-      "Tag": "Event.Pickup.LifeTimeEnd",
-      "DevComment": "拾取物到达存在时间"
-    },
-    "Event.BePickup.Energy": {
-      "Tag": "Event.BePickup.Energy",
-      "DevComment": "能量被拾取"
-    },
-    "Event.BePickup.Ammo": {
-      "Tag": "Event.BePickup.Ammo",
-      "DevComment": "弹药被拾取"
-    },
-    "Event.BePickup.Armor": {
-      "Tag": "Event.BePickup.Armor",
-      "DevComment": "护甲被拾取"
-    },
-    "Event.BePickup.Throw": {
-      "Tag": "Event.BePickup.Throw",
-      "DevComment": "投掷物被拾取"
-    },
-    "Event.BePickup.DeathDrop": {
-      "Tag": "Event.BePickup.DeathDrop",
-      "DevComment": "死亡掉落物被拾取"
-    },
     "Event.AIState.Entry.PreBegin": {
       "Tag": "Event.AIState.Entry.PreBegin",
       "DevComment": "AI状态-进入状态-开始前"
@@ -3549,6 +3665,246 @@
     "Event.Card.10013037": {
       "Tag": "Event.Card.10013037",
       "DevComment": "卡牌10013037事件"
+    },
+    "Event.Summon.Destroy.Michele.E": {
+      "Tag": "Event.Summon.Destroy.Michele.E",
+      "DevComment": "米雪儿的E召唤物销毁事件"
+    },
+    "Event.Summon.Death.Audrey.P": {
+      "Tag": "Event.Summon.Death.Audrey.P",
+      "DevComment": "奥黛丽被动的盾被打破"
+    },
+    "Event.Summon.Destroy.Audrey.Arousal.Two": {
+      "Tag": "Event.Summon.Destroy.Audrey.Arousal.Two",
+      "DevComment": "奥黛丽觉醒2的召唤物销毁"
+    },
+    "Event.Summon.Destroy.Nobunaga.E": {
+      "Tag": "Event.Summon.Destroy.Nobunaga.E",
+      "DevComment": "信的C技能召唤物销毁"
+    },
+    "Event.Summon.Destroy.Meredith.E": {
+      "Tag": "Event.Summon.Destroy.Meredith.E",
+      "DevComment": "梅瑞狄斯的C技能召唤物销毁"
+    },
+    "Event.Summon.Destroy.Galatea.E": {
+      "Tag": "Event.Summon.Destroy.Galatea.E",
+      "DevComment": "加拉蒂亚的C技能召唤物销毁"
+    },
+    "Event.Summon.Destroy.Galatea.X": {
+      "Tag": "Event.Summon.Destroy.Galatea.X",
+      "DevComment": "加拉蒂亚的X技能召唤物销毁"
+    },
+    "Event.Summon.Destroy.Galatea.Arousal.Three": {
+      "Tag": "Event.Summon.Destroy.Galatea.Arousal.Three",
+      "DevComment": "加拉蒂亚觉醒3召唤物销毁"
+    },
+    "Event.Summon.Destroy.Mara.Q": {
+      "Tag": "Event.Summon.Destroy.Mara.Q",
+      "DevComment": "玛拉的Q技能召唤物销毁"
+    },
+    "Event.Summon.Destroy.Audrey.E": {
+      "Tag": "Event.Summon.Destroy.Audrey.E",
+      "DevComment": "奥黛丽的C技能召唤物销毁"
+    },
+    "Event.Summon.Destroy.Yvette.E": {
+      "Tag": "Event.Summon.Destroy.Yvette.E",
+      "DevComment": "伊薇特的C技能召唤物销毁"
+    },
+    "Event.Card.CountChanged": {
+      "Tag": "Event.Card.CountChanged",
+      "DevComment": "拥有卡牌数量变化事件"
+    },
+    "Event.Accumulator.Chiyo.ArousalOne": {
+      "Tag": "Event.Accumulator.Chiyo.ArousalOne",
+      "DevComment": "千代觉醒1伤害累计触发事件"
+    },
+    "Event.Summon.Destroy.Chiyo.X.Projectile": {
+      "Tag": "Event.Summon.Destroy.Chiyo.X.Projectile",
+      "DevComment": "千代X技能子弹销毁"
+    },
+    "Event.Summon.Spawn.Chiyo.X.Projectile": {
+      "Tag": "Event.Summon.Spawn.Chiyo.X.Projectile",
+      "DevComment": "千代X技能子弹出生"
+    },
+    "Event.SkillHit.Q": {
+      "Tag": "Event.SkillHit.Q",
+      "DevComment": "Q技能命中"
+    },
+    "Event.SkillHit.X": {
+      "Tag": "Event.SkillHit.X",
+      "DevComment": "X技能命中"
+    },
+    "Event.PickupSpawn": {
+      "Tag": "Event.PickupSpawn",
+      "DevComment": "拾取物生成"
+    },
+    "Event.PickupRelease": {
+      "Tag": "Event.PickupRelease",
+      "DevComment": "拾取物回收"
+    },
+    "Event.GameplayEffect.Add.Chiyo.Q.Warning": {
+      "Tag": "Event.GameplayEffect.Add.Chiyo.Q.Warning",
+      "DevComment": "千代Q技能预警BUFF添加事件"
+    },
+    "Event.GameplayEffect.Remove.Chiyo.Q.Warning": {
+      "Tag": "Event.GameplayEffect.Remove.Chiyo.Q.Warning",
+      "DevComment": "千代Q技能预警BUFF移除事件"
+    },
+    "Event.GameplayEffect.Add.Chiyo.X.Warning": {
+      "Tag": "Event.GameplayEffect.Add.Chiyo.X.Warning",
+      "DevComment": "千代X技能预警BUFF添加事件"
+    },
+    "Event.GameplayEffect.Remove.Chiyo.X.Warning": {
+      "Tag": "Event.GameplayEffect.Remove.Chiyo.X.Warning",
+      "DevComment": "千代X技能预警BUFF移除事件"
+    },
+    "Event.Weapon.KnifeBlock": {
+      "Tag": "Event.Weapon.KnifeBlock",
+      "DevComment": "触发格挡"
+    },
+    "Event.Weapon.KnifeBlockWowowo": {
+      "Tag": "Event.Weapon.KnifeBlockWowowo",
+      "DevComment": "触发格挡尖叫鸡"
+    },
+    "Event.GameplayEffect.Executed.Michele.X": {
+      "Tag": "Event.GameplayEffect.Executed.Michele.X",
+      "DevComment": "米雪儿大招伤害"
+    },
+    "Event.GameplayEffect.Add.Maddelena.E": {
+      "Tag": "Event.GameplayEffect.Add.Maddelena.E",
+      "DevComment": "玛德雷纳E技能效果"
+    },
+    "Event.GameplayEffect.Add.Maddelena.Q": {
+      "Tag": "Event.GameplayEffect.Add.Maddelena.Q",
+      "DevComment": "玛德雷纳Q技能效果"
+    },
+    "Event.GameplayEffect.Add.Nobunaga.X": {
+      "Tag": "Event.GameplayEffect.Add.Nobunaga.X",
+      "DevComment": "信X技能命中"
+    },
+    "Event.Summon.Spawn.Maddelena.Q.Paint": {
+      "Tag": "Event.Summon.Spawn.Maddelena.Q.Paint",
+      "DevComment": "玛德雷纳Q技能喷涂生成"
+    },
+    "Event.Ability.End.Audery.QPlace": {
+      "Tag": "Event.Ability.End.Audery.QPlace",
+      "DevComment": "奥黛丽部署Q"
+    },
+    "Event.Ability.Start.Galatea.Castling": {
+      "Tag": "Event.Ability.Start.Galatea.Castling",
+      "DevComment": "加拉蒂亚传送"
+    },
+    "Event.Ability.End.Galatea.Castling": {
+      "Tag": "Event.Ability.End.Galatea.Castling",
+      "DevComment": "加拉蒂亚传送"
+    },
+    "Event.GameplayEffect.Executed.Ming.Q": {
+      "Tag": "Event.GameplayEffect.Executed.Ming.Q",
+      "DevComment": "明Q技能效果"
+    },
+    "Event.GameplayEffect.Executed.Huixing.P": {
+      "Tag": "Event.GameplayEffect.Executed.Huixing.P",
+      "DevComment": "星辉被动效果"
+    },
+    "Event.GameplayEffect.Executed.Huixing.E": {
+      "Tag": "Event.GameplayEffect.Executed.Huixing.E",
+      "DevComment": "星辉C技能效果"
+    },
+    "Event.GameplayEffect.Executed.Huixing.Q": {
+      "Tag": "Event.GameplayEffect.Executed.Huixing.Q",
+      "DevComment": "星辉Q技能效果"
+    },
+    "Event.GameplayEffect.Add.Huixing.Q": {
+      "Tag": "Event.GameplayEffect.Add.Huixing.Q",
+      "DevComment": "星辉Q技能效果"
+    },
+    "Event.GameplayEffect.Add.Huixing.X": {
+      "Tag": "Event.GameplayEffect.Add.Huixing.X",
+      "DevComment": "星辉X技能效果"
+    },
+    "Event.GameplayEffect.Add.Kanami.Vertigo": {
+      "Tag": "Event.GameplayEffect.Add.Kanami.Vertigo",
+      "DevComment": "香奈美眩晕效果"
+    },
+    "Event.GameplayEffect.Add.Kanami.X": {
+      "Tag": "Event.GameplayEffect.Add.Kanami.X",
+      "DevComment": "香奈美X技能效果"
+    },
+    "Event.GameplayEffect.Add.Meredith.Q": {
+      "Tag": "Event.GameplayEffect.Add.Meredith.Q",
+      "DevComment": "美瑞迪斯Q技能效果"
+    },
+    "Event.GameplayEffect.Add.Meredith.X": {
+      "Tag": "Event.GameplayEffect.Add.Meredith.X",
+      "DevComment": "美瑞迪斯Q技能效果"
+    },
+    "Event.GameplayEffect.Add.Ming.P": {
+      "Tag": "Event.GameplayEffect.Add.Ming.P",
+      "DevComment": "明被动效果"
+    },
+    "Event.GameplayEffect.Add.Lawine.P": {
+      "Tag": "Event.GameplayEffect.Add.Lawine.P",
+      "DevComment": "拉维被动效果"
+    },
+    "Event.GameplayEffect.Add.Lawine.Q": {
+      "Tag": "Event.GameplayEffect.Add.Lawine.Q",
+      "DevComment": "拉维被动效果"
+    },
+    "Event.GameplayEffect.Add.Aika.P.HP": {
+      "Tag": "Event.GameplayEffect.Add.Aika.P.HP",
+      "DevComment": "艾卡回血"
+    },
+    "Event.GameplayEffect.Add.Aika.P.FullEnergy": {
+      "Tag": "Event.GameplayEffect.Add.Aika.P.FullEnergy",
+      "DevComment": "艾卡满能量"
+    },
+    "Event.GameplayEffect.Executed.Aika.P.HP": {
+      "Tag": "Event.GameplayEffect.Executed.Aika.P.HP",
+      "DevComment": "艾卡回血"
+    },
+    "Event.GameplayEffect.Add.Aika.Q.Inside": {
+      "Tag": "Event.GameplayEffect.Add.Aika.Q.Inside",
+      "DevComment": "艾卡标记"
+    },
+    "Event.GameplayEffect.Add.Yvette.X": {
+      "Tag": "Event.GameplayEffect.Add.Yvette.X",
+      "DevComment": "伊维特大招效果"
+    },
+    "Event.GameplayEffect.Add.KokonaShiki.Q.HPInstant": {
+      "Tag": "Event.GameplayEffect.Add.KokonaShiki.Q.HPInstant",
+      "DevComment": "心夏一次性回血"
+    },
+    "Event.GameplayEffect.Add.KokonaShiki.Q.ArmorInstant": {
+      "Tag": "Event.GameplayEffect.Add.KokonaShiki.Q.ArmorInstant",
+      "DevComment": "心夏一次性回血"
+    },
+    "Event.GameplayEffect.Executed.KokonaShiki.Q.HP": {
+      "Tag": "Event.GameplayEffect.Executed.KokonaShiki.Q.HP",
+      "DevComment": "心夏回血"
+    },
+    "Event.GameplayEffect.Executed.KokonaShiki.Q.Armor": {
+      "Tag": "Event.GameplayEffect.Executed.KokonaShiki.Q.Armor",
+      "DevComment": "心夏回甲"
+    },
+    "Event.GameplayEffect.Add.Nobunaga.P": {
+      "Tag": "Event.GameplayEffect.Add.Nobunaga.P",
+      "DevComment": "信被动命中"
+    },
+    "Event.GameplayEffect.Executed.Nobunaga.Q.Armor": {
+      "Tag": "Event.GameplayEffect.Executed.Nobunaga.Q.Armor",
+      "DevComment": "信回甲"
+    },
+    "Event.GameplayEffect.Add.Yugiri.Q": {
+      "Tag": "Event.GameplayEffect.Add.Yugiri.Q",
+      "DevComment": "心夏一次性回血"
+    },
+    "Event.GameplayEffect.Add.Fuchsia.P.HPEnergy": {
+      "Tag": "Event.GameplayEffect.Add.Fuchsia.P.HPEnergy",
+      "DevComment": "飞鲨回血"
+    },
+    "Event.GameplayEffect.Add.Fuchsia.E.Speed": {
+      "Tag": "Event.GameplayEffect.Add.Fuchsia.E.Speed",
+      "DevComment": "飞鲨被动加速"
     }
   }
 }
