@@ -1140,19 +1140,19 @@
       "Extension": false,
       "Tags": [],
       "Background": {
-        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResourceMobile/Escort/Background/T_Dynamic_Escort_BG_100010.T_Dynamic_Escort_BG_100010",
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResourceMobile/Escort/Background/T_Dynamic_Escort_BG_100070.T_Dynamic_Escort_BG_100070",
         "SubPathString": ""
       },
       "IconWhite": {
-        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResourceMobile/Escort/Icon/T_Dynamic_Escort_Icon_100010.T_Dynamic_Escort_Icon_100010",
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResourceMobile/Escort/Icon/T_Dynamic_Escort_Icon_100070.T_Dynamic_Escort_Icon_100070",
         "SubPathString": ""
       },
       "IconLumi": {
-        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResourceMobile/Escort/Luminous/T_Dynamic_Escort_Lumi_100010.T_Dynamic_Escort_Lumi_100010",
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResourceMobile/Escort/Luminous/T_Dynamic_Escort_Lumi_100070.T_Dynamic_Escort_Lumi_100070",
         "SubPathString": ""
       },
       "Icon": {
-        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResourceMobile/Escort/MiniIcon/T_Dynamic_Escort_Mini_100010.T_Dynamic_Escort_Mini_100010",
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResourceMobile/Escort/MiniIcon/T_Dynamic_Escort_Mini_100070.T_Dynamic_Escort_Mini_100070",
         "SubPathString": ""
       },
       "SerialIcon": {
@@ -1175,8 +1175,8 @@
       "Desc": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Escort2_Mobile.ST_Escort2_Mobile",
         "Key": "Card_Large_Desc_10013016",
-        "SourceString": "技能命中敌人时会打上增伤印记，持续<Orange-Medium-Dynamic>{0}</>秒。队友对其造成伤害时，额外增加<Orange-Medium-Dynamic>{1}</>伤害。触发后<Orange-Medium-Dynamic>{2}</>秒内无法再次打上印记",
-        "LocalizedString": "技能命中敌人时会打上增伤印记，持续<Orange-Medium-Dynamic>{0}</>秒。队友对其造成伤害时，额外增加<Orange-Medium-Dynamic>{1}</>伤害。触发后<Orange-Medium-Dynamic>{2}</>秒内无法再次打上印记"
+        "SourceString": "技能命中敌人时会打上增伤印记，持续<Orange-Medium-Dynamic>{0}</>秒。队友对其造成伤害时，额外增加<Orange-Medium-Dynamic>{1}</>伤害，并消耗该印记。触发后<Orange-Medium-Dynamic>{2}</>秒内无法再次打上印记",
+        "LocalizedString": "技能命中敌人时会打上增伤印记，持续<Orange-Medium-Dynamic>{0}</>秒。队友对其造成伤害时，额外增加<Orange-Medium-Dynamic>{1}</>伤害，并消耗该印记。触发后<Orange-Medium-Dynamic>{2}</>秒内无法再次打上印记"
       },
       "DescSimple": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Escort2_Mobile.ST_Escort2_Mobile",
@@ -1259,14 +1259,14 @@
       "Desc": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Escort2_Mobile.ST_Escort2_Mobile",
         "Key": "Card_Large_Desc_10013017",
-        "SourceString": "为队友施加增益/回复时，额外回复<Purple-Medium-Dynamic>{0}</>生命和<Purple-Medium-Dynamic>{1}</>护甲，<Purple-Medium-Dynamic>{2}</>秒内不可对同一队友重复触发",
-        "LocalizedString": "为队友施加增益/回复时，额外回复<Purple-Medium-Dynamic>{0}</>生命和<Purple-Medium-Dynamic>{1}</>护甲，<Purple-Medium-Dynamic>{2}</>秒内不可对同一队友重复触发"
+        "SourceString": "使用技能增幅/治疗队友时，额外为其回复<Purple-Medium-Dynamic>{0}</>生命和<Purple-Medium-Dynamic>{1}</>护甲，<Purple-Medium-Dynamic>{2}</>秒内不可对同一队友重复触发",
+        "LocalizedString": "使用技能增幅/治疗队友时，额外为其回复<Purple-Medium-Dynamic>{0}</>生命和<Purple-Medium-Dynamic>{1}</>护甲，<Purple-Medium-Dynamic>{2}</>秒内不可对同一队友重复触发"
       },
       "DescSimple": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Escort2_Mobile.ST_Escort2_Mobile",
         "Key": "Card_Little_Desc_10013017",
-        "SourceString": "为队友施加增益/回复时，额外产生治疗效果",
-        "LocalizedString": "为队友施加增益/回复时，额外产生治疗效果"
+        "SourceString": "使用技能增幅/治疗队友时，额外产生治疗效果",
+        "LocalizedString": "使用技能增幅/治疗队友时，额外产生治疗效果"
       },
       "DescParamLevel1": [
         40.0,
@@ -1405,17 +1405,19 @@
       "Desc": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Escort2_Mobile.ST_Escort2_Mobile",
         "Key": "Card_Large_Desc_10013019",
-        "SourceString": "无法使用绝招，但缩短其他技能<Orange-Medium-Dynamic>{0}%</>冷却时间",
-        "LocalizedString": "无法使用绝招，但缩短其他技能<Orange-Medium-Dynamic>{0}%</>冷却时间"
+        "SourceString": "无法使用绝招，冷却缩短<Orange-Medium-Dynamic>{0}%</>，且使用技能时额外获得<Orange-Medium-Dynamic>{1}%</>临时护甲，冷却<Orange-Medium-Dynamic>{2}%</>秒",
+        "LocalizedString": "无法使用绝招，冷却缩短<Orange-Medium-Dynamic>{0}%</>，且使用技能时额外获得<Orange-Medium-Dynamic>{1}%</>临时护甲，冷却<Orange-Medium-Dynamic>{2}%</>秒"
       },
       "DescSimple": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Escort2_Mobile.ST_Escort2_Mobile",
         "Key": "Card_Little_Desc_10013019",
-        "SourceString": "禁用绝招，其他技能冷却大幅缩短",
-        "LocalizedString": "禁用绝招，其他技能冷却大幅缩短"
+        "SourceString": "禁用绝招，使用其他技能冷却缩短且获得临时护甲",
+        "LocalizedString": "禁用绝招，使用其他技能冷却缩短且获得临时护甲"
       },
       "DescParamLevel1": [
-        60.0
+        30.0,
+        25.0,
+        6.0
       ],
       "DescParamLevel2": [],
       "DescParamLevel3": [],
@@ -3587,7 +3589,7 @@
         "LocalizedString": "增加命中头部的伤害，降低其他部位的伤害"
       },
       "DescParamLevel1": [
-        200.0,
+        100.0,
         50.0
       ],
       "DescParamLevel2": [],
@@ -7156,6 +7158,565 @@
       },
       "DescParamLevel1": [
         45.0
+      ],
+      "DescParamLevel2": [],
+      "DescParamLevel3": [],
+      "DescParamLevel4": [],
+      "DescParamLevel5": [],
+      "ActiveMethod": "ECyCardActiveMethod::None",
+      "TeamType": "ECyCardTeamType::All",
+      "Rarity": "ECyCardRarityType::Purple",
+      "UnlockRoles": [],
+      "Keywords": []
+    },
+    "10013100": {
+      "CardId": 10013100,
+      "Id": 0,
+      "Index": 100,
+      "LimitNum": 0,
+      "LimitType": 0,
+      "LimitParam": 0,
+      "Category": "ECyCardCategory::None",
+      "MaxLevel": 1,
+      "Extension": false,
+      "Tags": [],
+      "Background": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResourceMobile/Escort/Background/T_Dynamic_Escort_BG_100060.T_Dynamic_Escort_BG_100060",
+        "SubPathString": ""
+      },
+      "IconWhite": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResourceMobile/Escort/Icon/T_Dynamic_Escort_Icon_100060.T_Dynamic_Escort_Icon_100060",
+        "SubPathString": ""
+      },
+      "IconLumi": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResourceMobile/Escort/Luminous/T_Dynamic_Escort_Lumi_100060.T_Dynamic_Escort_Lumi_100060",
+        "SubPathString": ""
+      },
+      "Icon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResourceMobile/Escort/MiniIcon/T_Dynamic_Escort_Mini_100060.T_Dynamic_Escort_Mini_100060",
+        "SubPathString": ""
+      },
+      "SerialIcon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResourceMobile/Escort/SubIcon/T_Dynamic_Escort_SubIcon_200040.T_Dynamic_Escort_SubIcon_200040",
+        "SubPathString": ""
+      },
+      "TagType": 6,
+      "TagDesc": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Escort2_Mobile.ST_Escort2_Mobile",
+        "Key": "Card_Tag_200040",
+        "SourceString": "特殊功能",
+        "LocalizedString": "特殊功能"
+      },
+      "Name": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Escort2_Mobile.ST_Escort2_Mobile",
+        "Key": "Card_Name_10013100",
+        "SourceString": "剑圣",
+        "LocalizedString": "剑圣"
+      },
+      "Desc": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Escort2_Mobile.ST_Escort2_Mobile",
+        "Key": "Card_Large_Desc_10013100",
+        "SourceString": "获得能造成<Orange-Medium-Dynamic>{0}%</>伤害的强化忍锋。并且不再能使用原主副武器。获得<Orange-Medium-Dynamic>{1}</>生命值上限和<Orange-Medium-Dynamic>{2}</>护甲值上限",
+        "LocalizedString": "获得能造成<Orange-Medium-Dynamic>{0}%</>伤害的强化忍锋。并且不再能使用原主副武器。获得<Orange-Medium-Dynamic>{1}</>生命值上限和<Orange-Medium-Dynamic>{2}</>护甲值上限"
+      },
+      "DescSimple": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Escort2_Mobile.ST_Escort2_Mobile",
+        "Key": "Card_Little_Desc_10013100",
+        "SourceString": "获得强化忍锋并移除主武器，提升生命值和护甲值",
+        "LocalizedString": "获得强化忍锋并移除主武器，提升生命值和护甲值"
+      },
+      "DescParamLevel1": [
+        225.0,
+        100.0,
+        100.0
+      ],
+      "DescParamLevel2": [],
+      "DescParamLevel3": [],
+      "DescParamLevel4": [],
+      "DescParamLevel5": [],
+      "ActiveMethod": "ECyCardActiveMethod::None",
+      "TeamType": "ECyCardTeamType::All",
+      "Rarity": "ECyCardRarityType::Gold",
+      "UnlockRoles": [],
+      "Keywords": []
+    },
+    "10013101": {
+      "CardId": 10013101,
+      "Id": 0,
+      "Index": 101,
+      "LimitNum": 0,
+      "LimitType": 0,
+      "LimitParam": 0,
+      "Category": "ECyCardCategory::None",
+      "MaxLevel": 1,
+      "Extension": false,
+      "Tags": [],
+      "Background": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResourceMobile/Escort/Background/T_Dynamic_Escort_BG_100060.T_Dynamic_Escort_BG_100060",
+        "SubPathString": ""
+      },
+      "IconWhite": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResourceMobile/Escort/Icon/T_Dynamic_Escort_Icon_100060.T_Dynamic_Escort_Icon_100060",
+        "SubPathString": ""
+      },
+      "IconLumi": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResourceMobile/Escort/Luminous/T_Dynamic_Escort_Lumi_100060.T_Dynamic_Escort_Lumi_100060",
+        "SubPathString": ""
+      },
+      "Icon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResourceMobile/Escort/MiniIcon/T_Dynamic_Escort_Mini_100060.T_Dynamic_Escort_Mini_100060",
+        "SubPathString": ""
+      },
+      "SerialIcon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResourceMobile/Escort/SubIcon/T_Dynamic_Escort_SubIcon_200040.T_Dynamic_Escort_SubIcon_200040",
+        "SubPathString": ""
+      },
+      "TagType": 6,
+      "TagDesc": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Escort2_Mobile.ST_Escort2_Mobile",
+        "Key": "Card_Tag_200040",
+        "SourceString": "特殊功能",
+        "LocalizedString": "特殊功能"
+      },
+      "Name": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Escort2_Mobile.ST_Escort2_Mobile",
+        "Key": "Card_Name_10013101",
+        "SourceString": "炎帝",
+        "LocalizedString": "炎帝"
+      },
+      "Desc": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Escort2_Mobile.ST_Escort2_Mobile",
+        "Key": "Card_Large_Desc_10013101",
+        "SourceString": "获得能造成<Orange-Medium-Dynamic>{0}%</>伤害的强化焚焰者。并且不再能使用原主副武器。获得<Orange-Medium-Dynamic>{1}</>生命值上限和<Orange-Medium-Dynamic>{2}</>护甲值上限",
+        "LocalizedString": "获得能造成<Orange-Medium-Dynamic>{0}%</>伤害的强化焚焰者。并且不再能使用原主副武器。获得<Orange-Medium-Dynamic>{1}</>生命值上限和<Orange-Medium-Dynamic>{2}</>护甲值上限"
+      },
+      "DescSimple": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Escort2_Mobile.ST_Escort2_Mobile",
+        "Key": "Card_Little_Desc_10013101",
+        "SourceString": "获得强化焚焰者并移除主武器，提升生命值和护甲值",
+        "LocalizedString": "获得强化焚焰者并移除主武器，提升生命值和护甲值"
+      },
+      "DescParamLevel1": [
+        225.0,
+        100.0,
+        100.0
+      ],
+      "DescParamLevel2": [],
+      "DescParamLevel3": [],
+      "DescParamLevel4": [],
+      "DescParamLevel5": [],
+      "ActiveMethod": "ECyCardActiveMethod::None",
+      "TeamType": "ECyCardTeamType::All",
+      "Rarity": "ECyCardRarityType::Gold",
+      "UnlockRoles": [],
+      "Keywords": []
+    },
+    "10013102": {
+      "CardId": 10013102,
+      "Id": 0,
+      "Index": 102,
+      "LimitNum": 0,
+      "LimitType": 0,
+      "LimitParam": 0,
+      "Category": "ECyCardCategory::None",
+      "MaxLevel": 1,
+      "Extension": false,
+      "Tags": [],
+      "Background": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResourceMobile/Escort/Background/T_Dynamic_Escort_BG_100060.T_Dynamic_Escort_BG_100060",
+        "SubPathString": ""
+      },
+      "IconWhite": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResourceMobile/Escort/Icon/T_Dynamic_Escort_Icon_100060.T_Dynamic_Escort_Icon_100060",
+        "SubPathString": ""
+      },
+      "IconLumi": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResourceMobile/Escort/Luminous/T_Dynamic_Escort_Lumi_100060.T_Dynamic_Escort_Lumi_100060",
+        "SubPathString": ""
+      },
+      "Icon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResourceMobile/Escort/MiniIcon/T_Dynamic_Escort_Mini_100060.T_Dynamic_Escort_Mini_100060",
+        "SubPathString": ""
+      },
+      "SerialIcon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResourceMobile/Escort/SubIcon/T_Dynamic_Escort_SubIcon_200040.T_Dynamic_Escort_SubIcon_200040",
+        "SubPathString": ""
+      },
+      "TagType": 6,
+      "TagDesc": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Escort2_Mobile.ST_Escort2_Mobile",
+        "Key": "Card_Tag_200040",
+        "SourceString": "特殊功能",
+        "LocalizedString": "特殊功能"
+      },
+      "Name": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Escort2_Mobile.ST_Escort2_Mobile",
+        "Key": "Card_Name_10013102",
+        "SourceString": "透支极限",
+        "LocalizedString": "透支极限"
+      },
+      "Desc": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Escort2_Mobile.ST_Escort2_Mobile",
+        "Key": "Card_Large_Desc_10013102",
+        "SourceString": "提升至<Orange-Medium-Dynamic>{0}</>级。并且不再能获得任何经验",
+        "LocalizedString": "提升至<Orange-Medium-Dynamic>{0}</>级。并且不再能获得任何经验"
+      },
+      "DescSimple": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Escort2_Mobile.ST_Escort2_Mobile",
+        "Key": "Card_Little_Desc_10013102",
+        "SourceString": "提升至<Orange-Medium-Dynamic>{0}</>级。并且不再能获得任何经验",
+        "LocalizedString": "提升至<Orange-Medium-Dynamic>{0}</>级。并且不再能获得任何经验"
+      },
+      "DescParamLevel1": [
+        8.0
+      ],
+      "DescParamLevel2": [
+        8.0
+      ],
+      "DescParamLevel3": [],
+      "DescParamLevel4": [],
+      "DescParamLevel5": [],
+      "ActiveMethod": "ECyCardActiveMethod::None",
+      "TeamType": "ECyCardTeamType::All",
+      "Rarity": "ECyCardRarityType::Gold",
+      "UnlockRoles": [],
+      "Keywords": []
+    },
+    "10013103": {
+      "CardId": 10013103,
+      "Id": 0,
+      "Index": 103,
+      "LimitNum": 0,
+      "LimitType": 0,
+      "LimitParam": 0,
+      "Category": "ECyCardCategory::None",
+      "MaxLevel": 1,
+      "Extension": false,
+      "Tags": [],
+      "Background": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResourceMobile/Escort/Background/T_Dynamic_Escort_BG_100060.T_Dynamic_Escort_BG_100060",
+        "SubPathString": ""
+      },
+      "IconWhite": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResourceMobile/Escort/Icon/T_Dynamic_Escort_Icon_100060.T_Dynamic_Escort_Icon_100060",
+        "SubPathString": ""
+      },
+      "IconLumi": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResourceMobile/Escort/Luminous/T_Dynamic_Escort_Lumi_100060.T_Dynamic_Escort_Lumi_100060",
+        "SubPathString": ""
+      },
+      "Icon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResourceMobile/Escort/MiniIcon/T_Dynamic_Escort_Mini_100060.T_Dynamic_Escort_Mini_100060",
+        "SubPathString": ""
+      },
+      "SerialIcon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResourceMobile/Escort/SubIcon/T_Dynamic_Escort_SubIcon_200040.T_Dynamic_Escort_SubIcon_200040",
+        "SubPathString": ""
+      },
+      "TagType": 6,
+      "TagDesc": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Escort2_Mobile.ST_Escort2_Mobile",
+        "Key": "Card_Tag_200040",
+        "SourceString": "特殊功能",
+        "LocalizedString": "特殊功能"
+      },
+      "Name": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Escort2_Mobile.ST_Escort2_Mobile",
+        "Key": "Card_Name_10013103",
+        "SourceString": "抽卡",
+        "LocalizedString": "抽卡"
+      },
+      "Desc": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Escort2_Mobile.ST_Escort2_Mobile",
+        "Key": "Card_Large_Desc_10013103",
+        "SourceString": "随机获得一张高级卡。每次重生时重新随机该卡",
+        "LocalizedString": "随机获得一张高级卡。每次重生时重新随机该卡"
+      },
+      "DescSimple": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Escort2_Mobile.ST_Escort2_Mobile",
+        "Key": "Card_Little_Desc_10013103",
+        "SourceString": "随机获得一张高级卡。每次重生时重新随机该卡",
+        "LocalizedString": "随机获得一张高级卡。每次重生时重新随机该卡"
+      },
+      "DescParamLevel1": [],
+      "DescParamLevel2": [],
+      "DescParamLevel3": [],
+      "DescParamLevel4": [],
+      "DescParamLevel5": [],
+      "ActiveMethod": "ECyCardActiveMethod::None",
+      "TeamType": "ECyCardTeamType::All",
+      "Rarity": "ECyCardRarityType::Gold",
+      "UnlockRoles": [],
+      "Keywords": []
+    },
+    "10013104": {
+      "CardId": 10013104,
+      "Id": 0,
+      "Index": 104,
+      "LimitNum": 0,
+      "LimitType": 0,
+      "LimitParam": 0,
+      "Category": "ECyCardCategory::None",
+      "MaxLevel": 1,
+      "Extension": false,
+      "Tags": [],
+      "Background": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResourceMobile/Escort/Background/T_Dynamic_Escort_BG_100040.T_Dynamic_Escort_BG_100040",
+        "SubPathString": ""
+      },
+      "IconWhite": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResourceMobile/Escort/Icon/T_Dynamic_Escort_Icon_100040.T_Dynamic_Escort_Icon_100040",
+        "SubPathString": ""
+      },
+      "IconLumi": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResourceMobile/Escort/Luminous/T_Dynamic_Escort_Lumi_100040.T_Dynamic_Escort_Lumi_100040",
+        "SubPathString": ""
+      },
+      "Icon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResourceMobile/Escort/MiniIcon/T_Dynamic_Escort_Mini_100040.T_Dynamic_Escort_Mini_100040",
+        "SubPathString": ""
+      },
+      "SerialIcon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResourceMobile/Escort/SubIcon/T_Dynamic_Escort_SubIcon_200030.T_Dynamic_Escort_SubIcon_200030",
+        "SubPathString": ""
+      },
+      "TagType": 3,
+      "TagDesc": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Escort2_Mobile.ST_Escort2_Mobile",
+        "Key": "Card_Tag_200030",
+        "SourceString": "防御",
+        "LocalizedString": "防御"
+      },
+      "Name": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Escort2_Mobile.ST_Escort2_Mobile",
+        "Key": "Card_Name_10013104",
+        "SourceString": "后期专家",
+        "LocalizedString": "后期专家"
+      },
+      "Desc": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Escort2_Mobile.ST_Escort2_Mobile",
+        "Key": "Card_Large_Desc_10013104",
+        "SourceString": "获得已获得卡牌数量<Orange-Medium-Dynamic>×{0}</>生命值上限和卡牌数量<Orange-Medium-Dynamic>×{1}</>的护甲值上限",
+        "LocalizedString": "获得已获得卡牌数量<Orange-Medium-Dynamic>×{0}</>生命值上限和卡牌数量<Orange-Medium-Dynamic>×{1}</>的护甲值上限"
+      },
+      "DescSimple": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Escort2_Mobile.ST_Escort2_Mobile",
+        "Key": "Card_Little_Desc_10013104",
+        "SourceString": "基于已获得的卡牌的数量提升生命值和护甲值",
+        "LocalizedString": "基于已获得的卡牌的数量提升生命值和护甲值"
+      },
+      "DescParamLevel1": [
+        10.0,
+        10.0
+      ],
+      "DescParamLevel2": [],
+      "DescParamLevel3": [],
+      "DescParamLevel4": [],
+      "DescParamLevel5": [],
+      "ActiveMethod": "ECyCardActiveMethod::None",
+      "TeamType": "ECyCardTeamType::All",
+      "Rarity": "ECyCardRarityType::Gold",
+      "UnlockRoles": [],
+      "Keywords": []
+    },
+    "10013105": {
+      "CardId": 10013105,
+      "Id": 0,
+      "Index": 105,
+      "LimitNum": 0,
+      "LimitType": 0,
+      "LimitParam": 0,
+      "Category": "ECyCardCategory::None",
+      "MaxLevel": 1,
+      "Extension": false,
+      "Tags": [],
+      "Background": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResourceMobile/Escort/Background/T_Dynamic_Escort_BG_100050.T_Dynamic_Escort_BG_100050",
+        "SubPathString": ""
+      },
+      "IconWhite": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResourceMobile/Escort/Icon/T_Dynamic_Escort_Icon_100050.T_Dynamic_Escort_Icon_100050",
+        "SubPathString": ""
+      },
+      "IconLumi": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResourceMobile/Escort/Luminous/T_Dynamic_Escort_Lumi_100050.T_Dynamic_Escort_Lumi_100050",
+        "SubPathString": ""
+      },
+      "Icon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResourceMobile/Escort/MiniIcon/T_Dynamic_Escort_Mini_100050.T_Dynamic_Escort_Mini_100050",
+        "SubPathString": ""
+      },
+      "SerialIcon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResourceMobile/Escort/SubIcon/T_Dynamic_Escort_SubIcon_200010.T_Dynamic_Escort_SubIcon_200010",
+        "SubPathString": ""
+      },
+      "TagType": 1,
+      "TagDesc": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Escort2_Mobile.ST_Escort2_Mobile",
+        "Key": "Card_Tag_200010",
+        "SourceString": "伤害",
+        "LocalizedString": "伤害"
+      },
+      "Name": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Escort2_Mobile.ST_Escort2_Mobile",
+        "Key": "Card_Name_10013105",
+        "SourceString": "独狼",
+        "LocalizedString": "独狼"
+      },
+      "Desc": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Escort2_Mobile.ST_Escort2_Mobile",
+        "Key": "Card_Large_Desc_10013105",
+        "SourceString": "当附近<Blue-Medium-Black-Dynamic>{0}</>米内没有队友时，提升<Blue-Medium-Black-Dynamic>{1}%</>伤害",
+        "LocalizedString": "当附近<Blue-Medium-Black-Dynamic>{0}</>米内没有队友时，提升<Blue-Medium-Black-Dynamic>{1}%</>伤害"
+      },
+      "DescSimple": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Escort2_Mobile.ST_Escort2_Mobile",
+        "Key": "Card_Little_Desc_10013105",
+        "SourceString": "附近没有队友时提升伤害",
+        "LocalizedString": "附近没有队友时提升伤害"
+      },
+      "DescParamLevel1": [
+        15.0,
+        10.0
+      ],
+      "DescParamLevel2": [],
+      "DescParamLevel3": [],
+      "DescParamLevel4": [],
+      "DescParamLevel5": [],
+      "ActiveMethod": "ECyCardActiveMethod::None",
+      "TeamType": "ECyCardTeamType::All",
+      "Rarity": "ECyCardRarityType::Blue",
+      "UnlockRoles": [],
+      "Keywords": []
+    },
+    "10013106": {
+      "CardId": 10013106,
+      "Id": 0,
+      "Index": 106,
+      "LimitNum": 0,
+      "LimitType": 0,
+      "LimitParam": 0,
+      "Category": "ECyCardCategory::None",
+      "MaxLevel": 1,
+      "Extension": false,
+      "Tags": [],
+      "Background": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResourceMobile/Escort/Background/T_Dynamic_Escort_BG_100050.T_Dynamic_Escort_BG_100050",
+        "SubPathString": ""
+      },
+      "IconWhite": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResourceMobile/Escort/Icon/T_Dynamic_Escort_Icon_100050.T_Dynamic_Escort_Icon_100050",
+        "SubPathString": ""
+      },
+      "IconLumi": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResourceMobile/Escort/Luminous/T_Dynamic_Escort_Lumi_100050.T_Dynamic_Escort_Lumi_100050",
+        "SubPathString": ""
+      },
+      "Icon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResourceMobile/Escort/MiniIcon/T_Dynamic_Escort_Mini_100050.T_Dynamic_Escort_Mini_100050",
+        "SubPathString": ""
+      },
+      "SerialIcon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResourceMobile/Escort/SubIcon/T_Dynamic_Escort_SubIcon_200010.T_Dynamic_Escort_SubIcon_200010",
+        "SubPathString": ""
+      },
+      "TagType": 1,
+      "TagDesc": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Escort2_Mobile.ST_Escort2_Mobile",
+        "Key": "Card_Tag_200010",
+        "SourceString": "伤害",
+        "LocalizedString": "伤害"
+      },
+      "Name": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Escort2_Mobile.ST_Escort2_Mobile",
+        "Key": "Card_Name_10013106",
+        "SourceString": "唯有暴击",
+        "LocalizedString": "唯有暴击"
+      },
+      "Desc": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Escort2_Mobile.ST_Escort2_Mobile",
+        "Key": "Card_Large_Desc_10013106",
+        "SourceString": "降低<Purple-Medium-Black-Dynamic>{0}%</>头部伤害，所有射击敌人时的伤害类型都视为头部伤害",
+        "LocalizedString": "降低<Purple-Medium-Black-Dynamic>{0}%</>头部伤害，所有射击敌人时的伤害类型都视为头部伤害"
+      },
+      "DescSimple": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Escort2_Mobile.ST_Escort2_Mobile",
+        "Key": "Card_Little_Desc_10013106",
+        "SourceString": "略微降低头部伤害，但所有命中都视为头部伤害",
+        "LocalizedString": "略微降低头部伤害，但所有命中都视为头部伤害"
+      },
+      "DescParamLevel1": [
+        20.0
+      ],
+      "DescParamLevel2": [],
+      "DescParamLevel3": [],
+      "DescParamLevel4": [],
+      "DescParamLevel5": [],
+      "ActiveMethod": "ECyCardActiveMethod::None",
+      "TeamType": "ECyCardTeamType::All",
+      "Rarity": "ECyCardRarityType::Purple",
+      "UnlockRoles": [],
+      "Keywords": []
+    },
+    "10013107": {
+      "CardId": 10013107,
+      "Id": 0,
+      "Index": 107,
+      "LimitNum": 0,
+      "LimitType": 0,
+      "LimitParam": 0,
+      "Category": "ECyCardCategory::None",
+      "MaxLevel": 1,
+      "Extension": false,
+      "Tags": [],
+      "Background": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResourceMobile/Escort/Background/T_Dynamic_Escort_BG_100030.T_Dynamic_Escort_BG_100030",
+        "SubPathString": ""
+      },
+      "IconWhite": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResourceMobile/Escort/Icon/T_Dynamic_Escort_Icon_100030.T_Dynamic_Escort_Icon_100030",
+        "SubPathString": ""
+      },
+      "IconLumi": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResourceMobile/Escort/Luminous/T_Dynamic_Escort_Lumi_100030.T_Dynamic_Escort_Lumi_100030",
+        "SubPathString": ""
+      },
+      "Icon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResourceMobile/Escort/MiniIcon/T_Dynamic_Escort_Mini_100030.T_Dynamic_Escort_Mini_100030",
+        "SubPathString": ""
+      },
+      "SerialIcon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResourceMobile/Escort/SubIcon/T_Dynamic_Escort_SubIcon_200050.T_Dynamic_Escort_SubIcon_200050",
+        "SubPathString": ""
+      },
+      "TagType": 5,
+      "TagDesc": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Escort2_Mobile.ST_Escort2_Mobile",
+        "Key": "Card_Tag_200050",
+        "SourceString": "敏捷",
+        "LocalizedString": "敏捷"
+      },
+      "Name": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Escort2_Mobile.ST_Escort2_Mobile",
+        "Key": "Card_Name_10013107",
+        "SourceString": "小人王",
+        "LocalizedString": "小人王"
+      },
+      "Desc": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Escort2_Mobile.ST_Escort2_Mobile",
+        "Key": "Card_Large_Desc_10013107",
+        "SourceString": "缩小<Purple-Medium-Black-Dynamic>{0}%</>的体型，并提升<Purple-Medium-Black-Dynamic>{1}%</>的移速",
+        "LocalizedString": "缩小<Purple-Medium-Black-Dynamic>{0}%</>的体型，并提升<Purple-Medium-Black-Dynamic>{1}%</>的移速"
+      },
+      "DescSimple": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Escort2_Mobile.ST_Escort2_Mobile",
+        "Key": "Card_Little_Desc_10013107",
+        "SourceString": "缩小体型，并略微提升移速",
+        "LocalizedString": "缩小体型，并略微提升移速"
+      },
+      "DescParamLevel1": [
+        20.0,
+        10.0
       ],
       "DescParamLevel2": [],
       "DescParamLevel3": [],
