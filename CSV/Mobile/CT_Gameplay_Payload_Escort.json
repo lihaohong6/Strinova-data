@@ -1,0 +1,937 @@
+{
+  "Type": "CurveTable",
+  "Name": "CT_Gameplay_Payload_Escort",
+  "Class": "UScriptClass'CurveTable'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "CurveTableMode": "SimpleCurves",
+  "Rows": {
+    "Payload.MoveSpeed.Attacker": {
+      "InterpMode": "RCIM_Linear",
+      "Keys": [
+        {
+          "Time": 0.0,
+          "Value": 0.0
+        },
+        {
+          "Time": 1.0,
+          "Value": 130.0
+        },
+        {
+          "Time": 2.0,
+          "Value": 145.0
+        },
+        {
+          "Time": 3.0,
+          "Value": 155.0
+        },
+        {
+          "Time": 4.0,
+          "Value": 160.0
+        },
+        {
+          "Time": 5.0,
+          "Value": 165.0
+        }
+      ],
+      "DefaultValue": 3.4028235E+38,
+      "PreInfinityExtrap": "RCCE_Constant",
+      "PostInfinityExtrap": "RCCE_Constant"
+    },
+    "Payload.MoveSpeed.Defender": {
+      "InterpMode": "RCIM_Linear",
+      "Keys": [
+        {
+          "Time": 0.0,
+          "Value": -20.0
+        },
+        {
+          "Time": 1.0,
+          "Value": -20.0
+        },
+        {
+          "Time": 2.0,
+          "Value": -20.0
+        },
+        {
+          "Time": 3.0,
+          "Value": -20.0
+        },
+        {
+          "Time": 4.0,
+          "Value": -20.0
+        },
+        {
+          "Time": 5.0,
+          "Value": -20.0
+        }
+      ],
+      "DefaultValue": 3.4028235E+38,
+      "PreInfinityExtrap": "RCCE_Constant",
+      "PostInfinityExtrap": "RCCE_Constant"
+    },
+    "Payload.Move.DefenderControlDelay": {
+      "InterpMode": "RCIM_Linear",
+      "Keys": [
+        {
+          "Time": 0.0,
+          "Value": 12.0
+        },
+        {
+          "Time": 1.0,
+          "Value": 12.0
+        },
+        {
+          "Time": 2.0,
+          "Value": 12.0
+        },
+        {
+          "Time": 3.0,
+          "Value": 12.0
+        },
+        {
+          "Time": 4.0,
+          "Value": 12.0
+        },
+        {
+          "Time": 5.0,
+          "Value": 12.0
+        }
+      ],
+      "DefaultValue": 3.4028235E+38,
+      "PreInfinityExtrap": "RCCE_Constant",
+      "PostInfinityExtrap": "RCCE_Constant"
+    },
+    "Payload.Wall.PlayerBuff.Attacker.ApplyDelay": {
+      "InterpMode": "RCIM_Linear",
+      "Keys": [
+        {
+          "Time": 0.0,
+          "Value": 0.5
+        },
+        {
+          "Time": 1.0,
+          "Value": 0.5
+        },
+        {
+          "Time": 2.0,
+          "Value": 0.5
+        },
+        {
+          "Time": 3.0,
+          "Value": 0.5
+        },
+        {
+          "Time": 4.0,
+          "Value": 0.5
+        },
+        {
+          "Time": 5.0,
+          "Value": 0.5
+        }
+      ],
+      "DefaultValue": 3.4028235E+38,
+      "PreInfinityExtrap": "RCCE_Constant",
+      "PostInfinityExtrap": "RCCE_Constant"
+    },
+    "Payload.Wall.PlayerBuff.Attacker.Period": {
+      "InterpMode": "RCIM_Linear",
+      "Keys": [
+        {
+          "Time": 0.0,
+          "Value": 1.0
+        },
+        {
+          "Time": 1.0,
+          "Value": 1.0
+        },
+        {
+          "Time": 2.0,
+          "Value": 1.0
+        },
+        {
+          "Time": 3.0,
+          "Value": 1.0
+        },
+        {
+          "Time": 4.0,
+          "Value": 1.0
+        },
+        {
+          "Time": 5.0,
+          "Value": 1.0
+        }
+      ],
+      "DefaultValue": 3.4028235E+38,
+      "PreInfinityExtrap": "RCCE_Constant",
+      "PostInfinityExtrap": "RCCE_Constant"
+    },
+    "Payload.Wall.PlayerBuff.Attacker.Health": {
+      "InterpMode": "RCIM_Linear",
+      "Keys": [
+        {
+          "Time": 0.0,
+          "Value": 4.0
+        },
+        {
+          "Time": 1.0,
+          "Value": 4.0
+        },
+        {
+          "Time": 2.0,
+          "Value": 4.0
+        },
+        {
+          "Time": 3.0,
+          "Value": 4.0
+        },
+        {
+          "Time": 4.0,
+          "Value": 4.0
+        },
+        {
+          "Time": 5.0,
+          "Value": 4.0
+        }
+      ],
+      "DefaultValue": 3.4028235E+38,
+      "PreInfinityExtrap": "RCCE_Constant",
+      "PostInfinityExtrap": "RCCE_Constant"
+    },
+    "Payload.Wall.PlayerBuff.Attacker.Armor": {
+      "InterpMode": "RCIM_Linear",
+      "Keys": [
+        {
+          "Time": 0.0,
+          "Value": 4.0
+        },
+        {
+          "Time": 1.0,
+          "Value": 4.0
+        },
+        {
+          "Time": 2.0,
+          "Value": 4.0
+        },
+        {
+          "Time": 3.0,
+          "Value": 4.0
+        },
+        {
+          "Time": 4.0,
+          "Value": 4.0
+        },
+        {
+          "Time": 5.0,
+          "Value": 4.0
+        }
+      ],
+      "DefaultValue": 3.4028235E+38,
+      "PreInfinityExtrap": "RCCE_Constant",
+      "PostInfinityExtrap": "RCCE_Constant"
+    },
+    "Payload.Wall.PlayerBuff.Attacker.Xpoint": {
+      "InterpMode": "RCIM_Linear",
+      "Keys": [
+        {
+          "Time": 0.0,
+          "Value": 3.0
+        },
+        {
+          "Time": 1.0,
+          "Value": 3.0
+        },
+        {
+          "Time": 2.0,
+          "Value": 3.0
+        },
+        {
+          "Time": 3.0,
+          "Value": 3.0
+        },
+        {
+          "Time": 4.0,
+          "Value": 3.0
+        },
+        {
+          "Time": 5.0,
+          "Value": 3.0
+        }
+      ],
+      "DefaultValue": 3.4028235E+38,
+      "PreInfinityExtrap": "RCCE_Constant",
+      "PostInfinityExtrap": "RCCE_Constant"
+    },
+    "Payload.Wall.PlayerBuff.Attacker.RemainAmmoByMagazineRatio": {
+      "InterpMode": "RCIM_Linear",
+      "Keys": [
+        {
+          "Time": 0.0,
+          "Value": 0.15
+        },
+        {
+          "Time": 1.0,
+          "Value": 0.15
+        },
+        {
+          "Time": 2.0,
+          "Value": 0.15
+        },
+        {
+          "Time": 3.0,
+          "Value": 0.15
+        },
+        {
+          "Time": 4.0,
+          "Value": 0.15
+        },
+        {
+          "Time": 5.0,
+          "Value": 0.15
+        }
+      ],
+      "DefaultValue": 3.4028235E+38,
+      "PreInfinityExtrap": "RCCE_Constant",
+      "PostInfinityExtrap": "RCCE_Constant"
+    },
+    "Payload.Wall.PlayerBuff.Defender.ApplyDelay": {
+      "InterpMode": "RCIM_Linear",
+      "Keys": [
+        {
+          "Time": 0.0,
+          "Value": 0.5
+        },
+        {
+          "Time": 1.0,
+          "Value": 0.5
+        },
+        {
+          "Time": 2.0,
+          "Value": 0.5
+        },
+        {
+          "Time": 3.0,
+          "Value": 0.5
+        },
+        {
+          "Time": 4.0,
+          "Value": 0.5
+        },
+        {
+          "Time": 5.0,
+          "Value": 0.5
+        }
+      ],
+      "DefaultValue": 3.4028235E+38,
+      "PreInfinityExtrap": "RCCE_Constant",
+      "PostInfinityExtrap": "RCCE_Constant"
+    },
+    "Payload.Wall.PlayerBuff.Defender.Period": {
+      "InterpMode": "RCIM_Linear",
+      "Keys": [
+        {
+          "Time": 0.0,
+          "Value": 1.0
+        },
+        {
+          "Time": 1.0,
+          "Value": 1.0
+        },
+        {
+          "Time": 2.0,
+          "Value": 1.0
+        },
+        {
+          "Time": 3.0,
+          "Value": 1.0
+        },
+        {
+          "Time": 4.0,
+          "Value": 1.0
+        },
+        {
+          "Time": 5.0,
+          "Value": 1.0
+        }
+      ],
+      "DefaultValue": 3.4028235E+38,
+      "PreInfinityExtrap": "RCCE_Constant",
+      "PostInfinityExtrap": "RCCE_Constant"
+    },
+    "Payload.Wall.PlayerBuff.Defender.Health": {
+      "InterpMode": "RCIM_Linear",
+      "Keys": [
+        {
+          "Time": 0.0,
+          "Value": 1.0
+        },
+        {
+          "Time": 1.0,
+          "Value": 1.0
+        },
+        {
+          "Time": 2.0,
+          "Value": 1.0
+        },
+        {
+          "Time": 3.0,
+          "Value": 1.0
+        },
+        {
+          "Time": 4.0,
+          "Value": 1.0
+        },
+        {
+          "Time": 5.0,
+          "Value": 1.0
+        }
+      ],
+      "DefaultValue": 3.4028235E+38,
+      "PreInfinityExtrap": "RCCE_Constant",
+      "PostInfinityExtrap": "RCCE_Constant"
+    },
+    "Payload.Wall.PlayerBuff.Defender.Armor": {
+      "InterpMode": "RCIM_Linear",
+      "Keys": [
+        {
+          "Time": 0.0,
+          "Value": 1.0
+        },
+        {
+          "Time": 1.0,
+          "Value": 1.0
+        },
+        {
+          "Time": 2.0,
+          "Value": 1.0
+        },
+        {
+          "Time": 3.0,
+          "Value": 1.0
+        },
+        {
+          "Time": 4.0,
+          "Value": 1.0
+        },
+        {
+          "Time": 5.0,
+          "Value": 1.0
+        }
+      ],
+      "DefaultValue": 3.4028235E+38,
+      "PreInfinityExtrap": "RCCE_Constant",
+      "PostInfinityExtrap": "RCCE_Constant"
+    },
+    "Payload.Wall.PlayerBuff.Defender.Xpoint": {
+      "InterpMode": "RCIM_Linear",
+      "Keys": [
+        {
+          "Time": 0.0,
+          "Value": 1.0
+        },
+        {
+          "Time": 1.0,
+          "Value": 1.0
+        },
+        {
+          "Time": 2.0,
+          "Value": 1.0
+        },
+        {
+          "Time": 3.0,
+          "Value": 1.0
+        },
+        {
+          "Time": 4.0,
+          "Value": 1.0
+        },
+        {
+          "Time": 5.0,
+          "Value": 1.0
+        }
+      ],
+      "DefaultValue": 3.4028235E+38,
+      "PreInfinityExtrap": "RCCE_Constant",
+      "PostInfinityExtrap": "RCCE_Constant"
+    },
+    "Payload.Wall.PlayerBuff.Defender.RemainAmmoByMagazineRatio": {
+      "InterpMode": "RCIM_Linear",
+      "Keys": [
+        {
+          "Time": 0.0,
+          "Value": 0.1
+        },
+        {
+          "Time": 1.0,
+          "Value": 0.1
+        },
+        {
+          "Time": 2.0,
+          "Value": 0.1
+        },
+        {
+          "Time": 3.0,
+          "Value": 0.1
+        },
+        {
+          "Time": 4.0,
+          "Value": 0.1
+        },
+        {
+          "Time": 5.0,
+          "Value": 0.1
+        }
+      ],
+      "DefaultValue": 3.4028235E+38,
+      "PreInfinityExtrap": "RCCE_Constant",
+      "PostInfinityExtrap": "RCCE_Constant"
+    },
+    "Payload.Wall.TeamBuff.Attacker.ApplyDelay": {
+      "InterpMode": "RCIM_Linear",
+      "Keys": [
+        {
+          "Time": 0.0,
+          "Value": 0.5
+        },
+        {
+          "Time": 1.0,
+          "Value": 0.5
+        },
+        {
+          "Time": 2.0,
+          "Value": 0.5
+        },
+        {
+          "Time": 3.0,
+          "Value": 0.5
+        },
+        {
+          "Time": 4.0,
+          "Value": 0.5
+        },
+        {
+          "Time": 5.0,
+          "Value": 0.5
+        }
+      ],
+      "DefaultValue": 3.4028235E+38,
+      "PreInfinityExtrap": "RCCE_Constant",
+      "PostInfinityExtrap": "RCCE_Constant"
+    },
+    "Payload.Wall.TeamBuff.Attacker.Period": {
+      "InterpMode": "RCIM_Linear",
+      "Keys": [
+        {
+          "Time": 0.0,
+          "Value": 2.0
+        },
+        {
+          "Time": 1.0,
+          "Value": 2.0
+        },
+        {
+          "Time": 2.0,
+          "Value": 2.0
+        },
+        {
+          "Time": 3.0,
+          "Value": 2.0
+        },
+        {
+          "Time": 4.0,
+          "Value": 2.0
+        },
+        {
+          "Time": 5.0,
+          "Value": 2.0
+        }
+      ],
+      "DefaultValue": 3.4028235E+38,
+      "PreInfinityExtrap": "RCCE_Constant",
+      "PostInfinityExtrap": "RCCE_Constant"
+    },
+    "Payload.Wall.TeamBuff.Attacker.Health": {
+      "InterpMode": "RCIM_Linear",
+      "Keys": [
+        {
+          "Time": 0.0,
+          "Value": 0.0
+        },
+        {
+          "Time": 1.0,
+          "Value": 3.0
+        },
+        {
+          "Time": 2.0,
+          "Value": 3.0
+        },
+        {
+          "Time": 3.0,
+          "Value": 3.0
+        },
+        {
+          "Time": 4.0,
+          "Value": 3.0
+        },
+        {
+          "Time": 5.0,
+          "Value": 3.0
+        }
+      ],
+      "DefaultValue": 3.4028235E+38,
+      "PreInfinityExtrap": "RCCE_Constant",
+      "PostInfinityExtrap": "RCCE_Constant"
+    },
+    "Payload.Wall.TeamBuff.Attacker.Armor": {
+      "InterpMode": "RCIM_Linear",
+      "Keys": [
+        {
+          "Time": 0.0,
+          "Value": 0.0
+        },
+        {
+          "Time": 1.0,
+          "Value": 3.0
+        },
+        {
+          "Time": 2.0,
+          "Value": 3.0
+        },
+        {
+          "Time": 3.0,
+          "Value": 3.0
+        },
+        {
+          "Time": 4.0,
+          "Value": 3.0
+        },
+        {
+          "Time": 5.0,
+          "Value": 3.0
+        }
+      ],
+      "DefaultValue": 3.4028235E+38,
+      "PreInfinityExtrap": "RCCE_Constant",
+      "PostInfinityExtrap": "RCCE_Constant"
+    },
+    "Payload.Wall.TeamBuff.Attacker.Xpoint": {
+      "InterpMode": "RCIM_Linear",
+      "Keys": [
+        {
+          "Time": 0.0,
+          "Value": 0.0
+        },
+        {
+          "Time": 1.0,
+          "Value": 2.0
+        },
+        {
+          "Time": 2.0,
+          "Value": 2.0
+        },
+        {
+          "Time": 3.0,
+          "Value": 2.0
+        },
+        {
+          "Time": 4.0,
+          "Value": 2.0
+        },
+        {
+          "Time": 5.0,
+          "Value": 2.0
+        }
+      ],
+      "DefaultValue": 3.4028235E+38,
+      "PreInfinityExtrap": "RCCE_Constant",
+      "PostInfinityExtrap": "RCCE_Constant"
+    },
+    "Payload.Wall.TeamBuff.Attacker.GrowthPoint": {
+      "InterpMode": "RCIM_Linear",
+      "Keys": [
+        {
+          "Time": 0.0,
+          "Value": 0.0
+        },
+        {
+          "Time": 1.0,
+          "Value": 2.0
+        },
+        {
+          "Time": 2.0,
+          "Value": 2.0
+        },
+        {
+          "Time": 3.0,
+          "Value": 2.0
+        },
+        {
+          "Time": 4.0,
+          "Value": 2.0
+        },
+        {
+          "Time": 5.0,
+          "Value": 2.0
+        }
+      ],
+      "DefaultValue": 3.4028235E+38,
+      "PreInfinityExtrap": "RCCE_Constant",
+      "PostInfinityExtrap": "RCCE_Constant"
+    },
+    "Payload.Wall.TeamBuff.Attacker.RemainAmmoByMagazineRatio": {
+      "InterpMode": "RCIM_Linear",
+      "Keys": [
+        {
+          "Time": 0.0,
+          "Value": 0.0
+        },
+        {
+          "Time": 1.0,
+          "Value": 0.0
+        },
+        {
+          "Time": 2.0,
+          "Value": 0.0
+        },
+        {
+          "Time": 3.0,
+          "Value": 0.0
+        },
+        {
+          "Time": 4.0,
+          "Value": 0.0
+        },
+        {
+          "Time": 5.0,
+          "Value": 0.0
+        }
+      ],
+      "DefaultValue": 3.4028235E+38,
+      "PreInfinityExtrap": "RCCE_Constant",
+      "PostInfinityExtrap": "RCCE_Constant"
+    },
+    "Payload.Wall.TeamBuff.Defender.ApplyDelay": {
+      "InterpMode": "RCIM_Linear",
+      "Keys": [
+        {
+          "Time": 0.0,
+          "Value": 0.5
+        },
+        {
+          "Time": 1.0,
+          "Value": 0.5
+        },
+        {
+          "Time": 2.0,
+          "Value": 0.5
+        },
+        {
+          "Time": 3.0,
+          "Value": 0.5
+        },
+        {
+          "Time": 4.0,
+          "Value": 0.5
+        },
+        {
+          "Time": 5.0,
+          "Value": 0.5
+        }
+      ],
+      "DefaultValue": 3.4028235E+38,
+      "PreInfinityExtrap": "RCCE_Constant",
+      "PostInfinityExtrap": "RCCE_Constant"
+    },
+    "Payload.Wall.TeamBuff.Defender.Period": {
+      "InterpMode": "RCIM_Linear",
+      "Keys": [
+        {
+          "Time": 0.0,
+          "Value": 2.0
+        },
+        {
+          "Time": 1.0,
+          "Value": 2.0
+        },
+        {
+          "Time": 2.0,
+          "Value": 2.0
+        },
+        {
+          "Time": 3.0,
+          "Value": 2.0
+        },
+        {
+          "Time": 4.0,
+          "Value": 2.0
+        },
+        {
+          "Time": 5.0,
+          "Value": 2.0
+        }
+      ],
+      "DefaultValue": 3.4028235E+38,
+      "PreInfinityExtrap": "RCCE_Constant",
+      "PostInfinityExtrap": "RCCE_Constant"
+    },
+    "Payload.Wall.TeamBuff.Defender.Health": {
+      "InterpMode": "RCIM_Linear",
+      "Keys": [
+        {
+          "Time": 0.0,
+          "Value": 0.0
+        },
+        {
+          "Time": 1.0,
+          "Value": 3.0
+        },
+        {
+          "Time": 2.0,
+          "Value": 3.0
+        },
+        {
+          "Time": 3.0,
+          "Value": 3.0
+        },
+        {
+          "Time": 4.0,
+          "Value": 3.0
+        },
+        {
+          "Time": 5.0,
+          "Value": 3.0
+        }
+      ],
+      "DefaultValue": 3.4028235E+38,
+      "PreInfinityExtrap": "RCCE_Constant",
+      "PostInfinityExtrap": "RCCE_Constant"
+    },
+    "Payload.Wall.TeamBuff.Defender.Armor": {
+      "InterpMode": "RCIM_Linear",
+      "Keys": [
+        {
+          "Time": 0.0,
+          "Value": 0.0
+        },
+        {
+          "Time": 1.0,
+          "Value": 3.0
+        },
+        {
+          "Time": 2.0,
+          "Value": 3.0
+        },
+        {
+          "Time": 3.0,
+          "Value": 3.0
+        },
+        {
+          "Time": 4.0,
+          "Value": 3.0
+        },
+        {
+          "Time": 5.0,
+          "Value": 3.0
+        }
+      ],
+      "DefaultValue": 3.4028235E+38,
+      "PreInfinityExtrap": "RCCE_Constant",
+      "PostInfinityExtrap": "RCCE_Constant"
+    },
+    "Payload.Wall.TeamBuff.Defender.Xpoint": {
+      "InterpMode": "RCIM_Linear",
+      "Keys": [
+        {
+          "Time": 0.0,
+          "Value": 0.0
+        },
+        {
+          "Time": 1.0,
+          "Value": 2.0
+        },
+        {
+          "Time": 2.0,
+          "Value": 2.0
+        },
+        {
+          "Time": 3.0,
+          "Value": 2.0
+        },
+        {
+          "Time": 4.0,
+          "Value": 2.0
+        },
+        {
+          "Time": 5.0,
+          "Value": 2.0
+        }
+      ],
+      "DefaultValue": 3.4028235E+38,
+      "PreInfinityExtrap": "RCCE_Constant",
+      "PostInfinityExtrap": "RCCE_Constant"
+    },
+    "Payload.Wall.TeamBuff.Defender.GrowthPoint": {
+      "InterpMode": "RCIM_Linear",
+      "Keys": [
+        {
+          "Time": 0.0,
+          "Value": 0.0
+        },
+        {
+          "Time": 1.0,
+          "Value": 1.0
+        },
+        {
+          "Time": 2.0,
+          "Value": 1.0
+        },
+        {
+          "Time": 3.0,
+          "Value": 1.0
+        },
+        {
+          "Time": 4.0,
+          "Value": 1.0
+        },
+        {
+          "Time": 5.0,
+          "Value": 1.0
+        }
+      ],
+      "DefaultValue": 3.4028235E+38,
+      "PreInfinityExtrap": "RCCE_Constant",
+      "PostInfinityExtrap": "RCCE_Constant"
+    },
+    "Payload.Wall.TeamBuff.Defender.RemainAmmoByMagazineRatio": {
+      "InterpMode": "RCIM_Linear",
+      "Keys": [
+        {
+          "Time": 0.0,
+          "Value": 0.0
+        },
+        {
+          "Time": 1.0,
+          "Value": 0.0
+        },
+        {
+          "Time": 2.0,
+          "Value": 0.0
+        },
+        {
+          "Time": 3.0,
+          "Value": 0.0
+        },
+        {
+          "Time": 4.0,
+          "Value": 0.0
+        },
+        {
+          "Time": 5.0,
+          "Value": 0.0
+        }
+      ],
+      "DefaultValue": 3.4028235E+38,
+      "PreInfinityExtrap": "RCCE_Constant",
+      "PostInfinityExtrap": "RCCE_Constant"
+    }
+  }
+}

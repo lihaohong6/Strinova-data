@@ -1,0 +1,70 @@
+{
+  "Type": "DataTable",
+  "Name": "DT_ApartmentState_InteractiveGame_Yvette",
+  "Class": "UScriptClass'DataTable'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "RowStruct": {
+      "ObjectName": "ScriptStruct'CyApartmentStateMachineTableRow'",
+      "ObjectPath": "/Script/PMGame"
+    }
+  },
+  "Rows": {
+    "201": {
+      "StateId": 201,
+      "State": "YvetteGameStart",
+      "TransitionStateConditions": [],
+      "StateType": "EApartmentStateType::None",
+      "SequenceProxyId": 0,
+      "LuaClass": "Business/Apartment/Proxies/ApartmentState/Yvette/YvetteGameStartState"
+    },
+    "202": {
+      "StateId": 202,
+      "State": "GameDifficultySelection",
+      "TransitionStateConditions": [],
+      "StateType": "EApartmentStateType::None",
+      "SequenceProxyId": 0,
+      "LuaClass": "Business/Apartment/Proxies/ApartmentState/Yvette/YvetteGameDifficultySelectionState"
+    },
+    "203": {
+      "StateId": 203,
+      "State": "GuessFirst",
+      "TransitionStateConditions": [],
+      "StateType": "EApartmentStateType::None",
+      "SequenceProxyId": 0,
+      "LuaClass": "Business/Apartment/Proxies/ApartmentState/Yvette/YvetteGameGuessFirstState"
+    },
+    "204": {
+      "StateId": 204,
+      "State": "PlayerTurn",
+      "TransitionStateConditions": [],
+      "StateType": "EApartmentStateType::None",
+      "SequenceProxyId": 0,
+      "LuaClass": "Business/Apartment/Proxies/ApartmentState/Yvette/YvetteGamePlayerTurnState"
+    },
+    "205": {
+      "StateId": 205,
+      "State": "CharacterTurn",
+      "TransitionStateConditions": [],
+      "StateType": "EApartmentStateType::None",
+      "SequenceProxyId": 0,
+      "LuaClass": "Business/Apartment/Proxies/ApartmentState/Yvette/YvetteGameCharacterTurnState"
+    },
+    "206": {
+      "StateId": 206,
+      "State": "CharacterTakeBack",
+      "TransitionStateConditions": [],
+      "StateType": "EApartmentStateType::None",
+      "SequenceProxyId": 0,
+      "LuaClass": "Business/Apartment/Proxies/ApartmentState/Yvette/YvetteGameCharacterTakeBackState"
+    },
+    "207": {
+      "StateId": 207,
+      "State": "GameEnd",
+      "TransitionStateConditions": [],
+      "StateType": "EApartmentStateType::None",
+      "SequenceProxyId": 0,
+      "LuaClass": "Business/Apartment/Proxies/ApartmentState/Yvette/YvetteGameEndState"
+    }
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "Type": "CyGuideDataAsset",
+  "Name": "DA_Guide_InstallBombGuide",
+  "Class": "UScriptClass'CyGuideDataAsset'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "ShowDeathTipsDelay": 4.5,
+    "TaskTargetPointWithUIClass": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Guide_TaskTargetPointWithUI_C'",
+      "ObjectPath": "/Game/PaperMan/CyGuide/BP_Guide_TaskTargetPointWithUI"
+    },
+    "RoleConfig": {
+      "RoleId": 146,
+      "DefaultWeaponSlot": "EWeaponSlotTypes::WeaponSlot_Secondary",
+      "FirstInitAttributeEffects": [
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_NoviceGuide_InitAttribute_FirstInit_C'",
+          "ObjectPath": "/Game/PaperMan/Core/GameModes/NoviceGuide/GameplayEffects/GE_NoviceGuide_InitAttribute_FirstInit"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_BombGuide_InitAttribute_LocalPlayer_C'",
+          "ObjectPath": "PM/Content/PaperMan/Core/GameModes/BombGuide/InstallBomb/GE/GE_BombGuide_InitAttribute_LocalPlayer.0"
+        }
+      ],
+      "EnabledSkillQInitAttributeEffects": [
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_NoviceGuide_InitAttribute_EnabledSkillQ_C'",
+          "ObjectPath": "/Game/PaperMan/Core/GameModes/NoviceGuide/GameplayEffects/GE_NoviceGuide_InitAttribute_EnabledSkillQ"
+        }
+      ],
+      "EnabledSkillXInitAttributeEffects": [
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_NoviceGuide_InitAttribute_EnabledSkillX_C'",
+          "ObjectPath": "/Game/PaperMan/Core/GameModes/NoviceGuide/GameplayEffects/GE_NoviceGuide_InitAttribute_EnabledSkillX"
+        }
+      ],
+      "EnabledSkillQEffects": [
+        {
+          "ObjectName": "BlueprintGeneratedClass'GE_NoviceGuide_EnabledSkillQ_C'",
+          "ObjectPath": "/Game/PaperMan/Core/GameModes/NoviceGuide/GameplayEffects/GE_NoviceGuide_EnabledSkillQ"
+        }
+      ],
+      "EnabledSkillXEffects": [
+        null
+      ]
+    },
+    "EnemyRoleConfig": {
+      "RoleId": 220,
+      "MaxArmor": 0,
+      "SpawnEffectConfig": {
+        "Effect": {
+          "AssetPathName": "/Game/PaperMan/Effects/FX_NE/Common/FX_Common_Born.FX_Common_Born",
+          "SubPathString": ""
+        },
+        "AkOnEvent": {
+          "AssetPathName": "/Game/WwiseAssets/AkEvent/Char_NPC_Appear.Char_NPC_Appear",
+          "SubPathString": ""
+        },
+        "SpawnObjectDelayShowTime": 0.5,
+        "SkewLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": -90.0
+        }
+      }
+    },
+    "GuideAIRoleConfig": {
+      "RoleId": 133,
+      "MaxArmor": 0,
+      "DefaultWeaponSlot": "EWeaponSlotTypes::WeaponSlot_Fist"
+    },
+    "SpawnAIConfigArray": [
+      {
+        "AIType": 0,
+        "TeamId": 1,
+        "RoleId": 220,
+        "RoleSkinId": 0,
+        "bCustomPlayerName": true,
+        "PlayerName": "",
+        "SpawnCount": 4,
+        "PlayerStartTagArray": [
+          "EnemyDefaultSpawnPoint"
+        ],
+        "InitialHasTags": []
+      }
+    ],
+    "SpawnGuideAIConfigArray": [
+      {
+        "AIType": 0,
+        "TeamId": 0,
+        "RoleId": 133,
+        "RoleSkinId": 0,
+        "bCustomPlayerName": true,
+        "PlayerName": "",
+        "SpawnCount": 0,
+        "PlayerStartTagArray": [
+          "GuideAISpawnPoint"
+        ],
+        "InitialHasTags": []
+      }
+    ],
+    "TaskDataTable": {
+      "AssetPathName": "/Game/PaperMan/CSV/Guide/BombGuide/InstallBomb/DT_Guide_InstallBomb_Task.DT_Guide_InstallBomb_Task",
+      "SubPathString": ""
+    },
+    "EnemySpawnDataTable": {
+      "AssetPathName": "/Game/PaperMan/CSV/Guide/BombGuide/InstallBomb/DT_Guide_InstallBomb_EnemySpawn.DT_Guide_InstallBomb_EnemySpawn",
+      "SubPathString": ""
+    },
+    "ItemSpawnDataTable": {
+      "AssetPathName": "/Game/PaperMan/CSV/Guide/BombGuide/InstallBomb/DT_Guide_InstallBomb_ItemSpawn.DT_Guide_InstallBomb_ItemSpawn",
+      "SubPathString": ""
+    },
+    "DialogueDataTable": {
+      "AssetPathName": "/Game/PaperMan/CSV/Guide/BombGuide/InstallBomb/DT_Guide_InstallBomb_Dialogue.DT_Guide_InstallBomb_Dialogue",
+      "SubPathString": ""
+    },
+    "DeathTipsDataTable": {
+      "AssetPathName": "/Game/PaperMan/CSV/Guide/BombGuide/InstallBomb/DT_Guide_InstallBombDeath_Tips.DT_Guide_InstallBombDeath_Tips",
+      "SubPathString": ""
+    },
+    "SplashTipsDataTable": {
+      "AssetPathName": "/Game/PaperMan/CSV/Guide/BombGuide/InstallBomb/DT_Guide_InstallBomb_Tips.DT_Guide_InstallBomb_Tips",
+      "SubPathString": ""
+    },
+    "MediaGuideDataTable": {
+      "AssetPathName": "/Game/PaperMan/CSV/Guide/NoviceGuide/DT_Guide_NoviceGuide_MediaGuide.DT_Guide_NoviceGuide_MediaGuide",
+      "SubPathString": ""
+    },
+    "UIGuideDataTable": {
+      "AssetPathName": "/Game/PaperMan/CSV/Guide/BombGuide/InstallBomb/DT_Guide_BombGuide_UIGuide.DT_Guide_BombGuide_UIGuide",
+      "SubPathString": ""
+    },
+    "GuideAITaskDatatable": {
+      "AssetPathName": "/Game/PaperMan/CSV/Guide/NoviceGuide/DT_Guide_NoviceGuide_GuideAITask.DT_Guide_NoviceGuide_GuideAITask",
+      "SubPathString": ""
+    }
+  }
+}
