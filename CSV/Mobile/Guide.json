@@ -14,7 +14,7 @@
       "Id": 10000,
       "Precondition": 0,
       "TriggerType": 1,
-      "TriggerParam1": 501,
+      "TriggerParam1": 40,
       "TriggerParam2": "NavigationPage",
       "SaveStepid": 0
     },
@@ -22,16 +22,40 @@
       "Id": 10001,
       "Precondition": 10000,
       "TriggerType": 1,
-      "TriggerParam1": 501,
+      "TriggerParam1": 40,
       "TriggerParam2": "NavigationPage",
+      "SaveStepid": 0
+    },
+    "10003": {
+      "Id": 10003,
+      "Precondition": 10001,
+      "TriggerType": 1,
+      "TriggerParam1": 40,
+      "TriggerParam2": "RankPCPage",
       "SaveStepid": 0
     },
     "10002": {
       "Id": 10002,
-      "Precondition": 10001,
+      "Precondition": 10003,
       "TriggerType": 1,
-      "TriggerParam1": 501,
+      "TriggerParam1": 40,
       "TriggerParam2": "RankPCPage",
+      "SaveStepid": 0
+    },
+    "30031": {
+      "Id": 30031,
+      "Precondition": 10002,
+      "TriggerType": 1,
+      "TriggerParam1": 12,
+      "TriggerParam2": "TalentPage",
+      "SaveStepid": 0
+    },
+    "30041": {
+      "Id": 30041,
+      "Precondition": 10002,
+      "TriggerType": 1,
+      "TriggerParam1": 15,
+      "TriggerParam2": "EquipRoomPage",
       "SaveStepid": 0
     }
   }

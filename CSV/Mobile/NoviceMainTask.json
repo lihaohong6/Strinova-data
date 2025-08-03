@@ -22,8 +22,8 @@
       "Type": 7,
       "Prize": [
         {
-          "ItemId": 3,
-          "ItemAmount": 100
+          "ItemId": 2,
+          "ItemAmount": 200
         }
       ],
       "TaskConditions": [
@@ -56,7 +56,9 @@
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
             "BehaviorId": 15,
-            "RandomCondition": []
+            "RandomCondition": [],
+            "EscortActionType": [],
+            "ZombieActionType": []
           },
           "LimitConditions": []
         }
@@ -79,8 +81,8 @@
       "Type": 7,
       "Prize": [
         {
-          "ItemId": 131,
-          "ItemAmount": 1
+          "ItemId": 2,
+          "ItemAmount": 300
         }
       ],
       "TaskConditions": [
@@ -113,7 +115,9 @@
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
             "BehaviorId": 0,
-            "RandomCondition": []
+            "RandomCondition": [],
+            "EscortActionType": [],
+            "ZombieActionType": []
           },
           "LimitConditions": []
         }
@@ -136,15 +140,15 @@
       "Type": 7,
       "Prize": [
         {
-          "ItemId": 3,
+          "ItemId": 6,
           "ItemAmount": 100
         }
       ],
       "TaskConditions": [
         {
           "MainCondition": {
-            "MainType": "ECyTaskMainConditionType::Lobby",
-            "GameCondition": "ECyTaskGameConditionType::None",
+            "MainType": "ECyTaskMainConditionType::Game",
+            "GameCondition": "ECyTaskGameConditionType::GameNum",
             "GameResult": "ECyGameResultType::None",
             "RoundResult": "ECyRoundResultType::None",
             "bFriendTeam": false,
@@ -166,11 +170,13 @@
             "WeaponTypes": [],
             "WeaponHoldType": [],
             "SkillTypes": [],
-            "Num": 5,
+            "Num": 2,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
-            "BehaviorId": 21,
-            "RandomCondition": []
+            "BehaviorId": 0,
+            "RandomCondition": [],
+            "EscortActionType": [],
+            "ZombieActionType": []
           },
           "LimitConditions": []
         }
@@ -186,9 +192,9 @@
       "NextId": 70005,
       "Desc": {
         "Namespace": "NoviceMainTask",
-        "Key": "70004_Desc",
-        "SourceString": "完成{0}/{1}场爆破入侵比赛",
-        "LocalizedString": "完成{0}/{1}场爆破入侵比赛"
+        "Key": "70002_Desc",
+        "SourceString": "完成{0}/{1}场比赛",
+        "LocalizedString": "完成{0}/{1}场比赛"
       },
       "Type": 7,
       "Prize": [
@@ -227,7 +233,9 @@
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
             "BehaviorId": 0,
-            "RandomCondition": []
+            "RandomCondition": [],
+            "EscortActionType": [],
+            "ZombieActionType": []
           },
           "LimitConditions": []
         }
@@ -246,13 +254,13 @@
       "Desc": {
         "Namespace": "NoviceMainTask",
         "Key": "70005_Desc",
-        "SourceString": "获得{0}/{1}场比赛胜利",
-        "LocalizedString": "获得{0}/{1}场比赛胜利"
+        "SourceString": "完成{0}/{1}场爆破入侵比赛",
+        "LocalizedString": "完成{0}/{1}场爆破入侵比赛"
       },
       "Type": 7,
       "Prize": [
         {
-          "ItemId": 10212,
+          "ItemId": 10213,
           "ItemAmount": 1
         }
       ],
@@ -261,7 +269,7 @@
           "MainCondition": {
             "MainType": "ECyTaskMainConditionType::Game",
             "GameCondition": "ECyTaskGameConditionType::GameNum",
-            "GameResult": "ECyGameResultType::Win",
+            "GameResult": "ECyGameResultType::None",
             "RoundResult": "ECyRoundResultType::None",
             "bFriendTeam": false,
             "bNoFriendTeam": false,
@@ -286,14 +294,18 @@
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
             "BehaviorId": 0,
-            "RandomCondition": []
+            "RandomCondition": [],
+            "EscortActionType": [],
+            "ZombieActionType": []
           },
           "LimitConditions": []
         }
       ],
       "TaskLimit": {
         "GameTypes": [],
-        "ModeTypes": []
+        "ModeTypes": [
+          "EPMGameModeType::Bomb"
+        ]
       },
       "GoTo": 12303
     },
@@ -309,8 +321,8 @@
       "Type": 7,
       "Prize": [
         {
-          "ItemId": 3,
-          "ItemAmount": 100
+          "ItemId": 131,
+          "ItemAmount": 1
         }
       ],
       "TaskConditions": [
@@ -343,7 +355,9 @@
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
             "BehaviorId": 21,
-            "RandomCondition": []
+            "RandomCondition": [],
+            "EscortActionType": [],
+            "ZombieActionType": []
           },
           "LimitConditions": []
         }
@@ -400,7 +414,9 @@
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
             "BehaviorId": 0,
-            "RandomCondition": []
+            "RandomCondition": [],
+            "EscortActionType": [],
+            "ZombieActionType": []
           },
           "LimitConditions": []
         }
@@ -425,7 +441,7 @@
       "Type": 7,
       "Prize": [
         {
-          "ItemId": 3,
+          "ItemId": 6,
           "ItemAmount": 100
         }
       ],
@@ -459,7 +475,9 @@
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
             "BehaviorId": 0,
-            "RandomCondition": []
+            "RandomCondition": [],
+            "EscortActionType": [],
+            "ZombieActionType": []
           },
           "LimitConditions": []
         }
@@ -516,7 +534,9 @@
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
             "BehaviorId": 21,
-            "RandomCondition": []
+            "RandomCondition": [],
+            "EscortActionType": [],
+            "ZombieActionType": []
           },
           "LimitConditions": []
         }
@@ -539,8 +559,8 @@
       "Type": 7,
       "Prize": [
         {
-          "ItemId": 3,
-          "ItemAmount": 100
+          "ItemId": 10601,
+          "ItemAmount": 1
         }
       ],
       "TaskConditions": [
@@ -573,7 +593,9 @@
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
             "BehaviorId": 0,
-            "RandomCondition": []
+            "RandomCondition": [],
+            "EscortActionType": [],
+            "ZombieActionType": []
           },
           "LimitConditions": []
         }
