@@ -1454,6 +1454,10 @@
       "Tag": "Event.CauseDamage.PlayerSkill.X",
       "DevComment": "大招技能造成伤害"
     },
+    "Event.CauseDamage.PlayerSkill.E": {
+      "Tag": "Event.CauseDamage.PlayerSkill.E",
+      "DevComment": "E技能造成伤害"
+    },
     "Event.CauseDamage.System": {
       "Tag": "Event.CauseDamage.System",
       "DevComment": "系统造成伤害"
@@ -3945,6 +3949,554 @@
     "Event.TakeDamage.PlayerCard": {
       "Tag": "Event.TakeDamage.PlayerCard",
       "DevComment": "受到卡牌造成的伤害"
+    },
+    "Event.BeforeCauseDamage": {
+      "Tag": "Event.BeforeCauseDamage",
+      "DevComment": "造成伤害前"
+    },
+    "Event.BeforeCauseDamage.PlayerWeapon": {
+      "Tag": "Event.BeforeCauseDamage.PlayerWeapon",
+      "DevComment": "武器造成伤害"
+    },
+    "Event.BeforeCauseDamage.PlayerWeapon.Primary": {
+      "Tag": "Event.BeforeCauseDamage.PlayerWeapon.Primary",
+      "DevComment": "主武器造成伤害"
+    },
+    "Event.BeforeCauseDamage.PlayerWeapon.Secondary": {
+      "Tag": "Event.BeforeCauseDamage.PlayerWeapon.Secondary",
+      "DevComment": "副武器造成伤害"
+    },
+    "Event.BeforeCauseDamage.PlayerWeapon.Throw": {
+      "Tag": "Event.BeforeCauseDamage.PlayerWeapon.Throw",
+      "DevComment": "投掷武器造成伤害"
+    },
+    "Event.BeforeCauseDamage.PlayerWeapon.C4": {
+      "Tag": "Event.BeforeCauseDamage.PlayerWeapon.C4",
+      "DevComment": "炸弹造成伤害"
+    },
+    "Event.BeforeCauseDamage.PlayerSkill": {
+      "Tag": "Event.BeforeCauseDamage.PlayerSkill",
+      "DevComment": "技能造成伤害"
+    },
+    "Event.BeforeCauseDamage.PlayerSkill.P": {
+      "Tag": "Event.BeforeCauseDamage.PlayerSkill.P",
+      "DevComment": "被动技能造成伤害"
+    },
+    "Event.BeforeCauseDamage.PlayerSkill.Q": {
+      "Tag": "Event.BeforeCauseDamage.PlayerSkill.Q",
+      "DevComment": "主动技能造成伤害"
+    },
+    "Event.BeforeCauseDamage.PlayerSkill.Q.Main": {
+      "Tag": "Event.BeforeCauseDamage.PlayerSkill.Q.Main",
+      "DevComment": "主动技能造成伤害(主要)"
+    },
+    "Event.BeforeCauseDamage.PlayerSkill.Q.Secondary": {
+      "Tag": "Event.BeforeCauseDamage.PlayerSkill.Q.Secondary",
+      "DevComment": "主动技能造成伤害(次要)"
+    },
+    "Event.BeforeCauseDamage.PlayerSkill.X": {
+      "Tag": "Event.BeforeCauseDamage.PlayerSkill.X",
+      "DevComment": "大招技能造成伤害"
+    },
+    "Event.BeforeCauseDamage.System": {
+      "Tag": "Event.BeforeCauseDamage.System",
+      "DevComment": "系统造成伤害"
+    },
+    "Event.BeforeCauseDamage.System.Fall": {
+      "Tag": "Event.BeforeCauseDamage.System.Fall",
+      "DevComment": "掉落造成伤害"
+    },
+    "Event.BeforeCauseDamage.System.DangerZone": {
+      "Tag": "Event.BeforeCauseDamage.System.DangerZone",
+      "DevComment": "危险区造成伤害"
+    },
+    "Event.BeforeCauseDamage.System.DeathZone": {
+      "Tag": "Event.BeforeCauseDamage.System.DeathZone",
+      "DevComment": "死亡区造成伤害"
+    },
+    "Event.BeforeCauseDamageByWeapon": {
+      "Tag": "Event.BeforeCauseDamageByWeapon",
+      "DevComment": "武器造成伤害"
+    },
+    "Event.BeforeCauseDamageByWeapon.Gun": {
+      "Tag": "Event.BeforeCauseDamageByWeapon.Gun",
+      "DevComment": "枪械武器造成伤害"
+    },
+    "Event.BeforeCauseDamageByWeapon.Gun.SR": {
+      "Tag": "Event.BeforeCauseDamageByWeapon.Gun.SR",
+      "DevComment": "狙击枪造成伤害"
+    },
+    "Event.BeforeCauseDamageByWeapon.Gun.AR": {
+      "Tag": "Event.BeforeCauseDamageByWeapon.Gun.AR",
+      "DevComment": "步枪造成伤害"
+    },
+    "Event.BeforeCauseDamageByWeapon.Gun.SMG": {
+      "Tag": "Event.BeforeCauseDamageByWeapon.Gun.SMG",
+      "DevComment": "冲锋枪造成伤害"
+    },
+    "Event.BeforeCauseDamageByWeapon.Gun.SG": {
+      "Tag": "Event.BeforeCauseDamageByWeapon.Gun.SG",
+      "DevComment": "喷子造成伤害"
+    },
+    "Event.BeforeCauseDamageByWeapon.Gun.PT": {
+      "Tag": "Event.BeforeCauseDamageByWeapon.Gun.PT",
+      "DevComment": "手枪造成伤害"
+    },
+    "Event.BeforeCauseDamageByWeapon.Gun.LMG": {
+      "Tag": "Event.BeforeCauseDamageByWeapon.Gun.LMG",
+      "DevComment": "轻机枪造成伤害"
+    },
+    "Event.BeforeCauseDamageByWeapon.Gun.Ejector": {
+      "Tag": "Event.BeforeCauseDamageByWeapon.Gun.Ejector",
+      "DevComment": "喷射器造成伤害"
+    },
+    "Event.BeforeCauseDamageByWeapon.Melee": {
+      "Tag": "Event.BeforeCauseDamageByWeapon.Melee",
+      "DevComment": "近战武器造成伤害"
+    },
+    "Event.BeforeCauseDamageByWeapon.Melee.Blade": {
+      "Tag": "Event.BeforeCauseDamageByWeapon.Melee.Blade",
+      "DevComment": "刀击造成伤害"
+    },
+    "Event.BeforeCauseDamageByWeapon.Melee.Knife": {
+      "Tag": "Event.BeforeCauseDamageByWeapon.Melee.Knife",
+      "DevComment": "小刀造成伤害"
+    },
+    "Event.BeforeCauseDamageByWeapon.Melee.Fist": {
+      "Tag": "Event.BeforeCauseDamageByWeapon.Melee.Fist",
+      "DevComment": "拳头造成伤害"
+    },
+    "Event.BeforeCauseDamageByWeapon.Throw": {
+      "Tag": "Event.BeforeCauseDamageByWeapon.Throw",
+      "DevComment": "投掷物造成伤害"
+    },
+    "Event.BeforeCauseDamageByWeapon.Launcher": {
+      "Tag": "Event.BeforeCauseDamageByWeapon.Launcher",
+      "DevComment": "释放器造成伤害"
+    },
+    "Event.BeforeCauseDamageByWeapon.Device": {
+      "Tag": "Event.BeforeCauseDamageByWeapon.Device",
+      "DevComment": "装置造成伤害"
+    },
+    "Event.BeforeCauseDamageByWeapon.Tool": {
+      "Tag": "Event.BeforeCauseDamageByWeapon.Tool",
+      "DevComment": "工具造成伤害"
+    },
+    "Event.BeforeTakeDamage": {
+      "Tag": "Event.BeforeTakeDamage",
+      "DevComment": "受到伤害"
+    },
+    "Event.BeforeTakeDamage.PlayerWeapon": {
+      "Tag": "Event.BeforeTakeDamage.PlayerWeapon",
+      "DevComment": "受到武器造成伤害"
+    },
+    "Event.BeforeTakeDamage.PlayerWeapon.Primary": {
+      "Tag": "Event.BeforeTakeDamage.PlayerWeapon.Primary",
+      "DevComment": "受到主武器造成伤害"
+    },
+    "Event.BeforeTakeDamage.PlayerWeapon.Secondary": {
+      "Tag": "Event.BeforeTakeDamage.PlayerWeapon.Secondary",
+      "DevComment": "受到副武器造成伤害"
+    },
+    "Event.BeforeTakeDamage.PlayerWeapon.Throw": {
+      "Tag": "Event.BeforeTakeDamage.PlayerWeapon.Throw",
+      "DevComment": "受到投掷武器造成伤害"
+    },
+    "Event.BeforeTakeDamage.PlayerWeapon.C4": {
+      "Tag": "Event.BeforeTakeDamage.PlayerWeapon.C4",
+      "DevComment": "受到炸弹造成伤害"
+    },
+    "Event.BeforeTakeDamage.PlayerSkill": {
+      "Tag": "Event.BeforeTakeDamage.PlayerSkill",
+      "DevComment": "受到技能造成伤害"
+    },
+    "Event.BeforeTakeDamage.PlayerSkill.P": {
+      "Tag": "Event.BeforeTakeDamage.PlayerSkill.P",
+      "DevComment": "受到被动技能造成伤害"
+    },
+    "Event.BeforeTakeDamage.PlayerSkill.Q": {
+      "Tag": "Event.BeforeTakeDamage.PlayerSkill.Q",
+      "DevComment": "受到主动技能造成伤害"
+    },
+    "Event.BeforeTakeDamage.PlayerSkill.X": {
+      "Tag": "Event.BeforeTakeDamage.PlayerSkill.X",
+      "DevComment": "受到大招技能造成伤害"
+    },
+    "Event.BeforeTakeDamage.System": {
+      "Tag": "Event.BeforeTakeDamage.System",
+      "DevComment": "受到系统造成伤害"
+    },
+    "Event.BeforeTakeDamage.System.Fall": {
+      "Tag": "Event.BeforeTakeDamage.System.Fall",
+      "DevComment": "受到掉落造成伤害"
+    },
+    "Event.BeforeTakeDamage.System.DangerZone": {
+      "Tag": "Event.BeforeTakeDamage.System.DangerZone",
+      "DevComment": "受到危险区造成伤害"
+    },
+    "Event.BeforeTakeDamage.System.DeathZone": {
+      "Tag": "Event.BeforeTakeDamage.System.DeathZone",
+      "DevComment": "受到死亡区造成伤害"
+    },
+    "Event.BeforeTakeDamageByWeapon": {
+      "Tag": "Event.BeforeTakeDamageByWeapon",
+      "DevComment": "受到武器造成伤害"
+    },
+    "Event.BeforeTakeDamageByWeapon.Gun": {
+      "Tag": "Event.BeforeTakeDamageByWeapon.Gun",
+      "DevComment": "受到枪械武器造成伤害"
+    },
+    "Event.BeforeTakeDamageByWeapon.Gun.SR": {
+      "Tag": "Event.BeforeTakeDamageByWeapon.Gun.SR",
+      "DevComment": "受到狙击枪造成伤害"
+    },
+    "Event.BeforeTakeDamageByWeapon.Gun.AR": {
+      "Tag": "Event.BeforeTakeDamageByWeapon.Gun.AR",
+      "DevComment": "受到步枪造成伤害"
+    },
+    "Event.BeforeTakeDamageByWeapon.Gun.SMG": {
+      "Tag": "Event.BeforeTakeDamageByWeapon.Gun.SMG",
+      "DevComment": "受到冲锋枪造成伤害"
+    },
+    "Event.BeforeTakeDamageByWeapon.Gun.SG": {
+      "Tag": "Event.BeforeTakeDamageByWeapon.Gun.SG",
+      "DevComment": "受到喷子造成伤害"
+    },
+    "Event.BeforeTakeDamageByWeapon.Gun.PT": {
+      "Tag": "Event.BeforeTakeDamageByWeapon.Gun.PT",
+      "DevComment": "受到手枪造成伤害"
+    },
+    "Event.BeforeTakeDamageByWeapon.Gun.LMG": {
+      "Tag": "Event.BeforeTakeDamageByWeapon.Gun.LMG",
+      "DevComment": "受到轻机枪造成伤害"
+    },
+    "Event.BeforeTakeDamageByWeapon.Gun.Ejector": {
+      "Tag": "Event.BeforeTakeDamageByWeapon.Gun.Ejector",
+      "DevComment": "受到喷射器造成伤害"
+    },
+    "Event.BeforeTakeDamageByWeapon.Melee": {
+      "Tag": "Event.BeforeTakeDamageByWeapon.Melee",
+      "DevComment": "受到近战武器造成伤害"
+    },
+    "Event.BeforeTakeDamageByWeapon.Melee.Blade": {
+      "Tag": "Event.BeforeTakeDamageByWeapon.Melee.Blade",
+      "DevComment": "受到刀击造成伤害"
+    },
+    "Event.BeforeTakeDamageByWeapon.Melee.Knife": {
+      "Tag": "Event.BeforeTakeDamageByWeapon.Melee.Knife",
+      "DevComment": "受到小刀造成伤害"
+    },
+    "Event.BeforeTakeDamageByWeapon.Melee.Fist": {
+      "Tag": "Event.BeforeTakeDamageByWeapon.Melee.Fist",
+      "DevComment": "受到拳头造成伤害"
+    },
+    "Event.BeforeTakeDamageByWeapon.Throw": {
+      "Tag": "Event.BeforeTakeDamageByWeapon.Throw",
+      "DevComment": "受到投掷物造成伤害"
+    },
+    "Event.BeforeTakeDamageByWeapon.Launcher": {
+      "Tag": "Event.BeforeTakeDamageByWeapon.Launcher",
+      "DevComment": "受到释放器造成伤害"
+    },
+    "Event.BeforeTakeDamageByWeapon.Device": {
+      "Tag": "Event.BeforeTakeDamageByWeapon.Device",
+      "DevComment": "受到装置造成伤害"
+    },
+    "Event.BeforeTakeDamageByWeapon.Tool": {
+      "Tag": "Event.BeforeTakeDamageByWeapon.Tool",
+      "DevComment": "受到工具造成伤害"
+    },
+    "Event.BeforeCauseDamageByWeaponSlot": {
+      "Tag": "Event.BeforeCauseDamageByWeaponSlot",
+      "DevComment": ""
+    },
+    "Event.BeforeCauseDamageByWeaponSlot.BombPass": {
+      "Tag": "Event.BeforeCauseDamageByWeaponSlot.BombPass",
+      "DevComment": ""
+    },
+    "Event.BeforeTakeDamageByWeaponSlot": {
+      "Tag": "Event.BeforeTakeDamageByWeaponSlot",
+      "DevComment": ""
+    },
+    "Event.BeforeTakeDamageByWeaponSlot.BombPass": {
+      "Tag": "Event.BeforeTakeDamageByWeaponSlot.BombPass",
+      "DevComment": ""
+    },
+    "Event.AfterCauseDamage": {
+      "Tag": "Event.AfterCauseDamage",
+      "DevComment": "造成伤害后"
+    },
+    "Event.AfterCauseDamage.PlayerWeapon": {
+      "Tag": "Event.AfterCauseDamage.PlayerWeapon",
+      "DevComment": "武器造成伤害"
+    },
+    "Event.AfterCauseDamage.PlayerWeapon.Primary": {
+      "Tag": "Event.AfterCauseDamage.PlayerWeapon.Primary",
+      "DevComment": "主武器造成伤害"
+    },
+    "Event.AfterCauseDamage.PlayerWeapon.Secondary": {
+      "Tag": "Event.AfterCauseDamage.PlayerWeapon.Secondary",
+      "DevComment": "副武器造成伤害"
+    },
+    "Event.AfterCauseDamage.PlayerWeapon.Throw": {
+      "Tag": "Event.AfterCauseDamage.PlayerWeapon.Throw",
+      "DevComment": "投掷武器造成伤害"
+    },
+    "Event.AfterCauseDamage.PlayerWeapon.C4": {
+      "Tag": "Event.AfterCauseDamage.PlayerWeapon.C4",
+      "DevComment": "炸弹造成伤害"
+    },
+    "Event.AfterCauseDamage.PlayerSkill": {
+      "Tag": "Event.AfterCauseDamage.PlayerSkill",
+      "DevComment": "技能造成伤害"
+    },
+    "Event.AfterCauseDamage.PlayerSkill.P": {
+      "Tag": "Event.AfterCauseDamage.PlayerSkill.P",
+      "DevComment": "被动技能造成伤害"
+    },
+    "Event.AfterCauseDamage.PlayerSkill.Q": {
+      "Tag": "Event.AfterCauseDamage.PlayerSkill.Q",
+      "DevComment": "主动技能造成伤害"
+    },
+    "Event.AfterCauseDamage.PlayerSkill.Q.Main": {
+      "Tag": "Event.AfterCauseDamage.PlayerSkill.Q.Main",
+      "DevComment": "主动技能造成伤害(主要)"
+    },
+    "Event.AfterCauseDamage.PlayerSkill.Q.Secondary": {
+      "Tag": "Event.AfterCauseDamage.PlayerSkill.Q.Secondary",
+      "DevComment": "主动技能造成伤害(次要)"
+    },
+    "Event.AfterCauseDamage.PlayerSkill.X": {
+      "Tag": "Event.AfterCauseDamage.PlayerSkill.X",
+      "DevComment": "大招技能造成伤害"
+    },
+    "Event.AfterCauseDamage.System": {
+      "Tag": "Event.AfterCauseDamage.System",
+      "DevComment": "系统造成伤害"
+    },
+    "Event.AfterCauseDamage.System.Fall": {
+      "Tag": "Event.AfterCauseDamage.System.Fall",
+      "DevComment": "掉落造成伤害"
+    },
+    "Event.AfterCauseDamage.System.DangerZone": {
+      "Tag": "Event.AfterCauseDamage.System.DangerZone",
+      "DevComment": "危险区造成伤害"
+    },
+    "Event.AfterCauseDamage.System.DeathZone": {
+      "Tag": "Event.AfterCauseDamage.System.DeathZone",
+      "DevComment": "死亡区造成伤害"
+    },
+    "Event.AfterCauseDamageByWeapon": {
+      "Tag": "Event.AfterCauseDamageByWeapon",
+      "DevComment": "武器造成伤害"
+    },
+    "Event.AfterCauseDamageByWeapon.Gun": {
+      "Tag": "Event.AfterCauseDamageByWeapon.Gun",
+      "DevComment": "枪械武器造成伤害"
+    },
+    "Event.AfterCauseDamageByWeapon.Gun.SR": {
+      "Tag": "Event.AfterCauseDamageByWeapon.Gun.SR",
+      "DevComment": "狙击枪造成伤害"
+    },
+    "Event.AfterCauseDamageByWeapon.Gun.AR": {
+      "Tag": "Event.AfterCauseDamageByWeapon.Gun.AR",
+      "DevComment": "步枪造成伤害"
+    },
+    "Event.AfterCauseDamageByWeapon.Gun.SMG": {
+      "Tag": "Event.AfterCauseDamageByWeapon.Gun.SMG",
+      "DevComment": "冲锋枪造成伤害"
+    },
+    "Event.AfterCauseDamageByWeapon.Gun.SG": {
+      "Tag": "Event.AfterCauseDamageByWeapon.Gun.SG",
+      "DevComment": "喷子造成伤害"
+    },
+    "Event.AfterCauseDamageByWeapon.Gun.PT": {
+      "Tag": "Event.AfterCauseDamageByWeapon.Gun.PT",
+      "DevComment": "手枪造成伤害"
+    },
+    "Event.AfterCauseDamageByWeapon.Gun.LMG": {
+      "Tag": "Event.AfterCauseDamageByWeapon.Gun.LMG",
+      "DevComment": "轻机枪造成伤害"
+    },
+    "Event.AfterCauseDamageByWeapon.Gun.Ejector": {
+      "Tag": "Event.AfterCauseDamageByWeapon.Gun.Ejector",
+      "DevComment": "喷射器造成伤害"
+    },
+    "Event.AfterCauseDamageByWeapon.Melee": {
+      "Tag": "Event.AfterCauseDamageByWeapon.Melee",
+      "DevComment": "近战武器造成伤害"
+    },
+    "Event.AfterCauseDamageByWeapon.Melee.Blade": {
+      "Tag": "Event.AfterCauseDamageByWeapon.Melee.Blade",
+      "DevComment": "刀击造成伤害"
+    },
+    "Event.AfterCauseDamageByWeapon.Melee.Knife": {
+      "Tag": "Event.AfterCauseDamageByWeapon.Melee.Knife",
+      "DevComment": "小刀造成伤害"
+    },
+    "Event.AfterCauseDamageByWeapon.Melee.Fist": {
+      "Tag": "Event.AfterCauseDamageByWeapon.Melee.Fist",
+      "DevComment": "拳头造成伤害"
+    },
+    "Event.AfterCauseDamageByWeapon.Throw": {
+      "Tag": "Event.AfterCauseDamageByWeapon.Throw",
+      "DevComment": "投掷物造成伤害"
+    },
+    "Event.AfterCauseDamageByWeapon.Launcher": {
+      "Tag": "Event.AfterCauseDamageByWeapon.Launcher",
+      "DevComment": "释放器造成伤害"
+    },
+    "Event.AfterCauseDamageByWeapon.Device": {
+      "Tag": "Event.AfterCauseDamageByWeapon.Device",
+      "DevComment": "装置造成伤害"
+    },
+    "Event.AfterCauseDamageByWeapon.Tool": {
+      "Tag": "Event.AfterCauseDamageByWeapon.Tool",
+      "DevComment": "工具造成伤害"
+    },
+    "Event.AfterTakeDamage": {
+      "Tag": "Event.AfterTakeDamage",
+      "DevComment": "受到伤害"
+    },
+    "Event.AfterTakeDamage.PlayerWeapon": {
+      "Tag": "Event.AfterTakeDamage.PlayerWeapon",
+      "DevComment": "受到武器造成伤害"
+    },
+    "Event.AfterTakeDamage.PlayerWeapon.Primary": {
+      "Tag": "Event.AfterTakeDamage.PlayerWeapon.Primary",
+      "DevComment": "受到主武器造成伤害"
+    },
+    "Event.AfterTakeDamage.PlayerWeapon.Secondary": {
+      "Tag": "Event.AfterTakeDamage.PlayerWeapon.Secondary",
+      "DevComment": "受到副武器造成伤害"
+    },
+    "Event.AfterTakeDamage.PlayerWeapon.Throw": {
+      "Tag": "Event.AfterTakeDamage.PlayerWeapon.Throw",
+      "DevComment": "受到投掷武器造成伤害"
+    },
+    "Event.AfterTakeDamage.PlayerWeapon.C4": {
+      "Tag": "Event.AfterTakeDamage.PlayerWeapon.C4",
+      "DevComment": "受到炸弹造成伤害"
+    },
+    "Event.AfterTakeDamage.PlayerSkill": {
+      "Tag": "Event.AfterTakeDamage.PlayerSkill",
+      "DevComment": "受到技能造成伤害"
+    },
+    "Event.AfterTakeDamage.PlayerSkill.P": {
+      "Tag": "Event.AfterTakeDamage.PlayerSkill.P",
+      "DevComment": "受到被动技能造成伤害"
+    },
+    "Event.AfterTakeDamage.PlayerSkill.Q": {
+      "Tag": "Event.AfterTakeDamage.PlayerSkill.Q",
+      "DevComment": "受到主动技能造成伤害"
+    },
+    "Event.AfterTakeDamage.PlayerSkill.X": {
+      "Tag": "Event.AfterTakeDamage.PlayerSkill.X",
+      "DevComment": "受到大招技能造成伤害"
+    },
+    "Event.AfterTakeDamage.System": {
+      "Tag": "Event.AfterTakeDamage.System",
+      "DevComment": "受到系统造成伤害"
+    },
+    "Event.AfterTakeDamage.System.Fall": {
+      "Tag": "Event.AfterTakeDamage.System.Fall",
+      "DevComment": "受到掉落造成伤害"
+    },
+    "Event.AfterTakeDamage.System.DangerZone": {
+      "Tag": "Event.AfterTakeDamage.System.DangerZone",
+      "DevComment": "受到危险区造成伤害"
+    },
+    "Event.AfterTakeDamage.System.DeathZone": {
+      "Tag": "Event.AfterTakeDamage.System.DeathZone",
+      "DevComment": "受到死亡区造成伤害"
+    },
+    "Event.AfterTakeDamageByWeapon": {
+      "Tag": "Event.AfterTakeDamageByWeapon",
+      "DevComment": "受到武器造成伤害"
+    },
+    "Event.AfterTakeDamageByWeapon.Gun": {
+      "Tag": "Event.AfterTakeDamageByWeapon.Gun",
+      "DevComment": "受到枪械武器造成伤害"
+    },
+    "Event.AfterTakeDamageByWeapon.Gun.SR": {
+      "Tag": "Event.AfterTakeDamageByWeapon.Gun.SR",
+      "DevComment": "受到狙击枪造成伤害"
+    },
+    "Event.AfterTakeDamageByWeapon.Gun.AR": {
+      "Tag": "Event.AfterTakeDamageByWeapon.Gun.AR",
+      "DevComment": "受到步枪造成伤害"
+    },
+    "Event.AfterTakeDamageByWeapon.Gun.SMG": {
+      "Tag": "Event.AfterTakeDamageByWeapon.Gun.SMG",
+      "DevComment": "受到冲锋枪造成伤害"
+    },
+    "Event.AfterTakeDamageByWeapon.Gun.SG": {
+      "Tag": "Event.AfterTakeDamageByWeapon.Gun.SG",
+      "DevComment": "受到喷子造成伤害"
+    },
+    "Event.AfterTakeDamageByWeapon.Gun.PT": {
+      "Tag": "Event.AfterTakeDamageByWeapon.Gun.PT",
+      "DevComment": "受到手枪造成伤害"
+    },
+    "Event.AfterTakeDamageByWeapon.Gun.LMG": {
+      "Tag": "Event.AfterTakeDamageByWeapon.Gun.LMG",
+      "DevComment": "受到轻机枪造成伤害"
+    },
+    "Event.AfterTakeDamageByWeapon.Gun.Ejector": {
+      "Tag": "Event.AfterTakeDamageByWeapon.Gun.Ejector",
+      "DevComment": "受到喷射器造成伤害"
+    },
+    "Event.AfterTakeDamageByWeapon.Melee": {
+      "Tag": "Event.AfterTakeDamageByWeapon.Melee",
+      "DevComment": "受到近战武器造成伤害"
+    },
+    "Event.AfterTakeDamageByWeapon.Melee.Blade": {
+      "Tag": "Event.AfterTakeDamageByWeapon.Melee.Blade",
+      "DevComment": "受到刀击造成伤害"
+    },
+    "Event.AfterTakeDamageByWeapon.Melee.Knife": {
+      "Tag": "Event.AfterTakeDamageByWeapon.Melee.Knife",
+      "DevComment": "受到小刀造成伤害"
+    },
+    "Event.AfterTakeDamageByWeapon.Melee.Fist": {
+      "Tag": "Event.AfterTakeDamageByWeapon.Melee.Fist",
+      "DevComment": "受到拳头造成伤害"
+    },
+    "Event.AfterTakeDamageByWeapon.Throw": {
+      "Tag": "Event.AfterTakeDamageByWeapon.Throw",
+      "DevComment": "受到投掷物造成伤害"
+    },
+    "Event.AfterTakeDamageByWeapon.Launcher": {
+      "Tag": "Event.AfterTakeDamageByWeapon.Launcher",
+      "DevComment": "受到释放器造成伤害"
+    },
+    "Event.AfterTakeDamageByWeapon.Device": {
+      "Tag": "Event.AfterTakeDamageByWeapon.Device",
+      "DevComment": "受到装置造成伤害"
+    },
+    "Event.AfterTakeDamageByWeapon.Tool": {
+      "Tag": "Event.AfterTakeDamageByWeapon.Tool",
+      "DevComment": "受到工具造成伤害"
+    },
+    "Event.AfterCauseDamageByWeaponSlot": {
+      "Tag": "Event.AfterCauseDamageByWeaponSlot",
+      "DevComment": ""
+    },
+    "Event.AfterCauseDamageByWeaponSlot.BombPass": {
+      "Tag": "Event.AfterCauseDamageByWeaponSlot.BombPass",
+      "DevComment": ""
+    },
+    "Event.AfterTakeDamageByWeaponSlot": {
+      "Tag": "Event.AfterTakeDamageByWeaponSlot",
+      "DevComment": ""
+    },
+    "Event.AfterTakeDamageByWeaponSlot.BombPass": {
+      "Tag": "Event.AfterTakeDamageByWeaponSlot.BombPass",
+      "DevComment": ""
+    },
+    "Event.Payload.Mechanics.Update": {
+      "Tag": "Event.Payload.Mechanics.Update",
+      "DevComment": "载具机制更新"
     }
   }
 }
