@@ -69,7 +69,8 @@
             "BehaviorId": 0,
             "RandomCondition": [],
             "EscortActionType": [],
-            "ZombieActionType": []
+            "ZombieActionType": [],
+            "WeaponIds": []
           },
           "LimitConditions": []
         }
@@ -142,7 +143,8 @@
             "BehaviorId": 0,
             "RandomCondition": [],
             "EscortActionType": [],
-            "ZombieActionType": []
+            "ZombieActionType": [],
+            "WeaponIds": []
           },
           "LimitConditions": []
         }
@@ -214,7 +216,8 @@
             "BehaviorId": 0,
             "RandomCondition": [],
             "EscortActionType": [],
-            "ZombieActionType": []
+            "ZombieActionType": [],
+            "WeaponIds": []
           },
           "LimitConditions": []
         }
@@ -287,7 +290,154 @@
             "BehaviorId": 0,
             "RandomCondition": [],
             "EscortActionType": [],
-            "ZombieActionType": []
+            "ZombieActionType": [],
+            "WeaponIds": []
+          },
+          "LimitConditions": []
+        }
+      ],
+      "TaskLimit": {
+        "GameTypes": [],
+        "ModeTypes": []
+      }
+    },
+    "40013": {
+      "Id": 40013,
+      "RoleId": 131,
+      "RoleLevel": 5,
+      "MissionName": {
+        "Namespace": "RoleFavorabilityMission",
+        "Key": "40001_MissionName",
+        "SourceString": "誓约任务·五",
+        "LocalizedString": "誓约任务·五"
+      },
+      "Desc": {
+        "Namespace": "RoleFavorabilityMission",
+        "Key": "40003_Desc",
+        "SourceString": "累计使用绝招3次",
+        "LocalizedString": "累计使用绝招3次"
+      },
+      "MissionAvgId": 0,
+      "MissionSeqId": 0,
+      "Type": 4,
+      "Prize": [
+        {
+          "ItemId": 10501054,
+          "ItemAmount": 1
+        }
+      ],
+      "TaskConditions": [
+        {
+          "MainCondition": {
+            "MainType": "ECyTaskMainConditionType::Battle",
+            "GameCondition": "ECyTaskGameConditionType::None",
+            "GameResult": "ECyGameResultType::None",
+            "RoundResult": "ECyRoundResultType::None",
+            "bFriendTeam": false,
+            "bNoFriendTeam": false,
+            "BattleCondition": "ECyTaskBattleConditionType::UseSkillNum",
+            "bHeadshot": false,
+            "bHitBody": false,
+            "bFirstKill": false,
+            "bRevenge": false,
+            "MultiKillLimit": 0,
+            "HitDistLimit": 0,
+            "bBlind": false,
+            "ActionCondition": "ECyTaskActionConditionType::None",
+            "RoleIds": [
+              131
+            ],
+            "RoleProfessions": [],
+            "RoleTeams": [],
+            "MeshModes": [],
+            "EnemyMeshModes": [],
+            "WeaponTypes": [],
+            "WeaponHoldType": [],
+            "SkillTypes": [
+              "ECyPlayerSkillType::X"
+            ],
+            "Num": 3,
+            "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
+            "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
+            "BehaviorId": 0,
+            "RandomCondition": [],
+            "EscortActionType": [],
+            "ZombieActionType": [],
+            "WeaponIds": []
+          },
+          "LimitConditions": []
+        }
+      ],
+      "TaskLimit": {
+        "GameTypes": [],
+        "ModeTypes": []
+      }
+    },
+    "40014": {
+      "Id": 40014,
+      "RoleId": 131,
+      "RoleLevel": 10,
+      "MissionName": {
+        "Namespace": "RoleFavorabilityMission",
+        "Key": "40002_MissionName",
+        "SourceString": "誓约任务·十",
+        "LocalizedString": "誓约任务·十"
+      },
+      "Desc": {
+        "Namespace": "RoleFavorabilityMission",
+        "Key": "40014_Desc",
+        "SourceString": "累积使用伊薇特造成10000点伤害",
+        "LocalizedString": "累积使用伊薇特造成10000点伤害"
+      },
+      "MissionAvgId": 131102000,
+      "MissionSeqId": 0,
+      "Type": 4,
+      "Prize": [
+        {
+          "ItemId": 20131201,
+          "ItemAmount": 1
+        },
+        {
+          "ItemId": 31002007,
+          "ItemAmount": 1
+        }
+      ],
+      "TaskConditions": [
+        {
+          "MainCondition": {
+            "MainType": "ECyTaskMainConditionType::Battle",
+            "GameCondition": "ECyTaskGameConditionType::None",
+            "GameResult": "ECyGameResultType::None",
+            "RoundResult": "ECyRoundResultType::None",
+            "bFriendTeam": false,
+            "bNoFriendTeam": false,
+            "BattleCondition": "ECyTaskBattleConditionType::DamageNum",
+            "bHeadshot": false,
+            "bHitBody": false,
+            "bFirstKill": false,
+            "bRevenge": false,
+            "MultiKillLimit": 0,
+            "HitDistLimit": 0,
+            "bBlind": false,
+            "ActionCondition": "ECyTaskActionConditionType::None",
+            "RoleIds": [
+              131
+            ],
+            "RoleProfessions": [],
+            "RoleTeams": [],
+            "MeshModes": [],
+            "EnemyMeshModes": [],
+            "WeaponTypes": [],
+            "WeaponHoldType": [],
+            "SkillTypes": [],
+            "Num": 10000,
+            "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
+            "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
+            "BehaviorId": 0,
+            "RandomCondition": [],
+            "EscortActionType": [],
+            "ZombieActionType": [],
+            "WeaponIds": []
           },
           "LimitConditions": []
         }

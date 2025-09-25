@@ -1,0 +1,1818 @@
+{
+  "Type": "CompositeDataTable",
+  "Name": "CDT_UIMutualExclusionTable",
+  "Class": "UScriptClass'CompositeDataTable'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "ParentTables": [
+      {
+        "ObjectName": "DataTable'DT_UIMutualExclusionTable_Common'",
+        "ObjectPath": "PM/Content/PaperMan/CSV/DT_UIMutualExclusionTable_Common.0"
+      }
+    ],
+    "RowStruct": {
+      "ObjectName": "ScriptStruct'PMUIMutualExclusionTableRow'",
+      "ObjectPath": "/Script/PMGame"
+    }
+  },
+  "Rows": {
+    "MarkWheelPage": {
+      "UIPageName": {
+        "Name": "MarkWheelPage"
+      },
+      "ClosedByUIs": [
+        {
+          "Name": "GameKeyTipsPage"
+        },
+        {
+          "Name": "SelectRolePage"
+        },
+        {
+          "Name": "ScoreBomb"
+        },
+        {
+          "Name": "ResultGameFinishPage"
+        },
+        {
+          "Name": "RoundResultPage"
+        },
+        {
+          "Name": "ScoreEscort"
+        },
+        {
+          "Name": "ScoreTeam"
+        },
+        {
+          "Name": "ScoreTeamTri"
+        },
+        {
+          "Name": "ScoreTeamMulti"
+        },
+        {
+          "Name": "ScoreMine"
+        },
+        {
+          "Name": "ScoreZombie"
+        },
+        {
+          "Name": "SettingPage"
+        }
+      ],
+      "HidedByUIs": [
+        {
+          "Name": "BigMap"
+        },
+        {
+          "Name": "Esc"
+        },
+        {
+          "Name": "GrowthPage"
+        }
+      ],
+      "CollapsedByUIs": [],
+      "BlockedByUIs": [
+        {
+          "Name": "GameKeyTipsPage"
+        },
+        {
+          "Name": "SelectRolePage"
+        },
+        {
+          "Name": "BigMap"
+        },
+        {
+          "Name": "ResultGameFinishPage"
+        },
+        {
+          "Name": "RoundResultPage"
+        },
+        {
+          "Name": "GrowthBombPage"
+        },
+        {
+          "Name": "GrowthTeamPage"
+        },
+        {
+          "Name": "GrowthTeamThreePage"
+        },
+        {
+          "Name": "GrowthEscortPage"
+        }
+      ]
+    },
+    "ReadyStage": {
+      "UIPageName": {
+        "Name": "ReadyStage"
+      },
+      "ClosedByUIs": [],
+      "HidedByUIs": [],
+      "CollapsedByUIs": [
+        {
+          "Name": "BigMap"
+        },
+        {
+          "Name": "Name"
+        },
+        {
+          "Name": "Name"
+        },
+        {
+          "Name": "Name"
+        },
+        {
+          "Name": "Name"
+        },
+        {
+          "Name": "Name"
+        },
+        {
+          "Name": "Name"
+        },
+        {
+          "Name": "Name"
+        },
+        {
+          "Name": "Name"
+        },
+        {
+          "Name": "ScoreTeamGuide"
+        }
+      ],
+      "BlockedByUIs": []
+    },
+    "MiniMap": {
+      "UIPageName": {
+        "Name": "MiniMap"
+      },
+      "ClosedByUIs": [],
+      "HidedByUIs": [],
+      "CollapsedByUIs": [
+        {
+          "Name": "BigMap"
+        },
+        {
+          "Name": "Name"
+        },
+        {
+          "Name": "GrowthPage"
+        }
+      ],
+      "BlockedByUIs": []
+    },
+    "BigMap": {
+      "UIPageName": {
+        "Name": "BigMap"
+      },
+      "ClosedByUIs": [
+        {
+          "Name": "SelectRolePage"
+        },
+        {
+          "Name": "ScreenEffect_HuiXingArousalTwo"
+        },
+        {
+          "Name": "ScreenEffect_FlashGrenade"
+        },
+        {
+          "Name": "SettingPage"
+        },
+        {
+          "Name": "GrowthPage"
+        },
+        {
+          "Name": "HelpTipsInGameUIGuidePage"
+        }
+      ],
+      "HidedByUIs": [
+        {
+          "Name": "Esc"
+        }
+      ],
+      "CollapsedByUIs": [
+        {
+          "Name": "ScorePage"
+        }
+      ],
+      "BlockedByUIs": [
+        {
+          "Name": "ScreenEffect_FlashGrenade"
+        },
+        {
+          "Name": "SelectRolePage"
+        }
+      ]
+    },
+    "GrowthBombPage": {
+      "UIPageName": {
+        "Name": "GrowthBombPage"
+      },
+      "ClosedByUIs": [],
+      "HidedByUIs": [
+        {
+          "Name": "BigMap"
+        },
+        {
+          "Name": "Esc"
+        },
+        {
+          "Name": "MarkWheelPage"
+        },
+        {
+          "Name": "SurrenderPage"
+        }
+      ],
+      "CollapsedByUIs": [],
+      "BlockedByUIs": [
+        {
+          "Name": "SelectRolePage"
+        }
+      ]
+    },
+    "GrowthTeamPage": {
+      "UIPageName": {
+        "Name": "GrowthTeamPage"
+      },
+      "ClosedByUIs": [],
+      "HidedByUIs": [
+        {
+          "Name": "BigMap"
+        },
+        {
+          "Name": "Esc"
+        },
+        {
+          "Name": "MarkWheelPage"
+        }
+      ],
+      "CollapsedByUIs": [],
+      "BlockedByUIs": []
+    },
+    "TeamPage": {
+      "UIPageName": {
+        "Name": "TeamPage"
+      },
+      "ClosedByUIs": [],
+      "HidedByUIs": [],
+      "CollapsedByUIs": [
+        {
+          "Name": "SelectRolePage"
+        }
+      ],
+      "BlockedByUIs": [
+        {
+          "Name": "SelectRolePage"
+        }
+      ]
+    },
+    "BattleDataPage": {
+      "UIPageName": {
+        "Name": "BattleDataPage"
+      },
+      "ClosedByUIs": [],
+      "HidedByUIs": [
+        {
+          "Name": "SelectRolePage"
+        }
+      ],
+      "CollapsedByUIs": [
+        {
+          "Name": "SelectRolePage"
+        }
+      ],
+      "BlockedByUIs": [
+        {
+          "Name": "SelectRolePage"
+        }
+      ]
+    },
+    "TacticWheelPage": {
+      "UIPageName": {
+        "Name": "TacticWheelPage"
+      },
+      "ClosedByUIs": [
+        {
+          "Name": "BigMap"
+        },
+        {
+          "Name": "GameKeyTipsPage"
+        },
+        {
+          "Name": "MarkWheelPage"
+        },
+        {
+          "Name": "Esc"
+        },
+        {
+          "Name": "SelectRolePage"
+        },
+        {
+          "Name": "PersonalityWheel"
+        },
+        {
+          "Name": "ResultGameFinishPage"
+        },
+        {
+          "Name": "RoundResultPage"
+        },
+        {
+          "Name": "SettingPage"
+        },
+        {
+          "Name": "ScoreBomb"
+        },
+        {
+          "Name": "ScoreEscort"
+        },
+        {
+          "Name": "ScoreTeam"
+        },
+        {
+          "Name": "ScoreTeamTri"
+        },
+        {
+          "Name": "ScoreTeamMulti"
+        },
+        {
+          "Name": "ScoreMine"
+        },
+        {
+          "Name": "ScoreZombie"
+        },
+        {
+          "Name": "GrowthBombPage"
+        },
+        {
+          "Name": "GrowthTeamPage"
+        },
+        {
+          "Name": "GrowthTeamThreePage"
+        },
+        {
+          "Name": "GrowthEscortPage"
+        }
+      ],
+      "HidedByUIs": [],
+      "CollapsedByUIs": [],
+      "BlockedByUIs": [
+        {
+          "Name": "BigMap"
+        },
+        {
+          "Name": "GameKeyTipsPage"
+        },
+        {
+          "Name": "MarkWheelPage"
+        },
+        {
+          "Name": "Esc"
+        },
+        {
+          "Name": "SelectRolePage"
+        },
+        {
+          "Name": "PersonalityWheel"
+        },
+        {
+          "Name": "ResultGameFinishPage"
+        },
+        {
+          "Name": "RoundResultPage"
+        },
+        {
+          "Name": "SettingPage"
+        },
+        {
+          "Name": "ScoreBomb"
+        },
+        {
+          "Name": "ScoreEscort"
+        },
+        {
+          "Name": "ScoreTeam"
+        },
+        {
+          "Name": "ScoreTeamTri"
+        },
+        {
+          "Name": "ScoreTeamMulti"
+        },
+        {
+          "Name": "ScoreMine"
+        },
+        {
+          "Name": "ScoreZombie"
+        },
+        {
+          "Name": "GrowthBombPage"
+        },
+        {
+          "Name": "GrowthTeamPage"
+        },
+        {
+          "Name": "GrowthTeamThreePage"
+        },
+        {
+          "Name": "GrowthEscortPage"
+        }
+      ]
+    },
+    "SettingPage": {
+      "UIPageName": {
+        "Name": "SettingPage"
+      },
+      "ClosedByUIs": [
+        {
+          "Name": "SelectRolePage"
+        }
+      ],
+      "HidedByUIs": [],
+      "CollapsedByUIs": [],
+      "BlockedByUIs": [
+        {
+          "Name": "TipoffPlayerPage"
+        },
+        {
+          "Name": "ResultTimeDilationPage"
+        },
+        {
+          "Name": "HintPge"
+        },
+        {
+          "Name": "SelectRolePage"
+        }
+      ]
+    },
+    "ChatPage": {
+      "UIPageName": {
+        "Name": "ChatPage"
+      },
+      "ClosedByUIs": [],
+      "HidedByUIs": [],
+      "CollapsedByUIs": [],
+      "BlockedByUIs": [
+        {
+          "Name": "TipoffPlayerPage"
+        }
+      ]
+    },
+    "KokonaShiki_SelectTarget": {
+      "UIPageName": {
+        "Name": "KokonaShiki_SelectTarget"
+      },
+      "ClosedByUIs": [],
+      "HidedByUIs": [],
+      "CollapsedByUIs": [
+        {
+          "Name": "SelectRolePage"
+        }
+      ],
+      "BlockedByUIs": []
+    },
+    "RoundPanel": {
+      "UIPageName": {
+        "Name": "RoundPanel"
+      },
+      "ClosedByUIs": [],
+      "HidedByUIs": [],
+      "CollapsedByUIs": [
+        {
+          "Name": "SelectRolePage"
+        }
+      ],
+      "BlockedByUIs": []
+    },
+    "TriTeamPage": {
+      "UIPageName": {
+        "Name": "TriTeamPage"
+      },
+      "ClosedByUIs": [],
+      "HidedByUIs": [],
+      "CollapsedByUIs": [
+        {
+          "Name": "SelectRolePage"
+        },
+        {
+          "Name": "GrowthPage"
+        }
+      ],
+      "BlockedByUIs": [
+        {
+          "Name": "SelectRolePage"
+        }
+      ]
+    },
+    "BombPage": {
+      "UIPageName": {
+        "Name": "BombPage"
+      },
+      "ClosedByUIs": [],
+      "HidedByUIs": [],
+      "CollapsedByUIs": [
+        {
+          "Name": "GrowthPage"
+        },
+        {
+          "Name": "SelectRolePage"
+        }
+      ],
+      "BlockedByUIs": [
+        {
+          "Name": "SelectRolePage"
+        }
+      ]
+    },
+    "PracticePage": {
+      "UIPageName": {
+        "Name": "PracticePage"
+      },
+      "ClosedByUIs": [],
+      "HidedByUIs": [],
+      "CollapsedByUIs": [
+        {
+          "Name": "GrowthPage"
+        },
+        {
+          "Name": "SelectRolePage"
+        }
+      ],
+      "BlockedByUIs": []
+    },
+    "TeamGuidePage": {
+      "UIPageName": {
+        "Name": "TeamGuidePage"
+      },
+      "ClosedByUIs": [],
+      "HidedByUIs": [],
+      "CollapsedByUIs": [
+        {
+          "Name": "SelectRolePage"
+        },
+        {
+          "Name": "SelectRoleTeamPage"
+        }
+      ],
+      "BlockedByUIs": []
+    },
+    "ADS": {
+      "UIPageName": {
+        "Name": "ADS"
+      },
+      "ClosedByUIs": [],
+      "HidedByUIs": [],
+      "CollapsedByUIs": [
+        {
+          "Name": "AudreyPressState"
+        }
+      ],
+      "BlockedByUIs": []
+    },
+    "PracticeChallengeChoose": {
+      "UIPageName": {
+        "Name": "PracticeChallengeChoose"
+      },
+      "ClosedByUIs": [],
+      "HidedByUIs": [
+        {
+          "Name": "SelectRolePage"
+        }
+      ],
+      "CollapsedByUIs": [],
+      "BlockedByUIs": [
+        {
+          "Name": "SelectRolePage"
+        }
+      ]
+    },
+    "PracticeChallengeScore": {
+      "UIPageName": {
+        "Name": "PracticeChallengeScore"
+      },
+      "ClosedByUIs": [],
+      "HidedByUIs": [
+        {
+          "Name": "SelectRolePage"
+        }
+      ],
+      "CollapsedByUIs": [],
+      "BlockedByUIs": []
+    },
+    "PersonalityWheel": {
+      "UIPageName": {
+        "Name": "PersonalityWheel"
+      },
+      "ClosedByUIs": [
+        {
+          "Name": "BigMap"
+        },
+        {
+          "Name": "GameKeyTipsPage"
+        },
+        {
+          "Name": "MarkWheelPage"
+        },
+        {
+          "Name": "Esc"
+        },
+        {
+          "Name": "SelectRolePage"
+        },
+        {
+          "Name": "TacticWheelPage"
+        },
+        {
+          "Name": "ResultGameFinishPage"
+        },
+        {
+          "Name": "RoundResultPage"
+        },
+        {
+          "Name": "SettingPage"
+        },
+        {
+          "Name": "ScoreBomb"
+        },
+        {
+          "Name": "ScoreEscort"
+        },
+        {
+          "Name": "ScoreTeam"
+        },
+        {
+          "Name": "ScoreTeamTri"
+        },
+        {
+          "Name": "ScoreTeamMulti"
+        },
+        {
+          "Name": "ScoreMine"
+        },
+        {
+          "Name": "ScoreZombie"
+        },
+        {
+          "Name": "GrowthBombPage"
+        },
+        {
+          "Name": "GrowthTeamPage"
+        },
+        {
+          "Name": "GrowthTeamThreePage"
+        },
+        {
+          "Name": "GrowthEscortPage"
+        }
+      ],
+      "HidedByUIs": [],
+      "CollapsedByUIs": [],
+      "BlockedByUIs": [
+        {
+          "Name": "BigMap"
+        },
+        {
+          "Name": "GameKeyTipsPage"
+        },
+        {
+          "Name": "MarkWheelPage"
+        },
+        {
+          "Name": "Esc"
+        },
+        {
+          "Name": "SelectRolePage"
+        },
+        {
+          "Name": "TacticWheelPage"
+        },
+        {
+          "Name": "ResultGameFinishPage"
+        },
+        {
+          "Name": "RoundResultPage"
+        },
+        {
+          "Name": "SettingPage"
+        },
+        {
+          "Name": "ScoreBomb"
+        },
+        {
+          "Name": "ScoreEscort"
+        },
+        {
+          "Name": "ScoreTeam"
+        },
+        {
+          "Name": "ScoreTeamTri"
+        },
+        {
+          "Name": "ScoreTeamMulti"
+        },
+        {
+          "Name": "ScoreMine"
+        },
+        {
+          "Name": "ScoreZombie"
+        },
+        {
+          "Name": "GrowthBombPage"
+        },
+        {
+          "Name": "GrowthTeamPage"
+        },
+        {
+          "Name": "GrowthTeamThreePage"
+        },
+        {
+          "Name": "GrowthEscortPage"
+        }
+      ]
+    },
+    "MinePage": {
+      "UIPageName": {
+        "Name": "MinePage"
+      },
+      "ClosedByUIs": [],
+      "HidedByUIs": [],
+      "CollapsedByUIs": [
+        {
+          "Name": "SelectRolePage"
+        }
+      ],
+      "BlockedByUIs": [
+        {
+          "Name": "SelectRolePage"
+        }
+      ]
+    },
+    "SelectRolePage": {
+      "UIPageName": {
+        "Name": "SelectRolePage"
+      },
+      "ClosedByUIs": [],
+      "HidedByUIs": [],
+      "CollapsedByUIs": [],
+      "BlockedByUIs": [
+        {
+          "Name": "GrowthPage"
+        },
+        {
+          "Name": "SelectRoleLoadingPage"
+        },
+        {
+          "Name": "UGCSelectFactionPage"
+        }
+      ]
+    },
+    "SpectatorPage": {
+      "UIPageName": {
+        "Name": "SpectatorPage"
+      },
+      "ClosedByUIs": [],
+      "HidedByUIs": [],
+      "CollapsedByUIs": [
+        {
+          "Name": "SelectRolePage"
+        }
+      ],
+      "BlockedByUIs": []
+    },
+    "GrowthEscortPage": {
+      "UIPageName": {
+        "Name": "GrowthEscortPage"
+      },
+      "ClosedByUIs": [],
+      "HidedByUIs": [
+        {
+          "Name": "BigMap"
+        },
+        {
+          "Name": "Esc"
+        },
+        {
+          "Name": "MarkWheelPage"
+        },
+        {
+          "Name": "SurrenderPage"
+        }
+      ],
+      "CollapsedByUIs": [],
+      "BlockedByUIs": [
+        {
+          "Name": "SelectRolePage"
+        }
+      ]
+    },
+    "EscortPage": {
+      "UIPageName": {
+        "Name": "EscortPage"
+      },
+      "ClosedByUIs": [],
+      "HidedByUIs": [],
+      "CollapsedByUIs": [
+        {
+          "Name": "SelectRolePage"
+        }
+      ],
+      "BlockedByUIs": [
+        {
+          "Name": "SelectRolePage"
+        }
+      ]
+    },
+    "OverheadWidget": {
+      "UIPageName": {
+        "Name": "OverheadWidget"
+      },
+      "ClosedByUIs": [],
+      "HidedByUIs": [],
+      "CollapsedByUIs": [
+        {
+          "Name": "SelectRolePage"
+        },
+        {
+          "Name": "SelectRoleSpectatorPage"
+        }
+      ],
+      "BlockedByUIs": [
+        {
+          "Name": "SelectRolePage"
+        },
+        {
+          "Name": "SelectRoleSpectatorPage"
+        }
+      ]
+    },
+    "SelectRoleLoadingPage": {
+      "UIPageName": {
+        "Name": "SelectRoleLoadingPage"
+      },
+      "ClosedByUIs": [],
+      "HidedByUIs": [],
+      "CollapsedByUIs": [],
+      "BlockedByUIs": [
+        {
+          "Name": "ResultPage"
+        }
+      ]
+    },
+    "ScoreTeamTri": {
+      "UIPageName": {
+        "Name": "ScoreTeamTri"
+      },
+      "ClosedByUIs": [],
+      "HidedByUIs": [
+        {
+          "Name": "SelectRolePage"
+        }
+      ],
+      "CollapsedByUIs": [],
+      "BlockedByUIs": [
+        {
+          "Name": "SelectRolePage"
+        }
+      ]
+    },
+    "ScoreTeam": {
+      "UIPageName": {
+        "Name": "ScoreTeam"
+      },
+      "ClosedByUIs": [],
+      "HidedByUIs": [
+        {
+          "Name": "SelectRolePage"
+        }
+      ],
+      "CollapsedByUIs": [],
+      "BlockedByUIs": [
+        {
+          "Name": "SelectRolePage"
+        }
+      ]
+    },
+    "ScoreBomb": {
+      "UIPageName": {
+        "Name": "ScoreBomb"
+      },
+      "ClosedByUIs": [],
+      "HidedByUIs": [
+        {
+          "Name": "SelectRolePage"
+        }
+      ],
+      "CollapsedByUIs": [],
+      "BlockedByUIs": [
+        {
+          "Name": "SelectRolePage"
+        }
+      ]
+    },
+    "ScoreEscort": {
+      "UIPageName": {
+        "Name": "ScoreEscort"
+      },
+      "ClosedByUIs": [],
+      "HidedByUIs": [
+        {
+          "Name": "SelectRolePage"
+        }
+      ],
+      "CollapsedByUIs": [],
+      "BlockedByUIs": [
+        {
+          "Name": "SelectRolePage"
+        }
+      ]
+    },
+    "ScoreMine": {
+      "UIPageName": {
+        "Name": "ScoreMine"
+      },
+      "ClosedByUIs": [],
+      "HidedByUIs": [
+        {
+          "Name": "SelectRolePage"
+        }
+      ],
+      "CollapsedByUIs": [],
+      "BlockedByUIs": [
+        {
+          "Name": "SelectRolePage"
+        }
+      ]
+    },
+    "FriendPracticeRankPage": {
+      "UIPageName": {
+        "Name": "FriendPracticeRankPage"
+      },
+      "ClosedByUIs": [
+        {
+          "Name": "SelectRolePage"
+        }
+      ],
+      "HidedByUIs": [],
+      "CollapsedByUIs": [],
+      "BlockedByUIs": []
+    },
+    "PracticeChallengeResultPage": {
+      "UIPageName": {
+        "Name": "PracticeChallengeResultPage"
+      },
+      "ClosedByUIs": [
+        {
+          "Name": "SelectRolePage"
+        }
+      ],
+      "HidedByUIs": [],
+      "CollapsedByUIs": [],
+      "BlockedByUIs": []
+    },
+    "PracticeSettingPage": {
+      "UIPageName": {
+        "Name": "PracticeSettingPage"
+      },
+      "ClosedByUIs": [],
+      "HidedByUIs": [],
+      "CollapsedByUIs": [],
+      "BlockedByUIs": [
+        {
+          "Name": "SettingPage"
+        }
+      ]
+    },
+    "MassFightPage": {
+      "UIPageName": {
+        "Name": "MassFightPage"
+      },
+      "ClosedByUIs": [],
+      "HidedByUIs": [],
+      "CollapsedByUIs": [
+        {
+          "Name": "SelectRolePage"
+        },
+        {
+          "Name": "GrowthPage"
+        }
+      ],
+      "BlockedByUIs": [
+        {
+          "Name": "SelectRolePage"
+        }
+      ]
+    },
+    "InGamePlayerCardPanel": {
+      "UIPageName": {
+        "Name": "InGamePlayerCardPanel"
+      },
+      "ClosedByUIs": [],
+      "HidedByUIs": [],
+      "CollapsedByUIs": [
+        {
+          "Name": "SelectRolePage"
+        }
+      ],
+      "BlockedByUIs": []
+    },
+    "GameKeyTipsPage": {
+      "UIPageName": {
+        "Name": "GameKeyTipsPage"
+      },
+      "ClosedByUIs": [],
+      "HidedByUIs": [
+        {
+          "Name": "SelectRolePage"
+        },
+        {
+          "Name": "SettingPage"
+        },
+        {
+          "Name": "PracticeSettingPage"
+        },
+        {
+          "Name": "UGCSelectFactionPage"
+        }
+      ],
+      "CollapsedByUIs": [],
+      "BlockedByUIs": [
+        {
+          "Name": "UGCSelectFactionPage"
+        }
+      ]
+    },
+    "BigHeadPage": {
+      "UIPageName": {
+        "Name": "BigHeadPage"
+      },
+      "ClosedByUIs": [],
+      "HidedByUIs": [],
+      "CollapsedByUIs": [
+        {
+          "Name": "GrowthPage"
+        },
+        {
+          "Name": "SelectRolePage"
+        }
+      ],
+      "BlockedByUIs": [
+        {
+          "Name": "SelectRolePage"
+        }
+      ]
+    },
+    "ZombiePage": {
+      "UIPageName": {
+        "Name": "ZombiePage"
+      },
+      "ClosedByUIs": [],
+      "HidedByUIs": [],
+      "CollapsedByUIs": [
+        {
+          "Name": "GrowthPage"
+        },
+        {
+          "Name": "SelectRolePage"
+        }
+      ],
+      "BlockedByUIs": [
+        {
+          "Name": "SelectRolePage"
+        }
+      ]
+    },
+    "HelpTipsInGameUIGuidePage": {
+      "UIPageName": {
+        "Name": "HelpTipsInGameUIGuidePage"
+      },
+      "ClosedByUIs": [
+        {
+          "Name": "SettingPage"
+        },
+        {
+          "Name": "SelectrRolePage"
+        }
+      ],
+      "HidedByUIs": [],
+      "CollapsedByUIs": [],
+      "BlockedByUIs": []
+    },
+    "BombPassPage": {
+      "UIPageName": {
+        "Name": "BombPassPage"
+      },
+      "ClosedByUIs": [],
+      "HidedByUIs": [],
+      "CollapsedByUIs": [
+        {
+          "Name": "GrowthPage"
+        },
+        {
+          "Name": "SelectRolePage"
+        }
+      ],
+      "BlockedByUIs": [
+        {
+          "Name": "SelectRolePage"
+        }
+      ]
+    },
+    "UGCPage": {
+      "UIPageName": {
+        "Name": "UGCPage"
+      },
+      "ClosedByUIs": [],
+      "HidedByUIs": [],
+      "CollapsedByUIs": [
+        {
+          "Name": "SelectRolePage"
+        }
+      ],
+      "BlockedByUIs": [
+        {
+          "Name": "SelectRolePage"
+        }
+      ]
+    },
+    "UGCBagPage": {
+      "UIPageName": {
+        "Name": "UGCBagPage"
+      },
+      "ClosedByUIs": [
+        {
+          "Name": "UGCGenMapImagePage"
+        }
+      ],
+      "HidedByUIs": [],
+      "CollapsedByUIs": [
+        {
+          "Name": "SelectRolePage"
+        }
+      ],
+      "BlockedByUIs": [
+        {
+          "Name": "SelectRolePage"
+        },
+        {
+          "Name": "UGCColorSelectPage"
+        },
+        {
+          "Name": "UGCSelectFactionPage"
+        }
+      ]
+    },
+    "HotZoneMatchPage": {
+      "UIPageName": {
+        "Name": "HotZoneMatchPage"
+      },
+      "ClosedByUIs": [],
+      "HidedByUIs": [],
+      "CollapsedByUIs": [
+        {
+          "Name": "GrowthPage"
+        },
+        {
+          "Name": "SelectRolePage"
+        }
+      ],
+      "BlockedByUIs": [
+        {
+          "Name": "SelectRolePage"
+        }
+      ]
+    },
+    "ExKnifeFightPage": {
+      "UIPageName": {
+        "Name": "ExKnifeFightPage"
+      },
+      "ClosedByUIs": [],
+      "HidedByUIs": [],
+      "CollapsedByUIs": [
+        {
+          "Name": "GrowthPage"
+        },
+        {
+          "Name": "SelectRolePage"
+        }
+      ],
+      "BlockedByUIs": [
+        {
+          "Name": "SelectRolePage"
+        }
+      ]
+    },
+    "GrowthTeamThreePage": {
+      "UIPageName": {
+        "Name": "GrowthTeamThreePage"
+      },
+      "ClosedByUIs": [],
+      "HidedByUIs": [
+        {
+          "Name": "BigMap"
+        },
+        {
+          "Name": "Esc"
+        },
+        {
+          "Name": "MarkWheelPage"
+        },
+        {
+          "Name": "SurrenderPage"
+        }
+      ],
+      "CollapsedByUIs": [],
+      "BlockedByUIs": [
+        {
+          "Name": "SelectRolePage"
+        }
+      ]
+    },
+    "GrowthMinePage": {
+      "UIPageName": {
+        "Name": "GrowthMinePage"
+      },
+      "ClosedByUIs": [],
+      "HidedByUIs": [
+        {
+          "Name": "BigMap"
+        },
+        {
+          "Name": "Esc"
+        },
+        {
+          "Name": "MarkWheelPage"
+        },
+        {
+          "Name": "SurrenderPage"
+        }
+      ],
+      "CollapsedByUIs": [],
+      "BlockedByUIs": [
+        {
+          "Name": "SelectRolePage"
+        }
+      ]
+    },
+    "GrowthPracticePage": {
+      "UIPageName": {
+        "Name": "GrowthPracticePage"
+      },
+      "ClosedByUIs": [],
+      "HidedByUIs": [
+        {
+          "Name": "BigMap"
+        },
+        {
+          "Name": "Esc"
+        },
+        {
+          "Name": "MarkWheelPage"
+        },
+        {
+          "Name": "SurrenderPage"
+        }
+      ],
+      "CollapsedByUIs": [],
+      "BlockedByUIs": [
+        {
+          "Name": "SelectRolePage"
+        }
+      ]
+    },
+    "GrowthSparPage": {
+      "UIPageName": {
+        "Name": "GrowthSparPage"
+      },
+      "ClosedByUIs": [],
+      "HidedByUIs": [
+        {
+          "Name": "BigMap"
+        },
+        {
+          "Name": "Esc"
+        },
+        {
+          "Name": "MarkWheelPage"
+        },
+        {
+          "Name": "SurrenderPage"
+        }
+      ],
+      "CollapsedByUIs": [],
+      "BlockedByUIs": [
+        {
+          "Name": "SelectRolePage"
+        }
+      ]
+    },
+    "GrowthMassFightPage": {
+      "UIPageName": {
+        "Name": "GrowthMassFightPage"
+      },
+      "ClosedByUIs": [],
+      "HidedByUIs": [
+        {
+          "Name": "BigMap"
+        },
+        {
+          "Name": "Esc"
+        },
+        {
+          "Name": "MarkWheelPage"
+        },
+        {
+          "Name": "SurrenderPage"
+        }
+      ],
+      "CollapsedByUIs": [],
+      "BlockedByUIs": [
+        {
+          "Name": "SelectRolePage"
+        }
+      ]
+    },
+    "GrowthTeamGuidePage": {
+      "UIPageName": {
+        "Name": "GrowthTeamGuidePage"
+      },
+      "ClosedByUIs": [],
+      "HidedByUIs": [
+        {
+          "Name": "BigMap"
+        },
+        {
+          "Name": "Esc"
+        },
+        {
+          "Name": "MarkWheelPage"
+        },
+        {
+          "Name": "SurrenderPage"
+        }
+      ],
+      "CollapsedByUIs": [],
+      "BlockedByUIs": [
+        {
+          "Name": "SelectRolePage"
+        }
+      ]
+    },
+    "GrowthBigHeadPage": {
+      "UIPageName": {
+        "Name": "GrowthBigHeadPage"
+      },
+      "ClosedByUIs": [],
+      "HidedByUIs": [
+        {
+          "Name": "BigMap"
+        },
+        {
+          "Name": "Esc"
+        },
+        {
+          "Name": "MarkWheelPage"
+        },
+        {
+          "Name": "SurrenderPage"
+        }
+      ],
+      "CollapsedByUIs": [],
+      "BlockedByUIs": [
+        {
+          "Name": "SelectRolePage"
+        }
+      ]
+    },
+    "GrowthBomb2Page": {
+      "UIPageName": {
+        "Name": "GrowthBomb2Page"
+      },
+      "ClosedByUIs": [],
+      "HidedByUIs": [
+        {
+          "Name": "BigMap"
+        },
+        {
+          "Name": "Esc"
+        },
+        {
+          "Name": "MarkWheelPage"
+        },
+        {
+          "Name": "SurrenderPage"
+        }
+      ],
+      "CollapsedByUIs": [],
+      "BlockedByUIs": [
+        {
+          "Name": "SelectRolePage"
+        }
+      ]
+    },
+    "GrowthBomb3V3Page": {
+      "UIPageName": {
+        "Name": "GrowthBomb3V3Page"
+      },
+      "ClosedByUIs": [],
+      "HidedByUIs": [
+        {
+          "Name": "BigMap"
+        },
+        {
+          "Name": "Esc"
+        },
+        {
+          "Name": "MarkWheelPage"
+        },
+        {
+          "Name": "SurrenderPage"
+        }
+      ],
+      "CollapsedByUIs": [],
+      "BlockedByUIs": [
+        {
+          "Name": "SelectRolePage"
+        }
+      ]
+    },
+    "GrowthBombPassPage": {
+      "UIPageName": {
+        "Name": "GrowthBombPassPage"
+      },
+      "ClosedByUIs": [],
+      "HidedByUIs": [
+        {
+          "Name": "BigMap"
+        },
+        {
+          "Name": "Esc"
+        },
+        {
+          "Name": "MarkWheelPage"
+        },
+        {
+          "Name": "SurrenderPage"
+        }
+      ],
+      "CollapsedByUIs": [],
+      "BlockedByUIs": [
+        {
+          "Name": "SelectRolePage"
+        }
+      ]
+    },
+    "GrowthEscort3Page": {
+      "UIPageName": {
+        "Name": "GrowthEscort3Page"
+      },
+      "ClosedByUIs": [],
+      "HidedByUIs": [
+        {
+          "Name": "BigMap"
+        },
+        {
+          "Name": "Esc"
+        },
+        {
+          "Name": "MarkWheelPage"
+        },
+        {
+          "Name": "SurrenderPage"
+        }
+      ],
+      "CollapsedByUIs": [],
+      "BlockedByUIs": [
+        {
+          "Name": "SelectRolePage"
+        }
+      ]
+    },
+    "GrowthEscortGuidePage": {
+      "UIPageName": {
+        "Name": "GrowthEscortGuidePage"
+      },
+      "ClosedByUIs": [],
+      "HidedByUIs": [
+        {
+          "Name": "BigMap"
+        },
+        {
+          "Name": "Esc"
+        },
+        {
+          "Name": "MarkWheelPage"
+        },
+        {
+          "Name": "SurrenderPage"
+        }
+      ],
+      "CollapsedByUIs": [],
+      "BlockedByUIs": [
+        {
+          "Name": "SelectRolePage"
+        }
+      ]
+    },
+    "GrowthHotZonePage": {
+      "UIPageName": {
+        "Name": "GrowthHotZonePage"
+      },
+      "ClosedByUIs": [],
+      "HidedByUIs": [
+        {
+          "Name": "BigMap"
+        },
+        {
+          "Name": "Esc"
+        },
+        {
+          "Name": "MarkWheelPage"
+        },
+        {
+          "Name": "SurrenderPage"
+        }
+      ],
+      "CollapsedByUIs": [],
+      "BlockedByUIs": [
+        {
+          "Name": "SelectRolePage"
+        }
+      ]
+    },
+    "GrowthBombGuide2Page": {
+      "UIPageName": {
+        "Name": "GrowthBombGuide2Page"
+      },
+      "ClosedByUIs": [],
+      "HidedByUIs": [
+        {
+          "Name": "BigMap"
+        },
+        {
+          "Name": "Esc"
+        },
+        {
+          "Name": "MarkWheelPage"
+        },
+        {
+          "Name": "SurrenderPage"
+        }
+      ],
+      "CollapsedByUIs": [],
+      "BlockedByUIs": [
+        {
+          "Name": "SelectRolePage"
+        }
+      ]
+    },
+    "GrowthKnifeFightPage": {
+      "UIPageName": {
+        "Name": "GrowthKnifeFightPage"
+      },
+      "ClosedByUIs": [],
+      "HidedByUIs": [
+        {
+          "Name": "BigMap"
+        },
+        {
+          "Name": "Esc"
+        },
+        {
+          "Name": "MarkWheelPage"
+        },
+        {
+          "Name": "SurrenderPage"
+        }
+      ],
+      "CollapsedByUIs": [],
+      "BlockedByUIs": [
+        {
+          "Name": "SelectRolePage"
+        }
+      ]
+    },
+    "GrowthRetrofitPage": {
+      "UIPageName": {
+        "Name": "GrowthRetrofitPage"
+      },
+      "ClosedByUIs": [],
+      "HidedByUIs": [
+        {
+          "Name": "BigMap"
+        },
+        {
+          "Name": "Esc"
+        },
+        {
+          "Name": "MarkWheelPage"
+        },
+        {
+          "Name": "SurrenderPage"
+        }
+      ],
+      "CollapsedByUIs": [],
+      "BlockedByUIs": [
+        {
+          "Name": "SelectRolePage"
+        }
+      ]
+    },
+    "DecalWheel": {
+      "UIPageName": {
+        "Name": "DecalWheel"
+      },
+      "ClosedByUIs": [
+        {
+          "Name": "BigMap"
+        },
+        {
+          "Name": "GameKeyTipsPage"
+        },
+        {
+          "Name": "MarkWheelPage"
+        },
+        {
+          "Name": "Esc"
+        },
+        {
+          "Name": "SelectRolePage"
+        },
+        {
+          "Name": "TacticWheelPage"
+        },
+        {
+          "Name": "ResultGameFinishPage"
+        },
+        {
+          "Name": "RoundResultPage"
+        },
+        {
+          "Name": "SettingPage"
+        },
+        {
+          "Name": "ScoreBomb"
+        },
+        {
+          "Name": "ScoreEscort"
+        },
+        {
+          "Name": "ScoreTeam"
+        },
+        {
+          "Name": "ScoreTeamTri"
+        },
+        {
+          "Name": "ScoreTeamMulti"
+        },
+        {
+          "Name": "ScoreMine"
+        },
+        {
+          "Name": "ScoreZombie"
+        },
+        {
+          "Name": "GrowthBombPage"
+        },
+        {
+          "Name": "GrowthTeamPage"
+        },
+        {
+          "Name": "GrowthTeamThreePage"
+        },
+        {
+          "Name": "GrowthEscortPage"
+        }
+      ],
+      "HidedByUIs": [],
+      "CollapsedByUIs": [],
+      "BlockedByUIs": [
+        {
+          "Name": "BigMap"
+        },
+        {
+          "Name": "GameKeyTipsPage"
+        },
+        {
+          "Name": "MarkWheelPage"
+        },
+        {
+          "Name": "Esc"
+        },
+        {
+          "Name": "SelectRolePage"
+        },
+        {
+          "Name": "TacticWheelPage"
+        },
+        {
+          "Name": "ResultGameFinishPage"
+        },
+        {
+          "Name": "RoundResultPage"
+        },
+        {
+          "Name": "SettingPage"
+        },
+        {
+          "Name": "ScoreBomb"
+        },
+        {
+          "Name": "ScoreEscort"
+        },
+        {
+          "Name": "ScoreTeam"
+        },
+        {
+          "Name": "ScoreTeamTri"
+        },
+        {
+          "Name": "ScoreTeamMulti"
+        },
+        {
+          "Name": "ScoreMine"
+        },
+        {
+          "Name": "ScoreZombie"
+        },
+        {
+          "Name": "GrowthBombPage"
+        },
+        {
+          "Name": "GrowthTeamPage"
+        },
+        {
+          "Name": "GrowthTeamThreePage"
+        },
+        {
+          "Name": "GrowthEscortPage"
+        },
+        {
+          "Name": "PersonalityWheel"
+        }
+      ]
+    },
+    "UGCColorSelectPage": {
+      "UIPageName": {
+        "Name": "None"
+      },
+      "ClosedByUIs": [],
+      "HidedByUIs": [],
+      "CollapsedByUIs": [],
+      "BlockedByUIs": [
+        {
+          "Name": "UGCBagPage"
+        },
+        {
+          "Name": "UGCSelectFactionPage"
+        }
+      ]
+    },
+    "GunGameMatchPage": {
+      "UIPageName": {
+        "Name": "GunGameMatchPage"
+      },
+      "ClosedByUIs": [],
+      "HidedByUIs": [],
+      "CollapsedByUIs": [
+        {
+          "Name": "GrowthPage"
+        },
+        {
+          "Name": "SelectRolePage"
+        }
+      ],
+      "BlockedByUIs": [
+        {
+          "Name": "SelectRolePage"
+        }
+      ]
+    },
+    "UGCGenMapImagePage": {
+      "UIPageName": {
+        "Name": "None"
+      },
+      "ClosedByUIs": [],
+      "HidedByUIs": [],
+      "CollapsedByUIs": [],
+      "BlockedByUIs": [
+        {
+          "Name": "UGCSelectFactionPage"
+        }
+      ]
+    },
+    "RoguelikeCardSelectPage": {
+      "UIPageName": {
+        "Name": "RoguelikeCardSelectPage"
+      },
+      "ClosedByUIs": [],
+      "HidedByUIs": [],
+      "CollapsedByUIs": [
+        {
+          "Name": "ZombieChangeRolePage"
+        }
+      ],
+      "BlockedByUIs": [
+        {
+          "Name": "ZombieChangeRolePage"
+        }
+      ]
+    }
+  }
+}
