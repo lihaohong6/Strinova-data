@@ -4628,8 +4628,157 @@
       "ShowVisualsound": true,
       "VisualsoundDistance": [
         {
-          "NearDistance": 2500.0,
-          "MiddleDistance": 5000.0,
+          "NearDistance": 1000.0,
+          "MiddleDistance": 2000.0,
+          "FarDistance": 10000.0
+        }
+      ],
+      "WeaponSkinLabel": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "WeaponPointsSkin": 0
+    },
+    "10101115": {
+      "Id": 10101115,
+      "Name": {
+        "Namespace": "Weapon",
+        "Key": "10101115_Name",
+        "SourceString": "终点奔袭",
+        "LocalizedString": "终点奔袭"
+      },
+      "Available": true,
+      "AvailableState": 1,
+      "Type": "EWeaponTypes::AR",
+      "Slot": "EWeaponSlotTypes::WeaponSlot_Primary",
+      "SubType": 10101001,
+      "AdvancedWeapon": 0,
+      "ShareSkinWeapon": 0,
+      "Default": 0,
+      "Quality": 4,
+      "Tips": {
+        "Namespace": "Weapon",
+        "Key": "10101115_Tips",
+        "SourceString": "对于在运动会中参加了多个项目的米雪儿选手来说，无论是耐力还是速度都不需要担心，但如何在比赛的过程中保持专注，不要被其他精彩比赛吸引注意，才是更需要研究的课题。\n\n【“啊——训练好辛苦，不过我会坚持的！要是能直接传送到终点就更好了……”】",
+        "LocalizedString": "对于在运动会中参加了多个项目的米雪儿选手来说，无论是耐力还是速度都不需要担心，但如何在比赛的过程中保持专注，不要被其他精彩比赛吸引注意，才是更需要研究的课题。\n\n【“啊——训练好辛苦，不过我会坚持的！要是能直接传送到终点就更好了……”】"
+      },
+      "TweaponTitle": {
+        "CultureInvariantString": null
+      },
+      "TweaponDescription": {
+        "CultureInvariantString": null
+      },
+      "SortId": 4011,
+      "LevelupType": 1,
+      "BasicSkinId": 0,
+      "FxfireId": 0,
+      "FxkillId": 0,
+      "UpdateSkinId": [],
+      "SuitRoleSkinId": 0,
+      "NewSuitWeaponId": 0,
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_10101115.T_Dynamic_Item_10101115",
+        "SubPathString": ""
+      },
+      "IconItemBig": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/BigIcon/T_Dynamic_BigItem_10101115.T_Dynamic_BigItem_10101115",
+        "SubPathString": ""
+      },
+      "IconWhite": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Weapon/WeaponIconWhite/T_Dynamic_WeaponWhite_10101001.T_Dynamic_WeaponWhite_10101001",
+        "SubPathString": ""
+      },
+      "IconMobile": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "IconGrowth": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Weapon/InGameGrowth/T_Dynamic_InGameGrowth_10101001.T_Dynamic_InGameGrowth_10101001",
+        "SubPathString": ""
+      },
+      "IconGrowthBomb2": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Growth/T_Dynamic_Growth_Role10101001.T_Dynamic_Growth_Role10101001",
+        "SubPathString": ""
+      },
+      "IconHud": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Weapon/WeaponIconHud/SPR_Dynamic_WeaponHud_10101001.SPR_Dynamic_WeaponHud_10101001",
+        "SubPathString": ""
+      },
+      "BlueprintDir": "M4A1",
+      "MeshId": 115,
+      "EffectId": 0,
+      "AnimationId": 0,
+      "UserInterfaceId": 0,
+      "DisplayName": {
+        "CultureInvariantString": null
+      },
+      "IsRandomSkin": false,
+      "AiAttackDistance": 4000.0,
+      "AiAttackDistanceParameter": [
+        {
+          "Distance": 1000000.0,
+          "FireTimes": -1.0,
+          "FireInterval": -1.0
+        },
+        {
+          "Distance": 6250000.0,
+          "FireTimes": 8.0,
+          "FireInterval": 0.3
+        },
+        {
+          "Distance": 16000000.0,
+          "FireTimes": 4.0,
+          "FireInterval": 0.5
+        }
+      ],
+      "AiBaseHitParameter": [
+        -0.01,
+        0.65,
+        0.3,
+        0.6
+      ],
+      "AiHeadHitParameter": [
+        -0.012,
+        0.35,
+        0.1,
+        0.3
+      ],
+      "AiHitDifficultyFactor": [
+        0.5,
+        0.7,
+        1.0
+      ],
+      "LimitNum": 1,
+      "LimitType": 6,
+      "LimitParam": 360,
+      "GainTypeMb": [],
+      "GainType": [
+        6
+      ],
+      "GainParam1": [
+        10101115
+      ],
+      "GainParam2": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
+        "Key": "LimitedTimeMall",
+        "SourceString": "限时商城",
+        "LocalizedString": "限时商城"
+      },
+      "WeaponPreviewClosestDistance": 150.0,
+      "WeaponPreviewMaximumDistance": 250.0,
+      "WeaponPreviewHorizontalMaximumAngle": 85,
+      "WeaponPreviewVerticalMaximumAngle": 85,
+      "WeaponPreviewRotationDamping": 2,
+      "WeaponPreviewRotate": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "ShowVisualsound": true,
+      "VisualsoundDistance": [
+        {
+          "NearDistance": 1000.0,
+          "MiddleDistance": 2000.0,
           "FarDistance": 10000.0
         }
       ],
@@ -4668,7 +4817,7 @@
       "TweaponDescription": {
         "CultureInvariantString": null
       },
-      "SortId": 4011,
+      "SortId": 4012,
       "LevelupType": 1,
       "BasicSkinId": 0,
       "FxfireId": 0,
@@ -4817,7 +4966,7 @@
       "TweaponDescription": {
         "CultureInvariantString": null
       },
-      "SortId": 4012,
+      "SortId": 4013,
       "LevelupType": 1,
       "BasicSkinId": 0,
       "FxfireId": 0,
@@ -4966,7 +5115,7 @@
       "TweaponDescription": {
         "CultureInvariantString": null
       },
-      "SortId": 4013,
+      "SortId": 4014,
       "LevelupType": 1,
       "BasicSkinId": 0,
       "FxfireId": 0,
@@ -9160,8 +9309,8 @@
       "ShowVisualsound": true,
       "VisualsoundDistance": [
         {
-          "NearDistance": 2500.0,
-          "MiddleDistance": 5000.0,
+          "NearDistance": 1000.0,
+          "MiddleDistance": 2000.0,
           "FarDistance": 10000.0
         }
       ],
@@ -9306,8 +9455,8 @@
       "ShowVisualsound": true,
       "VisualsoundDistance": [
         {
-          "NearDistance": 2500.0,
-          "MiddleDistance": 5000.0,
+          "NearDistance": 1000.0,
+          "MiddleDistance": 2000.0,
           "FarDistance": 10000.0
         }
       ],
@@ -9384,7 +9533,7 @@
       },
       "BlueprintDir": "AKM_Galatea",
       "MeshId": 203,
-      "EffectId": 203,
+      "EffectId": 204,
       "AnimationId": 203,
       "UserInterfaceId": 0,
       "DisplayName": {
@@ -9452,8 +9601,8 @@
       "ShowVisualsound": true,
       "VisualsoundDistance": [
         {
-          "NearDistance": 2500.0,
-          "MiddleDistance": 5000.0,
+          "NearDistance": 1000.0,
+          "MiddleDistance": 2000.0,
           "FarDistance": 10000.0
         }
       ],
@@ -9530,7 +9679,7 @@
       },
       "BlueprintDir": "AKM_Galatea",
       "MeshId": 204,
-      "EffectId": 204,
+      "EffectId": 203,
       "AnimationId": 204,
       "UserInterfaceId": 0,
       "DisplayName": {
@@ -9598,8 +9747,8 @@
       "ShowVisualsound": true,
       "VisualsoundDistance": [
         {
-          "NearDistance": 2500.0,
-          "MiddleDistance": 5000.0,
+          "NearDistance": 1000.0,
+          "MiddleDistance": 2000.0,
           "FarDistance": 10000.0
         }
       ],
@@ -9744,8 +9893,8 @@
       "ShowVisualsound": true,
       "VisualsoundDistance": [
         {
-          "NearDistance": 2500.0,
-          "MiddleDistance": 5000.0,
+          "NearDistance": 1000.0,
+          "MiddleDistance": 2000.0,
           "FarDistance": 10000.0
         }
       ],
@@ -11548,7 +11697,7 @@
       "BlueprintDir": "AUG_Yugiri",
       "MeshId": 101,
       "EffectId": 0,
-      "AnimationId": 0,
+      "AnimationId": 101,
       "UserInterfaceId": 0,
       "DisplayName": {
         "CultureInvariantString": null
@@ -11683,7 +11832,7 @@
       "BlueprintDir": "AUG_Yugiri",
       "MeshId": 102,
       "EffectId": 0,
-      "AnimationId": 0,
+      "AnimationId": 102,
       "UserInterfaceId": 0,
       "DisplayName": {
         "CultureInvariantString": null
@@ -11818,7 +11967,7 @@
       "BlueprintDir": "AUG_Yugiri",
       "MeshId": 103,
       "EffectId": 0,
-      "AnimationId": 0,
+      "AnimationId": 103,
       "UserInterfaceId": 0,
       "DisplayName": {
         "CultureInvariantString": null
@@ -11885,6 +12034,141 @@
       },
       "WeaponPointsSkin": 0
     },
+    "10113104": {
+      "Id": 10113104,
+      "Name": {
+        "Namespace": "Weapon",
+        "Key": "10113104_Name",
+        "SourceString": "精准发力",
+        "LocalizedString": "精准发力"
+      },
+      "Available": false,
+      "AvailableState": 1,
+      "Type": "EWeaponTypes::AR",
+      "Slot": "EWeaponSlotTypes::WeaponSlot_Primary",
+      "SubType": 10113001,
+      "AdvancedWeapon": 0,
+      "ShareSkinWeapon": 0,
+      "Default": 0,
+      "Quality": 4,
+      "Tips": {
+        "Namespace": "Weapon",
+        "Key": "10113104_Tips",
+        "SourceString": "“绝对执行”的运动会定制款。为了在拳击比赛中取得好成绩，忧雾没少在课余时间泡健身房。她将自己经常用来锻炼力量的器械稍加设计，变成了武器上的涂装。而那个正在出拳的小蜗，或许就是她本人的象征？\n\n【“只要是有技巧可循的训练方式，我应该都能掌握。毕竟，接受指令我还是很擅长的。”】",
+        "LocalizedString": "“绝对执行”的运动会定制款。为了在拳击比赛中取得好成绩，忧雾没少在课余时间泡健身房。她将自己经常用来锻炼力量的器械稍加设计，变成了武器上的涂装。而那个正在出拳的小蜗，或许就是她本人的象征？\n\n【“只要是有技巧可循的训练方式，我应该都能掌握。毕竟，接受指令我还是很擅长的。”】"
+      },
+      "TweaponTitle": {
+        "CultureInvariantString": null
+      },
+      "TweaponDescription": {
+        "CultureInvariantString": null
+      },
+      "SortId": 4004,
+      "LevelupType": 1,
+      "BasicSkinId": 0,
+      "FxfireId": 0,
+      "FxkillId": 0,
+      "UpdateSkinId": [],
+      "SuitRoleSkinId": 0,
+      "NewSuitWeaponId": 0,
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_10113104.T_Dynamic_Item_10113104",
+        "SubPathString": ""
+      },
+      "IconItemBig": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/BigIcon/T_Dynamic_BigItem_10113104.T_Dynamic_BigItem_10113104",
+        "SubPathString": ""
+      },
+      "IconWhite": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Weapon/WeaponIconWhite/T_Dynamic_WeaponWhite_10113001.T_Dynamic_WeaponWhite_10113001",
+        "SubPathString": ""
+      },
+      "IconMobile": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "IconGrowth": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Weapon/InGameGrowth/T_Dynamic_InGameGrowth_10113001.T_Dynamic_InGameGrowth_10113001",
+        "SubPathString": ""
+      },
+      "IconGrowthBomb2": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Growth/T_Dynamic_Growth_Role10113001.T_Dynamic_Growth_Role10113001",
+        "SubPathString": ""
+      },
+      "IconHud": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Weapon/WeaponIconHud/SPR_Dynamic_WeaponHud_10113001.SPR_Dynamic_WeaponHud_10113001",
+        "SubPathString": ""
+      },
+      "BlueprintDir": "AUG_Yugiri",
+      "MeshId": 104,
+      "EffectId": 0,
+      "AnimationId": 104,
+      "UserInterfaceId": 0,
+      "DisplayName": {
+        "CultureInvariantString": null
+      },
+      "IsRandomSkin": false,
+      "AiAttackDistance": 4000.0,
+      "AiAttackDistanceParameter": [
+        {
+          "Distance": 1000000.0,
+          "FireTimes": -1.0,
+          "FireInterval": -1.0
+        },
+        {
+          "Distance": 6250000.0,
+          "FireTimes": 9.0,
+          "FireInterval": 0.3
+        },
+        {
+          "Distance": 16000000.0,
+          "FireTimes": 4.0,
+          "FireInterval": 0.5
+        }
+      ],
+      "AiBaseHitParameter": [],
+      "AiHeadHitParameter": [],
+      "AiHitDifficultyFactor": [],
+      "LimitNum": 1,
+      "LimitType": 6,
+      "LimitParam": 360,
+      "GainTypeMb": [],
+      "GainType": [
+        3
+      ],
+      "GainParam1": [
+        600001
+      ],
+      "GainParam2": {
+        "Namespace": "Weapon",
+        "Key": "10104115_GainParam2",
+        "SourceString": "星轨共振",
+        "LocalizedString": "星轨共振"
+      },
+      "WeaponPreviewClosestDistance": 140.0,
+      "WeaponPreviewMaximumDistance": 250.0,
+      "WeaponPreviewHorizontalMaximumAngle": 85,
+      "WeaponPreviewVerticalMaximumAngle": 85,
+      "WeaponPreviewRotationDamping": 2,
+      "WeaponPreviewRotate": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "ShowVisualsound": true,
+      "VisualsoundDistance": [
+        {
+          "NearDistance": 1000.0,
+          "MiddleDistance": 2000.0,
+          "FarDistance": 10000.0
+        }
+      ],
+      "WeaponSkinLabel": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "WeaponPointsSkin": 0
+    },
     "10113105": {
       "Id": 10113105,
       "Name": {
@@ -11914,7 +12198,7 @@
       "TweaponDescription": {
         "CultureInvariantString": null
       },
-      "SortId": 4004,
+      "SortId": 4005,
       "LevelupType": 1,
       "BasicSkinId": 0,
       "FxfireId": 0,
@@ -11953,7 +12237,7 @@
       "BlueprintDir": "AUG_Yugiri",
       "MeshId": 105,
       "EffectId": 0,
-      "AnimationId": 0,
+      "AnimationId": 105,
       "UserInterfaceId": 0,
       "DisplayName": {
         "CultureInvariantString": null
@@ -12009,8 +12293,8 @@
       "ShowVisualsound": true,
       "VisualsoundDistance": [
         {
-          "NearDistance": 2500.0,
-          "MiddleDistance": 5000.0,
+          "NearDistance": 1000.0,
+          "MiddleDistance": 2000.0,
           "FarDistance": 10000.0
         }
       ],
@@ -14666,8 +14950,8 @@
       "ShowVisualsound": true,
       "VisualsoundDistance": [
         {
-          "NearDistance": 2500.0,
-          "MiddleDistance": 5000.0,
+          "NearDistance": 1000.0,
+          "MiddleDistance": 2000.0,
           "FarDistance": 10000.0
         }
       ],
@@ -14812,8 +15096,8 @@
       "ShowVisualsound": true,
       "VisualsoundDistance": [
         {
-          "NearDistance": 2500.0,
-          "MiddleDistance": 5000.0,
+          "NearDistance": 1000.0,
+          "MiddleDistance": 2000.0,
           "FarDistance": 10000.0
         }
       ],
@@ -14890,7 +15174,7 @@
       },
       "BlueprintDir": "M4A1_Fragrans",
       "MeshId": 203,
-      "EffectId": 204,
+      "EffectId": 203,
       "AnimationId": 203,
       "UserInterfaceId": 0,
       "DisplayName": {
@@ -14958,8 +15242,8 @@
       "ShowVisualsound": true,
       "VisualsoundDistance": [
         {
-          "NearDistance": 2500.0,
-          "MiddleDistance": 5000.0,
+          "NearDistance": 1000.0,
+          "MiddleDistance": 2000.0,
           "FarDistance": 10000.0
         }
       ],
@@ -15036,7 +15320,7 @@
       },
       "BlueprintDir": "M4A1_Fragrans",
       "MeshId": 204,
-      "EffectId": 203,
+      "EffectId": 204,
       "AnimationId": 204,
       "UserInterfaceId": 0,
       "DisplayName": {
@@ -15104,8 +15388,8 @@
       "ShowVisualsound": true,
       "VisualsoundDistance": [
         {
-          "NearDistance": 2500.0,
-          "MiddleDistance": 5000.0,
+          "NearDistance": 1000.0,
+          "MiddleDistance": 2000.0,
           "FarDistance": 10000.0
         }
       ],
@@ -15250,8 +15534,8 @@
       "ShowVisualsound": true,
       "VisualsoundDistance": [
         {
-          "NearDistance": 2500.0,
-          "MiddleDistance": 5000.0,
+          "NearDistance": 1000.0,
+          "MiddleDistance": 2000.0,
           "FarDistance": 10000.0
         }
       ],
@@ -19970,8 +20254,8 @@
       "ShowVisualsound": true,
       "VisualsoundDistance": [
         {
-          "NearDistance": 2500.0,
-          "MiddleDistance": 5000.0,
+          "NearDistance": 1000.0,
+          "MiddleDistance": 2000.0,
           "FarDistance": 10000.0
         }
       ],
@@ -24622,8 +24906,157 @@
       "ShowVisualsound": true,
       "VisualsoundDistance": [
         {
-          "NearDistance": 2500.0,
-          "MiddleDistance": 5000.0,
+          "NearDistance": 1000.0,
+          "MiddleDistance": 2000.0,
+          "FarDistance": 10000.0
+        }
+      ],
+      "WeaponSkinLabel": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "WeaponPointsSkin": 0
+    },
+    "10104115": {
+      "Id": 10104115,
+      "Name": {
+        "Namespace": "Weapon",
+        "Key": "10104115_Name",
+        "SourceString": "虚妄旧约",
+        "LocalizedString": "虚妄旧约"
+      },
+      "Available": true,
+      "AvailableState": 1,
+      "Type": "EWeaponTypes::AR",
+      "Slot": "EWeaponSlotTypes::WeaponSlot_Primary",
+      "SubType": 10104001,
+      "AdvancedWeapon": 0,
+      "ShareSkinWeapon": 0,
+      "Default": 0,
+      "Quality": 4,
+      "Tips": {
+        "Namespace": "Weapon",
+        "Key": "10104115_Tips",
+        "SourceString": "“影袭”的赛博风格定制款涂装。枪身线条流畅锐利，将侧面切割为多个菱形截面，从不同角度看能折射出不同的光芒，有种流动的高科技质感。\n\n【“你们所看到的，只是别人想让你们看到的。换个角度，一切都会不一样。”】",
+        "LocalizedString": "“影袭”的赛博风格定制款涂装。枪身线条流畅锐利，将侧面切割为多个菱形截面，从不同角度看能折射出不同的光芒，有种流动的高科技质感。\n\n【“你们所看到的，只是别人想让你们看到的。换个角度，一切都会不一样。”】"
+      },
+      "TweaponTitle": {
+        "CultureInvariantString": null
+      },
+      "TweaponDescription": {
+        "CultureInvariantString": null
+      },
+      "SortId": 4013,
+      "LevelupType": 1,
+      "BasicSkinId": 0,
+      "FxfireId": 0,
+      "FxkillId": 0,
+      "UpdateSkinId": [],
+      "SuitRoleSkinId": 0,
+      "NewSuitWeaponId": 0,
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_10104115.T_Dynamic_Item_10104115",
+        "SubPathString": ""
+      },
+      "IconItemBig": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/BigIcon/T_Dynamic_BigItem_10104115.T_Dynamic_BigItem_10104115",
+        "SubPathString": ""
+      },
+      "IconWhite": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Weapon/WeaponIconWhite/T_Dynamic_WeaponWhite_10104001.T_Dynamic_WeaponWhite_10104001",
+        "SubPathString": ""
+      },
+      "IconMobile": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "IconGrowth": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Weapon/InGameGrowth/T_Dynamic_InGameGrowth_10104001.T_Dynamic_InGameGrowth_10104001",
+        "SubPathString": ""
+      },
+      "IconGrowthBomb2": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Growth/T_Dynamic_Growth_Role10104001.T_Dynamic_Growth_Role10104001",
+        "SubPathString": ""
+      },
+      "IconHud": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Weapon/WeaponIconHud/SPR_Dynamic_WeaponHud_10104001.SPR_Dynamic_WeaponHud_10104001",
+        "SubPathString": ""
+      },
+      "BlueprintDir": "XM8",
+      "MeshId": 115,
+      "EffectId": 0,
+      "AnimationId": 0,
+      "UserInterfaceId": 0,
+      "DisplayName": {
+        "CultureInvariantString": null
+      },
+      "IsRandomSkin": false,
+      "AiAttackDistance": 4000.0,
+      "AiAttackDistanceParameter": [
+        {
+          "Distance": 1000000.0,
+          "FireTimes": -1.0,
+          "FireInterval": -1.0
+        },
+        {
+          "Distance": 6250000.0,
+          "FireTimes": 8.0,
+          "FireInterval": 0.3
+        },
+        {
+          "Distance": 16000000.0,
+          "FireTimes": 4.0,
+          "FireInterval": 0.5
+        }
+      ],
+      "AiBaseHitParameter": [
+        -0.01,
+        0.65,
+        0.3,
+        0.6
+      ],
+      "AiHeadHitParameter": [
+        -0.012,
+        0.35,
+        0.1,
+        0.3
+      ],
+      "AiHitDifficultyFactor": [
+        0.5,
+        0.7,
+        1.0
+      ],
+      "LimitNum": 1,
+      "LimitType": 6,
+      "LimitParam": 360,
+      "GainTypeMb": [],
+      "GainType": [
+        3
+      ],
+      "GainParam1": [
+        600001
+      ],
+      "GainParam2": {
+        "Namespace": "Weapon",
+        "Key": "10104115_GainParam2",
+        "SourceString": "星轨共振",
+        "LocalizedString": "星轨共振"
+      },
+      "WeaponPreviewClosestDistance": 130.0,
+      "WeaponPreviewMaximumDistance": 220.0,
+      "WeaponPreviewHorizontalMaximumAngle": 85,
+      "WeaponPreviewVerticalMaximumAngle": 85,
+      "WeaponPreviewRotationDamping": 2,
+      "WeaponPreviewRotate": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "ShowVisualsound": true,
+      "VisualsoundDistance": [
+        {
+          "NearDistance": 1000.0,
+          "MiddleDistance": 2000.0,
           "FarDistance": 10000.0
         }
       ],
@@ -28898,8 +29331,8 @@
       "ShowVisualsound": true,
       "VisualsoundDistance": [
         {
-          "NearDistance": 2500.0,
-          "MiddleDistance": 5000.0,
+          "NearDistance": 1000.0,
+          "MiddleDistance": 2000.0,
           "FarDistance": 10000.0
         }
       ],
@@ -29047,8 +29480,8 @@
       "ShowVisualsound": true,
       "VisualsoundDistance": [
         {
-          "NearDistance": 2500.0,
-          "MiddleDistance": 5000.0,
+          "NearDistance": 1000.0,
+          "MiddleDistance": 2000.0,
           "FarDistance": 10000.0
         }
       ],
@@ -33831,7 +34264,7 @@
       "BlueprintDir": "G3SG1",
       "MeshId": 202,
       "EffectId": 202,
-      "AnimationId": 201,
+      "AnimationId": 202,
       "UserInterfaceId": 0,
       "DisplayName": {
         "CultureInvariantString": null
@@ -33976,8 +34409,8 @@
       },
       "BlueprintDir": "G3SG1",
       "MeshId": 203,
-      "EffectId": 204,
-      "AnimationId": 201,
+      "EffectId": 203,
+      "AnimationId": 203,
       "UserInterfaceId": 0,
       "DisplayName": {
         "CultureInvariantString": null
@@ -34122,8 +34555,8 @@
       },
       "BlueprintDir": "G3SG1",
       "MeshId": 204,
-      "EffectId": 203,
-      "AnimationId": 201,
+      "EffectId": 204,
+      "AnimationId": 204,
       "UserInterfaceId": 0,
       "DisplayName": {
         "CultureInvariantString": null
@@ -34269,7 +34702,7 @@
       "BlueprintDir": "G3SG1",
       "MeshId": 205,
       "EffectId": 205,
-      "AnimationId": 201,
+      "AnimationId": 205,
       "UserInterfaceId": 0,
       "DisplayName": {
         "CultureInvariantString": null
@@ -38180,8 +38613,8 @@
       "ShowVisualsound": true,
       "VisualsoundDistance": [
         {
-          "NearDistance": 2500.0,
-          "MiddleDistance": 5000.0,
+          "NearDistance": 1000.0,
+          "MiddleDistance": 2000.0,
           "FarDistance": 10000.0
         }
       ],
@@ -42799,8 +43232,8 @@
       "ShowVisualsound": true,
       "VisualsoundDistance": [
         {
-          "NearDistance": 2500.0,
-          "MiddleDistance": 5000.0,
+          "NearDistance": 1000.0,
+          "MiddleDistance": 2000.0,
           "FarDistance": 10000.0
         }
       ],
@@ -42931,8 +43364,8 @@
       "ShowVisualsound": true,
       "VisualsoundDistance": [
         {
-          "NearDistance": 2500.0,
-          "MiddleDistance": 5000.0,
+          "NearDistance": 1000.0,
+          "MiddleDistance": 2000.0,
           "FarDistance": 10000.0
         }
       ],
@@ -49607,7 +50040,7 @@
       "BlueprintDir": "MP5A1",
       "MeshId": 101,
       "EffectId": 0,
-      "AnimationId": 0,
+      "AnimationId": 101,
       "UserInterfaceId": 0,
       "DisplayName": {
         "CultureInvariantString": null
@@ -49742,7 +50175,7 @@
       "BlueprintDir": "MP5A1",
       "MeshId": 102,
       "EffectId": 0,
-      "AnimationId": 0,
+      "AnimationId": 102,
       "UserInterfaceId": 0,
       "DisplayName": {
         "CultureInvariantString": null
@@ -49877,7 +50310,7 @@
       "BlueprintDir": "MP5A1",
       "MeshId": 103,
       "EffectId": 0,
-      "AnimationId": 0,
+      "AnimationId": 103,
       "UserInterfaceId": 0,
       "DisplayName": {
         "CultureInvariantString": null
@@ -50608,6 +51041,824 @@
       },
       "WeaponPointsSkin": 0
     },
+    "12307101": {
+      "Id": 12307101,
+      "Name": {
+        "Namespace": "Weapon",
+        "Key": "12307101_Name",
+        "SourceString": "爆能水枪",
+        "LocalizedString": "爆能水枪"
+      },
+      "Available": true,
+      "AvailableState": 1,
+      "Type": "EWeaponTypes::Pistol",
+      "Slot": "EWeaponSlotTypes::WeaponSlot_Secondary",
+      "SubType": 12307001,
+      "AdvancedWeapon": 0,
+      "ShareSkinWeapon": 0,
+      "Default": 0,
+      "Quality": 4,
+      "Tips": {
+        "Namespace": "Weapon",
+        "Key": "12307101_Tips",
+        "SourceString": "一个似乎来自于宇宙级战争的随身武器重制品，有着出色的持久聚能和长效爆发，但真正引起轰动的还是当下时兴的美丽造型。\n\n【“颜色越粉，打人越狠”——战场语录】",
+        "LocalizedString": "一个似乎来自于宇宙级战争的随身武器重制品，有着出色的持久聚能和长效爆发，但真正引起轰动的还是当下时兴的美丽造型。\n\n【“颜色越粉，打人越狠”——战场语录】"
+      },
+      "TweaponTitle": {
+        "CultureInvariantString": null
+      },
+      "TweaponDescription": {
+        "CultureInvariantString": null
+      },
+      "SortId": 4001,
+      "LevelupType": 1,
+      "BasicSkinId": 0,
+      "FxfireId": 0,
+      "FxkillId": 0,
+      "UpdateSkinId": [],
+      "SuitRoleSkinId": 0,
+      "NewSuitWeaponId": 0,
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_12307101.T_Dynamic_Item_12307101",
+        "SubPathString": ""
+      },
+      "IconItemBig": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/BigIcon/T_Dynamic_BigItem_12307101.T_Dynamic_BigItem_12307101",
+        "SubPathString": ""
+      },
+      "IconWhite": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Weapon/WeaponIconWhite/T_Dynamic_WeaponWhite_12307001.T_Dynamic_WeaponWhite_12307001",
+        "SubPathString": ""
+      },
+      "IconMobile": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Weapon/WeaponIconMobile/T_Dynamic_WeaponIconMobile_12307001.T_Dynamic_WeaponIconMobile_12307001",
+        "SubPathString": ""
+      },
+      "IconGrowth": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Weapon/InGameGrowth/T_Dynamic_InGameGrowth_12307001.T_Dynamic_InGameGrowth_12307001",
+        "SubPathString": ""
+      },
+      "IconGrowthBomb2": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Growth/T_Dynamic_Growth_Role12307001.T_Dynamic_Growth_Role12307001",
+        "SubPathString": ""
+      },
+      "IconHud": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Weapon/WeaponIconHud/SPR_Dynamic_WeaponHud_12307001.SPR_Dynamic_WeaponHud_12307001",
+        "SubPathString": ""
+      },
+      "BlueprintDir": "FlamePistol",
+      "MeshId": 101,
+      "EffectId": 101,
+      "AnimationId": 0,
+      "UserInterfaceId": 0,
+      "DisplayName": {
+        "CultureInvariantString": null
+      },
+      "IsRandomSkin": false,
+      "AiAttackDistance": 1000.0,
+      "AiAttackDistanceParameter": [
+        {
+          "Distance": 1000000.0,
+          "FireTimes": -1.0,
+          "FireInterval": -1.0
+        },
+        {
+          "Distance": 6250000.0,
+          "FireTimes": 8.0,
+          "FireInterval": 0.3
+        },
+        {
+          "Distance": 16000000.0,
+          "FireTimes": 4.0,
+          "FireInterval": 0.5
+        }
+      ],
+      "AiBaseHitParameter": [],
+      "AiHeadHitParameter": [],
+      "AiHitDifficultyFactor": [],
+      "LimitNum": 1,
+      "LimitType": 6,
+      "LimitParam": 360,
+      "GainTypeMb": [],
+      "GainType": [
+        10
+      ],
+      "GainParam1": [
+        10002
+      ],
+      "GainParam2": {
+        "Namespace": "Weapon",
+        "Key": "12307101_GainParam2",
+        "SourceString": "弦海寻宝-炽焱狂龙",
+        "LocalizedString": "弦海寻宝-炽焱狂龙"
+      },
+      "WeaponPreviewClosestDistance": 150.0,
+      "WeaponPreviewMaximumDistance": 200.0,
+      "WeaponPreviewHorizontalMaximumAngle": 85,
+      "WeaponPreviewVerticalMaximumAngle": 85,
+      "WeaponPreviewRotationDamping": 2,
+      "WeaponPreviewRotate": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "ShowVisualsound": true,
+      "VisualsoundDistance": [
+        {
+          "NearDistance": 1000.0,
+          "MiddleDistance": 2000.0,
+          "FarDistance": 10000.0
+        }
+      ],
+      "WeaponSkinLabel": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "WeaponPointsSkin": 0
+    },
+    "12307201": {
+      "Id": 12307201,
+      "Name": {
+        "Namespace": "Weapon",
+        "Key": "12307201_Name",
+        "SourceString": "炽焱狂龙",
+        "LocalizedString": "炽焱狂龙"
+      },
+      "Available": true,
+      "AvailableState": 1,
+      "Type": "EWeaponTypes::Pistol",
+      "Slot": "EWeaponSlotTypes::WeaponSlot_Secondary",
+      "SubType": 12307001,
+      "AdvancedWeapon": 12307201,
+      "ShareSkinWeapon": 0,
+      "Default": 0,
+      "Quality": 5,
+      "Tips": {
+        "Namespace": "Weapon",
+        "Key": "12307201_Tips",
+        "SourceString": "强大的力量与高傲的性格是它永恒的底色，小心你的言辞，如果你不想感受足以灭世的龙息。\n\n【灭世者，终末的魔龙，混沌之厄，弦能吞噬者，焚天之翼，你可以选择你喜欢的称呼，它们都是我。】",
+        "LocalizedString": "强大的力量与高傲的性格是它永恒的底色，小心你的言辞，如果你不想感受足以灭世的龙息。\n\n【灭世者，终末的魔龙，混沌之厄，弦能吞噬者，焚天之翼，你可以选择你喜欢的称呼，它们都是我。】"
+      },
+      "TweaponTitle": {
+        "CultureInvariantString": null
+      },
+      "TweaponDescription": {
+        "Namespace": "Weapon",
+        "Key": "12307201_TweaponDescription",
+        "SourceString": "来自虚拟位面的奇异生命，它的确是一条龙。\n在它的自述中，它曾是天地的尽头，世界的终点，所有人提到它的名字都会发出恐惧的哀号。\n但偏偏该死的位面穿梭让它忘记了自己的本名，如今的它，更像是一个特别的玩伴。\n但这是面对它时绝对不能提及的禁忌。\n伟大的龙神尊严不可侵犯，它自混沌中引来的怒火会将眼前所见的一切都全部点燃。\n不过考虑到它穿梭位面被消耗到可托于手掌的体型，这充斥怒火的吐息似乎已经难以承担往日荣光。\n无妨，伟大的龙神从不多虑，向它供奉充斥弦能的魔晶，你将会获得龙神的伟力。\n灭世已经是埋在故事里的传奇，但炙烤你的敌人，对于龙神来说，不过是一次平凡的呼吸。\n“嗯，凡人，你对吾的赞诵，甚是有趣。”",
+        "LocalizedString": "来自虚拟位面的奇异生命，它的确是一条龙。\n在它的自述中，它曾是天地的尽头，世界的终点，所有人提到它的名字都会发出恐惧的哀号。\n但偏偏该死的位面穿梭让它忘记了自己的本名，如今的它，更像是一个特别的玩伴。\n但这是面对它时绝对不能提及的禁忌。\n伟大的龙神尊严不可侵犯，它自混沌中引来的怒火会将眼前所见的一切都全部点燃。\n不过考虑到它穿梭位面被消耗到可托于手掌的体型，这充斥怒火的吐息似乎已经难以承担往日荣光。\n无妨，伟大的龙神从不多虑，向它供奉充斥弦能的魔晶，你将会获得龙神的伟力。\n灭世已经是埋在故事里的传奇，但炙烤你的敌人，对于龙神来说，不过是一次平凡的呼吸。\n“嗯，凡人，你对吾的赞诵，甚是有趣。”"
+      },
+      "SortId": 5001,
+      "LevelupType": 2,
+      "BasicSkinId": 0,
+      "FxfireId": 41000051,
+      "FxkillId": 0,
+      "UpdateSkinId": [
+        12307202,
+        12307203,
+        12307204,
+        12307205
+      ],
+      "SuitRoleSkinId": 0,
+      "NewSuitWeaponId": 0,
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_12307201.T_Dynamic_Item_12307201",
+        "SubPathString": ""
+      },
+      "IconItemBig": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/BigIcon/T_Dynamic_BigItem_12307201.T_Dynamic_BigItem_12307201",
+        "SubPathString": ""
+      },
+      "IconWhite": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Weapon/WeaponIconWhite/T_Dynamic_WeaponWhite_12307001.T_Dynamic_WeaponWhite_12307001",
+        "SubPathString": ""
+      },
+      "IconMobile": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Weapon/WeaponIconMobile/T_Dynamic_WeaponIconMobile_12307001.T_Dynamic_WeaponIconMobile_12307001",
+        "SubPathString": ""
+      },
+      "IconGrowth": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Weapon/InGameGrowth/T_Dynamic_InGameGrowth_12307001.T_Dynamic_InGameGrowth_12307001",
+        "SubPathString": ""
+      },
+      "IconGrowthBomb2": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Growth/T_Dynamic_Growth_Role12307001.T_Dynamic_Growth_Role12307001",
+        "SubPathString": ""
+      },
+      "IconHud": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Weapon/WeaponIconHud/SPR_Dynamic_WeaponHud_12307001.SPR_Dynamic_WeaponHud_12307001",
+        "SubPathString": ""
+      },
+      "BlueprintDir": "FlamePistol",
+      "MeshId": 201,
+      "EffectId": 201,
+      "AnimationId": 201,
+      "UserInterfaceId": 0,
+      "DisplayName": {
+        "CultureInvariantString": null
+      },
+      "IsRandomSkin": false,
+      "AiAttackDistance": 1000.0,
+      "AiAttackDistanceParameter": [
+        {
+          "Distance": 1000000.0,
+          "FireTimes": -1.0,
+          "FireInterval": -1.0
+        },
+        {
+          "Distance": 6250000.0,
+          "FireTimes": 8.0,
+          "FireInterval": 0.3
+        },
+        {
+          "Distance": 16000000.0,
+          "FireTimes": 4.0,
+          "FireInterval": 0.5
+        }
+      ],
+      "AiBaseHitParameter": [],
+      "AiHeadHitParameter": [],
+      "AiHitDifficultyFactor": [],
+      "LimitNum": 1,
+      "LimitType": 6,
+      "LimitParam": 360,
+      "GainTypeMb": [],
+      "GainType": [
+        10
+      ],
+      "GainParam1": [
+        10002
+      ],
+      "GainParam2": {
+        "Namespace": "Weapon",
+        "Key": "12307101_GainParam2",
+        "SourceString": "弦海寻宝-炽焱狂龙",
+        "LocalizedString": "弦海寻宝-炽焱狂龙"
+      },
+      "WeaponPreviewClosestDistance": 150.0,
+      "WeaponPreviewMaximumDistance": 200.0,
+      "WeaponPreviewHorizontalMaximumAngle": 85,
+      "WeaponPreviewVerticalMaximumAngle": 85,
+      "WeaponPreviewRotationDamping": 2,
+      "WeaponPreviewRotate": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "ShowVisualsound": false,
+      "VisualsoundDistance": [
+        {
+          "NearDistance": 1000.0,
+          "MiddleDistance": 2000.0,
+          "FarDistance": 10000.0
+        }
+      ],
+      "WeaponSkinLabel": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "WeaponPointsSkin": 0
+    },
+    "12307202": {
+      "Id": 12307202,
+      "Name": {
+        "Namespace": "Weapon",
+        "Key": "12307202_Name",
+        "SourceString": "炽焱狂龙-黯灭",
+        "LocalizedString": "炽焱狂龙-黯灭"
+      },
+      "Available": true,
+      "AvailableState": 1,
+      "Type": "EWeaponTypes::Pistol",
+      "Slot": "EWeaponSlotTypes::WeaponSlot_Secondary",
+      "SubType": 12307001,
+      "AdvancedWeapon": 12307202,
+      "ShareSkinWeapon": 0,
+      "Default": 0,
+      "Quality": 5,
+      "Tips": {
+        "Namespace": "Weapon",
+        "Key": "12307201_Tips",
+        "SourceString": "强大的力量与高傲的性格是它永恒的底色，小心你的言辞，如果你不想感受足以灭世的龙息。\n\n【灭世者，终末的魔龙，混沌之厄，弦能吞噬者，焚天之翼，你可以选择你喜欢的称呼，它们都是我。】",
+        "LocalizedString": "强大的力量与高傲的性格是它永恒的底色，小心你的言辞，如果你不想感受足以灭世的龙息。\n\n【灭世者，终末的魔龙，混沌之厄，弦能吞噬者，焚天之翼，你可以选择你喜欢的称呼，它们都是我。】"
+      },
+      "TweaponTitle": {
+        "CultureInvariantString": null
+      },
+      "TweaponDescription": {
+        "Namespace": "Weapon",
+        "Key": "12307201_TweaponDescription",
+        "SourceString": "来自虚拟位面的奇异生命，它的确是一条龙。\n在它的自述中，它曾是天地的尽头，世界的终点，所有人提到它的名字都会发出恐惧的哀号。\n但偏偏该死的位面穿梭让它忘记了自己的本名，如今的它，更像是一个特别的玩伴。\n但这是面对它时绝对不能提及的禁忌。\n伟大的龙神尊严不可侵犯，它自混沌中引来的怒火会将眼前所见的一切都全部点燃。\n不过考虑到它穿梭位面被消耗到可托于手掌的体型，这充斥怒火的吐息似乎已经难以承担往日荣光。\n无妨，伟大的龙神从不多虑，向它供奉充斥弦能的魔晶，你将会获得龙神的伟力。\n灭世已经是埋在故事里的传奇，但炙烤你的敌人，对于龙神来说，不过是一次平凡的呼吸。\n“嗯，凡人，你对吾的赞诵，甚是有趣。”",
+        "LocalizedString": "来自虚拟位面的奇异生命，它的确是一条龙。\n在它的自述中，它曾是天地的尽头，世界的终点，所有人提到它的名字都会发出恐惧的哀号。\n但偏偏该死的位面穿梭让它忘记了自己的本名，如今的它，更像是一个特别的玩伴。\n但这是面对它时绝对不能提及的禁忌。\n伟大的龙神尊严不可侵犯，它自混沌中引来的怒火会将眼前所见的一切都全部点燃。\n不过考虑到它穿梭位面被消耗到可托于手掌的体型，这充斥怒火的吐息似乎已经难以承担往日荣光。\n无妨，伟大的龙神从不多虑，向它供奉充斥弦能的魔晶，你将会获得龙神的伟力。\n灭世已经是埋在故事里的传奇，但炙烤你的敌人，对于龙神来说，不过是一次平凡的呼吸。\n“嗯，凡人，你对吾的赞诵，甚是有趣。”"
+      },
+      "SortId": 5002,
+      "LevelupType": 3,
+      "BasicSkinId": 12307201,
+      "FxfireId": 0,
+      "FxkillId": 0,
+      "UpdateSkinId": [],
+      "SuitRoleSkinId": 0,
+      "NewSuitWeaponId": 0,
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_12307202.T_Dynamic_Item_12307202",
+        "SubPathString": ""
+      },
+      "IconItemBig": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/BigIcon/T_Dynamic_BigItem_12307202.T_Dynamic_BigItem_12307202",
+        "SubPathString": ""
+      },
+      "IconWhite": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Weapon/WeaponIconWhite/T_Dynamic_WeaponWhite_12307001.T_Dynamic_WeaponWhite_12307001",
+        "SubPathString": ""
+      },
+      "IconMobile": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Weapon/WeaponIconMobile/T_Dynamic_WeaponIconMobile_12307001.T_Dynamic_WeaponIconMobile_12307001",
+        "SubPathString": ""
+      },
+      "IconGrowth": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Weapon/InGameGrowth/T_Dynamic_InGameGrowth_12307001.T_Dynamic_InGameGrowth_12307001",
+        "SubPathString": ""
+      },
+      "IconGrowthBomb2": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Growth/T_Dynamic_Growth_Role12307001.T_Dynamic_Growth_Role12307001",
+        "SubPathString": ""
+      },
+      "IconHud": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Weapon/WeaponIconHud/SPR_Dynamic_WeaponHud_12307001.SPR_Dynamic_WeaponHud_12307001",
+        "SubPathString": ""
+      },
+      "BlueprintDir": "FlamePistol",
+      "MeshId": 202,
+      "EffectId": 202,
+      "AnimationId": 201,
+      "UserInterfaceId": 0,
+      "DisplayName": {
+        "CultureInvariantString": null
+      },
+      "IsRandomSkin": false,
+      "AiAttackDistance": 1000.0,
+      "AiAttackDistanceParameter": [
+        {
+          "Distance": 1000000.0,
+          "FireTimes": -1.0,
+          "FireInterval": -1.0
+        },
+        {
+          "Distance": 6250000.0,
+          "FireTimes": 8.0,
+          "FireInterval": 0.3
+        },
+        {
+          "Distance": 16000000.0,
+          "FireTimes": 4.0,
+          "FireInterval": 0.5
+        }
+      ],
+      "AiBaseHitParameter": [],
+      "AiHeadHitParameter": [],
+      "AiHitDifficultyFactor": [],
+      "LimitNum": 1,
+      "LimitType": 6,
+      "LimitParam": 360,
+      "GainTypeMb": [],
+      "GainType": [
+        1
+      ],
+      "GainParam1": [
+        12307202
+      ],
+      "GainParam2": {
+        "CultureInvariantString": null
+      },
+      "WeaponPreviewClosestDistance": 150.0,
+      "WeaponPreviewMaximumDistance": 200.0,
+      "WeaponPreviewHorizontalMaximumAngle": 85,
+      "WeaponPreviewVerticalMaximumAngle": 85,
+      "WeaponPreviewRotationDamping": 2,
+      "WeaponPreviewRotate": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "ShowVisualsound": false,
+      "VisualsoundDistance": [
+        {
+          "NearDistance": 1000.0,
+          "MiddleDistance": 2000.0,
+          "FarDistance": 10000.0
+        }
+      ],
+      "WeaponSkinLabel": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "WeaponPointsSkin": 0
+    },
+    "12307203": {
+      "Id": 12307203,
+      "Name": {
+        "Namespace": "Weapon",
+        "Key": "12307203_Name",
+        "SourceString": "炽焱狂龙-蚀绝",
+        "LocalizedString": "炽焱狂龙-蚀绝"
+      },
+      "Available": true,
+      "AvailableState": 1,
+      "Type": "EWeaponTypes::Pistol",
+      "Slot": "EWeaponSlotTypes::WeaponSlot_Secondary",
+      "SubType": 12307001,
+      "AdvancedWeapon": 12307203,
+      "ShareSkinWeapon": 0,
+      "Default": 0,
+      "Quality": 5,
+      "Tips": {
+        "Namespace": "Weapon",
+        "Key": "12307201_Tips",
+        "SourceString": "强大的力量与高傲的性格是它永恒的底色，小心你的言辞，如果你不想感受足以灭世的龙息。\n\n【灭世者，终末的魔龙，混沌之厄，弦能吞噬者，焚天之翼，你可以选择你喜欢的称呼，它们都是我。】",
+        "LocalizedString": "强大的力量与高傲的性格是它永恒的底色，小心你的言辞，如果你不想感受足以灭世的龙息。\n\n【灭世者，终末的魔龙，混沌之厄，弦能吞噬者，焚天之翼，你可以选择你喜欢的称呼，它们都是我。】"
+      },
+      "TweaponTitle": {
+        "CultureInvariantString": null
+      },
+      "TweaponDescription": {
+        "Namespace": "Weapon",
+        "Key": "12307201_TweaponDescription",
+        "SourceString": "来自虚拟位面的奇异生命，它的确是一条龙。\n在它的自述中，它曾是天地的尽头，世界的终点，所有人提到它的名字都会发出恐惧的哀号。\n但偏偏该死的位面穿梭让它忘记了自己的本名，如今的它，更像是一个特别的玩伴。\n但这是面对它时绝对不能提及的禁忌。\n伟大的龙神尊严不可侵犯，它自混沌中引来的怒火会将眼前所见的一切都全部点燃。\n不过考虑到它穿梭位面被消耗到可托于手掌的体型，这充斥怒火的吐息似乎已经难以承担往日荣光。\n无妨，伟大的龙神从不多虑，向它供奉充斥弦能的魔晶，你将会获得龙神的伟力。\n灭世已经是埋在故事里的传奇，但炙烤你的敌人，对于龙神来说，不过是一次平凡的呼吸。\n“嗯，凡人，你对吾的赞诵，甚是有趣。”",
+        "LocalizedString": "来自虚拟位面的奇异生命，它的确是一条龙。\n在它的自述中，它曾是天地的尽头，世界的终点，所有人提到它的名字都会发出恐惧的哀号。\n但偏偏该死的位面穿梭让它忘记了自己的本名，如今的它，更像是一个特别的玩伴。\n但这是面对它时绝对不能提及的禁忌。\n伟大的龙神尊严不可侵犯，它自混沌中引来的怒火会将眼前所见的一切都全部点燃。\n不过考虑到它穿梭位面被消耗到可托于手掌的体型，这充斥怒火的吐息似乎已经难以承担往日荣光。\n无妨，伟大的龙神从不多虑，向它供奉充斥弦能的魔晶，你将会获得龙神的伟力。\n灭世已经是埋在故事里的传奇，但炙烤你的敌人，对于龙神来说，不过是一次平凡的呼吸。\n“嗯，凡人，你对吾的赞诵，甚是有趣。”"
+      },
+      "SortId": 5003,
+      "LevelupType": 3,
+      "BasicSkinId": 12307201,
+      "FxfireId": 0,
+      "FxkillId": 0,
+      "UpdateSkinId": [],
+      "SuitRoleSkinId": 0,
+      "NewSuitWeaponId": 0,
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_12307203.T_Dynamic_Item_12307203",
+        "SubPathString": ""
+      },
+      "IconItemBig": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/BigIcon/T_Dynamic_BigItem_12307203.T_Dynamic_BigItem_12307203",
+        "SubPathString": ""
+      },
+      "IconWhite": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Weapon/WeaponIconWhite/T_Dynamic_WeaponWhite_12307001.T_Dynamic_WeaponWhite_12307001",
+        "SubPathString": ""
+      },
+      "IconMobile": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Weapon/WeaponIconMobile/T_Dynamic_WeaponIconMobile_12307001.T_Dynamic_WeaponIconMobile_12307001",
+        "SubPathString": ""
+      },
+      "IconGrowth": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Weapon/InGameGrowth/T_Dynamic_InGameGrowth_12307001.T_Dynamic_InGameGrowth_12307001",
+        "SubPathString": ""
+      },
+      "IconGrowthBomb2": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Growth/T_Dynamic_Growth_Role12307001.T_Dynamic_Growth_Role12307001",
+        "SubPathString": ""
+      },
+      "IconHud": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Weapon/WeaponIconHud/SPR_Dynamic_WeaponHud_12307001.SPR_Dynamic_WeaponHud_12307001",
+        "SubPathString": ""
+      },
+      "BlueprintDir": "FlamePistol",
+      "MeshId": 203,
+      "EffectId": 203,
+      "AnimationId": 201,
+      "UserInterfaceId": 0,
+      "DisplayName": {
+        "CultureInvariantString": null
+      },
+      "IsRandomSkin": false,
+      "AiAttackDistance": 1000.0,
+      "AiAttackDistanceParameter": [
+        {
+          "Distance": 1000000.0,
+          "FireTimes": -1.0,
+          "FireInterval": -1.0
+        },
+        {
+          "Distance": 6250000.0,
+          "FireTimes": 8.0,
+          "FireInterval": 0.3
+        },
+        {
+          "Distance": 16000000.0,
+          "FireTimes": 4.0,
+          "FireInterval": 0.5
+        }
+      ],
+      "AiBaseHitParameter": [],
+      "AiHeadHitParameter": [],
+      "AiHitDifficultyFactor": [],
+      "LimitNum": 1,
+      "LimitType": 6,
+      "LimitParam": 360,
+      "GainTypeMb": [],
+      "GainType": [
+        1
+      ],
+      "GainParam1": [
+        12307203
+      ],
+      "GainParam2": {
+        "CultureInvariantString": null
+      },
+      "WeaponPreviewClosestDistance": 150.0,
+      "WeaponPreviewMaximumDistance": 200.0,
+      "WeaponPreviewHorizontalMaximumAngle": 85,
+      "WeaponPreviewVerticalMaximumAngle": 85,
+      "WeaponPreviewRotationDamping": 2,
+      "WeaponPreviewRotate": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "ShowVisualsound": false,
+      "VisualsoundDistance": [
+        {
+          "NearDistance": 1000.0,
+          "MiddleDistance": 2000.0,
+          "FarDistance": 10000.0
+        }
+      ],
+      "WeaponSkinLabel": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "WeaponPointsSkin": 0
+    },
+    "12307204": {
+      "Id": 12307204,
+      "Name": {
+        "Namespace": "Weapon",
+        "Key": "12307204_Name",
+        "SourceString": "炽焱狂龙-焚祸",
+        "LocalizedString": "炽焱狂龙-焚祸"
+      },
+      "Available": true,
+      "AvailableState": 1,
+      "Type": "EWeaponTypes::Pistol",
+      "Slot": "EWeaponSlotTypes::WeaponSlot_Secondary",
+      "SubType": 12307001,
+      "AdvancedWeapon": 12307204,
+      "ShareSkinWeapon": 0,
+      "Default": 0,
+      "Quality": 5,
+      "Tips": {
+        "Namespace": "Weapon",
+        "Key": "12307201_Tips",
+        "SourceString": "强大的力量与高傲的性格是它永恒的底色，小心你的言辞，如果你不想感受足以灭世的龙息。\n\n【灭世者，终末的魔龙，混沌之厄，弦能吞噬者，焚天之翼，你可以选择你喜欢的称呼，它们都是我。】",
+        "LocalizedString": "强大的力量与高傲的性格是它永恒的底色，小心你的言辞，如果你不想感受足以灭世的龙息。\n\n【灭世者，终末的魔龙，混沌之厄，弦能吞噬者，焚天之翼，你可以选择你喜欢的称呼，它们都是我。】"
+      },
+      "TweaponTitle": {
+        "CultureInvariantString": null
+      },
+      "TweaponDescription": {
+        "Namespace": "Weapon",
+        "Key": "12307201_TweaponDescription",
+        "SourceString": "来自虚拟位面的奇异生命，它的确是一条龙。\n在它的自述中，它曾是天地的尽头，世界的终点，所有人提到它的名字都会发出恐惧的哀号。\n但偏偏该死的位面穿梭让它忘记了自己的本名，如今的它，更像是一个特别的玩伴。\n但这是面对它时绝对不能提及的禁忌。\n伟大的龙神尊严不可侵犯，它自混沌中引来的怒火会将眼前所见的一切都全部点燃。\n不过考虑到它穿梭位面被消耗到可托于手掌的体型，这充斥怒火的吐息似乎已经难以承担往日荣光。\n无妨，伟大的龙神从不多虑，向它供奉充斥弦能的魔晶，你将会获得龙神的伟力。\n灭世已经是埋在故事里的传奇，但炙烤你的敌人，对于龙神来说，不过是一次平凡的呼吸。\n“嗯，凡人，你对吾的赞诵，甚是有趣。”",
+        "LocalizedString": "来自虚拟位面的奇异生命，它的确是一条龙。\n在它的自述中，它曾是天地的尽头，世界的终点，所有人提到它的名字都会发出恐惧的哀号。\n但偏偏该死的位面穿梭让它忘记了自己的本名，如今的它，更像是一个特别的玩伴。\n但这是面对它时绝对不能提及的禁忌。\n伟大的龙神尊严不可侵犯，它自混沌中引来的怒火会将眼前所见的一切都全部点燃。\n不过考虑到它穿梭位面被消耗到可托于手掌的体型，这充斥怒火的吐息似乎已经难以承担往日荣光。\n无妨，伟大的龙神从不多虑，向它供奉充斥弦能的魔晶，你将会获得龙神的伟力。\n灭世已经是埋在故事里的传奇，但炙烤你的敌人，对于龙神来说，不过是一次平凡的呼吸。\n“嗯，凡人，你对吾的赞诵，甚是有趣。”"
+      },
+      "SortId": 5004,
+      "LevelupType": 3,
+      "BasicSkinId": 12307201,
+      "FxfireId": 0,
+      "FxkillId": 0,
+      "UpdateSkinId": [],
+      "SuitRoleSkinId": 0,
+      "NewSuitWeaponId": 0,
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_12307204.T_Dynamic_Item_12307204",
+        "SubPathString": ""
+      },
+      "IconItemBig": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/BigIcon/T_Dynamic_BigItem_12307204.T_Dynamic_BigItem_12307204",
+        "SubPathString": ""
+      },
+      "IconWhite": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Weapon/WeaponIconWhite/T_Dynamic_WeaponWhite_12307001.T_Dynamic_WeaponWhite_12307001",
+        "SubPathString": ""
+      },
+      "IconMobile": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Weapon/WeaponIconMobile/T_Dynamic_WeaponIconMobile_12307001.T_Dynamic_WeaponIconMobile_12307001",
+        "SubPathString": ""
+      },
+      "IconGrowth": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Weapon/InGameGrowth/T_Dynamic_InGameGrowth_12307001.T_Dynamic_InGameGrowth_12307001",
+        "SubPathString": ""
+      },
+      "IconGrowthBomb2": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Growth/T_Dynamic_Growth_Role12307001.T_Dynamic_Growth_Role12307001",
+        "SubPathString": ""
+      },
+      "IconHud": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Weapon/WeaponIconHud/SPR_Dynamic_WeaponHud_12307001.SPR_Dynamic_WeaponHud_12307001",
+        "SubPathString": ""
+      },
+      "BlueprintDir": "FlamePistol",
+      "MeshId": 204,
+      "EffectId": 204,
+      "AnimationId": 201,
+      "UserInterfaceId": 0,
+      "DisplayName": {
+        "CultureInvariantString": null
+      },
+      "IsRandomSkin": false,
+      "AiAttackDistance": 1000.0,
+      "AiAttackDistanceParameter": [
+        {
+          "Distance": 1000000.0,
+          "FireTimes": -1.0,
+          "FireInterval": -1.0
+        },
+        {
+          "Distance": 6250000.0,
+          "FireTimes": 8.0,
+          "FireInterval": 0.3
+        },
+        {
+          "Distance": 16000000.0,
+          "FireTimes": 4.0,
+          "FireInterval": 0.5
+        }
+      ],
+      "AiBaseHitParameter": [],
+      "AiHeadHitParameter": [],
+      "AiHitDifficultyFactor": [],
+      "LimitNum": 1,
+      "LimitType": 6,
+      "LimitParam": 360,
+      "GainTypeMb": [],
+      "GainType": [
+        1
+      ],
+      "GainParam1": [
+        12307204
+      ],
+      "GainParam2": {
+        "CultureInvariantString": null
+      },
+      "WeaponPreviewClosestDistance": 150.0,
+      "WeaponPreviewMaximumDistance": 200.0,
+      "WeaponPreviewHorizontalMaximumAngle": 85,
+      "WeaponPreviewVerticalMaximumAngle": 85,
+      "WeaponPreviewRotationDamping": 2,
+      "WeaponPreviewRotate": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "ShowVisualsound": false,
+      "VisualsoundDistance": [
+        {
+          "NearDistance": 1000.0,
+          "MiddleDistance": 2000.0,
+          "FarDistance": 10000.0
+        }
+      ],
+      "WeaponSkinLabel": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "WeaponPointsSkin": 0
+    },
+    "12307205": {
+      "Id": 12307205,
+      "Name": {
+        "Namespace": "Weapon",
+        "Key": "12307205_Name",
+        "SourceString": "炽焱狂龙-净殒",
+        "LocalizedString": "炽焱狂龙-净殒"
+      },
+      "Available": true,
+      "AvailableState": 1,
+      "Type": "EWeaponTypes::Pistol",
+      "Slot": "EWeaponSlotTypes::WeaponSlot_Secondary",
+      "SubType": 12307001,
+      "AdvancedWeapon": 12307205,
+      "ShareSkinWeapon": 0,
+      "Default": 0,
+      "Quality": 5,
+      "Tips": {
+        "Namespace": "Weapon",
+        "Key": "12307201_Tips",
+        "SourceString": "强大的力量与高傲的性格是它永恒的底色，小心你的言辞，如果你不想感受足以灭世的龙息。\n\n【灭世者，终末的魔龙，混沌之厄，弦能吞噬者，焚天之翼，你可以选择你喜欢的称呼，它们都是我。】",
+        "LocalizedString": "强大的力量与高傲的性格是它永恒的底色，小心你的言辞，如果你不想感受足以灭世的龙息。\n\n【灭世者，终末的魔龙，混沌之厄，弦能吞噬者，焚天之翼，你可以选择你喜欢的称呼，它们都是我。】"
+      },
+      "TweaponTitle": {
+        "CultureInvariantString": null
+      },
+      "TweaponDescription": {
+        "Namespace": "Weapon",
+        "Key": "12307201_TweaponDescription",
+        "SourceString": "来自虚拟位面的奇异生命，它的确是一条龙。\n在它的自述中，它曾是天地的尽头，世界的终点，所有人提到它的名字都会发出恐惧的哀号。\n但偏偏该死的位面穿梭让它忘记了自己的本名，如今的它，更像是一个特别的玩伴。\n但这是面对它时绝对不能提及的禁忌。\n伟大的龙神尊严不可侵犯，它自混沌中引来的怒火会将眼前所见的一切都全部点燃。\n不过考虑到它穿梭位面被消耗到可托于手掌的体型，这充斥怒火的吐息似乎已经难以承担往日荣光。\n无妨，伟大的龙神从不多虑，向它供奉充斥弦能的魔晶，你将会获得龙神的伟力。\n灭世已经是埋在故事里的传奇，但炙烤你的敌人，对于龙神来说，不过是一次平凡的呼吸。\n“嗯，凡人，你对吾的赞诵，甚是有趣。”",
+        "LocalizedString": "来自虚拟位面的奇异生命，它的确是一条龙。\n在它的自述中，它曾是天地的尽头，世界的终点，所有人提到它的名字都会发出恐惧的哀号。\n但偏偏该死的位面穿梭让它忘记了自己的本名，如今的它，更像是一个特别的玩伴。\n但这是面对它时绝对不能提及的禁忌。\n伟大的龙神尊严不可侵犯，它自混沌中引来的怒火会将眼前所见的一切都全部点燃。\n不过考虑到它穿梭位面被消耗到可托于手掌的体型，这充斥怒火的吐息似乎已经难以承担往日荣光。\n无妨，伟大的龙神从不多虑，向它供奉充斥弦能的魔晶，你将会获得龙神的伟力。\n灭世已经是埋在故事里的传奇，但炙烤你的敌人，对于龙神来说，不过是一次平凡的呼吸。\n“嗯，凡人，你对吾的赞诵，甚是有趣。”"
+      },
+      "SortId": 5005,
+      "LevelupType": 3,
+      "BasicSkinId": 12307201,
+      "FxfireId": 0,
+      "FxkillId": 0,
+      "UpdateSkinId": [],
+      "SuitRoleSkinId": 0,
+      "NewSuitWeaponId": 0,
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_12307205.T_Dynamic_Item_12307205",
+        "SubPathString": ""
+      },
+      "IconItemBig": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/BigIcon/T_Dynamic_BigItem_12307205.T_Dynamic_BigItem_12307205",
+        "SubPathString": ""
+      },
+      "IconWhite": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Weapon/WeaponIconWhite/T_Dynamic_WeaponWhite_12307001.T_Dynamic_WeaponWhite_12307001",
+        "SubPathString": ""
+      },
+      "IconMobile": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Weapon/WeaponIconMobile/T_Dynamic_WeaponIconMobile_12307001.T_Dynamic_WeaponIconMobile_12307001",
+        "SubPathString": ""
+      },
+      "IconGrowth": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Weapon/InGameGrowth/T_Dynamic_InGameGrowth_12307001.T_Dynamic_InGameGrowth_12307001",
+        "SubPathString": ""
+      },
+      "IconGrowthBomb2": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Growth/T_Dynamic_Growth_Role12307001.T_Dynamic_Growth_Role12307001",
+        "SubPathString": ""
+      },
+      "IconHud": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Weapon/WeaponIconHud/SPR_Dynamic_WeaponHud_12307001.SPR_Dynamic_WeaponHud_12307001",
+        "SubPathString": ""
+      },
+      "BlueprintDir": "FlamePistol",
+      "MeshId": 205,
+      "EffectId": 205,
+      "AnimationId": 201,
+      "UserInterfaceId": 0,
+      "DisplayName": {
+        "CultureInvariantString": null
+      },
+      "IsRandomSkin": false,
+      "AiAttackDistance": 1000.0,
+      "AiAttackDistanceParameter": [
+        {
+          "Distance": 1000000.0,
+          "FireTimes": -1.0,
+          "FireInterval": -1.0
+        },
+        {
+          "Distance": 6250000.0,
+          "FireTimes": 8.0,
+          "FireInterval": 0.3
+        },
+        {
+          "Distance": 16000000.0,
+          "FireTimes": 4.0,
+          "FireInterval": 0.5
+        }
+      ],
+      "AiBaseHitParameter": [],
+      "AiHeadHitParameter": [],
+      "AiHitDifficultyFactor": [],
+      "LimitNum": 1,
+      "LimitType": 6,
+      "LimitParam": 360,
+      "GainTypeMb": [],
+      "GainType": [
+        1
+      ],
+      "GainParam1": [
+        12307205
+      ],
+      "GainParam2": {
+        "CultureInvariantString": null
+      },
+      "WeaponPreviewClosestDistance": 150.0,
+      "WeaponPreviewMaximumDistance": 200.0,
+      "WeaponPreviewHorizontalMaximumAngle": 85,
+      "WeaponPreviewVerticalMaximumAngle": 85,
+      "WeaponPreviewRotationDamping": 2,
+      "WeaponPreviewRotate": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "ShowVisualsound": false,
+      "VisualsoundDistance": [
+        {
+          "NearDistance": 1000.0,
+          "MiddleDistance": 2000.0,
+          "FarDistance": 10000.0
+        }
+      ],
+      "WeaponSkinLabel": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "WeaponPointsSkin": 0
+    },
     "12501001": {
       "Id": 12501001,
       "Name": {
@@ -50763,7 +52014,7 @@
       "Available": true,
       "AvailableState": 1,
       "Type": "EWeaponTypes::Katana",
-      "Slot": "EWeaponSlotTypes::WeaponSlot_Secondary",
+      "Slot": "EWeaponSlotTypes::WeaponSlot_Melee",
       "SubType": 15201001,
       "AdvancedWeapon": 15202001,
       "ShareSkinWeapon": 0,
@@ -50893,9 +52144,9 @@
       "Available": true,
       "AvailableState": 1,
       "Type": "EWeaponTypes::Katana",
-      "Slot": "EWeaponSlotTypes::WeaponSlot_Secondary",
+      "Slot": "EWeaponSlotTypes::WeaponSlot_Melee",
       "SubType": 15201001,
-      "AdvancedWeapon": 15203001,
+      "AdvancedWeapon": 15203101,
       "ShareSkinWeapon": 0,
       "Default": 0,
       "Quality": 4,
@@ -51028,9 +52279,9 @@
       "Available": true,
       "AvailableState": 1,
       "Type": "EWeaponTypes::Katana",
-      "Slot": "EWeaponSlotTypes::WeaponSlot_Secondary",
+      "Slot": "EWeaponSlotTypes::WeaponSlot_Melee",
       "SubType": 15201001,
-      "AdvancedWeapon": 15204001,
+      "AdvancedWeapon": 15204101,
       "ShareSkinWeapon": 0,
       "Default": 0,
       "Quality": 4,
@@ -51160,7 +52411,7 @@
       "Available": true,
       "AvailableState": 1,
       "Type": "EWeaponTypes::Katana",
-      "Slot": "EWeaponSlotTypes::WeaponSlot_Secondary",
+      "Slot": "EWeaponSlotTypes::WeaponSlot_Melee",
       "SubType": 15201001,
       "AdvancedWeapon": 15205201,
       "ShareSkinWeapon": 0,
@@ -51303,7 +52554,7 @@
       "Available": true,
       "AvailableState": 1,
       "Type": "EWeaponTypes::Katana",
-      "Slot": "EWeaponSlotTypes::WeaponSlot_Secondary",
+      "Slot": "EWeaponSlotTypes::WeaponSlot_Melee",
       "SubType": 15201001,
       "AdvancedWeapon": 15205202,
       "ShareSkinWeapon": 0,
@@ -51438,7 +52689,7 @@
       "Available": true,
       "AvailableState": 1,
       "Type": "EWeaponTypes::Katana",
-      "Slot": "EWeaponSlotTypes::WeaponSlot_Secondary",
+      "Slot": "EWeaponSlotTypes::WeaponSlot_Melee",
       "SubType": 15201001,
       "AdvancedWeapon": 15205203,
       "ShareSkinWeapon": 0,
@@ -51573,7 +52824,7 @@
       "Available": true,
       "AvailableState": 1,
       "Type": "EWeaponTypes::Katana",
-      "Slot": "EWeaponSlotTypes::WeaponSlot_Secondary",
+      "Slot": "EWeaponSlotTypes::WeaponSlot_Melee",
       "SubType": 15201001,
       "AdvancedWeapon": 15205204,
       "ShareSkinWeapon": 0,
@@ -51708,7 +52959,7 @@
       "Available": true,
       "AvailableState": 1,
       "Type": "EWeaponTypes::Katana",
-      "Slot": "EWeaponSlotTypes::WeaponSlot_Secondary",
+      "Slot": "EWeaponSlotTypes::WeaponSlot_Melee",
       "SubType": 15201001,
       "AdvancedWeapon": 15205205,
       "ShareSkinWeapon": 0,
@@ -51843,7 +53094,7 @@
       "Available": false,
       "AvailableState": 1,
       "Type": "EWeaponTypes::Katana",
-      "Slot": "EWeaponSlotTypes::WeaponSlot_Secondary",
+      "Slot": "EWeaponSlotTypes::WeaponSlot_Melee",
       "SubType": 15202001,
       "AdvancedWeapon": 0,
       "ShareSkinWeapon": 0,
@@ -51971,14 +53222,14 @@
       "Id": 15203001,
       "Name": {
         "Namespace": "Weapon",
-        "Key": "15201101_Name",
-        "SourceString": "我要竞鸡",
-        "LocalizedString": "我要竞鸡"
+        "Key": "15203001_Name",
+        "SourceString": "气刃",
+        "LocalizedString": "气刃"
       },
       "Available": false,
       "AvailableState": 1,
       "Type": "EWeaponTypes::Katana",
-      "Slot": "EWeaponSlotTypes::WeaponSlot_Secondary",
+      "Slot": "EWeaponSlotTypes::WeaponSlot_Melee",
       "SubType": 15203001,
       "AdvancedWeapon": 0,
       "ShareSkinWeapon": 0,
@@ -52102,18 +53353,153 @@
       },
       "WeaponPointsSkin": 0
     },
-    "15204001": {
-      "Id": 15204001,
+    "15203101": {
+      "Id": 15203101,
       "Name": {
         "Namespace": "Weapon",
-        "Key": "15201102_Name",
-        "SourceString": "咸鱼长剑",
-        "LocalizedString": "咸鱼长剑"
+        "Key": "15201101_Name",
+        "SourceString": "我要竞鸡",
+        "LocalizedString": "我要竞鸡"
       },
       "Available": false,
       "AvailableState": 1,
       "Type": "EWeaponTypes::Katana",
-      "Slot": "EWeaponSlotTypes::WeaponSlot_Secondary",
+      "Slot": "EWeaponSlotTypes::WeaponSlot_Melee",
+      "SubType": 15203001,
+      "AdvancedWeapon": 0,
+      "ShareSkinWeapon": 0,
+      "Default": 0,
+      "Quality": 4,
+      "Tips": {
+        "Namespace": "Weapon",
+        "Key": "15201101_Tips",
+        "SourceString": "这柄独特的兵刃会让持有者涌起莫名的感悟：或许武器的强大不在于本身的锋利，而是一往无前燃烧自己的呐喊与决心。\n\n【“全体单位注意！他们亮出了竞鸡！”】",
+        "LocalizedString": "这柄独特的兵刃会让持有者涌起莫名的感悟：或许武器的强大不在于本身的锋利，而是一往无前燃烧自己的呐喊与决心。\n\n【“全体单位注意！他们亮出了竞鸡！”】"
+      },
+      "TweaponTitle": {
+        "CultureInvariantString": null
+      },
+      "TweaponDescription": {
+        "CultureInvariantString": null
+      },
+      "SortId": 4001,
+      "LevelupType": 1,
+      "BasicSkinId": 0,
+      "FxfireId": 0,
+      "FxkillId": 0,
+      "UpdateSkinId": [],
+      "SuitRoleSkinId": 0,
+      "NewSuitWeaponId": 0,
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_15203001.T_Dynamic_Item_15203001",
+        "SubPathString": ""
+      },
+      "IconItemBig": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/BigIcon/T_Dynamic_BigItem_15203001.T_Dynamic_BigItem_15203001",
+        "SubPathString": ""
+      },
+      "IconWhite": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Weapon/WeaponIconWhite/T_Dynamic_WeaponWhite_15201001.T_Dynamic_WeaponWhite_15201001",
+        "SubPathString": ""
+      },
+      "IconMobile": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Weapon/WeaponIconMobile/T_Dynamic_WeaponIconMobile_15201001.T_Dynamic_WeaponIconMobile_15201001",
+        "SubPathString": ""
+      },
+      "IconGrowth": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Weapon/InGameGrowth/T_Dynamic_InGameGrowth_15201001.T_Dynamic_InGameGrowth_15201001",
+        "SubPathString": ""
+      },
+      "IconGrowthBomb2": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Growth/T_Dynamic_Growth_Role15201001.T_Dynamic_Growth_Role15201001",
+        "SubPathString": ""
+      },
+      "IconHud": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Weapon/WeaponIconHud/SPR_Dynamic_WeaponHud_15201001.SPR_Dynamic_WeaponHud_15201001",
+        "SubPathString": ""
+      },
+      "BlueprintDir": "KatanaWowowo",
+      "MeshId": 101,
+      "EffectId": 101,
+      "AnimationId": 0,
+      "UserInterfaceId": 0,
+      "DisplayName": {
+        "CultureInvariantString": null
+      },
+      "IsRandomSkin": false,
+      "AiAttackDistance": 1000.0,
+      "AiAttackDistanceParameter": [
+        {
+          "Distance": 1000000.0,
+          "FireTimes": -1.0,
+          "FireInterval": -1.0
+        },
+        {
+          "Distance": 6250000.0,
+          "FireTimes": 8.0,
+          "FireInterval": 0.3
+        },
+        {
+          "Distance": 16000000.0,
+          "FireTimes": 4.0,
+          "FireInterval": 0.5
+        }
+      ],
+      "AiBaseHitParameter": [],
+      "AiHeadHitParameter": [],
+      "AiHitDifficultyFactor": [],
+      "LimitNum": 1,
+      "LimitType": 6,
+      "LimitParam": 360,
+      "GainTypeMb": [],
+      "GainType": [
+        4
+      ],
+      "GainParam1": [
+        4
+      ],
+      "GainParam2": {
+        "Namespace": "Weapon",
+        "Key": "15202001_GainParam2",
+        "SourceString": "账号等级4级解锁",
+        "LocalizedString": "账号等级4级解锁"
+      },
+      "WeaponPreviewClosestDistance": 180.0,
+      "WeaponPreviewMaximumDistance": 320.0,
+      "WeaponPreviewHorizontalMaximumAngle": 85,
+      "WeaponPreviewVerticalMaximumAngle": 85,
+      "WeaponPreviewRotationDamping": 2,
+      "WeaponPreviewRotate": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "ShowVisualsound": false,
+      "VisualsoundDistance": [
+        {
+          "NearDistance": 2500.0,
+          "MiddleDistance": 5000.0,
+          "FarDistance": 10000.0
+        }
+      ],
+      "WeaponSkinLabel": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "WeaponPointsSkin": 0
+    },
+    "15204001": {
+      "Id": 15204001,
+      "Name": {
+        "Namespace": "Weapon",
+        "Key": "15204001_Name",
+        "SourceString": "斩浪",
+        "LocalizedString": "斩浪"
+      },
+      "Available": false,
+      "AvailableState": 1,
+      "Type": "EWeaponTypes::Katana",
+      "Slot": "EWeaponSlotTypes::WeaponSlot_Melee",
       "SubType": 15204001,
       "AdvancedWeapon": 0,
       "ShareSkinWeapon": 0,
@@ -52237,6 +53623,141 @@
       },
       "WeaponPointsSkin": 0
     },
+    "15204101": {
+      "Id": 15204101,
+      "Name": {
+        "Namespace": "Weapon",
+        "Key": "15201102_Name",
+        "SourceString": "咸鱼长剑",
+        "LocalizedString": "咸鱼长剑"
+      },
+      "Available": false,
+      "AvailableState": 1,
+      "Type": "EWeaponTypes::Katana",
+      "Slot": "EWeaponSlotTypes::WeaponSlot_Melee",
+      "SubType": 15204001,
+      "AdvancedWeapon": 0,
+      "ShareSkinWeapon": 0,
+      "Default": 0,
+      "Quality": 4,
+      "Tips": {
+        "Namespace": "Weapon",
+        "Key": "15201102_Tips",
+        "SourceString": "传说在弦海中有着奇妙的精灵，她们承诺谁若是捞起那柄有着弦海气息的长剑，谁就能获得了弦海的肯定。但打捞者或许并不清楚，精灵的指引并非都是王的证明。\n\n【“即使引导有些疏漏，也请您当上咸鱼之王。”】",
+        "LocalizedString": "传说在弦海中有着奇妙的精灵，她们承诺谁若是捞起那柄有着弦海气息的长剑，谁就能获得了弦海的肯定。但打捞者或许并不清楚，精灵的指引并非都是王的证明。\n\n【“即使引导有些疏漏，也请您当上咸鱼之王。”】"
+      },
+      "TweaponTitle": {
+        "CultureInvariantString": null
+      },
+      "TweaponDescription": {
+        "CultureInvariantString": null
+      },
+      "SortId": 4001,
+      "LevelupType": 1,
+      "BasicSkinId": 0,
+      "FxfireId": 0,
+      "FxkillId": 0,
+      "UpdateSkinId": [],
+      "SuitRoleSkinId": 0,
+      "NewSuitWeaponId": 0,
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_15204001.T_Dynamic_Item_15204001",
+        "SubPathString": ""
+      },
+      "IconItemBig": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/BigIcon/T_Dynamic_BigItem_15204001.T_Dynamic_BigItem_15204001",
+        "SubPathString": ""
+      },
+      "IconWhite": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Weapon/WeaponIconWhite/T_Dynamic_WeaponWhite_15201001.T_Dynamic_WeaponWhite_15201001",
+        "SubPathString": ""
+      },
+      "IconMobile": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Weapon/WeaponIconMobile/T_Dynamic_WeaponIconMobile_15201001.T_Dynamic_WeaponIconMobile_15201001",
+        "SubPathString": ""
+      },
+      "IconGrowth": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Weapon/InGameGrowth/T_Dynamic_InGameGrowth_15201001.T_Dynamic_InGameGrowth_15201001",
+        "SubPathString": ""
+      },
+      "IconGrowthBomb2": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Growth/T_Dynamic_Growth_Role15201001.T_Dynamic_Growth_Role15201001",
+        "SubPathString": ""
+      },
+      "IconHud": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Weapon/WeaponIconHud/SPR_Dynamic_WeaponHud_15201001.SPR_Dynamic_WeaponHud_15201001",
+        "SubPathString": ""
+      },
+      "BlueprintDir": "KatanaFish",
+      "MeshId": 101,
+      "EffectId": 101,
+      "AnimationId": 0,
+      "UserInterfaceId": 0,
+      "DisplayName": {
+        "CultureInvariantString": null
+      },
+      "IsRandomSkin": false,
+      "AiAttackDistance": 1000.0,
+      "AiAttackDistanceParameter": [
+        {
+          "Distance": 1000000.0,
+          "FireTimes": -1.0,
+          "FireInterval": -1.0
+        },
+        {
+          "Distance": 6250000.0,
+          "FireTimes": 8.0,
+          "FireInterval": 0.3
+        },
+        {
+          "Distance": 16000000.0,
+          "FireTimes": 4.0,
+          "FireInterval": 0.5
+        }
+      ],
+      "AiBaseHitParameter": [],
+      "AiHeadHitParameter": [],
+      "AiHitDifficultyFactor": [],
+      "LimitNum": 1,
+      "LimitType": 6,
+      "LimitParam": 360,
+      "GainTypeMb": [],
+      "GainType": [
+        4
+      ],
+      "GainParam1": [
+        4
+      ],
+      "GainParam2": {
+        "Namespace": "Weapon",
+        "Key": "15202001_GainParam2",
+        "SourceString": "账号等级4级解锁",
+        "LocalizedString": "账号等级4级解锁"
+      },
+      "WeaponPreviewClosestDistance": 180.0,
+      "WeaponPreviewMaximumDistance": 320.0,
+      "WeaponPreviewHorizontalMaximumAngle": 85,
+      "WeaponPreviewVerticalMaximumAngle": 85,
+      "WeaponPreviewRotationDamping": 2,
+      "WeaponPreviewRotate": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "ShowVisualsound": false,
+      "VisualsoundDistance": [
+        {
+          "NearDistance": 2500.0,
+          "MiddleDistance": 5000.0,
+          "FarDistance": 10000.0
+        }
+      ],
+      "WeaponSkinLabel": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "WeaponPointsSkin": 0
+    },
     "15205001": {
       "Id": 15205001,
       "Name": {
@@ -52248,7 +53769,7 @@
       "Available": false,
       "AvailableState": 1,
       "Type": "EWeaponTypes::Katana",
-      "Slot": "EWeaponSlotTypes::WeaponSlot_Secondary",
+      "Slot": "EWeaponSlotTypes::WeaponSlot_Melee",
       "SubType": 15205001,
       "AdvancedWeapon": 0,
       "ShareSkinWeapon": 0,
@@ -52388,7 +53909,7 @@
       "Available": false,
       "AvailableState": 1,
       "Type": "EWeaponTypes::Katana",
-      "Slot": "EWeaponSlotTypes::WeaponSlot_Secondary",
+      "Slot": "EWeaponSlotTypes::WeaponSlot_Melee",
       "SubType": 15205001,
       "AdvancedWeapon": 0,
       "ShareSkinWeapon": 0,
@@ -52528,7 +54049,7 @@
       "Available": false,
       "AvailableState": 1,
       "Type": "EWeaponTypes::Katana",
-      "Slot": "EWeaponSlotTypes::WeaponSlot_Secondary",
+      "Slot": "EWeaponSlotTypes::WeaponSlot_Melee",
       "SubType": 15205001,
       "AdvancedWeapon": 0,
       "ShareSkinWeapon": 0,
@@ -52660,7 +54181,7 @@
       "Available": false,
       "AvailableState": 1,
       "Type": "EWeaponTypes::Katana",
-      "Slot": "EWeaponSlotTypes::WeaponSlot_Secondary",
+      "Slot": "EWeaponSlotTypes::WeaponSlot_Melee",
       "SubType": 15205001,
       "AdvancedWeapon": 0,
       "ShareSkinWeapon": 0,
@@ -52792,7 +54313,7 @@
       "Available": false,
       "AvailableState": 1,
       "Type": "EWeaponTypes::Katana",
-      "Slot": "EWeaponSlotTypes::WeaponSlot_Secondary",
+      "Slot": "EWeaponSlotTypes::WeaponSlot_Melee",
       "SubType": 15205001,
       "AdvancedWeapon": 0,
       "ShareSkinWeapon": 0,
@@ -52924,7 +54445,7 @@
       "Available": false,
       "AvailableState": 1,
       "Type": "EWeaponTypes::Katana",
-      "Slot": "EWeaponSlotTypes::WeaponSlot_Secondary",
+      "Slot": "EWeaponSlotTypes::WeaponSlot_Melee",
       "SubType": 15205001,
       "AdvancedWeapon": 0,
       "ShareSkinWeapon": 0,
@@ -53056,7 +54577,7 @@
       "Available": false,
       "AvailableState": 0,
       "Type": "EWeaponTypes::Katana",
-      "Slot": "EWeaponSlotTypes::WeaponSlot_Secondary",
+      "Slot": "EWeaponSlotTypes::WeaponSlot_Melee",
       "SubType": 15301002,
       "AdvancedWeapon": 0,
       "ShareSkinWeapon": 15201001,
@@ -53195,7 +54716,7 @@
       "Available": true,
       "AvailableState": 0,
       "Type": "EWeaponTypes::Katana",
-      "Slot": "EWeaponSlotTypes::WeaponSlot_Primary",
+      "Slot": "EWeaponSlotTypes::WeaponSlot_Melee",
       "SubType": 15301001,
       "AdvancedWeapon": 0,
       "ShareSkinWeapon": 15201001,
@@ -53250,6 +54771,149 @@
         "SubPathString": ""
       },
       "BlueprintDir": "ZombieKatana",
+      "MeshId": 0,
+      "EffectId": 0,
+      "AnimationId": 0,
+      "UserInterfaceId": 0,
+      "DisplayName": {
+        "CultureInvariantString": null
+      },
+      "IsRandomSkin": false,
+      "AiAttackDistance": 1000.0,
+      "AiAttackDistanceParameter": [
+        {
+          "Distance": 1000000.0,
+          "FireTimes": -1.0,
+          "FireInterval": -1.0
+        },
+        {
+          "Distance": 6250000.0,
+          "FireTimes": 8.0,
+          "FireInterval": 0.3
+        },
+        {
+          "Distance": 16000000.0,
+          "FireTimes": 4.0,
+          "FireInterval": 0.5
+        }
+      ],
+      "AiBaseHitParameter": [],
+      "AiHeadHitParameter": [],
+      "AiHitDifficultyFactor": [],
+      "LimitNum": 1,
+      "LimitType": 6,
+      "LimitParam": 0,
+      "GainTypeMb": [],
+      "GainType": [
+        4
+      ],
+      "GainParam1": [
+        3
+      ],
+      "GainParam2": {
+        "SourceFmt": {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
+          "Key": "AccountLevelRewards_WithLevelParam",
+          "SourceString": "账号等级{0}级解锁",
+          "LocalizedString": "账号等级{0}级解锁"
+        },
+        "Arguments": [
+          {
+            "Type": 0,
+            "Value": 4
+          }
+        ]
+      },
+      "WeaponPreviewClosestDistance": 180.0,
+      "WeaponPreviewMaximumDistance": 320.0,
+      "WeaponPreviewHorizontalMaximumAngle": 85,
+      "WeaponPreviewVerticalMaximumAngle": 85,
+      "WeaponPreviewRotationDamping": 2,
+      "WeaponPreviewRotate": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "ShowVisualsound": false,
+      "VisualsoundDistance": [
+        {
+          "NearDistance": 1000.0,
+          "MiddleDistance": 2000.0,
+          "FarDistance": 10000.0
+        }
+      ],
+      "WeaponSkinLabel": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "WeaponPointsSkin": 0
+    },
+    "15601001": {
+      "Id": 15601001,
+      "Name": {
+        "Namespace": "Weapon",
+        "Key": "15601001_Name",
+        "SourceString": "强化击退忍锋",
+        "LocalizedString": "强化击退忍锋"
+      },
+      "Available": false,
+      "AvailableState": 0,
+      "Type": "EWeaponTypes::Katana",
+      "Slot": "EWeaponSlotTypes::WeaponSlot_Melee",
+      "SubType": 15601001,
+      "AdvancedWeapon": 0,
+      "ShareSkinWeapon": 15201001,
+      "Default": 1,
+      "Quality": 1,
+      "Tips": {
+        "Namespace": "Weapon",
+        "Key": "15201001_Tips",
+        "SourceString": "不知名的武器画家所制作，很有格调的武士刀。",
+        "LocalizedString": "不知名的武器画家所制作，很有格调的武士刀。"
+      },
+      "TweaponTitle": {
+        "CultureInvariantString": null
+      },
+      "TweaponDescription": {
+        "CultureInvariantString": null
+      },
+      "SortId": 1001,
+      "LevelupType": 1,
+      "BasicSkinId": 0,
+      "FxfireId": 0,
+      "FxkillId": 0,
+      "UpdateSkinId": [],
+      "SuitRoleSkinId": 0,
+      "NewSuitWeaponId": 0,
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_15201001.T_Dynamic_Item_15201001",
+        "SubPathString": ""
+      },
+      "IconItemBig": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/BigIcon/T_Dynamic_BigItem_15201001.T_Dynamic_BigItem_15201001",
+        "SubPathString": ""
+      },
+      "IconWhite": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Weapon/WeaponIconWhite/T_Dynamic_WeaponWhite_15201001.T_Dynamic_WeaponWhite_15201001",
+        "SubPathString": ""
+      },
+      "IconMobile": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Weapon/WeaponIconMobile/T_Dynamic_WeaponIconMobile_15201001.T_Dynamic_WeaponIconMobile_15201001",
+        "SubPathString": ""
+      },
+      "IconGrowth": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Weapon/InGameGrowth/T_Dynamic_InGameGrowth_15201001.T_Dynamic_InGameGrowth_15201001",
+        "SubPathString": ""
+      },
+      "IconGrowthBomb2": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Growth/T_Dynamic_Growth_Role15201001.T_Dynamic_Growth_Role15201001",
+        "SubPathString": ""
+      },
+      "IconHud": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Weapon/WeaponIconHud/SPR_Dynamic_WeaponHud_15201001.SPR_Dynamic_WeaponHud_15201001",
+        "SubPathString": ""
+      },
+      "BlueprintDir": "ZombieKatanaKnockBack",
       "MeshId": 0,
       "EffectId": 0,
       "AnimationId": 0,
@@ -53866,6 +55530,123 @@
         "SubPathString": ""
       },
       "BlueprintDir": "CheapZombieGrenade",
+      "MeshId": 0,
+      "EffectId": 0,
+      "AnimationId": 0,
+      "UserInterfaceId": 0,
+      "DisplayName": {
+        "Namespace": "Weapon",
+        "Key": "18101001_DisplayName",
+        "SourceString": "伤害",
+        "LocalizedString": "伤害"
+      },
+      "IsRandomSkin": false,
+      "AiAttackDistance": 0.0,
+      "AiAttackDistanceParameter": [],
+      "AiBaseHitParameter": [],
+      "AiHeadHitParameter": [],
+      "AiHitDifficultyFactor": [],
+      "LimitNum": 1,
+      "LimitType": 6,
+      "LimitParam": 0,
+      "GainTypeMb": [],
+      "GainType": [
+        4
+      ],
+      "GainParam1": [],
+      "GainParam2": {
+        "CultureInvariantString": null
+      },
+      "WeaponPreviewClosestDistance": 1.0,
+      "WeaponPreviewMaximumDistance": 1.5,
+      "WeaponPreviewHorizontalMaximumAngle": 85,
+      "WeaponPreviewVerticalMaximumAngle": 85,
+      "WeaponPreviewRotationDamping": 2,
+      "WeaponPreviewRotate": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 36.0
+      },
+      "ShowVisualsound": false,
+      "VisualsoundDistance": [
+        {
+          "NearDistance": 2500.0,
+          "MiddleDistance": 5000.0,
+          "FarDistance": 10000.0
+        }
+      ],
+      "WeaponSkinLabel": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "WeaponPointsSkin": 0
+    },
+    "18105001": {
+      "Id": 18105001,
+      "Name": {
+        "Namespace": "Weapon",
+        "Key": "18105001_Name",
+        "SourceString": "强化震爆弹",
+        "LocalizedString": "强化震爆弹"
+      },
+      "Available": true,
+      "AvailableState": 0,
+      "Type": "EWeaponTypes::Grenade",
+      "Slot": "EWeaponSlotTypes::WeaponSlot_Grenade_1",
+      "SubType": 18105001,
+      "AdvancedWeapon": 0,
+      "ShareSkinWeapon": 18201001,
+      "Default": 1,
+      "Quality": 1,
+      "Tips": {
+        "Namespace": "Weapon",
+        "Key": "18102001_Tips",
+        "SourceString": "在投出后的一定时间引爆，可产生不俗的范围伤害。",
+        "LocalizedString": "在投出后的一定时间引爆，可产生不俗的范围伤害。"
+      },
+      "TweaponTitle": {
+        "CultureInvariantString": null
+      },
+      "TweaponDescription": {
+        "CultureInvariantString": null
+      },
+      "SortId": 1001,
+      "LevelupType": 1,
+      "BasicSkinId": 0,
+      "FxfireId": 0,
+      "FxkillId": 0,
+      "UpdateSkinId": [],
+      "SuitRoleSkinId": 0,
+      "NewSuitWeaponId": 0,
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_18105001.T_Dynamic_Item_18105001",
+        "SubPathString": ""
+      },
+      "IconItemBig": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/BigIcon/T_Dynamic_BigItem_18105001.T_Dynamic_BigItem_18105001",
+        "SubPathString": ""
+      },
+      "IconWhite": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Weapon/WeaponIconWhite/T_Dynamic_WeaponWhite_18201001.T_Dynamic_WeaponWhite_18201001",
+        "SubPathString": ""
+      },
+      "IconMobile": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Weapon/WeaponIconMobile/T_Dynamic_WeaponIconMobile_18201001.T_Dynamic_WeaponIconMobile_18201001",
+        "SubPathString": ""
+      },
+      "IconGrowth": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Weapon/InGameGrowth/T_Dynamic_InGameGrowth_18201001.T_Dynamic_InGameGrowth_18201001",
+        "SubPathString": ""
+      },
+      "IconGrowthBomb2": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Growth/T_Dynamic_Growth_Role18201001.T_Dynamic_Growth_Role18201001",
+        "SubPathString": ""
+      },
+      "IconHud": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Weapon/WeaponIconHud/SPR_Dynamic_WeaponHud_18201001.SPR_Dynamic_WeaponHud_18201001",
+        "SubPathString": ""
+      },
+      "BlueprintDir": "ZombieGrenadeKnockback",
       "MeshId": 0,
       "EffectId": 0,
       "AnimationId": 0,
@@ -54546,6 +56327,128 @@
       },
       "WeaponPointsSkin": 0
     },
+    "18401101": {
+      "Id": 18401101,
+      "Name": {
+        "Namespace": "Weapon",
+        "Key": "18401101_Name",
+        "SourceString": "自由的风之子",
+        "LocalizedString": "自由的风之子"
+      },
+      "Available": true,
+      "AvailableState": 1,
+      "Type": "EWeaponTypes::WindFieldGrenade",
+      "Slot": "EWeaponSlotTypes::WeaponSlot_Grenade_1",
+      "SubType": 18401001,
+      "AdvancedWeapon": 0,
+      "ShareSkinWeapon": 0,
+      "Default": 0,
+      "Quality": 4,
+      "Tips": {
+        "Namespace": "Weapon",
+        "Key": "18401101_Tips",
+        "SourceString": "此物蕴藏了一缕不息之风，将会承托起蒲公英的种子和自由的灵魂。",
+        "LocalizedString": "此物蕴藏了一缕不息之风，将会承托起蒲公英的种子和自由的灵魂。"
+      },
+      "TweaponTitle": {
+        "CultureInvariantString": null
+      },
+      "TweaponDescription": {
+        "CultureInvariantString": null
+      },
+      "SortId": 4001,
+      "LevelupType": 1,
+      "BasicSkinId": 0,
+      "FxfireId": 0,
+      "FxkillId": 0,
+      "UpdateSkinId": [],
+      "SuitRoleSkinId": 0,
+      "NewSuitWeaponId": 0,
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_18401101.T_Dynamic_Item_18401101",
+        "SubPathString": ""
+      },
+      "IconItemBig": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/BigIcon/T_Dynamic_BigItem_18401101.T_Dynamic_BigItem_18401101",
+        "SubPathString": ""
+      },
+      "IconWhite": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Weapon/WeaponIconWhite/T_Dynamic_WeaponWhite_18401001.T_Dynamic_WeaponWhite_18401001",
+        "SubPathString": ""
+      },
+      "IconMobile": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Weapon/WeaponIconMobile/T_Dynamic_WeaponIconMobile_18401001.T_Dynamic_WeaponIconMobile_18401001",
+        "SubPathString": ""
+      },
+      "IconGrowth": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Weapon/InGameGrowth/T_Dynamic_InGameGrowth_18401001.T_Dynamic_InGameGrowth_18401001",
+        "SubPathString": ""
+      },
+      "IconGrowthBomb2": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Growth/T_Dynamic_Growth_Role18401001.T_Dynamic_Growth_Role18401001",
+        "SubPathString": ""
+      },
+      "IconHud": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Weapon/WeaponIconHud/SPR_Dynamic_WeaponHud_18401001.SPR_Dynamic_WeaponHud_18401001",
+        "SubPathString": ""
+      },
+      "BlueprintDir": "GrenadeWindField",
+      "MeshId": 101,
+      "EffectId": 101,
+      "AnimationId": 0,
+      "UserInterfaceId": 0,
+      "DisplayName": {
+        "Namespace": "Weapon",
+        "Key": "18401001_DisplayName",
+        "SourceString": "控制",
+        "LocalizedString": "控制"
+      },
+      "IsRandomSkin": false,
+      "AiAttackDistance": 0.0,
+      "AiAttackDistanceParameter": [],
+      "AiBaseHitParameter": [],
+      "AiHeadHitParameter": [],
+      "AiHitDifficultyFactor": [],
+      "LimitNum": 1,
+      "LimitType": 6,
+      "LimitParam": 360,
+      "GainTypeMb": [],
+      "GainType": [
+        10
+      ],
+      "GainParam1": [
+        10002
+      ],
+      "GainParam2": {
+        "Namespace": "Weapon",
+        "Key": "12307101_GainParam2",
+        "SourceString": "弦海寻宝-炽焱狂龙",
+        "LocalizedString": "弦海寻宝-炽焱狂龙"
+      },
+      "WeaponPreviewClosestDistance": 1.0,
+      "WeaponPreviewMaximumDistance": 1.5,
+      "WeaponPreviewHorizontalMaximumAngle": 85,
+      "WeaponPreviewVerticalMaximumAngle": 85,
+      "WeaponPreviewRotationDamping": 2,
+      "WeaponPreviewRotate": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "ShowVisualsound": false,
+      "VisualsoundDistance": [
+        {
+          "NearDistance": 1000.0,
+          "MiddleDistance": 2000.0,
+          "FarDistance": 10000.0
+        }
+      ],
+      "WeaponSkinLabel": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "WeaponPointsSkin": 0
+    },
     "18501001": {
       "Id": 18501001,
       "Name": {
@@ -54651,6 +56554,128 @@
             "Value": 14
           }
         ]
+      },
+      "WeaponPreviewClosestDistance": 1.0,
+      "WeaponPreviewMaximumDistance": 1.5,
+      "WeaponPreviewHorizontalMaximumAngle": 85,
+      "WeaponPreviewVerticalMaximumAngle": 85,
+      "WeaponPreviewRotationDamping": 2,
+      "WeaponPreviewRotate": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "ShowVisualsound": false,
+      "VisualsoundDistance": [
+        {
+          "NearDistance": 1000.0,
+          "MiddleDistance": 2000.0,
+          "FarDistance": 10000.0
+        }
+      ],
+      "WeaponSkinLabel": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "WeaponPointsSkin": 0
+    },
+    "18501051": {
+      "Id": 18501051,
+      "Name": {
+        "Namespace": "Weapon",
+        "Key": "18501051_Name",
+        "SourceString": "波波水球",
+        "LocalizedString": "波波水球"
+      },
+      "Available": true,
+      "AvailableState": 1,
+      "Type": "EWeaponTypes::SlowDownGrenade",
+      "Slot": "EWeaponSlotTypes::WeaponSlot_Grenade_1",
+      "SubType": 18501001,
+      "AdvancedWeapon": 0,
+      "ShareSkinWeapon": 0,
+      "Default": 0,
+      "Quality": 3,
+      "Tips": {
+        "Namespace": "Weapon",
+        "Key": "18501051_Tips",
+        "SourceString": "伴随飞溅的水花，闯入时间的缓流。",
+        "LocalizedString": "伴随飞溅的水花，闯入时间的缓流。"
+      },
+      "TweaponTitle": {
+        "CultureInvariantString": null
+      },
+      "TweaponDescription": {
+        "CultureInvariantString": null
+      },
+      "SortId": 3001,
+      "LevelupType": 1,
+      "BasicSkinId": 0,
+      "FxfireId": 0,
+      "FxkillId": 0,
+      "UpdateSkinId": [],
+      "SuitRoleSkinId": 0,
+      "NewSuitWeaponId": 0,
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_18501051.T_Dynamic_Item_18501051",
+        "SubPathString": ""
+      },
+      "IconItemBig": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/BigIcon/T_Dynamic_BigItem_18501051.T_Dynamic_BigItem_18501051",
+        "SubPathString": ""
+      },
+      "IconWhite": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Weapon/WeaponIconWhite/T_Dynamic_WeaponWhite_18501001.T_Dynamic_WeaponWhite_18501001",
+        "SubPathString": ""
+      },
+      "IconMobile": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Weapon/WeaponIconMobile/T_Dynamic_WeaponIconMobile_18501001.T_Dynamic_WeaponIconMobile_18501001",
+        "SubPathString": ""
+      },
+      "IconGrowth": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Weapon/InGameGrowth/T_Dynamic_InGameGrowth_18501001.T_Dynamic_InGameGrowth_18501001",
+        "SubPathString": ""
+      },
+      "IconGrowthBomb2": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Growth/T_Dynamic_Growth_Role18501001.T_Dynamic_Growth_Role18501001",
+        "SubPathString": ""
+      },
+      "IconHud": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Weapon/WeaponIconHud/SPR_Dynamic_WeaponHud_18501001.SPR_Dynamic_WeaponHud_18501001",
+        "SubPathString": ""
+      },
+      "BlueprintDir": "GrenadeSlowDown",
+      "MeshId": 51,
+      "EffectId": 0,
+      "AnimationId": 0,
+      "UserInterfaceId": 0,
+      "DisplayName": {
+        "Namespace": "Weapon",
+        "Key": "18501001_DisplayName",
+        "SourceString": "弱化",
+        "LocalizedString": "弱化"
+      },
+      "IsRandomSkin": false,
+      "AiAttackDistance": 0.0,
+      "AiAttackDistanceParameter": [],
+      "AiBaseHitParameter": [],
+      "AiHeadHitParameter": [],
+      "AiHitDifficultyFactor": [],
+      "LimitNum": 1,
+      "LimitType": 6,
+      "LimitParam": 160,
+      "GainTypeMb": [],
+      "GainType": [
+        10
+      ],
+      "GainParam1": [
+        10002
+      ],
+      "GainParam2": {
+        "Namespace": "Weapon",
+        "Key": "12307101_GainParam2",
+        "SourceString": "弦海寻宝-炽焱狂龙",
+        "LocalizedString": "弦海寻宝-炽焱狂龙"
       },
       "WeaponPreviewClosestDistance": 1.0,
       "WeaponPreviewMaximumDistance": 1.5,
@@ -55045,6 +57070,128 @@
       },
       "WeaponPointsSkin": 0
     },
+    "18601101": {
+      "Id": 18601101,
+      "Name": {
+        "Namespace": "Weapon",
+        "Key": "18601101_Name",
+        "SourceString": "神奇的伞把菇",
+        "LocalizedString": "神奇的伞把菇"
+      },
+      "Available": true,
+      "AvailableState": 1,
+      "Type": "EWeaponTypes::TreatmentGrenade",
+      "Slot": "EWeaponSlotTypes::WeaponSlot_Grenade_1",
+      "SubType": 18601001,
+      "AdvancedWeapon": 0,
+      "ShareSkinWeapon": 0,
+      "Default": 0,
+      "Quality": 4,
+      "Tips": {
+        "Namespace": "Weapon",
+        "Key": "18601101_Tips",
+        "SourceString": "这株依偎古树根须生长的伞菇，以向上的姿态汲取了天地的灵气，能为使用者带来生命能量。",
+        "LocalizedString": "这株依偎古树根须生长的伞菇，以向上的姿态汲取了天地的灵气，能为使用者带来生命能量。"
+      },
+      "TweaponTitle": {
+        "CultureInvariantString": null
+      },
+      "TweaponDescription": {
+        "CultureInvariantString": null
+      },
+      "SortId": 4001,
+      "LevelupType": 1,
+      "BasicSkinId": 0,
+      "FxfireId": 0,
+      "FxkillId": 0,
+      "UpdateSkinId": [],
+      "SuitRoleSkinId": 0,
+      "NewSuitWeaponId": 0,
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_18601101.T_Dynamic_Item_18601101",
+        "SubPathString": ""
+      },
+      "IconItemBig": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/BigIcon/T_Dynamic_BigItem_18601101.T_Dynamic_BigItem_18601101",
+        "SubPathString": ""
+      },
+      "IconWhite": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Weapon/WeaponIconWhite/T_Dynamic_WeaponWhite_18601001.T_Dynamic_WeaponWhite_18601001",
+        "SubPathString": ""
+      },
+      "IconMobile": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Weapon/WeaponIconMobile/T_Dynamic_WeaponIconMobile_18601001.T_Dynamic_WeaponIconMobile_18601001",
+        "SubPathString": ""
+      },
+      "IconGrowth": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Weapon/InGameGrowth/T_Dynamic_InGameGrowth_18601001.T_Dynamic_InGameGrowth_18601001",
+        "SubPathString": ""
+      },
+      "IconGrowthBomb2": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Growth/T_Dynamic_Growth_Role18601001.T_Dynamic_Growth_Role18601001",
+        "SubPathString": ""
+      },
+      "IconHud": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Weapon/WeaponIconHud/SPR_Dynamic_WeaponHud_18601001.SPR_Dynamic_WeaponHud_18601001",
+        "SubPathString": ""
+      },
+      "BlueprintDir": "GrenadeTreatment",
+      "MeshId": 101,
+      "EffectId": 101,
+      "AnimationId": 0,
+      "UserInterfaceId": 0,
+      "DisplayName": {
+        "Namespace": "Weapon",
+        "Key": "18601001_DisplayName",
+        "SourceString": "治疗",
+        "LocalizedString": "治疗"
+      },
+      "IsRandomSkin": false,
+      "AiAttackDistance": 0.0,
+      "AiAttackDistanceParameter": [],
+      "AiBaseHitParameter": [],
+      "AiHeadHitParameter": [],
+      "AiHitDifficultyFactor": [],
+      "LimitNum": 1,
+      "LimitType": 6,
+      "LimitParam": 360,
+      "GainTypeMb": [],
+      "GainType": [
+        10
+      ],
+      "GainParam1": [
+        10002
+      ],
+      "GainParam2": {
+        "Namespace": "Weapon",
+        "Key": "12307101_GainParam2",
+        "SourceString": "弦海寻宝-炽焱狂龙",
+        "LocalizedString": "弦海寻宝-炽焱狂龙"
+      },
+      "WeaponPreviewClosestDistance": 1.0,
+      "WeaponPreviewMaximumDistance": 1.5,
+      "WeaponPreviewHorizontalMaximumAngle": 85,
+      "WeaponPreviewVerticalMaximumAngle": 85,
+      "WeaponPreviewRotationDamping": 2,
+      "WeaponPreviewRotate": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 270.0
+      },
+      "ShowVisualsound": false,
+      "VisualsoundDistance": [
+        {
+          "NearDistance": 1000.0,
+          "MiddleDistance": 2000.0,
+          "FarDistance": 10000.0
+        }
+      ],
+      "WeaponSkinLabel": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "WeaponPointsSkin": 0
+    },
     "18601051": {
       "Id": 18601051,
       "Name": {
@@ -55297,6 +57444,128 @@
       },
       "WeaponPointsSkin": 0
     },
+    "18701051": {
+      "Id": 18701051,
+      "Name": {
+        "Namespace": "Weapon",
+        "Key": "18701051_Name",
+        "SourceString": "警报按钮",
+        "LocalizedString": "警报按钮"
+      },
+      "Available": true,
+      "AvailableState": 1,
+      "Type": "EWeaponTypes::AlarmGrenade",
+      "Slot": "EWeaponSlotTypes::WeaponSlot_Grenade_1",
+      "SubType": 18701001,
+      "AdvancedWeapon": 0,
+      "ShareSkinWeapon": 0,
+      "Default": 0,
+      "Quality": 3,
+      "Tips": {
+        "Namespace": "Weapon",
+        "Key": "18701051_Tips",
+        "SourceString": "每一个警示信号，都在为你精准锚定危险坐标。",
+        "LocalizedString": "每一个警示信号，都在为你精准锚定危险坐标。"
+      },
+      "TweaponTitle": {
+        "CultureInvariantString": null
+      },
+      "TweaponDescription": {
+        "CultureInvariantString": null
+      },
+      "SortId": 3001,
+      "LevelupType": 1,
+      "BasicSkinId": 0,
+      "FxfireId": 0,
+      "FxkillId": 0,
+      "UpdateSkinId": [],
+      "SuitRoleSkinId": 0,
+      "NewSuitWeaponId": 0,
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_18701051.T_Dynamic_Item_18701051",
+        "SubPathString": ""
+      },
+      "IconItemBig": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/BigIcon/T_Dynamic_BigItem_18701051.T_Dynamic_BigItem_18701051",
+        "SubPathString": ""
+      },
+      "IconWhite": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Weapon/WeaponIconWhite/T_Dynamic_WeaponWhite_18701001.T_Dynamic_WeaponWhite_18701001",
+        "SubPathString": ""
+      },
+      "IconMobile": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Weapon/WeaponIconMobile/T_Dynamic_WeaponIconMobile_18701001.T_Dynamic_WeaponIconMobile_18701001",
+        "SubPathString": ""
+      },
+      "IconGrowth": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Weapon/InGameGrowth/T_Dynamic_InGameGrowth_18701001.T_Dynamic_InGameGrowth_18701001",
+        "SubPathString": ""
+      },
+      "IconGrowthBomb2": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Growth/T_Dynamic_Growth_Role18701001.T_Dynamic_Growth_Role18701001",
+        "SubPathString": ""
+      },
+      "IconHud": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Weapon/WeaponIconHud/SPR_Dynamic_WeaponHud_18701001.SPR_Dynamic_WeaponHud_18701001",
+        "SubPathString": ""
+      },
+      "BlueprintDir": "GrenadeAlarm",
+      "MeshId": 51,
+      "EffectId": 0,
+      "AnimationId": 0,
+      "UserInterfaceId": 0,
+      "DisplayName": {
+        "Namespace": "Weapon",
+        "Key": "18701001_DisplayName",
+        "SourceString": "侦测",
+        "LocalizedString": "侦测"
+      },
+      "IsRandomSkin": false,
+      "AiAttackDistance": 0.0,
+      "AiAttackDistanceParameter": [],
+      "AiBaseHitParameter": [],
+      "AiHeadHitParameter": [],
+      "AiHitDifficultyFactor": [],
+      "LimitNum": 1,
+      "LimitType": 6,
+      "LimitParam": 160,
+      "GainTypeMb": [],
+      "GainType": [
+        10
+      ],
+      "GainParam1": [
+        10002
+      ],
+      "GainParam2": {
+        "Namespace": "Weapon",
+        "Key": "12307101_GainParam2",
+        "SourceString": "弦海寻宝-炽焱狂龙",
+        "LocalizedString": "弦海寻宝-炽焱狂龙"
+      },
+      "WeaponPreviewClosestDistance": 1.0,
+      "WeaponPreviewMaximumDistance": 1.5,
+      "WeaponPreviewHorizontalMaximumAngle": 85,
+      "WeaponPreviewVerticalMaximumAngle": 85,
+      "WeaponPreviewRotationDamping": 2,
+      "WeaponPreviewRotate": {
+        "X": 0.0,
+        "Y": 310.0,
+        "Z": 0.0
+      },
+      "ShowVisualsound": false,
+      "VisualsoundDistance": [
+        {
+          "NearDistance": 1000.0,
+          "MiddleDistance": 2000.0,
+          "FarDistance": 10000.0
+        }
+      ],
+      "WeaponSkinLabel": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "WeaponPointsSkin": 0
+    },
     "18801001": {
       "Id": 18801001,
       "Name": {
@@ -55402,6 +57671,128 @@
             "Value": 10
           }
         ]
+      },
+      "WeaponPreviewClosestDistance": 1.0,
+      "WeaponPreviewMaximumDistance": 1.5,
+      "WeaponPreviewHorizontalMaximumAngle": 85,
+      "WeaponPreviewVerticalMaximumAngle": 85,
+      "WeaponPreviewRotationDamping": 2,
+      "WeaponPreviewRotate": {
+        "X": 0.0,
+        "Y": 310.0,
+        "Z": 0.0
+      },
+      "ShowVisualsound": false,
+      "VisualsoundDistance": [
+        {
+          "NearDistance": 1000.0,
+          "MiddleDistance": 2000.0,
+          "FarDistance": 10000.0
+        }
+      ],
+      "WeaponSkinLabel": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "WeaponPointsSkin": 0
+    },
+    "18801101": {
+      "Id": 18801101,
+      "Name": {
+        "Namespace": "Weapon",
+        "Key": "18801101_Name",
+        "SourceString": "纯净的岩之泉",
+        "LocalizedString": "纯净的岩之泉"
+      },
+      "Available": true,
+      "AvailableState": 1,
+      "Type": "EWeaponTypes::InterceptorGrenade",
+      "Slot": "EWeaponSlotTypes::WeaponSlot_Grenade_1",
+      "SubType": 18801001,
+      "AdvancedWeapon": 0,
+      "ShareSkinWeapon": 0,
+      "Default": 0,
+      "Quality": 4,
+      "Tips": {
+        "Namespace": "Weapon",
+        "Key": "18801101_Tips",
+        "SourceString": "这道从岩脉中诞生的活泉，以流动的姿态构筑起了一道屏障，化冲击于无形。",
+        "LocalizedString": "这道从岩脉中诞生的活泉，以流动的姿态构筑起了一道屏障，化冲击于无形。"
+      },
+      "TweaponTitle": {
+        "CultureInvariantString": null
+      },
+      "TweaponDescription": {
+        "CultureInvariantString": null
+      },
+      "SortId": 4001,
+      "LevelupType": 1,
+      "BasicSkinId": 0,
+      "FxfireId": 0,
+      "FxkillId": 0,
+      "UpdateSkinId": [],
+      "SuitRoleSkinId": 0,
+      "NewSuitWeaponId": 0,
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_18801101.T_Dynamic_Item_18801101",
+        "SubPathString": ""
+      },
+      "IconItemBig": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/BigIcon/T_Dynamic_BigItem_18801101.T_Dynamic_BigItem_18801101",
+        "SubPathString": ""
+      },
+      "IconWhite": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Weapon/WeaponIconWhite/T_Dynamic_WeaponWhite_18801001.T_Dynamic_WeaponWhite_18801001",
+        "SubPathString": ""
+      },
+      "IconMobile": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Weapon/WeaponIconMobile/T_Dynamic_WeaponIconMobile_18801001.T_Dynamic_WeaponIconMobile_18801001",
+        "SubPathString": ""
+      },
+      "IconGrowth": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Weapon/InGameGrowth/T_Dynamic_InGameGrowth_18801001.T_Dynamic_InGameGrowth_18801001",
+        "SubPathString": ""
+      },
+      "IconGrowthBomb2": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Growth/T_Dynamic_Growth_Role18801001.T_Dynamic_Growth_Role18801001",
+        "SubPathString": ""
+      },
+      "IconHud": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Weapon/WeaponIconHud/SPR_Dynamic_WeaponHud_18801001.SPR_Dynamic_WeaponHud_18801001",
+        "SubPathString": ""
+      },
+      "BlueprintDir": "GrenadeInterceptor",
+      "MeshId": 101,
+      "EffectId": 101,
+      "AnimationId": 0,
+      "UserInterfaceId": 0,
+      "DisplayName": {
+        "Namespace": "Weapon",
+        "Key": "18801001_DisplayName",
+        "SourceString": "拦截",
+        "LocalizedString": "拦截"
+      },
+      "IsRandomSkin": false,
+      "AiAttackDistance": 0.0,
+      "AiAttackDistanceParameter": [],
+      "AiBaseHitParameter": [],
+      "AiHeadHitParameter": [],
+      "AiHitDifficultyFactor": [],
+      "LimitNum": 1,
+      "LimitType": 6,
+      "LimitParam": 360,
+      "GainTypeMb": [],
+      "GainType": [
+        10
+      ],
+      "GainParam1": [
+        10002
+      ],
+      "GainParam2": {
+        "Namespace": "Weapon",
+        "Key": "12307101_GainParam2",
+        "SourceString": "弦海寻宝-炽焱狂龙",
+        "LocalizedString": "弦海寻宝-炽焱狂龙"
       },
       "WeaponPreviewClosestDistance": 1.0,
       "WeaponPreviewMaximumDistance": 1.5,
@@ -68910,8 +71301,8 @@
       "ShowVisualsound": true,
       "VisualsoundDistance": [
         {
-          "NearDistance": 2500.0,
-          "MiddleDistance": 5000.0,
+          "NearDistance": 1000.0,
+          "MiddleDistance": 2000.0,
           "FarDistance": 10000.0
         }
       ],
@@ -73571,6 +75962,155 @@
       ],
       "GainParam2": {
         "CultureInvariantString": null
+      },
+      "WeaponPreviewClosestDistance": 230.0,
+      "WeaponPreviewMaximumDistance": 350.0,
+      "WeaponPreviewHorizontalMaximumAngle": 85,
+      "WeaponPreviewVerticalMaximumAngle": 85,
+      "WeaponPreviewRotationDamping": 2,
+      "WeaponPreviewRotate": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "ShowVisualsound": true,
+      "VisualsoundDistance": [
+        {
+          "NearDistance": 1000.0,
+          "MiddleDistance": 2000.0,
+          "FarDistance": 10000.0
+        }
+      ],
+      "WeaponSkinLabel": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "WeaponPointsSkin": 0
+    },
+    "10201112": {
+      "Id": 10201112,
+      "Name": {
+        "Namespace": "Weapon",
+        "Key": "10201112_Name",
+        "SourceString": "赛场焦点",
+        "LocalizedString": "赛场焦点"
+      },
+      "Available": true,
+      "AvailableState": 1,
+      "Type": "EWeaponTypes::SR",
+      "Slot": "EWeaponSlotTypes::WeaponSlot_Primary",
+      "SubType": 10201001,
+      "AdvancedWeapon": 0,
+      "ShareSkinWeapon": 0,
+      "Default": 0,
+      "Quality": 4,
+      "Tips": {
+        "Namespace": "Weapon",
+        "Key": "10201112_Tips",
+        "SourceString": "“谢幕曲”的运动会改造版，结合了香奈美啦啦队队长的身份，融入了她在观赛时所看到的一切。虽然她没有参加比赛，但如果能为选手们带来鼓励和力量，那也很不错呢！\n\n【“因为这次有其他行程，我不能作为选手参加运动会。不过，担任啦啦队队长的香奈美，也一定不会让大家失望的！”】",
+        "LocalizedString": "“谢幕曲”的运动会改造版，结合了香奈美啦啦队队长的身份，融入了她在观赛时所看到的一切。虽然她没有参加比赛，但如果能为选手们带来鼓励和力量，那也很不错呢！\n\n【“因为这次有其他行程，我不能作为选手参加运动会。不过，担任啦啦队队长的香奈美，也一定不会让大家失望的！”】"
+      },
+      "TweaponTitle": {
+        "CultureInvariantString": null
+      },
+      "TweaponDescription": {
+        "CultureInvariantString": null
+      },
+      "SortId": 4011,
+      "LevelupType": 1,
+      "BasicSkinId": 0,
+      "FxfireId": 0,
+      "FxkillId": 0,
+      "UpdateSkinId": [],
+      "SuitRoleSkinId": 0,
+      "NewSuitWeaponId": 0,
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_10201112.T_Dynamic_Item_10201112",
+        "SubPathString": ""
+      },
+      "IconItemBig": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/BigIcon/T_Dynamic_BigItem_10201112.T_Dynamic_BigItem_10201112",
+        "SubPathString": ""
+      },
+      "IconWhite": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Weapon/WeaponIconWhite/T_Dynamic_WeaponWhite_10201001.T_Dynamic_WeaponWhite_10201001",
+        "SubPathString": ""
+      },
+      "IconMobile": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "IconGrowth": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Weapon/InGameGrowth/T_Dynamic_InGameGrowth_10201001.T_Dynamic_InGameGrowth_10201001",
+        "SubPathString": ""
+      },
+      "IconGrowthBomb2": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Growth/T_Dynamic_Growth_Role10201001.T_Dynamic_Growth_Role10201001",
+        "SubPathString": ""
+      },
+      "IconHud": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Weapon/WeaponIconHud/SPR_Dynamic_WeaponHud_10201001.SPR_Dynamic_WeaponHud_10201001",
+        "SubPathString": ""
+      },
+      "BlueprintDir": "M82A1",
+      "MeshId": 112,
+      "EffectId": 0,
+      "AnimationId": 0,
+      "UserInterfaceId": 0,
+      "DisplayName": {
+        "CultureInvariantString": null
+      },
+      "IsRandomSkin": false,
+      "AiAttackDistance": 6000.0,
+      "AiAttackDistanceParameter": [
+        {
+          "Distance": 2250000.0,
+          "FireTimes": 1.0,
+          "FireInterval": 1.5
+        },
+        {
+          "Distance": 9000000.0,
+          "FireTimes": 1.0,
+          "FireInterval": 2.0
+        },
+        {
+          "Distance": 36000000.0,
+          "FireTimes": 1.0,
+          "FireInterval": 2.5
+        }
+      ],
+      "AiBaseHitParameter": [
+        -0.0072,
+        0.77,
+        0.4,
+        0.7
+      ],
+      "AiHeadHitParameter": [
+        -0.005,
+        0.55,
+        0.3,
+        0.5
+      ],
+      "AiHitDifficultyFactor": [
+        0.5,
+        0.7,
+        1.0
+      ],
+      "LimitNum": 1,
+      "LimitType": 6,
+      "LimitParam": 360,
+      "GainTypeMb": [],
+      "GainType": [
+        6
+      ],
+      "GainParam1": [
+        10201112
+      ],
+      "GainParam2": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
+        "Key": "LimitedTimeMall",
+        "SourceString": "限时商城",
+        "LocalizedString": "限时商城"
       },
       "WeaponPreviewClosestDistance": 230.0,
       "WeaponPreviewMaximumDistance": 350.0,
@@ -90962,8 +93502,8 @@
       "ShowVisualsound": true,
       "VisualsoundDistance": [
         {
-          "NearDistance": 2500.0,
-          "MiddleDistance": 5000.0,
+          "NearDistance": 1000.0,
+          "MiddleDistance": 2000.0,
           "FarDistance": 10000.0
         }
       ],
@@ -91111,8 +93651,8 @@
       "ShowVisualsound": true,
       "VisualsoundDistance": [
         {
-          "NearDistance": 2500.0,
-          "MiddleDistance": 5000.0,
+          "NearDistance": 1000.0,
+          "MiddleDistance": 2000.0,
           "FarDistance": 10000.0
         }
       ],
@@ -94346,8 +96886,8 @@
       "ShowVisualsound": true,
       "VisualsoundDistance": [
         {
-          "NearDistance": 2500.0,
-          "MiddleDistance": 5000.0,
+          "NearDistance": 1000.0,
+          "MiddleDistance": 2000.0,
           "FarDistance": 10000.0
         }
       ],
@@ -96251,8 +98791,8 @@
       "ShowVisualsound": true,
       "VisualsoundDistance": [
         {
-          "NearDistance": 2500.0,
-          "MiddleDistance": 5000.0,
+          "NearDistance": 1000.0,
+          "MiddleDistance": 2000.0,
           "FarDistance": 10000.0
         }
       ],
@@ -97730,118 +100270,6 @@
       },
       "WeaponPointsSkin": 0
     },
-    "10101954": {
-      "Id": 10101954,
-      "Name": {
-        "Namespace": "Weapon",
-        "Key": "10100999_Name",
-        "SourceString": "随机最爱",
-        "LocalizedString": "随机最爱"
-      },
-      "Available": false,
-      "AvailableState": 1,
-      "Type": "EWeaponTypes::MSMG",
-      "Slot": "EWeaponSlotTypes::WeaponSlot_Secondary",
-      "SubType": 12307002,
-      "AdvancedWeapon": 0,
-      "ShareSkinWeapon": 0,
-      "Default": 0,
-      "Quality": 7,
-      "Tips": {
-        "CultureInvariantString": null
-      },
-      "TweaponTitle": {
-        "CultureInvariantString": null
-      },
-      "TweaponDescription": {
-        "CultureInvariantString": null
-      },
-      "SortId": 0,
-      "LevelupType": 0,
-      "BasicSkinId": 0,
-      "FxfireId": 0,
-      "FxkillId": 0,
-      "UpdateSkinId": [],
-      "SuitRoleSkinId": 0,
-      "NewSuitWeaponId": 0,
-      "IconItem": {
-        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_10101051.T_Dynamic_Item_10101051",
-        "SubPathString": ""
-      },
-      "IconItemBig": {
-        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/BigIcon/T_Dynamic_BigItem_10100999.T_Dynamic_BigItem_10100999",
-        "SubPathString": ""
-      },
-      "IconWhite": {
-        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Weapon/WeaponIconWhite/T_Dynamic_WeaponWhite_0.T_Dynamic_WeaponWhite_0",
-        "SubPathString": ""
-      },
-      "IconMobile": {
-        "AssetPathName": "None",
-        "SubPathString": ""
-      },
-      "IconGrowth": {
-        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Weapon/InGameGrowth/T_Dynamic_InGameGrowth_0.T_Dynamic_InGameGrowth_0",
-        "SubPathString": ""
-      },
-      "IconGrowthBomb2": {
-        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Growth/T_Dynamic_Growth_Role0.T_Dynamic_Growth_Role0",
-        "SubPathString": ""
-      },
-      "IconHud": {
-        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Weapon/WeaponIconHud/SPR_Dynamic_WeaponHud_0.SPR_Dynamic_WeaponHud_0",
-        "SubPathString": ""
-      },
-      "BlueprintDir": "LawineSkillQ",
-      "MeshId": 0,
-      "EffectId": 0,
-      "AnimationId": 0,
-      "UserInterfaceId": 0,
-      "DisplayName": {
-        "CultureInvariantString": null
-      },
-      "IsRandomSkin": true,
-      "AiAttackDistance": 0.0,
-      "AiAttackDistanceParameter": [],
-      "AiBaseHitParameter": [],
-      "AiHeadHitParameter": [],
-      "AiHitDifficultyFactor": [],
-      "LimitNum": 1,
-      "LimitType": 6,
-      "LimitParam": 0,
-      "GainTypeMb": [],
-      "GainType": [],
-      "GainParam1": [],
-      "GainParam2": {
-        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_ModuleName.ST_ModuleName",
-        "Key": "RandomFavorite",
-        "SourceString": "随机最爱",
-        "LocalizedString": "随机最爱"
-      },
-      "WeaponPreviewClosestDistance": 0.0,
-      "WeaponPreviewMaximumDistance": 0.0,
-      "WeaponPreviewHorizontalMaximumAngle": 0,
-      "WeaponPreviewVerticalMaximumAngle": 0,
-      "WeaponPreviewRotationDamping": 0,
-      "WeaponPreviewRotate": {
-        "X": 0.0,
-        "Y": 0.0,
-        "Z": 0.0
-      },
-      "ShowVisualsound": false,
-      "VisualsoundDistance": [
-        {
-          "NearDistance": 2500.0,
-          "MiddleDistance": 5000.0,
-          "FarDistance": 10000.0
-        }
-      ],
-      "WeaponSkinLabel": {
-        "AssetPathName": "None",
-        "SubPathString": ""
-      },
-      "WeaponPointsSkin": 0
-    },
     "10101955": {
       "Id": 10101955,
       "Name": {
@@ -97853,7 +100281,7 @@
       "Available": false,
       "AvailableState": 1,
       "Type": "EWeaponTypes::Katana",
-      "Slot": "EWeaponSlotTypes::WeaponSlot_Secondary",
+      "Slot": "EWeaponSlotTypes::WeaponSlot_Melee",
       "SubType": 15201001,
       "AdvancedWeapon": 0,
       "ShareSkinWeapon": 0,

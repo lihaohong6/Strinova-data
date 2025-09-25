@@ -1,0 +1,175 @@
+{
+  "Type": "DataTable",
+  "Name": "CompositeScoreRemindCfg",
+  "Class": "UScriptClass'DataTable'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "RowStruct": {
+      "ObjectName": "ScriptStruct'CyCompositeScoreRemind'",
+      "ObjectPath": "/Script/PMGame"
+    }
+  },
+  "Rows": {
+    "1": {
+      "CompositeScoreType": "ECompositeScoreType::KillScore",
+      "CompositeScoreName": {
+        "TableId": "/Game/PaperMan/UI/StringTable/ST_UIHUD.ST_UIHUD",
+        "Key": "Score_Kill",
+        "SourceString": "击杀",
+        "LocalizedString": "击杀"
+      },
+      "SupportGameMode": 4285964420,
+      "ModeScoreThreshold": [],
+      "DefaultScoreThreshold": 0.0
+    },
+    "2": {
+      "CompositeScoreType": "ECompositeScoreType::InjuredScore",
+      "CompositeScoreName": {
+        "TableId": "/Game/PaperMan/UI/StringTable/ST_UIHUD.ST_UIHUD",
+        "Key": "Score_Injured",
+        "SourceString": "击倒",
+        "LocalizedString": "击倒"
+      },
+      "SupportGameMode": 4285964420,
+      "ModeScoreThreshold": [],
+      "DefaultScoreThreshold": 0.0
+    },
+    "3": {
+      "CompositeScoreType": "ECompositeScoreType::DamageScore",
+      "CompositeScoreName": {
+        "TableId": "/Game/PaperMan/UI/StringTable/ST_UIHUD.ST_UIHUD",
+        "Key": "Score_Damage",
+        "SourceString": "伤害",
+        "LocalizedString": "伤害"
+      },
+      "SupportGameMode": 4285964420,
+      "ModeScoreThreshold": [
+        {
+          "Key": "EPMGameModeType::Zombie",
+          "Value": 100.0
+        }
+      ],
+      "DefaultScoreThreshold": 30.0
+    },
+    "4": {
+      "CompositeScoreType": "ECompositeScoreType::TakeDamageScore",
+      "CompositeScoreName": {
+        "TableId": "/Game/PaperMan/UI/StringTable/ST_UIHUD.ST_UIHUD",
+        "Key": "Score_UnderDamage",
+        "SourceString": "承受伤害",
+        "LocalizedString": "承受伤害"
+      },
+      "SupportGameMode": 4285964420,
+      "ModeScoreThreshold": [],
+      "DefaultScoreThreshold": 10.0
+    },
+    "5": {
+      "CompositeScoreType": "ECompositeScoreType::RescueScore",
+      "CompositeScoreName": {
+        "TableId": "/Game/PaperMan/UI/StringTable/ST_UIHUD.ST_UIHUD",
+        "Key": "Score_Help",
+        "SourceString": "救人",
+        "LocalizedString": "救人"
+      },
+      "SupportGameMode": 4285964420,
+      "ModeScoreThreshold": [],
+      "DefaultScoreThreshold": 0.0
+    },
+    "6": {
+      "CompositeScoreType": "ECompositeScoreType::AssistScore",
+      "CompositeScoreName": {
+        "TableId": "/Game/PaperMan/UI/StringTable/ST_UIHUD.ST_UIHUD",
+        "Key": "Score_Assist",
+        "SourceString": "助攻",
+        "LocalizedString": "助攻"
+      },
+      "SupportGameMode": 4285964420,
+      "ModeScoreThreshold": [],
+      "DefaultScoreThreshold": 0.0
+    },
+    "7": {
+      "CompositeScoreType": "ECompositeScoreType::SkillUsedScore",
+      "CompositeScoreName": {
+        "TableId": "/Game/PaperMan/UI/StringTable/ST_UIHUD.ST_UIHUD",
+        "Key": "Score_SkillUse",
+        "SourceString": "技能使用",
+        "LocalizedString": "技能使用"
+      },
+      "SupportGameMode": 4285964420,
+      "ModeScoreThreshold": [],
+      "DefaultScoreThreshold": 0.0
+    },
+    "8": {
+      "CompositeScoreType": "ECompositeScoreType::Mesh2DScore",
+      "CompositeScoreName": {
+        "TableId": "/Game/PaperMan/UI/StringTable/ST_UIHUD.ST_UIHUD",
+        "Key": "Score_2D",
+        "SourceString": "弦化",
+        "LocalizedString": "弦化"
+      },
+      "SupportGameMode": 4285964420,
+      "ModeScoreThreshold": [],
+      "DefaultScoreThreshold": 10.0
+    },
+    "9": {
+      "CompositeScoreType": "ECompositeScoreType::FightMesh2DScore",
+      "CompositeScoreName": {
+        "TableId": "/Game/PaperMan/UI/StringTable/ST_UIHUD.ST_UIHUD",
+        "Key": "Score_2DFight",
+        "SourceString": "交火中弦化",
+        "LocalizedString": "交火中弦化"
+      },
+      "SupportGameMode": 4285964420,
+      "ModeScoreThreshold": [],
+      "DefaultScoreThreshold": 12.0
+    },
+    "10": {
+      "CompositeScoreType": "ECompositeScoreType::C4Score",
+      "CompositeScoreName": {
+        "TableId": "/Game/PaperMan/UI/StringTable/ST_UIHUD.ST_UIHUD",
+        "Key": "Score_Bomb",
+        "SourceString": "炸弹",
+        "LocalizedString": "炸弹"
+      },
+      "SupportGameMode": 4285964420,
+      "ModeScoreThreshold": [],
+      "DefaultScoreThreshold": 0.0
+    },
+    "11": {
+      "CompositeScoreType": "ECompositeScoreType::PushPayloadScore",
+      "CompositeScoreName": {
+        "TableId": "/Game/PaperMan/UI/StringTable/ST_UIHUD.ST_UIHUD",
+        "Key": "Score_PayloadAttack",
+        "SourceString": "推进时间",
+        "LocalizedString": "推进时间"
+      },
+      "SupportGameMode": 4285964420,
+      "ModeScoreThreshold": [],
+      "DefaultScoreThreshold": 15.0
+    },
+    "12": {
+      "CompositeScoreType": "ECompositeScoreType::BlockPayloadScore",
+      "CompositeScoreName": {
+        "TableId": "/Game/PaperMan/UI/StringTable/ST_UIHUD.ST_UIHUD",
+        "Key": "Score_PayloadDefend",
+        "SourceString": "阻止时间",
+        "LocalizedString": "阻止时间"
+      },
+      "SupportGameMode": 4285964420,
+      "ModeScoreThreshold": [],
+      "DefaultScoreThreshold": 15.0
+    },
+    "13": {
+      "CompositeScoreType": "ECompositeScoreType::AliveScore",
+      "CompositeScoreName": {
+        "TableId": "/Game/PaperMan/UI/StringTable/ST_UIHUD.ST_UIHUD",
+        "Key": "Score_Alive",
+        "SourceString": "存活",
+        "LocalizedString": "存活"
+      },
+      "SupportGameMode": 4285964420,
+      "ModeScoreThreshold": [],
+      "DefaultScoreThreshold": 20.0
+    }
+  }
+}

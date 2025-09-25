@@ -1,0 +1,66 @@
+{
+  "Type": "DataTable",
+  "Name": "DT_UIMutualExclusionTable_MobileExtend",
+  "Class": "UScriptClass'DataTable'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "RowStruct": {
+      "ObjectName": "ScriptStruct'PMUIMutualExclusionTableRow'",
+      "ObjectPath": "/Script/PMGame"
+    }
+  },
+  "Rows": {
+    "LeftFire": {
+      "UIPageName": {
+        "Name": "LeftFire"
+      },
+      "ClosedByUIs": [],
+      "HidedByUIs": [],
+      "CollapsedByUIs": [
+        {
+          "Name": "AbilityPressStateLeftFire"
+        }
+      ],
+      "BlockedByUIs": []
+    },
+    "PreInteract": {
+      "UIPageName": {
+        "Name": "PreInteract"
+      },
+      "ClosedByUIs": [],
+      "HidedByUIs": [],
+      "CollapsedByUIs": [
+        {
+          "Name": "Interact"
+        }
+      ],
+      "BlockedByUIs": []
+    },
+    "BigMap": {
+      "UIPageName": {
+        "Name": "BigMap"
+      },
+      "ClosedByUIs": [],
+      "HidedByUIs": [],
+      "CollapsedByUIs": [
+        {
+          "Name": "MiniMap"
+        }
+      ],
+      "BlockedByUIs": []
+    },
+    "MiniMap": {
+      "UIPageName": {
+        "Name": "MiniMap"
+      },
+      "ClosedByUIs": [],
+      "HidedByUIs": [],
+      "CollapsedByUIs": [
+        {
+          "Name": "BigMap"
+        }
+      ],
+      "BlockedByUIs": []
+    }
+  }
+}
