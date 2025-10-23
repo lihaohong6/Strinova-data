@@ -259,8 +259,8 @@
         "ObjectPath": "PM/Content/PaperMan/UI/BP/PC/InGame/Overhead/DT_UI_Overhead.0"
       },
       {
-        "ObjectName": "DataTable'DT_UI_SceneMapCommonItem'",
-        "ObjectPath": "PM/Content/PaperMan/UI/BP/PC/InGame/SceneMap/DT_UI_SceneMapCommonItem.0"
+        "ObjectName": "DataTable'DT_UI_SceneMapPC'",
+        "ObjectPath": "PM/Content/PaperMan/UI/BP/PC/InGame/SceneMap/DT_UI_SceneMapPC.0"
       },
       {
         "ObjectName": "DataTable'DT_UI_MayDaySignIn'",
@@ -425,6 +425,10 @@
       {
         "ObjectName": "CompositeDataTable'CDT_UI_InGamePC_GunGame'",
         "ObjectPath": "PM/Content/PaperMan/UI/BP/PC/InGame/GunGame/CDT_UI_InGamePC_GunGame.0"
+      },
+      {
+        "ObjectName": "DataTable'DT_UI_GradeAPC'",
+        "ObjectPath": "PM/Content/PaperMan/UI/BP/PC/Frontend/Activities/GradeATemplate/DT_UI_GradeAPC.0"
       }
     ],
     "RowStruct": {
@@ -1035,7 +1039,7 @@
       },
       "bIsPanel": false,
       "Layer": "EUILayer::Normal",
-      "Order": 0,
+      "Order": 1,
       "FullScreen": false,
       "OnlyScreen2DUI": false
     },
@@ -3064,6 +3068,111 @@
       "FullScreen": false,
       "OnlyScreen2DUI": false
     },
+    "EquipRoomZombiePage": {
+      "PageName": {
+        "Name": "EquipRoomZombiePage"
+      },
+      "RealPageName": {
+        "Name": "None"
+      },
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/EquipmentRoom/WBP_EquipRoomZombiePage.WBP_EquipRoomZombiePage_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 0,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false
+    },
+    "EquipRoomRolePage": {
+      "PageName": {
+        "Name": "EquipRoomRolePage"
+      },
+      "RealPageName": {
+        "Name": "EquipRoomRolePage"
+      },
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/EquipmentRoom/WBP_EquipRoomRolePage.WBP_EquipRoomRolePage_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 0,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false
+    },
+    "EquipRoomFilterPage": {
+      "PageName": {
+        "Name": "EquipRoomFilterPage"
+      },
+      "RealPageName": {
+        "Name": "EquipRoomFilterPage"
+      },
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/EquipmentRoom/CommonDefault/WBP_EquipmentRoom_ScreenPopUp.WBP_EquipmentRoom_ScreenPopUp_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Top",
+      "Order": 30,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false
+    },
+    "EquipRoomPresetPage": {
+      "PageName": {
+        "Name": "EquipRoomPresetPage"
+      },
+      "RealPageName": {
+        "Name": "EquipRoomPresetPage"
+      },
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/EquipmentRoom/WBP_EquipmentRoomPresetPage.WBP_EquipmentRoomPresetPage_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 0,
+      "FullScreen": true,
+      "OnlyScreen2DUI": false
+    },
+    "CardIllustrationReplaceDeckPage": {
+      "PageName": {
+        "Name": "CardIllustrationReplaceDeckPage"
+      },
+      "RealPageName": {
+        "Name": "None"
+      },
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/CardIllustrationsPC/WBP_CardIllustrationPC_ReplaceDeck.WBP_CardIllustrationPC_ReplaceDeck_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Top",
+      "Order": 20,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false
+    },
     "NavigationMenuPage": {
       "PageName": {
         "Name": "NavigationMenuPage"
@@ -4027,12 +4136,12 @@
         "ObjectPath": "/Script/PMGame"
       },
       "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/PC/InGame/NonResidentFunctions/ScoreBoard/Team/WBP_ScoreTeam.WBP_ScoreTeam_C",
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/InGame/NonResidentFunctions/ScoreBoard/Team/Custom/WBP_TeamScoreCustom_Main.WBP_TeamScoreCustom_Main_C",
         "SubPathString": ""
       },
       "bIsPanel": false,
       "Layer": "EUILayer::Top",
-      "Order": 100,
+      "Order": 98,
       "FullScreen": false,
       "OnlyScreen2DUI": false
     },
@@ -5799,10 +5908,10 @@
     },
     "SelectRolePage_Ob": {
       "PageName": {
-        "Name": "SelectRolePage_Ob"
+        "Name": "SelectRoleSpectatorPage"
       },
       "RealPageName": {
-        "Name": "SelectRolePage"
+        "Name": "SelectRoleSpectatorPage"
       },
       "PageClass": {
         "ObjectName": "Class'PMViewControllerPage'",
@@ -5820,10 +5929,10 @@
     },
     "SelectRolePage_Replay": {
       "PageName": {
-        "Name": "SelectRolePage_Ob"
+        "Name": "SelectRoleSpectatorPage"
       },
       "RealPageName": {
-        "Name": "SelectRolePage"
+        "Name": "SelectRoleSpectatorPage"
       },
       "PageClass": {
         "ObjectName": "Class'PMViewControllerPage'",
@@ -5831,6 +5940,27 @@
       },
       "ViewClass": {
         "AssetPathName": "/Game/PaperMan/UI/BP/PC/InGame/NonResidentFunctions/ObserverPC/WBP_SelectRoleSpectatorPage.WBP_SelectRoleSpectatorPage_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 0,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false
+    },
+    "GameKeyTipsPage_Replay": {
+      "PageName": {
+        "Name": "GameKeyTipsPage_Replay"
+      },
+      "RealPageName": {
+        "Name": "GameKeyTipsPage_Replay"
+      },
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/InGame/NonResidentFunctions/GameKeyTips/WBP_GameKeyTipsPage.WBP_GameKeyTipsPage_C",
         "SubPathString": ""
       },
       "bIsPanel": false,
@@ -7720,6 +7850,186 @@
       "FullScreen": false,
       "OnlyScreen2DUI": false
     },
+    "PracticeGrenadeSignage1": {
+      "PageName": {
+        "Name": "PracticeGrenadeSignage1"
+      },
+      "RealPageName": {
+        "Name": "None"
+      },
+      "PageClass": null,
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/InGame/Practice/GrenadeSignage/WBP_PracticeGrenadeSignage1.WBP_PracticeGrenadeSignage1_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": true,
+      "Layer": "EUILayer::Normal",
+      "Order": 0,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false
+    },
+    "PracticeGrenadeSignage2": {
+      "PageName": {
+        "Name": "PracticeGrenadeSignage2"
+      },
+      "RealPageName": {
+        "Name": "None"
+      },
+      "PageClass": null,
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/InGame/Practice/GrenadeSignage/WBP_PracticeGrenadeSignage2.WBP_PracticeGrenadeSignage2_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": true,
+      "Layer": "EUILayer::Normal",
+      "Order": 0,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false
+    },
+    "PracticeGrenadeSignage3": {
+      "PageName": {
+        "Name": "PracticeGrenadeSignage3"
+      },
+      "RealPageName": {
+        "Name": "None"
+      },
+      "PageClass": null,
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/InGame/Practice/GrenadeSignage/WBP_PracticeGrenadeSignage3.WBP_PracticeGrenadeSignage3_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": true,
+      "Layer": "EUILayer::Normal",
+      "Order": 0,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false
+    },
+    "PracticeGrenadeSignage4": {
+      "PageName": {
+        "Name": "PracticeGrenadeSignage4"
+      },
+      "RealPageName": {
+        "Name": "None"
+      },
+      "PageClass": null,
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/InGame/Practice/GrenadeSignage/WBP_PracticeGrenadeSignage4.WBP_PracticeGrenadeSignage4_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": true,
+      "Layer": "EUILayer::Normal",
+      "Order": 0,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false
+    },
+    "PracticeGrenadeSignage5": {
+      "PageName": {
+        "Name": "PracticeGrenadeSignage5"
+      },
+      "RealPageName": {
+        "Name": "None"
+      },
+      "PageClass": null,
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/InGame/Practice/GrenadeSignage/WBP_PracticeGrenadeSignage5.WBP_PracticeGrenadeSignage5_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": true,
+      "Layer": "EUILayer::Normal",
+      "Order": 0,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false
+    },
+    "PracticeGrenadeSignage6": {
+      "PageName": {
+        "Name": "PracticeGrenadeSignage6"
+      },
+      "RealPageName": {
+        "Name": "None"
+      },
+      "PageClass": null,
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/InGame/Practice/GrenadeSignage/WBP_PracticeGrenadeSignage6.WBP_PracticeGrenadeSignage6_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": true,
+      "Layer": "EUILayer::Normal",
+      "Order": 0,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false
+    },
+    "PracticeGrenadeSignage7": {
+      "PageName": {
+        "Name": "PracticeGrenadeSignage7"
+      },
+      "RealPageName": {
+        "Name": "None"
+      },
+      "PageClass": null,
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/InGame/Practice/GrenadeSignage/WBP_PracticeGrenadeSignage7.WBP_PracticeGrenadeSignage7_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": true,
+      "Layer": "EUILayer::Normal",
+      "Order": 0,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false
+    },
+    "PracticeGrenadeSignage8": {
+      "PageName": {
+        "Name": "PracticeGrenadeSignage8"
+      },
+      "RealPageName": {
+        "Name": "None"
+      },
+      "PageClass": null,
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/InGame/Practice/GrenadeSignage/WBP_PracticeGrenadeSignage8.WBP_PracticeGrenadeSignage8_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": true,
+      "Layer": "EUILayer::Normal",
+      "Order": 0,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false
+    },
+    "PracticeGrenadeSignageBase": {
+      "PageName": {
+        "Name": "PracticeGrenadeSignageBase"
+      },
+      "RealPageName": {
+        "Name": "None"
+      },
+      "PageClass": null,
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/InGame/Practice/GrenadeSignage/WBP_PracticeGrenadeSignageBase.WBP_PracticeGrenadeSignageBase_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": true,
+      "Layer": "EUILayer::Normal",
+      "Order": 0,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false
+    },
+    "Practice_TargetSelectionPage": {
+      "PageName": {
+        "Name": "Practice_TargetSelectionPage"
+      },
+      "RealPageName": {
+        "Name": "None"
+      },
+      "PageClass": null,
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/InGame/Practice/WBP_Practice_TargetSelectionPage.WBP_Practice_TargetSelectionPage_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 0,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false
+    },
     "TeamPage": {
       "PageName": {
         "Name": "TeamPage"
@@ -9475,6 +9785,258 @@
       "bIsPanel": false,
       "Layer": "EUILayer::Normal",
       "Order": 20,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false
+    },
+    "CrystalSourcePCMainPage": {
+      "PageName": {
+        "Name": "CrystalSourcePCMainPage"
+      },
+      "RealPageName": {
+        "Name": "None"
+      },
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/Activities/CrystalSourcePC/WBP_CrystalSourcePC_MainPage.WBP_CrystalSourcePC_MainPage_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 20,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false
+    },
+    "VampirePCMainPage": {
+      "PageName": {
+        "Name": "VampirePCMainPage"
+      },
+      "RealPageName": {
+        "Name": "None"
+      },
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/Activities/VampirePC/WBP_VampirePC_MainPage.WBP_VampirePC_MainPage_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 20,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false
+    },
+    "MagicGirlMainPage": {
+      "PageName": {
+        "Name": "MagicGirlMainPage"
+      },
+      "RealPageName": {
+        "Name": "None"
+      },
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/Activities/MagicGirl/WBP_MagicGirl_MainPage.WBP_MagicGirl_MainPage_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 20,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false
+    },
+    "RotationCardMainPage": {
+      "PageName": {
+        "Name": "RotationCardMainPage"
+      },
+      "RealPageName": {
+        "Name": "None"
+      },
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/Activities/RotationCardPC/WBP_RotationCardPC_MainPage.WBP_RotationCardPC_MainPage_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 20,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false
+    },
+    "ThanksgivingDaySignInMainPage": {
+      "PageName": {
+        "Name": "ThanksgivingDaySignInMainPage"
+      },
+      "RealPageName": {
+        "Name": "None"
+      },
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/Activities/ThanksgivingDaySignIn/WBP_ThanksgivingDaySignIn_MainPage.WBP_ThanksgivingDaySignIn_MainPage_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 20,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false
+    },
+    "MBlinkageSignInMainPage": {
+      "PageName": {
+        "Name": "MBlinkageSignInMainPage"
+      },
+      "RealPageName": {
+        "Name": "None"
+      },
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/Activities/MBlinkage/WBP_MBlinkage_SignInMainPage.WBP_MBlinkage_SignInMainPage_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 20,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false
+    },
+    "GatheringCluesMainPage": {
+      "PageName": {
+        "Name": "GatheringCluesMainPage"
+      },
+      "RealPageName": {
+        "Name": "GatheringCluesMainPage"
+      },
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/Activities/Lilisi/WBP_Lilisi_MainPage.WBP_Lilisi_MainPage_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 25,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false
+    },
+    "GatheringCluesTaskPage": {
+      "PageName": {
+        "Name": "GatheringCluesTaskPage"
+      },
+      "RealPageName": {
+        "Name": "GatheringCluesTaskPage"
+      },
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/Activities/Lilisi/WBP_Lilisi_TaskPage.WBP_Lilisi_TaskPage_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 25,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false
+    },
+    "GatheringCluesStorePage": {
+      "PageName": {
+        "Name": "GatheringCluesStorePage"
+      },
+      "RealPageName": {
+        "Name": "GatheringCluesStorePage"
+      },
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/Activities/Lilisi/WBP_Lilisi_StorePage.WBP_Lilisi_StorePage_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 25,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false
+    },
+    "GatheringCluesThreadPage": {
+      "PageName": {
+        "Name": "GatheringCluesThreadPage"
+      },
+      "RealPageName": {
+        "Name": "GatheringCluesThreadPage"
+      },
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/Activities/Lilisi/WBP_Lilisi_ThreadPage.WBP_Lilisi_ThreadPage_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 25,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false
+    },
+    "GatheringCluesContentPage": {
+      "PageName": {
+        "Name": "GatheringCluesContentPage"
+      },
+      "RealPageName": {
+        "Name": "GatheringCluesContentPage"
+      },
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/Activities/Lilisi/WBP_Lilisi_StoryContentPage.WBP_Lilisi_StoryContentPage_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 25,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false
+    },
+    "GatheringCluesPointExchangePage": {
+      "PageName": {
+        "Name": "GatheringCluesPointExchangePage"
+      },
+      "RealPageName": {
+        "Name": "GatheringCluesPointExchangePage"
+      },
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/Activities/Lilisi/WBP_Lilisi_PointExchange.WBP_Lilisi_PointExchange_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 25,
       "FullScreen": false,
       "OnlyScreen2DUI": false
     },
@@ -11237,6 +11799,24 @@
       "PageClass": null,
       "ViewClass": {
         "AssetPathName": "/Game/PaperMan/UI/BP/PC/InGame/ScreenEffect/WBP_ScreenEffect_Flavia_Q.WBP_ScreenEffect_Flavia_Q_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": true,
+      "Layer": "EUILayer::Normal",
+      "Order": 0,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false
+    },
+    "ScreenEffectDamageCause": {
+      "PageName": {
+        "Name": "ScreenEffectDamageCause"
+      },
+      "RealPageName": {
+        "Name": "None"
+      },
+      "PageClass": null,
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/InGame/ScreenEffect/WBP_ScreenEffectDamageCause.WBP_ScreenEffectDamageCause_C",
         "SubPathString": ""
       },
       "bIsPanel": true,
@@ -13817,6 +14397,42 @@
       "PageClass": null,
       "ViewClass": {
         "AssetPathName": "/Game/PaperMan/UI/BP/PC/InGame/Zombie/Overhead/WBP_PickUp_HumanCardBox_20251027.WBP_PickUp_HumanCardBox_20251027_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 0,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false
+    },
+    "YugiriQSummonOverhead_206": {
+      "PageName": {
+        "Name": "YugiriQSummonOverhead_206"
+      },
+      "RealPageName": {
+        "Name": "OverheadWidget"
+      },
+      "PageClass": null,
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/InGame/Overhead/Skin/Yugiri/WBP_YugiriQSummonOverhead_206.WBP_YugiriQSummonOverhead_206_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 0,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false
+    },
+    "PickUpOverhead15402001": {
+      "PageName": {
+        "Name": "PickUpOverhead15402001"
+      },
+      "RealPageName": {
+        "Name": "OverheadWidget"
+      },
+      "PageClass": null,
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/InGame/Overhead/PickUp/WBP_PickUp_Knife15402001Overhead.WBP_PickUp_Knife15402001Overhead_C",
         "SubPathString": ""
       },
       "bIsPanel": false,
@@ -18625,6 +19241,27 @@
       "FullScreen": false,
       "OnlyScreen2DUI": false
     },
+    "UGCMapDetailPage": {
+      "PageName": {
+        "Name": "UGCMapDetailPage"
+      },
+      "RealPageName": {
+        "Name": "None"
+      },
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/UGCPC/Subscribe/WBP_UGCMapDetail.WBP_UGCMapDetail_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 105,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false
+    },
     "UGCPage": {
       "PageName": {
         "Name": "UGCPage"
@@ -20581,6 +21218,24 @@
       "FullScreen": false,
       "OnlyScreen2DUI": false
     },
+    "AbilityEnergy_SkillQ_Yugiri_206": {
+      "PageName": {
+        "Name": "AbilityEnergy_SkillQ_Yugiri"
+      },
+      "RealPageName": {
+        "Name": "AbilityEnergy"
+      },
+      "PageClass": null,
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/InGame/HUDPC/Abilities/Skin/Yugiri/WBP_AbilityQEnergyYugiri_206.WBP_AbilityQEnergyYugiri_206_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 0,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false
+    },
     "RefluxPage": {
       "PageName": {
         "Name": "RefluxPage"
@@ -21260,6 +21915,174 @@
         "SubPathString": ""
       },
       "bIsPanel": true,
+      "Layer": "EUILayer::Normal",
+      "Order": 0,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false
+    },
+    "GradeAMainPage": {
+      "PageName": {
+        "Name": "GradeAMainPage"
+      },
+      "RealPageName": {
+        "Name": "GradeAMainPage"
+      },
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/Activities/GradeATemplate/WBP_GradeAMainPage.WBP_GradeAMainPage_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 25,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false
+    },
+    "GradeATaskPage": {
+      "PageName": {
+        "Name": "GradeATaskPage"
+      },
+      "RealPageName": {
+        "Name": "GradeATaskPage"
+      },
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/Activities/GradeATemplate/WBP_GradeATaskPage.WBP_GradeATaskPage_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 26,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false
+    },
+    "GradeAStoryChapterPage": {
+      "PageName": {
+        "Name": "GradeAStoryChapterPage"
+      },
+      "RealPageName": {
+        "Name": "GradeAStoryChapterPage"
+      },
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/Activities/GradeATemplate/WBP_GradeAStoryChapterPage.WBP_GradeAStoryChapterPage_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 26,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false
+    },
+    "GradeAInfoPage": {
+      "PageName": {
+        "Name": "GradeAInfoPage"
+      },
+      "RealPageName": {
+        "Name": "GradeAInfoPage"
+      },
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/Activities/GradeATemplate/WBP_GradeAInfoPage.WBP_GradeAInfoPage_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 26,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false
+    },
+    "GradeADialogPage": {
+      "PageName": {
+        "Name": "GradeADialogPage"
+      },
+      "RealPageName": {
+        "Name": "GradeADialogPage"
+      },
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/Activities/GradeATemplate/WBP_GradeATalkPage.WBP_GradeATalkPage_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 26,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false
+    },
+    "GradeAPointExchangePage": {
+      "PageName": {
+        "Name": "GradeAPointExchangePage"
+      },
+      "RealPageName": {
+        "Name": "GradeAPointExchangePage"
+      },
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/Activities/GradeATemplate/WBP_GradeAPointExchange.WBP_GradeAPointExchange_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 26,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false
+    },
+    "GradeAStoryContentPage": {
+      "PageName": {
+        "Name": "GradeAStoryContentPage"
+      },
+      "RealPageName": {
+        "Name": "GradeAStoryContentPage"
+      },
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/Activities/GradeATemplate/WBP_GradeAStoryContentPage.WBP_GradeAStoryContentPage_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 26,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false
+    },
+    "GradeAGroupTaskPanel": {
+      "PageName": {
+        "Name": "GradeAGroupTaskPanel"
+      },
+      "RealPageName": {
+        "Name": "GradeAGroupTaskPanel"
+      },
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPanel'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/Activities/GradeATemplate/WBP_GradeAGroupTaskItem.WBP_GradeAGroupTaskItem_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
       "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,

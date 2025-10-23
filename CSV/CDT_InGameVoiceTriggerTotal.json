@@ -50615,16 +50615,14 @@
       "RoleId": 205,
       "IsCheckTeamType": true,
       "TeamType": "EPMTeamType::Attack",
-      "LookRoleIds": [
-        205
-      ],
-      "TargetRoleId": 205,
+      "LookRoleIds": [],
+      "TargetRoleId": 0,
       "InstigatorRoleId": 0,
       "Desc": {
         "Namespace": "InGameVoiceTrigger",
         "Key": "122205067_Desc",
-        "SourceString": "他人首杀（红皮彩蛋3）",
-        "LocalizedString": "他人首杀（红皮彩蛋3）"
+        "SourceString": "他人首杀（红皮彩蛋3）（废弃）",
+        "LocalizedString": "他人首杀（红皮彩蛋3）（废弃）"
       }
     },
     "122205068": {
@@ -50649,9 +50647,10 @@
       "IsCheckTeamType": true,
       "TeamType": "EPMTeamType::Attack",
       "LookRoleIds": [
+        119,
         205
       ],
-      "TargetRoleId": 205,
+      "TargetRoleId": 119,
       "InstigatorRoleId": 0,
       "Desc": {
         "Namespace": "InGameVoiceTrigger",
@@ -50749,11 +50748,11 @@
       "IsCheckTeamType": true,
       "TeamType": "EPMTeamType::Attack",
       "LookRoleIds": [
-        205,
-        107
+        107,
+        205
       ],
-      "TargetRoleId": 205,
-      "InstigatorRoleId": 107,
+      "TargetRoleId": 107,
+      "InstigatorRoleId": 0,
       "Desc": {
         "Namespace": "InGameVoiceTrigger",
         "Key": "122205071_Desc",
@@ -50851,16 +50850,14 @@
       "RoleId": 205,
       "IsCheckTeamType": true,
       "TeamType": "EPMTeamType::Defend",
-      "LookRoleIds": [
-        205
-      ],
-      "TargetRoleId": 205,
+      "LookRoleIds": [],
+      "TargetRoleId": 0,
       "InstigatorRoleId": 0,
       "Desc": {
         "Namespace": "InGameVoiceTrigger",
         "Key": "122205067_Desc",
-        "SourceString": "他人首杀（红皮彩蛋3）",
-        "LocalizedString": "他人首杀（红皮彩蛋3）"
+        "SourceString": "他人首杀（红皮彩蛋3）（废弃）",
+        "LocalizedString": "他人首杀（红皮彩蛋3）（废弃）"
       }
     },
     "122205075": {
@@ -50885,9 +50882,10 @@
       "IsCheckTeamType": true,
       "TeamType": "EPMTeamType::Defend",
       "LookRoleIds": [
+        119,
         205
       ],
-      "TargetRoleId": 205,
+      "TargetRoleId": 119,
       "InstigatorRoleId": 0,
       "Desc": {
         "Namespace": "InGameVoiceTrigger",
@@ -50985,11 +50983,11 @@
       "IsCheckTeamType": true,
       "TeamType": "EPMTeamType::Defend",
       "LookRoleIds": [
-        205,
-        107
+        107,
+        205
       ],
-      "TargetRoleId": 205,
-      "InstigatorRoleId": 107,
+      "TargetRoleId": 107,
+      "InstigatorRoleId": 0,
       "Desc": {
         "Namespace": "InGameVoiceTrigger",
         "Key": "122205071_Desc",
@@ -56430,6 +56428,490 @@
         "Key": "122101099_Desc",
         "SourceString": "使用防弹屏障",
         "LocalizedString": "使用防弹屏障"
+      }
+    },
+    "122121062": {
+      "Id": 122121062,
+      "GameplayTag": {
+        "TagName": "Event.Death"
+      },
+      "VoiceId": 0,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::EasterEggThree",
+      "BroadcastObjectType": "EBroadcastObjectType::Teammate",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 10.0,
+      "DelayPlayTime": 0.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::Bomb",
+        "EPMGameModeType::Bomb2",
+        "EPMGameModeType::BombGuide2"
+      ],
+      "RoleId": 121,
+      "IsCheckTeamType": true,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [
+        121
+      ],
+      "TargetRoleId": 121,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122121062_Desc",
+        "SourceString": "我方出现首位阵亡人员（红皮彩蛋3）",
+        "LocalizedString": "我方出现首位阵亡人员（红皮彩蛋3）"
+      }
+    },
+    "122121063": {
+      "Id": 122121063,
+      "GameplayTag": {
+        "TagName": "Event.Kill"
+      },
+      "VoiceId": 0,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::EasterEggTwo",
+      "BroadcastObjectType": "EBroadcastObjectType::SelfAndTeammate",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 10.0,
+      "DelayPlayTime": 0.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::Bomb",
+        "EPMGameModeType::Bomb2",
+        "EPMGameModeType::BombGuide2"
+      ],
+      "RoleId": 121,
+      "IsCheckTeamType": true,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [
+        115,
+        121
+      ],
+      "TargetRoleId": 115,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122121063_Desc",
+        "SourceString": "队友芙拉薇娅击杀敌人（红皮彩蛋4）",
+        "LocalizedString": "队友芙拉薇娅击杀敌人（红皮彩蛋4）"
+      }
+    },
+    "122121064": {
+      "Id": 122121064,
+      "GameplayTag": {
+        "TagName": "UIEvent.Game.RoundReady.Encourage"
+      },
+      "VoiceId": 0,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::EasterEggThree",
+      "BroadcastObjectType": "EBroadcastObjectType::SelfAndTeammate",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 10.0,
+      "DelayPlayTime": 10.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::Bomb",
+        "EPMGameModeType::Bomb2",
+        "EPMGameModeType::BombGuide2"
+      ],
+      "RoleId": 121,
+      "IsCheckTeamType": true,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [
+        121
+      ],
+      "TargetRoleId": 121,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122121064_Desc",
+        "SourceString": "大比分落后（红皮彩蛋5）",
+        "LocalizedString": "大比分落后（红皮彩蛋5）"
+      }
+    },
+    "122121065": {
+      "Id": 122121065,
+      "GameplayTag": {
+        "TagName": "UIEvent.Game.Remain.One.Self"
+      },
+      "VoiceId": 0,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::EasterEggTwo",
+      "BroadcastObjectType": "EBroadcastObjectType::Teammate",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 10.0,
+      "DelayPlayTime": 2.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::Bomb",
+        "EPMGameModeType::Bomb2",
+        "EPMGameModeType::BombGuide2"
+      ],
+      "RoleId": 121,
+      "IsCheckTeamType": true,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [
+        121
+      ],
+      "TargetRoleId": 121,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122121065_Desc",
+        "SourceString": "当自己最后存活（红皮彩蛋6）",
+        "LocalizedString": "当自己最后存活（红皮彩蛋6）"
+      }
+    },
+    "122121066": {
+      "Id": 122121066,
+      "GameplayTag": {
+        "TagName": "Event.Kill"
+      },
+      "VoiceId": 0,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::EasterEggOne",
+      "BroadcastObjectType": "EBroadcastObjectType::SelfAndEnemy",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 10.0,
+      "DelayPlayTime": 0.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::Bomb",
+        "EPMGameModeType::Bomb2",
+        "EPMGameModeType::BombGuide2"
+      ],
+      "RoleId": 121,
+      "IsCheckTeamType": true,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [
+        121,
+        115
+      ],
+      "TargetRoleId": 121,
+      "InstigatorRoleId": 115,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122121066_Desc",
+        "SourceString": "击杀特殊角色-芙拉薇娅（红皮彩蛋8）",
+        "LocalizedString": "击杀特殊角色-芙拉薇娅（红皮彩蛋8）"
+      }
+    },
+    "122121067": {
+      "Id": 122121067,
+      "GameplayTag": {
+        "TagName": "Event.Kill"
+      },
+      "VoiceId": 0,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::EasterEggTwo",
+      "BroadcastObjectType": "EBroadcastObjectType::SelfAndTeammate",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 10.0,
+      "DelayPlayTime": 0.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::Bomb",
+        "EPMGameModeType::Bomb2",
+        "EPMGameModeType::BombGuide2"
+      ],
+      "RoleId": 121,
+      "IsCheckTeamType": true,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [
+        125,
+        121
+      ],
+      "TargetRoleId": 125,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122121067_Desc",
+        "SourceString": "队友击杀特殊互动-千代（红皮彩蛋9）",
+        "LocalizedString": "队友击杀特殊互动-千代（红皮彩蛋9）"
+      }
+    },
+    "122121068": {
+      "Id": 122121068,
+      "GameplayTag": {
+        "TagName": "UIEvent.Game.Revenge"
+      },
+      "VoiceId": 0,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::EasterEggOne",
+      "BroadcastObjectType": "EBroadcastObjectType::SelfAndEnemy",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 10.0,
+      "DelayPlayTime": 3.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::Bomb",
+        "EPMGameModeType::Bomb2",
+        "EPMGameModeType::BombGuide2"
+      ],
+      "RoleId": 121,
+      "IsCheckTeamType": true,
+      "TeamType": "EPMTeamType::Attack",
+      "LookRoleIds": [
+        121,
+        119
+      ],
+      "TargetRoleId": 121,
+      "InstigatorRoleId": 119,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122121068_Desc",
+        "SourceString": "特殊复仇互动-艾卡（红皮彩蛋10）",
+        "LocalizedString": "特殊复仇互动-艾卡（红皮彩蛋10）"
+      }
+    },
+    "122121069": {
+      "Id": 122121069,
+      "GameplayTag": {
+        "TagName": "Event.Death"
+      },
+      "VoiceId": 0,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::EasterEggThree",
+      "BroadcastObjectType": "EBroadcastObjectType::Teammate",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 10.0,
+      "DelayPlayTime": 0.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::Bomb",
+        "EPMGameModeType::Bomb2",
+        "EPMGameModeType::BombGuide2"
+      ],
+      "RoleId": 121,
+      "IsCheckTeamType": true,
+      "TeamType": "EPMTeamType::Defend",
+      "LookRoleIds": [
+        121
+      ],
+      "TargetRoleId": 121,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122121062_Desc",
+        "SourceString": "我方出现首位阵亡人员（红皮彩蛋3）",
+        "LocalizedString": "我方出现首位阵亡人员（红皮彩蛋3）"
+      }
+    },
+    "122121070": {
+      "Id": 122121070,
+      "GameplayTag": {
+        "TagName": "Event.Kill"
+      },
+      "VoiceId": 0,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::EasterEggTwo",
+      "BroadcastObjectType": "EBroadcastObjectType::SelfAndTeammate",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 10.0,
+      "DelayPlayTime": 0.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::Bomb",
+        "EPMGameModeType::Bomb2",
+        "EPMGameModeType::BombGuide2"
+      ],
+      "RoleId": 121,
+      "IsCheckTeamType": true,
+      "TeamType": "EPMTeamType::Defend",
+      "LookRoleIds": [
+        115,
+        121
+      ],
+      "TargetRoleId": 115,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122121063_Desc",
+        "SourceString": "队友芙拉薇娅击杀敌人（红皮彩蛋4）",
+        "LocalizedString": "队友芙拉薇娅击杀敌人（红皮彩蛋4）"
+      }
+    },
+    "122121071": {
+      "Id": 122121071,
+      "GameplayTag": {
+        "TagName": "UIEvent.Game.RoundReady.Encourage"
+      },
+      "VoiceId": 0,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::EasterEggThree",
+      "BroadcastObjectType": "EBroadcastObjectType::SelfAndTeammate",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 10.0,
+      "DelayPlayTime": 10.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::Bomb",
+        "EPMGameModeType::Bomb2",
+        "EPMGameModeType::BombGuide2"
+      ],
+      "RoleId": 121,
+      "IsCheckTeamType": true,
+      "TeamType": "EPMTeamType::Defend",
+      "LookRoleIds": [
+        121
+      ],
+      "TargetRoleId": 121,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122121064_Desc",
+        "SourceString": "大比分落后（红皮彩蛋5）",
+        "LocalizedString": "大比分落后（红皮彩蛋5）"
+      }
+    },
+    "122121072": {
+      "Id": 122121072,
+      "GameplayTag": {
+        "TagName": "UIEvent.Game.Remain.One.Self"
+      },
+      "VoiceId": 0,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::EasterEggTwo",
+      "BroadcastObjectType": "EBroadcastObjectType::Teammate",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 10.0,
+      "DelayPlayTime": 2.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::Bomb",
+        "EPMGameModeType::Bomb2",
+        "EPMGameModeType::BombGuide2"
+      ],
+      "RoleId": 121,
+      "IsCheckTeamType": true,
+      "TeamType": "EPMTeamType::Defend",
+      "LookRoleIds": [
+        121
+      ],
+      "TargetRoleId": 121,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122121065_Desc",
+        "SourceString": "当自己最后存活（红皮彩蛋6）",
+        "LocalizedString": "当自己最后存活（红皮彩蛋6）"
+      }
+    },
+    "122121073": {
+      "Id": 122121073,
+      "GameplayTag": {
+        "TagName": "Event.Kill"
+      },
+      "VoiceId": 0,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::EasterEggOne",
+      "BroadcastObjectType": "EBroadcastObjectType::SelfAndEnemy",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 10.0,
+      "DelayPlayTime": 0.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::Bomb",
+        "EPMGameModeType::Bomb2",
+        "EPMGameModeType::BombGuide2"
+      ],
+      "RoleId": 121,
+      "IsCheckTeamType": true,
+      "TeamType": "EPMTeamType::Defend",
+      "LookRoleIds": [
+        121,
+        115
+      ],
+      "TargetRoleId": 121,
+      "InstigatorRoleId": 115,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122121066_Desc",
+        "SourceString": "击杀特殊角色-芙拉薇娅（红皮彩蛋8）",
+        "LocalizedString": "击杀特殊角色-芙拉薇娅（红皮彩蛋8）"
+      }
+    },
+    "122121074": {
+      "Id": 122121074,
+      "GameplayTag": {
+        "TagName": "Event.Kill"
+      },
+      "VoiceId": 0,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::EasterEggTwo",
+      "BroadcastObjectType": "EBroadcastObjectType::SelfAndTeammate",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 10.0,
+      "DelayPlayTime": 0.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::Bomb",
+        "EPMGameModeType::Bomb2",
+        "EPMGameModeType::BombGuide2"
+      ],
+      "RoleId": 121,
+      "IsCheckTeamType": true,
+      "TeamType": "EPMTeamType::Defend",
+      "LookRoleIds": [
+        125,
+        121
+      ],
+      "TargetRoleId": 125,
+      "InstigatorRoleId": 0,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122121067_Desc",
+        "SourceString": "队友击杀特殊互动-千代（红皮彩蛋9）",
+        "LocalizedString": "队友击杀特殊互动-千代（红皮彩蛋9）"
+      }
+    },
+    "122121075": {
+      "Id": 122121075,
+      "GameplayTag": {
+        "TagName": "UIEvent.Game.Revenge"
+      },
+      "VoiceId": 0,
+      "TotalType": "EInsideVoiceBigType::Role",
+      "InsideVoiceType": "EInsideVoiceType::EasterEggOne",
+      "BroadcastObjectType": "EBroadcastObjectType::SelfAndEnemy",
+      "IsRandom": false,
+      "RandomVoiceIds": [],
+      "CoolDownTime": 10.0,
+      "DelayPlayTime": 3.0,
+      "IsDeathNormalPlay": false,
+      "GameModeTypeList": [
+        "EPMGameModeType::Bomb",
+        "EPMGameModeType::Bomb2",
+        "EPMGameModeType::BombGuide2"
+      ],
+      "RoleId": 121,
+      "IsCheckTeamType": true,
+      "TeamType": "EPMTeamType::Defend",
+      "LookRoleIds": [
+        121,
+        119
+      ],
+      "TargetRoleId": 121,
+      "InstigatorRoleId": 119,
+      "Desc": {
+        "Namespace": "InGameVoiceTrigger",
+        "Key": "122121068_Desc",
+        "SourceString": "特殊复仇互动-艾卡（红皮彩蛋10）",
+        "LocalizedString": "特殊复仇互动-艾卡（红皮彩蛋10）"
       }
     },
     "122121500": {

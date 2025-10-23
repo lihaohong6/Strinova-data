@@ -232,6 +232,14 @@
       {
         "ObjectName": "DataTable'DT_UI_Channel'",
         "ObjectPath": "/Game/PaperMan/UI/BP/Mobile/Frontend/Channel/DT_UI_Channel"
+      },
+      {
+        "ObjectName": "DataTable'DT_UI_HallowmasMobile'",
+        "ObjectPath": "/Game/PaperMan/UI/BP/Mobile/Frontend/Activities/Hallowmas/DT_UI_HallowmasMobile"
+      },
+      {
+        "ObjectName": "DataTable'DT_UI_Biochemical_Mobile'",
+        "ObjectPath": "/Game/PaperMan/UI/BP/Mobile/Frontend/Activities/Biochemical/DT_UI_Biochemical_Mobile"
       }
     ],
     "RowStruct": {
@@ -834,7 +842,7 @@
         "ObjectPath": "/Script/PMGame"
       },
       "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/ReconnectMobile/WBP_ReconnectSDK_Mobile.WBP_ReconnectSDK_Mobile_C",
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/ReconnectMobile/WBP_Reconnect_Mobile.WBP_Reconnect_Mobile_C",
         "SubPathString": ""
       },
       "bIsPanel": false,
@@ -1993,8 +2001,8 @@
         "SubPathString": ""
       },
       "bIsPanel": false,
-      "Layer": "EUILayer::Normal",
-      "Order": 1,
+      "Layer": "EUILayer::Top",
+      "Order": 61,
       "FullScreen": false,
       "OnlyScreen2DUI": false
     },
@@ -3867,6 +3875,27 @@
       "FullScreen": false,
       "OnlyScreen2DUI": false
     },
+    "SettingMultiFingerPage": {
+      "PageName": {
+        "Name": "GodPlanUploadPage"
+      },
+      "RealPageName": {
+        "Name": "None"
+      },
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/SettingMobile/Panel/WBP_MultiFingerPage_Mobile.WBP_MultiFingerPage_Mobile_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Top",
+      "Order": 105,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false
+    },
     "PlayerProfilePage": {
       "PageName": {
         "Name": "PlayerProfilePage"
@@ -4392,6 +4421,27 @@
       "FullScreen": false,
       "OnlyScreen2DUI": false
     },
+    "FriendBattleRecordInfoPage": {
+      "PageName": {
+        "Name": "BattleRecordInfoPage"
+      },
+      "RealPageName": {
+        "Name": "None"
+      },
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/PlayerProfileMobile/BattleRecordPage/BattleRecordData/WBP_BattleRecordDataMainPage_Mobile.WBP_BattleRecordDataMainPage_Mobile_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 1,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false
+    },
     "KaPhonePage": {
       "PageName": {
         "Name": "KaPhonePage"
@@ -4677,7 +4727,7 @@
         "ObjectPath": "/Script/PMGame"
       },
       "ViewClass": {
-        "AssetPathName": "/Game/PaperMan/UI/BP/PC/InGame/Character/CommonCharacter/WBP_ControlSummonPanel.WBP_ControlSummonPanel_C",
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/Character/CommonCharacter/WBP_ControlSummonPanel_Mobile.WBP_ControlSummonPanel_Mobile_C",
         "SubPathString": ""
       },
       "bIsPanel": false,
@@ -5505,6 +5555,24 @@
       "FullScreen": false,
       "OnlyScreen2DUI": false
     },
+    "SceneMap_GalateaCast": {
+      "PageName": {
+        "Name": "SceneMap_GalateaCast"
+      },
+      "RealPageName": {
+        "Name": "None"
+      },
+      "PageClass": null,
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/SceneMap/AbilityItems/WBP_AbilityGalateaCast_Mobile.WBP_AbilityGalateaCast_Mobile_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 0,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false
+    },
     "CharacterOverhead": {
       "PageName": {
         "Name": "SummonHeadUIPanel"
@@ -6243,6 +6311,60 @@
       "FullScreen": false,
       "OnlyScreen2DUI": false
     },
+    "SummonFakeHumanOverhead": {
+      "PageName": {
+        "Name": "SummonFakeHumanOverhead"
+      },
+      "RealPageName": {
+        "Name": "None"
+      },
+      "PageClass": null,
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/Overhead/WBP_SummonOverhead_Mobile.WBP_SummonOverhead_Mobile_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 0,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false
+    },
+    "SummonFakeHumanOverheadEnemy": {
+      "PageName": {
+        "Name": "SummonFakeHumanOverheadEnemy"
+      },
+      "RealPageName": {
+        "Name": "None"
+      },
+      "PageClass": null,
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/Overhead/WBP_SummonOverhead_Mobile.WBP_SummonOverhead_Mobile_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 0,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false
+    },
+    "GalateaCItemOverhead": {
+      "PageName": {
+        "Name": "GalateaCItemOverhead"
+      },
+      "RealPageName": {
+        "Name": "None"
+      },
+      "PageClass": null,
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/Overhead/WBP_SummonOverheadGalateaCItemCast_Mobile.WBP_SummonOverheadGalateaCItemCast_Mobile_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 0,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false
+    },
     "ReloadProgressUI": {
       "PageName": {
         "Name": "ReloadProgressUI"
@@ -6819,6 +6941,207 @@
       "bIsPanel": false,
       "Layer": "EUILayer::Normal",
       "Order": 0,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false
+    },
+    "PracticeGrenadeSignage1": {
+      "PageName": {
+        "Name": "PracticeGrenadeSignage1"
+      },
+      "RealPageName": {
+        "Name": "None"
+      },
+      "PageClass": null,
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/Practice/GrenadeSignage/WBP_PracticeGrenadeSignage1_Mobile.WBP_PracticeGrenadeSignage1_Mobile_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": true,
+      "Layer": "EUILayer::Normal",
+      "Order": 0,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false
+    },
+    "PracticeGrenadeSignage2": {
+      "PageName": {
+        "Name": "PracticeGrenadeSignage2"
+      },
+      "RealPageName": {
+        "Name": "None"
+      },
+      "PageClass": null,
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/Practice/GrenadeSignage/WBP_PracticeGrenadeSignage2_Mobile.WBP_PracticeGrenadeSignage2_Mobile_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": true,
+      "Layer": "EUILayer::Normal",
+      "Order": 0,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false
+    },
+    "PracticeGrenadeSignage3": {
+      "PageName": {
+        "Name": "PracticeGrenadeSignage3"
+      },
+      "RealPageName": {
+        "Name": "None"
+      },
+      "PageClass": null,
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/Practice/GrenadeSignage/WBP_PracticeGrenadeSignage3_Mobile.WBP_PracticeGrenadeSignage3_Mobile_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": true,
+      "Layer": "EUILayer::Normal",
+      "Order": 0,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false
+    },
+    "PracticeGrenadeSignage4": {
+      "PageName": {
+        "Name": "PracticeGrenadeSignage4"
+      },
+      "RealPageName": {
+        "Name": "None"
+      },
+      "PageClass": null,
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/Practice/GrenadeSignage/WBP_PracticeGrenadeSignage4_Mobile.WBP_PracticeGrenadeSignage4_Mobile_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": true,
+      "Layer": "EUILayer::Normal",
+      "Order": 0,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false
+    },
+    "PracticeGrenadeSignage5": {
+      "PageName": {
+        "Name": "PracticeGrenadeSignage5"
+      },
+      "RealPageName": {
+        "Name": "None"
+      },
+      "PageClass": null,
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/Practice/GrenadeSignage/WBP_PracticeGrenadeSignage5_Mobile.WBP_PracticeGrenadeSignage5_Mobile_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": true,
+      "Layer": "EUILayer::Normal",
+      "Order": 0,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false
+    },
+    "PracticeGrenadeSignage6": {
+      "PageName": {
+        "Name": "PracticeGrenadeSignage6"
+      },
+      "RealPageName": {
+        "Name": "None"
+      },
+      "PageClass": null,
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/Practice/GrenadeSignage/WBP_PracticeGrenadeSignage6_Mobile.WBP_PracticeGrenadeSignage6_Mobile_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": true,
+      "Layer": "EUILayer::Normal",
+      "Order": 0,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false
+    },
+    "PracticeGrenadeSignage7": {
+      "PageName": {
+        "Name": "PracticeGrenadeSignage7"
+      },
+      "RealPageName": {
+        "Name": "None"
+      },
+      "PageClass": null,
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/Practice/GrenadeSignage/WBP_PracticeGrenadeSignage7_Mobile.WBP_PracticeGrenadeSignage7_Mobile_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": true,
+      "Layer": "EUILayer::Normal",
+      "Order": 0,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false
+    },
+    "PracticeGrenadeSignage8": {
+      "PageName": {
+        "Name": "PracticeGrenadeSignage8"
+      },
+      "RealPageName": {
+        "Name": "None"
+      },
+      "PageClass": null,
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/Practice/GrenadeSignage/WBP_PracticeGrenadeSignage8_Mobile.WBP_PracticeGrenadeSignage8_Mobile_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": true,
+      "Layer": "EUILayer::Normal",
+      "Order": 0,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false
+    },
+    "PracticeGrenadeSignageBase": {
+      "PageName": {
+        "Name": "PracticeGrenadeSignageBase"
+      },
+      "RealPageName": {
+        "Name": "None"
+      },
+      "PageClass": null,
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/Practice/GrenadeSignage/WBP_PracticeGrenadeSignageBase_Mobile.WBP_PracticeGrenadeSignageBase_Mobile_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": true,
+      "Layer": "EUILayer::Normal",
+      "Order": 0,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false
+    },
+    "Practice_TargetSelectionPage": {
+      "PageName": {
+        "Name": "Practice_TargetSelectionPage"
+      },
+      "RealPageName": {
+        "Name": "None"
+      },
+      "PageClass": null,
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/Practice/WBP_Practice_TargetSelectionPage_Mobile.WBP_Practice_TargetSelectionPage_Mobile_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 0,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false
+    },
+    "GrowthPracticePage": {
+      "PageName": {
+        "Name": "GrowthPracticePage"
+      },
+      "RealPageName": {
+        "Name": "None"
+      },
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/NonResidentFunctions/Growth/Bomb/New/WBP_GrowthPanelBomb_New_Mobile.WBP_GrowthPanelBomb_New_Mobile_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Top",
+      "Order": 60,
       "FullScreen": false,
       "OnlyScreen2DUI": false
     },
@@ -7433,7 +7756,7 @@
     },
     "HeartStringsMainPage": {
       "PageName": {
-        "Name": "HeartstringsMainPage"
+        "Name": "HeartStringsMainPage"
       },
       "RealPageName": {
         "Name": "None"
@@ -7742,6 +8065,69 @@
       },
       "bIsPanel": false,
       "Layer": "EUILayer::Top",
+      "Order": 0,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false
+    },
+    "HallowmasMainPageMobile": {
+      "PageName": {
+        "Name": "HallowmasMainPage"
+      },
+      "RealPageName": {
+        "Name": "None"
+      },
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/Activities/Hallowmas/WBP_HallowmasMainPage_Mobile.WBP_HallowmasMainPage_Mobile_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 24,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false
+    },
+    "GalateaOnlineMainPage": {
+      "PageName": {
+        "Name": "NewRoleOnlineMainPage"
+      },
+      "RealPageName": {
+        "Name": "None"
+      },
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/Activities/NewRoleOnline/WBP_GalateaOnlineMainPage_Mobile.WBP_GalateaOnlineMainPage_Mobile_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 0,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false
+    },
+    "FragransOnlineMainPage": {
+      "PageName": {
+        "Name": "FragransOnlineMainPage"
+      },
+      "RealPageName": {
+        "Name": "None"
+      },
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/Activities/NewRoleOnline/WBP_FragransOnlineMainPage_Mobile.WBP_FragransOnlineMainPage_Mobile_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
       "Order": 0,
       "FullScreen": false,
       "OnlyScreen2DUI": false
@@ -8709,6 +9095,27 @@
       "FullScreen": false,
       "OnlyScreen2DUI": false
     },
+    "ZombieOBInventoryPage": {
+      "PageName": {
+        "Name": "Escort2OBInventoryPage"
+      },
+      "RealPageName": {
+        "Name": "None"
+      },
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/Zombie/CardSystem/Speactor/WBP_ZombieOBInventoryPage_Mobile.WBP_ZombieOBInventoryPage_Mobile_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Top",
+      "Order": 0,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false
+    },
     "TalentPage": {
       "PageName": {
         "Name": "TalentPage"
@@ -9536,7 +9943,7 @@
         "Name": "AbilityWeaponDuration_SkillX_Flavia"
       },
       "RealPageName": {
-        "Name": "AbilityWeaponDuration"
+        "Name": "AbilityWeaponDurationX"
       },
       "PageClass": null,
       "ViewClass": {
@@ -9626,7 +10033,7 @@
         "Name": "AbilityWeaponDuration_SkillX_Fragrans"
       },
       "RealPageName": {
-        "Name": "AbilityWeaponDuration"
+        "Name": "AbilityWeaponDurationX"
       },
       "PageClass": null,
       "ViewClass": {
@@ -9649,6 +10056,24 @@
       "PageClass": null,
       "ViewClass": {
         "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/HUDMobile/Abilities/WBP_AbilityDescriptionPanel_Mobile.WBP_AbilityDescriptionPanel_Mobile_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": true,
+      "Layer": "EUILayer::Normal",
+      "Order": 0,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false
+    },
+    "AbilityXDuration_Common": {
+      "PageName": {
+        "Name": "AbilityXDuration_Common"
+      },
+      "RealPageName": {
+        "Name": "AbilityDurationX"
+      },
+      "PageClass": null,
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/HUDMobile/Abilities/WBP_AbilityXDuration_Common_Mobile.WBP_AbilityXDuration_Common_Mobile_C",
         "SubPathString": ""
       },
       "bIsPanel": true,
@@ -9842,6 +10267,27 @@
       },
       "bIsPanel": false,
       "Layer": "EUILayer::Normal",
+      "Order": 0,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false
+    },
+    "RoulettePage": {
+      "PageName": {
+        "Name": "RoulettePage"
+      },
+      "RealPageName": {
+        "Name": "None"
+      },
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/Collection/WBP_RoulettePage_Mobile.WBP_RoulettePage_Mobile_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Top",
       "Order": 0,
       "FullScreen": false,
       "OnlyScreen2DUI": false
@@ -11610,6 +12056,24 @@
       "FullScreen": false,
       "OnlyScreen2DUI": false
     },
+    "ScreenEffectDamageCause": {
+      "PageName": {
+        "Name": "ScreenEffectDamageCause"
+      },
+      "RealPageName": {
+        "Name": "None"
+      },
+      "PageClass": null,
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/InGame/ScreenEffect/WBP_ScreenEffectDamageCause_Mobile.WBP_ScreenEffectDamageCause_Mobile_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": true,
+      "Layer": "EUILayer::Normal",
+      "Order": 0,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false
+    },
     "SelectVehiclePage": {
       "PageName": {
         "Name": "SelectVehiclePage"
@@ -12027,6 +12491,237 @@
       "bIsPanel": false,
       "Layer": "EUILayer::Top",
       "Order": 0,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false
+    },
+    "HallowmasMainPage": {
+      "PageName": {
+        "Name": "HallowmasMainPage"
+      },
+      "RealPageName": {
+        "Name": "None"
+      },
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/Activities/Hallowmas/WBP_HallowmasAwardPage_Mobile.WBP_HallowmasAwardPage_Mobile_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 26,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false
+    },
+    "HallowmasTaskPage": {
+      "PageName": {
+        "Name": "HallowmasTaskPage"
+      },
+      "RealPageName": {
+        "Name": "None"
+      },
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/Activities/Hallowmas/WBP_HallowmasTaskPage_Mobile.WBP_HallowmasTaskPage_Mobile_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Top",
+      "Order": 26,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false
+    },
+    "HallowmasStoryChapterPage": {
+      "PageName": {
+        "Name": "HallowmasStoryChapterPage"
+      },
+      "RealPageName": {
+        "Name": "None"
+      },
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/Activities/Hallowmas/WBP_HallowmasAwardPage_Mobile.WBP_HallowmasAwardPage_Mobile_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 26,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false
+    },
+    "HallowmasInfoPage": {
+      "PageName": {
+        "Name": "HallowmasInfoPage"
+      },
+      "RealPageName": {
+        "Name": "None"
+      },
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/Activities/Hallowmas/WBP_HallowmasDetailPage_Mobile.WBP_HallowmasDetailPage_Mobile_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Top",
+      "Order": 26,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false
+    },
+    "HallowmasDialogPage": {
+      "PageName": {
+        "Name": "HallowmasDialogPage"
+      },
+      "RealPageName": {
+        "Name": "None"
+      },
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/Activities/Hallowmas/WBP_HallowmasTalkPage_Mobile.WBP_HallowmasTalkPage_Mobile_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Top",
+      "Order": 26,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false
+    },
+    "HallowmasPointExchange": {
+      "PageName": {
+        "Name": "HallowmasPointExchange"
+      },
+      "RealPageName": {
+        "Name": "None"
+      },
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/Activities/Hallowmas/WBP_HallowmasShopPage_Mobile.WBP_HallowmasShopPage_Mobile_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Top",
+      "Order": 26,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false
+    },
+    "HallowmasStoryContentPage": {
+      "PageName": {
+        "Name": "HallowmasStoryContentPage"
+      },
+      "RealPageName": {
+        "Name": "None"
+      },
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/PC/Frontend/Activities/Cheongsam/WBP_CheongsamGradeAStoryContentPage.WBP_CheongsamGradeAStoryContentPage_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Top",
+      "Order": 26,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false
+    },
+    "BiochemicalModeMainPageMB": {
+      "PageName": {
+        "Name": "BiochemicalModeMainPageMB"
+      },
+      "RealPageName": {
+        "Name": "None"
+      },
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/Activities/Biochemical/WBP_Biochemical_Main_Mobile.WBP_Biochemical_Main_Mobile_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Normal",
+      "Order": 25,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false
+    },
+    "BiochemicalArchivePageMB": {
+      "PageName": {
+        "Name": "BiochemicalArchivePageMB"
+      },
+      "RealPageName": {
+        "Name": "None"
+      },
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/Activities/Biochemical/WBP_Biochemical_Archives_Mobile.WBP_Biochemical_Archives_Mobile_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Top",
+      "Order": 1,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false
+    },
+    "BiochemicalInvitationPageMB": {
+      "PageName": {
+        "Name": "BiochemicalInvitationPageMB"
+      },
+      "RealPageName": {
+        "Name": "None"
+      },
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/Activities/Biochemical/WBP_Biochemical_Phone_Mobile.WBP_Biochemical_Phone_Mobile_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Top",
+      "Order": 1,
+      "FullScreen": false,
+      "OnlyScreen2DUI": false
+    },
+    "BiochemicalLevelUpPageMB": {
+      "PageName": {
+        "Name": "BiochemicalLevelUpPageMB"
+      },
+      "RealPageName": {
+        "Name": "None"
+      },
+      "PageClass": {
+        "ObjectName": "Class'PMViewControllerPage'",
+        "ObjectPath": "/Script/PMGame"
+      },
+      "ViewClass": {
+        "AssetPathName": "/Game/PaperMan/UI/BP/Mobile/Frontend/Activities/Biochemical/WBP_Biochemical_LevelUp_Mobile.WBP_Biochemical_LevelUp_Mobile_C",
+        "SubPathString": ""
+      },
+      "bIsPanel": false,
+      "Layer": "EUILayer::Top",
+      "Order": 27,
       "FullScreen": false,
       "OnlyScreen2DUI": false
     }
