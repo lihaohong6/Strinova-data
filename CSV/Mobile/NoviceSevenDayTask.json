@@ -84,7 +84,7 @@
       "Prize": [
         {
           "ItemId": 2,
-          "ItemAmount": 300
+          "ItemAmount": 200
         }
       ],
       "TaskConditions": [
@@ -517,7 +517,7 @@
       "Prize": [
         {
           "ItemId": 2,
-          "ItemAmount": 300
+          "ItemAmount": 200
         }
       ],
       "TaskConditions": [
@@ -577,8 +577,8 @@
       "Type": 8,
       "Prize": [
         {
-          "ItemId": 22001,
-          "ItemAmount": 1
+          "ItemId": 6,
+          "ItemAmount": 50
         }
       ],
       "TaskConditions": [
@@ -700,7 +700,7 @@
       "Prize": [
         {
           "ItemId": 2,
-          "ItemAmount": 300
+          "ItemAmount": 200
         }
       ],
       "TaskConditions": [
@@ -948,7 +948,7 @@
       "Prize": [
         {
           "ItemId": 2,
-          "ItemAmount": 500
+          "ItemAmount": 200
         }
       ],
       "TaskConditions": [
@@ -1069,8 +1069,8 @@
       "Type": 8,
       "Prize": [
         {
-          "ItemId": 25111,
-          "ItemAmount": 9
+          "ItemId": 22001,
+          "ItemAmount": 1
         }
       ],
       "TaskConditions": [
@@ -1130,8 +1130,8 @@
       "Type": 8,
       "Prize": [
         {
-          "ItemId": 6,
-          "ItemAmount": 50
+          "ItemId": 10213,
+          "ItemAmount": 1
         }
       ],
       "TaskConditions": [
@@ -1191,8 +1191,8 @@
       "Type": 8,
       "Prize": [
         {
-          "ItemId": 10702,
-          "ItemAmount": 1
+          "ItemId": 6,
+          "ItemAmount": 50
         }
       ],
       "TaskConditions": [
@@ -1252,8 +1252,8 @@
       "Type": 8,
       "Prize": [
         {
-          "ItemId": 25101,
-          "ItemAmount": 4
+          "ItemId": 2,
+          "ItemAmount": 200
         }
       ],
       "TaskConditions": [
@@ -1367,27 +1367,27 @@
       "Day": 5,
       "Desc": {
         "Namespace": "NoviceSevenDayTask",
-        "Key": "80503_Desc",
-        "SourceString": "装备{0}次饰品",
-        "LocalizedString": "装备{0}次饰品"
+        "Key": "80105_Desc",
+        "SourceString": "使用{0}次技能",
+        "LocalizedString": "使用{0}次技能"
       },
       "Type": 8,
       "Prize": [
         {
-          "ItemId": 25112,
-          "ItemAmount": 3
+          "ItemId": 6,
+          "ItemAmount": 50
         }
       ],
       "TaskConditions": [
         {
           "MainCondition": {
-            "MainType": "ECyTaskMainConditionType::Lobby",
+            "MainType": "ECyTaskMainConditionType::Battle",
             "GameCondition": "ECyTaskGameConditionType::None",
             "GameResult": "ECyGameResultType::None",
             "RoundResult": "ECyRoundResultType::None",
             "bFriendTeam": false,
             "bNoFriendTeam": false,
-            "BattleCondition": "ECyTaskBattleConditionType::None",
+            "BattleCondition": "ECyTaskBattleConditionType::UseSkillNum",
             "bHeadshot": false,
             "bHitBody": false,
             "bFirstKill": false,
@@ -1403,11 +1403,15 @@
             "EnemyMeshModes": [],
             "WeaponTypes": [],
             "WeaponHoldType": [],
-            "SkillTypes": [],
-            "Num": 1,
+            "SkillTypes": [
+              "ECyPlayerSkillType::Q",
+              "ECyPlayerSkillType::X",
+              "ECyPlayerSkillType::E"
+            ],
+            "Num": 60,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
-            "BehaviorId": 73,
+            "BehaviorId": 0,
             "RandomCondition": [],
             "EscortActionType": [],
             "ZombieActionType": [],
@@ -1420,7 +1424,7 @@
         "GameTypes": [],
         "ModeTypes": []
       },
-      "GoTo": 12100,
+      "GoTo": 12303,
       "SortId": 75
     },
     "80504": {
@@ -1428,27 +1432,27 @@
       "Day": 5,
       "Desc": {
         "Namespace": "NoviceSevenDayTask",
-        "Key": "80504_Desc",
-        "SourceString": "强化{0}次饰品",
-        "LocalizedString": "强化{0}次饰品"
+        "Key": "80303_Desc",
+        "SourceString": "击败{0}名敌人",
+        "LocalizedString": "击败{0}名敌人"
       },
       "Type": 8,
       "Prize": [
         {
-          "ItemId": 10702,
-          "ItemAmount": 1
+          "ItemId": 2,
+          "ItemAmount": 200
         }
       ],
       "TaskConditions": [
         {
           "MainCondition": {
-            "MainType": "ECyTaskMainConditionType::Lobby",
+            "MainType": "ECyTaskMainConditionType::Battle",
             "GameCondition": "ECyTaskGameConditionType::None",
             "GameResult": "ECyGameResultType::None",
             "RoundResult": "ECyRoundResultType::None",
             "bFriendTeam": false,
             "bNoFriendTeam": false,
-            "BattleCondition": "ECyTaskBattleConditionType::None",
+            "BattleCondition": "ECyTaskBattleConditionType::KillNum",
             "bHeadshot": false,
             "bHitBody": false,
             "bFirstKill": false,
@@ -1465,10 +1469,10 @@
             "WeaponTypes": [],
             "WeaponHoldType": [],
             "SkillTypes": [],
-            "Num": 1,
+            "Num": 275,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
-            "BehaviorId": 72,
+            "BehaviorId": 0,
             "RandomCondition": [],
             "EscortActionType": [],
             "ZombieActionType": [],
@@ -1481,7 +1485,7 @@
         "GameTypes": [],
         "ModeTypes": []
       },
-      "GoTo": 12100,
+      "GoTo": 12303,
       "SortId": 76
     },
     "80505": {
@@ -1557,8 +1561,8 @@
       "Type": 8,
       "Prize": [
         {
-          "ItemId": 25101,
-          "ItemAmount": 4
+          "ItemId": 2,
+          "ItemAmount": 200
         }
       ],
       "TaskConditions": [
@@ -1672,15 +1676,15 @@
       "Day": 6,
       "Desc": {
         "Namespace": "NoviceSevenDayTask",
-        "Key": "80504_Desc",
-        "SourceString": "强化{0}次饰品",
-        "LocalizedString": "强化{0}次饰品"
+        "Key": "80404_Desc",
+        "SourceString": "点赞{0}次",
+        "LocalizedString": "点赞{0}次"
       },
       "Type": 8,
       "Prize": [
         {
-          "ItemId": 10702,
-          "ItemAmount": 2
+          "ItemId": 2,
+          "ItemAmount": 200
         }
       ],
       "TaskConditions": [
@@ -1709,10 +1713,10 @@
             "WeaponTypes": [],
             "WeaponHoldType": [],
             "SkillTypes": [],
-            "Num": 5,
+            "Num": 40,
             "EventInstigatorTeamRole": "ECyTaskTeamRoleType::None",
             "EventTargetTeamRole": "ECyTaskTeamRoleType::None",
-            "BehaviorId": 72,
+            "BehaviorId": 3,
             "RandomCondition": [],
             "EscortActionType": [],
             "ZombieActionType": [],
@@ -1725,7 +1729,7 @@
         "GameTypes": [],
         "ModeTypes": []
       },
-      "GoTo": 12100,
+      "GoTo": 12303,
       "SortId": 70
     },
     "80604": {
@@ -1740,8 +1744,8 @@
       "Type": 8,
       "Prize": [
         {
-          "ItemId": 25112,
-          "ItemAmount": 3
+          "ItemId": 6,
+          "ItemAmount": 50
         }
       ],
       "TaskConditions": [
@@ -1786,7 +1790,7 @@
         "GameTypes": [],
         "ModeTypes": []
       },
-      "GoTo": 10301,
+      "GoTo": 12100,
       "SortId": 71
     },
     "80605": {
@@ -1801,8 +1805,8 @@
       "Type": 8,
       "Prize": [
         {
-          "ItemId": 6,
-          "ItemAmount": 50
+          "ItemId": 10502,
+          "ItemAmount": 1
         }
       ],
       "TaskConditions": [
@@ -1864,8 +1868,8 @@
       "Type": 8,
       "Prize": [
         {
-          "ItemId": 25101,
-          "ItemAmount": 4
+          "ItemId": 2,
+          "ItemAmount": 200
         }
       ],
       "TaskConditions": [
@@ -2047,8 +2051,8 @@
       "Type": 8,
       "Prize": [
         {
-          "ItemId": 10702,
-          "ItemAmount": 2
+          "ItemId": 2,
+          "ItemAmount": 200
         }
       ],
       "TaskConditions": [

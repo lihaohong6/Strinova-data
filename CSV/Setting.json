@@ -907,38 +907,38 @@
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Setting.ST_Setting",
           "Key": "Opt_SystemAnnouncementVoice_1",
-          "SourceString": "中文语音",
-          "LocalizedString": "中文语音"
+          "SourceString": "中文播报",
+          "LocalizedString": "中文播报"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Setting.ST_Setting",
           "Key": "Opt_SystemAnnouncementVoice_2",
-          "SourceString": "香奈美语音（中文）",
-          "LocalizedString": "香奈美语音（中文）"
+          "SourceString": "香奈美中文播报",
+          "LocalizedString": "香奈美中文播报"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Setting.ST_Setting",
           "Key": "Opt_SystemAnnouncementVoice_3",
-          "SourceString": "日语语音",
-          "LocalizedString": "日语语音"
+          "SourceString": "日文播报",
+          "LocalizedString": "日文播报"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Setting.ST_Setting",
           "Key": "Opt_SystemAnnouncementVoice_4",
-          "SourceString": "英语语音",
-          "LocalizedString": "英语语音"
+          "SourceString": "英文播报",
+          "LocalizedString": "英文播报"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Setting.ST_Setting",
           "Key": "Opt_SystemAnnouncementVoice_5",
-          "SourceString": "中文男声",
-          "LocalizedString": "中文男声"
+          "SourceString": "中文男声播报",
+          "LocalizedString": "中文男声播报"
         },
         {
           "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Setting.ST_Setting",
           "Key": "Opt_SystemAnnouncementVoice_6",
-          "SourceString": "香奈美语音（日语）",
-          "LocalizedString": "香奈美语音（日语）"
+          "SourceString": "香奈美日文播报",
+          "LocalizedString": "香奈美日文播报"
         }
       ],
       "DefaultOptions": 1,
@@ -5016,6 +5016,109 @@
       "SubType": "",
       "Title": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Setting.ST_Setting",
+        "Key": "Title161",
+        "SourceString": "特效质量",
+        "LocalizedString": "特效质量"
+      },
+      "Name": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Setting.ST_Setting",
+        "Key": "TeamEffectQuality_1",
+        "SourceString": "友方特效粒子质量",
+        "LocalizedString": "友方特效粒子质量"
+      },
+      "UiType": 3,
+      "Options": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Setting.ST_Setting",
+          "Key": "Opt_35",
+          "SourceString": "低",
+          "LocalizedString": "低"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Setting.ST_Setting",
+          "Key": "Opt_42",
+          "SourceString": "中",
+          "LocalizedString": "中"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Setting.ST_Setting",
+          "Key": "Opt_37",
+          "SourceString": "高",
+          "LocalizedString": "高"
+        }
+      ],
+      "DefaultOptions": 3,
+      "Tips": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Setting.ST_Setting",
+        "Key": "TeamEffectQuality_2",
+        "SourceString": "调整友方特效LOD（细节层次），降低非关键特效质量，保证对战帧数稳定。（友方不包括自己）\r\n\r\n*仅在PVE以及晶源感染模式生效",
+        "LocalizedString": "调整友方特效LOD（细节层次），降低非关键特效质量，保证对战帧数稳定。（友方不包括自己）\r\n\r\n*仅在PVE以及晶源感染模式生效"
+      },
+      "Max": 0,
+      "Min": 0,
+      "Step": 0,
+      "Indexkey": "TeamEffectQuality",
+      "DefaultOption2": "1, 2, 3",
+      "Status": 0,
+      "Issub": 0,
+      "ExtraOption1": 0
+    },
+    "410": {
+      "Id": 410,
+      "Type": "Visual",
+      "SubType": "",
+      "Title": {
+        "CultureInvariantString": null
+      },
+      "Name": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Setting.ST_Setting",
+        "Key": "EnemyEffectQuality_1",
+        "SourceString": "敌方特效粒子质量",
+        "LocalizedString": "敌方特效粒子质量"
+      },
+      "UiType": 3,
+      "Options": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Setting.ST_Setting",
+          "Key": "Opt_35",
+          "SourceString": "低",
+          "LocalizedString": "低"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Setting.ST_Setting",
+          "Key": "Opt_42",
+          "SourceString": "中",
+          "LocalizedString": "中"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Setting.ST_Setting",
+          "Key": "Opt_37",
+          "SourceString": "高",
+          "LocalizedString": "高"
+        }
+      ],
+      "DefaultOptions": 3,
+      "Tips": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Setting.ST_Setting",
+        "Key": "EnemyEffectQuality_2",
+        "SourceString": "调整敌方特效LOD（细节层次），降低非关键特效质量，保证对战帧数稳定。\r\n\r\n*仅在PVE以及晶源感染模式生效",
+        "LocalizedString": "调整敌方特效LOD（细节层次），降低非关键特效质量，保证对战帧数稳定。\r\n\r\n*仅在PVE以及晶源感染模式生效"
+      },
+      "Max": 0,
+      "Min": 0,
+      "Step": 0,
+      "Indexkey": "EnemyEffectQuality",
+      "DefaultOption2": "1, 2, 3",
+      "Status": 0,
+      "Issub": 0,
+      "ExtraOption1": 0
+    },
+    "411": {
+      "Id": 411,
+      "Type": "Visual",
+      "SubType": "",
+      "Title": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Setting.ST_Setting",
         "Key": "Title16",
         "SourceString": "图像质量",
         "LocalizedString": "图像质量"
@@ -5075,8 +5178,8 @@
       "Issub": 0,
       "ExtraOption1": 0
     },
-    "410": {
-      "Id": 410,
+    "412": {
+      "Id": 412,
       "Type": "Visual",
       "SubType": "",
       "Title": {
@@ -5119,8 +5222,8 @@
       "Issub": 0,
       "ExtraOption1": 0
     },
-    "411": {
-      "Id": 411,
+    "413": {
+      "Id": 413,
       "Type": "Visual",
       "SubType": "",
       "Title": {
@@ -5169,8 +5272,8 @@
       "Issub": 0,
       "ExtraOption1": 0
     },
-    "412": {
-      "Id": 412,
+    "414": {
+      "Id": 414,
       "Type": "Visual",
       "SubType": "",
       "Title": {
@@ -5219,8 +5322,8 @@
       "Issub": 0,
       "ExtraOption1": 0
     },
-    "413": {
-      "Id": 413,
+    "415": {
+      "Id": 415,
       "Type": "Visual",
       "SubType": "",
       "Title": {
@@ -5263,8 +5366,8 @@
       "Issub": 0,
       "ExtraOption1": 0
     },
-    "414": {
-      "Id": 414,
+    "416": {
+      "Id": 416,
       "Type": "Visual",
       "SubType": "",
       "Title": {
@@ -5319,8 +5422,8 @@
       "Issub": 0,
       "ExtraOption1": 0
     },
-    "415": {
-      "Id": 415,
+    "417": {
+      "Id": 417,
       "Type": "Visual",
       "SubType": "",
       "Title": {
@@ -5369,8 +5472,8 @@
       "Issub": 0,
       "ExtraOption1": 0
     },
-    "416": {
-      "Id": 416,
+    "418": {
+      "Id": 418,
       "Type": "Visual",
       "SubType": "",
       "Title": {
@@ -5431,8 +5534,8 @@
       "Issub": 0,
       "ExtraOption1": 0
     },
-    "417": {
-      "Id": 417,
+    "419": {
+      "Id": 419,
       "Type": "Visual",
       "SubType": "",
       "Title": {
@@ -5475,8 +5578,8 @@
       "Issub": 0,
       "ExtraOption1": 0
     },
-    "418": {
-      "Id": 418,
+    "420": {
+      "Id": 420,
       "Type": "Visual",
       "SubType": "",
       "Title": {
@@ -5525,8 +5628,8 @@
       "Issub": 0,
       "ExtraOption1": 0
     },
-    "419": {
-      "Id": 419,
+    "421": {
+      "Id": 421,
       "Type": "Visual",
       "SubType": "",
       "Title": {
@@ -5575,8 +5678,8 @@
       "Issub": 0,
       "ExtraOption1": 0
     },
-    "420": {
-      "Id": 420,
+    "422": {
+      "Id": 422,
       "Type": "Visual",
       "SubType": "",
       "Title": {
@@ -5625,8 +5728,8 @@
       "Issub": 0,
       "ExtraOption1": 0
     },
-    "421": {
-      "Id": 421,
+    "423": {
+      "Id": 423,
       "Type": "Visual",
       "SubType": "",
       "Title": {
@@ -5693,8 +5796,8 @@
       "Issub": 0,
       "ExtraOption1": 0
     },
-    "422": {
-      "Id": 422,
+    "424": {
+      "Id": 424,
       "Type": "Visual",
       "SubType": "",
       "Title": {
@@ -5749,8 +5852,8 @@
       "Issub": 0,
       "ExtraOption1": 0
     },
-    "423": {
-      "Id": 423,
+    "425": {
+      "Id": 425,
       "Type": "Visual",
       "SubType": "",
       "Title": {
@@ -5805,8 +5908,8 @@
       "Issub": 0,
       "ExtraOption1": 0
     },
-    "424": {
-      "Id": 424,
+    "426": {
+      "Id": 426,
       "Type": "Visual",
       "SubType": "",
       "Title": {
@@ -5855,8 +5958,8 @@
       "Issub": 0,
       "ExtraOption1": 0
     },
-    "425": {
-      "Id": 425,
+    "427": {
+      "Id": 427,
       "Type": "Visual",
       "SubType": "",
       "Title": {
@@ -5899,8 +6002,8 @@
       "Issub": 0,
       "ExtraOption1": 0
     },
-    "426": {
-      "Id": 426,
+    "428": {
+      "Id": 428,
       "Type": "Visual",
       "SubType": "",
       "Title": {
@@ -5943,8 +6046,8 @@
       "Issub": 0,
       "ExtraOption1": 0
     },
-    "427": {
-      "Id": 427,
+    "429": {
+      "Id": 429,
       "Type": "Visual",
       "SubType": "",
       "Title": {
@@ -6005,8 +6108,8 @@
       "Issub": 0,
       "ExtraOption1": 0
     },
-    "428": {
-      "Id": 428,
+    "430": {
+      "Id": 430,
       "Type": "Visual",
       "SubType": "",
       "Title": {
@@ -6049,8 +6152,8 @@
       "Issub": 0,
       "ExtraOption1": 0
     },
-    "429": {
-      "Id": 429,
+    "431": {
+      "Id": 431,
       "Type": "Visual",
       "SubType": "",
       "Title": {
@@ -6099,8 +6202,8 @@
       "Issub": 0,
       "ExtraOption1": 0
     },
-    "430": {
-      "Id": 430,
+    "432": {
+      "Id": 432,
       "Type": "Visual",
       "SubType": "",
       "Title": {
@@ -6143,8 +6246,8 @@
       "Issub": 0,
       "ExtraOption1": 0
     },
-    "431": {
-      "Id": 431,
+    "433": {
+      "Id": 433,
       "Type": "Visual",
       "SubType": "",
       "Title": {
@@ -6190,8 +6293,8 @@
       "Issub": 0,
       "ExtraOption1": 0
     },
-    "432": {
-      "Id": 432,
+    "434": {
+      "Id": 434,
       "Type": "Visual",
       "SubType": "",
       "Title": {
@@ -6234,8 +6337,8 @@
       "Issub": 0,
       "ExtraOption1": 0
     },
-    "433": {
-      "Id": 433,
+    "435": {
+      "Id": 435,
       "Type": "Visual",
       "SubType": "",
       "Title": {
@@ -6278,8 +6381,8 @@
       "Issub": 0,
       "ExtraOption1": 0
     },
-    "434": {
-      "Id": 434,
+    "436": {
+      "Id": 436,
       "Type": "Visual",
       "SubType": "",
       "Title": {
