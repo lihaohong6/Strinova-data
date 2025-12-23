@@ -103,7 +103,8 @@
         121,
         122,
         123,
-        125
+        125,
+        130
       ],
       "Keywords": [],
       "Title1": {
@@ -322,7 +323,8 @@
         121,
         122,
         123,
-        125
+        125,
+        130
       ],
       "Keywords": [],
       "Title1": {
@@ -412,10 +414,10 @@
         1000.0
       ],
       "DescParamLevel3": [
-        800.0
+        1350.0
       ],
       "DescParamLevel4": [
-        800.0
+        1800.0
       ],
       "DescParamLevel5": [],
       "ActiveMethod": "ECyCardActiveMethod::Auto",
@@ -510,10 +512,10 @@
         1000.0
       ],
       "DescParamLevel3": [
-        800.0
+        1350.0
       ],
       "DescParamLevel4": [
-        800.0
+        1800.0
       ],
       "DescParamLevel5": [],
       "ActiveMethod": "ECyCardActiveMethod::Auto",
@@ -623,7 +625,8 @@
         109,
         137,
         124,
-        125
+        125,
+        130
       ],
       "Keywords": [],
       "Title1": {
@@ -2176,16 +2179,16 @@
         "CultureInvariantString": null
       },
       "DescParamLevel1": [
-        13.0
+        9.0
       ],
       "DescParamLevel2": [
-        28.0
+        20.0
       ],
       "DescParamLevel3": [
-        46.0
+        32.0
       ],
       "DescParamLevel4": [
-        46.0
+        32.0
       ],
       "DescParamLevel5": [],
       "ActiveMethod": "ECyCardActiveMethod::Auto",
@@ -2372,16 +2375,16 @@
         "CultureInvariantString": null
       },
       "DescParamLevel1": [
-        8.0
+        6.0
       ],
       "DescParamLevel2": [
-        18.0
+        13.0
       ],
       "DescParamLevel3": [
-        28.0
+        20.0
       ],
       "DescParamLevel4": [
-        28.0
+        20.0
       ],
       "DescParamLevel5": [],
       "ActiveMethod": "ECyCardActiveMethod::Auto",
@@ -3149,8 +3152,8 @@
       "Desc": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GameplayCard.ST_GameplayCard",
         "Key": "Desc_10241011",
-        "SourceString": "每次击杀晶源体，伤害+{0}%",
-        "LocalizedString": "每次击杀晶源体，伤害+{0}%"
+        "SourceString": "每次击杀晶源体，伤害+{0}%，最多叠加10层",
+        "LocalizedString": "每次击杀晶源体，伤害+{0}%，最多叠加10层"
       },
       "DescSimple": {
         "CultureInvariantString": null
@@ -5954,25 +5957,25 @@
       "Desc": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GameplayCard.ST_GameplayCard",
         "Key": "Desc_10251013",
-        "SourceString": "单次受伤超过总生命{0}%时，伤害+{1}%，持续{2}秒",
-        "LocalizedString": "单次受伤超过总生命{0}%时，伤害+{1}%，持续{2}秒"
+        "SourceString": "累计受伤超过总生命{0}%时，伤害+{1}%，持续{2}秒,CD1秒",
+        "LocalizedString": "累计受伤超过总生命{0}%时，伤害+{1}%，持续{2}秒,CD1秒"
       },
       "DescSimple": {
         "CultureInvariantString": null
       },
       "DescParamLevel1": [
         10.0,
-        20.0,
+        5.0,
         40.0
       ],
       "DescParamLevel2": [
         10.0,
-        45.0,
+        12.0,
         40.0
       ],
       "DescParamLevel3": [
         10.0,
-        70.0,
+        20.0,
         40.0
       ],
       "DescParamLevel4": [
@@ -8126,27 +8129,23 @@
       "Desc": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GameplayCard.ST_GameplayCard",
         "Key": "Desc_20251018",
-        "SourceString": "枪械攻击每次命中附加持续伤害，每秒{0}，持续{1}s，无叠加上限",
-        "LocalizedString": "枪械攻击每次命中附加持续伤害，每秒{0}，持续{1}s，无叠加上限"
+        "SourceString": "枪械攻击每次命中附加1层毒素，并提升{0}%毒素伤害，无叠加上限",
+        "LocalizedString": "枪械攻击每次命中附加1层毒素，并提升{0}%毒素伤害，无叠加上限"
       },
       "DescSimple": {
         "CultureInvariantString": null
       },
       "DescParamLevel1": [
-        10.0,
-        2.0
+        5.0
       ],
       "DescParamLevel2": [
-        18.0,
-        2.0
+        20.0
       ],
       "DescParamLevel3": [
-        25.0,
-        2.0
+        40.0
       ],
       "DescParamLevel4": [
-        25.0,
-        2.0
+        1.5
       ],
       "DescParamLevel5": [],
       "ActiveMethod": "ECyCardActiveMethod::Auto",
@@ -8155,10 +8154,16 @@
       "UnlockRoles": [],
       "Keywords": [],
       "Title1": {
-        "CultureInvariantString": null
+        "Namespace": "GameplayCard_Zombie",
+        "Key": "20251018_Title1",
+        "SourceString": "效果描述",
+        "LocalizedString": "效果描述"
       },
       "Content1": {
-        "CultureInvariantString": null
+        "Namespace": "GameplayCard_Zombie",
+        "Key": "20251018_Content1",
+        "SourceString": "每层毒素造成8点固定伤害，持续2秒",
+        "LocalizedString": "每层毒素造成8点固定伤害，持续2秒"
       },
       "Title2": {
         "CultureInvariantString": null
@@ -8326,8 +8331,8 @@
       "Desc": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GameplayCard.ST_GameplayCard",
         "Key": "Desc_20251020",
-        "SourceString": "即将转化为晶源体时，会对{0}m内的晶源体造成{1}伤害，然后转变为晶源体",
-        "LocalizedString": "即将转化为晶源体时，会对{0}m内的晶源体造成{1}伤害，然后转变为晶源体"
+        "SourceString": "变为晶源体时,会对周围晶源体造成4000伤害,若成功,则伤害+80%、移速+20%,持续30秒",
+        "LocalizedString": "变为晶源体时,会对周围晶源体造成4000伤害,若成功,则伤害+80%、移速+20%,持续30秒"
       },
       "DescSimple": {
         "CultureInvariantString": null
@@ -9338,7 +9343,7 @@
         130.0
       ],
       "DescParamLevel4": [
-        300.0
+        400.0
       ],
       "DescParamLevel5": [],
       "ActiveMethod": "ECyCardActiveMethod::Auto",
@@ -9640,7 +9645,7 @@
         0.7
       ],
       "DescParamLevel4": [
-        0.8
+        0.7
       ],
       "DescParamLevel5": [],
       "ActiveMethod": "ECyCardActiveMethod::Auto",
@@ -9671,11 +9676,2113 @@
       "Tradable": true,
       "Block": false
     },
+    "20251034": {
+      "CardId": 20251034,
+      "Id": 80174,
+      "PlayMode": 11,
+      "Index": 98,
+      "LimitNum": 1,
+      "LimitType": 12,
+      "LimitParam": 100,
+      "Category": "ECyCardCategory::Rule",
+      "MaxLevel": 1,
+      "Extension": true,
+      "Tags": [
+        "ECyCardTagType::None"
+      ],
+      "Recommend": 0,
+      "TypeDesc": {
+        "CultureInvariantString": null
+      },
+      "Background": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "IconWhite": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "IconLumi": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "Icon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoguelikeCard/T_Dynamic_RoguelikeCard_20251034.T_Dynamic_RoguelikeCard_20251034",
+        "SubPathString": ""
+      },
+      "SerialIcon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoguelikeCardSerialIcon/T_Dynamic_RoguelikeCardSerialIcon_1.T_Dynamic_RoguelikeCardSerialIcon_1",
+        "SubPathString": ""
+      },
+      "TagType": 0,
+      "TagDesc": {
+        "CultureInvariantString": null
+      },
+      "Name": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GameplayCard.ST_GameplayCard",
+        "Key": "Name_20251034",
+        "SourceString": "暗黑笔记",
+        "LocalizedString": "暗黑笔记"
+      },
+      "Desc": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GameplayCard.ST_GameplayCard",
+        "Key": "Desc_20251034",
+        "SourceString": "输入敌对玩家姓名或表现分排名,{0}秒后击杀目标，CD{1}秒",
+        "LocalizedString": "输入敌对玩家姓名或表现分排名,{0}秒后击杀目标，CD{1}秒"
+      },
+      "DescSimple": {
+        "CultureInvariantString": null
+      },
+      "DescParamLevel1": [
+        40.0,
+        40.0
+      ],
+      "DescParamLevel2": [
+        40.0,
+        40.0
+      ],
+      "DescParamLevel3": [
+        40.0,
+        40.0
+      ],
+      "DescParamLevel4": [
+        40.0,
+        40.0
+      ],
+      "DescParamLevel5": [],
+      "ActiveMethod": "ECyCardActiveMethod::AutoConsume",
+      "TeamType": "ECyCardTeamType::Human",
+      "Rarity": "ECyCardRarityType::Gold",
+      "UnlockRoles": [],
+      "Keywords": [],
+      "Title1": {
+        "CultureInvariantString": null
+      },
+      "Content1": {
+        "CultureInvariantString": null
+      },
+      "Title2": {
+        "CultureInvariantString": null
+      },
+      "Content2": {
+        "CultureInvariantString": null
+      },
+      "CostCoin": 400,
+      "BreakdownCoin": 100,
+      "Quality": "ECyItemQualityType::Orange",
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_80174.T_Dynamic_Item_80174",
+        "SubPathString": ""
+      },
+      "Default": false,
+      "Tradable": true,
+      "Block": false
+    },
+    "20251035": {
+      "CardId": 20251035,
+      "Id": 80175,
+      "PlayMode": 11,
+      "Index": 99,
+      "LimitNum": 1,
+      "LimitType": 12,
+      "LimitParam": 100,
+      "Category": "ECyCardCategory::Weapon",
+      "MaxLevel": 4,
+      "Extension": true,
+      "Tags": [
+        "ECyCardTagType::None"
+      ],
+      "Recommend": 0,
+      "TypeDesc": {
+        "CultureInvariantString": null
+      },
+      "Background": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "IconWhite": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "IconLumi": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "Icon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoguelikeCard/T_Dynamic_RoguelikeCard_20251035.T_Dynamic_RoguelikeCard_20251035",
+        "SubPathString": ""
+      },
+      "SerialIcon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoguelikeCardSerialIcon/T_Dynamic_RoguelikeCardSerialIcon_1.T_Dynamic_RoguelikeCardSerialIcon_1",
+        "SubPathString": ""
+      },
+      "TagType": 0,
+      "TagDesc": {
+        "CultureInvariantString": null
+      },
+      "Name": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GameplayCard.ST_GameplayCard",
+        "Key": "Name_20251035",
+        "SourceString": "战争机器",
+        "LocalizedString": "战争机器"
+      },
+      "Desc": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GameplayCard.ST_GameplayCard",
+        "Key": "Desc_20251035",
+        "SourceString": "生命值高于{0}%时，每次射击命中时减少{1}%最大血量，并使命中额外造成{2}伤害",
+        "LocalizedString": "生命值高于{0}%时，每次射击命中时减少{1}%最大血量，并使命中额外造成{2}伤害"
+      },
+      "DescSimple": {
+        "CultureInvariantString": null
+      },
+      "DescParamLevel1": [
+        20.0,
+        1.0,
+        15.0
+      ],
+      "DescParamLevel2": [
+        20.0,
+        1.0,
+        25.0
+      ],
+      "DescParamLevel3": [
+        20.0,
+        1.0,
+        35.0
+      ],
+      "DescParamLevel4": [
+        20.0,
+        1.0,
+        50.0
+      ],
+      "DescParamLevel5": [],
+      "ActiveMethod": "ECyCardActiveMethod::Auto",
+      "TeamType": "ECyCardTeamType::Human",
+      "Rarity": "ECyCardRarityType::Gold",
+      "UnlockRoles": [],
+      "Keywords": [],
+      "Title1": {
+        "CultureInvariantString": null
+      },
+      "Content1": {
+        "CultureInvariantString": null
+      },
+      "Title2": {
+        "CultureInvariantString": null
+      },
+      "Content2": {
+        "CultureInvariantString": null
+      },
+      "CostCoin": 400,
+      "BreakdownCoin": 100,
+      "Quality": "ECyItemQualityType::Orange",
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_80175.T_Dynamic_Item_80175",
+        "SubPathString": ""
+      },
+      "Default": false,
+      "Tradable": true,
+      "Block": false
+    },
+    "20251036": {
+      "CardId": 20251036,
+      "Id": 80176,
+      "PlayMode": 11,
+      "Index": 100,
+      "LimitNum": 1,
+      "LimitType": 12,
+      "LimitParam": 5,
+      "Category": "ECyCardCategory::Weapon",
+      "MaxLevel": 2,
+      "Extension": true,
+      "Tags": [
+        "ECyCardTagType::None"
+      ],
+      "Recommend": 0,
+      "TypeDesc": {
+        "CultureInvariantString": null
+      },
+      "Background": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "IconWhite": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "IconLumi": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "Icon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoguelikeCard/T_Dynamic_RoguelikeCard_20251036.T_Dynamic_RoguelikeCard_20251036",
+        "SubPathString": ""
+      },
+      "SerialIcon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoguelikeCardSerialIcon/T_Dynamic_RoguelikeCardSerialIcon_1.T_Dynamic_RoguelikeCardSerialIcon_1",
+        "SubPathString": ""
+      },
+      "TagType": 0,
+      "TagDesc": {
+        "CultureInvariantString": null
+      },
+      "Name": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GameplayCard.ST_GameplayCard",
+        "Key": "Name_20251036",
+        "SourceString": "残弹爆发",
+        "LocalizedString": "残弹爆发"
+      },
+      "Desc": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GameplayCard.ST_GameplayCard",
+        "Key": "Desc_20251036",
+        "SourceString": "弹夹内子弹每降低10%，枪械伤害+{0}%",
+        "LocalizedString": "弹夹内子弹每降低10%，枪械伤害+{0}%"
+      },
+      "DescSimple": {
+        "CultureInvariantString": null
+      },
+      "DescParamLevel1": [
+        8.0
+      ],
+      "DescParamLevel2": [
+        18.0
+      ],
+      "DescParamLevel3": [
+        10.0
+      ],
+      "DescParamLevel4": [
+        10.0
+      ],
+      "DescParamLevel5": [],
+      "ActiveMethod": "ECyCardActiveMethod::Auto",
+      "TeamType": "ECyCardTeamType::Human",
+      "Rarity": "ECyCardRarityType::Blue",
+      "UnlockRoles": [],
+      "Keywords": [],
+      "Title1": {
+        "CultureInvariantString": null
+      },
+      "Content1": {
+        "CultureInvariantString": null
+      },
+      "Title2": {
+        "CultureInvariantString": null
+      },
+      "Content2": {
+        "CultureInvariantString": null
+      },
+      "CostCoin": 25,
+      "BreakdownCoin": 5,
+      "Quality": "ECyItemQualityType::Blue",
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_80176.T_Dynamic_Item_80176",
+        "SubPathString": ""
+      },
+      "Default": false,
+      "Tradable": true,
+      "Block": false
+    },
+    "20251037": {
+      "CardId": 20251037,
+      "Id": 80177,
+      "PlayMode": 11,
+      "Index": 101,
+      "LimitNum": 1,
+      "LimitType": 12,
+      "LimitParam": 20,
+      "Category": "ECyCardCategory::Rule",
+      "MaxLevel": 1,
+      "Extension": true,
+      "Tags": [
+        "ECyCardTagType::None"
+      ],
+      "Recommend": 0,
+      "TypeDesc": {
+        "CultureInvariantString": null
+      },
+      "Background": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "IconWhite": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "IconLumi": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "Icon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoguelikeCard/T_Dynamic_RoguelikeCard_20251037.T_Dynamic_RoguelikeCard_20251037",
+        "SubPathString": ""
+      },
+      "SerialIcon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoguelikeCardSerialIcon/T_Dynamic_RoguelikeCardSerialIcon_1.T_Dynamic_RoguelikeCardSerialIcon_1",
+        "SubPathString": ""
+      },
+      "TagType": 0,
+      "TagDesc": {
+        "CultureInvariantString": null
+      },
+      "Name": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GameplayCard.ST_GameplayCard",
+        "Key": "Name_20251037",
+        "SourceString": "金钟罩",
+        "LocalizedString": "金钟罩"
+      },
+      "Desc": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GameplayCard.ST_GameplayCard",
+        "Key": "Desc_20251037",
+        "SourceString": "免除下次受到的伤害，CD{0}秒",
+        "LocalizedString": "免除下次受到的伤害，CD{0}秒"
+      },
+      "DescSimple": {
+        "CultureInvariantString": null
+      },
+      "DescParamLevel1": [
+        20.0
+      ],
+      "DescParamLevel2": [
+        20.0
+      ],
+      "DescParamLevel3": [
+        20.0
+      ],
+      "DescParamLevel4": [
+        20.0
+      ],
+      "DescParamLevel5": [],
+      "ActiveMethod": "ECyCardActiveMethod::AutoConsume",
+      "TeamType": "ECyCardTeamType::Human",
+      "Rarity": "ECyCardRarityType::Purple",
+      "UnlockRoles": [],
+      "Keywords": [],
+      "Title1": {
+        "CultureInvariantString": null
+      },
+      "Content1": {
+        "CultureInvariantString": null
+      },
+      "Title2": {
+        "CultureInvariantString": null
+      },
+      "Content2": {
+        "CultureInvariantString": null
+      },
+      "CostCoin": 100,
+      "BreakdownCoin": 20,
+      "Quality": "ECyItemQualityType::Purple",
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_80177.T_Dynamic_Item_80177",
+        "SubPathString": ""
+      },
+      "Default": false,
+      "Tradable": true,
+      "Block": false
+    },
+    "20251038": {
+      "CardId": 20251038,
+      "Id": 80178,
+      "PlayMode": 11,
+      "Index": 102,
+      "LimitNum": 1,
+      "LimitType": 12,
+      "LimitParam": 20,
+      "Category": "ECyCardCategory::Role",
+      "MaxLevel": 3,
+      "Extension": true,
+      "Tags": [
+        "ECyCardTagType::None"
+      ],
+      "Recommend": 0,
+      "TypeDesc": {
+        "CultureInvariantString": null
+      },
+      "Background": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "IconWhite": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "IconLumi": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "Icon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoguelikeCard/T_Dynamic_RoguelikeCard_20251038.T_Dynamic_RoguelikeCard_20251038",
+        "SubPathString": ""
+      },
+      "SerialIcon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoguelikeCardSerialIcon/T_Dynamic_RoguelikeCardSerialIcon_1.T_Dynamic_RoguelikeCardSerialIcon_1",
+        "SubPathString": ""
+      },
+      "TagType": 0,
+      "TagDesc": {
+        "CultureInvariantString": null
+      },
+      "Name": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GameplayCard.ST_GameplayCard",
+        "Key": "Name_20251038",
+        "SourceString": "万化锻体",
+        "LocalizedString": "万化锻体"
+      },
+      "Desc": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GameplayCard.ST_GameplayCard",
+        "Key": "Desc_20251038",
+        "SourceString": "累计受伤每达到总生命和护甲最大值{0}%时，临时护甲+{1}，CD {2}秒",
+        "LocalizedString": "累计受伤每达到总生命和护甲最大值{0}%时，临时护甲+{1}，CD {2}秒"
+      },
+      "DescSimple": {
+        "CultureInvariantString": null
+      },
+      "DescParamLevel1": [
+        30.0,
+        400.0,
+        5.0
+      ],
+      "DescParamLevel2": [
+        30.0,
+        850.0,
+        5.0
+      ],
+      "DescParamLevel3": [
+        30.0,
+        1500.0,
+        5.0
+      ],
+      "DescParamLevel4": [
+        30.0,
+        10000.0,
+        5.0
+      ],
+      "DescParamLevel5": [],
+      "ActiveMethod": "ECyCardActiveMethod::Auto",
+      "TeamType": "ECyCardTeamType::Human",
+      "Rarity": "ECyCardRarityType::Purple",
+      "UnlockRoles": [],
+      "Keywords": [],
+      "Title1": {
+        "CultureInvariantString": null
+      },
+      "Content1": {
+        "CultureInvariantString": null
+      },
+      "Title2": {
+        "CultureInvariantString": null
+      },
+      "Content2": {
+        "CultureInvariantString": null
+      },
+      "CostCoin": 100,
+      "BreakdownCoin": 20,
+      "Quality": "ECyItemQualityType::Purple",
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_80178.T_Dynamic_Item_80178",
+        "SubPathString": ""
+      },
+      "Default": false,
+      "Tradable": true,
+      "Block": false
+    },
+    "20251039": {
+      "CardId": 20251039,
+      "Id": 80179,
+      "PlayMode": 11,
+      "Index": 103,
+      "LimitNum": 1,
+      "LimitType": 12,
+      "LimitParam": 20,
+      "Category": "ECyCardCategory::Weapon",
+      "MaxLevel": 3,
+      "Extension": true,
+      "Tags": [
+        "ECyCardTagType::None"
+      ],
+      "Recommend": 0,
+      "TypeDesc": {
+        "CultureInvariantString": null
+      },
+      "Background": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "IconWhite": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "IconLumi": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "Icon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoguelikeCard/T_Dynamic_RoguelikeCard_20251039.T_Dynamic_RoguelikeCard_20251039",
+        "SubPathString": ""
+      },
+      "SerialIcon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoguelikeCardSerialIcon/T_Dynamic_RoguelikeCardSerialIcon_1.T_Dynamic_RoguelikeCardSerialIcon_1",
+        "SubPathString": ""
+      },
+      "TagType": 0,
+      "TagDesc": {
+        "CultureInvariantString": null
+      },
+      "Name": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GameplayCard.ST_GameplayCard",
+        "Key": "Name_20251039",
+        "SourceString": "荆棘之路",
+        "LocalizedString": "荆棘之路"
+      },
+      "Desc": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GameplayCard.ST_GameplayCard",
+        "Key": "Desc_20251039",
+        "SourceString": "造成伤害时会使目标流血，每移动5米，受到{0}伤害，持续{1}秒，CD{2}秒",
+        "LocalizedString": "造成伤害时会使目标流血，每移动5米，受到{0}伤害，持续{1}秒，CD{2}秒"
+      },
+      "DescSimple": {
+        "CultureInvariantString": null
+      },
+      "DescParamLevel1": [
+        50.0,
+        2.0,
+        5.0
+      ],
+      "DescParamLevel2": [
+        75.0,
+        2.0,
+        5.0
+      ],
+      "DescParamLevel3": [
+        100.0,
+        2.0,
+        5.0
+      ],
+      "DescParamLevel4": [
+        5.0,
+        10.0,
+        5.0
+      ],
+      "DescParamLevel5": [],
+      "ActiveMethod": "ECyCardActiveMethod::Auto",
+      "TeamType": "ECyCardTeamType::Human",
+      "Rarity": "ECyCardRarityType::Purple",
+      "UnlockRoles": [],
+      "Keywords": [],
+      "Title1": {
+        "CultureInvariantString": null
+      },
+      "Content1": {
+        "CultureInvariantString": null
+      },
+      "Title2": {
+        "CultureInvariantString": null
+      },
+      "Content2": {
+        "CultureInvariantString": null
+      },
+      "CostCoin": 100,
+      "BreakdownCoin": 20,
+      "Quality": "ECyItemQualityType::Purple",
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_80179.T_Dynamic_Item_80179",
+        "SubPathString": ""
+      },
+      "Default": false,
+      "Tradable": true,
+      "Block": false
+    },
+    "20251040": {
+      "CardId": 20251040,
+      "Id": 80180,
+      "PlayMode": 11,
+      "Index": 104,
+      "LimitNum": 1,
+      "LimitType": 12,
+      "LimitParam": 5,
+      "Category": "ECyCardCategory::Rule",
+      "MaxLevel": 1,
+      "Extension": true,
+      "Tags": [
+        "ECyCardTagType::None"
+      ],
+      "Recommend": 0,
+      "TypeDesc": {
+        "CultureInvariantString": null
+      },
+      "Background": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "IconWhite": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "IconLumi": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "Icon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoguelikeCard/T_Dynamic_RoguelikeCard_20251040.T_Dynamic_RoguelikeCard_20251040",
+        "SubPathString": ""
+      },
+      "SerialIcon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoguelikeCardSerialIcon/T_Dynamic_RoguelikeCardSerialIcon_1.T_Dynamic_RoguelikeCardSerialIcon_1",
+        "SubPathString": ""
+      },
+      "TagType": 0,
+      "TagDesc": {
+        "CultureInvariantString": null
+      },
+      "Name": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GameplayCard.ST_GameplayCard",
+        "Key": "Name_20251040",
+        "SourceString": "晶源分析仪",
+        "LocalizedString": "晶源分析仪"
+      },
+      "Desc": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GameplayCard.ST_GameplayCard",
+        "Key": "Desc_20251040",
+        "SourceString": "获得一个可在部署后每{0}秒提供{1}经验的装置，持续{2}s",
+        "LocalizedString": "获得一个可在部署后每{0}秒提供{1}经验的装置，持续{2}s"
+      },
+      "DescSimple": {
+        "CultureInvariantString": null
+      },
+      "DescParamLevel1": [
+        5.0,
+        350.0,
+        50.0
+      ],
+      "DescParamLevel2": [
+        5.0,
+        300.0,
+        40.0
+      ],
+      "DescParamLevel3": [
+        5.0,
+        300.0,
+        40.0
+      ],
+      "DescParamLevel4": [
+        5.0,
+        300.0,
+        40.0
+      ],
+      "DescParamLevel5": [],
+      "ActiveMethod": "ECyCardActiveMethod::AutoConsume",
+      "TeamType": "ECyCardTeamType::Human",
+      "Rarity": "ECyCardRarityType::Blue",
+      "UnlockRoles": [],
+      "Keywords": [],
+      "Title1": {
+        "CultureInvariantString": null
+      },
+      "Content1": {
+        "CultureInvariantString": null
+      },
+      "Title2": {
+        "CultureInvariantString": null
+      },
+      "Content2": {
+        "CultureInvariantString": null
+      },
+      "CostCoin": 25,
+      "BreakdownCoin": 5,
+      "Quality": "ECyItemQualityType::Blue",
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_80180.T_Dynamic_Item_80180",
+        "SubPathString": ""
+      },
+      "Default": false,
+      "Tradable": true,
+      "Block": false
+    },
+    "20251041": {
+      "CardId": 20251041,
+      "Id": 80181,
+      "PlayMode": 11,
+      "Index": 105,
+      "LimitNum": 1,
+      "LimitType": 12,
+      "LimitParam": 5,
+      "Category": "ECyCardCategory::Rule",
+      "MaxLevel": 1,
+      "Extension": true,
+      "Tags": [
+        "ECyCardTagType::None"
+      ],
+      "Recommend": 0,
+      "TypeDesc": {
+        "CultureInvariantString": null
+      },
+      "Background": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "IconWhite": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "IconLumi": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "Icon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoguelikeCard/T_Dynamic_RoguelikeCard_20251041.T_Dynamic_RoguelikeCard_20251041",
+        "SubPathString": ""
+      },
+      "SerialIcon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoguelikeCardSerialIcon/T_Dynamic_RoguelikeCardSerialIcon_1.T_Dynamic_RoguelikeCardSerialIcon_1",
+        "SubPathString": ""
+      },
+      "TagType": 0,
+      "TagDesc": {
+        "CultureInvariantString": null
+      },
+      "Name": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GameplayCard.ST_GameplayCard",
+        "Key": "Name_20251041",
+        "SourceString": "制衡之道",
+        "LocalizedString": "制衡之道"
+      },
+      "Desc": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GameplayCard.ST_GameplayCard",
+        "Key": "Desc_20251041",
+        "SourceString": "失去所有卡牌，并随机获得失去卡牌总星级数{0}%的卡牌",
+        "LocalizedString": "失去所有卡牌，并随机获得失去卡牌总星级数{0}%的卡牌"
+      },
+      "DescSimple": {
+        "CultureInvariantString": null
+      },
+      "DescParamLevel1": [
+        130.0
+      ],
+      "DescParamLevel2": [
+        1.0
+      ],
+      "DescParamLevel3": [
+        1.0
+      ],
+      "DescParamLevel4": [
+        1.0
+      ],
+      "DescParamLevel5": [],
+      "ActiveMethod": "ECyCardActiveMethod::AutoConsume",
+      "TeamType": "ECyCardTeamType::Human",
+      "Rarity": "ECyCardRarityType::Blue",
+      "UnlockRoles": [],
+      "Keywords": [],
+      "Title1": {
+        "CultureInvariantString": null
+      },
+      "Content1": {
+        "CultureInvariantString": null
+      },
+      "Title2": {
+        "CultureInvariantString": null
+      },
+      "Content2": {
+        "CultureInvariantString": null
+      },
+      "CostCoin": 25,
+      "BreakdownCoin": 5,
+      "Quality": "ECyItemQualityType::Blue",
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_80181.T_Dynamic_Item_80181",
+        "SubPathString": ""
+      },
+      "Default": false,
+      "Tradable": true,
+      "Block": false
+    },
+    "20251042": {
+      "CardId": 20251042,
+      "Id": 80182,
+      "PlayMode": 11,
+      "Index": 106,
+      "LimitNum": 1,
+      "LimitType": 12,
+      "LimitParam": 20,
+      "Category": "ECyCardCategory::Weapon",
+      "MaxLevel": 3,
+      "Extension": true,
+      "Tags": [
+        "ECyCardTagType::None"
+      ],
+      "Recommend": 0,
+      "TypeDesc": {
+        "CultureInvariantString": null
+      },
+      "Background": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "IconWhite": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "IconLumi": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "Icon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoguelikeCard/T_Dynamic_RoguelikeCard_20251042.T_Dynamic_RoguelikeCard_20251042",
+        "SubPathString": ""
+      },
+      "SerialIcon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoguelikeCardSerialIcon/T_Dynamic_RoguelikeCardSerialIcon_1.T_Dynamic_RoguelikeCardSerialIcon_1",
+        "SubPathString": ""
+      },
+      "TagType": 0,
+      "TagDesc": {
+        "CultureInvariantString": null
+      },
+      "Name": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GameplayCard.ST_GameplayCard",
+        "Key": "Name_20251042",
+        "SourceString": "我是传奇",
+        "LocalizedString": "我是传奇"
+      },
+      "Desc": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GameplayCard.ST_GameplayCard",
+        "Key": "Desc_20251042",
+        "SourceString": "{0}m内没有队友时，每{1}秒+{2}%伤害，最大15层，存在队友时每1秒失去一层属性增益",
+        "LocalizedString": "{0}m内没有队友时，每{1}秒+{2}%伤害，最大15层，存在队友时每1秒失去一层属性增益"
+      },
+      "DescSimple": {
+        "CultureInvariantString": null
+      },
+      "DescParamLevel1": [
+        10.0,
+        2.0,
+        10.0
+      ],
+      "DescParamLevel2": [
+        10.0,
+        2.0,
+        22.0
+      ],
+      "DescParamLevel3": [
+        10.0,
+        2.0,
+        36.0
+      ],
+      "DescParamLevel4": [
+        10.0,
+        2.0,
+        20.0
+      ],
+      "DescParamLevel5": [],
+      "ActiveMethod": "ECyCardActiveMethod::Auto",
+      "TeamType": "ECyCardTeamType::Human",
+      "Rarity": "ECyCardRarityType::Purple",
+      "UnlockRoles": [],
+      "Keywords": [],
+      "Title1": {
+        "CultureInvariantString": null
+      },
+      "Content1": {
+        "CultureInvariantString": null
+      },
+      "Title2": {
+        "CultureInvariantString": null
+      },
+      "Content2": {
+        "CultureInvariantString": null
+      },
+      "CostCoin": 100,
+      "BreakdownCoin": 20,
+      "Quality": "ECyItemQualityType::Purple",
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_80182.T_Dynamic_Item_80182",
+        "SubPathString": ""
+      },
+      "Default": false,
+      "Tradable": true,
+      "Block": false
+    },
+    "20251043": {
+      "CardId": 20251043,
+      "Id": 80183,
+      "PlayMode": 11,
+      "Index": 107,
+      "LimitNum": 1,
+      "LimitType": 12,
+      "LimitParam": 20,
+      "Category": "ECyCardCategory::Weapon",
+      "MaxLevel": 3,
+      "Extension": true,
+      "Tags": [
+        "ECyCardTagType::None"
+      ],
+      "Recommend": 0,
+      "TypeDesc": {
+        "CultureInvariantString": null
+      },
+      "Background": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "IconWhite": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "IconLumi": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "Icon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoguelikeCard/T_Dynamic_RoguelikeCard_20251043.T_Dynamic_RoguelikeCard_20251043",
+        "SubPathString": ""
+      },
+      "SerialIcon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoguelikeCardSerialIcon/T_Dynamic_RoguelikeCardSerialIcon_1.T_Dynamic_RoguelikeCardSerialIcon_1",
+        "SubPathString": ""
+      },
+      "TagType": 0,
+      "TagDesc": {
+        "CultureInvariantString": null
+      },
+      "Name": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GameplayCard.ST_GameplayCard",
+        "Key": "Name_20251043",
+        "SourceString": "破釜沉舟",
+        "LocalizedString": "破釜沉舟"
+      },
+      "Desc": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GameplayCard.ST_GameplayCard",
+        "Key": "Desc_20251043",
+        "SourceString": "{0}m内存在敌人时，每{1}秒+{2}%伤害，最大15层，没有敌人时每1秒失去一层属性增益",
+        "LocalizedString": "{0}m内存在敌人时，每{1}秒+{2}%伤害，最大15层，没有敌人时每1秒失去一层属性增益"
+      },
+      "DescSimple": {
+        "CultureInvariantString": null
+      },
+      "DescParamLevel1": [
+        25.0,
+        3.0,
+        10.0
+      ],
+      "DescParamLevel2": [
+        25.0,
+        3.0,
+        22.0
+      ],
+      "DescParamLevel3": [
+        25.0,
+        3.0,
+        36.0
+      ],
+      "DescParamLevel4": [
+        25.0,
+        3.0,
+        20.0
+      ],
+      "DescParamLevel5": [],
+      "ActiveMethod": "ECyCardActiveMethod::Auto",
+      "TeamType": "ECyCardTeamType::Human",
+      "Rarity": "ECyCardRarityType::Purple",
+      "UnlockRoles": [],
+      "Keywords": [],
+      "Title1": {
+        "CultureInvariantString": null
+      },
+      "Content1": {
+        "CultureInvariantString": null
+      },
+      "Title2": {
+        "CultureInvariantString": null
+      },
+      "Content2": {
+        "CultureInvariantString": null
+      },
+      "CostCoin": 100,
+      "BreakdownCoin": 20,
+      "Quality": "ECyItemQualityType::Purple",
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_80183.T_Dynamic_Item_80183",
+        "SubPathString": ""
+      },
+      "Default": false,
+      "Tradable": true,
+      "Block": false
+    },
+    "20251044": {
+      "CardId": 20251044,
+      "Id": 80184,
+      "PlayMode": 11,
+      "Index": 108,
+      "LimitNum": 1,
+      "LimitType": 12,
+      "LimitParam": 100,
+      "Category": "ECyCardCategory::Rule",
+      "MaxLevel": 1,
+      "Extension": true,
+      "Tags": [
+        "ECyCardTagType::None"
+      ],
+      "Recommend": 0,
+      "TypeDesc": {
+        "CultureInvariantString": null
+      },
+      "Background": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "IconWhite": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "IconLumi": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "Icon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoguelikeCard/T_Dynamic_RoguelikeCard_20251044.T_Dynamic_RoguelikeCard_20251044",
+        "SubPathString": ""
+      },
+      "SerialIcon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoguelikeCardSerialIcon/T_Dynamic_RoguelikeCardSerialIcon_1.T_Dynamic_RoguelikeCardSerialIcon_1",
+        "SubPathString": ""
+      },
+      "TagType": 0,
+      "TagDesc": {
+        "CultureInvariantString": null
+      },
+      "Name": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GameplayCard.ST_GameplayCard",
+        "Key": "Name_20251044",
+        "SourceString": "强化重焰",
+        "LocalizedString": "强化重焰"
+      },
+      "Desc": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GameplayCard.ST_GameplayCard",
+        "Key": "Desc_20251044",
+        "SourceString": "获得拥有超强爆发和超大散射的重焰",
+        "LocalizedString": "获得拥有超强爆发和超大散射的重焰"
+      },
+      "DescSimple": {
+        "CultureInvariantString": null
+      },
+      "DescParamLevel1": [],
+      "DescParamLevel2": [],
+      "DescParamLevel3": [],
+      "DescParamLevel4": [],
+      "DescParamLevel5": [],
+      "ActiveMethod": "ECyCardActiveMethod::AutoConsume",
+      "TeamType": "ECyCardTeamType::Human",
+      "Rarity": "ECyCardRarityType::Gold",
+      "UnlockRoles": [],
+      "Keywords": [],
+      "Title1": {
+        "CultureInvariantString": null
+      },
+      "Content1": {
+        "CultureInvariantString": null
+      },
+      "Title2": {
+        "CultureInvariantString": null
+      },
+      "Content2": {
+        "CultureInvariantString": null
+      },
+      "CostCoin": 400,
+      "BreakdownCoin": 100,
+      "Quality": "ECyItemQualityType::Orange",
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_80184.T_Dynamic_Item_80184",
+        "SubPathString": ""
+      },
+      "Default": false,
+      "Tradable": true,
+      "Block": false
+    },
+    "20251045": {
+      "CardId": 20251045,
+      "Id": 80185,
+      "PlayMode": 11,
+      "Index": 109,
+      "LimitNum": 1,
+      "LimitType": 12,
+      "LimitParam": 100,
+      "Category": "ECyCardCategory::Rule",
+      "MaxLevel": 1,
+      "Extension": true,
+      "Tags": [
+        "ECyCardTagType::None"
+      ],
+      "Recommend": 0,
+      "TypeDesc": {
+        "CultureInvariantString": null
+      },
+      "Background": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "IconWhite": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "IconLumi": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "Icon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoguelikeCard/T_Dynamic_RoguelikeCard_20251045.T_Dynamic_RoguelikeCard_20251045",
+        "SubPathString": ""
+      },
+      "SerialIcon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoguelikeCardSerialIcon/T_Dynamic_RoguelikeCardSerialIcon_1.T_Dynamic_RoguelikeCardSerialIcon_1",
+        "SubPathString": ""
+      },
+      "TagType": 0,
+      "TagDesc": {
+        "CultureInvariantString": null
+      },
+      "Name": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GameplayCard.ST_GameplayCard",
+        "Key": "Name_20251045",
+        "SourceString": "希望信标",
+        "LocalizedString": "希望信标"
+      },
+      "Desc": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GameplayCard.ST_GameplayCard",
+        "Key": "Desc_20251045",
+        "SourceString": "获得会被敌方摧毁的反物质炸弹，安放并经过蓄爆后爆炸，对周围敌方单位造成巨额伤害",
+        "LocalizedString": "获得会被敌方摧毁的反物质炸弹，安放并经过蓄爆后爆炸，对周围敌方单位造成巨额伤害"
+      },
+      "DescSimple": {
+        "CultureInvariantString": null
+      },
+      "DescParamLevel1": [],
+      "DescParamLevel2": [],
+      "DescParamLevel3": [],
+      "DescParamLevel4": [],
+      "DescParamLevel5": [],
+      "ActiveMethod": "ECyCardActiveMethod::AutoConsume",
+      "TeamType": "ECyCardTeamType::Human",
+      "Rarity": "ECyCardRarityType::Gold",
+      "UnlockRoles": [],
+      "Keywords": [],
+      "Title1": {
+        "CultureInvariantString": null
+      },
+      "Content1": {
+        "CultureInvariantString": null
+      },
+      "Title2": {
+        "CultureInvariantString": null
+      },
+      "Content2": {
+        "CultureInvariantString": null
+      },
+      "CostCoin": 400,
+      "BreakdownCoin": 100,
+      "Quality": "ECyItemQualityType::Orange",
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_80185.T_Dynamic_Item_80185",
+        "SubPathString": ""
+      },
+      "Default": false,
+      "Tradable": true,
+      "Block": false
+    },
+    "20251046": {
+      "CardId": 20251046,
+      "Id": 80186,
+      "PlayMode": 11,
+      "Index": 110,
+      "LimitNum": 1,
+      "LimitType": 12,
+      "LimitParam": 100,
+      "Category": "ECyCardCategory::Rule",
+      "MaxLevel": 1,
+      "Extension": true,
+      "Tags": [
+        "ECyCardTagType::None"
+      ],
+      "Recommend": 0,
+      "TypeDesc": {
+        "CultureInvariantString": null
+      },
+      "Background": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "IconWhite": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "IconLumi": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "Icon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoguelikeCard/T_Dynamic_RoguelikeCard_20251046.T_Dynamic_RoguelikeCard_20251046",
+        "SubPathString": ""
+      },
+      "SerialIcon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoguelikeCardSerialIcon/T_Dynamic_RoguelikeCardSerialIcon_1.T_Dynamic_RoguelikeCardSerialIcon_1",
+        "SubPathString": ""
+      },
+      "TagType": 0,
+      "TagDesc": {
+        "CultureInvariantString": null
+      },
+      "Name": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GameplayCard.ST_GameplayCard",
+        "Key": "Name_20251046",
+        "SourceString": "赏金猎人",
+        "LocalizedString": "赏金猎人"
+      },
+      "Desc": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GameplayCard.ST_GameplayCard",
+        "Key": "Desc_20251046",
+        "SourceString": "获取后随机赏金目标，{0}秒内击杀目标后经验值+{1},伤害+{2}%,CD45秒",
+        "LocalizedString": "获取后随机赏金目标，{0}秒内击杀目标后经验值+{1},伤害+{2}%,CD45秒"
+      },
+      "DescSimple": {
+        "CultureInvariantString": null
+      },
+      "DescParamLevel1": [
+        40.0,
+        1500.0,
+        60.0
+      ],
+      "DescParamLevel2": [
+        10.0,
+        1500.0,
+        60.0
+      ],
+      "DescParamLevel3": [
+        10.0,
+        1500.0,
+        60.0
+      ],
+      "DescParamLevel4": [
+        10.0,
+        1500.0,
+        60.0
+      ],
+      "DescParamLevel5": [],
+      "ActiveMethod": "ECyCardActiveMethod::AutoConsume",
+      "TeamType": "ECyCardTeamType::Human",
+      "Rarity": "ECyCardRarityType::Gold",
+      "UnlockRoles": [],
+      "Keywords": [],
+      "Title1": {
+        "CultureInvariantString": null
+      },
+      "Content1": {
+        "CultureInvariantString": null
+      },
+      "Title2": {
+        "CultureInvariantString": null
+      },
+      "Content2": {
+        "CultureInvariantString": null
+      },
+      "CostCoin": 400,
+      "BreakdownCoin": 100,
+      "Quality": "ECyItemQualityType::Orange",
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_80186.T_Dynamic_Item_80186",
+        "SubPathString": ""
+      },
+      "Default": false,
+      "Tradable": true,
+      "Block": false
+    },
+    "20251047": {
+      "CardId": 20251047,
+      "Id": 80187,
+      "PlayMode": 11,
+      "Index": 111,
+      "LimitNum": 1,
+      "LimitType": 12,
+      "LimitParam": 20,
+      "Category": "ECyCardCategory::Skill",
+      "MaxLevel": 1,
+      "Extension": true,
+      "Tags": [
+        "ECyCardTagType::None"
+      ],
+      "Recommend": 0,
+      "TypeDesc": {
+        "CultureInvariantString": null
+      },
+      "Background": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "IconWhite": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "IconLumi": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "Icon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoguelikeCard/T_Dynamic_RoguelikeCard_20251047.T_Dynamic_RoguelikeCard_20251047",
+        "SubPathString": ""
+      },
+      "SerialIcon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoguelikeCardSerialIcon/T_Dynamic_RoguelikeCardSerialIcon_1.T_Dynamic_RoguelikeCardSerialIcon_1",
+        "SubPathString": ""
+      },
+      "TagType": 0,
+      "TagDesc": {
+        "CultureInvariantString": null
+      },
+      "Name": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GameplayCard.ST_GameplayCard",
+        "Key": "Name_20251047",
+        "SourceString": "急速冷却",
+        "LocalizedString": "急速冷却"
+      },
+      "Desc": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GameplayCard.ST_GameplayCard",
+        "Key": "Desc_20251047",
+        "SourceString": "每造成{0}次伤害减少1秒主动技能和战术技能CD，触发CD{1}秒",
+        "LocalizedString": "每造成{0}次伤害减少1秒主动技能和战术技能CD，触发CD{1}秒"
+      },
+      "DescSimple": {
+        "CultureInvariantString": null
+      },
+      "DescParamLevel1": [
+        50.0,
+        1.0
+      ],
+      "DescParamLevel2": [
+        50.0,
+        1.0
+      ],
+      "DescParamLevel3": [
+        50.0,
+        1.0
+      ],
+      "DescParamLevel4": [
+        50.0,
+        1.0
+      ],
+      "DescParamLevel5": [],
+      "ActiveMethod": "ECyCardActiveMethod::Auto",
+      "TeamType": "ECyCardTeamType::Human",
+      "Rarity": "ECyCardRarityType::Purple",
+      "UnlockRoles": [
+        101,
+        105,
+        132,
+        107,
+        128,
+        108,
+        112,
+        146,
+        109,
+        110,
+        137,
+        131,
+        115,
+        119,
+        205,
+        120,
+        121,
+        122,
+        124,
+        125,
+        130
+      ],
+      "Keywords": [],
+      "Title1": {
+        "Namespace": "GameplayCard_Zombie",
+        "Key": "20251018_Title1",
+        "SourceString": "效果描述",
+        "LocalizedString": "效果描述"
+      },
+      "Content1": {
+        "Namespace": "GameplayCard_Zombie",
+        "Key": "20251047_Content1",
+        "SourceString": "蕾欧娜和梅瑞狄斯无法随机到此卡",
+        "LocalizedString": "蕾欧娜和梅瑞狄斯无法随机到此卡"
+      },
+      "Title2": {
+        "CultureInvariantString": null
+      },
+      "Content2": {
+        "CultureInvariantString": null
+      },
+      "CostCoin": 100,
+      "BreakdownCoin": 20,
+      "Quality": "ECyItemQualityType::Purple",
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_80187.T_Dynamic_Item_80187",
+        "SubPathString": ""
+      },
+      "Default": false,
+      "Tradable": true,
+      "Block": false
+    },
+    "20251048": {
+      "CardId": 20251048,
+      "Id": 80188,
+      "PlayMode": 11,
+      "Index": 112,
+      "LimitNum": 1,
+      "LimitType": 12,
+      "LimitParam": 5,
+      "Category": "ECyCardCategory::Weapon",
+      "MaxLevel": 2,
+      "Extension": true,
+      "Tags": [
+        "ECyCardTagType::None"
+      ],
+      "Recommend": 0,
+      "TypeDesc": {
+        "CultureInvariantString": null
+      },
+      "Background": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "IconWhite": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "IconLumi": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "Icon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoguelikeCard/T_Dynamic_RoguelikeCard_20251048.T_Dynamic_RoguelikeCard_20251048",
+        "SubPathString": ""
+      },
+      "SerialIcon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoguelikeCardSerialIcon/T_Dynamic_RoguelikeCardSerialIcon_1.T_Dynamic_RoguelikeCardSerialIcon_1",
+        "SubPathString": ""
+      },
+      "TagType": 0,
+      "TagDesc": {
+        "CultureInvariantString": null
+      },
+      "Name": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GameplayCard.ST_GameplayCard",
+        "Key": "Name_20251048",
+        "SourceString": "战斗训练",
+        "LocalizedString": "战斗训练"
+      },
+      "Desc": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GameplayCard.ST_GameplayCard",
+        "Key": "Desc_20251048",
+        "SourceString": "每造成{0}次伤害，伤害+{1}%，CD{2}秒",
+        "LocalizedString": "每造成{0}次伤害，伤害+{1}%，CD{2}秒"
+      },
+      "DescSimple": {
+        "CultureInvariantString": null
+      },
+      "DescParamLevel1": [
+        30.0,
+        4.0,
+        0.5
+      ],
+      "DescParamLevel2": [
+        30.0,
+        8.0,
+        0.5
+      ],
+      "DescParamLevel3": [
+        30.0,
+        10.0,
+        0.5
+      ],
+      "DescParamLevel4": [
+        30.0,
+        10.0,
+        0.5
+      ],
+      "DescParamLevel5": [],
+      "ActiveMethod": "ECyCardActiveMethod::Auto",
+      "TeamType": "ECyCardTeamType::Human",
+      "Rarity": "ECyCardRarityType::Blue",
+      "UnlockRoles": [],
+      "Keywords": [],
+      "Title1": {
+        "CultureInvariantString": null
+      },
+      "Content1": {
+        "CultureInvariantString": null
+      },
+      "Title2": {
+        "CultureInvariantString": null
+      },
+      "Content2": {
+        "CultureInvariantString": null
+      },
+      "CostCoin": 25,
+      "BreakdownCoin": 5,
+      "Quality": "ECyItemQualityType::Blue",
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_80188.T_Dynamic_Item_80188",
+        "SubPathString": ""
+      },
+      "Default": false,
+      "Tradable": true,
+      "Block": false
+    },
+    "20251049": {
+      "CardId": 20251049,
+      "Id": 80189,
+      "PlayMode": 11,
+      "Index": 113,
+      "LimitNum": 1,
+      "LimitType": 12,
+      "LimitParam": 5,
+      "Category": "ECyCardCategory::Rule",
+      "MaxLevel": 2,
+      "Extension": true,
+      "Tags": [
+        "ECyCardTagType::None"
+      ],
+      "Recommend": 0,
+      "TypeDesc": {
+        "CultureInvariantString": null
+      },
+      "Background": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "IconWhite": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "IconLumi": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "Icon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoguelikeCard/T_Dynamic_RoguelikeCard_20251049.T_Dynamic_RoguelikeCard_20251049",
+        "SubPathString": ""
+      },
+      "SerialIcon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoguelikeCardSerialIcon/T_Dynamic_RoguelikeCardSerialIcon_1.T_Dynamic_RoguelikeCardSerialIcon_1",
+        "SubPathString": ""
+      },
+      "TagType": 0,
+      "TagDesc": {
+        "CultureInvariantString": null
+      },
+      "Name": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GameplayCard.ST_GameplayCard",
+        "Key": "Name_20251049",
+        "SourceString": "治疗子弹",
+        "LocalizedString": "治疗子弹"
+      },
+      "Desc": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GameplayCard.ST_GameplayCard",
+        "Key": "Desc_20251049",
+        "SourceString": "枪械命中队友，会给目标和自己恢复{0}生命和护甲值，CD{1}秒",
+        "LocalizedString": "枪械命中队友，会给目标和自己恢复{0}生命和护甲值，CD{1}秒"
+      },
+      "DescSimple": {
+        "CultureInvariantString": null
+      },
+      "DescParamLevel1": [
+        400.0,
+        5.0
+      ],
+      "DescParamLevel2": [
+        800.0,
+        5.0
+      ],
+      "DescParamLevel3": [
+        100.0,
+        5.0
+      ],
+      "DescParamLevel4": [
+        100.0,
+        5.0
+      ],
+      "DescParamLevel5": [],
+      "ActiveMethod": "ECyCardActiveMethod::Auto",
+      "TeamType": "ECyCardTeamType::Human",
+      "Rarity": "ECyCardRarityType::Blue",
+      "UnlockRoles": [],
+      "Keywords": [],
+      "Title1": {
+        "CultureInvariantString": null
+      },
+      "Content1": {
+        "CultureInvariantString": null
+      },
+      "Title2": {
+        "CultureInvariantString": null
+      },
+      "Content2": {
+        "CultureInvariantString": null
+      },
+      "CostCoin": 25,
+      "BreakdownCoin": 5,
+      "Quality": "ECyItemQualityType::Blue",
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_80189.T_Dynamic_Item_80189",
+        "SubPathString": ""
+      },
+      "Default": false,
+      "Tradable": true,
+      "Block": false
+    },
+    "20251050": {
+      "CardId": 20251050,
+      "Id": 80190,
+      "PlayMode": 11,
+      "Index": 114,
+      "LimitNum": 1,
+      "LimitType": 12,
+      "LimitParam": 20,
+      "Category": "ECyCardCategory::Weapon",
+      "MaxLevel": 3,
+      "Extension": true,
+      "Tags": [
+        "ECyCardTagType::None"
+      ],
+      "Recommend": 0,
+      "TypeDesc": {
+        "CultureInvariantString": null
+      },
+      "Background": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "IconWhite": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "IconLumi": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "Icon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoguelikeCard/T_Dynamic_RoguelikeCard_20251050.T_Dynamic_RoguelikeCard_20251050",
+        "SubPathString": ""
+      },
+      "SerialIcon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoguelikeCardSerialIcon/T_Dynamic_RoguelikeCardSerialIcon_1.T_Dynamic_RoguelikeCardSerialIcon_1",
+        "SubPathString": ""
+      },
+      "TagType": 0,
+      "TagDesc": {
+        "CultureInvariantString": null
+      },
+      "Name": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GameplayCard.ST_GameplayCard",
+        "Key": "Name_20251050",
+        "SourceString": "瘟疫蔓延",
+        "LocalizedString": "瘟疫蔓延"
+      },
+      "Desc": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GameplayCard.ST_GameplayCard",
+        "Key": "Desc_20251050",
+        "SourceString": "敌人被枪械首次命中时会施加{0}层毒素，并提升{1}%毒素伤害，敌方死亡后重置",
+        "LocalizedString": "敌人被枪械首次命中时会施加{0}层毒素，并提升{1}%毒素伤害，敌方死亡后重置"
+      },
+      "DescSimple": {
+        "CultureInvariantString": null
+      },
+      "DescParamLevel1": [
+        20.0,
+        20.0
+      ],
+      "DescParamLevel2": [
+        30.0,
+        30.0
+      ],
+      "DescParamLevel3": [
+        40.0,
+        40.0
+      ],
+      "DescParamLevel4": [
+        10.0,
+        40.0
+      ],
+      "DescParamLevel5": [],
+      "ActiveMethod": "ECyCardActiveMethod::Auto",
+      "TeamType": "ECyCardTeamType::Human",
+      "Rarity": "ECyCardRarityType::Purple",
+      "UnlockRoles": [],
+      "Keywords": [],
+      "Title1": {
+        "Namespace": "GameplayCard_Zombie",
+        "Key": "20251018_Title1",
+        "SourceString": "效果描述",
+        "LocalizedString": "效果描述"
+      },
+      "Content1": {
+        "Namespace": "GameplayCard_Zombie",
+        "Key": "20251018_Content1",
+        "SourceString": "每层毒素造成8点固定伤害，持续2秒",
+        "LocalizedString": "每层毒素造成8点固定伤害，持续2秒"
+      },
+      "Title2": {
+        "CultureInvariantString": null
+      },
+      "Content2": {
+        "CultureInvariantString": null
+      },
+      "CostCoin": 100,
+      "BreakdownCoin": 20,
+      "Quality": "ECyItemQualityType::Purple",
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_80190.T_Dynamic_Item_80190",
+        "SubPathString": ""
+      },
+      "Default": false,
+      "Tradable": true,
+      "Block": false
+    },
+    "20251051": {
+      "CardId": 20251051,
+      "Id": 80191,
+      "PlayMode": 11,
+      "Index": 115,
+      "LimitNum": 1,
+      "LimitType": 12,
+      "LimitParam": 100,
+      "Category": "ECyCardCategory::Rule",
+      "MaxLevel": 1,
+      "Extension": true,
+      "Tags": [
+        "ECyCardTagType::None"
+      ],
+      "Recommend": 0,
+      "TypeDesc": {
+        "CultureInvariantString": null
+      },
+      "Background": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "IconWhite": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "IconLumi": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "Icon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoguelikeCard/T_Dynamic_RoguelikeCard_20251051.T_Dynamic_RoguelikeCard_20251051",
+        "SubPathString": ""
+      },
+      "SerialIcon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoguelikeCardSerialIcon/T_Dynamic_RoguelikeCardSerialIcon_1.T_Dynamic_RoguelikeCardSerialIcon_1",
+        "SubPathString": ""
+      },
+      "TagType": 0,
+      "TagDesc": {
+        "CultureInvariantString": null
+      },
+      "Name": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GameplayCard.ST_GameplayCard",
+        "Key": "Name_20251051",
+        "SourceString": "护主魔剑",
+        "LocalizedString": "护主魔剑"
+      },
+      "Desc": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GameplayCard.ST_GameplayCard",
+        "Key": "Desc_20251051",
+        "SourceString": "参与20次击杀觉醒效果:濒死时恢复至{0}生命值和护甲，对{1}m内敌人造成{2}伤害，CD10秒,最多三次；",
+        "LocalizedString": "参与20次击杀觉醒效果:濒死时恢复至{0}生命值和护甲，对{1}m内敌人造成{2}伤害，CD10秒,最多三次；"
+      },
+      "DescSimple": {
+        "CultureInvariantString": null
+      },
+      "DescParamLevel1": [
+        1000.0,
+        6.0,
+        4000.0
+      ],
+      "DescParamLevel2": [
+        100000.0,
+        6.0,
+        100000.0
+      ],
+      "DescParamLevel3": [
+        100000.0,
+        8.0,
+        100000.0
+      ],
+      "DescParamLevel4": [
+        100000.0,
+        8.0,
+        100000.0
+      ],
+      "DescParamLevel5": [],
+      "ActiveMethod": "ECyCardActiveMethod::Auto",
+      "TeamType": "ECyCardTeamType::Human",
+      "Rarity": "ECyCardRarityType::Gold",
+      "UnlockRoles": [],
+      "Keywords": [],
+      "Title1": {
+        "CultureInvariantString": null
+      },
+      "Content1": {
+        "CultureInvariantString": null
+      },
+      "Title2": {
+        "CultureInvariantString": null
+      },
+      "Content2": {
+        "CultureInvariantString": null
+      },
+      "CostCoin": 400,
+      "BreakdownCoin": 100,
+      "Quality": "ECyItemQualityType::Orange",
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_80191.T_Dynamic_Item_80191",
+        "SubPathString": ""
+      },
+      "Default": false,
+      "Tradable": true,
+      "Block": false
+    },
+    "20251052": {
+      "CardId": 20251052,
+      "Id": 80192,
+      "PlayMode": 11,
+      "Index": 116,
+      "LimitNum": 1,
+      "LimitType": 12,
+      "LimitParam": 20,
+      "Category": "ECyCardCategory::Skill",
+      "MaxLevel": 1,
+      "Extension": true,
+      "Tags": [
+        "ECyCardTagType::None"
+      ],
+      "Recommend": 0,
+      "TypeDesc": {
+        "CultureInvariantString": null
+      },
+      "Background": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "IconWhite": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "IconLumi": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "Icon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoguelikeCard/T_Dynamic_RoguelikeCard_20251052.T_Dynamic_RoguelikeCard_20251052",
+        "SubPathString": ""
+      },
+      "SerialIcon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoguelikeCardSerialIcon/T_Dynamic_RoguelikeCardSerialIcon_1.T_Dynamic_RoguelikeCardSerialIcon_1",
+        "SubPathString": ""
+      },
+      "TagType": 0,
+      "TagDesc": {
+        "CultureInvariantString": null
+      },
+      "Name": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GameplayCard.ST_GameplayCard",
+        "Key": "Name_20251052",
+        "SourceString": "多重施法",
+        "LocalizedString": "多重施法"
+      },
+      "Desc": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GameplayCard.ST_GameplayCard",
+        "Key": "Desc_20251052",
+        "SourceString": "每次释放主动技能和战术技能时{0}%概率刷新该技能CD",
+        "LocalizedString": "每次释放主动技能和战术技能时{0}%概率刷新该技能CD"
+      },
+      "DescSimple": {
+        "CultureInvariantString": null
+      },
+      "DescParamLevel1": [
+        50.0
+      ],
+      "DescParamLevel2": [
+        60.0
+      ],
+      "DescParamLevel3": [
+        70.0
+      ],
+      "DescParamLevel4": [
+        40.0
+      ],
+      "DescParamLevel5": [],
+      "ActiveMethod": "ECyCardActiveMethod::Auto",
+      "TeamType": "ECyCardTeamType::Human",
+      "Rarity": "ECyCardRarityType::Purple",
+      "UnlockRoles": [
+        101,
+        105,
+        132,
+        107,
+        128,
+        108,
+        112,
+        146,
+        109,
+        110,
+        137,
+        131,
+        115,
+        119,
+        205,
+        120,
+        121,
+        122,
+        124,
+        125,
+        130
+      ],
+      "Keywords": [],
+      "Title1": {
+        "Namespace": "GameplayCard_Zombie",
+        "Key": "20251018_Title1",
+        "SourceString": "效果描述",
+        "LocalizedString": "效果描述"
+      },
+      "Content1": {
+        "Namespace": "GameplayCard_Zombie",
+        "Key": "20251047_Content1",
+        "SourceString": "蕾欧娜和梅瑞狄斯无法随机到此卡",
+        "LocalizedString": "蕾欧娜和梅瑞狄斯无法随机到此卡"
+      },
+      "Title2": {
+        "CultureInvariantString": null
+      },
+      "Content2": {
+        "CultureInvariantString": null
+      },
+      "CostCoin": 100,
+      "BreakdownCoin": 20,
+      "Quality": "ECyItemQualityType::Purple",
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_80192.T_Dynamic_Item_80192",
+        "SubPathString": ""
+      },
+      "Default": false,
+      "Tradable": true,
+      "Block": false
+    },
+    "20251053": {
+      "CardId": 20251053,
+      "Id": 80193,
+      "PlayMode": 11,
+      "Index": 117,
+      "LimitNum": 1,
+      "LimitType": 12,
+      "LimitParam": 5,
+      "Category": "ECyCardCategory::Weapon",
+      "MaxLevel": 2,
+      "Extension": true,
+      "Tags": [
+        "ECyCardTagType::None"
+      ],
+      "Recommend": 0,
+      "TypeDesc": {
+        "CultureInvariantString": null
+      },
+      "Background": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "IconWhite": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "IconLumi": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "Icon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoguelikeCard/T_Dynamic_RoguelikeCard_20251053.T_Dynamic_RoguelikeCard_20251053",
+        "SubPathString": ""
+      },
+      "SerialIcon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoguelikeCardSerialIcon/T_Dynamic_RoguelikeCardSerialIcon_1.T_Dynamic_RoguelikeCardSerialIcon_1",
+        "SubPathString": ""
+      },
+      "TagType": 0,
+      "TagDesc": {
+        "CultureInvariantString": null
+      },
+      "Name": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GameplayCard.ST_GameplayCard",
+        "Key": "Name_20251053",
+        "SourceString": "坚守阵地",
+        "LocalizedString": "坚守阵地"
+      },
+      "Desc": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GameplayCard.ST_GameplayCard",
+        "Key": "Desc_20251053",
+        "SourceString": "不移动{0}秒后，+{1}%伤害和{2}%射速，脱离后持续1秒",
+        "LocalizedString": "不移动{0}秒后，+{1}%伤害和{2}%射速，脱离后持续1秒"
+      },
+      "DescSimple": {
+        "CultureInvariantString": null
+      },
+      "DescParamLevel1": [
+        3.0,
+        50.0,
+        25.0
+      ],
+      "DescParamLevel2": [
+        3.0,
+        100.0,
+        50.0
+      ],
+      "DescParamLevel3": [
+        3.0,
+        50.0,
+        50.0
+      ],
+      "DescParamLevel4": [
+        3.0,
+        50.0,
+        50.0
+      ],
+      "DescParamLevel5": [],
+      "ActiveMethod": "ECyCardActiveMethod::Auto",
+      "TeamType": "ECyCardTeamType::Human",
+      "Rarity": "ECyCardRarityType::Blue",
+      "UnlockRoles": [],
+      "Keywords": [],
+      "Title1": {
+        "CultureInvariantString": null
+      },
+      "Content1": {
+        "CultureInvariantString": null
+      },
+      "Title2": {
+        "CultureInvariantString": null
+      },
+      "Content2": {
+        "CultureInvariantString": null
+      },
+      "CostCoin": 25,
+      "BreakdownCoin": 5,
+      "Quality": "ECyItemQualityType::Blue",
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_80193.T_Dynamic_Item_80193",
+        "SubPathString": ""
+      },
+      "Default": false,
+      "Tradable": true,
+      "Block": false
+    },
     "10331001": {
       "CardId": 10331001,
       "Id": 80044,
       "PlayMode": 11,
-      "Index": 98,
+      "Index": 118,
       "LimitNum": 1,
       "LimitType": 12,
       "LimitParam": 5,
@@ -9773,7 +11880,7 @@
       "CardId": 10331002,
       "Id": 80045,
       "PlayMode": 11,
-      "Index": 99,
+      "Index": 119,
       "LimitNum": 1,
       "LimitType": 12,
       "LimitParam": 5,
@@ -9871,7 +11978,7 @@
       "CardId": 10331003,
       "Id": 80046,
       "PlayMode": 11,
-      "Index": 100,
+      "Index": 120,
       "LimitNum": 1,
       "LimitType": 12,
       "LimitParam": 5,
@@ -9925,19 +12032,19 @@
         "CultureInvariantString": null
       },
       "DescParamLevel1": [
-        8.0,
+        6.0,
         3.0
       ],
       "DescParamLevel2": [
-        16.0,
+        12.0,
         3.0
       ],
       "DescParamLevel3": [
-        16.0,
+        12.0,
         3.0
       ],
       "DescParamLevel4": [
-        16.0,
+        12.0,
         3.0
       ],
       "DescParamLevel5": [],
@@ -9973,7 +12080,7 @@
       "CardId": 10331004,
       "Id": 80047,
       "PlayMode": 11,
-      "Index": 101,
+      "Index": 121,
       "LimitNum": 1,
       "LimitType": 12,
       "LimitParam": 5,
@@ -10075,7 +12182,7 @@
       "CardId": 10331005,
       "Id": 80048,
       "PlayMode": 11,
-      "Index": 102,
+      "Index": 122,
       "LimitNum": 1,
       "LimitType": 12,
       "LimitParam": 5,
@@ -10177,7 +12284,7 @@
       "CardId": 10331006,
       "Id": 80049,
       "PlayMode": 11,
-      "Index": 103,
+      "Index": 123,
       "LimitNum": 1,
       "LimitType": 12,
       "LimitParam": 5,
@@ -10279,7 +12386,7 @@
       "CardId": 10331007,
       "Id": 80104,
       "PlayMode": 11,
-      "Index": 104,
+      "Index": 124,
       "LimitNum": 1,
       "LimitType": 12,
       "LimitParam": 5,
@@ -10377,7 +12484,7 @@
       "CardId": 10331008,
       "Id": 80105,
       "PlayMode": 11,
-      "Index": 105,
+      "Index": 125,
       "LimitNum": 1,
       "LimitType": 12,
       "LimitParam": 5,
@@ -10475,7 +12582,7 @@
       "CardId": 10331009,
       "Id": 80106,
       "PlayMode": 11,
-      "Index": 106,
+      "Index": 126,
       "LimitNum": 1,
       "LimitType": 12,
       "LimitParam": 5,
@@ -10573,7 +12680,7 @@
       "CardId": 10331010,
       "Id": 80107,
       "PlayMode": 11,
-      "Index": 107,
+      "Index": 127,
       "LimitNum": 1,
       "LimitType": 12,
       "LimitParam": 5,
@@ -10671,7 +12778,7 @@
       "CardId": 20331007,
       "Id": 80050,
       "PlayMode": 11,
-      "Index": 108,
+      "Index": 128,
       "LimitNum": 1,
       "LimitType": 12,
       "LimitParam": 5,
@@ -10769,7 +12876,7 @@
       "CardId": 10341001,
       "Id": 80051,
       "PlayMode": 11,
-      "Index": 109,
+      "Index": 129,
       "LimitNum": 1,
       "LimitType": 12,
       "LimitParam": 20,
@@ -10871,7 +12978,7 @@
       "CardId": 10341002,
       "Id": 80052,
       "PlayMode": 11,
-      "Index": 110,
+      "Index": 130,
       "LimitNum": 1,
       "LimitType": 12,
       "LimitParam": 20,
@@ -10973,7 +13080,7 @@
       "CardId": 10341003,
       "Id": 80053,
       "PlayMode": 11,
-      "Index": 111,
+      "Index": 131,
       "LimitNum": 1,
       "LimitType": 12,
       "LimitParam": 20,
@@ -11075,7 +13182,7 @@
       "CardId": 10341004,
       "Id": 80054,
       "PlayMode": 11,
-      "Index": 112,
+      "Index": 132,
       "LimitNum": 1,
       "LimitType": 12,
       "LimitParam": 20,
@@ -11173,7 +13280,7 @@
       "CardId": 10341005,
       "Id": 80055,
       "PlayMode": 11,
-      "Index": 113,
+      "Index": 133,
       "LimitNum": 1,
       "LimitType": 12,
       "LimitParam": 20,
@@ -11271,7 +13378,7 @@
       "CardId": 10341006,
       "Id": 80056,
       "PlayMode": 11,
-      "Index": 114,
+      "Index": 134,
       "LimitNum": 1,
       "LimitType": 12,
       "LimitParam": 20,
@@ -11369,7 +13476,7 @@
       "CardId": 10341007,
       "Id": 80057,
       "PlayMode": 11,
-      "Index": 115,
+      "Index": 135,
       "LimitNum": 1,
       "LimitType": 12,
       "LimitParam": 20,
@@ -11467,7 +13574,7 @@
       "CardId": 10341008,
       "Id": 80058,
       "PlayMode": 11,
-      "Index": 116,
+      "Index": 136,
       "LimitNum": 1,
       "LimitType": 12,
       "LimitParam": 20,
@@ -11565,7 +13672,7 @@
       "CardId": 10341009,
       "Id": 80059,
       "PlayMode": 11,
-      "Index": 117,
+      "Index": 137,
       "LimitNum": 1,
       "LimitType": 12,
       "LimitParam": 20,
@@ -11663,7 +13770,7 @@
       "CardId": 10341010,
       "Id": 80060,
       "PlayMode": 11,
-      "Index": 118,
+      "Index": 138,
       "LimitNum": 1,
       "LimitType": 12,
       "LimitParam": 20,
@@ -11761,7 +13868,7 @@
       "CardId": 10341011,
       "Id": 80061,
       "PlayMode": 11,
-      "Index": 119,
+      "Index": 139,
       "LimitNum": 1,
       "LimitType": 12,
       "LimitParam": 20,
@@ -11859,7 +13966,7 @@
       "CardId": 10341012,
       "Id": 80062,
       "PlayMode": 11,
-      "Index": 120,
+      "Index": 140,
       "LimitNum": 1,
       "LimitType": 12,
       "LimitParam": 20,
@@ -11961,7 +14068,7 @@
       "CardId": 10341013,
       "Id": 80063,
       "PlayMode": 11,
-      "Index": 121,
+      "Index": 141,
       "LimitNum": 1,
       "LimitType": 12,
       "LimitParam": 20,
@@ -12063,7 +14170,7 @@
       "CardId": 10341014,
       "Id": 80064,
       "PlayMode": 11,
-      "Index": 122,
+      "Index": 142,
       "LimitNum": 1,
       "LimitType": 12,
       "LimitParam": 20,
@@ -12161,7 +14268,7 @@
       "CardId": 10341015,
       "Id": 80065,
       "PlayMode": 11,
-      "Index": 123,
+      "Index": 143,
       "LimitNum": 1,
       "LimitType": 12,
       "LimitParam": 20,
@@ -12259,7 +14366,7 @@
       "CardId": 10341016,
       "Id": 80066,
       "PlayMode": 11,
-      "Index": 124,
+      "Index": 144,
       "LimitNum": 1,
       "LimitType": 12,
       "LimitParam": 5,
@@ -12357,7 +14464,7 @@
       "CardId": 10341017,
       "Id": 80067,
       "PlayMode": 11,
-      "Index": 125,
+      "Index": 145,
       "LimitNum": 1,
       "LimitType": 12,
       "LimitParam": 5,
@@ -12455,7 +14562,7 @@
       "CardId": 10341018,
       "Id": 80086,
       "PlayMode": 11,
-      "Index": 126,
+      "Index": 146,
       "LimitNum": 1,
       "LimitType": 12,
       "LimitParam": 5,
@@ -12553,7 +14660,7 @@
       "CardId": 10341019,
       "Id": 80087,
       "PlayMode": 11,
-      "Index": 127,
+      "Index": 147,
       "LimitNum": 1,
       "LimitType": 12,
       "LimitParam": 5,
@@ -12651,7 +14758,7 @@
       "CardId": 10341020,
       "Id": 80088,
       "PlayMode": 11,
-      "Index": 128,
+      "Index": 148,
       "LimitNum": 1,
       "LimitType": 12,
       "LimitParam": 5,
@@ -12749,7 +14856,7 @@
       "CardId": 10341021,
       "Id": 80089,
       "PlayMode": 11,
-      "Index": 129,
+      "Index": 149,
       "LimitNum": 1,
       "LimitType": 12,
       "LimitParam": 5,
@@ -12851,7 +14958,7 @@
       "CardId": 10341022,
       "Id": 80108,
       "PlayMode": 11,
-      "Index": 130,
+      "Index": 150,
       "LimitNum": 1,
       "LimitType": 12,
       "LimitParam": 5,
@@ -12949,7 +15056,7 @@
       "CardId": 10341023,
       "Id": 80109,
       "PlayMode": 11,
-      "Index": 131,
+      "Index": 151,
       "LimitNum": 1,
       "LimitType": 12,
       "LimitParam": 20,
@@ -13047,7 +15154,7 @@
       "CardId": 10351001,
       "Id": 80068,
       "PlayMode": 11,
-      "Index": 132,
+      "Index": 152,
       "LimitNum": 1,
       "LimitType": 12,
       "LimitParam": 100,
@@ -13149,7 +15256,7 @@
       "CardId": 10351002,
       "Id": 80069,
       "PlayMode": 11,
-      "Index": 133,
+      "Index": 153,
       "LimitNum": 1,
       "LimitType": 12,
       "LimitParam": 100,
@@ -13247,7 +15354,7 @@
       "CardId": 10351003,
       "Id": 80070,
       "PlayMode": 11,
-      "Index": 134,
+      "Index": 154,
       "LimitNum": 1,
       "LimitType": 12,
       "LimitParam": 100,
@@ -13294,8 +15401,8 @@
       "Desc": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GameplayCard.ST_GameplayCard",
         "Key": "Desc_10351003",
-        "SourceString": "复活时血量和护甲+{0}",
-        "LocalizedString": "复活时血量和护甲+{0}"
+        "SourceString": "受到致命伤害时血量和护甲+{0}",
+        "LocalizedString": "受到致命伤害时血量和护甲+{0}"
       },
       "DescSimple": {
         "CultureInvariantString": null
@@ -13345,7 +15452,7 @@
       "CardId": 10351004,
       "Id": 80071,
       "PlayMode": 11,
-      "Index": 135,
+      "Index": 155,
       "LimitNum": 1,
       "LimitType": 12,
       "LimitParam": 100,
@@ -13447,7 +15554,7 @@
       "CardId": 10351005,
       "Id": 80072,
       "PlayMode": 11,
-      "Index": 136,
+      "Index": 156,
       "LimitNum": 1,
       "LimitType": 12,
       "LimitParam": 100,
@@ -13502,19 +15609,19 @@
       },
       "DescParamLevel1": [
         9.0,
-        9.0
+        5.0
       ],
       "DescParamLevel2": [
         12.0,
-        12.0
+        6.0
       ],
       "DescParamLevel3": [
         15.0,
-        15.0
+        6.0
       ],
       "DescParamLevel4": [
         18.0,
-        18.0
+        6.0
       ],
       "DescParamLevel5": [],
       "ActiveMethod": "ECyCardActiveMethod::Auto",
@@ -13549,7 +15656,7 @@
       "CardId": 10351006,
       "Id": 80090,
       "PlayMode": 11,
-      "Index": 137,
+      "Index": 157,
       "LimitNum": 1,
       "LimitType": 12,
       "LimitParam": 100,
@@ -13651,7 +15758,7 @@
       "CardId": 10351007,
       "Id": 80091,
       "PlayMode": 11,
-      "Index": 138,
+      "Index": 158,
       "LimitNum": 1,
       "LimitType": 12,
       "LimitParam": 100,
@@ -13749,7 +15856,7 @@
       "CardId": 10351008,
       "Id": 80093,
       "PlayMode": 11,
-      "Index": 139,
+      "Index": 159,
       "LimitNum": 1,
       "LimitType": 12,
       "LimitParam": 5,
@@ -13839,7 +15946,7 @@
       "CardId": 10351009,
       "Id": 80110,
       "PlayMode": 11,
-      "Index": 140,
+      "Index": 160,
       "LimitNum": 1,
       "LimitType": 12,
       "LimitParam": 20,
@@ -13941,7 +16048,7 @@
       "CardId": 10351010,
       "Id": 80111,
       "PlayMode": 11,
-      "Index": 141,
+      "Index": 161,
       "LimitNum": 1,
       "LimitType": 12,
       "LimitParam": 5,
@@ -14039,7 +16146,7 @@
       "CardId": 10351011,
       "Id": 80125,
       "PlayMode": 11,
-      "Index": 142,
+      "Index": 162,
       "LimitNum": 1,
       "LimitType": 12,
       "LimitParam": 100,
@@ -14141,7 +16248,7 @@
       "CardId": 10351012,
       "Id": 80126,
       "PlayMode": 11,
-      "Index": 143,
+      "Index": 163,
       "LimitNum": 1,
       "LimitType": 12,
       "LimitParam": 20,
@@ -14239,7 +16346,7 @@
       "CardId": 10351013,
       "Id": 80127,
       "PlayMode": 11,
-      "Index": 144,
+      "Index": 164,
       "LimitNum": 1,
       "LimitType": 12,
       "LimitParam": 100,
@@ -14337,7 +16444,7 @@
       "CardId": 10351014,
       "Id": 80128,
       "PlayMode": 11,
-      "Index": 145,
+      "Index": 165,
       "LimitNum": 1,
       "LimitType": 12,
       "LimitParam": 5,
@@ -14435,7 +16542,7 @@
       "CardId": 10351015,
       "Id": 80129,
       "PlayMode": 11,
-      "Index": 146,
+      "Index": 166,
       "LimitNum": 1,
       "LimitType": 12,
       "LimitParam": 5,
@@ -14533,7 +16640,7 @@
       "CardId": 10351016,
       "Id": 80130,
       "PlayMode": 11,
-      "Index": 147,
+      "Index": 167,
       "LimitNum": 1,
       "LimitType": 12,
       "LimitParam": 20,
@@ -14631,7 +16738,7 @@
       "CardId": 10351017,
       "Id": 80131,
       "PlayMode": 11,
-      "Index": 148,
+      "Index": 168,
       "LimitNum": 1,
       "LimitType": 12,
       "LimitParam": 100,
@@ -14733,7 +16840,7 @@
       "CardId": 20351001,
       "Id": 80073,
       "PlayMode": 11,
-      "Index": 149,
+      "Index": 169,
       "LimitNum": 1,
       "LimitType": 12,
       "LimitParam": 100,
@@ -14826,7 +16933,7 @@
       "CardId": 20351002,
       "Id": 80092,
       "PlayMode": 11,
-      "Index": 150,
+      "Index": 170,
       "LimitNum": 1,
       "LimitType": 12,
       "LimitParam": 20,
@@ -14924,7 +17031,7 @@
       "CardId": 20351003,
       "Id": 80112,
       "PlayMode": 11,
-      "Index": 151,
+      "Index": 171,
       "LimitNum": 1,
       "LimitType": 12,
       "LimitParam": 20,
@@ -15022,7 +17129,7 @@
       "CardId": 20351004,
       "Id": 80132,
       "PlayMode": 11,
-      "Index": 152,
+      "Index": 172,
       "LimitNum": 1,
       "LimitType": 12,
       "LimitParam": 100,
@@ -15069,8 +17176,8 @@
       "Desc": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GameplayCard.ST_GameplayCard",
         "Key": "Desc_20351004",
-        "SourceString": "{0}s不移动后，会进入12m开始显形的渐隐状态",
-        "LocalizedString": "{0}s不移动后，会进入12m开始显形的渐隐状态"
+        "SourceString": "受击致血量低于60%时,将进入持续3s的隐身状态,CD15s",
+        "LocalizedString": "受击致血量低于60%时,将进入持续3s的隐身状态,CD15s"
       },
       "DescSimple": {
         "CultureInvariantString": null
@@ -15120,7 +17227,7 @@
       "CardId": 20351005,
       "Id": 80133,
       "PlayMode": 11,
-      "Index": 153,
+      "Index": 173,
       "LimitNum": 1,
       "LimitType": 12,
       "LimitParam": 100,
@@ -15218,7 +17325,7 @@
       "CardId": 20351006,
       "Id": 80154,
       "PlayMode": 11,
-      "Index": 154,
+      "Index": 174,
       "LimitNum": 1,
       "LimitType": 12,
       "LimitParam": 100,
@@ -15324,7 +17431,7 @@
       "CardId": 20351007,
       "Id": 80155,
       "PlayMode": 11,
-      "Index": 155,
+      "Index": 175,
       "LimitNum": 1,
       "LimitType": 12,
       "LimitParam": 5,
@@ -15426,7 +17533,7 @@
       "CardId": 20351008,
       "Id": 80156,
       "PlayMode": 11,
-      "Index": 156,
+      "Index": 176,
       "LimitNum": 1,
       "LimitType": 12,
       "LimitParam": 20,
@@ -15524,7 +17631,7 @@
       "CardId": 20351009,
       "Id": 80157,
       "PlayMode": 11,
-      "Index": 157,
+      "Index": 177,
       "LimitNum": 1,
       "LimitType": 12,
       "LimitParam": 20,
@@ -15626,7 +17733,7 @@
       "CardId": 20351010,
       "Id": 80158,
       "PlayMode": 11,
-      "Index": 158,
+      "Index": 178,
       "LimitNum": 1,
       "LimitType": 12,
       "LimitParam": 20,
@@ -15728,7 +17835,7 @@
       "CardId": 20351011,
       "Id": 80159,
       "PlayMode": 11,
-      "Index": 159,
+      "Index": 179,
       "LimitNum": 1,
       "LimitType": 12,
       "LimitParam": 100,
@@ -15775,8 +17882,8 @@
       "Desc": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GameplayCard.ST_GameplayCard",
         "Key": "Desc_20351011",
-        "SourceString": "其他角色被击杀时会掉落晶粹，拾取时+{0}护甲和血量，+{1}%伤害,晶粹持续{2}s。",
-        "LocalizedString": "其他角色被击杀时会掉落晶粹，拾取时+{0}护甲和血量，+{1}%伤害,晶粹持续{2}s。"
+        "SourceString": "其他角色死亡掉落晶粹，拾取时+{0}护甲和血量，+{1}%伤害,晶粹持续{2}s。",
+        "LocalizedString": "其他角色死亡掉落晶粹，拾取时+{0}护甲和血量，+{1}%伤害,晶粹持续{2}s。"
       },
       "DescSimple": {
         "CultureInvariantString": null
@@ -15834,7 +17941,7 @@
       "CardId": 20351012,
       "Id": 80160,
       "PlayMode": 11,
-      "Index": 160,
+      "Index": 180,
       "LimitNum": 1,
       "LimitType": 12,
       "LimitParam": 100,
@@ -15932,7 +18039,7 @@
       "CardId": 20351013,
       "Id": 80161,
       "PlayMode": 11,
-      "Index": 161,
+      "Index": 181,
       "LimitNum": 1,
       "LimitType": 12,
       "LimitParam": 5,
@@ -16030,7 +18137,7 @@
       "CardId": 20351014,
       "Id": 80162,
       "PlayMode": 11,
-      "Index": 162,
+      "Index": 182,
       "LimitNum": 1,
       "LimitType": 12,
       "LimitParam": 100,
@@ -16136,7 +18243,7 @@
       "CardId": 20351015,
       "Id": 80163,
       "PlayMode": 11,
-      "Index": 163,
+      "Index": 183,
       "LimitNum": 1,
       "LimitType": 12,
       "LimitParam": 100,
@@ -16242,7 +18349,7 @@
       "CardId": 20351016,
       "Id": 80164,
       "PlayMode": 11,
-      "Index": 164,
+      "Index": 184,
       "LimitNum": 1,
       "LimitType": 12,
       "LimitParam": 20,
@@ -16344,7 +18451,7 @@
       "CardId": 20351017,
       "Id": 80165,
       "PlayMode": 11,
-      "Index": 165,
+      "Index": 185,
       "LimitNum": 1,
       "LimitType": 12,
       "LimitParam": 5,
@@ -16446,7 +18553,7 @@
       "CardId": 20351018,
       "Id": 80166,
       "PlayMode": 11,
-      "Index": 166,
+      "Index": 186,
       "LimitNum": 1,
       "LimitType": 12,
       "LimitParam": 5,
@@ -16548,7 +18655,7 @@
       "CardId": 20351019,
       "Id": 80167,
       "PlayMode": 11,
-      "Index": 167,
+      "Index": 187,
       "LimitNum": 1,
       "LimitType": 12,
       "LimitParam": 5,
@@ -16638,7 +18745,7 @@
       "CardId": 20351020,
       "Id": 80168,
       "PlayMode": 11,
-      "Index": 168,
+      "Index": 188,
       "LimitNum": 1,
       "LimitType": 12,
       "LimitParam": 20,
@@ -16740,7 +18847,7 @@
       "CardId": 20351021,
       "Id": 80169,
       "PlayMode": 11,
-      "Index": 169,
+      "Index": 189,
       "LimitNum": 1,
       "LimitType": 12,
       "LimitParam": 20,
@@ -16846,7 +18953,7 @@
       "CardId": 20351022,
       "Id": 80170,
       "PlayMode": 11,
-      "Index": 170,
+      "Index": 190,
       "LimitNum": 1,
       "LimitType": 12,
       "LimitParam": 100,
@@ -16952,7 +19059,7 @@
       "CardId": 20351023,
       "Id": 80171,
       "PlayMode": 11,
-      "Index": 171,
+      "Index": 191,
       "LimitNum": 1,
       "LimitType": 12,
       "LimitParam": 20,
@@ -17054,7 +19161,7 @@
       "CardId": 20351024,
       "Id": 80172,
       "PlayMode": 11,
-      "Index": 172,
+      "Index": 192,
       "LimitNum": 1,
       "LimitType": 12,
       "LimitParam": 5,
@@ -17142,6 +19249,2038 @@
       "Quality": "ECyItemQualityType::Blue",
       "IconItem": {
         "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_80172.T_Dynamic_Item_80172",
+        "SubPathString": ""
+      },
+      "Default": false,
+      "Tradable": true,
+      "Block": false
+    },
+    "20351025": {
+      "CardId": 20351025,
+      "Id": 80195,
+      "PlayMode": 11,
+      "Index": 193,
+      "LimitNum": 1,
+      "LimitType": 12,
+      "LimitParam": 20,
+      "Category": "ECyCardCategory::Skill",
+      "MaxLevel": 1,
+      "Extension": true,
+      "Tags": [
+        "ECyCardTagType::None"
+      ],
+      "Recommend": 0,
+      "TypeDesc": {
+        "CultureInvariantString": null
+      },
+      "Background": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "IconWhite": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "IconLumi": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "Icon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoguelikeCard/T_Dynamic_RoguelikeCard_20351025.T_Dynamic_RoguelikeCard_20351025",
+        "SubPathString": ""
+      },
+      "SerialIcon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoguelikeCardSerialIcon/T_Dynamic_RoguelikeCardSerialIcon_1.T_Dynamic_RoguelikeCardSerialIcon_1",
+        "SubPathString": ""
+      },
+      "TagType": 0,
+      "TagDesc": {
+        "CultureInvariantString": null
+      },
+      "Name": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GameplayCard.ST_GameplayCard",
+        "Key": "Name_20351025",
+        "SourceString": "肉体夺舍",
+        "LocalizedString": "肉体夺舍"
+      },
+      "Desc": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GameplayCard.ST_GameplayCard",
+        "Key": "Desc_20351025",
+        "SourceString": "下次击杀高于自身等级的敌人时，将自身等级提升至该角色等级，最高20级。",
+        "LocalizedString": "下次击杀高于自身等级的敌人时，将自身等级提升至该角色等级，最高20级。"
+      },
+      "DescSimple": {
+        "CultureInvariantString": null
+      },
+      "DescParamLevel1": [
+        20.0
+      ],
+      "DescParamLevel2": [
+        20.0
+      ],
+      "DescParamLevel3": [
+        20.0
+      ],
+      "DescParamLevel4": [
+        20.0
+      ],
+      "DescParamLevel5": [],
+      "ActiveMethod": "ECyCardActiveMethod::AutoConsume",
+      "TeamType": "ECyCardTeamType::Zombie",
+      "Rarity": "ECyCardRarityType::Purple",
+      "UnlockRoles": [],
+      "Keywords": [],
+      "Title1": {
+        "CultureInvariantString": null
+      },
+      "Content1": {
+        "CultureInvariantString": null
+      },
+      "Title2": {
+        "CultureInvariantString": null
+      },
+      "Content2": {
+        "CultureInvariantString": null
+      },
+      "CostCoin": 100,
+      "BreakdownCoin": 20,
+      "Quality": "ECyItemQualityType::Purple",
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_80195.T_Dynamic_Item_80195",
+        "SubPathString": ""
+      },
+      "Default": false,
+      "Tradable": true,
+      "Block": false
+    },
+    "20351026": {
+      "CardId": 20351026,
+      "Id": 80196,
+      "PlayMode": 11,
+      "Index": 194,
+      "LimitNum": 1,
+      "LimitType": 12,
+      "LimitParam": 100,
+      "Category": "ECyCardCategory::Weapon",
+      "MaxLevel": 1,
+      "Extension": true,
+      "Tags": [
+        "ECyCardTagType::None"
+      ],
+      "Recommend": 0,
+      "TypeDesc": {
+        "CultureInvariantString": null
+      },
+      "Background": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "IconWhite": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "IconLumi": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "Icon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoguelikeCard/T_Dynamic_RoguelikeCard_20351026.T_Dynamic_RoguelikeCard_20351026",
+        "SubPathString": ""
+      },
+      "SerialIcon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoguelikeCardSerialIcon/T_Dynamic_RoguelikeCardSerialIcon_1.T_Dynamic_RoguelikeCardSerialIcon_1",
+        "SubPathString": ""
+      },
+      "TagType": 0,
+      "TagDesc": {
+        "CultureInvariantString": null
+      },
+      "Name": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GameplayCard.ST_GameplayCard",
+        "Key": "Name_20351026",
+        "SourceString": "一瞬千击",
+        "LocalizedString": "一瞬千击"
+      },
+      "Desc": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GameplayCard.ST_GameplayCard",
+        "Key": "Desc_20351026",
+        "SourceString": "近战攻击命中后，{0}s内攻速及攻速增益变为原本的{1}%，但攻击力变为原本的{2}%，CD10s；",
+        "LocalizedString": "近战攻击命中后，{0}s内攻速及攻速增益变为原本的{1}%，但攻击力变为原本的{2}%，CD10s；"
+      },
+      "DescSimple": {
+        "CultureInvariantString": null
+      },
+      "DescParamLevel1": [
+        2.0,
+        210.0,
+        50.0
+      ],
+      "DescParamLevel2": [
+        2.0,
+        210.0,
+        50.0
+      ],
+      "DescParamLevel3": [
+        2.0,
+        210.0,
+        50.0
+      ],
+      "DescParamLevel4": [
+        2.0,
+        210.0,
+        50.0
+      ],
+      "DescParamLevel5": [],
+      "ActiveMethod": "ECyCardActiveMethod::Auto",
+      "TeamType": "ECyCardTeamType::Zombie",
+      "Rarity": "ECyCardRarityType::Gold",
+      "UnlockRoles": [],
+      "Keywords": [],
+      "Title1": {
+        "CultureInvariantString": null
+      },
+      "Content1": {
+        "CultureInvariantString": null
+      },
+      "Title2": {
+        "CultureInvariantString": null
+      },
+      "Content2": {
+        "CultureInvariantString": null
+      },
+      "CostCoin": 400,
+      "BreakdownCoin": 100,
+      "Quality": "ECyItemQualityType::Orange",
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_80196.T_Dynamic_Item_80196",
+        "SubPathString": ""
+      },
+      "Default": false,
+      "Tradable": true,
+      "Block": false
+    },
+    "20351027": {
+      "CardId": 20351027,
+      "Id": 80197,
+      "PlayMode": 11,
+      "Index": 195,
+      "LimitNum": 1,
+      "LimitType": 12,
+      "LimitParam": 20,
+      "Category": "ECyCardCategory::Weapon",
+      "MaxLevel": 3,
+      "Extension": true,
+      "Tags": [
+        "ECyCardTagType::None"
+      ],
+      "Recommend": 0,
+      "TypeDesc": {
+        "CultureInvariantString": null
+      },
+      "Background": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "IconWhite": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "IconLumi": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "Icon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoguelikeCard/T_Dynamic_RoguelikeCard_20351027.T_Dynamic_RoguelikeCard_20351027",
+        "SubPathString": ""
+      },
+      "SerialIcon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoguelikeCardSerialIcon/T_Dynamic_RoguelikeCardSerialIcon_1.T_Dynamic_RoguelikeCardSerialIcon_1",
+        "SubPathString": ""
+      },
+      "TagType": 0,
+      "TagDesc": {
+        "CultureInvariantString": null
+      },
+      "Name": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GameplayCard.ST_GameplayCard",
+        "Key": "Name_20351027",
+        "SourceString": "毒性利爪",
+        "LocalizedString": "毒性利爪"
+      },
+      "Desc": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GameplayCard.ST_GameplayCard",
+        "Key": "Desc_20351027",
+        "SourceString": "近战攻击每次命中附加持续固定伤害，每秒{0}点，持续{1}s，可无限叠加",
+        "LocalizedString": "近战攻击每次命中附加持续固定伤害，每秒{0}点，持续{1}s，可无限叠加"
+      },
+      "DescSimple": {
+        "CultureInvariantString": null
+      },
+      "DescParamLevel1": [
+        150.0,
+        2.0
+      ],
+      "DescParamLevel2": [
+        250.0,
+        2.0
+      ],
+      "DescParamLevel3": [
+        400.0,
+        2.0
+      ],
+      "DescParamLevel4": [
+        20.0,
+        4.0
+      ],
+      "DescParamLevel5": [],
+      "ActiveMethod": "ECyCardActiveMethod::Auto",
+      "TeamType": "ECyCardTeamType::Zombie",
+      "Rarity": "ECyCardRarityType::Purple",
+      "UnlockRoles": [],
+      "Keywords": [],
+      "Title1": {
+        "CultureInvariantString": null
+      },
+      "Content1": {
+        "CultureInvariantString": null
+      },
+      "Title2": {
+        "CultureInvariantString": null
+      },
+      "Content2": {
+        "CultureInvariantString": null
+      },
+      "CostCoin": 100,
+      "BreakdownCoin": 20,
+      "Quality": "ECyItemQualityType::Purple",
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_80197.T_Dynamic_Item_80197",
+        "SubPathString": ""
+      },
+      "Default": false,
+      "Tradable": true,
+      "Block": false
+    },
+    "20351028": {
+      "CardId": 20351028,
+      "Id": 80198,
+      "PlayMode": 11,
+      "Index": 196,
+      "LimitNum": 1,
+      "LimitType": 12,
+      "LimitParam": 5,
+      "Category": "ECyCardCategory::Role",
+      "MaxLevel": 2,
+      "Extension": true,
+      "Tags": [
+        "ECyCardTagType::None"
+      ],
+      "Recommend": 0,
+      "TypeDesc": {
+        "CultureInvariantString": null
+      },
+      "Background": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "IconWhite": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "IconLumi": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "Icon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoguelikeCard/T_Dynamic_RoguelikeCard_20351028.T_Dynamic_RoguelikeCard_20351028",
+        "SubPathString": ""
+      },
+      "SerialIcon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoguelikeCardSerialIcon/T_Dynamic_RoguelikeCardSerialIcon_1.T_Dynamic_RoguelikeCardSerialIcon_1",
+        "SubPathString": ""
+      },
+      "TagType": 0,
+      "TagDesc": {
+        "CultureInvariantString": null
+      },
+      "Name": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GameplayCard.ST_GameplayCard",
+        "Key": "Name_20351028",
+        "SourceString": "汲魂之力",
+        "LocalizedString": "汲魂之力"
+      },
+      "Desc": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GameplayCard.ST_GameplayCard",
+        "Key": "Desc_20351028",
+        "SourceString": "造成伤害的{0}%会转化为血量恢复",
+        "LocalizedString": "造成伤害的{0}%会转化为血量恢复"
+      },
+      "DescSimple": {
+        "CultureInvariantString": null
+      },
+      "DescParamLevel1": [
+        50.0
+      ],
+      "DescParamLevel2": [
+        90.0
+      ],
+      "DescParamLevel3": [
+        15.0
+      ],
+      "DescParamLevel4": [
+        15.0
+      ],
+      "DescParamLevel5": [],
+      "ActiveMethod": "ECyCardActiveMethod::Auto",
+      "TeamType": "ECyCardTeamType::Zombie",
+      "Rarity": "ECyCardRarityType::Blue",
+      "UnlockRoles": [],
+      "Keywords": [],
+      "Title1": {
+        "CultureInvariantString": null
+      },
+      "Content1": {
+        "CultureInvariantString": null
+      },
+      "Title2": {
+        "CultureInvariantString": null
+      },
+      "Content2": {
+        "CultureInvariantString": null
+      },
+      "CostCoin": 25,
+      "BreakdownCoin": 5,
+      "Quality": "ECyItemQualityType::Blue",
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_80198.T_Dynamic_Item_80198",
+        "SubPathString": ""
+      },
+      "Default": false,
+      "Tradable": true,
+      "Block": false
+    },
+    "20351029": {
+      "CardId": 20351029,
+      "Id": 80199,
+      "PlayMode": 11,
+      "Index": 197,
+      "LimitNum": 1,
+      "LimitType": 12,
+      "LimitParam": 20,
+      "Category": "ECyCardCategory::Weapon",
+      "MaxLevel": 3,
+      "Extension": true,
+      "Tags": [
+        "ECyCardTagType::None"
+      ],
+      "Recommend": 0,
+      "TypeDesc": {
+        "CultureInvariantString": null
+      },
+      "Background": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "IconWhite": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "IconLumi": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "Icon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoguelikeCard/T_Dynamic_RoguelikeCard_20351029.T_Dynamic_RoguelikeCard_20351029",
+        "SubPathString": ""
+      },
+      "SerialIcon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoguelikeCardSerialIcon/T_Dynamic_RoguelikeCardSerialIcon_1.T_Dynamic_RoguelikeCardSerialIcon_1",
+        "SubPathString": ""
+      },
+      "TagType": 0,
+      "TagDesc": {
+        "CultureInvariantString": null
+      },
+      "Name": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GameplayCard.ST_GameplayCard",
+        "Key": "Name_20351029",
+        "SourceString": "伤口撕裂",
+        "LocalizedString": "伤口撕裂"
+      },
+      "Desc": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GameplayCard.ST_GameplayCard",
+        "Key": "Desc_20351029",
+        "SourceString": "近战攻击造成流血,敌方每移动5m，受到{0}伤害，持续{1}s",
+        "LocalizedString": "近战攻击造成流血,敌方每移动5m，受到{0}伤害，持续{1}s"
+      },
+      "DescSimple": {
+        "CultureInvariantString": null
+      },
+      "DescParamLevel1": [
+        70.0,
+        2.0
+      ],
+      "DescParamLevel2": [
+        150.0,
+        2.0
+      ],
+      "DescParamLevel3": [
+        250.0,
+        2.0
+      ],
+      "DescParamLevel4": [
+        125.0,
+        2.0
+      ],
+      "DescParamLevel5": [],
+      "ActiveMethod": "ECyCardActiveMethod::Auto",
+      "TeamType": "ECyCardTeamType::Zombie",
+      "Rarity": "ECyCardRarityType::Purple",
+      "UnlockRoles": [],
+      "Keywords": [],
+      "Title1": {
+        "CultureInvariantString": null
+      },
+      "Content1": {
+        "CultureInvariantString": null
+      },
+      "Title2": {
+        "CultureInvariantString": null
+      },
+      "Content2": {
+        "CultureInvariantString": null
+      },
+      "CostCoin": 100,
+      "BreakdownCoin": 20,
+      "Quality": "ECyItemQualityType::Purple",
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_80199.T_Dynamic_Item_80199",
+        "SubPathString": ""
+      },
+      "Default": false,
+      "Tradable": true,
+      "Block": false
+    },
+    "20351030": {
+      "CardId": 20351030,
+      "Id": 80200,
+      "PlayMode": 11,
+      "Index": 198,
+      "LimitNum": 1,
+      "LimitType": 12,
+      "LimitParam": 5,
+      "Category": "ECyCardCategory::Weapon",
+      "MaxLevel": 2,
+      "Extension": true,
+      "Tags": [
+        "ECyCardTagType::None"
+      ],
+      "Recommend": 0,
+      "TypeDesc": {
+        "CultureInvariantString": null
+      },
+      "Background": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "IconWhite": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "IconLumi": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "Icon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoguelikeCard/T_Dynamic_RoguelikeCard_20351030.T_Dynamic_RoguelikeCard_20351030",
+        "SubPathString": ""
+      },
+      "SerialIcon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoguelikeCardSerialIcon/T_Dynamic_RoguelikeCardSerialIcon_1.T_Dynamic_RoguelikeCardSerialIcon_1",
+        "SubPathString": ""
+      },
+      "TagType": 0,
+      "TagDesc": {
+        "CultureInvariantString": null
+      },
+      "Name": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GameplayCard.ST_GameplayCard",
+        "Key": "Name_20351030",
+        "SourceString": "奥术智慧",
+        "LocalizedString": "奥术智慧"
+      },
+      "Desc": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GameplayCard.ST_GameplayCard",
+        "Key": "Desc_20351030",
+        "SourceString": "每次使用技能后+{0}%伤害",
+        "LocalizedString": "每次使用技能后+{0}%伤害"
+      },
+      "DescSimple": {
+        "CultureInvariantString": null
+      },
+      "DescParamLevel1": [
+        6.0
+      ],
+      "DescParamLevel2": [
+        13.0
+      ],
+      "DescParamLevel3": [
+        20.0
+      ],
+      "DescParamLevel4": [
+        50.0
+      ],
+      "DescParamLevel5": [],
+      "ActiveMethod": "ECyCardActiveMethod::Auto",
+      "TeamType": "ECyCardTeamType::Zombie",
+      "Rarity": "ECyCardRarityType::Blue",
+      "UnlockRoles": [],
+      "Keywords": [],
+      "Title1": {
+        "CultureInvariantString": null
+      },
+      "Content1": {
+        "CultureInvariantString": null
+      },
+      "Title2": {
+        "CultureInvariantString": null
+      },
+      "Content2": {
+        "CultureInvariantString": null
+      },
+      "CostCoin": 25,
+      "BreakdownCoin": 5,
+      "Quality": "ECyItemQualityType::Blue",
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_80200.T_Dynamic_Item_80200",
+        "SubPathString": ""
+      },
+      "Default": false,
+      "Tradable": true,
+      "Block": false
+    },
+    "20351031": {
+      "CardId": 20351031,
+      "Id": 80201,
+      "PlayMode": 11,
+      "Index": 199,
+      "LimitNum": 1,
+      "LimitType": 12,
+      "LimitParam": 5,
+      "Category": "ECyCardCategory::Role",
+      "MaxLevel": 2,
+      "Extension": true,
+      "Tags": [
+        "ECyCardTagType::None"
+      ],
+      "Recommend": 0,
+      "TypeDesc": {
+        "CultureInvariantString": null
+      },
+      "Background": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "IconWhite": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "IconLumi": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "Icon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoguelikeCard/T_Dynamic_RoguelikeCard_20351031.T_Dynamic_RoguelikeCard_20351031",
+        "SubPathString": ""
+      },
+      "SerialIcon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoguelikeCardSerialIcon/T_Dynamic_RoguelikeCardSerialIcon_1.T_Dynamic_RoguelikeCardSerialIcon_1",
+        "SubPathString": ""
+      },
+      "TagType": 0,
+      "TagDesc": {
+        "CultureInvariantString": null
+      },
+      "Name": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GameplayCard.ST_GameplayCard",
+        "Key": "Name_20351031",
+        "SourceString": "奥术锻体",
+        "LocalizedString": "奥术锻体"
+      },
+      "Desc": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GameplayCard.ST_GameplayCard",
+        "Key": "Desc_20351031",
+        "SourceString": "每次使用技能后+{0}生命和护甲",
+        "LocalizedString": "每次使用技能后+{0}生命和护甲"
+      },
+      "DescSimple": {
+        "CultureInvariantString": null
+      },
+      "DescParamLevel1": [
+        250.0
+      ],
+      "DescParamLevel2": [
+        550.0
+      ],
+      "DescParamLevel3": [
+        900.0
+      ],
+      "DescParamLevel4": [
+        1000.0
+      ],
+      "DescParamLevel5": [],
+      "ActiveMethod": "ECyCardActiveMethod::Auto",
+      "TeamType": "ECyCardTeamType::Zombie",
+      "Rarity": "ECyCardRarityType::Blue",
+      "UnlockRoles": [],
+      "Keywords": [],
+      "Title1": {
+        "CultureInvariantString": null
+      },
+      "Content1": {
+        "CultureInvariantString": null
+      },
+      "Title2": {
+        "CultureInvariantString": null
+      },
+      "Content2": {
+        "CultureInvariantString": null
+      },
+      "CostCoin": 25,
+      "BreakdownCoin": 5,
+      "Quality": "ECyItemQualityType::Blue",
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_80201.T_Dynamic_Item_80201",
+        "SubPathString": ""
+      },
+      "Default": false,
+      "Tradable": true,
+      "Block": false
+    },
+    "20351032": {
+      "CardId": 20351032,
+      "Id": 80202,
+      "PlayMode": 11,
+      "Index": 200,
+      "LimitNum": 1,
+      "LimitType": 12,
+      "LimitParam": 100,
+      "Category": "ECyCardCategory::Role",
+      "MaxLevel": 1,
+      "Extension": true,
+      "Tags": [
+        "ECyCardTagType::None"
+      ],
+      "Recommend": 0,
+      "TypeDesc": {
+        "CultureInvariantString": null
+      },
+      "Background": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "IconWhite": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "IconLumi": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "Icon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoguelikeCard/T_Dynamic_RoguelikeCard_20351032.T_Dynamic_RoguelikeCard_20351032",
+        "SubPathString": ""
+      },
+      "SerialIcon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoguelikeCardSerialIcon/T_Dynamic_RoguelikeCardSerialIcon_1.T_Dynamic_RoguelikeCardSerialIcon_1",
+        "SubPathString": ""
+      },
+      "TagType": 0,
+      "TagDesc": {
+        "CultureInvariantString": null
+      },
+      "Name": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GameplayCard.ST_GameplayCard",
+        "Key": "Name_20351032",
+        "SourceString": "凤凰涅槃诀",
+        "LocalizedString": "凤凰涅槃诀"
+      },
+      "Desc": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GameplayCard.ST_GameplayCard",
+        "Key": "Desc_20351032",
+        "SourceString": "护甲和生命值变为原本的{0}%，但受到致命伤害时立刻恢复100%血量和护甲，共{1}次，死亡后重置次数",
+        "LocalizedString": "护甲和生命值变为原本的{0}%，但受到致命伤害时立刻恢复100%血量和护甲，共{1}次，死亡后重置次数"
+      },
+      "DescSimple": {
+        "CultureInvariantString": null
+      },
+      "DescParamLevel1": [
+        35.0,
+        2.0
+      ],
+      "DescParamLevel2": [
+        40.0,
+        2.0
+      ],
+      "DescParamLevel3": [
+        40.0,
+        3.0
+      ],
+      "DescParamLevel4": [
+        50.0,
+        3.0
+      ],
+      "DescParamLevel5": [],
+      "ActiveMethod": "ECyCardActiveMethod::AutoConsume",
+      "TeamType": "ECyCardTeamType::Zombie",
+      "Rarity": "ECyCardRarityType::Gold",
+      "UnlockRoles": [],
+      "Keywords": [],
+      "Title1": {
+        "CultureInvariantString": null
+      },
+      "Content1": {
+        "CultureInvariantString": null
+      },
+      "Title2": {
+        "CultureInvariantString": null
+      },
+      "Content2": {
+        "CultureInvariantString": null
+      },
+      "CostCoin": 400,
+      "BreakdownCoin": 100,
+      "Quality": "ECyItemQualityType::Orange",
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_80202.T_Dynamic_Item_80202",
+        "SubPathString": ""
+      },
+      "Default": false,
+      "Tradable": true,
+      "Block": false
+    },
+    "20351033": {
+      "CardId": 20351033,
+      "Id": 80203,
+      "PlayMode": 11,
+      "Index": 201,
+      "LimitNum": 1,
+      "LimitType": 12,
+      "LimitParam": 5,
+      "Category": "ECyCardCategory::Weapon",
+      "MaxLevel": 2,
+      "Extension": true,
+      "Tags": [
+        "ECyCardTagType::None"
+      ],
+      "Recommend": 0,
+      "TypeDesc": {
+        "CultureInvariantString": null
+      },
+      "Background": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "IconWhite": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "IconLumi": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "Icon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoguelikeCard/T_Dynamic_RoguelikeCard_20351033.T_Dynamic_RoguelikeCard_20351033",
+        "SubPathString": ""
+      },
+      "SerialIcon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoguelikeCardSerialIcon/T_Dynamic_RoguelikeCardSerialIcon_1.T_Dynamic_RoguelikeCardSerialIcon_1",
+        "SubPathString": ""
+      },
+      "TagType": 0,
+      "TagDesc": {
+        "CultureInvariantString": null
+      },
+      "Name": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GameplayCard.ST_GameplayCard",
+        "Key": "Name_20351033",
+        "SourceString": "飞流锻体",
+        "LocalizedString": "飞流锻体"
+      },
+      "Desc": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GameplayCard.ST_GameplayCard",
+        "Key": "Desc_20351033",
+        "SourceString": "每受到{0}次伤害，增加{1}%伤害",
+        "LocalizedString": "每受到{0}次伤害，增加{1}%伤害"
+      },
+      "DescSimple": {
+        "CultureInvariantString": null
+      },
+      "DescParamLevel1": [
+        50.0,
+        3.5
+      ],
+      "DescParamLevel2": [
+        50.0,
+        7.0
+      ],
+      "DescParamLevel3": [
+        50.0,
+        10.0
+      ],
+      "DescParamLevel4": [
+        50.0,
+        10.0
+      ],
+      "DescParamLevel5": [],
+      "ActiveMethod": "ECyCardActiveMethod::Auto",
+      "TeamType": "ECyCardTeamType::Zombie",
+      "Rarity": "ECyCardRarityType::Blue",
+      "UnlockRoles": [],
+      "Keywords": [],
+      "Title1": {
+        "CultureInvariantString": null
+      },
+      "Content1": {
+        "CultureInvariantString": null
+      },
+      "Title2": {
+        "CultureInvariantString": null
+      },
+      "Content2": {
+        "CultureInvariantString": null
+      },
+      "CostCoin": 25,
+      "BreakdownCoin": 5,
+      "Quality": "ECyItemQualityType::Blue",
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_80203.T_Dynamic_Item_80203",
+        "SubPathString": ""
+      },
+      "Default": false,
+      "Tradable": true,
+      "Block": false
+    },
+    "20351034": {
+      "CardId": 20351034,
+      "Id": 80204,
+      "PlayMode": 11,
+      "Index": 202,
+      "LimitNum": 1,
+      "LimitType": 12,
+      "LimitParam": 5,
+      "Category": "ECyCardCategory::Role",
+      "MaxLevel": 2,
+      "Extension": true,
+      "Tags": [
+        "ECyCardTagType::None"
+      ],
+      "Recommend": 0,
+      "TypeDesc": {
+        "CultureInvariantString": null
+      },
+      "Background": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "IconWhite": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "IconLumi": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "Icon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoguelikeCard/T_Dynamic_RoguelikeCard_20351034.T_Dynamic_RoguelikeCard_20351034",
+        "SubPathString": ""
+      },
+      "SerialIcon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoguelikeCardSerialIcon/T_Dynamic_RoguelikeCardSerialIcon_1.T_Dynamic_RoguelikeCardSerialIcon_1",
+        "SubPathString": ""
+      },
+      "TagType": 0,
+      "TagDesc": {
+        "CultureInvariantString": null
+      },
+      "Name": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GameplayCard.ST_GameplayCard",
+        "Key": "Name_20351034",
+        "SourceString": "百炼成钢",
+        "LocalizedString": "百炼成钢"
+      },
+      "Desc": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GameplayCard.ST_GameplayCard",
+        "Key": "Desc_20351034",
+        "SourceString": "每受到{0}次伤害，+{1}点生命和护甲",
+        "LocalizedString": "每受到{0}次伤害，+{1}点生命和护甲"
+      },
+      "DescSimple": {
+        "CultureInvariantString": null
+      },
+      "DescParamLevel1": [
+        50.0,
+        70.0
+      ],
+      "DescParamLevel2": [
+        50.0,
+        140.0
+      ],
+      "DescParamLevel3": [
+        50.0,
+        120.0
+      ],
+      "DescParamLevel4": [
+        50.0,
+        120.0
+      ],
+      "DescParamLevel5": [],
+      "ActiveMethod": "ECyCardActiveMethod::Auto",
+      "TeamType": "ECyCardTeamType::Zombie",
+      "Rarity": "ECyCardRarityType::Blue",
+      "UnlockRoles": [],
+      "Keywords": [],
+      "Title1": {
+        "CultureInvariantString": null
+      },
+      "Content1": {
+        "CultureInvariantString": null
+      },
+      "Title2": {
+        "CultureInvariantString": null
+      },
+      "Content2": {
+        "CultureInvariantString": null
+      },
+      "CostCoin": 25,
+      "BreakdownCoin": 5,
+      "Quality": "ECyItemQualityType::Blue",
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_80204.T_Dynamic_Item_80204",
+        "SubPathString": ""
+      },
+      "Default": false,
+      "Tradable": true,
+      "Block": false
+    },
+    "20351035": {
+      "CardId": 20351035,
+      "Id": 80205,
+      "PlayMode": 11,
+      "Index": 203,
+      "LimitNum": 1,
+      "LimitType": 12,
+      "LimitParam": 100,
+      "Category": "ECyCardCategory::Rule",
+      "MaxLevel": 1,
+      "Extension": true,
+      "Tags": [
+        "ECyCardTagType::None"
+      ],
+      "Recommend": 0,
+      "TypeDesc": {
+        "CultureInvariantString": null
+      },
+      "Background": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "IconWhite": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "IconLumi": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "Icon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoguelikeCard/T_Dynamic_RoguelikeCard_20351035.T_Dynamic_RoguelikeCard_20351035",
+        "SubPathString": ""
+      },
+      "SerialIcon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoguelikeCardSerialIcon/T_Dynamic_RoguelikeCardSerialIcon_1.T_Dynamic_RoguelikeCardSerialIcon_1",
+        "SubPathString": ""
+      },
+      "TagType": 0,
+      "TagDesc": {
+        "CultureInvariantString": null
+      },
+      "Name": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GameplayCard.ST_GameplayCard",
+        "Key": "Name_20351035",
+        "SourceString": "猎杀行动",
+        "LocalizedString": "猎杀行动"
+      },
+      "Desc": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GameplayCard.ST_GameplayCard",
+        "Key": "Desc_20351035",
+        "SourceString": "获取后随机赏金目标，40秒内击杀目标后经验值+{0},伤害+{1}%,CD{2}秒;",
+        "LocalizedString": "获取后随机赏金目标，40秒内击杀目标后经验值+{0},伤害+{1}%,CD{2}秒;"
+      },
+      "DescSimple": {
+        "CultureInvariantString": null
+      },
+      "DescParamLevel1": [
+        2500.0,
+        90.0,
+        45.0
+      ],
+      "DescParamLevel2": [
+        2500.0,
+        90.0,
+        45.0
+      ],
+      "DescParamLevel3": [
+        2500.0,
+        90.0,
+        45.0
+      ],
+      "DescParamLevel4": [
+        2500.0,
+        90.0,
+        45.0
+      ],
+      "DescParamLevel5": [],
+      "ActiveMethod": "ECyCardActiveMethod::AutoConsume",
+      "TeamType": "ECyCardTeamType::Zombie",
+      "Rarity": "ECyCardRarityType::Gold",
+      "UnlockRoles": [],
+      "Keywords": [],
+      "Title1": {
+        "CultureInvariantString": null
+      },
+      "Content1": {
+        "CultureInvariantString": null
+      },
+      "Title2": {
+        "CultureInvariantString": null
+      },
+      "Content2": {
+        "CultureInvariantString": null
+      },
+      "CostCoin": 400,
+      "BreakdownCoin": 100,
+      "Quality": "ECyItemQualityType::Orange",
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_80205.T_Dynamic_Item_80205",
+        "SubPathString": ""
+      },
+      "Default": false,
+      "Tradable": true,
+      "Block": false
+    },
+    "20351036": {
+      "CardId": 20351036,
+      "Id": 80206,
+      "PlayMode": 11,
+      "Index": 204,
+      "LimitNum": 1,
+      "LimitType": 12,
+      "LimitParam": 5,
+      "Category": "ECyCardCategory::Rule",
+      "MaxLevel": 1,
+      "Extension": true,
+      "Tags": [
+        "ECyCardTagType::None"
+      ],
+      "Recommend": 0,
+      "TypeDesc": {
+        "CultureInvariantString": null
+      },
+      "Background": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "IconWhite": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "IconLumi": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "Icon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoguelikeCard/T_Dynamic_RoguelikeCard_20351036.T_Dynamic_RoguelikeCard_20351036",
+        "SubPathString": ""
+      },
+      "SerialIcon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoguelikeCardSerialIcon/T_Dynamic_RoguelikeCardSerialIcon_1.T_Dynamic_RoguelikeCardSerialIcon_1",
+        "SubPathString": ""
+      },
+      "TagType": 0,
+      "TagDesc": {
+        "CultureInvariantString": null
+      },
+      "Name": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GameplayCard.ST_GameplayCard",
+        "Key": "Name_20351036",
+        "SourceString": "死者复生",
+        "LocalizedString": "死者复生"
+      },
+      "Desc": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GameplayCard.ST_GameplayCard",
+        "Key": "Desc_20351036",
+        "SourceString": "彻底死亡时，额外获得一次复活机会，并且+{0}%最大生命值和{1}%伤害",
+        "LocalizedString": "彻底死亡时，额外获得一次复活机会，并且+{0}%最大生命值和{1}%伤害"
+      },
+      "DescSimple": {
+        "CultureInvariantString": null
+      },
+      "DescParamLevel1": [
+        35.0,
+        50.0
+      ],
+      "DescParamLevel2": [
+        50.0,
+        100.0
+      ],
+      "DescParamLevel3": [
+        50.0,
+        100.0
+      ],
+      "DescParamLevel4": [
+        50.0,
+        100.0
+      ],
+      "DescParamLevel5": [],
+      "ActiveMethod": "ECyCardActiveMethod::AutoConsume",
+      "TeamType": "ECyCardTeamType::Zombie",
+      "Rarity": "ECyCardRarityType::Blue",
+      "UnlockRoles": [],
+      "Keywords": [],
+      "Title1": {
+        "CultureInvariantString": null
+      },
+      "Content1": {
+        "CultureInvariantString": null
+      },
+      "Title2": {
+        "CultureInvariantString": null
+      },
+      "Content2": {
+        "CultureInvariantString": null
+      },
+      "CostCoin": 25,
+      "BreakdownCoin": 5,
+      "Quality": "ECyItemQualityType::Blue",
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_80206.T_Dynamic_Item_80206",
+        "SubPathString": ""
+      },
+      "Default": false,
+      "Tradable": true,
+      "Block": false
+    },
+    "20351037": {
+      "CardId": 20351037,
+      "Id": 80207,
+      "PlayMode": 11,
+      "Index": 205,
+      "LimitNum": 1,
+      "LimitType": 12,
+      "LimitParam": 20,
+      "Category": "ECyCardCategory::Role",
+      "MaxLevel": 3,
+      "Extension": true,
+      "Tags": [
+        "ECyCardTagType::None"
+      ],
+      "Recommend": 0,
+      "TypeDesc": {
+        "CultureInvariantString": null
+      },
+      "Background": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "IconWhite": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "IconLumi": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "Icon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoguelikeCard/T_Dynamic_RoguelikeCard_20351037.T_Dynamic_RoguelikeCard_20351037",
+        "SubPathString": ""
+      },
+      "SerialIcon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoguelikeCardSerialIcon/T_Dynamic_RoguelikeCardSerialIcon_1.T_Dynamic_RoguelikeCardSerialIcon_1",
+        "SubPathString": ""
+      },
+      "TagType": 0,
+      "TagDesc": {
+        "CultureInvariantString": null
+      },
+      "Name": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GameplayCard.ST_GameplayCard",
+        "Key": "Name_20351037",
+        "SourceString": "生机焕发",
+        "LocalizedString": "生机焕发"
+      },
+      "Desc": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GameplayCard.ST_GameplayCard",
+        "Key": "Desc_20351037",
+        "SourceString": "生命和护甲恢复获得{0}%增幅",
+        "LocalizedString": "生命和护甲恢复获得{0}%增幅"
+      },
+      "DescSimple": {
+        "CultureInvariantString": null
+      },
+      "DescParamLevel1": [
+        25.0
+      ],
+      "DescParamLevel2": [
+        50.0
+      ],
+      "DescParamLevel3": [
+        75.0
+      ],
+      "DescParamLevel4": [
+        40.0
+      ],
+      "DescParamLevel5": [],
+      "ActiveMethod": "ECyCardActiveMethod::Auto",
+      "TeamType": "ECyCardTeamType::Zombie",
+      "Rarity": "ECyCardRarityType::Purple",
+      "UnlockRoles": [],
+      "Keywords": [],
+      "Title1": {
+        "CultureInvariantString": null
+      },
+      "Content1": {
+        "CultureInvariantString": null
+      },
+      "Title2": {
+        "CultureInvariantString": null
+      },
+      "Content2": {
+        "CultureInvariantString": null
+      },
+      "CostCoin": 100,
+      "BreakdownCoin": 20,
+      "Quality": "ECyItemQualityType::Purple",
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_80207.T_Dynamic_Item_80207",
+        "SubPathString": ""
+      },
+      "Default": false,
+      "Tradable": true,
+      "Block": false
+    },
+    "20351038": {
+      "CardId": 20351038,
+      "Id": 80208,
+      "PlayMode": 11,
+      "Index": 206,
+      "LimitNum": 1,
+      "LimitType": 12,
+      "LimitParam": 5,
+      "Category": "ECyCardCategory::Rule",
+      "MaxLevel": 2,
+      "Extension": true,
+      "Tags": [
+        "ECyCardTagType::None"
+      ],
+      "Recommend": 0,
+      "TypeDesc": {
+        "CultureInvariantString": null
+      },
+      "Background": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "IconWhite": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "IconLumi": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "Icon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoguelikeCard/T_Dynamic_RoguelikeCard_20351038.T_Dynamic_RoguelikeCard_20351038",
+        "SubPathString": ""
+      },
+      "SerialIcon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoguelikeCardSerialIcon/T_Dynamic_RoguelikeCardSerialIcon_1.T_Dynamic_RoguelikeCardSerialIcon_1",
+        "SubPathString": ""
+      },
+      "TagType": 0,
+      "TagDesc": {
+        "CultureInvariantString": null
+      },
+      "Name": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GameplayCard.ST_GameplayCard",
+        "Key": "Name_20351038",
+        "SourceString": "复仇冲动",
+        "LocalizedString": "复仇冲动"
+      },
+      "Desc": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GameplayCard.ST_GameplayCard",
+        "Key": "Desc_20351038",
+        "SourceString": "死亡复活后+{0}%移速和{1}%移速上限，持续{2}秒",
+        "LocalizedString": "死亡复活后+{0}%移速和{1}%移速上限，持续{2}秒"
+      },
+      "DescSimple": {
+        "CultureInvariantString": null
+      },
+      "DescParamLevel1": [
+        100.0,
+        50.0,
+        3.0
+      ],
+      "DescParamLevel2": [
+        200.0,
+        100.0,
+        3.0
+      ],
+      "DescParamLevel3": [
+        50.0,
+        100.0,
+        3.0
+      ],
+      "DescParamLevel4": [
+        50.0,
+        100.0,
+        3.0
+      ],
+      "DescParamLevel5": [],
+      "ActiveMethod": "ECyCardActiveMethod::Auto",
+      "TeamType": "ECyCardTeamType::Zombie",
+      "Rarity": "ECyCardRarityType::Blue",
+      "UnlockRoles": [],
+      "Keywords": [],
+      "Title1": {
+        "CultureInvariantString": null
+      },
+      "Content1": {
+        "CultureInvariantString": null
+      },
+      "Title2": {
+        "CultureInvariantString": null
+      },
+      "Content2": {
+        "CultureInvariantString": null
+      },
+      "CostCoin": 25,
+      "BreakdownCoin": 5,
+      "Quality": "ECyItemQualityType::Blue",
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_80208.T_Dynamic_Item_80208",
+        "SubPathString": ""
+      },
+      "Default": false,
+      "Tradable": true,
+      "Block": false
+    },
+    "20351039": {
+      "CardId": 20351039,
+      "Id": 80209,
+      "PlayMode": 11,
+      "Index": 207,
+      "LimitNum": 1,
+      "LimitType": 12,
+      "LimitParam": 100,
+      "Category": "ECyCardCategory::Weapon",
+      "MaxLevel": 1,
+      "Extension": true,
+      "Tags": [
+        "ECyCardTagType::None"
+      ],
+      "Recommend": 0,
+      "TypeDesc": {
+        "CultureInvariantString": null
+      },
+      "Background": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "IconWhite": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "IconLumi": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "Icon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoguelikeCard/T_Dynamic_RoguelikeCard_20351039.T_Dynamic_RoguelikeCard_20351039",
+        "SubPathString": ""
+      },
+      "SerialIcon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoguelikeCardSerialIcon/T_Dynamic_RoguelikeCardSerialIcon_1.T_Dynamic_RoguelikeCardSerialIcon_1",
+        "SubPathString": ""
+      },
+      "TagType": 0,
+      "TagDesc": {
+        "CultureInvariantString": null
+      },
+      "Name": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GameplayCard.ST_GameplayCard",
+        "Key": "Name_20351039",
+        "SourceString": "炎拳",
+        "LocalizedString": "炎拳"
+      },
+      "Desc": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GameplayCard.ST_GameplayCard",
+        "Key": "Desc_20351039",
+        "SourceString": "近战攻击命中，会对{0}米内敌人额外造成{1}%伤害，CD{2}s",
+        "LocalizedString": "近战攻击命中，会对{0}米内敌人额外造成{1}%伤害，CD{2}s"
+      },
+      "DescSimple": {
+        "CultureInvariantString": null
+      },
+      "DescParamLevel1": [
+        4.0,
+        60.0,
+        5.0
+      ],
+      "DescParamLevel2": [
+        6.0,
+        80.0,
+        5.0
+      ],
+      "DescParamLevel3": [
+        8.0,
+        100.0,
+        5.0
+      ],
+      "DescParamLevel4": [
+        8.0,
+        135.0,
+        5.0
+      ],
+      "DescParamLevel5": [],
+      "ActiveMethod": "ECyCardActiveMethod::Auto",
+      "TeamType": "ECyCardTeamType::Zombie",
+      "Rarity": "ECyCardRarityType::Gold",
+      "UnlockRoles": [],
+      "Keywords": [],
+      "Title1": {
+        "CultureInvariantString": null
+      },
+      "Content1": {
+        "CultureInvariantString": null
+      },
+      "Title2": {
+        "CultureInvariantString": null
+      },
+      "Content2": {
+        "CultureInvariantString": null
+      },
+      "CostCoin": 400,
+      "BreakdownCoin": 100,
+      "Quality": "ECyItemQualityType::Orange",
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_80209.T_Dynamic_Item_80209",
+        "SubPathString": ""
+      },
+      "Default": false,
+      "Tradable": true,
+      "Block": false
+    },
+    "20351040": {
+      "CardId": 20351040,
+      "Id": 80210,
+      "PlayMode": 11,
+      "Index": 208,
+      "LimitNum": 1,
+      "LimitType": 12,
+      "LimitParam": 20,
+      "Category": "ECyCardCategory::Weapon",
+      "MaxLevel": 3,
+      "Extension": true,
+      "Tags": [
+        "ECyCardTagType::None"
+      ],
+      "Recommend": 0,
+      "TypeDesc": {
+        "CultureInvariantString": null
+      },
+      "Background": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "IconWhite": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "IconLumi": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "Icon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoguelikeCard/T_Dynamic_RoguelikeCard_20351040.T_Dynamic_RoguelikeCard_20351040",
+        "SubPathString": ""
+      },
+      "SerialIcon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoguelikeCardSerialIcon/T_Dynamic_RoguelikeCardSerialIcon_1.T_Dynamic_RoguelikeCardSerialIcon_1",
+        "SubPathString": ""
+      },
+      "TagType": 0,
+      "TagDesc": {
+        "CultureInvariantString": null
+      },
+      "Name": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GameplayCard.ST_GameplayCard",
+        "Key": "Name_20351040",
+        "SourceString": "背刺专家",
+        "LocalizedString": "背刺专家"
+      },
+      "Desc": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GameplayCard.ST_GameplayCard",
+        "Key": "Desc_20351040",
+        "SourceString": "从敌方背后造成的攻击伤害变为原本的{0}%",
+        "LocalizedString": "从敌方背后造成的攻击伤害变为原本的{0}%"
+      },
+      "DescSimple": {
+        "CultureInvariantString": null
+      },
+      "DescParamLevel1": [
+        150.0
+      ],
+      "DescParamLevel2": [
+        200.0
+      ],
+      "DescParamLevel3": [
+        250.0
+      ],
+      "DescParamLevel4": [
+        150.0
+      ],
+      "DescParamLevel5": [],
+      "ActiveMethod": "ECyCardActiveMethod::Auto",
+      "TeamType": "ECyCardTeamType::Zombie",
+      "Rarity": "ECyCardRarityType::Purple",
+      "UnlockRoles": [],
+      "Keywords": [],
+      "Title1": {
+        "CultureInvariantString": null
+      },
+      "Content1": {
+        "CultureInvariantString": null
+      },
+      "Title2": {
+        "CultureInvariantString": null
+      },
+      "Content2": {
+        "CultureInvariantString": null
+      },
+      "CostCoin": 100,
+      "BreakdownCoin": 20,
+      "Quality": "ECyItemQualityType::Purple",
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_80210.T_Dynamic_Item_80210",
+        "SubPathString": ""
+      },
+      "Default": false,
+      "Tradable": true,
+      "Block": false
+    },
+    "20351041": {
+      "CardId": 20351041,
+      "Id": 80211,
+      "PlayMode": 11,
+      "Index": 209,
+      "LimitNum": 1,
+      "LimitType": 12,
+      "LimitParam": 100,
+      "Category": "ECyCardCategory::Weapon",
+      "MaxLevel": 4,
+      "Extension": true,
+      "Tags": [
+        "ECyCardTagType::None"
+      ],
+      "Recommend": 0,
+      "TypeDesc": {
+        "CultureInvariantString": null
+      },
+      "Background": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "IconWhite": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "IconLumi": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "Icon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoguelikeCard/T_Dynamic_RoguelikeCard_20351041.T_Dynamic_RoguelikeCard_20351041",
+        "SubPathString": ""
+      },
+      "SerialIcon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoguelikeCardSerialIcon/T_Dynamic_RoguelikeCardSerialIcon_1.T_Dynamic_RoguelikeCardSerialIcon_1",
+        "SubPathString": ""
+      },
+      "TagType": 0,
+      "TagDesc": {
+        "CultureInvariantString": null
+      },
+      "Name": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GameplayCard.ST_GameplayCard",
+        "Key": "Name_20351041",
+        "SourceString": "北冥神功",
+        "LocalizedString": "北冥神功"
+      },
+      "Desc": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GameplayCard.ST_GameplayCard",
+        "Key": "Desc_20351041",
+        "SourceString": "每次造成伤害会偷取目标{0}%伤害，持续{1}秒，最多10层",
+        "LocalizedString": "每次造成伤害会偷取目标{0}%伤害，持续{1}秒，最多10层"
+      },
+      "DescSimple": {
+        "CultureInvariantString": null
+      },
+      "DescParamLevel1": [
+        15.0,
+        2.0
+      ],
+      "DescParamLevel2": [
+        30.0,
+        2.0
+      ],
+      "DescParamLevel3": [
+        45.0,
+        2.0
+      ],
+      "DescParamLevel4": [
+        60.0,
+        2.0
+      ],
+      "DescParamLevel5": [],
+      "ActiveMethod": "ECyCardActiveMethod::Auto",
+      "TeamType": "ECyCardTeamType::Zombie",
+      "Rarity": "ECyCardRarityType::Gold",
+      "UnlockRoles": [],
+      "Keywords": [],
+      "Title1": {
+        "CultureInvariantString": null
+      },
+      "Content1": {
+        "CultureInvariantString": null
+      },
+      "Title2": {
+        "CultureInvariantString": null
+      },
+      "Content2": {
+        "CultureInvariantString": null
+      },
+      "CostCoin": 400,
+      "BreakdownCoin": 100,
+      "Quality": "ECyItemQualityType::Orange",
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_80211.T_Dynamic_Item_80211",
+        "SubPathString": ""
+      },
+      "Default": false,
+      "Tradable": true,
+      "Block": false
+    },
+    "20351042": {
+      "CardId": 20351042,
+      "Id": 80212,
+      "PlayMode": 11,
+      "Index": 210,
+      "LimitNum": 1,
+      "LimitType": 12,
+      "LimitParam": 20,
+      "Category": "ECyCardCategory::Weapon",
+      "MaxLevel": 3,
+      "Extension": true,
+      "Tags": [
+        "ECyCardTagType::None"
+      ],
+      "Recommend": 0,
+      "TypeDesc": {
+        "CultureInvariantString": null
+      },
+      "Background": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "IconWhite": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "IconLumi": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "Icon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoguelikeCard/T_Dynamic_RoguelikeCard_20351042.T_Dynamic_RoguelikeCard_20351042",
+        "SubPathString": ""
+      },
+      "SerialIcon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoguelikeCardSerialIcon/T_Dynamic_RoguelikeCardSerialIcon_1.T_Dynamic_RoguelikeCardSerialIcon_1",
+        "SubPathString": ""
+      },
+      "TagType": 0,
+      "TagDesc": {
+        "CultureInvariantString": null
+      },
+      "Name": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GameplayCard.ST_GameplayCard",
+        "Key": "Name_20351042",
+        "SourceString": "肉体革命",
+        "LocalizedString": "肉体革命"
+      },
+      "Desc": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GameplayCard.ST_GameplayCard",
+        "Key": "Desc_20351042",
+        "SourceString": "提升{0}点生命值，每1000点最大生命值，+{1}%伤害，最多15层。",
+        "LocalizedString": "提升{0}点生命值，每1000点最大生命值，+{1}%伤害，最多15层。"
+      },
+      "DescSimple": {
+        "CultureInvariantString": null
+      },
+      "DescParamLevel1": [
+        500.0,
+        8.0
+      ],
+      "DescParamLevel2": [
+        1100.0,
+        18.0
+      ],
+      "DescParamLevel3": [
+        1700.0,
+        30.0
+      ],
+      "DescParamLevel4": [
+        1700.0,
+        100.0
+      ],
+      "DescParamLevel5": [],
+      "ActiveMethod": "ECyCardActiveMethod::Auto",
+      "TeamType": "ECyCardTeamType::Zombie",
+      "Rarity": "ECyCardRarityType::Purple",
+      "UnlockRoles": [],
+      "Keywords": [],
+      "Title1": {
+        "CultureInvariantString": null
+      },
+      "Content1": {
+        "CultureInvariantString": null
+      },
+      "Title2": {
+        "CultureInvariantString": null
+      },
+      "Content2": {
+        "CultureInvariantString": null
+      },
+      "CostCoin": 100,
+      "BreakdownCoin": 20,
+      "Quality": "ECyItemQualityType::Purple",
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_80212.T_Dynamic_Item_80212",
+        "SubPathString": ""
+      },
+      "Default": false,
+      "Tradable": true,
+      "Block": false
+    },
+    "20351043": {
+      "CardId": 20351043,
+      "Id": 80213,
+      "PlayMode": 11,
+      "Index": 211,
+      "LimitNum": 1,
+      "LimitType": 12,
+      "LimitParam": 20,
+      "Category": "ECyCardCategory::Role",
+      "MaxLevel": 3,
+      "Extension": true,
+      "Tags": [
+        "ECyCardTagType::None"
+      ],
+      "Recommend": 0,
+      "TypeDesc": {
+        "CultureInvariantString": null
+      },
+      "Background": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "IconWhite": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "IconLumi": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "Icon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoguelikeCard/T_Dynamic_RoguelikeCard_20351043.T_Dynamic_RoguelikeCard_20351043",
+        "SubPathString": ""
+      },
+      "SerialIcon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoguelikeCardSerialIcon/T_Dynamic_RoguelikeCardSerialIcon_1.T_Dynamic_RoguelikeCardSerialIcon_1",
+        "SubPathString": ""
+      },
+      "TagType": 0,
+      "TagDesc": {
+        "CultureInvariantString": null
+      },
+      "Name": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GameplayCard.ST_GameplayCard",
+        "Key": "Name_20351043",
+        "SourceString": "战斗续行",
+        "LocalizedString": "战斗续行"
+      },
+      "Desc": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GameplayCard.ST_GameplayCard",
+        "Key": "Desc_20351043",
+        "SourceString": "受到致命伤害时，有{0}%概率立刻恢复{1}%的最大生命值和护甲,CD{2}秒",
+        "LocalizedString": "受到致命伤害时，有{0}%概率立刻恢复{1}%的最大生命值和护甲,CD{2}秒"
+      },
+      "DescSimple": {
+        "CultureInvariantString": null
+      },
+      "DescParamLevel1": [
+        50.0,
+        20.0,
+        3.0
+      ],
+      "DescParamLevel2": [
+        60.0,
+        20.0,
+        3.0
+      ],
+      "DescParamLevel3": [
+        67.0,
+        20.0,
+        3.0
+      ],
+      "DescParamLevel4": [
+        1.0,
+        20.0,
+        3.0
+      ],
+      "DescParamLevel5": [],
+      "ActiveMethod": "ECyCardActiveMethod::Auto",
+      "TeamType": "ECyCardTeamType::Zombie",
+      "Rarity": "ECyCardRarityType::Purple",
+      "UnlockRoles": [],
+      "Keywords": [],
+      "Title1": {
+        "CultureInvariantString": null
+      },
+      "Content1": {
+        "CultureInvariantString": null
+      },
+      "Title2": {
+        "CultureInvariantString": null
+      },
+      "Content2": {
+        "CultureInvariantString": null
+      },
+      "CostCoin": 100,
+      "BreakdownCoin": 20,
+      "Quality": "ECyItemQualityType::Purple",
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_80213.T_Dynamic_Item_80213",
+        "SubPathString": ""
+      },
+      "Default": false,
+      "Tradable": true,
+      "Block": false
+    },
+    "20351044": {
+      "CardId": 20351044,
+      "Id": 80214,
+      "PlayMode": 11,
+      "Index": 212,
+      "LimitNum": 1,
+      "LimitType": 12,
+      "LimitParam": 100,
+      "Category": "ECyCardCategory::Weapon",
+      "MaxLevel": 4,
+      "Extension": true,
+      "Tags": [
+        "ECyCardTagType::None"
+      ],
+      "Recommend": 0,
+      "TypeDesc": {
+        "CultureInvariantString": null
+      },
+      "Background": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "IconWhite": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "IconLumi": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "Icon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoguelikeCard/T_Dynamic_RoguelikeCard_20351044.T_Dynamic_RoguelikeCard_20351044",
+        "SubPathString": ""
+      },
+      "SerialIcon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/RoguelikeCardSerialIcon/T_Dynamic_RoguelikeCardSerialIcon_1.T_Dynamic_RoguelikeCardSerialIcon_1",
+        "SubPathString": ""
+      },
+      "TagType": 0,
+      "TagDesc": {
+        "CultureInvariantString": null
+      },
+      "Name": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GameplayCard.ST_GameplayCard",
+        "Key": "Name_20351044",
+        "SourceString": "天魔噬心法",
+        "LocalizedString": "天魔噬心法"
+      },
+      "Desc": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GameplayCard.ST_GameplayCard",
+        "Key": "Desc_20351044",
+        "SourceString": "每当受到致命伤害时，+{0}%伤害",
+        "LocalizedString": "每当受到致命伤害时，+{0}%伤害"
+      },
+      "DescSimple": {
+        "CultureInvariantString": null
+      },
+      "DescParamLevel1": [
+        10.0
+      ],
+      "DescParamLevel2": [
+        20.0
+      ],
+      "DescParamLevel3": [
+        30.0
+      ],
+      "DescParamLevel4": [
+        40.0
+      ],
+      "DescParamLevel5": [],
+      "ActiveMethod": "ECyCardActiveMethod::Auto",
+      "TeamType": "ECyCardTeamType::Zombie",
+      "Rarity": "ECyCardRarityType::Gold",
+      "UnlockRoles": [],
+      "Keywords": [],
+      "Title1": {
+        "CultureInvariantString": null
+      },
+      "Content1": {
+        "CultureInvariantString": null
+      },
+      "Title2": {
+        "CultureInvariantString": null
+      },
+      "Content2": {
+        "CultureInvariantString": null
+      },
+      "CostCoin": 400,
+      "BreakdownCoin": 100,
+      "Quality": "ECyItemQualityType::Orange",
+      "IconItem": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/Item/ItemIcon/T_Dynamic_Item_80214.T_Dynamic_Item_80214",
         "SubPathString": ""
       },
       "Default": false,

@@ -1504,8 +1504,8 @@
       "Tips": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Setting.ST_Setting",
         "Key": "Switch_Headgear_2",
-        "SourceString": "设置自己佩戴的头套外观可见范围（对以下模式不生效：一般爆破/排位爆破/大头乱斗/炸弹派对）\r\n全员：比赛中所有玩家都可见；\r\n队伍：仅我方队伍玩家可见；\r\n自己：仅自己可见",
-        "LocalizedString": "设置自己佩戴的头套外观可见范围（对以下模式不生效：一般爆破/排位爆破/大头乱斗/炸弹派对）\r\n全员：比赛中所有玩家都可见；\r\n队伍：仅我方队伍玩家可见；\r\n自己：仅自己可见"
+        "SourceString": "设置自己佩戴的头套外观可见范围（对以下模式不生效：大头乱斗/炸弹派对）\r\n全员：比赛中所有玩家都可见；\r\n队伍：仅我方队伍玩家可见；\r\n自己：仅自己可见",
+        "LocalizedString": "设置自己佩戴的头套外观可见范围（对以下模式不生效：大头乱斗/炸弹派对）\r\n全员：比赛中所有玩家都可见；\r\n队伍：仅我方队伍玩家可见；\r\n自己：仅自己可见"
       },
       "Max": 0,
       "Min": 0,
@@ -2418,8 +2418,8 @@
       "Name": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Setting.ST_Setting",
         "Key": "PersonalRoulette_1",
-        "SourceString": "表情",
-        "LocalizedString": "表情"
+        "SourceString": "表情/动作",
+        "LocalizedString": "表情/动作"
       },
       "UiType": 4,
       "Options": [],
@@ -2427,8 +2427,8 @@
       "Tips": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Setting.ST_Setting",
         "Key": "PersonalRoulette_2",
-        "SourceString": "在游戏内呼出表情轮盘",
-        "LocalizedString": "在游戏内呼出表情轮盘"
+        "SourceString": "在游戏内长按呼出表情和动作轮盘，短按快捷使用默认槽位的表情/动作",
+        "LocalizedString": "在游戏内长按呼出表情和动作轮盘，短按快捷使用默认槽位的表情/动作"
       },
       "Max": 0,
       "Min": 0,
@@ -2480,8 +2480,8 @@
       "Name": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Setting.ST_Setting",
         "Key": "Graffiti_1",
-        "SourceString": "使用喷漆",
-        "LocalizedString": "使用喷漆"
+        "SourceString": "喷漆/互动道具",
+        "LocalizedString": "喷漆/互动道具"
       },
       "UiType": 4,
       "Options": [],
@@ -2489,8 +2489,8 @@
       "Tips": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Setting.ST_Setting",
         "Key": "Graffiti_2",
-        "SourceString": "在游戏内使用喷漆",
-        "LocalizedString": "在游戏内使用喷漆"
+        "SourceString": "在游戏内长按呼出喷漆和互动道具轮盘，短按快捷使用默认槽位的喷漆/互动道具",
+        "LocalizedString": "在游戏内长按呼出喷漆和互动道具轮盘，短按快捷使用默认槽位的喷漆/互动道具"
       },
       "Max": 0,
       "Min": 0,
@@ -3109,6 +3109,50 @@
       "Type": "Operate",
       "SubType": "Fight",
       "Title": {
+        "CultureInvariantString": null
+      },
+      "Name": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Setting.ST_Setting",
+        "Key": "MeleeWeaponScrollSwitch_1",
+        "SourceString": "鼠标滚轮切换",
+        "LocalizedString": "鼠标滚轮切换"
+      },
+      "UiType": 3,
+      "Options": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Setting.ST_Setting",
+          "Key": "Opt_189",
+          "SourceString": "可切换至近战武器",
+          "LocalizedString": "可切换至近战武器"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Setting.ST_Setting",
+          "Key": "Opt_190",
+          "SourceString": "不可切换至近战武器",
+          "LocalizedString": "不可切换至近战武器"
+        }
+      ],
+      "DefaultOptions": 1,
+      "Tips": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Setting.ST_Setting",
+        "Key": "MeleeWeaponScrollSwitch_2",
+        "SourceString": "鼠标滚轮切换",
+        "LocalizedString": "鼠标滚轮切换"
+      },
+      "Max": 0,
+      "Min": 0,
+      "Step": 0,
+      "Indexkey": "MeleeWeaponScrollSwitch",
+      "DefaultOption2": "",
+      "Status": 0,
+      "Issub": 0,
+      "ExtraOption1": 0
+    },
+    "241": {
+      "Id": 241,
+      "Type": "Operate",
+      "SubType": "Fight",
+      "Title": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Setting.ST_Setting",
         "Key": "Title7",
         "SourceString": "技能",
@@ -3138,8 +3182,8 @@
       "Issub": 0,
       "ExtraOption1": 0
     },
-    "241": {
-      "Id": 241,
+    "242": {
+      "Id": 242,
       "Type": "Operate",
       "SubType": "Fight",
       "Title": {
@@ -3169,8 +3213,8 @@
       "Issub": 0,
       "ExtraOption1": 0
     },
-    "242": {
-      "Id": 242,
+    "243": {
+      "Id": 243,
       "Type": "Operate",
       "SubType": "Fight",
       "Title": {
@@ -3200,8 +3244,8 @@
       "Issub": 0,
       "ExtraOption1": 0
     },
-    "243": {
-      "Id": 243,
+    "244": {
+      "Id": 244,
       "Type": "Operate",
       "SubType": "Communicate",
       "Title": {
@@ -3234,8 +3278,8 @@
       "Issub": 0,
       "ExtraOption1": 0
     },
-    "244": {
-      "Id": 244,
+    "245": {
+      "Id": 245,
       "Type": "Operate",
       "SubType": "Communicate",
       "Title": {
@@ -3265,8 +3309,8 @@
       "Issub": 0,
       "ExtraOption1": 0
     },
-    "245": {
-      "Id": 245,
+    "246": {
+      "Id": 246,
       "Type": "Operate",
       "SubType": "Communicate",
       "Title": {
@@ -3299,8 +3343,8 @@
       "Issub": 0,
       "ExtraOption1": 0
     },
-    "246": {
-      "Id": 246,
+    "247": {
+      "Id": 247,
       "Type": "Operate",
       "SubType": "Communicate",
       "Title": {
@@ -3330,8 +3374,8 @@
       "Issub": 0,
       "ExtraOption1": 0
     },
-    "247": {
-      "Id": 247,
+    "248": {
+      "Id": 248,
       "Type": "Operate",
       "SubType": "Communicate",
       "Title": {
@@ -3361,8 +3405,8 @@
       "Issub": 0,
       "ExtraOption1": 0
     },
-    "248": {
-      "Id": 248,
+    "249": {
+      "Id": 249,
       "Type": "Operate",
       "SubType": "Communicate",
       "Title": {
@@ -3392,8 +3436,8 @@
       "Issub": 0,
       "ExtraOption1": 0
     },
-    "249": {
-      "Id": 249,
+    "250": {
+      "Id": 250,
       "Type": "Operate",
       "SubType": "Communicate",
       "Title": {
@@ -3423,8 +3467,8 @@
       "Issub": 0,
       "ExtraOption1": 0
     },
-    "250": {
-      "Id": 250,
+    "251": {
+      "Id": 251,
       "Type": "Operate",
       "SubType": "UI",
       "Title": {
@@ -3457,8 +3501,8 @@
       "Issub": 0,
       "ExtraOption1": 0
     },
-    "251": {
-      "Id": 251,
+    "252": {
+      "Id": 252,
       "Type": "Operate",
       "SubType": "UI",
       "Title": {
@@ -3488,8 +3532,8 @@
       "Issub": 0,
       "ExtraOption1": 0
     },
-    "252": {
-      "Id": 252,
+    "253": {
+      "Id": 253,
       "Type": "Operate",
       "SubType": "UI",
       "Title": {
@@ -3519,8 +3563,8 @@
       "Issub": 0,
       "ExtraOption1": 0
     },
-    "253": {
-      "Id": 253,
+    "254": {
+      "Id": 254,
       "Type": "Operate",
       "SubType": "UI",
       "Title": {
@@ -3550,8 +3594,8 @@
       "Issub": 0,
       "ExtraOption1": 0
     },
-    "254": {
-      "Id": 254,
+    "255": {
+      "Id": 255,
       "Type": "Operate",
       "SubType": "UI",
       "Title": {
@@ -3581,8 +3625,8 @@
       "Issub": 0,
       "ExtraOption1": 0
     },
-    "255": {
-      "Id": 255,
+    "256": {
+      "Id": 256,
       "Type": "Operate",
       "SubType": "UI",
       "Title": {
@@ -3612,8 +3656,8 @@
       "Issub": 0,
       "ExtraOption1": 0
     },
-    "256": {
-      "Id": 256,
+    "257": {
+      "Id": 257,
       "Type": "Operate",
       "SubType": "UI",
       "Title": {
@@ -3643,8 +3687,8 @@
       "Issub": 0,
       "ExtraOption1": 0
     },
-    "257": {
-      "Id": 257,
+    "258": {
+      "Id": 258,
       "Type": "Operate",
       "SubType": "UI",
       "Title": {
@@ -3674,8 +3718,8 @@
       "Issub": 0,
       "ExtraOption1": 0
     },
-    "258": {
-      "Id": 258,
+    "259": {
+      "Id": 259,
       "Type": "Operate",
       "SubType": "UI",
       "Title": {
@@ -3705,8 +3749,8 @@
       "Issub": 0,
       "ExtraOption1": 0
     },
-    "259": {
-      "Id": 259,
+    "260": {
+      "Id": 260,
       "Type": "Operate",
       "SubType": "UI",
       "Title": {
@@ -3736,8 +3780,8 @@
       "Issub": 0,
       "ExtraOption1": 0
     },
-    "260": {
-      "Id": 260,
+    "261": {
+      "Id": 261,
       "Type": "Operate",
       "SubType": "UI",
       "Title": {
@@ -3767,8 +3811,8 @@
       "Issub": 0,
       "ExtraOption1": 0
     },
-    "261": {
-      "Id": 261,
+    "262": {
+      "Id": 262,
       "Type": "Operate",
       "SubType": "UI",
       "Title": {
@@ -3798,8 +3842,8 @@
       "Issub": 0,
       "ExtraOption1": 0
     },
-    "262": {
-      "Id": 262,
+    "263": {
+      "Id": 263,
       "Type": "Operate",
       "SubType": "UI",
       "Title": {
@@ -3832,8 +3876,8 @@
       "Issub": 0,
       "ExtraOption1": 0
     },
-    "263": {
-      "Id": 263,
+    "264": {
+      "Id": 264,
       "Type": "Operate",
       "SubType": "UI",
       "Title": {
@@ -3863,8 +3907,8 @@
       "Issub": 0,
       "ExtraOption1": 0
     },
-    "264": {
-      "Id": 264,
+    "265": {
+      "Id": 265,
       "Type": "Operate",
       "SubType": "UI",
       "Title": {
@@ -3894,8 +3938,8 @@
       "Issub": 0,
       "ExtraOption1": 0
     },
-    "265": {
-      "Id": 265,
+    "266": {
+      "Id": 266,
       "Type": "Operate",
       "SubType": "UI",
       "Title": {
@@ -3925,8 +3969,8 @@
       "Issub": 0,
       "ExtraOption1": 0
     },
-    "266": {
-      "Id": 266,
+    "267": {
+      "Id": 267,
       "Type": "Operate",
       "SubType": "UI",
       "Title": {
@@ -12175,8 +12219,8 @@
       "Name": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Setting.ST_Setting",
         "Key": "GamePad_SwitchAttackTypeOrDropC4_GamePad_1",
-        "SourceString": "丢弃C4/切换开火模式（按住）",
-        "LocalizedString": "丢弃C4/切换开火模式（按住）"
+        "SourceString": "开火模式和倍率切换（按住）",
+        "LocalizedString": "开火模式和倍率切换（按住）"
       },
       "UiType": 6,
       "Options": [],
@@ -12215,8 +12259,8 @@
       "Tips": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_Setting.ST_Setting",
         "Key": "Graffiti_2",
-        "SourceString": "在游戏内使用喷漆",
-        "LocalizedString": "在游戏内使用喷漆"
+        "SourceString": "在游戏内长按呼出喷漆和互动道具轮盘，短按快捷使用默认槽位的喷漆/互动道具",
+        "LocalizedString": "在游戏内长按呼出喷漆和互动道具轮盘，短按快捷使用默认槽位的喷漆/互动道具"
       },
       "Max": 0,
       "Min": 0,

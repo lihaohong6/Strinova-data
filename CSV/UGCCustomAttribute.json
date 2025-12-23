@@ -1,0 +1,89 @@
+{
+  "Type": "DataTable",
+  "Name": "UGCCustomAttribute",
+  "Class": "UScriptClass'DataTable'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "RowStruct": {
+      "ObjectName": "ScriptStruct'CyUGCCustomAttributeTableRow'",
+      "ObjectPath": "/Script/PMGame"
+    }
+  },
+  "Rows": {
+    "1": {
+      "Id": 1,
+      "Name": "StartTime",
+      "Desc": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_UGCItem.ST_UGCItem",
+        "Key": "Desc_1001",
+        "SourceString": "触发延迟时间",
+        "LocalizedString": "触发延迟时间"
+      },
+      "ConversionRate": 1.0,
+      "Default": 0,
+      "Max": 300,
+      "Min": 0,
+      "Step": 1
+    },
+    "2": {
+      "Id": 2,
+      "Name": "FlyringForce",
+      "Desc": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_UGCItem.ST_UGCItem",
+        "Key": "Desc_1002",
+        "SourceString": "推力",
+        "LocalizedString": "推力"
+      },
+      "ConversionRate": 1000000.0,
+      "Default": 4,
+      "Max": 20,
+      "Min": 1,
+      "Step": 1
+    },
+    "3": {
+      "Id": 3,
+      "Name": "BreakableHealth",
+      "Desc": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_UGCItem.ST_UGCItem",
+        "Key": "Desc_1003",
+        "SourceString": "血量",
+        "LocalizedString": "血量"
+      },
+      "ConversionRate": 1.0,
+      "Default": 200,
+      "Max": 50000,
+      "Min": 10,
+      "Step": 10
+    },
+    "4": {
+      "Id": 4,
+      "Name": "GameStageId",
+      "Desc": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_UGCItem.ST_UGCItem",
+        "Key": "Desc_1004",
+        "SourceString": "检查点激活顺序（不可跳序配置）",
+        "LocalizedString": "检查点激活顺序（不可跳序配置）"
+      },
+      "ConversionRate": 1.0,
+      "Default": 1,
+      "Max": 6,
+      "Min": 1,
+      "Step": 1
+    },
+    "5": {
+      "Id": 5,
+      "Name": "CustomHumanEvacuateTime",
+      "Desc": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_UGCItem.ST_UGCItem",
+        "Key": "Desc_1005",
+        "SourceString": "撤离点触发延迟",
+        "LocalizedString": "撤离点触发延迟"
+      },
+      "ConversionRate": 1.0,
+      "Default": 0,
+      "Max": 300,
+      "Min": 0,
+      "Step": 1
+    }
+  }
+}
