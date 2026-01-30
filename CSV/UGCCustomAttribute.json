@@ -12,6 +12,7 @@
   "Rows": {
     "1": {
       "Id": 1,
+      "Type": 1,
       "Name": "StartTime",
       "Desc": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_UGCItem.ST_UGCItem",
@@ -27,6 +28,7 @@
     },
     "2": {
       "Id": 2,
+      "Type": 1,
       "Name": "FlyringForce",
       "Desc": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_UGCItem.ST_UGCItem",
@@ -42,6 +44,7 @@
     },
     "3": {
       "Id": 3,
+      "Type": 1,
       "Name": "BreakableHealth",
       "Desc": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_UGCItem.ST_UGCItem",
@@ -57,6 +60,7 @@
     },
     "4": {
       "Id": 4,
+      "Type": 1,
       "Name": "GameStageId",
       "Desc": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_UGCItem.ST_UGCItem",
@@ -66,12 +70,13 @@
       },
       "ConversionRate": 1.0,
       "Default": 1,
-      "Max": 6,
+      "Max": 16,
       "Min": 1,
       "Step": 1
     },
     "5": {
       "Id": 5,
+      "Type": 1,
       "Name": "CustomHumanEvacuateTime",
       "Desc": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_UGCItem.ST_UGCItem",
@@ -83,6 +88,102 @@
       "Default": 0,
       "Max": 300,
       "Min": 0,
+      "Step": 1
+    },
+    "6": {
+      "Id": 6,
+      "Type": 1,
+      "Name": "TurretHealth",
+      "Desc": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_UGCItem.ST_UGCItem",
+        "Key": "Desc_1006",
+        "SourceString": "防御塔血量（护甲值）",
+        "LocalizedString": "防御塔血量（护甲值）"
+      },
+      "ConversionRate": 1.0,
+      "Default": 15000,
+      "Max": 100000,
+      "Min": 750,
+      "Step": 50
+    },
+    "7": {
+      "Id": 7,
+      "Type": 1,
+      "Name": "TurretDamageFactor",
+      "Desc": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_UGCItem.ST_UGCItem",
+        "Key": "Desc_1007",
+        "SourceString": "防御塔的伤害系数",
+        "LocalizedString": "防御塔的伤害系数"
+      },
+      "ConversionRate": 1.0,
+      "Default": 1,
+      "Max": 50,
+      "Min": 1,
+      "Step": 1
+    },
+    "8": {
+      "Id": 8,
+      "Type": 1,
+      "Name": "TurretAttackRange",
+      "Desc": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_UGCItem.ST_UGCItem",
+        "Key": "Desc_1008",
+        "SourceString": "防御塔的攻击范围",
+        "LocalizedString": "防御塔的攻击范围"
+      },
+      "ConversionRate": 1000.0,
+      "Default": 1,
+      "Max": 6,
+      "Min": 1,
+      "Step": 1
+    },
+    "9": {
+      "Id": 9,
+      "Type": 1,
+      "Name": "CustomHumanMidPointTime",
+      "Desc": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_UGCItem.ST_UGCItem",
+        "Key": "Desc_1009",
+        "SourceString": "解锁下一个检查点的延迟时长",
+        "LocalizedString": "解锁下一个检查点的延迟时长"
+      },
+      "ConversionRate": 1.0,
+      "Default": 0,
+      "Max": 300,
+      "Min": 0,
+      "Step": 1
+    },
+    "10": {
+      "Id": 10,
+      "Type": 2,
+      "Name": "TurretTargetCamp",
+      "Desc": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_UGCItem.ST_UGCItem",
+        "Key": "Desc_1010",
+        "SourceString": "归属阵营",
+        "LocalizedString": "归属阵营"
+      },
+      "ConversionRate": 1.0,
+      "Default": 3,
+      "Max": 3,
+      "Min": 1,
+      "Step": 1
+    },
+    "11": {
+      "Id": 11,
+      "Type": 2,
+      "Name": "TurretTargetType",
+      "Desc": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_UGCItem.ST_UGCItem",
+        "Key": "Desc_1011",
+        "SourceString": "攻击目标",
+        "LocalizedString": "攻击目标"
+      },
+      "ConversionRate": 1.0,
+      "Default": 3,
+      "Max": 3,
+      "Min": 1,
       "Step": 1
     }
   }
