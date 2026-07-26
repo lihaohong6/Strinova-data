@@ -44,7 +44,7 @@
     "GrowthPage": {
       "UIPageName": {
         "Name": "None",
-        "Group": "None"
+        "Group": "UIName"
       },
       "ShowModeTypes": [],
       "HideModeTypes": [
@@ -69,7 +69,8 @@
         "EGStateType::Guide",
         "EGStateType::FightThird",
         "EGStateType::FightForth",
-        "EGStateType::FightFifth"
+        "EGStateType::FightFifth",
+        "EGStateType::Interaction"
       ],
       "HideGameStateTypes": [
         "EGStateType::GameEnd",
@@ -116,7 +117,8 @@
         "EGStateType::FightSecond",
         "EGStateType::FightThird",
         "EGStateType::FightForth",
-        "EGStateType::FightFifth"
+        "EGStateType::FightFifth",
+        "EGStateType::Interaction"
       ],
       "HideGameStateTypes": [],
       "ShowCharacterStateTypes": [],
@@ -135,7 +137,8 @@
         "EPMGameModeType::Zombie",
         "EPMGameModeType::ZombieGuide",
         "EPMGameModeType::ExtremeKnifeFight",
-        "EPMGameModeType::ZombieChase"
+        "EPMGameModeType::ZombieChase",
+        "EPMGameModeType::Mine3"
       ],
       "ShowGameStateTypes": [],
       "HideGameStateTypes": [],
@@ -216,10 +219,12 @@
     "GameKeyTipsPage": {
       "UIPageName": {
         "Name": "None",
-        "Group": "None"
+        "Group": "UIName"
       },
       "ShowModeTypes": [],
-      "HideModeTypes": [],
+      "HideModeTypes": [
+        "EPMGameModeType::WaterPolo"
+      ],
       "ShowGameStateTypes": [
         "EGStateType::Warmup",
         "EGStateType::Fight",
@@ -229,7 +234,8 @@
         "EGStateType::FightSecond",
         "EGStateType::FightThird",
         "EGStateType::FightForth",
-        "EGStateType::FightFifth"
+        "EGStateType::FightFifth",
+        "EGStateType::Interaction"
       ],
       "HideGameStateTypes": [],
       "ShowCharacterStateTypes": [],

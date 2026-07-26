@@ -36,11 +36,15 @@
         4,
         6,
         11,
+        12,
         16,
         25,
         28,
         30,
-        35
+        35,
+        22,
+        39,
+        40
       ],
       "DefaultValue": [
         2
@@ -76,7 +80,7 @@
       "SettingOptions": [],
       "DefaultValue": [],
       "MaxValue": [
-        20000
+        200000
       ],
       "MinValue": [
         10
@@ -148,7 +152,8 @@
         203,
         205,
         206,
-        207
+        207,
+        208
       ],
       "DefaultValue": [
         201
@@ -188,7 +193,8 @@
         403,
         405,
         406,
-        407
+        407,
+        408
       ],
       "DefaultValue": [
         401
@@ -332,7 +338,8 @@
         11002,
         11003,
         11005,
-        11004
+        11004,
+        11006
       ],
       "DefaultValue": [
         11001
@@ -343,7 +350,7 @@
       "MinValue": [
         10
       ],
-      "Available": 0
+      "Available": 1
     },
     "101019": {
       "AttrId": 101019,
@@ -473,10 +480,10 @@
       "SettingType": 1,
       "SettingInterval": 0,
       "SettingOptions": [
-        771
+        1201
       ],
       "DefaultValue": [
-        771
+        1201
       ],
       "MaxValue": [
         20000
@@ -505,14 +512,8 @@
       "CampSetting": 0,
       "SettingType": 1,
       "SettingInterval": 0,
-      "SettingOptions": [
-        802,
-        805,
-        806
-      ],
-      "DefaultValue": [
-        802
-      ],
+      "SettingOptions": [],
+      "DefaultValue": [],
       "MaxValue": [
         20000
       ],
@@ -651,7 +652,8 @@
         3001,
         3000,
         3014,
-        3005
+        3005,
+        3008
       ],
       "DefaultValue": [
         3001
@@ -687,6 +689,69 @@
       "DefaultValue": [],
       "MaxValue": [
         20000
+      ],
+      "MinValue": [
+        10
+      ],
+      "Available": 1
+    },
+    "101034": {
+      "AttrId": 101034,
+      "AttrGroup": 10101,
+      "Name": {
+        "CultureInvariantString": null
+      },
+      "Module": 1,
+      "SubModule": 1,
+      "Condition": 0,
+      "Sort": 23,
+      "SupportMode": [
+        39
+      ],
+      "Desc": {
+        "CultureInvariantString": null
+      },
+      "CampSetting": 0,
+      "SettingType": 1,
+      "SettingInterval": 0,
+      "SettingOptions": [],
+      "DefaultValue": [],
+      "MaxValue": [
+        20000
+      ],
+      "MinValue": [
+        10
+      ],
+      "Available": 1
+    },
+    "101036": {
+      "AttrId": 101036,
+      "AttrGroup": 10101,
+      "Name": {
+        "CultureInvariantString": null
+      },
+      "Module": 1,
+      "SubModule": 1,
+      "Condition": 0,
+      "Sort": 24,
+      "SupportMode": [
+        40
+      ],
+      "Desc": {
+        "CultureInvariantString": null
+      },
+      "CampSetting": 0,
+      "SettingType": 1,
+      "SettingInterval": 0,
+      "SettingOptions": [
+        40110,
+        40111
+      ],
+      "DefaultValue": [
+        40110
+      ],
+      "MaxValue": [
+        60000
       ],
       "MinValue": [
         10
@@ -840,7 +905,8 @@
       "SupportMode": [
         1,
         4,
-        9
+        9,
+        12
       ],
       "Desc": {
         "CultureInvariantString": null
@@ -871,7 +937,8 @@
       "Condition": 0,
       "Sort": 0,
       "SupportMode": [
-        35
+        35,
+        39
       ],
       "Desc": {
         "CultureInvariantString": null
@@ -940,7 +1007,9 @@
         25,
         26,
         28,
-        30
+        30,
+        39,
+        40
       ],
       "Desc": {
         "CultureInvariantString": null
@@ -1412,6 +1481,86 @@
       ],
       "Available": 1
     },
+    "103033": {
+      "AttrId": 103033,
+      "AttrGroup": 10302,
+      "Name": {
+        "CultureInvariantString": null
+      },
+      "Module": 1,
+      "SubModule": 3,
+      "Condition": 0,
+      "Sort": 0,
+      "SupportMode": [
+        39
+      ],
+      "Desc": {
+        "CultureInvariantString": null
+      },
+      "CampSetting": 0,
+      "SettingType": 5,
+      "SettingInterval": 1,
+      "SettingOptions": [],
+      "DefaultValue": [
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "MaxValue": [
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "MinValue": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Available": 1
+    },
+    "103038": {
+      "AttrId": 103038,
+      "AttrGroup": 10302,
+      "Name": {
+        "CultureInvariantString": null
+      },
+      "Module": 1,
+      "SubModule": 3,
+      "Condition": 0,
+      "Sort": 0,
+      "SupportMode": [
+        40
+      ],
+      "Desc": {
+        "CultureInvariantString": null
+      },
+      "CampSetting": 0,
+      "SettingType": 5,
+      "SettingInterval": 1,
+      "SettingOptions": [],
+      "DefaultValue": [
+        3,
+        3,
+        3
+      ],
+      "MaxValue": [
+        3,
+        3,
+        3
+      ],
+      "MinValue": [
+        0,
+        0,
+        0
+      ],
+      "Available": 0
+    },
     "10401": {
       "AttrId": 10401,
       "AttrGroup": 0,
@@ -1591,6 +1740,7 @@
       "SupportMode": [
         2,
         6,
+        12,
         15,
         25,
         26
@@ -1629,6 +1779,7 @@
       "SupportMode": [
         2,
         6,
+        12,
         15,
         25,
         26
@@ -1664,9 +1815,7 @@
       "SubModule": 4,
       "Condition": 10403,
       "Sort": 7,
-      "SupportMode": [
-        30
-      ],
+      "SupportMode": [],
       "Desc": {
         "CultureInvariantString": null
       },
@@ -1701,6 +1850,7 @@
       "SupportMode": [
         2,
         6,
+        12,
         15,
         25,
         26
@@ -1739,6 +1889,7 @@
       "SupportMode": [
         2,
         6,
+        12,
         15,
         25,
         26
@@ -2201,6 +2352,37 @@
       ],
       "Available": 1
     },
+    "104103": {
+      "AttrId": 104103,
+      "AttrGroup": 10410,
+      "Name": {
+        "CultureInvariantString": null
+      },
+      "Module": 1,
+      "SubModule": 4,
+      "Condition": 0,
+      "Sort": 0,
+      "SupportMode": [
+        12
+      ],
+      "Desc": {
+        "CultureInvariantString": null
+      },
+      "CampSetting": 0,
+      "SettingType": 5,
+      "SettingInterval": 1,
+      "SettingOptions": [],
+      "DefaultValue": [
+        2000
+      ],
+      "MaxValue": [
+        5000
+      ],
+      "MinValue": [
+        30
+      ],
+      "Available": 1
+    },
     "10411": {
       "AttrId": 10411,
       "AttrGroup": 0,
@@ -2411,7 +2593,9 @@
         121,
         122,
         123,
-        125
+        125,
+        126,
+        130
       ],
       "DefaultValue": [
         101,
@@ -2435,7 +2619,9 @@
         121,
         122,
         123,
-        125
+        125,
+        126,
+        130
       ],
       "MaxValue": [],
       "MinValue": [],
@@ -2498,7 +2684,7 @@
         100
       ],
       "MaxValue": [
-        200
+        2000
       ],
       "MinValue": [
         10
@@ -2658,7 +2844,7 @@
         100
       ],
       "MaxValue": [
-        200
+        2000
       ],
       "MinValue": [
         10
@@ -2813,7 +2999,8 @@
         1,
         11,
         28,
-        35
+        35,
+        39
       ],
       "Desc": {
         "CultureInvariantString": null
@@ -3072,7 +3259,9 @@
       "SupportMode": [
         22,
         28,
-        35
+        35,
+        39,
+        40
       ],
       "Desc": {
         "CultureInvariantString": null
@@ -3175,7 +3364,8 @@
         1,
         4,
         11,
-        35
+        35,
+        39
       ],
       "Desc": {
         "CultureInvariantString": null
@@ -3381,7 +3571,8 @@
         1,
         4,
         11,
-        30
+        30,
+        39
       ],
       "Desc": {
         "CultureInvariantString": null
@@ -3446,6 +3637,7 @@
       "Sort": 16,
       "SupportMode": [
         15,
+        12,
         16,
         25,
         2,
@@ -3485,7 +3677,8 @@
       "Sort": 17,
       "SupportMode": [
         30,
-        35
+        35,
+        39
       ],
       "Desc": {
         "CultureInvariantString": null
@@ -3716,6 +3909,7 @@
         4,
         6,
         11,
+        12,
         15,
         16,
         22,
@@ -3755,7 +3949,9 @@
       "Condition": 30101,
       "Sort": 1,
       "SupportMode": [
-        30
+        30,
+        39,
+        40
       ],
       "Desc": {
         "CultureInvariantString": null
@@ -3826,6 +4022,7 @@
         4,
         6,
         11,
+        12,
         15,
         16,
         22,
@@ -3865,7 +4062,9 @@
       "Condition": 30102,
       "Sort": 2,
       "SupportMode": [
-        30
+        30,
+        39,
+        40
       ],
       "Desc": {
         "CultureInvariantString": null
@@ -3916,6 +4115,156 @@
         12201001,
         12303001,
         12307001
+      ],
+      "MaxValue": [],
+      "MinValue": [],
+      "Available": 1
+    },
+    "30104": {
+      "AttrId": 30104,
+      "AttrGroup": 0,
+      "Name": {
+        "Namespace": "RuleAttribute",
+        "Key": "30104_Name",
+        "SourceString": "近战武器",
+        "LocalizedString": "近战武器"
+      },
+      "Module": 3,
+      "SubModule": 1,
+      "Condition": 0,
+      "Sort": 4,
+      "SupportMode": [],
+      "Desc": {
+        "CultureInvariantString": null
+      },
+      "CampSetting": 0,
+      "SettingType": 3,
+      "SettingInterval": 0,
+      "SettingOptions": [],
+      "DefaultValue": [
+        1
+      ],
+      "MaxValue": [
+        1
+      ],
+      "MinValue": [
+        0
+      ],
+      "Available": 1
+    },
+    "301041": {
+      "AttrId": 301041,
+      "AttrGroup": 30104,
+      "Name": {
+        "Namespace": "RuleAttribute",
+        "Key": "301041_Name",
+        "SourceString": "近战武器默认开启",
+        "LocalizedString": "近战武器默认开启"
+      },
+      "Module": 3,
+      "SubModule": 1,
+      "Condition": 30104,
+      "Sort": 4,
+      "SupportMode": [
+        2,
+        1,
+        4,
+        6,
+        9,
+        11,
+        12,
+        15,
+        16,
+        22,
+        25,
+        28,
+        29,
+        35,
+        37,
+        30
+      ],
+      "Desc": {
+        "CultureInvariantString": null
+      },
+      "CampSetting": 0,
+      "SettingType": 3,
+      "SettingInterval": 0,
+      "SettingOptions": [],
+      "DefaultValue": [
+        1
+      ],
+      "MaxValue": [
+        1
+      ],
+      "MinValue": [
+        0
+      ],
+      "Available": 1
+    },
+    "301042": {
+      "AttrId": 301042,
+      "AttrGroup": 30104,
+      "Name": {
+        "Namespace": "RuleAttribute",
+        "Key": "301042_Name",
+        "SourceString": "近战武器默认关闭",
+        "LocalizedString": "近战武器默认关闭"
+      },
+      "Module": 3,
+      "SubModule": 1,
+      "Condition": 30104,
+      "Sort": 4,
+      "SupportMode": [
+        38,
+        40
+      ],
+      "Desc": {
+        "CultureInvariantString": null
+      },
+      "CampSetting": 0,
+      "SettingType": 3,
+      "SettingInterval": 0,
+      "SettingOptions": [],
+      "DefaultValue": [
+        0
+      ],
+      "MaxValue": [
+        1
+      ],
+      "MinValue": [
+        0
+      ],
+      "Available": 1
+    },
+    "30105": {
+      "AttrId": 30105,
+      "AttrGroup": 0,
+      "Name": {
+        "Namespace": "RuleAttribute",
+        "Key": "30105_Name",
+        "SourceString": "近战武器启用",
+        "LocalizedString": "近战武器启用"
+      },
+      "Module": 3,
+      "SubModule": 1,
+      "Condition": 30104,
+      "Sort": 5,
+      "SupportMode": [],
+      "Desc": {
+        "CultureInvariantString": null
+      },
+      "CampSetting": 0,
+      "SettingType": 2,
+      "SettingInterval": 0,
+      "SettingOptions": [
+        15201001,
+        15401001,
+        15701001
+      ],
+      "DefaultValue": [
+        15201001,
+        15401001,
+        15701001
       ],
       "MaxValue": [],
       "MinValue": [],
@@ -3972,11 +4321,13 @@
         4,
         6,
         9,
+        12,
         15,
         16,
         22,
         25,
-        30
+        30,
+        39
       ],
       "Desc": {
         "CultureInvariantString": null
@@ -4984,7 +5335,9 @@
         22,
         28,
         30,
-        35
+        35,
+        39,
+        40
       ],
       "Desc": {
         "CultureInvariantString": null
@@ -5115,11 +5468,11 @@
         2,
         6,
         9,
-        12,
         15,
         26,
         28,
-        35
+        35,
+        39
       ],
       "Desc": {
         "CultureInvariantString": null
