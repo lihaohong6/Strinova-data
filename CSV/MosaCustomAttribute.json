@@ -1,0 +1,252 @@
+{
+  "Type": "DataTable",
+  "Name": "MosaCustomAttribute",
+  "Class": "UScriptClass'DataTable'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "RowStruct": {
+      "ObjectName": "ScriptStruct'CyMosaCustomAttributeTableRow'",
+      "ObjectPath": "/Script/PMGame"
+    }
+  },
+  "Rows": {
+    "1": {
+      "Id": 1,
+      "Type": 1,
+      "Name": "InitialGold",
+      "Desc": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_UGCItem.ST_UGCItem",
+        "Key": "Desc_2001",
+        "SourceString": "初始经济",
+        "LocalizedString": "初始经济"
+      },
+      "ConversionRate": 1.0,
+      "Default": 500,
+      "Max": 10000,
+      "Min": 0,
+      "Step": 50,
+      "AttrType": 2
+    },
+    "2": {
+      "Id": 2,
+      "Type": 1,
+      "Name": "PassiveIncomeGold",
+      "Desc": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_UGCItem.ST_UGCItem",
+        "Key": "Desc_2002",
+        "SourceString": "每秒被动收入",
+        "LocalizedString": "每秒被动收入"
+      },
+      "ConversionRate": 1.0,
+      "Default": 1,
+      "Max": 20,
+      "Min": 0,
+      "Step": 1,
+      "AttrType": 2
+    },
+    "3": {
+      "Id": 3,
+      "Type": 1,
+      "Name": "FirstBloodGold",
+      "Desc": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_UGCItem.ST_UGCItem",
+        "Key": "Desc_2003",
+        "SourceString": "一血奖励",
+        "LocalizedString": "一血奖励"
+      },
+      "ConversionRate": 1.0,
+      "Default": 200,
+      "Max": 2000,
+      "Min": 0,
+      "Step": 50,
+      "AttrType": 2
+    },
+    "4": {
+      "Id": 4,
+      "Type": 1,
+      "Name": "HeroKillGold",
+      "Desc": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_UGCItem.ST_UGCItem",
+        "Key": "Desc_2004",
+        "SourceString": "击杀角色基础奖励",
+        "LocalizedString": "击杀角色基础奖励"
+      },
+      "ConversionRate": 1.0,
+      "Default": 200,
+      "Max": 2000,
+      "Min": 0,
+      "Step": 50,
+      "AttrType": 2
+    },
+    "5": {
+      "Id": 5,
+      "Type": 1,
+      "Name": "AssistGold",
+      "Desc": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_UGCItem.ST_UGCItem",
+        "Key": "Desc_2005",
+        "SourceString": "助攻角色系数Z（助攻经济=击杀角色经济*Z）",
+        "LocalizedString": "助攻角色系数Z（助攻经济=击杀角色经济*Z）"
+      },
+      "ConversionRate": 0.01,
+      "Default": 33,
+      "Max": 100,
+      "Min": 0,
+      "Step": 1,
+      "AttrType": 2
+    },
+    "6": {
+      "Id": 7,
+      "Type": 1,
+      "Name": "TowerKillGold",
+      "Desc": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_UGCItem.ST_UGCItem",
+        "Key": "Desc_2007",
+        "SourceString": "击杀防御塔奖励",
+        "LocalizedString": "击杀防御塔奖励"
+      },
+      "ConversionRate": 1.0,
+      "Default": 250,
+      "Max": 2000,
+      "Min": 0,
+      "Step": 50,
+      "AttrType": 2
+    },
+    "7": {
+      "Id": 8,
+      "Type": 1,
+      "Name": "TowerAssistGold",
+      "Desc": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_UGCItem.ST_UGCItem",
+        "Key": "Desc_2008",
+        "SourceString": "击杀防御塔全队其他人分成",
+        "LocalizedString": "击杀防御塔全队其他人分成"
+      },
+      "ConversionRate": 1.0,
+      "Default": 200,
+      "Max": 2000,
+      "Min": 0,
+      "Step": 50,
+      "AttrType": 2
+    },
+    "8": {
+      "Id": 9,
+      "Type": 1,
+      "Name": "RespawnDelay",
+      "Desc": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_UGCItem.ST_UGCItem",
+        "Key": "Desc_2009",
+        "SourceString": "复活时长参数X设置（复活时长：X+游戏对局时长/Y）",
+        "LocalizedString": "复活时长参数X设置（复活时长：X+游戏对局时长/Y）"
+      },
+      "ConversionRate": 1.0,
+      "Default": 10,
+      "Max": 70,
+      "Min": 1,
+      "Step": 5,
+      "AttrType": 4
+    },
+    "9": {
+      "Id": 10,
+      "Type": 1,
+      "Name": "RespawnFactor",
+      "Desc": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_UGCItem.ST_UGCItem",
+        "Key": "Desc_2010",
+        "SourceString": "复活时长参数Y设置（复活时长：X+游戏对局时长/Y）",
+        "LocalizedString": "复活时长参数Y设置（复活时长：X+游戏对局时长/Y）"
+      },
+      "ConversionRate": 1.0,
+      "Default": 10,
+      "Max": 60,
+      "Min": 1,
+      "Step": 1,
+      "AttrType": 4
+    },
+    "10": {
+      "Id": 11,
+      "Type": 1,
+      "Name": "RefundFactor",
+      "Desc": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_UGCItem.ST_UGCItem",
+        "Key": "Desc_2011",
+        "SourceString": "退款系数A（出售卡牌的经济=卡牌总价值*A）",
+        "LocalizedString": "退款系数A（出售卡牌的经济=卡牌总价值*A）"
+      },
+      "ConversionRate": 0.01,
+      "Default": 80,
+      "Max": 100,
+      "Min": 0,
+      "Step": 1,
+      "AttrType": 2
+    },
+    "11": {
+      "Id": 12,
+      "Type": 1,
+      "Name": "HeroKillExpDivisor",
+      "Desc": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_UGCItem.ST_UGCItem",
+        "Key": "Desc_2012",
+        "SourceString": "击杀角色获得的经验分母M（击杀角色经验=此角色当前等级所需经验/M）",
+        "LocalizedString": "击杀角色获得的经验分母M（击杀角色经验=此角色当前等级所需经验/M）"
+      },
+      "ConversionRate": 1.0,
+      "Default": 2,
+      "Max": 10,
+      "Min": 1,
+      "Step": 1,
+      "AttrType": 4
+    },
+    "12": {
+      "Id": 13,
+      "Type": 1,
+      "Name": "AssistExpRatio",
+      "Desc": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_UGCItem.ST_UGCItem",
+        "Key": "Desc_2013",
+        "SourceString": "助攻角色经验分母D（助攻经验=击杀经验/D）",
+        "LocalizedString": "助攻角色经验分母D（助攻经验=击杀经验/D）"
+      },
+      "ConversionRate": 1.0,
+      "Default": 2,
+      "Max": 10,
+      "Min": 1,
+      "Step": 1,
+      "AttrType": 4
+    },
+    "13": {
+      "Id": 15,
+      "Type": 1,
+      "Name": "TowerExpCoeff",
+      "Desc": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_UGCItem.ST_UGCItem",
+        "Key": "Desc_2015",
+        "SourceString": "B值：击杀防御塔全队经验=B*【防御塔血量/自己血量*C】",
+        "LocalizedString": "B值：击杀防御塔全队经验=B*【防御塔血量/自己血量*C】"
+      },
+      "ConversionRate": 1.0,
+      "Default": 100,
+      "Max": 1000,
+      "Min": 0,
+      "Step": 10,
+      "AttrType": 4
+    },
+    "14": {
+      "Id": 16,
+      "Type": 1,
+      "Name": "TowerExpHPDivisor",
+      "Desc": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_UGCItem.ST_UGCItem",
+        "Key": "Desc_2016",
+        "SourceString": "C值：击杀防御塔全队经验=B*【防御塔血量/自己血量*C】",
+        "LocalizedString": "C值：击杀防御塔全队经验=B*【防御塔血量/自己血量*C】"
+      },
+      "ConversionRate": 1.0,
+      "Default": 30,
+      "Max": 100,
+      "Min": 10,
+      "Step": 10,
+      "AttrType": 4
+    }
+  }
+}

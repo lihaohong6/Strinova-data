@@ -5436,7 +5436,9 @@
       "UnlockType": "ECyUGCItemLockType::DefaultUnlock",
       "GamemodeLimit": [],
       "IfNotColored": 1,
-      "CustomProperty": [],
+      "CustomProperty": [
+        34
+      ],
       "CreateAkEvent": {
         "AssetPathName": "/Game/WwiseAssets/AkEvent/Char_3DLeona_QSkill_Brick_Damaged.Char_3DLeona_QSkill_Brick_Damaged",
         "SubPathString": ""
@@ -6680,7 +6682,13 @@
         23,
         24,
         25,
-        27
+        27,
+        30,
+        31,
+        32,
+        33,
+        35,
+        36
       ],
       "CreateAkEvent": {
         "AssetPathName": "/Game/WwiseAssets/AkEvent/Char_3DLeona_QSkill_Brick_Damaged.Char_3DLeona_QSkill_Brick_Damaged",
@@ -6742,6 +6750,71 @@
         "SubPathString": ""
       }
     },
+    "143": {
+      "Id": 142,
+      "ItemOrder": 143,
+      "ItemName": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_UGCItem.ST_UGCItem",
+        "Key": "Name_142",
+        "SourceString": "远程小兵出生点",
+        "LocalizedString": "远程小兵出生点"
+      },
+      "ItemDesc": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_UGCItem.ST_UGCItem",
+        "Key": "Desc_142",
+        "SourceString": "远程小兵出生点，按G可以设置很多参数。按F可以设置小兵移动的路径，会按照路径从起点移动到终点，左键安放，右键取消。删除其中一个节点，其他的全部删除。",
+        "LocalizedString": "远程小兵出生点，按G可以设置很多参数。按F可以设置小兵移动的路径，会按照路径从起点移动到终点，左键安放，右键取消。删除其中一个节点，其他的全部删除。"
+      },
+      "ItemIcon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/UGCIcon/T_Dynamic_UGC_142.T_Dynamic_UGC_142",
+        "SubPathString": ""
+      },
+      "ItemBigicon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/UGCIcon/T_Dynamic_UGC_142.T_Dynamic_UGC_142",
+        "SubPathString": ""
+      },
+      "BluePrint": {
+        "AssetPathName": "/Game/PaperMan/PMUGC/Mosa/Bingxian/SM_RemoteMonsterBirthPlace.SM_RemoteMonsterBirthPlace",
+        "SubPathString": ""
+      },
+      "ItemCategory": "ECyUGCItemCategory::ConnectPrefab",
+      "IfShownum": 1,
+      "ItemMaxnum": 30,
+      "UnlockType": "ECyUGCItemLockType::DefaultUnlock",
+      "GamemodeLimit": [],
+      "IfNotColored": 0,
+      "CustomProperty": [
+        10,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        27,
+        30,
+        31,
+        32,
+        33,
+        35,
+        36
+      ],
+      "CreateAkEvent": {
+        "AssetPathName": "/Game/WwiseAssets/AkEvent/Char_3DLeona_QSkill_Brick_Damaged.Char_3DLeona_QSkill_Brick_Damaged",
+        "SubPathString": ""
+      },
+      "CreateParticle": {
+        "AssetPathName": "/Game/PaperMan/PMUGC/Art/FX/P_ModeBorn.P_ModeBorn",
+        "SubPathString": ""
+      },
+      "PreviewParticle": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      }
+    },
     "199": {
       "Id": 199,
       "ItemOrder": 199,
@@ -6773,6 +6846,61 @@
       "IfShownum": 1,
       "ItemMaxnum": 30,
       "UnlockType": "ECyUGCItemLockType::DefaultUnlock",
+      "GamemodeLimit": [],
+      "IfNotColored": 0,
+      "CustomProperty": [
+        6,
+        7,
+        8,
+        10,
+        11,
+        28,
+        29
+      ],
+      "CreateAkEvent": {
+        "AssetPathName": "/Game/WwiseAssets/AkEvent/Char_3DLeona_QSkill_Brick_Damaged.Char_3DLeona_QSkill_Brick_Damaged",
+        "SubPathString": ""
+      },
+      "CreateParticle": {
+        "AssetPathName": "/Game/PaperMan/PMUGC/Art/FX/P_ModeBorn.P_ModeBorn",
+        "SubPathString": ""
+      },
+      "PreviewParticle": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      }
+    },
+    "200": {
+      "Id": 200,
+      "ItemOrder": 200,
+      "ItemName": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_UGCItem.ST_UGCItem",
+        "Key": "Name_199",
+        "SourceString": "防御塔",
+        "LocalizedString": "防御塔"
+      },
+      "ItemDesc": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_UGCItem.ST_UGCItem",
+        "Key": "Desc_199",
+        "SourceString": "防御塔，可被摧毁，可无视阻挡物攻击，可按G设置各项参数。（正式运行生效）可按F，设置子防御塔，子防御塔属性独立，最后设置的子防御塔可以被最先攻击，上一序号的子防御塔没摧毁，无法摧毁后续防御塔。",
+        "LocalizedString": "防御塔，可被摧毁，可无视阻挡物攻击，可按G设置各项参数。（正式运行生效）可按F，设置子防御塔，子防御塔属性独立，最后设置的子防御塔可以被最先攻击，上一序号的子防御塔没摧毁，无法摧毁后续防御塔。"
+      },
+      "ItemIcon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/UGCIcon/T_Dynamic_UGC_199.T_Dynamic_UGC_199",
+        "SubPathString": ""
+      },
+      "ItemBigicon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/UGCIcon/T_Dynamic_UGC_199.T_Dynamic_UGC_199",
+        "SubPathString": ""
+      },
+      "BluePrint": {
+        "AssetPathName": "/Game/PaperMan/PMUGC/Mosa/CatePaoTai/SM_PaoTai.SM_PaoTai",
+        "SubPathString": ""
+      },
+      "ItemCategory": "ECyUGCItemCategory::FunctionPrefab",
+      "IfShownum": 1,
+      "ItemMaxnum": 100,
+      "UnlockType": "ECyUGCItemLockType::Official",
       "GamemodeLimit": [],
       "IfNotColored": 0,
       "CustomProperty": [
@@ -7054,8 +7182,8 @@
       "ItemDesc": {
         "TableId": "/Game/PaperMan/CyTable/StringTable/ST_UGCItem.ST_UGCItem",
         "Key": "Desc_155",
-        "SourceString": "跑酷奇点，跑酷模式必要的奇点，按下F放置复活点。",
-        "LocalizedString": "跑酷奇点，跑酷模式必要的奇点，按下F放置复活点。"
+        "SourceString": "跑酷起点，跑酷模式必要的起点，按下F放置复活点。",
+        "LocalizedString": "跑酷起点，跑酷模式必要的起点，按下F放置复活点。"
       },
       "ItemIcon": {
         "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/UGCIcon/T_Dynamic_UGC_155.T_Dynamic_UGC_155",
@@ -7078,6 +7206,112 @@
       ],
       "IfNotColored": 1,
       "CustomProperty": [],
+      "CreateAkEvent": {
+        "AssetPathName": "/Game/WwiseAssets/AkEvent/Char_3DLeona_QSkill_Brick_Damaged.Char_3DLeona_QSkill_Brick_Damaged",
+        "SubPathString": ""
+      },
+      "CreateParticle": {
+        "AssetPathName": "/Game/PaperMan/PMUGC/Art/FX/P_ModeBorn.P_ModeBorn",
+        "SubPathString": ""
+      },
+      "PreviewParticle": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      }
+    },
+    "156": {
+      "Id": 156,
+      "ItemOrder": 156,
+      "ItemName": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_UGCItem.ST_UGCItem",
+        "Key": "Name_156",
+        "SourceString": "阵营水晶",
+        "LocalizedString": "阵营水晶"
+      },
+      "ItemDesc": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_UGCItem.ST_UGCItem",
+        "Key": "Name_156",
+        "SourceString": "阵营水晶",
+        "LocalizedString": "阵营水晶"
+      },
+      "ItemIcon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/UGCIcon/T_Dynamic_UGC_156.T_Dynamic_UGC_156",
+        "SubPathString": ""
+      },
+      "ItemBigicon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/UGCIcon/T_Dynamic_UGC_156.T_Dynamic_UGC_156",
+        "SubPathString": ""
+      },
+      "BluePrint": {
+        "AssetPathName": "/Game/PaperMan/PMUGC/Mosa/Shuijing/SM_Shuijing_blue.SM_Shuijing_blue",
+        "SubPathString": ""
+      },
+      "ItemCategory": "ECyUGCItemCategory::FunctionPrefab",
+      "IfShownum": 1,
+      "ItemMaxnum": 2,
+      "UnlockType": "ECyUGCItemLockType::DefaultUnlock",
+      "GamemodeLimit": [
+        21
+      ],
+      "IfNotColored": 0,
+      "CustomProperty": [
+        3,
+        10,
+        29
+      ],
+      "CreateAkEvent": {
+        "AssetPathName": "/Game/WwiseAssets/AkEvent/Char_3DLeona_QSkill_Brick_Damaged.Char_3DLeona_QSkill_Brick_Damaged",
+        "SubPathString": ""
+      },
+      "CreateParticle": {
+        "AssetPathName": "/Game/PaperMan/PMUGC/Art/FX/P_ModeBorn.P_ModeBorn",
+        "SubPathString": ""
+      },
+      "PreviewParticle": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      }
+    },
+    "157": {
+      "Id": 157,
+      "ItemOrder": 157,
+      "ItemName": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_UGCItem.ST_UGCItem",
+        "Key": "Name_157",
+        "SourceString": "红阵营水晶",
+        "LocalizedString": "红阵营水晶"
+      },
+      "ItemDesc": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_UGCItem.ST_UGCItem",
+        "Key": "Name_157",
+        "SourceString": "红阵营水晶",
+        "LocalizedString": "红阵营水晶"
+      },
+      "ItemIcon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/UGCIcon/T_Dynamic_UGC_157.T_Dynamic_UGC_157",
+        "SubPathString": ""
+      },
+      "ItemBigicon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/UGCIcon/T_Dynamic_UGC_157.T_Dynamic_UGC_157",
+        "SubPathString": ""
+      },
+      "BluePrint": {
+        "AssetPathName": "/Game/PaperMan/PMUGC/Mosa/Shuijing/SM_Shuijing_red.SM_Shuijing_red",
+        "SubPathString": ""
+      },
+      "ItemCategory": "ECyUGCItemCategory::FunctionPrefab",
+      "IfShownum": 1,
+      "ItemMaxnum": 2,
+      "UnlockType": "ECyUGCItemLockType::Official",
+      "GamemodeLimit": [
+        21
+      ],
+      "IfNotColored": 0,
+      "CustomProperty": [
+        3,
+        10,
+        29
+      ],
       "CreateAkEvent": {
         "AssetPathName": "/Game/WwiseAssets/AkEvent/Char_3DLeona_QSkill_Brick_Damaged.Char_3DLeona_QSkill_Brick_Damaged",
         "SubPathString": ""
@@ -7122,6 +7356,102 @@
       "IfShownum": 1,
       "ItemMaxnum": 99,
       "UnlockType": "ECyUGCItemLockType::DefaultUnlock",
+      "GamemodeLimit": [],
+      "IfNotColored": 1,
+      "CustomProperty": [],
+      "CreateAkEvent": {
+        "AssetPathName": "/Game/WwiseAssets/AkEvent/Char_3DLeona_QSkill_Brick_Damaged.Char_3DLeona_QSkill_Brick_Damaged",
+        "SubPathString": ""
+      },
+      "CreateParticle": {
+        "AssetPathName": "/Game/PaperMan/PMUGC/Art/FX/P_ModeBorn.P_ModeBorn",
+        "SubPathString": ""
+      },
+      "PreviewParticle": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      }
+    },
+    "159": {
+      "Id": 159,
+      "ItemOrder": 159,
+      "ItemName": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_UGCItem.ST_UGCItem",
+        "Key": "Name_159",
+        "SourceString": "商店模块",
+        "LocalizedString": "商店模块"
+      },
+      "ItemDesc": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_UGCItem.ST_UGCItem",
+        "Key": "Name_159",
+        "SourceString": "商店模块",
+        "LocalizedString": "商店模块"
+      },
+      "ItemIcon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/UGCIcon/T_Dynamic_UGC_159.T_Dynamic_UGC_159",
+        "SubPathString": ""
+      },
+      "ItemBigicon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/UGCIcon/T_Dynamic_UGC_159.T_Dynamic_UGC_159",
+        "SubPathString": ""
+      },
+      "BluePrint": {
+        "AssetPathName": "/Game/PaperMan/PMUGC/Mosa/Shop/Shop_Atom.Shop_Atom",
+        "SubPathString": ""
+      },
+      "ItemCategory": "ECyUGCItemCategory::FunctionPrefab",
+      "IfShownum": 1,
+      "ItemMaxnum": 10,
+      "UnlockType": "ECyUGCItemLockType::DefaultUnlock",
+      "GamemodeLimit": [
+        21
+      ],
+      "IfNotColored": 1,
+      "CustomProperty": [],
+      "CreateAkEvent": {
+        "AssetPathName": "/Game/WwiseAssets/AkEvent/Char_3DLeona_QSkill_Brick_Damaged.Char_3DLeona_QSkill_Brick_Damaged",
+        "SubPathString": ""
+      },
+      "CreateParticle": {
+        "AssetPathName": "/Game/PaperMan/PMUGC/Art/FX/P_ModeBorn.P_ModeBorn",
+        "SubPathString": ""
+      },
+      "PreviewParticle": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      }
+    },
+    "999": {
+      "Id": 999,
+      "ItemOrder": 999,
+      "ItemName": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_UGCItem.ST_UGCItem",
+        "Key": "Name_199",
+        "SourceString": "防御塔",
+        "LocalizedString": "防御塔"
+      },
+      "ItemDesc": {
+        "TableId": "/Game/PaperMan/CyTable/StringTable/ST_UGCItem.ST_UGCItem",
+        "Key": "Desc_199",
+        "SourceString": "防御塔，可被摧毁，可无视阻挡物攻击，可按G设置各项参数。（正式运行生效）可按F，设置子防御塔，子防御塔属性独立，最后设置的子防御塔可以被最先攻击，上一序号的子防御塔没摧毁，无法摧毁后续防御塔。",
+        "LocalizedString": "防御塔，可被摧毁，可无视阻挡物攻击，可按G设置各项参数。（正式运行生效）可按F，设置子防御塔，子防御塔属性独立，最后设置的子防御塔可以被最先攻击，上一序号的子防御塔没摧毁，无法摧毁后续防御塔。"
+      },
+      "ItemIcon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/UGCIcon/T_Dynamic_UGC_199.T_Dynamic_UGC_199",
+        "SubPathString": ""
+      },
+      "ItemBigicon": {
+        "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/UGCIcon/T_Dynamic_UGC_199.T_Dynamic_UGC_199",
+        "SubPathString": ""
+      },
+      "BluePrint": {
+        "AssetPathName": "/Game/PaperMan/PMUGC/Mosa/BP_MosaSettingActor.BP_MosaSettingActor",
+        "SubPathString": ""
+      },
+      "ItemCategory": "ECyUGCItemCategory::BaseAtom",
+      "IfShownum": 0,
+      "ItemMaxnum": 0,
+      "UnlockType": "ECyUGCItemLockType::Official",
       "GamemodeLimit": [],
       "IfNotColored": 1,
       "CustomProperty": [],
