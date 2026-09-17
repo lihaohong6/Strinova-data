@@ -1,0 +1,5692 @@
+{
+  "Type": "DataTable",
+  "Name": "GrowthWeapon_Bomb",
+  "Class": "UScriptClass'DataTable'",
+  "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+  "Properties": {
+    "RowStruct": {
+      "ObjectName": "ScriptStruct'CyGrowthWeaponTableRow'",
+      "ObjectPath": "/Script/PMGame"
+    }
+  },
+  "Rows": {
+    "10101001": {
+      "WeaponId": 10101001,
+      "Part1Desc": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "BaseDamageIncreased",
+          "SourceString": "基础伤害提升",
+          "LocalizedString": "基础伤害提升"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "BaseRateOfFireIncreased",
+          "SourceString": "基础射速提升",
+          "LocalizedString": "基础射速提升"
+        },
+        {
+          "CultureInvariantString": null
+        }
+      ],
+      "Part1Icon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200008.T_Dynamic_GrowthIcon_200008",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200009.T_Dynamic_GrowthIcon_200009",
+          "SubPathString": ""
+        }
+      ],
+      "Part2Desc": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "HeadshotDamageIncreased",
+          "SourceString": "爆头伤害提升",
+          "LocalizedString": "爆头伤害提升"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "StringDamageIncreased",
+          "SourceString": "弦化伤害提升",
+          "LocalizedString": "弦化伤害提升"
+        },
+        {
+          "CultureInvariantString": null
+        }
+      ],
+      "Part2Icon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200011.T_Dynamic_GrowthIcon_200011",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200010.T_Dynamic_GrowthIcon_200010",
+          "SubPathString": ""
+        }
+      ],
+      "Part4Desc": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "IncreasedNumberOfBullets",
+          "SourceString": "载弹数量提升",
+          "LocalizedString": "载弹数量提升"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "ReloadSpeedIncreased",
+          "SourceString": "换弹速度提升",
+          "LocalizedString": "换弹速度提升"
+        },
+        {
+          "CultureInvariantString": null
+        }
+      ],
+      "Part4Icon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200012.T_Dynamic_GrowthIcon_200012",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200013.T_Dynamic_GrowthIcon_200013",
+          "SubPathString": ""
+        }
+      ],
+      "Part5Desc": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "ScatterControlImprovements",
+          "SourceString": "散射控制提升",
+          "LocalizedString": "散射控制提升"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "ImprovedRecoilControl",
+          "SourceString": "后坐控制提升",
+          "LocalizedString": "后坐控制提升"
+        },
+        {
+          "CultureInvariantString": null
+        }
+      ],
+      "Part5Icon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200014.T_Dynamic_GrowthIcon_200014",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200015.T_Dynamic_GrowthIcon_200015",
+          "SubPathString": ""
+        }
+      ],
+      "DefaultProperty1": [
+        "ShootSpeed|1|1200",
+        "AimSpeed|45|100",
+        "Scattering|73|100",
+        "GunRecoil|72|100",
+        "MagazineCapacity|1|100",
+        "ReloadSpeed|24|100",
+        "MoveSpeed|55|100",
+        "Change2DHurt|67|100"
+      ],
+      "DefaultProperty3": [
+        "MagnificationRate|1.25"
+      ],
+      "Part1Level01": [
+        ""
+      ],
+      "Part1Level11": [
+        ""
+      ],
+      "Part2Level01": [
+        ""
+      ],
+      "Part2Level11": [
+        "Change2DHurt|*0.2"
+      ],
+      "Part4Level01": [
+        ""
+      ],
+      "Part4Level11": [
+        "ReloadSpeed|*0.4"
+      ],
+      "Part5Level01": [
+        "Scattering|*0.25"
+      ],
+      "Part5Level11": [
+        "GunRecoil|*0.3"
+      ],
+      "PartName": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_Output",
+          "SourceString": "输出",
+          "LocalizedString": "输出"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_CriticalHit",
+          "SourceString": "暴击",
+          "LocalizedString": "暴击"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_KeepFight",
+          "SourceString": "续航",
+          "LocalizedString": "续航"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_Accurate",
+          "SourceString": "精准",
+          "LocalizedString": "精准"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_Armor",
+          "SourceString": "护甲",
+          "LocalizedString": "护甲"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_String",
+          "SourceString": "弦化",
+          "LocalizedString": "弦化"
+        }
+      ],
+      "PartIcon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100004.T_Dynamic_GrowthIcon_100004",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100005.T_Dynamic_GrowthIcon_100005",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100003.T_Dynamic_GrowthIcon_100003",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100009.T_Dynamic_GrowthIcon_100009",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100002.T_Dynamic_GrowthIcon_100002",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100012.T_Dynamic_GrowthIcon_100012",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_{6}.T_Dynamic_GrowthIcon_{6}",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_{7}.T_Dynamic_GrowthIcon_{7}",
+          "SubPathString": ""
+        }
+      ],
+      "AttackSpeedWeight": 720,
+      "AttackSpeedMax": 1200,
+      "ShowAttackRange": [
+        10,
+        30,
+        50
+      ]
+    },
+    "10102001": {
+      "WeaponId": 10102001,
+      "Part1Desc": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "BaseDamageIncreased",
+          "SourceString": "基础伤害提升",
+          "LocalizedString": "基础伤害提升"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "BaseRateOfFireIncreased",
+          "SourceString": "基础射速提升",
+          "LocalizedString": "基础射速提升"
+        },
+        {
+          "CultureInvariantString": null
+        }
+      ],
+      "Part1Icon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200008.T_Dynamic_GrowthIcon_200008",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200009.T_Dynamic_GrowthIcon_200009",
+          "SubPathString": ""
+        }
+      ],
+      "Part2Desc": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "HeadshotDamageIncreased",
+          "SourceString": "爆头伤害提升",
+          "LocalizedString": "爆头伤害提升"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "StringDamageIncreased",
+          "SourceString": "弦化伤害提升",
+          "LocalizedString": "弦化伤害提升"
+        },
+        {
+          "CultureInvariantString": null
+        }
+      ],
+      "Part2Icon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200011.T_Dynamic_GrowthIcon_200011",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200010.T_Dynamic_GrowthIcon_200010",
+          "SubPathString": ""
+        }
+      ],
+      "Part4Desc": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "IncreasedNumberOfBullets",
+          "SourceString": "载弹数量提升",
+          "LocalizedString": "载弹数量提升"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "ReloadSpeedIncreased",
+          "SourceString": "换弹速度提升",
+          "LocalizedString": "换弹速度提升"
+        },
+        {
+          "CultureInvariantString": null
+        }
+      ],
+      "Part4Icon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200012.T_Dynamic_GrowthIcon_200012",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200013.T_Dynamic_GrowthIcon_200013",
+          "SubPathString": ""
+        }
+      ],
+      "Part5Desc": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "ScatterControlImprovements",
+          "SourceString": "散射控制提升",
+          "LocalizedString": "散射控制提升"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "ImprovedRecoilControl",
+          "SourceString": "后坐控制提升",
+          "LocalizedString": "后坐控制提升"
+        },
+        {
+          "CultureInvariantString": null
+        }
+      ],
+      "Part5Icon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200015.T_Dynamic_GrowthIcon_200015",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200022.T_Dynamic_GrowthIcon_200022",
+          "SubPathString": ""
+        }
+      ],
+      "DefaultProperty1": [
+        "ShootSpeed|1|1200",
+        "AimSpeed|45|100",
+        "Scattering|58|100",
+        "GunRecoil|60|100",
+        "MagazineCapacity|1|100",
+        "ReloadSpeed|24|100",
+        "MoveSpeed|55|100",
+        "Change2DHurt|67|100"
+      ],
+      "DefaultProperty3": [
+        "MagnificationRate|1.25"
+      ],
+      "Part1Level01": [
+        ""
+      ],
+      "Part1Level11": [
+        ""
+      ],
+      "Part2Level01": [
+        ""
+      ],
+      "Part2Level11": [
+        "Change2DHurt|*0.2"
+      ],
+      "Part4Level01": [
+        ""
+      ],
+      "Part4Level11": [
+        "ReloadSpeed|*0.4"
+      ],
+      "Part5Level01": [
+        "Scattering|*0.25"
+      ],
+      "Part5Level11": [
+        "GunRecoil|*0.3"
+      ],
+      "PartName": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_Output",
+          "SourceString": "输出",
+          "LocalizedString": "输出"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_CriticalHit",
+          "SourceString": "暴击",
+          "LocalizedString": "暴击"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_KeepFight",
+          "SourceString": "续航",
+          "LocalizedString": "续航"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_Accurate",
+          "SourceString": "精准",
+          "LocalizedString": "精准"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_Armor",
+          "SourceString": "护甲",
+          "LocalizedString": "护甲"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_String",
+          "SourceString": "弦化",
+          "LocalizedString": "弦化"
+        }
+      ],
+      "PartIcon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100004.T_Dynamic_GrowthIcon_100004",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100005.T_Dynamic_GrowthIcon_100005",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100003.T_Dynamic_GrowthIcon_100003",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100009.T_Dynamic_GrowthIcon_100009",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100002.T_Dynamic_GrowthIcon_100002",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100012.T_Dynamic_GrowthIcon_100012",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_{6}.T_Dynamic_GrowthIcon_{6}",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_{7}.T_Dynamic_GrowthIcon_{7}",
+          "SubPathString": ""
+        }
+      ],
+      "AttackSpeedWeight": 720,
+      "AttackSpeedMax": 1200,
+      "ShowAttackRange": [
+        10,
+        30,
+        50
+      ]
+    },
+    "10106001": {
+      "WeaponId": 10106001,
+      "Part1Desc": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "BaseDamageIncreased",
+          "SourceString": "基础伤害提升",
+          "LocalizedString": "基础伤害提升"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "BaseRateOfFireIncreased",
+          "SourceString": "基础射速提升",
+          "LocalizedString": "基础射速提升"
+        },
+        {
+          "CultureInvariantString": null
+        }
+      ],
+      "Part1Icon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200017.T_Dynamic_GrowthIcon_200017",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200016.T_Dynamic_GrowthIcon_200016",
+          "SubPathString": ""
+        }
+      ],
+      "Part2Desc": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "HeadshotDamageIncreased",
+          "SourceString": "爆头伤害提升",
+          "LocalizedString": "爆头伤害提升"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "StringDamageIncreased",
+          "SourceString": "弦化伤害提升",
+          "LocalizedString": "弦化伤害提升"
+        },
+        {
+          "CultureInvariantString": null
+        }
+      ],
+      "Part2Icon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200011.T_Dynamic_GrowthIcon_200011",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200010.T_Dynamic_GrowthIcon_200010",
+          "SubPathString": ""
+        }
+      ],
+      "Part4Desc": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "IncreasedNumberOfBullets",
+          "SourceString": "载弹数量提升",
+          "LocalizedString": "载弹数量提升"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "ReloadSpeedIncreased",
+          "SourceString": "换弹速度提升",
+          "LocalizedString": "换弹速度提升"
+        },
+        {
+          "CultureInvariantString": null
+        }
+      ],
+      "Part4Icon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200012.T_Dynamic_GrowthIcon_200012",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200013.T_Dynamic_GrowthIcon_200013",
+          "SubPathString": ""
+        }
+      ],
+      "Part5Desc": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "ScatterControlImprovements",
+          "SourceString": "散射控制提升",
+          "LocalizedString": "散射控制提升"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "ImprovedRecoilControl",
+          "SourceString": "后坐控制提升",
+          "LocalizedString": "后坐控制提升"
+        },
+        {
+          "CultureInvariantString": null
+        }
+      ],
+      "Part5Icon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200015.T_Dynamic_GrowthIcon_200015",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200022.T_Dynamic_GrowthIcon_200022",
+          "SubPathString": ""
+        }
+      ],
+      "DefaultProperty1": [
+        "ShootSpeed|1|1200",
+        "AimSpeed|45|100",
+        "Scattering|58|100",
+        "GunRecoil|63|100",
+        "MagazineCapacity|1|100",
+        "ReloadSpeed|24|100",
+        "MoveSpeed|55|100",
+        "Change2DHurt|67|100"
+      ],
+      "DefaultProperty3": [
+        "MagnificationRate|1.25"
+      ],
+      "Part1Level01": [
+        ""
+      ],
+      "Part1Level11": [
+        ""
+      ],
+      "Part2Level01": [
+        ""
+      ],
+      "Part2Level11": [
+        "Change2DHurt|*0.2"
+      ],
+      "Part4Level01": [
+        ""
+      ],
+      "Part4Level11": [
+        "ReloadSpeed|*0.4"
+      ],
+      "Part5Level01": [
+        "Scattering|*0.25"
+      ],
+      "Part5Level11": [
+        "GunRecoil|*0.3"
+      ],
+      "PartName": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_Output",
+          "SourceString": "输出",
+          "LocalizedString": "输出"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_CriticalHit",
+          "SourceString": "暴击",
+          "LocalizedString": "暴击"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_KeepFight",
+          "SourceString": "续航",
+          "LocalizedString": "续航"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_Accurate",
+          "SourceString": "精准",
+          "LocalizedString": "精准"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_Armor",
+          "SourceString": "护甲",
+          "LocalizedString": "护甲"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_String",
+          "SourceString": "弦化",
+          "LocalizedString": "弦化"
+        }
+      ],
+      "PartIcon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100004.T_Dynamic_GrowthIcon_100004",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100005.T_Dynamic_GrowthIcon_100005",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100003.T_Dynamic_GrowthIcon_100003",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100009.T_Dynamic_GrowthIcon_100009",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100002.T_Dynamic_GrowthIcon_100002",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100012.T_Dynamic_GrowthIcon_100012",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_{6}.T_Dynamic_GrowthIcon_{6}",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_{7}.T_Dynamic_GrowthIcon_{7}",
+          "SubPathString": ""
+        }
+      ],
+      "AttackSpeedWeight": 720,
+      "AttackSpeedMax": 1200,
+      "ShowAttackRange": [
+        10,
+        30,
+        50
+      ]
+    },
+    "10105001": {
+      "WeaponId": 10105001,
+      "Part1Desc": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "BaseDamageIncreased",
+          "SourceString": "基础伤害提升",
+          "LocalizedString": "基础伤害提升"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "BaseRateOfFireIncreased",
+          "SourceString": "基础射速提升",
+          "LocalizedString": "基础射速提升"
+        },
+        {
+          "CultureInvariantString": null
+        }
+      ],
+      "Part1Icon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200013.T_Dynamic_GrowthIcon_200013",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200012.T_Dynamic_GrowthIcon_200012",
+          "SubPathString": ""
+        }
+      ],
+      "Part2Desc": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "HeadshotDamageIncreased",
+          "SourceString": "爆头伤害提升",
+          "LocalizedString": "爆头伤害提升"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "StringDamageIncreased",
+          "SourceString": "弦化伤害提升",
+          "LocalizedString": "弦化伤害提升"
+        },
+        {
+          "CultureInvariantString": null
+        }
+      ],
+      "Part2Icon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200011.T_Dynamic_GrowthIcon_200011",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200010.T_Dynamic_GrowthIcon_200010",
+          "SubPathString": ""
+        }
+      ],
+      "Part4Desc": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "IncreasedNumberOfBullets",
+          "SourceString": "载弹数量提升",
+          "LocalizedString": "载弹数量提升"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "ReloadSpeedIncreased",
+          "SourceString": "换弹速度提升",
+          "LocalizedString": "换弹速度提升"
+        },
+        {
+          "CultureInvariantString": null
+        }
+      ],
+      "Part4Icon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200015.T_Dynamic_GrowthIcon_200015",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200014.T_Dynamic_GrowthIcon_200014",
+          "SubPathString": ""
+        }
+      ],
+      "Part5Desc": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "ScatterControlImprovements",
+          "SourceString": "散射控制提升",
+          "LocalizedString": "散射控制提升"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "ImprovedRecoilControl",
+          "SourceString": "后坐控制提升",
+          "LocalizedString": "后坐控制提升"
+        },
+        {
+          "CultureInvariantString": null
+        }
+      ],
+      "Part5Icon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200017.T_Dynamic_GrowthIcon_200017",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200022.T_Dynamic_GrowthIcon_200022",
+          "SubPathString": ""
+        }
+      ],
+      "DefaultProperty1": [
+        "ShootSpeed|1|1200",
+        "AimSpeed|45|100",
+        "Scattering|60|100",
+        "GunRecoil|67|100",
+        "MagazineCapacity|1|100",
+        "ReloadSpeed|24|100",
+        "MoveSpeed|55|100",
+        "Change2DHurt|67|100"
+      ],
+      "DefaultProperty3": [
+        "MagnificationRate|1.25"
+      ],
+      "Part1Level01": [
+        ""
+      ],
+      "Part1Level11": [
+        ""
+      ],
+      "Part2Level01": [
+        ""
+      ],
+      "Part2Level11": [
+        "Change2DHurt|*0.2"
+      ],
+      "Part4Level01": [
+        ""
+      ],
+      "Part4Level11": [
+        "ReloadSpeed|*0.4"
+      ],
+      "Part5Level01": [
+        "Scattering|*0.25"
+      ],
+      "Part5Level11": [
+        "GunRecoil|*0.3"
+      ],
+      "PartName": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_Core",
+          "SourceString": "核心",
+          "LocalizedString": "核心"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_CriticalHit",
+          "SourceString": "暴击",
+          "LocalizedString": "暴击"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_KeepFight",
+          "SourceString": "续航",
+          "LocalizedString": "续航"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_Accurate",
+          "SourceString": "精准",
+          "LocalizedString": "精准"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_Armor",
+          "SourceString": "护甲",
+          "LocalizedString": "护甲"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_String",
+          "SourceString": "弦化",
+          "LocalizedString": "弦化"
+        }
+      ],
+      "PartIcon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100007.T_Dynamic_GrowthIcon_100007",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100005.T_Dynamic_GrowthIcon_100005",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100003.T_Dynamic_GrowthIcon_100003",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100009.T_Dynamic_GrowthIcon_100009",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100002.T_Dynamic_GrowthIcon_100002",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100012.T_Dynamic_GrowthIcon_100012",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_{6}.T_Dynamic_GrowthIcon_{6}",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_{7}.T_Dynamic_GrowthIcon_{7}",
+          "SubPathString": ""
+        }
+      ],
+      "AttackSpeedWeight": 720,
+      "AttackSpeedMax": 1200,
+      "ShowAttackRange": [
+        10,
+        30,
+        50
+      ]
+    },
+    "10108001": {
+      "WeaponId": 10108001,
+      "Part1Desc": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "BaseDamageIncreased",
+          "SourceString": "基础伤害提升",
+          "LocalizedString": "基础伤害提升"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "BaseRateOfFireIncreased",
+          "SourceString": "基础射速提升",
+          "LocalizedString": "基础射速提升"
+        },
+        {
+          "CultureInvariantString": null
+        }
+      ],
+      "Part1Icon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200008.T_Dynamic_GrowthIcon_200008",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200009.T_Dynamic_GrowthIcon_200009",
+          "SubPathString": ""
+        }
+      ],
+      "Part2Desc": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "HeadshotDamageIncreased",
+          "SourceString": "爆头伤害提升",
+          "LocalizedString": "爆头伤害提升"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "StringDamageIncreased",
+          "SourceString": "弦化伤害提升",
+          "LocalizedString": "弦化伤害提升"
+        },
+        {
+          "CultureInvariantString": null
+        }
+      ],
+      "Part2Icon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200011.T_Dynamic_GrowthIcon_200011",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200010.T_Dynamic_GrowthIcon_200010",
+          "SubPathString": ""
+        }
+      ],
+      "Part4Desc": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "IncreasedNumberOfBullets",
+          "SourceString": "载弹数量提升",
+          "LocalizedString": "载弹数量提升"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "ReloadSpeedIncreased",
+          "SourceString": "换弹速度提升",
+          "LocalizedString": "换弹速度提升"
+        },
+        {
+          "CultureInvariantString": null
+        }
+      ],
+      "Part4Icon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200012.T_Dynamic_GrowthIcon_200012",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200013.T_Dynamic_GrowthIcon_200013",
+          "SubPathString": ""
+        }
+      ],
+      "Part5Desc": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "ScatterControlImprovements",
+          "SourceString": "散射控制提升",
+          "LocalizedString": "散射控制提升"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "ImprovedRecoilControl",
+          "SourceString": "后坐控制提升",
+          "LocalizedString": "后坐控制提升"
+        },
+        {
+          "CultureInvariantString": null
+        }
+      ],
+      "Part5Icon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200015.T_Dynamic_GrowthIcon_200015",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200022.T_Dynamic_GrowthIcon_200022",
+          "SubPathString": ""
+        }
+      ],
+      "DefaultProperty1": [
+        "ShootSpeed|1|1200",
+        "AimSpeed|50|100",
+        "Scattering|58|100",
+        "GunRecoil|59|100",
+        "MagazineCapacity|1|100",
+        "ReloadSpeed|24|100",
+        "MoveSpeed|55|100",
+        "Change2DHurt|67|100"
+      ],
+      "DefaultProperty3": [
+        "MagnificationRate|1.25"
+      ],
+      "Part1Level01": [
+        ""
+      ],
+      "Part1Level11": [
+        ""
+      ],
+      "Part2Level01": [
+        ""
+      ],
+      "Part2Level11": [
+        "Change2DHurt|*0.2"
+      ],
+      "Part4Level01": [
+        ""
+      ],
+      "Part4Level11": [
+        "ReloadSpeed|*0.4"
+      ],
+      "Part5Level01": [
+        "Scattering|*0.25"
+      ],
+      "Part5Level11": [
+        "GunRecoil|*0.3"
+      ],
+      "PartName": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_Output",
+          "SourceString": "输出",
+          "LocalizedString": "输出"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_CriticalHit",
+          "SourceString": "暴击",
+          "LocalizedString": "暴击"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_KeepFight",
+          "SourceString": "续航",
+          "LocalizedString": "续航"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_Accurate",
+          "SourceString": "精准",
+          "LocalizedString": "精准"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_Armor",
+          "SourceString": "护甲",
+          "LocalizedString": "护甲"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_String",
+          "SourceString": "弦化",
+          "LocalizedString": "弦化"
+        }
+      ],
+      "PartIcon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100004.T_Dynamic_GrowthIcon_100004",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100005.T_Dynamic_GrowthIcon_100005",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100003.T_Dynamic_GrowthIcon_100003",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100009.T_Dynamic_GrowthIcon_100009",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100002.T_Dynamic_GrowthIcon_100002",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100012.T_Dynamic_GrowthIcon_100012",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_{6}.T_Dynamic_GrowthIcon_{6}",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_{7}.T_Dynamic_GrowthIcon_{7}",
+          "SubPathString": ""
+        }
+      ],
+      "AttackSpeedWeight": 720,
+      "AttackSpeedMax": 1200,
+      "ShowAttackRange": [
+        10,
+        30,
+        50
+      ]
+    },
+    "10104001": {
+      "WeaponId": 10104001,
+      "Part1Desc": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "BaseDamageIncreased",
+          "SourceString": "基础伤害提升",
+          "LocalizedString": "基础伤害提升"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "BaseRateOfFireIncreased",
+          "SourceString": "基础射速提升",
+          "LocalizedString": "基础射速提升"
+        },
+        {
+          "CultureInvariantString": null
+        }
+      ],
+      "Part1Icon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200008.T_Dynamic_GrowthIcon_200008",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200009.T_Dynamic_GrowthIcon_200009",
+          "SubPathString": ""
+        }
+      ],
+      "Part2Desc": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "HeadshotDamageIncreased",
+          "SourceString": "爆头伤害提升",
+          "LocalizedString": "爆头伤害提升"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "StringDamageIncreased",
+          "SourceString": "弦化伤害提升",
+          "LocalizedString": "弦化伤害提升"
+        },
+        {
+          "CultureInvariantString": null
+        }
+      ],
+      "Part2Icon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200011.T_Dynamic_GrowthIcon_200011",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200010.T_Dynamic_GrowthIcon_200010",
+          "SubPathString": ""
+        }
+      ],
+      "Part4Desc": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "IncreasedNumberOfBullets",
+          "SourceString": "载弹数量提升",
+          "LocalizedString": "载弹数量提升"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "ReloadSpeedIncreased",
+          "SourceString": "换弹速度提升",
+          "LocalizedString": "换弹速度提升"
+        },
+        {
+          "CultureInvariantString": null
+        }
+      ],
+      "Part4Icon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200012.T_Dynamic_GrowthIcon_200012",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200013.T_Dynamic_GrowthIcon_200013",
+          "SubPathString": ""
+        }
+      ],
+      "Part5Desc": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "ScatterControlImprovements",
+          "SourceString": "散射控制提升",
+          "LocalizedString": "散射控制提升"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "ImprovedRecoilControl",
+          "SourceString": "后坐控制提升",
+          "LocalizedString": "后坐控制提升"
+        },
+        {
+          "CultureInvariantString": null
+        }
+      ],
+      "Part5Icon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200015.T_Dynamic_GrowthIcon_200015",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200022.T_Dynamic_GrowthIcon_200022",
+          "SubPathString": ""
+        }
+      ],
+      "DefaultProperty1": [
+        "ShootSpeed|1|1200",
+        "AimSpeed|50|100",
+        "Scattering|71|100",
+        "GunRecoil|57|100",
+        "MagazineCapacity|1|100",
+        "ReloadSpeed|24|100",
+        "MoveSpeed|55|100",
+        "Change2DHurt|67|100"
+      ],
+      "DefaultProperty3": [
+        "MagnificationRate|1.25"
+      ],
+      "Part1Level01": [
+        ""
+      ],
+      "Part1Level11": [
+        ""
+      ],
+      "Part2Level01": [
+        ""
+      ],
+      "Part2Level11": [
+        "Change2DHurt|*0.2"
+      ],
+      "Part4Level01": [
+        ""
+      ],
+      "Part4Level11": [
+        "ReloadSpeed|*0.4"
+      ],
+      "Part5Level01": [
+        "Scattering|*0.25"
+      ],
+      "Part5Level11": [
+        "GunRecoil|*0.3"
+      ],
+      "PartName": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_Output",
+          "SourceString": "输出",
+          "LocalizedString": "输出"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_CriticalHit",
+          "SourceString": "暴击",
+          "LocalizedString": "暴击"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_KeepFight",
+          "SourceString": "续航",
+          "LocalizedString": "续航"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_Accurate",
+          "SourceString": "精准",
+          "LocalizedString": "精准"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_Armor",
+          "SourceString": "护甲",
+          "LocalizedString": "护甲"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_String",
+          "SourceString": "弦化",
+          "LocalizedString": "弦化"
+        }
+      ],
+      "PartIcon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100004.T_Dynamic_GrowthIcon_100004",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100005.T_Dynamic_GrowthIcon_100005",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100003.T_Dynamic_GrowthIcon_100003",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100009.T_Dynamic_GrowthIcon_100009",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100002.T_Dynamic_GrowthIcon_100002",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100012.T_Dynamic_GrowthIcon_100012",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_{6}.T_Dynamic_GrowthIcon_{6}",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_{7}.T_Dynamic_GrowthIcon_{7}",
+          "SubPathString": ""
+        }
+      ],
+      "AttackSpeedWeight": 720,
+      "AttackSpeedMax": 1200,
+      "ShowAttackRange": [
+        10,
+        30,
+        50
+      ]
+    },
+    "10304001": {
+      "WeaponId": 10304001,
+      "Part1Desc": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "BaseDamageIncreased",
+          "SourceString": "基础伤害提升",
+          "LocalizedString": "基础伤害提升"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "BaseRateOfFireIncreased",
+          "SourceString": "基础射速提升",
+          "LocalizedString": "基础射速提升"
+        },
+        {
+          "CultureInvariantString": null
+        }
+      ],
+      "Part1Icon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200008.T_Dynamic_GrowthIcon_200008",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200009.T_Dynamic_GrowthIcon_200009",
+          "SubPathString": ""
+        }
+      ],
+      "Part2Desc": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "HeadshotDamageIncreased",
+          "SourceString": "爆头伤害提升",
+          "LocalizedString": "爆头伤害提升"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "StringDamageIncreased",
+          "SourceString": "弦化伤害提升",
+          "LocalizedString": "弦化伤害提升"
+        },
+        {
+          "CultureInvariantString": null
+        }
+      ],
+      "Part2Icon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200011.T_Dynamic_GrowthIcon_200011",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200010.T_Dynamic_GrowthIcon_200010",
+          "SubPathString": ""
+        }
+      ],
+      "Part4Desc": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "IncreasedNumberOfBullets",
+          "SourceString": "载弹数量提升",
+          "LocalizedString": "载弹数量提升"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "ReloadSpeedIncreased",
+          "SourceString": "换弹速度提升",
+          "LocalizedString": "换弹速度提升"
+        },
+        {
+          "CultureInvariantString": null
+        }
+      ],
+      "Part4Icon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200012.T_Dynamic_GrowthIcon_200012",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200013.T_Dynamic_GrowthIcon_200013",
+          "SubPathString": ""
+        }
+      ],
+      "Part5Desc": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "ScatterControlImprovements",
+          "SourceString": "散射控制提升",
+          "LocalizedString": "散射控制提升"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "ImprovedRecoilControl",
+          "SourceString": "后坐控制提升",
+          "LocalizedString": "后坐控制提升"
+        },
+        {
+          "CultureInvariantString": null
+        }
+      ],
+      "Part5Icon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200014.T_Dynamic_GrowthIcon_200014",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200015.T_Dynamic_GrowthIcon_200015",
+          "SubPathString": ""
+        }
+      ],
+      "DefaultProperty1": [
+        "ShootSpeed|1|1200",
+        "AimSpeed|45|100",
+        "Scattering|69|100",
+        "GunRecoil|72|100",
+        "MagazineCapacity|1|100",
+        "ReloadSpeed|21|100",
+        "MoveSpeed|54|100",
+        "Change2DHurt|67|100"
+      ],
+      "DefaultProperty3": [
+        "MagnificationRate|1.5"
+      ],
+      "Part1Level01": [
+        ""
+      ],
+      "Part1Level11": [
+        ""
+      ],
+      "Part2Level01": [
+        ""
+      ],
+      "Part2Level11": [
+        "Change2DHurt|*0.2"
+      ],
+      "Part4Level01": [
+        ""
+      ],
+      "Part4Level11": [
+        "ReloadSpeed|*0.4"
+      ],
+      "Part5Level01": [
+        "Scattering|*0.25"
+      ],
+      "Part5Level11": [
+        "GunRecoil|*0.3"
+      ],
+      "PartName": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_Output",
+          "SourceString": "输出",
+          "LocalizedString": "输出"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_CriticalHit",
+          "SourceString": "暴击",
+          "LocalizedString": "暴击"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_KeepFight",
+          "SourceString": "续航",
+          "LocalizedString": "续航"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_Accurate",
+          "SourceString": "精准",
+          "LocalizedString": "精准"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_Armor",
+          "SourceString": "护甲",
+          "LocalizedString": "护甲"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_String",
+          "SourceString": "弦化",
+          "LocalizedString": "弦化"
+        }
+      ],
+      "PartIcon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100004.T_Dynamic_GrowthIcon_100004",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100005.T_Dynamic_GrowthIcon_100005",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100003.T_Dynamic_GrowthIcon_100003",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100009.T_Dynamic_GrowthIcon_100009",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100002.T_Dynamic_GrowthIcon_100002",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100012.T_Dynamic_GrowthIcon_100012",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_{6}.T_Dynamic_GrowthIcon_{6}",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_{7}.T_Dynamic_GrowthIcon_{7}",
+          "SubPathString": ""
+        }
+      ],
+      "AttackSpeedWeight": 720,
+      "AttackSpeedMax": 1200,
+      "ShowAttackRange": [
+        10,
+        30,
+        50
+      ]
+    },
+    "10301001": {
+      "WeaponId": 10301001,
+      "Part1Desc": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "BaseDamageIncreased",
+          "SourceString": "基础伤害提升",
+          "LocalizedString": "基础伤害提升"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "DoubleTrigger",
+          "SourceString": "双发扳机",
+          "LocalizedString": "双发扳机"
+        },
+        {
+          "CultureInvariantString": null
+        }
+      ],
+      "Part1Icon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200013.T_Dynamic_GrowthIcon_200013",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200012.T_Dynamic_GrowthIcon_200012",
+          "SubPathString": ""
+        }
+      ],
+      "Part2Desc": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "HeadshotDamageIncreased",
+          "SourceString": "爆头伤害提升",
+          "LocalizedString": "爆头伤害提升"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "StringDamageIncreased",
+          "SourceString": "弦化伤害提升",
+          "LocalizedString": "弦化伤害提升"
+        },
+        {
+          "CultureInvariantString": null
+        }
+      ],
+      "Part2Icon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200011.T_Dynamic_GrowthIcon_200011",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200010.T_Dynamic_GrowthIcon_200010",
+          "SubPathString": ""
+        }
+      ],
+      "Part4Desc": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "IncreasedNumberOfBullets",
+          "SourceString": "载弹数量提升",
+          "LocalizedString": "载弹数量提升"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "ReloadSpeedIncreased",
+          "SourceString": "换弹速度提升",
+          "LocalizedString": "换弹速度提升"
+        },
+        {
+          "CultureInvariantString": null
+        }
+      ],
+      "Part4Icon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200014.T_Dynamic_GrowthIcon_200014",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200015.T_Dynamic_GrowthIcon_200015",
+          "SubPathString": ""
+        }
+      ],
+      "Part5Desc": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "MaximumRunningSpeedIncreased",
+          "SourceString": "移动速度提升",
+          "LocalizedString": "移动速度提升"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "ImprovedRecoilControl",
+          "SourceString": "后坐控制提升",
+          "LocalizedString": "后坐控制提升"
+        },
+        {
+          "CultureInvariantString": null
+        }
+      ],
+      "Part5Icon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200017.T_Dynamic_GrowthIcon_200017",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200022.T_Dynamic_GrowthIcon_200022",
+          "SubPathString": ""
+        }
+      ],
+      "DefaultProperty1": [
+        "ShootSpeed|1|1200",
+        "AimSpeed|42|100",
+        "Scattering|15|100",
+        "GunRecoil|58|100",
+        "MagazineCapacity|1|100",
+        "ReloadSpeed|21|100",
+        "MoveSpeed|54|100",
+        "Change2DHurt|67|100"
+      ],
+      "DefaultProperty3": [
+        "MagnificationRate|2.5"
+      ],
+      "Part1Level01": [
+        "ReloadSpeed|*0.1",
+        "Scattering|*0.25"
+      ],
+      "Part1Level11": [
+        ""
+      ],
+      "Part2Level01": [
+        ""
+      ],
+      "Part2Level11": [
+        "Change2DHurt|*0.2"
+      ],
+      "Part4Level01": [
+        ""
+      ],
+      "Part4Level11": [
+        "ReloadSpeed|*0.4"
+      ],
+      "Part5Level01": [
+        "MoveSpeed|*0.08"
+      ],
+      "Part5Level11": [
+        "GunRecoil|*0.3"
+      ],
+      "PartName": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_Core",
+          "SourceString": "核心",
+          "LocalizedString": "核心"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_CriticalHit",
+          "SourceString": "暴击",
+          "LocalizedString": "暴击"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_KeepFight",
+          "SourceString": "续航",
+          "LocalizedString": "续航"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_Accurate",
+          "SourceString": "精准",
+          "LocalizedString": "精准"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_Armor",
+          "SourceString": "护甲",
+          "LocalizedString": "护甲"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_String",
+          "SourceString": "弦化",
+          "LocalizedString": "弦化"
+        }
+      ],
+      "PartIcon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100007.T_Dynamic_GrowthIcon_100007",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100005.T_Dynamic_GrowthIcon_100005",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100003.T_Dynamic_GrowthIcon_100003",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100009.T_Dynamic_GrowthIcon_100009",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100002.T_Dynamic_GrowthIcon_100002",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100012.T_Dynamic_GrowthIcon_100012",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_{6}.T_Dynamic_GrowthIcon_{6}",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_{7}.T_Dynamic_GrowthIcon_{7}",
+          "SubPathString": ""
+        }
+      ],
+      "AttackSpeedWeight": 720,
+      "AttackSpeedMax": 1200,
+      "ShowAttackRange": [
+        10,
+        30,
+        50
+      ]
+    },
+    "10403001": {
+      "WeaponId": 10403001,
+      "Part1Desc": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "BaseDamageIncreased",
+          "SourceString": "基础伤害提升",
+          "LocalizedString": "基础伤害提升"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "BaseRateOfFireIncreased",
+          "SourceString": "基础射速提升",
+          "LocalizedString": "基础射速提升"
+        },
+        {
+          "CultureInvariantString": null
+        }
+      ],
+      "Part1Icon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200008.T_Dynamic_GrowthIcon_200008",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200009.T_Dynamic_GrowthIcon_200009",
+          "SubPathString": ""
+        }
+      ],
+      "Part2Desc": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "HeadshotDamageIncreased",
+          "SourceString": "爆头伤害提升",
+          "LocalizedString": "爆头伤害提升"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "StringDamageIncreased",
+          "SourceString": "弦化伤害提升",
+          "LocalizedString": "弦化伤害提升"
+        },
+        {
+          "CultureInvariantString": null
+        }
+      ],
+      "Part2Icon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200011.T_Dynamic_GrowthIcon_200011",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200010.T_Dynamic_GrowthIcon_200010",
+          "SubPathString": ""
+        }
+      ],
+      "Part4Desc": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "MaximumRunningSpeedIncreased",
+          "SourceString": "移动速度提升",
+          "LocalizedString": "移动速度提升"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "HandlingSpeedIncreased",
+          "SourceString": "开镜与切枪速度提升",
+          "LocalizedString": "开镜与切枪速度提升"
+        },
+        {
+          "CultureInvariantString": null
+        }
+      ],
+      "Part4Icon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200026.T_Dynamic_GrowthIcon_200026",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200014.T_Dynamic_GrowthIcon_200014",
+          "SubPathString": ""
+        }
+      ],
+      "Part5Desc": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "ScatterControlImprovements",
+          "SourceString": "散射控制提升",
+          "LocalizedString": "散射控制提升"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "ImprovedRecoilControl",
+          "SourceString": "后坐控制提升",
+          "LocalizedString": "后坐控制提升"
+        },
+        {
+          "CultureInvariantString": null
+        }
+      ],
+      "Part5Icon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200015.T_Dynamic_GrowthIcon_200015",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200022.T_Dynamic_GrowthIcon_200022",
+          "SubPathString": ""
+        }
+      ],
+      "DefaultProperty1": [
+        "ShootSpeed|1|1200",
+        "AimSpeed|45|100",
+        "Scattering|59|100",
+        "GunRecoil|66|100",
+        "MagazineCapacity|1|100",
+        "ReloadSpeed|18|100",
+        "MoveSpeed|54|100",
+        "Change2DHurt|67|100"
+      ],
+      "DefaultProperty3": [
+        "MagnificationRate|1.25"
+      ],
+      "Part1Level01": [
+        ""
+      ],
+      "Part1Level11": [
+        ""
+      ],
+      "Part2Level01": [
+        ""
+      ],
+      "Part2Level11": [
+        "Change2DHurt|*0.2"
+      ],
+      "Part4Level01": [
+        "MoveSpeed|*0.08"
+      ],
+      "Part4Level11": [
+        "AimSpeed|*0.4"
+      ],
+      "Part5Level01": [
+        "Scattering|*0.25"
+      ],
+      "Part5Level11": [
+        "GunRecoil|*0.25"
+      ],
+      "PartName": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_Output",
+          "SourceString": "输出",
+          "LocalizedString": "输出"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_CriticalHit",
+          "SourceString": "暴击",
+          "LocalizedString": "暴击"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_Function",
+          "SourceString": "机能",
+          "LocalizedString": "机能"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_Accurate",
+          "SourceString": "精准",
+          "LocalizedString": "精准"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_Armor",
+          "SourceString": "护甲",
+          "LocalizedString": "护甲"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_String",
+          "SourceString": "弦化",
+          "LocalizedString": "弦化"
+        }
+      ],
+      "PartIcon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100004.T_Dynamic_GrowthIcon_100004",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100005.T_Dynamic_GrowthIcon_100005",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100006.T_Dynamic_GrowthIcon_100006",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100009.T_Dynamic_GrowthIcon_100009",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100002.T_Dynamic_GrowthIcon_100002",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100012.T_Dynamic_GrowthIcon_100012",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_{6}.T_Dynamic_GrowthIcon_{6}",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_{7}.T_Dynamic_GrowthIcon_{7}",
+          "SubPathString": ""
+        }
+      ],
+      "AttackSpeedWeight": 720,
+      "AttackSpeedMax": 1200,
+      "ShowAttackRange": [
+        10,
+        30,
+        50
+      ]
+    },
+    "10202001": {
+      "WeaponId": 10202001,
+      "Part1Desc": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "BoltPullingSpeedIncreased",
+          "SourceString": "拉栓速度提升",
+          "LocalizedString": "拉栓速度提升"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "IncreasedChargingSpeed",
+          "SourceString": "蓄力速度提升",
+          "LocalizedString": "蓄力速度提升"
+        },
+        {
+          "CultureInvariantString": null
+        }
+      ],
+      "Part1Icon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200018.T_Dynamic_GrowthIcon_200018",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200019.T_Dynamic_GrowthIcon_200019",
+          "SubPathString": ""
+        }
+      ],
+      "Part2Desc": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "MaximumRunningSpeedIncreased",
+          "SourceString": "移动速度提升",
+          "LocalizedString": "移动速度提升"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "StringDamageIncreased",
+          "SourceString": "弦化伤害提升",
+          "LocalizedString": "弦化伤害提升"
+        },
+        {
+          "CultureInvariantString": null
+        }
+      ],
+      "Part2Icon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200020.T_Dynamic_GrowthIcon_200020",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200010.T_Dynamic_GrowthIcon_200010",
+          "SubPathString": ""
+        }
+      ],
+      "Part4Desc": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "IncreasedNumberOfBullets",
+          "SourceString": "载弹数量提升",
+          "LocalizedString": "载弹数量提升"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "ReloadSpeedIncreased",
+          "SourceString": "换弹速度提升",
+          "LocalizedString": "换弹速度提升"
+        },
+        {
+          "CultureInvariantString": null
+        }
+      ],
+      "Part4Icon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200012.T_Dynamic_GrowthIcon_200012",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200013.T_Dynamic_GrowthIcon_200013",
+          "SubPathString": ""
+        }
+      ],
+      "Part5Desc": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "IncreasedCameraOpeningSpeed",
+          "SourceString": "开镜速度提升",
+          "LocalizedString": "开镜速度提升"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "SwitchHighSpeedMagnification",
+          "SourceString": "切换快速高倍瞄具",
+          "LocalizedString": "切换快速高倍瞄具"
+        },
+        {
+          "CultureInvariantString": null
+        }
+      ],
+      "Part5Icon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200014.T_Dynamic_GrowthIcon_200014",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200017.T_Dynamic_GrowthIcon_200017",
+          "SubPathString": ""
+        }
+      ],
+      "DefaultProperty1": [
+        "ShootSpeed|1|1200",
+        "AimSpeed|46|100",
+        "Scattering|15|100",
+        "GunRecoil|60|100",
+        "MagazineCapacity|1|100",
+        "ReloadSpeed|12|100",
+        "MoveSpeed|53|100",
+        "Change2DHurt|67|100"
+      ],
+      "DefaultProperty3": [
+        "MagnificationRate|2.5"
+      ],
+      "Part1Level01": [
+        ""
+      ],
+      "Part1Level11": [
+        "PullBoltSpeed|*0.5"
+      ],
+      "Part2Level01": [
+        "MoveSpeed|*0.08"
+      ],
+      "Part2Level11": [
+        "Change2DHurt|*0.2"
+      ],
+      "Part4Level01": [
+        ""
+      ],
+      "Part4Level11": [
+        "ReloadSpeed|*0.4"
+      ],
+      "Part5Level01": [
+        "AimSpeed|*0.2"
+      ],
+      "Part5Level11": [
+        "AimSpeed|*0.2",
+        "MagnificationRate|1.5"
+      ],
+      "PartName": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_Core",
+          "SourceString": "核心",
+          "LocalizedString": "核心"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_Output",
+          "SourceString": "输出",
+          "LocalizedString": "输出"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_KeepFight",
+          "SourceString": "续航",
+          "LocalizedString": "续航"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_Function",
+          "SourceString": "机能",
+          "LocalizedString": "机能"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_Armor",
+          "SourceString": "护甲",
+          "LocalizedString": "护甲"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_String",
+          "SourceString": "弦化",
+          "LocalizedString": "弦化"
+        }
+      ],
+      "PartIcon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100007.T_Dynamic_GrowthIcon_100007",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100004.T_Dynamic_GrowthIcon_100004",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100003.T_Dynamic_GrowthIcon_100003",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100006.T_Dynamic_GrowthIcon_100006",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100002.T_Dynamic_GrowthIcon_100002",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100012.T_Dynamic_GrowthIcon_100012",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_{6}.T_Dynamic_GrowthIcon_{6}",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_{7}.T_Dynamic_GrowthIcon_{7}",
+          "SubPathString": ""
+        }
+      ],
+      "AttackSpeedWeight": 720,
+      "AttackSpeedMax": 1200,
+      "ShowAttackRange": [
+        10,
+        30,
+        50
+      ]
+    },
+    "10602001": {
+      "WeaponId": 10602001,
+      "Part1Desc": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "FullyAutomaticShootingMode",
+          "SourceString": "全自动射击模式",
+          "LocalizedString": "全自动射击模式"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "BaseRateOfFireIncreased",
+          "SourceString": "基础射速提升",
+          "LocalizedString": "基础射速提升"
+        },
+        {
+          "CultureInvariantString": null
+        }
+      ],
+      "Part1Icon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200023.T_Dynamic_GrowthIcon_200023",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200009.T_Dynamic_GrowthIcon_200009",
+          "SubPathString": ""
+        }
+      ],
+      "Part2Desc": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "MaximumRunningSpeedIncreased",
+          "SourceString": "移动速度提升",
+          "LocalizedString": "移动速度提升"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "StringDamageIncreased",
+          "SourceString": "弦化伤害提升",
+          "LocalizedString": "弦化伤害提升"
+        },
+        {
+          "CultureInvariantString": null
+        }
+      ],
+      "Part2Icon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200016.T_Dynamic_GrowthIcon_200016",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200010.T_Dynamic_GrowthIcon_200010",
+          "SubPathString": ""
+        }
+      ],
+      "Part4Desc": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "IncreasedNumberOfBullets",
+          "SourceString": "载弹数量提升",
+          "LocalizedString": "载弹数量提升"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "ReloadSpeedIncreased",
+          "SourceString": "换弹速度提升",
+          "LocalizedString": "换弹速度提升"
+        },
+        {
+          "CultureInvariantString": null
+        }
+      ],
+      "Part4Icon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200012.T_Dynamic_GrowthIcon_200012",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200013.T_Dynamic_GrowthIcon_200013",
+          "SubPathString": ""
+        }
+      ],
+      "Part5Desc": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "ScatterControlImprovements",
+          "SourceString": "散射控制提升",
+          "LocalizedString": "散射控制提升"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "ScatterControlImprovementsWhenADS",
+          "SourceString": "开镜后弹丸收束",
+          "LocalizedString": "开镜后弹丸收束"
+        },
+        {
+          "CultureInvariantString": null
+        }
+      ],
+      "Part5Icon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200017.T_Dynamic_GrowthIcon_200017",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200015.T_Dynamic_GrowthIcon_200015",
+          "SubPathString": ""
+        }
+      ],
+      "DefaultProperty1": [
+        "ShootSpeed|1|1200",
+        "AimSpeed|42|100",
+        "Scattering|11|100",
+        "GunRecoil|59|100",
+        "MagazineCapacity|1|100",
+        "ReloadSpeed|16|100",
+        "MoveSpeed|57|100",
+        "Change2DHurt|75|100"
+      ],
+      "DefaultProperty3": [
+        "MagnificationRate|1.25"
+      ],
+      "Part1Level01": [
+        ""
+      ],
+      "Part1Level11": [
+        ""
+      ],
+      "Part2Level01": [
+        "MoveSpeed|*0.08"
+      ],
+      "Part2Level11": [
+        "Change2DHurt|*0.2"
+      ],
+      "Part4Level01": [
+        ""
+      ],
+      "Part4Level11": [
+        "ReloadSpeed|*0.4"
+      ],
+      "Part5Level01": [
+        "Scattering|*0.15"
+      ],
+      "Part5Level11": [
+        "Scattering|*1.68"
+      ],
+      "PartName": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_Core",
+          "SourceString": "核心",
+          "LocalizedString": "核心"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_Output",
+          "SourceString": "输出",
+          "LocalizedString": "输出"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_KeepFight",
+          "SourceString": "续航",
+          "LocalizedString": "续航"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_Accurate",
+          "SourceString": "精准",
+          "LocalizedString": "精准"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_Armor",
+          "SourceString": "护甲",
+          "LocalizedString": "护甲"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_String",
+          "SourceString": "弦化",
+          "LocalizedString": "弦化"
+        }
+      ],
+      "PartIcon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100007.T_Dynamic_GrowthIcon_100007",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100004.T_Dynamic_GrowthIcon_100004",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100003.T_Dynamic_GrowthIcon_100003",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100009.T_Dynamic_GrowthIcon_100009",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100002.T_Dynamic_GrowthIcon_100002",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100012.T_Dynamic_GrowthIcon_100012",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_{6}.T_Dynamic_GrowthIcon_{6}",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_{7}.T_Dynamic_GrowthIcon_{7}",
+          "SubPathString": ""
+        }
+      ],
+      "AttackSpeedWeight": 720,
+      "AttackSpeedMax": 1200,
+      "ShowAttackRange": [
+        10,
+        20,
+        30
+      ]
+    },
+    "10303001": {
+      "WeaponId": 10303001,
+      "Part1Desc": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "IncreasedCameraOpeningSpeed",
+          "SourceString": "开镜速度提升",
+          "LocalizedString": "开镜速度提升"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "BaseRateOfFireIncreased",
+          "SourceString": "基础射速提升",
+          "LocalizedString": "基础射速提升"
+        },
+        {
+          "CultureInvariantString": null
+        }
+      ],
+      "Part1Icon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200013.T_Dynamic_GrowthIcon_200013",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200012.T_Dynamic_GrowthIcon_200012",
+          "SubPathString": ""
+        }
+      ],
+      "Part2Desc": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "HeadshotDamageIncreased",
+          "SourceString": "爆头伤害提升",
+          "LocalizedString": "爆头伤害提升"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "StringDamageIncreased",
+          "SourceString": "弦化伤害提升",
+          "LocalizedString": "弦化伤害提升"
+        },
+        {
+          "CultureInvariantString": null
+        }
+      ],
+      "Part2Icon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200011.T_Dynamic_GrowthIcon_200011",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200010.T_Dynamic_GrowthIcon_200010",
+          "SubPathString": ""
+        }
+      ],
+      "Part4Desc": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "IncreasedNumberOfBullets",
+          "SourceString": "载弹数量提升",
+          "LocalizedString": "载弹数量提升"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "ReloadSpeedIncreased",
+          "SourceString": "换弹速度提升",
+          "LocalizedString": "换弹速度提升"
+        },
+        {
+          "CultureInvariantString": null
+        }
+      ],
+      "Part4Icon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200014.T_Dynamic_GrowthIcon_200014",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200017.T_Dynamic_GrowthIcon_200017",
+          "SubPathString": ""
+        }
+      ],
+      "Part5Desc": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "ScatterControlImprovements",
+          "SourceString": "散射控制提升",
+          "LocalizedString": "散射控制提升"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "MultipleShootingModes",
+          "SourceString": "多重射击模式",
+          "LocalizedString": "多重射击模式"
+        },
+        {
+          "CultureInvariantString": null
+        }
+      ],
+      "Part5Icon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200020.T_Dynamic_GrowthIcon_200020",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200022.T_Dynamic_GrowthIcon_200022",
+          "SubPathString": ""
+        }
+      ],
+      "DefaultProperty1": [
+        "ShootSpeed|1|1200",
+        "AimSpeed|42|100",
+        "Scattering|15|100",
+        "GunRecoil|60|100",
+        "MagazineCapacity|1|100",
+        "ReloadSpeed|22|100",
+        "MoveSpeed|54|100",
+        "Change2DHurt|67|100"
+      ],
+      "DefaultProperty3": [
+        "MagnificationRate|2.5"
+      ],
+      "Part1Level01": [
+        "AimSpeed|*0.3"
+      ],
+      "Part1Level11": [
+        ""
+      ],
+      "Part2Level01": [
+        ""
+      ],
+      "Part2Level11": [
+        "Change2DHurt|*0.2"
+      ],
+      "Part4Level01": [
+        ""
+      ],
+      "Part4Level11": [
+        "ReloadSpeed|*0.4"
+      ],
+      "Part5Level01": [
+        "Scattering|*0.25"
+      ],
+      "Part5Level11": [
+        "Scattering|*0.25"
+      ],
+      "PartName": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_Core",
+          "SourceString": "核心",
+          "LocalizedString": "核心"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_CriticalHit",
+          "SourceString": "暴击",
+          "LocalizedString": "暴击"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_KeepFight",
+          "SourceString": "续航",
+          "LocalizedString": "续航"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_Accurate",
+          "SourceString": "精准",
+          "LocalizedString": "精准"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_Armor",
+          "SourceString": "护甲",
+          "LocalizedString": "护甲"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_String",
+          "SourceString": "弦化",
+          "LocalizedString": "弦化"
+        }
+      ],
+      "PartIcon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100007.T_Dynamic_GrowthIcon_100007",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100005.T_Dynamic_GrowthIcon_100005",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100003.T_Dynamic_GrowthIcon_100003",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100009.T_Dynamic_GrowthIcon_100009",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100002.T_Dynamic_GrowthIcon_100002",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100012.T_Dynamic_GrowthIcon_100012",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_{6}.T_Dynamic_GrowthIcon_{6}",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_{7}.T_Dynamic_GrowthIcon_{7}",
+          "SubPathString": ""
+        }
+      ],
+      "AttackSpeedWeight": 720,
+      "AttackSpeedMax": 1200,
+      "ShowAttackRange": [
+        10,
+        30,
+        50
+      ]
+    },
+    "10501001": {
+      "WeaponId": 10501001,
+      "Part1Desc": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "BaseDamageIncreased",
+          "SourceString": "基础伤害提升",
+          "LocalizedString": "基础伤害提升"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "BaseRateOfFireIncreased",
+          "SourceString": "基础射速提升",
+          "LocalizedString": "基础射速提升"
+        },
+        {
+          "CultureInvariantString": null
+        }
+      ],
+      "Part1Icon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200016.T_Dynamic_GrowthIcon_200016",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200012.T_Dynamic_GrowthIcon_200012",
+          "SubPathString": ""
+        }
+      ],
+      "Part2Desc": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "HeadshotDamageIncreased",
+          "SourceString": "爆头伤害提升",
+          "LocalizedString": "爆头伤害提升"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "StringDamageIncreased",
+          "SourceString": "弦化伤害提升",
+          "LocalizedString": "弦化伤害提升"
+        },
+        {
+          "CultureInvariantString": null
+        }
+      ],
+      "Part2Icon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200011.T_Dynamic_GrowthIcon_200011",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200010.T_Dynamic_GrowthIcon_200010",
+          "SubPathString": ""
+        }
+      ],
+      "Part4Desc": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "MaximumRunningSpeedIncreased",
+          "SourceString": "移动速度提升",
+          "LocalizedString": "移动速度提升"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "ReloadSpeedIncreased",
+          "SourceString": "换弹速度提升",
+          "LocalizedString": "换弹速度提升"
+        },
+        {
+          "CultureInvariantString": null
+        }
+      ],
+      "Part4Icon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200017.T_Dynamic_GrowthIcon_200017",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200013.T_Dynamic_GrowthIcon_200013",
+          "SubPathString": ""
+        }
+      ],
+      "Part5Desc": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "ScatterControlImprovements",
+          "SourceString": "散射控制提升",
+          "LocalizedString": "散射控制提升"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "ImprovedRecoilControl",
+          "SourceString": "后坐控制提升",
+          "LocalizedString": "后坐控制提升"
+        },
+        {
+          "CultureInvariantString": null
+        }
+      ],
+      "Part5Icon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200015.T_Dynamic_GrowthIcon_200015",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200014.T_Dynamic_GrowthIcon_200014",
+          "SubPathString": ""
+        }
+      ],
+      "DefaultProperty1": [
+        "ShootSpeed|1|1200",
+        "AimSpeed|56|100",
+        "Scattering|73|100",
+        "GunRecoil|70|100",
+        "MagazineCapacity|1|100",
+        "ReloadSpeed|24|100",
+        "MoveSpeed|58|100",
+        "Change2DHurt|67|100"
+      ],
+      "DefaultProperty3": [
+        "MagnificationRate|1.25"
+      ],
+      "Part1Level01": [
+        ""
+      ],
+      "Part1Level11": [
+        ""
+      ],
+      "Part2Level01": [
+        ""
+      ],
+      "Part2Level11": [
+        "Change2DHurt|*0.2"
+      ],
+      "Part4Level01": [
+        "MoveSpeed|*0.08"
+      ],
+      "Part4Level11": [
+        "ReloadSpeed|*0.4"
+      ],
+      "Part5Level01": [
+        "Scattering|*0.25"
+      ],
+      "Part5Level11": [
+        "GunRecoil|*0.3"
+      ],
+      "PartName": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_Output",
+          "SourceString": "输出",
+          "LocalizedString": "输出"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_CriticalHit",
+          "SourceString": "暴击",
+          "LocalizedString": "暴击"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_Control",
+          "SourceString": "操控",
+          "LocalizedString": "操控"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_Accurate",
+          "SourceString": "精准",
+          "LocalizedString": "精准"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_Armor",
+          "SourceString": "护甲",
+          "LocalizedString": "护甲"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_String",
+          "SourceString": "弦化",
+          "LocalizedString": "弦化"
+        }
+      ],
+      "PartIcon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100007.T_Dynamic_GrowthIcon_100007",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100005.T_Dynamic_GrowthIcon_100005",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100008.T_Dynamic_GrowthIcon_100008",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100009.T_Dynamic_GrowthIcon_100009",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100002.T_Dynamic_GrowthIcon_100002",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100012.T_Dynamic_GrowthIcon_100012",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_{6}.T_Dynamic_GrowthIcon_{6}",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_{7}.T_Dynamic_GrowthIcon_{7}",
+          "SubPathString": ""
+        }
+      ],
+      "AttackSpeedWeight": 720,
+      "AttackSpeedMax": 1200,
+      "ShowAttackRange": [
+        10,
+        30,
+        50
+      ]
+    },
+    "10201001": {
+      "WeaponId": 10201001,
+      "Part1Desc": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "BoltPullingSpeedIncreased",
+          "SourceString": "拉栓速度提升",
+          "LocalizedString": "拉栓速度提升"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "IncreasedChargingSpeed",
+          "SourceString": "蓄力速度提升",
+          "LocalizedString": "蓄力速度提升"
+        },
+        {
+          "CultureInvariantString": null
+        }
+      ],
+      "Part1Icon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200018.T_Dynamic_GrowthIcon_200018",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200019.T_Dynamic_GrowthIcon_200019",
+          "SubPathString": ""
+        }
+      ],
+      "Part2Desc": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "MaximumRunningSpeedIncreased",
+          "SourceString": "移动速度提升",
+          "LocalizedString": "移动速度提升"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "StringDamageIncreased",
+          "SourceString": "弦化伤害提升",
+          "LocalizedString": "弦化伤害提升"
+        },
+        {
+          "CultureInvariantString": null
+        }
+      ],
+      "Part2Icon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200020.T_Dynamic_GrowthIcon_200020",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200010.T_Dynamic_GrowthIcon_200010",
+          "SubPathString": ""
+        }
+      ],
+      "Part4Desc": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "IncreasedNumberOfBullets",
+          "SourceString": "载弹数量提升",
+          "LocalizedString": "载弹数量提升"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "ReloadSpeedIncreased",
+          "SourceString": "换弹速度提升",
+          "LocalizedString": "换弹速度提升"
+        },
+        {
+          "CultureInvariantString": null
+        }
+      ],
+      "Part4Icon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200012.T_Dynamic_GrowthIcon_200012",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200013.T_Dynamic_GrowthIcon_200013",
+          "SubPathString": ""
+        }
+      ],
+      "Part5Desc": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "IncreasedCameraOpeningSpeed",
+          "SourceString": "开镜速度提升",
+          "LocalizedString": "开镜速度提升"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "SwitchHighSpeedMagnification",
+          "SourceString": "切换快速高倍瞄具",
+          "LocalizedString": "切换快速高倍瞄具"
+        },
+        {
+          "CultureInvariantString": null
+        }
+      ],
+      "Part5Icon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200014.T_Dynamic_GrowthIcon_200014",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200017.T_Dynamic_GrowthIcon_200017",
+          "SubPathString": ""
+        }
+      ],
+      "DefaultProperty1": [
+        "ShootSpeed|1|1200",
+        "AimSpeed|42|100",
+        "Scattering|15|100",
+        "GunRecoil|60|100",
+        "MagazineCapacity|1|100",
+        "ReloadSpeed|10|100",
+        "MoveSpeed|53|100",
+        "Change2DHurt|67|100"
+      ],
+      "DefaultProperty3": [
+        "MagnificationRate|2.5"
+      ],
+      "Part1Level01": [
+        ""
+      ],
+      "Part1Level11": [
+        "PullBoltSpeed|*0.5"
+      ],
+      "Part2Level01": [
+        "MoveSpeed|*0.08"
+      ],
+      "Part2Level11": [
+        "Change2DHurt|*0.2"
+      ],
+      "Part4Level01": [
+        ""
+      ],
+      "Part4Level11": [
+        "ReloadSpeed|*0.4"
+      ],
+      "Part5Level01": [
+        "AimSpeed|*0.2"
+      ],
+      "Part5Level11": [
+        "AimSpeed|*0.2",
+        "MagnificationRate|1.5"
+      ],
+      "PartName": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_Core",
+          "SourceString": "核心",
+          "LocalizedString": "核心"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_Output",
+          "SourceString": "输出",
+          "LocalizedString": "输出"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_KeepFight",
+          "SourceString": "续航",
+          "LocalizedString": "续航"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_Function",
+          "SourceString": "机能",
+          "LocalizedString": "机能"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_Armor",
+          "SourceString": "护甲",
+          "LocalizedString": "护甲"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_String",
+          "SourceString": "弦化",
+          "LocalizedString": "弦化"
+        }
+      ],
+      "PartIcon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100007.T_Dynamic_GrowthIcon_100007",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100004.T_Dynamic_GrowthIcon_100004",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100003.T_Dynamic_GrowthIcon_100003",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100006.T_Dynamic_GrowthIcon_100006",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100002.T_Dynamic_GrowthIcon_100002",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100012.T_Dynamic_GrowthIcon_100012",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_{6}.T_Dynamic_GrowthIcon_{6}",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_{7}.T_Dynamic_GrowthIcon_{7}",
+          "SubPathString": ""
+        }
+      ],
+      "AttackSpeedWeight": 720,
+      "AttackSpeedMax": 1200,
+      "ShowAttackRange": [
+        10,
+        30,
+        50
+      ]
+    },
+    "10502001": {
+      "WeaponId": 10502001,
+      "Part1Desc": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "BaseDamageIncreased",
+          "SourceString": "基础伤害提升",
+          "LocalizedString": "基础伤害提升"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "BaseRateOfFireIncreased",
+          "SourceString": "基础射速提升",
+          "LocalizedString": "基础射速提升"
+        },
+        {
+          "CultureInvariantString": null
+        }
+      ],
+      "Part1Icon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200008.T_Dynamic_GrowthIcon_200008",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200009.T_Dynamic_GrowthIcon_200009",
+          "SubPathString": ""
+        }
+      ],
+      "Part2Desc": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "HeadshotDamageIncreased",
+          "SourceString": "爆头伤害提升",
+          "LocalizedString": "爆头伤害提升"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "StringDamageIncreased",
+          "SourceString": "弦化伤害提升",
+          "LocalizedString": "弦化伤害提升"
+        },
+        {
+          "CultureInvariantString": null
+        }
+      ],
+      "Part2Icon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200011.T_Dynamic_GrowthIcon_200011",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200010.T_Dynamic_GrowthIcon_200010",
+          "SubPathString": ""
+        }
+      ],
+      "Part4Desc": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "IncreasedNumberOfBullets",
+          "SourceString": "载弹数量提升",
+          "LocalizedString": "载弹数量提升"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "ReloadSpeedIncreased",
+          "SourceString": "换弹速度提升",
+          "LocalizedString": "换弹速度提升"
+        },
+        {
+          "CultureInvariantString": null
+        }
+      ],
+      "Part4Icon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200012.T_Dynamic_GrowthIcon_200012",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200013.T_Dynamic_GrowthIcon_200013",
+          "SubPathString": ""
+        }
+      ],
+      "Part5Desc": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "ScatterControlImprovements",
+          "SourceString": "散射控制提升",
+          "LocalizedString": "散射控制提升"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "ImprovedRecoilControl",
+          "SourceString": "后坐控制提升",
+          "LocalizedString": "后坐控制提升"
+        },
+        {
+          "CultureInvariantString": null
+        }
+      ],
+      "Part5Icon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200015.T_Dynamic_GrowthIcon_200015",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200022.T_Dynamic_GrowthIcon_200022",
+          "SubPathString": ""
+        }
+      ],
+      "DefaultProperty1": [
+        "ShootSpeed|1|1200",
+        "AimSpeed|56|100",
+        "Scattering|72|100",
+        "GunRecoil|70|100",
+        "MagazineCapacity|1|100",
+        "ReloadSpeed|24|100",
+        "MoveSpeed|58|100",
+        "Change2DHurt|67|100"
+      ],
+      "DefaultProperty3": [
+        "MagnificationRate|1.25"
+      ],
+      "Part1Level01": [
+        ""
+      ],
+      "Part1Level11": [
+        ""
+      ],
+      "Part2Level01": [
+        ""
+      ],
+      "Part2Level11": [
+        "Change2DHurt|*0.2"
+      ],
+      "Part4Level01": [
+        ""
+      ],
+      "Part4Level11": [
+        "ReloadSpeed|*0.4"
+      ],
+      "Part5Level01": [
+        "Scattering|*0.25"
+      ],
+      "Part5Level11": [
+        "GunRecoil|*0.3"
+      ],
+      "PartName": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_Output",
+          "SourceString": "输出",
+          "LocalizedString": "输出"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_CriticalHit",
+          "SourceString": "暴击",
+          "LocalizedString": "暴击"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_KeepFight",
+          "SourceString": "续航",
+          "LocalizedString": "续航"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_Accurate",
+          "SourceString": "精准",
+          "LocalizedString": "精准"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_Armor",
+          "SourceString": "护甲",
+          "LocalizedString": "护甲"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_String",
+          "SourceString": "弦化",
+          "LocalizedString": "弦化"
+        }
+      ],
+      "PartIcon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100004.T_Dynamic_GrowthIcon_100004",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100005.T_Dynamic_GrowthIcon_100005",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100003.T_Dynamic_GrowthIcon_100003",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100009.T_Dynamic_GrowthIcon_100009",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100002.T_Dynamic_GrowthIcon_100002",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100012.T_Dynamic_GrowthIcon_100012",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_{6}.T_Dynamic_GrowthIcon_{6}",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_{7}.T_Dynamic_GrowthIcon_{7}",
+          "SubPathString": ""
+        }
+      ],
+      "AttackSpeedWeight": 720,
+      "AttackSpeedMax": 1200,
+      "ShowAttackRange": [
+        10,
+        30,
+        50
+      ]
+    },
+    "10603001": {
+      "WeaponId": 10603001,
+      "Part1Desc": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "DoubleTrigger",
+          "SourceString": "双发扳机",
+          "LocalizedString": "双发扳机"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "BaseRateOfFireIncreased",
+          "SourceString": "基础射速提升",
+          "LocalizedString": "基础射速提升"
+        },
+        {
+          "CultureInvariantString": null
+        }
+      ],
+      "Part1Icon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200023.T_Dynamic_GrowthIcon_200023",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200009.T_Dynamic_GrowthIcon_200009",
+          "SubPathString": ""
+        }
+      ],
+      "Part2Desc": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "MaximumRunningSpeedIncreased",
+          "SourceString": "移动速度提升",
+          "LocalizedString": "移动速度提升"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "StringDamageIncreased",
+          "SourceString": "弦化伤害提升",
+          "LocalizedString": "弦化伤害提升"
+        },
+        {
+          "CultureInvariantString": null
+        }
+      ],
+      "Part2Icon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200016.T_Dynamic_GrowthIcon_200016",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200010.T_Dynamic_GrowthIcon_200010",
+          "SubPathString": ""
+        }
+      ],
+      "Part4Desc": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "IncreasedNumberOfBullets",
+          "SourceString": "载弹数量提升",
+          "LocalizedString": "载弹数量提升"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "ReloadSpeedIncreased",
+          "SourceString": "换弹速度提升",
+          "LocalizedString": "换弹速度提升"
+        },
+        {
+          "CultureInvariantString": null
+        }
+      ],
+      "Part4Icon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200012.T_Dynamic_GrowthIcon_200012",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200013.T_Dynamic_GrowthIcon_200013",
+          "SubPathString": ""
+        }
+      ],
+      "Part5Desc": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "ScatterControlImprovements",
+          "SourceString": "散射控制提升",
+          "LocalizedString": "散射控制提升"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "ScatterControlImprovementsWhenADS",
+          "SourceString": "开镜后弹丸收束",
+          "LocalizedString": "开镜后弹丸收束"
+        },
+        {
+          "CultureInvariantString": null
+        }
+      ],
+      "Part5Icon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200017.T_Dynamic_GrowthIcon_200017",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200015.T_Dynamic_GrowthIcon_200015",
+          "SubPathString": ""
+        }
+      ],
+      "DefaultProperty1": [
+        "ShootSpeed|1|1200",
+        "AimSpeed|50|100",
+        "Scattering|10|100",
+        "GunRecoil|50|100",
+        "MagazineCapacity|1|100",
+        "ReloadSpeed|24|100",
+        "MoveSpeed|57|100",
+        "Change2DHurt|67|100"
+      ],
+      "DefaultProperty3": [
+        "MagnificationRate|1.25"
+      ],
+      "Part1Level01": [
+        "ReloadSpeed|*0.1"
+      ],
+      "Part1Level11": [
+        ""
+      ],
+      "Part2Level01": [
+        "MoveSpeed|*0.08"
+      ],
+      "Part2Level11": [
+        "Change2DHurt|*0.2"
+      ],
+      "Part4Level01": [
+        ""
+      ],
+      "Part4Level11": [
+        "ReloadSpeed|*0.4"
+      ],
+      "Part5Level01": [
+        "Scattering|*0.15"
+      ],
+      "Part5Level11": [
+        "Scattering|*1.68"
+      ],
+      "PartName": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_Core",
+          "SourceString": "核心",
+          "LocalizedString": "核心"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_Output",
+          "SourceString": "输出",
+          "LocalizedString": "输出"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_KeepFight",
+          "SourceString": "续航",
+          "LocalizedString": "续航"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_Accurate",
+          "SourceString": "精准",
+          "LocalizedString": "精准"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_Armor",
+          "SourceString": "护甲",
+          "LocalizedString": "护甲"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_String",
+          "SourceString": "弦化",
+          "LocalizedString": "弦化"
+        }
+      ],
+      "PartIcon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100007.T_Dynamic_GrowthIcon_100007",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100004.T_Dynamic_GrowthIcon_100004",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100003.T_Dynamic_GrowthIcon_100003",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100009.T_Dynamic_GrowthIcon_100009",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100002.T_Dynamic_GrowthIcon_100002",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100012.T_Dynamic_GrowthIcon_100012",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_{6}.T_Dynamic_GrowthIcon_{6}",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_{7}.T_Dynamic_GrowthIcon_{7}",
+          "SubPathString": ""
+        }
+      ],
+      "AttackSpeedWeight": 720,
+      "AttackSpeedMax": 1200,
+      "ShowAttackRange": [
+        10,
+        20,
+        30
+      ]
+    },
+    "10112001": {
+      "WeaponId": 10112001,
+      "Part1Desc": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "BaseDamageIncreased",
+          "SourceString": "基础伤害提升",
+          "LocalizedString": "基础伤害提升"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "BaseRateOfFireIncreased",
+          "SourceString": "基础射速提升",
+          "LocalizedString": "基础射速提升"
+        },
+        {
+          "CultureInvariantString": null
+        }
+      ],
+      "Part1Icon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200008.T_Dynamic_GrowthIcon_200008",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200009.T_Dynamic_GrowthIcon_200009",
+          "SubPathString": ""
+        }
+      ],
+      "Part2Desc": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "HeadshotDamageIncreased",
+          "SourceString": "爆头伤害提升",
+          "LocalizedString": "爆头伤害提升"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "StringDamageIncreased",
+          "SourceString": "弦化伤害提升",
+          "LocalizedString": "弦化伤害提升"
+        },
+        {
+          "CultureInvariantString": null
+        }
+      ],
+      "Part2Icon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200011.T_Dynamic_GrowthIcon_200011",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200010.T_Dynamic_GrowthIcon_200010",
+          "SubPathString": ""
+        }
+      ],
+      "Part4Desc": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "IncreasedNumberOfBullets",
+          "SourceString": "载弹数量提升",
+          "LocalizedString": "载弹数量提升"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "ReloadSpeedIncreased",
+          "SourceString": "换弹速度提升",
+          "LocalizedString": "换弹速度提升"
+        },
+        {
+          "CultureInvariantString": null
+        }
+      ],
+      "Part4Icon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200012.T_Dynamic_GrowthIcon_200012",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200013.T_Dynamic_GrowthIcon_200013",
+          "SubPathString": ""
+        }
+      ],
+      "Part5Desc": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "ScatterControlImprovements",
+          "SourceString": "散射控制提升",
+          "LocalizedString": "散射控制提升"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "ImprovedRecoilControl",
+          "SourceString": "后坐控制提升",
+          "LocalizedString": "后坐控制提升"
+        },
+        {
+          "CultureInvariantString": null
+        }
+      ],
+      "Part5Icon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200015.T_Dynamic_GrowthIcon_200015",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200022.T_Dynamic_GrowthIcon_200022",
+          "SubPathString": ""
+        }
+      ],
+      "DefaultProperty1": [
+        "ShootSpeed|1|1200",
+        "AimSpeed|45|100",
+        "Scattering|65|100",
+        "GunRecoil|67|100",
+        "MagazineCapacity|1|100",
+        "ReloadSpeed|24|100",
+        "MoveSpeed|55|100",
+        "Change2DHurt|67|100"
+      ],
+      "DefaultProperty3": [
+        "MagnificationRate|1.25"
+      ],
+      "Part1Level01": [
+        ""
+      ],
+      "Part1Level11": [
+        ""
+      ],
+      "Part2Level01": [
+        ""
+      ],
+      "Part2Level11": [
+        "Change2DHurt|*0.2"
+      ],
+      "Part4Level01": [
+        ""
+      ],
+      "Part4Level11": [
+        "ReloadSpeed|*0.4"
+      ],
+      "Part5Level01": [
+        "Scattering|*0.25"
+      ],
+      "Part5Level11": [
+        "GunRecoil|*0.3"
+      ],
+      "PartName": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_Output",
+          "SourceString": "输出",
+          "LocalizedString": "输出"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_CriticalHit",
+          "SourceString": "暴击",
+          "LocalizedString": "暴击"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_KeepFight",
+          "SourceString": "续航",
+          "LocalizedString": "续航"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_Accurate",
+          "SourceString": "精准",
+          "LocalizedString": "精准"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_Armor",
+          "SourceString": "护甲",
+          "LocalizedString": "护甲"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_String",
+          "SourceString": "弦化",
+          "LocalizedString": "弦化"
+        }
+      ],
+      "PartIcon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100004.T_Dynamic_GrowthIcon_100004",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100005.T_Dynamic_GrowthIcon_100005",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100003.T_Dynamic_GrowthIcon_100003",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100009.T_Dynamic_GrowthIcon_100009",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100002.T_Dynamic_GrowthIcon_100002",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100012.T_Dynamic_GrowthIcon_100012",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_{6}.T_Dynamic_GrowthIcon_{6}",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_{7}.T_Dynamic_GrowthIcon_{7}",
+          "SubPathString": ""
+        }
+      ],
+      "AttackSpeedWeight": 720,
+      "AttackSpeedMax": 1200,
+      "ShowAttackRange": [
+        10,
+        30,
+        50
+      ]
+    },
+    "10111001": {
+      "WeaponId": 10111001,
+      "Part1Desc": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "BaseDamageIncreased",
+          "SourceString": "基础伤害提升",
+          "LocalizedString": "基础伤害提升"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "BaseRateOfFireIncreased",
+          "SourceString": "基础射速提升",
+          "LocalizedString": "基础射速提升"
+        },
+        {
+          "CultureInvariantString": null
+        }
+      ],
+      "Part1Icon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200017.T_Dynamic_GrowthIcon_200017",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200016.T_Dynamic_GrowthIcon_200016",
+          "SubPathString": ""
+        }
+      ],
+      "Part2Desc": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "HeadshotDamageIncreased",
+          "SourceString": "爆头伤害提升",
+          "LocalizedString": "爆头伤害提升"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "StringDamageIncreased",
+          "SourceString": "弦化伤害提升",
+          "LocalizedString": "弦化伤害提升"
+        },
+        {
+          "CultureInvariantString": null
+        }
+      ],
+      "Part2Icon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200011.T_Dynamic_GrowthIcon_200011",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200010.T_Dynamic_GrowthIcon_200010",
+          "SubPathString": ""
+        }
+      ],
+      "Part4Desc": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "IncreasedNumberOfBullets",
+          "SourceString": "载弹数量提升",
+          "LocalizedString": "载弹数量提升"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "ReloadSpeedIncreased",
+          "SourceString": "换弹速度提升",
+          "LocalizedString": "换弹速度提升"
+        },
+        {
+          "CultureInvariantString": null
+        }
+      ],
+      "Part4Icon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200012.T_Dynamic_GrowthIcon_200012",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200013.T_Dynamic_GrowthIcon_200013",
+          "SubPathString": ""
+        }
+      ],
+      "Part5Desc": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "ScatterControlImprovements",
+          "SourceString": "散射控制提升",
+          "LocalizedString": "散射控制提升"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "ImprovedRecoilControl",
+          "SourceString": "后坐控制提升",
+          "LocalizedString": "后坐控制提升"
+        },
+        {
+          "CultureInvariantString": null
+        }
+      ],
+      "Part5Icon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200014.T_Dynamic_GrowthIcon_200014",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200015.T_Dynamic_GrowthIcon_200015",
+          "SubPathString": ""
+        }
+      ],
+      "DefaultProperty1": [
+        "ShootSpeed|1|1200",
+        "AimSpeed|45|100",
+        "Scattering|73|100",
+        "GunRecoil|72|100",
+        "MagazineCapacity|1|100",
+        "ReloadSpeed|24|100",
+        "MoveSpeed|55|100",
+        "Change2DHurt|67|100"
+      ],
+      "DefaultProperty3": [
+        "MagnificationRate|1.25"
+      ],
+      "Part1Level01": [
+        ""
+      ],
+      "Part1Level11": [
+        ""
+      ],
+      "Part2Level01": [
+        ""
+      ],
+      "Part2Level11": [
+        "Change2DHurt|*0.2"
+      ],
+      "Part4Level01": [
+        ""
+      ],
+      "Part4Level11": [
+        "ReloadSpeed|*0.4"
+      ],
+      "Part5Level01": [
+        "Scattering|*0.25"
+      ],
+      "Part5Level11": [
+        "GunRecoil|*0.3"
+      ],
+      "PartName": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_Output",
+          "SourceString": "输出",
+          "LocalizedString": "输出"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_CriticalHit",
+          "SourceString": "暴击",
+          "LocalizedString": "暴击"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_KeepFight",
+          "SourceString": "续航",
+          "LocalizedString": "续航"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_Accurate",
+          "SourceString": "精准",
+          "LocalizedString": "精准"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_Armor",
+          "SourceString": "护甲",
+          "LocalizedString": "护甲"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_String",
+          "SourceString": "弦化",
+          "LocalizedString": "弦化"
+        }
+      ],
+      "PartIcon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100007.T_Dynamic_GrowthIcon_100007",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100005.T_Dynamic_GrowthIcon_100005",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100003.T_Dynamic_GrowthIcon_100003",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100009.T_Dynamic_GrowthIcon_100009",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100002.T_Dynamic_GrowthIcon_100002",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100012.T_Dynamic_GrowthIcon_100012",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_{6}.T_Dynamic_GrowthIcon_{6}",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_{7}.T_Dynamic_GrowthIcon_{7}",
+          "SubPathString": ""
+        }
+      ],
+      "AttackSpeedWeight": 720,
+      "AttackSpeedMax": 1200,
+      "ShowAttackRange": [
+        10,
+        30,
+        50
+      ]
+    },
+    "10113001": {
+      "WeaponId": 10113001,
+      "Part1Desc": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "BaseDamageIncreased",
+          "SourceString": "基础伤害提升",
+          "LocalizedString": "基础伤害提升"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "BaseRateOfFireIncreased",
+          "SourceString": "基础射速提升",
+          "LocalizedString": "基础射速提升"
+        },
+        {
+          "CultureInvariantString": null
+        }
+      ],
+      "Part1Icon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200013.T_Dynamic_GrowthIcon_200013",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200012.T_Dynamic_GrowthIcon_200012",
+          "SubPathString": ""
+        }
+      ],
+      "Part2Desc": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "HeadshotDamageIncreased",
+          "SourceString": "爆头伤害提升",
+          "LocalizedString": "爆头伤害提升"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "StringDamageIncreased",
+          "SourceString": "弦化伤害提升",
+          "LocalizedString": "弦化伤害提升"
+        },
+        {
+          "CultureInvariantString": null
+        }
+      ],
+      "Part2Icon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200011.T_Dynamic_GrowthIcon_200011",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200010.T_Dynamic_GrowthIcon_200010",
+          "SubPathString": ""
+        }
+      ],
+      "Part4Desc": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "IncreasedNumberOfBullets",
+          "SourceString": "载弹数量提升",
+          "LocalizedString": "载弹数量提升"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "ReloadSpeedIncreased",
+          "SourceString": "换弹速度提升",
+          "LocalizedString": "换弹速度提升"
+        },
+        {
+          "CultureInvariantString": null
+        }
+      ],
+      "Part4Icon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200015.T_Dynamic_GrowthIcon_200015",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200014.T_Dynamic_GrowthIcon_200014",
+          "SubPathString": ""
+        }
+      ],
+      "Part5Desc": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "ScatterControlImprovements",
+          "SourceString": "散射控制提升",
+          "LocalizedString": "散射控制提升"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "ImprovedRecoilControl",
+          "SourceString": "后坐控制提升",
+          "LocalizedString": "后坐控制提升"
+        },
+        {
+          "CultureInvariantString": null
+        }
+      ],
+      "Part5Icon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200017.T_Dynamic_GrowthIcon_200017",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200022.T_Dynamic_GrowthIcon_200022",
+          "SubPathString": ""
+        }
+      ],
+      "DefaultProperty1": [
+        "ShootSpeed|1|1200",
+        "AimSpeed|54|100",
+        "Scattering|60|100",
+        "GunRecoil|62|100",
+        "MagazineCapacity|1|100",
+        "ReloadSpeed|24|100",
+        "MoveSpeed|55|100",
+        "Change2DHurt|67|100"
+      ],
+      "DefaultProperty3": [
+        "MagnificationRate|1.25"
+      ],
+      "Part1Level01": [
+        ""
+      ],
+      "Part1Level11": [
+        ""
+      ],
+      "Part2Level01": [
+        ""
+      ],
+      "Part2Level11": [
+        "Change2DHurt|*0.2"
+      ],
+      "Part4Level01": [
+        ""
+      ],
+      "Part4Level11": [
+        "ReloadSpeed|*0.4"
+      ],
+      "Part5Level01": [
+        "Scattering|*0.25"
+      ],
+      "Part5Level11": [
+        "GunRecoil|*0.3"
+      ],
+      "PartName": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_Core",
+          "SourceString": "核心",
+          "LocalizedString": "核心"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_CriticalHit",
+          "SourceString": "暴击",
+          "LocalizedString": "暴击"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_KeepFight",
+          "SourceString": "续航",
+          "LocalizedString": "续航"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_Accurate",
+          "SourceString": "精准",
+          "LocalizedString": "精准"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_Armor",
+          "SourceString": "护甲",
+          "LocalizedString": "护甲"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_String",
+          "SourceString": "弦化",
+          "LocalizedString": "弦化"
+        }
+      ],
+      "PartIcon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100007.T_Dynamic_GrowthIcon_100007",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100005.T_Dynamic_GrowthIcon_100005",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100003.T_Dynamic_GrowthIcon_100003",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100009.T_Dynamic_GrowthIcon_100009",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100002.T_Dynamic_GrowthIcon_100002",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100012.T_Dynamic_GrowthIcon_100012",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_{6}.T_Dynamic_GrowthIcon_{6}",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_{7}.T_Dynamic_GrowthIcon_{7}",
+          "SubPathString": ""
+        }
+      ],
+      "AttackSpeedWeight": 720,
+      "AttackSpeedMax": 1200,
+      "ShowAttackRange": [
+        10,
+        30,
+        50
+      ]
+    },
+    "10404001": {
+      "WeaponId": 10404001,
+      "Part1Desc": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "AcceleratedShootingMode",
+          "SourceString": "加速射击模式",
+          "LocalizedString": "加速射击模式"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "BaseRateOfFireIncreased",
+          "SourceString": "基础射速提升",
+          "LocalizedString": "基础射速提升"
+        },
+        {
+          "CultureInvariantString": null
+        }
+      ],
+      "Part1Icon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200008.T_Dynamic_GrowthIcon_200008",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200009.T_Dynamic_GrowthIcon_200009",
+          "SubPathString": ""
+        }
+      ],
+      "Part2Desc": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "HeadshotDamageIncreased",
+          "SourceString": "爆头伤害提升",
+          "LocalizedString": "爆头伤害提升"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "StringDamageIncreased",
+          "SourceString": "弦化伤害提升",
+          "LocalizedString": "弦化伤害提升"
+        },
+        {
+          "CultureInvariantString": null
+        }
+      ],
+      "Part2Icon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200011.T_Dynamic_GrowthIcon_200011",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200010.T_Dynamic_GrowthIcon_200010",
+          "SubPathString": ""
+        }
+      ],
+      "Part4Desc": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "IncreasedNumberOfBullets",
+          "SourceString": "载弹数量提升",
+          "LocalizedString": "载弹数量提升"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "ReloadSpeedIncreased",
+          "SourceString": "换弹速度提升",
+          "LocalizedString": "换弹速度提升"
+        },
+        {
+          "CultureInvariantString": null
+        }
+      ],
+      "Part4Icon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200012.T_Dynamic_GrowthIcon_200012",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200013.T_Dynamic_GrowthIcon_200013",
+          "SubPathString": ""
+        }
+      ],
+      "Part5Desc": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "ScatterControlImprovements",
+          "SourceString": "散射控制提升",
+          "LocalizedString": "散射控制提升"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "HandlingSpeedIncreased",
+          "SourceString": "开镜与切枪速度提升",
+          "LocalizedString": "开镜与切枪速度提升"
+        },
+        {
+          "CultureInvariantString": null
+        }
+      ],
+      "Part5Icon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200014.T_Dynamic_GrowthIcon_200014",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200015.T_Dynamic_GrowthIcon_200015",
+          "SubPathString": ""
+        }
+      ],
+      "DefaultProperty1": [
+        "ShootSpeed|1|1200",
+        "AimSpeed|45|100",
+        "Scattering|60|100",
+        "GunRecoil|100|100",
+        "MagazineCapacity|1|100",
+        "ReloadSpeed|21|100",
+        "MoveSpeed|54|100",
+        "Change2DHurt|67|100"
+      ],
+      "DefaultProperty3": [
+        "MagnificationRate|1.25"
+      ],
+      "Part1Level01": [
+        "0|0"
+      ],
+      "Part1Level11": [
+        ""
+      ],
+      "Part2Level01": [
+        ""
+      ],
+      "Part2Level11": [
+        "Change2DHurt|*0.2"
+      ],
+      "Part4Level01": [
+        ""
+      ],
+      "Part4Level11": [
+        "ReloadSpeed|*0.4"
+      ],
+      "Part5Level01": [
+        "Scattering|*0.25"
+      ],
+      "Part5Level11": [
+        "AimSpeed|*0.4"
+      ],
+      "PartName": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_Output",
+          "SourceString": "输出",
+          "LocalizedString": "输出"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_CriticalHit",
+          "SourceString": "暴击",
+          "LocalizedString": "暴击"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_KeepFight",
+          "SourceString": "续航",
+          "LocalizedString": "续航"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_Accurate",
+          "SourceString": "精准",
+          "LocalizedString": "精准"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_Armor",
+          "SourceString": "护甲",
+          "LocalizedString": "护甲"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_String",
+          "SourceString": "弦化",
+          "LocalizedString": "弦化"
+        }
+      ],
+      "PartIcon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100004.T_Dynamic_GrowthIcon_100004",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100005.T_Dynamic_GrowthIcon_100005",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100003.T_Dynamic_GrowthIcon_100003",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100009.T_Dynamic_GrowthIcon_100009",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100002.T_Dynamic_GrowthIcon_100002",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100012.T_Dynamic_GrowthIcon_100012",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_{6}.T_Dynamic_GrowthIcon_{6}",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_{7}.T_Dynamic_GrowthIcon_{7}",
+          "SubPathString": ""
+        }
+      ],
+      "AttackSpeedWeight": 720,
+      "AttackSpeedMax": 1200,
+      "ShowAttackRange": [
+        10,
+        30,
+        50
+      ]
+    },
+    "10503001": {
+      "WeaponId": 10503001,
+      "Part1Desc": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "BaseDamageIncreased",
+          "SourceString": "基础伤害提升",
+          "LocalizedString": "基础伤害提升"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "BaseRateOfFireIncreased",
+          "SourceString": "基础射速提升",
+          "LocalizedString": "基础射速提升"
+        },
+        {
+          "CultureInvariantString": null
+        }
+      ],
+      "Part1Icon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200008.T_Dynamic_GrowthIcon_200008",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200009.T_Dynamic_GrowthIcon_200009",
+          "SubPathString": ""
+        }
+      ],
+      "Part2Desc": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "HeadshotDamageIncreased",
+          "SourceString": "爆头伤害提升",
+          "LocalizedString": "爆头伤害提升"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "StringDamageIncreased",
+          "SourceString": "弦化伤害提升",
+          "LocalizedString": "弦化伤害提升"
+        },
+        {
+          "CultureInvariantString": null
+        }
+      ],
+      "Part2Icon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200011.T_Dynamic_GrowthIcon_200011",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200010.T_Dynamic_GrowthIcon_200010",
+          "SubPathString": ""
+        }
+      ],
+      "Part4Desc": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "IncreasedNumberOfBullets",
+          "SourceString": "载弹数量提升",
+          "LocalizedString": "载弹数量提升"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "ReloadSpeedIncreased",
+          "SourceString": "换弹速度提升",
+          "LocalizedString": "换弹速度提升"
+        },
+        {
+          "CultureInvariantString": null
+        }
+      ],
+      "Part4Icon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200012.T_Dynamic_GrowthIcon_200012",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200013.T_Dynamic_GrowthIcon_200013",
+          "SubPathString": ""
+        }
+      ],
+      "Part5Desc": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "ScatterControlImprovements",
+          "SourceString": "散射控制提升",
+          "LocalizedString": "散射控制提升"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "ImprovedRecoilControl",
+          "SourceString": "后坐控制提升",
+          "LocalizedString": "后坐控制提升"
+        },
+        {
+          "CultureInvariantString": null
+        }
+      ],
+      "Part5Icon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200015.T_Dynamic_GrowthIcon_200015",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200022.T_Dynamic_GrowthIcon_200022",
+          "SubPathString": ""
+        }
+      ],
+      "DefaultProperty1": [
+        "ShootSpeed|1|1200",
+        "AimSpeed|56|100",
+        "Scattering|70|100",
+        "GunRecoil|68|100",
+        "MagazineCapacity|1|100",
+        "ReloadSpeed|24|100",
+        "MoveSpeed|58|100",
+        "Change2DHurt|67|100"
+      ],
+      "DefaultProperty3": [
+        "MagnificationRate|1.25"
+      ],
+      "Part1Level01": [
+        ""
+      ],
+      "Part1Level11": [
+        ""
+      ],
+      "Part2Level01": [
+        ""
+      ],
+      "Part2Level11": [
+        "Change2DHurt|*0.2"
+      ],
+      "Part4Level01": [
+        ""
+      ],
+      "Part4Level11": [
+        "ReloadSpeed|*0.4"
+      ],
+      "Part5Level01": [
+        "Scattering|*0.25"
+      ],
+      "Part5Level11": [
+        "GunRecoil|*0.3"
+      ],
+      "PartName": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_Output",
+          "SourceString": "输出",
+          "LocalizedString": "输出"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_CriticalHit",
+          "SourceString": "暴击",
+          "LocalizedString": "暴击"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_KeepFight",
+          "SourceString": "续航",
+          "LocalizedString": "续航"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_Accurate",
+          "SourceString": "精准",
+          "LocalizedString": "精准"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_Armor",
+          "SourceString": "护甲",
+          "LocalizedString": "护甲"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_String",
+          "SourceString": "弦化",
+          "LocalizedString": "弦化"
+        }
+      ],
+      "PartIcon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100004.T_Dynamic_GrowthIcon_100004",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100005.T_Dynamic_GrowthIcon_100005",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100003.T_Dynamic_GrowthIcon_100003",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100009.T_Dynamic_GrowthIcon_100009",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100002.T_Dynamic_GrowthIcon_100002",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100012.T_Dynamic_GrowthIcon_100012",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_{6}.T_Dynamic_GrowthIcon_{6}",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_{7}.T_Dynamic_GrowthIcon_{7}",
+          "SubPathString": ""
+        }
+      ],
+      "AttackSpeedWeight": 720,
+      "AttackSpeedMax": 1200,
+      "ShowAttackRange": [
+        10,
+        30,
+        50
+      ]
+    },
+    "10305001": {
+      "WeaponId": 10305001,
+      "Part1Desc": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "BaseDamageIncreased",
+          "SourceString": "基础伤害提升",
+          "LocalizedString": "基础伤害提升"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "BaseRateOfFireIncreased",
+          "SourceString": "基础射速提升",
+          "LocalizedString": "基础射速提升"
+        },
+        {
+          "CultureInvariantString": null
+        }
+      ],
+      "Part1Icon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200008.T_Dynamic_GrowthIcon_200008",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200009.T_Dynamic_GrowthIcon_200009",
+          "SubPathString": ""
+        }
+      ],
+      "Part2Desc": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "HeadshotDamageIncreased",
+          "SourceString": "爆头伤害提升",
+          "LocalizedString": "爆头伤害提升"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "StringDamageIncreased",
+          "SourceString": "弦化伤害提升",
+          "LocalizedString": "弦化伤害提升"
+        },
+        {
+          "CultureInvariantString": null
+        }
+      ],
+      "Part2Icon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200011.T_Dynamic_GrowthIcon_200011",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200010.T_Dynamic_GrowthIcon_200010",
+          "SubPathString": ""
+        }
+      ],
+      "Part4Desc": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "IncreasedNumberOfBullets",
+          "SourceString": "载弹数量提升",
+          "LocalizedString": "载弹数量提升"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "ReloadSpeedIncreased",
+          "SourceString": "换弹速度提升",
+          "LocalizedString": "换弹速度提升"
+        },
+        {
+          "CultureInvariantString": null
+        }
+      ],
+      "Part4Icon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200012.T_Dynamic_GrowthIcon_200012",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200013.T_Dynamic_GrowthIcon_200013",
+          "SubPathString": ""
+        }
+      ],
+      "Part5Desc": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "ScatterControlImprovements",
+          "SourceString": "散射控制提升",
+          "LocalizedString": "散射控制提升"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "ImprovedRecoilControl",
+          "SourceString": "后坐控制提升",
+          "LocalizedString": "后坐控制提升"
+        },
+        {
+          "CultureInvariantString": null
+        }
+      ],
+      "Part5Icon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200015.T_Dynamic_GrowthIcon_200015",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200022.T_Dynamic_GrowthIcon_200022",
+          "SubPathString": ""
+        }
+      ],
+      "DefaultProperty1": [
+        "ShootSpeed|1|1200",
+        "AimSpeed|42|100",
+        "Scattering|64|100",
+        "GunRecoil|65|100",
+        "MagazineCapacity|1|100",
+        "ReloadSpeed|21|100",
+        "MoveSpeed|53|100",
+        "Change2DHurt|67|100"
+      ],
+      "DefaultProperty3": [
+        "MagnificationRate|1.5"
+      ],
+      "Part1Level01": [
+        ""
+      ],
+      "Part1Level11": [
+        ""
+      ],
+      "Part2Level01": [
+        ""
+      ],
+      "Part2Level11": [
+        "Change2DHurt|*0.2"
+      ],
+      "Part4Level01": [
+        ""
+      ],
+      "Part4Level11": [
+        "ReloadSpeed|*0.4"
+      ],
+      "Part5Level01": [
+        "Scattering|*0.25"
+      ],
+      "Part5Level11": [
+        "GunRecoil|*0.3"
+      ],
+      "PartName": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_Output",
+          "SourceString": "输出",
+          "LocalizedString": "输出"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_CriticalHit",
+          "SourceString": "暴击",
+          "LocalizedString": "暴击"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_KeepFight",
+          "SourceString": "续航",
+          "LocalizedString": "续航"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_Accurate",
+          "SourceString": "精准",
+          "LocalizedString": "精准"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_Armor",
+          "SourceString": "护甲",
+          "LocalizedString": "护甲"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_String",
+          "SourceString": "弦化",
+          "LocalizedString": "弦化"
+        }
+      ],
+      "PartIcon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100004.T_Dynamic_GrowthIcon_100004",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100005.T_Dynamic_GrowthIcon_100005",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100003.T_Dynamic_GrowthIcon_100003",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100009.T_Dynamic_GrowthIcon_100009",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100002.T_Dynamic_GrowthIcon_100002",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100012.T_Dynamic_GrowthIcon_100012",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_{6}.T_Dynamic_GrowthIcon_{6}",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_{7}.T_Dynamic_GrowthIcon_{7}",
+          "SubPathString": ""
+        }
+      ],
+      "AttackSpeedWeight": 720,
+      "AttackSpeedMax": 1200,
+      "ShowAttackRange": [
+        10,
+        30,
+        50
+      ]
+    },
+    "10604001": {
+      "WeaponId": 10604001,
+      "Part1Desc": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "HandlingSpeedIncreased",
+          "SourceString": "开镜与切枪速度提升",
+          "LocalizedString": "开镜与切枪速度提升"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "BaseRateOfFireIncreased",
+          "SourceString": "基础射速提升",
+          "LocalizedString": "基础射速提升"
+        },
+        {
+          "CultureInvariantString": null
+        }
+      ],
+      "Part1Icon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200023.T_Dynamic_GrowthIcon_200023",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200009.T_Dynamic_GrowthIcon_200009",
+          "SubPathString": ""
+        }
+      ],
+      "Part2Desc": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "MaximumRunningSpeedIncreased",
+          "SourceString": "移动速度提升",
+          "LocalizedString": "移动速度提升"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "StringDamageIncreased",
+          "SourceString": "弦化伤害提升",
+          "LocalizedString": "弦化伤害提升"
+        },
+        {
+          "CultureInvariantString": null
+        }
+      ],
+      "Part2Icon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200016.T_Dynamic_GrowthIcon_200016",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200010.T_Dynamic_GrowthIcon_200010",
+          "SubPathString": ""
+        }
+      ],
+      "Part4Desc": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "IncreasedNumberOfBullets",
+          "SourceString": "载弹数量提升",
+          "LocalizedString": "载弹数量提升"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "ReloadSpeedIncreased",
+          "SourceString": "换弹速度提升",
+          "LocalizedString": "换弹速度提升"
+        },
+        {
+          "CultureInvariantString": null
+        }
+      ],
+      "Part4Icon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200012.T_Dynamic_GrowthIcon_200012",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200013.T_Dynamic_GrowthIcon_200013",
+          "SubPathString": ""
+        }
+      ],
+      "Part5Desc": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "ScatterControlImprovements",
+          "SourceString": "散射控制提升",
+          "LocalizedString": "散射控制提升"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "SingleBulletShootingMode",
+          "SourceString": "独头弹模式",
+          "LocalizedString": "独头弹模式"
+        },
+        {
+          "CultureInvariantString": null
+        }
+      ],
+      "Part5Icon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200017.T_Dynamic_GrowthIcon_200017",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200015.T_Dynamic_GrowthIcon_200015",
+          "SubPathString": ""
+        }
+      ],
+      "DefaultProperty1": [
+        "ShootSpeed|1|1200",
+        "AimSpeed|42|100",
+        "Scattering|10|100",
+        "GunRecoil|65|100",
+        "MagazineCapacity|1|100",
+        "ReloadSpeed|18|100",
+        "MoveSpeed|57|100",
+        "Change2DHurt|75|100"
+      ],
+      "DefaultProperty3": [
+        "MagnificationRate|1.25"
+      ],
+      "Part1Level01": [
+        "AimSpeed|*0.3"
+      ],
+      "Part1Level11": [
+        ""
+      ],
+      "Part2Level01": [
+        "MoveSpeed|*0.08"
+      ],
+      "Part2Level11": [
+        "Change2DHurt|*0.2"
+      ],
+      "Part4Level01": [
+        ""
+      ],
+      "Part4Level11": [
+        "ReloadSpeed|*0.4"
+      ],
+      "Part5Level01": [
+        "Scattering|*0.15"
+      ],
+      "Part5Level11": [
+        ""
+      ],
+      "PartName": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_Core",
+          "SourceString": "核心",
+          "LocalizedString": "核心"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_Output",
+          "SourceString": "输出",
+          "LocalizedString": "输出"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_KeepFight",
+          "SourceString": "续航",
+          "LocalizedString": "续航"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_Accurate",
+          "SourceString": "精准",
+          "LocalizedString": "精准"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_Armor",
+          "SourceString": "护甲",
+          "LocalizedString": "护甲"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_String",
+          "SourceString": "弦化",
+          "LocalizedString": "弦化"
+        }
+      ],
+      "PartIcon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100004.T_Dynamic_GrowthIcon_100004",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100005.T_Dynamic_GrowthIcon_100005",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100003.T_Dynamic_GrowthIcon_100003",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100009.T_Dynamic_GrowthIcon_100009",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100002.T_Dynamic_GrowthIcon_100002",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100012.T_Dynamic_GrowthIcon_100012",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_{6}.T_Dynamic_GrowthIcon_{6}",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_{7}.T_Dynamic_GrowthIcon_{7}",
+          "SubPathString": ""
+        }
+      ],
+      "AttackSpeedWeight": 720,
+      "AttackSpeedMax": 1200,
+      "ShowAttackRange": [
+        10,
+        20,
+        30
+      ]
+    },
+    "10504001": {
+      "WeaponId": 10504001,
+      "Part1Desc": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "BaseDamageIncreased",
+          "SourceString": "基础伤害提升",
+          "LocalizedString": "基础伤害提升"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "FiveBurstShootingMode",
+          "SourceString": "五连发射击模式",
+          "LocalizedString": "五连发射击模式"
+        },
+        {
+          "CultureInvariantString": null
+        }
+      ],
+      "Part1Icon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200008.T_Dynamic_GrowthIcon_200008",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200009.T_Dynamic_GrowthIcon_200009",
+          "SubPathString": ""
+        }
+      ],
+      "Part2Desc": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "HeadshotDamageIncreased",
+          "SourceString": "爆头伤害提升",
+          "LocalizedString": "爆头伤害提升"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "StringDamageIncreased",
+          "SourceString": "弦化伤害提升",
+          "LocalizedString": "弦化伤害提升"
+        },
+        {
+          "CultureInvariantString": null
+        }
+      ],
+      "Part2Icon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200011.T_Dynamic_GrowthIcon_200011",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200010.T_Dynamic_GrowthIcon_200010",
+          "SubPathString": ""
+        }
+      ],
+      "Part4Desc": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "IncreasedNumberOfBullets",
+          "SourceString": "载弹数量提升",
+          "LocalizedString": "载弹数量提升"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "ReloadSpeedIncreased",
+          "SourceString": "换弹速度提升",
+          "LocalizedString": "换弹速度提升"
+        },
+        {
+          "CultureInvariantString": null
+        }
+      ],
+      "Part4Icon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200012.T_Dynamic_GrowthIcon_200012",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200013.T_Dynamic_GrowthIcon_200013",
+          "SubPathString": ""
+        }
+      ],
+      "Part5Desc": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "ScatterControlImprovements",
+          "SourceString": "散射控制提升",
+          "LocalizedString": "散射控制提升"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "ImprovedRecoilControl",
+          "SourceString": "后坐控制提升",
+          "LocalizedString": "后坐控制提升"
+        },
+        {
+          "CultureInvariantString": null
+        }
+      ],
+      "Part5Icon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200015.T_Dynamic_GrowthIcon_200015",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200022.T_Dynamic_GrowthIcon_200022",
+          "SubPathString": ""
+        }
+      ],
+      "DefaultProperty1": [
+        "ShootSpeed|1|1200",
+        "AimSpeed|56|100",
+        "Scattering|75|100",
+        "GunRecoil|70|100",
+        "MagazineCapacity|1|100",
+        "ReloadSpeed|18|100",
+        "MoveSpeed|58|100",
+        "Change2DHurt|67|100"
+      ],
+      "DefaultProperty3": [
+        "MagnificationRate|1.25"
+      ],
+      "Part1Level01": [
+        ""
+      ],
+      "Part1Level11": [
+        ""
+      ],
+      "Part2Level01": [
+        ""
+      ],
+      "Part2Level11": [
+        "Change2DHurt|*0.2"
+      ],
+      "Part4Level01": [
+        ""
+      ],
+      "Part4Level11": [
+        "ReloadSpeed|*0.4"
+      ],
+      "Part5Level01": [
+        "Scattering|*0.25"
+      ],
+      "Part5Level11": [
+        "GunRecoil|*0.3"
+      ],
+      "PartName": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_Output",
+          "SourceString": "输出",
+          "LocalizedString": "输出"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_CriticalHit",
+          "SourceString": "暴击",
+          "LocalizedString": "暴击"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_KeepFight",
+          "SourceString": "续航",
+          "LocalizedString": "续航"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_Accurate",
+          "SourceString": "精准",
+          "LocalizedString": "精准"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_Armor",
+          "SourceString": "护甲",
+          "LocalizedString": "护甲"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_String",
+          "SourceString": "弦化",
+          "LocalizedString": "弦化"
+        }
+      ],
+      "PartIcon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100004.T_Dynamic_GrowthIcon_100004",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100005.T_Dynamic_GrowthIcon_100005",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100003.T_Dynamic_GrowthIcon_100003",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100009.T_Dynamic_GrowthIcon_100009",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100002.T_Dynamic_GrowthIcon_100002",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100012.T_Dynamic_GrowthIcon_100012",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_{6}.T_Dynamic_GrowthIcon_{6}",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_{7}.T_Dynamic_GrowthIcon_{7}",
+          "SubPathString": ""
+        }
+      ],
+      "AttackSpeedWeight": 720,
+      "AttackSpeedMax": 1200,
+      "ShowAttackRange": [
+        10,
+        30,
+        50
+      ]
+    },
+    "10306001": {
+      "WeaponId": 10306001,
+      "Part1Desc": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "PrecisionArrows",
+          "SourceString": "精准箭矢",
+          "LocalizedString": "精准箭矢"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "SplittingArrow",
+          "SourceString": "分裂箭矢",
+          "LocalizedString": "分裂箭矢"
+        },
+        {
+          "CultureInvariantString": null
+        }
+      ],
+      "Part1Icon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200008.T_Dynamic_GrowthIcon_200008",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200009.T_Dynamic_GrowthIcon_200009",
+          "SubPathString": ""
+        }
+      ],
+      "Part2Desc": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "HeadshotDamageIncreased",
+          "SourceString": "爆头伤害提升",
+          "LocalizedString": "爆头伤害提升"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "StringDamageIncreased",
+          "SourceString": "弦化伤害提升",
+          "LocalizedString": "弦化伤害提升"
+        },
+        {
+          "CultureInvariantString": null
+        }
+      ],
+      "Part2Icon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200011.T_Dynamic_GrowthIcon_200011",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200010.T_Dynamic_GrowthIcon_200010",
+          "SubPathString": ""
+        }
+      ],
+      "Part4Desc": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "IncreasedNumberOfBullets",
+          "SourceString": "载弹数量提升",
+          "LocalizedString": "载弹数量提升"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "ReloadSpeedIncreased",
+          "SourceString": "换弹速度提升",
+          "LocalizedString": "换弹速度提升"
+        },
+        {
+          "CultureInvariantString": null
+        }
+      ],
+      "Part4Icon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200012.T_Dynamic_GrowthIcon_200012",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200013.T_Dynamic_GrowthIcon_200013",
+          "SubPathString": ""
+        }
+      ],
+      "Part5Desc": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "MaximumRunningSpeedIncreased",
+          "SourceString": "移动速度提升",
+          "LocalizedString": "移动速度提升"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "HandlingSpeedIncreased",
+          "SourceString": "开镜与切枪速度提升",
+          "LocalizedString": "开镜与切枪速度提升"
+        },
+        {
+          "CultureInvariantString": null
+        }
+      ],
+      "Part5Icon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200014.T_Dynamic_GrowthIcon_200014",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_200015.T_Dynamic_GrowthIcon_200015",
+          "SubPathString": ""
+        }
+      ],
+      "DefaultProperty1": [
+        "ShootSpeed|1|1200",
+        "AimSpeed|42|100",
+        "Scattering|70|100",
+        "GunRecoil|70|100",
+        "MagazineCapacity|1|100",
+        "ReloadSpeed|24|100",
+        "MoveSpeed|57|100",
+        "Change2DHurt|67|100"
+      ],
+      "DefaultProperty3": [
+        "MagnificationRate|1.25"
+      ],
+      "Part1Level01": [
+        ""
+      ],
+      "Part1Level11": [
+        ""
+      ],
+      "Part2Level01": [
+        ""
+      ],
+      "Part2Level11": [
+        "Change2DHurt|*0.2"
+      ],
+      "Part4Level01": [
+        ""
+      ],
+      "Part4Level11": [
+        "ReloadSpeed|*0.4"
+      ],
+      "Part5Level01": [
+        "MoveSpeed|*0.08"
+      ],
+      "Part5Level11": [
+        "AimSpeed|*0.4"
+      ],
+      "PartName": [
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_Core",
+          "SourceString": "核心",
+          "LocalizedString": "核心"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_CriticalHit",
+          "SourceString": "暴击",
+          "LocalizedString": "暴击"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_KeepFight",
+          "SourceString": "续航",
+          "LocalizedString": "续航"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_Control",
+          "SourceString": "操控",
+          "LocalizedString": "操控"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_Armor",
+          "SourceString": "护甲",
+          "LocalizedString": "护甲"
+        },
+        {
+          "TableId": "/Game/PaperMan/CyTable/StringTable/ST_GrowthDefine.ST_GrowthDefine",
+          "Key": "Part_String",
+          "SourceString": "弦化",
+          "LocalizedString": "弦化"
+        }
+      ],
+      "PartIcon": [
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100004.T_Dynamic_GrowthIcon_100004",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100005.T_Dynamic_GrowthIcon_100005",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100003.T_Dynamic_GrowthIcon_100003",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100009.T_Dynamic_GrowthIcon_100009",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100002.T_Dynamic_GrowthIcon_100002",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_100012.T_Dynamic_GrowthIcon_100012",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_{6}.T_Dynamic_GrowthIcon_{6}",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/PaperMan/UI/Atlas/DynamicResource/GrowthIcon/T_Dynamic_GrowthIcon_{7}.T_Dynamic_GrowthIcon_{7}",
+          "SubPathString": ""
+        }
+      ],
+      "AttackSpeedWeight": 720,
+      "AttackSpeedMax": 1200,
+      "ShowAttackRange": [
+        10,
+        30,
+        50
+      ]
+    }
+  }
+}
